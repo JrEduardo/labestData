@@ -1,0 +1,34 @@
+Package: labestData
+Title: Conjuntos de Dados para Ensino de Estatística
+Version: 0.0-1
+Authors@R: as.person(c(
+    "PET Estatística UFPR <pet.estatistica.ufpr@gmail.com> [cre]",
+    "Altamiro Antonio Basiewics <alfbasiewics@bol.com.br> [ctb]",
+    "Angela Luiza Cunha Legey <angelalegey@gmail.com> [ctb]",
+    "Bruna Davies Wundervald <brunadaviesw@gmail.com> [ctb]",
+    "Bruno Geronymo <geronymobruno@hotmail.com> [ctb]",
+    "Daniel Ikenaga <oladani@gmail.com> [ctb]",
+    "Eduardo Elias Ribeiro Junior <edujrrib@gmail.com> [ctb]",
+    "Gabriel Sartori Klostermann <gabrielsartori2008@gmail.com> [ctb]",
+    "Jhenifer Caetano Veloso <jhenicaet@gmail.com> [ctb]",
+    "Monica Ludmila Hintz De Oliveira <monica.ludmila@gmail.com> [ctb]",
+    "Paula Alessandra Zeizer Dimas <alessandra.zeizer@gmail.com> [ctb]",
+    "Alcides Conte Neto <neto_conte@hotmail.com> [ctb]",
+    "Walmes Marques Zeviani <walmes@ufpr.br> [ctb]",
+    "Cesar Augusto Taconeli <taconeli@ufpr.br> [ctb]"))
+Description: O labestData é um projeto coletivo do PET Estatística UFPR
+    para desenvolver um pacote R com conjuntos de dados para ensino de
+    Estatística.  Os objetivos desse projeto são 1) capacitar os membros
+    do PET Estatística a desenvolver pacote R com versionamento Git e 2)
+    contribuir com a comunidade científica ao reunir, organizar, manter
+    e disponibilizar conjuntos de dados disponíveis em livros, páginas
+    de internet e arquivos pessoais.
+License: GPL-3
+URL: http://gitlab.c3sl.ufpr.br/pet-estatistica/labestData
+BugReports: http://gitlab.c3sl.ufpr.br/pet-estatistica/labestData/issues
+LazyData: true
+Encoding: UTF-8
+Depends:
+    R (>= 3.2.3)
+Suggests:
+    lattice
