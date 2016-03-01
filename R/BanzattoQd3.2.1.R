@@ -1,0 +1,37 @@
+#' @name BanzattoQd3.2.1
+#' @title Controle de pulgão na cultura de pepino
+#' @description Dados de um experimento visando controle de pulgão
+#'     (\emph{Aphis gossypii} Glover) em cultura de pepino, instalado em
+#'     delineamento inteiramente casualizado com 6 repetições. A
+#'     resposta observada foi o número de pulgões após a aplicação de
+#'     produtos indicados para seu controle.
+#' @format Um \code{data.frame} com 30 observações e 3 variáveis, em que
+#'
+#' \describe{
+#'
+#' \item{trat}{Fator de níveis nominais. Tratamento aplicado para
+#'     controle do púlgão.}
+#'
+#' \item{rept}{Número inteiro que identifica as repetições de cada
+#'     tratamento.}
+#'
+#' \item{pulgoes}{Número de pulgões coletados 36 horas após a
+#'     pulverização dos tratamentos.}
+#'
+#' }
+#' @keywords DIC contagem
+#' @source Banzatto, D. A., & Kronka, S. D. (2013). Experimentação
+#'     Agrícola (4th ed.). Jaboticabal, SP: Funep. (pg 44)
+#' @examples
+#'
+#' library(lattice)
+#'
+#' data(BanzattoQd3.2.1)
+#'
+#' aggregate(pulgoes ~ trat,  data = BanzattoQd3.2.1,
+#'           FUN = function(x) { c(mean = mean(x), var = var(x)) })
+#'
+#' xyplot(pulgoes ~ trat, data = BanzattoQd3.2.1,
+#'        xlab = "Tratamentos",
+#'        ylab = "Número de pulgões 36h após pulverização")
+NULL
