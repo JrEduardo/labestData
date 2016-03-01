@@ -19,13 +19,13 @@ ls("package:labestData")
 packageVersion("labestData")
 
 #--------------------------------------------
-# Gerar a documentação dos objetos.
+# Produzir a documentação dos objetos.
 
 document()
 check_doc()
 
 #--------------------------------------------
-# Chegar conteúdo e organização do pacote.
+# Checar conteúdo e organização do pacote.
 
 check(cleanup = FALSE,
       manual = TRUE,
@@ -33,7 +33,7 @@ check(cleanup = FALSE,
       check_dir = "../")
 
 #--------------------------------------------
-# Gerar as vinhetas.
+# Gerar as vinhetas, caso existam.
 
 if (length(list.files("./vignettes"))) {
     build_vignettes()
