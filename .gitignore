@@ -1,0 +1,12 @@
+*~
+.#*
+#*
+.Rhistory
+.Rproj.user
+*.Rout
+*.aux
+*.log
+*.out
+README.html
+CONTRIBUTING.html
+STYLEGUIDE.html
