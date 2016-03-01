@@ -30,18 +30,19 @@ atingir um resultado.
   1. Criar um *issue* para o Projeto no GitLab. Ao criar o *issue*,
      dedique-se para escrever uma detalhada descrição do trabalho a ser
      feito. Isso informa a equipe sobre onde você irá trabalhar para que
-     não se dublique os esforços. Todo issue têm um número associado,
+     não se dublique os esforços. Todo issue tem um número associado,
      como `#7` e isso deve ser usado nas comunicações.
   2. Faça uma atualização do seu ramo `devel` local com o ramo `devel`
      do projeto no GitLab (atualize o HEAD). Isso pode ser feito com o
      comando `git pull` ou com `git fetch + git merge`. Em caso de
-     insegurança, visite a Apostila de Git do PET Estatística.
+     insegurança, visite a
+     [Apostila de Git do PET Estatística](https://gitlab.c3sl.ufpr.br/pet-estatistica/apostila-git/raw/devel/apostila_git.pdf).
   3. Crie um *branch* para começar o trabalho que você descreveu no
-     *issue* que acabou de criar. O nome do ramo deve ser `issue#?`, em
-     que `'?` representa o número do *issue*, por exemplo,
-     `issue#321`. Usar es'ses nomes facilita para os membros descobrirem
+     *issue* que acabou de criar. O nome do ramo deve ser formado pelo
+     seu nome e número identificador, como `angela23` e
+     `eduardo31`. Usar esse padrão facilita para os membros descobrirem
      do se se trata esse *branch*, pois basta consultar o *issue* de
-     mesmo número.
+     mesmo número, e quem é o responsável pelo mesmo.
   4. Faça o trabalho que descreveu. Nessa etapa você senta na frente do
      computador e escreve e isso envolve os seguintes passos:
      1. Escreve, corrija, aperfeiçoe, amplie, revise, organize, limpe,
@@ -99,7 +100,7 @@ padrão particular para escrita de código.
 
 ## Qual o guia de estilo de código? ##
 
-No pacote *labestData* deve ser considerado o idiom padrão do R,
+No pacote *labestData* deve ser considerado o *idiom* padrão do R,
 descrito no [STYLEGUIDE.md].
 
 ## Como dar nome aos datasets? ##
@@ -160,11 +161,10 @@ exemplos.
 ## O que colocar na documentação? ##
 
 Os datasets devem ter uma documentação precisa. Existem vários campos da
-documentação que podem ser usados, no entanto, alguns poucos são
-sufícientes minimo. TODO
+documentação que podem ser usados, no entanto, somente 7 serão exigidos.
 
-Abaixo tem-se a documentação do *data.frame* `RamalhoTb4.7`. Embora os campos
-sejam praticamente autoexplicativos, segue breve explicação.
+Abaixo tem-se a documentação do *data.frame* `RamalhoTb4.7`. Embora os
+campos sejam praticamente autoexplicativos, segue breve explicação.
 
   * `@name`: o nome do dataset.
   * `@title`: título que representa o dataset.
@@ -223,8 +223,15 @@ NULL
 ```
 
 Por razão ainda desconhecida, títulos com acentos são substituídos por
-NA no manual em PDF. Na documentação em HTML, no entanto, e produzida
+`NA` no manual em PDF. Na documentação em HTML, no entanto, e produzida
 sem erros.
+
+Perceba a indatação de 4 espaços e que largura de 72 digitos usada para
+escrever a documentação.
+
+Para gerar a citação bibliográfica no formato APA, padrão considerado no
+pacote, visite <http://www.citationmachine.net/apa/cite-a-book/manual> e
+preencha as informações. Use o resultado gerado para vitar a obra.
 
 <!--
 <http://ase-research.org/R/>
@@ -298,7 +305,36 @@ deve-se fechá-lo.
 
 ## Como fazer mensagens de *commit*? ##
 
-Começar com verbo no imperativo.
+Mensagens de *commit* são de duas formas: simples e composta (mono ou
+multi linhas). As mensagens simples são aquelas que ocupam uma linha
+apenas, normalmente com uma única sentença. Elas descrevem modificações
+cuja descrição cabe em uma linha de 72 caracteres. Você pode escrever na
+própria linha de instrução do commit, como a seguir.
+
+```
+git commit -m "Minha mensagem de uma linha aqui."
+```
+
+As mensagens compostas, por outro, servem para documentar várias
+modificações. Então não é possível usar a opção `-m`. Apenas faça `git
+commit` seguido de ENTER que um editor de terminal vai abrir para que
+você escreva a mensagem de *commit*. Normalmente o editor é o vi ou
+nano, mas outros podem ser habilitados. Abaixo um exemplo de mensagem
+composta.
+
+```
+Inclui dataset da página 103
+
+  - Adiciona ./data-raw/dataset103.txt.
+  - Adiciona ./data/dataset103.rda.
+  - Adiciona ./R/dataset103.R.
+  - Adiciona ./man/dataset103.Rd.
+  - Atualiza no NAMESPACE.
+```
+
+As mensagens de *commit* devem ter verbos conjugados no presente do
+indicativo (ele faz, completa, adiciona, remove, edita, conserta,
+produz, gera, corrige, documenta, escreve, move, transforma, modifica).
 
 ## Como criar um *merge request*? ##
 
