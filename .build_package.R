@@ -13,6 +13,8 @@ sessionInfo()
 #--------------------------------------------
 # Carregar objetos do pacote.
 
+file.create("NAMESPACE")
+
 load_all()
 
 ls("package:labestData")
@@ -22,7 +24,15 @@ packageVersion("labestData")
 # Produzir a documentação dos objetos.
 
 document()
-check_doc()
+
+cp <- compareVersion(a = "1.9.1",
+                     b = as.character(packageVersion("devtools")))
+
+if (cp > 0) {
+    check_man()
+} else {
+    check_doc()
+}
 
 #--------------------------------------------
 # Checar conteúdo e organização do pacote.
