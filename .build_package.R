@@ -25,8 +25,8 @@ packageVersion("labestData")
 
 document()
 
-cp <- compareVersion(a = "1.9.1",
-                     b = as.character(packageVersion("devtools")))
+cp <- compareVersion(a = as.character(packageVersion("devtools")),
+                     b = "1.9.1")
 
 if (cp > 0) {
     check_man()
