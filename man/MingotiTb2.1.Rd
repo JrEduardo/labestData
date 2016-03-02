@@ -29,7 +29,7 @@ Dados relativos a uma amostra de 12 rochas de uma certa
 
 data(MingotiTb2.1)
 
-pairs(~ qrtz + cor + fdsp,data=MingotiTb2.1, 
+pairs(~ qrtz + cor + fdsp, data = MingotiTb2.1, 
       main="Dispersão das três variáveis")
 
 }

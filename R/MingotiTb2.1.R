@@ -23,7 +23,7 @@
 #' 
 #' data(MingotiTb2.1)
 #' 
-#' pairs(~ qrtz + cor + fdsp,data=MingotiTb2.1, 
+#' pairs(~ qrtz + cor + fdsp, data = MingotiTb2.1, 
 #'       main="Dispersão das três variáveis")
 #'
 NULL
