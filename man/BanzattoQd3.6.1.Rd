@@ -17,7 +17,7 @@
 }}
 \source{
 Banzatto, D. A., & Kronka, S. D. (2013). Experimentação
-    Agrícola (4th ed.). Jaboticabal, SP: Funep. (???)
+    Agrícola (4th ed.). Jaboticabal, SP: Funep. (pg 57)
 }
 \description{
 Experimento em delineamento inteiramente casualizado
