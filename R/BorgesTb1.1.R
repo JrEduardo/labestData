@@ -21,3 +21,9 @@
 #'  
 #'  @source Borges, C. G., Demétrio, & Zocchi, S. S. (2011). 
 #'  Modelo de Regressão. Piracicaba, SP: USP.
+#'  
+#'  @example 
+#'  
+#'  library(lattice)
+#'  data(BorgesTb1.1)
+#'  
