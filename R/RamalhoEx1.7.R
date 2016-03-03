@@ -1,0 +1,31 @@
+#' @name RamalhoEx1.7
+#' @title Altura Média de Eucaliptus camaldulensis.
+#' @description Experimento da altura média, medida aos 17 meses de 
+#'     vida, das plantas de famílias de meios-irmãos de Educaliptus 
+#'     camaldulensis avaliadas em três localidades do Estado de Minas 
+#'     Gerais.
+#' @format data.frame com 100 observações e 2 variáveis, em que
+#'
+#' \describe{
+#'
+#' \item{prog}{Progênies (linhagem) de Eucaliptus camaldulensis.}
+#'
+#' \item{alt}{Altura média em metros das plantas.}
+#'
+#' }
+#' @keywords altura Eucaliptus
+#' @source Ramalho, M. A. P.; Ferreira, D. F. & Oliveira, A. C. (2005). 
+#'     Experimentação em Genética e Melhoramento de Plantas (2th ed.). 
+#'     Lavras: UFLA. (pg 26)
+#'     
+#'     Castro, N. H. A.; Andrade, H. B. & Ramalho, m A. P. (1993). 
+#'     Revista Árvore. Viçosa, v. 17, n.2.
+#'
+#' @examples
+#'
+#' x <- RamalhoEx1.7$alt
+#' hist(x, labels = TRUE,  xlim = c(4.5, 7), main = "", 
+#'     ylab = "Frequência", 
+#'     xlab = "Altura")      
+#' 
+NULL
