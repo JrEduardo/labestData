@@ -25,6 +25,26 @@
 #'  
 #'  @example 
 #'  
+#'  ## Carregando pacotes necessários ----------------------------------
+#'  
 #'  library(lattice)
+#'  
+#'  ## Carregando o banco de dados -------------------------------------
+#'  
 #'  data(BorgesTb1.2)
+#'  
+#'  ## Plotando o gráfico ----------------------------------------------
+#'  
+#'  xyplot(prod ~ lamina, data = BorgesTb1.2,
+#'      main = "Produção VS Lâmina de Água",
+#'      xlab = "Lâmina",
+#'      ylab = "Produção",
+#'      panel = function(x, y) {
+#'          panel.xyplot(x, y)
+#'          panel.abline(lm(y ~ x), col=3)
+#'      })
+#'      
+#'  ## Verificando Significância ---------------------------------------
+#'  
+#'  summary(lm(prod ~ lamina, data=BorgesTb1.2))
 #'  
