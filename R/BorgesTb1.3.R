@@ -1,4 +1,4 @@
-#'  @name BorgesTb1.2
+#'  @name BorgesTb1.3
 #'  @title Tensiômetro
 #'  
 #'  @description Foi observado a construção de um tensiômetro de leitura
