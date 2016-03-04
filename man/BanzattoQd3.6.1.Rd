@@ -7,7 +7,8 @@
 
 \describe{
 
-\item{\code{cult}}{Fator nominal. Cultivares de sorgo estudadas.}
+\item{\code{cult}}{Fator nominal. Cultivares de sorgo estudadas. Sart
+    é uma variedade enquanto que as demais são híbridos.}
 
 \item{\code{rept}}{Inteiro. Identifica as unidades experimentais de
     cada cultivar. }
