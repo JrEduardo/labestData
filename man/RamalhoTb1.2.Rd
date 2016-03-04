@@ -29,9 +29,6 @@ ht <- hist(RamalhoTb1.2$t.ha, xlab = "t.ha", ylab = "Frequência",
 axis(1, at = c(2.5, 4.25, 6, 7.75, 9.5))
 axis(2)
 
-text(x = -3, y = ht$counts, labels = expression(-3), srt=0, 
-    adj=0.05, pos=3)
-
 }
 \keyword{milho}
 \keyword{produtividade}
