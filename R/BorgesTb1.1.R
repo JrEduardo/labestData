@@ -40,10 +40,10 @@
 #'      ylab = "Fósforo Disponível",
 #'      panel = function(x, y) {
 #'          panel.xyplot(x, y)
-#'          panel.abline(lm(y ~ x), col=3)
+#'          panel.abline(lm(y ~ x), col = 3)
 #'      })
 #'      
 #'  ## Verificando Significância ---------------------------------------
 #'  
-#'  summary(lm(fd ~ fo, data=BorgesTb1.1))
+#'  summary(lm(fd ~ fo, data = BorgesTb1.1))
 #'  
