@@ -5,14 +5,14 @@
 #'  milho. Após 38 dias, houve a colheita e mediu-se o fósforo 
 #'  disponível.
 #'  
-#'  @format Um data.frame de 9 linhas e 2 colunas.
+#'  @format Um \code{data.frame} de 9 linhas e 2 colunas.
 #'  
 #'  \describe{
 #'  
-#'      \item{\code{fo}}{ Fósforo orgânico adicionado ao solo. A unidade
+#'      \item{\code{fo}}{Fósforo orgânico adicionado ao solo. A unidade
 #'      de medida é partes por milhão (ppm).}
 #'      
-#'      \item{\code{fd}}{ Fósforo disponível após plantar-se o milho. 
+#'      \item{\code{fd}}{Fósforo disponível após plantar-se o milho. 
 #'      A unidade de medida é partes por milhão (ppm).}
 #'  
 #'  }
@@ -22,7 +22,7 @@
 #'  @source Borges, C. G., Demétrio, & Zocchi, S. S. (2011). 
 #'  Modelo de Regressão. Piracicaba, SP: USP.
 #'  
-#'  @example 
+#'  @examples 
 #'  
 #'  ## Carregando pacotes necessários ----------------------------------
 #'  

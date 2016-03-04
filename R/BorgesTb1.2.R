@@ -6,7 +6,7 @@
 #'   já que, no tipo de solo utilizado no experimento (solo argiloso),
 #'   espera-se que o excesso de água diminua a produtividade.
 #'  
-#'  @format Um data.frame de 12 linhas e 2 colunas.
+#'  @format Um \code{data.frame} de 12 linhas e 2 colunas.
 #'  
 #'  \describe{
 #'  
@@ -23,7 +23,7 @@
 #'  @source Borges, C. G., Demétrio, & Zocchi, S. S. (2011). 
 #'  Modelo de Regressão. Piracicaba, SP: USP.
 #'  
-#'  @example 
+#'  @examples
 #'  
 #'  ## Carregando pacotes necessários ----------------------------------
 #'  
@@ -47,4 +47,4 @@
 #'  ## Verificando Significância ---------------------------------------
 #'  
 #'  summary(lm(prod ~ lamina, data = BorgesTb1.2))
-#'  
+#'

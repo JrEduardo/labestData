@@ -8,7 +8,7 @@
 #'   O objetivo do experimento é estudar a relação existente entre o 
 #'   conteúdo de fósforo na planta e duas fontes do elemento no solo.
 #'  
-#'  @format Um data.frame de 18 linhas e 3 colunas.
+#'  @format Um \code{data.frame} de 18 linhas e 3 colunas.
 #'  
 #'  \describe{
 #'  
@@ -26,7 +26,7 @@
 #'  @source Borges, C. G., Demétrio, & Zocchi, S. S. (2011). 
 #'  Modelo de Regressão. Piracicaba, SP: USP.
 #'  
-#'  @example 
+#'  @examples
 #'  
 #'  ## Carregando pacotes necessários ----------------------------------
 #'  
@@ -67,4 +67,4 @@
 #'  
 #'  summary(lm(conteudo ~ cfi , data = BorgesTb1.4))
 #'  summary(lm(conteudo ~ cfo , data = BorgesTb1.4))
-#'  
+#'

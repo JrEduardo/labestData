@@ -5,7 +5,7 @@
 #'  direta, obtendo-se os resultados de altura da câmara e tensão da 
 #'  água no solo.
 #'  
-#'  @format Um data.frame de 9 linhas e 2 colunas.
+#'  @format Um \code{data.frame} de 9 linhas e 2 colunas.
 #'  
 #'  \describe{
 #'  
@@ -21,7 +21,7 @@
 #'  @source Borges, C. G., Demétrio, & Zocchi, S. S. (2011). 
 #'  Modelo de Regressão. Piracicaba, SP: USP.
 #'  
-#'  @example 
+#'  @examples
 #'  
 #'  ## Carregando pacotes necessários ----------------------------------
 #'  
@@ -41,4 +41,4 @@
 #'  ## Medidas de Posição ----------------------------------------------
 #'  
 #'  summary(BorgesTb1.3)
-#'  
+#'
