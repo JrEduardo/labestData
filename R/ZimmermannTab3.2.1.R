@@ -1,0 +1,36 @@
+#' @name ZimmermannTab3.2.1
+#' @title Estudo sobre adubação nitrogenada na cultura de arroz e feijão
+#' @description Dados de um experimento em DIC, que visa estudar a adubação 
+#'              nitrogenada de arroz irrigado, com 4 tratamentos e 8 
+#'              repetições. A resposta observada foi a produção de grãos de
+#'              arroz irrigado, em kg/ha. 
+#' @format Um \code{data.frame} com 24 observações e 3 variáveis
+#'
+#' \describe{
+#'
+#' \item{trat}{Fator de níveis numéricos. Tratamento aplicado em arroz
+#'      irrigado.}
+#'
+#' \item{rep}{Número inteiro que identifica as repetições de cada
+#'     tratamento.}
+#'
+#' \item{prod}{Produção de grãos de arroz irrigado em kg/ha}
+#'
+#' }
+#' @keywords DIC arroz 
+#' @source  Zimmermann, F.J.(2004), Estatística aplicada à pesquisa 
+#'          agrícola (1st ed.). Santo Antônio de Goiás, GO: Embrapa 
+#'          Arroz e Feijão. (pg 54)
+#' @examples
+#'
+#' library(lattice)
+#'
+#' data(ZimmermannTab3.2.1)
+#'
+#' aggregate(prod ~ trat, data = ZimmermannTab3.2.1,
+#'      FUN = function(x) { c(mean = mean(x), var = var(x)) })
+#'
+#'  xyplot(prod ~ trat | rep, data = ZimmermannTab3.2.1, type=c("p","a"),
+#'       xlab = "Tratamentos",
+#'       ylab = "Produção de grãos de arroz irrigado em kg/ha")
+NULL
