@@ -1,0 +1,43 @@
+"trat" "rep" "prod"
+"CNA 7830" 1 7012
+"CNA 8502" 1 6957
+"CNA 8540" 1 5738
+"Epagri 108" 1 7016
+"Formoso" 1 7471
+"Metica 1" 1 8120
+"Supremo 1" 1 6489
+"CNA 7830" 2 7348
+"CNA 8502" 2 7865
+"CNA 8540" 2 5554
+"Epagri 108" 2 6783
+"Formoso" 2 6892
+"Metica 1" 2 7894
+"Supremo 1" 2 6188
+"CNA 7830" 3 6894
+"CNA 8502" 3 6767
+"CNA 8540" 3 5848
+"Epagri 108" 3 7807
+"Formoso" 3 7517
+"Metica 1" 3 7181
+"Supremo 1" 3 6148
+"CNA 7830" 4 7108
+"CNA 8502" 4 7164
+"CNA 8540" 4 5370
+"Epagri 108" 4 6466
+"Formoso" 4 7773
+"Metica 1" 4 7052
+"Supremo 1" 4 6285
+"CNA 7830" 5 6833
+"CNA 8502" 5 6064
+"CNA 8540" 5 5811
+"Epagri 108" 5 6691
+"Formoso" 5 7544
+"Metica 1" 5 7654
+"Supremo 1" 5 6528
+"CNA 7830" 6 6587
+"CNA 8502" 6 6742
+"CNA 8540" 6 5554
+"Epagri 108" 6 6966
+"Formoso" 6 7280
+"Metica 1" 6 7814
+"Supremo 1" 6 6217
