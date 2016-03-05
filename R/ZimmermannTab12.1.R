@@ -1,6 +1,6 @@
 #' @name ZimmermannTab12.1
 #' @title Estudo sobre produtividade de grãos de arroz irrigado 
-#' @description Dados do Ensaio 2 de um experimento em DIC, que estudou a 
+#' @description Dados do Ensaio 1 de um experimento em DIC, que estudou a 
 #'              produtividade de grãos de arroz em lavoura conduzida com 
 #'              inundação contínua durante todo o ciclo. O experimento teve
 #'              seis repetições e sete tratamentos.
