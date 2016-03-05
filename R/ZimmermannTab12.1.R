@@ -4,7 +4,7 @@
 #'              produtividade de grãos de arroz em lavoura conduzida com 
 #'              inundação contínua durante todo o ciclo. O experimento teve
 #'              seis repetições e sete tratamentos.
-#' @format Um \code{data.frame} com 42 observações e r variáveis
+#' @format Um \code{data.frame} com 42 observações e 3 variáveis
 #'
 #' \describe{
 #'
