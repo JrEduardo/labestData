@@ -1,0 +1,19 @@
+"trat" "bloco" "prod"
+"Caiapó" 1 4.82607
+"Canastra" 1 4.99789
+"Confiança" 1 5.67312
+"Maravilha" 1 4.37519
+"Primavera" 1 6.08142
+"R. Paranaíba" 1 5.94118
+"Caiapó" 2 5.4038
+"Canastra" 2 5.23228
+"Confiança" 2 5.30094
+"Maravilha" 2 5.0411
+"Primavera" 2 5.96179
+"R. Paranaíba" 2 5.86669
+"Caiapó" 3 4.92129
+"Canastra" 3 4.62698
+"Confiança" 3 5.51192
+"Maravilha" 3 4.0582
+"Primavera" 3 4.87302
+"R. Paranaíba" 3 5.08187
