@@ -1,0 +1,15 @@
+periodo	paciente	colesterol
+antes	1	270
+antes	2	410
+antes	3	350
+antes	4	360
+antes	5	350
+antes	6	430
+antes	7	268
+depois	1	175
+depois	2	308
+depois	3	248
+depois	4	231
+depois	5	196
+depois	6	190
+depois	7	252
