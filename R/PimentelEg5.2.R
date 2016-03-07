@@ -18,7 +18,7 @@
 #'
 #' }
 #' @keywords DBC batatinha
-#' @source Pimentel-Gomes, F. (2009). Curso de Estatístitica
+#' @source Pimentel-Gomes, F. (2009). Curso de Estatística
 #'     Experimental (15th ed.). Piracicaba: FEALQ.
 #' @examples
 #'
