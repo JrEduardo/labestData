@@ -15,7 +15,7 @@
 
 }}
 \source{
-Pimentel-Gomes, F. (2009). Curso de Estatístitica
+Pimentel-Gomes, F. (2009). Curso de Estatística
     Experimental (15th ed.). Piracicaba: FEALQ.
 }
 \description{
