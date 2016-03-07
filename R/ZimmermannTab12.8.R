@@ -15,7 +15,7 @@
 #'
 #' \item{bloco}{Número inteiro que identifica o bloco da observação.}
 #'
-#' \item{prod}{Área sob a curva do progresso de uma doenças.}
+#' \item{prod}{Área sob a curva do progresso de uma doença.}
 #'
 #' }
 #' @keywords DBC área foliar plantas doença
