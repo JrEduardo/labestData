@@ -1,6 +1,6 @@
 #' @name ZimmermannTab12.7
 #' @title Dados de área sob a curva do progresso de uma doença
-#' @description Dados de um ensaio cque avaliou as cultivares paraa área 
+#' @description Dados de um ensaio que avaliou as cultivares para a área 
 #'              foliar atacada por brusone (Pyricularia Orizae L.) em 
 #'              diferentes datas e se calculou área sob a curva do progresso 
 #'              da doença. Este primeiro experimento foi semeado na densidade
