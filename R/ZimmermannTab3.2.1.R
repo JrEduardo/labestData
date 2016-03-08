@@ -30,7 +30,7 @@
 #' aggregate(prod ~ trat, data = ZimmermannTab3.2.1,
 #'      FUN = function(x) { c(mean = mean(x), var = var(x)) })
 #'
-#'  xyplot(prod ~ trat | rep, data = ZimmermannTab3.2.1, type=c("p","a"),
+#'  xyplot(prod ~ trat, data = ZimmermannTab3.2.1, type=c("p","a"),
 #'       xlab = "Tratamentos",
 #'       ylab = "Produção de grãos de arroz irrigado em kg/ha")
 NULL
