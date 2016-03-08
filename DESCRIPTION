@@ -31,4 +31,5 @@ Encoding: UTF-8
 Depends:
     R (>= 3.2.3)
 Suggests:
-    lattice
+    lattice,
+    ggplot2
