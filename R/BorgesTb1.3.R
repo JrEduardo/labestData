@@ -1,29 +1,29 @@
 #'  @name BorgesTb1.3
-#'  @title Tensiômetro
+#'  @title TensiÃ´metro
 #'  
-#'  @description Foi observado a construção de um tensiômetro de leitura
-#'  direta, obtendo-se os resultados de altura da câmara e tensão da 
-#'  água no solo.
+#'  @description Foi observado a construÃ§Ã£o de um tensiÃ´metro de leitura
+#'  direta, obtendo-se os resultados de altura da cÃ¢mara e tensÃ£o da 
+#'  Ã¡gua no solo.
 #'  
 #'  @format Um \code{data.frame} de 9 linhas e 2 colunas.
 #'  
 #'  \describe{
 #'  
-#'      \item{\code{altura}}{ Altura da câmara do tensiômetro medida 
-#'      em milímetros (mm). }
+#'      \item{\code{altura}}{ Altura da cÃ¢mara do tensiÃ´metro medida 
+#'      em milÃ­metros (mm). }
 #'      
-#'      \item{\code{tensao}}{ Tensão da água no solo medida em mb }
+#'      \item{\code{tensao}}{ TensÃ£o da Ã¡gua no solo medida em mb }
 #'  
 #'  }
 #'  
-#'  @keywords tensiômetro
+#'  @keywords tensiÃ´metro
 #'  
-#'  @source Borges, C. G., Demétrio, & Zocchi, S. S. (2011). 
-#'  Modelo de Regressão. Piracicaba, SP: USP.
+#'  @source Borges, C. G., DemÃ©trio, & Zocchi, S. S. (2011). 
+#'  Modelo de RegressÃ£o. Piracicaba, SP: USP.
 #'  
 #'  @examples
 #'  
-#'  ## Carregando pacotes necessários ----------------------------------
+#'  ## Carregando pacotes necessÃ¡rios ----------------------------------
 #'  
 #'  library(lattice)
 #'  
@@ -31,14 +31,14 @@
 #'  
 #'  data(BorgesTb1.3)
 #'  
-#'  ## Plotando o gráfico ----------------------------------------------
+#'  ## Plotando o grÃ¡fico ----------------------------------------------
 #'  
 #'  xyplot(tensao ~ altura, data = BorgesTb1.3,
-#'      main = "Altura VS Tensão",
-#'      xlab = "Altura do Tensiômetro",
-#'      ylab = "Tensão da Água")
+#'      main = "Altura VS TensÃ£o",
+#'      xlab = "Altura do TensiÃ´metro",
+#'      ylab = "TensÃ£o da Ãgua")
 #'      
-#'  ## Medidas de Posição ----------------------------------------------
+#'  ## Medidas de PosiÃ§Ã£o ----------------------------------------------
 #'  
 #'  summary(BorgesTb1.3)
 #'

@@ -1,17 +1,17 @@
 #'  @name BorgesTb1.2
-#'  @title IrrigaÁ„o em Batata
+#'  @title Irriga√ß√£o em Batata
 #'  
-#'  @description Foram medidas as l‚minas de ·gua a diferentes 
-#'   disnt‚ncias do aspersor. O objetivo foi mensurar a produtividade, 
-#'   j· que, no tipo de solo utilizado no experimento (solo argiloso),
-#'   espera-se que o excesso de ·gua diminua a produtividade.
+#'  @description Foram medidas as l√¢minas de √°gua a diferentes 
+#'   disnt√¢ncias do aspersor. O objetivo foi mensurar a produtividade, 
+#'   j√° que, no tipo de solo utilizado no experimento (solo argiloso),
+#'   espera-se que o excesso de √°gua diminua a produtividade.
 #'  
 #'  @format Um \code{data.frame} de 12 linhas e 2 colunas.
 #'  
 #'  \describe{
 #'  
-#'      \item{\code{lamina}}{ Espessura da l‚mina de ·gua medida em 
-#'      milÌmetros (mm). }
+#'      \item{\code{lamina}}{ Espessura da l√¢mina de √°gua medida em 
+#'      mil√≠metros (mm). }
 #'      
 #'      \item{\code{prod}}{ Produtividade medida em toneladas de batatas
 #'       por hectare (t/ha). }
@@ -20,12 +20,12 @@
 #'  
 #'  @keywords batata aspersor produtividade
 #'  
-#'  @source Borges, C. G., DemÈtrio, & Zocchi, S. S. (2011). 
-#'  Modelo de Regress„o. Piracicaba, SP: USP.
+#'  @source Borges, C. G., Dem√©trio, & Zocchi, S. S. (2011). 
+#'  Modelo de Regress√£o. Piracicaba, SP: USP.
 #'  
 #'  @examples
 #'  
-#'  ## Carregando pacotes necess·rios ----------------------------------
+#'  ## Carregando pacotes necess√°rios ----------------------------------
 #'  
 #'  library(lattice)
 #'  
@@ -33,18 +33,18 @@
 #'  
 #'  data(BorgesTb1.2)
 #'  
-#'  ## Plotando o gr·fico ----------------------------------------------
+#'  ## Plotando o gr√°fico ----------------------------------------------
 #'  
 #'  xyplot(prod ~ lamina, data = BorgesTb1.2,
-#'      main = "ProduÁ„o VS L‚mina de ¡gua",
-#'      xlab = "L‚mina",
-#'      ylab = "ProduÁ„o",
+#'      main = "Produ√ß√£o VS L√¢mina de √Ågua",
+#'      xlab = "L√¢mina",
+#'      ylab = "Produ√ß√£o",
 #'      panel = function(x, y) {
 #'          panel.xyplot(x, y)
 #'          panel.abline(lm(y ~ x), col = 3)
 #'      })
 #'      
-#'  ## Verificando Signific‚ncia ---------------------------------------
+#'  ## Verificando Signific√¢ncia ---------------------------------------
 #'  
 #'  summary(lm(prod ~ lamina, data = BorgesTb1.2))
 #'

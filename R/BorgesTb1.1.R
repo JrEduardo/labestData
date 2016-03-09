@@ -1,30 +1,30 @@
 #'  @name BorgesTb1.1
-#'  @title FÛsforo Org‚nico VS FÛsforo DisponÌvel
+#'  @title F√≥sforo Org√¢nico VS F√≥sforo Dispon√≠vel
 #'  
-#'  @description O fÛsforo Org‚nico foi adicionado antes de plantar-se o
-#'  milho. ApÛs 38 dias, houve a colheita e mediu-se o fÛsforo 
-#'  disponÌvel.
+#'  @description O f√≥sforo Org√¢nico foi adicionado antes de plantar-se o
+#'  milho. Ap√≥s 38 dias, houve a colheita e mediu-se o f√≥sforo 
+#'  dispon√≠vel.
 #'  
 #'  @format Um \code{data.frame} de 9 linhas e 2 colunas.
 #'  
 #'  \describe{
 #'  
-#'      \item{\code{fo}}{FÛsforo org‚nico adicionado ao solo. A unidade
-#'      de medida È partes por milh„o (ppm).}
+#'      \item{\code{fo}}{F√≥sforo org√¢nico adicionado ao solo. A unidade
+#'      de medida √© partes por milh√£o (ppm).}
 #'      
-#'      \item{\code{fd}}{FÛsforo disponÌvel apÛs plantar-se o milho. 
-#'      A unidade de medida È partes por milh„o (ppm).}
+#'      \item{\code{fd}}{F√≥sforo dispon√≠vel ap√≥s plantar-se o milho. 
+#'      A unidade de medida √© partes por milh√£o (ppm).}
 #'  
 #'  }
 #'  
-#'  @keywords fÛsforo milho
+#'  @keywords f√≥sforo milho
 #'  
-#'  @source Borges, C. G., DemÈtrio, & Zocchi, S. S. (2011). 
-#'  Modelo de Regress„o. Piracicaba, SP: USP.
+#'  @source Borges, C. G., Dem√©trio, & Zocchi, S. S. (2011). 
+#'  Modelo de Regress√£o. Piracicaba, SP: USP.
 #'  
 #'  @examples 
 #'  
-#'  ## Carregando pacotes necess·rios ----------------------------------
+#'  ## Carregando pacotes necess√°rios ----------------------------------
 #'  
 #'  library(lattice)
 #'  
@@ -32,18 +32,18 @@
 #'  
 #'  data(BorgesTb1.1)
 #'  
-#'  ## Plotando o gr·fico ----------------------------------------------
+#'  ## Plotando o gr√°fico ----------------------------------------------
 #'  
 #'  xyplot(fd ~ fo, data = BorgesTb1.1,
-#'      main = "Org‚nico VS DisponÌvel",
-#'      xlab = "FÛsforo Org‚nico",
-#'      ylab = "FÛsforo DisponÌvel",
+#'      main = "Org√¢nico VS Dispon√≠vel",
+#'      xlab = "F√≥sforo Org√¢nico",
+#'      ylab = "F√≥sforo Dispon√≠vel",
 #'      panel = function(x, y) {
 #'          panel.xyplot(x, y)
 #'          panel.abline(lm(y ~ x), col = 3)
 #'      })
 #'      
-#'  ## Verificando Signific‚ncia ---------------------------------------
+#'  ## Verificando Signific√¢ncia ---------------------------------------
 #'  
 #'  summary(lm(fd ~ fo, data = BorgesTb1.1))
 #'  

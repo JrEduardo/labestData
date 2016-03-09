@@ -1,34 +1,34 @@
 #'  @name BorgesTb1.4
-#'  @title ConcentraÁ„o de FÛsforo
+#'  @title Concentra√ß√£o de F√≥sforo
 #'  
-#'  @description Foram medidas as concentraÁıes de fÛsforo inorg‚nico e 
-#'  org‚nico no solo. Posteriormente mediu-se o conte˙do de fÛsforo nas
+#'  @description Foram medidas as concentra√ß√µes de f√≥sforo inorg√¢nico e 
+#'  org√¢nico no solo. Posteriormente mediu-se o conte√∫do de f√≥sforo nas
 #'  plantas crescidas no local.
 #'  
-#'   O objetivo do experimento È estudar a relaÁ„o existente entre o 
-#'   conte˙do de fÛsforo na planta e duas fontes do elemento no solo.
+#'   O objetivo do experimento √© estudar a rela√ß√£o existente entre o 
+#'   conte√∫do de f√≥sforo na planta e duas fontes do elemento no solo.
 #'  
 #'  @format Um \code{data.frame} de 18 linhas e 3 colunas.
 #'  
 #'  \describe{
 #'  
-#'      \item{\code{cfi}}{ Conte˙do de fÛsforo inorg‚nico no solo. }
+#'      \item{\code{cfi}}{ Conte√∫do de f√≥sforo inorg√¢nico no solo. }
 #'      
-#'      \item{\code{cfo}}{ Conte˙do de fÛsforo org‚nico no solo. }
+#'      \item{\code{cfo}}{ Conte√∫do de f√≥sforo org√¢nico no solo. }
 #'  
-#'      \item{\code{conteudo}}{ Conte˙do de fÛsforo nas plantas
+#'      \item{\code{conteudo}}{ Conte√∫do de f√≥sforo nas plantas
 #'      crescidas no solo. }
 #'  
 #'  }
 #'  
-#'  @keywords fÛsforo solo planta
+#'  @keywords f√≥sforo solo planta
 #'  
-#'  @source Borges, C. G., DemÈtrio, & Zocchi, S. S. (2011). 
-#'  Modelo de Regress„o. Piracicaba, SP: USP.
+#'  @source Borges, C. G., Dem√©trio, & Zocchi, S. S. (2011). 
+#'  Modelo de Regress√£o. Piracicaba, SP: USP.
 #'  
 #'  @examples
 #'  
-#'  ## Carregando pacotes necess·rios ----------------------------------
+#'  ## Carregando pacotes necess√°rios ----------------------------------
 #'  
 #'  library(lattice)
 #'  
@@ -36,34 +36,34 @@
 #'  
 #'  data(BorgesTb1.4)
 #'  
-#'  ## Plotando o gr·fico ----------------------------------------------
+#'  ## Plotando o gr√°fico ----------------------------------------------
 #'  
 #'  pairs(~ cfi + cfo + conteudo, data = BorgesTb1.4,
-#'      main = "Dispers„o em Pares")
+#'      main = "Dispers√£o em Pares")
 #'      
 #'  xyplot(conteudo ~ cfi, data = BorgesTb1.4, 
-#'      main = "FÛsforo Inorg‚nico VS Conte˙do",
-#'      xlab = "FÛsforo Inorg‚nico",
-#'      ylab = "Conte˙do na Planta",
+#'      main = "F√≥sforo Inorg√¢nico VS Conte√∫do",
+#'      xlab = "F√≥sforo Inorg√¢nico",
+#'      ylab = "Conte√∫do na Planta",
 #'          panel = function(x, y){
 #'          panel.xyplot(x, y)
 #'          panel.abline(lm(y ~ x), col = 3)
 #'      })
 #'  
 #'  xyplot(conteudo ~ cfo, data = BorgesTb1.4,
-#'      main = "FÛsforo Org‚nico VS Conte˙do",
-#'      xlab = "FÛsforo Org‚nico",
-#'      ylab = "Conte˙do na Planta", 
+#'      main = "F√≥sforo Org√¢nico VS Conte√∫do",
+#'      xlab = "F√≥sforo Org√¢nico",
+#'      ylab = "Conte√∫do na Planta", 
 #'      panel = function(x, y){
 #'          panel.xyplot(x, y)
 #'          panel.abline(lm(y ~ x), col = 3)
 #'      })
 #'      
-#'  ## Medidas de PosiÁ„o ----------------------------------------------
+#'  ## Medidas de Posi√ß√£o ----------------------------------------------
 #'  
 #'  summary(BorgesTb1.4)
 #'  
-#'  ## VerificaÁ„o de Signific‚ncia ------------------------------------
+#'  ## Verifica√ß√£o de Signific√¢ncia ------------------------------------
 #'  
 #'  summary(lm(conteudo ~ cfi , data = BorgesTb1.4))
 #'  summary(lm(conteudo ~ cfo , data = BorgesTb1.4))
