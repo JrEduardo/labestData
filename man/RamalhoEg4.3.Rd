@@ -9,7 +9,7 @@
 
 \item{linh}{Número inteiro que representa a linhagem do feijão.}
 
-\item{rep}{Número inteiro que indica as repetições do experimento.}
+\item{rept}{Número inteiro que indica as repetições do experimento.}
 
 \item{abs}{Porcentagem de absorção de água.}
 
