@@ -5,8 +5,12 @@ options(echo = TRUE)
 #--------------------------------------------
 # Carregar pacotes.
 
+# - Para desenvolvimento do pacote
 library(devtools)
 library(roxygen2)
+
+# - Instalando as dependencias (descritas no DESCRIPTION)
+install_deps(dependencies = TRUE, quiet = TRUE)
 
 sessionInfo()
 
