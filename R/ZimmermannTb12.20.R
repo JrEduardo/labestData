@@ -1,4 +1,4 @@
-#' @name ZimmermannTab12.20
+#' @name ZimmermannTb12.20
 #' @title Dados de produtividade de grãos de feijão
 #' @description Dados do ensaio 2 de um experimento em DBC de competição
 #'              de cultivares de feijão do grupo preto. Este ensaio foi 
@@ -26,13 +26,13 @@
 #'
 #' library(lattice)
 #'
-#' data(ZimmermannTab12.20)
+#' data(ZimmermannTb12.20)
 #' 
-#' xyplot(prod ~ trat , groups = bloco, data = ZimmermannTab12.20, 
+#' xyplot(prod ~ trat , groups = bloco, data = ZimmermannTb12.20, 
 #'        type=c("p","a"),
 #'        xlab = "Tratamentos",
 #'        ylab = "Produtividade de grãos")
 #' 
-#' aggregate(prod ~ trat, data = ZimmermannTab12.20, 
+#' aggregate(prod ~ trat, data = ZimmermannTb12.20, 
 #'           FUN = function(x) { c(mean = mean(x), var = var(x)) })
 NULL

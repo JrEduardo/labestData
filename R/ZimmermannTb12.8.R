@@ -1,4 +1,4 @@
-#' @name ZimmermannTab12.8
+#' @name ZimmermannTb12.8
 #' @title Dados de área sob a curva do progresso de uma doença
 #' @description Dados de um ensaio que avaliou as cultivares para a área 
 #'              foliar atacada por brusone (Pyricularia Orizae L.) em 
@@ -26,13 +26,13 @@
 #'
 #' library(lattice)
 #'
-#' data(ZimmermannTab12.8)
+#' data(ZimmermannTb12.8)
 #' 
-#' xyplot(prod ~ trat , groups = bloco, data = ZimmermannTab12.8, 
+#' xyplot(prod ~ trat , groups = bloco, data = ZimmermannTb12.8, 
 #'        type=c("p","a"),
 #'        xlab = "Tratamentos",
 #'        ylab = "Área sob a curva do progresso da doença")
 #' 
-#' aggregate(prod ~ trat, data = ZimmermannTab12.8, 
+#' aggregate(prod ~ trat, data = ZimmermannTb12.8, 
 #'           FUN = function(x) { c(mean = mean(x), var = var(x)) })
 NULL

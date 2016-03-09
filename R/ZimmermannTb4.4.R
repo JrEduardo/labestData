@@ -1,4 +1,4 @@
-#' @name ZimmermannTab4.4
+#' @name ZimmermannTb4.4
 #' @title Estudo sobre produtividade de grãos de feijão
 #' @description Dados de um ensaio de competição de cultivares, em blocos
 #'              completos ao acaso, da produção de grãos de feijão em kg/ha.
@@ -23,12 +23,12 @@
 #'
 #' library(lattice)
 #'
-#' data(ZimmermannTab4.4)
+#' data(ZimmermannTb4.4)
 #' 
-#' xyplot(prod ~ trat, data= ZimmermannTab4.4, type="o", jitter.x=TRUE, 
+#' xyplot(prod ~ trat, data= ZimmermannTb4.4, type="o", jitter.x=TRUE, 
 #'       groups = bloco, xlab="Tratamento", ylab="Produção de feijão", 
 #'       main="Experimento de competição de cultivares")
 #'
-#' aggregate(prod ~ trat, data = ZimmermannTab4.4, 
+#' aggregate(prod ~ trat, data = ZimmermannTb4.4, 
 #'          FUN = function(x) { c(mean = mean(x), var = var(x)) })
 NULL

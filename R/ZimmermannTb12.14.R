@@ -1,4 +1,4 @@
-#' @name ZimmermannTab12.14
+#' @name ZimmermannTb12.14
 #' @title Dados da proporção de insetos infectados
 #' @description Dados do ensaio 2 de um experimento em DBC que estudou a 
 #'              patogenicidade de fungos as percevejo do grão de 
@@ -25,13 +25,13 @@
 #'
 #' library(lattice)
 #'
-#' data(ZimmermannTab12.14)
+#' data(ZimmermannTb12.14)
 #' 
-#' xyplot(prod ~ trat , groups = bloco, data = ZimmermannTab12.14, 
+#' xyplot(prod ~ trat , groups = bloco, data = ZimmermannTb12.14, 
 #'        type=c("p","a"),
 #'        xlab = "Tratamentos",
 #'        ylab = "Proporção de insetos infectados")
 #' 
-#' aggregate(prod ~ trat, data = ZimmermannTab12.14, 
+#' aggregate(prod ~ trat, data = ZimmermannTb12.14, 
 #'           FUN = function(x) { c(mean = mean(x), var = var(x)) })
 NULL

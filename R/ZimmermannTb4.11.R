@@ -1,4 +1,4 @@
-#' @name ZimmermannTab4.11
+#' @name ZimmermannTb4.11
 #' @title Estudo sobre alturas médias de perfilhos
 #' @description Dados de um ensaio com dez tratamentos, quatro blocos e 
 #'              cinco amostras tomadas ao acaso, de alturas médias de 
@@ -25,16 +25,16 @@
 #'
 #' library(lattice)
 #'
-#' data(ZimmermannTab4.11)
+#' data(ZimmermannTb4.11)
 #' 
 #' levelplot(prod~amostra+bloco,
-#'           data=ZimmermannTab4.11, aspect="iso")
+#'           data=ZimmermannTb4.11, aspect="iso")
 #' 
-#' xyplot(prod ~ trat | amostra, groups = bloco, data = ZimmermannTab4.11,
+#' xyplot(prod ~ trat | amostra, groups = bloco, data = ZimmermannTb4.11,
 #'        type=c("p","a"),
 #'        xlab = "Tratamentos",
 #'        ylab = "Altura média de perfilhos")
 #' 
-#' aggregate(prod ~ trat, data = ZimmermannTab4.11, 
+#' aggregate(prod ~ trat, data = ZimmermannTb4.11, 
 #'           FUN = function(x) { c(mean = mean(x), var = var(x)) })
 NULL
