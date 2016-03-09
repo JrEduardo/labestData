@@ -1,70 +1,71 @@
-#'  @name BorgesTb1.4
-#'  @title Concentração de Fósforo
-#'  
-#'  @description Foram medidas as concentrações de fósforo inorgânico e 
-#'  orgânico no solo. Posteriormente mediu-se o conteúdo de fósforo nas
-#'  plantas crescidas no local.
-#'  
-#'   O objetivo do experimento é estudar a relação existente entre o 
-#'   conteúdo de fósforo na planta e duas fontes do elemento no solo.
-#'  
-#'  @format Um \code{data.frame} de 18 linhas e 3 colunas.
-#'  
-#'  \describe{
-#'  
-#'      \item{\code{cfi}}{ Conteúdo de fósforo inorgânico no solo. }
-#'      
-#'      \item{\code{cfo}}{ Conteúdo de fósforo orgânico no solo. }
-#'  
-#'      \item{\code{conteudo}}{ Conteúdo de fósforo nas plantas
-#'      crescidas no solo. }
-#'  
-#'  }
-#'  
-#'  @keywords fósforo solo planta
-#'  
-#'  @source Borges, C. G., Demétrio, & Zocchi, S. S. (2011). 
-#'  Modelo de Regressão. Piracicaba, SP: USP.
-#'  
-#'  @examples
-#'  
-#'  ## Carregando pacotes necessários ----------------------------------
-#'  
-#'  library(lattice)
-#'  
-#'  ## Carregando o banco de dados -------------------------------------
-#'  
-#'  data(BorgesTb1.4)
-#'  
-#'  ## Plotando o gráfico ----------------------------------------------
-#'  
-#'  pairs(~ cfi + cfo + conteudo, data = BorgesTb1.4,
-#'      main = "Dispersão em Pares")
-#'      
-#'  xyplot(conteudo ~ cfi, data = BorgesTb1.4, 
-#'      main = "Fósforo Inorgânico VS Conteúdo",
-#'      xlab = "Fósforo Inorgânico",
-#'      ylab = "Conteúdo na Planta",
-#'          panel = function(x, y){
-#'          panel.xyplot(x, y)
-#'          panel.abline(lm(y ~ x), col = 3)
-#'      })
-#'  
-#'  xyplot(conteudo ~ cfo, data = BorgesTb1.4,
-#'      main = "Fósforo Orgânico VS Conteúdo",
-#'      xlab = "Fósforo Orgânico",
-#'      ylab = "Conteúdo na Planta", 
-#'      panel = function(x, y){
-#'          panel.xyplot(x, y)
-#'          panel.abline(lm(y ~ x), col = 3)
-#'      })
-#'      
-#'  ## Medidas de Posição ----------------------------------------------
-#'  
-#'  summary(BorgesTb1.4)
-#'  
-#'  ## Verificação de Significância ------------------------------------
-#'  
-#'  summary(lm(conteudo ~ cfi , data = BorgesTb1.4))
-#'  summary(lm(conteudo ~ cfo , data = BorgesTb1.4))
+#' @name BorgesTb1.4
+#' @title Concentração de Fósforo
+#' 
+#' @description Foram medidas as concentrações de fósforo inorgânico e 
+#' orgânico no solo. Posteriormente mediu-se o conteúdo de fósforo nas
+#' plantas crescidas no local.
+#' 
+#'  O objetivo do experimento é estudar a relação existente entre o 
+#'  conteúdo de fósforo na planta e duas fontes do elemento no solo.
+#' 
+#' @format Um \code{data.frame} de 18 linhas e 3 colunas.
+#' 
+#' \describe{
+#' 
+#'     \item{\code{cfi}}{ Conteúdo de fósforo inorgânico no solo. }
+#'     
+#'     \item{\code{cfo}}{ Conteúdo de fósforo orgânico no solo. }
+#' 
+#'     \item{\code{conteudo}}{ Conteúdo de fósforo nas plantas
+#'     crescidas no solo. }
+#' 
+#' }
+#' 
+#' @keywords fósforo solo planta
+#' 
+#' @source Borges, C. G., Demétrio, & Zocchi, S. S. (2011). 
+#' Modelo de Regressão. Piracicaba, SP: USP.
+#' 
+#' @examples
+#' 
+#' ## Carregando pacotes necessários -----------------------------------
+#' 
+#' library(lattice)
+#' 
+#' ## Carregando o banco de dados --------------------------------------
+#' 
+#' data(BorgesTb1.4)
+#' 
+#' ## Plotando o gráfico -----------------------------------------------
+#' 
+#' pairs(~ cfi + cfo + conteudo, data = BorgesTb1.4,
+#'     main = "Dispersão em Pares")
+#'     
+#' xyplot(conteudo ~ cfi, data = BorgesTb1.4, 
+#'     main = "Fósforo Inorgânico VS Conteúdo",
+#'     xlab = "Fósforo Inorgânico",
+#'     ylab = "Conteúdo na Planta",
+#'         panel = function(x, y){
+#'         panel.xyplot(x, y)
+#'         panel.abline(lm(y ~ x), col = 3)
+#'     })
+#' 
+#' xyplot(conteudo ~ cfo, data = BorgesTb1.4,
+#'     main = "Fósforo Orgânico VS Conteúdo",
+#'     xlab = "Fósforo Orgânico",
+#'     ylab = "Conteúdo na Planta", 
+#'     panel = function(x, y){
+#'         panel.xyplot(x, y)
+#'         panel.abline(lm(y ~ x), col = 3)
+#'     })
+#'     
+#' ## Medidas de Posição -----------------------------------------------
+#' 
+#' summary(BorgesTb1.4)
+#' 
+#' ## Verificação de Significância -------------------------------------
+#' 
+#' summary(lm(conteudo ~ cfi , data = BorgesTb1.4))
+#' summary(lm(conteudo ~ cfo , data = BorgesTb1.4))
 #'
+NULL
