@@ -17,7 +17,7 @@
 #'     unidades experimentais.}
 #'
 #' }
-#' @keywords DBC batatinha
+#' @keywords DBC
 #' @source Pimentel-Gomes, F. (2009). Curso de Estatístitica
 #'     Experimental (15th ed.). Piracicaba: FEALQ.
 #' @examples
