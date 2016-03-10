@@ -9,31 +9,31 @@
 
 \item{pais}{Nomes dos 21 países.}
 
-\item{expv}{Índice da esperança de vida que mede a realização 
-     relativa de um país na esperança de vida à nascença.}
+\item{expecvida}{Índice da esperança de vida que mede a realização 
+    relativa de um país na esperança de vida à nascença.}
 
-\item{ed}{Índice da educação que mede a realização relativa de um 
-     país tanto na alfabetização de adultos como na escolarização 
-     bruta combinada do primário, secundário e superior.}
+\item{educ}{Índice da educação que mede a realização relativa de um 
+    país tanto na alfabetização de adultos como na escolarização 
+    bruta combinada do primário, secundário e superior.}
 
 \item{pib}{Índice do PIB, que é calculado utilizando o PIB
-     per capita ajustado (dólares) no qual usa-se o logarítimo.}
+    per capita ajustado (dólares) no qual usa-se o logarítimo.}
 
-\item{estpol}{Índice de percepções da probabilidade de 
-         desestabilização (tensões étnicas, conflito armado, etc).}
+\item{estabpoli}{Índice de percepções da probabilidade de 
+    desestabilização (tensões étnicas, conflito armado, etc).}
 
 }}
 \source{
 MINGOTI, S.A. (2005). Análise de dados através de métodos de 
-     estatística multivariada - uma abordagem aplicada. 
-     Belo Horizonte, MG: Editora UFMG. (pg 184).
+    estatística multivariada - uma abordagem aplicada. 
+    Belo Horizonte, MG: Editora UFMG. (pg 184).
 }
 \description{
 Dados relativos a 21 países com as variáveis que são 
-     índices de expectativa de vida, educação, renda (PIB) e 
-     estabilidade política e de segurança. Os índices foram 
-     construídos por uma metodologia da ONU, e quanto maior 
-     esses valores, melhor será a qualidade do país.
+    índices de expectativa de vida, educação, renda (PIB) e 
+    estabilidade política e de segurança. Os índices foram 
+    construídos por uma metodologia da ONU, e quanto maior 
+    esses valores, melhor será a qualidade do país.
 }
 \examples{
 

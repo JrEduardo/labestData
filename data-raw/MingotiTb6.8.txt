@@ -1,4 +1,4 @@
-pais	expv	ed	pib	estpol
+pais	expecvida	educ	pib	estabpoli
 Reino Unido	0.88	0.99	0.91	1.1
 Australia	0.9	0.99	0.93	1.26
 Canada	0.9	0.98	0.94	1.24
