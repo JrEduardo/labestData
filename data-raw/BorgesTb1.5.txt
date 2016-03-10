@@ -1,4 +1,4 @@
-"bloco"	"dose"	"direta"	"valor"
+"bloco"	"dose"	"direta"	"ctc"
 1	0	0	83
 2	0	0	90.7
 3	0	0	85.8
