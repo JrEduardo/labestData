@@ -33,6 +33,6 @@
 #' ## Plotando o gráfico -----------------------------------------------
 #' 
 #' pairs(~ milho + prod + satu + ph, data = BorgesTb1.6,
-#'  main = "Dispersão duas a duas")
+#'      main = "Dispersão duas a duas")
 #' 
 NULL
