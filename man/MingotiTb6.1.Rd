@@ -8,7 +8,7 @@
 \describe{
 
 \item{id}{Identificação do indivíduo representada 
-     por 6 letras (A a F).}
+    por 6 letras (A a F).}
 
 \item{renda}{Renda mensal em quantidade de salários mínimos.}
 
@@ -17,13 +17,13 @@
 }}
 \source{
 MINGOTI, S.A. (2005). Análise de dados através de métodos de 
-     estatística multivariada - uma abordagem aplicada. 
-     Belo Horizonte, MG: Editora UFMG. (pg 159).
+    estatística multivariada - uma abordagem aplicada. 
+    Belo Horizonte, MG: Editora UFMG. (pg 159).
 }
 \description{
 Dados referente a renda mensal (em quantidade de 
-     salários mínimos) e a idade de seis indivíduos de uma
-     localidade.
+    salários mínimos) e a idade de seis indivíduos de uma
+    localidade.
 }
 \examples{
 
