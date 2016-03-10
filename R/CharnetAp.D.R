@@ -1,7 +1,10 @@
 #' @name CharnetAp.D
+#' 
 #' @title Conjunto de Dados de Meninas Dançarinas
+#' 
 #' @description Medidas antropomórficas e extensões de bailarinas.
-#' @format Um \code{data.frame} com 164 linhas e 6 colunas.
+#' 
+#' @format Um \code{data.frame} com 163 linhas e 6 colunas.
 #' 
 #' \describe{
 #'
@@ -33,17 +36,23 @@
 #' 
 #' library("ggplot2")
 #'
-#' bailarinas <- qplot(peso, altura, data=CharnetAp.D, color=idade,
-#'                     xlab="Peso", ylab="Altura",
-#'                     main="Relação Peso e Altura por Idade de Jovens 
-#'                     Bailarinas")
+#' bailarinas <- qplot(peso, altura,
+#'                     data = CharnetAp.D,
+#'                     color = idade,
+#'                     xlab = "Peso",
+#'                     ylab = "Altura",
+#'                     main = "Relação Peso e Altura por 
+#'                             Idade de Jovens Bailarinas")
+#'
 #' bailarinas
 #'
 #'
-#' bailarinas2 <- qplot(ped, pee, data=CharnetAp.D,
-#'                      xlab="Angulação do pé direito",
-#'                      ylab="Angulação do pé esquerdo",
-#'                      main="Diferença na angulação entre os pés")
+#' bailarinas2 <- qplot(ped, pee, 
+#'                      data = CharnetAp.D,
+#'                      xlab = "Angulação do pé direito",
+#'                      ylab = "Angulação do pé esquerdo",
+#'                      main = "Diferença na Angulação Entre os Pés")
+#'
 #' bailarinas2 + geom_abline(intercept = 0, slope = 1)
 
 NULL

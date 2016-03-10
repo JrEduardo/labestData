@@ -1,7 +1,10 @@
 #' @name CharnetEg.12.2
-#' @title Relação do tecido adiposo e área abdominal
-#' @description Relação entre medidas de tecido adiposo obtida por 
-#'     tomagrafia computadorizada de área abdominal.
+#' 
+#' @title Relação do tecido adiposo e região abdominal
+#' 
+#' @description Relação entre as medidas de tecidos adiposos obtidas por 
+#'     tomagrafia computadorizada da área abdominal.
+#'
 #' @format Um \code{data.frame} com 29 linhas e 5 colunas.
 #'
 #' \describe{
@@ -14,7 +17,7 @@
 #'
 #' \item{\code{us2}}{Medida 2 do tecido adiposo por ultrassonografia.}
 #'
-#' \item{\code{pc}}{Medida de pregas cutâneas.}
+#' \item{\code{pc}}{Medida das pregas cutâneas.}
 #'
 #' }
 #'
@@ -29,13 +32,16 @@
 #'
 #' data(CharnetEg.12.2)
 #'
-#' library('ggplot2')
+#' library("ggplot2")
 #' 
-#' cintura <- qplot(us1, us2, data=CharnetEg.12.2, color=cint,
-#'                  xlab='Tecido adiposo 1', ylab='Tecido adiposo 2',
-#'                  main='Relação do tecido adiposos e a circunferência
-#'                  da cintura')
+#' cintura <- qplot(us1, us2, 
+#'                  data = CharnetEg.12.2,
+#'                  color = cint,
+#'                  xlab = "Tecido adiposo 1",
+#'                  ylab = "Tecido adiposo 2",
+#'                  main = "Relação do Tecido Adiposos e a 
+#'                          Circunferência da cintura")
 #'
-#' cintura  + geom_abline(intercept = 0, slope = 1)
+#' cintura + geom_abline(intercept = 0, slope = 1)
 #'
 NULL
