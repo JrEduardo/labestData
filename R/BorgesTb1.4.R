@@ -23,8 +23,8 @@
 #' 
 #' @keywords fósforo solo planta
 #' 
-#' @source Borges, C. G., Demétrio, & Zocchi, S. S. (2011). 
-#' Modelo de Regressão. Piracicaba, SP: USP.
+#' @source Demétrio, C. G. B., & Zocchi, S. S. (2011). Modelos de
+#'     Regressão. Piracicaba: ESALQ. (Tabela 1.4 pág. 11)
 #' 
 #' @examples
 #' 
