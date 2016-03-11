@@ -1,4 +1,4 @@
-#' @name BorgesTb1.5
+#' @name DemetrioTb1.5
 #' @title Valores de CTC direta e indereta
 #' 
 #' @description O experimento foi realizado em quatro blocos, sendo 
@@ -28,28 +28,19 @@
 #' 
 #' @keywords CTC solo
 #' 
-#' @source Borges, C. G., Demétrio, & Zocchi, S. S. (2011). 
-#' Modelo de Regressão. Piracicaba, SP: USP.
+#' @source Demétrio, C. G. B., & Zocchi, S. S. (2011). Modelos de
+#'     Regressão. Piracicaba: ESALQ. (Tabela 1.5 pág. 12)
 #' 
 #' @examples 
 #' 
-#' ## Carregando pacotes necessários -----------------------------------
-#' 
 #' library(lattice)
 #' 
-#' ## Carregando o banco de dados --------------------------------------
+#' data(DemetrioTb1.5)
 #' 
-#' data(BorgesTb1.5)
-#' 
-#' ## Plotando o gráfico -----------------------------------------------
-#' 
-#' xyplot(ctc ~ dose, data = BorgesTb1.5,
+#' xyplot(ctc ~ dose, data = DemetrioTb1.5,
 #'     main = "Dose VS CTC",
 #'     xlab = "Dose",
 #'     ylab = "CTC",
-#'     panel = function(x, y) {
-#'         panel.xyplot(x, y)
-#'         panel.abline(lm(y ~ x), col = 3)
-#'     })
+#'     type = c("p", "r"), col.line = 3)
 #' 
 NULL

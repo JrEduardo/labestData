@@ -1,4 +1,4 @@
-#' @name BorgesTb1.6
+#' @name DemetrioTb1.6
 #' @title Cultura do Milho
 #' 
 #' @description Foram obtidos dados sobre a cultura do milho com o 
@@ -21,18 +21,14 @@
 #' 
 #' @keywords milho solo
 #' 
-#' @source Borges, C. G., Demétrio, & Zocchi, S. S. (2011). 
-#' Modelo de Regressão. Piracicaba, SP: USP.
+#' @source Demétrio, C. G. B., & Zocchi, S. S. (2011). Modelos de
+#'     Regressão. Piracicaba: ESALQ. (Tabela 1.6 pág. 13)
 #' 
 #' @examples 
 #' 
-#' ## Carregando o banco de dados --------------------------------------
+#' data(DemetrioTb1.6)
 #' 
-#' data(BorgesTb1.6)
-#' 
-#' ## Plotando o gráfico -----------------------------------------------
-#' 
-#' pairs(~ milho + prod + satu + ph, data = BorgesTb1.6,
+#' pairs(~ milho + prod + satu + ph, data = DemetrioTb1.6,
 #'      main = "Dispersão duas a duas")
 #' 
 NULL
