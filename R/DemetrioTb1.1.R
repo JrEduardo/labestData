@@ -1,4 +1,4 @@
-#' @name BorgesTb1.1
+#' @name DemetrioTb1.1
 #' @title Níveis de Fósforo no Solo após Plantio de Milho
 #' 
 #' @description Resultados de um experimento onde diferentes níveis de
@@ -28,9 +28,9 @@
 #' 
 #' library(lattice)
 #' 
-#' data(BorgesTb1.1)
+#' data(DemetrioTb1.1)
 #' 
-#' xyplot(fd ~ fo, data = BorgesTb1.1,
+#' xyplot(fd ~ fo, data = DemetrioTb1.1,
 #'        main = "Níveis de fósforo no solo",
 #'        xlab = "Fósforo orgânico",
 #'        ylab = "Fósforo disponível",

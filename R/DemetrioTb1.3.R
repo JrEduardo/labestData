@@ -1,4 +1,4 @@
-#' @name BorgesTb1.3
+#' @name DemetrioTb1.3
 #' @title Tensiômetro
 #' 
 #' @description Estudo da construção de um tensiômetro de leitura
@@ -26,9 +26,9 @@
 #' 
 #' library(lattice)
 #' 
-#' data(BorgesTb1.3)
+#' data(DemetrioTb1.3)
 #' 
-#' xyplot(tensao ~ altura, data = BorgesTb1.3,
+#' xyplot(tensao ~ altura, data = DemetrioTb1.3,
 #'     main = "Altura VS Tensão",
 #'     xlab = "Altura do Tensiômetro",
 #'     ylab = "Tensão da Água")

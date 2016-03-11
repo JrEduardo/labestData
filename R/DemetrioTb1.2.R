@@ -1,4 +1,4 @@
-#' @name BorgesTb1.2
+#' @name DemetrioTb1.2
 #' @title Irrigação em Batata
 #' 
 #' @description Este experimento refere-se a irrigação em batata
@@ -29,9 +29,9 @@
 #' 
 #' library(lattice)
 #' 
-#' data(BorgesTb1.2)
+#' data(DemetrioTb1.2)
 #' 
-#' xyplot(prod ~ lamina, data = BorgesTb1.2,
+#' xyplot(prod ~ lamina, data = DemetrioTb1.2,
 #'        main = "Produção VS Lâmina de Água",
 #'        xlab = "Lâmina de água (mm)",
 #'        ylab = "Produção (t/ha)",

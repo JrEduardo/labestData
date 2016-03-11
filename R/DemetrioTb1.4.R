@@ -1,4 +1,4 @@
-#' @name BorgesTb1.4
+#' @name DemetrioTb1.4
 #' @title Concentração de Fósforo
 #' 
 #' @description Dados referentes a medidas de concentrações de fósforo
@@ -27,19 +27,19 @@
 #' 
 #' @examples
 #' 
-#' data(BorgesTb1.4)
+#' data(DemetrioTb1.4)
 #' 
-#' pairs(BorgesTb1.4, main = "Dispersão em Pares")
+#' pairs(DemetrioTb1.4, main = "Dispersão em Pares")
 #'
 #' library(lattice)
 #' 
-#' xyplot(conteudo ~ cfi, data = BorgesTb1.4, 
+#' xyplot(conteudo ~ cfi, data = DemetrioTb1.4,
 #'        main = "Fósforo Inorgânico VS Conteúdo",
 #'        xlab = "Fósforo Inorgânico",
 #'        ylab = "Conteúdo na Planta",
 #'        type = c("p", "r"), col.line = 3)
 #' 
-#' xyplot(conteudo ~ cfo, data = BorgesTb1.4,
+#' xyplot(conteudo ~ cfo, data = DemetrioTb1.4,
 #'        main = "Fósforo Orgânico VS Conteúdo",
 #'        xlab = "Fósforo Orgânico",
 #'        ylab = "Conteúdo na Planta", 
