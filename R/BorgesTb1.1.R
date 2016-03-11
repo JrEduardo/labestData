@@ -26,27 +26,13 @@
 #' 
 #' @examples 
 #' 
-#' ## Carregando pacotes necessários -----------------------------------
-#' 
 #' library(lattice)
-#' 
-#' ## Carregando o banco de dados --------------------------------------
 #' 
 #' data(BorgesTb1.1)
 #' 
-#' ## Plotando o gráfico -----------------------------------------------
-#' 
 #' xyplot(fd ~ fo, data = BorgesTb1.1,
-#'     main = "Orgânico VS Disponível",
-#'     xlab = "Fósforo Orgânico",
-#'     ylab = "Fósforo Disponível",
-#'     panel = function(x, y) {
-#'         panel.xyplot(x, y)
-#'         panel.abline(lm(y ~ x), col = 3)
-#'     })
-#'     
-#' ## Verificando Significância ----------------------------------------
-#' 
-#' summary(lm(fd ~ fo, data = BorgesTb1.1))
-#' 
+#'        main = "Níveis de fósforo no solo",
+#'        xlab = "Fósforo orgânico",
+#'        ylab = "Fósforo disponível",
+#'        type = c("p", "r"), col.line = 3)
 NULL
