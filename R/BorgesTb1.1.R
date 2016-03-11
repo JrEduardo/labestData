@@ -1,19 +1,21 @@
 #' @name BorgesTb1.1
-#' @title Fósforo Orgânico VS Fósforo Disponível
+#' @title Níveis de Fósforo no Solo após Plantio de Milho
 #' 
-#' @description O fósforo Orgânico foi adicionado antes de plantar-se o
-#' milho. Após 38 dias, houve a colheita e mediu-se o fósforo 
-#' disponível.
+#' @description Resultados de um experimento onde diferentes níveis de
+#'     fósforo orgânico foram utilizados na preparação do solo para o
+#'     plantio de milho. Após 38 dias, as plantas foram colhidas,
+#'     mediu-se o novamente os níveis de fósforo e calculou-se o fósforo
+#'     disponível para a planta em cada amostra de solo.
 #' 
-#' @format Um \code{data.frame} de 9 linhas e 2 colunas.
+#' @format Um \code{data.frame} com 9 linhas e 2 colunas.
 #' 
 #' \describe{
 #' 
-#'     \item{\code{fo}}{Fósforo orgânico adicionado ao solo. A unidade
-#'     de medida é partes por milhão (ppm).}
+#'     \item{\code{fo}}{Níveis de fósforo orgânico adicionado ao solo,
+#'     mensurados em partes por milhão (ppm).}
 #'     
-#'     \item{\code{fd}}{Fósforo disponível após plantar-se o milho. 
-#'     A unidade de medida é partes por milhão (ppm).}
+#'     \item{\code{fd}}{Fósforo disponível no solo após a colheita do
+#'     milho, mensurado em partes por milhão (ppm).}
 #' 
 #' }
 #' 
