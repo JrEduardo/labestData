@@ -1,4 +1,4 @@
-dias	rep	nemat
+dias	rept	nemat
 90	1	10925
 180	1	192
 270	1	87
