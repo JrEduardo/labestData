@@ -1,0 +1,55 @@
+#' @name MingotiAnA1
+#' @title Aceitação de um novo produto comestível
+#' @description Pesquisa de mercado feita para avaliar a aceitação do
+#'     consumidor por um novo produto comestível. Cada consumidor foi
+#'     convidado a dar uma nota de 1 a 5 para sete atributos do produto.
+#'      
+#' @format data.frame com 200 observações e 9 variáveis, em que
+#'
+#' \describe{
+#'
+#' \item{id}{Número de identificação do indivíduo.}
+#' 
+#' \item{sexo}{Variável dicotômica para o sexo do indivíduo, onde 0 
+#'     para mulheres e 1 para homens.}
+#' 
+#' \item{sabor}{Nota dada pelo indivíduo para o sabor do produto, 
+#'    variando de 1 a 5.}
+#'
+#' \item{aroma}{Nota dada pelo indivíduo para o aroma do produto, 
+#'    variando de 1 a 5.}
+#'     
+#' \item{cor}{Nota dada pelo indivíduo para a cor do produto, 
+#'    variando de 1 a 5.}
+#' 
+#' \item{textu}{Nota dada pelo indivíduo para a textura do produto, 
+#'    variando de 1 a 5.}
+#'
+#' \item{utili}{Nota dada pelo indivíduo para a utilidade do produto, 
+#'    variando de 1 a 5.}
+#'     
+#' \item{local}{Nota dada pelo indivíduo para a facilidade de encontrar
+#'    o produto para compra, variando de 1 a 5.}
+#'     
+#' \item{embal}{Nota dada pelo indivíduo para a embalagem do produto, 
+#'    variando de 1 a 5.}
+#'
+#' }
+#' 
+#' @keywords Pesquisa produto 
+#' @source MINGOTI, S.A. (2005). Análise de dados através de métodos de 
+#'     estatística multivariada - uma abordagem aplicada. 
+#'     Belo Horizonte, MG: Editora UFMG. (pg 108).
+#'      
+#' @examples
+#'
+#' data(MingotiAnA1)
+#'
+#' da <- reshape(MingotiAnA1, direction = "long", varying = list(3:9),
+#'               v.names = "notas", timevar = "atributo")
+#' library(lattice)
+#'
+#' xyplot(notas ~ atributo, groups = sexo, data = da,
+#'       jitter.y = TRUE, type = c("p", "a"), auto.key = TRUE)
+#'
+NULL
