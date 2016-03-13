@@ -30,7 +30,7 @@
 #' data(RamalhoTb3.1)
 #'
 #' xyplot(nota ~ cult, data = RamalhoTb3.4,
-#'        groups = bloco, auto.key = TRUE, jitter.x = TRUE,
+#'        groups = bloc, auto.key = TRUE, jitter.x = TRUE,
 #'        xlab = "Cultivares",
 #'        ylab = "Notas")
 #'
