@@ -7,18 +7,18 @@
 
 \describe{
 
-\item{trat}{Fator de níveis nominais. Tratamento aplicado para
+\item{\code{trat}}{Fator de níveis nominais. Tratamento aplicado para
     controle do púlgão.}
 
-\item{rept}{Número inteiro que identifica as repetições de cada
+\item{\code{rept}}{Número inteiro que identifica as repetições de cada
     tratamento.}
 
-\item{pulgoes}{Número de pulgões coletados 36 horas após a
+\item{\code{pulgoes}}{Número de pulgões coletados 36 horas após a
     pulverização dos tratamentos.}
 
 }}
 \source{
-Banzatto, D. A., & Kronka, S. D. (2013). Experimentação
+Banzatto, D. A., Kronka, S. D. (2013). Experimentação
     Agrícola (4th ed.). Jaboticabal, SP: Funep. (pg 44)
 }
 \description{
