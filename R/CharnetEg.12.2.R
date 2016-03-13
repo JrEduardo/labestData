@@ -1,15 +1,18 @@
 #' @name CharnetEg.12.2
 #' 
-#' @title Relação do tecido adiposo e região abdominal
+#' @title Estudo da Medida de Tecido Adiposo Obtido por Tomografia
+#'     Computadorizada
 #' 
 #' @description Relação entre as medidas de tecidos adiposos obtidas por 
-#'     tomagrafia computadorizada da área abdominal.
+#'     tomagrafia computadorizada da área abdominal e variáveis
+#'     relacionadas.
 #'
 #' @format Um \code{data.frame} com 29 linhas e 5 colunas.
 #'
 #' \describe{
 #'
-#' \item{\code{tomo}}{Tomografia.}
+#' \item{\code{tomo}}{Medida de tecido adiposo por obtida por tomografia
+#'     computadorizada.}
 #'
 #' \item{\code{cint}}{Medida da circunferência da cintura.}
 #'
@@ -21,27 +24,24 @@
 #'
 #' }
 #'
-#' @keywords tomografia regressão
+#' @keywords TODO
 #'
 #' @source Charnet, R., de Luna Freire, C.A., Charnet, E.M.R. & Bonvino,
-#'     H. (2008). Análise de modelos de regressão linear com aplicações 
-#'     (2nd ed., p. 356). Editora Unicamp (Capítulo 12, exemplo 12.2, 
-#'     página 286)
+#'     H. (2008). Análise de modelos de regressão linear com aplicações
+#'     (2nd ed., p. 356). SP: Editora Unicamp (Capítulo 12, exemplo
+#'     12.2, página 286)
 #'
 #' @examples
 #'
 #' data(CharnetEg.12.2)
 #'
-#' library("ggplot2")
+#' panel.density <- function(x, ...) {
+#'     usr <- par('usr')
+#'     on.exit(par(usr))
+#'     par(usr = c(usr[1:2], 0, 1.5))
+#'     par(new = TRUE)
+#'     plot(density(x), xlab = '', ylab = '', main = '')
+#' }
 #' 
-#' cintura <- qplot(us1, us2, 
-#'                  data = CharnetEg.12.2,
-#'                  color = cint,
-#'                  xlab = "Tecido adiposo 1",
-#'                  ylab = "Tecido adiposo 2",
-#'                  main = "Relação do Tecido Adiposos e a 
-#'                          Circunferência da cintura")
-#'
-#' cintura + geom_abline(intercept = 0, slope = 1)
-#'
+#' pairs(CharnetEg.12.2, diag.panel = panel.density)
 NULL
