@@ -2,6 +2,10 @@
 
 options(echo = TRUE)
 
+install.package(c("car", "ggplot2"),
+                dep = TRUE, lib = "~/R-tests/",
+                repos = "http://cran-r.c3sl.ufpr.br/")
+
 #--------------------------------------------
 # Carregar pacotes.
 
