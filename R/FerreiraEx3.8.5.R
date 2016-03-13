@@ -5,18 +5,20 @@
 #'
 #' @format \code{data.frame} com 32 observações e 3 variáveis, em que
 #' \describe{
-#' \item{nfrut}{Número de frutos total por héctare.}
-#' \item{prod}{Produção de melão mensurada em kg/ha.}
-#' \item{tam}{Teor médio de açucar mensurados em graus brix.}
-#' }
 #'
-#' @keywords melão
+#' \item{\code{nfrut}}{Número de frutos total por héctare.}
+#'
+#' \item{\code{prod}}{Produção de melão mensurada em kg ha\eqn{^{-1}}.}
+#'
+#' \item{\code{tam}}{Teor médio de açucar mensurados em graus brix.}
+#'
+#' }
+#' @keywords TODO
 #' @source Ferreira, D. F. (2011). Estatística Multivariada (2nd
-#'     ed.). Lavras, editora UFLA. (Exercício 3.8.5)
-#' 
+#'     ed.). Lavras,  MG: Editora UFLA. (Exercício 3.8.5)
 #' @examples
 #'
-#' # Análise descritiva
+# Análise descritiva
 #' panel.density <- function(x, ...) {
 #'     usr <- par("usr")
 #'     on.exit(par(usr))
