@@ -19,56 +19,56 @@ Estatística Multivariada.
 
 <!-- Inserir links das milestones que representam os livros -->
 1. Borges, C. G., Demétrio, & Zocchi, S. S. (2011). **Modelo de
-   Regressão. Piracicaba**, SP: USP.  
+   Regressão. Piracicaba**, SP: USP.
    Sob responsabilidade de
    [*Alcides Neto*](https://gitlab.c3sl.ufpr.br/acn13)
 
 2. MINGOTI, S.A. (2005). **Análise de dados através de métodos de
    estatística mulq-tivariada - uma abordagem aplicada**. Belo
-   Horizonte, MG: Editora UFMG.  
+   Horizonte, MG: Editora UFMG.
    Sob responsabilidade de
    [*Paula Alessandra*](https://gitlab.c3sl.ufpr.br/pazd11) e
    [*Ângela Legey*](https://gitlab.c3sl.ufpr.br/alcl12)
-   
+
 3. Barros, W. S. & Dias, L. A. S. (2009). **Biometria Experimental**,
-   UFV Viçosa, MG.  
+   UFV Viçosa, MG.
    Sob responsabilidade de
    [*Altamiro Basiewics*](https://gitlab.c3sl.ufpr.br/aab15)
 
 4. Zimmermann, F.J.(2004), **Estatística aplicada à pesquisa agrícola**
-   (1st ed.). Santo Antônio de Goiás, GO: Embrapa Arroz e Feijão.  
+   (1st ed.). Santo Antônio de Goiás, GO: Embrapa Arroz e Feijão.
    Sob responsabilidade de
    [*Bruna Wundervald*](https://gitlab.c3sl.ufpr.br/bdw13)
 
 5. Pimentel-Gomes, F. (2009). **Curso de Estatística Experimental**
-   (15th ed.). Piracicaba: FEALQ.  
+   (15th ed.). Piracicaba: FEALQ.
    Sob responsabilidade de
    [*Bruno Geronymo*](https://gitlab.c3sl.ufpr.br/bg15)
 
 6. Charnet, R., de Luna Freire, C.A., Charnet, E.M.R. & Bonvino,
    H. (2008). **Análise de modelos de regressão linear com aplicações**
-   (2nd ed., p. 356). Editora Unicamp  
+   (2nd ed., p. 356). Editora Unicamp
    Sob responsabilidade de
    [*Daniel Ikenaga*](https://gitlab.c3sl.ufpr.br/di12)
 
 7. Ferreira, D. F. (2011). **Estatística Multivariada** (2nd
-   ed.). Lavras, editora UFLA.  
+   ed.). Lavras, editora UFLA.
    Sob responsabilidade de
    [*Eduardo Junior*](https://gitlab.c3sl.ufpr.br/eerj12)
 
 8. Manly, B. J. F. (2005). **Métodos Estatísticos Multivariados- uma
-   introdução**. Porto Alegre, RS: ARTMED  
+   introdução**. Porto Alegre, RS: ARTMED
    Sob responsabilidade de
    [*Gabriel Klostermann*](https://gitlab.c3sl.ufpr.br/gsk12)
 
 9. Ramalho, M. A. P., Ferreira, D. F. & Oliveira,
    A. C. (2005). **Experimentação em Genética e Melhoramento de
-   Plantas** (2th ed.). Lavras: UFLA.  
+   Plantas** (2th ed.). Lavras: UFLA.
    Sob responsabilidade de
    [*Jhenifer Veloso*](https://gitlab.c3sl.ufpr.br/jcv12)
 
 10. Banzatto, D. A., & Kronka, S. D. (2013). **Experimentação Agrícola**
-   (4th ed.). Jaboticabal, SP: Funep.  
+   (4th ed.). Jaboticabal, SP: Funep.
    Sob responsabilidade de
    [*Walmes Zeviani*](https://gitlab.c3sl.ufpr.br/walmes)
 
@@ -109,66 +109,66 @@ Todas as terças-feiras o grupo desenvolvedor do pacote descreve suas
 propostas de atividade para a semana vigente. Abaixo temos as atividades
 de cada integrante descritas para a semana do período **08/03 à 15/03**:
 
-1. **Alcides Conte Neto**  
+1. **Alcides Conte Neto**
     + Listar todas as tabelas presentes na obra de sua responsabilidade e
      criar os respectivos *issues* no GitLab; e
     + Incluir todas as tabelas presentes no 1º capítulo (+- 8)
 
-2. **Altamiro Antonio Basiewics**  
+2. **Altamiro Antonio Basiewics**
     + Listar todas as tabelas presentes na obra de sua responsabilidade e
      criar os respectivos *issues* no GitLab; e
     + Incluir mais 3 tabelas
 
-3. **Angela Luiza Cunha Legey**  
+3. **Angela Luiza Cunha Legey**
     + Listar todas as tabelas presentes na parte obra de sua
      responsabilidade e criar os respectivos *issues* no GitLab; e
     + Incluir mais 5 tabelas
 
-4. **Bruna Davies Wundervald**  
+4. **Bruna Davies Wundervald**
     + Incluir mais 5 tabelas
 
-5. **Bruno Geronymo**  
+5. **Bruno Geronymo**
     + Listar todas as tabelas presentes na obra de sua responsabilidade e
      criar os respectivos *issues* no GitLab; e
     + Incluir mais 3 tabelas
-   
-6. **Daniel Ikenaga**  
+
+6. **Daniel Ikenaga**
     + Listar todas as tabelas presentes na obra de sua responsabilidade e
       criar os respectivos *issues* no GitLab; e
     + Incluir mais 2 ou 3 tabelas; e
     + Checar o *build* de verificação do pacote (para correção do erro
       gerado no seu ramo)
 
-7. **Eduardo Elias Ribeiro Junior**  
+7. **Eduardo Elias Ribeiro Junior**
     + Realizar as eventuais correções de MR e incorporá-los ao ramo
       `devel`; e
     + Incluir mais 3 tabelas (issue#28)
 
-8. **Gabriel Sartori Klostermann**  
+8. **Gabriel Sartori Klostermann**
     + Listar todas as tabelas presentes na obra de sua responsabilidade e
       criar os respectivos *issues* no GitLab; e
     + Incluir mais 2 tabelas
 
-9. **Jhenifer Caetano Veloso**  
+9. **Jhenifer Caetano Veloso**
     + Incluir mais 5 tabelas
 
-10. **Monica Ludmila Hintz De Oliveira**  
+10. **Monica Ludmila Hintz De Oliveira**
      + **Concluir as atividades da semana anterior**; e
      + Listar todas as tabelas presentes na obra de sua responsabilidade e
        criar os respectivos *issues* no GitLab; e
      + Incluir mais 3 tabelas
-    
-11. **Paula Alessandra Zeizer Dimas**  
+
+11. **Paula Alessandra Zeizer Dimas**
      + Listar todas as tabelas presentes na parte obra de sua
        responsabilidade e criar os respectivos *issues* no GitLab; e
      + Incluir mais 2 tabelas
 
-12. **Walmes Marques Zeviani**  
+12. **Walmes Marques Zeviani**
      + Realizar as eventuais correções de MR e incorporá-los ao ramo
        `devel`; e
      + Incluir mais 3 tabelas (issue#8)
-      
-13. **Cesar Augusto Taconeli**  
+
+13. **Cesar Augusto Taconeli**
      + Realizar as eventuais correções de MR e incorporá-los ao ramo
        `devel`
 
@@ -181,7 +181,6 @@ status das atividades propostas.
 [Retornar à tabela de conteúdo](#painel-de-atividades-do-labestdata)
 
 ## Mini roteiro do projeto ##
-
 
 A cada semana nós devemos criar novos ramos para realização das
 atividades propostas. Porém devemos nos atentar ao criá-los. Estes ramos
@@ -227,6 +226,10 @@ write.table(CiclanoTb0.0,
             sep = "\t",
             row.names = FALSE)
 
+## Você pode usar a função write2txt() definida em:
+## https://gitlab.c3sl.ufpr.br/snippets/34.
+write2txt(CiclanoTb0.0)
+
 ## Usando outro software -----------------------------------------------
 
 ## Transcreva os dados da tabela no software e salve-os no formato txt
@@ -241,6 +244,10 @@ CiclanoTb0.0 <- read.table("./data-raw/CiclanoTb0.0.txt",
 library(devtools)
 use_data(CiclanoTb0.0)
 
+## Você pode usar a função write2rda() definida em:
+## https://gitlab.c3sl.ufpr.br/snippets/34.
+write2rda(CiclanoTb0.0)
+
 ##======================================================================
 ## Passo 3 - Escreva a documentação utilizando as tags roxygen2
 
@@ -248,6 +255,13 @@ use_data(CiclanoTb0.0)
 ## gráficos/tabelas são realizadas corretamente.
 table(CiclanoTb0.0)
 plot(X1 ~ X2, data = CiclanoTb0.0)
+
+## Você pode usar a função write2Rdoc() definida em:
+## https://gitlab.c3sl.ufpr.br/snippets/34. Essa função cria o arquivo
+## com nome do objeto e algumas já escreve algumas informações,
+## retiradas do próprio objeto. Depois de usar, abra o arquivo e
+## preencha o restante.
+write2Rdoc(CiclanoTb0.0)
 
 ##======================================================================
 ## Passo 4 - Gere e check a documentação (insere um arquivo no diretório
