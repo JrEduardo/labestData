@@ -2,11 +2,6 @@
 
 options(echo = TRUE)
 
-install.packages(c("car", "ggplot2"),
-                 dependencies = TRUE,
-                 lib = "~/R-tests/",
-                 repos = "http://cran-r.c3sl.ufpr.br/")
-
 #--------------------------------------------
 # Carregar pacotes.
 
@@ -15,7 +10,11 @@ library(devtools)
 library(roxygen2)
 
 # - Instalando as dependencias (descritas no DESCRIPTION)
-install_deps(dependencies = TRUE, quiet = TRUE)
+install_deps(dependencies = TRUE,
+             quiet = TRUE,
+             upgrade = FALSE,
+             lib = "~/R-tests/",
+             repos = "http://cran-r.c3sl.ufpr.br/")
 
 sessionInfo()
 
