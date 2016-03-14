@@ -4,40 +4,41 @@
 #'     consumidor por um novo produto comestível. Cada consumidor foi
 #'     convidado a dar uma nota de 1 a 5 para sete atributos do produto.
 #'      
-#' @format data.frame com 200 observações e 9 variáveis, em que
+#' @format Um \code{data.frame} com 200 observações e 9 variáveis, 
+#'      em que
 #'
 #' \describe{
 #'
-#' \item{id}{Número de identificação do indivíduo.}
+#' \item{\code{id}}{Número de identificação do indivíduo.}
 #' 
-#' \item{sexo}{Variável dicotômica para o sexo do indivíduo, onde 0 
-#'     para mulheres e 1 para homens.}
+#' \item{\code{sexo}}{Variável dicotômica para o sexo do indivíduo, 
+#'     onde 0 para mulheres e 1 para homens.}
 #' 
-#' \item{sabor}{Nota dada pelo indivíduo para o sabor do produto, 
+#' \item{\code{sabor}}{Nota dada pelo indivíduo para o sabor do produto, 
 #'    variando de 1 a 5.}
 #'
-#' \item{aroma}{Nota dada pelo indivíduo para o aroma do produto, 
+#' \item{\code{aroma}}{Nota dada pelo indivíduo para o aroma do produto, 
 #'    variando de 1 a 5.}
 #'     
-#' \item{cor}{Nota dada pelo indivíduo para a cor do produto, 
+#' \item{\code{cor}}{Nota dada pelo indivíduo para a cor do produto, 
 #'    variando de 1 a 5.}
 #' 
-#' \item{textu}{Nota dada pelo indivíduo para a textura do produto, 
-#'    variando de 1 a 5.}
+#' \item{\code{textu}}{Nota dada pelo indivíduo para a textura do 
+#'    produto, variando de 1 a 5.}
 #'
-#' \item{utili}{Nota dada pelo indivíduo para a utilidade do produto, 
-#'    variando de 1 a 5.}
+#' \item{\code{utili}}{Nota dada pelo indivíduo para a utilidade do 
+#'    produto, variando de 1 a 5.}
 #'     
-#' \item{local}{Nota dada pelo indivíduo para a facilidade de encontrar
-#'    o produto para compra, variando de 1 a 5.}
+#' \item{\code{local}}{Nota dada pelo indivíduo para a facilidade de 
+#'    encontrar o produto para compra, variando de 1 a 5.}
 #'     
-#' \item{embal}{Nota dada pelo indivíduo para a embalagem do produto, 
-#'    variando de 1 a 5.}
+#' \item{\code{embal}}{Nota dada pelo indivíduo para a embalagem do 
+#'    produto, variando de 1 a 5.}
 #'
 #' }
 #' 
-#' @keywords Pesquisa produto 
-#' @source MINGOTI, S.A. (2005). Análise de dados através de métodos de 
+#' @keywords TODO
+#' @source Mingoti, S.A. (2005). Análise de dados através de métodos de 
 #'     estatística multivariada - uma abordagem aplicada. 
 #'     Belo Horizonte, MG: Editora UFMG. (pg 108).
 #'      
