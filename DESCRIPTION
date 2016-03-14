@@ -32,5 +32,6 @@ Depends:
     R (>= 3.2.3)
 Suggests:
     lattice,
+    ggplot2,
     car
 RoxygenNote: 5.0.1
