@@ -1,4 +1,4 @@
-#' @name CharnetEg.12.2
+#' @name CharnetEg12.2
 #' 
 #' @title Estudo da Medida de Tecido Adiposo Obtido por Tomografia
 #'     Computadorizada
@@ -33,7 +33,7 @@
 #'
 #' @examples
 #'
-#' data(CharnetEg.12.2)
+#' data(CharnetEg12.2)
 #'
 #' panel.density <- function(x, ...) {
 #'     usr <- par('usr')
@@ -43,5 +43,5 @@
 #'     plot(density(x), xlab = '', ylab = '', main = '')
 #' }
 #' 
-#' pairs(CharnetEg.12.2, diag.panel = panel.density)
+#' pairs(CharnetEg12.2, diag.panel = panel.density)
 NULL

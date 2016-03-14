@@ -1,4 +1,4 @@
-#' @name CharnetAp.D
+#' @name CharnetApD.1
 #' 
 #' @title Conjunto de Dados de Meninas Dançarinas
 #' 
@@ -32,19 +32,19 @@
 #'
 #' @examples
 #'
-#' data(CharnetAp.D)
+#' data(CharnetApD.1)
 #' 
 #' library(ggplot2)
 #'
 #' qplot(peso, altura,
-#'       data = CharnetAp.D,
+#'       data = CharnetApD.1,
 #'       color = idade,
 #'       xlab = "Peso",
 #'       ylab = "Altura",
 #'       main = "Relação Peso e Altura por Idade de Jovens Bailarinas")
 #'
 #' bailarinas <- qplot(ped, pee,
-#'                      data = CharnetAp.D,
+#'                      data = CharnetApD.1,
 #'                      xlab = "Angulação do pé direito",
 #'                      ylab = "Angulação do pé esquerdo",
 #'                      main = "Diferença na Angulação Entre os Pés")
