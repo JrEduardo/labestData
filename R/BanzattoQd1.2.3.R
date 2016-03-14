@@ -1,13 +1,15 @@
 #' @name BanzattoQd1.2.3
-#' @title Diâmetro à altura do peito de \emph{Eucalyptus saligna}
+#' @title Diâmetro à Altura do Peito de \emph{Eucalyptus saligna}
 #' @description Valores de diâmentro à altura do peito (DAP, cm) de uma
 #'     amostra aleatória de árvores de \emph{Eucalyptus saligna} de um
 #'     povoamento com 15 anos de idade.
 #' @format Um vetor numérico com 20 elementos.
 #' @keywords amostra
 #' @source Banzatto, D. A., & Kronka, S. D. (2013). Experimentação
-#'     Agrícola (4th ed.). Jaboticabal, SP: Funep. (pg 3)
+#'     Agrícola (4th ed.). Jaboticabal, SP: Funep. (Quadro 1.2.3 pág. 3)
 #' @examples
+#' data(BanzattoQd1.2.3)
+#'
 #' hist(BanzattoQd1.2.3, prob = TRUE,
 #'      xlab = expression(Diâmetro~à~altura~do~peito~(cm)),
 #'      ylab = "Densidade", main = NULL)

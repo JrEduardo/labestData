@@ -1,5 +1,5 @@
 #' @name BanzattoQd3.6.1
-#' @title Produção de matéria seca em cultivares de sorgo
+#' @title Produção de Matéria Seca em Cultivares de Sorgo
 #' @description Experimento em delineamento inteiramente casualizado
 #'     avaliando a produção de matéria de cultivares de sorgo. O
 #'     experimento é desbalanceado no número de repetições das
@@ -19,7 +19,8 @@
 #' }
 #' @keywords DIC desbalanceado
 #' @source Banzatto, D. A., & Kronka, S. D. (2013). Experimentação
-#'     Agrícola (4th ed.). Jaboticabal, SP: Funep. (pg 57)
+#'     Agrícola (4th ed.). Jaboticabal, SP: Funep. (Quadro 3.6.1 pág.
+#'     57)
 #' @examples
 #' library(lattice)
 #'

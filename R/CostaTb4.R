@@ -1,5 +1,5 @@
 #' @name CostaTb4
-#' @title Massa seca de parte aérea em cana-de-açúcar
+#' @title Massa Seca de Parte Aérea em Cana-de-açúcar
 #' @description Resultados de um experimento conduzido em casa de
 #'     vegetação em delineamento inteiramente casualizado para avaliar a
 #'     massa seca de parte aérea de variedades de cana-de-açúcar. A
@@ -21,7 +21,7 @@
 #' @keywords DIC
 #' @source Costa, J. R. (2003). Técnicas experimentais aplicadas às
 #'     ciências agrárias (Documentos 163). Seropédica: Embrapa
-#'     Agrobiologia. (pg 58)
+#'     Agrobiologia. (pág. 58)
 #' @examples
 #'
 #' library(lattice)

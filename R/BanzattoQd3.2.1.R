@@ -1,5 +1,5 @@
 #' @name BanzattoQd3.2.1
-#' @title Controle de pulgão na cultura de pepino
+#' @title Controle de Pulgão na Cultura de Pepino
 #' @description Dados de um experimento visando controle de pulgão
 #'     (\emph{Aphis gossypii} Glover) em cultura de pepino, instalado em
 #'     delineamento inteiramente casualizado com 6 repetições. A
@@ -21,7 +21,8 @@
 #' }
 #' @keywords DIC contagem
 #' @source Banzatto, D. A., & Kronka, S. D. (2013). Experimentação
-#'     Agrícola (4th ed.). Jaboticabal, SP: Funep. (pg 44)
+#'     Agrícola (4th ed.). Jaboticabal, SP: Funep. (Quadro 3.2.1 pág.
+#'     44)
 #' @examples
 #'
 #' library(lattice)

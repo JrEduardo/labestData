@@ -1,5 +1,5 @@
 #' @name BanzattoQd3.7.1
-#' @title Composição do substrato na altura de \emph{Pinus oocarpa}
+#' @title Composição do Substrato na Altura de \emph{Pinus oocarpa}
 #' @description Dados de experimento para estudo do efeito de 5
 #'     composições de substrato para o desenvolvimento de \emph{Pinus
 #'     oocarpa}. Experimento realizado em delineamento inteiramente
@@ -22,7 +22,8 @@
 #' }
 #' @keywords DIC contrastes
 #' @source Banzatto, D. A., & Kronka, S. D. (2013). Experimentação
-#'     Agrícola (4th ed.). Jaboticabal, SP: Funep. (pg 64)
+#'     Agrícola (4th ed.). Jaboticabal, SP: Funep. (Quadro 3.7.1 pág.
+#'     64)
 #' @examples
 #'
 #' library(lattice)

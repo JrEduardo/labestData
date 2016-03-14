@@ -19,10 +19,12 @@
 #' }
 #' @keywords DBC batatinha
 #' @source Pimentel-Gomes, F. (2009). Curso de Estatístitica
-#'     Experimental (15th ed.). Piracicaba: FEALQ.
+#'     Experimental (15th ed.). Piracicaba: FEALQ. (Exemplo 5.2)
 #' @examples
 #'
 #' library(lattice)
+#'
+#' data(PimentelEg5.2)
 #'
 #' xyplot(producao ~ variedade, groups = bloco, data = PimentelEg5.2,
 #'        type = "b",

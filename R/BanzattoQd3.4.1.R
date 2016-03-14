@@ -1,5 +1,5 @@
 #' @name BanzattoQd3.4.1
-#' @title Produtividades de cultivares de mandioca
+#' @title Produtividades de Cultivares de Mandioca
 #' @description Produção de mandioca em experimento de competição de
 #'     cultivares de mandioca. O experimento foi instalado em
 #'     delineamento inteiramente casualizado devido a área ser homogênea
@@ -20,7 +20,8 @@
 #' }
 #' @keywords DIC
 #' @source Banzatto, D. A., & Kronka, S. D. (2013). Experimentação
-#'     Agrícola (4th ed.). Jaboticabal, SP: Funep. (pg 50)
+#'     Agrícola (4th ed.). Jaboticabal, SP: Funep. (Quadro 3.4.1 pág.
+#'     50)
 #' @examples
 #'
 #' library(lattice)
