@@ -1,5 +1,5 @@
 #' @name BanzattoQd3.2.1
-#' @title Controle de pulgão na cultura de pepino
+#' @title Controle de Pulgão na Cultura de Pepino
 #' @description Dados de um experimento visando controle de pulgão
 #'     (\emph{Aphis gossypii} Glover) em cultura de pepino, instalado em
 #'     delineamento inteiramente casualizado com 6 repetições. A
@@ -9,19 +9,20 @@
 #'
 #' \describe{
 #'
-#' \item{\code{trat}}{Fator de níveis nominais. Tratamento aplicado para
+#' \item{trat}{Fator de níveis nominais. Tratamento aplicado para
 #'     controle do púlgão.}
 #'
-#' \item{\code{rept}}{Número inteiro que identifica as repetições de cada
+#' \item{rept}{Número inteiro que identifica as repetições de cada
 #'     tratamento.}
 #'
-#' \item{\code{pulgoes}}{Número de pulgões coletados 36 horas após a
+#' \item{pulgoes}{Número de pulgões coletados 36 horas após a
 #'     pulverização dos tratamentos.}
 #'
 #' }
 #' @keywords DIC contagem
 #' @source Banzatto, D. A., Kronka, S. D. (2013). Experimentação
-#'     Agrícola (4th ed.). Jaboticabal, SP: Funep. (pg 44)
+#'     Agrícola (4th ed.). Jaboticabal, SP: Funep. (Quadro 3.2.1 pág.
+#'     44)
 #' @examples
 #'
 #' library(lattice)

@@ -149,7 +149,7 @@ as de nome simples mas longo, por abreviação. Veja a tabela com
 exemplos.
 
 | Variável resposta         | Nome da coluna |
-|---------------------------+----------------|
+|---------------------------|----------------|
 | Dias                      | dias           |
 | Idade                     | idade          |
 | Renda                     | renda          |

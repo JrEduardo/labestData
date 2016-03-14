@@ -1,5 +1,5 @@
 #' @name PimentelEg5.2
-#' @title Competição de variedades de batatinha
+#' @title Competição de Variedades de Batatinha
 #' @description Experimento de competição de variedades de batatinha
 #'     feito pelo Engenheiro Agrônomo Oscar A. Garay em Balcare,
 #'     Argentina. O experimento foi realizado em blocos casualizados.
@@ -19,10 +19,12 @@
 #' }
 #' @keywords DBC
 #' @source Pimentel-Gomes, F. (2009). Curso de Estatístitica
-#'     Experimental (15th ed.). Piracicaba, SP: FEALQ.
+#'     Experimental (15th ed.). Piracicaba, SP: FEALQ. (Exemplo 5.2)
 #' @examples
 #'
 #' library(lattice)
+#'
+#' data(PimentelEg5.2)
 #'
 #' xyplot(producao ~ variedade, groups = bloco, data = PimentelEg5.2,
 #'        type = "b",
