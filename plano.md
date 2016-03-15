@@ -1,105 +1,40 @@
 # Painel de atividades do labestData #
 
-- [Conteúdo previsto](#conteudo-previsto)
+**PET Estatística UFPR** - <pet.estatistica.ufpr@gmail.com>
+
 - [Painel de realização](#painel-de-realizacao)
 - [Planejamento semanal](#planejamento-semanal)
-- [Mini roteiro GIT e adição de *dataset*](#mini-roteiro-do-projeto)
 
 Este painel tem por objetivo documentar as atividades semanalmente
 planejadas para cada integrante bem como suas realizações conforme fluxo
 de trabalho adotado para o projeto **labestData**.
 
-## Conteúdo previsto ##
-
-Nesta primeira fase do projeto foram definidas algumas obras nacionais
-para transcrição e documentação de suas tabelas de dados ao pacote. As
-obras escolhidas estão descritas abaixo e compreendem as disciplinas de
-Planejamento de Experimentos, Análise de Regressão Linear e Análise
-Estatística Multivariada.
-
-<!-- Inserir links das milestones que representam os livros -->
-1. Borges, C. G., Demétrio, & Zocchi, S. S. (2011). **Modelo de
-   Regressão. Piracicaba**, SP: USP.
-   Sob responsabilidade de
-   [*Alcides Neto*](https://gitlab.c3sl.ufpr.br/acn13)
-
-2. MINGOTI, S.A. (2005). **Análise de dados através de métodos de
-   estatística mulq-tivariada - uma abordagem aplicada**. Belo
-   Horizonte, MG: Editora UFMG.
-   Sob responsabilidade de
-   [*Paula Alessandra*](https://gitlab.c3sl.ufpr.br/pazd11) e
-   [*Ângela Legey*](https://gitlab.c3sl.ufpr.br/alcl12)
-
-3. Barros, W. S. & Dias, L. A. S. (2009). **Biometria Experimental**,
-   UFV Viçosa, MG.
-   Sob responsabilidade de
-   [*Altamiro Basiewics*](https://gitlab.c3sl.ufpr.br/aab15)
-
-4. Zimmermann, F.J.(2004), **Estatística aplicada à pesquisa agrícola**
-   (1st ed.). Santo Antônio de Goiás, GO: Embrapa Arroz e Feijão.
-   Sob responsabilidade de
-   [*Bruna Wundervald*](https://gitlab.c3sl.ufpr.br/bdw13)
-
-5. Pimentel-Gomes, F. (2009). **Curso de Estatística Experimental**
-   (15th ed.). Piracicaba: FEALQ.
-   Sob responsabilidade de
-   [*Bruno Geronymo*](https://gitlab.c3sl.ufpr.br/bg15)
-
-6. Charnet, R., de Luna Freire, C.A., Charnet, E.M.R. & Bonvino,
-   H. (2008). **Análise de modelos de regressão linear com aplicações**
-   (2nd ed., p. 356). Editora Unicamp
-   Sob responsabilidade de
-   [*Daniel Ikenaga*](https://gitlab.c3sl.ufpr.br/di12)
-
-7. Ferreira, D. F. (2011). **Estatística Multivariada** (2nd
-   ed.). Lavras, editora UFLA.
-   Sob responsabilidade de
-   [*Eduardo Junior*](https://gitlab.c3sl.ufpr.br/eerj12)
-
-8. Manly, B. J. F. (2005). **Métodos Estatísticos Multivariados- uma
-   introdução**. Porto Alegre, RS: ARTMED
-   Sob responsabilidade de
-   [*Gabriel Klostermann*](https://gitlab.c3sl.ufpr.br/gsk12)
-
-9. Ramalho, M. A. P., Ferreira, D. F. & Oliveira,
-   A. C. (2005). **Experimentação em Genética e Melhoramento de
-   Plantas** (2th ed.). Lavras: UFLA.
-   Sob responsabilidade de
-   [*Jhenifer Veloso*](https://gitlab.c3sl.ufpr.br/jcv12)
-
-10. Banzatto, D. A., & Kronka, S. D. (2013). **Experimentação Agrícola**
-   (4th ed.). Jaboticabal, SP: Funep.
-   Sob responsabilidade de
-   [*Walmes Zeviani*](https://gitlab.c3sl.ufpr.br/walmes)
-
-Ao término desta primeira fase pretende-se ter todos os conjuntos de
-dados relevantes destas obras disponíveis para usuários do pacote. Ainda
-*vignettes* (vinhetas), exemplificando a análise de dados (em códigos R)
-referentes a cada disciplina compreendida, serão elaboradas para
-servirem de inspiração ou roteiro para análise dos demais dados do
-pacote.
-
-[Retornar à tabela de conteúdo](#painel-de-atividades-do-labestdata)
-
 ## Painel de realização ##
 
-**REFERENTE A 1º SEMANA (01/03 à 08/03)**
+Na tabela abaixo são apresentados os _status_ de realização das
+atividades propostas para cada semana e integrante. Cada coluna da
+tabela, com exceto a que apresenta os integrantes, mostra dois _status_
+separados por um pipe (`|`). O estado à esquerda indica se as
+atividades da semana foram realizadas e à direita é apresentado se o MR
+foi aceito, ou seja, se as contribuições da respectiva semana foram
+incorporados ao ramo `devel`. Para facitar a visualização o _emoji_
+:white_check_mark:, representa o SIM e :x: o NÃO.
 
-| Integrante                       | Realizou as atividades propostas ? | Solicitou MR ? |
-|----------------------------------+----------------------+---------|
-| Alcides Conte Neto               | S :white_check_mark: | S :white_check_mark: |
-| Altamiro Antonio Basiewics       | S :white_check_mark: | S :white_check_mark: |
-| Angela Luiza Cunha Legey         | S :white_check_mark: | S :white_check_mark: |
-| Bruna Davies Wundervald          | S :white_check_mark: | S :white_check_mark: |
-| Bruno Geronymo                   | S :white_check_mark: | S :white_check_mark: |
-| Daniel Ikenaga                   | S :white_check_mark: | S :white_check_mark: |
-| Eduardo Elias Ribeiro Junior     | S :white_check_mark: | S :white_check_mark: |
-| Gabriel Sartori Klostermann      | S :white_check_mark: | S :white_check_mark: |
-| Jhenifer Caetano Veloso          | S :white_check_mark: | S :white_check_mark: |
-| Monica Ludmila Hintz De Oliveira | N :x:                | N :x:                |
-| Paula Alessandra Zeizer Dimas    | S :white_check_mark: | S :white_check_mark: |
-| Walmes Marques Zeviani           | S :white_check_mark: | S :white_check_mark: |
-| Cesar Augusto Taconeli           | S :white_check_mark: | S :white_check_mark: |
+|  Integrante                        |                 1º S                      |  2º S |  3º S |  4º S |  5º S |  6º S |  7º S |  8º S |  9º S | 10º S |
+|------------------------------------|:-----------------------------------------:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+|  Alcides Conte Neto                | :white_check_mark:  | :white_check_mark:  | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . |
+|  Altamiro Antonio Basiewics        | :white_check_mark:  | :white_check_mark:  | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . |
+|  Angela Luiza Cunha Legey          | :white_check_mark:  | :white_check_mark:  | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . |
+|  Bruna Davies Wundervald           |         :white_check_mark:  | :x:         | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . |
+|  Bruno Geronymo                    | :white_check_mark:  | :white_check_mark:  | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . |
+|  Daniel Ikenaga                    | :white_check_mark:  | :white_check_mark:  | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . |
+|  Eduardo Elias Ribeiro Junior      | :white_check_mark:  | :white_check_mark:  | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . |
+|  Gabriel Sartori Klostermann       |         :white_check_mark:  | :x:         | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . |
+|  Jhenifer Caetano Veloso           |         :white_check_mark:  | :x:         | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . |
+|  Monica Ludmila Hintz De Oliveira  |                 :x: | :x:                 | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . |
+|  Paula Alessandra Zeizer Dimas     | :white_check_mark:  | :white_check_mark:  | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . |
+|  Walmes Marques Zeviani            | :white_check_mark:  | :white_check_mark:  | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . |
+|  Cesar Augusto Taconeli            |                     -                     | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . |
 
 [Retornar à tabela de conteúdo](#painel-de-atividades-do-labestdata)
 
@@ -177,133 +112,5 @@ ramos específicos, e solicitado MR ao respectivo responsável pelo
 *merge* até as 12h00 do dia 15/03. Após esta data o
 [painel de realização](#painel-de-realizacao) será atualizado com o
 status das atividades propostas.
-
-[Retornar à tabela de conteúdo](#painel-de-atividades-do-labestdata)
-
-## Mini roteiro do projeto ##
-
-A cada semana nós devemos criar novos ramos para realização das
-atividades propostas. Porém devemos nos atentar ao criá-los. Estes ramos
-devem necessariamente sair do ramo `devel` e não é necessário a
-incorporação do ramo de trabalho anterior (solicitado por MR) para que
-este seja criado. Abaixo temos os comandos GIT para criar o ramo a
-partir do `devel`.
-
-```bash
-## Atualiza todos os ramos com a versão do servidor
-git pull
-
-## Retorna para o ramo devel
-git checkout devel
-
-## Cria um ramo para atividades propostas no issue00
-git branch fulano00
-
-## Vai para o ramo criado
-git checkout fulano00
-
-```
-
-Com isso já estamos em um ramo criado especificamente para o
-desenvolvimento das atividades propostas no `issue#00`, assim podemos
-prosseguir com o trabalho propriamente dito, a adição de conjunto de
-dados.
-
-```r
-##======================================================================
-## Passo 1 - Ler e inserir os dados na pasta ./data-raw/
-
-## Usando o R ----------------------------------------------------------
-
-## Transcreva os dados das tabelas
-ex <- expand.grid(X1 = 1:6, X2 = LETTERS[1:4])
-x3 <- scan()
-CiclanoTb0.0 <- data.frame(X1 = ex$X1, X2 = ex$X2, X3 = x3)
-
-## Salve a tabela em formato txt no diretório ./data-raw/
-write.table(CiclanoTb0.0,
-            file = "./data-raw/CiclanoTb0.0.txt",
-            sep = "\t",
-            row.names = FALSE)
-
-## Você pode usar a função write2txt() definida em:
-## https://gitlab.c3sl.ufpr.br/snippets/34.
-write2txt(CiclanoTb0.0)
-
-## Usando outro software -----------------------------------------------
-
-## Transcreva os dados da tabela no software e salve-os no formato txt
-## na pasta ./data-raw/
-
-## Leia os dados na sessão R, para utilizá-los posteriormente
-CiclanoTb0.0 <- read.table("./data-raw/CiclanoTb0.0.txt",
-                           header = TRUE, sep = "\t")
-
-##======================================================================
-## Passo 2 - Inserir os dados no diretório ./data/
-library(devtools)
-use_data(CiclanoTb0.0)
-
-## Você pode usar a função write2rda() definida em:
-## https://gitlab.c3sl.ufpr.br/snippets/34.
-write2rda(CiclanoTb0.0)
-
-##======================================================================
-## Passo 3 - Escreva a documentação utilizando as tags roxygen2
-
-## Dica: rode os códigos da sessão exemplo aqui, para verificar se os
-## gráficos/tabelas são realizadas corretamente.
-table(CiclanoTb0.0)
-plot(X1 ~ X2, data = CiclanoTb0.0)
-
-## Você pode usar a função write2Rdoc() definida em:
-## https://gitlab.c3sl.ufpr.br/snippets/34. Essa função cria o arquivo
-## com nome do objeto e algumas já escreve algumas informações,
-## retiradas do próprio objeto. Depois de usar, abra o arquivo e
-## preencha o restante.
-write2Rdoc(CiclanoTb0.0)
-
-##======================================================================
-## Passo 4 - Gere e check a documentação (insere um arquivo no diretório
-## ./man/). Obs.: O aviso sobre o NAMESPACE pode ser ignorado, pois o
-## document() tenta criar um NAMESPACE onde já há um existente, mas isso
-## não é problema pois ambos são arquivos sem conteúdo relevante.
-document()
-check_man()
-
-##======================================================================
-## Passo 5 - Verifique a constituição e organização do pacote (caso haja
-## ERROS, WARNINGS ou mais de um NOTE. Corrija o problema e continue do
-## passo 4)
-check()
-
-```
-
-Após todos os passos concluídos devemos ter os arquivos `.txt`, `.rda`,
-`.R` e `.Rd` devidamente criados. Podemos voltar ao terminal e *comitar*
-nossas contribuições.
-
-```bash
-## Adiciona os 4 arquivos criados e commita as alterações
-git add data-raw/. data/. R/. man/CiclanoTb0.0
-git commit -m "Adiciona tabela 0.0 do livro do Ciclano"
-
-## Desconsidera as alterações realizadas nos arquivos que são gerados
-## automaticamente
-git checkout .
-
-## Enviando as alterações para o servidor
-git push origin fulano00
-
-```
-
-Agora com tudo *commitado* podemos seguir para o próximo conjunto de
-dados e refazer todos os passos descritos na sessão R.
-
-Vale ressaltar que este mini roteiro compreende a rotina básica para
-inclusão de um conjunto de dados, se for necessária a inclusão de um
-biblioteca para elaboração de gráficos ou análises ou ainda forem
-criadas funções para o pacote os arquivos NAMESPACE e DESCRIPTION
-deverão ser alterados e essas alterações *commitadas*.
 
 [Retornar à tabela de conteúdo](#painel-de-atividades-do-labestdata)
