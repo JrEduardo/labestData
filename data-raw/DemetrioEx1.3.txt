@@ -1,4 +1,4 @@
-co2 absorv
+co2	absorv
 75	0
 100	0.65
 100	0.5
