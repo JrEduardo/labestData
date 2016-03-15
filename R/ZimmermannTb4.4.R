@@ -8,11 +8,11 @@
 #'
 #' \describe{
 #'
-#' \item{trat}{Fator de níveis nominais. Tratamento aplicado em feijão.}
+#' \item{\code{trat}}{Fator de níveis nominais. Tratamento aplicado em feijão.}
 #'
-#' \item{bloco}{Número inteiro que identifica o bloco da observação.}
+#' \item{\code{bloco}}{Número inteiro que identifica o bloco da observação.}
 #'
-#' \item{prod}{Produção de grãos de feijão.}
+#' \item{\code{prod}}{Produção de grãos de feijão.}
 #'
 #' }
 #' @keywords DBC
