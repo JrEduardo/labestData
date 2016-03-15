@@ -20,7 +20,7 @@
 #' }
 #' @keywords DIC
 #' @source Costa, J. R. (2003). Técnicas experimentais aplicadas às
-#'     ciências agrárias (Documentos 163). Seropédica: Embrapa
+#'     ciências agrárias (Documentos 163). Seropédica, RJ: Embrapa
 #'     Agrobiologia. (pág. 58)
 #' @examples
 #'
