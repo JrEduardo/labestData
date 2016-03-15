@@ -3,7 +3,6 @@
 #' @description Pesquisa de mercado feita para avaliar a aceitação do
 #'     consumidor por um novo produto comestível. Cada consumidor foi
 #'     convidado a dar uma nota de 1 a 5 para sete atributos do produto.
-#'      
 #' @format Um \code{data.frame} com 200 observações e 9 variáveis, 
 #'      em que
 #'
@@ -36,8 +35,7 @@
 #'    produto, variando de 1 a 5.}
 #'
 #' }
-#' 
-#' @keywords TODO
+#' @keywords Análise fatorial
 #' @source Mingoti, S.A. (2005). Análise de dados através de métodos de 
 #'     estatística multivariada - uma abordagem aplicada. 
 #'     Belo Horizonte, MG: Editora UFMG. (pg 108).

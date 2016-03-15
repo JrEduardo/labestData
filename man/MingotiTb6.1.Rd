@@ -36,5 +36,7 @@ xyplot(renda ~ idade,
       ylab="Renda mensal")
 
 }
-\keyword{TODO}
+\keyword{Análise}
+\keyword{agrupamentos}
+\keyword{de}
 

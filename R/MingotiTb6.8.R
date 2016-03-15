@@ -5,7 +5,6 @@
 #'     estabilidade política e de segurança. Os índices foram 
 #'     construídos por uma metodologia da ONU, e quanto maior 
 #'     esses valores, melhor será a qualidade do país.
-#'     
 #' @format Um \code{data.frame} com 21 observações e 5 variáveis, em que
 #' 
 #' \describe{
@@ -27,8 +26,7 @@
 #'     desestabilização (tensões étnicas, conflito armado, etc).}
 #'
 #' }
-#' 
-#' @keywords TODO  
+#' @keywords Análise de agrupamentos
 #' @source Mingoti, S.A. (2005). Análise de dados através de métodos de 
 #'     estatística multivariada - uma abordagem aplicada. 
 #'     Belo Horizonte, MG: Editora UFMG. (pg 184).

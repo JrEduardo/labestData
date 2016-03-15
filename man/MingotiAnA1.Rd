@@ -57,5 +57,6 @@ xyplot(notas ~ atributo, groups = sexo, data = da,
       jitter.y = TRUE, type = c("p", "a"), auto.key = TRUE)
 
 }
-\keyword{TODO}
+\keyword{Análise}
+\keyword{fatorial}
 
