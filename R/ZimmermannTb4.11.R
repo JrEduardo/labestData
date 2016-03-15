@@ -7,15 +7,15 @@
 #'
 #' \describe{
 #'
-#' \item{trat}{Fator de níveis nominais. Tratamento aplicado em
+#' \item{\code{trat}}{Fator de níveis nominais. Tratamento aplicado em
 #'     plantas.}
 #'
-#' \item{amostra}{Fator de níveis numéricos. Identifica à qual amostra
+#' \item{\code{amostra}}{Fator de níveis numéricos. Identifica à qual amostra
 #'                pertence a observação.}
 #'
-#' \item{bloco}{Número inteiro que identifica o bloco da observação.}
+#' \item{\code{bloco}}{Número inteiro que identifica o bloco da observação.}
 #'
-#' \item{prod}{Altura média de perfilhos.}
+#' \item{\code{prod}}{Altura média de perfilhos.}
 #'
 #' }
 #' @keywords DBC
