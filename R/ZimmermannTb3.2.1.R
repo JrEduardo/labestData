@@ -8,13 +8,13 @@
 #'
 #' \describe{
 #'
-#' \item{trat}{Fator de níveis numéricos. Tratamento aplicado em arroz
+#' \item{\code{trat}}{Fator de níveis numéricos. Tratamento aplicado em arroz
 #'      irrigado.}
 #'
-#' \item{rept}{Número inteiro que identifica as repetições de cada
+#' \item{\code{rept}}{Número inteiro que identifica as repetições de cada
 #'     tratamento.}
 #'
-#' \item{prod}{Produção de grãos de arroz irrigado em kg ha\eqn{^{-1}}.}
+#' \item{\code{prod}}{Produção de grãos de arroz irrigado em kg ha\eqn{^{-1}}.}
 #'
 #' }
 #' @keywords DIC
