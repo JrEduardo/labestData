@@ -5,7 +5,8 @@
 #'     datas e se calculou área sob a curva do progresso da doença. Este
 #'     primeiro experimento foi semeado na densidade de duzentas
 #'     sementes por metro. Os dados foram transformados por logaritmo
-#'     natural, procurando-se uma maior homogeneização das variâncias.
+#'     natural, procurando-se uma maior homogeneização das variâncias. 
+#'      A unidade de medida não é conhecida. 
 #' @format Um \code{data.frame} com 18 observações e 3 variáveis
 #'
 #' \describe{
