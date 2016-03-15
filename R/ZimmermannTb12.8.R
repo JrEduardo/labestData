@@ -11,12 +11,12 @@
 #'
 #' \describe{
 #'
-#' \item{trat}{Fator de níveis nominais. Tratamento aplicado em
+#' \item{\code{trat}}{Fator de níveis nominais. Tratamento aplicado em
 #'     plantas.}
 #'
-#' \item{bloco}{Número inteiro que identifica o bloco da observação.}
+#' \item{\code{bloco}}{Número inteiro que identifica o bloco da observação.}
 #'
-#' \item{prod}{Área sob a curva do progresso de uma doença.}
+#' \item{\code{prod}}{Área sob a curva do progresso de uma doença.}
 #'
 #' }
 #' @keywords DBC
