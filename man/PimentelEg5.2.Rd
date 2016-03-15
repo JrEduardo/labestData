@@ -36,6 +36,7 @@ xyplot(producao ~ variedade, groups = bloco, data = PimentelEg5.2,
        type = "b",
        ylab=expression(Produção~(t~ha^{-1})),
        xlab="Variedades de batatinha")
+
 }
 \keyword{DBC}
 
