@@ -10,10 +10,15 @@ library(devtools)
 library(roxygen2)
 
 # - Instalando as dependencias (descritas no DESCRIPTION)
+
+lib <- path.expand("~/R-test/")
+dir.create(lib)
+.libPaths(new = lib)
+.libPaths()
+
 install_deps(dependencies = TRUE,
              quiet = TRUE,
              upgrade = FALSE,
-             lib = "~/R-tests/",
              repos = "http://cran-r.c3sl.ufpr.br/")
 
 sessionInfo()
@@ -64,11 +69,6 @@ build(manual = TRUE, vignettes = TRUE)
 
 #--------------------------------------------
 # Instalar o pacote.
-
-lib <- path.expand("~/R-test/")
-dir.create(lib)
-.libPaths(new = lib)
-.libPaths()
 
 install()
 
