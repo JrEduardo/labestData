@@ -8,19 +8,19 @@
 #' 
 #' \describe{
 #'
-#' \item {\code{grupo} Grupos caninos}
+#' \item {\code{grupo}} {Grupos caninos}
 #' 
-#' \item {\code{largm} largura da mandíbula (mm)}
+#' \item {\code{largm}} {largura da mandíbula (mm)}
 #' 
-#' \item {\code{altm} altura da mandíbula abaixo do primeiro molar (mm).}
+#' \item {\code{altm}} {altura da mandíbula abaixo do primeiro molar (mm).}
 #'
-#' \item {\code{comppm} Comprimento do primeiro molar (mm).}
+#' \item {\code{comppm}} {Comprimento do primeiro molar (mm).}
 #' 
-#' \item {\code{largpm} largura do primeiro molar (mm).}
+#' \item {\code{largpm}} {largura do primeiro molar (mm).}
 #' 
-#' \item {\code{compptm} comprimento do primeiro ao terceiro molar (mm).}
+#' \item {\code{compptm}} {comprimento do primeiro ao terceiro molar (mm).}
 #' 
-#'  \item {\code{comppqm} comprimento do primeiro ao quarto molar (mm).}
+#'  \item {\code{comppqm}} {comprimento do primeiro ao quarto molar (mm).}
 #' }
 #'
 #' @keywords Todo

@@ -7,27 +7,27 @@
 
 \describe{
 
-\item {\code{pais} País europeu.}
+\item {\code{pais}} {País europeu.}
 
-\item {\code{grupo} Grupos econômicos. UE: União Europeia - AELC: Área europeia de livre comércio - Leste - Outro}
+\item {\code{grupo}} {Grupos econômicos. UE: União Europeia - AELC: Área europeia de livre comércio - Leste - Outro}
 
-\item {\code{agr} Agricultura, florestal e pesca.}
+\item {\code{agr}} {Agricultura, florestal e pesca.}
 
-\item {\code{min} Mineração e exploração de pedreiras.}
+\item {\code{min}} {Mineração e exploração de pedreiras.}
 
-\item {\code{fab} Fabricação.}
+\item {\code{fab}} {Fabricação.}
 
-\item {\code{fea} Fornecimento de energia e água.}
+\item {\code{fea}} {Fornecimento de energia e água.}
 
-\item {\code{con} Construção.}
+\item {\code{con}} {Construção.}
  
-\item {\code{ser} Serviços.}
+\item {\code{ser}} {Serviços.}
  
-\item {\code{fin} Finanças.}
+\item {\code{fin}} {Finanças.}
  
-\item {\code{ssp} Serviços sociais e pessoais.}
+\item {\code{ssp}} {Serviços sociais e pessoais.}
 
-\item {\code{tc} Transportes e comunicações.}
+\item {\code{tc}} {Transportes e comunicações.}
 
 }}
 \source{
