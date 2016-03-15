@@ -1,4 +1,4 @@
-"tempo"	"infil"
+tempo	infil
 1	0.8
 2	1.3
 4	1.8

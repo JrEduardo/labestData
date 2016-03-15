@@ -1,4 +1,4 @@
-"ovo"	"foli"
+ovo foli
 39	37
 29	34
 46	52
