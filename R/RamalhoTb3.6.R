@@ -6,14 +6,14 @@
 #'
 #' \describe{
 #'
-#' \item{amostra}{Número identificador da amostra.}
+#' \item{\code{amostra}}{Número identificador da amostra.}
 #'
-#' \item{isol}{Isolados do fungo (A, B e C).}
+#' \item{\code{isol}}{Isolados do fungo (A, B e C).}
 #'
-#' \item{larg}{Largura dos ascos dos isolados (TODO unidade de medida).}
+#' \item{\code{larg}}{Largura dos ascos dos isolados.}
 #'
 #' }
-#' @keywords TODO
+#' @keywords DBC
 #' @source Ramalho, M. A. P., Ferreira, D. F., Oliveira, A. C. (2005).
 #'     Experimentação em Genética e Melhoramento de Plantas (2th ed.).
 #'     Lavras: UFLA. (pg 48)

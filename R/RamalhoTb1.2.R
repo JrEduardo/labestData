@@ -6,9 +6,9 @@
 #'
 #' \describe{
 #'
-#' \item{varied}{Fator de níveis nominais das variedades de milho.}
+#' \item{\code{varied}}{Fator de níveis nominais das variedades de milho.}
 #'
-#' \item{prod}{Produtividade média de espiga (ton ha\eqn{^{-1}}).}
+#' \item{\code{prod}}{Produtividade média de espiga (ton ha\eqn{^{-1}}).}
 #'
 #' }
 #' @keywords ASS

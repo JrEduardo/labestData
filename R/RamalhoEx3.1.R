@@ -7,11 +7,12 @@
 #'
 #' \describe{
 #'
-#' \item{fugic}{Tipo de fungicida aplicado.}
+#' \item{\code{fugic}}{Fator que indica o tipo de tratamento aplicado.
+#'     Fungicida (A, B, C, D, E) ou controle (Fc).}
 #'
-#' \item{rept}{Repetições de inoculação do fungicida.}
+#' \item{\code{rept}}{Repetições de inoculação do fungicida.}
 #'
-#' \item{plant}{Número de plantas de milho observadas.}
+#' \item{\code{plant}}{Número de plantas de milho observadas.}
 #'
 #' }
 #' @keywords contagem

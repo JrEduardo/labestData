@@ -7,11 +7,11 @@
 #'
 #' \describe{
 #'
-#' \item{dias}{Idade de inoculação, tratamento.}
+#' \item{\code{dias}}{Idade de inoculação, tratamento.}
 #'
-#' \item{rept}{Número que indica as repetições de cada tratamento.}
+#' \item{\code{rept}}{Número que indica as repetições de cada tratamento.}
 #'
-#' \item{nemat}{Número de nematóides por vaso coletado.}
+#' \item{\code{nemat}}{Número de nematóides por vaso coletado.}
 #'
 #' }
 #' @keywords DIC contagem

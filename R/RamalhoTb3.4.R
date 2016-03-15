@@ -1,21 +1,25 @@
 #' @name RamalhoTb3.4
 #' @title Incidênica de \emph{Colletotrichum} no feijoeiro
-#' @description Neste experimento foram avaliados 16 tratamentos com 3
-#'     observações em blocos casualizados referentes a incidência de
-#'     Colletotrichum no feijoeiro, as notas foram dadas por 3
-#'     avaliadores.
+#' @description Experimento para verificar a incidência de patógenos do 
+#'     tipo \emph{Colletotrichum} nas cultivares de feijão, foi utilizada 
+#'     uma escala de notas variando de 1 (resistente) a 5 (completamente 
+#'     suscetível), estas notas foram dadas por três avaliadores. Neste 
+#'     experimento foram avaliados 16 tratamentos com 3 repetições em 
+#'     blocos casualizados.
 #' @format data.frame com 48 observações e 4 variáveis, em que
 #'
 #' \describe{
 #'
-#' \item{trat}{Tratamento.}
+#' \item{\code{trat}}{Fator de níveis numéricos. Tratamento aplicado 
+#' para verificar a incidência de \emph{Colletotrichum}.}
 #'
-#' \item{bloc}{Blocos onde são aplicados os tratamentos.}
+#' \item{\code{bloc}}{Fator de 3 níveis quantitativos, usado para 
+#' controle local}
 #'
-#' \item{cult}{Cultivar de feijão.}
+#' \item{\code{cult}}{Cultivar de feijão.}
 #'
-#' \item{nota}{Variável reposta que é a nota atribuída pelos avaliadores
-#'     para a incidência e \emph{Colletotrichum}.}
+#' \item{\code{nota}}{Variável reposta, nota atribuída pelos avaliadores
+#'     para a incidência de \emph{Colletotrichum}.}
 #'
 #' }
 #' @keywords DBC
