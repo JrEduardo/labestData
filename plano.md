@@ -14,27 +14,27 @@ de trabalho adotado para o projeto **labestData**.
 Na tabela abaixo são apresentados os _status_ de realização das
 atividades propostas para cada semana e integrante. Cada coluna da
 tabela, com exceto a que apresenta os integrantes, mostra dois _status_
-separados por um pipe (`|`). O estado à esquerda indica se as
+separados por uma barra (`/`). O estado à esquerda indica se as
 atividades da semana foram realizadas e à direita é apresentado se o MR
 foi aceito, ou seja, se as contribuições da respectiva semana foram
 incorporados ao ramo `devel`. Para facitar a visualização o _emoji_
 :white_check_mark:, representa o SIM e :x: o NÃO.
 
-|  Integrante                        |                 1º S                      |  2º S |  3º S |  4º S |  5º S |  6º S |  7º S |  8º S |  9º S | 10º S |
+|  Integrante                        |                    1º S                   |  2º S |  3º S |  4º S |  5º S |  6º S |  7º S |  8º S |  9º S | 10º S |
 |------------------------------------|:-----------------------------------------:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
-|  Alcides Conte Neto                | :white_check_mark:  | :white_check_mark:  | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . |
-|  Altamiro Antonio Basiewics        | :white_check_mark:  | :white_check_mark:  | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . |
-|  Angela Luiza Cunha Legey          | :white_check_mark:  | :white_check_mark:  | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . |
-|  Bruna Davies Wundervald           |         :white_check_mark:  | :x:         | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . |
-|  Bruno Geronymo                    | :white_check_mark:  | :white_check_mark:  | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . |
-|  Daniel Ikenaga                    | :white_check_mark:  | :white_check_mark:  | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . |
-|  Eduardo Elias Ribeiro Junior      | :white_check_mark:  | :white_check_mark:  | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . |
-|  Gabriel Sartori Klostermann       |         :white_check_mark:  | :x:         | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . |
-|  Jhenifer Caetano Veloso           |         :white_check_mark:  | :x:         | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . |
-|  Monica Ludmila Hintz De Oliveira  |                 :x: | :x:                 | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . |
-|  Paula Alessandra Zeizer Dimas     | :white_check_mark:  | :white_check_mark:  | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . |
-|  Walmes Marques Zeviani            | :white_check_mark:  | :white_check_mark:  | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . |
-|  Cesar Augusto Taconeli            |                     -                     | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . |
+|  Alcides Conte Neto                | :white_check_mark:  / :white_check_mark:  | . / . | . / . | . / . | . / . | . / . | . / . | . / . | . / . | . / . |
+|  Altamiro Antonio Basiewics        | :white_check_mark:  / :white_check_mark:  | . / . | . / . | . / . | . / . | . / . | . / . | . / . | . / . | . / . |
+|  Angela Luiza Cunha Legey          | :white_check_mark:  / :white_check_mark:  | . / . | . / . | . / . | . / . | . / . | . / . | . / . | . / . | . / . |
+|  Bruna Davies Wundervald           |         :white_check_mark:  / :x:         | . / . | . / . | . / . | . / . | . / . | . / . | . / . | . / . | . / . |
+|  Bruno Geronymo                    | :white_check_mark:  / :white_check_mark:  | . / . | . / . | . / . | . / . | . / . | . / . | . / . | . / . | . / . |
+|  Daniel Ikenaga                    | :white_check_mark:  / :white_check_mark:  | . / . | . / . | . / . | . / . | . / . | . / . | . / . | . / . | . / . |
+|  Eduardo Elias Ribeiro Junior      | :white_check_mark:  / :white_check_mark:  | . / . | . / . | . / . | . / . | . / . | . / . | . / . | . / . | . / . |
+|  Gabriel Sartori Klostermann       |         :white_check_mark:  / :x:         | . / . | . / . | . / . | . / . | . / . | . / . | . / . | . / . | . / . |
+|  Jhenifer Caetano Veloso           |         :white_check_mark:  / :x:         | . / . | . / . | . / . | . / . | . / . | . / . | . / . | . / . | . / . |
+|  Monica Ludmila Hintz De Oliveira  |                 :x: / :x:                 | . / . | . / . | . / . | . / . | . / . | . / . | . / . | . / . | . / . |
+|  Paula Alessandra Zeizer Dimas     | :white_check_mark:  / :white_check_mark:  | . / . | . / . | . / . | . / . | . / . | . / . | . / . | . / . | . / . |
+|  Walmes Marques Zeviani            | :white_check_mark:  / :white_check_mark:  | . / . | . / . | . / . | . / . | . / . | . / . | . / . | . / . | . / . |
+|  Cesar Augusto Taconeli            |                     -                     | . / . | . / . | . / . | . / . | . / . | . / . | . / . | . / . | . / . |
 
 [Retornar à tabela de conteúdo](#painel-de-atividades-do-labestdata)
 
