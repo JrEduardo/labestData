@@ -1,0 +1,49 @@
+#' @name BanzattoQd4.7.1
+#' @title Comparação de Métodos de Semeadura do Mamoeiro
+#' @description Estudo realizado em Jaboticabal - SP por Ruiz (1977)
+#'     que comparou métodos de semeadura no mamoeiro. O experimento foi
+#'     instalado em delineamento de blocos casualizados, com 4
+#'     repetições, avaliando 3 métodos de semeadura. Foram avaliadas
+#'     duas unidades experimentais por método em cada bloco.
+#' @format Um \code{data.frame} com 24 observações e 3 variáveis.
+#'
+#' \describe{
+#'
+#' \item{\code{bloco}}{Blocos usados para controle local.}
+#'
+#' \item{\code{semead}}{Métodos de semeadura do mamoeiro, com 3 níveis:
+#'     1) semeadura direta no campo, 2 semeadura em recipientes a pleno
+#'     sol e 3) semeadura em recipientes no ripado.}
+#'
+#' \item{\code{altura}}{Alturas médias (cm) das plantas de mamomeiro aos
+#'     147 dias após a semeadura.}
+#'
+#' }
+#' @keywords DBC
+#' @source Banzatto, D. A., & Kronka, S. D. (2013). Experimentação
+#'     Agrícola (4th ed.). Jaboticabal, SP: Funep. (Quadro 4.7.1
+#'     pág. 93)
+#'
+#' Ruiz, P. R. N. (1977). Estudo comparativo entre diferentes métodos de
+#'     semeadura na cultura do mamoeiro (\emph{Carica papaya}
+#'     L.). Tabalho de Conclusão de Curso (Graduação em Agronomia) -
+#'     Faculdade de Ciências Agrárias e Veterinárias, Universidade
+#'     Estadual Paulista, Jaboticabal - SP.
+#' @examples
+#'
+#' library(lattice)
+#'
+#' data(BanzattoQd4.7.1)
+#'
+#' addmargins(with(BanzattoQd4.7.1,
+#'                 tapply(X = altura,
+#'                        INDEX = list(semead, bloco),
+#'                        FUN = sum)))
+#'
+#' xyplot(altura ~ semead, data = BanzattoQd4.7.1,
+#'        groups = bloco, type = c("p", "a"),
+#'        xlab = "Método de semeadura de mamoeiro",
+#'        ylab = "Peso médio dos frutos (g)",
+#'        auto.key = list(title = "Bloco", cex.title = 1, columns = 2))
+#'
+NULL
