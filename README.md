@@ -34,7 +34,7 @@ Os colaboradores do *labestData* são os bolsistas do PET, voluntários e
 professores.
 
 |                                  | Tipo       | 1 etapa | 2 etapa |
-|----------------------------------+------------+---------+---------|
+|----------------------------------|------------|---------|---------|
 | Alcides Conte Neto               | Voluntário | S       | -       |
 | Altamiro Antonio Basiewics       | Petiano    | S       | -       |
 | Angela Luiza Cunha Legey         | Petiana    | S       | -       |

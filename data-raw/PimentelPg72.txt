@@ -1,0 +1,9 @@
+feno	ganhopeso
+alfafa	67.5
+alfafa	70.5
+alfafa	76.0
+alfafa	67.5
+quicuio	65.0
+quicuio	58.5
+quicuio	65.0
+quicuio	64.0

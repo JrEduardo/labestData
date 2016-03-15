@@ -1,0 +1,31 @@
+cult	rept	pms
+NK 300	1	10.3
+Sordan 67	1	9.8
+Pioneer 998	1	9.9
+Pioneer 93	1	21.2
+Sart	1	20.2
+NK 300	2	11.6
+Sordan 67	2	10
+Pioneer 998	2	9.6
+Pioneer 93	2	20.6
+Sart	2	20.6
+NK 300	3	11.7
+Sordan 67	3	10.2
+Pioneer 998	3	10
+Pioneer 93	3	22.3
+Sart	3	22.1
+NK 300	4	11.4
+Sordan 67	4	11.9
+Pioneer 998	4	10.4
+Pioneer 93	4	19.9
+Sart	4	20.8
+NK 300	5	11.2
+Sordan 67	5	10.4
+Pioneer 998	5	NA
+Pioneer 93	5	21
+Sart	5	20.9
+NK 300	6	11.2
+Sordan 67	6	10.5
+Pioneer 998	6	NA
+Pioneer 93	6	NA
+Sart	6	20.9

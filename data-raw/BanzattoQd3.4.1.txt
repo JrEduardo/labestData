@@ -1,0 +1,26 @@
+cult	rept	prod
+IAC 5	1	38.9
+IAC 7	1	20.9
+IAC 11	1	28.1
+Iracema	1	38.7
+Mantiqueira	1	47.8
+IAC 5	2	25.4
+IAC 7	2	26.2
+IAC 11	2	27
+Iracema	2	43.2
+Mantiqueira	2	47.8
+IAC 5	3	20.3
+IAC 7	3	32.3
+IAC 11	3	25.8
+Iracema	3	41.7
+Mantiqueira	3	44.7
+IAC 5	4	25.7
+IAC 7	4	28.3
+IAC 11	4	26.9
+Iracema	4	39
+Mantiqueira	4	50.5
+IAC 5	5	29.3
+IAC 7	5	28.7
+IAC 11	5	22.3
+Iracema	5	40.3
+Mantiqueira	5	56.4
