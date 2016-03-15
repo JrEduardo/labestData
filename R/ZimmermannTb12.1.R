@@ -8,13 +8,13 @@
 #'
 #' \describe{
 #'
-#' \item{trat}{Fator de níveis nominais. Tratamento aplicado em arroz
+#' \item{\code{trat}}{Fator de níveis nominais. Tratamento aplicado em arroz
 #'      irrigado.}
 #'
-#' \item{rept}{Número inteiro que identifica as repetições de cada
+#' \item{\code{rept}}{Número inteiro que identifica as repetições de cada
 #'     tratamento.}
 #'
-#' \item{prod}{Produção de grãos de arroz irrigado}
+#' \item{\code{prod}}{Produção de grãos de arroz irrigado}
 #'
 #' }
 #' @keywords DIC
