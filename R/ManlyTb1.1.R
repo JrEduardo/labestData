@@ -22,7 +22,7 @@
 #'
 #' @keywords TODO
 #' @source Manly, B. J. F. (2005). Métodos Estatísticos Multivariados:
-#'     uma introdução. Porto Alegre, RS: ARTMED (pg 14 e 15)
+#'     uma introdução. Porto Alegre, RS: Bookman (pg 14 e 15)
 #' @examples
 #'
 #' data(ManlyTb1.1)
