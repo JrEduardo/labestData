@@ -1,0 +1,51 @@
+#' @name ManlyTb1.5
+#' @title Emprego em paises europeus
+#'
+#' @description Porcentagens da força de trabalho de empregados em nove diferentes grupos de indústrias em 30 países na Europa
+#'
+#' @format Um \code{data.frame} com 30 registros e 11 variáveis.
+#' 
+#' \describe{
+#'
+#' \item {\code{pais} País europeu.}
+#' 
+#' \item {\code{grupo} Grupos econômicos. UE: União Europeia - AELC: Área europeia de livre comércio - Leste - Outro}
+#' 
+#
+#' \item {\code{agr} Agricultura, florestal e pesca.}
+#'
+#' \item {\code{min} Mineração e exploração de pedreiras.}
+#' 
+#' \item {\code{fab} Fabricação.}
+#' 
+#' \item {\code{fea} Fornecimento de energia e água.}
+#' 
+#' \item {\code{con} Construção.}
+#'  
+#' \item {\code{ser} Serviços.}
+#'  
+#' \item {\code{fin} Finanças.}
+#'  
+#' \item {\code{ssp} Serviços sociais e pessoais.}
+#' 
+#' \item {\code{tc} Transportes e comunicações.}
+#' 
+#' }
+#'
+#' @keywords Todo
+#' @source Manly, B. J. F. (2005). Métodos Estatísticos Multivariados- uma introdução.
+#'      Porto Alegre, RS: Bookman (pg 22)
+#' @examples
+#'
+#' data(ManlyTb1.5)
+#' 
+#' pairs(~ pais + grupo + agr + min + fab + fea + con + ser + fin + ssp + tc,
+#'       data = ManlyTb1.5, 
+#'       main="Gráfico de dispersão dos empregos")
+NULL
+
+path <- "/home/gabriel/labestData/data-raw/ManlyTb1.5.txt"
+ManlyTb1.5 <- read.table(path, 
+                         header = TRUE, 
+                         sep = "\t",
+                         dec = ".")
