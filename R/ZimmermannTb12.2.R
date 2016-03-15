@@ -4,7 +4,8 @@
 #'     a produtividade de grãos de arroz em lavoura conduzida com
 #'     inundação contínua até a fase de diferenciação do primórdio
 #'     floral e drenada após esta fase. O experimento teve seis
-#'     repetições e sete tratamentos.
+#'     repetições e sete tratamentos. A unidade de medida não é
+#'     conhecida. 
 #' @format Um \code{data.frame} com 42 observações e 3 variáveis
 #'
 #' \describe{
