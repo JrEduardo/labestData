@@ -8,14 +8,14 @@
 #'
 #' \describe{
 #'
-#' \item{trat}{Fator de níveis numéricos. Tratamento aplicado em
+#' \item{\code{trat}}{Fator de níveis numéricos. Tratamento aplicado em
 #'     plantas.}
 #'
-#' \item{planta}{Fator de níveis numéricos.}
+#' \item{\code{planta}}{Fator de níveis numéricos.}
 #'
-#' \item{vaso}{Fator de níveis numéricos.}
+#' \item{\code{vaso}}{Fator de níveis numéricos.}
 #'
-#' \item{prod}{Produção de matéria seca em plantas, em gramas.}
+#' \item{\code{prod}}{Produção de matéria seca em plantas, em gramas.}
 #'
 #' }
 #' @keywords DIC
