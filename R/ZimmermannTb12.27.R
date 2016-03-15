@@ -34,7 +34,7 @@
 #' cast(ZimmermannTb12.27, linha~coluna, value="cult")
 #' 
 #' levelplot(prod~linha+coluna,
-#'           data=p, aspect="iso",
+#'           data=ZimmermannTb12.27, aspect="iso",
 #'           panel=function(x, y, z, subscripts, ...){
 #'             panel.levelplot(x, y, z, subscripts=subscripts)
 #'             panel.text(x, y, ZimmermannTb12.27$cult[subscripts])
