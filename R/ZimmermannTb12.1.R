@@ -3,7 +3,7 @@
 #' @description Dados do Ensaio 1 de um experimento em DIC, que estudou
 #'     a produtividade de grãos de arroz em lavoura conduzida com
 #'     inundação contínua durante todo o ciclo. O experimento teve seis
-#'     repetições e sete tratamentos.
+#'     repetições e sete tratamentos. A unidade de medida não é conhecida. 
 #' @format Um \code{data.frame} com 42 observações e 3 variáveis
 #'
 #' \describe{
@@ -27,10 +27,6 @@
 #'
 #' data(ZimmermannTb12.1)
 #'
-#' xyplot(prod ~ trat | rept, data = ZimmermannTb12.1,
-#'        type = c("p", "a"),
-#'        xlab = "Tratamentos",
-#'        ylab = "Produção de grãos de arroz irrigado")
 #'
 #' xyplot(prod ~ trat, data = ZimmermannTb12.1,
 #'        type = c("p", "a"),
