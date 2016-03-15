@@ -7,15 +7,15 @@
 #'
 #' \describe{
 #'
-#' \item{cult}{Fator de 10 níveis de cultivares de arroz.}
+#' \item{\code{cult}}{Fator de 10 níveis de cultivares de arroz.}
 #'
-#' \item{bloco}{Fator de 3 níveis do experimento.}
+#' \item{\code{bloco}}{Fator de 3 níveis do experimento.}
 #'
-#' \item{prod}{Produção de grãos de arroz, medidos kg/ha nas unidades 
-#'     experimentais.}
+#' \item{\code{prod}}{Produção de grãos de arroz, medidos kg/ha nas 
+#'     unidades experimentais.}
 #'
 #' }
-#' @keywords arroz produção
+#' @keywords DBC
 #' @source Ramalho, M. A. P., Ferreira, D. F. & Oliveira, A. C. (2005). 
 #'     Experimentação em Genética e Melhoramento de Plantas (2th ed.). 
 #'     Lavras: UFLA. (pg 62)

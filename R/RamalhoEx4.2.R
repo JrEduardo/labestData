@@ -7,11 +7,12 @@
 #'
 #' \describe{
 #'
-#' \item{linh}{Fator de níveis nominais, indicando a linhagem de arroz.}
+#' \item{\code{linh}}{Fator de níveis nominais, indicando a linhagem de 
+#'     arroz.}
 #'
-#' \item{bloc}{Blocos onde é aplicado o tratamento (linhagem).}
-#'
-#' \item{perf}{Número de perfilhos de arroz obervado.}
+#' \item{\code{bloc}}{Fator de 4 níveis, usado para controle local.
+#' 
+#' \item{\code{perf}}{Número de perfilhos de arroz obervado.}
 #'
 #' }
 #' @keywords DBC

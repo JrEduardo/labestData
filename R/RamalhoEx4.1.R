@@ -7,12 +7,12 @@
 #'
 #' \describe{
 #'
-#' \item{med}{Medições do cumprimento feitas em uma mesma lâmina 
+#' \item{\code{med}}{Medições do cumprimento feitas em uma mesma lâmina 
 #'     (repetições).}
 #'
-#' \item{isol}{Isolados do fungo.}
+#' \item{\code{isol}}{Isolados do fungo.}
 #'
-#' \item{comp}{Comprimento de conídios medidos em \eqn{\mu m.}}
+#' \item{\code{comp}}{Comprimento de conídios medidos em \eqn{\mu m.}}
 #'
 #' }
 #' @keywords DIC comprimento

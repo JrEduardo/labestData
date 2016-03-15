@@ -7,14 +7,14 @@
 #'
 #' \describe{
 #'
-#' \item{linh}{Número inteiro que representa a linhagem do feijão.}
+#' \item{\code{linh}}{Número inteiro que representa a linhagem do feijão.}
 #'
-#' \item{rept}{Número inteiro que indica as repetições do experimento.}
+#' \item{\code{rept}}{Número inteiro que indica as repetições do experimento.}
 #'
-#' \item{abs}{Porcentagem de absorção de água.}
+#' \item{\code{abs}}{Porcentagem de absorção de água.}
 #'
 #' }
-#' @keywords água feijão
+#' @keywords DIC
 #' @source Ramalho, M. A. P., Ferreira, D. F. & Oliveira, A. C. (2005). 
 #'     Experimentação em Genética e Melhoramento de Plantas (2th ed.). 
 #'     Lavras: UFLA. (pg 56)
