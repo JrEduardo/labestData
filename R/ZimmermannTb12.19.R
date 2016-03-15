@@ -10,11 +10,11 @@
 #'
 #' \describe{
 #'
-#' \item{trat}{Fator de níveis nominais. Tratamento aplicado em plantas.}
+#' \item{\code{trat}}{Fator de níveis nominais. Tratamento aplicado em plantas.}
 #'
-#' \item{bloco}{Número inteiro que identifica o bloco da observação.}
+#' \item{\code{bloco}}{Número inteiro que identifica o bloco da observação.}
 #'
-#' \item{prod}{Produtividade de grãos.}
+#' \item{\code{prod}}{Produtividade de grãos.}
 #'
 #' }
 #' @keywords DBC
