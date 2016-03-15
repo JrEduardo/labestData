@@ -10,11 +10,11 @@
 #'
 #' \describe{
 #'
-#' \item{trat}{Fator de níveis nominais. Tratamento aplicado em arroz.}
+#' \item{\code{trat}}{Fator de níveis nominais. Tratamento aplicado em arroz.}
 #'
-#' \item{bloco}{Número inteiro que identifica o bloco da observação.}
+#' \item{\code{bloco}}{Número inteiro que identifica o bloco da observação.}
 #'
-#' \item{prod}{Proporção de insetos infectados.}
+#' \item{\code{prod}}{Proporção de insetos infectados.}
 #'
 #' }
 #' @keywords DBC proporção
