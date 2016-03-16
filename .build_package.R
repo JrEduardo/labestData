@@ -9,6 +9,8 @@ options(echo = TRUE)
 library(devtools)
 library(roxygen2)
 
+.libPaths()
+
 # - Instalando as dependencias (descritas no DESCRIPTION)
 install_deps(dependencies = TRUE,
              quiet = TRUE,
@@ -17,6 +19,8 @@ install_deps(dependencies = TRUE,
              repos = "http://cran-r.c3sl.ufpr.br/")
 
 sessionInfo()
+
+installed.packages()
 
 #--------------------------------------------
 # Carregar objetos do pacote.
