@@ -1,0 +1,51 @@
+#' @name MingotiAnA2
+#' @title Desempenho de 44 funcionários
+#' @description Dados referente a 44 funcionários de uma empresa, onde
+#'     foram atribuídas notas para desempenho de vendas, desempenho nos 
+#'     lucros, captação de novos clientes, testes que medem a habilidade
+#'     de escrita, lógica e matemática.
+#' @format Um \code{data.frame} com 44 observações e 8 variáveis, em que
+#' 
+#' \describe{
+#'
+#' \item{\code{funcio}}{Número de identificação do funcionário.}
+#'
+#' \item{\code{venda}}{Nota atribuída ao funcionário no seu desempenho
+#'     nas vendas, variando entre 20,38 a 27,70.}
+#'     
+#' \item{\code{lucro}}{Nota atribuída ao funcionário no seu desempenho
+#'     no lucro da empresa, variando entre 22,45 a 30,58.}
+#'     
+#' \item{\code{clie}}{Nota atribuída ao funcionário no seu desempenho
+#'     na captação de novos clientes, variando entre 23,58 a 28,82.}
+#'
+#' \item{\code{escri}}{Nota atribuída a habilidade do funcionário em
+#'     escrita, variando entre 2,5 a 9,0.}
+#'
+#' \item{\code{logica}}{Nota atribuída a habilidade do funcionário em
+#'     lógica, variando entre 4,0 a 10,0.}
+#'     
+#' \item{\code{social}}{Nota atribuída a habilidade do funcionário em
+#'     social, variando entre 2,5 a 7,5.}
+#'
+#' \item{\code{mate}}{Nota atribuída a habilidade do funcionário em
+#'     matemática, variando entre 4,5 a 25,5.}
+#'
+#' }
+#' @keywords Análise fatorial
+#' @source Mingoti, S.A. (2005). Análise de dados através de métodos de 
+#'     estatística multivariada - uma abordagem aplicada. 
+#'     Belo Horizonte, MG: Editora UFMG. (pg 123 (Ex 4.2); 126 (Ex 4.3)).
+#' @examples
+#'
+#' data(MingotiAnA2)
+#' 
+#' library(lattice)
+#'
+#' da <- reshape(MingotiAnA2, direction = "long", varying = list(2:8),
+#'              v.names = "notas", timevar = "atributo")
+
+#' xyplot(notas ~ atributo, data = da, 
+#'       jitter.y = TRUE, type = c("p", "a"))
+#'
+NULL
