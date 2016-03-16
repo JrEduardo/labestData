@@ -1,4 +1,4 @@
-pais	grupo	agr	min	fab	fea	com	ser	fin	ssp	tc
+pais	grupo	agr	min	fab	fea	con	ser	fin	ssp	tc
 Belgica	UE	2.6	0.2	20.8	0.8	6.3	16.9	8.7	36.9	6.8
 Dinamarca	UE	5.6	0.1	20.4	0.7	6.4	14.5	9.1	36.3	7
 França	UE	5.1	0.3	20.2	0.9	7.1	16.7	10.2	33.1	6.4
