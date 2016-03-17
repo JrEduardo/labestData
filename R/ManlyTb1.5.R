@@ -1,15 +1,15 @@
 #' @name ManlyTb1.5
 #' @title Emprego em paises europeus
 #'
-#' @description Porcentagens da força de trabalho de empregados em nove diferentes grupos de indústrias em 30 países na Europa
+#' @description Porcentagens da força de trabalho de empregados para nove diferentes grupos de indústrias sediadas em 30 países europeus
 #'
-#' @format Um \code{data.frame} com 30 registros e 11 variáveis.
+#' @format Um \code{data.frame} com 30 registros em 11 variáveis.
 #' 
 #' \describe{
 #'
-#' \item {\code{pais}} {País europeu.}
+#' \item {\code{pais}} {Identificação do país.}
 #' 
-#' \item {\code{grupo}} {Grupos econômicos. UE: União Europeia - AELC: Área europeia de livre comércio - Leste - Outro}
+#' \item {\code{grupo}} {Grupo econômico. UE: União Europeia - AELC: Área europeia de livre comércio - Leste - Outro}
 #' 
 #' \item {\code{agr}} {Agricultura, florestal e pesca.}
 #'

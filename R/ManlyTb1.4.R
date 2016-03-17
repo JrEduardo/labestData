@@ -4,23 +4,23 @@
 #' @description Estudo em ancestrais de cães pré-históricos da Tailândia, 
 #' através de medições da mandíbula com espécies disponíveis.
 #'
-#' @format Um \code{data.frame} com 7 grupos caninos e 6 variáveis de mensuração.
+#' @format Um \code{data.frame} com 7 grupos caninos e 6 variáveis.
 #' 
 #' \describe{
 #'
-#' \item {\code{grupo}} {Grupos caninos}
+#' \item {\code{grupo}} {Grupo canino}
 #' 
-#' \item {\code{largm}} {largura da mandíbula (mm)}
+#' \item {\code{largm}} {Largura da mandíbula (mm)}
 #' 
-#' \item {\code{altm}} {altura da mandíbula abaixo do primeiro molar (mm).}
+#' \item {\code{altm}} {Altura da mandíbula abaixo do primeiro molar (mm).}
 #'
 #' \item {\code{comppm}} {Comprimento do primeiro molar (mm).}
 #' 
-#' \item {\code{largpm}} {largura do primeiro molar (mm).}
+#' \item {\code{largpm}} {Largura do primeiro molar (mm).}
 #' 
-#' \item {\code{compptm}} {comprimento do primeiro ao terceiro molar (mm).}
+#' \item {\code{compptm}} {Comprimento do primeiro ao terceiro molar (mm).}
 #' 
-#'  \item {\code{comppqm}} {comprimento do primeiro ao quarto molar (mm).}
+#'  \item {\code{comppqm}} {Comprimento do primeiro ao quarto molar (mm).}
 #' }
 #'
 #' @keywords Todo
