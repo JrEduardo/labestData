@@ -22,12 +22,14 @@
 #'
 #' @keywords TODO
 #' @source Manly, B. J. F. (2005). Métodos Estatísticos Multivariados:
-#'     uma introdução. Porto Alegre, RS: Bookman (pg 14 e 15)
+#'     uma introdução. Porto Alegre, RS: Bookman (Tabela 1.1,  pág 14 e
+#'     15)
 #' @examples
 #'
 #' data(ManlyTb1.1)
 #'
-#' pairs(~ ct + ea + cbc + cdu + cqe + sobrev,
+#' pairs(~ct + ea + cbc + cdu + cqe + sobrev,
 #'       data = ManlyTb1.1,
 #'       main = "Gráfico de dispersão das variáveis nos pardais")
+#'
 NULL
