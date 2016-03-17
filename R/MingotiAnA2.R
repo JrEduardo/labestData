@@ -1,9 +1,9 @@
 #' @name MingotiAnA2
 #' @title Desempenho de 44 funcionários
-#' @description Dados referente a 44 funcionários de uma empresa, onde
-#'     foram atribuídas notas para desempenho de vendas, desempenho nos 
-#'     lucros, captação de novos clientes, testes que medem a habilidade
-#'     de escrita, lógica e matemática.
+#' @description Dados referente a 44 funcionários de uma empresa, nos 
+#'     quais foram atribuídas notas para desempenho de vendas, 
+#'     desempenho nos lucros, captação de novos clientes, e aplicado
+#'     testes que medem a habilidade de escrita, lógica e matemática.
 #' @format Um \code{data.frame} com 44 observações e 8 variáveis, em que
 #' 
 #' \describe{
@@ -32,7 +32,7 @@
 #'     matemática, variando entre 4,5 a 25,5.}
 #'
 #' }
-#' @keywords Análise fatorial
+#' @keywords "Análise fatorial"
 #' @source Mingoti, S.A. (2005). Análise de dados através de métodos de 
 #'     estatística multivariada - uma abordagem aplicada. 
 #'     Belo Horizonte, MG: Editora UFMG. (pg 123 (Ex 4.2); 126 (Ex 4.3)).

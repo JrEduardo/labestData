@@ -4,25 +4,25 @@
 #'     ano anterior em 3 grupos: (I) candidatos aprovados, 
 #'     (II) candidatos na lista de espera e (III) candidatos que não
 #'     foram aprovados. Para a nova seleção, os responsáveis pensam em
-#'     considerar a nota na prova de conhecimento técnico e nota 
+#'     considerar a nota da prova de conhecimento técnico e a nota 
 #'     atribuída ao histórico escolar.      
 #' @format Um \code{data.frame} com 62 observações e 4 variáveis, em que
 #' 
 #' \describe{
 #'
-#' \item{\code{cand}}{Número de identificação do funcionário.}
+#' \item{\code{cand}}{Número de identificação do candidato.}
 #'     
-#' \item{\code{grupo}}{Nota atribuída ao funcionário no seu desempenho
-#'     nas vendas, variando entre 20,38 a 27,70.}
+#' \item{\code{grupo}}{Variável que indica separação de 3 grupos (I, II
+#'     e III) para o processo seletivo.}
 #'     
-#' \item{\code{nota}}{Nota atribuída ao funcionário no seu desempenho
-#'     no lucro da empresa, variando entre 22,45 a 30,58.}
+#' \item{\code{nota}}{Nota da prova de conhecimento específico da área
+#'     do programa.}
 #'     
-#' \item{\code{histor}}{Nota atribuída ao funcionário no seu desempenho
-#'     na captação de novos clientes, variando entre 23,58 a 28,82.}
+#' \item{\code{histor}}{Nota atribuída ao histórico escolar do 
+#'     candidato.}
 #'     
 #' }
-#' @keywords Análise discriminante
+#' @keywords "Análise discriminante"
 #' @source Mingoti, S.A. (2005). Análise de dados através de métodos de 
 #'     estatística multivariada - uma abordagem aplicada. 
 #'     Belo Horizonte, MG: Editora UFMG. (pg 234)
