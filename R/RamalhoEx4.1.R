@@ -1,32 +1,35 @@
 #' @name RamalhoEx4.1
-#' @title Comprimento de conídios do \emph{Colletotrichum lindemuthianum}
-#' @description Experimento para medir o comprimento de conídios do
-#'     fungo \emph{Colletotrichum lindemuthianum}. Experimento 
-#'     inteiramente casualizado incompleto.
-#' @format data.frame com 60 observações e 3 variáveis, em que
+#' @title Comprimento de conídios de \emph{Colletotrichum
+#'     lindemuthianum}
+#' @description Experimento para avaliar o comprimento de conídios de
+#'     diferentes isolados do fungo \emph{Colletotrichum
+#'     lindemuthianum}. Experimento inteiramente casualizado com número
+#'     desigual de observações.
+#' @format Um \code{data.frame} com 60 observações e 3 variáveis, em que
 #'
 #' \describe{
 #'
-#' \item{\code{med}}{Medições do cumprimento feitas em uma mesma lâmina 
-#'     (repetições).}
+#' \item{\code{coni}}{Identifica o conídio medido na lâmina de cada
+#'     isolado (repetições).}
 #'
-#' \item{\code{isol}}{Isolados do fungo.}
+#' \item{\code{isol}}{Fator que identifica os isolados do fungo
+#'     \emph{Colletotrichum lindemuthianum}}
 #'
 #' \item{\code{comp}}{Comprimento de conídios medidos em \eqn{\mu m.}}
 #'
 #' }
-#' @keywords DIC comprimento
-#' @source Ramalho, M. A. P., Ferreira, D. F., Oliveira, A. C. (2005). 
-#'     Experimentação em Genética e Melhoramento de Plantas (2th ed.). 
-#'     Lavras: UFLA. (pg 66)
+#' @keywords DIC desbalanceado
+#' @source Ramalho, M. A. P., Ferreira, D. F., Oliveira, A. C. (2005).
+#'     Experimentação em Genética e Melhoramento de Plantas (2th ed.).
+#'     Lavras, MG: UFLA. (Exercício 4.1, pág 66)
 #' @examples
 #'
 #' library(lattice)
-#' 
+#'
 #' data(RamalhoEx4.1)
-#' 
-#' xyplot(comp ~ med|as.factor(isol), data = RamalhoEx4.1, 
-#'        xlab = "Repetições", 
+#'
+#' xyplot(comp ~ med | isol, data = RamalhoEx4.1,
+#'        xlab = "Repetições",
 #'        ylab = "Comprimento")
-#' 
+#'
 NULL

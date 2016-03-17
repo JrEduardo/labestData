@@ -2,28 +2,31 @@
 % Please edit documentation in R/RamalhoEx4.1.R
 \name{RamalhoEx4.1}
 \alias{RamalhoEx4.1}
-\title{Comprimento de conídios do \emph{Colletotrichum lindemuthianum}}
-\format{data.frame com 60 observações e 3 variáveis, em que
+\title{Comprimento de conídios de \emph{Colletotrichum
+    lindemuthianum}}
+\format{Um \code{data.frame} com 60 observações e 3 variáveis, em que
 
 \describe{
 
-\item{med}{Medições do cumprimento feitas em uma mesma lâmina 
-    (repetições).}
+\item{\code{coni}}{Identifica o conídio medido na lâmina de cada
+    isolado (repetições).}
 
-\item{isol}{Isolados do fungo.}
+\item{\code{isol}}{Fator que identifica os isolados do fungo
+    \emph{Colletotrichum lindemuthianum}}
 
-\item{comp}{Comprimento de conídios medidos em \eqn{\mu m.}}
+\item{\code{comp}}{Comprimento de conídios medidos em \eqn{\mu m.}}
 
 }}
 \source{
-Ramalho, M. A. P., Ferreira, D. F., Oliveira, A. C. (2005). 
-    Experimentação em Genética e Melhoramento de Plantas (2th ed.). 
-    Lavras: UFLA. (pg 66)
+Ramalho, M. A. P., Ferreira, D. F., Oliveira, A. C. (2005).
+    Experimentação em Genética e Melhoramento de Plantas (2th ed.).
+    Lavras, MG: UFLA. (Exercício 4.1, pág 66)
 }
 \description{
-Experimento para medir o comprimento de conídios do
-    fungo \emph{Colletotrichum lindemuthianum}. Experimento 
-    inteiramente casualizado incompleto.
+Experimento para avaliar o comprimento de conídios de
+    diferentes isolados do fungo \emph{Colletotrichum
+    lindemuthianum}. Experimento inteiramente casualizado com número
+    desigual de observações.
 }
 \examples{
 
@@ -31,11 +34,11 @@ library(lattice)
 
 data(RamalhoEx4.1)
 
-xyplot(comp ~ med|as.factor(isol), data = RamalhoEx4.1, 
-       xlab = "Repetições", 
+xyplot(comp ~ med | isol, data = RamalhoEx4.1,
+       xlab = "Repetições",
        ylab = "Comprimento")
 
 }
 \keyword{DIC}
-\keyword{comprimento}
+\keyword{desbalanceado}
 

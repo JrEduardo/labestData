@@ -2,27 +2,30 @@
 % Please edit documentation in R/RamalhoEg4.3.R
 \name{RamalhoEg4.3}
 \alias{RamalhoEg4.3}
-\title{Porcentagem de absorção de água de feijão.}
-\format{data.frame com 30 observações e 3 variáveis, em que
+\title{Porcentagem de absorção de água de feijão}
+\format{Um \code{data.frame} com 30 observações e 3 variáveis, em que
 
 \describe{
 
-\item{linh}{Número inteiro que representa a linhagem do feijão.}
+\item{\code{linh}}{Fator em que os números inteiro representam as
+    linhagens de feijão.}
 
-\item{rept}{Número inteiro que indica as repetições do experimento.}
+\item{\code{rept}}{Número inteiro que indicam as repetições das
+    linhagens.}
 
-\item{abs}{Porcentagem de absorção de água.}
+\item{\code{abs}}{Porcentagem de absorção de água no intervalo [0,
+    100].}
 
 }}
 \source{
-Ramalho, M. A. P., Ferreira, D. F. & Oliveira, A. C. (2005). 
-    Experimentação em Genética e Melhoramento de Plantas (2th ed.). 
-    Lavras: UFLA. (pg 56)
+Ramalho, M. A. P., Ferreira, D. F., Oliveira, A. C. (2005).
+    Experimentação em Genética e Melhoramento de Plantas (2th ed.).
+    Lavras, MG: UFLA. (Exemplo 4.3, pág 56)
 }
 \description{
-Experimento conduzido na Universidade Federal de Lavras, 
-    envolvendo a porcentagem de absorção de água de 10 linhares de 
-    feijão com 3 repetições. O delineamento é inteiramente ao acaso.
+Experimento conduzido na Universidade Federal de Lavras,
+    avaliando a porcentagem de absorção de água de 10 linhares de
+    feijão. O delineamento é inteiramente ao acaso com 3 repetições.
 }
 \examples{
 
@@ -30,10 +33,9 @@ library(lattice)
 
 data(RamalhoEg4.3)
 
-aggregate(abs ~ linh,  data = RamalhoEg4.3, 
+aggregate(abs ~ linh,  data = RamalhoEg4.3,
           FUN = function(x) { c(mean = mean(x), var = var(x)) })
 
 }
-\keyword{feijão}
-\keyword{água}
+\keyword{DIC}
 

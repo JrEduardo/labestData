@@ -3,26 +3,27 @@
 \name{RamalhoEx4.2}
 \alias{RamalhoEx4.2}
 \title{Número de perfilhos de arroz}
-\format{data.frame com 32 observações e 3 variáveis, em que
+\format{Um \code{data.frame} com 32 observações e 3 variáveis, em que
 
 \describe{
 
-\item{linh}{Fator de níveis nominais, indicando a linhagem de arroz.}
+\item{\code{linh}}{Fator de níveis nominais, indicando a linhagem de
+    arroz.}
 
-\item{bloc}{Blocos onde é aplicado o tratamento (linhagem).}
+\item{\code{bloc}}{Fator de 4 níveis, usado para controle local.}
 
-\item{perf}{Número de perfilhos de arroz obervado.}
+\item{\code{perf}}{Número de perfilhos de arroz obervado.}
 
 }}
 \source{
-Ramalho, M. A. P., Ferreira, D. F., Oliveira, A. C. (2005). 
-    Experimentação em Genética e Melhoramento de Plantas (2th ed.). 
-    Lavras: UFLA. (pg 66)
+Ramalho, M. A. P., Ferreira, D. F., Oliveira, A. C. (2005).
+    Experimentação em Genética e Melhoramento de Plantas (2th ed.).
+    Lavras, MG: UFLA. (Execício 4.2, pág 66)
 }
 \description{
-Experimento do número de perfilhos (dados médios por 
-    plantsas) de 8 linhagens de arroz, avaliadas no delineamento de 
-    blocos casualizados.
+Experimento que estudou o número de perfilhos de plantas
+    de arroz de 8 linhagens em um delineamento de blocos
+    casualizados.
 }
 \examples{
 
@@ -30,15 +31,16 @@ library(lattice)
 
 data(RamalhoEx4.2)
 
-aggregate(perf ~ linh,  data = RamalhoEx4.2, 
+aggregate(perf ~ linh,  data = RamalhoEx4.2,
           FUN = function(x) { c(mean = mean(x), var = var(x)) })
 
-xyplot(perf ~ linh, data = RamalhoEx4.2, 
-       groups = bloc, 
+xyplot(perf ~ linh, data = RamalhoEx4.2,
+       groups = bloc,
        jitter.x = TRUE,
        xlab = "Linhagem",
        ylab = "Número de perfilho")
 
 }
 \keyword{DBC}
+\keyword{contagem}
 

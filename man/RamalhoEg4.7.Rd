@@ -7,22 +7,22 @@
 
 \describe{
 
-\item{cult}{Fator de 10 níveis de cultivares de arroz.}
+\item{\code{cult}}{Fator de 10 níveis de cultivares de arroz.}
 
-\item{bloco}{Fator de 3 níveis do experimento.}
+\item{\code{bloco}}{Fator de 3 níveis do experimento.}
 
-\item{prod}{Produção de grãos de arroz, medidos kg/ha nas unidades 
-    experimentais.}
+\item{\code{prod}}{Produção de grãos de arroz, medidos kg/ha nas
+    unidades experimentais.}
 
 }}
 \source{
-Ramalho, M. A. P., Ferreira, D. F. & Oliveira, A. C. (2005). 
-    Experimentação em Genética e Melhoramento de Plantas (2th ed.). 
+Ramalho, M. A. P., Ferreira, D. F. & Oliveira, A. C. (2005).
+    Experimentação em Genética e Melhoramento de Plantas (2th ed.).
     Lavras: UFLA. (pg 62)
 }
 \description{
-Experimento da produção de grãos na avaliação de 
-    cultivares de arroz, conduzido em Lavras/MG. Delineamento em 
+Experimento da produção de grãos na avaliação de
+    cultivares de arroz, conduzido em Lavras/MG. Delineamento em
     blocos casualizados.
 }
 \examples{
@@ -31,11 +31,10 @@ library(lattice)
 
 data(RamalhoEg4.7)
 
-xyplot(prod ~ cult|as.factor(bloco), data = RamalhoEg4.7, 
-       xlab = "Cultivares", 
+xyplot(prod ~ cult | bloco, data = RamalhoEg4.7,
+       xlab = "Cultivares",
        ylab = "Produção de grãos")
-       
+
 }
-\keyword{arroz}
-\keyword{produção}
+\keyword{DBC}
 
