@@ -7,19 +7,19 @@
 #'
 #' \describe{
 #'
-#' \item{bloco}{Fator de 4 níveis qualitativos, usado para
+#' \item{\code{bloco}}{Fator de 4 níveis qualitativos, usado para
 #'     controle local.}
 #'
-#' \item{variedade}{Fator de 8 níveis qualitativos que são as variedades
-#'     de batatinha.}
+#' \item{\code{variedade}}{Fator de 8 níveis qualitativos que são as
+#'     variedades de batatinha.}
 #'
-#' \item{producao}{Produção de batatinha, em ton ha\eqn{^{-1}}, nas
-#'     unidades experimentais.}
+#' \item{\code{producao}}{Produção de batatinha, em ton ha\eqn{^{-1}},
+#'     nas unidades experimentais.}
 #'
 #' }
 #' @keywords DBC batatinha
 #' @source Pimentel-Gomes, F. (2009). Curso de Estatístitica
-#'     Experimental (15th ed.). Piracicaba: FEALQ.
+#'     Experimental (15th ed.). Piracicaba, SP: FEALQ.
 #' @examples
 #'
 #' library(lattice)

@@ -8,7 +8,7 @@
 #' @keywords AAS
 #' @source Ramalho, M. A. P., Ferreira, D. F., Oliveira, A. C. (2005).
 #'     Experimentação em Genética e Melhoramento de Plantas (2th ed.).
-#'     Lavras: UFLA. (pg 26)
+#'     Lavras, MG: UFLA. (pg 26)
 #'
 #'     Castro, N. H. A., Andrade, H. B., Ramalho, m A. P. (1993).
 #'     Revista Árvore. Viçosa, v. 17, n.2.

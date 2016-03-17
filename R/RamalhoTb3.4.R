@@ -1,19 +1,19 @@
 #' @name RamalhoTb3.4
 #' @title Incidênica de \emph{Colletotrichum} no feijoeiro
-#' @description Experimento para verificar a incidência de patógenos do 
-#'     tipo \emph{Colletotrichum} nas cultivares de feijão, foi utilizada 
-#'     uma escala de notas variando de 1 (resistente) a 5 (completamente 
-#'     suscetível), estas notas foram dadas por três avaliadores. Neste 
-#'     experimento foram avaliados 16 tratamentos com 3 repetições em 
-#'     blocos casualizados.
+#' @description Experimento para verificar a incidência de patógenos do
+#'     tipo \emph{Colletotrichum} nas cultivares de feijão, foi
+#'     utilizada uma escala de notas variando de 1 (resistente) a 5
+#'     (completamente suscetível), estas notas foram dadas por três
+#'     avaliadores. Neste experimento foram avaliados 16 tratamentos com
+#'     3 repetições em blocos casualizados.
 #' @format data.frame com 48 observações e 4 variáveis, em que
 #'
 #' \describe{
 #'
-#' \item{\code{trat}}{Fator de níveis numéricos. Tratamento aplicado 
+#' \item{\code{trat}}{Fator de níveis numéricos. Tratamento aplicado
 #' para verificar a incidência de \emph{Colletotrichum}.}
 #'
-#' \item{\code{bloc}}{Fator de 3 níveis quantitativos, usado para 
+#' \item{\code{bloc}}{Fator de 3 níveis quantitativos, usado para
 #' controle local}
 #'
 #' \item{\code{cult}}{Cultivar de feijão.}
@@ -25,7 +25,7 @@
 #' @keywords DBC
 #' @source Ramalho, M. A. P., Ferreira, D. F., Oliveira, A. C. (2005).
 #'     Experimentação em Genética e Melhoramento de Plantas (2th ed.).
-#'     Lavras: UFLA. (pg 45)
+#'     Lavras, MG: UFLA. (pg 45)
 #'
 #' @examples
 #'
