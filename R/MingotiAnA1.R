@@ -1,7 +1,7 @@
 #' @name MingotiAnA1
 #' @title Aceitação de um novo produto comestível
 #' @description Pesquisa de mercado feita para avaliar a aceitação do
-#'     consumidor por um novo produto comestível. Cada consumidor foi
+#'     consumidor para um novo produto comestível. Cada consumidor foi
 #'     convidado a dar uma nota de 1 a 5 para sete atributos do produto.
 #' @format Um \code{data.frame} com 200 observações e 9 variáveis, 
 #'      em que
@@ -10,29 +10,29 @@
 #'
 #' \item{\code{id}}{Número de identificação do indivíduo.}
 #' 
-#' \item{\code{sexo}}{Variável dicotômica para o sexo do indivíduo, 
-#'     onde 0 para mulheres e 1 para homens.}
+#' \item{\code{sexo}}{Sexo do indivíduo 
+#'     (onde 0 para mulheres e 1 para homens).}
 #' 
-#' \item{\code{sabor}}{Nota dada pelo indivíduo para o sabor do produto, 
-#'    variando de 1 a 5.}
+#' \item{\code{sabor}}{Nota atribuída ao sabor do produto.} 
+#'    
 #'
-#' \item{\code{aroma}}{Nota dada pelo indivíduo para o aroma do produto, 
-#'    variando de 1 a 5.}
+#' \item{\code{aroma}}{Nota  atribuída ao aroma do produto.} 
+#'    
 #'     
-#' \item{\code{cor}}{Nota dada pelo indivíduo para a cor do produto, 
-#'    variando de 1 a 5.}
+#' \item{\code{cor}}{Nota atribuída à cor do produto.} 
+#'    
 #' 
-#' \item{\code{textu}}{Nota dada pelo indivíduo para a textura do 
-#'    produto, variando de 1 a 5.}
+#' \item{\code{textu}}{Nota atribuída à textura do produto.} 
+#'    
 #'
-#' \item{\code{utili}}{Nota dada pelo indivíduo para a utilidade do 
-#'    produto, variando de 1 a 5.}
+#' \item{\code{utili}}{Nota atribuída à utilidade do 
+#'    produto.}
 #'     
-#' \item{\code{local}}{Nota dada pelo indivíduo para a facilidade de 
-#'    encontrar o produto para compra, variando de 1 a 5.}
+#' \item{\code{local}}{Nota atribuída à facilidade de 
+#'    encontrar o produto.}
 #'     
-#' \item{\code{embal}}{Nota dada pelo indivíduo para a embalagem do 
-#'    produto, variando de 1 a 5.}
+#' \item{\code{embal}}{Nota atribuída à embalagem do 
+#'    produto.}
 #'
 #' }
 #' @keywords Análise fatorial

@@ -1,14 +1,14 @@
 #' @name MingotiTb6.1
 #' @title Renda mensal de seis indivíduos de uma localidade
-#' @description Dados referente a renda mensal (em quantidade de 
-#'     salários mínimos) e a idade de seis indivíduos de uma
+#' @description Dados referente às rendas mensais (em quantidade de 
+#'     salários mínimos) e às idades de seis indivíduos de uma
 #'     localidade.
 #' @format Um \code{data.frame} com 6 observações e 3 variáveis, em que
 #'
 #' \describe{
 #'
-#' \item{\code{id}}{Identificação do indivíduo representada 
-#'     por 6 letras (A a F).}
+#' \item{\code{id}}{Identificação do indivíduo  
+#'     (A-F).}
 #'
 #' \item{\code{renda}}{Renda mensal em quantidade de salários mínimos.}
 #'

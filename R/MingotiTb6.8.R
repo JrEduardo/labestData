@@ -1,10 +1,10 @@
 #' @name MingotiTb6.8
 #' @title Índices de desenvolvimento de países
-#' @description Dados relativos a 21 países com as variáveis que são 
+#' @description Dados relativos a 
 #'     índices de expectativa de vida, educação, renda (PIB) e 
-#'     estabilidade política e de segurança. Os índices foram 
-#'     construídos por uma metodologia da ONU, e quanto maior 
-#'     esses valores, melhor será a qualidade do país.
+#'     estabilidade política e de segurança de 21 países. Os índices foram 
+#'     construídos segundo metodologia da ONU. Para qualquer um deles, maiores 
+#'     valores são indicadores de melhor qualidade de vida.
 #' @format Um \code{data.frame} com 21 observações e 5 variáveis, em que
 #' 
 #' \describe{
