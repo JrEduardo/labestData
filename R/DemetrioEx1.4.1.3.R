@@ -1,4 +1,4 @@
-#' @name DemetrioEx1.3
+#' @name DemetrioEx1.4.1.3
 #' @title Absorção de CO2
 #' 
 #' @description Foi aplicado CO2 sobre folhas de trigo a uma 
@@ -20,15 +20,15 @@
 #' @keywords CO2 trigo
 #' 
 #' @source Demétrio, C. G. B., & Zocchi, S. S. (2011). Modelos de
-#'     Regressão. Piracicaba: ESALQ. (Exercício 1.3 pág. 14)
+#'     Regressão. Piracicaba: ESALQ. (Exercício 1.4.1.3 pág. 14)
 #' 
 #' @examples 
 #' 
-#' data(DemetrioEx1.3)
+#' data(DemetrioEx1.4.1.3)
 #' 
 #' library(lattice)
 #' 
-#' xyplot(absorv ~ co2, data = DemetrioEx1.3,
+#' xyplot(absorv ~ co2, data = DemetrioEx1.4.1.3,
 #'      main = "CO2 Aplicado VS Absorvido",
 #'      xlab = "Aplicado",
 #'      ylab = "Absorvido",

@@ -1,4 +1,4 @@
-#' @name DemetrioEx1.2
+#' @name DemetrioEx1.4.1.2
 #' @title Peso Médio de Galinhas
 #' 
 #' @description Foi mensurado o peso médio e consumo de alimentos de 50
@@ -17,15 +17,15 @@
 #' @keywords galinha peso consumo
 #' 
 #' @source Demétrio, C. G. B., & Zocchi, S. S. (2011). Modelos de
-#'     Regressão. Piracicaba: ESALQ. (Exercício 1.2 pág. 14)
+#'     Regressão. Piracicaba: ESALQ. (Exercício 1.4.1.2 pág. 14)
 #' 
 #' @examples 
 #' 
-#' data(DemetrioEx1.2)
+#' data(DemetrioEx1.4.1.2)
 #' 
 #' library(lattice)
 #' 
-#' xyplot(consumo ~ peso, data = DemetrioEx1.2,
+#' xyplot(consumo ~ peso, data = DemetrioEx1.4.1.2,
 #'      main = "Peso VS Consumo",
 #'      xlab = "Peso",
 #'      ylab = "Consumo",

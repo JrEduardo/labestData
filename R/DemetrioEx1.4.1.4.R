@@ -1,4 +1,4 @@
-#' @name DemetrioEx1.4
+#' @name DemetrioEx1.4.1.4
 #' @title Volume das Cerejeiras
 #' 
 #' @description Foram mensurados o diâmetro, a altura e o volume de
@@ -22,18 +22,18 @@
 #' @keywords diametro cerejeiras volume solo
 #' 
 #' @source Demétrio, C. G. B., & Zocchi, S. S. (2011). Modelos de
-#'     Regressão. Piracicaba: ESALQ. (Exercício 1.4 pág. 14)
+#'     Regressão. Piracicaba: ESALQ. (Exercício 1.4.1.4 pág. 14)
 #' 
 #' @examples 
 #' 
-#' data(DemetrioEx1.4)
+#' data(DemetrioEx1.4.1.4)
 #' 
 #' library(lattice)
 #'
-#' pairs(~ dia + alt + vol, data = DemetrioEx1.4,
+#' pairs(~ dia + alt + vol, data = DemetrioEx1.4.1.4,
 #'      main = "Gráfico de Pares")
 #'      
-#' xyplot(vol ~ dia, data = DemetrioEx1.4,
+#' xyplot(vol ~ dia, data = DemetrioEx1.4.1.4,
 #'      main = "Diâmetro VS Volume",
 #'      xlab = "Diâmetro",
 #'      ylab = "Volume",
