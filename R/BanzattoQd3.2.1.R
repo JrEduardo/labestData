@@ -1,5 +1,5 @@
 #' @name BanzattoQd3.2.1
-#' @title Controle de Pulgão na Cultura de Pepino
+#' @title Controle de pulgão na cultura de pepino
 #' @description Dados de um experimento visando controle de pulgão
 #'     (\emph{Aphis gossypii} Glover) em cultura de pepino, instalado em
 #'     delineamento inteiramente casualizado com 6 repetições. A

@@ -1,0 +1,29 @@
+varied	prod
+CMS - 01	5.58
+CMS - 02	5.66
+CMS - 03	6.53
+CMS - 04 N	7.84
+CMS - 04 C	7.85
+BR - 105	8.18
+BR - 106	7.44
+BR - 107	5.7
+BR - 111	7.18
+BR - 112	6.11
+CMS - 14 C	5.27
+CMS - 15	7.04
+CMS - 22	6.15
+CMS - 23	6.18
+CMS - 126	5.8
+CMS - 28	5.79
+CMS - 29	8.05
+CMS - 30	7.19
+BR - 136	6.08
+CMS - 39	8.36
+CMS - 50	6.96
+Sint. - Elite	7.44
+PH - 4	4.95
+Cunha	7.61
+BA lll - Tuson	3.37
+Saracura	8.61
+NitroFlint	6.08
+Nitrodent	7.55
