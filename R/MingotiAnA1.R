@@ -15,16 +15,12 @@
 #' 
 #' \item{\code{sabor}}{Nota atribuída ao sabor do produto.} 
 #'    
-#'
 #' \item{\code{aroma}}{Nota  atribuída ao aroma do produto.} 
 #'    
-#'     
 #' \item{\code{cor}}{Nota atribuída à cor do produto.} 
-#'    
 #' 
 #' \item{\code{textu}}{Nota atribuída à textura do produto.} 
-#'    
-#'
+#' 
 #' \item{\code{utili}}{Nota atribuída à utilidade do 
 #'    produto.}
 #'     
@@ -35,7 +31,7 @@
 #'    produto.}
 #'
 #' }
-#' @keywords Análise fatorial
+#' @keywords "Análise fatorial"
 #' @source Mingoti, S.A. (2005). Análise de dados através de métodos de 
 #'     estatística multivariada - uma abordagem aplicada. 
 #'     Belo Horizonte, MG: Editora UFMG. (pg 108).
@@ -46,9 +42,8 @@
 #'
 #' da <- reshape(MingotiAnA1, direction = "long", varying = list(3:9),
 #'               v.names = "notas", timevar = "atributo")
-#' library(lattice)
-#'
-#' xyplot(notas ~ atributo, groups = sexo, data = da,
-#'       jitter.y = TRUE, type = c("p", "a"), auto.key = TRUE)
+#'               
+#' boxplot(notas ~ atributo, data = da, 
+#'         xlab = "Atributos", ylab= "Notas")
 #'
 NULL
