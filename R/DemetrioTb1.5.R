@@ -1,5 +1,5 @@
 #' @name DemetrioTb1.5
-#' @title Valores de CTC Direta e Indereta
+#' @title Valores de CTC Direta e Indireta
 #' 
 #' @description O experimento foi realizado em quatro blocos, sendo
 #'     planejado para estudar o efeito da calagem sobre a CTC
@@ -16,7 +16,7 @@
 #'     pertence, usado para controle de variação.}
 #'     
 #'     \item{\code{dose}}{Indica a dose de calcário usada na referida
-#'     observação, medida em tonelados por hectare (t/ha).}
+#'     observação, medida em toneladas por hectare (t/ha).}
 #'     
 #'     \item{\code{metodo}}{Fator que indica o método para determinação
 #'     da CTC, direto (1) ou indireto (0).}
@@ -31,8 +31,8 @@
 #'     \code{bloco} I, \code{dose} 7,80 e \code{metodo} indireto. Em
 #'     conversa com o pesquisador verificou-se que se tratava de um erro
 #'     na transcrição dos dados e que o valor correto seria
-#'     124,00. Neste conjunto de dados mante-ve o valor discrepante para
-#'     efeitos didáticos.
+#'     124,00. Neste conjunto de dados manteve-se o valor discrepante
+#'     para efeitos didáticos.
 #'
 #' @keywords TODO
 #' 

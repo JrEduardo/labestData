@@ -2,7 +2,7 @@
 % Please edit documentation in R/DemetrioEx1.4.1.3.R
 \name{DemetrioEx1.4.1.3}
 \alias{DemetrioEx1.4.1.3}
-\title{Absorção de CO2}
+\title{Absorção de CO2 por Folhas de Trigo}
 \format{Um \code{data.frame} de 11 linhas e 2 colunas.
 
 \describe{

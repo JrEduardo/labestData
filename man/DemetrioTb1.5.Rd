@@ -2,7 +2,7 @@
 % Please edit documentation in R/DemetrioTb1.5.R
 \name{DemetrioTb1.5}
 \alias{DemetrioTb1.5}
-\title{Valores de CTC Direta e Indereta}
+\title{Valores de CTC Direta e Indireta}
 \format{Um \code{data.frame} de 32 linhas e 4 colunas.
 
 \describe{
@@ -11,7 +11,7 @@
     pertence, usado para controle de variação.}
     
     \item{\code{dose}}{Indica a dose de calcário usada na referida
-    observação, medida em tonelados por hectare (t/ha).}
+    observação, medida em toneladas por hectare (t/ha).}
     
     \item{\code{metodo}}{Fator que indica o método para determinação
     da CTC, direto (1) ou indireto (0).}
@@ -38,8 +38,8 @@ Na análise inicial do estudo do estudo foi detectada a
     \code{bloco} I, \code{dose} 7,80 e \code{metodo} indireto. Em
     conversa com o pesquisador verificou-se que se tratava de um erro
     na transcrição dos dados e que o valor correto seria
-    124,00. Neste conjunto de dados mante-ve o valor discrepante para
-    efeitos didáticos.
+    124,00. Neste conjunto de dados manteve-se o valor discrepante
+    para efeitos didáticos.
 }
 \examples{
 

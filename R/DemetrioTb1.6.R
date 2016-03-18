@@ -1,8 +1,8 @@
 #' @name DemetrioTb1.6
-#' @title Resposta de Milho ao Fostato
+#' @title Resposta de Milho ao Fosfato
 #' 
 #' @description Neste estudo foram obtidos dados sobre a resposta da
-#'     cultura do milho ao fostato, produtividade na testemunha,
+#'     cultura do milho ao fosfato, produtividade na testemunha,
 #'     porcentagem de saturação de bases e pH do solo. Como todas as
 #'     variáveis computadas são aleatórias, o interesse principal é em
 #'     estudar as correlações entre as variáveis observadas.
@@ -17,7 +17,7 @@
 #'     \item{\code{prod}}{Produtividade da cultura na parcela
 #'     testemunha, em lb/acre.}
 #'     
-#'     \item{\code{satu}}{Saturação de bases em procentagem.}
+#'     \item{\code{satu}}{Saturação de bases em porcentagem.}
 #'     
 #'     \item{\code{ph}}{pH do solo.}
 #' 
