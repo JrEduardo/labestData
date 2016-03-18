@@ -2,7 +2,6 @@
 ## ui.R
 
 library(shiny)
-library(labestData, lib.loc = installed.packages()["labestData", 2])
 
 L <- ls("package:labestData")
 i <- sapply(L,
