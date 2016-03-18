@@ -1,0 +1,40 @@
+#' @name BanzattoQd5.2.4
+#' @title Efeito de recipientes para para duas espécies de Eucalipto
+#' @description Experimento em esquema fatorial 3 \eqn{\times} 2 para
+#'     estudar o efeito de 3 tipos de recipientes para a produção de
+#'     mudas de duas espécies de Eucalipto. O experimento foi instalado
+#'     em delineamento inteiramente casualizado.
+#' @format Um \code{data.frame} com 24 observações e 4 variáveis, em que
+#' \describe{
+#'
+#' \item{\code{recipie}}{São os níveis de recipiente estudados: SPP -
+#'     saco plático pequeno, SPG - saco plástico grande e Lam -
+#'     laminado.}
+#'
+#' \item{\code{especie}}{São as espécies de Eucalipto: \emph{Eucalyptus
+#'     citriodora} e \emph{Eucalyptus grandis}}.
+#'
+#' \item{\code{rept}}{Identifica as repetições de cada combinação dos
+#'     fatores recipiente e espécie.}
+#'
+#' \item{\code{alt}}{Altura das mudas aos 80 dias de idade (cm).}
+#'
+#' }
+#' @keywords DIC FAT2
+#' @source Banzatto, D. A., Kronka, S. D. (2013). Experimentação
+#'     Agrícola (4th ed.). Jaboticabal, SP: Funep. (Quadro 5.2.4,
+#'     pág. 107)
+#' @examples
+#'
+#' library(lattice)
+#'
+#' data(BanzattoQd5.2.4)
+#'
+#' xyplot(alt ~ recipie, data = BanzattoQd5.2.4,
+#'        groups = especie, type = c("p", "a"),
+#'        auto.key = list(title = "Espécie", cex.title = 1, font = 3,
+#'                        columns = 1, corner = c(0.95, 0.95)),
+#'        xlab = "Recipiente",
+#'        ylab = "Altura das mudas aos 80 dias de idade (cm)")
+#'
+NULL

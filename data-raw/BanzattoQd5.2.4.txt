@@ -1,0 +1,25 @@
+recipie	especie	rept	alt
+SPP	E. citriodora	1	26.2
+SPP	E. grandis	1	24.8
+SPG	E. citriodora	1	25.7
+SPG	E. grandis	1	19.6
+Lam	E. citriodora	1	22.8
+Lam	E. grandis	1	19.8
+SPP	E. citriodora	2	26
+SPP	E. grandis	2	24.6
+SPG	E. citriodora	2	26.3
+SPG	E. grandis	2	21.1
+Lam	E. citriodora	2	19.4
+Lam	E. grandis	2	21.4
+SPP	E. citriodora	3	25
+SPP	E. grandis	3	26.7
+SPG	E. citriodora	3	25.1
+SPG	E. grandis	3	19
+Lam	E. citriodora	3	18.8
+Lam	E. grandis	3	22.8
+SPP	E. citriodora	4	25.4
+SPP	E. grandis	4	25.2
+SPG	E. citriodora	4	26.4
+SPG	E. grandis	4	18.6
+Lam	E. citriodora	4	19.2
+Lam	E. grandis	4	21.3
