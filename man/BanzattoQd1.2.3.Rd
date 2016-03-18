@@ -9,7 +9,7 @@ Banzatto, D. A., & Kronka, S. D. (2013). Experimentação
     Agrícola (4th ed.). Jaboticabal, SP: Funep. (Quadro 1.2.3 pág. 3)
 }
 \description{
-Valores de diâmentro à altura do peito (DAP, cm) de uma
+Valores de diâmetro à altura do peito (DAP, cm) de uma
     amostra aleatória de árvores de \emph{Eucalyptus saligna} de um
     povoamento com 15 anos de idade.
 }

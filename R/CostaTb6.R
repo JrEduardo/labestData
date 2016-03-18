@@ -9,20 +9,20 @@
 #' \item{\code{cobert}}{Fator nominal com níveis de cobertura morta
 #'     aplicada sobre o solo onde foi cultivado o brócolis: cobertura
 #'     com sorgo, com crotalária, com milheto e com a vegetação
-#'     expontânea.}
+#'     espontânea.}
 #'
 #' \item{\code{bloco}}{Fator de níveis nominais considerado para
 #'     controle local, possivelmente os canteiros da horta, com 5
 #'     níveis.}
 #'
 #' \item{\code{peso}}{Variável resposta contínua, peso seco (g
-#'     parcela\eqn{^{-1}}) de brocólis.}
+#'     parcela\eqn{^{-1}}) de brócolis.}
 #'
 #' }
 #' @keywords DBC
 #' @source Costa, J. R. (2003). Técnicas experimentais aplicadas às
 #'     ciências agrárias (Documentos 163). Seropédica, RJ: Embrapa
-#'     Agrobiologia. (pág. 63)
+#'     Agrobiologia. (Tabela 6 pág. 63)
 #' @examples
 #'
 #' library(lattice)

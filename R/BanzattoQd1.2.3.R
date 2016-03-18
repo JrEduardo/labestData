@@ -1,6 +1,6 @@
 #' @name BanzattoQd1.2.3
 #' @title Diâmetro à Altura do Peito de \emph{Eucalyptus saligna}
-#' @description Valores de diâmentro à altura do peito (DAP, cm) de uma
+#' @description Valores de diâmetro à altura do peito (DAP, cm) de uma
 #'     amostra aleatória de árvores de \emph{Eucalyptus saligna} de um
 #'     povoamento com 15 anos de idade.
 #' @format Um vetor numérico com 20 elementos.

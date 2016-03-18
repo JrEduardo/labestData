@@ -15,7 +15,7 @@
 #'     1) semeadura direta no campo, 2 semeadura em recipientes a pleno
 #'     sol e 3) semeadura em recipientes no ripado.}
 #'
-#' \item{\code{altura}}{Alturas médias (cm) das plantas de mamomeiro aos
+#' \item{\code{altura}}{Alturas médias (cm) das plantas de mamoeiro aos
 #'     147 dias após a semeadura.}
 #'
 #' }
@@ -26,7 +26,7 @@
 #'
 #' Ruiz, P. R. N. (1977). Estudo comparativo entre diferentes métodos de
 #'     semeadura na cultura do mamoeiro (\emph{Carica papaya}
-#'     L.). Tabalho de Conclusão de Curso (Graduação em Agronomia) -
+#'     L.). Trabalho de Conclusão de Curso (Graduação em Agronomia) -
 #'     Faculdade de Ciências Agrárias e Veterinárias, Universidade
 #'     Estadual Paulista, Jaboticabal - SP.
 #' @examples
