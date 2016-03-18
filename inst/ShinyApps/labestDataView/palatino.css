@@ -37,11 +37,17 @@ body {
 tt, code, pre {
     /* font-family: "Lucida Console", Monaco, monospace; */
     /* font-family: Consolas, "Courier New", Courier, monospace; */
-    font-family: "Andale Mono", monospace;
+    font-family: "Inconsolata", "Andale Mono", monospace;
 }
 
 code, pre {
-    font-size: 13px;
+    font-size: 14px;
+}
+
+pre {
+    border: 0px;
+    word-break: unset;
+    word-wrap: unset;
 }
 
 p {
