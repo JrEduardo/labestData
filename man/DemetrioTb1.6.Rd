@@ -2,16 +2,18 @@
 % Please edit documentation in R/DemetrioTb1.6.R
 \name{DemetrioTb1.6}
 \alias{DemetrioTb1.6}
-\title{Cultura do Milho}
+\title{Resposta de Milho ao Fostato}
 \format{Um \code{data.frame} de 14 linhas e 4 colunas.
 
 \describe{
 
-    \item{\code{milho}}{Dados de resposta da cultura do milho.}
+    \item{\code{milho}}{Dados de resposta da cultura do milho ao
+    fosfato em porcentagem.}
     
-    \item{\code{prod}}{Produtividade.}
+    \item{\code{prod}}{Produtividade da cultura na parcela
+    testemunha, em lb/acre.}
     
-    \item{\code{satu}}{Porcentagem de saturação de bases.}
+    \item{\code{satu}}{Saturação de bases em procentagem.}
     
     \item{\code{ph}}{pH do solo.}
 
@@ -21,9 +23,11 @@ Demétrio, C. G. B., & Zocchi, S. S. (2011). Modelos de
     Regressão. Piracicaba: ESALQ. (Tabela 1.6 pág. 13)
 }
 \description{
-Foram obtidos dados sobre a cultura do milho com o 
-interesse principal de estudar a correlação entre as variáveis
-do estudo.
+Neste estudo foram obtidos dados sobre a resposta da
+    cultura do milho ao fostato, produtividade na testemunha,
+    porcentagem de saturação de bases e pH do solo. Como todas as
+    variáveis computadas são aleatórias, o interesse principal é em
+    estudar as correlações entre as variáveis observadas.
 }
 \examples{
 
@@ -32,7 +36,8 @@ data(DemetrioTb1.6)
 pairs(~ milho + prod + satu + ph, data = DemetrioTb1.6,
      main = "Dispersão duas a duas")
 
+cor(DemetrioTb1.6)
+
 }
-\keyword{milho}
-\keyword{solo}
+\keyword{TODO}
 
