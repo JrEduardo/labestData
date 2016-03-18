@@ -10,7 +10,7 @@
 #' \describe{
 #'
 #' \item{trat}{Fator de níveis nominais. Tratamento aplicado para
-#'     controle do púlgão.}
+#'     controle do pulgão.}
 #'
 #' \item{rept}{Número inteiro que identifica as repetições de cada
 #'     tratamento.}

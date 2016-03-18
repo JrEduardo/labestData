@@ -41,7 +41,7 @@ aggregate(alt ~ comp,  data = BanzattoQd3.7.1,
 
 xyplot(alt ~ comp, data = BanzattoQd3.7.1,
        xlab = expression(
-           Composição~do~susbtrato~para~italic("Pinus oocarpa")),
+           Composição~do~substrato~para~italic("Pinus oocarpa")),
        ylab = expression(Alturas~médias~60~dias~após~semeadura~(cm)))
 
 }

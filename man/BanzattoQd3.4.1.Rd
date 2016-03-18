@@ -38,7 +38,7 @@ aggregate(prod ~ cult,  data = BanzattoQd3.4.1,
           FUN = function(x) { c(mean = mean(x), var = var(x)) })
 
 xyplot(prod ~ cult, data = BanzattoQd3.4.1,
-       xlab = "Cultivares de madioca",
+       xlab = "Cultivares de mandioca",
        ylab = expression(Produtividade~de~mandioca~(t~ha^{-1})))
 
 }
