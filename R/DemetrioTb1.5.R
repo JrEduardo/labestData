@@ -1,32 +1,40 @@
 #' @name DemetrioTb1.5
-#' @title Valores de CTC direta e indereta
+#' @title Valores de CTC Direta e Indereta
 #' 
-#' @description O experimento foi realizado em quatro blocos, sendo 
-#'  planejado para estudar o efeito da calagem sobre a CTC 
-#'  (Capacidade de troca catiônica) do solo medida por dois métodos 
-#'  diferentes.
-#' 
-#'  Os valores foram medidos 18 meses após a calagem incorporada ao
-#'  solo, segundo a dose de calcário, medida em tonelados por hectare 
-#'  (t/ha).
-#' 
+#' @description O experimento foi realizado em quatro blocos, sendo
+#'     planejado para estudar o efeito da calagem sobre a CTC
+#'     (Capacidade de Troca Catiônica) do solo medida por dois métodos
+#'     diferentes. Os valores de CTC foram medidos 18 meses após a
+#'     calagem incorporada ao solo, na profundidade de 5 a 10 cm, segundo
+#'     a dose de calcário.
+#'
 #' @format Um \code{data.frame} de 32 linhas e 4 colunas.
 #' 
 #' \describe{
 #' 
-#'     \item{\code{bloco}}{Indica a qual bloco a amostra pertence.}
+#'     \item{\code{bloco}}{Fator que indica a qual bloco a amostra
+#'     pertence, usado para controle de variação.}
 #'     
-#'     \item{\code{dose}}{Indica a dose usada na referida observação.}
+#'     \item{\code{dose}}{Indica a dose de calcário usada na referida
+#'     observação, medida em tonelados por hectare (t/ha).}
 #'     
-#'     \item{\code{direta}}{Indica se é valor de CTC direta (1) ou 
-#'     indireta (0).}
+#'     \item{\code{metodo}}{Fator que indica o método para determinação
+#'     da CTC, direto (1) ou indireto (0).}
 #'     
 #'     \item{\code{ctc}}{É o valor observado de CTC, medido em 
-#'     mmol_{c}/kg.}
+#'     \eqn{mmol_{c}/kg}.}
 #' 
 #' }
-#' 
-#' @keywords CTC solo
+#'
+#' @details Na análise inicial do estudo do estudo foi detectada a
+#'     presença de um dado discrepante (177,00) correspondente ao
+#'     \code{bloco} I, \code{dose} 7,80 e \code{metodo} indireto. Em
+#'     conversa com o pesquisador verificou-se que se tratava de um erro
+#'     na transcrição dos dados e que o valor correto seria
+#'     124,00. Neste conjunto de dados mante-ve o valor discrepante para
+#'     efeitos didáticos.
+#'
+#' @keywords TODO
 #' 
 #' @source Demétrio, C. G. B., & Zocchi, S. S. (2011). Modelos de
 #'     Regressão. Piracicaba: ESALQ. (Tabela 1.5 pág. 12)
@@ -35,12 +43,22 @@
 #' 
 #' library(lattice)
 #' 
-#' data(DemetrioTb1.5)
+#' xyplot(ctc ~ dose | bloco, groups = metodo,
+#'        data = DemetrioTb1.5,
+#'        main = "Dose VS CTC",
+#'        xlab = "Dose", ylab = "CTC",
+#'        type = c("p", "r"),
+#'        auto.key = list(space = "right", title = "Método"))
 #' 
-#' xyplot(ctc ~ dose, data = DemetrioTb1.5,
-#'     main = "Dose VS CTC",
-#'     xlab = "Dose",
-#'     ylab = "CTC",
-#'     type = c("p", "r"), col.line = 3)
+#' # Corrigindo dado, conforme erro verificado pelo pesquisador
+#' select <- with(DemetrioTb1.5, bloco == 1 & dose == 7.8 & metodo == 0)
+#' DemetrioTb1.5$ctc[select] <- 124
+#' 
+#' xyplot(ctc ~ dose | bloco, groups  = metodo,
+#'        data = DemetrioTb1.5,
+#'        main = "Dose VS CTC",
+#'        xlab = "Dose", ylab = "CTC",
+#'        type = c("p","r"),
+#'        auto.key = list(space = "right", title = "Método"))
 #' 
 NULL
