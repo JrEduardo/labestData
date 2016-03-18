@@ -1,6 +1,8 @@
+##-------------------------------------------
+## ui.R
+
 library(shiny)
-library(xtable)
-library(labestData, lib.loc = "/home/walmes/R/")
+library(labestData, lib.loc = installed.packages()["labestData", 2])
 
 L <- ls("package:labestData")
 i <- sapply(L,
@@ -16,23 +18,28 @@ shinyUI(fluidPage(
     h3("Conjuntos de Dados para Ensino de Estatística"),
     tags$em("pet.estatistica.ufpr@gmail.com"),
     hr(),
-    sidebarLayout(
-        sidebarPanel(
-            selectInput(inputId = "DATASET",
-                        label = "Escolha o dataset:",
-                        choices = L,
-                        selected = sample(1:length(L))),
-            hr(),
-            numericInput(inputId ="PORTA",
-                         label = "Porta:",
-                         value = options()$html.port),
-            uiOutput("LINK"),
-            hr(),
-            downloadButton(outputId = "DOWNLOADDATA",
-                           label = "Download tsv")
-        ),
-        mainPanel(
-            htmlOutput("TABLE")
-        ) # mainPanel
-    ) # sidebarLayout
-)) # fluidPage shinyUI
+
+        sidebarLayout(
+            sidebarPanel(
+                selectInput(inputId = "DATASET",
+                            label = "Escolha o dataset:",
+                            choices = L,
+                            selected = sample(1:length(L))),
+                hr(),
+                downloadButton(outputId = "DOWNLOADDATA",
+                               label = "Download tsv")
+            ),
+            mainPanel(
+                tabsetPanel(
+                    tabPanel(
+                        title = "Tabela de dados",
+                        htmlOutput("TABLE")),
+                    tabPanel(
+                        title = "Documentação",
+                        htmlOutput("DOC")
+                    )
+                )
+            )
+        )
+    )
+)
