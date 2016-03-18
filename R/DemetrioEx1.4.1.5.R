@@ -1,8 +1,8 @@
 #' @name DemetrioEx1.4.1.5
 #' @title Número de Ovos
 #' 
-#' @description Foi contado o número me ovos postos e o número
-#' de folículos ovulados.
+#' @description Foi contado o número me ovos postos e o número de
+#'     folículos ovulados.
 #' 
 #' @format Um \code{data.frame} de 14 linhas e 2 colunas.
 #' 
@@ -14,7 +14,7 @@
 #'     
 #' }
 #' 
-#' @keywords ovo folículo
+#' @keywords TODO
 #' 
 #' @source Demétrio, C. G. B., & Zocchi, S. S. (2011). Modelos de
 #'     Regressão. Piracicaba: ESALQ. (Exercício 1.4.1.5 pág. 15)

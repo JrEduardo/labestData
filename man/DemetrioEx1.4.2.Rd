@@ -2,12 +2,12 @@
 % Please edit documentation in R/DemetrioEx1.4.2.R
 \name{DemetrioEx1.4.2}
 \alias{DemetrioEx1.4.2}
-\title{Irrigação}
+\title{Tempo de Irrigação de Solo}
 \format{Um \code{data.frame} de 15 linhas e 2 colunas.
 
 \describe{
 
-    \item{\code{tempo}}{Tempo acumulado de observação, medido em 
+    \item{\code{tempo}}{Tempo acumulado de irrigação, medido em 
     minutos.}
     
     \item{\code{infil}}{Infiltração acumulada de água no solo, medida
@@ -19,15 +19,15 @@ Demétrio, C. G. B., & Zocchi, S. S. (2011). Modelos de
     Regressão. Piracicaba: ESALQ. (Exercício 1.4.2 pág. 16)
 }
 \description{
-Foram medidos os tempos acumulados e as correspondentes
- medidas de infiltração acumulada de água no solo.
-
- O objetivo do experimento era estimar as equações de infiltração 
- acumulada em relação ao tempo acululado, de velocidade de infiltração
- em relação ao tempo acumulado e de velocidade básica de infiltração.
- Essas equações são importantes para determinar o tempo de irrigação
- para atingir uma determinada lâmina de água, pois é anti-econômico
- irrigar a uma velocidade maior à de infiltração.
+Neste estudo foram medidos os tempos acumulados de
+    irrigação e as correspondentes medidas de infiltração acumulada
+    de água no solo. O objetivo do experimento era estimar as
+    equações de infiltração acumulada em relação ao tempo acumulado e
+    de velocidade de infiltração em relação ao tempo acumulado e à
+    velocidade básica de infiltração.  Essas equações são importantes
+    para determinar o tempo de irrigação para atingir uma determinada
+    lâmina de água, pois é anti-econômico irrigar a uma velocidade
+    maior à de infiltração.
 }
 \examples{
 
@@ -42,7 +42,5 @@ xyplot(infil ~ tempo, data = DemetrioEx1.4.2,
      type = c("p", "r"), col.line = 3)
      
 }
-\keyword{infiltração}
-\keyword{irrigação}
-\keyword{solo}
+\keyword{TODO}
 

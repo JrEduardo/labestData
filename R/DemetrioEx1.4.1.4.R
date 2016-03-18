@@ -1,10 +1,10 @@
 #' @name DemetrioEx1.4.1.4
 #' @title Volume das Cerejeiras
 #' 
-#' @description Foram mensurados o diâmetro, a altura e o volume de
-#' 31 cerejeiras, com o objetivo de verificar a relação entre as 
-#' variáveis, tendo em vista a predição do volume de madeira
-#' em uma área de floresta.
+#' @description Foram mensurados o diâmetro, a altura e o volume de 31
+#'     cerejeiras com o objetivo de verificar a relação entre estas
+#'     variáveis, tendo em vista a predição do volume de madeira em uma
+#'     área de floresta.
 #' 
 #' @format Um \code{data.frame} de 31 linhas e 3 colunas.
 #' 
@@ -19,7 +19,7 @@
 #'     
 #' }
 #' 
-#' @keywords diametro cerejeiras volume solo
+#' @keywords TODO
 #' 
 #' @source Demétrio, C. G. B., & Zocchi, S. S. (2011). Modelos de
 #'     Regressão. Piracicaba: ESALQ. (Exercício 1.4.1.4 pág. 14)

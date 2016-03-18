@@ -20,10 +20,10 @@ Demétrio, C. G. B., & Zocchi, S. S. (2011). Modelos de
     Regressão. Piracicaba: ESALQ. (Exercício 1.4.1.4 pág. 14)
 }
 \description{
-Foram mensurados o diâmetro, a altura e o volume de
-31 cerejeiras, com o objetivo de verificar a relação entre as 
-variáveis, tendo em vista a predição do volume de madeira
-em uma área de floresta.
+Foram mensurados o diâmetro, a altura e o volume de 31
+    cerejeiras com o objetivo de verificar a relação entre estas
+    variáveis, tendo em vista a predição do volume de madeira em uma
+    área de floresta.
 }
 \examples{
 
@@ -41,8 +41,5 @@ xyplot(vol ~ dia, data = DemetrioEx1.4.1.4,
      type = c("p", "r"), col.line = 3)
      
 }
-\keyword{cerejeiras}
-\keyword{diametro}
-\keyword{solo}
-\keyword{volume}
+\keyword{TODO}
 

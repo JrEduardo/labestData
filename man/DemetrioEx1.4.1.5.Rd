@@ -17,8 +17,8 @@ Demétrio, C. G. B., & Zocchi, S. S. (2011). Modelos de
     Regressão. Piracicaba: ESALQ. (Exercício 1.4.1.5 pág. 15)
 }
 \description{
-Foi contado o número me ovos postos e o número
-de folículos ovulados.
+Foi contado o número me ovos postos e o número de
+    folículos ovulados.
 }
 \examples{
 
@@ -33,6 +33,5 @@ xyplot(foli ~ ovo, data = DemetrioEx1.4.1.5,
      type = c("p", "r"), col.line = 3)
      
 }
-\keyword{folículo}
-\keyword{ovo}
+\keyword{TODO}
 

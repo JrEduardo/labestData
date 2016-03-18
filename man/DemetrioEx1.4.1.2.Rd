@@ -18,7 +18,7 @@ Demétrio, C. G. B., & Zocchi, S. S. (2011). Modelos de
 }
 \description{
 Foi mensurado o peso médio e consumo de alimentos de 50
-galinhas de 10 linhagens White Leghorn.
+    galinhas para 10 linhagens \emph{White Leghorn}.
 }
 \examples{
 
@@ -33,7 +33,5 @@ xyplot(consumo ~ peso, data = DemetrioEx1.4.1.2,
      type = c("p", "r"), col.line = 3)
      
 }
-\keyword{consumo}
-\keyword{galinha}
-\keyword{peso}
+\keyword{TODO}
 

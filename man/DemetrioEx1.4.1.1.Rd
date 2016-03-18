@@ -32,7 +32,5 @@ xyplot(altura ~ idade, data = DemetrioEx1.4.1.1,
      type = c("p", "r"), col.line = 3)
      
 }
-\keyword{altura}
-\keyword{feijão}
-\keyword{idade}
+\keyword{TODO}
 
