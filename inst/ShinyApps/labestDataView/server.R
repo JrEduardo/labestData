@@ -3,6 +3,7 @@
 
 library(shiny)
 library(xtable)
+library(labestData, lib.loc = "/usr/lib/R/site-library")
 
 howmanydigits <- function(x) {
     x <- na.omit(x)
@@ -27,6 +28,18 @@ static_help <- function(pkg, topic, out,
 
 shinyServer(
     function(input, output, session) {
+        output$test <- renderPrint({
+            input$VIEW
+        })
+
+        output$DOC <- renderPrint({
+            tmp <- tempfile()
+            static_help("labestData", input$DATASET, tmp)
+            out <- readLines(tmp)
+            headfoot <- grep("body", out)
+            cat(out[(headfoot[1] + 1):(headfoot[2] - 2)], sep = "\n")
+        })
+
         output$TABLE <- renderPrint({
             da <- eval(parse(text = input$DATASET))
             a <- switch(class(da),
@@ -44,6 +57,7 @@ shinyServer(
             dig <- sapply(a, howmanydigits)
             print(xtable(a, digits = c(0, dig)), type = "html")
         })
+
         output$DOWNLOADDATA <- downloadHandler(
             filename = function() {
                 sprintf("%s.txt", input$DATASET)
@@ -55,12 +69,17 @@ shinyServer(
                             row.names = FALSE,
                             quote = FALSE)
             })
-        output$DOC <- renderPrint({
-            tmp <- tempfile()
-            static_help("labestData", input$DATASET, tmp)
-            out <- readLines(tmp)
-            headfoot <- grep("body", out)
-            cat(out[(headfoot[1] + 1):(headfoot[2] - 2)], sep = "\n")
+
+        output$TABLE_DOC <- renderUI({
+            if(input$VIEW == "about") {
+                return(HTML("<b>README</b>"))
+            }
+            if(input$VIEW == "table") {
+                return(tableOutput("TABLE"))
+            }
+            if(input$VIEW == "doc") {
+                return(uiOutput("DOC"))
+            }
         })
     }
 )
