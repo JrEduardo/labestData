@@ -1,0 +1,103 @@
+#' @name Dinorah
+#' @title Produção de Milho com Adubação Orgânica com Cama de Frango
+#' @description Experimento instalado e conduzido por Walmes M. Zeviani,
+#'     estudante do 4 ano de Agronomia da UFGD na época, na Fazenda
+#'     Dinorah em Jateí - MS na safra de inverno de 2006. No experimento
+#'     foram avaliadas doses de cama de frango como fonte de adubação
+#'     orgânica na cultura do milho. Três fatores foram estudados: forma
+#'     de aplicação da cama de frango, quantidade aplicada e
+#'     complementação com adubação mineral (NPK). Os três fatores
+#'     combinados resultam em um arranjo fatorial incompleto devido a
+#'     ausência de uma cela experimental que não era de interesse. O
+#'     experimento foi instalado em blocos para controlar para o efeito
+#'     da declividade do terreno.
+#'
+#' \if{html}{\figure{dinorah.jpg}{options: width="800px"}}
+#' \if{latex}{\figure{dinorah.jpg}{options: width=5.4in}}
+#'
+#' Na figura acima tem-se a delimitação entre algumas parcelas (contorno
+#'     linhas retas brancas com vertices nas estacas).
+#'
+#' @format Um \code{data.frame} com 60 observações e 11 variáveis.
+#'     \describe{
+#'
+#' \item{\code{aplic}}{Forma de aplicação da cama de frango: incorporada
+#'     ao solo com uma grade niveladora leve e semi aberta ou à lanço na
+#'     superfície sem incorporação.}
+#'
+#' \item{\code{npk}}{Quantidade de adubo mineral (NPK, kg ha\eqn{^{-1}})
+#'     aplicado na linha quando feita a semeadura.}
+#'
+#' \item{\code{cama}}{Quantidade aplicada de cama de frango (ton
+#'     ha\eqn{^{-1}}) como fonte orgânica de adubação.}
+#'
+#' \item{\code{bloco}}{Identifica os blocos do experimento que foram
+#'     utilizados para controlar principalmente a declividade do terreno
+#'     onde foram demarcadas as parcelas.}
+#'
+#' \item{\code{altes}}{Altura das espigas (cm) em relação ao nível do
+#'     solo, obtida com a média da medida em 5 plantas ao acaso dentro
+#'     da área útil da parcela.}
+#'
+#' \item{\code{altpl}}{Altura das plantas (cm) em relação ao nível do
+#'     solo, obtida com a média da medida em 5 plantas ao acaso dentro
+#'     da área útil da parcela.}
+#'
+#' \item{\code{maspl}}{Massa fresca média de uma planta, obtida com a
+#'     média da medida em 5 plantas ao acaso dentro da área útil da
+#'     parcela.}
+#'
+#' \item{\code{mases}}{Massa de espiga com casca (g), obtida com a média
+#'     da medida de todas as espigas colhidas na área útil da parcela.}
+#'
+#' \item{\code{masgr}}{Massa de grãos por espiga (g), obtida ao debulhar
+#'     a espiga pesar os grãos, também corresponde à média da medida de
+#'     todas as espigas colhidas na área útil da parcela.}
+#'
+#' \item{\code{prod}}{Produção de grãos de milho (kg ha\eqn{^{-1}}).}
+#'
+#' \item{\code{p100}}{Peso de 100 grãos (g).}
+#'
+#' }
+#' @keywords DBC FAT3 incompleto
+#' @source Arquivo pessoal de Walmes M. Zeviani.
+#' @examples
+#'
+#' library(lattice)
+#'
+#' data(Dinorah)
+#'
+#' str(Dinorah)
+#'
+#' xyplot(prod ~ cama | aplic, data = Dinorah,
+#'        groups = npk, type = c("p", "a"),
+#'        layout = c(NA, 1),
+#'        auto.key = list(title = expression("NPK"~(kg~ha^{-1})),
+#'                        cex.title = 1, columns = 2),
+#'        strip = strip.custom(strip.names = TRUE, var.name = "Aplicação"),
+#'        xlab = expression("Adubação com cama de frango"~(ton~ha^{-1})),
+#'        ylab = expression("Produção milho"~(ka~ha^{-1})))
+#'
+#' ftable(xtabs(~aplic + cama + npk, data = Dinorah))
+#'
+#' library(reshape2)
+#'
+#' din <- melt(data = Dinorah,
+#'             id.vars = names(Dinorah)[1:4],
+#'             measure.vars = names(Dinorah)[-(1:4)],
+#'             value.name = "valor",
+#'             variable.name = "resp")
+#' str(din)
+#'
+#' xyplot(valor ~ cama | resp, data = din,
+#'        groups = interaction(aplic, npk, sep = " : "),
+#'        type = c("p", "a"), as.table = TRUE,
+#'        auto.key = list(title = expression(
+#'                            "Forma de aplicação : NPK"~(kg~ha^{-1})),
+#'                        cex.title = 1, columns = 2),
+#'        scales = list(y = "free"),
+#'        xlab = expression(
+#'            "Adubação com cama de frango"~(ton~ha^{-1})),
+#'        ylab = "Valor observado")
+#'
+NULL
