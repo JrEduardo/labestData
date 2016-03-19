@@ -445,4 +445,27 @@ hr.white {
    }
 }
 
+/*
+  -----------------------------------------------------------------------------
+  Customização bootstrap:
+      - largura máxima para botões de download
+      - Centralizada tabsetPanel
+  -----------------------------------------------------------------------------
+  */
+
+.btn {
+	width: 100%;
+}
+
+.nav-tabs > li, .nav-pills > li {
+    float:none;
+    display:inline-block;
+    *display:inline; /* ie7 fix */
+     zoom:1; /* hasLayout ie7 trigger */
+}
+
+.nav-tabs, .nav-pills {
+    text-align:center;
+}
+
 /* ----------------------------------------------------------------------------- */
