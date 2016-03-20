@@ -24,7 +24,7 @@
 #'
 #' library(lattice)
 #'
-#' bwplot(prod ~ aradura,
+#' xyplot(jitter(prod) ~ aradura,
 #'        groups = bloco,
 #'        data = PimentelPg91,
 #'        xlab = "Aradura",
