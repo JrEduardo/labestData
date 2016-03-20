@@ -1,0 +1,55 @@
+#' @name FerreiraEg7.1
+#' @title Avaliação de Exercícios Físicos sobre o Estresse Oxidativo
+#' @description Dados observados de um estudo realizado no laboratório
+#'     de Bioquímica Clínica do Departamento de Análises Clínicas e
+#'     Toxicológicas da Universidade Federal de Alfenas (UNIFAL), no
+#'     qual o interesse era testar se a rotina de exercícios físicos
+#'     intensos não tem efeito sobre o estresse oxidativo (estresse
+#'     causado pelo aumento de radicais livres), no plasma de mulheres
+#'     da terceira idade. O estudo consistiu na avaliação de 16 mulheres
+#'     da terceira submetidas ao exercício físico durante 4 semanas, as
+#'     avaliações ocorreram antes e depois do tratamento com exercícios
+#'     físicos.
+#' @format Um \code{data.frame} com 32 observações e 3 variáveis.
+#'
+#' \describe{
+#'
+#' \item{\code{amostra}}{Fator que indica a qual amostra a observação
+#'     pertence, antes ou depois do tratamento com exercícios físicos.}
+#'
+#' \item{\code{proteina}}{Proteínas mensuradas em \eqn{g/dl} (grama por
+#'     decilitro).}
+#'
+#' \item{\code{peroxido}}{Peróxidos de protéina mensurados em
+#'     \eqn{nmol/dl} (nanomol por decilitro).}
+#'
+#' }
+#' @keywords TODO
+#' @source Ferreira, D. F. (2011). Estatística Multivariada (2nd
+#'     ed.). Lavras, MG: Editora UFLA. (Exemplo 7.1 pág. 286)
+#'
+#' @examples
+#' data(FerreiraEg7.1)
+#'
+#' aggregate(peroxido ~ amostra, data = FerreiraEg7.1, summary)
+#' aggregate(proteina ~ amostra, data = FerreiraEg7.1, summary)
+#' 
+#' par(mar = c(4, 5, 4, 5))
+#' boxplot(proteina ~ amostra, data = FerreiraEg7.1,
+#'         xlim = c(0.5, 2.5), border = 4,
+#'         boxwex = 0.2, at = 1:2 - 0.15,
+#'         axes = FALSE)
+#' box()
+#' axis(side = 2, col.axis = 4)
+#' mtext(side = 2, text = "Proteínas em g/dl", line = 3, col = 4) 
+#' par(new = TRUE, mar = c(4, 5, 4, 5))
+#' boxplot(peroxido ~ amostra, data = FerreiraEg7.1,
+#'         xlim = c(0.5, 2.5), border = 2,
+#'         boxwex = 0.2, at = 1:2 + 0.15,
+#'         axes = FALSE)
+#' axis(side = 4, col.axis = 2)
+#' axis(side = 1, at = 1:2, labels = c("antes", "depois"))
+#' mtext(side = 4, text = "Peróxidos em nmol/g de proteína",
+#'       line = 3, col = 2)
+#' 
+NULL
