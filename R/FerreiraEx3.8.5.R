@@ -15,7 +15,7 @@
 #' }
 #' @keywords TODO
 #' @source Ferreira, D. F. (2011). Estatística Multivariada (2nd
-#'     ed.). Lavras,  MG: Editora UFLA. (Exercício 3.8.5)
+#'     ed.). Lavras,  MG: Editora UFLA. (Exercício 3.8.5 pág. 169)
 #' @examples
 #'
 # Análise descritiva

@@ -13,7 +13,7 @@
 #' }
 #' @keywords TODO
 #' @source Ferreira, D. F. (2011). Estatística Multivariada (2nd
-#'     ed.). Lavras, MG: Editora UFLA. (Exemplo 3.4)
+#'     ed.). Lavras, MG: Editora UFLA. (Exemplo 3.4 pág. 136)
 #'
 #' Royston, J. P. (1983). Some techniques for assessing multivariate
 #'     normality based on Shapiro-Wilk. London, Applied Statistics -

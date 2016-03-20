@@ -20,7 +20,7 @@
 #' \item{\code{proteina}}{Proteínas mensuradas em \eqn{g/dl} (grama por
 #'     decilitro).}
 #'
-#' \item{\code{peroxido}}{Peróxidos de protéina mensurados em
+#' \item{\code{peroxido}}{Peróxidos de proteína mensurados em
 #'     \eqn{nmol/dl} (nanomol por decilitro).}
 #'
 #' }
