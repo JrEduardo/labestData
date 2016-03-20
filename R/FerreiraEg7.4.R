@@ -1,0 +1,55 @@
+#' @name FerreiraEg7.4
+#' @title Avaliação de Duas Variedades de Milho
+#' @description Com o interesse de testar a hipótese de igualdade entre
+#'     duas variedades de milho, foram mensuradas as variáveis aleatórias
+#'     produtividade e altura das plantas em cada uma das variedades.
+#'     
+#' @format Um \code{data.frame} com 11 observações e 3 variáveis.
+#'
+#' \describe{
+#'
+#' \item{\code{varie}}{Fator que indica a qual variedade a observação
+#'     pertence. Variedade A, com 6 observações e B com 5.}
+#'
+#' \item{\code{prod}}{Produtividade mensurada em t ha\eqn{^{-1}}
+#'     (tonelada por hectare).}
+#'
+#' \item{\code{altura}}{Altura média das plantas em metros.}
+#'
+#' }
+#' @keywords TODO
+#' @source Ferreira, D. F. (2011). Estatística Multivariada (2nd
+#'     ed.). Lavras, MG: Editora UFLA. (Exemplo 7.4 pág. 302)
+#'
+#' @examples
+#' data(FerreiraEg7.4)
+#'
+#' aggregate(prod ~ varie, data = FerreiraEg7.4, summary)
+#' aggregate(altura ~ varie, data = FerreiraEg7.4, summary)
+#' by(FerreiraEg7.4[2:3], FerreiraEg7.4[1], cov)
+#' 
+#' with(FerreiraEg7.4, {
+#'      par(mar = c(4, 5, 4, 5))
+#'      plot.default(y = prod, xlab = "", ylab = "",
+#'                   x = jitter(as.numeric(varie), factor = 0.5) - 0.1,
+#'                   xlim = c(0.5, 2.5),
+#'                   col = 4,
+#'                   axes = FALSE)
+#'      box()
+#'      axis(side = 2, col.axis = 4)
+#'      mtext(side = 2, text = "Produtividade em t/ha",
+#'            line = 3, col = 4) 
+#'      par(new = TRUE, mar = c(4, 5, 4, 5))
+#'      plot.default(y = altura, xlab = "", ylab = "",
+#'                   x = jitter(as.numeric(varie), factor = 0.5) + 0.1,
+#'                   xlim = c(0.5, 2.5),
+#'                   col = 2,
+#'                   axes = FALSE)
+#'      axis(side = 4, col.axis = 2)
+#'      axis(side = 1, at = 1:2,
+#'           labels = c("Variedade A", "Variedade B"))
+#'      mtext(side = 4, text = "Altura em m",
+#'            line = 3, col = 2)
+#' })
+#'
+NULL
