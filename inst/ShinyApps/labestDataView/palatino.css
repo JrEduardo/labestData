@@ -447,6 +447,30 @@ hr.white {
 
 /*
   -----------------------------------------------------------------------------
+  Customização para títulos no cabeçalho
+  -----------------------------------------------------------------------------
+  */
+  
+h1.title {
+    color: #333;
+    background-color: #fff;
+    font-weight: bold;
+    font-size: 1.8em;
+    text-align: center;
+    margin-bottom: -0.4em;
+}
+
+h2.title {
+    color: #6B6B6B;
+    background-color: #fff;
+    font-style: italic;
+    font-size: 1.3em;
+    text-align: center;
+    padding: 0px;
+}
+
+/*
+  -----------------------------------------------------------------------------
   Customização bootstrap:
       - largura máxima para botões de download
       - Centralizada tabsetPanel
