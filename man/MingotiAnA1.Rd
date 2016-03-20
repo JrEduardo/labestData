@@ -52,6 +52,5 @@ boxplot(notas ~ atributo, data = da,
         xlab = "Atributos", ylab= "Notas")
 
 }
-\keyword{"Análise}
-\keyword{fatorial"}
+\keyword{TODO}
 

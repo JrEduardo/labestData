@@ -44,7 +44,5 @@ data(MingotiTb6.8)
 pairs(MingotiTb6.8)
 
 }
-\keyword{"Análise}
-\keyword{agrupamentos"}
-\keyword{de}
+\keyword{TODO}
 
