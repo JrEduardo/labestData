@@ -1,0 +1,13 @@
+fase	peso	teor
+antes	250	10
+antes	300	12
+antes	350	13
+antes	320	15
+antes	400	9
+antes	320	11
+depois	280	12
+depois	320	16
+depois	360	13
+depois	380	18
+depois	410	15
+depois	350	12
