@@ -22,7 +22,7 @@
 #'     candidato.}
 #'     
 #' }
-#' @keywords "Análise discriminante"
+#' @keywords TODO
 #' @source Mingoti, S.A. (2005). Análise de dados através de métodos de 
 #'     estatística multivariada - uma abordagem aplicada. 
 #'     Belo Horizonte, MG: Editora UFMG. (pg 234)

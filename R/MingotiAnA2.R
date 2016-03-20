@@ -32,7 +32,7 @@
 #'     matemática, variando entre 4,5 a 25,5.}
 #'
 #' }
-#' @keywords "Análise fatorial"
+#' @keywords TODO
 #' @source Mingoti, S.A. (2005). Análise de dados através de métodos de 
 #'     estatística multivariada - uma abordagem aplicada. 
 #'     Belo Horizonte, MG: Editora UFMG. (pg 123 (Ex 4.2); 126 (Ex 4.3)).
