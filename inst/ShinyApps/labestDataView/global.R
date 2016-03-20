@@ -2,7 +2,7 @@
 ## global.R
 
 library(xtable)
-library(labestaData)
+library(labestData)
 
 L <- ls("package:labestData")
 i <- sapply(L, function(x) {

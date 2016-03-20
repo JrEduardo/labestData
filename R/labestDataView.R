@@ -20,7 +20,8 @@
 #' }
 labestDataView <- function() {
     if (!requireNamespace(package = "shiny", quietly = TRUE)) {
-        stop("Pacote `shiny` não encontrado. Instale-o, por favor.",
+        stop(paste("Pacote `shiny` n\u00e3o encontrado.",
+                   "Instale-o, por favor."),
              call. = FALSE)
     }
     appDir <- system.file("ShinyApps",
@@ -28,8 +29,8 @@ labestDataView <- function() {
                           package = "labestData")
     if (appDir == "") {
         stop(paste(
-            "Não foi possível encontrar diretório",
-            "com a aplicação Shiny.",
+            "N\u00e3o foi poss\u00edvel encontrar diret\u00f3rio",
+            "com a aplica\u00e7\u00e3o Shiny.",
             "Tente reinstalar o `labestData`."),
             call. = FALSE)
     }
