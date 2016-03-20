@@ -2,7 +2,7 @@
 #' @title Dados de produção de cana-planta
 #' @description Experimento em blocos casualizados realizado pela
 #'     Cooperativa dos Usineiros do Oeste do Estado de São Paulo,
-#'     referentes à produção de cana-planta de um ensaio de variedades
+#'     referente à produção de cana-planta de um ensaio de variedades
 #'     de cana.
 #' @format Um \code{data.frame} com 28 observações e 3 variáveis, em que
 #'

@@ -23,7 +23,7 @@ Pimentel-Gomes, F. (2009). Curso de Estatística Experimental
 \description{
 Experimento em blocos casualizados realizado pela
     Cooperativa dos Usineiros do Oeste do Estado de São Paulo,
-    referentes à produção de cana-planta de um ensaio de variedades
+    referente à produção de cana-planta de um ensaio de variedades
     de cana.
 }
 \examples{
