@@ -7,8 +7,8 @@
 
 \describe{
 
-\item{\code{id}}{Identificação do indivíduo representada 
-    por 6 letras (A a F).}
+\item{\code{id}}{Identificação do indivíduo  
+    (A-F).}
 
 \item{\code{renda}}{Renda mensal em quantidade de salários mínimos.}
 
@@ -21,8 +21,8 @@ Mingoti, S.A. (2005). Análise de dados através de métodos de
     Belo Horizonte, MG: Editora UFMG. (pg 159).
 }
 \description{
-Dados referente a renda mensal (em quantidade de 
-    salários mínimos) e a idade de seis indivíduos de uma
+Dados referente às rendas mensais (em quantidade de 
+    salários mínimos) e às idades de seis indivíduos de uma
     localidade.
 }
 \examples{
@@ -36,7 +36,5 @@ xyplot(renda ~ idade,
       ylab="Renda mensal")
 
 }
-\keyword{Análise}
-\keyword{agrupamentos}
-\keyword{de}
+\keyword{TODO}
 
