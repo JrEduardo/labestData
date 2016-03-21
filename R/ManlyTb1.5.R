@@ -1,7 +1,7 @@
 #' @name ManlyTb1.5
 #' @title Emprego em paises europeus
 #'
-#' @description Porcentagens da força de trabalho de empregados para nove diferentes grupos de indústrias sediadas em 30 países europeus
+#' @description Porcentagens da força de trabalho de empregados para nove diferentes campos de trabalho sediadas em 30 países europeus
 #'
 #' @format Um \code{data.frame} com 30 registros em 11 variáveis.
 #' 
@@ -9,11 +9,11 @@
 #'
 #' \item {\code{pais}} {Identificação do país.}
 #' 
-#' \item {\code{grupo}} {Grupo econômico. UE: União Europeia - AELC: Área europeia de livre comércio - Leste - Outro}
+#' \item {\code{grup}} {Grupo econômico que pertencente o país: União Europeia (UE); Área europeia de livre comércio (AELC); Leste; Outro}
 #' 
-#' \item {\code{agr}} {Agricultura, florestal e pesca.}
+#' \item {\code{afp}} {Porcentagem da população ativa empregada na agricultura, florestal e pesca.}
 #'
-#' \item {\code{min}} {Mineração e exploração de pedreiras.}
+#' \item {\code{mep}} {Mineração e exploração de pedreiras.}
 #' 
 #' \item {\code{fab}} {Fabricação.}
 #' 
@@ -38,8 +38,8 @@
 #'
 #' data(ManlyTb1.5)
 #' 
-#' pairs(~ pais + grupo + agr + min + fab + fea + con + ser + fin + ssp + tc,
+#' pairs(~afp + mep + fab + fea + con + ser + fin + ssp + tc,
 #'       data = ManlyTb1.5, 
-#'       main="Gráfico de dispersão dos empregos")
+#'       main="Matriz das variáveis de força de trabalho"
+#'       )
 NULL
-
