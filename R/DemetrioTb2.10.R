@@ -1,4 +1,4 @@
-#' @name DemetrioEx1.4.1.3
+#' @name DemetrioTb2.10
 #' @title Absorção de CO2 por Folhas de Trigo (Bloco)
 #' 
 #' @description Foi aplicado \eqn{CO_2} sobre folhas de trigo a uma
