@@ -9,7 +9,8 @@
 
 \item{\code{dias}}{Idade de inoculação, tratamento.}
 
-\item{\code{rept}}{Número que indica as repetições de cada tratamento.}
+\item{\code{rept}}{Número que indica as repetições de cada
+    tratamento.}
 
 \item{\code{nemat}}{Número de nematóides por vaso coletado.}
 
@@ -17,7 +18,7 @@
 \source{
 Ramalho, M. A. P., Ferreira, D. F., Oliveira, A. C. (2005).
     Experimentação em Genética e Melhoramento de Plantas (2th ed.).
-    Lavras: UFLA. (pg 43)
+    Lavras, MG: UFLA. (pg 43)
 }
 \description{
 Experimento do número de nematóides (vermes que estão

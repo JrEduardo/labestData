@@ -18,7 +18,7 @@
 \source{
 Ramalho, M. A. P., Ferreira, D. F., Oliveira, A. C. (2005).
     Experimentação em Genética e Melhoramento de Plantas (2th ed.).
-    Lavras: UFLA. (pg 50)
+    Lavras, MG: UFLA. (pg 50)
 }
 \description{
 Experimento referente ao número de plantas de milho,
