@@ -13,7 +13,7 @@ library(roxygen2)
 install_deps(dependencies = TRUE,
              quiet = TRUE,
              upgrade = FALSE,
-             lib = "~/R-tests/",
+             # lib = "~/R-tests/",
              repos = "http://cran-r.c3sl.ufpr.br/")
 
 sessionInfo()
