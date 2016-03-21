@@ -31,7 +31,7 @@
 #'      ylab = "y",
 #'      type = c("p", "r"), col.line = 3)
 #'      
-#' model <- lm(y ~ x)
+#' model <- lm(y ~ x, data = DemetrioTb2.9)
 #' summary(model)
 #' anova(model)
 #' 
