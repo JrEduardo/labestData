@@ -1,0 +1,39 @@
+#' @name DemetrioTb2.12
+#' @title Produção de Ruibarbo
+#' 
+#' @description Foi mensurada a produção de ruibarbos para enlatamento,
+#'     considerando-se as datas de colheita, em um experimento realizado
+#'     em blocos.
+#'     
+#' @format Um \code{data.frame} de 28 linhas e 3 colunas.
+#' 
+#' \describe{
+#' 
+#'     \item{\code{data}}{Data de colheita dos ruibarbos.}
+#'     
+#'     \item{\code{bloco}}{Bloco ao qual a observação pertence.}
+#'     
+#'     \item{\code{valor}}{Valor da produção de ruibarbo.}
+#'     
+#' }
+#' 
+#' @keywords TODO
+#' 
+#' @source Demétrio, C. G. B., & Zocchi, S. S. (2011). Modelos de
+#'     Regressão. Piracicaba: ESALQ. (Tabela 2.12 pág. 67)
+#' 
+#' @examples 
+#' 
+#' data(DemetrioTb2.12)
+#' 
+#' library(lattice)
+#' 
+#' xyplot(valor ~ data, data = DemetrioTb2.12,
+#'      main = "Data VS Valor",
+#'      xlab = "Data",
+#'      ylab = "Valor",
+#'      type = c("p", "r"), col.line = 3)
+#'
+#' with(DemetrioTb2.12, tapply(valor, data, summary))
+#'
+NULL
