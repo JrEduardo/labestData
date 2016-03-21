@@ -2,7 +2,7 @@
 % Please edit documentation in R/BanzattoQd3.2.1.R
 \name{BanzattoQd3.2.1}
 \alias{BanzattoQd3.2.1}
-\title{Controle de Pulgão na Cultura de Pepino}
+\title{Controle de pulgão na cultura de pepino}
 \format{Um \code{data.frame} com 30 observações e 3 variáveis, em que
 
 \describe{
