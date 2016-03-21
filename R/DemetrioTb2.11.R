@@ -1,0 +1,39 @@
+#' @name DemetrioTb2.11
+#' @title Radiação Gama no Abacaxi
+#' 
+#' @description Foi aplicado diferentes doses de radiação gama sobre
+#'     explantes de abacaxi e o peso dos mesmos foram mensurados 45
+#'     dias após a irradiação.
+#' 
+#' @format Um \code{data.frame} de 70 linhas e 2 colunas.
+#' 
+#' \describe{
+#' 
+#'     \item{\code{dose}}{Dose de radiação gama aplicada sobre os 
+#'     explantes de abacaxi.}
+#'     
+#'     \item{\code{absorv}}{Peso dos explantes de abacaxi 45 dias após
+#'     a irradiação, medido em gramas (g).}
+#'     
+#' }
+#' 
+#' @keywords TODO
+#' 
+#' @source Demétrio, C. G. B., & Zocchi, S. S. (2011). Modelos de
+#'     Regressão. Piracicaba: ESALQ. (Tabela 2.11 pág. 66)
+#' 
+#' @examples 
+#' 
+#' data(DemetrioTb2.11)
+#' 
+#' library(lattice)
+#' 
+#' xyplot(peso ~ dose, data = DemetrioTb2.11,
+#'      main = "Dose VS Peso",
+#'      xlab = "Dose",
+#'      ylab = "Peso",
+#'      type = c("p", "r"), col.line = 3)
+#'
+#'  with(DemetrioTb2.11, tapply(peso, dose, summary))
+#'
+NULL
