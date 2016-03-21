@@ -11,12 +11,12 @@
 #' \item{\code{id}}{Número de identificação do indivíduo.}
 #' 
 #' \item{\code{sexo}}{Sexo do indivíduo 
-#'     (onde 0 para mulheres e 1 para homens).}
+#'     (0 para mulheres e 1 para homens).}
 #' 
 #' \item{\code{sabor}}{Nota atribuída ao sabor do produto.} 
 #'    
 #'
-#' \item{\code{aroma}}{Nota  atribuída ao aroma do produto.} 
+#' \item{\code{aroma}}{Nota atribuída ao aroma do produto.} 
 #'    
 #'     
 #' \item{\code{cor}}{Nota atribuída à cor do produto.} 
@@ -35,7 +35,7 @@
 #'    produto.}
 #'
 #' }
-#' @keywords Análise fatorial
+#' @keywords AnaFat
 #' @source Mingoti, S.A. (2005). Análise de dados através de métodos de 
 #'     estatística multivariada - uma abordagem aplicada. 
 #'     Belo Horizonte, MG: Editora UFMG. (pg 108).
@@ -46,9 +46,12 @@
 #'
 #' da <- reshape(MingotiAnA1, direction = "long", varying = list(3:9),
 #'               v.names = "notas", timevar = "atributo")
+#' tab<-with(da,data.frame(table(sexo,atributo,notas)))
+#' names(tab)<-c('sexo','atributo','notas','freq')              
 #' library(lattice)
-#'
-#' xyplot(notas ~ atributo, groups = sexo, data = da,
-#'       jitter.y = TRUE, type = c("p", "a"), auto.key = TRUE)
-#'
+#' barchart(freq~atributo|sexo,groups=notas,data=tab,
+#'      xlab='Atributo',ylab='Freq',auto.key=list(space="top", columns=5,
+#'      title="Nota", cex.title=1),main="Distribuição das notas atribuídas ao produto",
+#'      strip=strip.custom(factor.levels=c("Mulheres","Homens")),
+#'      scales=list(x=list(labels=c("Sabor","Aroma","Cor","Textu","Utili","Local","Embal"))))
 NULL

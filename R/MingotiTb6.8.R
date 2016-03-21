@@ -1,6 +1,6 @@
 #' @name MingotiTb6.8
 #' @title Índices de desenvolvimento de países
-#' @description Dados relativos a 
+#' @description Dados referentes a 
 #'     índices de expectativa de vida, educação, renda (PIB) e 
 #'     estabilidade política e de segurança de 21 países. Os índices foram 
 #'     construídos segundo metodologia da ONU. Para qualquer um deles, maiores 
@@ -11,22 +11,22 @@
 #'
 #' \item{\code{pais}}{Nomes dos 21 países.}
 #'
-#' \item{\code{expecvida}}{Índice da esperança de vida que mede a 
-#'     realização relativa de um país na esperança de vida à nascença.}
+#' \item{\code{expecvida}}{Índice baseado na esperança de vida, medindo a 
+#'     realização relativa de um país na esperança de vida ao nascer.}
 #'
-#' \item{\code{educ}}{Índice da educação que mede a realização relativa 
-#'     de um país tanto na alfabetização de adultos como na 
-#'     escolarização bruta combinada do primário, secundário e 
+#' \item{\code{educ}}{Índice referente ao nível de educação, medindo a realização relativa 
+#'     de um país tanto na alfabetização de adultos quanto na 
+#'     escolarização bruta combinada dos níveis primário, secundário e 
 #'     superior.}
 #'
-#' \item{\code{pib}}{Índice do PIB, que é calculado utilizando o PIB
-#'     per capita ajustado (dólares) no qual usa-se o logarítimo.}
+#' \item{\code{pib}}{Índice baseado no PIB, calculado utilizando o PIB
+#'     per capita ajustado (dólares).}
 #'     
-#' \item{\code{estabpoli}}{Índice de percepções da probabilidade de 
+#' \item{\code{estabpoli}}{Índice baseado na percepção da probabilidade de 
 #'     desestabilização (tensões étnicas, conflito armado, etc).}
 #'
 #' }
-#' @keywords Análise de agrupamentos
+#' @keywords AnaClust
 #' @source Mingoti, S.A. (2005). Análise de dados através de métodos de 
 #'     estatística multivariada - uma abordagem aplicada. 
 #'     Belo Horizonte, MG: Editora UFMG. (pg 184).
