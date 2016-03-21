@@ -1,4 +1,4 @@
-grupo	largm	altm	comppm	largpm	compptm	comppqm
+grup	largm	altm	comppm	largpm	comppt	comppq
 Cão moderno	9.7	21	19.4	7.7	32	36.5
 Chacal dourado	8.1	16.7	18.3	7	30.3	32.9
 Lobo chines	13.5	27.3	26.8	10.6	41.9	48.1
