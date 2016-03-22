@@ -1,5 +1,5 @@
 #' @name PimentelPg91
-#' @title Dados de produção de milho
+#' @title Preparo com do solo na Produção de Milho
 #' @description Experimento em blocos casualizados realizado pelo
 #'     Engenheiro Agrônomo Duvilio Ometto, com 2 tratamentos (aradura
 #'     profunda e aradura superficial) e 6 blocos com 2 repetições cada.
@@ -24,7 +24,8 @@
 #'
 #' library(lattice)
 #'
-#' xyplot(jitter(prod) ~ aradura,
+#' xyplot(prod ~ aradura,
+#'        jitter.x = TRUE,
 #'        groups = bloco,
 #'        data = PimentelPg91,
 #'        xlab = "Aradura",

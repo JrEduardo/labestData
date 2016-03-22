@@ -1,5 +1,5 @@
 #' @name PimentelEx5.8.5
-#' @title Competição de variedades de mandioca
+#' @title Competição de Variedades de Mandioca
 #' @description Experimento em blocos ao acaso, realizado pelo Instituto
 #'     de Pesquisas Agronômicas do Leste (atual Centro Nacional de
 #'     Pesquisa de Mandioca e Fruticultura da Embrapa), em Cruz das
@@ -15,7 +15,7 @@
 #' \item{\code{variedade}}{Fator de 6 níveis qualitativos, que são os
 #'     diferentes tipos de mandioca.}
 #'     
-#' \item{\code{prod}}{Produção de mandioca, em t/ha.}
+#' \item{\code{prod}}{Produção de mandioca, em t ha\eqn{^{-1}}.}
 #'
 #' }
 #' @keywords DBC

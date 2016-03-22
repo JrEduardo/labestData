@@ -1,5 +1,5 @@
 #' @name PimentelEx5.8.4
-#' @title Dados de produção de cana-planta
+#' @title Dados de Produção de Cana-planta em Ensaio de Variedades
 #' @description Experimento em blocos casualizados realizado pela
 #'     Cooperativa dos Usineiros do Oeste do Estado de São Paulo,
 #'     referente à produção de cana-planta de um ensaio de variedades
@@ -11,8 +11,8 @@
 #' \item{\code{bloco}}{Fator de 4 níveis qualitativos, usado para
 #'     controle local.}
 #'
-#' \item{\code{variedade}}{Fator de 7 níveis qualitativos, que são os
-#'     diferentes tipos de cana.}
+#' \item{\code{variedade}}{Fator de 7 níveis qualitativos, que são as
+#'     variedades cana-de-açucar.}
 #'     
 #' \item{\code{prod}}{Dados de produção de cana-planta.}
 #'
