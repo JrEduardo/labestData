@@ -1,21 +1,21 @@
 #' @name RamalhoEg7.8
-#' @title Produção de grãos de feijão
-#' @description Experimento referente à produção de grãos de feijão 
-#'     obtida na avaliação de 24 famílias \eqn{F_{5}} do cruzamento 
+#' @title Produção de Grãos de Cruzamentos Feijão
+#' @description Experimento referente à produção de grãos de feijão
+#'     obtida na avaliação de 24 famílias \eqn{F_{5}} do cruzamento
 #'     Jalo x Small White, cujos dados foram obtidos por Souza (1991).
 #'     Experimento realizado em blocos incompletos.
-#' @format Um \code{data.frame} com 240 observações e 4 variáveis, em 
+#' @format Um \code{data.frame} com 240 observações e 4 variáveis, em
 #'     que
 #'
 #' \describe{
 #'
-#' \item{\code{fam}}{Família \eqn{F_{5}} do cruzamento Jalo x Small 
+#' \item{\code{fam}}{Família \eqn{F_{5}} do cruzamento Jalo x Small
 #'     White.}
 #'
-#' \item{\code{rept}}{Fator que indica se a produção veio da primeira ou 
+#' \item{\code{rept}}{Fator que indica se a produção veio da primeira ou
 #'     segunda repetição.}
 #'
-#' \item{\code{plant}}{Inteiro que representa os grãos de feijão no 
+#' \item{\code{plant}}{Inteiro que representa os grãos de feijão no
 #'     experimento.}
 #'
 #' \item{\code{prod}}{Produção de grãos de feijão, em g/planta.}
@@ -24,13 +24,20 @@
 #' @keywords DBC
 #' @source Ramalho, M. A. P., Ferreira, D. F., Oliveira, A. C. (2005).
 #'     Experimentação em Genética e Melhoramento de Plantas (2th ed.).
-#'     Lavras, MG: UFLA. (pg 110).
+#'     Lavras, MG: UFLA. (Exemplo 7.8, pág 110).
 #' @examples
 #'
 #' library(lattice)
 #'
-#' boxplot(prod ~ plant, data = RamalhoEg7.8,
-#'     xlab = "Planta",
-#'     ylab = "Produção de grãos")
+#' xtabs(~fam + rept, data = RamalhoEg7.8)
+#'
+#' ps <- list(box.rectangle = list(col = 1, fill = c("gray90")),
+#'            box.umbrella = list(col = 1, lty = 1),
+#'            plot.symbol = list(col = 1, cex = 0.7))
+#'
+#' bwplot(prod ~ fam, data = RamalhoEg7.8,
+#'        horizontal = FALSE, pch = "|",
+#'        xlab = "Família", ylab = "Produção de grãos",
+#'        par.settings = ps)
 #'
 NULL

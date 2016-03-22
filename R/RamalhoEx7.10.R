@@ -1,17 +1,17 @@
 #' @name RamalhoEx7.10
-#' @title Produção de arroz
-#' @description Experimento referente a produção de arroz obtida na 
-#'     avaliação de 18 populações \eqn{F_{2}} e duas linhagens 
-#'     utilizadas como testemunhas. O Experimento foi realizado em 
+#' @title Produção de Arroz em 18 Populações na F2
+#' @description Experimento referente à produção de arroz obtida na
+#'     avaliação de 18 populações \eqn{F_{2}} e duas linhagens
+#'     utilizadas como testemunhas. O Experimento foi realizado em
 #'     blocos casualizados.
-#' @format Um \code{data.frame} com 540 observações e 4 variáveis, em 
+#' @format Um \code{data.frame} com 540 observações e 4 variáveis, em
 #'     que
 #'
 #' \describe{
 #'
 #' \item{\code{pop}}{População \eqn{F_{2}} de arroz.}
 #'
-#' \item{\code{rept}}{Fator que indica se a produção veio da primeira ou 
+#' \item{\code{rept}}{Fator que indica se a produção veio da primeira ou
 #'     segunda linhagem.}
 #'
 #' \item{\code{plant}}{Inteiro que representa o arroz no experimento.}
@@ -27,9 +27,19 @@
 #'
 #' library(lattice)
 #'
-#' boxplot(prod ~ plant, data = RamalhoEx7.10,
-#'         ylim = c(0, 45),
-#'         xlab = "Plantas de arroz",
-#'         ylab = "Produção")
+#' data(RamalhoEx7.10)
+#'
+#' str(RamalhoEx7.10)
+#'
+#' xtabs(~pop + rept, data = RamalhoEx7.10)
+#'
+#' ps <- list(box.rectangle = list(col = 1, fill = c("gray90")),
+#'            box.umbrella = list(col = 1, lty = 1),
+#'            plot.symbol = list(col = 1, cex = 0.7))
+#'
+#' bwplot(prod ~ pop, data = RamalhoEx7.10,
+#'        horizontal = FALSE, pch = "|",
+#'        xlab = "População", ylab = "Produção de grãos",
+#'        par.settings = ps)
 #'
 NULL
