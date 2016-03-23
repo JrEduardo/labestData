@@ -1,0 +1,19 @@
+trat	bloco	prod
+Caiapó	1	5.74616
+Canastra	1	6.29754
+Confiança	1	6.35712
+Maravilha	1	4.92718
+Primavera	1	6.26963
+R. Paranaíba	1	6.38072
+Caiapó	2	6.05715
+Canastra	2	6.03998
+Confiança	2	5.83999
+Maravilha	2	6.03634
+Primavera	2	5.91024
+R. Paranaíba	2	6.12295
+Caiapó	3	6.49288
+Canastra	3	6.13508
+Confiança	3	5.75745
+Maravilha	3	5.44038
+Primavera	3	6.47247
+R. Paranaíba	3	6.75723

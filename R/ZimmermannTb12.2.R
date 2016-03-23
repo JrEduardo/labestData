@@ -1,0 +1,41 @@
+#' @name ZimmermannTb12.2
+#' @title Estudo sobre produtividade de grãos de arroz irrigado
+#' @description Dados do Ensaio 2 de um experimento em DIC, que estudou
+#'     a produtividade de grãos de arroz em lavoura conduzida com
+#'     inundação contínua até a fase de diferenciação do primórdio
+#'     floral e drenada após esta fase. O experimento teve seis
+#'     repetições e sete tratamentos.
+#' @format Um \code{data.frame} com 42 observações e 3 variáveis
+#'
+#' \describe{
+#'
+#' \item{trat}{Fator de níveis nominais. Tratamento aplicado em arroz
+#'      irrigado.}
+#'
+#' \item{rept}{Número inteiro que identifica as repetições de cada
+#'     tratamento.}
+#'
+#' \item{prod}{Produção de grãos de arroz irrigado.  A unidade de medida
+#'     não é conhecida.}
+#'
+#' }
+#' @keywords DIC
+#' @source Zimmermann, F. J. (2004). Estatística aplicada à pesquisa
+#'     agrícola (1st ed.). Santo Antônio de Goiás, GO: Embrapa Arroz e
+#'     Feijão. (Tabela 12.2, pág 249)
+#' @examples
+#'
+#' library(lattice)
+#'
+#' data(ZimmermannTb12.2)
+#'
+#' str(ZimmermannTb12.2)
+#'
+#' xyplot(prod ~ trat, data = ZimmermannTb12.2,
+#'        type = c("p", "a"),
+#'        xlab = "Tratamentos",
+#'        ylab = "Produção de grãos de arroz irrigado")
+#'
+#' aggregate(prod ~ trat, data = ZimmermannTb12.2,
+#'          FUN = function(x) { c(mean = mean(x), var = var(x)) })
+NULL
