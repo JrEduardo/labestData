@@ -1,20 +1,21 @@
 #' @name ZimmermannTb3.2.1
-#' @title Estudo sobre adubação nitrogenada na cultura de arroz e feijão
-#' @description Dados de um experimento em DIC, que visa estudar a
-#'     adubação nitrogenada de arroz irrigado, com 4 tratamentos e 8
+#' @title Estudo sobre adubação nitrogenada na cultura do arroz
+#' @description Dados de um experimento em DIC que visa estudar a
+#'     adubação nitrogenada no arroz irrigado, com 4 tratamentos e 8
 #'     repetições. A resposta observada foi a produção de grãos de arroz
 #'     irrigado, em kg ha\eqn{^{-1}}.
 #' @format Um \code{data.frame} com 24 observações e 3 variáveis
 #'
 #' \describe{
 #'
-#' \item{\code{trat}}{Fator de níveis numéricos. Tratamento aplicado em arroz
-#'      irrigado.}
+#' \item{\code{trat}}{Fator de níveis nominais. Tratamento aplicado ao
+#'      arroz irrigado.}
 #'
-#' \item{\code{rept}}{Número inteiro que identifica as repetições de cada
-#'     tratamento.}
+#' \item{\code{rept}}{Número inteiro que identifica as repetições de
+#'     cada tratamento.}
 #'
-#' \item{\code{prod}}{Produção de grãos de arroz irrigado em kg ha\eqn{^{-1}}.}
+#' \item{\code{prod}}{Produção de grãos de arroz irrigado em kg
+#'     ha\eqn{^{-1}}.}
 #'
 #' }
 #' @keywords DIC
@@ -27,11 +28,15 @@
 #'
 #' data(ZimmermannTb3.2.1)
 #'
+#' str(ZimmermannTb3.2.1)
+#' unstack(x = ZimmermannTb3.2.1, form = prod ~ trat)
+#'
 #' aggregate(prod ~ trat, data = ZimmermannTb3.2.1,
 #'           FUN = function(x) { c(mean = mean(x), var = var(x)) })
 #'
 #'  xyplot(prod ~ trat, data = ZimmermannTb3.2.1,
-#'         type = c("p", "a"),
+#'         type = c("p", "a"), jitter.x = TRUE,
 #'         xlab = "Tratamentos",
 #'         ylab = expression(Produção~de~grãos~(kg~ha^{-1})))
+#'
 NULL

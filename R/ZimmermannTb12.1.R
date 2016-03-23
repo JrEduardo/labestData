@@ -3,18 +3,19 @@
 #' @description Dados do Ensaio 1 de um experimento em DIC, que estudou
 #'     a produtividade de grãos de arroz em lavoura conduzida com
 #'     inundação contínua durante todo o ciclo. O experimento teve seis
-#'     repetições e sete tratamentos. A unidade de medida não é conhecida. 
+#'     repetições e sete tratamentos.
 #' @format Um \code{data.frame} com 42 observações e 3 variáveis
 #'
 #' \describe{
 #'
-#' \item{\code{trat}}{Fator de níveis nominais. Tratamento aplicado em arroz
-#'      irrigado.}
+#' \item{\code{trat}}{Fator de níveis nominais. Tratamento aplicado em
+#'      arroz irrigado.}
 #'
-#' \item{\code{rept}}{Número inteiro que identifica as repetições de cada
-#'     tratamento.}
+#' \item{\code{rept}}{Número inteiro que identifica as repetições de
+#'     cada tratamento.}
 #'
-#' \item{\code{prod}}{Produção de grãos de arroz irrigado}
+#' \item{\code{prod}}{Produção de grãos de arroz irrigado. A unidade de
+#'     medida não é conhecida.}
 #'
 #' }
 #' @keywords DIC
@@ -27,6 +28,7 @@
 #'
 #' data(ZimmermannTb12.1)
 #'
+#' str(ZimmermannTb12.1)
 #'
 #' xyplot(prod ~ trat, data = ZimmermannTb12.1,
 #'        type = c("p", "a"),
@@ -35,4 +37,5 @@
 #'
 #' aggregate(prod ~ trat, data = ZimmermannTb12.1,
 #'           FUN = function(x) { c(mean = mean(x), var = var(x)) })
+#'
 NULL
