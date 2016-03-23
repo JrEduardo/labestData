@@ -1,15 +1,15 @@
 #' @name ZimmermannTb3.12
 #' @title Dados de matéria seca em plantas
 #' @description Experimento em DIC que estudou a produção de matéria
-#'     seca em plantas, em gramas. No experimento foram utilizados cinco
-#'     vasos para cada um de quatro tratamentos e três plantas para cada
+#'     seca em plantas de arroz, em gramas. No experimento foram utilizados 
+#'     cinco vasos para cada um de quatro tratamentos e três plantas para cada
 #'     vaso (parcela).
 #' @format Um \code{data.frame} com 75 observações e 4 variáveis
 #'
 #' \describe{
 #'
 #' \item{\code{trat}}{Fator de níveis nominais representados por
-#'     inteiros. Tratamento aplicado aos vasos.}
+#'     inteiros. Indica o tipo de solo aonde o arroz foi plantado.}
 #'
 #' \item{\code{planta}}{Fator de níveis numéricos que identifica as
 #'     plantas dentro dos vasos.}
