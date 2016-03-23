@@ -1,4 +1,4 @@
-trat	rept	prod
+geno	rept	prod
 CNA 7830	1	7660
 CNA 8502	1	7084
 CNA 8540	1	5988

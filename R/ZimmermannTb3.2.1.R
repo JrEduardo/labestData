@@ -8,7 +8,7 @@
 #'
 #' \describe{
 #'
-#' \item{\code{trat}}{Fator de níveis nominais. Tratamento aplicado ao
+#' \item{\code{adub}}{Fator de níveis nominais. Indica a adubação aplicada ao
 #'      arroz irrigado.}
 #'
 #' \item{\code{rept}}{Número inteiro que identifica as repetições de

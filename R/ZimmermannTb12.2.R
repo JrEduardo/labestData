@@ -9,7 +9,7 @@
 #'
 #' \describe{
 #'
-#' \item{trat}{Fator de níveis nominais. Tratamento aplicado em arroz
+#' \item{geno}{Fator de níveis nominais. Genótipo do arroz
 #'      irrigado.}
 #'
 #' \item{rept}{Número inteiro que identifica as repetições de cada
