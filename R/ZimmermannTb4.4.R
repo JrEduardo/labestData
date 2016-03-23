@@ -8,7 +8,7 @@
 #'
 #' \describe{
 #'
-#' \item{\code{trat}}{Fator de níveis nominais. Tratamento aplicado em
+#' \item{\code{cult}}{Fator de níveis nominais. Cultivar do 
 #'     feijão.}
 #'
 #' \item{\code{bloco}}{Número inteiro que identifica o bloco da
