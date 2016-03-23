@@ -11,13 +11,13 @@
 #'
 #' \describe{
 #'
-#' \item{\code{trat}}{Fator de níveis nominais. Tratamento aplicado em
-#'     plantas.}
+#' \item{\code{cult}}{Fator de níveis nominais. Indica a cultivar da
+#'     planta.}
 #'
 #' \item{\code{bloco}}{Número inteiro que identifica o bloco da
 #'     observação.}
 #'
-#' \item{\code{prod}}{Logaritmo natural da área sob a curva de progresso
+#' \item{\code{aacpd}}{Logaritmo natural da área sob a curva de progresso
 #'     da doença. A unidade de medida não é conhecida.}
 #'
 #' }
