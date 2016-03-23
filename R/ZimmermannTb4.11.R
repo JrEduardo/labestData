@@ -7,36 +7,38 @@
 #'
 #' \describe{
 #'
-#' \item{\code{trat}}{Fator de níveis nominais. Tratamento aplicado em
-#'     plantas.}
+#' \item{\code{trat}}{Fator de níveis nominais. Tratamento aplicado nas
+#'     parcelas.}
 #'
-#' \item{\code{amostra}}{Fator de níveis numéricos. Identifica à qual amostra
-#'                pertence a observação.}
+#' \item{\code{amostra}}{Fator de níveis numéricos. Identifica à qual
+#'     amostra pertence a observação.}
 #'
-#' \item{\code{bloco}}{Número inteiro que identifica o bloco da observação.}
+#' \item{\code{bloco}}{Número inteiro que identifica o bloco da
+#'     observação.}
 #'
-#' \item{\code{prod}}{Altura média de perfilhos.}
+#' \item{\code{prod}}{Altura média de perfilhos (cm).}
 #'
 #' }
 #' @keywords DBC
 #' @source Zimmermann, F. J. (2004). Estatística aplicada à pesquisa
 #'     agrícola (1st ed.). Santo Antônio de Goiás, GO: Embrapa Arroz e
-#'     Feijão. (pg 79)
+#'     Feijão. (Tabela 4.11, pág 79)
 #' @examples
 #'
 #' library(lattice)
 #'
 #' data(ZimmermannTb4.11)
 #'
-#' levelplot(prod ~ amostra + bloco,
-#'           data = ZimmermannTb4.11, aspect = "iso")
+#' str(ZimmermannTb4.11)
 #'
-#' xyplot(prod ~ trat | amostra, groups = bloco,
+#' xyplot(prod ~ trat, groups = bloco,
 #'        data = ZimmermannTb4.11,
-#'        type = c("p", "a"),
+#'        type = c("p", "a"), jitter.x = TRUE,
 #'        xlab = "Tratamentos",
-#'        ylab = "Altura média de perfilhos")
+#'        ylab = "Altura média de perfilhos (cm)",
+#'        scales=list(x=list(rot=90)))
 #'
 #' aggregate(prod ~ trat, data = ZimmermannTb4.11,
 #'           FUN = function(x) { c(mean = mean(x), var = var(x)) })
+#'
 NULL
