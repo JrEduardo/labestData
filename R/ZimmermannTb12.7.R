@@ -1,8 +1,9 @@
 #' @name ZimmermannTb12.7
 #' @title Dados de área sob a curva do progresso de brusone
-#' @description Dados de um ensaio que avaliou as cultivares para a área
-#'     foliar atacada por brusone (\emph{Pyricularia Orizae} L.) em
-#'     diferentes datas e se calculou área sob a curva do progresso da
+#' @description Dados do ensaio 1 de um experimento que avaliou 
+#'     as cultivares para a área foliar atacada por brusone 
+#'     (\emph{Pyricularia Orizae} L.) em diferentes datas e se 
+#'     calculou área sob a curva do progresso da
 #'     doença. Este primeiro experimento foi semeado na densidade de
 #'     oitenta sementes por metro. Os dados foram transformados por
 #'     logaritmo natural, procurando-se uma maior homogeneização das

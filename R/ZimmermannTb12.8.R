@@ -1,8 +1,9 @@
 #' @name ZimmermannTb12.8
 #' @title Dados de área sob a curva do progresso de uma doença
-#' @description Dados de um ensaio que avaliou as cultivares para a área
-#'     foliar atacada por brusone (Pyricularia Orizae L.) em diferentes
-#'     datas e se calculou área sob a curva do progresso da doença. Este
+#' @description Dados do ensaio 2 de um experimento que avaliou as 
+#'     cultivares para a área foliar atacada por brusone 
+#'     (Pyricularia Orizae L.) em diferentes datas e se 
+#'     calculou área sob a curva do progresso da doença. Este
 #'     primeiro experimento foi semeado na densidade de duzentas
 #'     sementes por metro. Os dados foram transformados por logaritmo
 #'     natural, procurando-se uma maior homogeneização das variâncias. 
@@ -11,12 +12,13 @@
 #'
 #' \describe{
 #'
-#' \item{\code{trat}}{Fator de níveis nominais. Tratamento aplicado em
-#'     plantas.}
+#' \item{\code{cult}}{Fator de níveis nominais. Indica a cultivar da
+#'     planta.}
 #'
 #' \item{\code{bloco}}{Número inteiro que identifica o bloco da observação.}
 #'
-#' \item{\code{prod}}{Área sob a curva do progresso de uma doença.}
+#' \item{\code{aacpd}}{Logaritmo natural da área sob a curva de progresso
+#'     da doença. A unidade de medida não é conhecida.}
 #'
 #' }
 #' @keywords DBC
