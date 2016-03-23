@@ -1,48 +1,65 @@
-#' @name ZimmermannTb5.11 
-#' @title Dados de hastes sobreviventes ao ataque de insetos
-#' @description Experimento em DQL com mais de uma observação por parcela,
-#'     onde foram tomadas quatro amostras em cada uma das parcelas no que 
-#'     diz respeito ao número total de hastes e número de hastes mortas 
-#'     por cupim (Sinthermes sp.) e lagarta elasmo (Elasmopalpus sp.). 
-#'     Com base nestes números, a proporção de hastes sobreviventes ao 
-#'     ataque de insetos foi calculada. Cada parcela corresponde a um 
-#'     tratamento. 
+#' @name ZimmermannTb5.11
+#' @title Proposrção de hastes sobreviventes ao ataque de insetos
+#' @description Experimento em delineamento quadrado latino onde foram
+#'     tomadas quatro amostras em cada uma das parcelas no que diz
+#'     respeito ao número total de hastes e número de hastes mortas por
+#'     cupim (\emph{Sinthermes} sp.) e lagarta elasmo
+#'     (\emph{Elasmopalpus} sp.).  Com base nestes números, a proporção
+#'     de hastes sobreviventes ao ataque de insetos foi calculada.
 #' @format Um \code{data.frame} com 484 observações e 5 variáveis
 #'
 #' \describe{
 #'
-#' \item{linha}{Fator de níveis numéricos. Indica em que linha do quadrado a 
-#'      UE se encontra.}
+#' \item{linha}{Fator de níveis nominais. Indica em que linha do
+#'      quadrado latino em que está a unidade experimental.}
 #'
-#' \item{coluna}{Fator de níveis numéricos. Indica em que coluna do quadrado a
-#'      UE se encontra.}
-#'      
-#' \item{amostra}{Fator de níveis numéricos. Indica em que amostra a
-#'      UE se encontra.}
+#' \item{coluna}{Fator de níveis nominais. Indica em que coluna do
+#'      quadrado latino a unidade experimental está.}
 #'
-#' \item{parcela}{Fator de níveis numéricos. Indica o tratamento aplicado.}
+#' \item{amostra}{Fator de níveis numéricos. Identifica a amostra em
+#'     cada unidade experimental.}
 #'
-#' \item{prop}{Proporção de hastes sobreviventes ao ataque de insetos.}
+#' \item{parcela}{Fator de níveis nominais. Indica o tratamento
+#'     aplicado.}
+#'
+#' \item{prop}{Proporção de hastes sobreviventes ao ataque de insetos. O
+#'     Só é conhecida a proporção amostral. Não são conhecidos o
+#'     númerador (número hastes sobreviventes) e denominador (total de
+#'     hastes avaliadas).}
 #'
 #' }
 #' @keywords DQL
 #' @source Zimmermann, F. J. (2004). Estatística aplicada à pesquisa
 #'     agrícola (1st ed.). Santo Antônio de Goiás, GO: Embrapa Arroz e
-#'     Feijão. (pg 101)
+#'     Feijão. (Tabela 5.1, pág 101)
 #' @examples
 #'
 #' library(lattice)
-#' library(latticeExtra)
-#' library(reshape)
 #'
 #' data(ZimmermannTb5.11)
 #'
-#' cast(ZimmermannTb5.11, linha~coluna, value="prop", fun.aggregate = mean)
-#' 
-#' levelplot(prop~linha+coluna,
-#'           data=ZimmermannTb5.11, aspect="iso")
-#' 
-#' xyplot(prop~amostra, data=ZimmermannTb5.11, type=c("p","a"), col="orange", 
-#'        xlab="Amostra", ylab="Proporção de Hastes", 
-#'        main="Experimento em DQL")
+#' str(ZimmermannTb5.11)
+#'
+#' ZimmermannTb5.11$prop <- as.numeric(as.character(ZimmermannTb5.11$prop))
+#'
+#' aux <- aggregate(prop ~ linha + coluna + parcela,
+#'                  data = ZimmermannTb5.11, FUN = mean)
+#' str(aux)
+#'
+#' levelplot(prop ~ linha + coluna,
+#'           data = aux, aspect = "iso",
+#'           lbl = as.character(aux$parcela),
+#'           panel = function(x, y, z, lbl, ...) {
+#'               panel.levelplot(x, y, z, ...)
+#'               panel.text(x = x, y = y, labels = lbl, pos = 3)
+#'               panel.text(x = x, y = y,
+#'                          labels = sprintf("%0.2f", z),
+#'                          pos = 1, cex = 0.8)
+#'           })
+#'
+#' xyplot(prop ~ parcela, data = ZimmermannTb5.11,
+#'        type = c("p", "a"),
+#'        xlab = "Tratamento",
+#'        ylab = "Proporção de hastes sobreviventes")
+#'
 NULL
