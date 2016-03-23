@@ -7,8 +7,8 @@
 #'
 #' \describe{
 #'
-#' \item{\code{trat}}{Fator de níveis nominais. Tratamento aplicado nas
-#'     parcelas.}
+#' \item{\code{geno}}{Fator de níveis nominais. Identifica o genótipo
+#'     da planta.}
 #'
 #' \item{\code{amostra}}{Fator de níveis numéricos. Identifica à qual
 #'     amostra pertence a observação.}
