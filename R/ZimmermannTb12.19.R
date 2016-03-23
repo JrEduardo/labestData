@@ -10,8 +10,8 @@
 #'
 #' \describe{
 #'
-#' \item{\code{trat}}{Fator de níveis nominais. Tratamento aplicado em
-#'     plantas.}
+#' \item{\code{cult}}{Fator de níveis nominais. Identifica a cultivar da
+#'     planta.}
 #'
 #' \item{\code{bloco}}{Número inteiro que identifica o bloco da
 #'     observação.}
