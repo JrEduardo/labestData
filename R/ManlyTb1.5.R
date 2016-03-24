@@ -1,37 +1,37 @@
 #' @name ManlyTb1.5
 #' @title Emprego em paises europeus
 #'
-#' @description Porcentagens da força de trabalho de empregados para nove diferentes campos de trabalho sediadas em 30 países europeus
+#' @description Porcentagens da força de trabalho de empregados para nove diferentes campos de trabalho em 30 países europeus
 #'
 #' @format Um \code{data.frame} com 30 registros em 11 variáveis.
 #' 
 #' \describe{
 #'
-#' \item {\code{pais}} {Identificação do país.}
+#' \item{\code{pais}}{Identificação do país.}
 #' 
-#' \item {\code{grup}} {Grupo econômico que pertencente o país: União Europeia (UE); Área europeia de livre comércio (AELC); Leste; Outro}
+#' \item{\code{grup}}{Grupo econômico ao qual pertencente o país: União Europeia (UE); Área europeia de livre comércio (AELC); Leste; Outro}
 #' 
-#' \item {\code{afp}} {Porcentagem da população ativa empregada na agricultura, florestal e pesca.}
+#' \item{\code{afp}}{Porcentagem da população ativa empregada na agricultura, florestal e pesca.}
 #'
-#' \item {\code{mep}} {Mineração e exploração de pedreiras.}
+#' \item{\code{mep}}{Porcentagem empregada na mineração e exploração de pedreiras.}
 #' 
-#' \item {\code{fab}} {Fabricação.}
+#' \item{\code{fab}}{Porcentagem empregada nas fábricas.}
 #' 
-#' \item {\code{fea}} {Fornecimento de energia e água.}
+#' \item{\code{fea}}{Porcentagem empregada nas áreas de fornecimento de energia e água.}
 #' 
-#' \item {\code{con}} {Construção.}
+#' \item{\code{con}}{Porcentagem empregada na construção.}
 #'  
-#' \item {\code{ser}} {Serviços.}
+#' \item{\code{ser}}{Porcentagem empregada na área de serviços.}
 #'  
-#' \item {\code{fin}} {Finanças.}
+#' \item{\code{fin}}{Porcentagem empregada na área de finanças.}
 #'  
-#' \item {\code{ssp}} {Serviços sociais e pessoais.}
+#' \item{\code{ssp}}{Porcentagem empregada na área de serviços sociais e pessoais.}
 #' 
-#' \item {\code{tc}} {Transportes e comunicações.}
+#' \item{\code{tc}}{Porcentagem empregada nas áreas de transportes e comunicações.}
 #' 
 #' }
 #'
-#' @keywords Todo
+#' @keywords AnaClust
 #' @source Manly, B. J. F. (2005). Métodos Estatísticos Multivariados- uma introdução.
 #'      Porto Alegre, RS: Bookman (pg 22)
 #' @examples
