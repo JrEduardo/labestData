@@ -1,20 +1,21 @@
 #' @name DemetrioEx2.12.5
-#' @title Estimativa de Quadrados Mínimos
+#' @title Dados Genéricos para Regressão Segmentada
 #' 
-#' @description Os dados estão presentes no exercício com o objetivo de
-#'     estimar na prática o quadrado mínimo.
+#' @description Dados para exercício analítico, com o objetivo de obter
+#'     as estimativas de mínimos quadrados dos parâmetros de um modelo
+#'     de regressão linear segmentada.
 #' 
 #' @format Um \code{data.frame} de 5 linhas e 2 colunas.
 #' 
 #' \describe{
 #' 
-#'     \item{\code{x}}{Sem interpretação.}
+#'     \item{\code{x}}{Variável independente, sem interpretação.}
 #'     
-#'     \item{\code{y}}{Sem interpretação.}
+#'     \item{\code{y}}{Variável dependente, sem interpretação.}
 #'     
 #' }
 #' 
-#' @keywords TODO
+#' @keywords RegSeg
 #' 
 #' @source Demétrio, C. G. B., & Zocchi, S. S. (2011). Modelos de
 #'     Regressão. Piracicaba: ESALQ. (Exercício 2.12.5 pág. 60)
@@ -26,9 +27,20 @@
 #' library(lattice)
 #' 
 #' xyplot(y ~ x, data = DemetrioEx2.12.5,
-#'      main = "x vs y",
-#'      xlab = "x",
-#'      ylab = "y",
-#'      type = c("p", "r"), col.line = 3)
+#'        cex = 1.1, pch = 19,
+#'        main = 'Regressão Segmentada',
+#'        grid = TRUE,
+#'        panel = function(x, y, ...) {
+#'            # Regressão Segmentada com ponto de corte conhecido
+#'            b <- DemetrioEx2.12.5$x[3]
+#'            m0 <- lm(y ~ x + I(pmax(x - b, 0)),
+#'                     data = DemetrioEx2.12.5)
+#'            # Pontos que definem os dois segmentos
+#'            cx <- c(0, b, 8)
+#'            cy <- predict(m0, newdata = data.frame(x = cx))
+#'            panel.xyplot(x, y, ...)
+#'            panel.segments(cx[1], cy[1], cx[2], cy[2])
+#'            panel.segments(cx[2], cy[2], cx[3], cy[3])
+#'        })
 #'      
 NULL
