@@ -43,13 +43,13 @@
 #'
 #' ZimmermannTb5.11$prop <- as.numeric(as.character(ZimmermannTb5.11$prop))
 #'
-#' aux <- aggregate(prop ~ linha + coluna + parcela,
+#' aux <- aggregate(prop ~ linha + coluna + inset,
 #'                  data = ZimmermannTb5.11, FUN = mean)
 #' str(aux)
 #'
 #' levelplot(prop ~ linha + coluna,
 #'           data = aux, aspect = "iso",
-#'           lbl = as.character(aux$parcela),
+#'           lbl = as.character(aux$inset),
 #'           panel = function(x, y, z, lbl, ...) {
 #'               panel.levelplot(x, y, z, ...)
 #'               panel.text(x = x, y = y, labels = lbl, pos = 3)
@@ -58,9 +58,9 @@
 #'                          pos = 1, cex = 0.8)
 #'           })
 #'
-#' xyplot(prop ~ parcela, data = ZimmermannTb5.11,
+#' xyplot(prop ~ inset, data = ZimmermannTb5.11,
 #'        type = c("p", "a"),
-#'        xlab = "Tratamento",
+#'        xlab = "Inseticida",
 #'        ylab = "Proporção de hastes sobreviventes")
 #'
 NULL
