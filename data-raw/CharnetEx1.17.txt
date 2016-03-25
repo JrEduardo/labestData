@@ -1,4 +1,4 @@
-amos	x	y
+conj	x	y
 a	5	30
 a	10	28
 a	15	29
