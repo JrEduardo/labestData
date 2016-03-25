@@ -2,16 +2,16 @@
 % Please edit documentation in R/DemetrioTb2.11.R
 \name{DemetrioTb2.11}
 \alias{DemetrioTb2.11}
-\title{Radiação Gama no Abacaxi}
+\title{Radiação Gama em Explantes de Abacaxis}
 \format{Um \code{data.frame} de 70 linhas e 2 colunas.
 
 \describe{
 
-    \item{\code{dose}}{Dose de radiação gama aplicada sobre os 
-    explantes de abacaxi.}
+    \item{\code{dose}}{Dose de radiação gama a qual os
+    explantes de abacaxi foram expostos durante 45 dias.}
     
-    \item{\code{absorv}}{Peso dos explantes de abacaxi 45 dias após
-    a irradiação, medido em gramas (g).}
+    \item{\code{absorv}}{Peso dos explantes de abacaxi após a
+    irradiação, medido em gramas (g).}
     
 }}
 \source{
@@ -19,23 +19,33 @@ Demétrio, C. G. B., & Zocchi, S. S. (2011). Modelos de
     Regressão. Piracicaba: ESALQ. (Tabela 2.11 pág. 66)
 }
 \description{
-Foi aplicado diferentes doses de radiação gama sobre
-    explantes de abacaxi e o peso dos mesmos foram mensurados 45
-    dias após a irradiação.
+Dados provenientes de um experimento inteiramente
+    casualizado onde expuseram explantes de abacaxis a diferentes
+    doses de radiação gama e, 45 dias após a irradiação, mensurou-se
+    o peso destes explantes.
 }
 \examples{
 
 data(DemetrioTb2.11)
 
 library(lattice)
+# Estatísticas descritivas
+with(DemetrioTb2.11, tapply(peso, dose, summary))
+
+with(DemetrioTb2.11, {
+    mu <<- aggregate(peso, list(dose), mean)
+    des <<- aggregate(peso, list(dose), sd)
+})
 
 xyplot(peso ~ dose, data = DemetrioTb2.11,
-     main = "Dose VS Peso",
-     xlab = "Dose",
-     ylab = "Peso",
-     type = c("p", "r"), col.line = 3)
-
- with(DemetrioTb2.11, tapply(peso, dose, summary))
+       type = c("p", "r"), grid = TRUE,
+       panel = function(x, y, ...) {
+           panel.points(x = mu$G - 1, y = mu$x, pch = 15, col = 1)
+           panel.arrows(x0 = mu$G - 1, y0 = mu$x - des$x,
+                        x1 = mu$G - 1, y1 = mu$x + des$x,
+                        code = 3, length = 0.05, angle = 90)
+           panel.xyplot(x, y, ...)
+           })
 
 }
 \keyword{TODO}
