@@ -1,5 +1,5 @@
 #' @name ZimmermannTb5.2
-#' @title Dados de produção de grãos de arroz
+#' @title Produção de Grãos de Genótipos de Arroz
 #' @description Experimento em delineamento quadrado latino cujo
 #'     objetivo foi medir a resposta em produtividade de um grupo de
 #'     oito genótipos de arroz ao ataque inicial de pragas.
@@ -31,7 +31,6 @@
 #' data(ZimmermannTb5.2)
 #'
 #' str(ZimmermannTb5.2)
-#' ZimmermannTb5.2 <- transform(ZimmermannTb5.2, geno = factor(geno))
 #'
 #' cast(ZimmermannTb5.2, linha ~ coluna, value = "geno")
 #' cast(ZimmermannTb5.2, linha ~ coluna, value = "prod")
