@@ -1,5 +1,5 @@
 #' @name ZimmermannTb3.2.1
-#' @title Estudo sobre adubação nitrogenada na cultura do arroz
+#' @title Adubação nitrogenada na Cultura do Arroz
 #' @description Dados de um experimento em DIC que visa estudar a
 #'     adubação nitrogenada no arroz irrigado, com 4 tratamentos e 8
 #'     repetições. A resposta observada foi a produção de grãos de arroz
@@ -8,8 +8,8 @@
 #'
 #' \describe{
 #'
-#' \item{\code{adub}}{Fator de níveis nominais. Indica a adubação aplicada ao
-#'      arroz irrigado.}
+#' \item{\code{adub}}{Fator de níveis nominais. Indica a adubação
+#'      aplicada ao arroz irrigado.}
 #'
 #' \item{\code{rept}}{Número inteiro que identifica as repetições de
 #'     cada tratamento.}
@@ -29,12 +29,13 @@
 #' data(ZimmermannTb3.2.1)
 #'
 #' str(ZimmermannTb3.2.1)
-#' unstack(x = ZimmermannTb3.2.1, form = prod ~ trat)
 #'
-#' aggregate(prod ~ trat, data = ZimmermannTb3.2.1,
+#' unstack(x = ZimmermannTb3.2.1, form = prod ~ adub)
+#'
+#' aggregate(prod ~ adub, data = ZimmermannTb3.2.1,
 #'           FUN = function(x) { c(mean = mean(x), var = var(x)) })
 #'
-#'  xyplot(prod ~ trat, data = ZimmermannTb3.2.1,
+#'  xyplot(prod ~ adub, data = ZimmermannTb3.2.1,
 #'         type = c("p", "a"), jitter.x = TRUE,
 #'         xlab = "Tratamentos",
 #'         ylab = expression(Produção~de~grãos~(kg~ha^{-1})))

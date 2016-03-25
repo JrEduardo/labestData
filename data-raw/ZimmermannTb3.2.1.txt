@@ -1,4 +1,4 @@
-trat	rept	prod
+adub	rep	prod
 1	1	6276
 2	1	7199
 3	1	6457

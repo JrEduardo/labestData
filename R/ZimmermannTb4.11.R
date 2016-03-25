@@ -1,8 +1,8 @@
 #' @name ZimmermannTb4.11
-#' @title Estudo sobre alturas médias de perfilhos
-#' @description Dados de um ensaio com dez tratamentos, quatro blocos e
-#'     cinco amostras, tomadas ao acaso, de alturas médias de perfilhos
-#'     em plantas, medidos em cm.
+#' @title Alturas Médias de Perfilhos
+#' @description Dados de um ensaio com dez genótipos, quatro blocos e
+#'     cinco amostras por parcela, tomadas ao acaso, das alturas dos
+#'     perfilhos, medidos em cm.
 #' @format Um \code{data.frame} com 200 observações e 4 variáveis
 #'
 #' \describe{
@@ -10,13 +10,13 @@
 #' \item{\code{geno}}{Fator de níveis nominais. Identifica o genótipo
 #'     da planta.}
 #'
-#' \item{\code{amostra}}{Fator de níveis numéricos. Identifica à qual
-#'     amostra pertence a observação.}
-#'
 #' \item{\code{bloco}}{Número inteiro que identifica o bloco da
 #'     observação.}
 #'
-#' \item{\code{prod}}{Altura média de perfilhos (cm).}
+#' \item{\code{amostra}}{Fator de níveis numéricos. Identifica à qual
+#'     amostra pertence a observação.}
+#'
+#' \item{\code{alt}}{Altura de perfilhos (cm).}
 #'
 #' }
 #' @keywords DBC
@@ -31,14 +31,14 @@
 #'
 #' str(ZimmermannTb4.11)
 #'
-#' xyplot(prod ~ geno, groups = bloco,
+#' xyplot(alt ~ geno, groups = bloco,
 #'        data = ZimmermannTb4.11,
 #'        type = c("p", "a"), jitter.x = TRUE,
 #'        xlab = "Tratamentos",
 #'        ylab = "Altura média de perfilhos (cm)",
 #'        scales=list(x=list(rot=90)))
 #'
-#' aggregate(prod ~ geno, data = ZimmermannTb4.11,
+#' aggregate(alt ~ geno, data = ZimmermannTb4.11,
 #'           FUN = function(x) { c(mean = mean(x), var = var(x)) })
 #'
 NULL
