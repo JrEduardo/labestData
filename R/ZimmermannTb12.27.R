@@ -1,5 +1,5 @@
 #' @name ZimmermannTb12.27
-#' @title Produtividade de arroz pela resistência a insetos
+#' @title Produtividade de Arroz para Resistência a Insetos
 #' @description Ensaio 2 de um experimento em delineamento quadrado
 #'     latino, que avaliou a resistência a insetos em seis cultivares de
 #'     arroz, sendo uma delas comum ao ensaio 1. Os dados são de
