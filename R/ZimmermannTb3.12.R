@@ -1,14 +1,14 @@
 #' @name ZimmermannTb3.12
 #' @title Dados de matéria seca em plantas
 #' @description Experimento em DIC que estudou a produção de matéria
-#'     seca em plantas de arroz, em gramas. No experimento foram utilizados 
-#'     cinco vasos para cada um de quatro tratamentos e três plantas para cada
-#'     vaso (parcela).
+#'     seca em plantas de arroz, em gramas. No experimento foram
+#'     utilizados cinco vasos para cada um de quatro tratamentos e três
+#'     plantas para cada vaso (parcela).
 #' @format Um \code{data.frame} com 75 observações e 4 variáveis
 #'
 #' \describe{
 #'
-#' \item{\code{trat}}{Fator de níveis nominais representados por
+#' \item{\code{solo}}{Fator de níveis nominais representados por
 #'     inteiros. Indica o tipo de solo aonde o arroz foi plantado.}
 #'
 #' \item{\code{planta}}{Fator de níveis numéricos que identifica as
@@ -31,12 +31,12 @@
 #' data(ZimmermannTb3.12)
 #'
 #' str(ZimmermannTb3.12)
-#' xtabs(~trat + vaso, data = ZimmermannTb3.12)
+#' xtabs(~solo + vaso, data = ZimmermannTb3.12)
 #'
-#' aggregate(prod ~ trat, data = ZimmermannTb3.12,
+#' aggregate(prod ~ solo, data = ZimmermannTb3.12,
 #'           FUN = function(x) { c(mean = mean(x), var = var(x)) })
 #'
-#' xyplot(prod ~ trat, groups = vaso, data = ZimmermannTb3.12,
+#' xyplot(prod ~ solo, groups = vaso, data = ZimmermannTb3.12,
 #'        type = c("p", "a"), jitter.x = TRUE,
 #'        xlab = "Tratamentos",
 #'        ylab = "Produção de matéria seca das plantas (g)")
