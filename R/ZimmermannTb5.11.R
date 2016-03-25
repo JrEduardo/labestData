@@ -1,12 +1,12 @@
 #' @name ZimmermannTb5.11
-#' @title Proposrção de hastes sobreviventes ao ataque de insetos
+#' @title Proporção de hastes sobreviventes ao ataque de insetos
 #' @description Experimento em delineamento quadrado latino onde foram
-#'     tomadas quatro amostras em cada uma das parcelas (tipo de 
-#'     inseticida) no que diz respeito ao número total de hastes 
-#'     e número de hastes mortas por cupim (\emph{Sinthermes} sp.)
-#'     e lagarta elasmo (\emph{Elasmopalpus} sp.).  Com base 
-#'     nestes números, a proporção de hastes sobreviventes ao 
-#'     ataque de insetos foi calculada.
+#'     tomadas quatro amostras em cada uma das parcelas (tipo de
+#'     inseticida) no que diz respeito ao número total de hastes e
+#'     número de hastes mortas por cupim (\emph{Sinthermes} sp.) e
+#'     lagarta elasmo (\emph{Elasmopalpus} sp.). Com base nestes
+#'     números, a proporção de hastes sobreviventes ao ataque de insetos
+#'     foi calculada.
 #' @format Um \code{data.frame} com 484 observações e 5 variáveis
 #'
 #' \describe{
@@ -17,11 +17,11 @@
 #' \item{coluna}{Fator de níveis nominais. Indica em que coluna do
 #'      quadrado latino a unidade experimental está.}
 #'
-#' \item{amostra}{Fator de níveis numéricos. Identifica a amostra em
-#'     cada unidade experimental.}
-#'
 #' \item{inset}{Fator de níveis nominais. Indica o inseticida
 #'     aplicado.}
+#'
+#' \item{amostra}{Fator de níveis numéricos. Identifica a amostra em
+#'     cada unidade experimental.}
 #'
 #' \item{prop}{Proporção de hastes sobreviventes ao ataque de insetos. O
 #'     Só é conhecida a proporção amostral. Não são conhecidos o
@@ -40,8 +40,6 @@
 #' data(ZimmermannTb5.11)
 #'
 #' str(ZimmermannTb5.11)
-#'
-#' ZimmermannTb5.11$prop <- as.numeric(as.character(ZimmermannTb5.11$prop))
 #'
 #' aux <- aggregate(prop ~ linha + coluna + inset,
 #'                  data = ZimmermannTb5.11, FUN = mean)
