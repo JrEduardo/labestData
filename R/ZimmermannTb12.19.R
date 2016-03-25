@@ -10,13 +10,13 @@
 #'
 #' \describe{
 #'
-#' \item{\code{cult}}{Fator de níveis nominais. Identifica a cultivar da
-#'     planta.}
+#' \item{\code{cult}}{Fator de níveis nominais. Identifica a cultivar de
+#'     feijão.}
 #'
 #' \item{\code{bloco}}{Número inteiro que identifica o bloco da
 #'     observação.}
 #'
-#' \item{\code{prod}}{Produtividade de grãos (kg ha\eqn{^{-1}}).}
+#' \item{\code{prod}}{Produtividade de grãos em kg ha\eqn{^{-1}}.}
 #'
 #' }
 #' @keywords DBC
@@ -31,13 +31,13 @@
 #'
 #' str(ZimmermannTb12.19)
 #'
-#' xyplot(prod ~ trat, data = ZimmermannTb12.19,
+#' xyplot(prod ~ cult, data = ZimmermannTb12.19,
 #'        groups = bloco, type = "b",
 #'        xlab = "Tratamentos",
 #'        ylab = "Produtividade de grãos",
 #'        scales = list(x = list(rot = 90)))
 #'
-#' aggregate(prod ~ trat, data = ZimmermannTb12.19,
+#' aggregate(prod ~ cult, data = ZimmermannTb12.19,
 #'           FUN = function(x) { c(mean = mean(x), var = var(x)) })
 #'
 NULL

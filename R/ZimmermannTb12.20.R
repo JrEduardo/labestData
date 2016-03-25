@@ -1,5 +1,5 @@
 #' @name ZimmermannTb12.20
-#' @title Dados de produtividade de grãos de feijão
+#' @title Produtividade de Grãos de Cultivares de Feijão
 #' @description Dados do ensaio 2 de um experimento em DBC de competição
 #'     de cultivares de feijão do grupo preto. Este ensaio foi realizado
 #'     no município de Santo Antonio de Goiás (GO). Houveram três
@@ -11,12 +11,13 @@
 #'
 #' \describe{
 #'
-#' \item{\code{cult}}{Fator de níveis nominais. dentifica a cultivar da
-#'     planta.}
+#' \item{\code{cult}}{Fator de níveis nominais. dentifica a cultivar de
+#'     feijão.}
 #'
-#' \item{\code{bloco}}{Número inteiro que identifica o bloco da observação.}
+#' \item{\code{bloco}}{Número inteiro que identifica o bloco da
+#'     observação.}
 #'
-#' \item{\code{prod}}{Produtividade de grãos.}
+#' \item{\code{prod}}{Produtividade de grãos em kg ha\eqn{^{-1}}.}
 #'
 #' }
 #' @keywords DBC
@@ -29,11 +30,11 @@
 #'
 #' data(ZimmermannTb12.20)
 #'
-#' xyplot(prod ~ trat , groups = bloco, data = ZimmermannTb12.20,
+#' xyplot(prod ~ cult , groups = bloco, data = ZimmermannTb12.20,
 #'        type = c("p", "a"),
 #'        xlab = "Tratamentos",
 #'        ylab = "Produtividade de grãos")
 #'
-#' aggregate(prod ~ trat, data = ZimmermannTb12.20,
+#' aggregate(prod ~ cult, data = ZimmermannTb12.20,
 #'           FUN = function(x) { c(mean = mean(x), var = var(x)) })
 NULL
