@@ -7,21 +7,24 @@
 
 \describe{
 
-    \item{\code{data}}{Data de colheita dos ruibarbos.}
+    \item{\code{data}}{Data de colheita dos ruibarbos. Obs.: Para
+    utilizar o formato \code{\link{Date}} foi considerado o ano 1983
+    (Date de publicação do livro que referencia os dados).}
     
-    \item{\code{bloco}}{Bloco ao qual a observação pertence.}
+    \item{\code{bloco}}{Fator que indica o bloco, para controle de
+    variação, ao qual a observação pertence.}
     
-    \item{\code{valor}}{Valor da produção de ruibarbo.}
+    \item{\code{prod}}{Valor da produção de ruibarbo.}
     
 }}
 \source{
 Demétrio, C. G. B., & Zocchi, S. S. (2011). Modelos de
-    Regressão. Piracicaba: ESALQ. (Tabela 2.12 pág. 67)
+    Regressão. Piracicaba: ESALQ. (Tabela 2.12 pág. 66-67)
 }
 \description{
-Foi mensurada a produção de ruibarbos para enlatamento,
-    considerando-se as datas de colheita, em um experimento realizado
-    em blocos.
+Dados de um experimento conduzido em delineamento de
+    blocos ao acaso onde foi mensurada a produção de ruibarbos para
+    enlatamento, considerando diferentes datas de colheita.
 }
 \examples{
 
@@ -29,13 +32,23 @@ data(DemetrioTb2.12)
 
 library(lattice)
 
-xyplot(valor ~ data, data = DemetrioTb2.12,
-     main = "Data VS Valor",
-     xlab = "Data",
-     ylab = "Valor",
-     type = c("p", "r"), col.line = 3)
+# Estatísticas descritivas
+with(DemetrioTb2.12, tapply(prod, data, summary))
 
-with(DemetrioTb2.12, tapply(valor, data, summary))
+with(DemetrioTb2.12, {
+    mu <<- aggregate(prod, list(data), mean)
+    des <<- aggregate(prod, list(data), sd)
+})
+
+xyplot(prod ~ data, data = DemetrioTb2.12,
+       type = c("p", "r"), grid = TRUE,
+       panel = function(x, y, ...) {
+           panel.points(x = mu$G - 0.5, y = mu$x, pch = 15, col = 1)
+           panel.arrows(x0 = mu$G - 0.5, y0 = mu$x - des$x,
+                        x1 = mu$G - 0.5, y1 = mu$x + des$x,
+                        code = 3, length = 0.05, angle = 90)
+           panel.xyplot(x, y, ...)
+           })
 
 }
 \keyword{TODO}
