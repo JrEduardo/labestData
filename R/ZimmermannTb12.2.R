@@ -31,11 +31,11 @@
 #'
 #' str(ZimmermannTb12.2)
 #'
-#' xyplot(prod ~ trat, data = ZimmermannTb12.2,
+#' xyplot(prod ~ geno, data = ZimmermannTb12.2,
 #'        type = c("p", "a"),
 #'        xlab = "Tratamentos",
 #'        ylab = "Produção de grãos de arroz irrigado")
 #'
-#' aggregate(prod ~ trat, data = ZimmermannTb12.2,
+#' aggregate(prod ~ geno, data = ZimmermannTb12.2,
 #'          FUN = function(x) { c(mean = mean(x), var = var(x)) })
 NULL
