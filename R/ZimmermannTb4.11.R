@@ -1,7 +1,7 @@
 #' @name ZimmermannTb4.11
 #' @title Estudo sobre alturas médias de perfilhos
 #' @description Dados de um ensaio com dez tratamentos, quatro blocos e
-#'     cinco amostras tomadas ao acaso, de alturas médias de perfilhos
+#'     cinco amostras, tomadas ao acaso, de alturas médias de perfilhos
 #'     em plantas, medidos em cm.
 #' @format Um \code{data.frame} com 200 observações e 4 variáveis
 #'
