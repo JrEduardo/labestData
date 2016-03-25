@@ -1,5 +1,5 @@
 #' @name ZimmermannTb12.1
-#' @title Estudo sobre produtividade de grãos de arroz irrigado
+#' @title Produtividade de Grãos de Arroz Irrigado
 #' @description Dados do Ensaio 1 de um experimento em DIC, que estudou
 #'     a produtividade de grãos de arroz em lavoura conduzida com
 #'     inundação contínua durante todo o ciclo. O experimento teve seis
@@ -8,7 +8,7 @@
 #'
 #' \describe{
 #'
-#' \item{\code{trat}}{Fator de níveis nominais. Tratamento aplicado em
+#' \item{\code{geno}}{Fator de níveis nominais. Tratamento aplicado em
 #'      arroz irrigado.}
 #'
 #' \item{\code{rept}}{Número inteiro que identifica as repetições de
@@ -30,12 +30,12 @@
 #'
 #' str(ZimmermannTb12.1)
 #'
-#' xyplot(prod ~ trat, data = ZimmermannTb12.1,
+#' xyplot(prod ~ geno, data = ZimmermannTb12.1,
 #'        type = c("p", "a"),
 #'        xlab = "Tratamentos",
 #'        ylab = "Produção de grãos de arroz irrigado")
 #'
-#' aggregate(prod ~ trat, data = ZimmermannTb12.1,
+#' aggregate(prod ~ geno, data = ZimmermannTb12.1,
 #'           FUN = function(x) { c(mean = mean(x), var = var(x)) })
 #'
 NULL
