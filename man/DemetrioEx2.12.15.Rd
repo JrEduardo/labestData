@@ -2,14 +2,14 @@
 % Please edit documentation in R/DemetrioEx2.12.15.R
 \name{DemetrioEx2.12.15}
 \alias{DemetrioEx2.12.15}
-\title{Valores Simulados}
+\title{Dados Genéricos Simulados para Regressão Simples}
 \format{Um \code{data.frame} de 6 linhas e 2 colunas.
 
 \describe{
 
-    \item{\code{x}}{Sem interpretação.}
+    \item{\code{x}}{Variável independente, sem interpretação.}
     
-    \item{\code{y}}{Sem interpretação.}
+    \item{\code{y}}{Variável dependente, sem interpretação.}
     
 }}
 \source{
@@ -17,8 +17,9 @@ Demétrio, C. G. B., & Zocchi, S. S. (2011). Modelos de
     Regressão. Piracicaba: ESALQ. (Exercício 2.12.15 pág. 63)
 }
 \description{
-Os dados estão presentes no exercício com o objetivo de
-    desenhar o gráfico de dispersão e realizar o ajuste do modelo.
+Dados simulados para exercício analítico de estimação
+    via método dos quadrados mínimos em diferentes modelos de
+    regressão linear.
 }
 \examples{
 

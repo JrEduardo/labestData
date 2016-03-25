@@ -1,16 +1,17 @@
 #' @name DemetrioTb2.9
-#' @title Pares de Valores
+#' @title Dados Genéricos para Regressão Simples
 #' 
-#' @description Os dados estão presentes no exercício com o objetivo de
-#'     estimar os parâmetros, realizar a ANOVA, entre outros.
+#' @description Dados para exercício analítico, com o objetivo de
+#'     estimar os parâmetros de forma pontual e intervalar, realizar a
+#'     ANOVA, entre outros.
 #' 
 #' @format Um \code{data.frame} de 10 linhas e 2 colunas.
 #' 
 #' \describe{
 #' 
-#'     \item{\code{x}}{Sem interpretação.}
+#'     \item{\code{x}}{Variável independente, sem interpretação.}
 #'     
-#'     \item{\code{y}}{Sem interpretação.}
+#'     \item{\code{y}}{Variável dependente, sem interpretação.}
 #'     
 #' }
 #' 

@@ -1,16 +1,17 @@
 #' @name DemetrioEx2.12.15
-#' @title Valores Simulados
+#' @title Dados Genéricos Simulados para Regressão Simples
 #' 
-#' @description Os dados estão presentes no exercício com o objetivo de
-#'     desenhar o gráfico de dispersão e realizar o ajuste do modelo.
+#' @description Dados simulados para exercício analítico de estimação
+#'     via método dos quadrados mínimos em diferentes modelos de
+#'     regressão linear.
 #' 
 #' @format Um \code{data.frame} de 6 linhas e 2 colunas.
 #' 
 #' \describe{
 #' 
-#'     \item{\code{x}}{Sem interpretação.}
+#'     \item{\code{x}}{Variável independente, sem interpretação.}
 #'     
-#'     \item{\code{y}}{Sem interpretação.}
+#'     \item{\code{y}}{Variável dependente, sem interpretação.}
 #'     
 #' }
 #' 

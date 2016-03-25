@@ -1,16 +1,17 @@
 #' @name DemetrioEx2.12.16
-#' @title Calagem para a sucessão batata-triticale-milho
+#' @title Calagem para a Sucessão batata-triticale-milho
 #' 
-#' @description Foi obtido os valores para o teor de cálcio no solo e 
-#'     a porcentagem de tubérculos maduros com o objetivo de verificar
-#'     a relação existente entre as variáveis.
+#' @description Neste experimento foram obtidos os valores para o teor
+#'     de cálcio no solo e a porcentagem de tubérculos maduros com o
+#'     objetivo de verificar a relação existente entre estas variáveis.
 #' 
 #' @format Um \code{data.frame} de 9 linhas e 2 colunas.
 #' 
 #' \describe{
 #' 
-#'     \item{\code{calcio}}{Teor de cálcio no solo, medido 
-#'         em meq/100cm3.}
+#'     \item{\code{calcio}}{Teor de cálcio no solo, medido em
+#'     \eqn{meq/100cm^{3}} (miliequivalente por 100 centímetros
+#'     cúbicos).}
 #'     
 #'     \item{\code{tm}}{Porcentagem de tubérculos maduros.}
 #'     
