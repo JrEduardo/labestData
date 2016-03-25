@@ -31,14 +31,14 @@
 #'
 #' str(ZimmermannTb4.11)
 #'
-#' xyplot(prod ~ trat, groups = bloco,
+#' xyplot(prod ~ geno, groups = bloco,
 #'        data = ZimmermannTb4.11,
 #'        type = c("p", "a"), jitter.x = TRUE,
 #'        xlab = "Tratamentos",
 #'        ylab = "Altura média de perfilhos (cm)",
 #'        scales=list(x=list(rot=90)))
 #'
-#' aggregate(prod ~ trat, data = ZimmermannTb4.11,
+#' aggregate(prod ~ geno, data = ZimmermannTb4.11,
 #'           FUN = function(x) { c(mean = mean(x), var = var(x)) })
 #'
 NULL
