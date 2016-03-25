@@ -29,8 +29,6 @@
 #'
 #' data(ZimmermannTb4.11)
 #'
-#' str(ZimmermannTb4.11)
-#'
 #' xyplot(prod ~ trat, groups = bloco,
 #'        data = ZimmermannTb4.11,
 #'        type = c("p", "a"), jitter.x = TRUE,
