@@ -1,4 +1,4 @@
-trat	bloco	prod
+trat	bloco	asinprop
 1	1	0
 9	1	0.8411
 10	1	0.4909

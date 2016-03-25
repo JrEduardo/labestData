@@ -1,13 +1,12 @@
 #' @name ZimmermannTb12.13
-#' @title Dados da proporção de insetos infectados
+#' @title Proporção de Insetos Infectados
 #' @description Dados do ensaio 1 de um experimento em DBC que estudou a
 #'     patogenicidade de fungos ao percevejo do grão de arroz. A
 #'     testemunha sem infecção (1) era o tratamento comum entre os dois
 #'     experimentos. Os dados se referem à proporção de percevejos
-#'     infectados e transformados por arco seno da raiz quadrada da
-#'     proporção.
+#'     infectados, medida transformada pelo arco seno da raiz quadrada
+#'     da proporção.
 #' @format Um \code{data.frame} com 35 observações e 3 variáveis
-#'
 #'
 #' \describe{
 #'
