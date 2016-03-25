@@ -1,20 +1,27 @@
 #' @name CharnetEx2.8
 #' 
-#' @title Três conjuntos de dados
+#' @title Dados Genéricos para Regressão Linear Simples
 #' 
-#' @description Três conjuntos de dados
+#' @description Três conjuntos de dados apresentados para
+#'     exercício. Objetivo do exercício é visualizar casos em que só
+#'     o termo linear não é satisfatório.
 #'
 #' @format Um \code{data.frame} com 3 colunas e 34 linhas.
 #'
 #' \describe{
 #'
-#' \item{\code{conj}}{Um conjunto de valores}
+#'     \item{\code{conj}}{Fator que indica a qual conjunto a observação
+#'     pertence.}
 #'
-#' \item{\code{x}}{conjunto de valores de x}
+#'     \item{\code{x}}{Variável independente, sem interpretação.}
 #'
-#' \item{\code{y}}{conjunto de valores de y}
+#'     \item{\code{y}}{Variável dependente, sem interpretação.}
 #'
 #' }
+#'
+#' @details Este conjunto de dados agrupa dados onde pressupõe-se que
+#'     sejam de populações distintas. Portanto ao utilizá-lo separe-o
+#'     com base na variável \code{conj}.
 #'
 #' @keywords TODO
 #'
@@ -27,6 +34,11 @@
 #'
 #' data(CharnetEx2.8)
 #'
-#' plot(CharnetEx2.8)
+#' library(ggplot2)
+#'
+#' ggplot(CharnetEx2.8, aes(x = x, y = y)) +
+#'     geom_point() +
+#'     facet_grid(~conj) +
+#'     stat_smooth(method = "lm")
 #' 
 NULL
