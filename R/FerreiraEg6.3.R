@@ -17,7 +17,7 @@
 #' \item{\code{Mg}}{Teor de magnésio na parcela de solo.}
 #'
 #' \item{\code{SB}}{Índice de saturação de bases calculado na parcela de
-#' solo.}
+#'     solo.}
 #'
 #' }
 #' @keywords TODO
@@ -26,14 +26,17 @@
 #'     exemplo 6.6 pág. 268-269)
 #'
 #' @examples
+#'
 #' data(FerreiraEg6.3)
-#' 
+#'
+#' str(FerreiraEg6.3)
+#'
 #' library(lattice)
-#' 
-#' splom(~ FerreiraEg6.3[2:4], groups = solo, data = FerreiraEg6.3,
+#'
+#' splom(~FerreiraEg6.3[2:4], groups = solo, data = FerreiraEg6.3,
 #'       type = c("p", "smooth"), grid = TRUE,
 #'       auto.key = list(columns = 2, title = "Tipo de solo"))
-#' 
+#'
 #' # Matrizes de covariâncias e correlações
 #' by(FerreiraEg6.3[2:4], FerreiraEg6.3[1], cov)
 #' by(FerreiraEg6.3[2:4], FerreiraEg6.3[1], cor)

@@ -2,8 +2,8 @@
 #' @title Avaliação de cultivar de melão
 #' @description Os dados referem-se à avaliação de uma cultivar de melão
 #'     em 32 unidades experimentais.
-#'
 #' @format \code{data.frame} com 32 observações e 3 variáveis, em que
+#'
 #' \describe{
 #'
 #' \item{\code{nfrut}}{Número de frutos total por héctare.}
@@ -18,7 +18,10 @@
 #'     ed.). Lavras,  MG: Editora UFLA. (Exercício 3.8.5)
 #' @examples
 #'
-# Análise descritiva
+#' data(FerreiraEx3.8.5)
+#' str(FerreiraEx3.8.5)
+#'
+#' # Análise descritiva
 #' panel.density <- function(x, ...) {
 #'     usr <- par("usr")
 #'     on.exit(par(usr))
