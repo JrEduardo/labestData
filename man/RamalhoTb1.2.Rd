@@ -7,15 +7,17 @@
 
 \describe{
 
-\item{\code{varied}}{Fator de níveis nominais das variedades de milho.}
+\item{\code{varied}}{Fator de níveis nominais das variedades de
+    milho.}
 
-\item{\code{prod}}{Produtividade média de espiga (ton ha\eqn{^{-1}}).}
+\item{\code{prod}}{Produtividade média de espiga (ton
+    ha\eqn{^{-1}}).}
 
 }}
 \source{
 Ramalho, M. A. P., Ferreira, D. F., Oliveira, A. C. (2005).
     Experimentação em Genética e Melhoramento de Plantas (2th ed.).
-    Lavras: UFLA. (pg 15)
+    Lavras, MG: UFLA. (pg 15)
 }
 \description{
 Experimento da produtividade média de espigas de milho

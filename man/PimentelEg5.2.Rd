@@ -19,7 +19,7 @@
 }}
 \source{
 Pimentel-Gomes, F. (2009). Curso de Estatístitica
-    Experimental (15th ed.). Piracicaba, SP: FEALQ.
+    Experimental (15th ed.). Piracicaba, SP: FEALQ. (Exemplo 5.2)
 }
 \description{
 Experimento de competição de variedades de batatinha
@@ -39,5 +39,4 @@ xyplot(producao ~ variedade, groups = bloco, data = PimentelEg5.2,
 
 }
 \keyword{DBC}
-
 
