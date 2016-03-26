@@ -1,17 +1,18 @@
 #' @name CharnetEx2.10
 #' 
-#' @title Estudo do efeito do Carbono na Resistência Elétrica
+#' @title Estudo do Efeito do Carbono na Resistência Elétrica
 #' 
-#' @description Estudo do efeito do Carbono na Resistência Elétrica na
-#'              temperatura de 20ºC
+#' @description Estudo sobre o efeito do carbono contido, em fios de aço
+#'     em resistência elétrica, na temperatura de 20ºC.
 #'
 #' @format Um \code{data.frame} com 2 colunas e 15 linhas.
 #'
 #' \describe{
 #'
-#' \item{\code{carb}}{Porcentagem de carbono em fios de aço}
+#' \item{\code{carb}}{Porcentagem de carbono nos fios de aço.}
 #'
-#' \item{\code{res}}{Resistência elétrica em ohms a 20ºC}
+#' \item{\code{res}}{Resistência elétrica, mensurada em \eqn{\mu} ohms
+#'     cm a 20ºC.}
 #'
 #' }
 #'
@@ -26,6 +27,7 @@
 #'
 #' data(CharnetEx2.10)
 #'
-#'plot(CharnetEx2.10)
+#' plot(CharnetEx2.10)
+#' abline(lm(res ~ carb, data = CharnetEx2.10))
 #'
 NULL

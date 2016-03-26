@@ -1,8 +1,8 @@
 #' @name CharnetEx1.5
 #' 
-#' @title Tempo de duração do intervalo para o cafézinho
+#' @title Tempo de Duração do Intervalo para o Cafezinho
 #' 
-#' @description Tempo de duração do intervalo para o cafézinho para uma
+#' @description Tempo de duração do intervalo para o cafezinho para uma
 #'     amostra de 20 empregados de uma grande empresa.
 #'
 #' @format Um \code{vetor} numérico com 20 observações.
@@ -18,9 +18,13 @@
 #'
 #' data(CharnetEx1.5)
 #'
-#' mean(CharnetEx1.5)
-#' sd(CharnetEx1.5)
+#' (m <- mean(CharnetEx1.5))
+#' (s <- sd(CharnetEx1.5))
 #' fivenum(CharnetEx1.5)
 #'
-#'
+#' curve(dnorm(x, m, s),
+#'       xlim = extendrange(CharnetEx1.5, f = 0.2),
+#'       col = 4, lwd = 2)
+#' hist(CharnetEx1.5, prob = TRUE, add = TRUE)
+#' rug(CharnetEx1.5)
 NULL

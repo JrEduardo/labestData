@@ -1,17 +1,17 @@
 #' @name CharnetEx1.20
 #' 
-#' @title Dois testes de avaliação de personalidade
+#' @title Testes de Avaliação de Personalidade
 #' 
 #' @description Dois testes de avaliação de personalidade aplicados a 20
-#'              indivíduos.
+#'     indivíduos.
 #'
 #' @format Um \code{data.frame} com 2 colunas e 20 linhas.
 #'
 #' \describe{
 #'
-#' \item{\code{t1}}{Teste I}
+#' \item{\code{t1}}{Resultados do teste I, em pontos.}
 #'
-#' \item{\code{t2}}{Teste II}
+#' \item{\code{t2}}{Resultados do teste II, em pontos.}
 #'
 #' }
 #'

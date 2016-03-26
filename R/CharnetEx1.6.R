@@ -1,6 +1,6 @@
 #' @name CharnetEx1.6
 #' 
-#' @title Pressão sanguínea sistólica
+#' @title Pressão Sanguínea Sistólica
 #' 
 #' @description Pressão sanguínea sistólica de um grupo de 16 pacientes
 #'     de uma clínica.
@@ -18,8 +18,14 @@
 #'
 #' data(CharnetEx1.6)
 #'
-#' mean(CharnetEx1.6)
-#' sd(CharnetEx1.6)
+#' (m <- mean(CharnetEx1.6))
+#' (s <- sd(CharnetEx1.6))
 #' fivenum(CharnetEx1.6)
+#'
+#' curve(dnorm(x, m, s),
+#'       xlim = extendrange(CharnetEx1.6, f = 0.2),
+#'       col = 4, lwd = 2)
+#' hist(CharnetEx1.6, prob = TRUE, add = TRUE)
+#' rug(CharnetEx1.6)
 #' 
 NULL
