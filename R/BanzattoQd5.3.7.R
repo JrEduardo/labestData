@@ -1,13 +1,13 @@
 #' @name BanzattoQd5.3.7
-#' @title Eficiência na utilização de P por cultivares de trigo
+#' @title Eficiência na Utilização de P por Cultivares de trigo
 #' @description Experimento em delineamento inteiramente casualizado que
-#'     avaliou o efeito a efeiciência na utilização de fósforo por três
+#'     avaliou o efeito a eficiência na utilização de fósforo por três
 #'     cultivares de trigo cultivadas em solo com e sem calagem.
 #' @format Um \code{data.frame} com 48 observações e 5 variáveis.
 #' \describe{
 #'
 #' \item{\code{cult}}{Cultivares de trigo usadas no experimento: BR 20
-#'     Guató - tolarante ao alumínio, BR 36 Ianomami - sensível ao
+#'     Guató - tolerante ao alumínio, BR 36 Ianomami - sensível ao
 #'     alumínio, BR 40 Tuiúca - moderadamente sensível ao alumínio.}
 #'
 #' \item{\code{calag}}{Quantidade aplicada de calcário feita para

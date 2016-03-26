@@ -34,10 +34,10 @@
 #' }
 #'
 #' Cada parcela foi constituída de 6 linhas de plantio com 10 metros de
-#'     comprimento, num total de 60 m\eqn{^{2}} e, como área útil, foram
-#'     consideradas as 4 linhas centrais com 8 metros de comprimento
-#'     (por desconsiderar 1 m em cada extremidade), perfazendo 32
-#'     m\eqn{^{2}}. O híbrido de milho utilizado foi o HMD-7974.
+#' comprimento, num total de 60 m\eqn{^{2}} e, como área útil, foram
+#' consideradas as 4 linhas centrais com 8 metros de comprimento (por
+#' desconsiderar 1 m em cada extremidade), perfazendo 32 m\eqn{^{2}}. O
+#' híbrido de milho utilizado foi o HMD-7974.
 #'
 #' @keywords DBC FAT3 confundimento
 #' @source Banzatto, D. A., Kronka, S. D. (2013). Experimentação
@@ -55,8 +55,6 @@
 #' library(lattice)
 #'
 #' data(BanzattoQd5.5.1)
-#'
-#' str(BanzattoQd5.5.1)
 #'
 #' a <- with(BanzattoQd5.5.1,
 #'           tapply(X = prod, INDEX = list(N, P, K), FUN = sum))

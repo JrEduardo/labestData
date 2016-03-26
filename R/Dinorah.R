@@ -16,7 +16,7 @@
 #' \if{latex}{\figure{dinorah.jpg}{options: width=5.4in}}
 #'
 #' Na figura acima tem-se a delimitação entre algumas parcelas (contorno
-#'     linhas retas brancas com vertices nas estacas).
+#' linhas retas brancas com vértices nas estacas).
 #'
 #' @format Um \code{data.frame} com 60 observações e 11 variáveis.
 #'     \describe{
@@ -66,8 +66,6 @@
 #' library(lattice)
 #'
 #' data(Dinorah)
-#'
-#' str(Dinorah)
 #'
 #' xyplot(prod ~ cama | aplic, data = Dinorah,
 #'        groups = npk, type = c("p", "a"),

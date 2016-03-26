@@ -1,5 +1,5 @@
 #' @name BanzattoQd5.3.1
-#' @title Produção de café em função de adubação NPK
+#' @title Produção de Café em Função de Adubação NPK
 #' @description Resultados de um experimento em arranjo fatorial triplo
 #'     2 \eqn{\times} 2 \eqn{\times} 2, instalado em delineamento de
 #'     blocos casualizados, para estudar o efeito da combinação de
@@ -7,13 +7,13 @@
 #' @format Um \code{data.frame} com 48 observações e 5 variáveis.
 #' \describe{
 #'
-#' \item{\code{N}}{Variáveis númerica que indica ausência (0) ou
+#' \item{\code{N}}{Variável numérica que indica ausência (0) ou
 #'     presença (1) de nitrogênio.}
 #'
-#' \item{\code{P}}{Variáveis númerica que indica ausência (0) ou
+#' \item{\code{P}}{Variável numérica que indica ausência (0) ou
 #'     presença (1) de fósforo.}
 #'
-#' \item{\code{K}}{Variáveis númerica que indica ausência (0) ou
+#' \item{\code{K}}{Variável numérica que indica ausência (0) ou
 #'     presença (1) de potássio.}
 #'
 #' \item{\code{bloco}}{Fator de 6 níveis nominais, presente para
