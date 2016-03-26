@@ -1,14 +1,15 @@
 #' @name BanzattoQd5.2.4
-#' @title Efeito de recipientes para para duas espécies de Eucalipto
+#' @title Efeito de Recipientes para Duas Espécies de Eucalipto
 #' @description Experimento em esquema fatorial 3 \eqn{\times} 2 para
 #'     estudar o efeito de 3 tipos de recipientes para a produção de
 #'     mudas de duas espécies de Eucalipto. O experimento foi instalado
 #'     em delineamento inteiramente casualizado.
 #' @format Um \code{data.frame} com 24 observações e 4 variáveis, em que
+#'
 #' \describe{
 #'
 #' \item{\code{recipie}}{São os níveis de recipiente estudados: SPP -
-#'     saco plático pequeno, SPG - saco plástico grande e Lam -
+#'     saco plástico pequeno, SPG - saco plástico grande e Lam -
 #'     laminado.}
 #'
 #' \item{\code{especie}}{São as espécies de Eucalipto: \emph{Eucalyptus
