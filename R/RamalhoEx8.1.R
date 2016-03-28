@@ -1,0 +1,35 @@
+#' @name RamalhoEx8.1
+#' @title Produção de grãos de arroz
+#' @description Experimento da produção de grãos de arroz, conduzido em
+#'     três locais do Estado de Minas Gerais (Lambari, Lavras e 
+#'     Felixlândia). Delineamento em blocos casualizados.
+#' @format Um \code{data.frame} com 90 observações e 4 variáveis, em que
+#'
+#' \describe{
+#'
+#' \item{\code{cult}}{Fator de 10 níveis de cultivares de arroz.}
+#'
+#' \item{\code{local}}{Fator de 3 níveis nominais, municípios onde 
+#'     foi realizado o experimento.}
+#'
+#' \item{\code{rept}}{Fator de 3 níveis do experimento, usado para 
+#'     controle local.}
+#'
+#' \item{\code{prod}}{Produção de grãos de arroz, medido em kg/ha nas 
+#'     unidades experimentais.}
+#'
+#' }
+#' @keywords DBC
+#' @source Ramalho, M. A. P., Ferreira, D. F. & Oliveira, A. C. (2005).
+#'     Experimentação em Genética e Melhoramento de Plantas (2th ed.).
+#'     Lavras: UFLA. (pg 132)
+#' @examples
+#'
+#' aggregate(prod ~ local,  data = RamalhoEx8.1,
+#'           FUN = function(x) { c(mean = mean(x), var = var(x)) })
+#'
+#' boxplot(prod ~ cult, data = RamalhoEx8.1,
+#'      xlab = "Cultivar de arroz",
+#'      ylab = "Produção")
+#' 
+NULL
