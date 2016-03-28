@@ -21,7 +21,7 @@
 #' \item{\code{prod}}{Produção de arroz em kg/ha.}
 #'
 #' }
-#' @keywords FAT DBC
+#' @keywords DBC faixas
 #' @source Zimmermann, F. J. (2004). Estatística aplicada à pesquisa
 #'     agrícola (1st ed.). Santo Antônio de Goiás, GO: Embrapa Arroz e
 #'     Feijão. (pg 210)
