@@ -28,14 +28,17 @@ URL: http://gitlab.c3sl.ufpr.br/pet-estatistica/labestData
 BugReports: http://gitlab.c3sl.ufpr.br/pet-estatistica/labestData/issues
 LazyData: true
 Encoding: UTF-8
-Depends:
+Depends: 
     R (>= 3.2.3)
-Suggests:
+Suggests: 
     lattice,
+    latticeExtra,
+    reshape,
     ggplot2,
     car,
 	knitr,
 	rmarkdown,
-	shiny
+	shiny,
+    reshape2
 VignetteBuilder: knitr
 RoxygenNote: 5.0.1
