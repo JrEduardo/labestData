@@ -4,7 +4,7 @@
 #'     ano anterior em 3 grupos: (I) candidatos aprovados, 
 #'     (II) candidatos na lista de espera e (III) candidatos que não
 #'     foram aprovados. Para a nova seleção, os responsáveis pensam em
-#'     considerar a nota da prova de conhecimento técnico e a nota 
+#'     considerar a nota da prova de conhecimento específico e a nota 
 #'     atribuída ao histórico escolar.      
 #' @format Um \code{data.frame} com 62 observações e 4 variáveis, em que
 #' 
@@ -12,8 +12,8 @@
 #'
 #' \item{\code{cand}}{Número de identificação do candidato.}
 #'     
-#' \item{\code{grupo}}{Variável que indica separação de 3 grupos (I, II
-#'     e III) para o processo seletivo.}
+#' \item{\code{grupo}}{Grupo ao qual o candidato foi alocado, segundo 
+#'     seu desempenho no processo seletivo (I, II ou III).}
 #'     
 #' \item{\code{nota}}{Nota da prova de conhecimento específico da área
 #'     do programa.}
@@ -22,7 +22,7 @@
 #'     candidato.}
 #'     
 #' }
-#' @keywords TODO
+#' @keywords AnaDisc
 #' @source Mingoti, S.A. (2005). Análise de dados através de métodos de 
 #'     estatística multivariada - uma abordagem aplicada. 
 #'     Belo Horizonte, MG: Editora UFMG. (pg 234)
