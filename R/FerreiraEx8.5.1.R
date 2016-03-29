@@ -1,0 +1,50 @@
+#' @name FerreiraEx8.5.1
+#' @title Diâmetro à Altura do Peito e Altura de Árvores em Lavras, MG
+#' @description Resultados de um experimento inteiramente casualizado
+#'     com dez repetições, realizado no período de seca para avaliar o
+#'     diferenças entre diferentes transectos na altura e no diâmetro à
+#'     altura do peito (DAP) das árvores em uma área de recuperação às
+#'     margens de um rio na região de Lavras, MG.
+#' @format Um \code{data.frame} com 30 observações e 4 variáveis.
+#'
+#' \describe{
+#'
+#' \item{\code{trans}}{Fator nominal com 3 níveis que representa o
+#'     transecto (delimitação do terreno) avaliado.}
+#'
+#' \item{\code{rept}}{Inteiro que identifica as unidades experimentais
+#'     de cada transecto.}
+#'
+#' \item{\code{alt}}{Altura da árvore.}
+#'
+#' \item{\code{dap}}{Diâmetro à altura do peito, 1.30 metros.}
+#'
+#' }
+#' @keywords manova
+#' @source Ferreira, D. F. (2011). Estatística Multivariada (2nd
+#'     ed.). Lavras, MG: Editora UFLA. (Exercício 8.5.1 pág. 351)
+#'
+#' @examples
+#' data(FerreiraEx8.5.1)
+#'
+#' library(lattice)
+#' library(latticeExtra)
+#'
+#' p1 <- xyplot(alt ~ tran,
+#'              data = FerreiraEx8.5.1,
+#'              type = c("p", "smooth"))
+#' p2 <- xyplot(dap ~ tran,
+#'              data = FerreiraEx8.5.1,
+#'              type = c("p", "smooth"))
+#' doubleYScale(p1, p2, add.ylab2 = TRUE)
+#'
+#' xyplot(alt ~ dap,
+#'        groups = tran,
+#'        grid = TRUE,
+#'        auto.key = list(space = "right", title = "Transecto", cex = 0.8),
+#'        data = FerreiraEx8.5.1)
+#' 
+#' (m0 <- lm(cbind(dap, alt) ~ tran, data = FerreiraEx8.5.1))
+#' manova(m0)
+#' 
+NULL
