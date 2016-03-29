@@ -7,7 +7,7 @@
 #'     ao acaso com três repetições. Os níveis dos fatores eram de 0,5 e 10 
 #'     kg/ha para o zinco (A), 0, 50 e 100 kg/ha para o fósforo e 0, 1.5 e 3
 #'     ton/ha para o calcário. Utilizou-se o grupo Z de Yates. Os dados são de
-#'     produção de grãos, em kg/ha.  
+#'     produção de grãos, em kg ha\eqn{^{-1}}.  
 #' @format Um \code{data.frame} com 81 observações e 4 variáveis
 #'
 #' \describe{
@@ -21,7 +21,7 @@
 #' \item{\code{iden}}{Fator de níveis numéricos. É a identificação que 
 #'     representa o tratamento.}
 #'     
-#' \item{\code{prod}}{Produtividade de graos, em kg/ha.}
+#' \item{\code{prod}}{Produtividade de graos, em kg ha\eqn{^{-1}}.}
 #'
 #' @keywords DBC confundimento FAT
 #' @source Zimmermann, F. J. (2004). Estatística aplicada à pesquisa
