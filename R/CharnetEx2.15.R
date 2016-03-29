@@ -44,7 +44,7 @@
 #' 
 #' provadequimica <- qplot(cv, nq,
 #'         data = CharnetEx2.15,
-#'         color = per,
+#'         color = qp,
 #'         xlab = "Relação Candidatos Vaga",
 #'         ylab = "Notas na Prova de Química",
 #'         main = "Notas na Prova de Química x Candidatos Vaga")
