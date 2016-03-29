@@ -2,7 +2,7 @@
 #' @title Experimento fatorial com arroz
 #' @description Dados de um experimento fatorial \eqn{2^3}, com confundimento
 #'    de duas interações simples (A*B, B*C e A*C). Referem-se à produtividade 
-#'    de grãos, em kg/ha. O ensaio foi conduzido em dois blocos ao acaso 
+#'    de grãos, em kg ha\eqn{^{-1}}. O ensaio foi conduzido em 2 blocos ao acaso 
 #'    com quatro repetições. Os fatores são: densidades de plantio de 50 e 
 #'    90 sementes por metro, espaçamentos entre linhas de 35cm e 50cm e 
 #'    fator presença ou ausência de adubação nitrogenada em cobertura. 
@@ -19,7 +19,7 @@
 #' \item{\code{iden}}{Fator de níveis numéricos. É a identificação que 
 #'     representa o tratamento.}
 #'     
-#' \item{\code{prod}}{Produção de arroz, em kg/ha.}
+#' \item{\code{prod}}{Produção de arroz, em kg ha\eqn{^{-1}}.}
 #'
 #' @keywords DBC confundimento
 #' @source Zimmermann, F. J. (2004). Estatística aplicada à pesquisa
