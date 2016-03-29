@@ -1,0 +1,54 @@
+#' @name CharnetEx2.15
+#' 
+#' @title Notas Médias de Candidatos ao Vestibular
+#' 
+#' @description Notas médias de candidatos ao vestibular da Unicamp em 
+#'     1998.
+#'
+#' @format Um \code{data.frame} com 9 colunas e 46 linhas.
+#'
+#' \describe{
+#'
+#' \item{\code{curso}}{Cursos ofertados no Vestibular.}
+#'
+#' \item{\code{per}}{Período ofertado (Diurno / Noturno)}
+#' 
+#' \item{\code{cv}}{Relação Candidato/Vaga do curso.}
+#' 
+#' \item{\code{nq}}{Nota média nas provas de Química.}
+#' 
+#' \item{\code{qp}}{Disciplina Prioritária no curso (Química).}
+#' 
+#' \item{\code{nm}}{Nota média nas provas de Matemática.}
+#' 
+#' \item{\code{mp}}{Disciplina Prioritária no curso (Matemática).}
+#' 
+#' \item{\code{nh}}{Nota média nas provas de História.}
+#' 
+#' \item{\code{hp}}{Disciplina Prioritária no curso (História).}
+#' 
+#' }
+#'
+#' @keywords TODO
+#'
+#' @source Charnet, R., de Luna Freire, C.A., Charnet, E.M.R. & Bonvino,
+#'     H. (2008). Análise de modelos de regressão linear com aplicações
+#'     (2nd ed., p. 356). SP: Editora Unicamp (Capítulo 2, exercício 15,
+#'     página 50)
+#'
+#' @examples
+#'
+#' data(CharnetEx2.15)
+#'
+#' library(ggplot2)
+#' 
+#' provadequimica <- qplot(cv, nq,
+#'         data = CharnetEx2.15,
+#'         color = per,
+#'         xlab = "Relação Candidatos Vaga",
+#'         ylab = "Notas na Prova de Química",
+#'         main = "Notas na Prova de Química x Candidatos Vaga")
+#'
+#' provadequimica + geom_abline(intercept = 0, slope = 1)
+#' 
+NULL
