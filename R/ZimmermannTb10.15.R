@@ -18,7 +18,7 @@
 #' \item{\code{adub}}{Fator de níveis numéricos. Identifica a adubação 
 #'     aplicada.}
 #'
-#' \item{\code{prod}}{Produção de arroz em kg/ha.}
+#' \item{\code{prod}}{Produção de arroz em kg ha\eqn{^{-1}}.}
 #'
 #' }
 #' @keywords DBC faixas
