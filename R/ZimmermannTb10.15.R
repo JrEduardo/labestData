@@ -4,7 +4,7 @@
 #'     para testar o efeito da aplicação de adubos em arroz após pastagem, 
 #'     no qual foram utilizadas três cultivares. Nesta tabela constam os 
 #'     dados de duas dessas cultivares, sendo eles de produção de arroz 
-#'     em kg/ha. 
+#'     em kg ha\eqn{^{-1}}. 
 #' @format Um \code{data.frame} com 24 observações e 4 variáveis
 #'
 #' \describe{
