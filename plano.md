@@ -420,58 +420,71 @@ devidamente incluídos, documentados e revisados. Abaixo a contagem de
 <table>
 <thead>
 <tr class="header">
-<th align="left">datas</th>
-<th align="center">datasets</th>
+<th align="left">Livros</th>
+<th align="center">Número de datasets</th>
+<th align="center">Número de observações</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td align="left">Banzatto</td>
 <td align="center">12</td>
+<td align="center">1296</td>
 </tr>
 <tr class="even">
 <td align="left">Charnet</td>
 <td align="center">10</td>
+<td align="center">1575</td>
 </tr>
 <tr class="odd">
 <td align="left">Costa</td>
 <td align="center">2</td>
+<td align="center">132</td>
 </tr>
 <tr class="even">
 <td align="left">Demetrio</td>
 <td align="center">18</td>
+<td align="center">801</td>
 </tr>
 <tr class="odd">
 <td align="left">Dias</td>
 <td align="center">2</td>
+<td align="center">143</td>
 </tr>
 <tr class="even">
 <td align="left">Dinorah</td>
 <td align="center">1</td>
+<td align="center">660</td>
 </tr>
 <tr class="odd">
 <td align="left">Ferreira</td>
 <td align="center">7</td>
+<td align="center">533</td>
 </tr>
 <tr class="even">
 <td align="left">Manly</td>
 <td align="center">1</td>
+<td align="center">294</td>
 </tr>
 <tr class="odd">
 <td align="left">Mingoti</td>
 <td align="center">8</td>
+<td align="center">2150</td>
 </tr>
 <tr class="even">
 <td align="left">Pimentel</td>
 <td align="center">7</td>
+<td align="center">422</td>
 </tr>
 <tr class="odd">
 <td align="left">Ramalho</td>
 <td align="center">10</td>
+<td align="center">1194</td>
 </tr>
 <tr class="even">
 <td align="left">Zimmermann</td>
 <td align="center">16</td>
+<td align="center">5107</td>
 </tr>
 </tbody>
 </table>
