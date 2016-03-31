@@ -2,7 +2,7 @@
 % Please edit documentation in R/BanzattoQd5.2.1.R
 \name{BanzattoQd5.2.1}
 \alias{BanzattoQd5.2.1}
-\title{Peneira e densidade de plantio na produção de amendoim}
+\title{Peneira e Densidade de Plantio na Produção de Amendoim}
 \format{Um \code{data.frame} com 27 observações e 4 variáveis, em que
 
 \describe{
@@ -10,10 +10,10 @@
 \item{\code{densid}}{Densidade de plantio expresso em número de
     plantas por metro linear de cultivo.}
 
-\item{\code{peneira}}{Diâmetro dos crivos cículares da peneira usada
+\item{\code{peneira}}{Diâmetro dos crivos circulares da peneira usada
     para classificar as sementes (18/64, 20/64 e 22/64 polegadas).}
 
-\item{\code{bloco}}{Fator considerado para garatir controle local.}
+\item{\code{bloco}}{Fator considerado para garantir controle local.}
 
 \item{\code{prod}}{Produção média de amendoim em vagens (g) por
     planta.}
@@ -53,7 +53,7 @@ addmargins(with(BanzattoQd5.2.1,
 xyplot(prod ~ densid, data = BanzattoQd5.2.1,
        groups = peneira, type = c("p", "a"),
        auto.key = list(title = "Peneira", cex.title = 1,
-                       columns = 1, corner = c(0.95, 0.95)),
+                       columns = 1, corner = c(0.05, 0.95)),
        xlab = "Densidade de plantio (plantas/metro linear)",
        ylab = "Produção média de amendoim em vagem (g/planta)")
 

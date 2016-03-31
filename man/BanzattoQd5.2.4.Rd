@@ -2,12 +2,13 @@
 % Please edit documentation in R/BanzattoQd5.2.4.R
 \name{BanzattoQd5.2.4}
 \alias{BanzattoQd5.2.4}
-\title{Efeito de recipientes para para duas espécies de Eucalipto}
+\title{Efeito de Recipientes para Duas Espécies de Eucalipto}
 \format{Um \code{data.frame} com 24 observações e 4 variáveis, em que
+
 \describe{
 
 \item{\code{recipie}}{São os níveis de recipiente estudados: SPP -
-    saco plático pequeno, SPG - saco plástico grande e Lam -
+    saco plástico pequeno, SPG - saco plástico grande e Lam -
     laminado.}
 
 \item{\code{especie}}{São as espécies de Eucalipto: \emph{Eucalyptus
