@@ -1,6 +1,6 @@
-% Guia de Estilo R - LEG/PET UFPR
-% Walmes Zeviani, Fernando Mayer & Eduardo Jr.
-% 01/2016
+# Guia de Estilo R #
+
+Walmes Zeviani, Fernando Mayer & Eduardo Jr
 
 ****
 
@@ -10,20 +10,68 @@
 
 >> -- Paul E. Johnson, R Style. An Rchaeological Commentary.
 
-<!--
-<https://cran.r-project.org/web/packages/rockchalk/vignettes/Rstyle.pdf>
-<https://google.github.io/styleguide/Rguide.xml>
-<http://web.stanford.edu/class/cs109l/unrestricted/resources/google-style.html>
-<http://adv-r.had.co.nz/Style.html>
-<http://r-research-tool.schwilk.org/handouts/style-guide.html>
-<https://github.com/rdatsci/PackagesInfo/wiki/R-Style-Guide>
-<http://static.googleusercontent.com/media/research.google.com/pt-BR//pubs/archive/42577.pdf>
-<http://ess.r-project.org/>
--->
+<!-- markdown-toc start - Don't edit this section. Run M-x markdown-toc-generate-toc again -->
+**Table of Contents**
 
+- [Guia de Estilo R](#guia-de-estilo-r)
+    - [Nomes de arquivos](#nomes-de-arquivos)
+    - [Nomes de objetos](#nomes-de-objetos)
+        - [Contadores](#contadores)
+        - [Matrizes](#matrizes)
+    - [Atribuição](#atribuio)
+    - [Indentação](#indentao)
+    - [Operadores](#operadores)
+    - [Alinhamento vertical de referência (nos operadores)](#alinhamento-vertical-de-referncia-nos-operadores)
+    - [Vírgulas](#vrgulas)
+    - [Lagura de texto](#lagura-de-texto)
+    - [Quebras de linha](#quebras-de-linha)
+    - [Comentários](#comentrios)
+    - [Divisões de código](#divises-de-cdigo)
+    - [Linhas em branco](#linhas-em-branco)
+    - [Aspas](#aspas)
+    - [Chaves](#chaves)
+    - [Colchetes](#colchetes)
+    - [Parênteses](#parnteses)
+    - [Ponto e vírgula](#ponto-e-vrgula)
+    - [Documentação de funções na função](#documentao-de-funes-na-funo)
+    - [Carregando pacotes](#carregando-pacotes)
+
+<!-- markdown-toc end -->
+
+Um Guia de Estilo de Código é um conjunto de recomendações (ou regras)
+para padronizar a forma de escrever código.  Códigos que são escritos
+seguindo um estilo padrão são mais fáceis de manter, modificar e
+garantir que estão corretamente escritos e funcionais, principalmente
+quando muitos programadores estão envolvidos.
+
+Quase todas as linguagem de programação permitem que os usuários adotem
+diferentes padrões de escrita de código.  Algumas não diferenciam
+maiúsculas e outras não exigem indentação, por exemplo. Em função de
+simplicidade, comodismo ou inércia na hora de escrever ou por causa de
+características da linguagem ou do editor usado, os usuários quase
+sempre tem um padrão particular para escrita de código.
+
+Esse é um Guia de Estilo Código estabele as convenções a serem seguidas
+para escrita de código R. Esse documento é baseado na consulta à varias
+fontes e deliberações próprias em alguns casos. A lista das principais
+fontes na qual esse Guia é baseado está abaixo.
+
+  * Guia de Estilo por [Hadley Wickham]:
+    <http://adv-r.had.co.nz/Style.html>.
+  * Guia de Estilo do Google:
+    <https://google.github.io/styleguide/Rguide.xml>.
+  * Guia de Estilo por
+    [Dylan Schwilk](http://www.depts.ttu.edu/biology/people/faculty/schwilk/)
+    <http://r-research-tool.schwilk.org/handouts/style-guide.html>.
+  * Guia de Estilo do R Data Science:
+    <https://github.com/rdatsci/PackagesInfo/wiki/R-Style-Guide>.
+  * Nota de Paul Johnson estilo de escrita de código:
+    <https://cran.r-project.org/web/packages/rockchalk/vignettes/Rstyle.pdf>.
+
+****
 ## Nomes de arquivos ##
 
-Nomes de arquivos R dever ter o sulfixo maiúsculo.
+Nomes de arquivos R devem ter o sulfixo maiúsculo.
 
 ```
 # Bom.
@@ -35,10 +83,10 @@ script.r
 
 No entanto, o nome do arquivo não pode ser vago como `script` -- que é
 algo óbvio. Use nomes com significado. Se for preciso, use um nome
-composto, mas não use espaços nos nomes (nem para diretórios). Dê
-preferência para o *undescore* como separador, já que ponto separa a
-extensão do nome e traço é separador de palavras compostas
-(guarda-chuva, super-homem, ex-aluno).
+composto, mas não use espaços nos nomes (nem para diretórios). Isso
+evita um tanto de problemas de `path`. Dê preferência para o *undescore*
+como separador, já que ponto separa a extensão do nome e traço é
+separador de palavras compostas (guarda-chuva, super-homem, ex-aluno).
 
 ```
 # Bom.
@@ -55,7 +103,7 @@ maiúsculo também, além de nomes não vagos ou óbvios.
 
 Se em um conjunto de arquivos houver relação sequêncial entre eles,
 destaque isso no nome. Por exemplo, componha nomes com números
-antecedidos de mesmo prefixo.
+precedidos do mesmo nome.
 
 ```
 # Bom.
@@ -66,38 +114,40 @@ cap1_introducao.Rmd, cap2_exploratoria.Rmd, ..., cap5_conclusoes.Rmd
 A vantagem de colocar um prefixo numerado é que os arquivos são exibidos
 em sequência no seu navegador de arquivos quando a ordenação for
 alfabética. Mas lembre-se que a ordenação é léxica e por isso `cap23*`
-aparece antes de `cap4*`. Evite usando `cap04`.
+aparece antes de `cap4*`. Evite usando zeros à esqueda, `cap04`.
 
 ## Nomes de objetos ##
 
 Nomes de objetos devem ter um bom compromisso entre significado e
-praticidade. Ou seja, não deve ser curto ao ponto de perder significado
-nem longo ao ponto de demorar para escrever. Quanto maior um nome, mais
-erramos ao escrevê-lo. Principalmente quando contém acentos, certo?
-Portanto, evite nomes que levem acentos (âãàáçêéíôõóú).
+praticidade (ou digitabilidade). Ou seja, não deve ser curto ao ponto de
+perder significado nem longo ao ponto de demorar para escrever. Quanto
+maior um nome, mais erramos ao escrevê-lo. Principalmente quando contém
+acentos, certo?  Portanto, evite nomes que levem acentos (âãàáçêéíôõóú).
 
 Dependendo da classe e da quantidade de objetos na sua sessão
 ou pacote, você pode ser mais ou menos verboso (usar nomes maiores ou
-menores) na hora de defini-los.
+menores) na hora de defini-los para devidamente distingui-los.
 
 Existem 3 estilos predominantes para escrita de nomes de objetos:
 
   * *dot.case*: é o estilo que usa o separador como ponto. Foi o
-  primeiro a usado no R e inclusive incentivado. Tem-se várias funções
-  com esse padrão no R (todas as `read.`, `as.`, `is.`). A mais notáveis
-  são sa funções método nas quais o ponto separa o nome da a função
-  genérica da classe o objeto que ela recebe. Por exemplo, `anova.lm` é
-  a função que retorna o quadro de ANOVA para objetos da classe
-  `lm`. Nesse caso o ponto tem função além da estética e não pode ser
-  substituído por nada.
+    primeiro a usado no R e inclusive incentivado por algum tempo. Uma
+    prova disse são as várias funções com esse padrão no R (todas as
+    `read.`, `as.`, `is.`, por exemplo). A mais notáveis são sa funções
+    método nas quais o ponto separa o nome da a função genérica da
+    classe o objeto que ela recebe. Por exemplo, `anova.lm` é a função
+    que retorna o quadro de ANOVA para objetos da classe `lm`. Nesse
+    caso o ponto tem função além da estética e não pode ser substituído
+    por nada.
   * *snake_case*: é o estilo que usa o *underscore* como separador. O
-  pacote [devtools], do Hadley Wickham, usa esse padrão. No pacote
-  [mcglm] esse estilo também foi adotado integralmente. Muitos
-  consideram um custo digitar o *underscore* ao passo que outros
-  argumentam que facilita a leitura.
+    pacote [devtools], do [Hadley Wickham], usa esse padrão. No pacote
+    [mcglm] esse estilo também foi adotado integralmente. Muitos
+    consideram um custo digitar o *underscore* (combina teclas) ao passo
+    que outros argumentam que facilita a leitura (pois é um traço
+    rasteiro sem altura).
   * *camelCase*: é o estilo que usa letras maiúsculas para as iniciais
-  das palavras com exceção da primeira delas. O pacote [car], do John
-  Fox, usa esse estilo.
+    das palavras, com exceção da palavra inicial. O pacote [car], do
+    [John Fox], usa esse estilo.
 
 Uma quarto estilo é o *PascalCase* que difere do *camelCase* porque
 todas as iniciais são maiúsculas. A mesma função teria os seguintes
@@ -110,7 +160,7 @@ reserva do ponto é para as funções método, assim, para objetos não
 existe problema.
 
 O importante é que você seja consistente, assuma e mantenha o mesmo
-estilo em todo seu pacote ou scritps. Um exemplo de projeto aberto em
+estilo em todo seu pacote ou *scripts*. Um exemplo de projeto aberto em
 que todos seguem o padrão é no Emacs, onde todos os objetos usam o
 *dot-case*.
 
@@ -128,10 +178,10 @@ interessante também porque é comum o contador do *loop* ser usado para
 selecionar frações dos objetos (elementos, linhas, colunas, etc), dentro
 dos colchetes simples ou duplos, deixando o código mais claro.
 
-```{r, eval=FALSE}
+```r
 x <- 1:10
 for (i in 1:length(x)) {
-    x[i] <- sum(x[1:i])+i
+    x[i] <- sum(x[1:i]) + i
 }
 ```
 
@@ -149,9 +199,9 @@ matrizes e sair do R (*quit*) e as últimas são abreviações de `TRUE` e
 ## Atribuição ##
 
 Faça atribuição de objetos com o sinal de atribuir (`<-`) e não com o
-igual. Deixe espaço cercar o operador.
+de igual. Deixe espaço cercar o operador.
 
-```{r, eval=FALSE}
+```r
 # Bom.
 x <- 1:10
 notas <- data.frame(aluno, freq, nota)
@@ -177,7 +227,7 @@ notas <- c(Carlos = 95, Lucas = 89, Pedro = 77, "Antônio Augusto" = 60)
 ## Indentação ##
 
 A indentação é um dos requisitos fundamentais de estilo de código. É
-praticamente impossível compreender um código se ele não estiver
+desperdício de tempo tentar compreender um código que não está
 devidamente indentado. Todo editor de texto voltado para programação tem
 recursos de indentação.
 
@@ -186,7 +236,7 @@ com tabulação de 2 espaços, que é inclusive a opção *default* do
 [RStudio].  Programadores argumentam que a indentação com 2 espaços
 impõe pouca evidência da hierarquia do código, principalmente para
 fontes de texto que sejam finas. Além disso, 4 espaços é equivalente a
-uma tabulação (que não devem ser usadas).  Para mudar o número de
+uma tabulação (que não devem se usada).  Para mudar o número de
 tabulações do [RStudio], vá em `Tools > Global options > Code > Editing`
 e em `Tab width` use 4. O [Emacs] usa 4 espaços por *default*.
 
@@ -655,8 +705,10 @@ retorna *FALSE* se não conseguir enquanto que `library()` retorna
 [ESS]: http://ess.r-project.org/Manual/ess.html
 [RStudio]: https://www.rstudio.com/
 [Emacs]: https://www.gnu.org/software/emacs/
-[mcglm]: http://git.leg.ufpr.br/wbonat/mcglm
+[mcglm]: https://github.com/wbonat/mcglm
 [car]: http://www.rdocumentation.org/packages/car
 [devtools]: http://www.rdocumentation.org/packages/devtools
 [estilos de emprego de chaves]: https://en.wikipedia.org/wiki/Indent_style
 [Yihui Xie]: http://yihui.name/en/2014/07/library-vs-require/
+[Hadley Wickham]: http://hadley.nz/
+[John Fox]: http://socserv.mcmaster.ca/jfox/
