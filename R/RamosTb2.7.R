@@ -1,7 +1,7 @@
 #' @name RamosTb2.7
 #' @title Processo de fundição de magnésio
 #' @description Dados referente a um processo de fundição
-#'     de magnésio, onde a resposta é a recuperação do mental 
+#'     de magnésio, onde a resposta é a recuperação do metal 
 #'     e aos valores do fluxo de regeneração adicionada.
 #'
 #' @format Um \code{data.frame} com 7 observações e 3 variáveis, em que
@@ -16,7 +16,7 @@
 #' \item{\code{recupe}}{Recuperação do metal.}
 #'
 #' }
-#' @keywords TODO
+#' @keywords CEQ
 #' @source Ramos, E. M. L. S., et al.(2013). 
 #'     Controle Estatístico da Qualidade (1th ed.). 
 #'     Porto Alegre, RS: Bookman. (pg 30).
