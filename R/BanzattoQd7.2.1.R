@@ -1,0 +1,41 @@
+#' @name BanzattoQd7.2.1
+#' @title Efeito do Gesso no Peso de Grãos de Feijão
+#' @description Estudo sobre o efeito do gesso no peso de grãos de
+#'     feijão (\emph{Phaseolus vulgaris} L.) feito por Ragazzi (1979). O
+#'     experimento foi instalado de delineamento inteiramente
+#'     casualizado e foram estudados 7 níveis de gesso, de 0 a 300,
+#'     igualmente espaçados em 50 kg ha\eqn{^{-1}}.
+#' @format Um \code{data.frame} com 28 observações e 3 variáveis.
+#'
+#' \describe{
+#'
+#' \item{\code{gesso}}{Níveis de gesso aplicados, em kg ha\eqn{^{-1}}}.
+#'
+#' \item{\code{rept}}{Identifica as repetições de cada dose de gesso.}
+#'
+#' \item{\code{peso}}{Peso de 1000 sementes de feijão, em gramas.}
+#'
+#' }
+#' @keywords DIC
+#' @source Banzatto, D. A., Kronka, S. D. (2013). Experimentação
+#'     Agrícola (4th ed.). Jaboticabal, SP: Funep. (Quadro 7.2.1,
+#'     pág. 170)
+#'
+#' Ragazzi, D. (1979). Efeito de doses de gesso na cultura do feijoeiro
+#'     (\emph{Phaseolus vulgaris} L.). Trabalho de Conclusão de Curso
+#'     (Graduação em Agronomia). Faculdade de Ciências Agrárias e
+#'     Veterinárias, Universidade Estadual Paulista, Jaboticabal.
+#' @examples
+#'
+#' library(lattice)
+#'
+#' data(BanzattoQd7.2.1)
+#'
+#' str(BanzattoQd7.2.1)
+#'
+#' xyplot(peso ~ gesso, data = BanzattoQd7.2.1,
+#'        type = c("p", "smooth", "g"),
+#'        xlab = expression("Dose de gesso"~(kg~ha^{-1})),
+#'        ylab = expression("Pesso de 1000 sementes"~(g)))
+#'
+NULL
