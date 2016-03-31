@@ -1,19 +1,18 @@
 #' @name EpprechtTb2.2
-#' @title Dados referentes à quantidade de leite
-#' @description Dados referentes à variável X que representa o volume de
-#'     leite presente em um pacote, sendo ideal que em cada pacote 
-#'     houvesse exatamente 1000 ml de leite. Os dados foram extraídos 
-#'     após uma alteração da pressão de operação, sendo assim, são dados 
-#'     que sofrem causas especiais.
+#' @title Volumes em embalagens de leite
+#' @description Dados referentes aos volumes verificados de 
+#'     leite em 100 embalagens de 1000 ml. Os dados foram extraídos 
+#'     após uma alteração da pressão de operação, configurando uma causa especial
+#'     de variação.
 #' 
 #' @format Um \code{data.frame} com 100 observações e 2 variáveis, 
 #'     em que
 #' 
 #' \describe{
 #'
-#' \item{\code{id}}{Identificação do pacote.}
+#' \item{\code{id}}{Identificação da embalagem.}
 #' 
-#' \item{\code{X}}{Volume de leite presente no pacote (ml).}
+#' \item{\code{X}}{Volume de leite presente na embalagem (ml).}
 #' 
 #' 
 #' }
@@ -27,6 +26,6 @@
 #'
 #' data(EpprechtTb2.2) 
 #' 
-#' hist(EpprechtTb2.2$x)
+#' hist(EpprechtTb2.2$x, xlab="Volume (ml)", ylab="Frequência", main="")
 #'                   
 NULL
