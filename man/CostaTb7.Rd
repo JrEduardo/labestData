@@ -11,7 +11,7 @@
     cultivares de cana-de-açúcar.}
 
 \item{\code{inocu}}{Fator de níveis nominais que representa os
-    inoculantes aplicados. Possivelmente são inoculos de bactérias
+    inoculantes aplicados. Possivelmente são inóculos de bactérias
     para fixação de nitrogênio.}
 
 \item{\code{bloco}}{Fator de níveis nominais que são os blocos do

@@ -1,9 +1,9 @@
 #' @name BanzattoQd6.3.4
 #' @title Épocas de Plantio e Colheita na Produção de Beterraba
 #' @description Experimento estudar o efeito de datas de plantio, épocas
-#'     de colheita e aplicação de inseticidas na producação de
+#'     de colheita e aplicação de inseticidas na produção de
 #'     beterraba. Os tratamentos foi arranjados em parcelas
-#'     subsubdivididas no delineamento de blocos casualizados.
+#'     sub-subdivididas no delineamento de blocos casualizados.
 #' @format Um \code{data.frame} com 72 observações e 5 variáveis.
 #'     \describe{
 #'
@@ -17,7 +17,7 @@
 #'
 #' \item{\code{epoc}}{Fator de níveis ordinais que representa a época de
 #'     colheita das beterrabas. Esse fator foi casualizado nas
-#'     subsubparcelas.}
+#'     sub-subparcelas.}
 #'
 #' \item{\code{bloco}}{Fator de níveis nominais que presenta os blocos
 #'     do experimento.}

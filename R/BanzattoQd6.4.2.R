@@ -3,7 +3,7 @@
 #' @description Experimento em delineamento de blocos casualizados cujos
 #'     níveis dos fatores, época de plantio e nitrogênio, foram
 #'     casualizados em faixas. A variável reposta observada foi a
-#'     producação de beterraba.
+#'     produção de beterraba.
 #' @format Um \code{data.frame} com 80 observações e 4 variáveis.
 #'     \describe{
 #'
@@ -13,15 +13,15 @@
 #' \item{\code{epoca}}{Fator de níveis ordinais que representa as épocas
 #'     de plantio de beterraba.}
 #'
-#' \item{\code{bloco}}{Fator de níveis nominais que indentifica os
+#' \item{\code{bloco}}{Fator de níveis nominais que identifica os
 #'     blocos do experimento.}
 #'
-#' \item{\code{prod}}{Producação de beterraba, em toneladas por acre.}
+#' \item{\code{prod}}{Produção de beterraba, em toneladas por acre.}
 #'
 #' }
 #'
 #' Na figura abaixo, tem-se a organização dos 4 blocos, bem como dos
-#'     níveis de época de plantio e notrogênio em cada um deles. No
+#'     níveis de época de plantio e nitrogênio em cada um deles. No
 #'     bloco 1 (B1), a faixa em cinza claro horizontal indica a unidade
 #'     experimental da época 4 (E4) e a faixa cinza escuro vertical a
 #'     unidade experimental para o nível de nitrogênio 80 (N 80). A
