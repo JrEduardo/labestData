@@ -15,13 +15,13 @@
 #'    
 #' \item{\code{bloco}}{Fator de níveis numéricos. Identifica o bloco da 
 #'     repetição.}
-#'
-#' \item{\code{iden}}{Fator de níveis numéricos. É a identificação que 
-#'     representa o tratamento.}
 #'     
 #' \item{\code{prod}}{Produção de arroz, em kg ha\eqn{^{-1}}.}
 #'
-#' @keywords DBC confundimento
+#' \item{\code{iden}}{Fator de níveis numéricos. É a identificação que 
+#'     representa o tratamento.}
+#'
+#' @keywords DBC FAT
 #' @source Zimmermann, F. J. (2004). Estatística aplicada à pesquisa
 #'     agrícola (1st ed.). Santo Antônio de Goiás, GO: Embrapa Arroz e
 #'     Feijão. (pg 221)
@@ -31,18 +31,17 @@
 #'
 #' data(ZimmermannTb11.1)
 #'
-#' aggregate(prod ~ rept, data = ZimmermannTb11.1, 
+#' str(ZimmermannTb11.1)
+#'
+#' aggregate(prod ~ bloco, data = ZimmermannTb11.1, 
 #'           FUN = function(x) { c(mean = mean(x), var = var(x)) })
 #' 
 #' aggregate(prod ~ iden, data = ZimmermannTb11.1, 
 #'           FUN = function(x) { c(mean = mean(x), var = var(x)) })
 #' 
-#' xyplot(prod ~ iden + rept, groups = bloco, data = ZimmermannTb11.1, 
-#'        type=c("p","a"),
-#'        xlab="Fatores", ylab="Produção de Arroz", 
-#'        main="Análise de um fatorial com confundimento")
+#' xyplot(prod ~ iden | rept, groups = bloco, data = ZimmermannTb11.1, 
+#'        type = c("p","a"),
+#'        xlab = "Identificação do Tratamento", 
+#'        ylab= expression ("Produção de Arroz"~(kg~ha^{-1})))
 #'        
-#' with(ZimmermannTb11.1, interaction.plot(bloco, rept, prod, lty = c(2,3), 
-#'                                         col = 4:7, ylab = "Produção de Arroz",
-#'                                         xlab = "Bloco"))
 NULL
