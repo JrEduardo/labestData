@@ -46,7 +46,7 @@ representa que o trabalho foi REALIZADO e :x: o NÃO REALIZADO.
 <td align="center">:white_check_mark: / MR!12</td>
 <td align="center">:white_check_mark: / MR!13</td>
 <td align="center">:white_check_mark: / MR!25</td>
-<td align="center">. / .</td>
+<td align="center">:x: / -</td>
 <td align="center">. / .</td>
 <td align="center">. / .</td>
 <td align="center">. / .</td>
@@ -60,7 +60,7 @@ representa que o trabalho foi REALIZADO e :x: o NÃO REALIZADO.
 <td align="center">:white_check_mark: / MR!8</td>
 <td align="center">:x: / -</td>
 <td align="center">:x: / -</td>
-<td align="center">. / .</td>
+<td align="center">:x: / -</td>
 <td align="center">. / .</td>
 <td align="center">. / .</td>
 <td align="center">. / .</td>
@@ -74,7 +74,7 @@ representa que o trabalho foi REALIZADO e :x: o NÃO REALIZADO.
 <td align="center">:white_check_mark: / MR!2</td>
 <td align="center">:white_check_mark: / MR!15</td>
 <td align="center">:white_check_mark: / MR!23</td>
-<td align="center">. / .</td>
+<td align="center">:white_check_mark: / MR!30</td>
 <td align="center">. / .</td>
 <td align="center">. / .</td>
 <td align="center">. / .</td>
@@ -88,7 +88,7 @@ representa que o trabalho foi REALIZADO e :x: o NÃO REALIZADO.
 <td align="center">:white_check_mark: / MR!10</td>
 <td align="center">:white_check_mark: / MR!11</td>
 <td align="center">:white_check_mark: / MR!17</td>
-<td align="center">. / .</td>
+<td align="center">:white_check_mark: / MR!32</td>
 <td align="center">. / .</td>
 <td align="center">. / .</td>
 <td align="center">. / .</td>
@@ -102,7 +102,7 @@ representa que o trabalho foi REALIZADO e :x: o NÃO REALIZADO.
 <td align="center">:white_check_mark: / MR!3</td>
 <td align="center">:white_check_mark: / MR!22</td>
 <td align="center">:x: / -</td>
-<td align="center">. / .</td>
+<td align="center">:x: / -</td>
 <td align="center">. / .</td>
 <td align="center">. / .</td>
 <td align="center">. / .</td>
@@ -116,7 +116,7 @@ representa que o trabalho foi REALIZADO e :x: o NÃO REALIZADO.
 <td align="center">:white_check_mark: / MR!9</td>
 <td align="center">:white_check_mark: / MR!27</td>
 <td align="center">:x: / -</td>
-<td align="center">. / .</td>
+<td align="center">:white_check_mark: / MR!31</td>
 <td align="center">. / .</td>
 <td align="center">. / .</td>
 <td align="center">. / .</td>
@@ -130,7 +130,7 @@ representa que o trabalho foi REALIZADO e :x: o NÃO REALIZADO.
 <td align="center">:white_check_mark: / MR!7</td>
 <td align="center">:white_check_mark: / MR!14</td>
 <td align="center">:white_check_mark: / MR!21</td>
-<td align="center">. / .</td>
+<td align="center">:white_check_mark: / MR!35</td>
 <td align="center">. / .</td>
 <td align="center">. / .</td>
 <td align="center">. / .</td>
@@ -144,7 +144,7 @@ representa que o trabalho foi REALIZADO e :x: o NÃO REALIZADO.
 <td align="center">:white_check_mark: / MR!5</td>
 <td align="center">:white_check_mark: / MR!19</td>
 <td align="center">:x: / -</td>
-<td align="center">. / .</td>
+<td align="center">:x: / -</td>
 <td align="center">. / .</td>
 <td align="center">. / .</td>
 <td align="center">. / .</td>
@@ -158,7 +158,7 @@ representa que o trabalho foi REALIZADO e :x: o NÃO REALIZADO.
 <td align="center">:white_check_mark: / MR!4</td>
 <td align="center">:white_check_mark: / MR!16</td>
 <td align="center">:white_check_mark: / MR!26</td>
-<td align="center">. / .</td>
+<td align="center">:white_check_mark: / MR!29</td>
 <td align="center">. / .</td>
 <td align="center">. / .</td>
 <td align="center">. / .</td>
@@ -172,7 +172,7 @@ representa que o trabalho foi REALIZADO e :x: o NÃO REALIZADO.
 <td align="center">:x: / -</td>
 <td align="center">:x: / -</td>
 <td align="center">:x: / -</td>
-<td align="center">. / .</td>
+<td align="center">:x: / -</td>
 <td align="center">. / .</td>
 <td align="center">. / .</td>
 <td align="center">. / .</td>
@@ -186,7 +186,7 @@ representa que o trabalho foi REALIZADO e :x: o NÃO REALIZADO.
 <td align="center">:white_check_mark: / MR!6</td>
 <td align="center">:white_check_mark: / MR!20</td>
 <td align="center">:white_check_mark: / MR!24</td>
-<td align="center">. / .</td>
+<td align="center">:white_check_mark: / MR!33</td>
 <td align="center">. / .</td>
 <td align="center">. / .</td>
 <td align="center">. / .</td>
@@ -200,7 +200,7 @@ representa que o trabalho foi REALIZADO e :x: o NÃO REALIZADO.
 <td align="center">:white_check_mark: / MR!1</td>
 <td align="center">:white_check_mark: / MR!18</td>
 <td align="center">:white_check_mark: / MR!28</td>
-<td align="center">. / .</td>
+<td align="center">:white_check_mark: / MR!34</td>
 <td align="center">. / .</td>
 <td align="center">. / .</td>
 <td align="center">. / .</td>
@@ -214,7 +214,7 @@ representa que o trabalho foi REALIZADO e :x: o NÃO REALIZADO.
 <td align="center">-</td>
 <td align="center">-</td>
 <td align="center">-</td>
-<td align="center">. / .</td>
+<td align="center">-</td>
 <td align="center">. / .</td>
 <td align="center">. / .</td>
 <td align="center">. / .</td>
@@ -241,27 +241,68 @@ indicado:
 <!-- atividades. As atividades seguem a ordem da data mais recente para a -->
 <!-- mais antiga. -->
 <!--------------------------------------------- -->
-<!-- 10. **Semana 10 - (10/05 - 17/05)** -->
-    <!-- + **Alcides Conte Neto** -->
-    <!-- + **Altamiro Antonio Basiewics** -->
-    <!-- + **Angela Luiza Cunha Legey** -->
-    <!-- + **Bruna Davies Wundervald** -->
-    <!-- + **Bruno Geronymo** -->
-    <!-- + **Daniel Ikenaga** -->
-    <!-- + **Eduardo Elias Ribeiro Junior** -->
-    <!-- + **Gabriel Sartori Klostermann** -->
-    <!-- + **Jhenifer Caetano Veloso** -->
-    <!-- + **Monica Ludmila Hintz De Oliveira** -->
-    <!-- + **Paula Alessandra Zeizer Dimas** -->
-    <!-- + **Walmes Marques Zeviani** -->
-    <!-- + **Cesar Augusto Taconeli** -->
+<!-- * **Semana 10 - (03/05 - 10/05)** -->
+<!--     + **Alcides Conte Neto** -->
+<!--     + **Altamiro Antonio Basiewics** -->
+<!--     + **Angela Luiza Cunha Legey** -->
+<!--     + **Bruna Davies Wundervald** -->
+<!--     + **Bruno Geronymo** -->
+<!--     + **Daniel Ikenaga** -->
+<!--     + **Eduardo Elias Ribeiro Junior** -->
+<!--     + **Gabriel Sartori Klostermann** -->
+<!--     + **Jhenifer Caetano Veloso** -->
+<!--     + **Monica Ludmila Hintz De Oliveira** -->
+<!--     + **Paula Alessandra Zeizer Dimas** -->
+<!--     + **Walmes Marques Zeviani** -->
+<!--     + **Cesar Augusto Taconeli** -->
+<!-- * **Semana 9 - (26/04 - 03/05)** -->
+<!-- * **Semana 8 - (19/04 - 26/04)** -->
+<!-- * **Semana 7 - (12/04 - 19/04)** -->
+<!-- * **Semana 6 - (05/04 - 12/04)** -->
+-   **Semana 5 - (29/03 - 05/04)**
+    -   **Alcides C. Neto**: **Concluir as atividades da semana
+        anterior**; e adicionar mais as tabelas de dados para exercício
+        do capítulo 7, não considerada nas *issues* (*issue* \#52)
+    -   **Altamiro A. Basiewics**: **Concluir as atividades das TRÊS
+        semanas anteriores**; e adicionar as demais tabelas listadas na
+        *issue* \#74.
+    -   **Angela L. C. Legey**; Concluir *issue* \#71 (4 tabelas).
+    -   **Bruna D. Wundervald**: Concluir *issue* \#22 (tabelas não
+        informadas na *issue*).
+    -   **Bruno Geronymo**: **Concluir as atividades das 2 semanas
+        anteriores**; e concluir *issue* \#44 (5 tabelas).
+    -   **Daniel Ikenaga**: Concluir *issue* \#80 (7 tabelas).
+    -   **Eduardo E. R. Junior**: Atualizar o `plano.md`; Realizar as
+        eventuais correções de MR e incorporá-los ao ramo `devel`; e
+        concluir o *issue* \#31 (2 tabelas).
+    -   **Gabriel S. Klostermann**: **Concluir as atividades das 2
+        semanas anteriores**; e concluir *issue* \#58 (2 tabelas).
+    -   **Jhenifer C. Veloso**: Concluir o *issue* \#63 (2 tabelas)
+    -   **Monica L. H. De Oliveira**: **Concluir as atividades das
+        QUATRO semanas anteriores (ao todo a inclusão de 7 tabelas foi
+        informada nas reuniões periódicas do projeto)**; e adicionar as
+        demais tabelas listadas nas *issues* \#42, \#67 e \#68.
+    -   **Paula A. Z. Dimas**: Concluir *isuue* \#75 (tabelas não
+        informadas na *issue*).
+    -   **Walmes M. Zeviani**: Concluir inclusão das tabelas
+        relacionadas na *issue* \#11 (3 tabelas); e adicionar a primeira
+        *vignette* do pacote. (documentar no *issue* sobre a inclusão da
+        *vignette*).
+    -   **Cesar A. Taconeli**: Realizar as eventuais correções de MR e
+        incorporá-los ao ramo `devel`.
 
-<!-- 9. **Semana 9 - (03/05 - 10/05)** -->
-<!-- 8. **Semana 8 - (26/04 - 03/05)** -->
-<!-- 7. **Semana 7 - (19/04 - 26/04)** -->
-<!-- 6. **Semana 6 - (12/04 - 19/04)** -->
-<!-- 5. **Semana 5 - (05/04 - 12/04)** -->
-1.  **Semana 4 - (29/03 - 05/04)**
+Nesta semana o servidor LEG&PET que mantia, entre os demais serviços, o
+RStudio Web (que é utilizado pela maioria dos colaboradores para
+desenvolvimento do pacote) esteve indisponível prejudicando as
+atividades do projeto. Porém, em reunião, comentou-se que o RStudio Web
+deve ser considerado como uma ferramenta auxiliar e que os integrantes
+devem ter, em seus computadores de trabalho, os recursos para
+desenvolvimento das atividades previstas. Para GIT recomendamos a
+leitura do segundo capítulo da [Apostila Git do PET] que fala sobre a
+instalação. Sobre o `devtools`, pacote R para desenvolvedores, há a
+[página do RStudio] com as principais informações.
+
+-   **Semana 4 - (22/03 - 29/03)**
     -   **Alcides C. Neto**: Concluir o *issue* \#52 (5 tabelas).
     -   **Altamiro A. Basiewics**: **Concluir as atividades das 2
         semanas anteriores**; e incluir 2 tabelas (realize as atividades
@@ -270,31 +311,32 @@ indicado:
     -   **Angela L. C. Legey**: Concluiu a obra MINGOTI!; Iniciará uma
         nova obra sob o tema Controle Estatístico de Qualidade listando
         suas tabelas e incluindo as respectivas *issues* no GitLab.
+        (*issue* \#70).
     -   **Bruna D. Wundervald**: Concluir seus dois próximos *issues*,
         \#18 e \#19 (realizar as atividades listadas nestes em apenas um
         ramo).
     -   **Bruno Geronymo**: **Concluir as atividades da semana
         anterior**; e concluir *issue* \#43 (5 tabelas).
     -   **Daniel Ikenaga**: **Concluir as atividades da semana
-        anterior**; e incluir 4 tabelas.
+        anterior**; e incluir 4 tabelas. (*issue* \#79).
     -   **Eduardo E. R. Junior**: Realizar as eventuais correções de MR
         e incorporá-los ao ramo `devel`; e concluir o *issue* \#30 (2
         tabelas).
     -   **Gabriel S. Klostermann**: **Concluir as atividades da semana
-        anterior**; e concluir *issue* \#54 (2 tabelas).
+        anterior**; e concluir *issue* \#60 (2 tabelas).
     -   **Jhenifer C. Veloso**: Concluir *issue* \#62 (5 tabelas).
     -   **Monica L. H. Oliveira**: **Concluir as atividades das TRÊS
         semanas anteriores**; e incluir 1 tabela.
     -   **Paula A. Z. Dimas**: Concluiu a obra MINGOTI!; Iniciará uma
         nova obra sob o tema Controle Estatístico de Qualidade listando
         suas tabelas e incluindo as respectivas *issues* no GitLab.
+        (*issue* \#69).
     -   **Walmes M. Zeviani**: Realizar as eventuais correções de MR e
         incorporá-los ao ramo `devel`; e concluir o *issue* \#10 (4
         tabelas).
     -   **Cesar A. Taconeli**: Realizar as eventuais correções de MR e
         incorporá-los ao ramo `devel`.
-
-2.  **Semana 3 - (22/03 - 29/03)**
+-   **Semana 3 - (15/03 - 22/03)**
     -   **Alcides C. Neto**: Concluir o *issue* \#51 (6 tabelas).
     -   **Altamiro A. Basiewics**: **Concluir as atividades da semana
         anterior**; incluir 4 tabelas.
@@ -326,8 +368,7 @@ indicado:
         uma aplicação shiny para visualização dos *datasets*.
     -   **Cesar A. Taconeli**: Realizar as eventuais correções de MR e
         incorporá-los ao ramo `devel`.
-
-3.  **Semana 2 - (15/03 - 22/03)**
+-   **Semana 2 - (08/03 - 15/03)**
     -   **Alcides C. Neto**: Listar todas as tabelas presente na obra de
         sua responsabilidade; criar os respectivos *issues* no GitLab; e
         incluir todas as tabelas presentes no primeiro capítulo (+- 8).
@@ -363,8 +404,7 @@ indicado:
         incorporá-los ao ramo `devel`; e concluir o *issue* \#8.
     -   **Cesar A. Taconeli**: Realizar as eventuais correções de MR e
         incorporá-los ao ramo `devel`
-
-4.  **Semana 1 - (08/03 - 15/03)**
+-   **Semana 1 - (29/03 - 08/03)**
     -   Todos incluírem ao menos um *dataset* para se familiarizar com a
         rotina do projeto
 
@@ -380,60 +420,77 @@ devidamente incluídos, documentados e revisados. Abaixo a contagem de
 <table>
 <thead>
 <tr class="header">
-<th align="left">datas</th>
-<th align="center">datasets</th>
+<th align="left">Livros</th>
+<th align="center">Número de datasets</th>
+<th align="center">Número de observações</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td align="left">Banzatto</td>
 <td align="center">12</td>
+<td align="center">1296</td>
 </tr>
 <tr class="even">
 <td align="left">Charnet</td>
 <td align="center">10</td>
+<td align="center">1575</td>
 </tr>
 <tr class="odd">
 <td align="left">Costa</td>
 <td align="center">2</td>
+<td align="center">132</td>
 </tr>
 <tr class="even">
 <td align="left">Demetrio</td>
 <td align="center">18</td>
+<td align="center">801</td>
 </tr>
 <tr class="odd">
 <td align="left">Dias</td>
 <td align="center">2</td>
+<td align="center">143</td>
 </tr>
 <tr class="even">
 <td align="left">Dinorah</td>
 <td align="center">1</td>
+<td align="center">660</td>
 </tr>
 <tr class="odd">
 <td align="left">Ferreira</td>
 <td align="center">7</td>
+<td align="center">533</td>
 </tr>
 <tr class="even">
 <td align="left">Manly</td>
 <td align="center">1</td>
+<td align="center">294</td>
 </tr>
 <tr class="odd">
 <td align="left">Mingoti</td>
 <td align="center">8</td>
+<td align="center">2150</td>
 </tr>
 <tr class="even">
 <td align="left">Pimentel</td>
 <td align="center">7</td>
+<td align="center">422</td>
 </tr>
 <tr class="odd">
 <td align="left">Ramalho</td>
 <td align="center">10</td>
+<td align="center">1194</td>
 </tr>
 <tr class="even">
 <td align="left">Zimmermann</td>
 <td align="center">16</td>
+<td align="center">5107</td>
 </tr>
 </tbody>
 </table>
 
 [Retornar à tabela de conteúdo](#painel-de-atividades-do-labestdata)
+[Apostila Git do PET]:
+<https://gitlab.c3sl.ufpr.br/pet-estatistica/apostila-git/blob/devel/apostila_git.pdf>
+[página do RStudio]:
+<https://www.rstudio.com/products/rpackages/devtools/>
