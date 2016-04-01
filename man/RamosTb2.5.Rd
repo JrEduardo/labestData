@@ -2,14 +2,14 @@
 % Please edit documentation in R/RamosTb2.5.R
 \name{RamosTb2.5}
 \alias{RamosTb2.5}
-\title{Frequência da resistência à ruptura de garrafas}
+\title{Resistência à ruptura de garrafas}
 \format{Um \code{data.frame} com 9 observações e 2 variáveis, em que
 
 \describe{
 
-\item{\code{forca}}{Força da resistência.}
+\item{\code{forca}}{Resistência das garrafas.}
 
-\item{\code{freq}}{Frequência observada da resistência.}
+\item{\code{freq}}{Frequências observadas para as resistências.}
 
 }}
 \source{
@@ -18,16 +18,17 @@ Ramos, E. M. L. S., et al.(2013).
     Porto Alegre, RS: Bookman. (pg 29).
 }
 \description{
-Dados referente a frequência da força da
-    resistência à  ruptura de 100 garrafas de 
+Distribuição de frequências para as 
+    resistências à  ruptura de 100 garrafas de 
     refrigerante de um litro.
 }
 \examples{
 
 data(RamosTb2.5)
 
-plot(RamosTb2.5$forca, pch=20)
+barplot(RamosTb2.5$freq, names=RamosTb2.5$forca, 
+      xlab = 'Resistência', ylab = 'Frequência')
 
 }
-\keyword{TODO}
+\keyword{CEQ}
 
