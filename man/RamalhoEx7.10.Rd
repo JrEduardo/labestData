@@ -2,18 +2,20 @@
 % Please edit documentation in R/RamalhoEx7.10.R
 \name{RamalhoEx7.10}
 \alias{RamalhoEx7.10}
-\title{Produção de arroz}
-\format{Um \code{data.frame} com 540 observações e 4 variáveis, em 
+\title{Produção de Arroz em 18 Populações na F2}
+\format{Um \code{data.frame} com 600 observações e 4 variáveis, em
     que
 
 \describe{
 
-\item{\code{pop}}{População \eqn{F_{2}} de arroz.}
+\item{\code{pop}}{População \eqn{F_{2}} da linhagem de arroz com 18 
+    níveis e 2 testemunhas.}
 
-\item{\code{rept}}{Fator que indica se a produção veio da primeira ou 
-    segunda linhagem.}
+\item{\code{rept}}{Fator que indica a repetição da combinação entre 
+    planta e linhagem.}
 
-\item{\code{plant}}{Inteiro que representa o arroz no experimento.}
+\item{\code{plant}}{Inteiro que representa a planta de arroz avaliada
+    no experimento.}
 
 \item{\code{prod}}{Produção de arroz, em g/planta.}
 
@@ -24,19 +26,29 @@ Ramalho, M. A. P., Ferreira, D. F., Oliveira, A. C. (2005).
     Lavras, MG: UFLA. (pg 112).
 }
 \description{
-Experimento referente a produção de arroz obtida na 
-    avaliação de 18 populações \eqn{F_{2}} e duas linhagens 
-    utilizadas como testemunhas. O Experimento foi realizado em 
+Experimento referente à produção de arroz obtida na
+    avaliação de 18 populações \eqn{F_{2}} e duas linhagens
+    utilizadas como testemunhas. O Experimento foi realizado em
     blocos casualizados.
 }
 \examples{
 
 library(lattice)
 
-boxplot(prod ~ plant, data = RamalhoEx7.10,
-        ylim = c(0, 45),
-        xlab = "Plantas de arroz",
-        ylab = "Produção")
+data(RamalhoEx7.10)
+
+str(RamalhoEx7.10)
+
+xtabs(~pop + rept, data = RamalhoEx7.10)
+
+ps <- list(box.rectangle = list(col = 1, fill = c("gray90")),
+           box.umbrella = list(col = 1, lty = 1),
+           plot.symbol = list(col = 1, cex = 0.7))
+
+bwplot(prod ~ pop, data = RamalhoEx7.10,
+       horizontal = FALSE, pch = "|",
+       xlab = "População", ylab = "Produção de grãos",
+       par.settings = ps)
 
 }
 \keyword{DBC}
