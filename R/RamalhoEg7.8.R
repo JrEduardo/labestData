@@ -12,10 +12,10 @@
 #' \item{\code{fam}}{Família \eqn{F_{5}} do cruzamento Jalo x Small
 #'     White.}
 #'
-#' \item{\code{rept}}{Fator que indica se a produção veio da primeira ou
-#'     segunda repetição.}
+#' \item{\code{rept}}{Fator que indica a repetição da combinação entre 
+#'     família \eqn{F_{5}} e planta.}
 #'
-#' \item{\code{plant}}{Inteiro que representa os grãos de feijão no
+#' \item{\code{plant}}{Inteiro que indica a planta de feijão avaliada no
 #'     experimento.}
 #'
 #' \item{\code{prod}}{Produção de grãos de feijão, em g/planta.}
