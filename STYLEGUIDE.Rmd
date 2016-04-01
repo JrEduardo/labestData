@@ -1,6 +1,9 @@
-# Guia de Estilo R #
+Guia de Estilo de Escrita de Código R
+=====================================
 
-Walmes Zeviani, Fernando Mayer & Eduardo Jr
+Walmes Zeviani - LEG/DEST/UFPR\
+Fernando Mayer - LEG/DEST/UFPR\
+Eduardo Jr - PET Estatística/UFPR
 
 ****
 
@@ -9,34 +12,6 @@ Walmes Zeviani, Fernando Mayer & Eduardo Jr
 > them work in a way that is undestood by widest possible audience."\
 
 >> -- Paul E. Johnson, R Style. An Rchaeological Commentary.
-
-<!-- markdown-toc start - Don't edit this section. Run M-x markdown-toc-generate-toc again -->
-**Table of Contents**
-
-- [Guia de Estilo R](#guia-de-estilo-r)
-    - [Nomes de arquivos](#nomes-de-arquivos)
-    - [Nomes de objetos](#nomes-de-objetos)
-        - [Contadores](#contadores)
-        - [Matrizes](#matrizes)
-    - [Atribuição](#atribuio)
-    - [Indentação](#indentao)
-    - [Operadores](#operadores)
-    - [Alinhamento vertical de referência (nos operadores)](#alinhamento-vertical-de-referncia-nos-operadores)
-    - [Vírgulas](#vrgulas)
-    - [Lagura de texto](#lagura-de-texto)
-    - [Quebras de linha](#quebras-de-linha)
-    - [Comentários](#comentrios)
-    - [Divisões de código](#divises-de-cdigo)
-    - [Linhas em branco](#linhas-em-branco)
-    - [Aspas](#aspas)
-    - [Chaves](#chaves)
-    - [Colchetes](#colchetes)
-    - [Parênteses](#parnteses)
-    - [Ponto e vírgula](#ponto-e-vrgula)
-    - [Documentação de funções na função](#documentao-de-funes-na-funo)
-    - [Carregando pacotes](#carregando-pacotes)
-
-<!-- markdown-toc end -->
 
 Um Guia de Estilo de Código é um conjunto de recomendações (ou regras)
 para padronizar a forma de escrever código.  Códigos que são escritos
@@ -215,11 +190,11 @@ x=1:10
 notas<-data.frame(aluno, freq, nota)
 ```
 
-O sinal de igual, embora faça atribuição, não deve ser usado para
+O sinal de igual, embora faça atribuição também, não deve ser usado para
 isso. Reserva-se a passar valores para os argumentos de uma função ou
 nomear os elementos de objetos.
 
-```{r, eval=FALSE}
+```r
 # Nomes que levam certos caracteres devem declarados como string.
 notas <- c(Carlos = 95, Lucas = 89, Pedro = 77, "Antônio Augusto" = 60)
 ```
@@ -227,20 +202,21 @@ notas <- c(Carlos = 95, Lucas = 89, Pedro = 77, "Antônio Augusto" = 60)
 ## Indentação ##
 
 A indentação é um dos requisitos fundamentais de estilo de código. É
-desperdício de tempo tentar compreender um código que não está
-devidamente indentado. Todo editor de texto voltado para programação tem
-recursos de indentação.
+perda de tempo tentar compreender um código que não está devidamente
+indentado. Todo editor de texto voltado para programação tem recursos de
+indentação.
 
-A indentação do R é com 4 espaços. Não se usa tabulação.  É comum código
-com tabulação de 2 espaços, que é inclusive a opção *default* do
-[RStudio].  Programadores argumentam que a indentação com 2 espaços
-impõe pouca evidência da hierarquia do código, principalmente para
-fontes de texto que sejam finas. Além disso, 4 espaços é equivalente a
-uma tabulação (que não devem se usada).  Para mudar o número de
-tabulações do [RStudio], vá em `Tools > Global options > Code > Editing`
-e em `Tab width` use 4. O [Emacs] usa 4 espaços por *default*.
+A indentação em código R é com 4 espaços. Não se usa tabulação.  É comum
+encontrar código com tabulação de 2 espaços, que é inclusive a opção
+*default* do [RStudio].  Programadores argumentam que a indentação com 2
+espaços impõe pouca evidência da hierarquia do código, principalmente
+para fontes de texto que sejam finas.  Além disso, 4 espaços é
+equivalente a uma tabulação (que não devem se usada).  Para mudar o
+número de tabulações do [RStudio], vá em `Tools > Global options > Code
+> Editing` e em `Tab width` use 4. O [Emacs] usa 4 espaços por
+*default*.
 
-```{r, eval=FALSE}
+```r
 # Bom.
 for (i in 1:3) {
     if (a > 0) {
@@ -271,14 +247,15 @@ Deixe espaços ao redor dos operadores lógicos e matemáticos.
   * Operadores lógicos: `==`, `!=`, `<`, `<=`, `>`, `>=`, `%in%`, `&`,
     `&&`, `|`, `||`.
   * Operadores matemáticos: `+`, `-`, `*`, `%*%`, `%%`, `%/%`, `%o%`. Os
-    operadores `^` e `/` são considerados excessões e não devem ter
-    espaços. Embora `**` seja um operador equivalente ao `^`, seu uso é
-    evitado.
+    operadores `^` e `/` são considerados exceções e não devem ter
+    espaços. Embora `**` seja um operador equivalente ao `^`, seu uso
+    não é recomendado.
 
-Certas situações fogem a regra. Observe abaixo o emprego do sinal de
-menos e para o operador `~`, usado em fórmulas.
+Certos operadores tem emprego diferenciado dependedo do que
+precede. Observe abaixo o emprego do sinal de menos e para o operador
+`~`, usado em fórmulas.
 
-```{r, eval=FALSE}
+```r
 # Diferença para o menos de negativo e menos de subtração.
 x <- -5 + 2
 x <- 2 - 5
@@ -294,7 +271,7 @@ usados com espaços. O mesmo vale para o operador `$`, usado para
 consultar listas de data frames, e o `@`, usados para consultar listas
 de objetos S4.
 
-```{r, eval=FALSE}
+```r
 # Uma sequência regular.
 12:15
 
@@ -332,7 +309,7 @@ m0$fitted
 Quando alinhamento vertical (*columnate*) de referência em um operador
 der mais clareza ao código, isso pode ser feito.
 
-```{r, eval=FALSE}
+```r
 altura  <- rnorm(100, mean = 1.8, sd = 0.1)
 peso    <- rnorm(100, mean = 70, sd = 5)
 idade   <- sample(20:50, size = 100, replace = TRUE)
@@ -345,15 +322,15 @@ plot(peso ~ altura,
 ```
 
 Esse padrão vai exigir mais trabalho e não são muitos os editores que
-tem o recurso de indentação por referência. O trabalho de indentar
-manualmente e manter isso nas revisões futuras e por colaboradores deve
-ter peso na decisão de usar. O [Emacs] tem o recurso de indentação
-baseado em expressão regular. Para aplicá-lo aos sinais de igual,
-selecione o texto e dê `M-x align-regexp RET = RET`. Você pode, se usar
+tem o recurso de indentação por referência.  O trabalho de indentar
+manualmente e manter isso nas revisões deve ter peso na decisão de
+usar. O [Emacs] tem o recurso de indentação baseado em expressão
+regular. Para aplicá-lo aos sinais de igual, selecione o texto e dê `M-x
+align-regexp RET = RET` (`RET` é pressionar Enter). Você pode, se usar
 isso com frequência, criar um *key binding* para uma função que faça
 isso no código selecionado.
 
-```
+```lisp
 (defun columnate-at-R-assign-operator ()
   "Função que alinha a região com a primeira ocorrência de sinais
    ` <- ' e ` = '. Baseado em:
@@ -370,11 +347,10 @@ isso no código selecionado.
 ## Vírgulas ##
 
 Vírgulas devem ser seguidas de espaço, exceto para as de final de
-linha. Elas não dever ser precedidas de espaço, exceto quando precedidas
-por outra vírgulas dentro dos colchetes.
+linha. Elas não devem ser precedidas de espaço, exceto quando precedidas
+por outra vírgula dentro dos colchetes de seleção.
 
-```{r, eval=FALSE}
-# dput(sample(names(precip), 20))
+```r
 # Bom.
 EyeHairColor[, , 2]
 x <- c("Nashville", "Seattle Tacoma", "Wilmington", "Boise", "Raleigh",
@@ -402,13 +378,14 @@ texto.
 
 Costuma-se usar 80 ou 72 espaços como comprimento máximo de linha, sendo
 este último ligeiramente mais adequado para trabalhar com *script* e
-*console* lado a lado.
+*console* lado a lado nos monitores de resolução atuais.
 
 No [Emacs], para comodidade, pode-se habilitar o quebrar linhas
-automaticamente (`M-x auto-fill-mode`). Caso não goste, pode apenas
-habilidar o destaque com cores para linhas que excedem os limites.
+automaticamente (`M-x auto-fill-mode`). Caso não goste, como muitos que
+acham um pouco desastroso, pode apenas habilidar o destaque com cores
+para linhas que excedem os limites.
 
-```
+```lisp
 ;; Define o comprimento máximo de texto para a linha.
 (setq-default fill-column 72)
 
@@ -441,7 +418,7 @@ Os espaços no final de linha são desnecessários, então evite-os. No
 [Emacs] você pode habilitar a remoção automática de espaços de final de
 linha (*traling spaces*).
 
-```
+```lisp
 ;; Habilita removação de espaços de fim de linha quando salva o arquivo.
 (add-hook 'before-save-hook 'delete-trailing-whitespace)
 ```
@@ -454,7 +431,7 @@ Quando for necessário quebrar linhas em meio a operações matemáticas e
 lógicas, as linhas tem que terminar com um operador para haver
 continuidade da operação.
 
-```{r, eval=FALSE}
+```r
 # Bom.
 mean(precip,
      na.rm = TRUE)
@@ -465,7 +442,7 @@ mean(precip, na.rm =
 
 # x será apenas o resultado da soma, que é uma instrução completa.
 x <- 2 + 4 + 5
-    - 3 - 8
+- 3 - 8
 
 # Agora x será o resultado de soma e diferença.
 x <- 2 + 4 + 5 -
@@ -485,7 +462,7 @@ indentação. É sempre `#` e alinhado ao código (para quê melhor, muitos
 vão dizer). Por isso, vale o denomidador comum e usuários de [Emacs]
 podem desabilidar o padrão do [ESS].
 
-```
+```lisp
 (add-hook 'ess-mode-hook
           '(lambda()
              ;; Sem estilos de indentação.
@@ -499,13 +476,17 @@ podem desabilidar o padrão do [ESS].
 Uma boa prática, principalmente se seu código é material de ensino, é
 fazer divisões nele como se fossem seções de um artigo. Use uma marcação
 visual consistente e fácil de manter. Por anos nós usamos réguas com
-traços de tamanho 72 digitos. Para diferenciar o nível da divisão,
-usamos 3 variações: a maior (para capítulo e cabeçalho) é feita com
-sinal de igual (`=`), a média (para seção) é com traços (`-`) e a menor
-(para subseção) também, tem comprimento inferior (45 digitos). Criamos
-um *key binding* para isso no Emacs por comodidade mas se você usa outro
-editor que indique a coluna 72, pressione até preencher com o digito
-desejado. Lembre-se de preceder com um `#`.
+traços de tamanho 72 digitos e acreditamos ser uma das melhores
+opções. Muitos usam divisões com o sinal de comentários, #, mas
+acreditamos ficar carregado devido ao caracter ser volumoso.
+
+Para diferenciar o nível da divisão, usamos 3 variações: a maior (para
+capítulo e cabeçalho) é feita com sinal de igual (`=`), a média (para
+seção) é com traços (`-`) e a menor (para subseção) também, tem
+comprimento inferior (45 digitos). Criamos um *key binding* para isso no
+Emacs por comodidade mas se você usa outro editor que indique a coluna
+72, pressione até preencher com o digito desejado. Lembre-se de preceder
+com um `#`.
 
 ----------------------------------------------------
  Atalho        Descrição
@@ -522,29 +503,15 @@ desejado. Lembre-se de preceder com um `#`.
 : Atalhos no Emacs e sua descrição para fazer divivões horizontais no
 código.
 
-```{r, eval=FALSE}
+```r
 #=======================================================================
-# (Título) Ajuste de modelos não lineares para crescimento vegetal.
+# (Título)
 
 #-----------------------------------------------------------------------
-# (seção) Conhecendo os dados.
-
-<Carrega os dados, faz gráficos, etc.>
-
-#-----------------------------------------------------------------------
-# (seção) Ajuste do modelo logístico.
+# (seção)
 
 #-------------------------------------------
-# (subseção) Especificação.
-
-#-------------------------------------------
-# (subseção) Diagnóstico.
-
-#-----------------------------------------------------------------------
-# (seção) Ajuste do modelo de Compertz
-
-<continua>
-
+# (subseção)
 ```
 
 ## Linhas em branco ##
@@ -577,10 +544,10 @@ chaves]. No R, usamos o K&R no qual a chave que abre é o último
 character da linha precedida de espaço e a que fecha fica em linha
 exclusiva e indentada conforme o código.
 
-No R usamos chaves nas instruções de *if*, *for*, *while*, *function* e
-nas funções *with*, *switch*, por exemplo.
+No R usamos chaves nas instruções de *if*, *for*, *while*, *repeat* e
+*function* e nas funções *with*, *switch* e *replicate*, por exemplo.
 
-```{r, eval=FALSE}
+```r
 pitagoras <- function(a, b) {
     h <- sqrt(a^2 + b^2)
 }
@@ -629,7 +596,7 @@ No R, não se coloca espaço entre os parenteses e seu conteúdo. Existe
 espaço ao redor do par de parênteses nas instruções de *if*, *for* e
 *while*.
 
-```{r, eval=FALSE}
+```r
 # Bom.
 if (x %% 2 == 0) {
     print("x é par.")
@@ -647,7 +614,7 @@ Ponto e vírgula no R serve para separar instruções na mesma linha,
 funcionando como uma quebra visual de linha. No entanto, não se
 recomenda o seu uso.
 
-```{r, eval=FALSE}
+```r
 # Bom.
 library(car)
 library(gdata)
@@ -657,21 +624,21 @@ library(lattice)
 library(car); library(gdata); library(lattice)
 ```
 
-## Documentação de funções na função ##
+## Documentação embyutida de funções ##
 
-Uma prática muito valorizada e útil é documentar as funções que você
-cria. A documentação serve de lembrete para você no futuro e é intrução
-para as pessoas que usam o seu código. Abaixo a função *baskara* foi
-documentada de duas formas diferentes. A primeira é uma forma livre
-enquanto que a segunda usa as *tags* do roxygen2. Se você escreve uma
-função e tem intenção de incluí-la em um pacote, o segundo padrão é mais
+Uma prática muito valorizada é documentar as funções que você cria. A
+documentação serve de lembrete para você no futuro e é instrução para as
+pessoas que usam o seu código. Abaixo a função *baskara* foi documentada
+de duas formas diferentes. A primeira é uma forma livre enquanto que a
+segunda usa as *tags* do [`roxygen2`]. Se você escreve uma função e tem
+intenção de incluí-la em um pacote, o segundo padrão é mais
 interessante.
 
 Perceba que esse exemplo é bem minimalista pois apenas documenta os
 *inputs* e o *output* da função. Na impede de detalhes serem
 adicionados.
 
-```{r}
+```r
 # Função documentada de forma livre.
 baskara <- function(a, b, c) {
     # a,b,c: (numeric) coeficientes da equação de segundo grau
@@ -712,3 +679,4 @@ retorna *FALSE* se não conseguir enquanto que `library()` retorna
 [Yihui Xie]: http://yihui.name/en/2014/07/library-vs-require/
 [Hadley Wickham]: http://hadley.nz/
 [John Fox]: http://socserv.mcmaster.ca/jfox/
+[`roxygen2`]: https://cran.r-project.org/web/packages/roxygen2/roxygen2.pdf
