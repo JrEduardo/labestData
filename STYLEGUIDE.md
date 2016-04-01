@@ -13,6 +13,30 @@ Eduardo Jr - PET Estatística/UFPR
 
 >> -- Paul E. Johnson, R Style. An Rchaeological Commentary.
 
+**Sumário**
+
+  - [Nomes de arquivos](#nomes-de-arquivos)
+  - [Nomes de objetos](#nomes-de-objetos)
+      - [Contadores](#contadores)
+      - [Matrizes](#matrizes)
+  - [Atribuição](#atribuio)
+  - [Indentação](#indentao)
+  - [Operadores](#operadores)
+  - [Alinhamento vertical de referência (nos operadores)](#alinhamento-vertical-de-referncia-nos-operadores)
+  - [Vírgulas](#vrgulas)
+  - [Lagura de texto](#lagura-de-texto)
+  - [Quebras de linha](#quebras-de-linha)
+  - [Comentários](#comentrios)
+  - [Divisões de código](#divises-de-cdigo)
+  - [Linhas em branco](#linhas-em-branco)
+  - [Aspas](#aspas)
+  - [Chaves](#chaves)
+  - [Colchetes](#colchetes)
+  - [Parênteses](#parnteses)
+  - [Ponto e vírgula](#ponto-e-vrgula)
+  - [Documentação embutida de funções](#documentao-embutida-de-funes)
+  - [Carregando pacotes](#carregando-pacotes)
+
 Um Guia de Estilo de Código é um conjunto de recomendações (ou regras)
 para padronizar a forma de escrever código.  Códigos que são escritos
 seguindo um estilo padrão são mais fáceis de manter, modificar e
@@ -624,7 +648,7 @@ library(lattice)
 library(car); library(gdata); library(lattice)
 ```
 
-## Documentação embyutida de funções ##
+## Documentação embutida de funções ##
 
 Uma prática muito valorizada é documentar as funções que você cria. A
 documentação serve de lembrete para você no futuro e é instrução para as
