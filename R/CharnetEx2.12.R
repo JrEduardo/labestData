@@ -2,7 +2,7 @@
 #' 
 #' @title Taxa de Homicídios por Ano
 #' 
-#' @description Crescimentos da taxa de homícidios em um período de 7 
+#' @description Crescimentos da taxa de homicídios em um período de 7
 #'     anos em uma cidade.
 #'
 #' @format Um \code{data.frame} com 2 colunas e 7 linhas.
@@ -11,7 +11,7 @@
 #'
 #' \item{\code{ano}}{Ano do estudo, em contagem.}
 #'
-#' \item{\code{cth}}{Taxa de homícidios no ano.}
+#' \item{\code{cth}}{Taxa de homicídios no ano.}
 #' 
 #' }
 #'

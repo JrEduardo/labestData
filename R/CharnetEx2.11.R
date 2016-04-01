@@ -3,7 +3,7 @@
 #' @title Estudo do Efeito de Droga sobre o Ritmo Cardíaco
 #' 
 #' @description Estudo do efeito de droga sobre o ritmo cardíaco em um 
-#'     paciente volutário por um período de 6 dias.
+#'     paciente voluntário por um período de 6 dias.
 #'
 #' @format Um \code{data.frame} com 3 colunas e 6 linhas.
 #'
