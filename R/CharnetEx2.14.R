@@ -3,19 +3,12 @@
 #' @title Produto Interno Bruto Trimestral do Brasil
 #' 
 #' @description Comparação do Produto Interno Bruto (PIB) trimestral do 
-#'     Brasil em 8 anos.
+#'     Brasil em 8 anos, de 1990 a 1997.
 #'
-#' @format Um \code{data.frame} com 2 colunas e 32 linhas.
+#' @format Uma série temporal \code{ts}, com 32 observações, sendo 4
+#'     observações por ano (trimestralmente) de 1990 a 1997.
 #'
-#' \describe{
-#'
-#' \item{\code{tri}}{Ano e Trimestre de referência.}
-#'
-#' \item{\code{pib}}{PIB em bilhões de dólares.}
-#' 
-#' }
-#'
-#' @keywords TODO
+#' @keywords TS
 #'
 #' @source Charnet, R., de Luna Freire, C.A., Charnet, E.M.R. & Bonvino,
 #'     H. (2008). Análise de modelos de regressão linear com aplicações
@@ -26,9 +19,8 @@
 #'
 #' data(CharnetEx2.14)
 #'
-#' periodo <- 1:32
-#' rownames(CharnetEx2.14) <- CharnetEx2.14$tri
-#' CharnetEx2.14$tri <- periodo
-#' plot(CharnetEx2.14)
+#' CharnetEx2.14
+#'
+#' plot(CharnetEx2.14, type = "p")
 #'
 NULL
