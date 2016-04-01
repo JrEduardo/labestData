@@ -2,12 +2,10 @@
 #' @title Resistência à ruptura e peso de garrafas
 #' @description Resistência e peso de 25 garrafas.     
 #'
-#' @format Um \code{data.frame} com 25 observações e 3 variáveis, em que
+#' @format Um \code{data.frame} com 25 observações e 2 variáveis, em que
 #'
 #' \describe{
-#'
-#' \item{\code{num}}{Número da garrafa}
-#'
+#' 
 #' \item{\code{forca}}{Força da resistência à ruptura.}
 #'
 #' \item{\code{peso}}{Peso da garrafa (em gramas).}
@@ -25,6 +23,6 @@
 #' library (lattice)
 #'
 #' xyplot(forca ~ peso ,pch=20,
-#'       RamosTb2.6,type =c( "g","a", "p"))
+#'       RamosTb2.6,type =c( "g", "p"))
 #'
 NULL

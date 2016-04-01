@@ -2,16 +2,14 @@
 % Please edit documentation in R/RamosTb2.6.R
 \name{RamosTb2.6}
 \alias{RamosTb2.6}
-\title{Frequência da resistência à ruptura de garrafas}
-\format{Um \code{data.frame} com 25 observações e 3 variáveis, em que
+\title{Resistência à ruptura e peso de garrafas}
+\format{Um \code{data.frame} com 25 observações e 2 variáveis, em que
 
 \describe{
 
-\item{\code{num}}{Número da amostra.}
-
 \item{\code{forca}}{Força da resistência à ruptura.}
 
-\item{\code{peso}}{Peso da garrafa em gramas.}
+\item{\code{peso}}{Peso da garrafa (em gramas).}
 
 }}
 \source{
@@ -20,8 +18,7 @@ Ramos, E. M. L. S., et al.(2013).
     Porto Alegre, RS: Bookman. (pg 30).
 }
 \description{
-Dados referente a frequência da força da
-    resistência à ruptura e peso da garrafa.
+Resistência e peso de 25 garrafas.
 }
 \examples{
 
@@ -30,8 +27,8 @@ data(RamosTb2.6)
 library (lattice)
 
 xyplot(forca ~ peso ,pch=20,
-      RamosTb2.6,type =c( "g","a", "p"))
+      RamosTb2.6,type =c( "g", "p"))
 
 }
-\keyword{TODO}
+\keyword{CEQ}
 
