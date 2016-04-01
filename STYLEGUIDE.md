@@ -512,20 +512,10 @@ Emacs por comodidade mas se você usa outro editor que indique a coluna
 72, pressione até preencher com o digito desejado. Lembre-se de preceder
 com um `#`.
 
-----------------------------------------------------
- Atalho        Descrição
--------------- ------------------------------------
- `Ctrol-7-1 =` Com o control pressionado digite
-               71, solte e pressione `=`. Isso vai
-               repetir o = 71 vezes.
-
- `Ctrol-7-1 -` Idem mas com traço.
-
- `Ctrol-4-4 -` Idem mas repetindo 44 vezes.
-----------------------------------------------------
-
-: Atalhos no Emacs e sua descrição para fazer divivões horizontais no
-código.
+ * `Ctrol-7-1 =`: Com o control pressionado digite 71, solte e pressione
+    `=`. Isso vai repetir o = 71 vezes.
+ * `Ctrol-7-1 -`: Idem mas com traço.
+ * `Ctrol-4-4 -`: Idem mas repetindo 44 vezes.
 
 ```r
 #=======================================================================
