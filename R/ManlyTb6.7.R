@@ -1,36 +1,37 @@
 #' @name ManlyTb6.7
-#' @title Consumo de proteína  
+#' @title Consumo de proteína por habitantes de países europeus 
 #'
-#' @description Estimativas do consumo médio de proteínas de diferentes fontes de alimentos para os habitantes de 25 países europeus. Medida em gramas por pessoa por dia
+#' @description Estimativas do consumo médio de proteínas de diferentes fontes de alimentos 
+#' para os habitantes de 25 países europeus. Consumos registrados em gramas por pessoa por dia
 #'
-#' @format Um \code{data.frame} com 25 países em 9 variáveis.
+#' @format Um \code{data.frame} com 25 países e 9 variáveis.
 #' 
 #' \describe{
 #'
-#' \item {\code{pais}} {Identificação do país.}
+#' \item{\code{pais}}{Identificação do país.}
 #' 
-#' \item {\code{cv}} {Consumo de carne vermelha medida em gramas por pessoa por dia.}
+#' \item{\code{cv}}{Consumo de carne vermelha.}
 #' 
-#' \item {\code{cb}} {Consumo de carne branca.}
+#' \item{\code{cb}}{Consumo de carne branca.}
 #'
-#' \item {\code{ovo}} {Consumo de ovos.}
+#' \item{\code{ovo}}{Consumo de ovos.}
 #' 
-#' \item {\code{leite}} {Consumo de leite.}
+#' \item{\code{leite}}{Consumo de leite.}
 #' 
-#' \item {\code{peixe}} {Consumo de peixe.}
+#' \item{\code{peixe}}{Consumo de peixe.}
 #' 
-#' \item {\code{cere}} {Consumo por cereais.}
+#' \item{\code{cere}}{Consumo por cereais.}
 #'  
-#' \item {\code{carb}} {Consumo de carboidratos.}
+#' \item{\code{carb}}{Consumo de carboidratos.}
 #' 
-#' \item {\code{gnso}} {Consumo de grãos, nozes e sementes oleaginosas.}
+#' \item{\code{gnso}}{Consumo de grãos, nozes e sementes oleaginosas.}
 #'  
-#' \item {\code{fv}} {Consumo de frutas e vegetais.}
+#' \item{\code{fv}}{Consumo de frutas e vegetais.}
 #'  
-#' \item {\code{total}} {Total de consumo do país.}
+#' \item{\code{total}}{Total de consumo do país.}
 #' 
 #' }
-#' @keywords CP
+#' @keywords AnaComp
 #' @source Manly, B. J. F. (2005). Métodos Estatísticos Multivariados - uma introdução.
 #'      Porto Alegre, RS: Bookman (pg 103)
 #' @examples
