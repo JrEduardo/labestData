@@ -6,7 +6,7 @@
 #'
 #' \describe{
 #' 
-#' \item{\code{forca}}{Força da resistência à ruptura.}
+#' \item{\code{forca}}{Força de resistência à ruptura.}
 #'
 #' \item{\code{peso}}{Peso da garrafa (em gramas).}
 #'
@@ -24,5 +24,6 @@
 #'
 #' xyplot(forca ~ peso ,pch=20,
 #'       RamosTb2.6,type =c( "g", "p"))
+#'
 #'
 NULL

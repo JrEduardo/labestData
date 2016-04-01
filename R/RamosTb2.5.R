@@ -25,4 +25,5 @@
 #' barplot(RamosTb2.5$freq, names=RamosTb2.5$forca, 
 #'       xlab = 'Resistência', ylab = 'Frequência')
 #'
+#'
 NULL
