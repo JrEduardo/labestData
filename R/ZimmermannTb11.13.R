@@ -1,5 +1,5 @@
 #' @name ZimmermannTb11.13
-#' @title Experimento fatorial com arroz
+#' @title Absorção e Translocação de Zinco em Arroz de Terras Altas
 #' @description Dados de um experimento fatorial \eqn{3^3}, com
 #'     confundimento parcial de 2 graus de liberdade da interação dupla. 
 #'     O estudo é sobre a absorção e translocação de zinco em arroz de terras
@@ -17,13 +17,13 @@
 #'    
 #' \item{\code{bloco}}{Fator de níveis numéricos. Identifica o bloco da 
 #'     repetição.}
-#'
-#' \item{\code{iden}}{Fator de níveis numéricos. É a identificação que 
-#'     representa o tratamento.}
 #'     
 #' \item{\code{prod}}{Produtividade de graos, em kg ha\eqn{^{-1}}.}
 #'
-#' @keywords DBC confundimento FAT
+#' \item{\code{iden}}{Fator de níveis numéricos. É a identificação que 
+#'     representa o tratamento.}
+#'
+#' @keywords DBC FAT
 #' @source Zimmermann, F. J. (2004). Estatística aplicada à pesquisa
 #'     agrícola (1st ed.). Santo Antônio de Goiás, GO: Embrapa Arroz e
 #'     Feijão. (pg 234)
@@ -33,19 +33,17 @@
 #'
 #' data(ZimmermannTb11.13)
 #'
+#' str(ZimmermannTb11.13)
+#'
 #' aggregate(prod ~ bloco, data = ZimmermannTb11.13, 
 #'           FUN = function(x) { c(mean = mean(x), var = var(x)) })
 #' 
 #' aggregate(prod ~ iden, data = ZimmermannTb11.13, 
 #'           FUN = function(x) { c(mean = mean(x), var = var(x)) })
 #' 
-#' xyplot(prod ~ iden + rept, groups = bloco, data = ZimmermannTb11.13, 
-#'        type=c("p","a"),
-#'        xlab="Fatores", ylab="Produção", 
-#'        main="Análise de um fatorial com confundimento")
+#' xyplot(prod ~ iden | rept, groups = bloco, data = ZimmermannTb11.13, 
+#'        type = c("p","a"),
+#'        ylab = "Identificação do Tratamento", 
+#'        xlab = expression("Produção de Grãos"~(kg~ha^{-1})))
 #'        
-#' with(ZimmermannTb11.13, interaction.plot(bloco, rept, prod, lty = c(2,3), 
-#'                                          col = 4:7, 
-#'                                          ylab = "Produção de Arroz",
-#'                                          xlab = "Bloco"))
 NULL
