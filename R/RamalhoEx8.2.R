@@ -7,10 +7,10 @@
 #'
 #' \describe{
 #'
-#' \item{\code{rept}}{Fator de 10 níveis do experimento.}
+#' \item{\code{clone}}{Fator de 10 níveis que indica os clones de caju.}
 #'
-#' \item{\code{clone}}{Fator de 5 níveis em cada repetição, cada clone 
-#'     indica uma colheita.}
+#' \item{\code{colh}}{Fator de 5 níveis que representa os clones de caju 
+#'     em cada colheita.}
 #'
 #' \item{\code{bloc}}{Fator de 4 níveis do experimento, usado para 
 #'     controle local.}
@@ -20,14 +20,14 @@
 #'
 #' }
 #' @keywords DBC
-#' @source Ramalho, M. A. P., Ferreira, D. F. & Oliveira, A. C. (2005).
+#' @source Ramalho, M. A. P., Ferreira, D. F., Oliveira, A. C. (2005).
 #'     Experimentação em Genética e Melhoramento de Plantas (2th ed.).
-#'     Lavras: UFLA. (pg 133)
+#'     Lavras: UFLA. (Exercício 8.2, pg 133)
 #' @examples
 #'
-#' boxplot(prod ~ rept, data = RamalhoEx8.2,
-#'         xlab = "Repetição",
-#'         ylab = "Produção")
+#' data(RamalhoEx8.2)
+#' 
+#' str(RamalhoEx8.2)
 #' 
 #' library(lattice)
 #' 
