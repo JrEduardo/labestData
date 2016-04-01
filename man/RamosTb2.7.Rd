@@ -3,11 +3,9 @@
 \name{RamosTb2.7}
 \alias{RamosTb2.7}
 \title{Processo de fundição de magnésio}
-\format{Um \code{data.frame} com 7 observações e 3 variáveis, em que
+\format{Um \code{data.frame} com 7 observações e 2 variáveis, em que
 
 \describe{
-
-\item{\code{num}}{Força da resistência.}
 
 \item{\code{fluxo}}{Fluxo de recuperação do metal no processo
     de fundição.}
@@ -22,7 +20,7 @@ Ramos, E. M. L. S., et al.(2013).
 }
 \description{
 Dados referente a um processo de fundição
-    de magnésio, onde a resposta é a recuperação do mental 
+    de magnésio, onde a resposta é a recuperação do metal 
     e aos valores do fluxo de regeneração adicionada.
 }
 \examples{
@@ -31,9 +29,9 @@ data(RamosTb2.7)
 
 library (lattice)
 
-xyplot(recupe ~ fluxo ,pch=20,
-     RamosTb2.7, type =c( "g","a","p"))
+xyplot(recupe ~ fluxo, pch=20,
+     RamosTb2.7, type =c( "g", "p"))
 
 }
-\keyword{TODO}
+\keyword{CEQ}
 

@@ -4,11 +4,9 @@
 #'     de magnésio, onde a resposta é a recuperação do metal 
 #'     e aos valores do fluxo de regeneração adicionada.
 #'
-#' @format Um \code{data.frame} com 7 observações e 3 variáveis, em que
+#' @format Um \code{data.frame} com 7 observações e 2 variáveis, em que
 #'
 #' \describe{
-#'
-#' \item{\code{num}}{Força da resistência.}
 #'
 #' \item{\code{fluxo}}{Fluxo de recuperação do metal no processo
 #'     de fundição.}
@@ -27,7 +25,7 @@
 #'
 #' library (lattice)
 #'
-#' xyplot(recupe ~ fluxo ,pch=20,
-#'      RamosTb2.7, type =c( "g","a","p"))
+#' xyplot(recupe ~ fluxo, pch=20,
+#'      RamosTb2.7, type =c( "g", "p"))
 #'
 NULL
