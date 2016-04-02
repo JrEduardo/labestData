@@ -8,11 +8,11 @@
 #' 
 #' \describe{
 #' 
-#'     \item{\code{caule}}{ Comprimento do caule. }
+#'     \item{\code{caule}}{Comprimento do caule.}
 #' 
-#'     \item{\code{ramo}}{ Comprimento do ramo. }
+#'     \item{\code{ramo}}{Comprimento do ramo.}
 #'     
-#'     \item{\code{basal}}{ Comprimento do caule basal. }
+#'     \item{\code{basal}}{Comprimento do caule basal.}
 #'     
 #' }
 #' 

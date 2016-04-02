@@ -17,15 +17,15 @@
 #' 
 #' \describe{
 #' 
-#'     \item{\code{resp}}{ Resposta da cultura do milho ao fosfato,
-#'     medida em porcentagem. }
+#'     \item{\code{resp}}{Resposta da cultura do milho ao fosfato,
+#'     medida em porcentagem.}
 #' 
-#'     \item{\code{prod}}{ Produtividade na testemunha, 
-#'     medida em libra por acre (lb/acre).  }
+#'     \item{\code{prod}}{Produtividade na testemunha, 
+#'     medida em libra por acre (lb/acre).}
 #'     
-#'     \item{\code{sat}}{ Porcentagem de saturação de bases. }
+#'     \item{\code{sat}}{Porcentagem de saturação de bases.}
 #'     
-#'     \item{\code{silica}}{ Sílica (pH do solo). }
+#'     \item{\code{silica}}{Sílica (pH do solo).}
 #'     
 #' }
 #' 
