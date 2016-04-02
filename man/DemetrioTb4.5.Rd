@@ -7,15 +7,15 @@
 
 \describe{
 
-    \item{\code{x}}{ Formação indisponível. }
+    \item{\code{x}}{Formação indisponível.}
 
-    \item{\code{y1}}{ Formação indisponível. }
+    \item{\code{y1}}{Formação indisponível.}
     
-    \item{\code{y2}}{ Formação indisponível. }
+    \item{\code{y2}}{Formação indisponível.}
     
-    \item{\code{y3}}{ Formação indisponível. }
+    \item{\code{y3}}{Formação indisponível.}
     
-    \item{\code{y4}}{ Formação indisponível. } 
+    \item{\code{y4}}{Formação indisponível.} 
 
 }}
 \source{

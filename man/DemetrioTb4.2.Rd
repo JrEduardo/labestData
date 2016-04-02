@@ -7,11 +7,11 @@
 
 \describe{
 
-    \item{\code{tempo}}{ Tempo de sobrevivência. }
+    \item{\code{tempo}}{Tempo de sobrevivência.}
 
-    \item{\code{tipo}}{ Tipo de veneno. }
+    \item{\code{tipo}}{Tipo de veneno.}
     
-    \item{\code{trat}}{ Tipo de tratamento.}
+    \item{\code{trat}}{Tipo de tratamento.}
 
 }}
 \source{
