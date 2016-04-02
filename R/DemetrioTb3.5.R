@@ -11,7 +11,7 @@
 #'     
 #'     \item{\code{x2}}{ Informação indisponível.}
 #'     
-#'     \item{\code{y}{ Informação indisponível.}
+#'     \item{\code{y}}{ Informação indisponível.}
 #' 
 #' }
 #' 
