@@ -1,8 +1,8 @@
 #' @name RamalhoEx8.1
-#' @title Produção de grãos de arroz
+#' @title Produção de Grãos de Arroz
 #' @description Experimento da produção de grãos de arroz, conduzido em
 #'     três locais do Estado de Minas Gerais (Lambari, Lavras e 
-#'     Felixlândia). Delineamento em blocos casualizados.
+#'     Felixlândia). Delineamento inteiramente casualizados
 #' @format Um \code{data.frame} com 90 observações e 4 variáveis, em que
 #'
 #' \describe{
@@ -19,17 +19,13 @@
 #'     unidades experimentais.}
 #'
 #' }
-#' @keywords DBC
-#' @source Ramalho, M. A. P., Ferreira, D. F. & Oliveira, A. C. (2005).
+#' @keywords DIC
+#' @source Ramalho, M. A. P., Ferreira, D. F., Oliveira, A. C. (2005).
 #'     Experimentação em Genética e Melhoramento de Plantas (2th ed.).
-#'     Lavras: UFLA. (pg 132)
+#'     Lavras: UFLA. (Exercício 8.1, pg 132)
 #' @examples
 #'
 #' aggregate(prod ~ local,  data = RamalhoEx8.1,
 #'           FUN = function(x) { c(mean = mean(x), var = var(x)) })
-#'
-#' boxplot(prod ~ cult, data = RamalhoEx8.1,
-#'      xlab = "Cultivar de arroz",
-#'      ylab = "Produção")
 #' 
 NULL
