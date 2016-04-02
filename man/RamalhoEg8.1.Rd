@@ -12,7 +12,7 @@
 \item{\code{local}}{Fator de 2 níveis nominais, municípios onde 
     foi realizado o experimento.}
 
-\item{\code{rept}}{Fator de 3 níveis do experimento, usado para 
+\item{\code{bloc}}{Fator de 3 níveis do experimento, usado para 
     fazer controle local.}
 
 \item{\code{grao}}{Produção de grãos de feijão, medidos em g/parcela 
@@ -20,7 +20,7 @@
 
 }}
 \source{
-Ramalho, M. A. P., Ferreira, D. F. & Oliveira, A. C. (2005).
+Ramalho, M. A. P., Ferreira, D. F., Oliveira, A. C. (2005).
     Experimentação em Genética e Melhoramento de Plantas (2th ed.).
     Lavras: UFLA. (pg 115)
 }
@@ -33,7 +33,9 @@ Experimento da produção de grãos na avaliação de
 
 library(lattice)
 
-xyplot(prod ~ rept | local, data = RamalhoEg8.1,
+data(RamalhoEg8.1)
+
+xyplot(prod ~ bloc | local, data = RamalhoEg8.1,
        jitter.x = TRUE,
        xlab = "Repetições",
        ylab = "Produção")
@@ -42,5 +44,6 @@ aggregate(prod ~ cult,  data = RamalhoEg8.1,
           FUN = function(x) { c(mean = mean(x), var = var(x)) })
 
 }
+\keyword{ACE}
 \keyword{DBC}
 

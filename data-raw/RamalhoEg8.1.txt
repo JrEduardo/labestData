@@ -1,4 +1,4 @@
-cult	local	rept	prod
+cult	local	bloc	prod
 1	Lavras	1	1000
 2	Lavras	1	800
 3	Lavras	1	700
