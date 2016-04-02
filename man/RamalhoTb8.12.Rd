@@ -2,17 +2,17 @@
 % Please edit documentation in R/RamalhoTb8.12.R
 \name{RamalhoTb8.12}
 \alias{RamalhoTb8.12}
-\title{Produção média de grãos de café-cereja}
+\title{Produção Média de Grãos de Café-Cereja}
 \format{Um \code{data.frame} com 120 observações e 4 variáveis, em que
 
 \describe{
 
 \item{\code{prog}}{Progênie do cultivar Icatu.}
 
-\item{\code{colh}}{Fator de 3 níveis, colheitas realizadas em 
+\item{\code{ano}}{Fator de 3 níveis, colheitas realizadas em 
     anos sucessivos.}
 
-\item{\code{rept}}{Fator de 4 níveis do experimento, usado para 
+\item{\code{bloc}}{Fator de 4 níveis do experimento, usado para 
     controle local.}
 
 \item{\code{prod}}{Produção média de grãos de café-cereja, medido em 
@@ -20,9 +20,13 @@
 
 }}
 \source{
-Ramalho, M. A. P., Ferreira, D. F. & Oliveira, A. C. (2005).
+Ramalho, M. A. P., Ferreira, D. F., Oliveira, A. C. (2005).
     Experimentação em Genética e Melhoramento de Plantas (2th ed.).
     Lavras: UFLA. (pg 128)
+    
+    Mendes, A. N. G. Avaliação de Metodologias Empregadas na Seleção
+    de Progênies do Cafeeiro (Coffea arabica L.) no estado de Minas
+    Gerais. Lavras: UFLA, 1994. 167p.
 }
 \description{
 Experimento da produção média de grãos de café-cereja, 
@@ -33,12 +37,14 @@ Experimento da produção média de grãos de café-cereja,
 
 library(lattice)
 
-xyplot(prod ~ rept | colh, data = RamalhoTb8.12,
+data(RamalhoTb8.12)
+
+xyplot(prod ~ prog | ano, data = RamalhoTb8.12,
        jitter.x = TRUE,
-       xlab = "Repetição",
+       xlab = "Progênie",
        ylab = "Produção")
 
-aggregate(prod ~ rept,  data = RamalhoTb8.12,
+aggregate(prod ~ bloc,  data = RamalhoTb8.12,
           FUN = function(x) { c(mean = mean(x), var = var(x)) })
 
 }

@@ -1,5 +1,5 @@
 #' @name RamalhoTb8.12
-#' @title Produção média de grãos de café-cereja
+#' @title Produção Média de Grãos de Café-Cereja
 #' @description Experimento da produção média de grãos de café-cereja, 
 #'     dados obtidos por Mendes (1994). Delineamento em blocos 
 #'     casualizados.
@@ -9,10 +9,10 @@
 #'
 #' \item{\code{prog}}{Progênie do cultivar Icatu.}
 #'
-#' \item{\code{colh}}{Fator de 3 níveis, colheitas realizadas em 
+#' \item{\code{ano}}{Fator de 3 níveis, colheitas realizadas em 
 #'     anos sucessivos.}
 #'
-#' \item{\code{rept}}{Fator de 4 níveis do experimento, usado para 
+#' \item{\code{bloc}}{Fator de 4 níveis do experimento, usado para 
 #'     controle local.}
 #'
 #' \item{\code{prod}}{Produção média de grãos de café-cereja, medido em 
@@ -20,19 +20,25 @@
 #'
 #' }
 #' @keywords DBC
-#' @source Ramalho, M. A. P., Ferreira, D. F. & Oliveira, A. C. (2005).
+#' @source Ramalho, M. A. P., Ferreira, D. F., Oliveira, A. C. (2005).
 #'     Experimentação em Genética e Melhoramento de Plantas (2th ed.).
 #'     Lavras: UFLA. (pg 128)
+#'     
+#'     Mendes, A. N. G. Avaliação de Metodologias Empregadas na Seleção
+#'     de Progênies do Cafeeiro (Coffea arabica L.) no estado de Minas
+#'     Gerais. Lavras: UFLA, 1994. 167p.
 #' @examples
 #'
 #' library(lattice)
 #' 
-#' xyplot(prod ~ rept | colh, data = RamalhoTb8.12,
+#' data(RamalhoTb8.12)
+#' 
+#' xyplot(prod ~ prog | ano, data = RamalhoTb8.12,
 #'        jitter.x = TRUE,
-#'        xlab = "Repetição",
+#'        xlab = "Progênie",
 #'        ylab = "Produção")
 #' 
-#' aggregate(prod ~ rept,  data = RamalhoTb8.12,
+#' aggregate(prod ~ bloc,  data = RamalhoTb8.12,
 #'           FUN = function(x) { c(mean = mean(x), var = var(x)) })
 #'
 NULL

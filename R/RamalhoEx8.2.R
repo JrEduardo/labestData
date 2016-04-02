@@ -1,5 +1,5 @@
 #' @name RamalhoEx8.2
-#' @title Produção de amêndoas
+#' @title Produção de Amêndoas
 #' @description Experimento da produção de amêndoas obtidos da avaliação 
 #'     de clones de caju, em 5 colheitas. Delineamento em blocos 
 #'     casualizados.

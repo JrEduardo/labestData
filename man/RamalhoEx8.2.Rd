@@ -2,7 +2,7 @@
 % Please edit documentation in R/RamalhoEx8.2.R
 \name{RamalhoEx8.2}
 \alias{RamalhoEx8.2}
-\title{Produção de amêndoas}
+\title{Produção de Amêndoas}
 \format{Um \code{data.frame} com 200 observações e 4 variáveis, em que
 
 \describe{
