@@ -19,7 +19,8 @@
 #' @keywords RM
 #' 
 #' @source Demétrio, C. G. B., & Zocchi, S. S. (2011). Modelos de
-#'     Regressão. Piracicaba: ESALQ. (Tabela 10.2 pág. 161)
+#'     Regressão. Piracicaba: ESALQ. (Tabela 10.2 pág. 161; Exercício 
+#'     5.4.7 pág. 164)
 #' 
 #' @examples
 #' 
