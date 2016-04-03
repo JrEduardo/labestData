@@ -53,7 +53,7 @@ check(cleanup = FALSE,
 # Gerar as vinhetas, caso existam.
 
 if (length(list.files("./vignettes"))) {
-    build_vignettes()
+    build_vignettes(dependencies = FALSE)
 }
 
 #--------------------------------------------

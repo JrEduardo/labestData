@@ -1,0 +1,8 @@
+html_document:
+  fig_width: 6
+  fig_height: 6
+  toc: true
+  toc_dep: 3
+  css: style.css
+  includes:
+    in_header: MathJax.html

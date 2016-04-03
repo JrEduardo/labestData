@@ -1,0 +1,123 @@
+---
+title: "Experimentos em Delineamento Inteiramente Casualizado"
+author: "PET Estatística UFPR"
+vignette: >
+  %\VignetteIndexEntry{Experimentos em Delineamento Inteiramente Casualizado}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r setup, include=FALSE}
+library(knitr)
+opts_chunk$set(dev.args = list(family = "Palatino"))
+options(width = 68)
+
+library(latticeExtra)
+rm(list = ls())
+mycol <- c("#E41A1C", "#377EB8", "#4DAF4A",
+           "#984EA3", "#FF7F00", "#FFFF33")
+
+## Trellis graphical style.
+ps <- list(box.rectangle = list(col = 1, fill = c("gray70")),
+           box.umbrella = list(col = 1, lty = 1),
+           dot.symbol = list(col = 1, pch = 19),
+           dot.line = list(col = "gray50", lty = 3),
+           plot.symbol = list(col = 1, cex = 0.8),
+           plot.line = list(col = 1),
+           plot.polygon = list(col = "gray95"),
+           superpose.line = list(col = mycol, lty = 1),
+           superpose.symbol = list(col = mycol, pch = 1),
+           superpose.polygon = list(col = mycol),
+           strip.background = list(col = c("gray80", "gray50")))
+trellis.par.set(ps)
+## show.settings()
+
+```
+
+**Objetivos**
+
+O delimentos experimentais são fundamentais para vaaliação de hipóteses.
+
+o delineamento inteiramente casualizado é o mais simples dos
+delineamentos. Ele estuda apenas uma fontes de variação de interesse e
+não tem fonte de variação de controle local. Se a fonte de variação pode
+ser a combinação de outras duas ou mais fontes. Quando isso acontece de
+termos vários fatores simultâneos, temos um experimento fatorial que
+trataremos mais adiante.
+
+O fator pode ser de níveis métricos ou categóricos. As hipóteses são
+diferentes.
+
+Essa vinheta assume que o leitor tenha conhecimento prévio de
+planejamento e análise de experimentos.
+
+## Contextualização
+
+## Como gerar um DIC
+
+Ordene as unidades experimentais e associe a elas o tratamento
+correspondente.
+
+```{r}
+k <- 4
+r <- 5
+
+sample(gl(k, r))
+
+```
+
+## O modelo estatístico
+
+O modelo estatístico que corresponde aos dados de um experimentos em
+delineamento inteiramente casualizado é
+
+$$
+\begin{aligned}
+  y_{ij} &= \mu + \tau_{i} + e_{ij} \\
+  e_{ij} &\sim \text{Normal}(0, \sigma^2),
+\end{aligned}
+$$
+
+em que $y_{ij}$ é o valor observado da variável resposta na unidade
+experimental $j$ do nível $i$, $\mu$ é a média se houver efeito do
+tratamento, $\tau_{i}$ é o efeito do nível $i$ e $e_{ij}$ representa um
+desvio aleatório proveninente de causas não controladas e que tem
+distribuição normal com variância $\sigma^2$.
+
+As letras gregas ($\mu$, $\tau_{i}$ e $\sigma^2$) representam os
+parâmetros desconhecidos que serão estimados a partir dos dados.
+
+O modelo também pode ser escrito assim
+
+$$
+\begin{aligned}
+  y_{ij} &\sim \text{Normal}(\mu_{i}, \sigma^2) \\
+  \mu_{i} &= \mu + \tau_{i},
+\end{aligned}
+$$
+
+## Hipóteses
+
+$$
+  H_{0}: \mu_{i} = \mu_{i'} \rightarrow \tau_{i} = 0\,\,\forall\, i
+$$
+
+## Tipo de efeito
+
+Fixo ou aleatório?
+
+## Ajuste e Diagóstico
+
+  * Relação média-variância nula ou homocedasticidade
+  * Normalidade
+
+```{r}
+str(mtcars)
+```
+
+## Teste das hipóteses
+
+  * Teste de nulinidade dos efeitos
+  * Comparações múltiplas ou contrastes
+
+<!------------------------------------------- -->
