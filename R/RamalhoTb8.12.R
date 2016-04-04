@@ -1,13 +1,15 @@
 #' @name RamalhoTb8.12
-#' @title Produção Média de Grãos de Café-Cereja
-#' @description Experimento da produção média de grãos de café-cereja, 
-#'     dados obtidos por Mendes (1994). Delineamento em blocos 
+#' @title Produção Média de Grãos de Café-cereja
+#' @description Experimento da produção média de grãos de café-cereja,
+#'     dados obtidos por Mendes (1994). Delineamento em blocos
 #'     casualizados.
-#' @format Um \code{data.frame} com 120 observações e 4 variáveis, em que
+#' @format Um \code{data.frame} com 120 observações e 4 variáveis, em
+#'     que
 #'
 #' \describe{
 #'
-#' \item{\code{prog}}{Progênie do cultivar Icatu.}
+#' \item{\code{prog}}{Fator que distingue as progênies do cultivar de
+#'     café Icatu.}
 #'
 #' \item{\code{ano}}{Fator de 3 níveis, colheitas realizadas em 
 #'     anos sucessivos.}
@@ -15,14 +17,14 @@
 #' \item{\code{bloc}}{Fator de 4 níveis do experimento, usado para 
 #'     controle local.}
 #'
-#' \item{\code{prod}}{Produção média de grãos de café-cereja, medido em 
+#' \item{\code{prod}}{Produção média de grãos de café-cereja, medido em
 #'     kg/parcela nas unidades experimentais.}
 #'
 #' }
 #' @keywords DBC
 #' @source Ramalho, M. A. P., Ferreira, D. F., Oliveira, A. C. (2005).
 #'     Experimentação em Genética e Melhoramento de Plantas (2th ed.).
-#'     Lavras: UFLA. (pg 128)
+#'     Lavras: UFLA. (pág. 128)
 #'     
 #'     Mendes, A. N. G. Avaliação de Metodologias Empregadas na Seleção
 #'     de Progênies do Cafeeiro (Coffea arabica L.) no estado de Minas
@@ -37,8 +39,8 @@
 #'        jitter.x = TRUE,
 #'        xlab = "Progênie",
 #'        ylab = "Produção")
-#' 
-#' aggregate(prod ~ bloc,  data = RamalhoTb8.12,
+#'
+#' aggregate(prod ~ prog,  data = RamalhoTb8.12,
 #'           FUN = function(x) { c(mean = mean(x), var = var(x)) })
 #'
 NULL
