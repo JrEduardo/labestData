@@ -1,0 +1,49 @@
+adubo	dose	bloco	prod
+Salitre do Chile	10	1	2747
+Salitre do Chile	40	1	2889
+Salitre do Chile	70	1	3578
+Sulfato de amonio	10	1	3164
+Sulfato de amonio	40	1	3831
+Sulfato de amonio	70	1	4107
+Ureia	10	1	1902
+Ureia	40	1	2547
+Ureia	70	1	3364
+Calnitro	10	1	2978
+Calnitro	40	1	3451
+Calnitro	70	1	3742
+Salitre do Chile	10	2	2702
+Salitre do Chile	40	2	2731
+Salitre do Chile	70	2	3387
+Sulfato de amonio	10	2	2658
+Sulfato de amonio	40	2	3049
+Sulfato de amonio	70	2	3031
+Ureia	10	2	1773
+Ureia	40	2	2642
+Ureia	70	2	2427
+Calnitro	10	2	2769
+Calnitro	40	2	2258
+Calnitro	70	2	2498
+Salitre do Chile	10	3	2671
+Salitre do Chile	40	3	2633
+Salitre do Chile	70	3	3858
+Sulfato de amonio	10	3	3600
+Sulfato de amonio	40	3	4182
+Sulfato de amonio	70	3	3791
+Ureia	10	3	3440
+Ureia	40	3	3347
+Ureia	70	3	4053
+Calnitro	10	3	2640
+Calnitro	40	3	2478
+Calnitro	70	3	3458
+Salitre do Chile	10	4	2547
+Salitre do Chile	40	4	2756
+Salitre do Chile	70	4	4284
+Sulfato de amonio	10	4	2760
+Sulfato de amonio	40	4	3102
+Sulfato de amonio	70	4	3547
+Ureia	10	4	2347
+Ureia	40	4	2924
+Ureia	70	4	3111
+Calnitro	10	4	2542
+Calnitro	40	4	2562
+Calnitro	70	4	3076
