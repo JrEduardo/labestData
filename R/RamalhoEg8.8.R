@@ -37,7 +37,7 @@
 #'
 #' str(RamalhoEg8.8)
 #'
-#' xtabs(~trat + exp, data = RamalhoEg8.8)
+#' xtabs(~pop + ger, data = RamalhoEg8.8)
 #' 
 #' xyplot(prod ~ pop, data = RamalhoEg8.8,
 #'        groups = bloc, type = c("p", "a"),

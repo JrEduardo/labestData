@@ -2,7 +2,7 @@
 % Please edit documentation in R/RamalhoEg8.8.R
 \name{RamalhoEg8.8}
 \alias{RamalhoEg8.8}
-\title{Produção de Grãos de Feijão}
+\title{Produção de Grãos de Feijão de Populações Segregantes}
 \format{Um \code{data.frame} com 72 observações e 4 variáveis, em que
 
 \describe{
@@ -15,31 +15,38 @@
 \item{\code{pop}}{Fator de 6 níveis que representa as populações das
     gerações do experimento.}
 
-\item{\code{prod}}{Produção de grãos de feijão, medidos em kg/ha nas
+\item{\code{prod}}{Produção de grãos de feijão, medida em kg/ha nas
     unidades experimentais.}
 
 }}
 \source{
 Ramalho, M. A. P., Ferreira, D. F., Oliveira, A. C. (2005).
     Experimentação em Genética e Melhoramento de Plantas (2th ed.).
-    Lavras: UFLA. (pg 123)
+    Lavras: UFLA. (pág. 123)
     
     Corte, H. R., Ramalho, M. A. P., Gonçalves, F. M. A., Abreu. A de
     F. B. Natural Selection for Grain Yield in Dry Bean Population 
     Bred by the Bulk Method. Euphytica. Wageningen. v.123, n.3. 2002
 }
 \description{
-Dados da produção de grãos de feijão obtidos por Corte 
-    et al. (2002) relativos à avaliação de 6 populações segregantes 
-    avaliadas nas gerções F_{2}, F_{3} e F_{4} com diferentes números 
-    de blocos. Delineamento em blocos casualizados.
+Dados da produção de grãos de feijão obtidos por Corte
+    et al. (2002) relativos à avaliação de 6 populações segregantes
+    avaliadas nas gerções F\eqn{_{2}}, F\eqn{_{3}} e F\eqn{_{4}} com
+    diferente número de blocos. O delineamento foi em blocos
+    casualizados.
 }
 \examples{
 
 library(lattice)
 
+data(RamalhoEg8.8)
+
+str(RamalhoEg8.8)
+
+xtabs(~pop + ger, data = RamalhoEg8.8)
+
 xyplot(prod ~ pop, data = RamalhoEg8.8,
-       groups = bloc,
+       groups = bloc, type = c("p", "a"),
        jitter.x = TRUE,
        xlab = "Tratamento",
        ylab = "Produção em (kg/ha)")

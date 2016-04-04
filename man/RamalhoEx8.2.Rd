@@ -2,8 +2,9 @@
 % Please edit documentation in R/RamalhoEx8.2.R
 \name{RamalhoEx8.2}
 \alias{RamalhoEx8.2}
-\title{Produção de Amêndoas}
-\format{Um \code{data.frame} com 200 observações e 4 variáveis, em que
+\title{Produção de Amêndoas de Clones de Caju}
+\format{Um \code{data.frame} com 200 observações e 4 variáveis, em
+    que
 
 \describe{
 
@@ -12,28 +13,26 @@
 \item{\code{colh}}{Fator de 5 níveis que representa os clones de caju 
     em cada colheita.}
 
-\item{\code{bloc}}{Fator de 4 níveis do experimento, usado para 
+\item{\code{bloc}}{Fator de 4 níveis do experimento, usado para
     controle local.}
 
-\item{\code{prod}}{Produção de clones de caju, medido em g/planta nas 
+\item{\code{prod}}{Produção de clones de caju, medido em g/planta nas
     unidades experimentais.}
 
 }}
 \source{
 Ramalho, M. A. P., Ferreira, D. F., Oliveira, A. C. (2005).
     Experimentação em Genética e Melhoramento de Plantas (2th ed.).
-    Lavras: UFLA. (Exercício 8.2, pg 133)
+    Lavras: UFLA. (Exercício 8.2, pág. 133)
 }
 \description{
-Experimento da produção de amêndoas obtidos da avaliação 
-    de clones de caju, em 5 colheitas. Delineamento em blocos 
+Experimento da produção de amêndoas obtidos da avaliação
+    de clones de caju, em 5 colheitas. Delineamento em blocos
     casualizados.
 }
 \examples{
 
 data(RamalhoEx8.2)
-
-str(RamalhoEx8.2)
 
 library(lattice)
 
