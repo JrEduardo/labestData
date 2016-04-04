@@ -9,8 +9,8 @@
 
 \item{\code{cand}}{Número de identificação do candidato.}
     
-\item{\code{grupo}}{Variável que indica separação de 3 grupos (I, II
-    e III) para o processo seletivo.}
+\item{\code{grupo}}{Grupo ao qual o candidato foi alocado, segundo 
+    seu desempenho no processo seletivo (I, II ou III).}
     
 \item{\code{nota}}{Nota da prova de conhecimento específico da área
     do programa.}
@@ -29,7 +29,7 @@ Um programa de pós-graduação dividiu 62 candidatos do
     ano anterior em 3 grupos: (I) candidatos aprovados, 
     (II) candidatos na lista de espera e (III) candidatos que não
     foram aprovados. Para a nova seleção, os responsáveis pensam em
-    considerar a nota da prova de conhecimento técnico e a nota 
+    considerar a nota da prova de conhecimento específico e a nota 
     atribuída ao histórico escolar.
 }
 \examples{
@@ -38,12 +38,8 @@ data(MingotiAnA5)
 
 library(lattice)
 
-da3 <- reshape(MingotiAnA5, direction = "long", varying = list(3:4),
-              v.names = "notas", timevar = "atributo")
-
-xyplot(notas ~ atributo, groups = grupo, data = da3, 
-      jitter.y = TRUE, type = c("p", "a"))
+pairs(MingotiAnA5)
 
 }
-\keyword{TODO}
+\keyword{AnaDisc}
 

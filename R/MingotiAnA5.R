@@ -32,10 +32,6 @@
 #' 
 #' library(lattice)
 #' 
-#' da3 <- reshape(MingotiAnA5, direction = "long", varying = list(3:4),
-#'               v.names = "notas", timevar = "atributo")
-#'
-#' xyplot(notas ~ atributo, groups = grupo, data = da3, 
-#'       jitter.y = TRUE, type = c("p", "a"))
+#' pairs(MingotiAnA5)
 #'
 NULL
