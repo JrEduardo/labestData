@@ -2,7 +2,7 @@
 #' @title Experimento fatorial com arroz
 #' @description Dados de um experimento fatorial \eqn{2^3}, com confundimento
 #'    de duas interações simples (A*B, B*C e A*C). Referem-se à produtividade 
-#'    de grãos, em kg/ha. O ensaio foi conduzido em dois blocos ao acaso 
+#'    de grãos, em kg ha\eqn{^{-1}}. O ensaio foi conduzido em 2 blocos ao acaso 
 #'    com quatro repetições. Os fatores são: densidades de plantio de 50 e 
 #'    90 sementes por metro, espaçamentos entre linhas de 35cm e 50cm e 
 #'    fator presença ou ausência de adubação nitrogenada em cobertura. 
@@ -15,13 +15,13 @@
 #'    
 #' \item{\code{bloco}}{Fator de níveis numéricos. Identifica o bloco da 
 #'     repetição.}
+#'     
+#' \item{\code{prod}}{Produção de arroz, em kg ha\eqn{^{-1}}.}
 #'
 #' \item{\code{iden}}{Fator de níveis numéricos. É a identificação que 
 #'     representa o tratamento.}
-#'     
-#' \item{\code{prod}}{Produção de arroz, em kg/ha.}
 #'
-#' @keywords DBC confundimento
+#' @keywords DBC FAT
 #' @source Zimmermann, F. J. (2004). Estatística aplicada à pesquisa
 #'     agrícola (1st ed.). Santo Antônio de Goiás, GO: Embrapa Arroz e
 #'     Feijão. (pg 226)
@@ -31,19 +31,17 @@
 #'
 #' data(ZimmermannTb11.7)
 #'
-#' aggregate(prod ~ rept, data = ZimmermannTb11.7, 
+#' str(ZimmermannTb11.7)
+#'
+#' aggregate(prod ~ bloco, data = ZimmermannTb11.7, 
 #'           FUN = function(x) { c(mean = mean(x), var = var(x)) })
 #' 
 #' aggregate(prod ~ iden, data = ZimmermannTb11.7, 
 #'           FUN = function(x) { c(mean = mean(x), var = var(x)) })
 #' 
-#' xyplot(prod ~ iden + rept, groups = bloco, data = ZimmermannTb11.7, 
-#'        type=c("p","a"),
-#'        xlab="Fatores", ylab="Produção", 
-#'      main="Análise de um fatorial com confundimento")
+#' xyplot(prod ~ iden | rept, groups = bloco, data = ZimmermannTb11.7, 
+#'        type = c("p","a"),
+#'        ylab = "Identificação do Tratamento", 
+#'        xlab = expression("Produção de Arroz"~(kg~ha^{-1})))
 #'        
-#' with(ZimmermannTb11.7, interaction.plot(bloco, rept, prod, lty = c(2,3), 
-#'                                         col = 4:7, 
-#'                                         ylab = "Produção de Arroz",
-#'                                         xlab = "Bloco"))
 NULL
