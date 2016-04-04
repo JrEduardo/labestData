@@ -40,12 +40,16 @@
 #'
 #' data(MingotiAnA2)
 #' 
-#' library(lattice)
+#' par(mfrow = c(1,2))
+#' boxplot(MingotiAnA2$venda, 
+#'        MingotiAnA2$lucro, 
+#'        MingotiAnA2$clie, 
+#'        names = c("venda","lucro","cliente"))
 #'
-#' da <- reshape(MingotiAnA2, direction = "long", varying = list(2:8),
-#'              v.names = "notas", timevar = "atributo")
-
-#' xyplot(notas ~ atributo, data = da, 
-#'       jitter.y = TRUE, type = c("p", "a"))
+#'boxplot(MingotiAnA2$escri, 
+#'        MingotiAnA2$logica, 
+#'        MingotiAnA2$social, 
+#'        MingotiAnA2$mate,
+#'        names = c("escrita","logica","social","matema"))
 #'
 NULL
