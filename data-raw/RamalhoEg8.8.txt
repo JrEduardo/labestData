@@ -1,4 +1,4 @@
-exp	rept	trat	prod
+ger	bloc	pop	prod
 F2	1	A	1501.3
 F2	2	A	1275.9
 F2	3	A	1374.7
