@@ -10,8 +10,7 @@
 #'
 #' \item{\code{clone}}{Fator de 10 níveis que indica os clones de caju.}
 #'
-#' \item{\code{colh}}{Fator de 5 níveis que representa os clones de caju 
-#'     em cada colheita.}
+#' \item{\code{colh}}{Fator de 5 níveis que representa as colheitas.}
 #'
 #' \item{\code{bloc}}{Fator de 4 níveis do experimento, usado para
 #'     controle local.}
@@ -20,19 +19,26 @@
 #'     unidades experimentais.}
 #'
 #' }
-#' @keywords DBC
+#' @keywords DBC GE
 #' @source Ramalho, M. A. P., Ferreira, D. F., Oliveira, A. C. (2005).
 #'     Experimentação em Genética e Melhoramento de Plantas (2th ed.).
 #'     Lavras: UFLA. (Exercício 8.2, pág. 133)
 #' @examples
 #'
-#' data(RamalhoEx8.2)
-#' 
 #' library(lattice)
 #'
-#' xyplot(prod ~ clone | bloc, data = RamalhoEx8.2,
-#'        jitter.x = TRUE,
-#'        xlab = "Clone",
-#'        ylab = "Produção")
+#' data(RamalhoEx8.2)
+#'
+#' str(RamalhoEx8.2)
+#'
+#' xtabs(~clone + colh, data = RamalhoEx8.2)
+#'
+#' xyplot(prod ~ colh | clone, data = RamalhoEx8.2,
+#'        jitter.x = TRUE, type = c("p", "a"), as.table = TRUE,
+#'        strip = strip.custom(strip.names = TRUE,
+#'                             var.name = "Clone", sep = " "),
+#'        xlab = "Colheita",
+#'        ylab = expression("Produção"~(g~parcela^{-1})))
+#'
 #'
 NULL
