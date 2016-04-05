@@ -1,0 +1,41 @@
+#' @name RamalhoTb11.1
+#' @title Produção de 16 Cultivares de Sorgo
+#' @description Experimento conduzido na EMBRAPA Milho e Sorgo 
+#'     envolvendo a avaliação de 16 cultivares de sorgo conduzido
+#'     no delineamento de látice quadrado balanceado e a produção por
+#'     parcela obtida.
+#' @format Um \code{data.frame} com 80 observações e 5 variáveis, em que
+#'
+#' \describe{
+#'
+#' \item{\code{parc}}{Fator de 80 níveis que indica as parcelas onde são
+#'     aplicados os tratamentos do experimento.}
+#'
+#' \item{\code{rept}}{Fator de 5 níveis que identifica as repetições de 
+#'     cada combinação dos blocos e tratamentos.}
+#'
+#' \item{\code{bloc}}{Fator de 4 níveis, usado para controle local.}
+#'
+#' \item{\code{cult}}{Fator de 16 níveis. Tratamento aplicado para
+#'     verificar a produção de sorgo.}
+#'
+#' \item{\code{prod}}{Produção de sorgo, medidos em kg/parcela nas
+#'     parcelas.}
+#'
+#' }
+#' @keywords DBI
+#' @source Ramalho, M. A. P., Ferreira, D. F., Oliveira, A. C. (2005).
+#'     Experimentação em Genética e Melhoramento de Plantas (2th ed.).
+#'     Lavras: UFLA. (pág. 165)
+#' @examples
+#'
+#' library(lattice)
+#' 
+#' data(RamalhoTb11.1)
+#' 
+#' xyplot(prod ~ cult | bloc, data = RamalhoTb11.1,
+#'        jitter.x = TRUE,
+#'        xlab = "Cultivar de Sorgo",
+#'        ylab = "Produção (kg/parcela)")
+#'
+NULL
