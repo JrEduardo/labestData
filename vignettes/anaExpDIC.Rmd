@@ -1,5 +1,5 @@
 ---
-title: "Experimentos em Delineamento Inteiramente Casualizado"
+title: "Análise de Experimentos em Delineamento Inteiramente Casualizado"
 author: "PET Estatística UFPR"
 vignette: >
   %\VignetteIndexEntry{Experimentos em Delineamento Inteiramente Casualizado}
@@ -8,116 +8,381 @@ vignette: >
 ---
 
 ```{r setup, include=FALSE}
-library(knitr)
-opts_chunk$set(dev.args = list(family = "Palatino"))
-options(width = 68)
+source("setup.R")
+```
+
+## Análise exploratória
+
+Nessa *vignette* vamos considerar `BanzattoQd3.2.1`, já disponível no
+pacote [**labestData**].
+
+```{r, eval=FALSE}
+library(labestData)
+# ls("package:labestData")
+
+help(BanzattoQd3.2.1, help_type = "html")
+```
+```{r, echo=FALSE, message=FALSE}
+devtools::load_all()
+# ls("package:labestData")
+```
+
+Este conjunto de dados é de um experimento instalado em delineamento
+inteiramente casualizado (DIC) para estudar o produtos para controle de
+pulgão na cultura do pepino. Foram avaliados 4 produtos (`trat`), e mais
+uma testemunha, para controle do pulgão (*Aphis gossypii* Glover). A
+variável resposta desse experimento foi o número de pulgões
+encontrados, uma variável resposta do tipo contagem.
+
+Em caso de não ter o pacote **labestData**, você pode ler a tabela de
+dados diretamente do repositório. No entanto, recomendamos que instale o
+pacote para ter acesso a todos os datasets, com documentação.
+
+Antes de iniciar a análise dos dados do experimento, é muito
+recomendável fazer uma análise exploratória que serve basicamente para
+
+  * Verificar se os dados não possuem erros de digitação;
+  * Antecipar a presença de observações discrepantes (outliers);
+  * Verificar a escala das variáveis resposta (discreta, contínua);
+  * Antecipar a existência de efeito dos fatores estudados;
+  * Compreender o dado.
+
+```{r}
+#-----------------------------------------------------------------------
+# Ler a partir do repositório do labestData.
+
+# url <- paste0("https://gitlab.c3sl.ufpr.br/pet-estatistica",
+#               "/labestData/raw/devel/data-raw/BanzattoQd3.2.1.txt")
+#
+# BanzattoQd3.2.1 <-
+#     read.table(file = url, sep = "\t", header = TRUE,
+#                colClasses = c("factor", "integer", "integer"))
+
+#-----------------------------------------------------------------------
+# Análise exploratória.
+
+# Estrutura do objeto.
+str(BanzattoQd3.2.1)
+
+# Tabela de frequência para os tratamentos.
+xtabs(~trat, data = BanzattoQd3.2.1)
+
+# Dados desemplilhados.
+t(unstack(x = BanzattoQd3.2.1, form = pulgoes ~ trat))
+
+# Média e desvio-padrão das observações em cada nível.
+aggregate(pulgoes ~ trat,  data = BanzattoQd3.2.1,
+          FUN = function(y) {
+              c(mean = mean(y), dp = sd(y))
+          })
+
+library(lattice)
+packageVersion("lattice")
+
+# Diagrama de dispersão.
+xyplot(pulgoes ~ reorder(trat, pulgoes), data = BanzattoQd3.2.1,
+       xlab = "Produtos para controle de pulgão",
+       ylab = "Número de pulgões 36h após pulverização",
+       scales = list(x = list(rot = 90)))
+
+```
+
+Pela análise exploratória temos que esse experimento é balanceado pois
+tem número igual de repetições de cada produto. O diagrama de dispersão
+mostra os valores observados do número de pulgões em função dos
+produtos. Os níveis foram ordenados pela média do número de pulgões. É
+imediato perceber a partir fo gráfico que a variabilidade do número de
+pulgões muda com a média. Isso é importante porque adianta um possível
+problema com o pressuposto de homogeneidade de variâncias do modelo.
+
+## Especificação e ajuste do modelo
+
+O modelo estatístico correspondente ao delineamento é
+
+$$
+\begin{aligned}
+  Y|\text{produtos} &\,\sim \text{Normal}(\mu_i, \sigma^2) \newline
+  \mu_i &= \mu+\tau_i
+\end{aligned}
+$$
+
+em que \(\tau_i\) é o efeito do produto \(i\) sobre a variável resposta
+\(Y\), \(\mu\) é a média de \(Y\) na ausência do efeito dos produtos,
+\(\mu_i\) é a média para cada nível de produto e \(\sigma^2\) é a
+variância das observações ao redor desse valor médio (ou variância
+residual).
+
+Para fazer a estimação desses parâmetros é necessário que seja
+considerada uam restrição paramétrica. Para isso, no R por default
+considera-se o efeito do primeiro nível como zero ($\tau_1 = 0$). É
+possível mudar isso nas opções de contrastes do R. Outra parametrização,
+bem conhecida e usada, é a retrição do tipo soma zero dos efeitos ($\sum
+\tau_i = 0$) e para essa situação $\mu$ representa a média geral do
+experimento.
+
+A existem duas funções no R para ajustar esse modelo: `lm()` e
+`aov()`. Embora muitos acreditem que `aov()` deva ser preferida, por
+causa do nome AOV (Analysis Of Variance), a função `lm()` é tão
+apropriada quanto. Inclusive, objetos vindos da `lm()` dispõem de mais
+métodos que a da `aov()` em pacotes para fazer comparações múltiplas por
+exemplo. Sendo assim, vamos usar a `lm()`.
+
+```{r}
+#-----------------------------------------------------------------------
+# Ajuste do modelo.
+
+m0 <- lm(pulgoes ~ trat, data = BanzattoQd3.2.1)
+
+# Estimativas dos efeitos. Restrição de zerar primeiro nível.
+cbind(coef(m0))
+
+# Matriz de contrastes sob a retrição zerar primeiro nível.
+K <- cbind(1, contrasts(BanzattoQd3.2.1$trat))
+K
+
+# Médias estimadas pelo modelo.
+K %*% coef(m0)
+
+# Médias amostrais.
+aggregate(pulgoes ~ trat, data = BanzattoQd3.2.1, FUN = mean)
+```
+
+Conforme comentado, devido a restrição usada, os coeficientes estimados
+não são as médias em cada nível. Para a restrição do primeiro nível ter
+soma zero, o coeficiente `(Intercept)` é a média do primeiro nível, no
+caso ` `r levels(BanzattoQd3.2.1$trat)[1]` `. Os demais coeficientes
+são estimativas do constraste entre médias de cada um dos níveis
+restantes para com o primeiro nível.
+
+Como nesse exemplo existe uma testemunha, seria conveniente que a
+testemunha fosse o primeiro nível para então termos os contrastes como
+resultado do ajuste do modelo. Mas por outro lado, como a testemunha é o
+último nível, pode-se mudar o tipo de contraste para o `contr.SAS`, cuja
+restrição é zerar o efeito do último nível. Abaixo temos os resultados
+das duas opções.
+
+```{r}
+m1 <- update(m0, contrasts = list(trat = "contr.SAS"))
+coef(m1)
+
+BanzattoQd3.2.1 <- transform(BanzattoQd3.2.1,
+                             trat = relevel(trat, ref = "Testemunha"))
+
+levels(BanzattoQd3.2.1$trat)
+
+m0 <- update(m0,  data = BanzattoQd3.2.1)
+coef(m0)
+```
+
+## Avaliação dos pressupostos
+
+Para fazer inferência a partir do modelo ajustado aos dados, é
+necessário verificar se os pressupostos do modelo foram atendidos. Se
+não forem, não são fiéis as inferências produzidas pois a distribuição
+amostral das estatísticas de teste não são as mesmas com violação dos
+pressupostos.
+
+```{r}
+#-----------------------------------------------------------------------
+# Exibe o quarteto fantástico da avaliação dos pressupostos.
+par(mfrow = c(2, 2))
+plot(m0); layout(1)
+```
+
+O conjunto de gráficos acima exibe fuga dos pressupostos. A suposição
+violada é a de homogeneidade de variâncias. Vemos o padrão cone no
+gráfico 1-1 dessa matriz (Residuals vs Fitted). No gráfico 2-1
+(Scale-Location), temos enfase desse padrão porque a linha média mostra
+uma relação positiva da dispersão, representada pela raíz do valor
+absolutos dos resíduos padronizados, com os valores ajustados
+(média). Ou seja, a relação média-variância não é nula, pois se fosse, a
+linha de tendência seria horizontal. Por fim, o gráfico 1-2 (Normal
+Q-Q), exibe fuga do pressuposto de normalidade dos erros mas que
+influenciado pela relação média variância.
+
+Da forma como está, o modelo não tem os pressupostos atendidos. Logo não
+é recomendado fazer inferências. Precisamos remediar a fuga dos
+pressupostos antes e a opção mais comum é procurar uma tranformação que
+estabilize a variância. Em casos como esse, as transformações tipo
+potência são capazes de estabilizar a variância. Vamos considerar a
+transformação Box-Cox para isso.
+
+A tranformação Box-Cox baseia-se na escolha do valor $\lambda$ de tal
+maneira que se aumente a compatibilidade com a suposição de
+normalidade. A transformação aplicada aos é
+
+$$
+\begin{aligned}
+  y_{\text{transformado}} &=
+    \frac{y^{\lambda}-1}{\lambda}, \quad \text{ se }
+    \lambda\neq 0 \newline
+  y_{\text{transformado}} &= \log(y), \quad \text{ se } \lambda=0.
+\end{aligned}
+$$
+
+A transformação só pode ser aplicada para respostas positivas,
+$y>0$. Caso tenha-se zeros ou valores negativos pode-se somar uma
+constante aos dados. Como o que interessa da transformação é parte não
+linear (a potenciação), quando a transformação indicada é a potência, na
+prática apenas se aplica a função potência sem subtrair 1 e dividir por
+$\lambda$. No entanto, essa é a transformação de fato aplicada para
+calcular o valor da log-verossimilhança. Se houver a curiosidade de
+fazer o cálculo da log-verrossimilhança passo a passo, lembre-se de
+considerar o jacobiano da transformação.
+
+```{r}
+MASS::boxcox(m0)
+abline(v = c(0, 1/3), lty = 2, col = 2)
+```
+
+A função perfil de log-verossilhança em $\lambda$ tem intervalo de
+confiança (0,95%) que incluem os valores 0 e 1/3 que correspondem as
+transformações log e raíz cúbica, respectivamente. Não há necessidade de
+usar o valor exato correspondente ao máximo da função porque isso não
+vai mudar normalidade da variável transformada e, como o valor exato
+possívelmente é um valor quebrado, valores de $\lambda$ que correspondem
+a transformações conhecidas são convenientes, como log, raíze quadrada e
+raíz cúbica.
+
+Encontrada a transformação a ser aplicada, devemos ajustar o modelo com
+a variável transformada e avaliar novamente os pressupostos. Não existe
+garantia de qua a transformação irá corrigir a fuga, o que ela faz é
+remediar mas o resultado pode ainda pode não ser satisfatório.
+
+```{r}
+# Atualiza o modelo anterior passando o log na resposta.
+m0 <- update(m0, log(.) ~ .)
+
+par(mfrow = c(2, 2))
+plot(m0); layout(1)
+```
+
+Note agora que os gráficos não exibem padrões de fuga de
+pressupostos. Pelo gráfico 2-1, a relação média variância agora está
+estável (ou nula). Não há figas de normalidade de acordo com o gráfico
+1-2. Portanto, foi bem sucedida a aplicação da transformação log ao
+número de pulgões para que o modelo tivesse os pressupostos
+atendidos. Agora é possível fazer infências.
+
+## Inferências
+
+O objetivo de ter feito o experimento é saber se existe efeito dos
+produtos para o controle do pulgão na cultura do pepino. Ou seja, se o
+número médio de pulgões muda com o produto aplicado.
+
+O efeito dos produtos é representado pelos coeficientes $\tau_i$ no
+modelo estatístico do experimento. Se não existe efeito dos produtos, os
+valores estimados $\tau_{i}$ serão próximos a zero. A hipóteses nula de
+não haver efeito dos produtos é representada por
+
+$$
+  \text{H}_{0}: \tau_i = 0, \text{para todo}\,i.
+$$
+
+Essa hipótese é avaliada pelo estatística F do quadro de análise de
+variância.
+
+```{r}
+anova(m0)
+```
+
+Pelo quadro de anova (analysis or variance), temos que o valor da
+estatística F teve um $p$-valor bem pequeno, menor que qualquer nível de
+significancia adotado na prática. Dessa maneira, rejeitamos a hipótese
+nula de não haver efeito dos produtos ou log do número de pulgões ou,
+por consequência, no número de pulgões.
+
+Uma vez que existe efeito dos produtos, existe a necessidade de
+aprofundar o conhecimento sobre eles. As hipóteses a serem testadas
+devem ser estabalcidas antes da coleta dos dados e ajuste do modelo.
+Como foram estudados 4 níveis de
+produto e uma testemunha, as hipóteses vão agora considerar diferenças
+entre cada produto e a testemunha. Como a testemunha é o primeiro nível,
+temos que testar as hipóteses individuais
+
+$$
+  \text{H}_{0}: \mu_i - \mu_1 = 0, \text{para cada}\,i>1.
+$$
+
+Da forma como ajustamos o modelo, temos as estimativas dos contrastes
+disponível no vetor de coeficientes. O teste individual para cada
+parâmetro é exibido com o `summary()` do modelo.
+
+```{r}
+summary(m0)
+```
+```{r, include=FALSE}
+k <- nlevels(BanzattoQd3.2.1$trat) - 1
+p <- 1 - (1 - 0.05)^k
+```
+
+Na tabela dos coeficientes tem-se o valor t de cada um deles. O
+`(Intercept)` é a média do log do número de pulgões para a
+testemunha. Os demais representam contrastes dos produtos com relação à
+testemunha. Baseado no $p$-valor as hipóteses de contraste nulo com a
+testemunha são rejeitadas. Ou seja, todos os produtos tem um número
+médio diferente da testemunha, no caso um menor valor para média
+se comparado com a testemunha.
+
+Deve-se mencionar que se o nível de significância adotado é de 5% para
+cada teste, a probabilidade de rejeitar pelo menos 1 hipótese é $1 -
+(1 - 0,05)^{`r k`} = `r p`$, ou seja, superior ao 5% estabelecido. Com
+o aumento do número de hipóteses é consequência aumentar o nível de
+significância global (probabilidade de rejeitar pelo menos uma
+hipótese). Existem formas de corrigir a elevação do nível global de
+significancia, mas que não é objetivo dessa *vignette*.
+
+Uma adequada representação dos resultados é um gráfico com os valores
+médios e intervalo de confiança para os níveis dos produtos.
+
+```{r}
+pred <- data.frame(trat = levels(BanzattoQd3.2.1$trat))
+pred <- cbind(pred,
+              as.data.frame(predict(m0,
+                                    newdata = pred,
+                                    interval = "confidence")))
+pred$trat <- reorder(pred$trat, pred$fit)
+head(pred)
 
 library(latticeExtra)
-rm(list = ls())
-mycol <- c("#E41A1C", "#377EB8", "#4DAF4A",
-           "#984EA3", "#FF7F00", "#FFFF33")
 
-## Trellis graphical style.
-ps <- list(box.rectangle = list(col = 1, fill = c("gray70")),
-           box.umbrella = list(col = 1, lty = 1),
-           dot.symbol = list(col = 1, pch = 19),
-           dot.line = list(col = "gray50", lty = 3),
-           plot.symbol = list(col = 1, cex = 0.8),
-           plot.line = list(col = 1),
-           plot.polygon = list(col = "gray95"),
-           superpose.line = list(col = mycol, lty = 1),
-           superpose.symbol = list(col = mycol, pch = 1),
-           superpose.polygon = list(col = mycol),
-           strip.background = list(col = c("gray80", "gray50")))
-trellis.par.set(ps)
-## show.settings()
-
+segplot(trat ~ lwr + upr, centers = fit, data = pred,
+        draw = FALSE, horizontal = FALSE,
+        xlab = "Produtos para controle de pulgão",
+        ylab = "Log do número de pulgões",
+        scales = list(x = list(rot = 90)),
+        panel = function(x, y, z, centers, ...) {
+            panel.segplot(x = x, y = y, z = z, centers = centers, ...)
+            panel.text(x = as.numeric(z), y = centers,
+                       label = sprintf("%0.2f", centers),
+                       srt = 90, cex = 0.8, adj = c(0.5, -0.5))
+    })
 ```
 
-**Objetivos**
+## Gerando experimento em DIC
 
-O delimentos experimentais são fundamentais para vaaliação de hipóteses.
+É simples produzir o plano de um delineamento inteiramente
+casualizado. Vamos gerar o plano para executar um experimento
+semenlhante a esse, mas com 8 repetições e mais uma produto, o `Novo`
+produto.
 
-o delineamento inteiramente casualizado é o mais simples dos
-delineamentos. Ele estuda apenas uma fontes de variação de interesse e
-não tem fonte de variação de controle local. Se a fonte de variação pode
-ser a combinação de outras duas ou mais fontes. Quando isso acontece de
-termos vários fatores simultâneos, temos um experimento fatorial que
-trataremos mais adiante.
+```{r, eval=FALSE}
+trat <- rep(x = c(levels(BanzattoQd3.2.1$trat), "Novo"),
+            times = 8)
 
-O fator pode ser de níveis métricos ou categóricos. As hipóteses são
-diferentes.
+# Opção 1: sorteie os níveis para as unidades experimentais ordenadas.
+data.frame(trat = sample(trat), ue = 1:length(trat))
 
-Essa vinheta assume que o leitor tenha conhecimento prévio de
-planejamento e análise de experimentos.
+# Opção 2: sorteie as unidades experimentais ordenadas para os níveis.
+data.frame(trat = trat, ue = sample(1:length(trat)))
+```
 
-## Contextualização
-
-## Como gerar um DIC
-
-Ordene as unidades experimentais e associe a elas o tratamento
-correspondente.
+## Informações da sessão
 
 ```{r}
-k <- 4
-r <- 5
-
-sample(gl(k, r))
-
+sessionInfo()
 ```
-
-## O modelo estatístico
-
-O modelo estatístico que corresponde aos dados de um experimentos em
-delineamento inteiramente casualizado é
-
-$$
-\begin{aligned}
-  y_{ij} &= \mu + \tau_{i} + e_{ij} \\
-  e_{ij} &\sim \text{Normal}(0, \sigma^2),
-\end{aligned}
-$$
-
-em que $y_{ij}$ é o valor observado da variável resposta na unidade
-experimental $j$ do nível $i$, $\mu$ é a média se houver efeito do
-tratamento, $\tau_{i}$ é o efeito do nível $i$ e $e_{ij}$ representa um
-desvio aleatório proveninente de causas não controladas e que tem
-distribuição normal com variância $\sigma^2$.
-
-As letras gregas ($\mu$, $\tau_{i}$ e $\sigma^2$) representam os
-parâmetros desconhecidos que serão estimados a partir dos dados.
-
-O modelo também pode ser escrito assim
-
-$$
-\begin{aligned}
-  y_{ij} &\sim \text{Normal}(\mu_{i}, \sigma^2) \\
-  \mu_{i} &= \mu + \tau_{i},
-\end{aligned}
-$$
-
-## Hipóteses
-
-$$
-  H_{0}: \mu_{i} = \mu_{i'} \rightarrow \tau_{i} = 0\,\,\forall\, i
-$$
-
-## Tipo de efeito
-
-Fixo ou aleatório?
-
-## Ajuste e Diagóstico
-
-  * Relação média-variância nula ou homocedasticidade
-  * Normalidade
-
-```{r}
-str(mtcars)
-```
-
-## Teste das hipóteses
-
-  * Teste de nulinidade dos efeitos
-  * Comparações múltiplas ou contrastes
 
 <!------------------------------------------- -->
+
+[**labestData**]: https://gitlab.c3sl.ufpr.br/pet-estatistica/labestData
