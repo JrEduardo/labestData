@@ -64,6 +64,8 @@ build(manual = TRUE, vignettes = TRUE)
 #--------------------------------------------
 # Instalar o pacote.
 
+rm(list = ls())
+
 lib <- path.expand("~/R-test/")
 dir.create(lib)
 .libPaths(new = lib)
