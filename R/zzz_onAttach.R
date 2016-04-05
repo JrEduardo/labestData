@@ -7,7 +7,7 @@
     packageStartupMessage(
         paste0(dashes, "\n  ",
                pkg.info["Package"], ": ", pkg.info["Title"], "\n\n  ",
-               "Para colaboração, suporte ou ",
+               "Para colabora\u00e7\u00e3o, suporte ou ",
                "relato de bugs, visite:\n    ",
                pkg.info["URL"], "\n\n  ",
                pkg.info["Package"], " version ", pkg.info["Version"],
