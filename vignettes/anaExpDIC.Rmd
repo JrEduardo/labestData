@@ -8,7 +8,7 @@ vignette: >
 ---
 
 ```{r setup, include=FALSE}
-source("setup.R")
+source("_setup.R")
 ```
 
 ## Análise exploratória
