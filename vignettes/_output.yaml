@@ -4,5 +4,7 @@ html_document:
   toc: true
   toc_dep: 3
   css: style.css
+  fig_caption: yes
+  highlight: default
   includes:
     in_header: MathJax.html
