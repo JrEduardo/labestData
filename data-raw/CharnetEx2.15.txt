@@ -20,7 +20,7 @@ Eng. Controle e Automacao 	n	26.08	30.09	n	23.81	s	23.66	n
 Eng. de Computacao 	d	20.02	34.53	n	27.41	s	25.42	n
 Eng. Eletrica 	d	15.44	34.89	n	27.84	s	25.34	n
 Eng. Eletrica 	n	13.8	26.65	n	23.94	s	22.12	n
-Eng. Mecânica 	d	17.1	33.57	n	26.55	s	25.25	n
+Eng. Mecanica 	d	17.1	33.57	n	26.55	s	25.25	n
 Eng. Quimica 	d	10.62	36.2	s	25.72	s	24.7	n
 Eng. Quimica 	n	7.2	35.21	s	19.79	s	22.18	n
 Estatistica 	d	4.31	13.76	n	12.19	s	14.88	n

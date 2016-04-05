@@ -33,8 +33,9 @@
 #'
 #' @source Charnet, R., de Luna Freire, C.A., Charnet, E.M.R. & Bonvino,
 #'     H. (2008). Análise de modelos de regressão linear com aplicações
-#'     (2nd ed., p. 356). SP: Editora Unicamp (Capítulo 2, exercício 15,
-#'     página 50)
+#'     (2nd ed., p. 356). SP: Editora Unicamp (Cap. 2, exer. 15, p. 50,
+#'     cap. 7, exer. 3, p. 164, cap. 8, exer. 6, p. 197, cap. 9, exer. 
+#'     8, p. 231, cap. 10, exer. 3, p. 254)
 #'
 #' @examples
 #'
