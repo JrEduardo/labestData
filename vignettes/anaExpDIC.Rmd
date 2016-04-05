@@ -16,15 +16,12 @@ source("setup.R")
 Nessa *vignette* vamos considerar `BanzattoQd3.2.1`, já disponível no
 pacote [**labestData**].
 
-```{r, eval=FALSE}
+```{r}
 library(labestData)
-# ls("package:labestData")
-
-help(BanzattoQd3.2.1, help_type = "html")
+ls("package:labestData")
 ```
-```{r, echo=FALSE, message=FALSE}
-devtools::load_all()
-# ls("package:labestData")
+```{r, eval=FALSE}
+help(BanzattoQd3.2.1, help_type = "html")
 ```
 
 Este conjunto de dados é de um experimento instalado em delineamento
