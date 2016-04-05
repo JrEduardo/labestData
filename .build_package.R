@@ -42,19 +42,19 @@ if (cp > 0) {
 }
 
 #--------------------------------------------
+# Gerar as vinhetas, caso existam.
+
+if (length(list.files("./vignettes"))) {
+    build_vignettes(dependencies = FALSE)
+}
+
+#--------------------------------------------
 # Checar conteúdo e organização do pacote.
 
 check(cleanup = FALSE,
       manual = TRUE,
       vignettes = FALSE,
       check_dir = "../")
-
-#--------------------------------------------
-# Gerar as vinhetas, caso existam.
-
-if (length(list.files("./vignettes"))) {
-    build_vignettes(dependencies = FALSE)
-}
 
 #--------------------------------------------
 # Construir pacote.
