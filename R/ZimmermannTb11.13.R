@@ -1,26 +1,27 @@
 #' @name ZimmermannTb11.13
 #' @title Absorção e Translocação de Zinco em Arroz de Terras Altas
 #' @description Dados de um experimento fatorial \eqn{3^3}, com
-#'     confundimento parcial de 2 graus de liberdade da interação dupla. 
-#'     O estudo é sobre a absorção e translocação de zinco em arroz de terras
-#'     altas sob a influência de fósforo e calcário, num delineamento de blocos
-#'     ao acaso com três repetições. Os níveis dos fatores eram de 0,5 e 10 
-#'     kg/ha para o zinco (A), 0, 50 e 100 kg/ha para o fósforo e 0, 1.5 e 3
-#'     ton/ha para o calcário. Utilizou-se o grupo Z de Yates. Os dados são de
-#'     produção de grãos, em kg ha\eqn{^{-1}}.  
+#'     confundimento parcial de 2 graus de liberdade da interação dupla.
+#'     O estudo é sobre a absorção e translocação de zinco em arroz de
+#'     terras altas sob a influência de fósforo e calcário, num
+#'     delineamento de blocos ao acaso com três repetições. Os níveis
+#'     dos fatores eram de 0,5 e 10 kg/ha para o zinco (A), 0, 50 e 100
+#'     kg/ha para o fósforo e 0, 1.5 e 3 ton/ha para o
+#'     calcário. Utilizou-se o grupo Z de Yates. Os dados são de
+#'     produção de grãos, em kg ha\eqn{^{-1}}.
 #' @format Um \code{data.frame} com 81 observações e 4 variáveis
 #'
 #' \describe{
 #'
 #' \item{\code{rept}{Fator de níveis numéricos. Identifica a repetição
 #'    da observação.}
-#'    
-#' \item{\code{bloco}}{Fator de níveis numéricos. Identifica o bloco da 
+#'
+#' \item{\code{bloco}}{Fator de níveis numéricos. Identifica o bloco da
 #'     repetição.}
-#'     
+#'
 #' \item{\code{prod}}{Produtividade de graos, em kg ha\eqn{^{-1}}.}
 #'
-#' \item{\code{iden}}{Fator de níveis numéricos. É a identificação que 
+#' \item{\code{iden}}{Fator de níveis numéricos. É a identificação que
 #'     representa o tratamento.}
 #'
 #' @keywords DBC FAT
@@ -35,15 +36,15 @@
 #'
 #' str(ZimmermannTb11.13)
 #'
-#' aggregate(prod ~ bloco, data = ZimmermannTb11.13, 
+#' aggregate(prod ~ bloco, data = ZimmermannTb11.13,
 #'           FUN = function(x) { c(mean = mean(x), var = var(x)) })
-#' 
-#' aggregate(prod ~ iden, data = ZimmermannTb11.13, 
+#'
+#' aggregate(prod ~ iden, data = ZimmermannTb11.13,
 #'           FUN = function(x) { c(mean = mean(x), var = var(x)) })
-#' 
-#' xyplot(prod ~ iden | rept, groups = bloco, data = ZimmermannTb11.13, 
+#'
+#' xyplot(prod ~ iden | rept, groups = bloco, data = ZimmermannTb11.13,
 #'        type = c("p","a"),
-#'        ylab = "Identificação do Tratamento", 
+#'        ylab = "Identificação do Tratamento",
 #'        xlab = expression("Produção de Grãos"~(kg~ha^{-1})))
-#'        
+#'
 NULL

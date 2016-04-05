@@ -42,8 +42,11 @@
 #'
 #' xyplot(massa ~ lam | solo, groups = nit,
 #'        data = ZimmermannTb10.20,
-#'        type = c("p", "a"),
-#'        xlab = "Fatores",
+#'        type = c("p", "a"), as.table = TRUE,
+#'        auto.key = list(title = "Níveis de nitrgênio",
+#'                        cex.title = 1.1, columns = 3),
+#'        strip = strip.custom(strip.names = TRUE, var.name = "Solo"),
+#'        xlab = "Lâmina de irrigação",
 #'        ylab = "Massa de 100 grãos de feijão")
 #'
 NULL
