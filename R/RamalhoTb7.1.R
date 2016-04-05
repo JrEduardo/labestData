@@ -34,9 +34,9 @@
 #'
 #' xtabs(~prog + rept, data = RamalhoTb7.1)
 #'
-#' xyplot(vol ~ plant | rept, data = RamalhoTb7.1,
-#'        jitter.x = TRUE,
+#' xyplot(vol ~ plant, data = RamalhoTb7.1,
+#'        jitter.x = TRUE, groups = rept,
 #'        xlab = "Progênie",
-#'        ylab = "Volume")
+#'        ylab = expression("Volume de madeira"~(10^{4}~m^{3})))
 #'
 NULL

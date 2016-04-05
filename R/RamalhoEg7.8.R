@@ -12,7 +12,7 @@
 #' \item{\code{fam}}{Família \eqn{F_{5}} do cruzamento Jalo x Small
 #'     White.}
 #'
-#' \item{\code{rept}}{Fator que indica a repetição da combinação entre 
+#' \item{\code{rept}}{Fator que indica a repetição da combinação entre
 #'     família \eqn{F_{5}} e planta.}
 #'
 #' \item{\code{plant}}{Inteiro que indica a planta de feijão avaliada no
@@ -29,6 +29,10 @@
 #'
 #' library(lattice)
 #'
+#' data(RamalhoEg7.8)
+#'
+#' str(RamalhoEg7.8)
+#'
 #' xtabs(~fam + rept, data = RamalhoEg7.8)
 #'
 #' ps <- list(box.rectangle = list(col = 1, fill = c("gray90")),
@@ -37,7 +41,8 @@
 #'
 #' bwplot(prod ~ fam, data = RamalhoEg7.8,
 #'        horizontal = FALSE, pch = "|",
-#'        xlab = "Família", ylab = "Produção de grãos",
+#'        xlab = "Família",
+#'        ylab = "Produção de grãos (g/planta)",
 #'        par.settings = ps)
 #'
 NULL
