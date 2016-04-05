@@ -38,15 +38,14 @@ O Guia de Contribuição serve para orientar a forma de trabalhar, tanto
 individual quanto em equipe, para que seja eficiente, padronizada,
 coordenada e segura. Ele estabelece as regras e etapas principais do
 desenvolvimento de um projeto. O Guia de Contribuição incluí orientações
-de como escrever o código, as mensagens de *commit* criar arquivos, etc
-TODO TODO TODO
+de como escrever o código, as mensagens de *commit*, criar arquivos,
+etc.
 
 Interessados em participar do projeto devem se orientar pelo Guia de
 Contribuição sobre como o desenvolvimento acontece, pois nele são
 documentadas coisas sobre as tarefas e as responsabilidades dos
 indivíduos e equipes, as etapas e prazos para atingir as metas do
 projeto.
-
 
 ## Qual é o Guia de Estilo de Código? ##
 
@@ -69,8 +68,6 @@ desde como aos objetos até o uso de espaço ao redor dos operadores.
 
 ## Qual é o fluxo de trabalho do *labestData*? ##
 
-TODO talvez trocar de lugar
-
 O fluxo de trabalho é a sequência de etapas que devem ser cumpridas para
 atingir um resultado. No *labestData*, o fluxo de trabalho tem unidade
 semanal de desenvolvimento e acompanhamento.
@@ -84,19 +81,19 @@ semanal de desenvolvimento e acompanhamento.
      como `#7` e isso deve ser usado nas comunicações. O GitLab cria
      links para os *issues* automaticamente nas mensagens quando se
      escreve o número precedido de #, como `#7`.
-  2. Faça uma atualização do seu ramo `devel` local com o ramo `devel`
-     remoto do projeto no GitLab (atualize o HEAD). QUando você executa
+  2. Faça uma atualização do seu ramo `baby` local com o ramo `baby`
+     remoto do projeto no GitLab (atualize o HEAD). Quando você executa
      o comando `git branch -a`, aqueles precedidos de `remote/` são os
-     remotos. Isso pode ser feito com o comando `git fetch origin devel`
-     que atualiza o `remotes/origin/devel` seguido de `git merge
-     origin/devel` para passar do remoto para o local o conteúdo
-     trazido. O comando `git pull origin devel` executa as duas ações em
+     remotos. Isso pode ser feito com o comando `git fetch origin baby`
+     que atualiza o `remotes/origin/baby` seguido de `git merge
+     origin/baby` para passar do remoto para o local o conteúdo
+     trazido. O comando `git pull origin baby` executa as duas ações em
      um único comando. Em caso de insegurança, visite a
      [Apostila de Git do PET Estatística](https://gitlab.c3sl.ufpr.br/pet-estatistica/apostila-git/raw/devel/apostila_git.pdf).
-  3. Crie um *branch* para começar o trabalho que você descreveu no
-     *issue* que acabou de criar no GitLab. O nome do ramo deve ser
-     formado pelo seu nome e número identificador, aquele atribuído ao
-     *issue* assim que ele foi criado, como `angela23` e
+  3. Crie um *branch*, a partir do `baby`, para começar o trabalho que
+     você descreveu no *issue* que acabou de criar no GitLab. O nome do
+     ramo deve ser formado pelo seu nome e número identificador, aquele
+     atribuído ao *issue* assim que ele foi criado, como `angela23` e
      `eduardo31`. Usar esse padrão facilita para os membros descobrirem
      do se se trata esse *branch*, pois basta consultar o *issue* de
      mesmo número, e quem é o responsável pelo mesmo.
@@ -146,22 +143,25 @@ semanal de desenvolvimento e acompanhamento.
      com os *commits* contam a trajetória do projeto - permanem no
      GitLab.
 
-**Guia de códigos R e GIT para as atividades semanais** TODO
+**Guia de códigos R e GIT para as atividades semanais**
 
 A cada semana devem ser criados novos ramos para realização das
 atividades propostas. Porém deve-se ter atenção ao criá-los. Estes ramos
-devem necessariamente sair do ramo `devel`. Não é necessário que o ramo
-de trabalho anterior tenha sido incorporado ao devel, ou seja, para
-criar o `fulano2` não precisa ter o `fulano1` incorporado ao
-`devel`. Abaixo temos os comandos Git para criar o ramo a partir do
-`devel`.
+devem necessariamente sair do ramo `baby`. O ramo `baby` contém apenas
+um conjunto de dados para que adicionar os novos, seja mais fácil
+revisar as contribuições.
+
+Não é necessário que o ramo de trabalho anterior tenha sido incorporado
+ao devel, ou seja, para criar o `fulano2` não precisa ter o `fulano1`
+incorporado ao `devel`. Abaixo temos os comandos Git para criar o ramo a
+partir do `baby`.
 
 ```bash
-# Retorna para o ramo devel (move o HEAD)
-git checkout devel
+# Retorna para o ramo baby (move o HEAD)
+git checkout baby
 
-# Atualiza o ramo devel com a versão do servidor
-git pull origin devel
+# Atualiza o ramo baby com a versão do servidor
+git pull origin baby
 
 # Cria um ramo para desenvolver as atividades propostas no issue00
 git branch fulano00
@@ -173,7 +173,7 @@ git checkout fulano00
 Com isso já estamos em um ramo, `fulano00` criado especificamente para o
 desenvolvimento das atividades propostas no `issue #00`, assim podemos
 prosseguir com o trabalho propriamente dito, a adição de conjunto de
-dados. Note que o ramo saiu do `devel`.
+dados. Note que o ramo saiu do `baby`.
 
 ```r
 #=======================================================================
@@ -270,6 +270,9 @@ git commit -m "Adiciona tabela 0.0 do livro do Ciclano"
 # automaticamente
 git checkout -- .
 
+# Limpe o seu deiretório removendo os arquivos não rastreados.
+git clean -xfd
+
 # Enviando as alterações para o servidor
 git push origin fulano00
 ```
@@ -281,8 +284,9 @@ Vale ressaltar que este guia de códigos compreende a rotina básica para
 inclusão de um conjunto de dados, se for necessária a inclusão de um
 biblioteca para elaboração de gráficos ou análises ou ainda forem
 criadas funções para o pacote os arquivos NAMESPACE e DESCRIPTION
-deverão ser alterados e essas alterações comitadas.
-
+deverão ser alterados e essas alterações comitadas. Veja a seção
+[Como habilitar no DESCRIPTION](#como-habilitar-no-description) como
+adicionar declarar o uso de pacotes.
 
 ## Como dar nome aos datasets? ##
 
