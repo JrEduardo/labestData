@@ -2,7 +2,7 @@ library(knitr)
 opts_chunk$set(cache = FALSE,
                tidy = FALSE,
                fig.width = 6,
-               fig.height = 4.5,
+               fig.height = 6,
                fig.align = "center",
                dpi = 100,
                dev = "png",
