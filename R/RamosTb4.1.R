@@ -1,18 +1,16 @@
 #' @name RamosTb4.1
 #' @title Temperatura de eletrodos de carbono 
-#' @description Conjunto de dados da temperatura dos eletrodos  
-#'     de carbono com 25 amostras de tamanho 8 em um processo 
+#' @description Conjunto de dados referente às temperaturas de eletrodos  
+#'     de carbono, com 25 amostras de tamanho 8, em um processo 
 #'     de alumínio em uma indústria.
 #'
-#' @format Um \code{data.frame} com 75 observações e 3 variáveis, em que
+#' @format Um \code{data.frame} com 75 observações e duas variáveis, em que
 #'
 #' \describe{
 #'
 #' \item{\code{amostra}}{Número da amostra.}
 #'
-#' \item{\code{subamostra}}{Número da subamostra conforme a amostra.}
-#'
-#' \item{\code{temperat}}{Temperatura em °C dos eletrodos de carbono.}
+#' \item{\code{temperat}}{Temperatura dos eletrodos de carbono (em °C ).}
 #'     
 #' }
 #' @keywords CEQ
