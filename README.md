@@ -2,6 +2,12 @@
 
 **PET Estatística UFPR** - <pet.estatistica.ufpr@gmail.com>
 
+[![Build Status](https://travis-ci.org/pet-estatistica/labestData.svg?branch=master)](https://travis-ci.org/pet-estatistica/labestData)
+Build status for the stable version (`master` branch)
+
+[![Build Status](https://travis-ci.org/pet-estatistica/labestData.svg?branch=devel)](https://travis-ci.org/pet-estatistica/labestData)
+Build status for the development version (`devel` branch)
+
 > “Without data, you're just another person with an opinion.”
 >
 >> -- W. Edwards Deming
