@@ -19,7 +19,7 @@ atividades propostas para cada semana e integrante. Cada coluna da
 tabela, com exceção da que apresenta os integrantes e os "mergeadores",
 mostra o *status* e o respectivo MR (*Merge Request*) solicitado para
 incorporar a realização das atividades propostas no ramo `devel` do
-projeto. Para facitar a visualização o *emoji* :white\_check\_mark:,
+projeto. Para facilitar a visualização o *emoji* :white\_check\_mark:,
 representa que o trabalho foi REALIZADO e :x: o NÃO REALIZADO.
 
 <table>
@@ -47,7 +47,7 @@ representa que o trabalho foi REALIZADO e :x: o NÃO REALIZADO.
 <td align="center">:white_check_mark: / MR!13</td>
 <td align="center">:white_check_mark: / MR!25</td>
 <td align="center">:x: / -</td>
-<td align="center">. / .</td>
+<td align="center">:white_check_mark: / MR!39</td>
 <td align="center">. / .</td>
 <td align="center">. / .</td>
 <td align="center">. / .</td>
@@ -61,7 +61,7 @@ representa que o trabalho foi REALIZADO e :x: o NÃO REALIZADO.
 <td align="center">:x: / -</td>
 <td align="center">:x: / -</td>
 <td align="center">:x: / -</td>
-<td align="center">. / .</td>
+<td align="center">:x: / -</td>
 <td align="center">. / .</td>
 <td align="center">. / .</td>
 <td align="center">. / .</td>
@@ -69,13 +69,13 @@ representa que o trabalho foi REALIZADO e :x: o NÃO REALIZADO.
 <td align="center">. / .</td>
 </tr>
 <tr class="odd">
-<td align="left">Angela L. C. Legey</td>
+<td align="left">Ângela L. C. Legey</td>
 <td align="left">Cesar</td>
 <td align="center">:white_check_mark: / MR!2</td>
 <td align="center">:white_check_mark: / MR!15</td>
 <td align="center">:white_check_mark: / MR!23</td>
 <td align="center">:white_check_mark: / MR!30</td>
-<td align="center">. / .</td>
+<td align="center">:white_check_mark: / MR!37</td>
 <td align="center">. / .</td>
 <td align="center">. / .</td>
 <td align="center">. / .</td>
@@ -89,7 +89,7 @@ representa que o trabalho foi REALIZADO e :x: o NÃO REALIZADO.
 <td align="center">:white_check_mark: / MR!11</td>
 <td align="center">:white_check_mark: / MR!17</td>
 <td align="center">:white_check_mark: / MR!32</td>
-<td align="center">. / .</td>
+<td align="center">:x: / -</td>
 <td align="center">. / .</td>
 <td align="center">. / .</td>
 <td align="center">. / .</td>
@@ -103,7 +103,7 @@ representa que o trabalho foi REALIZADO e :x: o NÃO REALIZADO.
 <td align="center">:white_check_mark: / MR!22</td>
 <td align="center">:x: / -</td>
 <td align="center">:x: / -</td>
-<td align="center">. / .</td>
+<td align="center">:x: / -</td>
 <td align="center">. / .</td>
 <td align="center">. / .</td>
 <td align="center">. / .</td>
@@ -117,7 +117,7 @@ representa que o trabalho foi REALIZADO e :x: o NÃO REALIZADO.
 <td align="center">:white_check_mark: / MR!27</td>
 <td align="center">:x: / -</td>
 <td align="center">:white_check_mark: / MR!31</td>
-<td align="center">. / .</td>
+<td align="center">:white_check_mark: / MR!38</td>
 <td align="center">. / .</td>
 <td align="center">. / .</td>
 <td align="center">. / .</td>
@@ -131,7 +131,7 @@ representa que o trabalho foi REALIZADO e :x: o NÃO REALIZADO.
 <td align="center">:white_check_mark: / MR!14</td>
 <td align="center">:white_check_mark: / MR!21</td>
 <td align="center">:white_check_mark: / MR!35</td>
-<td align="center">. / .</td>
+<td align="center">:white_check_mark: / MR!41</td>
 <td align="center">. / .</td>
 <td align="center">. / .</td>
 <td align="center">. / .</td>
@@ -143,9 +143,9 @@ representa que o trabalho foi REALIZADO e :x: o NÃO REALIZADO.
 <td align="left">Cesar</td>
 <td align="center">:white_check_mark: / MR!5</td>
 <td align="center">:white_check_mark: / MR!19</td>
+<td align="center">:x: / MR!36</td>
 <td align="center">:x: / -</td>
 <td align="center">:x: / -</td>
-<td align="center">. / .</td>
 <td align="center">. / .</td>
 <td align="center">. / .</td>
 <td align="center">. / .</td>
@@ -159,7 +159,7 @@ representa que o trabalho foi REALIZADO e :x: o NÃO REALIZADO.
 <td align="center">:white_check_mark: / MR!16</td>
 <td align="center">:white_check_mark: / MR!26</td>
 <td align="center">:white_check_mark: / MR!29</td>
-<td align="center">. / .</td>
+<td align="center">:white_check_mark: / MR!40</td>
 <td align="center">. / .</td>
 <td align="center">. / .</td>
 <td align="center">. / .</td>
@@ -167,13 +167,13 @@ representa que o trabalho foi REALIZADO e :x: o NÃO REALIZADO.
 <td align="center">. / .</td>
 </tr>
 <tr class="even">
-<td align="left">Monica L. H. Oliveira</td>
+<td align="left">Mônica L. H. Oliveira</td>
 <td align="left">Walmes</td>
 <td align="center">:x: / -</td>
 <td align="center">:x: / -</td>
 <td align="center">:x: / -</td>
 <td align="center">:x: / -</td>
-<td align="center">. / .</td>
+<td align="center">:x: / -</td>
 <td align="center">. / .</td>
 <td align="center">. / .</td>
 <td align="center">. / .</td>
@@ -187,7 +187,7 @@ representa que o trabalho foi REALIZADO e :x: o NÃO REALIZADO.
 <td align="center">:white_check_mark: / MR!20</td>
 <td align="center">:white_check_mark: / MR!24</td>
 <td align="center">:white_check_mark: / MR!33</td>
-<td align="center">. / .</td>
+<td align="center">:x: / -</td>
 <td align="center">. / .</td>
 <td align="center">. / .</td>
 <td align="center">. / .</td>
@@ -201,7 +201,7 @@ representa que o trabalho foi REALIZADO e :x: o NÃO REALIZADO.
 <td align="center">:white_check_mark: / MR!18</td>
 <td align="center">:white_check_mark: / MR!28</td>
 <td align="center">:white_check_mark: / MR!34</td>
-<td align="center">. / .</td>
+<td align="center">:white_check_mark: / MR!41</td>
 <td align="center">. / .</td>
 <td align="center">. / .</td>
 <td align="center">. / .</td>
@@ -215,7 +215,7 @@ representa que o trabalho foi REALIZADO e :x: o NÃO REALIZADO.
 <td align="center">-</td>
 <td align="center">-</td>
 <td align="center">-</td>
-<td align="center">. / .</td>
+<td align="center">-</td>
 <td align="center">. / .</td>
 <td align="center">. / .</td>
 <td align="center">. / .</td>
@@ -242,23 +242,61 @@ indicado:
 <!-- mais antiga. -->
 <!--------------------------------------------- -->
 <!-- * **Semana 10 - (03/05 - 10/05)** -->
-<!--     + **Alcides Conte Neto** -->
-<!--     + **Altamiro Antonio Basiewics** -->
-<!--     + **Angela Luiza Cunha Legey** -->
-<!--     + **Bruna Davies Wundervald** -->
+<!--     + **Alcides C. Neto** -->
+<!--     + **Altamiro A. Basiewics** -->
+<!--     + **Ângela L. C. Legey** -->
+<!--     + **Bruna D. Wundervald** -->
 <!--     + **Bruno Geronymo** -->
 <!--     + **Daniel Ikenaga** -->
-<!--     + **Eduardo Elias Ribeiro Junior** -->
-<!--     + **Gabriel Sartori Klostermann** -->
-<!--     + **Jhenifer Caetano Veloso** -->
-<!--     + **Monica Ludmila Hintz De Oliveira** -->
-<!--     + **Paula Alessandra Zeizer Dimas** -->
-<!--     + **Walmes Marques Zeviani** -->
-<!--     + **Cesar Augusto Taconeli** -->
+<!--     + **Eduardo E. R. Junior** -->
+<!--     + **Gabriel S. Klostermann** -->
+<!--     + **Jhenifer C. Veloso** -->
+<!--     + **Mônica L. H. De Oliveira** -->
+<!--     + **Paula A. Z. Dimas** -->
+<!--     + **Walmes M. Zeviani** -->
+<!--     + **Cesar A. Taconeli** -->
 <!-- * **Semana 9 - (26/04 - 03/05)** -->
 <!-- * **Semana 8 - (19/04 - 26/04)** -->
 <!-- * **Semana 7 - (12/04 - 19/04)** -->
-<!-- * **Semana 6 - (05/04 - 12/04)** -->
+-   **Semana 6 - (05/04 - 12/04)**
+    -   **Alcides C. Neto**: Concluir a issue \#53 (2 tabelas)
+    -   **Altamiro A. Basiewics**: **Concluir as atividades das QUATRO
+        semanas anteriores**; e concluir a issue \#90 (3 tabelas)
+    -   **Ângela L. C. Legey**: Concluir a issue \#72 (4 tabelas)
+    -   **Bruna D. Wundervald**: **Concluir as atividades da semana
+        anterior**; e incluir *issue* \#23 (nº de tabelas não informado
+        na *issue*).
+    -   **Bruno Geronymo**: **Concluir as atividades das TRÊS semanas
+        anteriores**; e concluir *issue* \#45 (5 tabelas).
+    -   **Daniel Ikenaga**: Concluir a *issue* \#81 (6 tabelas)
+    -   **Eduardo E. R. Junior**: Atualizar o `plano.md`; Realizar as
+        eventuais correções de MR e incorporá-los ao ramo `devel`;
+        concluir a *issue* \#32 (3 tabelas); e incluir o esboço de uma
+        *vignette* sobre regressão linear simples.
+    -   **Gabriel S. Klostermann**: **Concluir as atividades das 2
+        semanas anteriores**; e concluir *issue* \#59 (2 tabelas).
+    -   **Jhenifer C. Veloso**: Concluir *issue* \#64 (nº de tabelas não
+        informado na *issue*).
+    -   **Mônica L. H. De Oliveira**: **Concluir as atividades das CINCO
+        semanas anteriores**; e adicionar os demais *datasets* para
+        concluir a obra
+    -   **Paula A. Z. Dimas**: **Concluir o trabalho da semana anterior,
+        solicitando MR**; e concluir a *issue* \#76 (nº de tabelas não
+        informado na *issue*).
+    -   **Walmes M. Zeviani**: Realizar as eventuais correções de MR e
+        incorporá-los ao ramo `devel`; Concluir a *issue* \#12 ();
+        adicionar outra *vignette* ao pacote; e criar o ramo `baby` e
+        atualizar o `CONTRIBUTING.md` com o fluxo sob o novo ramo
+    -   **Cesar A. Taconeli**: Realizar as eventuais correções de MR e
+        incorporá-los ao ramo `devel`;e Revisar a *vignette* adicionada
+        pelo Walmes.
+
+Nesta semana Eduardo relatou sobre o tempo despendido na verificação do
+pacote devido aos vários *datasets* e que esse tempo só tende a
+aumentar. Com isso foi decidido pela criação de um ramo, sob o nome de
+`baby` sem os *datasets* mas com os arquivos `DESCRIPTION`, `.gitignore`
+e demais adicionais para funcionamento do pacote.
+
 -   **Semana 5 - (29/03 - 05/04)**
     -   **Alcides C. Neto**: **Concluir as atividades da semana
         anterior**; e adicionar mais as tabelas de dados para exercício
@@ -413,7 +451,7 @@ instalação. Sobre o `devtools`, pacote R para desenvolvedores, há a
 Lista de datasets
 -----------------
 
-Até o momento, no ramo `devel` temos 94 conjuntos de dados já
+Até o momento, no ramo `devel` temos 113 conjuntos de dados já
 devidamente incluídos, documentados e revisados. Abaixo a contagem de
 *datasets* por obra.
 
@@ -423,68 +461,93 @@ devidamente incluídos, documentados e revisados. Abaixo a contagem de
 <th align="left">Livros</th>
 <th align="center">Número de datasets</th>
 <th align="center">Número de observações</th>
+<th align="left">Tamanho em disco</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td align="left">Banzatto</td>
-<td align="center">12</td>
-<td align="center">1296</td>
+<td align="center">16</td>
+<td align="center">2328</td>
+<td align="left">42.133 Kb</td>
 </tr>
 <tr class="even">
 <td align="left">Charnet</td>
 <td align="center">10</td>
 <td align="center">1575</td>
+<td align="left">16.602 Kb</td>
 </tr>
 <tr class="odd">
 <td align="left">Costa</td>
-<td align="center">2</td>
-<td align="center">132</td>
+<td align="center">4</td>
+<td align="center">356</td>
+<td align="left">9.68 Kb</td>
 </tr>
 <tr class="even">
 <td align="left">Demetrio</td>
 <td align="center">18</td>
 <td align="center">801</td>
+<td align="left">22.172 Kb</td>
 </tr>
 <tr class="odd">
 <td align="left">Dias</td>
 <td align="center">2</td>
 <td align="center">143</td>
+<td align="left">0.641 Kb</td>
 </tr>
 <tr class="even">
 <td align="left">Dinorah</td>
 <td align="center">1</td>
 <td align="center">660</td>
+<td align="left">6.445 Kb</td>
 </tr>
 <tr class="odd">
+<td align="left">Epprecht</td>
+<td align="center">3</td>
+<td align="center">600</td>
+<td align="left">5.789 Kb</td>
+</tr>
+<tr class="even">
 <td align="left">Ferreira</td>
 <td align="center">7</td>
 <td align="center">533</td>
-</tr>
-<tr class="even">
-<td align="left">Manly</td>
-<td align="center">1</td>
-<td align="center">294</td>
+<td align="left">11.109 Kb</td>
 </tr>
 <tr class="odd">
-<td align="left">Mingoti</td>
-<td align="center">8</td>
-<td align="center">2150</td>
+<td align="left">Manly</td>
+<td align="center">3</td>
+<td align="center">673</td>
+<td align="left">11.773 Kb</td>
 </tr>
 <tr class="even">
+<td align="left">Mingoti</td>
+<td align="center">10</td>
+<td align="center">2750</td>
+<td align="left">29.031 Kb</td>
+</tr>
+<tr class="odd">
 <td align="left">Pimentel</td>
 <td align="center">7</td>
 <td align="center">422</td>
+<td align="left">14.969 Kb</td>
+</tr>
+<tr class="even">
+<td align="left">Ramalho</td>
+<td align="center">13</td>
+<td align="center">5274</td>
+<td align="left">47.039 Kb</td>
 </tr>
 <tr class="odd">
-<td align="left">Ramalho</td>
-<td align="center">10</td>
-<td align="center">1194</td>
+<td align="left">Ramos</td>
+<td align="center">3</td>
+<td align="center">114</td>
+<td align="left">3.141 Kb</td>
 </tr>
 <tr class="even">
 <td align="left">Zimmermann</td>
 <td align="center">16</td>
 <td align="center">5107</td>
+<td align="left">64.969 Kb</td>
 </tr>
 </tbody>
 </table>
