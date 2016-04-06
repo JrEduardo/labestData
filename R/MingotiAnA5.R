@@ -1,8 +1,8 @@
 #' @name MingotiAnA5
 #' @title Seleção de alunos para um programa de pós-graduação
 #' @description Um programa de pós-graduação dividiu 62 candidatos do 
-#'     ano anterior em 3 grupos: (I) candidatos aprovados, 
-#'     (II) candidatos na lista de espera e (III) candidatos que não
+#'     ano anterior em 3 grupos: (1) candidatos aprovados, 
+#'     (2) candidatos na lista de espera e (3) candidatos que não
 #'     foram aprovados. Para a nova seleção, os responsáveis pensam em
 #'     considerar a nota da prova de conhecimento específico e a nota 
 #'     atribuída ao histórico escolar.      
@@ -13,7 +13,7 @@
 #' \item{\code{cand}}{Número de identificação do candidato.}
 #'     
 #' \item{\code{grupo}}{Grupo ao qual o candidato foi alocado, segundo 
-#'     seu desempenho no processo seletivo (I, II ou III).}
+#'     seu desempenho no processo seletivo (1, 2 ou 3).}
 #'     
 #' \item{\code{nota}}{Nota da prova de conhecimento específico da área
 #'     do programa.}
@@ -29,9 +29,6 @@
 #' @examples
 #'
 #' data(MingotiAnA5)
-#' 
-#' library(lattice)
-#' 
-#' pairs(MingotiAnA5)
-#'
+#' require(lattice)
+#' xyplot(histor~nota, groups=grupo, data=MingotiAnA5, auto.key=T)
 NULL

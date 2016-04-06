@@ -40,16 +40,5 @@
 #'
 #' data(MingotiAnA2)
 #' 
-#' par(mfrow = c(1,2))
-#' boxplot(MingotiAnA2$venda, 
-#'        MingotiAnA2$lucro, 
-#'        MingotiAnA2$clie, 
-#'        names = c("venda","lucro","cliente"))
-#'
-#'boxplot(MingotiAnA2$escri, 
-#'        MingotiAnA2$logica, 
-#'        MingotiAnA2$social, 
-#'        MingotiAnA2$mate,
-#'        names = c("escrita","logica","social","matema"))
-#'
+#' pairs(MingotiAnA2)
 NULL
