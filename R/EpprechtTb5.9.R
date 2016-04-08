@@ -3,7 +3,7 @@
 #' @description Após a aquisição de um equipamento de medição mais 
 #'     sofisticado que o anterior, foi realizado um estudo de 
 #'     repetitividade e reprodutividade do processo de medida com o 
-#'     equipamento. Cada peça foi medida três vezes por cada um de
+#'     novo equipamento. Cada peça foi medida três vezes por cada um de
 #'     dois operadores.
 #' 
 #' 
@@ -32,13 +32,11 @@
 #' 
 #' EpprechtTb5.9$op <- as.factor(EpprechtTb5.9$op)
 #' 
-#' grid(nx=NA, ny=NULL)
-#' par(new=TRUE)
 #' boxplot(tam~op, data=EpprechtTb5.9,
-#'         xlab="Operário", 
+#'         xlab="Operador", 
 #'         ylab="Tamanho", 
-#'         main="Boxplot do tamanho das peças medidas pelos dois operários",
+#'         main="Boxplot dos tamanhos das peças medidas pelos dois operadores",
 #'         col=c("#F0FFFF","#FFDAB9"))
-#' 
+#' grid(nx=NA, ny=NULL, col="grey")
 #'                   
 NULL

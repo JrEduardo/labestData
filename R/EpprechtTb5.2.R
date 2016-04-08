@@ -1,5 +1,5 @@
 #' @name EpprechtTb5.2
-#' @title Medidas de peças de uma linha de produção
+#' @title Medidas de peças em uma linha de produção
 #' @description Dados referentes às medidas de peças de uma linha de
 #'     produção. O objetivo é analisar a repetitividade e a 
 #'     reprodutividade de um micrômetro com leitura milesimal, usado na
@@ -31,12 +31,12 @@
 #'
 #' data(EpprechtTb5.2)
 #' 
-#' boxplot(tam~op, data=EpprechtTb5.2,
-#'         xlab="Operário", 
-#'         ylab="Tamanho", 
-#'         main="Boxplot do tamanho das peças medidas pelos três 
+#' boxplot(tam ~ op, data = EpprechtTb5.2,
+#'         xlab = "Operário", 
+#'         ylab = "Tamanho", 
+#'         main = "Boxplots para os tamanhos das peças aferidos pelos três 
 #'             operários",
-#'         col=c("#F0FFFF","#FFDAB9", "#C1FFC1"))
+#'         col = c("#F0FFFF","#FFDAB9", "#C1FFC1"))
 #' 
 #'                   
 NULL
