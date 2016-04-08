@@ -33,8 +33,7 @@ TODO
 #               "/labestData/raw/devel/data-raw/PimentelEg5.2.txt")
 #
 # PimentelEg5.2 <-
-#     read.table(file = url, sep = "\t", header = TRUE,
-#                colClasses = c("factor", "integer", "integer"))
+#     read.table(file = url, sep = "\t", header = TRUE)
 
 #-----------------------------------------------------------------------
 # Análise exploratória.
@@ -43,19 +42,22 @@ TODO
 str(PimentelEg5.2)
 
 # Tabela de frequência para os tratamentos.
-xtabs(~variedade, data = PimentelEg5.2)
+xtabs(~variedade + bloco, data = PimentelEg5.2)
 
 # Dados desemplilhados.
 t(unstack(x = PimentelEg5.2, form = producao ~ variedade))
 
 library(lattice)
 
-# TODO Para que o gráfico fique interessante, vamos reordenar os níveis
-# de cultivar pela média e ordenar as observações no data.frame.
+# Para uma melhor exibição dos dadaos, vamos reordenar os níveis
+# de cultivar pela média de cada uma delas. Depois vamos ordenar os
+# registros no data.frame por bloco/variedade.
 
+# Reordena os níveis.
 PimentelEg5.2 <- transform(PimentelEg5.2,
                            variedade = reorder(variedade, producao))
 
+# Reordena os registros.
 PimentelEg5.2 <- PimentelEg5.2[
     with(PimentelEg5.2, order(bloco, variedade)), ]
 
@@ -73,19 +75,22 @@ TODO
 
 ## Especificação e ajuste do modelo
 
-O modelo estatístico correspondente ao delineamento é
+O modelo estatístico correspondente ao delineamento de blocos
+casualizados com um fator de níveis categóricos é
 
 $$
 \begin{aligned}
-  Y|\text{bloco + variedade} &\,\sim \text{Normal}(\mu_{ij}, \sigma^2) \newline
+  Y|\text{bloco + variedade}
+    &\,\sim \text{Normal}(\mu_{ij}, \sigma^2) \newline
   \mu_{ij} &= \mu + \alpha_{i} + \tau_{j},
 \end{aligned}
 $$
 
 em que é a variável resposta $Y$, $\alpha_{i}$ é o efeito do bloco $i$,
-$\tau_j$ é o efeito da variedade $i$, $\mu$ é a média de $Y$ na ausência
+$\tau_j$ é o efeito da variedade $j$, $\mu$ é a média de $Y$ na ausência
 do efeito dos blocos e da variedade. $\sigma^2$ é a variância das
-observações ao redor das médias.
+observações ao redor das suas respectivas médias. Note que a média
+($\mu$) tem dois índices, um do efeito de bloco e outro para variedade.
 
 TODO
 
@@ -97,6 +102,10 @@ m0 <- lm(producao ~ bloco + variedade, data = PimentelEg5.2)
 
 # Estimativas dos efeitos. Restrição de zerar primeiro nível.
 cbind(coef(m0))
+
+# Aqui tem-se o grupo de coeficientes para cada um dos termos do
+# preditor para a média (\mu = 0, \alpha_i = 1, \tau_j = 2).
+split(coef(m0), m0$assign)
 
 # Matriz de contrastes sob a retrição zerar primeiro nível.
 contrasts(PimentelEg5.2$bloco)
@@ -110,21 +119,21 @@ TODO
 
 ```{r}
 m1 <- update(m0, contrasts = list(bloco = "contr.SAS"))
-cbind(coef(m0), coef(m1))
-
+split(data.frame(coef(m0), coef(m1)), m0$assign)
 
 # Médias ajustadas de mínimos quadrados (least squares means).
 # L <- doBy::LSmatrix(m1, effect = "variedade")
-# dput(L)
-L <- matrix(c(1, 1, 1, 1, 1, 1, 1, 1, 0.25, 0.25, 0.25, 0.25, 0.25,
-              0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25,
-              0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25,
-              0.25, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0,
-              0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0,
-              0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0,
-              1),
-            nrow = nlevels(PimentelEg5.2$variedade),
-            dimnames = list(levels(PimentelEg5.2$variedade), NULL))
+L <- matrix(c(1, 0.25, 0.25, 0.25, 0, 0, 0, 0, 0, 0, 0,
+              1, 0.25, 0.25, 0.25, 1, 0, 0, 0, 0, 0, 0,
+              1, 0.25, 0.25, 0.25, 0, 1, 0, 0, 0, 0, 0,
+              1, 0.25, 0.25, 0.25, 0, 0, 1, 0, 0, 0, 0,
+              1, 0.25, 0.25, 0.25, 0, 0, 0, 1, 0, 0, 0,
+              1, 0.25, 0.25, 0.25, 0, 0, 0, 0, 1, 0, 0,
+              1, 0.25, 0.25, 0.25, 0, 0, 0, 0, 0, 1, 0,
+              1, 0.25, 0.25, 0.25, 0, 0, 0, 0, 0, 0, 1),
+            byrow = TRUE, nrow = nlevels(PimentelEg5.2$variedade),
+            dimnames = list(levels(PimentelEg5.2$variedade),
+                            NULL))
 
 L %*% coef(m1)
 ```
