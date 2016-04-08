@@ -1,0 +1,202 @@
+---
+title: "Análise de Experimentos em Delineamento de Blocos Casualizados"
+author: "PET Estatística UFPR"
+vignette: >
+  %\VignetteIndexEntry{Experimentos em Delineamento Inteiramente Casualizado}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r setup, include=FALSE}
+source("_setup.R")
+```
+
+## Análise exploratória
+
+PimentelEg5.2
+
+```{r}
+library(labestData)
+ls("package:labestData")
+```
+```{r, eval=FALSE}
+help(PimentelEg5.2, help_type = "html")
+```
+
+TODO
+
+```{r}
+#-----------------------------------------------------------------------
+# Ler a partir do repositório do labestData.
+
+# url <- paste0("https://gitlab.c3sl.ufpr.br/pet-estatistica",
+#               "/labestData/raw/devel/data-raw/PimentelEg5.2.txt")
+#
+# PimentelEg5.2 <-
+#     read.table(file = url, sep = "\t", header = TRUE,
+#                colClasses = c("factor", "integer", "integer"))
+
+#-----------------------------------------------------------------------
+# Análise exploratória.
+
+# Estrutura do objeto.
+str(PimentelEg5.2)
+
+# Tabela de frequência para os tratamentos.
+xtabs(~variedade, data = PimentelEg5.2)
+
+# Dados desemplilhados.
+t(unstack(x = PimentelEg5.2, form = producao ~ variedade))
+
+library(lattice)
+
+# TODO Para que o gráfico fique interessante, vamos reordenar os níveis
+# de cultivar pela média e ordenar as observações no data.frame.
+
+PimentelEg5.2 <- transform(PimentelEg5.2,
+                           variedade = reorder(variedade, producao))
+
+PimentelEg5.2 <- PimentelEg5.2[
+    with(PimentelEg5.2, order(bloco, variedade)), ]
+
+# Diagrama de dispersão.
+xyplot(producao ~ variedade, data = PimentelEg5.2,
+       groups = bloco, type = "o",
+       auto.key = list(corner = c(0.05, 0.95), columns = 1,
+                       title = "Bloco", cex.title = 1.1),
+       xlab = "Variedades de batatinha",
+       ylab = expression("Produção de batatinha"~(t~ha^{-1})),
+       scales = list(x = list(rot = 90)))
+```
+
+TODO
+
+## Especificação e ajuste do modelo
+
+O modelo estatístico correspondente ao delineamento é
+
+$$
+\begin{aligned}
+  Y|\text{bloco + variedade} &\,\sim \text{Normal}(\mu_{ij}, \sigma^2) \newline
+  \mu_{ij} &= \mu + \alpha_{i} + \tau_{j},
+\end{aligned}
+$$
+
+em que é a variável resposta $Y$, $\alpha_{i}$ é o efeito do bloco $i$,
+$\tau_j$ é o efeito da variedade $i$, $\mu$ é a média de $Y$ na ausência
+do efeito dos blocos e da variedade. $\sigma^2$ é a variância das
+observações ao redor das médias.
+
+TODO
+
+```{r}
+#-----------------------------------------------------------------------
+# Ajuste do modelo.
+
+m0 <- lm(producao ~ bloco + variedade, data = PimentelEg5.2)
+
+# Estimativas dos efeitos. Restrição de zerar primeiro nível.
+cbind(coef(m0))
+
+# Matriz de contrastes sob a retrição zerar primeiro nível.
+contrasts(PimentelEg5.2$bloco)
+contrasts(PimentelEg5.2$variedade)
+
+# Médias amostrais.
+aggregate(producao ~ variedade, data = PimentelEg5.2, FUN = mean)
+```
+
+TODO
+
+```{r}
+m1 <- update(m0, contrasts = list(bloco = "contr.SAS"))
+cbind(coef(m0), coef(m1))
+
+
+# Médias ajustadas de mínimos quadrados (least squares means).
+# L <- doBy::LSmatrix(m1, effect = "variedade")
+# dput(L)
+L <- matrix(c(1, 1, 1, 1, 1, 1, 1, 1, 0.25, 0.25, 0.25, 0.25, 0.25,
+              0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25,
+              0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25,
+              0.25, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0,
+              0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0,
+              0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0,
+              1),
+            nrow = nlevels(PimentelEg5.2$variedade),
+            dimnames = list(levels(PimentelEg5.2$variedade), NULL))
+
+L %*% coef(m1)
+```
+
+## Avaliação dos pressupostos
+
+TODO
+
+```{r}
+#-----------------------------------------------------------------------
+# Exibe o quarteto fantástico da avaliação dos pressupostos.
+par(mfrow = c(2, 2))
+plot(m0); layout(1)
+```
+
+TODO
+
+## Inferências
+
+O efeito das variedades é representado pelos coeficientes $\tau_j$ no
+modelo estatístico do experimento. Se não existe efeito das variedades,
+os valores estimados $\tau_{i}$ serão próximos a zero. A hipóteses nula
+de não haver efeito é representada por
+
+$$
+  \text{H}_{0}: \tau_j = 0, \text{para todo}\,i.
+$$
+
+Essa hipótese é avaliada pelo estatística F do quadro de análise de
+variância.
+
+```{r}
+anova(m0)
+```
+
+```{r}
+pred <- data.frame(variedade = levels(PimentelEg5.2$variedade),
+                   bloco = "I")
+pred <- cbind(pred,
+              as.data.frame(predict(m0,
+                                    newdata = pred,
+                                    interval = "confidence")))
+pred$variedade <- reorder(pred$variedade, pred$fit)
+head(pred)
+
+library(latticeExtra)
+
+segplot(variedade ~ lwr + upr, centers = fit, data = pred,
+        draw = FALSE, horizontal = FALSE,
+        xlab = "Variedades de batatinha",
+        ylab = expression("Produção de batatinha"~(t~ha^{-1})),
+        scales = list(x = list(rot = 90)),
+        panel = function(x, y, z, centers, ...) {
+            panel.segplot(x = x, y = y, z = z, centers = centers, ...)
+            panel.text(x = as.numeric(z), y = centers,
+                       label = sprintf("%0.2f", centers),
+                       srt = 90, cex = 0.8, adj = c(0.5, -0.5))
+        })
+```
+
+## Gerando experimento em DBC
+
+```{r}
+replicate(4, sample(levels(PimentelEg5.2$variedade)))
+```
+
+## Informações da sessão
+
+```{r}
+sessionInfo()
+```
+
+<!------------------------------------------- -->
+
+[**labestData**]: https://gitlab.c3sl.ufpr.br/pet-estatistica/labestData
