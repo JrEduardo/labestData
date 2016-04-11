@@ -1,4 +1,4 @@
-amostra	subamostra	naoconf
+amostra	tamamostra	naoconf
 1	96	11
 2	86	8
 3	84	12
