@@ -3,15 +3,13 @@
 \name{RamosTb4.1}
 \alias{RamosTb4.1}
 \title{Temperatura de eletrodos de carbono}
-\format{Um \code{data.frame} com 75 observações e 3 variáveis, em que
+\format{Um \code{data.frame} com 75 observações e 2 variáveis, em que
 
 \describe{
 
 \item{\code{amostra}}{Número da amostra.}
 
-\item{\code{subamostra}}{Número da subamostra conforme a amostra.}
-
-\item{\code{temperat}}{Temperatura em °C dos eletrodos de carbono.}
+\item{\code{temperat}}{Temperatura dos eletrodos de carbono (em °C ).}
     
 }}
 \source{
@@ -20,9 +18,9 @@ Ramos, E. M. L. S., et al.(2013).
     Porto Alegre, RS: Bookman. (pg 56).
 }
 \description{
-Conjunto de dados da temperatura dos eletrodos  
-    de carbono com 25 amostras de tamanho 8 em um processo 
-    de alumínio em uma indústria.
+Conjunto de dados referente às temperaturas de eletrodos  
+    de carbono, com 25 amostras de tamanho 8, em um processo 
+    de fabricação de alumínio de uma indústria.
 }
 \examples{
 

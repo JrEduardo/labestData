@@ -2,9 +2,9 @@
 #' @title Temperatura de eletrodos de carbono 
 #' @description Conjunto de dados referente às temperaturas de eletrodos  
 #'     de carbono, com 25 amostras de tamanho 8, em um processo 
-#'     de alumínio em uma indústria.
+#'     de fabricação de alumínio de uma indústria.
 #'
-#' @format Um \code{data.frame} com 75 observações e duas variáveis, em que
+#' @format Um \code{data.frame} com 75 observações e 2 variáveis, em que
 #'
 #' \describe{
 #'
