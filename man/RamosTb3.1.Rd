@@ -3,13 +3,11 @@
 \name{RamosTb3.1}
 \alias{RamosTb3.1}
 \title{Teor de flúor de um processo químico}
-\format{Um \code{data.frame} com 75 observações e 3 variáveis, em que
+\format{Um \code{data.frame} com 75 observações e 2 variáveis, em que
 
 \describe{
 
 \item{\code{amostra}}{Número da amostra.}
-
-\item{\code{subamostra}}{Número da subamostra conforme a amostra.}
 
 \item{\code{fluor}}{Teor de flúor.}
     
@@ -21,7 +19,7 @@ Ramos, E. M. L. S., et al.(2013).
 }
 \description{
 Conjunto de dados do teor de flúor com 15 
-    amostras de tamanho 5 em um processo químico.
+    amostras de tamanho 5 de um processo químico.
 }
 \examples{
 
