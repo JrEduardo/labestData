@@ -42,15 +42,15 @@ de como escrever o código, as mensagens de *commit*, criar arquivos,
 etc.
 
 Interessados em participar do projeto devem se orientar pelo Guia de
-Contribuição sobre como o desenvolvimento acontece, pois nele são
-documentadas coisas sobre as tarefas e as responsabilidades dos
+Contribuição sobre como o desenvolvimento acontece, pois ele contém a
+documentação sobre a realização das tarefas, as responsabilidades dos
 indivíduos e equipes, as etapas e prazos para atingir as metas do
 projeto.
 
 ## Qual é o Guia de Estilo de Código? ##
 
 Um Guia de Estilo de Código é um conjunto de recomendações (ou regras)
-para padronizar a forma de escrever código.  Códigos que são escritos
+para padronizar a forma de escrever código. Códigos que são escritos
 seguindo um estilo padrão são mais fáceis de manter, modificar e
 garantir que estão corretamente escritos e funcionais, principalmente
 quando muitos programadores estão envolvidos.
@@ -64,7 +64,7 @@ sempre tem um padrão particular para escrita de código.
 
 No pacote *labestData* deve ser considerado o *"idioma"* padrão do R,
 descrito no [STYLEGUIDE.md](STYLEGUIDE.md). Nesse arquivo é descrito
-desde como aos objetos até o uso de espaço ao redor dos operadores.
+desde como nomear objetos até o uso de espaço ao redor dos operadores.
 
 ## Qual é o fluxo de trabalho do *labestData*? ##
 
@@ -77,7 +77,7 @@ semanal de desenvolvimento e acompanhamento.
   1. Criar um *issue* para o Projeto no GitLab. Ao criar o *issue*,
      dedique-se para escrever uma detalhada descrição do trabalho a ser
      feito. Isso informa a equipe sobre onde você irá trabalhar para que
-     não se dublique os esforços. Todo *issue* tem um número associado,
+     não se duplique os esforços. Todo *issue* tem um número associado,
      como `#7` e isso deve ser usado nas comunicações. O GitLab cria
      links para os *issues* automaticamente nas mensagens quando se
      escreve o número precedido de #, como `#7`.
@@ -95,7 +95,7 @@ semanal de desenvolvimento e acompanhamento.
      ramo deve ser formado pelo seu nome e número identificador, aquele
      atribuído ao *issue* assim que ele foi criado, como `angela23` e
      `eduardo31`. Usar esse padrão facilita para os membros descobrirem
-     do se se trata esse *branch*, pois basta consultar o *issue* de
+     do que se trata esse *branch*, pois basta consultar o *issue* de
      mesmo número, e quem é o responsável pelo mesmo.
   4. Faça o trabalho que descreveu. Nessa etapa você senta na frente do
      computador e desenvolve o seu trabalho que, envolve os seguintes
@@ -108,7 +108,7 @@ semanal de desenvolvimento e acompanhamento.
         uma frase curta ou por uma lista de frases curtas. Quando não
         souber se já possuí uma unidade de trabalho merecedora de
         *commit*, faça o *commit* do mesmo jeito. Não seja conservador
-        com a quantidade de *commites*. No entanto, seja caprichoso ao
+        com a quantidade de *commits*. No entanto, seja caprichoso ao
         fazer a sua mensagem de *commit* para garantir que esteja em
         conformidade com o guia de boas práticas.
      3. Em intervalos maiores, mas ainda com frequência, suba seu
@@ -138,9 +138,9 @@ semanal de desenvolvimento e acompanhamento.
      solicitadas. Volte para a etapa 4.
   9. Quando o MR for aprovado, feche o *issue* correspondente. Indique
      na mensagem de fechamento do *issue* qual foi o número do MR
-     dele. Os ramos de demanda - com prefixo de nome de *coloborador* -
+     dele. Os ramos de demanda - com prefixo de nome de *colaborador* -
      são removidos após o *merge* mas os *issues* e os MR - que junto
-     com os *commits* contam a trajetória do projeto - permanem no
+     com os *commits* contam a trajetória do projeto - permanecem no
      GitLab.
 
 **Guia de códigos R e GIT para as atividades semanais**
@@ -172,7 +172,7 @@ git checkout fulano00
 
 Com isso já estamos em um ramo, `fulano00` criado especificamente para o
 desenvolvimento das atividades propostas no `issue #00`, assim podemos
-prosseguir com o trabalho propriamente dito, a adição de conjunto de
+prosseguir com o trabalho propriamente dito, a adição de conjuntos de
 dados. Note que o ramo saiu do `baby`.
 
 ```r
@@ -270,7 +270,7 @@ git commit -m "Adiciona tabela 0.0 do livro do Ciclano"
 # automaticamente
 git checkout -- .
 
-# Limpe o seu deiretório removendo os arquivos não rastreados.
+# Limpe o seu diretório removendo os arquivos não rastreados.
 git clean -xfd
 
 # Enviando as alterações para o servidor
@@ -320,11 +320,11 @@ regra.
 
 A prioridade na hora de atribuir a identificação é a seguinte: Tabela =
 Quadro > Exemplo = Exercício > Página. Ou seja, se a tabela 5 faz parte
-do exemplo 3 que está na página 122, o nome do dataset terá sulfixo
+do exemplo 3 que está na página 122, o nome do dataset terá sufixo
 Tb5. Note que uma página pode ter mais de uma tabela, bem como um
 exemplo. Além do mais, diferentes edições podem preservar com mais
 facilidade a numeração das tabelas do que a localização delas nas mesmas
-páginas. Sendo assim, um dataset só será identificado como sulfixo Ex ou
+páginas. Sendo assim, um dataset só será identificado como sufixo Ex ou
 Eg se não tiver legenda (Tabela ou Quadro) e só será identificado pela
 página se não houver outra alternativa.
 
@@ -337,7 +337,7 @@ conjunto de dados dentro da obra.
 | Quadro     | Qd         |
 | Exercício  | Ex         |
 | Exemplo    | Eg         |
-| Apendice   | Ap         |
+| Apêndice   | Ap         |
 | Página     | Pg         |
 
 Dados em artigos devem usar o nome do primeiro autor, mas esteja atento
@@ -361,7 +361,7 @@ seja único que descritivo do dataset.
 
 O nome das variáveis não deve conter acentos (ASCII pleno), não pode
 iniciar com número e só admite o underline como não alfanumérico. As
-variáveis de nome composto e longo poder ser representadas por siglas, e
+variáveis de nome composto e longo podem ser representadas por siglas, e
 as de nome simples mas longo, por abreviação. Veja a tabela com
 exemplos.
 
@@ -384,11 +384,11 @@ exemplos.
 
 Existem casos em que os dados não são uma tabela (várias variáveis, em
 cada coluna uma variável de tipo diferente), ou seja, usar um
-`data.frame` para armazená-los não é recomendado. Existem dois casos
+`data.frame` para armazená-los não é recomendado. Existem três casos
 principais:
 
   * Quando os dados são uma amostra aleatória de uma única variável, por
-    exemplo. Nesse caso, os dados devem ser armazanados em um vetor. Ele
+    exemplo. Nesse caso, os dados devem ser armazenados em um vetor. Ele
     deve ser um vetor nomeado no caso das observações terem rótulo, como
     o nome da cidade que corresponde ao valor (veja o dado `precip`).
   * Quando os dados são uma matriz, ou seja, todos os valores
@@ -397,6 +397,10 @@ principais:
     armazenados como matriz (`matrix`). Pode-se atribuir nome para as
     linhas e colunas (`rownames` e `colnames`) para identificar os
     registros.
+  * Quando os dados são uma amostra aleatória não independente, uma
+    séria temporal. Neste caso, no R, há uma classe de objetos `ts`
+    (_Time-Series_) que armazena os valores da amostra junto com a
+    informação da frequência em que foi observada.
 
 ## Que tipo de valor usar para as variáveis? ##
 
@@ -409,7 +413,7 @@ correto de valor. São 5 os tipos principais:
   * `integer`: é o tipo de valor para variáveis discretas (números
     inteiros). Variáveis de contagem são desse tipo. São também as
     variáveis que identificam a repetição ou amostra, normalmente
-    sequências que começam em 1. Quando variáveis continuas tiverem
+    sequências que começam em 1. Quando variáveis contínuas tiverem
     representação que não tenha casas decimais, elas dever ser
     declaradas como `integer` para salvar espaço em disco e tornar as
     contas mais rápidas.
@@ -543,7 +547,7 @@ NULL
 
 Nesse exemplo de documentação, atente para o seguinte:
 
-  * O título está captalizado e termina com pontuação;
+  * O título está captalizado e não termina com pontuação;
   * O uso de `\code{}` para as descrição das variáveis que exibe esses
     textos em fonte monoespaço. Cada `\item` descreve uma variável e a
     ordem deles deve ser a mesma ordem das colunas no `data.frame`. A
@@ -560,7 +564,7 @@ Nesse exemplo de documentação, atente para o seguinte:
   * A representação das unidades de medida está em notação de potência
     na documentação (`\eqn{}`) e no código da seção exemplos
     (`expression()`).
-  * A indatação negativa de 4 espaços e largura de 72 digitos para fazer
+  * A indentação negativa de 4 espaços e largura de 72 digitos para fazer
     quebra de linhas.
 
 Para gerar a citação bibliográfica no formato APA, padrão considerado no
@@ -591,7 +595,7 @@ No caso de usar algum pacote que não seja da lista de pacotes básicos do
 R (aqueles que estão disponíveis na instalação mínima padrão), é
 necessário acrescentar o pacote a lista de pacotes na seção `Imports` ou
 `Suggests` do arquivo `DESCRIPTION`. Você pode editar o arquivo mas
-esteja atendo para indentação e uso das vírgulas nesses campo. É
+esteja atento para indentação e uso das vírgulas nesses campos. É
 aconselhado usar a função `devtools::use_package()`.
 
 ```r
@@ -607,7 +611,7 @@ tarefas podem ser relacionadas à adições (criar novos arquivos, criar
 conteúdo em arquivos) ou correção (ortográficas, em código) no seu
 pacote.
 
-Na página do repositório existe uma entrada chama
+Na página do repositório existe uma entrada chamada
 [*Issues*](https://gitlab.c3sl.ufpr.br/pet-estatistica/labesData/issues)
 no menu esquerdo. Ao entrar nessa página, existe um botão de create
 [new issue](https://gitlab.c3sl.ufpr.br/pet-estatistica/iguir2/issues/new?).
@@ -617,7 +621,7 @@ Na página de criar um *issue*, você deve preencher os seguintes campos:
   * Title: com um título que representa o seu *issue*.
   * Description: com uma descrição detalhada do que deve ser feito no
     *issue*.
-  * Assignee: com quem é o responsável pelo desenvolvimento do issue*.
+  * Assignee: com quem é o responsável pelo desenvolvimento do *issue*.
   * Milestone: com a marca de milha a que o *issue* pertence, se alguma.
   * Labels: com as palavras chaves apropriadas para o *issue*, se
     alguma.
@@ -733,7 +737,7 @@ ser atendidas:
 
 Além dos pontos acima, um MR pode não ser aceito por precisar de
 revisões/correções não relacionadas com os pontos acima. Por exemplo,
-faltar declarar facotes como `factor`, incluir a unidade de medida das
+faltar declarar fatores como `factor`, incluir a unidade de medida das
 variáveis, modificar o código da seção exemplos.
 
 ## Existe um *checklist* para incluir um *dataset*? ##
