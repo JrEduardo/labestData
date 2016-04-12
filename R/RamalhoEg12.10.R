@@ -15,7 +15,7 @@
 #'     feijoeiro.}
 #'
 #' }
-#' @keywords RM
+#' @keywords Dialelo
 #' @source Ramalho, M. A. P., Ferreira, D. F., Oliveira, A. C. (2005).
 #'     Experimentação em Genética e Melhoramento de Plantas (2th ed.).
 #'     Lavras: UFLA. (Exemplo 12.10, pág. 227)
@@ -26,8 +26,8 @@
 #'     v.16, n.4, p.1013. dez. 1993
 #' @examples
 #'
-#' data(RamalhoEg12.10)
+#' str(RamalhoEg12.10)
 #'
-#' plot(RamalhoEg12.10)
+#' RamalhoEg12.10
 #'
 NULL

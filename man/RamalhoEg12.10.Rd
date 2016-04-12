@@ -32,10 +32,10 @@ Dados referentes ao cruzamento dialelo realizado por
 }
 \examples{
 
-data(RamalhoEg12.10)
+str(RamalhoEg12.10)
 
-plot(RamalhoEg12.10)
+RamalhoEg12.10
 
 }
-\keyword{RM}
+\keyword{Dialelo}
 
