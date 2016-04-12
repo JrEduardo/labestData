@@ -1,0 +1,16 @@
+Hunt Sandman Howard Thompson Frelinghuysen Forsythe Widnall Roe Helstoski Rodino Minish Rinaldo Maraziti Daniels Pattern
+Hunt 0 8 15 10 15 16 12 15 16 11 8 12 6 5 2
+Sandman 8 0 15 9 16 7 13 16 12 10 6 12 6 5 11
+Howard 15 17 0 7 14 11 13 17 15 7 15 10 10 3 4
+Thompson 15 12 9 0 15 13 12 13 5 14 10 11 17 12 6
+Frelinghuysen 10 13 16 14 0 17 16 12 5 12 7 11 16 7 1
+Forsythe 9 13 12 12 8 0 17 16 6 13 8 7 15 6 12
+Widnall 7 12 15 13 9 7 0 9 5 10 9 12 14 3 5
+Roe 15 16 5 10 13 12 17 0 4 8 13 11 15 2 5
+Helstoski 16 17 5 8 14 11 16 4 0 8 14 10 10 1 12
+Rodino 14 15 6 8 12 10 15 5 3 0 12 9 11 13 6
+Minish 15 16 5 8 12 9 14 5 2 1 0 10 13 7 4
+Rinaldo 16 17 4 6 12 10 15 3 1 2 1 0 4 5 9
+Maraziti 7 13 11 15 10 6 10 12 13 11 12 12 0 1 13
+Daniels 11 12 10 10 11 6 11 7 7 4 5 6 9 0 9
+Pattern 13 16 7 7 11 10 13 6 5 6 5 4 13 9 0
