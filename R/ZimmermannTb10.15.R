@@ -33,10 +33,10 @@
 #'
 #' str(ZimmermannTb10.15)
 #'
-#' aggregate(prod ~ cult + adub, data = ZimmermannTb10.15,
+#' aggregate(prod ~ geno + adub, data = ZimmermannTb10.15,
 #'           FUN = function(x) { c(mean = mean(x), var = var(x)) })
 #'
-#' xyplot(prod ~ adub, groups = cult, data = ZimmermannTb10.15,
+#' xyplot(prod ~ adub, groups = bloco, data = ZimmermannTb10.15,
 #'        type = c("p", "a"),
 #'        xlab = "Nível de adubação",
 #'        ylab = expression("Produção de arroz"~(kg~ha^{-1})))
