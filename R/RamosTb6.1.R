@@ -1,5 +1,5 @@
 #' @name RamosTb6.1
-#' @title Densidade aparente de uma processo de eletrodos
+#' @title Densidade aparente de um processo de eletrodos
 #' @description Dados da densidade aparente de um processo de produtivo  
 #'     de eletrodos de carbono. 
 #'
@@ -9,7 +9,7 @@
 #'
 #' \item{\code{amostra}}{Número da amostra.}
 #'
-#' \item{\code{densi}}{Densidade aparente em g/cm^{3} do eletrodo.}
+#' \item{\code{densi}}{Densidade aparente (em g/cm^{3} do eletrodo).}
 #'  
 #' }
 #' @keywords CEQ
@@ -24,6 +24,7 @@
 #' library(qcc)
 #'
 #' qcc(RamosTb6.1$densi, type = "xbar.one", 
-#'      std.dev = "SD", nsigmas = 3)
+#'      std.dev = "SD", nsigmas = 3, xlab = "Amostra", ylab = "Densidade",
+#'      title = "")
 #'
 NULL

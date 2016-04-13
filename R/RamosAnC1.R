@@ -1,7 +1,7 @@
 #' @name RamosAnC1
 #' @title Temperatura do óleo de misturadores
-#' @description Conjunto de dados da temperatura de misturadores com 
-#'    25 amostras de tamanho 8 em um processo metalúrgico.
+#' @description Conjunto de dados da temperatura do óleo de misturadores,  
+#'    com 25 amostras de tamanho 8 de um processo metalúrgico.
 #'
 #' @format Um \code{data.frame} com 200 observações e 2 variáveis, em que
 #'
@@ -9,7 +9,7 @@
 #'
 #' \item{\code{amostra}}{Número da amostra.}
 #'
-#' \item{\code{oleo}}{Temperatura em °C dos misturadores.}
+#' \item{\code{oleo}}{Temperatura ddo óleo (em °C ).}
 #'     
 #' }
 #' @keywords CEQ
@@ -25,6 +25,7 @@
 #'
 #' obj <- qcc.groups(RamosAnC1$oleo, RamosAnC1$amostra)
 #' 
-#' qcc(obj, type = "xbar", nsigmas = 3)
+#' qcc(obj, type = "xbar", nsigmas = 3, xlab = "Amostra", ylab = 
+#'      "Temperatura média", title = " ")
 #'
 NULL
