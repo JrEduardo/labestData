@@ -1,6 +1,9 @@
-% Guia de Estilo R - LEG/PET UFPR
-% Walmes Zeviani, Fernando Mayer & Eduardo Jr.
-% 01/2016
+Guia de Estilo de Escrita de Código R
+=====================================
+
+Walmes Zeviani - LEG/DEST/UFPR\
+Fernando Mayer - LEG/DEST/UFPR\
+Eduardo Jr - PET Estatística/UFPR
 
 ****
 
@@ -10,20 +13,64 @@
 
 >> -- Paul E. Johnson, R Style. An Rchaeological Commentary.
 
-<!--
-<https://cran.r-project.org/web/packages/rockchalk/vignettes/Rstyle.pdf>
-<https://google.github.io/styleguide/Rguide.xml>
-<http://web.stanford.edu/class/cs109l/unrestricted/resources/google-style.html>
-<http://adv-r.had.co.nz/Style.html>
-<http://r-research-tool.schwilk.org/handouts/style-guide.html>
-<https://github.com/rdatsci/PackagesInfo/wiki/R-Style-Guide>
-<http://static.googleusercontent.com/media/research.google.com/pt-BR//pubs/archive/42577.pdf>
-<http://ess.r-project.org/>
--->
+**Sumário**
 
+  - [Nomes de arquivos](#nomes-de-arquivos)
+  - [Nomes de objetos](#nomes-de-objetos)
+      - [Contadores](#contadores)
+      - [Matrizes](#matrizes)
+  - [Atribuição](#atribuio)
+  - [Indentação](#indentao)
+  - [Operadores](#operadores)
+  - [Alinhamento vertical de referência (nos operadores)](#alinhamento-vertical-de-referncia-nos-operadores)
+  - [Vírgulas](#vrgulas)
+  - [Lagura de texto](#lagura-de-texto)
+  - [Quebras de linha](#quebras-de-linha)
+  - [Comentários](#comentrios)
+  - [Divisões de código](#divises-de-cdigo)
+  - [Linhas em branco](#linhas-em-branco)
+  - [Aspas](#aspas)
+  - [Chaves](#chaves)
+  - [Colchetes](#colchetes)
+  - [Parênteses](#parnteses)
+  - [Ponto e vírgula](#ponto-e-vrgula)
+  - [Documentação embutida de funções](#documentao-embutida-de-funes)
+  - [Carregando pacotes](#carregando-pacotes)
+
+Um Guia de Estilo de Código é um conjunto de recomendações (ou regras)
+para padronizar a forma de escrever código.  Códigos que são escritos
+seguindo um estilo padrão são mais fáceis de manter, modificar e
+garantir que estão corretamente escritos e funcionais, principalmente
+quando muitos programadores estão envolvidos.
+
+Quase todas as linguagem de programação permitem que os usuários adotem
+diferentes padrões de escrita de código.  Algumas não diferenciam
+maiúsculas e outras não exigem indentação, por exemplo. Em função de
+simplicidade, comodismo ou inércia na hora de escrever ou por causa de
+características da linguagem ou do editor usado, os usuários quase
+sempre tem um padrão particular para escrita de código.
+
+Esse é um Guia de Estilo Código estabele as convenções a serem seguidas
+para escrita de código R. Esse documento é baseado na consulta à varias
+fontes e deliberações próprias em alguns casos. A lista das principais
+fontes na qual esse Guia é baseado está abaixo.
+
+  * Guia de Estilo por [Hadley Wickham]:
+    <http://adv-r.had.co.nz/Style.html>.
+  * Guia de Estilo do Google:
+    <https://google.github.io/styleguide/Rguide.xml>.
+  * Guia de Estilo por
+    [Dylan Schwilk](http://www.depts.ttu.edu/biology/people/faculty/schwilk/)
+    <http://r-research-tool.schwilk.org/handouts/style-guide.html>.
+  * Guia de Estilo do R Data Science:
+    <https://github.com/rdatsci/PackagesInfo/wiki/R-Style-Guide>.
+  * Nota de Paul Johnson estilo de escrita de código:
+    <https://cran.r-project.org/web/packages/rockchalk/vignettes/Rstyle.pdf>.
+
+****
 ## Nomes de arquivos ##
 
-Nomes de arquivos R dever ter o sulfixo maiúsculo.
+Nomes de arquivos R devem ter o sulfixo maiúsculo.
 
 ```
 # Bom.
@@ -35,10 +82,10 @@ script.r
 
 No entanto, o nome do arquivo não pode ser vago como `script` -- que é
 algo óbvio. Use nomes com significado. Se for preciso, use um nome
-composto, mas não use espaços nos nomes (nem para diretórios). Dê
-preferência para o *undescore* como separador, já que ponto separa a
-extensão do nome e traço é separador de palavras compostas
-(guarda-chuva, super-homem, ex-aluno).
+composto, mas não use espaços nos nomes (nem para diretórios). Isso
+evita um tanto de problemas de `path`. Dê preferência para o *undescore*
+como separador, já que ponto separa a extensão do nome e traço é
+separador de palavras compostas (guarda-chuva, super-homem, ex-aluno).
 
 ```
 # Bom.
@@ -55,7 +102,7 @@ maiúsculo também, além de nomes não vagos ou óbvios.
 
 Se em um conjunto de arquivos houver relação sequêncial entre eles,
 destaque isso no nome. Por exemplo, componha nomes com números
-antecedidos de mesmo prefixo.
+precedidos do mesmo nome.
 
 ```
 # Bom.
@@ -66,38 +113,40 @@ cap1_introducao.Rmd, cap2_exploratoria.Rmd, ..., cap5_conclusoes.Rmd
 A vantagem de colocar um prefixo numerado é que os arquivos são exibidos
 em sequência no seu navegador de arquivos quando a ordenação for
 alfabética. Mas lembre-se que a ordenação é léxica e por isso `cap23*`
-aparece antes de `cap4*`. Evite usando `cap04`.
+aparece antes de `cap4*`. Evite usando zeros à esqueda, `cap04`.
 
 ## Nomes de objetos ##
 
 Nomes de objetos devem ter um bom compromisso entre significado e
-praticidade. Ou seja, não deve ser curto ao ponto de perder significado
-nem longo ao ponto de demorar para escrever. Quanto maior um nome, mais
-erramos ao escrevê-lo. Principalmente quando contém acentos, certo?
-Portanto, evite nomes que levem acentos (âãàáçêéíôõóú).
+praticidade (ou digitabilidade). Ou seja, não deve ser curto ao ponto de
+perder significado nem longo ao ponto de demorar para escrever. Quanto
+maior um nome, mais erramos ao escrevê-lo. Principalmente quando contém
+acentos, certo?  Portanto, evite nomes que levem acentos (âãàáçêéíôõóú).
 
 Dependendo da classe e da quantidade de objetos na sua sessão
 ou pacote, você pode ser mais ou menos verboso (usar nomes maiores ou
-menores) na hora de defini-los.
+menores) na hora de defini-los para devidamente distingui-los.
 
 Existem 3 estilos predominantes para escrita de nomes de objetos:
 
   * *dot.case*: é o estilo que usa o separador como ponto. Foi o
-  primeiro a usado no R e inclusive incentivado. Tem-se várias funções
-  com esse padrão no R (todas as `read.`, `as.`, `is.`). A mais notáveis
-  são sa funções método nas quais o ponto separa o nome da a função
-  genérica da classe o objeto que ela recebe. Por exemplo, `anova.lm` é
-  a função que retorna o quadro de ANOVA para objetos da classe
-  `lm`. Nesse caso o ponto tem função além da estética e não pode ser
-  substituído por nada.
+    primeiro a usado no R e inclusive incentivado por algum tempo. Uma
+    prova disse são as várias funções com esse padrão no R (todas as
+    `read.`, `as.`, `is.`, por exemplo). A mais notáveis são sa funções
+    método nas quais o ponto separa o nome da a função genérica da
+    classe o objeto que ela recebe. Por exemplo, `anova.lm` é a função
+    que retorna o quadro de ANOVA para objetos da classe `lm`. Nesse
+    caso o ponto tem função além da estética e não pode ser substituído
+    por nada.
   * *snake_case*: é o estilo que usa o *underscore* como separador. O
-  pacote [devtools], do Hadley Wickham, usa esse padrão. No pacote
-  [mcglm] esse estilo também foi adotado integralmente. Muitos
-  consideram um custo digitar o *underscore* ao passo que outros
-  argumentam que facilita a leitura.
+    pacote [devtools], do [Hadley Wickham], usa esse padrão. No pacote
+    [mcglm] esse estilo também foi adotado integralmente. Muitos
+    consideram um custo digitar o *underscore* (combina teclas) ao passo
+    que outros argumentam que facilita a leitura (pois é um traço
+    rasteiro sem altura).
   * *camelCase*: é o estilo que usa letras maiúsculas para as iniciais
-  das palavras com exceção da primeira delas. O pacote [car], do John
-  Fox, usa esse estilo.
+    das palavras, com exceção da palavra inicial. O pacote [car], do
+    [John Fox], usa esse estilo.
 
 Uma quarto estilo é o *PascalCase* que difere do *camelCase* porque
 todas as iniciais são maiúsculas. A mesma função teria os seguintes
@@ -110,7 +159,7 @@ reserva do ponto é para as funções método, assim, para objetos não
 existe problema.
 
 O importante é que você seja consistente, assuma e mantenha o mesmo
-estilo em todo seu pacote ou scritps. Um exemplo de projeto aberto em
+estilo em todo seu pacote ou *scripts*. Um exemplo de projeto aberto em
 que todos seguem o padrão é no Emacs, onde todos os objetos usam o
 *dot-case*.
 
@@ -128,10 +177,10 @@ interessante também porque é comum o contador do *loop* ser usado para
 selecionar frações dos objetos (elementos, linhas, colunas, etc), dentro
 dos colchetes simples ou duplos, deixando o código mais claro.
 
-```{r, eval=FALSE}
+```r
 x <- 1:10
 for (i in 1:length(x)) {
-    x[i] <- sum(x[1:i])+i
+    x[i] <- sum(x[1:i]) + i
 }
 ```
 
@@ -149,9 +198,9 @@ matrizes e sair do R (*quit*) e as últimas são abreviações de `TRUE` e
 ## Atribuição ##
 
 Faça atribuição de objetos com o sinal de atribuir (`<-`) e não com o
-igual. Deixe espaço cercar o operador.
+de igual. Deixe espaço cercar o operador.
 
-```{r, eval=FALSE}
+```r
 # Bom.
 x <- 1:10
 notas <- data.frame(aluno, freq, nota)
@@ -165,11 +214,11 @@ x=1:10
 notas<-data.frame(aluno, freq, nota)
 ```
 
-O sinal de igual, embora faça atribuição, não deve ser usado para
+O sinal de igual, embora faça atribuição também, não deve ser usado para
 isso. Reserva-se a passar valores para os argumentos de uma função ou
 nomear os elementos de objetos.
 
-```{r, eval=FALSE}
+```r
 # Nomes que levam certos caracteres devem declarados como string.
 notas <- c(Carlos = 95, Lucas = 89, Pedro = 77, "Antônio Augusto" = 60)
 ```
@@ -177,20 +226,21 @@ notas <- c(Carlos = 95, Lucas = 89, Pedro = 77, "Antônio Augusto" = 60)
 ## Indentação ##
 
 A indentação é um dos requisitos fundamentais de estilo de código. É
-praticamente impossível compreender um código se ele não estiver
-devidamente indentado. Todo editor de texto voltado para programação tem
-recursos de indentação.
+perda de tempo tentar compreender um código que não está devidamente
+indentado. Todo editor de texto voltado para programação tem recursos de
+indentação.
 
-A indentação do R é com 4 espaços. Não se usa tabulação.  É comum código
-com tabulação de 2 espaços, que é inclusive a opção *default* do
-[RStudio].  Programadores argumentam que a indentação com 2 espaços
-impõe pouca evidência da hierarquia do código, principalmente para
-fontes de texto que sejam finas. Além disso, 4 espaços é equivalente a
-uma tabulação (que não devem ser usadas).  Para mudar o número de
-tabulações do [RStudio], vá em `Tools > Global options > Code > Editing`
-e em `Tab width` use 4. O [Emacs] usa 4 espaços por *default*.
+A indentação em código R é com 4 espaços. Não se usa tabulação.  É comum
+encontrar código com tabulação de 2 espaços, que é inclusive a opção
+*default* do [RStudio].  Programadores argumentam que a indentação com 2
+espaços impõe pouca evidência da hierarquia do código, principalmente
+para fontes de texto que sejam finas.  Além disso, 4 espaços é
+equivalente a uma tabulação (que não devem se usada).  Para mudar o
+número de tabulações do [RStudio], vá em `Tools > Global options > Code
+> Editing` e em `Tab width` use 4. O [Emacs] usa 4 espaços por
+*default*.
 
-```{r, eval=FALSE}
+```r
 # Bom.
 for (i in 1:3) {
     if (a > 0) {
@@ -221,14 +271,15 @@ Deixe espaços ao redor dos operadores lógicos e matemáticos.
   * Operadores lógicos: `==`, `!=`, `<`, `<=`, `>`, `>=`, `%in%`, `&`,
     `&&`, `|`, `||`.
   * Operadores matemáticos: `+`, `-`, `*`, `%*%`, `%%`, `%/%`, `%o%`. Os
-    operadores `^` e `/` são considerados excessões e não devem ter
-    espaços. Embora `**` seja um operador equivalente ao `^`, seu uso é
-    evitado.
+    operadores `^` e `/` são considerados exceções e não devem ter
+    espaços. Embora `**` seja um operador equivalente ao `^`, seu uso
+    não é recomendado.
 
-Certas situações fogem a regra. Observe abaixo o emprego do sinal de
-menos e para o operador `~`, usado em fórmulas.
+Certos operadores tem emprego diferenciado dependedo do que
+precede. Observe abaixo o emprego do sinal de menos e para o operador
+`~`, usado em fórmulas.
 
-```{r, eval=FALSE}
+```r
 # Diferença para o menos de negativo e menos de subtração.
 x <- -5 + 2
 x <- 2 - 5
@@ -244,7 +295,7 @@ usados com espaços. O mesmo vale para o operador `$`, usado para
 consultar listas de data frames, e o `@`, usados para consultar listas
 de objetos S4.
 
-```{r, eval=FALSE}
+```r
 # Uma sequência regular.
 12:15
 
@@ -282,7 +333,7 @@ m0$fitted
 Quando alinhamento vertical (*columnate*) de referência em um operador
 der mais clareza ao código, isso pode ser feito.
 
-```{r, eval=FALSE}
+```r
 altura  <- rnorm(100, mean = 1.8, sd = 0.1)
 peso    <- rnorm(100, mean = 70, sd = 5)
 idade   <- sample(20:50, size = 100, replace = TRUE)
@@ -295,15 +346,15 @@ plot(peso ~ altura,
 ```
 
 Esse padrão vai exigir mais trabalho e não são muitos os editores que
-tem o recurso de indentação por referência. O trabalho de indentar
-manualmente e manter isso nas revisões futuras e por colaboradores deve
-ter peso na decisão de usar. O [Emacs] tem o recurso de indentação
-baseado em expressão regular. Para aplicá-lo aos sinais de igual,
-selecione o texto e dê `M-x align-regexp RET = RET`. Você pode, se usar
+tem o recurso de indentação por referência.  O trabalho de indentar
+manualmente e manter isso nas revisões deve ter peso na decisão de
+usar. O [Emacs] tem o recurso de indentação baseado em expressão
+regular. Para aplicá-lo aos sinais de igual, selecione o texto e dê `M-x
+align-regexp RET = RET` (`RET` é pressionar Enter). Você pode, se usar
 isso com frequência, criar um *key binding* para uma função que faça
 isso no código selecionado.
 
-```
+```lisp
 (defun columnate-at-R-assign-operator ()
   "Função que alinha a região com a primeira ocorrência de sinais
    ` <- ' e ` = '. Baseado em:
@@ -320,11 +371,10 @@ isso no código selecionado.
 ## Vírgulas ##
 
 Vírgulas devem ser seguidas de espaço, exceto para as de final de
-linha. Elas não dever ser precedidas de espaço, exceto quando precedidas
-por outra vírgulas dentro dos colchetes.
+linha. Elas não devem ser precedidas de espaço, exceto quando precedidas
+por outra vírgula dentro dos colchetes de seleção.
 
-```{r, eval=FALSE}
-# dput(sample(names(precip), 20))
+```r
 # Bom.
 EyeHairColor[, , 2]
 x <- c("Nashville", "Seattle Tacoma", "Wilmington", "Boise", "Raleigh",
@@ -352,13 +402,14 @@ texto.
 
 Costuma-se usar 80 ou 72 espaços como comprimento máximo de linha, sendo
 este último ligeiramente mais adequado para trabalhar com *script* e
-*console* lado a lado.
+*console* lado a lado nos monitores de resolução atuais.
 
 No [Emacs], para comodidade, pode-se habilitar o quebrar linhas
-automaticamente (`M-x auto-fill-mode`). Caso não goste, pode apenas
-habilidar o destaque com cores para linhas que excedem os limites.
+automaticamente (`M-x auto-fill-mode`). Caso não goste, como muitos que
+acham um pouco desastroso, pode apenas habilidar o destaque com cores
+para linhas que excedem os limites.
 
-```
+```lisp
 ;; Define o comprimento máximo de texto para a linha.
 (setq-default fill-column 72)
 
@@ -391,7 +442,7 @@ Os espaços no final de linha são desnecessários, então evite-os. No
 [Emacs] você pode habilitar a remoção automática de espaços de final de
 linha (*traling spaces*).
 
-```
+```lisp
 ;; Habilita removação de espaços de fim de linha quando salva o arquivo.
 (add-hook 'before-save-hook 'delete-trailing-whitespace)
 ```
@@ -404,7 +455,7 @@ Quando for necessário quebrar linhas em meio a operações matemáticas e
 lógicas, as linhas tem que terminar com um operador para haver
 continuidade da operação.
 
-```{r, eval=FALSE}
+```r
 # Bom.
 mean(precip,
      na.rm = TRUE)
@@ -415,7 +466,7 @@ mean(precip, na.rm =
 
 # x será apenas o resultado da soma, que é uma instrução completa.
 x <- 2 + 4 + 5
-    - 3 - 8
+- 3 - 8
 
 # Agora x será o resultado de soma e diferença.
 x <- 2 + 4 + 5 -
@@ -435,7 +486,7 @@ indentação. É sempre `#` e alinhado ao código (para quê melhor, muitos
 vão dizer). Por isso, vale o denomidador comum e usuários de [Emacs]
 podem desabilidar o padrão do [ESS].
 
-```
+```lisp
 (add-hook 'ess-mode-hook
           '(lambda()
              ;; Sem estilos de indentação.
@@ -449,52 +500,32 @@ podem desabilidar o padrão do [ESS].
 Uma boa prática, principalmente se seu código é material de ensino, é
 fazer divisões nele como se fossem seções de um artigo. Use uma marcação
 visual consistente e fácil de manter. Por anos nós usamos réguas com
-traços de tamanho 72 digitos. Para diferenciar o nível da divisão,
-usamos 3 variações: a maior (para capítulo e cabeçalho) é feita com
-sinal de igual (`=`), a média (para seção) é com traços (`-`) e a menor
-(para subseção) também, tem comprimento inferior (45 digitos). Criamos
-um *key binding* para isso no Emacs por comodidade mas se você usa outro
-editor que indique a coluna 72, pressione até preencher com o digito
-desejado. Lembre-se de preceder com um `#`.
+traços de tamanho 72 digitos e acreditamos ser uma das melhores
+opções. Muitos usam divisões com o sinal de comentários, #, mas
+acreditamos ficar carregado devido ao caracter ser volumoso.
 
-----------------------------------------------------
- Atalho        Descrição
--------------- ------------------------------------
- `Ctrol-7-1 =` Com o control pressionado digite
-               71, solte e pressione `=`. Isso vai
-               repetir o = 71 vezes.
+Para diferenciar o nível da divisão, usamos 3 variações: a maior (para
+capítulo e cabeçalho) é feita com sinal de igual (`=`), a média (para
+seção) é com traços (`-`) e a menor (para subseção) também, tem
+comprimento inferior (45 digitos). Criamos um *key binding* para isso no
+Emacs por comodidade mas se você usa outro editor que indique a coluna
+72, pressione até preencher com o digito desejado. Lembre-se de preceder
+com um `#`.
 
- `Ctrol-7-1 -` Idem mas com traço.
+ * `Ctrol-7-1 =`: Com o control pressionado digite 71, solte e pressione
+    `=`. Isso vai repetir o = 71 vezes.
+ * `Ctrol-7-1 -`: Idem mas com traço.
+ * `Ctrol-4-4 -`: Idem mas repetindo 44 vezes.
 
- `Ctrol-4-4 -` Idem mas repetindo 44 vezes.
-----------------------------------------------------
-
-: Atalhos no Emacs e sua descrição para fazer divivões horizontais no
-código.
-
-```{r, eval=FALSE}
+```r
 #=======================================================================
-# (Título) Ajuste de modelos não lineares para crescimento vegetal.
+# (Título)
 
 #-----------------------------------------------------------------------
-# (seção) Conhecendo os dados.
-
-<Carrega os dados, faz gráficos, etc.>
-
-#-----------------------------------------------------------------------
-# (seção) Ajuste do modelo logístico.
+# (seção)
 
 #-------------------------------------------
-# (subseção) Especificação.
-
-#-------------------------------------------
-# (subseção) Diagnóstico.
-
-#-----------------------------------------------------------------------
-# (seção) Ajuste do modelo de Compertz
-
-<continua>
-
+# (subseção)
 ```
 
 ## Linhas em branco ##
@@ -527,10 +558,10 @@ chaves]. No R, usamos o K&R no qual a chave que abre é o último
 character da linha precedida de espaço e a que fecha fica em linha
 exclusiva e indentada conforme o código.
 
-No R usamos chaves nas instruções de *if*, *for*, *while*, *function* e
-nas funções *with*, *switch*, por exemplo.
+No R usamos chaves nas instruções de *if*, *for*, *while*, *repeat* e
+*function* e nas funções *with*, *switch* e *replicate*, por exemplo.
 
-```{r, eval=FALSE}
+```r
 pitagoras <- function(a, b) {
     h <- sqrt(a^2 + b^2)
 }
@@ -579,7 +610,7 @@ No R, não se coloca espaço entre os parenteses e seu conteúdo. Existe
 espaço ao redor do par de parênteses nas instruções de *if*, *for* e
 *while*.
 
-```{r, eval=FALSE}
+```r
 # Bom.
 if (x %% 2 == 0) {
     print("x é par.")
@@ -597,7 +628,7 @@ Ponto e vírgula no R serve para separar instruções na mesma linha,
 funcionando como uma quebra visual de linha. No entanto, não se
 recomenda o seu uso.
 
-```{r, eval=FALSE}
+```r
 # Bom.
 library(car)
 library(gdata)
@@ -607,21 +638,21 @@ library(lattice)
 library(car); library(gdata); library(lattice)
 ```
 
-## Documentação de funções na função ##
+## Documentação embutida de funções ##
 
-Uma prática muito valorizada e útil é documentar as funções que você
-cria. A documentação serve de lembrete para você no futuro e é intrução
-para as pessoas que usam o seu código. Abaixo a função *baskara* foi
-documentada de duas formas diferentes. A primeira é uma forma livre
-enquanto que a segunda usa as *tags* do roxygen2. Se você escreve uma
-função e tem intenção de incluí-la em um pacote, o segundo padrão é mais
+Uma prática muito valorizada é documentar as funções que você cria. A
+documentação serve de lembrete para você no futuro e é instrução para as
+pessoas que usam o seu código. Abaixo a função *baskara* foi documentada
+de duas formas diferentes. A primeira é uma forma livre enquanto que a
+segunda usa as *tags* do [`roxygen2`]. Se você escreve uma função e tem
+intenção de incluí-la em um pacote, o segundo padrão é mais
 interessante.
 
 Perceba que esse exemplo é bem minimalista pois apenas documenta os
 *inputs* e o *output* da função. Na impede de detalhes serem
 adicionados.
 
-```{r}
+```r
 # Função documentada de forma livre.
 baskara <- function(a, b, c) {
     # a,b,c: (numeric) coeficientes da equação de segundo grau
@@ -655,8 +686,11 @@ retorna *FALSE* se não conseguir enquanto que `library()` retorna
 [ESS]: http://ess.r-project.org/Manual/ess.html
 [RStudio]: https://www.rstudio.com/
 [Emacs]: https://www.gnu.org/software/emacs/
-[mcglm]: http://git.leg.ufpr.br/wbonat/mcglm
+[mcglm]: https://github.com/wbonat/mcglm
 [car]: http://www.rdocumentation.org/packages/car
 [devtools]: http://www.rdocumentation.org/packages/devtools
 [estilos de emprego de chaves]: https://en.wikipedia.org/wiki/Indent_style
 [Yihui Xie]: http://yihui.name/en/2014/07/library-vs-require/
+[Hadley Wickham]: http://hadley.nz/
+[John Fox]: http://socserv.mcmaster.ca/jfox/
+[`roxygen2`]: https://cran.r-project.org/web/packages/roxygen2/roxygen2.pdf

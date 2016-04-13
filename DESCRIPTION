@@ -1,6 +1,7 @@
 Package: labestData
 Title: Conjuntos de Dados para Ensino de Estatística
 Version: 0.0-1
+Date: 2016-04-05
 Authors@R: as.person(c(
     "PET Estatística UFPR <pet.estatistica.ufpr@gmail.com> [cre]",
     "Altamiro Antonio Basiewics <alfbasiewics@bol.com.br> [ctb]",
@@ -28,17 +29,18 @@ URL: http://gitlab.c3sl.ufpr.br/pet-estatistica/labestData
 BugReports: http://gitlab.c3sl.ufpr.br/pet-estatistica/labestData/issues
 LazyData: true
 Encoding: UTF-8
-Depends: 
+Depends:
     R (>= 3.2.3)
-Suggests: 
+Suggests:
     lattice,
     latticeExtra,
     reshape,
     ggplot2,
     car,
-	knitr,
-	rmarkdown,
-	shiny,
-    reshape2
+    knitr,
+    rmarkdown,
+    shiny,
+    reshape2,
+    MASS
 VignetteBuilder: knitr
 RoxygenNote: 5.0.1

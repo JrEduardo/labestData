@@ -4,6 +4,7 @@
 \alias{FerreiraEx3.8.5}
 \title{Avaliação de cultivar de melão}
 \format{\code{data.frame} com 32 observações e 3 variáveis, em que
+
 \describe{
 
 \item{\code{nfrut}}{Número de frutos total por héctare.}
@@ -23,6 +24,10 @@ Os dados referem-se à avaliação de uma cultivar de melão
 }
 \examples{
 
+data(FerreiraEx3.8.5)
+str(FerreiraEx3.8.5)
+
+# Análise descritiva
 panel.density <- function(x, ...) {
     usr <- par("usr")
     on.exit(par(usr))

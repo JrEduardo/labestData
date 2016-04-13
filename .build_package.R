@@ -42,6 +42,13 @@ if (cp > 0) {
 }
 
 #--------------------------------------------
+# Gerar as vinhetas, caso existam.
+
+if (length(list.files("./vignettes"))) {
+    build_vignettes(dependencies = FALSE)
+}
+
+#--------------------------------------------
 # Checar conteúdo e organização do pacote.
 
 check(cleanup = FALSE,
@@ -50,19 +57,14 @@ check(cleanup = FALSE,
       check_dir = "../")
 
 #--------------------------------------------
-# Gerar as vinhetas, caso existam.
-
-if (length(list.files("./vignettes"))) {
-    build_vignettes()
-}
-
-#--------------------------------------------
 # Construir pacote.
 
 build(manual = TRUE, vignettes = TRUE)
 
 #--------------------------------------------
 # Instalar o pacote.
+
+rm(list = ls())
 
 lib <- path.expand("~/R-test/")
 dir.create(lib)
