@@ -27,14 +27,12 @@ Dados referentes às leituras de um micrômetro usado para
 \examples{
 
 data(EpprechtTb5.6)
-
-grid(nx=NA, ny=NULL)
-par(new=TRUE)
+ 
 boxplot(EpprechtTb5.6$leit, 
         col="#F0FFFF",
         ylab="Leitura",
-        main="Leitura de micrômetro")
-
+        main="Leituras do micrômetro")
+grid(nx=NA, ny=NULL, col='grey')
                   
 }
 \keyword{ASM}

@@ -31,6 +31,7 @@ através de medições das mandíbulas.
 }
 \examples{
 
+
 data(ManlyTb1.4)
 
 pairs(~largm + altm + comppm + largpm + comppt + comppq,

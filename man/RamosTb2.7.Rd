@@ -20,8 +20,8 @@ Ramos, E. M. L. S., et al.(2013).
 }
 \description{
 Dados referente a um processo de fundição
-    de magnésio, onde a resposta é a recuperação do metal 
-    e aos valores do fluxo de regeneração adicionada.
+    de magnésio, compreendendo a recuperação do metal 
+    e os valores do fluxo de regeneração adicionada.
 }
 \examples{
 

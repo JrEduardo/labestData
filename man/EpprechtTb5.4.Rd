@@ -29,10 +29,11 @@ Dados utilizados para avaliar a capacidade
 
 data(EpprechtTb5.4)
 
-plot(tam~pc,data=EpprechtTb5.4,
-     ylab="Tamanho",
-     xlab="Peça")
-abline(mean(EpprechtTb5.4$tam),0,lty=2)
+plot(tam ~ pc,data=EpprechtTb5.4,
+     ylab = "Tamanho",
+     xlab = "Peça", xaxt = "n")
+axis(1, 1:20)
+abline(mean(EpprechtTb5.4$tam), 0, lty=2)
 
                   
 }

@@ -2,15 +2,15 @@
 % Please edit documentation in R/EpprechtTb2.3.R
 \name{EpprechtTb2.3}
 \alias{EpprechtTb2.3}
-\title{Dados referentes à quantidade de leite}
+\title{Volumes em embalagens de leite}
 \format{Um \code{data.frame} com 100 observações e 2 variáveis, 
     em que
 
 \describe{
 
-\item{\code{id}}{Identificação do pacote.}
+\item{\code{id}}{Identificação da embalagem.}
 
-\item{\code{X}}{Volume de leite presente no pacote (ml).}
+\item{\code{X}}{Volume de leite presente na embalagem (ml).}
 
 }}
 \source{
@@ -19,17 +19,16 @@ Costa, A. F. B., Epprecht, E. K., Carpinetti, L. (2010).
      Editora Atlas. (pg 35).
 }
 \description{
-Dados referentes à variável X que representa o volume de 
-    leite presente em um pacote, sendo ideal que em cada pacote 
-    houvesse exatamente 1000 ml de leite. Os dados são extraídos de 
-    um processo isento de causas especiais.
+Dados referentes aos volumes verificados de 
+    leite em 100 embalagens de 1000 ml. Os dados são extraídos de 
+    um processo isento de causas especiais de variação.
 }
 \examples{
 
 data(EpprechtTb2.3) 
 
-hist(EpprechtTb2.3$x)
+hist(EpprechtTb2.3$x, xlab="Volume (ml)", ylab="Frequência", main="")
                   
 }
-\keyword{variabilidade}
+\keyword{CEQ}
 

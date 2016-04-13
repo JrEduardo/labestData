@@ -8,10 +8,10 @@
 
 \describe{
 
-\item{\code{pop}}{População \eqn{F_{2}} da linhagem de arroz com 18 
+\item{\code{pop}}{População \eqn{F_{2}} da linhagem de arroz com 18
     níveis e 2 testemunhas.}
 
-\item{\code{rept}}{Fator que indica a repetição da combinação entre 
+\item{\code{rept}}{Fator que indica a repetição da combinação entre
     planta e linhagem.}
 
 \item{\code{plant}}{Inteiro que representa a planta de arroz avaliada
@@ -45,9 +45,10 @@ ps <- list(box.rectangle = list(col = 1, fill = c("gray90")),
            box.umbrella = list(col = 1, lty = 1),
            plot.symbol = list(col = 1, cex = 0.7))
 
-bwplot(prod ~ pop, data = RamalhoEx7.10,
+bwplot(prod ~ reorder(pop, prod, median), data = RamalhoEx7.10,
        horizontal = FALSE, pch = "|",
-       xlab = "População", ylab = "Produção de grãos",
+       xlab = "População (ordenada pela mediana)",
+       ylab = "Produção de grãos (g/parcela)",
        par.settings = ps)
 
 }
