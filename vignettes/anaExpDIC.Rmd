@@ -217,12 +217,12 @@ $$
 \end{aligned}
 $$
 
-A transformação só pode ser aplicada para respostas positiva, \(y>0\)
+A transformação só pode ser aplicada para respostas positivas, \(y>0\)
 . Caso tenha-se zeros ou valores negativos podemos somar uma
 constante aos dados. Como o que interessa da transformação é parte não
 linear (a potenciação), na prática apenas se aplica a função potência 
 sem subtrair 1 e dividir por $\lambda$. No entanto, essa é a 
-transformação de fato aplicada paracalcular o valor da log-verossimilhança. 
+transformação de fato aplicada para calcular o valor da log-verossimilhança.
 Se houver a curiosidade de fazer o cálculo da log-verrossimilhança passo
 a passo, lembre-se de considerar o jacobiano da transformação.
 
@@ -359,7 +359,7 @@ segplot(trat ~ lwr + upr, centers = fit, data = pred,
 
 É simples produzir o plano de um delineamento inteiramente
 casualizado. Vamos gerar o plano para executar um experimento
-semenlhante ao apresentado, mas com 8 repetições e mais uma produto, 
+semelhante ao apresentado, mas com 8 repetições e mais um produto,
 o `Novo` produto.
 
 ```{r, eval=FALSE}
