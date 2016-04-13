@@ -4,11 +4,10 @@
 #'     cultura do feijoeiro testando espaçamento entre linhas de plantio
 #'     (0.45m, 0.6m e 0.75m) e densidade de plantio (7, 10 e 13 sementes
 #'     por metro). Os dados se referem à cultivar Jalo
-#'     Precoce. Adotou-se o delineamento completamente ao acaso, mas
-#'     aqui consideramos o de blocos ao acaso com confundimento parcial
-#'     de 2 graus de liberdade da interação densidade (A) com
-#'     espaçamento (B). Os resultados são de altura de plantas, em
-#'     centímetros.
+#'     Precoce. Adotou-se o delineamento de blocos ao acaso com 
+#'     confundimento parcial de 2 graus de liberdade da interação 
+#'     densidade (A) com espaçamento (B). Os resultados são de altura
+#'     de plantas, em centímetros.
 #' @format Um \code{data.frame} com 36 observações e 4 variáveis
 #'
 #' \describe{
@@ -23,6 +22,12 @@
 #'
 #' \item{\code{iden}}{Fator de níveis numéricos. É a identificação que
 #'     representa o tratamento.}
+#'     
+#' \item{\code{espac}}{Fator de níveis numéricos. Identifica o espaçamento
+#'     utilizado.}
+#'     
+#' \item{\code{dens}}{Fator de níveis numéricos. Identifica a densidade de
+#'    plantio utilizada.}
 #'
 #' @keywords DBC FAT
 #' @source Zimmermann, F. J. (2004). Estatística aplicada à pesquisa
@@ -36,16 +41,16 @@
 #'
 #' str(ZimmermannTb11.10)
 #'
-#' aggregate(altura ~ bloco, data = ZimmermannTb11.10,
+#' aggregate(altura ~ espac, data = ZimmermannTb11.10,
 #'           FUN = function(x) { c(mean = mean(x), var = var(x)) })
 #'
-#' aggregate(altura ~ iden, data = ZimmermannTb11.10,
-#'           FUN = function(x) { c(mean = mean(x), var = var(x)) })
+#' aggregate(altura ~ dens, data = ZimmermannTb11.10,
+#'           FUN = function(x) { c(mean = mean(x), var = var(x)) })                      
 #'
-#' xyplot(altura ~ iden | rept, groups = bloco,
+#' xyplot(altura ~ rept, groups = bloco,
 #'        data = ZimmermannTb11.10,
 #'        type = c("p","a"),
-#'        ylab = "Identificação do Tratamento",
+#'        ylab = "Repetição",
 #'        xlab="Altura de Plantas, em cm")
 #'
 NULL
