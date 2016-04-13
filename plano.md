@@ -22,7 +22,21 @@ incorporar a realização das atividades propostas no ramo `devel` do
 projeto. Para facilitar a visualização o *emoji* :white\_check\_mark:,
 representa que o trabalho foi REALIZADO e :x: o NÃO REALIZADO.
 
-<table>
+<table style="width:335%;">
+<colgroup>
+<col width="33%" />
+<col width="15%" />
+<col width="40%" />
+<col width="40%" />
+<col width="40%" />
+<col width="40%" />
+<col width="40%" />
+<col width="40%" />
+<col width="11%" />
+<col width="11%" />
+<col width="11%" />
+<col width="11%" />
+</colgroup>
 <thead>
 <tr class="header">
 <th align="left">Contribuidor</th>
@@ -48,7 +62,7 @@ representa que o trabalho foi REALIZADO e :x: o NÃO REALIZADO.
 <td align="center">:white_check_mark: / MR!25</td>
 <td align="center">:x: / -</td>
 <td align="center">:white_check_mark: / MR!39</td>
-<td align="center">. / .</td>
+<td align="center">:white_check_mark: / MR!49</td>
 <td align="center">. / .</td>
 <td align="center">. / .</td>
 <td align="center">. / .</td>
@@ -62,7 +76,7 @@ representa que o trabalho foi REALIZADO e :x: o NÃO REALIZADO.
 <td align="center">:x: / -</td>
 <td align="center">:x: / -</td>
 <td align="center">:x: / -</td>
-<td align="center">. / .</td>
+<td align="center">:x: / -</td>
 <td align="center">. / .</td>
 <td align="center">. / .</td>
 <td align="center">. / .</td>
@@ -76,7 +90,7 @@ representa que o trabalho foi REALIZADO e :x: o NÃO REALIZADO.
 <td align="center">:white_check_mark: / MR!23</td>
 <td align="center">:white_check_mark: / MR!30</td>
 <td align="center">:white_check_mark: / MR!37</td>
-<td align="center">. / .</td>
+<td align="center">:white_check_mark: / MR!44</td>
 <td align="center">. / .</td>
 <td align="center">. / .</td>
 <td align="center">. / .</td>
@@ -90,7 +104,7 @@ representa que o trabalho foi REALIZADO e :x: o NÃO REALIZADO.
 <td align="center">:white_check_mark: / MR!17</td>
 <td align="center">:white_check_mark: / MR!32</td>
 <td align="center">:x: / -</td>
-<td align="center">. / .</td>
+<td align="center">:x: / -</td>
 <td align="center">. / .</td>
 <td align="center">. / .</td>
 <td align="center">. / .</td>
@@ -104,7 +118,7 @@ representa que o trabalho foi REALIZADO e :x: o NÃO REALIZADO.
 <td align="center">:x: / -</td>
 <td align="center">:x: / -</td>
 <td align="center">:x: / -</td>
-<td align="center">. / .</td>
+<td align="center">:x: / -</td>
 <td align="center">. / .</td>
 <td align="center">. / .</td>
 <td align="center">. / .</td>
@@ -118,7 +132,7 @@ representa que o trabalho foi REALIZADO e :x: o NÃO REALIZADO.
 <td align="center">:x: / -</td>
 <td align="center">:white_check_mark: / MR!31</td>
 <td align="center">:white_check_mark: / MR!38</td>
-<td align="center">. / .</td>
+<td align="center">:white_check_mark: / MR!46</td>
 <td align="center">. / .</td>
 <td align="center">. / .</td>
 <td align="center">. / .</td>
@@ -132,7 +146,7 @@ representa que o trabalho foi REALIZADO e :x: o NÃO REALIZADO.
 <td align="center">:white_check_mark: / MR!21</td>
 <td align="center">:white_check_mark: / MR!35</td>
 <td align="center">:white_check_mark: / MR!41</td>
-<td align="center">. / .</td>
+<td align="center">:x: / -</td>
 <td align="center">. / .</td>
 <td align="center">. / .</td>
 <td align="center">. / .</td>
@@ -144,9 +158,9 @@ representa que o trabalho foi REALIZADO e :x: o NÃO REALIZADO.
 <td align="center">:white_check_mark: / MR!5</td>
 <td align="center">:white_check_mark: / MR!19</td>
 <td align="center">:x: / MR!36</td>
+<td align="center">:x: / MR!48</td>
 <td align="center">:x: / -</td>
 <td align="center">:x: / -</td>
-<td align="center">. / .</td>
 <td align="center">. / .</td>
 <td align="center">. / .</td>
 <td align="center">. / .</td>
@@ -160,7 +174,7 @@ representa que o trabalho foi REALIZADO e :x: o NÃO REALIZADO.
 <td align="center">:white_check_mark: / MR!26</td>
 <td align="center">:white_check_mark: / MR!29</td>
 <td align="center">:white_check_mark: / MR!40</td>
-<td align="center">. / .</td>
+<td align="center">:white_check_mark: / MR!47</td>
 <td align="center">. / .</td>
 <td align="center">. / .</td>
 <td align="center">. / .</td>
@@ -174,7 +188,7 @@ representa que o trabalho foi REALIZADO e :x: o NÃO REALIZADO.
 <td align="center">:x: / -</td>
 <td align="center">:x: / -</td>
 <td align="center">:x: / -</td>
-<td align="center">. / .</td>
+<td align="center">:x: / -</td>
 <td align="center">. / .</td>
 <td align="center">. / .</td>
 <td align="center">. / .</td>
@@ -188,7 +202,7 @@ representa que o trabalho foi REALIZADO e :x: o NÃO REALIZADO.
 <td align="center">:white_check_mark: / MR!24</td>
 <td align="center">:white_check_mark: / MR!33</td>
 <td align="center">:x: / -</td>
-<td align="center">. / .</td>
+<td align="center">:x: / MR!45</td>
 <td align="center">. / .</td>
 <td align="center">. / .</td>
 <td align="center">. / .</td>
@@ -202,7 +216,7 @@ representa que o trabalho foi REALIZADO e :x: o NÃO REALIZADO.
 <td align="center">:white_check_mark: / MR!28</td>
 <td align="center">:white_check_mark: / MR!34</td>
 <td align="center">:white_check_mark: / MR!41</td>
-<td align="center">. / .</td>
+<td align="center">:white_check_mark: / MR!50</td>
 <td align="center">. / .</td>
 <td align="center">. / .</td>
 <td align="center">. / .</td>
@@ -216,7 +230,7 @@ representa que o trabalho foi REALIZADO e :x: o NÃO REALIZADO.
 <td align="center">-</td>
 <td align="center">-</td>
 <td align="center">-</td>
-<td align="center">. / .</td>
+<td align="center">-</td>
 <td align="center">. / .</td>
 <td align="center">. / .</td>
 <td align="center">. / .</td>
@@ -257,7 +271,47 @@ indicado:
 <!--     + **Cesar A. Taconeli** -->
 <!-- * **Semana 9 - (26/04 - 03/05)** -->
 <!-- * **Semana 8 - (19/04 - 26/04)** -->
-<!-- * **Semana 7 - (12/04 - 19/04)** -->
+-   **Semana 7 - (12/04 - 19/04)**
+    -   **Alcides C. Neto**: Listar as tabelas e incluir, no GitLab as
+        *issues* do livro Planejamento e Analise Estatistica de
+        Experimentos Agronomicos - Decio Barbin, junto ao Walmes.
+    -   **Altamiro A. Basiewics**: **Concluir as atividades das CINCO
+        semanas anteriores**; e concluir a *issue* \#91 (3 tabelas)
+    -   **Ângela L. C. Legey**: Concluir a *issue* \#73 (4 tabelas)
+    -   **Bruna D. Wundervald**: **Concluir as atividades das 2 semanas
+        anteriores**; e incluir mais 1 tabela ao pacote.
+    -   **Bruno Geronymo**: **Concluir as atividades das QUATRO semanas
+        anteriores**; e concluir *issue* \#46 (5 tabelas).
+    -   **Daniel Ikenaga**: Concluir *issue* \#82 (11 tabelas).
+    -   **Eduardo E. R. Junior**: **Concluir as atividades da semana
+        anteriore**; atualizar o `plano.md`; Realizar as eventuais
+        correções de MR e incorporá-los ao ramo `devel`; e listar dados
+        e incluir as *issues* referentes a nova obra Modelos de
+        Regressão com apoio computacional - Gilberto A. Paula.
+    -   **Gabriel S. Klostermann**: **Concluir as atividades das 2
+        semanas anteriores**; e concluir *issue* \#54 (2 tabelas).
+    -   **Jhenifer C. Veloso**: Concluir a *issue* \#65 (2 tabelas).
+    -   **Mônica L. H. De Oliveira**: **Concluir as atividades das SEIS
+        semanas anteriores**; e listar as tabelas e incluir, no GitLab,
+        as *issues* referentes a uma nova obra a ser definida com o
+        tutor Walmes.
+    -   **Paula A. Z. Dimas**: Concluir a *issue* \#77 (6 tabelas)
+    -   **Walmes M. Zeviani**: Realizar as eventuais correções de MR e
+        incorporá-los ao ramo `devel`; Concluir a *issue* \#13 (2
+        tabelas); e listar, junto ao colaborador Alcides, as tabelas do
+        livro Planejamento e Analise Estatistica de Experimentos
+        Agronomicos - Decio Barbin.
+    -   **Cesar A. Taconeli**: Realizar as eventuais correções de MR e
+        incorporá-los ao ramo `devel`;e Revisar a *vignette* adicionada
+        pelo Walmes.
+
+Nesta semana alguns colaboradores relataram a dificuldade e instalar o
+pacote `devtools`. Ressaltou-se que este pacote necessita de algumas
+dependências do sistema operacional, ver \[página do RStudio\] com as
+principais informações. Ainda Jhenifer informou que há três computadores
+do PET devidamente equipados com os recursos para desenvolvimento do
+projeto, portanto os colaboradores que necessitarem podem utizá-los.
+
 -   **Semana 6 - (05/04 - 12/04)**
     -   **Alcides C. Neto**: Concluir a issue \#53 (2 tabelas)
     -   **Altamiro A. Basiewics**: **Concluir as atividades das QUATRO
@@ -336,9 +390,9 @@ atividades do projeto. Porém, em reunião, comentou-se que o RStudio Web
 deve ser considerado como uma ferramenta auxiliar e que os integrantes
 devem ter, em seus computadores de trabalho, os recursos para
 desenvolvimento das atividades previstas. Para GIT recomendamos a
-leitura do segundo capítulo da [Apostila Git do PET] que fala sobre a
+leitura do segundo capítulo da \[Apostila Git do PET\] que fala sobre a
 instalação. Sobre o `devtools`, pacote R para desenvolvedores, há a
-[página do RStudio] com as principais informações.
+\[página do RStudio\] com as principais informações.
 
 -   **Semana 4 - (22/03 - 29/03)**
     -   **Alcides C. Neto**: Concluir o *issue* \#52 (5 tabelas).
@@ -351,15 +405,15 @@ instalação. Sobre o `devtools`, pacote R para desenvolvedores, há a
         suas tabelas e incluindo as respectivas *issues* no GitLab.
         (*issue* \#70).
     -   **Bruna D. Wundervald**: Concluir seus dois próximos *issues*,
-        \#18 e \#19 (realizar as atividades listadas nestes em apenas um
-        ramo).
+        \#18 e \#19 (realizar as atividades listadas nestes em apenas
+        um ramo).
     -   **Bruno Geronymo**: **Concluir as atividades da semana
         anterior**; e concluir *issue* \#43 (5 tabelas).
     -   **Daniel Ikenaga**: **Concluir as atividades da semana
         anterior**; e incluir 4 tabelas. (*issue* \#79).
     -   **Eduardo E. R. Junior**: Realizar as eventuais correções de MR
-        e incorporá-los ao ramo `devel`; e concluir o *issue* \#30 (2
-        tabelas).
+        e incorporá-los ao ramo `devel`; e concluir o *issue* \#30
+        (2 tabelas).
     -   **Gabriel S. Klostermann**: **Concluir as atividades da semana
         anterior**; e concluir *issue* \#60 (2 tabelas).
     -   **Jhenifer C. Veloso**: Concluir *issue* \#62 (5 tabelas).
@@ -370,8 +424,8 @@ instalação. Sobre o `devtools`, pacote R para desenvolvedores, há a
         suas tabelas e incluindo as respectivas *issues* no GitLab.
         (*issue* \#69).
     -   **Walmes M. Zeviani**: Realizar as eventuais correções de MR e
-        incorporá-los ao ramo `devel`; e concluir o *issue* \#10 (4
-        tabelas).
+        incorporá-los ao ramo `devel`; e concluir o *issue* \#10
+        (4 tabelas).
     -   **Cesar A. Taconeli**: Realizar as eventuais correções de MR e
         incorporá-los ao ramo `devel`.
 -   **Semana 3 - (15/03 - 22/03)**
@@ -389,13 +443,13 @@ instalação. Sobre o `devtools`, pacote R para desenvolvedores, há a
         anterior**; incluir mais 4 tabelas; e criar os demais *issues*
         referentes às tabelas de dados simulados e/ou de exercícios.
     -   **Eduardo E. R. Junior**: Realizar as eventuais correções de MR
-        e incorporá-los ao ramo `devel`; e concluir o *issue* \#29 (3
-        tabelas).
+        e incorporá-los ao ramo `devel`; e concluir o *issue* \#29
+        (3 tabelas).
     -   **Gabriel S. Klostermann**: Incluir 2 tabelas; e adicionar os
-        arquivos-fonte (.txt) de todas as tabelas da obra sob sua
-        responsabilidade.
-    -   **Jhenifer C. Veloso**: Incluir as tabelas do capítulo 7 (3
-        tabelas).
+        arquivos-fonte (.txt) de todas as tabelas da obra sob
+        sua responsabilidade.
+    -   **Jhenifer C. Veloso**: Incluir as tabelas do capítulo 7
+        (3 tabelas).
     -   **Monica L. H. Oliveira**: **Concluir as atividades das 2
         semanas anteriores**; e incluir 1 tabela.
     -   **Paula A. Z. Dimas**: Concluir *issues* \#36, \#37 e \#38, 3
@@ -425,8 +479,8 @@ instalação. Sobre o `devtools`, pacote R para desenvolvedores, há a
         incluir 2 ou 3 tabelas; e Checar o *build* de verificação do
         pacote (para correção do erro gerado no seu ramo).
     -   **Eduardo E. R. Junior**: Realizar as eventuais correções de MR
-        e incorporá-los ao ramo `devel`; e concluir o *issue* \#28 (3
-        tabelas).
+        e incorporá-los ao ramo `devel`; e concluir o *issue* \#28
+        (3 tabelas).
     -   **Gabriel S. Klostermann**: Listar todas as tabelas presente na
         obra de sua responsabilidade; criar os respectivos *issues* no
         GitLab; e incluir 2 tabelas.
@@ -451,11 +505,17 @@ instalação. Sobre o `devtools`, pacote R para desenvolvedores, há a
 Lista de datasets
 -----------------
 
-Até o momento, no ramo `devel` temos 113 conjuntos de dados já
+Até o momento, no ramo `devel` temos 123 conjuntos de dados já
 devidamente incluídos, documentados e revisados. Abaixo a contagem de
 *datasets* por obra.
 
-<table>
+<table style="width:104%;">
+<colgroup>
+<col width="16%" />
+<col width="29%" />
+<col width="33%" />
+<col width="25%" />
+</colgroup>
 <thead>
 <tr class="header">
 <th align="left">Livros</th>
@@ -467,9 +527,9 @@ devidamente incluídos, documentados e revisados. Abaixo a contagem de
 <tbody>
 <tr class="odd">
 <td align="left">Banzatto</td>
-<td align="center">16</td>
-<td align="center">2328</td>
-<td align="left">42.133 Kb</td>
+<td align="center">19</td>
+<td align="center">2648</td>
+<td align="left">48.273 Kb</td>
 </tr>
 <tr class="even">
 <td align="left">Charnet</td>
@@ -479,9 +539,9 @@ devidamente incluídos, documentados e revisados. Abaixo a contagem de
 </tr>
 <tr class="odd">
 <td align="left">Costa</td>
-<td align="center">4</td>
-<td align="center">356</td>
-<td align="left">9.68 Kb</td>
+<td align="center">6</td>
+<td align="center">421</td>
+<td align="left">11.938 Kb</td>
 </tr>
 <tr class="even">
 <td align="left">Demetrio</td>
@@ -503,9 +563,9 @@ devidamente incluídos, documentados e revisados. Abaixo a contagem de
 </tr>
 <tr class="odd">
 <td align="left">Epprecht</td>
-<td align="center">3</td>
-<td align="center">600</td>
-<td align="left">5.789 Kb</td>
+<td align="center">8</td>
+<td align="center">1120</td>
+<td align="left">12.188 Kb</td>
 </tr>
 <tr class="even">
 <td align="left">Ferreira</td>
@@ -547,13 +607,13 @@ devidamente incluídos, documentados e revisados. Abaixo a contagem de
 <td align="left">Zimmermann</td>
 <td align="center">16</td>
 <td align="center">5107</td>
-<td align="left">64.969 Kb</td>
+<td align="left">64.953 Kb</td>
 </tr>
 </tbody>
 </table>
 
 [Retornar à tabela de conteúdo](#painel-de-atividades-do-labestdata)
-[Apostila Git do PET]:
+\[Apostila Git do PET\]:
 <https://gitlab.c3sl.ufpr.br/pet-estatistica/apostila-git/blob/devel/apostila_git.pdf>
-[página do RStudio]:
+\[página do RStudio\]:
 <https://www.rstudio.com/products/rpackages/devtools/>
