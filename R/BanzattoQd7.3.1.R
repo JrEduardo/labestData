@@ -13,7 +13,7 @@
 #'
 #' \item{\code{at}}{Altura dos tubetes, em cm.}
 #'
-#' \item{\code{bloco}}{Variável nominal que indentifica os blocos do
+#' \item{\code{bloco}}{Variável nominal que identifica os blocos do
 #'     experimento.}
 #'
 #' \item{\code{alt}}{Altura das mudas 75 dias após a semeadura.}

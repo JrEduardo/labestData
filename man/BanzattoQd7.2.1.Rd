@@ -27,7 +27,7 @@ Ragazzi, D. (1979). Efeito de doses de gesso na cultura do feijoeiro
 \description{
 Estudo sobre o efeito do gesso no peso de grãos de
     feijão (\emph{Phaseolus vulgaris} L.) feito por Ragazzi (1979). O
-    experimento foi instalado de delineamento inteiramente
+    experimento foi instalado em delineamento inteiramente
     casualizado e foram estudados 7 níveis de gesso, de 0 a 300,
     igualmente espaçados em 50 kg ha\eqn{^{-1}}.
 }

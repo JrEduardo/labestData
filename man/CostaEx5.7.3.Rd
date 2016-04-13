@@ -40,4 +40,5 @@ xyplot(prod ~ dose, data = CostaEx5.7.3,
 
 }
 \keyword{DIC}
+\keyword{RegSeg}
 
