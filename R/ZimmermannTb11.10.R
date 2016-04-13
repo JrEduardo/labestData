@@ -8,7 +8,7 @@
 #'     confundimento parcial de 2 graus de liberdade da interação 
 #'     densidade (A) com espaçamento (B). Os resultados são de altura
 #'     de plantas, em centímetros.
-#' @format Um \code{data.frame} com 36 observações e 4 variáveis
+#' @format Um \code{data.frame} com 36 observações e 6 variáveis
 #'
 #' \describe{
 #'
