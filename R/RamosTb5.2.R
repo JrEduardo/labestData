@@ -1,6 +1,6 @@
 #' @name RamosTb5.2
 #' @title Itens não conformes no processo produtivo de ovos de galinha
-#' @description Número de itens não conformes de um processo  
+#' @description Número de ovos não conformes de um processo  
 #'     produtivo de ovos de galinha, com 30 amostras de 
 #'     tamanhos diferentes. 
 #'
@@ -26,6 +26,8 @@
 #' 
 #' library(qcc)
 #'
-#' qcc(RamosTb5.2$naoconf, sizes = RamosTb5.2$tamamostra, type = "p")
+#' qcc(RamosTb5.2$naoconf, sizes = RamosTb5.2$tamamostra, type = "p",
+#'      xlab = "Amostra", ylab = "Fração de ovos não conformes", title =
+#'       "")
 #'
 NULL

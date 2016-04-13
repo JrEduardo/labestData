@@ -2,7 +2,7 @@
 #' @title Temperatura de eletrodos de carbono 
 #' @description Conjunto de dados referente às temperaturas de eletrodos  
 #'     de carbono, com 25 amostras de tamanho 8, em um processo 
-#'     de fabricação de alumínio de uma indústria.
+#'     de fabricação de alumínio.
 #'
 #' @format Um \code{data.frame} com 75 observações e 2 variáveis, em que
 #'
@@ -26,6 +26,7 @@
 #'
 #' obj <- qcc.groups(RamosTb4.1$temperat, RamosTb4.1$amostra)
 #'
-#' qcc(obj, type = "xbar", nsigmas = 3)
+#' qcc(obj, type = "xbar", nsigmas = 3, xlab = "Amostra", ylab = 
+#'      "Temperatura média", title = " ")
 #'
 NULL
