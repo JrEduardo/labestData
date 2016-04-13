@@ -32,15 +32,4 @@ Encoding: UTF-8
 Depends:
     R (>= 3.2.3)
 Suggests:
-    lattice,
-    latticeExtra,
-    reshape,
-    ggplot2,
-    car,
-    knitr,
-    rmarkdown,
-    shiny,
-    reshape2,
-    MASS
-VignetteBuilder: knitr
-RoxygenNote: 5.0.1
+    lattice

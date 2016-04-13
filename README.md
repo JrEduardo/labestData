@@ -1,12 +1,5 @@
-# labestData #
-
-**PET Estatística UFPR** - <pet.estatistica.ufpr@gmail.com>
-
-[![Build Status](https://travis-ci.org/pet-estatistica/labestData.svg?branch=master)](https://travis-ci.org/pet-estatistica/labestData)
-Build status for the stable version (`master` branch)
-
-[![Build Status](https://travis-ci.org/pet-estatistica/labestData.svg?branch=devel)](https://travis-ci.org/pet-estatistica/labestData)
-Build status for the development version (`devel` branch)
+% labestData
+% PET Estatística UFPR - <pet.estatistica.ufpr@gmail.com>
 
 > “Without data, you're just another person with an opinion.”
 >
@@ -34,92 +27,6 @@ O projeto tem dois objetivos principais:
      científica em geral, por reunir, organizar, manter e disponibilizar
      conjuntos de dados na forma de um pacote R de tal forma que possam
      ser usados para o ensino de Estatística.
-
-Nesta primeira fase do projeto foram definidas algumas obras nacionais
-para transcrição e documentação de suas tabelas de dados ao pacote. As
-obras escolhidas estão descritas abaixo e compreendem as disciplinas de
-Planejamento de Experimentos, Análise de Regressão Linear e Análise
-Estatística Multivariada.
-
-<!-- Inserir links das milestones que representam os livros -->
-1. Banzatto, D. A., Kronka, S. D. (2013). **Experimentação Agrícola**
-   (4th ed.). Jaboticabal, SP: Funep.  
-   [_Milestone_ Banzatto](https://gitlab.c3sl.ufpr.br/pet-estatistica/labestData/milestones/1)
-   <!-- [*Walmes Zeviani*](https://gitlab.c3sl.ufpr.br/walmes) -->
-
-2. Mingoti, S.A. (2005). **Análise de dados através de métodos de
-   estatística multivariada - uma abordagem aplicada**. Belo
-   Horizonte, MG: Editora UFMG.  
-   [_Milestone_ Mingoti](https://gitlab.c3sl.ufpr.br/pet-estatistica/labestData/milestones/2)
-   <!-- [*Paula Alessandra*](https://gitlab.c3sl.ufpr.br/pazd11) e -->
-   <!-- [*Ângela Legey*](https://gitlab.c3sl.ufpr.br/alcl12) -->
-
-3. Ramalho, M. A. P., Ferreira, D. F., Oliveira,
-   A. C. (2005). **Experimentação em Genética e Melhoramento de
-   Plantas** (2th ed.). Lavras, MG: Editora UFLA.  
-   [_Milestone_ Ramalho](https://gitlab.c3sl.ufpr.br/pet-estatistica/labestData/milestones/3)
-   <!-- [*Jhenifer Veloso*](https://gitlab.c3sl.ufpr.br/jcv12) -->
-
-4. Barros, W. S., Dias, L. A. S. (2009). **Biometria
-   Experimental**. Viçosa, MG: Editora UFV.  
-   [_Milestone_ Barros](https://gitlab.c3sl.ufpr.br/pet-estatistica/labestData/milestones/4)
-   <!-- [*Altamiro Basiewics*](https://gitlab.c3sl.ufpr.br/aab15) -->
-
-6. Zimmermann, F.J. (2004), **Estatística aplicada à pesquisa agrícola**
-   (1st ed.). Santo Antônio de Goiás, GO: Embrapa Arroz e Feijão.  
-   [_Milestone_ Zimmermann](https://gitlab.c3sl.ufpr.br/pet-estatistica/labestData/milestones/6)
-   <!-- [*Bruna Wundervald*](https://gitlab.c3sl.ufpr.br/bdw13) -->
-
-7. Pimentel-Gomes, F. (2009). **Curso de Estatística Experimental**
-   (15th ed.). Piracicaba, SP: FEALQ.  
-   [_Milestone_ Pimentel-Gomes](https://gitlab.c3sl.ufpr.br/pet-estatistica/labestData/milestones/7)
-   <!-- [*Bruno Geronymo*](https://gitlab.c3sl.ufpr.br/bg15) -->
-
-8. Ferreira, D. F. (2011). **Estatística Multivariada** (2nd
-   ed.). Lavras, MG: Editora UFLA.  
-   [_Milestone_ Ferreira](https://gitlab.c3sl.ufpr.br/pet-estatistica/labestData/milestones/8)
-   <!-- [*Eduardo Junior*](https://gitlab.c3sl.ufpr.br/eerj12) -->
-
-9. Manly, B. J. F. (2005). **Métodos Estatísticos Multivariados- uma
-   introdução**. Porto Alegre, RS: Bookman  
-   [_Milestone_ Manly](https://gitlab.c3sl.ufpr.br/pet-estatistica/labestData/milestones/9)
-   <!-- [*Gabriel Klostermann*](https://gitlab.c3sl.ufpr.br/gsk12) -->
-
-10. Storck, L., Garcia, B. C., Lopes, S. J., Estefanel,
-    V. (2011). **Experimentação Vegetal** (3th ed.). Santa Maria, RS:
-    Editora UFSM.  
-   [_Milestone_ Storck](https://gitlab.c3sl.ufpr.br/pet-estatistica/labestData/milestones/10)
-   <!-- [*Mônica Ludmilla*](https://gitlab.c3sl.ufpr.br/mlho15) -->
-
-11. Charnet, R., de Luna Freire, C.A., Charnet, E.M.R., Bonvino,
-   H. (2008). **Análise de modelos de regressão linear com aplicações**
-   (2nd ed.). Campinas, SP: Editora Unicamp  
-   [_Milestone_ Charnet](https://gitlab.c3sl.ufpr.br/pet-estatistica/labestData/milestones/11)
-    <!-- [*Daniel Ikenaga*](https://gitlab.c3sl.ufpr.br/di12) -->
-
-12. Demétrio, C. G. B., & Zocchi, S. S. (2011). **Modelos de
-   Regressão**. Piracicaba: ESALQ.  
-   [_Milestone_ Demetrio](https://gitlab.c3sl.ufpr.br/pet-estatistica/labestData/milestones/12)
-   <!-- [*Alcides Neto*](https://gitlab.c3sl.ufpr.br/acn13) -->
-
-13. Ramos, E. M. L. S., & Almeida, S. S, & Araújo,
-   A. R. (2013). **Controle Estatístico da Qualidade** (1th ed.). Porto
-   Alegre, RS: Bookman.  
-   [_Milestone_ Ramos](https://gitlab.c3sl.ufpr.br/pet-estatistica/labestData/milestones/13)
-   <!-- [*Ângela Legey*](https://gitlab.c3sl.ufpr.br/alcl12) -->
-
-14. Costa, A. F. B., Epprecht, E. K., Carpinetti, L. (2010).  **Controle
-   Estatístico de Qualidade** (2nd ed.). São Paulo - SP: Editora
-   Atlas.  
-   [_Milestone_ Epprecht](https://gitlab.c3sl.ufpr.br/pet-estatistica/labestData/milestones/14)
-   <!-- [*Paula Alessandra*](https://gitlab.c3sl.ufpr.br/pazd11) e -->
-
-Ao término desta primeira fase pretende-se ter todos os conjuntos de
-dados relevantes destas obras disponíveis para usuários do pacote. Ainda
-*vignettes* (vinhetas), exemplificando a análise de dados (em códigos R)
-referentes a cada disciplina compreendida, serão elaboradas para
-servirem de inspiração ou roteiro para análise dos demais dados do
-pacote.
 
 ## Quem são os desenvolvedores do *labestData*?
 
