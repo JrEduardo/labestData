@@ -44,6 +44,6 @@
 #'        data = ZimmermannTb10.9,
 #'        type = c("p", "a"),
 #'        xlab = "Genótipo de arroz",
-#'        ylab = "Peso de 100 espigetas (g)")
+#'        ylab = "Peso de 100 espiguetas (g)")
 #'
 NULL
