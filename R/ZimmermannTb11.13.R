@@ -9,7 +9,7 @@
 #'     kg/ha para o fósforo e 0, 1.5 e 3 ton/ha para o
 #'     calcário. Utilizou-se o grupo Z de Yates. Os dados são de
 #'     produção de grãos, em kg ha\eqn{^{-1}}.
-#' @format Um \code{data.frame} com 81 observações e 4 variáveis
+#' @format Um \code{data.frame} com 81 observações e 7 variáveis
 #'
 #' \describe{
 #'
@@ -23,7 +23,16 @@
 #'
 #' \item{\code{iden}}{Fator de níveis numéricos. É a identificação que
 #'     representa o tratamento.}
-#'
+#'    
+#' \item{\code{zinco}}{Fator de níveis numéricos. Indica o nível de zinco
+#'     aplicado.}
+#'     
+#' \item{\code{fosf}}{Fator de níveis numéricos. Indica o nível de fósforo
+#'     aplicado.}
+#'     
+#' \item{\code{calc}}{Fator de níveis numéricos. Indica o nível de calcário
+#'     aplicado.}
+#'          
 #' @keywords DBC FAT
 #' @source Zimmermann, F. J. (2004). Estatística aplicada à pesquisa
 #'     agrícola (1st ed.). Santo Antônio de Goiás, GO: Embrapa Arroz e
@@ -36,15 +45,12 @@
 #'
 #' str(ZimmermannTb11.13)
 #'
-#' aggregate(prod ~ bloco, data = ZimmermannTb11.13,
+#' aggregate(prod ~ rept, data = ZimmermannTb11.13,
 #'           FUN = function(x) { c(mean = mean(x), var = var(x)) })
 #'
-#' aggregate(prod ~ iden, data = ZimmermannTb11.13,
-#'           FUN = function(x) { c(mean = mean(x), var = var(x)) })
-#'
-#' xyplot(prod ~ iden | rept, groups = bloco, data = ZimmermannTb11.13,
+#' xyplot(prod ~ rept, groups = bloco, data = ZimmermannTb11.13,
 #'        type = c("p","a"),
-#'        ylab = "Identificação do Tratamento",
+#'        ylab = "Repetição",
 #'        xlab = expression("Produção de Grãos"~(kg~ha^{-1})))
 #'
 NULL
