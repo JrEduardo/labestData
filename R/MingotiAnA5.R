@@ -29,6 +29,9 @@
 #' @examples
 #'
 #' data(MingotiAnA5)
+#'
 #' require(lattice)
-#' xyplot(histor~nota, groups=grupo, data=MingotiAnA5, auto.key=T)
+#'
+#' xyplot(histor ~ nota, groups = grupo, data = MingotiAnA5,
+#'        auto.key = TRUE)
 NULL
