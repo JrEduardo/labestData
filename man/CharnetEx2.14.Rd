@@ -3,7 +3,7 @@
 \name{CharnetEx2.14}
 \alias{CharnetEx2.14}
 \title{Produto Interno Bruto Trimestral do Brasil}
-\format{Uma série temporal \code{ts} com 32 observações, sendo 4
+\format{Uma série temporal \code{ts}, com 32 observações, sendo 4
     observações por ano (trimestralmente) de 1990 a 1997.}
 \source{
 Charnet, R., de Luna Freire, C.A., Charnet, E.M.R. & Bonvino,

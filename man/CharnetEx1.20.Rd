@@ -29,5 +29,5 @@ data(CharnetEx1.20)
 plot(CharnetEx1.20)
 
 }
-\keyword{TODO}
+\keyword{RS}
 

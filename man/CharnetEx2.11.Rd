@@ -31,5 +31,5 @@ data(CharnetEx2.11)
 plot(CharnetEx2.11)
 
 }
-\keyword{TODO}
+\keyword{RM}
 
