@@ -14,7 +14,7 @@
     
 }}
 \source{
-Demétrio, C. G. B., & Zocchi, S. S. (2011). Modelos de
+Demétrio, C. G. B., Zocchi, S. S. (2011). Modelos de
     Regressão. Piracicaba: ESALQ. (Exemplo 7.7 pág. 197)
 }
 \description{

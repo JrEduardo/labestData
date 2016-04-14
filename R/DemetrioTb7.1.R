@@ -21,7 +21,7 @@
 #' 
 #' @keywords DBC RegSeg
 #' 
-#' @source Demétrio, C. G. B., & Zocchi, S. S. (2011). Modelos de
+#' @source Demétrio, C. G. B., Zocchi, S. S. (2011). Modelos de
 #'     Regressão. Piracicaba: ESALQ. (Tabela 7.1 pág. 195)
 #' 
 #' @examples
