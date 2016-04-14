@@ -22,7 +22,7 @@
 #'     sejam de populações distintas. Portanto ao utilizá-lo separe-o
 #'     com base na variável \code{conj}.
 #'
-#' @keywords TODO
+#' @keywords RS
 #'
 #' @source Charnet, R., de Luna Freire, C.A., Charnet, E.M.R. & Bonvino,
 #'     H. (2008). Análise de modelos de regressão linear com aplicações
