@@ -1,6 +1,6 @@
 #' @name CharnetEx4.8
 #' 
-#' @title Taxa de Acidentes de trabalho
+#' @title Taxa de Acidentes de Trabalho
 #' 
 #' @description Taxa de acidentes de trabalho por milhão de horas/homem
 #'     de exposição ao risco, durante 9 anos.
@@ -12,11 +12,11 @@
 #' \item{\code{ano}}{Ano em que foi registrado a taxa.}
 #'
 #' \item{\code{taxa}}{Taxa de acidentes de trabalho, em milhão de
-#'     horas/homen.}
+#'     horas/homem.}
 #'
 #' }
 #'
-#' @keywords TODO
+#' @keywords RS
 #'
 #' @source Charnet, R., de Luna Freire, C.A., Charnet, E.M.R. & Bonvino,
 #'     H. (2008). Análise de modelos de regressão linear com aplicações

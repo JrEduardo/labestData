@@ -9,13 +9,14 @@
 #'
 #' \describe{
 #'
-#' \item{\code{t}}{Quantidade de peças produzidas no lote, em unidades.}
+#' \item{\code{npecas}}{Quantidade de peças produzidas no lote, em
+#' unidades.}
 #'
-#' \item{\code{c}}{Custo do total de peças do lote.}
+#' \item{\code{custo}}{Custo do total de peças do lote.}
 #'
 #' }
 #'
-#' @keywords TODO
+#' @keywords RS
 #'
 #' @source Charnet, R., de Luna Freire, C.A., Charnet, E.M.R. & Bonvino,
 #'     H. (2008). Análise de modelos de regressão linear com aplicações

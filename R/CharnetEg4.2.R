@@ -1,15 +1,13 @@
 #' @name CharnetEg4.2
 #' 
-#' @title Notas a Vendedores pelos Clientes
+#' @title Avaliação de Vendedores pelos Clientes
 #' 
-#' @description Análise das vendas através das notas atribuídas apelos 
+#' @description Análise das vendas através das notas atribuídas pelos 
 #'     clientes aos vendedores de uma empresa de seguro.
 #'
-#' @format Um \code{data.frame} com 3 colunas e 1 linhas.
+#' @format Um \code{data.frame} com 2 colunas e 10 linhas.
 #'
 #' \describe{
-#'
-#' \item{\code{vend}}{Identificação do vendedor.}
 #'
 #' \item{\code{notas}}{Nota atribuída ao vendedor, em escala de 0 a 
 #'     100.}
@@ -18,7 +16,7 @@
 #'
 #' }
 #'
-#' @keywords TODO
+#' @keywords RS
 #'
 #' @source Charnet, R., de Luna Freire, C.A., Charnet, E.M.R. & Bonvino,
 #'     H. (2008). Análise de modelos de regressão linear com aplicações

@@ -1,6 +1,6 @@
 #' @name CharnetEx4.2
 #' 
-#' @title Salário Médio Mensal
+#' @title Salário Médio Mensal de Ex-Alunos de Economia
 #' 
 #' @description Pesquisa de uma faculdade de economia sobre a evolução
 #'     do salário médio mensal de 20 de seus ex-alunos no período de 
@@ -16,7 +16,7 @@
 #' 
 #' }
 #'
-#' @keywords TODO
+#' @keywords RS
 #'
 #' @source Charnet, R., de Luna Freire, C.A., Charnet, E.M.R. & Bonvino,
 #'     H. (2008). Análise de modelos de regressão linear com aplicações
