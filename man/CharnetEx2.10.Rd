@@ -31,5 +31,5 @@ plot(CharnetEx2.10)
 abline(lm(res ~ carb, data = CharnetEx2.10))
 
 }
-\keyword{TODO}
+\keyword{RS}
 

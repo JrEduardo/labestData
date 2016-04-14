@@ -1,0 +1,47 @@
+curso	per	cv	nq	qp	nm	mp	nh	hp
+Artes Cenicas 	d	15.08	22.06	n	15.92	n	25.11	n
+Ciencia da Computacao 	n	29.6	29.33	n	24.41	n	23.94	n
+Ciencias Biologicas 	d	37.83	31.18	n	20.21	n	26.07	n
+Ciencias Biologicas 	n	9.45	24.61	n	15.54	n	21.88	n
+Ciencias Economicas 	d	16.94	26.74	n	22.22	s	28.96	s
+Ciencias Economicas 	n	12.43	25.43	n	21.05	s	28.53	s
+Ciencias Sociais 	d	6.92	22.24	n	15.73	n	29.47	s
+Ciencias Sociais 	n	6.22	13.42	n	10.91	n	24.33	s
+Danca 	d	6.64	13.98	n	10.78	n	18.05	n
+Educacao Artistica 	d	8.6	16.77	n	13.54	n	22.01	n
+Educacao Fisica 	d	13.26	23.1	n	16.02	n	21.2	n
+Educacao Fisica 	n	7.66	15.1	n	11.92	n	17.59	n
+Enfermagem 	d	20.43	27.04	n	17.19	n	24.16	n
+Eng. Agricola 	d	5.93	20.66	n	15.39	s	19.95	n
+Eng. Alimentos 	d	17.7	31.81	n	23.25	s	24.47	n
+Eng. Alimentos 	n	16.73	30.78	n	21.75	s	23.09	n
+Eng. Civil 	d	13.19	30.34	n	25.89	s	24.97	n
+Eng. Controle e Automacao 	n	26.08	30.09	n	23.81	s	23.66	n
+Eng. de Computacao 	d	20.02	34.53	n	27.41	s	25.42	n
+Eng. Eletrica 	d	15.44	34.89	n	27.84	s	25.34	n
+Eng. Eletrica 	n	13.8	26.65	n	23.94	s	22.12	n
+Eng. Mecanica 	d	17.1	33.57	n	26.55	s	25.25	n
+Eng. Quimica 	d	10.62	36.2	s	25.72	s	24.7	n
+Eng. Quimica 	n	7.2	35.21	s	19.79	s	22.18	n
+Estatistica 	d	4.31	13.76	n	12.19	s	14.88	n
+Filosofia 	d	4.4	13.11	n	12.16	s	21.53	s
+Fisica 	n	4.4	17.95	n	13.97	s	17.5	n
+Fisica/Mat/Mat. Apl. Comp. 	d	3.39	26.57	n	22.9	s	21.41	n
+Geografia 	n	3.07	11.21	n	9.15	n	20.48	n
+Geologia/Geografia 	d	6.07	16.92	n	11.84	n	22.29	n
+Historia 	d	11.83	21.16	n	15.17	n	30.28	s
+Letras e Linguistica 	d	7.56	17.99	n	12.8	n	24.28	s
+Matematica Lic. 	n	2.89	12.39	n	12.38	s	14.46	n
+Medicina 	d	84.34	40.41	s	28.58	n	31.63	n
+Musica - Composicao 	d	2.3	14.67	n	10.83	n	18.5	n
+Musica - Instrumento 	d	4	9.37	n	7.86	n	13.05	n
+Musica - Regencia 	d	9	22.2	n	16.85	n	24.22	n
+Musica Popular 	d	2.3	12	n	9.39	n	17.56	n
+Odontologia 	d	30.54	31.18	s	20.53	n	24.72	n
+Pedagogia 	d	5.27	11.49	n	9.01	n	18.87	s
+Pedagogia 	n	10.1	10.61	n	9.43	n	18.85	s
+Quimica 	d	5.36	32.92	s	19.06	s	22.37	n
+Quimica - Mod. Tecnol. 	n	8.03	33.39	s	15.52	n	18.74	n
+Tec. Constr. Civil 	n	1.64	12.85	n	10.55	s	14.82	n
+Tec. Proc. Dados 	n	6.38	13.97	n	12.09	s	17.35	n
+Tec. Sanitaria 	n	3.46	11.74	n	8.15	s	12.88	n

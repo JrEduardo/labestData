@@ -50,5 +50,5 @@ ggplot(CharnetEx1.18, aes(x = temp, y = tempo)) +
     geom_smooth(method = "lm", se = FALSE)
 
 }
-\keyword{TODO}
+\keyword{RS}
 

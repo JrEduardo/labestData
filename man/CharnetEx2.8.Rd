@@ -43,5 +43,5 @@ ggplot(CharnetEx2.8, aes(x = x, y = y)) +
     stat_smooth(method = "lm")
 
 }
-\keyword{TODO}
+\keyword{RS}
 
