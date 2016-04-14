@@ -2,7 +2,7 @@
 % Please edit documentation in R/DemetrioEx1.4.1.5.R
 \name{DemetrioEx1.4.1.5}
 \alias{DemetrioEx1.4.1.5}
-\title{Número de Ovos}
+\title{Número de Ovos por Folículos Ovulados}
 \format{Um \code{data.frame} de 14 linhas e 2 colunas.
 
 \describe{

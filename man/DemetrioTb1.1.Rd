@@ -37,6 +37,5 @@ xyplot(fd ~ fo, data = DemetrioTb1.1,
        ylab = "Fósforo disponível",
        type = c("p", "r"), col.line = 3)
 }
-\keyword{fósforo}
-\keyword{milho}
+\keyword{RS}
 

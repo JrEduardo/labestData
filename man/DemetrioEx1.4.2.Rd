@@ -42,5 +42,5 @@ xyplot(infil ~ tempo, data = DemetrioEx1.4.2,
      type = c("p", "r"), col.line = 3)
      
 }
-\keyword{TODO}
+\keyword{RS}
 

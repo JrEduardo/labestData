@@ -1,5 +1,5 @@
 #' @name DemetrioEx1.4.1.5
-#' @title Número de Ovos
+#' @title Número de Ovos por Folículos Ovulados
 #' 
 #' @description Foi contado o número me ovos postos e o número de
 #'     folículos ovulados.

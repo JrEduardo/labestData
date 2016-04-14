@@ -33,5 +33,5 @@ xyplot(consumo ~ peso, data = DemetrioEx1.4.1.2,
      type = c("p", "r"), col.line = 3)
      
 }
-\keyword{TODO}
+\keyword{RS}
 

@@ -41,5 +41,5 @@ xyplot(vol ~ dia, data = DemetrioEx1.4.1.4,
      type = c("p", "r"), col.line = 3)
      
 }
-\keyword{TODO}
+\keyword{RM}
 

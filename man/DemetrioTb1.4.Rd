@@ -46,7 +46,5 @@ xyplot(conteudo ~ cfo, data = DemetrioTb1.4,
        ylab = "Conteúdo na Planta", 
        type = c("p", "r"), col.line = 3)
 }
-\keyword{fósforo}
-\keyword{planta}
-\keyword{solo}
+\keyword{RM}
 
