@@ -15,8 +15,8 @@
 #' \item{\code{adub}}{Fator de níveis numéricos. Identifica a adubação
 #'     aplicada.}
 #'
-#' \item{\code{cult}}{Fator de níveis nominais. Identifica a
-#'     cultivar de arroz.}
+#' \item{\code{geno}}{Fator de níveis nominais. Identifica o 
+#'    genótipo/cultivar de arroz.}
 #'
 #' \item{\code{prod}}{Produção de arroz em kg ha\eqn{^{-1}}.}
 #'
