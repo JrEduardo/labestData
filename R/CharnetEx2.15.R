@@ -33,23 +33,34 @@
 #'
 #' @source Charnet, R., de Luna Freire, C.A., Charnet, E.M.R. & Bonvino,
 #'     H. (2008). Análise de modelos de regressão linear com aplicações
-#'     (2nd ed., p. 356). SP: Editora Unicamp (Cap. 2, exer. 15, p. 50,
-#'     cap. 7, exer. 3, p. 164, cap. 8, exer. 6, p. 197, cap. 9, exer. 
-#'     8, p. 231, cap. 10, exer. 3, p. 254)
+#'     (2nd ed., p. 356). SP: Editora Unicamp (Cap. 2, exer. 15,
+#'     pág. 50; cap. 7, exer. 3, pág. 164; cap. 8, exer. 6, pág. 197;
+#'     cap. 9, exer.  8, pág. 231; e cap. 10, exer. 3, pág. 254)
 #'
 #' @examples
 #'
 #' data(CharnetEx2.15)
 #'
 #' library(ggplot2)
-#' 
-#' provadequimica <- qplot(cv, nq,
-#'         data = CharnetEx2.15,
-#'         color = qp,
-#'         xlab = "Relação Candidatos Vaga",
-#'         ylab = "Notas na Prova de Química",
-#'         main = "Notas na Prova de Química x Candidatos Vaga")
 #'
-#' provadequimica + geom_abline(intercept = 0, slope = 1)
-#' 
+#' # Considerando a notas médias na prova de química
+#' qplot(cv, nq, data = CharnetEx2.15, color = qp,
+#'       xlab = "Relação Candidatos Vaga",
+#'       ylab = "Notas na Prova de Química",
+#'       main = "Notas na Prova de Química x Candidatos Vaga") +
+#'     geom_smooth(method = "lm", se = FALSE)
+#'
+#' # Considerando a notas médias geral (soma das notas de química,
+#' # matemática e história)
+#' soma <- with(CharnetEx2.15, nq + nm + nh)
+#' qplot(cv, soma, data = CharnetEx2.15, color = qp,
+#'       xlab = "Relação Candidatos Vaga",
+#'       ylab = "Soma das Notas") +
+#'     geom_smooth(method = "lm", se = FALSE)
+#'
+#' # Correlação entre as variáveis numéricas (notas e relação
+#' # candidato/vaga)
+#' numcols <- sapply(CharnetEx2.15, is.numeric)
+#' plot(CharnetEx2.15[, numcols])
+#'
 NULL
