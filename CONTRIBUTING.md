@@ -37,8 +37,9 @@
 O Guia de Contribuição serve para orientar a forma de trabalhar, tanto
 individual quanto em equipe, para que seja eficiente, padronizada,
 coordenada e segura. Ele estabelece as regras e etapas principais do
-deselvolvimento de um projeto. O Guia de Contribuição incluí orientações
-de como escrever o código, mensagens de commit, etc TODO
+desenvolvimento de um projeto. O Guia de Contribuição incluí orientações
+de como escrever o código, as mensagens de *commit*, criar arquivos,
+etc.
 
 Interessados em participar do projeto devem se orientar pelo Guia de
 Contribuição sobre como o desenvolvimento acontece, pois ele contém a
@@ -71,23 +72,31 @@ O fluxo de trabalho é a sequência de etapas que devem ser cumpridas para
 atingir um resultado. No *labestData*, o fluxo de trabalho tem unidade
 semanal de desenvolvimento e acompanhamento.
 
-## Qual é o fluxo de trabalho do *labestData*?
+**Descrição do roteiro semanal**
 
   1. Criar um *issue* para o Projeto no GitLab. Ao criar o *issue*,
      dedique-se para escrever uma detalhada descrição do trabalho a ser
      feito. Isso informa a equipe sobre onde você irá trabalhar para que
-     não se dublique os esforços. Todo issue têm um número associado,
-     como `#7` e isso deve ser usado nas comunicações.
-  2. Faça uma atualização do seu ramo `devel` local com o ramo `devel`
-     do projeto no GitLab (atualize o HEAD). Isso pode ser feito com o
-     comando `git pull` ou com `git fetch + git merge`. Em caso de
-     insegurança, visite a Apostila de Git do PET Estatística.
-  3. Crie um *branch* para começar o trabalho que você descreveu no
-     *issue* que acabou de criar. O nome do ramo deve ser `issue#?`, em
-     que `'?` representa o número do *issue*, por exemplo,
-     `issue#321`. Usar es'ses nomes facilita para os membros descobrirem
-     do se se trata esse *branch*, pois basta consultar o *issue* de
-     mesmo número.
+     não se duplique os esforços. Todo *issue* tem um número associado,
+     como `#7` e isso deve ser usado nas comunicações. O GitLab cria
+     links para os *issues* automaticamente nas mensagens quando se
+     escreve o número precedido de #, como `#7`.
+  2. Faça uma atualização do seu ramo `baby` local com o ramo `baby`
+     remoto do projeto no GitLab (atualize o HEAD). Quando você executa
+     o comando `git branch -a`, aqueles precedidos de `remote/` são os
+     remotos. Isso pode ser feito com o comando `git fetch origin baby`
+     que atualiza o `remotes/origin/baby` seguido de `git merge
+     origin/baby` para passar do remoto para o local o conteúdo
+     trazido. O comando `git pull origin baby` executa as duas ações em
+     um único comando. Em caso de insegurança, visite a
+     [Apostila de Git do PET Estatística](https://gitlab.c3sl.ufpr.br/pet-estatistica/apostila-git/raw/devel/apostila_git.pdf).
+  3. Crie um *branch*, a partir do `baby`, para começar o trabalho que
+     você descreveu no *issue* que acabou de criar no GitLab. O nome do
+     ramo deve ser formado pelo seu nome e número identificador, aquele
+     atribuído ao *issue* assim que ele foi criado, como `angela23` e
+     `eduardo31`. Usar esse padrão facilita para os membros descobrirem
+     do que se trata esse *branch*, pois basta consultar o *issue* de
+     mesmo número, e quem é o responsável pelo mesmo.
   4. Faça o trabalho que descreveu. Nessa etapa você senta na frente do
      computador e desenvolve o seu trabalho que, envolve os seguintes
      passos:
@@ -112,25 +121,27 @@ semanal de desenvolvimento e acompanhamento.
   6. Quando cumprir com o trabalho previsto no seu *issue*, dê o *push*
      final e faça uma requisição de mescla - um *merge request* (MR). Ao
      criar o MR, assim como foi para o *issue*, existe um espaço para a
-     descrição de tudo o que o *branch*. Basicamente isso é um resumo de
-     todos os *commits* feitos. Embora a descrição do *issue* informe o
-     que estava previsto fazer, isso não significa que tudo foi
-     feito. Você pode ter feito trabalho a mais, ou visto que algo não
-     foi necessário. Então relate na descrição do MR exatamente o
-     que será adicionado ao ramo alvo. Os MR devem ser para o ramo
-     `devel` e devem ser atribuídos à outra pessoa.
-  7. Aguarde a avaliação do MR. Nessa etapa quem trabalha é o *merger* -
-     colaborador  responsável por  avaliar o  seu *branch*  e aplicar  o
-     *merge*. Em caso de aprovação, o *merge* será aplicado. Em caso
-     contrário, você será notificado.
+     descrição de tudo o que foi realizado no *branch*. Basicamente isso
+     é um resumo de todos os *commits* feitos. Embora a descrição do
+     *issue* informe o que estava previsto fazer, isso não significa que
+     tudo foi feito. Você pode ter feito trabalho a mais, ou visto que
+     algo não foi necessário. Então relate na descrição do MR exatamente
+     o que será adicionado ao *branch* alvo. Os MR devem ser para o
+     *branch* `devel` e devem ser atribuídos aos *mergers* do projeto
+     (pessoas responsáveis por fazer as inspeções e merge).
+  7. Aguarde a avaliação do MR. Nessa etapa quem trabalha é o
+     *merger*. Em caso de aprovação, o *merge* será aplicado. Em caso
+     contrário, você será notificado a fazer alterações (correções ou
+     adições).
   8. Se o MR não foi aceito, o *merger* vai informar o que fazer com
      mensagem abaixo da descrição do merge. Faça as adequações
-     solicitadas. Retome da etapa 4.
+     solicitadas. Volte para a etapa 4.
   9. Quando o MR for aprovado, feche o *issue* correspondente. Indique
      na mensagem de fechamento do *issue* qual foi o número do MR
-     dele. Os ramos de demanda - com prefixo *issue* - são removidos
-     após o *merge* mas os *issues* e os MR - que junto com os *commits*
-     contam a trajetória do projeto - permanem no GitLab.
+     dele. Os ramos de demanda - com prefixo de nome de *colaborador* -
+     são removidos após o *merge* mas os *issues* e os MR - que junto
+     com os *commits* contam a trajetória do projeto - permanecem no
+     GitLab.
 
 **Guia de códigos R e GIT para as atividades semanais**
 
@@ -149,8 +160,133 @@ partir do `baby`.
 # Retorna para o ramo baby (move o HEAD)
 git checkout baby
 
-No pacote *labestData* deve ser considerado o idiom padrão do R,
-descrito no [STYLEGUIDE.md].
+# Atualiza o ramo baby com a versão do servidor
+git pull origin baby
+
+# Cria um ramo para desenvolver as atividades propostas no issue00
+git branch fulano00
+
+# Vai para o ramo criado (mode o HEAD)
+git checkout fulano00
+```
+
+Com isso já estamos em um ramo, `fulano00` criado especificamente para o
+desenvolvimento das atividades propostas no `issue #00`, assim podemos
+prosseguir com o trabalho propriamente dito, a adição de conjuntos de
+dados. Note que o ramo saiu do `baby`.
+
+```r
+#=======================================================================
+# Passo 1 - Ler e inserir os dados na pasta ./data-raw/
+
+# Usando o R -----------------------------------------------------------
+
+# Transcreva os dados das tabelas
+CiclanoTb0.0 <- expand.grid(X1 = 1:6, X2 = LETTERS[1:4])
+CiclanoTb0.0$X3 <- scan()
+
+# Ou faça
+CiclanoTb0.0 <- expand.grid(X1 = 1:6, X2 = LETTERS[1:4], X3 = 0)
+CiclanoTb0.0 <- edit(CiclanoTb0.0)
+
+# Salve a tabela em formato txt no diretório ./data-raw/
+write.table(CiclanoTb0.0,
+            file = "./data-raw/CiclanoTb0.0.txt",
+            sep = "\t",
+            quote = FALSE,
+            row.names = FALSE)
+
+# Você pode usar a função write2txt() definida em:
+# https://gitlab.c3sl.ufpr.br/snippets/34.
+
+write2txt(CiclanoTb0.0)
+
+# Usando outro software ------------------------------------------------
+
+# Transcreva os dados da tabela no software e salve-os no formato txt
+# na pasta ./data-raw/
+
+# Leia os dados na sessão R, para utilizá-los posteriormente
+CiclanoTb0.0 <- read.table("./data-raw/CiclanoTb0.0.txt",
+                           header = TRUE, sep = "\t")
+
+#=======================================================================
+# Passo 2 - Inserir os dados no diretório ./data/
+
+library(devtools)
+use_data(CiclanoTb0.0)
+
+# Você pode usar a função write2rda() definida em:
+# https://gitlab.c3sl.ufpr.br/snippets/34.
+
+write2rda(CiclanoTb0.0)
+
+#=======================================================================
+# Passo 3 - Escreva a documentação utilizando as tags roxygen2
+
+# Dica: prepare os códigos da sessão exemplo aqui, para verificar se os
+# gráficos/tabelas são produzidos corretamente
+
+xtabs(~X1, CiclanoTb0.0)
+plot(X1 ~ X2, data = CiclanoTb0.0)
+
+# Você pode usar a função write2Rdoc() definida em:
+# https://gitlab.c3sl.ufpr.br/snippets/34. Essa função cria o arquivo
+# com nome do objeto e já escreve algumas informações, retiradas do
+# próprio objeto. Depois de usar, abra o arquivo e preencha o restante.
+
+write2Rdoc(CiclanoTb0.0)
+
+#=======================================================================
+# Passo 4 - Gere e check a documentação (insere um arquivo no diretório
+# ./man/). Obs.: O houver aviso sobre o NAMESPACE não ter sido feito
+# pelo roxygen2, delete o arquivo para que ele seja contruído novamente.
+
+file.remove("NAMESPACE")
+
+document()
+check_man()
+
+#=======================================================================
+# Passo 5 - Verifique a constituição e organização do pacote. Caso
+# apareçam sinais de ERROR, WARNING ou NOTE, procure eliminar esses
+# sinais.
+
+check()
+
+```
+
+Após todos os passos concluídos devemos ter os arquivos `.txt`, `.rda`,
+`.R` e `.Rd` devidamente criados. Podemos voltar ao terminal e comitar
+essas contribuições.
+
+```bash
+# Adiciona os 4 arquivos criados e commita as alterações
+git add data-raw/CiclanoTb0.0.txt data/CiclanoTb0.0.rda
+git add R/CiclanoTb0.0.R man/CiclanoTb0.0.Rd
+git commit -m "Adiciona tabela 0.0 do livro do Ciclano"
+
+# Desconsidera as alterações realizadas nos arquivos que são gerados
+# automaticamente
+git checkout -- .
+
+# Limpe o seu diretório removendo os arquivos não rastreados.
+git clean -xfd
+
+# Enviando as alterações para o servidor
+git push origin fulano00
+```
+
+Agora com tudo comitado podemos seguir para o próximo conjunto de
+dados e refazer todos os passos descritos.
+
+Vale ressaltar que este guia de códigos compreende a rotina básica para
+inclusão de um conjunto de dados, se for necessária a inclusão de um
+biblioteca para elaboração de gráficos ou análises ou ainda forem
+criadas funções para o pacote os arquivos NAMESPACE e DESCRIPTION
+deverão ser alterados e essas alterações comitadas. Veja a seção
+[Como habilitar no DESCRIPTION](#como-habilitar-no-description) como
+adicionar declarar o uso de pacotes.
 
 ## Como dar nome aos datasets? ##
 
@@ -229,23 +365,128 @@ variáveis de nome composto e longo podem ser representadas por siglas, e
 as de nome simples mas longo, por abreviação. Veja a tabela com
 exemplos.
 
-| Variável resposta         | Nome da coluna |
-|---------------------------+----------------|
-| Dias                      | dias           |
-| Idade                     | idade          |
-| Renda                     | renda          |
-| Produtividade             | prod           |
-| Temperatura               | temp           |
-| Pressão sanguínea         | ps             |
-| Massa seca de parte aérea | mspa           |
+| Variável                   | Nome da coluna |
+|----------------------------+----------------|
+| Dias                       | dias           |
+| Peso                       | peso           |
+| Idade                      | idade          |
+| Renda                      | renda          |
+| Cultivar                   | cult           |
+| Variedade                  | varied         |
+| Adubação                   | adub           |
+| Produtividade              | prod           |
+| Temperatura                | temp           |
+| Pressão sanguínea          | ps             |
+| Massa seca de parte aérea  | mspa           |
+| Diâmetro à altura do peito | dap            |
+
+## Como declarar dados que não sejam tabelas? ##
+
+Existem casos em que os dados não são uma tabela (várias variáveis, em
+cada coluna uma variável de tipo diferente), ou seja, usar um
+`data.frame` para armazená-los não é recomendado. Existem três casos
+principais:
+
+  * Quando os dados são uma amostra aleatória de uma única variável, por
+    exemplo. Nesse caso, os dados devem ser armazenados em um vetor. Ele
+    deve ser um vetor nomeado no caso das observações terem rótulo, como
+    o nome da cidade que corresponde ao valor (veja o dado `precip`).
+  * Quando os dados são uma matriz, ou seja, todos os valores
+    correspondem ao mesmo tipo de valor. É o caso, por exemplo, de uma
+    matriz de distâncias entre cidades. Nesse caso, os dados devem ser
+    armazenados como matriz (`matrix`). Pode-se atribuir nome para as
+    linhas e colunas (`rownames` e `colnames`) para identificar os
+    registros.
+  * Quando os dados são uma amostra aleatória não independente, uma
+    séria temporal. Neste caso, no R, há uma classe de objetos `ts`
+    (_Time-Series_) que armazena os valores da amostra junto com a
+    informação da frequência em que foi observada.
+
+## Que tipo de valor usar para as variáveis? ##
+
+É fundamental que os objetos que armazenem as variáveis declarem o tipo
+correto de valor. São 5 os tipos principais:
+
+  * `numeric`: é o tipo de valor para variáveis contínuas. Normalmente
+    essas variáveis tem unidade de medida e números decimais (e.g. 1.85
+    m, 78.5 kg).
+  * `integer`: é o tipo de valor para variáveis discretas (números
+    inteiros). Variáveis de contagem são desse tipo. São também as
+    variáveis que identificam a repetição ou amostra, normalmente
+    sequências que começam em 1. Quando variáveis contínuas tiverem
+    representação que não tenha casas decimais, elas dever ser
+    declaradas como `integer` para salvar espaço em disco e tornar as
+    contas mais rápidas.
+  * `character`: é o tipo de valor para identificar indivíduos, por
+    exemplo, os nomes das cidades, dos bairros, dos pacientes, etc. Note
+    que esses nomes dificilmente se repetem no conjunto de dados são
+    únicos de um indivíduo e não de uma classe/grupo.
+  * `factor`: é tipo de valor para variáveis categóricas. São rótulos
+    que classificam um conjunto de indivíduos/observações com uma
+    variável qualitativa comum. Como exemplo, tem-se os blocos de um
+    experimento em delineamento de blocos casualizados, as observações
+    do mesmo bairro, os indivíduos do mesmo sexo, as parcelas do mesmo
+    local, cultivar, genótipo, variedade, população, etc.
+      * Os fatores devem ter o rótulo mais descritivo possível, ou seja,
+        se os níveis são Kennebec, Huinkul e Buena VIsta (variedades de
+        batatinha) não codifique como 1, 2 e 3. Também não abrevie
+        porque na forma abreviada, a correspondência não é
+        imediata. Quandos os nomes completos são usados, eles aparecem
+        nos gráficos e nas saídas.
+      * Variáveis como sexo (Masculino, Feminino) podem ser
+        abreviadas por M e F, sem prejuízo ao entendimento, pois a
+        correspondência é imediata (é fácil adivinhar que M e F
+        representa masculino e feminino). Da mesma forma, os níveis
+        resistente e suscetível poder ser abreviados para R e S, e os
+        Estados brasileiros podem ser representados pelas siglas.
+      * Nos casos em que os fatores são representados por número
+        inteiros mas são categóricos (como é caso dos blocos do
+        experimento), deve-se usar `factor` ao invés de `integer` para a
+        variável, mesmo que os rótulos continuem a ser os números
+        inteiros. Isso evita erros na interpretação e análise dos
+        dados. Uma opção para os blocos, por exemplo, é usar números
+        romanos, como I, II e III, para representar os diferentes
+        blocos. Para fatores como variedade, uma alternativas é usar
+        letras maiúsculas, como A, B e C, ao invés dos números.
+      * Deve ser feita distinção entre fatores nominais (`factor`) e
+        ordinais (`ordered`).
+  * `logical`: são para variáveis que assumem dois valores (`TRUE`,
+    `FALSE`). Também podem ser representados pelos valores inteiros 1
+    e 0.
+
+Abaixo tem-se o código R para fazer conversão de tipo de valor.
+
+```r
+x <- 1:5
+class(x)
+
+z <- factor(x)
+class(x)
+
+x <- c(1, 2, 3)
+y <- c(1L, 2L, 3L)
+w <- 1:3
+z <- as.integer(x)
+c(class(x), class(y), class(w), class(z))
+
+x <- gl(4, 2)
+class(x)
+
+levels(x) <- LETTERS[1:nlevels(x)]
+str(x)
+```
 
 ## O que colocar na documentação? ##
 
 Os datasets devem ter uma documentação precisa. Existem vários campos da
 documentação que podem ser usados, no entanto, somente 7 serão exigidos.
 
-Abaixo tem-se a documentação do *data.frame* `RamalhoTb4.7`. Embora os campos
-sejam praticamente autoexplicativos, segue breve explicação.
+Uma lista completa com a maioria dos campos está documentada em
+<https://cran.r-project.org/web/packages/roxygen2/roxygen2.pdf>.
+
+Para ilustrar o uso dos campos principais, abaixo tem-se a documentação
+do *data.frame* `RamalhoTb4.7`. Embora os campos sejam autoexplicativos
+por causa do nome, segue breve explicação.
 
   * `@name`: o nome do dataset.
   * `@title`: título que representa o dataset. Deve estar captalizado,
@@ -286,10 +527,8 @@ sejam praticamente autoexplicativos, segue breve explicação.
 #'     (kg ha\eqn{^{-1}}).}
 #'
 #' }
-#'
-#' @keywords DBC arroz
-#'
-#' @source Ramalho, M. A. P., Ferreira, D. F., & Oliveira,
+#' @keywords DBC
+#' @source Ramalho, M. A. P., Ferreira, D. F., Oliveira,
 #'     A. C. de. (2005). Experimentação em genética e melhoramento de
 #'     plantas (2nd ed., p. 322). Lavras, MG: UFLA. (Tabela 7, pág. 62)
 #' @examples
@@ -348,19 +587,20 @@ sem erros.
 
 ## Como dar nomes as vinhetas? ##
 
-<!------------------------------------------- -->
+TODO
 
-## Como criar um *branch*? ##
+## Como habilitar no `DESCRIPTION` ##
 
-Um *branch* é criado de duas formas, conforme abaixo.
+No caso de usar algum pacote que não seja da lista de pacotes básicos do
+R (aqueles que estão disponíveis na instalação mínima padrão), é
+necessário acrescentar o pacote a lista de pacotes na seção `Imports` ou
+`Suggests` do arquivo `DESCRIPTION`. Você pode editar o arquivo mas
+esteja atento para indentação e uso das vírgulas nesses campos. É
+aconselhado usar a função `devtools::use_package()`.
 
-```
-# Com duas instruções.
-git branch novo   # cria
-git checkout novo # move
-
-# Com uma instruções 2 em 1
-git checkout -b novo
+```r
+use_package(package = "lattice", type = "Imports")
+use_package(package = "plyr", type = "Suggests")
 ```
 
 ## Como criar um *issue*? ##
@@ -426,12 +666,43 @@ sejam apropriados e sem necessidade de mudar no futuro. Essa é a
 filosofia do faça certo de primeira (*do it right the first time*).
 
 Na página de um *issue* é possível fazer uma discussão sobre ele, bem
-como atribuir a outro colaborador. Quandor o issue for concluído,
-deve-se fechá-lo.
+como atribuir a outro colaborador. Quandor o *issue* for concluído, ou
+seja quando o ramo dedicado as tarefas descritas neste *issue* for
+mesclado ao `devel`, deve-se fechá-lo.
 
 ## Como fazer mensagens de *commit*? ##
 
-Começar com verbo no imperativo.
+Mensagens de *commit* são de duas formas: simples e composta (mono ou
+multi linhas). As mensagens simples são aquelas que ocupam uma linha
+apenas, normalmente com uma única sentença. Elas descrevem modificações
+cuja descrição cabe em uma linha de 72 caracteres. Você pode escrever na
+própria linha de instrução do *commit*, como a seguir.
+
+```
+git commit -m "Minha mensagem de uma linha aqui."
+```
+
+As mensagens compostas, por outro, servem para documentar várias
+modificações. Então não é possível usar a opção `-m`. Apenas faça `git
+commit` seguido de ENTER que um editor de terminal vai abrir para que
+você escreva a mensagem de *commit*. Normalmente o editor é o vi ou
+nano, mas outros podem ser habilitados editando o arquivo `.gitcongif`
+que fica na sua *home*. Abaixo um exemplo de mensagem composta.
+
+```
+Inclui dataset da página 103
+
+  - Adiciona ./data-raw/dataset103.txt.
+  - Adiciona ./data/dataset103.rda.
+  - Adiciona ./R/dataset103.R.
+  - Adiciona ./man/dataset103.Rd.
+```
+
+As mensagens de *commit* devem ter verbos conjugados no presente do
+indicativo (faz, completa, adiciona, remove, edita, conserta, produz,
+gera, corrige, documenta, escreve, move, transforma, modifica). A
+mensagem de commit, simples ou composta, não deve ultrapassar 72
+caracteres de comprimento por linha.
 
 ## Como criar um *merge request*? ##
 
@@ -449,13 +720,14 @@ ser atendidas:
 
   1. O trabalho deve estar concluído. Isso significa de o que previsto
      precisa ser cumprido. Em caso de não conclusão, uma justificativa
-     deve ser dada e aceita. Se o trabalho foi mal dimensionado, abra um
-     *issue* no futuro para concluí-lo.
-  2. O *branch* tem que ter *build sucess*. A vantagem, dentre muitas,
-     da integração contínua, é sabermos se um ramo tem problemas de
-     código. Se um *branch* não passa nas verificações do *build*,
-     quando deveria passar, então algo está errado e precisa ser
-     consertado.
+     deve ser dada e aceita.
+  2. O *branch* tem que ter *build sucess* (estar verde). A vantagem,
+     dentre muitas, da integração contínua, é permitir saber se um ramo
+     tem problemas de código. Se um *branch* não passa nas verificações
+     do *build* (está vermelho), quando deveria passar, então algo está
+     errado e precisa ser consertado. Se não foi possível detectar a
+     causa de falha no *build* comunique que inspeções já foram feitas
+     na tentativa de solucionar o problema (dê a trilha percorrida).
   3. O trabalho deve estar em conformidade com o Guia de Estilo de
      Código. Ainda que o *branch* esteja verde - com *build status*
      positivo - o *merger* (pessoa responsável pelo *merge*) deve
@@ -477,13 +749,17 @@ diretório raíz é o `/labestData`.
      diretório `./data-raw`. Usar TAB com separador de campo, ponto
      como separador decimal, sem nomes nas linhas e sem aspas.
   2. Criar o `dados.rda`. Carregar o `dados.txt` e criar a imagem do
-     objeto (`*.rda` ou `*.RData`) no diretório `./data`. A forma mais
-     simples é usar a função `devtools::use_data(dados)`.
-  3. Fazer a documentação dos dados. Criar o arquivo `dados.R` no
-     diretório `./R/`.
+     objeto (`*.rda`) no diretório `./data`. A forma mais simples é usar
+     a função `devtools::use_data(dados)`.
+  3. Escrever a documentação dos dados. Criar o arquivo `dados.R` no
+     diretório `./R/`. Lembre-se dos campos obrigatórios e esteja atento
+     das recomendações dadas na seção
+     [sobre documentação](#o-que-colocar-na-documentao).
   4. Gerar o arquivo `dados.Rd`. Com o comando `devtools::document()`
      gerar os arquivos de documentação que ficam no diretório
-     `./man`. Use `devtools::check_doc()` para verificar a documentação.
+     `./man`. Use `devtools::check_man()` para verificar se a
+     documentação foi escrita corretamente. Erros de grafia ou
+     preenchimento nos campos e ambientes são identificados aqui.
   5. Por fim, execute `devtools::check()` e `devtools::build()`. Observe
      se ocorrem notificações de `ERROR`, `WARNING` ou `NOTE`. Faça
      correções para removê-las.
