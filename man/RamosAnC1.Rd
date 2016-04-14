@@ -9,7 +9,7 @@
 
 \item{\code{amostra}}{Número da amostra.}
 
-\item{\code{oleo}}{Temperatura em °C dos misturadores.}
+\item{\code{oleo}}{Temperatura ddo óleo (em °C ).}
     
 }}
 \source{
@@ -18,8 +18,8 @@ Ramos, E. M. L. S., et al.(2013).
     Porto Alegre, RS: Bookman. (pg 133).
 }
 \description{
-Conjunto de dados da temperatura de misturadores com 
-   25 amostras de tamanho 8 em um processo metalúrgico.
+Conjunto de dados da temperatura do óleo de misturadores,  
+   com 25 amostras de tamanho 8 de um processo metalúrgico.
 }
 \examples{
 
@@ -29,7 +29,8 @@ library(qcc)
 
 obj <- qcc.groups(RamosAnC1$oleo, RamosAnC1$amostra)
 
-qcc(obj, type = "xbar", nsigmas = 3)
+qcc(obj, type = "xbar", nsigmas = 3, xlab = "Amostra", ylab = 
+     "Temperatura média", title = " ")
 
 }
 \keyword{CEQ}

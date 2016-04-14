@@ -2,7 +2,7 @@
 % Please edit documentation in R/RamosTb5.8.R
 \name{RamosTb5.8}
 \alias{RamosTb5.8}
-\title{Número médio de defeitos na fabricação de copos de cristal}
+\title{Taxa de defeitos na fabricação de copos de cristal}
 \format{Um \code{data.frame} com 26 observações e 3 variáveis, em que
 
 \describe{
@@ -11,7 +11,7 @@
 
 \item{\code{tamamostra}}{Número de unidades amostradas.}
 
-\item{\code{naoconf}}{Número médio de unidades não conformes na amostra.}
+\item{\code{naoconf}}{Número de não conformidades na amostra.}
     
 }}
 \source{
@@ -20,9 +20,8 @@ Ramos, E. M. L. S., et al.(2013).
     Porto Alegre, RS: Bookman. (pg 96).
 }
 \description{
-Número médio de defeitos por unidade e número médio
-    de não conformidades estimados de um processo de fabricação
-    de copos de cristal, com tamanhos diferentes.
+Número de não conformidades em um processo de fabricação
+    de copos de cristal, com amostras de tamanhos diferentes.
 }
 \examples{
 
@@ -30,7 +29,8 @@ data(RamosTb5.8)
 
 library(qcc)
 
-qcc(RamosTb5.8$naoconf, sizes = RamosTb5.8$tamamostra, type = "u")
+qcc(RamosTb5.8$naoconf, sizes = RamosTb5.8$tamamostra, type = "u", 
+     xlab = "Amostra", ylab = "Taxa de não conformidades", title = "")
 
 }
 \keyword{CEQ}

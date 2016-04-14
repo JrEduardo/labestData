@@ -18,7 +18,7 @@ Ramos, E. M. L. S., et al.(2013).
     Porto Alegre, RS: Bookman. (pg 38).
 }
 \description{
-Conjunto de dados do teor de flúor com 15 
+Conjunto de dados sobre teor de flúor com 15 
     amostras de tamanho 5 de um processo químico.
 }
 \examples{
@@ -29,7 +29,8 @@ library(qcc)
 
 obj <- qcc.groups(RamosTb3.1$fluor, RamosTb3.1$amostra)
 
-qcc(obj, type = "xbar", nsigmas = 3)
+qcc(obj, type = "xbar", nsigmas = 3, xlab = 
+     "Amostra", ylab = "Teor médio de fluor", title = "")
 
 }
 \keyword{CEQ}

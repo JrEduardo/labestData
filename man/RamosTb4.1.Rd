@@ -20,7 +20,7 @@ Ramos, E. M. L. S., et al.(2013).
 \description{
 Conjunto de dados referente às temperaturas de eletrodos  
     de carbono, com 25 amostras de tamanho 8, em um processo 
-    de fabricação de alumínio de uma indústria.
+    de fabricação de alumínio.
 }
 \examples{
 
@@ -30,7 +30,8 @@ library(qcc)
 
 obj <- qcc.groups(RamosTb4.1$temperat, RamosTb4.1$amostra)
 
-qcc(obj, type = "xbar", nsigmas = 3)
+qcc(obj, type = "xbar", nsigmas = 3, xlab = "Amostra", ylab = 
+     "Temperatura média", title = " ")
 
 }
 \keyword{CEQ}

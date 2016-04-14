@@ -2,14 +2,14 @@
 % Please edit documentation in R/RamosTb6.1.R
 \name{RamosTb6.1}
 \alias{RamosTb6.1}
-\title{Densidade aparente de uma processo de eletrodos}
+\title{Densidade aparente de um processo de eletrodos}
 \format{Um \code{data.frame} com 30 observações e 2 variáveis, em que
 
 \describe{
 
 \item{\code{amostra}}{Número da amostra.}
 
-\item{\code{densi}}{Densidade aparente em g/cm^{3} do eletrodo.}
+\item{\code{densi}}{Densidade aparente (em g/cm^{3} do eletrodo).}
  
 }}
 \source{
@@ -28,7 +28,8 @@ data(RamosTb6.1)
 library(qcc)
 
 qcc(RamosTb6.1$densi, type = "xbar.one", 
-     std.dev = "SD", nsigmas = 3)
+     std.dev = "SD", nsigmas = 3, xlab = "Amostra", ylab = "Densidade",
+     title = "")
 
 }
 \keyword{CEQ}

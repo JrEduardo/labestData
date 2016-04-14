@@ -20,7 +20,7 @@ Ramos, E. M. L. S., et al.(2013).
     Porto Alegre, RS: Bookman. (pg 79).
 }
 \description{
-Número de itens não conformes de um processo  
+Número de ovos não conformes de um processo  
     produtivo de ovos de galinha, com 30 amostras de 
     tamanhos diferentes.
 }
@@ -30,7 +30,9 @@ data(RamosTb5.2)
 
 library(qcc)
 
-qcc(RamosTb5.2$naoconf, sizes = RamosTb5.2$tamamostra, type = "p")
+qcc(RamosTb5.2$naoconf, sizes = RamosTb5.2$tamamostra, type = "p",
+     xlab = "Amostra", ylab = "Fração de ovos não conformes", title =
+      "")
 
 }
 \keyword{CEQ}
