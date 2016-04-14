@@ -10,17 +10,17 @@
 #'
 #' \describe{
 #'
-#' \item{\code{v}}{Velocidade, em milhas por hora}
+#' \item{\code{velo}}{Velocidade, em milhas por hora}
 #'
-#' \item{\code{c}}{Consumo de combustível, em milhas por galão}
+#' \item{\code{cons}}{Consumo de combustível, em milhas por galão}
 #'
 #' }
 #'
-#' @keywords TODO
+#' @keywords RS
 #'
 #' @source Charnet, R., de Luna Freire, C.A., Charnet, E.M.R. & Bonvino,
 #'     H. (2008). Análise de modelos de regressão linear com aplicações
-#'     (2nd ed., p. 356). SP: Editora Unicamp (Cap. 3, exer. 9, p. 68)
+#'     (2nd ed., p. 356). SP: Editora Unicamp (Cap. 3, exer. 9, pág. 68)
 #'
 #' @examples
 #'
