@@ -1,5 +1,5 @@
 #' @name DemetrioTb5.1
-#' @title Resposta da cultura de milho ao fosfato
+#' @title Resposta da Cultura de Milho ao Fosfato
 #' 
 #' @description Dados referentes a um estudo sobre a resposta da 
 #'     cultura do milho em função da quantidade de fosfato, porcentagem

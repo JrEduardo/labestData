@@ -1,5 +1,6 @@
 #' @name DemetrioEx5.4.5
-#' @title Avaliação visual do grau de infestação
+#' @title Estudo sobre a Avaliação Visual do Grau da Infestação de
+#'     Plantas por Doenças
 #' 
 #' @description Dados referentes a avaliação visual (realizada por um
 #'     pesquisador) e real do grau de infestação de folhas de amendoim.
@@ -8,7 +9,7 @@
 #'     a doença em questão. Por esse motivo, foram desenvolvidos
 #'     programas computacionais que geram imagens de folhas com 
 #'     diferentes porcentagens de infestação para o pesquisador estimar
-#'     visualmente e em seguida mostram as porcentagens reais.
+#'     visualmente e em seguida compara-se com as porcentagens reais.
 #' 
 #' @format Um \code{data.frame} de 10 linhas e 2 colunas.
 #' 

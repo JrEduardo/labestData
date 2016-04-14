@@ -2,7 +2,7 @@
 % Please edit documentation in R/DemetrioTb4.2.R
 \name{DemetrioTb4.2}
 \alias{DemetrioTb4.2}
-\title{Sobrevivência de Ratos após o envenenamento}
+\title{Sobrevivência de Ratos após Envenenamento}
 \format{Um \code{data.frame} de 48 linhas e 3 colunas.
 
 \describe{
@@ -11,7 +11,8 @@
 
     \item{\code{tipo}}{Tipo de veneno.}
     
-    \item{\code{trat}}{Tipo de tratamento.}
+    \item{\code{trat}}{Tipo de tratamento aplicado (não descrito o
+    que é o tratamento).}
 
 }}
 \source{
@@ -27,13 +28,11 @@ Os dados referem-se a tempos de sobrevivência de ratos
 
 data(DemetrioTb4.2)
 
-pairs(~ tempo + tipo + trat , data = DemetrioTb4.2,
-     main = "Dispersão duas a duas")
-     
-x <- with(DemetrioTb4.2, tapply(tempo, tipo, data.frame))     
-boxplot(x, main = "Tempo vs Veneno", xlab = "Tipo de Veneno",
-    ylab = "Tempo")
+xtabs(~tipo + trat, data = DemetrioTb4.2)
+
+group <- with(DemetrioTb4.2, paste0(tipo, "-", trat))
+boxplot(tempo ~ group, data = DemetrioTb4.2)
 
 }
-\keyword{RS}
+\keyword{dummy}
 

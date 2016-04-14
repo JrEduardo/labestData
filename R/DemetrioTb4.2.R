@@ -1,5 +1,5 @@
 #' @name DemetrioTb4.2
-#' @title Sobrevivência de Ratos após o envenenamento
+#' @title Sobrevivência de Ratos após Envenenamento
 #' 
 #' @description Os dados referem-se a tempos de sobrevivência de ratos 
 #'     após envenenamento com 4 tipos de venenos e 3 diferentes 
@@ -13,11 +13,12 @@
 #' 
 #'     \item{\code{tipo}}{Tipo de veneno.}
 #'     
-#'     \item{\code{trat}}{Tipo de tratamento.}
+#'     \item{\code{trat}}{Tipo de tratamento aplicado (não descrito o
+#'     que é o tratamento).}
 #' 
 #' }
 #' 
-#' @keywords RS
+#' @keywords dummy
 #' 
 #' @source Demétrio, C. G. B., & Zocchi, S. S. (2011). Modelos de
 #'     Regressão. Piracicaba: ESALQ. (Tabela 4.2 pág. 132)
@@ -25,12 +26,10 @@
 #' @examples 
 #' 
 #' data(DemetrioTb4.2)
-#' 
-#' pairs(~ tempo + tipo + trat , data = DemetrioTb4.2,
-#'      main = "Dispersão duas a duas")
-#'      
-#' x <- with(DemetrioTb4.2, tapply(tempo, tipo, data.frame))     
-#' boxplot(x, main = "Tempo vs Veneno", xlab = "Tipo de Veneno",
-#'     ylab = "Tempo")
+#'
+#' xtabs(~tipo + trat, data = DemetrioTb4.2)
+#'
+#' group <- with(DemetrioTb4.2, paste0(tipo, "-", trat))
+#' boxplot(tempo ~ group, data = DemetrioTb4.2)
 #'
 NULL

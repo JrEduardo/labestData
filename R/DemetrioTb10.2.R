@@ -1,8 +1,8 @@
-#' @name DemetrioTb5.1
-#' @title Nicotiana
+#' @name DemetrioTb10.2
+#' @title Estudo em Plantas Nicotianas
 #' 
 #' @description Dados referentes ao comprimento do caule,
-#'     do ramo e do caule basal da Nicotiana. 
+#'     do ramo e do caule basal de plantas do gênero Nicotiana.
 #' 
 #' @format Um \code{data.frame} de 18 linhas e 3 colunas.
 #' 

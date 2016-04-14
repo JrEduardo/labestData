@@ -2,18 +2,18 @@
 % Please edit documentation in R/DemetrioTb3.6.R
 \name{DemetrioTb3.6}
 \alias{DemetrioTb3.6}
-\title{Três variáveis explicativas}
+\title{Dados Genéricos para Regressão Múltipla}
 \format{Um \code{data.frame} de 14 linhas e 4 colunas.
 
 \describe{
 
-    \item{\code{x1}}{Informação indisponível.}
+    \item{\code{x1}}{Variável explicativa, sem interpretação.}
     
-    \item{\code{x2}}{Informação indisponível.}
+    \item{\code{x2}}{Variável explicativa, sem interpretação.}
     
-    \item{\code{x3}}{Informação indisponível.}
+    \item{\code{x3}}{Variável explicativa, sem interpretação.}
     
-    \item{\code{y}}{Informação indisponível.}
+    \item{\code{y}}{Variável dependente, sem interpretação.}
 
 }}
 \source{
@@ -21,7 +21,8 @@ Demétrio, C. G. B., & Zocchi, S. S. (2011). Modelos de
     Regressão. Piracicaba: ESALQ. (Tabela 3.6 pág. 99)
 }
 \description{
-Dados para exercício.
+Dados para exercício de análise via modelo de regressão
+    linear múltipla com três variáveis explicativas.
 }
 \examples{
 
@@ -33,5 +34,9 @@ pairs(~ x1 + x2 + x3 + y , data = DemetrioTb3.6,
 cor(DemetrioTb3.6)
 
 }
-\keyword{TODO}
+\references{
+Hoffman, R., Vieira, S. (1983). Análise de Regressão. Uma
+    introdução à Econometria (2en ed.). São Paulo, SP: Ed. Hucitec.
+}
+\keyword{RM}
 
