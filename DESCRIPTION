@@ -36,6 +36,7 @@ Suggests:
     reshape,
     ggplot2,
     car,
+    qcc,
 	knitr,
 	rmarkdown,
 	shiny,
