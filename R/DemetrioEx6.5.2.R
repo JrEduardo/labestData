@@ -1,23 +1,24 @@
 #' @name DemetrioEx6.5.2
-#' @title Tabela 9.1
+#' @title Dados Genéricos Simulados para Regressão Linear Múltipla
 #' 
-#' @description Dados simulados para uso em exercício.
+#' @description Dados simulados para exercício de análise de um modelo
+#'     de regressão linear múltipla com 3 covariáveis.
 #' 
 #' @format Um \code{data.frame} de 5 linhas e 4 colunas.
 #' 
 #' \describe{
 #' 
-#'     \item{\code{x1}}{Informação indisponível.}
+#'     \item{\code{x1}}{Variável independente, sem interpretação.}
 #'     
-#'     \item{\code{x2}}{Informação indisponível.}
+#'     \item{\code{x2}}{Variável independente, sem interpretação.}
 #'     
-#'     \item{\code{x3}}{Informação indisponível.}
+#'     \item{\code{x3}}{Variável independente, sem interpretação.}
 #'     
-#'     \item{\code{y}}{Informação indisponível.}
+#'     \item{\code{y}}{Variável dependente, sem interpretação.}
 #'     
 #' }
 #' 
-#' @keywords RS
+#' @keywords RM
 #' 
 #' @source Demétrio, C. G. B., & Zocchi, S. S. (2011). Modelos de
 #'     Regressão. Piracicaba: ESALQ. (Exercício 6.5.2 pág. 180)

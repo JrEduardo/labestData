@@ -2,14 +2,15 @@
 % Please edit documentation in R/DemetrioTb7.1.R
 \name{DemetrioTb7.1}
 \alias{DemetrioTb7.1}
-\title{Produção de milho por Adubo}
+\title{Produção de Milho por Adubo}
 \format{Um \code{data.frame} de 20 linhas e 3 colunas.
 
 \describe{
 
-    \item{\code{dose}}{Dose \eqn{P_2O_5}.}
+    \item{\code{dose}}{Dose de \eqn{P_2O_5}.}
 
-    \item{\code{bloco}}{Bloco ao qual a observação pertence.}
+    \item{\code{bloco}}{Bloco ao qual a observação pertence, para
+    controle local de variação.}
     
     \item{\code{sat}}{Valor da produção de milho, medido em
     kg/parcela.}
@@ -29,9 +30,10 @@ Os dados referem-se a produções de milho, em kg/parcela,
 data(DemetrioTb7.1)
 
 library(lattice)
-xyplot(producao ~ dose | bloco, data = DemetrioTb7.1,
+xyplot(producao ~ dose, groups = bloco, data = DemetrioTb7.1,
     xlab = "Dose", ylab = "Produção")
 
 }
-\keyword{RS}
+\keyword{DBC}
+\keyword{RegSeg}
 

@@ -2,15 +2,15 @@
 % Please edit documentation in R/DemetrioEx7.8.3.R
 \name{DemetrioEx7.8.3}
 \alias{DemetrioEx7.8.3}
-\title{Adubação em eucalipto}
+\title{Alturas de Eucaliptos sob Adubação Potássica}
 \format{Um \code{data.frame} de 12 linhas e 2 colunas.
 
 \describe{
 
-    \item{\code{dose}}{Dose de K, medida em ppm.}
+    \item{\code{dose}}{Dose de potássio, medida em ppm.}
     
-    \item{\code{altura}}{Altura do eucalipto, medida em 
-    centímetro (cm).}
+    \item{\code{altura}}{Altura da árvore, medida em centímetro
+    (cm).}
     
 }}
 \source{
@@ -20,7 +20,8 @@ Demétrio, C. G. B., & Zocchi, S. S. (2011). Modelos de
 \description{
 Dados referentes a um experimento de adubação,
     conduzido em casa de vegetação. Foram usadas 4 doses de
-    K (0, 30, 60, 90 ppm), obtendo-se as alturas, medidas em cm.
+    Potássio (0, 30, 60, 90 ppm), obtendo-se as alturas das árvores
+    da espécie \emph{Eucalyptus grandis}, medidas em cm.
 }
 \examples{
 
@@ -32,5 +33,5 @@ xyplot(altura ~ dose, data = DemetrioEx7.8.3,
     main = "Altura vs Dose", xlab = "Dose", ylab = "Altura")
      
 }
-\keyword{RS}
+\keyword{RP}
 

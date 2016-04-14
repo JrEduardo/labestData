@@ -2,18 +2,18 @@
 % Please edit documentation in R/DemetrioEx6.5.2.R
 \name{DemetrioEx6.5.2}
 \alias{DemetrioEx6.5.2}
-\title{Tabela 9.1}
+\title{Dados Genéricos Simulados para Regressão Linear Múltipla}
 \format{Um \code{data.frame} de 5 linhas e 4 colunas.
 
 \describe{
 
-    \item{\code{x1}}{Informação indisponível.}
+    \item{\code{x1}}{Variável independente, sem interpretação.}
     
-    \item{\code{x2}}{Informação indisponível.}
+    \item{\code{x2}}{Variável independente, sem interpretação.}
     
-    \item{\code{x3}}{Informação indisponível.}
+    \item{\code{x3}}{Variável independente, sem interpretação.}
     
-    \item{\code{y}}{Informação indisponível.}
+    \item{\code{y}}{Variável dependente, sem interpretação.}
     
 }}
 \source{
@@ -21,7 +21,8 @@ Demétrio, C. G. B., & Zocchi, S. S. (2011). Modelos de
     Regressão. Piracicaba: ESALQ. (Exercício 6.5.2 pág. 180)
 }
 \description{
-Dados simulados para uso em exercício.
+Dados simulados para exercício de análise de um modelo
+    de regressão linear múltipla com 3 covariáveis.
 }
 \examples{
 
@@ -31,5 +32,5 @@ pairs(~ x1 + x2 + x3 + y, data = DemetrioEx6.5.2,
     main = "Gráfico de Pares")
      
 }
-\keyword{RS}
+\keyword{RM}
 
