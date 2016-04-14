@@ -18,7 +18,7 @@
 #' 
 #' @keywords RM
 #' 
-#' @source Demétrio, C. G. B., & Zocchi, S. S. (2011). Modelos de
+#' @source Demétrio, C. G. B., Zocchi, S. S. (2011). Modelos de
 #'     Regressão. Piracicaba: ESALQ. (Tabela 3.5 pág. 99)
 #'
 #' @references Hoffman, R., Vieira, S. (1983). Análise de Regressão. Uma

@@ -19,7 +19,7 @@
 #' 
 #' @keywords RM
 #' 
-#' @source Demétrio, C. G. B., & Zocchi, S. S. (2011). Modelos de
+#' @source Demétrio, C. G. B., Zocchi, S. S. (2011). Modelos de
 #'     Regressão. Piracicaba: ESALQ. (Exercício 5.4.2 pág. 169)
 #' 
 #' @examples 
