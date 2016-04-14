@@ -1,4 +1,4 @@
-t	c
+npecas	custo
 5	65
 10	120
 15	210
