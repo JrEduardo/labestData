@@ -38,7 +38,5 @@ xyplot(prod ~ lamina, data = DemetrioTb1.2,
        ylab = "Produção (t/ha)",
        type = c("p", "r"), col.line = 3)
 }
-\keyword{aspersor}
-\keyword{batata}
-\keyword{produtividade}
+\keyword{RS}
 

@@ -43,6 +43,8 @@ Na análise inicial do estudo do estudo foi detectada a
 }
 \examples{
 
+data(DemetrioTb1.5)
+
 library(lattice)
 
 xyplot(ctc ~ dose | bloco, groups = metodo,
@@ -64,5 +66,6 @@ xyplot(ctc ~ dose | bloco, groups  = metodo,
        auto.key = list(space = "right", title = "Método"))
 
 }
-\keyword{TODO}
+\keyword{RM}
+\keyword{dummy}
 

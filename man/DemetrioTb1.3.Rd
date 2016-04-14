@@ -2,7 +2,7 @@
 % Please edit documentation in R/DemetrioTb1.3.R
 \name{DemetrioTb1.3}
 \alias{DemetrioTb1.3}
-\title{Tensiômetro}
+\title{Estudo da Construção de um Tensiômetro}
 \format{Um \code{data.frame} com 9 linhas e 2 colunas.
 
 \describe{
@@ -34,6 +34,12 @@ xyplot(tensao ~ altura, data = DemetrioTb1.3,
     main = "Altura VS Tensão",
     xlab = "Altura do Tensiômetro",
     ylab = "Tensão da Água")
+
+xyplot(tensao ~ log(altura), data = DemetrioTb1.3,
+    main = "Altura VS Tensão",
+    xlab = expression(log~"(Altura do Tensiômetro)"),
+    ylab = "Tensão da Água")
+
 }
-\keyword{tensiômetro}
+\keyword{RS}
 

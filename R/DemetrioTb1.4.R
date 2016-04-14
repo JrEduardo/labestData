@@ -20,7 +20,7 @@
 #' 
 #' }
 #' 
-#' @keywords fósforo solo planta
+#' @keywords RM
 #' 
 #' @source Demétrio, C. G. B., & Zocchi, S. S. (2011). Modelos de
 #'     Regressão. Piracicaba: ESALQ. (Tabela 1.4 pág. 11)

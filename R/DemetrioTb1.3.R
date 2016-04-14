@@ -1,5 +1,5 @@
 #' @name DemetrioTb1.3
-#' @title Tensiômetro
+#' @title Estudo da Construção de um Tensiômetro
 #' 
 #' @description Estudo da construção de um tensiômetro de leitura
 #'     direta. Neste estudo obteve-se os resultados de alturas da câmara
@@ -17,7 +17,7 @@
 #' 
 #' }
 #' 
-#' @keywords tensiômetro
+#' @keywords RS
 #' 
 #' @source Demétrio, C. G. B., & Zocchi, S. S. (2011). Modelos de
 #'     Regressão. Piracicaba: ESALQ. (Tabela 1.3 pág. 10; 
@@ -33,4 +33,10 @@
 #'     main = "Altura VS Tensão",
 #'     xlab = "Altura do Tensiômetro",
 #'     ylab = "Tensão da Água")
+#'
+#' xyplot(tensao ~ log(altura), data = DemetrioTb1.3,
+#'     main = "Altura VS Tensão",
+#'     xlab = expression(log~"(Altura do Tensiômetro)"),
+#'     ylab = "Tensão da Água")
+#'
 NULL
