@@ -11,7 +11,7 @@
     experimento.}
 
 \item{\code{genot}}{Fator de níveis categóricos que identifica os
-    genótipos de bataba.}
+    genótipos de batata.}
 
 \item{\code{prod}}{Produção total de batata resultante da soma dos
     valores observados nos 4 blocos de cada experimento, em t

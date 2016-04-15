@@ -1,6 +1,6 @@
 #' @name BanzattoQd8.2.1
 #' @title Grupo de Ensaios de Competição de Batata
-#' @description Dados referentes de um grupo de 4 ensaios de competição
+#' @description Dados referentes a um grupo de 4 ensaios de competição
 #'     de 10 cultivares de batata, realizado por Filgueira (1991) em
 #'     Guaíra - SP. Os ensaios foram instalados no delineamento de
 #'     blocos casualizados com 4 repetições. A variável resposta é a
@@ -9,13 +9,13 @@
 #'
 #' \describe{
 #'
-#' \item{\code{exper}}{Fator de níveis vategóricos que identifica o
+#' \item{\code{exper}}{Fator de níveis categóricos que identifica o
 #'     experimento (ensaio)).}
 #'
-#' \item{\code{bloco}}{Fator de níveis categóricos que indentifica os
+#' \item{\code{bloco}}{Fator de níveis categóricos que identifica os
 #'     blocos dentro de um experimento.}
 #'
-#' \item{\code{cult}}{Fator de níveis categóricos que indentifica as
+#' \item{\code{cult}}{Fator de níveis categóricos que identifica as
 #'     cultivares de batata.}
 #'
 #' \item{\code{prod}}{Produção de tubérculos, em tom ha^{^{-1}}.}
