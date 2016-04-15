@@ -27,12 +27,12 @@ help(PimentelEg5.2, help_type = "html")
 
 Esse experimento estudou a produção (resposta) de variedades de
 batatinha (fator de interesse). O experimento foi instalado em blocos,
-muito provavelmente, para controlar para variáveis do ambiente, como a
+muito provavelmente, para controlar variáveis do ambiente, como a
 fertilidade do solo, por exemplo. Além disso, uma vez feita a imposição
 dos blocos, todas as demais variáveis de entrada (mão de obra, dia de
 colheita, máquinas, etc) devem ser as mesmas para todas as parcelas de
 um bloco. Isso significa, por exemplo, que todas as parcelas de um bloco
-devem ser colhidadas no mesmo dia e devem ser zeladas (capina,
+devem ser colhidas no mesmo dia e devem ser zeladas (capina,
 irrigação) pela mesma pessoa. Lembre-se que a blocagem visa a
 uniformidade, ou seja, condições de contorno iguais para todas as suas
 parcelas, e por isso as variáveis de entrada precisam ser controladas
@@ -68,7 +68,7 @@ t(unstack(x = PimentelEg5.2, form = producao ~ variedade))
 
 library(lattice)
 
-# Para uma melhor exibição dos dadaos, vamos reordenar os níveis
+# Para uma melhor exibição dos dados, vamos reordenar os níveis
 # de cultivar pela média de cada uma delas. Depois vamos ordenar os
 # registros no data.frame por bloco/variedade.
 
@@ -109,7 +109,7 @@ casualizados é
 
 $$
 \begin{aligned}
-  Y|\text{bloco + variedade}
+  Y|\text{bloco, variedade}
     &\,\sim \text{Normal}(\mu_{ij}, \sigma^2) \newline
   \mu_{ij} &= \mu + \alpha_{i} + \tau_{j},
 \end{aligned}
@@ -142,7 +142,7 @@ contrasts(PimentelEg5.2$variedade)
 aggregate(producao ~ variedade, data = PimentelEg5.2, FUN = mean)
 ```
 
-No modelo estatístico do DBC, tem-se dois termos com efeito na média: os
+No modelo estatístico para DBC, tem-se dois termos com efeito na média: os
 blocos e as variedades, que são os parâmetros com subíndice. Como os
 fatores são categóricos, $k-1$ parâmetros são estimados para acomodar o
 efeito de cada um ($k$ é o número de níveis). O R por padrão usa a
@@ -159,7 +159,7 @@ contraste que zera o efeito do último nível, padrão de outro software.
 
 ```{r}
 m1 <- update(m0, contrasts = list(bloco = "contr.SAS"))
-split(data.frame(coef(m0), coef(m1)), m0$assign)
+split(data.frame(coef(m0), coef(m1), row.names = NULL), m0$assign)
 
 # Médias ajustadas de mínimos quadrados (least squares means).
 # L <- doBy::LSmatrix(m1, effect = "variedade")
@@ -183,7 +183,7 @@ entanto, no modelo tem-se também o efeito dos blocos, que foram
 incluídos para fazer controle local. Uma maneira de representar o efeito
 das variedades é calcular as médias ajustadas, ao invés de considerar os
 coeficientes estimados. Ajustar no caso é considerar que para cada termo
-fora de interesse que os efeitos terão como peso o inverso do número de
+fora de interesse, os efeitos terão como peso o inverso do número de
 níveis. Sendo assim, com 4 blocos os pesos são 1/4, ou seja, cada bloco
 contribui com 1/4 do seu efeito. Perceba que isso é exatamente uma média
 de efeitos. Apesar da simplicidade, esse tipo de média ficou conhecida
@@ -192,9 +192,9 @@ por *lsmeans* (Least Squares Means).
 ## Avaliação dos pressupostos
 
 Além das suposições de normalidade e homogeneidade de variâncias, no
-modelo do DBC tem-se que o efeito dos blocos e das variedades é
+modelo para DBC tem-se que o efeito dos blocos e das variedades é
 aditivo. Ou seja, espera-se que ao mudar de bloco as médias das
-variedades sejam deslocadas em igual quantidade. Mas tem situações em
+variedades sejam deslocadas em igual quantidade. Mas há situações em
 que isso pode não acontecer. Por exemplo, imagine um experimento de
 competição de cultivares e que existem blocos pouco férteis e muito
 férteis. Pode acontecer que no bloco fértil exista praticamente nunhuma
@@ -205,7 +205,7 @@ cenário o bloco interagiu com as cultivares pois as diferenças entre
 elas foram influenciadas pelos blocos. O modelo estatístico assume
 aditividade e, por isso, cabe na hora do planejamento perceber se a
 característica blocada (fertilidade) pode influenciar no efeito sendo
-estudado (cultivares). Em caso afirmativo, poderia-se procurar uma área
+estudado (cultivares). Em caso afirmativo, poder-se-ia procurar uma área
 experimental uniforme em fertilidade, de preferência, nesse caso, de
 baixa fertilidade para permitir distinguir as cultivares.
 
@@ -329,7 +329,7 @@ summary(glht(m0, linfct = l0))
 # sqrt(l1 %*% vcov(m0) %*% t(l1))
 # sqrt(l0 %*% vcov(m0) %*% t(l0))
 
-# A prova de que a variância do efeito de bloco não contribuição para a
+# A prova de que a variância do efeito de bloco não contribui para a
 # variância da média quando se usa a média dos blocos.
 round(data.frame("bloco I" = t(l1 %*% vcov(m0)),
                  "média" = t(l0 %*% vcov(m0))), 5)
