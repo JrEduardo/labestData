@@ -1,0 +1,45 @@
+#' @name BarbinPg72
+#' @title Produção de Laranjeira sob diferentes Porta-enxertos
+#' @description Dados de produção de laranjeira aos 12 anos de idade sob
+#'     diferentes porta-enxertos. O experimento foi instalado em
+#'     delineamento de blocos casualizados.
+#' @format Um \code{data.frame} com 27 observações e 3 variáveis.
+#'
+#' \describe{
+#'
+#' \item{\code{portenx}}{Fator de níveis categóricos que distingue os
+#'     porta-enxertos usados para laranjeira.}
+#'
+#' \item{\code{bloco}}{Fator de níveis categóricos que identifica os
+#'     blocos do experimento.}
+#'
+#' \item{\code{prod}}{Produção, em número médio de frutos por planta.}
+#'
+#' }
+#'
+#' O atributo \code{missings} é um vetor com o número das observações
+#'     consideradas como perdidas para ilustrar como fazer a análise do
+#'     experimento desbalanceado.
+#' @keywords DBC
+#' @source Barbin, D. (2013). Planejamento e Análise Estatística de
+#'     Experimentos Agronômicos (2nd ed.). Londrina, PR:
+#'     Mecenas. (pág. 72)
+#'
+#' Teófilo Sobrinho, J. (1972). Comportamento da laranjeira valência
+#'     (\emph{Citrus sinensis} L., Osbeck) sob diferentes
+#'     porta-enxertos. Tese (Doutorado). Escola Superior de Agricultura
+#'     "Luíz de Queiróz"/USP, Piracicaba.
+#' @examples
+#'
+#' library(lattice)
+#'
+#' data(BarbinPg72)
+#'
+#' str(BarbinPg72)
+#'
+#' xyplot(portenx ~ prod, data = BarbinPg72,
+#'        jitter.x = TRUE, groups = bloco, type = "o",
+#'        xlab = "Porta enxertos para laranjeira",
+#'        ylab = "Número médio de frutos por planta")
+#'
+NULL
