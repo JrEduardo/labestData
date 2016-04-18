@@ -1,8 +1,9 @@
 #' @name ManlyTb6.7
 #' @title Consumo de proteína por habitantes de países europeus 
 #'
-#' @description Estimativas do consumo médio de proteínas de diferentes fontes de alimentos 
-#' para os habitantes de 25 países europeus. Consumos registrados em gramas por pessoa por dia
+#' @description Estimativas dos consumos médios de proteínas de diferentes 
+#' fontes de alimentos para habitantes de 25 países europeus. 
+#' Consumos registrados em gramas por pessoa por dia.
 #'
 #' @format Um \code{data.frame} com 25 países e 9 variáveis.
 #' 
@@ -32,8 +33,9 @@
 #' 
 #' }
 #' @keywords AnaComp
-#' @source Manly, B. J. F. (2005). Métodos Estatísticos Multivariados - uma introdução.
-#'      Porto Alegre, RS: Bookman (pg 103)
+#' @source Manly, B. J. F. (2005). Métodos Estatísticos Multivariados - 
+#'      uma introdução. Porto Alegre, RS: Bookman (pg 103)
+#'      
 #' @examples
 #'
 #' data(ManlyTb6.7)

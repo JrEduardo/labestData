@@ -1,8 +1,8 @@
 #' @name ManlyTb6.6
 #' @title Taças de cerâmicas pré-históricas
 #'
-#' @description Dimensões de 25 taças de cerâmicas escavadas de lugares pré-histórico 
-#' na Tailândia.
+#' @description Dimensões de 25 taças de cerâmicas escavadas de lugares 
+#' pré-históricos na Tailândia.
 #'
 #' @format Um \code{data.frame} com 25 registros em 6 variáveis.
 #' 
@@ -15,8 +15,10 @@
 #' \if{latex}{\figure{ManlyTb6-6.jpg}{options: width=1.75in}} 
 #'}
 #' @keywords AnaComp
-#' @source Manly, B. J. F. (2005). Métodos Estatísticos Multivariados- uma introdução.
-#'      Porto Alegre, RS: Bookman (pg 101)
+#' 
+#' @source Manly, B. J. F. (2005). Métodos Estatísticos Multivariados- 
+#'      uma introdução. Porto Alegre, RS: Bookman (pg 101)
+#'      
 #' @examples
 #'
 #' data(ManlyTb6.6)
