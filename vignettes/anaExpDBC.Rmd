@@ -25,9 +25,9 @@ ls("package:labestData")
 help(PimentelEg5.2, help_type = "html")
 ```
 
-Esse experimento estudou a produção (resposta) de variedades de
+Nesse experimento estudou-se a produção (resposta) de variedades de
 batatinha (fator de interesse). O experimento foi instalado em blocos,
-muito provavelmente, para controlar variáveis do ambiente, como a
+muito provavelmente para controlar variáveis do ambiente, como a
 fertilidade do solo, por exemplo. Além disso, uma vez feita a imposição
 dos blocos, todas as demais variáveis de entrada (mão de obra, dia de
 colheita, máquinas, etc) devem ser as mesmas para todas as parcelas de
@@ -42,7 +42,9 @@ No conjunto de dados `PimentelEg5.2`, temos a variável `bloco` e
 `variedade`, ambas como fator. Esse é um detalhe importante: quando as
 fontes de variação forem de níveis categóricos, elas devem ser variáveis
 de classe `factor` no R. É preciso cuidado pois alguns livros usam
-números inteiros para representar os níveis de fatores categóricos.
+números inteiros para representar os níveis de fatores categóricos, de 
+tal forma que, se não as declararmos como fatores, o R as entenderá como
+variáveis numéricas.
 
 ```{r}
 #-----------------------------------------------------------------------
@@ -63,7 +65,7 @@ str(PimentelEg5.2)
 # Tabela de frequência para os tratamentos.
 xtabs(~variedade + bloco, data = PimentelEg5.2)
 
-# Dados desemplilhados.
+# Dados desempilhados.
 t(unstack(x = PimentelEg5.2, form = producao ~ variedade))
 
 library(lattice)
@@ -100,7 +102,7 @@ sinal-ruído fornece uma evidência visual do efeito de variedade.
 
 As observações de um mesmo blocos não foram ligadas por acaso. Nesse
 gráfico é possível ter impressões sob uma suposição do modelo
-estatístico: a aditividade dos efeitos.
+estatístico: a aditividade dos efeitos de tratamento e bloco.
 
 ## Especificação e ajuste do modelo
 
@@ -115,11 +117,11 @@ $$
 \end{aligned}
 $$
 
-em que é a variável resposta $Y$, $\alpha_{i}$ é o efeito do bloco $i$,
+em que $Y$ é a variável resposta, $\alpha_{i}$ é o efeito do bloco $i$,
 $\tau_j$ é o efeito da variedade $j$, $\mu$ é a média de $Y$ na ausência
-do efeito dos blocos e da variedade. $\sigma^2$ é a variância das
+do efeito dos blocos e da variedade e $\sigma^2$ é a variância das
 observações ao redor das suas respectivas médias. Note que a média
-($\mu$) tem dois índices, um do efeito de bloco e outro para variedade.
+($\mu$) tem dois índices, um referente ao bloco e outro à variedade.
 
 ```{r}
 #-----------------------------------------------------------------------
@@ -134,7 +136,7 @@ cbind(coef(m0))
 # preditor para a média (\mu = 0, \alpha_i = 1, \tau_j = 2).
 split(coef(m0), m0$assign)
 
-# Matriz de contrastes sob a retrição zerar primeiro nível.
+# Matrizes de contrastes utilizadas, sob a retrição zerar primeiro nível.
 contrasts(PimentelEg5.2$bloco)
 contrasts(PimentelEg5.2$variedade)
 
@@ -147,8 +149,8 @@ blocos e as variedades, que são os parâmetros com subíndice. Como os
 fatores são categóricos, $k-1$ parâmetros são estimados para acomodar o
 efeito de cada um ($k$ é o número de níveis). O R por padrão usa a
 restrição de zerar o efeito do primeiro nível de cada fator e cada
-coeficiente é então a diferença ao mudar do nível de referência para
-outro.
+coeficiente corresponde, então, à diferença entre o nível de referência e
+outro nível qualquer.
 
 O prefixo no nome dos coeficientes vem dos correspondentes termos do
 modelo. O elemento `assign` mostra que foi atribuido o mesmo número
@@ -178,36 +180,36 @@ L <- matrix(c(1, 0.25, 0.25, 0.25, 0, 0, 0, 0, 0, 0, 0,
 L %*% coef(m1)
 ```
 
-O interesse do experimento é estudar o efeito das variedades. No
+O interesse nesse experimento é estudar o efeito das variedades. No
 entanto, no modelo tem-se também o efeito dos blocos, que foram
-incluídos para fazer controle local. Uma maneira de representar o efeito
-das variedades é calcular as médias ajustadas, ao invés de considerar os
-coeficientes estimados. Ajustar no caso é considerar que para cada termo
-fora de interesse, os efeitos terão como peso o inverso do número de
-níveis. Sendo assim, com 4 blocos os pesos são 1/4, ou seja, cada bloco
-contribui com 1/4 do seu efeito. Perceba que isso é exatamente uma média
-de efeitos. Apesar da simplicidade, esse tipo de média ficou conhecida
-por *lsmeans* (Least Squares Means).
+incluídos para efeito de controle local. Uma maneira de representar 
+o efeito das variedades é calcular as médias ajustadas, ao invés de 
+considerar os coeficientes estimados. Ajustar, no caso, é considerar 
+que para cada termo fora de interesse, os efeitos terão como peso o inverso 
+do número de níveis. Sendo assim, com 4 blocos os pesos são 1/4, ou seja, 
+cada bloco contribui com 1/4 do seu efeito. Perceba que isso é exatamente 
+uma média de efeitos. Apesar da simplicidade, esse tipo de média ficou 
+conhecida por *lsmeans* (Least Squares Means).
 
 ## Avaliação dos pressupostos
 
 Além das suposições de normalidade e homogeneidade de variâncias, no
 modelo para DBC tem-se que o efeito dos blocos e das variedades é
-aditivo. Ou seja, espera-se que ao mudar de bloco as médias das
+aditivo. Ou seja, espera-se que ao mudar de bloco as médias das diferentes
 variedades sejam deslocadas em igual quantidade. Mas há situações em
 que isso pode não acontecer. Por exemplo, imagine um experimento de
-competição de cultivares e que existem blocos pouco férteis e muito
+competição de cultivares em que existem blocos pouco férteis e muito
 férteis. Pode acontecer que no bloco fértil exista praticamente nunhuma
-diferença entre as cultivares já que o ambiente é favorável. No bloco
+diferença entre as cultivares, já que o ambiente é favorável. No bloco
 pouco fértil, por outro lado, as cultivares melhor adaptadas à baixa
 fertilidade podem apresentar produção superior. Em outras palavras, nesse
-cenário o bloco interagiu com as cultivares pois as diferenças entre
-elas foram influenciadas pelos blocos. O modelo estatístico assume
+cenário o bloco interage com as cultivares, pois as diferenças entre
+elas é influenciada pelos blocos. O modelo estatístico assume
 aditividade e, por isso, cabe na hora do planejamento perceber se a
 característica blocada (fertilidade) pode influenciar no efeito sendo
 estudado (cultivares). Em caso afirmativo, poder-se-ia procurar uma área
-experimental uniforme em fertilidade, de preferência, nesse caso, de
-baixa fertilidade para permitir distinguir as cultivares.
+experimental uniforme em fertilidade (de preferência, nesse caso, de
+baixa fertilidade) para permitir distinguir as cultivares.
 
 ```{r}
 #-----------------------------------------------------------------------
@@ -216,20 +218,19 @@ baixa fertilidade para permitir distinguir as cultivares.
 par(mfrow = c(2, 2))
 plot(m0); layout(1)
 
-
 ```
 
-Nos gráficos de resíduos não apresentam evidências para o fuga dos
+Os gráficos de resíduos não apresentam evidências para o fuga dos
 pressupostos. O gráfico 2-1 (Scale-Location) mostra que a dispersão dos
 valores é a mesma independente da média. O gráfico 1-2 (Normal Q-Q)
-mostra que os pontos não fogem de uma reta indicando que a suposição de
-normalidade dos erros foi atendida.
+mostra que os pontos não fogem acentuadamente uma reta, indicando que a 
+suposição de normalidade dos erros foi atendida.
 
 O teste de Tukey para não aditividade foi proposto por Tukey em 1949 com
 a finalidade de verificar se dois termos tem efeitos aditivos. Não é o
 objetivo dessa vinheta entrar em detalhes sobre os fundamentos do teste.
 
-O R conhecemos 3 pacotes com funções para fazer o teste de aditividade
+No R há ao menos 3 pacotes com funções para fazer o teste de aditividade
 de Tukey: [`agricolae::nonadditivity()`], [`asbio::tukey.add.test()`] e
 [`addititivityTests::tukey.test()`]. No entanto, esse teste pode ser
 feito sem chamar pacotes, conforme ilustramos abaixo.
@@ -254,8 +255,8 @@ anova(update(m0, . ~ . + aditiv))
 
 ```
 
-Pelo resultado do teste não rejeitamos a hipótese de que o efeito de
-blocos e variedades são efeitos aditivos.  Para detalhes sobre o teste
+Pelo resultado do teste não rejeitamos a hipótese de que os efeitos de
+blocos e variedades são aditivos.  Para detalhes sobre o teste
 da aditividade visite
 <http://www.ime.usp.br/~botter/mae327/Blocos/Blocos.pdf>, página 20.
 
@@ -267,7 +268,7 @@ os valores estimados $\tau_{i}$ serão próximos a zero. A hipóteses nula
 de não haver efeito é representada por
 
 $$
-  \text{H}_{0}: \tau_j = 0, \text{para todo}\,i.
+  \text{H}_{0}: \tau_j = 0, \text{para todo}\,j.
 $$
 
 Essa hipótese é avaliada pelo estatística F do quadro de análise de
@@ -277,14 +278,14 @@ variância.
 anova(m0)
 ```
 
-Pelo quadro, existe efeito das variedades, ou seja, elas não tem a mesma
-produção média. Os códigos abaixo retornam os valores preditos para as
-variedades sob efeito do bloco I. Ou seja, esses são os valores
+Pelo quadro, existe efeito das variedades, ou seja, elas não apresentam 
+a mesma produção média. Os códigos abaixo retornam os valores preditos 
+para as variedades sob efeito do bloco I. Ou seja, esses são os valores
 esperados de produção para as variedades cultivadas no bloco I. Se outro
-bloco for considerado, os valores médios serão diferentes porque vai
-mudar o efeito do bloco. No entanto, é importante enfatizar que as
-diferenças entre as médias das variedades é a mesma independente do
-bloco considerado. Portanto, como o interesse é na diferença entre
+bloco for considerado, os valores médios serão diferentes devido à 
+mudança no efeito do bloco. No entanto, é importante enfatizar que as
+diferenças entre as médias das variedades é a mesma, independente do
+bloco considerado. Portanto, como o interesse está na diferença entre
 médias, tanto faz o bloco escolhido.
 
 ```{r}
@@ -301,16 +302,16 @@ pred
 
 Se por um lado a escolha do bloco não altera a diferença entre médias,
 por outro, existe preferência por considerar não o efeito de um bloco
-qualquer mas sim o efeito médio de todos. São duas as principais
+qualquer, mas sim o efeito médio de todos. São duas as principais
 vantagens: 1) com o efeito médio dos blocos o erro padrão das médias é
 menor e 2) considerando que efeito dos blocos vem de uma distribuição de
 probabilidades, usar a média dos efeitos tem uma interpretação
 interessante. Por exemplo, se os blocos controlam as variações de
-fertilidade do solo, ao considerar a média do efeito dos blocos tem-se a
-produtividade médias das variedades ao longo dessas condições de
-fertilidade (férteis, normais, ruins). Embora o experimento seja para
-estudar a diferença entre as variedades, o pesquisador tem necessidade
-de reportar um número que indique, de alguma forma, previsão de
+fertilidade do solo, ao considerar a média do efeito dos blocos tem-se as
+produtividades médias das variedades ao longo dessas condições de
+fertilidade (férteis, normais, ruins). Embora o objetivo do experimento 
+seja estudar a diferença entre as variedades, o pesquisador tem necessidade
+de reportar um número que indique, de alguma forma, a previsão de
 desempenho futuro.
 
 ```{r}
@@ -338,7 +339,7 @@ round(data.frame("bloco I" = t(l1 %*% vcov(m0)),
 O código acima mostra que ao considerar a médias dos blocos o
 erro-padrão foi menor. Isso porque na média dos blocos, os efeitos dos
 blocos se anulam e por isso o erro-padrão da estimativa do efeito dos
-blocos é 0 e não contribuí pro erro-padrão da estimativa dos efeitos das
+blocos é 0 e não contribui pro erro-padrão da estimativa dos efeitos das
 variedades.
 
 ```{r}
@@ -375,15 +376,15 @@ Por fim, uma representação intessante é colocar as médias ajustadas das
 variades com alguma presentação de incerteza, como o intervalo de
 confiança. No caso, foi usando o intervalo de confiança com cobertura
 global de 95%. Os intervalos de cobertura individual são aqueles cuja
-probabilidade de conter o parâmetro é $\alpha$ para cada coeficiente
-separadamente.  Já o de confiança global, a probabilidade $\alpha$ é a
-de todos os intervalores conterem os parâmetros simultaneamente. Estes
-intervalos são mais amplos que os de cobertura individual.
+probabilidade de conter o parâmetro é $\gama$ para cada coeficiente
+separadamente.  Já o de confiança global, a probabilidade $\gama$ é a
+de todos os intervalores conterem os parâmetros simultaneamente. Esses
+intervalos são mais amplos (menos precisos) que os de cobertura individual.
 
 ## Gerando experimento em DBC
 
 A casualização em um experimento em delineamento de blocos casualizados
-é feita dentro de cada bloco. O código abaixo obtém um sorteio
+é feita dentro de cada bloco. O código abaixo produz um sorteio
 considerando a mesma estrutra do conjunto de dados analisado.
 
 ```{r}
