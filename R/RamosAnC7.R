@@ -1,8 +1,8 @@
 #' @name RamosAnC7
 #' @title Processo químico
 #' @description Conjunto de dados de um processo químico com  
-#'     o pH da água, e pH do cloreto de potássio em 30 amostras
-#'     de tamanho 1.
+#'     o pH da água e pH do cloreto de potássio em 30 amostras
+#'     unitárias.
 #'
 #' @format Um \code{data.frame} com 30 observações e 3 variáveis, em que
 #'

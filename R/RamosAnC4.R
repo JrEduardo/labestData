@@ -1,7 +1,7 @@
 #' @name RamosAnC4
 #' @title Processo produtivo de canetas
 #' @description Conjunto de dados de um processo produtivo  
-#'     de canetas em 34 amostras com tamanhos diferentes.
+#'     de canetas, com 34 amostras de tamanhos diferentes.
 #'
 #' @format Um \code{data.frame} com 34 observações e 3 variáveis, em que
 #'

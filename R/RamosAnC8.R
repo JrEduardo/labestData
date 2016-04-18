@@ -2,7 +2,7 @@
 #' @title Teor de elementos químicos
 #' @description Conjunto de dados de teor de elementos químicos  
 #'     resultantes de análises de laboratório em 30 amostras 
-#'     de tamanho 1.
+#'     unitárias.
 #'
 #' @format Um \code{data.frame} com 30 observações e 8 variáveis, em que
 #'

@@ -1,7 +1,7 @@
 #' @name RamosAnC6
 #' @title Processo de fabricação de panelas
 #' @description Conjunto de dados de um processo de fabricação  
-#'     de panelas em 30 amostras com tamanhos diferentes.
+#'     de panelas, com 30 amostras com tamanhos diferentes.
 #'
 #' @format Um \code{data.frame} com 30 observações e 3 variáveis, em que
 #'
