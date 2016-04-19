@@ -1,0 +1,61 @@
+exper	genot	prod
+1	Mercedes	28.7
+1	Granex 33	45.6
+1	Superex	68.82
+1	XP 6803	42.73
+1	Princesa	38.85
+1	XP 8418	42.44
+1	RP 6010	34.94
+1	Régia	63
+1	XP 3021	27.1
+1	Serrana	25.28
+2	Mercedes	33.06
+2	Granex 33	34.15
+2	Superex	50.71
+2	XP 6803	19
+2	Princesa	43.21
+2	XP 8418	25.84
+2	RP 6010	15.29
+2	Régia	23.43
+2	XP 3021	23.38
+2	Serrana	20.67
+3	Mercedes	24.72
+3	Granex 33	35.3
+3	Superex	30.23
+3	XP 6803	14.17
+3	Princesa	22.97
+3	XP 8418	22.07
+3	RP 6010	17.17
+3	Régia	32.55
+3	XP 3021	11.96
+3	Serrana	15.52
+4	Mercedes	57.9
+4	Granex 33	55
+4	Superex	69.58
+4	XP 6803	45.87
+4	Princesa	50.99
+4	XP 8418	43.95
+4	RP 6010	28.63
+4	Régia	48.07
+4	XP 3021	32.59
+4	Serrana	34.17
+5	Mercedes	36.9
+5	Granex 33	35.73
+5	Superex	33.84
+5	XP 6803	43.63
+5	Princesa	26.43
+5	XP 8418	27.5
+5	RP 6010	24.25
+5	Régia	37.76
+5	XP 3021	19.25
+5	Serrana	25.17
+6	Mercedes	44.32
+6	Granex 33	39.96
+6	Superex	39.28
+6	XP 6803	51.81
+6	Princesa	22.86
+6	XP 8418	22.18
+6	RP 6010	24
+6	Régia	33.48
+6	XP 3021	14.69
+6	Serrana	29.17

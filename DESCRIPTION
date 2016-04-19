@@ -42,6 +42,7 @@ Suggests:
     shiny,
     reshape2,
     MASS,
-    qcc
+    qcc,
+    multicomp
 VignetteBuilder: knitr
 RoxygenNote: 5.0.1
