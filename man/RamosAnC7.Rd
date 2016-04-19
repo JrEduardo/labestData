@@ -30,9 +30,12 @@ data(RamosAnC7)
 
 library(qcc)
 
-qcc(RamosAnC7$phagua, type="xbar.one")
-
-qcc(RamosAnC7$phclore, type="xbar.one")
+qcc(RamosAnC7$phagua, type="xbar.one",
+  xlab = "Amostra", ylab = "Ph da água", 
+  title = "")
+qcc(RamosAnC7$phclore, type="xbar.one",
+  xlab = "Amostra", ylab = "Ph da água", 
+  title = "")
 
 }
 \keyword{CEQ}

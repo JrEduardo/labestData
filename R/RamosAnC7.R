@@ -1,8 +1,8 @@
 #' @name RamosAnC7
 #' @title Processo químico
 #' @description Conjunto de dados de um processo químico com  
-#'     o pH da água e pH do cloreto de potássio em 30 amostras
-#'     unitárias.
+#'     o pH da água, e pH do cloreto de potássio em 30 amostras
+#'     de tamanho 1.
 #'
 #' @format Um \code{data.frame} com 30 observações e 3 variáveis, em que
 #'
@@ -26,8 +26,11 @@
 #'
 #' library(qcc)
 #'
-#' qcc(RamosAnC7$phagua, type="xbar.one")
-#'
-#' qcc(RamosAnC7$phclore, type="xbar.one")
+#' qcc(RamosAnC7$phagua, type="xbar.one",
+#'   xlab = "Amostra", ylab = "Ph da água", 
+#'   title = "")
+#' qcc(RamosAnC7$phclore, type="xbar.one",
+#'   xlab = "Amostra", ylab = "Ph da água", 
+#'   title = "")
 #'
 NULL
