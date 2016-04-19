@@ -32,7 +32,7 @@ Ramos, E. M. L. S., et al.(2013).
 \description{
 Conjunto de dados de teor de elementos químicos  
     resultantes de análises de laboratório em 30 amostras 
-    de tamanho 1.
+    unitárias.
 }
 \examples{
 
@@ -40,9 +40,13 @@ data(RamosAnC8)
 
 library(qcc)
 
-qcc(RamosAnC8$magnes, type="xbar.one")
+qcc(RamosAnC8$magnes, type="xbar.one",
+  xlab = "Amostras", ylab = "Teor do magnésio",
+  title = "")
 
-qcc(RamosAnC8$ferro, type="xbar.one")
+qcc(RamosAnC8$ferro, type="xbar.one",
+   xlab = "Amostras", ylab = "Teor do ferro",
+   title = "")
 
 }
 \keyword{CEQ}

@@ -36,8 +36,12 @@
 #'
 #' library(qcc)
 #'
-#' qcc(RamosAnC8$magnes, type="xbar.one")
+#' qcc(RamosAnC8$magnes, type="xbar.one",
+#'   xlab = "Amostras", ylab = "Teor do magnésio",
+#'   title = "")
 #' 
-#' qcc(RamosAnC8$ferro, type="xbar.one")
+#' qcc(RamosAnC8$ferro, type="xbar.one",
+#'    xlab = "Amostras", ylab = "Teor do ferro",
+#'    title = "")
 #'
 NULL
