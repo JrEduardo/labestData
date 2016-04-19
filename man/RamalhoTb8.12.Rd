@@ -11,29 +11,30 @@
 \item{\code{prog}}{Fator que distingue as progênies do cultivar de
     café Icatu.}
 
-\item{\code{ano}}{Fator de 3 níveis, colheitas realizadas em 
+\item{\code{ano}}{Fator de 3 níveis, colheitas realizadas em
     anos sucessivos.}
 
-\item{\code{bloc}}{Fator de 4 níveis do experimento, usado para 
-    controle local.}
+\item{\code{bloc}}{Fator de 4 níveis que são os blocos no
+    experimento, possivelmente os mesmo blocos e unidades
+    experimentais em todos os anos, usado para controle local.}
 
-\item{\code{prod}}{Produção média de grãos de café-cereja, medido em
-    kg/parcela nas unidades experimentais.}
+\item{\code{prod}}{Produção média de grãos de café-cereja, em
+    kg/parcela.}
 
 }}
 \source{
 Ramalho, M. A. P., Ferreira, D. F., Oliveira, A. C. (2005).
     Experimentação em Genética e Melhoramento de Plantas (2th ed.).
     Lavras: UFLA. (pág. 128)
-    
+
     Mendes, A. N. G. Avaliação de Metodologias Empregadas na Seleção
     de Progênies do Cafeeiro (Coffea arabica L.) no estado de Minas
     Gerais. Lavras: UFLA, 1994. 167p.
 }
 \description{
-Experimento da produção média de grãos de café-cereja,
-    dados obtidos por Mendes (1994). Delineamento em blocos
-    casualizados.
+Experimento que estudou a produção média de grãos de
+    café-cereja, obtidos por Mendes (1994), em função da progênie em
+    3 anos. Foi utilizado o delineamento de blocos casualizados.
 }
 \examples{
 
@@ -41,14 +42,25 @@ library(lattice)
 
 data(RamalhoTb8.12)
 
-xyplot(prod ~ prog | ano, data = RamalhoTb8.12,
-       jitter.x = TRUE,
-       xlab = "Progênie",
-       ylab = "Produção")
+str(RamalhoTb8.12)
+
+ftable(with(RamalhoTb8.12,
+            tapply(prod,
+                   list(ano = ano, prog = prog, bloc = bloc),
+                   FUN = identity)))
+
+xyplot(prod ~ ano | prog, data = RamalhoTb8.12,
+       jitter.x = TRUE, type = c("p", "a"),
+       as.table = TRUE, layout = c(NA, 2),
+       strip = strip.custom(strip.names = TRUE,
+                            var.name = "Progênie", sep = " "),
+       xlab = "Ano de colheita",
+       ylab = expression("Produção"~(kg~parcela^{-1})))
 
 aggregate(prod ~ prog,  data = RamalhoTb8.12,
           FUN = function(x) { c(mean = mean(x), var = var(x)) })
 
 }
 \keyword{DBC}
+\keyword{GE}
 

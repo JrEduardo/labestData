@@ -2,7 +2,7 @@
 #' @title Produção Média de Grãos de Café-cereja
 #' @description Experimento que estudou a produção média de grãos de
 #'     café-cereja, obtidos por Mendes (1994), em função da progênie em
-#'     3 anos. Delineamento em blocos casualizados.
+#'     3 anos. Foi utilizado o delineamento de blocos casualizados.
 #' @format Um \code{data.frame} com 120 observações e 4 variáveis, em
 #'     que
 #'
@@ -44,7 +44,8 @@
 #'                    FUN = identity)))
 #'
 #' xyplot(prod ~ ano | prog, data = RamalhoTb8.12,
-#'        jitter.x = TRUE, type = c("p", "a"), as.table = TRUE,
+#'        jitter.x = TRUE, type = c("p", "a"),
+#'        as.table = TRUE, layout = c(NA, 2),
 #'        strip = strip.custom(strip.names = TRUE,
 #'                             var.name = "Progênie", sep = " "),
 #'        xlab = "Ano de colheita",

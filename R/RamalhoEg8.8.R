@@ -11,14 +11,14 @@
 #'
 #' \describe{
 #'
-#' \item{\code{ger}}{Fator de 3 níveis que representa o experimento para
-#'     cada geração segregante de feijoeiro.}
+#' \item{\code{ger}}{Fator categórico de 3 níveis que representa o
+#'     experimento para cada geração segregante de feijoeiro.}
 #'
-#' \item{\code{bloc}}{Fator usado para fazer controle local dentro de
-#'     cada experimento (geração).}
+#' \item{\code{bloc}}{Fator categórico usado para fazer controle local
+#'     dentro de cada experimento (geração).}
 #'
-#' \item{\code{pop}}{Fator de 6 níveis que representa as populações
-#'     segregates de feijoeiro.}
+#' \item{\code{pop}}{Fator categórico de 6 níveis que representa as
+#'     populações segregates de feijoeiro.}
 #'
 #' \item{\code{prod}}{Produção de grãos de feijão, em kg ha\eqn{^{-1}}.}
 #'
@@ -48,7 +48,7 @@
 #'
 #' xyplot(prod ~ pop | ger, data = RamalhoEg8.8,
 #'        groups = bloc, type = c("p", "a"),
-#'        as.table = TRUE,
+#'        as.table = TRUE, layout = c(NA, 1),
 #'        xlab = "População",
 #'        ylab = expression("Produção"~(kg~ha^{-1})))
 #'

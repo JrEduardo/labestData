@@ -8,16 +8,16 @@
 
 \describe{
 
-\item{\code{clone}}{Fator de 10 níveis que indica os clones de caju.}
+\item{\code{clone}}{Fator categórico de 10 níveis que indica os
+    clones de caju.}
 
-\item{\code{colh}}{Fator de 5 níveis que representa os clones de caju 
-    em cada colheita.}
+\item{\code{colh}}{Fator categórico de 5 níveis que representa as
+    colheitas em ordem.}
 
-\item{\code{bloc}}{Fator de 4 níveis do experimento, usado para
-    controle local.}
+\item{\code{bloc}}{Fator categórico de 4 níveis, usado para controle
+    local.}
 
-\item{\code{prod}}{Produção de clones de caju, medido em g/planta nas
-    unidades experimentais.}
+\item{\code{prod}}{Produção de clones de caju, medido em g/planta.}
 
 }}
 \source{
@@ -26,21 +26,33 @@ Ramalho, M. A. P., Ferreira, D. F., Oliveira, A. C. (2005).
     Lavras: UFLA. (Exercício 8.2, pág. 133)
 }
 \description{
-Experimento da produção de amêndoas obtidos da avaliação
-    de clones de caju, em 5 colheitas. Delineamento em blocos
-    casualizados.
+Experimento em delineamento de blocos casualizados para
+    estudar a produção de amêndoas obtidos da avaliação de clones de
+    caju, em 5 colheitas.
 }
 \examples{
 
+library(latticeExtra)
+
 data(RamalhoEx8.2)
 
-library(lattice)
+str(RamalhoEx8.2)
 
-xyplot(prod ~ clone | bloc, data = RamalhoEx8.2,
+xtabs(~clone + colh, data = RamalhoEx8.2)
+
+xyplot(prod ~ colh | clone,
+       groups = bloc, type = "o", lty = 3,
+       data = RamalhoEx8.2,
        jitter.x = TRUE,
-       xlab = "Clone",
-       ylab = "Produção")
+       as.table = TRUE, layout = c(NA, 2),
+       strip = strip.custom(strip.names = TRUE,
+                            var.name = "Clone", sep = " "),
+       xlab = "Colheita",
+       ylab = expression("Produção"~(g~parcela^{-1}))) +
+    layer(panel.xyplot(x = x, groups = NULL,
+                       type = "a", lwd = 2, lty = 1, ...))
 
 }
 \keyword{DBC}
+\keyword{GE}
 
