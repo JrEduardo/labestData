@@ -9,9 +9,9 @@
 
 \item{\code{amostra}}{Número da amostra.}
 
-\item{\code{tamamostra}}{Tamanho da amostra.}
+\item{\code{tamamostra}}{Tamanho da amostra de panelas avaliadas.}
 
-\item{\code{naoconf}}{Número de panelas não conformes.}
+\item{\code{naoconf}}{Número de não conformidades em panelas.}
     
 }}
 \source{
@@ -21,7 +21,7 @@ Ramos, E. M. L. S., et al.(2013).
 }
 \description{
 Conjunto de dados de um processo de fabricação  
-    de panelas em 30 amostras com tamanhos diferentes.
+    de panelas, com 30 amostras com tamanhos diferentes.
 }
 \examples{
 
@@ -29,7 +29,10 @@ data(RamosAnC6)
 
 library(qcc)
 
-qcc(RamosAnC6$naoconf, sizes = RamosAnC6$tamamostra, type = "u")
+qcc(RamosAnC6$naoconf, sizes = RamosAnC6$tamamostra, type = "u", 
+   ylim = c(0,2.5), xlab = "Amostra", ylab = "Número de não 
+   conformidades em panelas", title = "")
+  
 
 }
 \keyword{CEQ}

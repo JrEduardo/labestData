@@ -9,9 +9,9 @@
 #'
 #' \item{\code{amostra}}{Número da amostra.}
 #'
-#' \item{\code{tamamostra}}{Tamanho da amostra.}
+#' \item{\code{tamamostra}}{Tamanho da amostra de panelas avaliadas.}
 #'
-#' \item{\code{naoconf}}{Número de panelas não conformes.}
+#' \item{\code{naoconf}}{Número de não conformidades em panelas.}
 #'     
 #' }
 #' @keywords CEQ
@@ -25,6 +25,9 @@
 #'
 #' library(qcc)
 #'
-#' qcc(RamosAnC6$naoconf, sizes = RamosAnC6$tamamostra, type = "u")
+#' qcc(RamosAnC6$naoconf, sizes = RamosAnC6$tamamostra, type = "u", 
+#'    ylim = c(0,2.5), xlab = "Amostra", ylab = "Número de não 
+#'    conformidades em panelas", title = "")
+#'   
 #'
 NULL
