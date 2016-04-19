@@ -7,14 +7,16 @@
 
 \describe{
 
-\item{\code{pop}}{Fator de 29 níveis que indica os tratamentos
-    aplicados. 4 não regulares (I a IV) e 25 regulares (1 a 25).}
+\item{\code{pop}}{Fator de 29 níveis que indica as populações de
+    milho estudadas. Destas, 4 são não regulares (I a IV) pois
+    ocorrem em todos os blocos e as 25 restantes ocorrem apenas em um
+    bloco.}
 
-\item{\code{bloc}}{Fator de 5 níveis do experimento, usado para
-    fazer controle local.}
+\item{\code{bloc}}{Fator de 5 níveis usado para fazer controle
+    local.}
 
-\item{\code{prod}}{Produção de grãos de milho, medidos em kg/parcela
-    nas unidades experimentais.}
+\item{\code{prod}}{Produção de grãos de milho, medidos em
+    kg/parcela.}
 
 }}
 \source{
@@ -32,6 +34,8 @@ Experimento envolvendo populações de milho no
 library(lattice)
 
 data(RamalhoEg11.13)
+
+str(RamalhoEg11.13)
 
 xyplot(prod ~ pop, groups = bloc, data = RamalhoEg11.13,
        xlab = "População de Milho",

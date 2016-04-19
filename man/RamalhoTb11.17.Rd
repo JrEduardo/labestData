@@ -30,16 +30,22 @@ Ramalho, M. A. P., Ferreira, D. F., Oliveira, A. C. (2005).
 Dados provenientes de 3 experimentos envolvendo a
     produção de grãos de 15 linhagens de feijão, conduzidos sob
     delineamento em blocos casualizados incompletos, pois somente as
-    testemunhas são comuns a todos os experimentos.
+    testemunhas são comuns a todos os blocos.
 }
 \examples{
 
 library(lattice)
 
-xyplot(prod ~ linh, groups = exp, data = RamalhoTb11.17,
-       type = c("p", "a"),
-       xlab = "Linhagem de feijão",
-       ylab = "Produção em kg/parcela")
+data(RamalhoTb11.17)
+
+str(RamalhoTb11.17)
+
+ftable(xtabs(~exp + bloc + linh, data = RamalhoTb11.17))
+
+dotplot(prod ~ linh | exp, groups = bloc, data = RamalhoTb11.17,
+        type = "p", as.table = TRUE, layout = c(NA, 1),
+        xlab = "Linhagem de feijão",
+        ylab = expression("Produção"~(kg~parcela^{-1})))
 
 }
 \keyword{DBI}
