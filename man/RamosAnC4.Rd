@@ -21,7 +21,7 @@ Ramos, E. M. L. S., et al.(2013).
 }
 \description{
 Conjunto de dados de um processo produtivo  
-    de canetas em 34 amostras com tamanhos diferentes.
+    de canetas, com 34 amostras de tamanhos diferentes.
 }
 \examples{
 
@@ -29,7 +29,8 @@ data(RamosAnC4)
 
 library(qcc)
 
-qcc(RamosAnC4$naoconf, sizes = RamosAnC4$tamamostra, type = "p")
+qcc(RamosAnC4$naoconf, sizes = RamosAnC4$tamamostra, type = "p",
+   xlab = "Amostra", ylab = "Número de canetas não conformes", title = "")
 
 }
 \keyword{CEQ}

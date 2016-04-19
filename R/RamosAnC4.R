@@ -25,6 +25,7 @@
 #'
 #' library(qcc)
 #'
-#' qcc(RamosAnC4$naoconf, sizes = RamosAnC4$tamamostra, type = "p")
+#' qcc(RamosAnC4$naoconf, sizes = RamosAnC4$tamamostra, type = "p",
+#'    xlab = "Amostra", ylab = "Número de canetas não conformes", title = "")
 #'
 NULL
