@@ -112,7 +112,22 @@ Estatística Multivariada.
    Estatístico de Qualidade** (2nd ed.). São Paulo - SP: Editora
    Atlas.  
    [_Milestone_ Epprecht](https://gitlab.c3sl.ufpr.br/pet-estatistica/labestData/milestones/14)
-   <!-- [*Paula Alessandra*](https://gitlab.c3sl.ufpr.br/pazd11) e -->
+   <!-- [*Paula Alessandra*](https://gitlab.c3sl.ufpr.br/pazd11) -->
+
+15. Barbin, D. (2013). **Planejamento e Análise Estatística de
+   Experimentos Agronômicos** (2nd ed.). Londrina, PR: Mecenas.  
+   [_Milestone_ Barbin](https://gitlab.c3sl.ufpr.br/pet-estatistica/labestData/milestones/15)
+   <!-- [*Walmes Zeviani*](https://gitlab.c3sl.ufpr.br/walmes) -->
+
+16. Paula, G. A. (2004). **Modelos de regressão: com apoio
+   computacional**. São Paulo, SP: IME-USP.  
+   [_Milestone_ Paula](https://gitlab.c3sl.ufpr.br/pet-estatistica/labestData/milestones/16)
+   <!-- [*Eduardo Junior*](https://gitlab.c3sl.ufpr.br/eerj12) -->
+
+17. Vieira, S.(1999). **Estatística experimental** (2th ed.). São Paulo, SP: Atlas.  
+   [_Milestone_ Vieira](https://gitlab.c3sl.ufpr.br/pet-estatistica/labestData/milestones/17)
+   <!-- [*Ângela Legey*](https://gitlab.c3sl.ufpr.br/alcl12) e -->
+   <!-- [*Alcides Neto*](https://gitlab.c3sl.ufpr.br/acn13) -->
 
 Ao término desta primeira fase pretende-se ter todos os conjuntos de
 dados relevantes destas obras disponíveis para usuários do pacote. Ainda
