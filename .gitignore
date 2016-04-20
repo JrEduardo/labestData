@@ -16,5 +16,5 @@ STYLEGUIDE.html
 roteiro.R
 inst/doc
 plano.Rmd
-
-
+vignettes/*.html
+!vignettes/Mathjax.html
