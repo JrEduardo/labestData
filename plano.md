@@ -22,17 +22,17 @@ incorporar a realização das atividades propostas no ramo `devel` do
 projeto. Para facilitar a visualização o *emoji* :white\_check\_mark:,
 representa que o trabalho foi REALIZADO e :x: o NÃO REALIZADO.
 
-<table style="width:335%;">
+<table style="width:344%;">
 <colgroup>
 <col width="33%" />
 <col width="15%" />
-<col width="40%" />
-<col width="40%" />
-<col width="40%" />
-<col width="40%" />
-<col width="40%" />
-<col width="40%" />
-<col width="11%" />
+<col width="37%" />
+<col width="37%" />
+<col width="37%" />
+<col width="37%" />
+<col width="37%" />
+<col width="37%" />
+<col width="37%" />
 <col width="11%" />
 <col width="11%" />
 <col width="11%" />
@@ -57,13 +57,13 @@ representa que o trabalho foi REALIZADO e :x: o NÃO REALIZADO.
 <tr class="odd">
 <td align="left">Alcides C. Neto</td>
 <td align="left">Eduardo</td>
-<td align="center">:white_check_mark: / MR!12</td>
-<td align="center">:white_check_mark: / MR!13</td>
-<td align="center">:white_check_mark: / MR!25</td>
+<td align="center">:white_check_mark: / !12</td>
+<td align="center">:white_check_mark: / !13</td>
+<td align="center">:white_check_mark: / !25</td>
 <td align="center">:x: / -</td>
-<td align="center">:white_check_mark: / MR!39</td>
-<td align="center">:white_check_mark: / MR!49</td>
-<td align="center">. / .</td>
+<td align="center">:white_check_mark: / !39</td>
+<td align="center">:white_check_mark: / !49</td>
+<td align="center">-</td>
 <td align="center">. / .</td>
 <td align="center">. / .</td>
 <td align="center">. / .</td>
@@ -71,13 +71,13 @@ representa que o trabalho foi REALIZADO e :x: o NÃO REALIZADO.
 <tr class="even">
 <td align="left">Altamiro A. Basiewics</td>
 <td align="left">Walmes</td>
-<td align="center">:white_check_mark: / MR!8</td>
+<td align="center">:white_check_mark: / !8</td>
 <td align="center">:x: / -</td>
 <td align="center">:x: / -</td>
 <td align="center">:x: / -</td>
 <td align="center">:x: / -</td>
 <td align="center">:x: / -</td>
-<td align="center">. / .</td>
+<td align="center">:x: / -</td>
 <td align="center">. / .</td>
 <td align="center">. / .</td>
 <td align="center">. / .</td>
@@ -85,13 +85,13 @@ representa que o trabalho foi REALIZADO e :x: o NÃO REALIZADO.
 <tr class="odd">
 <td align="left">Ângela L. C. Legey</td>
 <td align="left">Cesar</td>
-<td align="center">:white_check_mark: / MR!2</td>
-<td align="center">:white_check_mark: / MR!15</td>
-<td align="center">:white_check_mark: / MR!23</td>
-<td align="center">:white_check_mark: / MR!30</td>
-<td align="center">:white_check_mark: / MR!37</td>
-<td align="center">:white_check_mark: / MR!44</td>
-<td align="center">. / .</td>
+<td align="center">:white_check_mark: / !2</td>
+<td align="center">:white_check_mark: / !15</td>
+<td align="center">:white_check_mark: / !23</td>
+<td align="center">:white_check_mark: / !30</td>
+<td align="center">:white_check_mark: / !37</td>
+<td align="center">:white_check_mark: / !44</td>
+<td align="center">:white_check_mark: / !52</td>
 <td align="center">. / .</td>
 <td align="center">. / .</td>
 <td align="center">. / .</td>
@@ -99,13 +99,13 @@ representa que o trabalho foi REALIZADO e :x: o NÃO REALIZADO.
 <tr class="even">
 <td align="left">Bruna D. Wundervald</td>
 <td align="left">Walmes</td>
-<td align="center">:white_check_mark: / MR!10</td>
-<td align="center">:white_check_mark: / MR!11</td>
-<td align="center">:white_check_mark: / MR!17</td>
-<td align="center">:white_check_mark: / MR!32</td>
+<td align="center">:white_check_mark: / !10</td>
+<td align="center">:white_check_mark: / !11</td>
+<td align="center">:white_check_mark: / !17</td>
+<td align="center">:white_check_mark: / !32</td>
 <td align="center">:x: / -</td>
 <td align="center">:x: / -</td>
-<td align="center">. / .</td>
+<td align="center">:white_check_mark: / !51</td>
 <td align="center">. / .</td>
 <td align="center">. / .</td>
 <td align="center">. / .</td>
@@ -113,13 +113,13 @@ representa que o trabalho foi REALIZADO e :x: o NÃO REALIZADO.
 <tr class="odd">
 <td align="left">Bruno Geronymo</td>
 <td align="left">Walmes</td>
-<td align="center">:white_check_mark: / MR!3</td>
-<td align="center">:white_check_mark: / MR!22</td>
+<td align="center">:white_check_mark: / !3</td>
+<td align="center">:white_check_mark: / !22</td>
 <td align="center">:x: / -</td>
 <td align="center">:x: / -</td>
 <td align="center">:x: / -</td>
 <td align="center">:x: / -</td>
-<td align="center">. / .</td>
+<td align="center">:x: / -</td>
 <td align="center">. / .</td>
 <td align="center">. / .</td>
 <td align="center">. / .</td>
@@ -127,13 +127,13 @@ representa que o trabalho foi REALIZADO e :x: o NÃO REALIZADO.
 <tr class="even">
 <td align="left">Daniel Ikenaga</td>
 <td align="left">Eduardo</td>
-<td align="center">:white_check_mark: / MR!9</td>
-<td align="center">:white_check_mark: / MR!27</td>
+<td align="center">:white_check_mark: / !9</td>
+<td align="center">:white_check_mark: / !27</td>
 <td align="center">:x: / -</td>
-<td align="center">:white_check_mark: / MR!31</td>
-<td align="center">:white_check_mark: / MR!38</td>
-<td align="center">:white_check_mark: / MR!46</td>
-<td align="center">. / .</td>
+<td align="center">:white_check_mark: / !31</td>
+<td align="center">:white_check_mark: / !38</td>
+<td align="center">:white_check_mark: / !46</td>
+<td align="center">:x: / -</td>
 <td align="center">. / .</td>
 <td align="center">. / .</td>
 <td align="center">. / .</td>
@@ -141,13 +141,13 @@ representa que o trabalho foi REALIZADO e :x: o NÃO REALIZADO.
 <tr class="odd">
 <td align="left">Eduardo E. R. Junior</td>
 <td align="left">Cesar</td>
-<td align="center">:white_check_mark: / MR!7</td>
-<td align="center">:white_check_mark: / MR!14</td>
-<td align="center">:white_check_mark: / MR!21</td>
-<td align="center">:white_check_mark: / MR!35</td>
-<td align="center">:white_check_mark: / MR!41</td>
+<td align="center">:white_check_mark: / !7</td>
+<td align="center">:white_check_mark: / !14</td>
+<td align="center">:white_check_mark: / !21</td>
+<td align="center">:white_check_mark: / !35</td>
+<td align="center">:white_check_mark: / !41</td>
 <td align="center">:x: / -</td>
-<td align="center">. / .</td>
+<td align="center">:white_check_mark: / !53</td>
 <td align="center">. / .</td>
 <td align="center">. / .</td>
 <td align="center">. / .</td>
@@ -155,13 +155,13 @@ representa que o trabalho foi REALIZADO e :x: o NÃO REALIZADO.
 <tr class="even">
 <td align="left">Gabriel S. Klostermann</td>
 <td align="left">Cesar</td>
-<td align="center">:white_check_mark: / MR!5</td>
-<td align="center">:white_check_mark: / MR!19</td>
-<td align="center">:x: / MR!36</td>
-<td align="center">:x: / MR!48</td>
+<td align="center">:white_check_mark: / !5</td>
+<td align="center">:white_check_mark: / !19</td>
+<td align="center">:x: / !36</td>
+<td align="center">:x: / !48</td>
 <td align="center">:x: / -</td>
-<td align="center">:x: / -</td>
-<td align="center">. / .</td>
+<td align="center">:x: / !57</td>
+<td align="center">:white_check_mark: / !58</td>
 <td align="center">. / .</td>
 <td align="center">. / .</td>
 <td align="center">. / .</td>
@@ -169,13 +169,13 @@ representa que o trabalho foi REALIZADO e :x: o NÃO REALIZADO.
 <tr class="odd">
 <td align="left">Jhenifer C. Veloso</td>
 <td align="left">Walmes</td>
-<td align="center">:white_check_mark: / MR!4</td>
-<td align="center">:white_check_mark: / MR!16</td>
-<td align="center">:white_check_mark: / MR!26</td>
-<td align="center">:white_check_mark: / MR!29</td>
-<td align="center">:white_check_mark: / MR!40</td>
-<td align="center">:white_check_mark: / MR!47</td>
-<td align="center">. / .</td>
+<td align="center">:white_check_mark: / !4</td>
+<td align="center">:white_check_mark: / !16</td>
+<td align="center">:white_check_mark: / !26</td>
+<td align="center">:white_check_mark: / !29</td>
+<td align="center">:white_check_mark: / !40</td>
+<td align="center">:white_check_mark: / !47</td>
+<td align="center">:white_check_mark: / !54</td>
 <td align="center">. / .</td>
 <td align="center">. / .</td>
 <td align="center">. / .</td>
@@ -189,7 +189,7 @@ representa que o trabalho foi REALIZADO e :x: o NÃO REALIZADO.
 <td align="center">:x: / -</td>
 <td align="center">:x: / -</td>
 <td align="center">:x: / -</td>
-<td align="center">. / .</td>
+<td align="center">:x: / -</td>
 <td align="center">. / .</td>
 <td align="center">. / .</td>
 <td align="center">. / .</td>
@@ -197,13 +197,13 @@ representa que o trabalho foi REALIZADO e :x: o NÃO REALIZADO.
 <tr class="odd">
 <td align="left">Paula A. Z. Dimas</td>
 <td align="left">Cesar</td>
-<td align="center">:white_check_mark: / MR!6</td>
-<td align="center">:white_check_mark: / MR!20</td>
-<td align="center">:white_check_mark: / MR!24</td>
-<td align="center">:white_check_mark: / MR!33</td>
+<td align="center">:white_check_mark: / !6</td>
+<td align="center">:white_check_mark: / !20</td>
+<td align="center">:white_check_mark: / !24</td>
+<td align="center">:white_check_mark: / !33</td>
 <td align="center">:x: / -</td>
-<td align="center">:x: / MR!45</td>
-<td align="center">. / .</td>
+<td align="center">:x: / !45</td>
+<td align="center">:x: / -</td>
 <td align="center">. / .</td>
 <td align="center">. / .</td>
 <td align="center">. / .</td>
@@ -211,13 +211,13 @@ representa que o trabalho foi REALIZADO e :x: o NÃO REALIZADO.
 <tr class="even">
 <td align="left">Walmes M. Zeviani</td>
 <td align="left">Eduardo</td>
-<td align="center">:white_check_mark: / MR!1</td>
-<td align="center">:white_check_mark: / MR!18</td>
-<td align="center">:white_check_mark: / MR!28</td>
-<td align="center">:white_check_mark: / MR!34</td>
-<td align="center">:white_check_mark: / MR!41</td>
-<td align="center">:white_check_mark: / MR!50</td>
-<td align="center">. / .</td>
+<td align="center">:white_check_mark: / !1</td>
+<td align="center">:white_check_mark: / !18</td>
+<td align="center">:white_check_mark: / !28</td>
+<td align="center">:white_check_mark: / !34</td>
+<td align="center">:white_check_mark: / !41</td>
+<td align="center">:white_check_mark: / !50</td>
+<td align="center">:white_check_mark: / !55</td>
 <td align="center">. / .</td>
 <td align="center">. / .</td>
 <td align="center">. / .</td>
@@ -231,7 +231,7 @@ representa que o trabalho foi REALIZADO e :x: o NÃO REALIZADO.
 <td align="center">-</td>
 <td align="center">-</td>
 <td align="center">-</td>
-<td align="center">. / .</td>
+<td align="center">-</td>
 <td align="center">. / .</td>
 <td align="center">. / .</td>
 <td align="center">. / .</td>
@@ -270,11 +270,42 @@ indicado:
 <!--     + **Walmes M. Zeviani** -->
 <!--     + **Cesar A. Taconeli** -->
 <!-- * **Semana 9 - (26/04 - 03/05)** -->
-<!-- * **Semana 8 - (19/04 - 26/04)** -->
+-   **Semana 8 - (19/04 - 26/04)**
+    -   **Alcides C. Neto**: Concluir a *issue* \#104 (2 tabelas).
+    -   **Altamiro A. Basiewics**: **Concluir as atividades das SEIS
+        semanas anteriores**; e concluir a *issue* \#92 (3 tabelas).
+    -   **Ângela L. C. Legey**: Criar as *issues* correspondentes à
+        inclusão de tabelas da nova obra " Estatística experimental -
+        Vieira, S."; e concluir a *issue* \#103 (2 tabelas).
+    -   **Bruna D. Wundervald**: Concluir a obra Estatística aplicada à
+        pesquisa agrícola - Zimmermann, F. J. (número de tabelas
+        faltantes não informado).
+    -   **Bruno Geronymo**: **Concluir as atividades das CINCO semanas
+        anteriores**.
+    -   **Daniel Ikenaga**: **Concluir as atividades da semana
+        anterior**; e concluir a *issue* \#83 (10 tabelas).
+    -   **Eduardo E. R. Junior**: Atualizar o `plano.md`; Atualizar
+        `README.md` com as novas obras; Realizar as eventuais correções
+        de MR e incorporá-los ao ramo `devel`; e concluir a *issue*
+        \#101 (13 tabelas).
+    -   **Gabriel S. Klostermann**: **Concluir as atividades da semana
+        anterior**; e concluir a *issue* \#56 (2 tabelas).
+    -   **Jhenifer C. Veloso**: Concluir a *issue* \#87 (2 tabelas).
+    -   **Mônica L. H. De Oliveira**: **Mônica L. H. De Oliveira**:
+        **Concluir as atividades das SETE semanas anteriores**; e
+        concluir a primeira *issue* a ser criada da nova obra.
+    -   **Paula A. Z. Dimas**: **Finalizar as atividades da semana
+        anterior**; e concluir a *issue* \#78 (número de tabelas
+        não informado).
+    -   **Walmes M. Zeviani**: Realizar as eventuais correções de MR e
+        incorporá-los ao ramo `devel`;e Concluir a *issue* \#96 (número
+        de tabelas não informado).
+    -   **Cesar A. Taconeli**: Realizar as eventuais correções de MR e
+        incorporá-los ao ramo `devel`.
 -   **Semana 7 - (12/04 - 19/04)**
-    -   **Alcides C. Neto**: Listar as tabelas e incluir, no GitLab as
-        *issues* do livro Planejamento e Analise Estatistica de
-        Experimentos Agronomicos - Decio Barbin, junto ao Walmes.
+    -   **Alcides C. Neto**: <s>Listar as tabelas e incluir, no GitLab
+        as *issues* do livro Planejamento e Analise Estatistica de
+        Experimentos Agronomicos - Decio Barbin, junto ao Walmes.</s>
     -   **Altamiro A. Basiewics**: **Concluir as atividades das CINCO
         semanas anteriores**; e concluir a *issue* \#91 (3 tabelas)
     -   **Ângela L. C. Legey**: Concluir a *issue* \#73 (4 tabelas)
@@ -307,7 +338,8 @@ indicado:
 
 Nesta semana alguns colaboradores relataram a dificuldade e instalar o
 pacote `devtools`. Ressaltou-se que este pacote necessita de algumas
-dependências do sistema operacional, ver \[página do RStudio\] com as
+dependências do sistema operacional, ver [página do
+RStudio](https://www.rstudio.com/products/rpackages/devtools/) com as
 principais informações. Ainda Jhenifer informou que há três computadores
 do PET devidamente equipados com os recursos para desenvolvimento do
 projeto, portanto os colaboradores que necessitarem podem utizá-los.
@@ -390,9 +422,12 @@ atividades do projeto. Porém, em reunião, comentou-se que o RStudio Web
 deve ser considerado como uma ferramenta auxiliar e que os integrantes
 devem ter, em seus computadores de trabalho, os recursos para
 desenvolvimento das atividades previstas. Para GIT recomendamos a
-leitura do segundo capítulo da \[Apostila Git do PET\] que fala sobre a
-instalação. Sobre o `devtools`, pacote R para desenvolvedores, há a
-\[página do RStudio\] com as principais informações.
+leitura do segundo capítulo da [Apostila Git do
+PET](https://gitlab.c3sl.ufpr.br/pet-estatistica/apostila-git/blob/devel/apostila_git.pdf)
+que fala sobre a instalação. Sobre o `devtools`, pacote R para
+desenvolvedores, há a [página do
+RStudio](https://www.rstudio.com/products/rpackages/devtools/) com as
+principais informações.
 
 -   **Semana 4 - (22/03 - 29/03)**
     -   **Alcides C. Neto**: Concluir o *issue* \#52 (5 tabelas).
@@ -505,7 +540,7 @@ instalação. Sobre o `devtools`, pacote R para desenvolvedores, há a
 Lista de datasets
 -----------------
 
-Até o momento, no ramo `devel` temos 123 conjuntos de dados já
+Até o momento, no ramo `devel` temos 168 conjuntos de dados já
 devidamente incluídos, documentados e revisados. Abaixo a contagem de
 *datasets* por obra.
 
@@ -527,15 +562,15 @@ devidamente incluídos, documentados e revisados. Abaixo a contagem de
 <tbody>
 <tr class="odd">
 <td align="left">Banzatto</td>
-<td align="center">19</td>
-<td align="center">2648</td>
-<td align="left">48.273 Kb</td>
+<td align="center">23</td>
+<td align="center">3660</td>
+<td align="left">63.859 Kb</td>
 </tr>
 <tr class="even">
 <td align="left">Charnet</td>
-<td align="center">10</td>
-<td align="center">1575</td>
-<td align="left">16.602 Kb</td>
+<td align="center">19</td>
+<td align="center">2381</td>
+<td align="left">32.758 Kb</td>
 </tr>
 <tr class="odd">
 <td align="left">Costa</td>
@@ -545,9 +580,9 @@ devidamente incluídos, documentados e revisados. Abaixo a contagem de
 </tr>
 <tr class="even">
 <td align="left">Demetrio</td>
-<td align="center">18</td>
-<td align="center">801</td>
-<td align="left">22.172 Kb</td>
+<td align="center">31</td>
+<td align="center">1612</td>
+<td align="left">41.68 Kb</td>
 </tr>
 <tr class="odd">
 <td align="left">Dias</td>
@@ -575,9 +610,9 @@ devidamente incluídos, documentados e revisados. Abaixo a contagem de
 </tr>
 <tr class="odd">
 <td align="left">Manly</td>
-<td align="center">3</td>
-<td align="center">673</td>
-<td align="left">11.773 Kb</td>
+<td align="center">5</td>
+<td align="center">1098</td>
+<td align="left">18.641 Kb</td>
 </tr>
 <tr class="even">
 <td align="left">Mingoti</td>
@@ -593,15 +628,15 @@ devidamente incluídos, documentados e revisados. Abaixo a contagem de
 </tr>
 <tr class="even">
 <td align="left">Ramalho</td>
-<td align="center">13</td>
-<td align="center">5274</td>
-<td align="left">47.039 Kb</td>
+<td align="center">23</td>
+<td align="center">8585</td>
+<td align="left">93.977 Kb</td>
 </tr>
 <tr class="odd">
 <td align="left">Ramos</td>
-<td align="center">3</td>
-<td align="center">114</td>
-<td align="left">3.141 Kb</td>
+<td align="center">10</td>
+<td align="center">1542</td>
+<td align="left">16.07 Kb</td>
 </tr>
 <tr class="even">
 <td align="left">Zimmermann</td>
@@ -613,7 +648,3 @@ devidamente incluídos, documentados e revisados. Abaixo a contagem de
 </table>
 
 [Retornar à tabela de conteúdo](#painel-de-atividades-do-labestdata)
-\[Apostila Git do PET\]:
-<https://gitlab.c3sl.ufpr.br/pet-estatistica/apostila-git/blob/devel/apostila_git.pdf>
-\[página do RStudio\]:
-<https://www.rstudio.com/products/rpackages/devtools/>
