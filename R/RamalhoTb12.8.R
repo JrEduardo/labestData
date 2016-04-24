@@ -1,18 +1,18 @@
 #' @name RamalhoTb12.8
-#' @title Avaliação de Linhagens de Feijão
+#' @title Componentes da Produção de Linhagens de Feijão
 #' @description Dados obtidos por Perreira Filho et al. (1987),
-#'     referentes ao número médio de vagens por planta, número Número de
+#'     referentes ao número médio de vagens por planta, número de
 #'     sementes por vagem, peso de 100 sementes e produção de grãos,
 #'     obtidos em um experimento de avaliação de linhagens de feijão,
-#'     conduzidos em Patos de Minas, MG. Neste experimento, a produção 
-#'     de grãos de feijão é a variável dependente e as demais são as
-#'     variáveis independentes.
+#'     conduzidos em Patos de Minas, MG. Neste experimento, para um
+#'     ajuste de regressão múltipla, a produção de grãos de feijão é a
+#'     variável dependente e as demais são as variáveis independentes.
 #' @format Um \code{data.frame} com 20 observações e 5 variáveis, em que
 #'
 #' \describe{
 #'
-#' \item{\code{linh}}{Fator que indica as linhagens de feijão avaliadas no
-#'     experimento.}
+#' \item{\code{linh}}{Fator que indica as linhagens de feijão avaliadas
+#'     no experimento.}
 #'
 #' \item{\code{v}}{Número médio de vagens por planta.}
 #'
@@ -37,6 +37,12 @@
 #'
 #' data(RamalhoTb12.8)
 #'
-#' plot(RamalhoTb12.8)
+#' plot(RamalhoTb12.8[, -1])
+#'
+#' library(lattice)
+#'
+#' splom(RamalhoTb12.8[, -1])
+#'
+#' splom(RamalhoTb12.8[, -1], type = c("p", "r"))
 #'
 NULL

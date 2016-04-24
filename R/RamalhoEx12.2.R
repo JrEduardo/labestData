@@ -1,8 +1,8 @@
 #' @name RamalhoEx12.2
 #' @title Dados Genéricos para Regressão Múltipla
 #' @description Conjunto de dados apresentados para exercício. Objetivo
-#' do exercício é estimar a equação de regressão múltipla.
-#' @format Um \code{data.frame} com ?? observações e 5 variáveis, em que
+#'     do exercício é estimar a equação de regressão múltipla.
+#' @format Um \code{data.frame} com 8 observações e 4 variáveis, em que
 #'
 #' \describe{
 #'
@@ -23,6 +23,12 @@
 #'
 #' data(RamalhoEx12.2)
 #'
-#' plot(RamalhoEx12.2)
+#' str(RamalhoEx12.2)
+#'
+#' pairs(RamalhoEx12.2[, -1])
+#'
+#' library(lattice)
+#'
+#' splom(RamalhoEx12.2[, -1], type = c("p", "r"))
 #'
 NULL
