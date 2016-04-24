@@ -8,9 +8,9 @@
 #'
 #' \describe{
 #'
-#' \item{\code{x}}{Altura da planta, medido em cm.}
+#' \item{\code{x}}{Altura da planta, medida em cm.}
 #'
-#' \item{\code{y}}{Produção de grãos, medido em g/planta.}
+#' \item{\code{y}}{Produção de grãos, medida em g/planta.}
 #'
 #' }
 #' @keywords COV
@@ -19,13 +19,15 @@
 #'     Lavras: UFLA. (Tabela 13.1, pág. 233)
 #' @examples
 #'
-#' plot(y ~ x, data = RamalhoTb13.1,
-#'      xlab = "Altura (cm)",
-#'      ylab = "Produção (g/planta)")
+#' data(RamalhoTb13.1)
 #'
-#' plot(ecdf(RamalhoTb13.1$y),
-#'      xlab = "y",
-#'      ylab = "Fn(y)",
-#'      main = NULL)
+#' str(RamalhoTb13.1)
+#'
+#' library(lattice)
+#'
+#' xyplot(y ~ x, data = RamalhoTb13.1,
+#'        type = c("p", "r"),
+#'        xlab = "Altura (cm)",
+#'        ylab = "Produção (g/planta)")
 #'
 NULL

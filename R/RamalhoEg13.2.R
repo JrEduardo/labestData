@@ -1,19 +1,20 @@
 #' @name RamalhoEg13.2
-#' @title Produção de Grãos de Milho
+#' @title Produção de Grãos de Milho em Consórcio com Feijão.
 #' @description Dados referente ao experimento conduzido por Rezende et
-#' al. (1994), envolvendo 4 cultivares de milho consorciadas com 3 de
-#' feijão.
-#' @format Um \code{data.frame} com ?? observações e 5 variáveis, em que
+#'     al. (1994), envolvendo 4 cultivares de milho consorciadas com 3
+#'     de feijão.
+#' @format Um \code{data.frame} com 36 observações e 5 variáveis, em que
 #'
 #' \describe{
 #'
-#' \item{\code{milh}}{Fator de 4 níveis que indica as cultivares de
-#'     milho.}
+#' \item{\code{milh}}{Fator categórico de 4 níveis que indica as
+#'     cultivares de milho.}
 #'
-#' \item{\code{feij}}{Fator de 3 níveis, indica as cultivares de milho.}
+#' \item{\code{feij}}{Fator categórico de 3 níveis, indica as cultivares
+#' de milho.}
 #'
-#' \item{\code{bloc}}{Fator de 3 níveis, usado para fazer controle
-#'     local.}
+#' \item{\code{bloc}}{Fator categórico de 3 níveis, usado para fazer
+#'     controle local.}
 #'
 #' \item{\code{prod}}{Produção de grãos de milho, medido em kg/ha.}
 #'
@@ -33,6 +34,8 @@
 #'
 #' data(RamalhoEg13.2)
 #'
+#' str(RamalhoEg13.2)
+#'
 #' ftable(with(RamalhoEg13.2,
 #'             tapply(prod,
 #'                    list(milh = milh,
@@ -42,11 +45,9 @@
 #'
 #' library(lattice)
 #'
-#' xyplot(prod ~ plant | bloc, data = RamalhoEg13.2,
+#' xyplot(prod ~ milh, data = RamalhoEg13.2,
+#'        groups = feij, type=c("p", "a"),
 #'        xlab = "Plantas por Parcela",
 #'        ylab = "Produção em (kg/ha)")
-#'
-#' aggregate(prod ~ bloc,  data = RamalhoEg13.2,
-#'           FUN = function(x) { c(mean = mean(x), var = var(x)) })
 #'
 NULL
