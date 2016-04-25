@@ -1,0 +1,17 @@
+tratamento	valor
+a	25
+b	24
+c	25
+controle	20
+a	21
+b	31
+c	18
+controle	17
+a	29
+b	32
+c	19
+controle	23
+a	NA
+b	NA
+c	22
+controle	16
