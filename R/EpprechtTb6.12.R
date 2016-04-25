@@ -1,16 +1,13 @@
 #' @name EpprechtTb6.12
-#' @title Peso de um produto
+#' @title Peso de um Produto
 #' @description Trinta observações registradas referente ao peso de um 
-#'     determinado produto.
+#'     produto.
 #' 
 #' 
-#' @format Um \code{data.frame} com 30 observações e 2 variáveis, 
+#' @format Um \code{data.frame} com 30 observações e 1 variáveis, 
 #'     em que
 #' 
 #' \describe{
-#'
-#' \item{\code{cam}}{Identificação da camada de produto utilizada para 
-#'     a medição do peso.}
 #' 
 #' \item{\code{peso}}{Peso do produto.}
 #'     
@@ -27,8 +24,9 @@
 #' 
 #' library(qcc)
 #' 
-#' obj <- qcc.groups(EpprechtTb6.12$peso, EpprechtTb6.12$cam)
-#' qcc(obj, type="xbar.one", nsigmas=3)
+#' qcc(EpprechtTb6.12$peso, type="xbar.one", nsigmas=3,
+#'     xlab=" ", ylab="Peso", title=" ")
 #' 
 #'                   
 NULL
+
