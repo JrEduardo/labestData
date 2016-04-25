@@ -2,17 +2,13 @@
 % Please edit documentation in R/EpprechtTb6.9.R
 \name{EpprechtTb6.9}
 \alias{EpprechtTb6.9}
-\title{Volume de refrigerante em garrafas plásticas}
-\format{Um \code{data.frame} com 20 observações e 4 variáveis, 
+\title{Volume de Refrigerante em Garrafas Plásticas}
+\format{Um \code{data.frame} com 60 observações e 2 variáveis, 
     em que
 
 \describe{
 
 \item{\code{amostra}}{Identificação da amostra.}
-
-' \item{\code{ord}}{Fator que indica a ordem dos registros de uma amostra
-    (1 = primeiro volume registrado, 2 = segundo volume, 3 = terceiro
-    volume.}
  
 \item{\code{vol}}{Volumes registrados.}
 
@@ -23,9 +19,8 @@ Costa, A. F. B., Epprecht, E. K., Carpinetti, L. (2010).
      Editora Atlas. (pg 180).
 }
 \description{
-As 20 amostras são realizadas de uma em uma hora.
-    Em cada amostra são registrados 3 volumes de refrigerante 
-    (x1, x2 e x3).
+Os dados referem-se aos volumes de refrigerante em 
+    20 amostras, cada uma delas composta por 3 garrafas.
 }
 \examples{
 
@@ -34,7 +29,8 @@ data(EpprechtTb6.9)
 library(qcc)
 
 obj <- qcc.groups(EpprechtTb6.9$vol, EpprechtTb6.9$amostra)
-qcc(obj, type="xbar", nsigmas=3)
+qcc(obj, type="xbar", nsigmas=3,
+    xlab="Amostra", ylab="Volume", title=" ")
 
                   
 }
