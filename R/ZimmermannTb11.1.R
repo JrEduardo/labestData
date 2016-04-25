@@ -40,18 +40,18 @@
 #'
 NULL
 
-xtabs(~iden + bloco, data = ZimmermannTb11.1)
-
-# Para te ajudar a transformar em 3 colunas.
-a <- as.data.frame(
-    apply(
-        do.call(rbind,
-                with(ZimmermannTb11.1,
-                     strsplit(as.character(iden), ""))),
-        MARGIN = 2, as.integer))
-names(a) <- c("?", "??", "???")
-
-cbind(ZimmermannTb11.1, a)
-
-ZimmermannTb11.1$iden <- NULL
-ZimmermannTb11.1$rept <- as.integer(ZimmermannTb11.1$rept)
+# xtabs(~iden + bloco, data = ZimmermannTb11.1)
+#
+# # Para te ajudar a transformar em 3 colunas.
+# a <- as.data.frame(
+#     apply(
+#         do.call(rbind,
+#                 with(ZimmermannTb11.1,
+#                      strsplit(as.character(iden), ""))),
+#         MARGIN = 2, as.integer))
+# names(a) <- c("?", "??", "???")
+#
+# cbind(ZimmermannTb11.1, a)
+#
+# ZimmermannTb11.1$iden <- NULL
+# ZimmermannTb11.1$rept <- as.integer(ZimmermannTb11.1$rept)
