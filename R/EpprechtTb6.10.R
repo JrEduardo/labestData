@@ -1,15 +1,13 @@
 #' @name EpprechtTb6.10
-#' @title Concentração de um processo químico
+#' @title Concentração de um Processo Químico
 #' @description Dados referentes à concentração de um processo químico
 #'     registrados a cada 3 minutos.
 #' 
 #' 
-#' @format Um \code{data.frame} com 100 observações e 2 variáveis, 
+#' @format Um \code{data.frame} com 100 observações e 1 variável, 
 #'     em que
 #' 
 #' \describe{
-#'
-#' \item{\code{amostra}}{Identificação da amostra.}
 #' 
 #' \item{\code{conc}}{Concentração registrada na amostra.}
 #'  
@@ -26,8 +24,9 @@
 #' 
 #' library(qcc)
 #' 
-#' obj <- qcc.groups(EpprechtTb6.10$conc, EpprechtTb6.10$amostra)
-#' qcc(obj, type="xbar.one", nsigmas=3)
+#' qcc(EpprechtTb6.10$conc, type="xbar.one", nsigmas=3,
+#'     xlab=" ", ylab="Concentração", title=" ")
 #' 
 #'                   
 NULL
+

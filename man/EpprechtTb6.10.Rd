@@ -2,13 +2,11 @@
 % Please edit documentation in R/EpprechtTb6.10.R
 \name{EpprechtTb6.10}
 \alias{EpprechtTb6.10}
-\title{Concentração de um processo químico}
-\format{Um \code{data.frame} com 100 observações e 2 variáveis, 
+\title{Concentração de um Processo Químico}
+\format{Um \code{data.frame} com 100 observações e 1 variável, 
     em que
 
 \describe{
-
-\item{\code{amostra}}{Identificação da amostra.}
 
 \item{\code{conc}}{Concentração registrada na amostra.}
  
@@ -28,8 +26,8 @@ data(EpprechtTb6.10)
 
 library(qcc)
 
-obj <- qcc.groups(EpprechtTb6.10$conc, EpprechtTb6.10$amostra)
-qcc(obj, type="xbar.one", nsigmas=3)
+qcc(EpprechtTb6.10$conc, type="xbar.one", nsigmas=3,
+    xlab=" ", ylab="Concentração", title=" ")
 
                   
 }
