@@ -1,35 +1,35 @@
 #' @name EpprechtTb6.4
-#' @title Temperatura do banho químico
+#' @title Temperatura do Banho Químico
 #' @description A cada 30 minutos registram-se três temperaturas do 
 #'     banho, espaçadas de 3 minutos. Exemplo: na primeira amostra 
 #'     efetua-se uma medida às 8h00, outra às 8h03 e outra às 8h06. Na 
 #'     segunda amostra serão registradas as temperaturas nos horários 
 #'     8h30, 8h33 e 8h36, e assim por diante.
 #' 
-#' @format Um \code{data.frame} com 20 observações e 4 variáveis, 
+#' @format Um \code{data.frame} com 60 observações e 2 variáveis, 
 #'     em que
 #' 
 #' \describe{
 #'
 #' \item{\code{amostra}}{Identificação da amostra.}
-#' 
-#' \item{\code{ord}}{Fator que indica a ordem dos registros de uma amostra
-#'     (1 = primeira temperatura registrada, 2 = segunda temperatura, 
-#'     3 = terceira temperatura.}
 #'  
-#' \item{\code{temp}}{Temperatura registrada.}
+#' \item{\code{temp}}{Temperaturas registradas.}
 #'  
 #' }
 #'
 #' @keywords CEQ 
 #' @source Costa, A. F. B., Epprecht, E. K., Carpinetti, L. (2010).
-#'      Controle Estat?stico de Qualidade (2nd ed.). S?o Paulo - SP:
+#'      Controle Estatístico de Qualidade (2nd ed.). São Paulo - SP:
 #'      Editora Atlas. (pg 167).
 #' 
 #' @examples
 #'
 #' data(EpprechtTb6.4)
 #' 
-#' hist(EpprechtTb6.4$temp)
+#' library(qcc)
+#'
+#' obj <- qcc.groups(EpprechtTb6.4$temp, EpprechtTb6.4$amostra)
+#' qcc(obj, type="xbar", nsigmas=3, 
+#'    xlab="Amostra", ylab="Temperatura", title=" ")
 #'                   
 NULL

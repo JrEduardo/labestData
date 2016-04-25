@@ -2,24 +2,20 @@
 % Please edit documentation in R/EpprechtTb6.4.R
 \name{EpprechtTb6.4}
 \alias{EpprechtTb6.4}
-\title{Temperatura do banho químico}
-\format{Um \code{data.frame} com 20 observações e 4 variáveis, 
+\title{Temperatura do Banho Químico}
+\format{Um \code{data.frame} com 60 observações e 2 variáveis, 
     em que
 
 \describe{
 
 \item{\code{amostra}}{Identificação da amostra.}
-
-\item{\code{ord}}{Fator que indica a ordem dos registros de uma amostra
-    (1 = primeira temperatura registrada, 2 = segunda temperatura, 
-    3 = terceira temperatura.}
  
-\item{\code{temp}}{Temperatura registrada.}
+\item{\code{temp}}{Temperaturas registradas.}
  
 }}
 \source{
 Costa, A. F. B., Epprecht, E. K., Carpinetti, L. (2010).
-     Controle Estat?stico de Qualidade (2nd ed.). S?o Paulo - SP:
+     Controle Estatístico de Qualidade (2nd ed.). São Paulo - SP:
      Editora Atlas. (pg 167).
 }
 \description{
@@ -33,7 +29,11 @@ A cada 30 minutos registram-se três temperaturas do
 
 data(EpprechtTb6.4)
 
-hist(EpprechtTb6.4$temp)
+library(qcc)
+
+obj <- qcc.groups(EpprechtTb6.4$temp, EpprechtTb6.4$amostra)
+qcc(obj, type="xbar", nsigmas=3, 
+   xlab="Amostra", ylab="Temperatura", title=" ")
                   
 }
 \keyword{CEQ}
