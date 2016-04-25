@@ -2,7 +2,7 @@
 #' @title Doses de Fungicida para Brusone na Cultura do Arroz
 #' @description Dados de um experimento com dois fatores, em
 #'     delineamento de parcelas divididas em blocos ao acaso. O
-#'     experimento avaliou o efeito de 3 doses do inseticida Fongorene
+#'     experimento avaliou o efeito de 3 doses do fungicida Fongorene
 #'     (0, 400 e 800 gramas por 100 kg) em cultivares de arroz. Mediu-se
 #'     a percentagem de área foliar lesionada por brusone em cinco
 #'     datas, e depois estabeleceu-se a área sob a curva do progresso da
@@ -11,14 +11,13 @@
 #'
 #' \describe{
 #'
-#' \item{\code{cult}}{Fator de níveis nominais. Indica a cultivar do
-#'     arroz.}
+#' \item{\code{cult}}{Fator categórico que indica a cultivar do arroz.}
 #'
-#' \item{\code{bloco}}{Fator de níveis numéricos. Identifica o bloco ao
-#'     qual a observação pertence.}
+#' \item{\code{bloco}}{Fator categórico que identifica o bloco ao qual a
+#'     observação pertence.}
 #'
-#' \item{\code{dose}}{Fator de níveis numéricos. Identifica a dose usada
-#'     do fungicida.}
+#' \item{\code{dose}}{Fator métrico que representa a dose usada do
+#'     fungicida, em gramas por hectare.}
 #'
 #' \item{\code{ascpd}}{Logaritimo da área sob a curva de progresso da
 #'     doença.}
@@ -35,9 +34,6 @@
 #' data(ZimmermannTb10.6)
 #'
 #' str(ZimmermannTb10.6)
-#'
-#' aggregate(ascpd ~ dose + cult, data = ZimmermannTb10.6,
-#'           FUN = function(x) { c(mean = mean(x), var = var(x)) })
 #'
 #' xyplot(ascpd ~ dose, groups = cult, data = ZimmermannTb10.6,
 #'        type = c("p", "a"),

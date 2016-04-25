@@ -11,22 +11,22 @@
 #'
 #' \describe{
 #'
-#' \item{\code{epoca}}{Fator de níveis numéricos. Indica a época do
+#' \item{\code{epoca}}{Fator de níveis categóricos que indica a época do
 #'     plantio.}
 #'
-#' \item{\code{inset}}{Fator de níveis numéricos. Identifica a aplicação
-#'     (ou não) de Fipronil.}
+#' \item{\code{inset}}{Fator de níveis numéricos que representa a
+#'     aplicação (ou não) de Fipronil.}
 #'
-#' \item{\code{genot}}{Fator de níveis nominais. Identifica a
-#'     cultivar/genótipo da observação.}
+#' \item{\code{genot}}{Fator de níveis nominais que identifica o
+#'     genótipo de arroz.}
 #'
-#' \item{\code{bloco}}{Fator de níveis numéricos. Identifica o bloco ao
-#'     qual a observação pertence.}
+#' \item{\code{bloco}}{Fator de níveis nominais que identifica o bloco
+#'     ao qual a observação pertence.}
 #'
 #' \item{\code{peso}}{Peso de 100 espiguetas de arroz, em gramas.}
 #'
 #' }
-#' @keywords DBC
+#' @keywords PSS DBC
 #' @source Zimmermann, F. J. (2004). Estatística aplicada à pesquisa
 #'     agrícola (1st ed.). Santo Antônio de Goiás, GO: Embrapa Arroz e
 #'     Feijão. (Tabela 10.9, pág. 205)

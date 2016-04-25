@@ -3,7 +3,7 @@
 #' @description Dados de um experimento conduzido em faixas, no
 #'     delineamento de blocos ao acaso, com duas repetições e parcelas
 #'     divididas. Se testaram, nas faixas horizontais, as lâminas de
-#'     água aplicada em Irrigação por aspersão, nas faixas verticais as
+#'     água aplicada em irrigação por aspersão, nas faixas verticais as
 #'     formas de preparo de solo e nas subparcelas, doses de
 #'     nitrogênio. Os dados são de massa de 100 grãos de feijão, sem
 #'     unidade de medida.
@@ -11,17 +11,17 @@
 #'
 #' \describe{
 #'
-#' \item{\code{lam}{Fator de níveis numéricos. Identifica a lâmina de
-#'    água da observação.}
+#' \item{\code{lam}{Fator de níveis categóricos que identifica a lâmina
+#'    de água aplicada ou intensidade de irrigação.}
 #'
-#' \item{\code{nit}}{Fator de níveis numéricos. Identifica a dose de
-#'     nitrogênio.}
+#' \item{\code{nit}}{Fator de níveis categóricos que identifica a dose
+#'     de nitrogênio aplicada.}
 #'
-#' \item{\code{solo}}{Fator de níveis numéricos. Identifica a forma de
-#'     preparação do solo.}
+#' \item{\code{solo}}{Fator de níveis categóricos que identifica a forma
+#'     de preparação do solo.}
 #'
-#' \item{\code{bloco}}{Fator de níveis numéricos. Identifica a repetição
-#'    da observação.}
+#' \item{\code{bloco}}{Fator de níveis categóricos que identifica o
+#'     bloco.}
 #'
 #' \item{\code{massa}}{Massa de 100 grãos de feijão, sem unidade de
 #'     medida.}
