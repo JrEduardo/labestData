@@ -1,7 +1,7 @@
 #' @name ZimmermannTb11.19
-#' @title Produtividade de arroz irrigado
+#' @title Produtividade de arroz irrigado em ensaio fatorial com confundimento
 #' @description Dados de um experimento fatorial \eqn{2^5}, com
-#'     confundimento da interação de quarta ordem (\code{M*A*C*D*I}).
+#'     confundimento da interação de quinta ordem (\code{M*A*C*D*I}).
 #'     Estudou-se os cinco principais problemas da cultura: controle de
 #'     invasoras, adubação, irrigação, controle de doenças e
 #'     cultivar. Do experimento original, está-se utilizando apenas a
