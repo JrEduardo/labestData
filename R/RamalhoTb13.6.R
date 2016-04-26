@@ -3,8 +3,9 @@
 #' @description Experimento apresentado por Pereira (1993) referente a
 #'     avaliação da produção de feijão e teor de \eqn{P_{2}O_{5}} em
 #'     cada parcela, cujos dados foram obtidos de 10 cultivares de
-#'     feijão. Neste experimento, a produtividade de grãos é considerada
-#'     a variável dependente e o teor a variável independente.
+#'     feijão. Para este experimento, um estudo por regressão deve
+#'     considerar a produtividade de grãos como variável dependente e o
+#'     teor como variável independente.
 #' @format Um \code{data.frame} com 30 observações e 4 variáveis, em que
 #'
 #' \describe{
@@ -33,6 +34,8 @@
 #'
 #' data(RamalhoTb13.6)
 #'
+#' str(RamalhoTb13.6)
+#'
 #' library(lattice)
 #'
 #' xyplot(prod ~ teor, groups = cult, data = RamalhoTb13.6,
@@ -40,10 +43,33 @@
 #'        xlab = "Teor de P_{2}O_{5}",
 #'        ylab = "Produção de grãos de feijão")
 #'
-#' aggregate(prod ~ cult,  data = RamalhoTb13.6,
-#'           FUN = function(x) { c(mean = mean(x), var = var(x)) })
+#' xyplot(prod ~ teor, groups = cult, data = RamalhoTb13.6,
+#'        auto.key = list(space = "right",
+#'                        title = "Cultivar", cex.title = 1.1),
+#'        xlab = expression("Teor de"~P[2]*O[5]),
+#'        ylab = "Produção de grãos de feijão (g/parcela)")
 #'
-#' aggregate(teor ~ cult,  data = RamalhoTb13.6,
-#'           FUN = function(x) { c(mean = mean(x), var = var(x)) })
+#' unit01 <- function(x) {
+#'     x <- x - min(x)
+#'     x <- x/max(x)
+#'     return(x)
+#' }
+#'
+#' cex <- 0.5 + unit01(RamalhoTb13.6$teor)
+#'
+#' key <- with(RamalhoTb13.6, {
+#'     v <- round(seq(min(teor), max(teor), length.out = 4), digits = 0)
+#'     cex <- 0.5 + unit01(v)
+#'     list(title = expression(Teor~de~P[2]*O[5]),
+#'          cex.title = 1.1,
+#'          columns = length(v),
+#'          text = list(as.character(v)),
+#'          points = list(cex = cex, pch = 1))
+#' })
+#'
+#' xyplot(prod ~ cult, data = RamalhoTb13.6,
+#'        cex = cex, key = key,
+#'        xlab = expression("Teor de"~P[2]*O[5]),
+#'        ylab = "Produção de grãos de feijão (g/parcela)")
 #'
 NULL

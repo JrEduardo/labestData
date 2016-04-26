@@ -7,26 +7,29 @@
 #'
 #' \describe{
 #'
-#' \item{\code{clone}}{Fator de 20 níveis que indica o clone de 
+#' \item{\code{clone}}{Fator de 20 níveis que indica o clone de
 #'     mandioca.}
 #'
-#' \item{\code{mae}}{Produção de raízes da mãe.}
+#' \item{\code{mae}}{Produção de raízes da planta mãe.}
 #'
-#' \item{\code{filha}}{Produção de raízes da filha.}
+#' \item{\code{filha}}{Produção de raízes da planta filha.}
 #'
 #' }
 #' @keywords COV RS
 #' @source Ramalho, M. A. P., Ferreira, D. F., Oliveira, A. C. (2005).
 #'     Experimentação em Genética e Melhoramento de Plantas (2th ed.).
 #'     Lavras: UFLA. (Tabela 13.11, pág. 248)
-#'
 #' @examples
 #'
 #' data(RamalhoTb13.11)
-#' 
+#'
+#' str(RamalhoTb13.11)
+#'
 #' library(lattice)
-#' 
-#' xyplot(mae ~ filha, data = RamalhoTb13.11,
-#'        type = c("p", "smooth"))
+#'
+#' xyplot(filha ~ mae, data = RamalhoTb13.11,
+#'        type = c("p", "smooth", "g"), aspect = "iso",
+#'        xlab = "Produção de raízes na planta mãe",
+#'        ylab = "Produção de raízes na planta filha")
 #'
 NULL
