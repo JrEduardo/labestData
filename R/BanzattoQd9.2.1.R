@@ -28,7 +28,7 @@
 #'
 #' Os fatores A e B são fictícios pois foram criados apenas para
 #'     demonstrar como fazer a análise caso o experimento fosse um
-#'     fatorial 3 \eqn{\times} 2 ao inves de ter um único fator de 6
+#'     fatorial 3 \eqn{\times} 2 ao invés de ter um único fator de 6
 #'     níveis.
 #'
 #' @keywords DBC COV
