@@ -11,7 +11,7 @@
 
 \item{\code{tamamostra}}{Tamanho da amostra de panelas avaliadas.}
 
-\item{\code{naoconf}}{Número de não conformidades em panelas.}
+\item{\code{naoconf}}{Número de não conformidades nas panelas.}
     
 }}
 \source{

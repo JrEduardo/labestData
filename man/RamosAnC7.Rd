@@ -34,7 +34,7 @@ qcc(RamosAnC7$phagua, type="xbar.one",
   xlab = "Amostra", ylab = "Ph da água", 
   title = "")
 qcc(RamosAnC7$phclore, type="xbar.one",
-  xlab = "Amostra", ylab = "Ph da água", 
+  xlab = "Amostra", ylab = "Ph do cloreto", 
   title = "")
 
 }
