@@ -19,11 +19,20 @@
 #' \item{\code{bloco}}{Fator de níveis numéricos. Identifica o bloco da
 #'     repetição.}
 #'
-#' \item{\code{iden}}{Fator de níveis numéricos. É a identificação que
-#'     representa o tratamento.}
-#'
 #' \item{\code{prod}}{Produtividade de arroz irrigado.}
+#' 
+#' \item{\code{prod}}{Produtividade de arroz irrigado.}
+#' 
+#' \item{\code{inv}}{Nível do controle de invasoras.}
 #'
+#' \item{\code{adub}}{Nível da adubação.}
+#' 
+#' \item{\code{irrig}}{Nível da irrigação.}
+#' 
+#' \item{\code{doen}}{Nível do controle de doenças.}
+#' 
+#' \item{\code{cult}}{Cultivar da planta.}
+#' 
 #' @keywords DBC FAT confundimento
 #' @source Zimmermann, F. J. (2004). Estatística aplicada à pesquisa
 #'     agrícola (1st ed.). Santo Antônio de Goiás, GO: Embrapa Arroz e
@@ -36,24 +45,8 @@
 #'
 #' str(ZimmermannTb11.19)
 #'
-#' ftable(xtabs(~iden + bloco, data = ZimmermannTb11.19))
-#'
-#' xyplot(prod ~ iden, groups = bloco, data = ZimmermannTb11.19,
+#' xyplot(prod ~ bloco, data = ZimmermannTb11.19,
 #'        type = c("p", "a"),
-#'        xlab = "Fatores", ylab = "Produção",
-#'        main = "Análise de um fatorial com confundimento"))
+#'        xlab = "Bloco", ylab = "Produção",
+#'        main = "Fatorial com confundimento"))
 NULL
-
-# # Para te ajudar a transformar em 3 colunas.
-# a <- as.data.frame(
-#     apply(
-#         do.call(rbind,
-#                 with(ZimmermannTb11.19,
-#                      strsplit(as.character(iden), ""))),
-#         MARGIN = 2, as.integer))
-#
-# names(a) <- c("?", "??", "???", "????", "?????")
-#
-# cbind(ZimmermannTb11.19, a)
-#
-# ZimmermannTb11.19$iden <- NULL
