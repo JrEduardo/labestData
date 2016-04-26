@@ -13,7 +13,7 @@
     
 }}
 \source{
-Demétrio, C. G. B., & Zocchi, S. S. (2011). Modelos de
+Demétrio, C. G. B., Zocchi, S. S. (2011). Modelos de
     Regressão. Piracicaba: ESALQ. (Exercício 2.12.5 pág. 60)
 }
 \description{
@@ -32,7 +32,7 @@ xyplot(y ~ x, data = DemetrioEx2.12.5,
        main = 'Regressão Segmentada',
        grid = TRUE,
        panel = function(x, y, ...) {
-           # Regressão Segmentada com ponto de corte conhecido 
+           # Regressão Segmentada com ponto de corte conhecido
            b <- DemetrioEx2.12.5$x[3]
            m0 <- lm(y ~ x + I(pmax(x - b, 0)),
                     data = DemetrioEx2.12.5)

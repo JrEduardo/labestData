@@ -28,6 +28,7 @@
 #'      Porto Alegre, RS: Bookman (pg 21)
 #' @examples
 #'
+#'
 #' data(ManlyTb1.4)
 #' 
 #' pairs(~largm + altm + comppm + largpm + comppt + comppq,

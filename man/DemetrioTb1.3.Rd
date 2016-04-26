@@ -2,7 +2,7 @@
 % Please edit documentation in R/DemetrioTb1.3.R
 \name{DemetrioTb1.3}
 \alias{DemetrioTb1.3}
-\title{Tensiômetro}
+\title{Estudo da Construção de um Tensiômetro}
 \format{Um \code{data.frame} com 9 linhas e 2 colunas.
 
 \describe{
@@ -15,7 +15,7 @@
 
 }}
 \source{
-Demétrio, C. G. B., & Zocchi, S. S. (2011). Modelos de
+Demétrio, C. G. B., Zocchi, S. S. (2011). Modelos de
     Regressão. Piracicaba: ESALQ. (Tabela 1.3 pág. 10; 
     Ex 2.12.14 pág. 62)
 }
@@ -34,6 +34,12 @@ xyplot(tensao ~ altura, data = DemetrioTb1.3,
     main = "Altura VS Tensão",
     xlab = "Altura do Tensiômetro",
     ylab = "Tensão da Água")
+
+xyplot(tensao ~ log(altura), data = DemetrioTb1.3,
+    main = "Altura VS Tensão",
+    xlab = expression(log~"(Altura do Tensiômetro)"),
+    ylab = "Tensão da Água")
+
 }
-\keyword{tensiômetro}
+\keyword{RS}
 

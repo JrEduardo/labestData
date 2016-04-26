@@ -16,7 +16,7 @@
     
 }}
 \source{
-Demétrio, C. G. B., & Zocchi, S. S. (2011). Modelos de
+Demétrio, C. G. B., Zocchi, S. S. (2011). Modelos de
     Regressão. Piracicaba: ESALQ. (Exercício 1.4.1.4 pág. 14)
 }
 \description{
@@ -41,5 +41,5 @@ xyplot(vol ~ dia, data = DemetrioEx1.4.1.4,
      type = c("p", "r"), col.line = 3)
      
 }
-\keyword{TODO}
+\keyword{RM}
 

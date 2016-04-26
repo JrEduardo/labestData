@@ -36,6 +36,7 @@
 #'      Porto Alegre, RS: Bookman (pg 22)
 #' @examples
 #'
+#
 #' data(ManlyTb1.5)
 #' 
 #' pairs(~afp + mep + fab + fea + con + ser + fin + ssp + tc,

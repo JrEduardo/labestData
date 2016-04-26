@@ -21,7 +21,7 @@
 
 }}
 \source{
-Demétrio, C. G. B., & Zocchi, S. S. (2011). Modelos de
+Demétrio, C. G. B., Zocchi, S. S. (2011). Modelos de
     Regressão. Piracicaba: ESALQ. (Tabela 1.5 pág. 12)
 }
 \description{
@@ -42,6 +42,8 @@ Na análise inicial do estudo do estudo foi detectada a
     para efeitos didáticos.
 }
 \examples{
+
+data(DemetrioTb1.5)
 
 library(lattice)
 
@@ -64,5 +66,6 @@ xyplot(ctc ~ dose | bloco, groups  = metodo,
        auto.key = list(space = "right", title = "Método"))
 
 }
-\keyword{TODO}
+\keyword{RM}
+\keyword{dummy}
 

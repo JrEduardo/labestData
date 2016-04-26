@@ -29,5 +29,5 @@
 #'     qqnorm(linf, main = "Normal Q-Q Plot\nCont. Linfócitos")
 #'     qqline(linf)
 #' })
-#' #'
+#'
 NULL
