@@ -1,0 +1,28 @@
+portenx	bloco	prod
+Tangerina sunki	1	145
+Limão rugoso nacional	1	200
+Limão rugoso da Flórida	1	183
+Tangerina Cleópatra	1	190
+Citranger-troyer	1	180
+Trifoliata	1	130
+Tangerina cravo	1	206
+Laranja caipira	1	250
+Limão cravo	1	164
+Tangerina sunki	2	155
+Limão rugoso nacional	2	190
+Limão rugoso da Flórida	2	186
+Tangerina Cleópatra	2	175
+Citranger-troyer	2	160
+Trifoliata	2	160
+Tangerina cravo	2	165
+Laranja caipira	2	271
+Limão cravo	2	190
+Tangerina sunki	3	166
+Limão rugoso nacional	3	190
+Limão rugoso da Flórida	3	208
+Tangerina Cleópatra	3	186
+Citranger-troyer	3	156
+Trifoliata	3	130
+Tangerina cravo	3	170
+Laranja caipira	3	230
+Limão cravo	3	193
