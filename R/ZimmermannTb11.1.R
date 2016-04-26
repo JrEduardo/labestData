@@ -19,7 +19,11 @@
 #'
 #' \item{\code{prod}}{Produção de arroz, em kg ha\eqn{^{-1}}.}
 #'
-#' \item{\code{iden}}{NAO USAR IDEM. NAO USAR IDEM. NAO USAR IDEM}
+#' \item{\code{densi}}{Densidade de plantio.}
+#'
+#' \item{\code{espac}}{Espaçamento entre as linhas.}
+#'
+#' \item{\code{adub}}{Presença ou não de adubação nitrogenada.}
 #'
 #' @keywords DBC FAT confundimento
 #' @source Zimmermann, F. J. (2004). Estatística aplicada à pesquisa
@@ -33,25 +37,9 @@
 #'
 #' str(ZimmermannTb11.1)
 #'
-#' xyplot(prod ~ iden | rept, groups = bloco, data = ZimmermannTb11.1,
+#' xyplot(prod ~ bloco, data = ZimmermannTb11.1,
 #'        type = c("p", "a"),
-#'        xlab = "Identificação do tratamento",
+#'        xlab = "Bloco",
 #'        ylab = expression ("Produção de Arroz"~(kg~ha^{-1})))
 #'
 NULL
-
-# xtabs(~iden + bloco, data = ZimmermannTb11.1)
-#
-# # Para te ajudar a transformar em 3 colunas.
-# a <- as.data.frame(
-#     apply(
-#         do.call(rbind,
-#                 with(ZimmermannTb11.1,
-#                      strsplit(as.character(iden), ""))),
-#         MARGIN = 2, as.integer))
-# names(a) <- c("?", "??", "???")
-#
-# cbind(ZimmermannTb11.1, a)
-#
-# ZimmermannTb11.1$iden <- NULL
-# ZimmermannTb11.1$rept <- as.integer(ZimmermannTb11.1$rept)
