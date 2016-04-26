@@ -4,7 +4,7 @@
 #'     monitorada por meio de quinze observações.
 #' 
 #' 
-#' @format Um \code{data.frame} com 15 observações e 1 variáveis, 
+#' @format Um \code{data.frame} com 15 observações e 1 variável, 
 #'     em que
 #' 
 #' \describe{

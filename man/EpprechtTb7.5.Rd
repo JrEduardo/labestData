@@ -3,7 +3,7 @@
 \name{EpprechtTb7.5}
 \alias{EpprechtTb7.5}
 \title{Qualidade de um Processo}
-\format{Um \code{data.frame} com 15 observações e 1 variáveis, 
+\format{Um \code{data.frame} com 15 observações e 1 variável, 
     em que
 
 \describe{

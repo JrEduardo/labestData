@@ -3,7 +3,7 @@
 \name{EpprechtTb6.12}
 \alias{EpprechtTb6.12}
 \title{Peso de um Produto}
-\format{Um \code{data.frame} com 30 observações e 1 variáveis, 
+\format{Um \code{data.frame} com 30 observações e 1 variável, 
     em que
 
 \describe{
@@ -17,7 +17,7 @@ Costa, A. F. B., Epprecht, E. K., Carpinetti, L. (2010).
      Editora Atlas. (pg 184).
 }
 \description{
-Trinta observações registradas referente ao peso de um 
+Trinta observações registradas referentes aos pesos de um 
     produto.
 }
 \examples{

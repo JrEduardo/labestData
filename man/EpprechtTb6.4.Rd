@@ -22,7 +22,7 @@ Costa, A. F. B., Epprecht, E. K., Carpinetti, L. (2010).
 A cada 30 minutos registram-se três temperaturas do 
     banho, espaçadas de 3 minutos. Exemplo: na primeira amostra 
     efetua-se uma medida às 8h00, outra às 8h03 e outra às 8h06. Na 
-    segunda amostra serão registradas as temperaturas nos horários 
+    segunda amostra são registradas as temperaturas nos horários 
     8h30, 8h33 e 8h36, e assim por diante.
 }
 \examples{

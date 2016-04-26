@@ -18,7 +18,7 @@ Costa, A. F. B., Epprecht, E. K., Carpinetti, L. (2010).
 }
 \description{
 Dados referentes à concentração de um processo químico
-    registrados a cada 3 minutos.
+    registrada a cada 3 minutos.
 }
 \examples{
 

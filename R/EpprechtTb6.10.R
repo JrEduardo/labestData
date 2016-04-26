@@ -1,7 +1,7 @@
 #' @name EpprechtTb6.10
 #' @title Concentração de um Processo Químico
 #' @description Dados referentes à concentração de um processo químico
-#'     registrados a cada 3 minutos.
+#'     registrada a cada 3 minutos.
 #' 
 #' 
 #' @format Um \code{data.frame} com 100 observações e 1 variável, 

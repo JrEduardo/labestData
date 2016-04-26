@@ -1,10 +1,10 @@
 #' @name EpprechtTb6.12
 #' @title Peso de um Produto
-#' @description Trinta observações registradas referente ao peso de um 
+#' @description Trinta observações registradas referentes aos pesos de um 
 #'     produto.
 #' 
 #' 
-#' @format Um \code{data.frame} com 30 observações e 1 variáveis, 
+#' @format Um \code{data.frame} com 30 observações e 1 variável, 
 #'     em que
 #' 
 #' \describe{
