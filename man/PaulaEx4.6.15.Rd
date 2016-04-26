@@ -23,7 +23,7 @@
 }}
 \source{
 Paula, G. A. (2004). Modelos de regressão: com apoio
-    computacional. São Paulo, SP: IME-USP. (Exercício 4.6.15
+    computacional. São Paulo, SP: IME-USP. (Exercício 4.6.15,
     pág. 346)
 }
 \description{

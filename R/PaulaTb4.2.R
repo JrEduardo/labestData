@@ -12,7 +12,7 @@
 #' 
 #' \item{\code{tpessoas}}{Total de pessoas por ano de observação.}
 #' 
-#' \item{\code{cmdc}}{Consumo médio diário de cigarros, dividos em
+#' \item{\code{cmdc}}{Consumo médio diário de cigarros, dividido em
 #'     quatro níveis 0, 1-9, 10-30 ou +30 cigarros consumidos.}
 #' 
 #' \item{\code{idade}}{Idade, mensurada em faixas-etária de 40- 49,
@@ -21,7 +21,7 @@
 #' }
 #' @keywords contagem
 #' @source Paula, G. A. (2004). Modelos de regressão: com apoio
-#'     computacional. São Paulo, SP: IME-USP. (Tabela 4.2 pág. 294)
+#'     computacional. São Paulo, SP: IME-USP. (Tabela 4.2, pág. 294)
 #' @examples
 #'
 #' data(PaulaTb4.2)
@@ -29,7 +29,7 @@
 #' str(PaulaTb4.2)
 #' 
 #' xtabs(nmortes ~ cmdc + idade, data = PaulaTb4.2)
-#' xt <- xtabs((nmortes/tpessoas)*100 ~ cmdc + idade, data = PaulaTb4.2)
+#' (xt <- xtabs((nmortes/tpessoas)*100 ~ cmdc + idade, data = PaulaTb4.2))
 #' plot(xt)
 #' 
 #' library(lattice)

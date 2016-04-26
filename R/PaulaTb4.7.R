@@ -1,7 +1,7 @@
 #' @name PaulaTb4.7
 #' @title Demandas de TV a Cabo em Áreas Metropolitanos dos EUA
 #' @description Dados de um estudo sobre demanda de TV's a cabo em 40
-#'     áreas metropolianas dos Estados Unidos. Neste estudo a variável
+#'     áreas metropolitanas dos Estados Unidos. Neste estudo a variável
 #'     de interesse é o número de assinantes (\code{nass}) e as demais
 #'     variáveis mensuradas tentam explicar esta contagem.
 #' @format Um \code{data.frame} com 40 observações e 8 variáveis.
@@ -30,7 +30,7 @@
 #' }
 #' @keywords contagem superdispersão
 #' @source Paula, G. A. (2004). Modelos de regressão: com apoio
-#' computacional. São Paulo, SP: IME-USP. (0.0 pág. 000)
+#'     computacional. São Paulo, SP: IME-USP. (Tabela 4.7, pág. 317)
 #' @examples
 #'
 #' data(PaulaTb4.7)

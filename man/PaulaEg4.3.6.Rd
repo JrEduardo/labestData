@@ -24,7 +24,7 @@
 }}
 \source{
 Paula, G. A. (2004). Modelos de regressão: com apoio
-computacional. São Paulo, SP: IME-USP. (0.0 pág. 000)
+    computacional. São Paulo, SP: IME-USP. (Exemplo 4.3.6, pág. 312)
 }
 \description{
 Dados provenientes de um estudo sociológico desenvolvido
@@ -49,7 +49,6 @@ xtabs(ndias ~ ., data = PaulaEg4.3.6)
 # Relação média-variância
 aggregate(ndias ~ ., FUN = function(x) c(mean(x), var(x)),
           data = PaulaEg4.3.6)
-
 
 library(latticeExtra)
 fl1 <- c("Aborígene", "Não Aborígene")

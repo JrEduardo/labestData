@@ -13,8 +13,8 @@
 #'     (\code{<6}), entre 6 e 12 (\code{6-15}), entre 15 e 25
 #'     (\code{15-25}) e maior que 25 (\code{>25}).}
 #' 
-#' \item{\code{satis}}{Fotor com quatro níveis que representa o grau de
-#'     satisfação do indíviduo no emprego (\code{alto}, \code{bom},
+#' \item{\code{satis}}{Fator com quatro níveis que representa o grau de
+#'     satisfação do indivíduo no emprego (\code{alto}, \code{bom},
 #'     \code{médio} e \code{baixo}).}
 #' 
 #' \item{\code{nind}}{Número de indivíduos na combinação das variáveis
@@ -23,7 +23,7 @@
 #' }
 #' @keywords contagem
 #' @source Paula, G. A. (2004). Modelos de regressão: com apoio
-#'     computacional. São Paulo, SP: IME-USP. (Tabela 4.12 pág. 331)
+#'     computacional. São Paulo, SP: IME-USP. (Tabela 4.12, pág. 331)
 #'
 #' @references Agresti, A. (1990). Categorical Data Analysis. John
 #'     Wiley, New York.
@@ -33,7 +33,7 @@
 #' 
 #' str(PaulaTb4.12)
 #' 
-#' xt <- xtabs(nind ~ ., data = PaulaTb4.12)
+#' (xt <- xtabs(nind ~ ., data = PaulaTb4.12))
 #' plot(xt)
 #' 
 #' library(lattice)

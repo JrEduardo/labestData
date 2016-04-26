@@ -13,7 +13,7 @@
 }}
 \source{
 Paula, G. A. (2004). Modelos de regressão: com apoio
-    computacional. São Paulo, SP: IME-USP. (Exercício 4.6.7 pág. 343)
+    computacional. São Paulo, SP: IME-USP. (Exercício 4.6.7, pág. 343)
 }
 \description{
 Dados referentes à produção de peças de tecido em uma

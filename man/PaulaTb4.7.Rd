@@ -29,11 +29,11 @@
 }}
 \source{
 Paula, G. A. (2004). Modelos de regressão: com apoio
-computacional. São Paulo, SP: IME-USP. (0.0 pág. 000)
+    computacional. São Paulo, SP: IME-USP. (Tabela 4.7, pág. 317)
 }
 \description{
 Dados de um estudo sobre demanda de TV's a cabo em 40
-    áreas metropolianas dos Estados Unidos. Neste estudo a variável
+    áreas metropolitanas dos Estados Unidos. Neste estudo a variável
     de interesse é o número de assinantes (\code{nass}) e as demais
     variáveis mensuradas tentam explicar esta contagem.
 }

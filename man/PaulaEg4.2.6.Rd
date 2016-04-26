@@ -22,7 +22,7 @@
 }}
 \source{
 Paula, G. A. (2004). Modelos de regressão: com apoio
-computacional. São Paulo, SP: IME-USP. (0.0 pág. 000)
+    computacional. São Paulo, SP: IME-USP. (Exemplo 4.2.6, pág. 299)
 }
 \description{
 Dados apresentados em Neter et al. (1996) sobre um

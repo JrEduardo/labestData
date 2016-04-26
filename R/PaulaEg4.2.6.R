@@ -24,7 +24,7 @@
 #' }
 #' @keywords contagem
 #' @source Paula, G. A. (2004). Modelos de regressão: com apoio
-#' computacional. São Paulo, SP: IME-USP. (0.0 pág. 000)
+#'     computacional. São Paulo, SP: IME-USP. (Exemplo 4.2.6, pág. 299)
 #'
 #' @references Neter, J., Kutner, M. H., Nachtsheim, C. J., Wasserman,
 #'     W. (1996). Applie Linear Regression Models (3tr ed.). Irwin,

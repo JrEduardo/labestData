@@ -25,7 +25,7 @@
 #'
 #' @keywords contagem
 #' @source Paula, G. A. (2004). Modelos de regressão: com apoio
-#'     computacional. São Paulo, SP: IME-USP. (Exercício 4.6.20
+#'     computacional. São Paulo, SP: IME-USP. (Exercício 4.6.20,
 #'     pág. 349)
 #'
 #' @examples

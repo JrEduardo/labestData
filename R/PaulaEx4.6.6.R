@@ -11,7 +11,7 @@
 #'     \describe{
 #' 
 #' \item{\code{idade}}{Fator com quatro níveis que indica a idade do
-#'     trabalhodor no seu primeiro emprego, em anos categorizados nos
+#'     trabalhador no seu primeiro emprego, em anos categorizados nos
 #'     níveis \code{<20}, \code{20-27}, \code{27.5-34.9} e \code{>35}.}
 #' 
 #' \item{\code{ano}}{Fator com quatro níveis que indica o ano do
@@ -30,7 +30,7 @@
 #' }
 #' @keywords contagem
 #' @source Paula, G. A. (2004). Modelos de regressão: com apoio
-#' computacional. São Paulo, SP: IME-USP. (0.0 pág. 000)
+#'     computacional. São Paulo, SP: IME-USP. (Exercício 4.6.6, pág. 343)
 #'
 #' @references Breslow, N. E., Day, N. E. (1987). Statistical Methods in
 #'     Cancer Research (vol. II). IARC Scientific Publications,

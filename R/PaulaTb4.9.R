@@ -25,7 +25,7 @@
 #' }
 #' @keywords contagem superdispersão
 #' @source Paula, G. A. (2004). Modelos de regressão: com apoio
-#' computacional. São Paulo, SP: IME-USP. (Tabela 4.9 pág. 322)
+#'     computacional. São Paulo, SP: IME-USP. (Tabela 4.9 pág. 322)
 #' @examples
 #'
 #' data(PaulaTb4.9)

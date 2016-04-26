@@ -26,7 +26,7 @@
 }}
 \source{
 Paula, G. A. (2004). Modelos de regressão: com apoio
-computacional. São Paulo, SP: IME-USP. (Tabela 4.14 pág. 334)
+    computacional. São Paulo, SP: IME-USP. (Tabela 4.14, pág. 334)
 }
 \description{
 Os dados são referentes à classificação de 1330
