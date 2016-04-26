@@ -1,5 +1,5 @@
 #' @name ZimmermannTb11.7
-#' @title Expaçamento, Densidade e Nitrogênio na Produção de Arroz
+#' @title Espaçamento, Densidade e Nitrogênio na Produção de Arroz
 #' @description Dados de um experimento fatorial \eqn{2^3}, com
 #'     confundimento de interações simples (A*B, B*C e A*C). Referem-se
 #'     à produtividade de grãos, em kg ha\eqn{^{-1}}. O ensaio foi
