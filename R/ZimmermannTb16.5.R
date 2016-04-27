@@ -13,9 +13,9 @@
 #' \item{bloco}{Fator de níveis numéricos. Indica o bloco ao qual a observação
 #'     pertence.}
 #'
-#' \item{cultivar}{Fator de níveis nominais. Indica a cultivar do arroz. }
+#' \item{cult}{Fator de níveis nominais. Indica a cultivar do arroz. }
 #'
-#' \item{postos}{Fator de níveis numéricos. Indica o número de postos da 
+#' \item{posto}{Fator de níveis numéricos. Indica o número de postos da 
 #'     observação.}
 #'
 #' \item{dias}{Número total de dias até a floração da planta.}
@@ -33,14 +33,14 @@
 #'
 #' str(ZimmermannTb16.5)
 #' 
-#' aggregate(dias ~ cultivar, data = ZimmermannTb16.5, 
+#' aggregate(dias ~ cult, data = ZimmermannTb16.5, 
 #'     FUN = function(x) { c(mean = mean(x), var = var(x)) })
 #'
-#' xyplot(postos ~ cultivar, groups = bloco, data = ZimmermannTb16.5, 
+#' xyplot(posto ~ cult, groups = bloco, data = ZimmermannTb16.5, 
 #'        type=c("p","a"),
-#'        xlab="Cultivar", ylab="Postos por Bloco")
+#'        xlab="Cultivar", ylab="Postos por Cultivar")
 #' 
-#' xyplot(dias ~ cultivar, groups = bloco, data = ZimmermannTb16.5, 
+#' xyplot(dias ~ cult, groups = bloco, data = ZimmermannTb16.5, 
 #'        type=c("p","a"),
 #'        xlab="Cultivar", ylab="Dias para Floração")
 #'

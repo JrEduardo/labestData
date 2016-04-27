@@ -1,4 +1,4 @@
-bloco	cultivar	postos	dias
+bloco	cult	posto	dias
 1	CNAi 8859	5	95
 2	CNAi 8859	4	91
 3	CNAi 8859	4	95
