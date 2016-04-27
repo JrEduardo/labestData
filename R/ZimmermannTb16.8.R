@@ -1,7 +1,7 @@
 #' @name ZimmermannTb16.8
 #' @title Dias para floração de plantas de arroz em um reticulado quadrado
 #' @description Experimento realizado em delineamento reticulado quadrado 5x5,
-#'     com tres repetições.  Os dados são referentes ao número de dias até a 
+#'     com três repetições.  Os dados são referentes ao número de dias até a 
 #'     floração de plantas de arroz. São apresentados na tabela também os 
 #'     respectivos postos de cada dado, segundo a metodologia definida no teste
 #'     de Durbin. Não se sabe à que fazem referências os tratamentos. 
