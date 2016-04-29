@@ -1,8 +1,8 @@
 #' @name EpprechtTb2.3
 #' @title Volumes em embalagens de leite
-#' @description Dados referentes aos volumes verificados de 
-#'     leite em 100 embalagens de 1000 ml. Os dados são extraídos de 
-#'     um processo isento de causas especiais de variação.
+#' @description Dados referentes aos volumes  de leite em 100 embalagens
+#'     de 1000 ml. Os dados são extraídos de um processo isento de
+#'     causas especiais de variação.
 #' 
 #' @format Um \code{data.frame} com 100 observações e 2 variáveis, 
 #'     em que
