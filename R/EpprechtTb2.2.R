@@ -12,7 +12,7 @@
 #'
 #' \item{\code{id}}{Identificação da embalagem.}
 #' 
-#' \item{\code{X}}{Volume de leite presente na embalagem (ml).}
+#' \item{\code{X}}{Volume de leite na embalagem (ml).}
 #' 
 #' 
 #' }
