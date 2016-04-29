@@ -2,22 +2,22 @@
 % Please edit documentation in R/ManlyTb1.3.R
 \name{ManlyTb1.3}
 \alias{ManlyTb1.3}
-\title{Distribuiçao de uma borboleta}
-\format{Um \code{data.frame} com 16 colônias de boroboletas com 11 variáveis.
+\title{Distribuiçao de uma espécie de borboletas}
+\format{Um \code{data.frame} com 16 colônias de borboletas com 11 variáveis.
 
 \describe{
 
 \item{\code{colo}}{Identificação da colônia.}
 
-\item{\code{alt}}{Altitude em pés.}
+\item{\code{alt}}{Altitude (em pés).}
 
-\item{\code{precip}}{Preciptação anual, em polegadas.}
+\item{\code{precip}}{Precipitação anual (em polegadas).}
 
 \item{\code{tempmax}}{Temperatura máxima.}
 
 \item{\code{tempmin}}{Temperatura mínima.}
 
-\item{\code{dg0.4}}{Frequência 0.4 em demobilidade gênica PGi em porcentagem.}
+\item{\code{dg0.4}}{Frequência 0.4 em demobilidade gênica PGi (porcentagem).}
 
 \item{\code{dg0.6}}{Frequência 0.6 em demobilidade gênica PGi.}
  
@@ -31,19 +31,21 @@
  
 }}
 \source{
-Manly, B. J. F. (2005). Métodos Estatísticos Multivariados - uma introdução.
-     Porto Alegre, RS: Bookman (pg 19)
+Manly, B. J. F. (2005). Métodos Estatísticos Multivariados 
+     - uma introdução. Porto Alegre, RS: Bookman (pg 19)
 }
 \description{
-Um estudo de colônias de borboletas do tipo Euphydryas editha na Califórnia e Orego no EUA com variáveis ambientais e frequências gênicas.
+Estudo de colônias de borboletas do tipo \emph{Euphydryas 
+editha} na Califórnia e em Oregon, EUA, com variáveis ambientais e 
+frequências gênicas.
 }
 \examples{
 
 data(ManlyTb1.3)
 
-pairs(~ alt + precip + tempmax + tempmin + dg0.4 + dg0.6 + dg0.8 + dg1 + dg1.16 + dg1.3,
-      data = ManlyTb1.3, 
-      main="Matriz das variáveis das colônias de borboletas")
+pairs(~ alt + precip + tempmax + tempmin + dg0.4 + dg0.6 + dg0.8 + 
+      dg1 + dg1.16 + dg1.3, data = ManlyTb1.3, cex.labels = 1.4,
+      main="Matriz de gráficos de dispersão")
 }
 \keyword{CP}
 
