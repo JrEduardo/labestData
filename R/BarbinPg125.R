@@ -40,7 +40,7 @@
 #'        groups = K, type = c("p", "a"),
 #'        auto.key = list(space = "top", columns = 2,
 #'                        title = "Potássio (K)", cex.title = 1.1),
-#'        strip = strip.custom(strip.names = c(TRUE),
+#'        strip = strip.custom(strip.names = TRUE,
 #'                             sep = " ", var.name = "Fósforo (P)"),
 #'        xlab = "Nitrogênio (N)",
 #'        ylab = "Produção de café coco (kg)")

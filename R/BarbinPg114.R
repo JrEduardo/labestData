@@ -22,7 +22,7 @@
 #'
 #' \item{\code{apar}}{Fator de níveis categóricos que identifica os
 #'     aparelhos utilizados pelos operadores para medição da altura
-#'     total das árvores}
+#'     total das árvores.}
 #'
 #' \item{\code{oper}}{Fator de níveis categóricos que identifica os
 #'     operadores que utilizaram os aparelhos.}
@@ -43,7 +43,7 @@
 #'
 #' Simões, J. W., Mello, H. A., Barbin, D. (1967). Eficiência dos
 #'     aparelhos e e influência do operador na medição de altura total
-#'     de ávores. O Solo, Piracicaba, v.2, p.57-63.
+#'     de árvores. O Solo, Piracicaba, v.2, p.57-63.
 #' @examples
 #'
 #' library(latticeExtra)

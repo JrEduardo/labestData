@@ -4,7 +4,7 @@
 #'     NPK \eqn{3^3} com confundimento (grupo W) de dois graus de
 #'     liberdade da interação tripla. Cada combinação NPK teve duas
 #'     repetições por bloco e o ensaio foi conduzido por Cavalcanti
-#'     (1977) em Parnambuco.
+#'     (1977) em Pernambuco.
 #' @format Um \code{data.frame} com 54 observações e 6 variáveis.
 #'     \describe{
 #'
@@ -34,7 +34,7 @@
 #'
 #' Cavalcanti, F. B. (1977). A adubação mineral na cultura do algodão
 #'     (\emph{Gossypium hirsutum} L.) no Estado de
-#'     Pernambuco. Dissetação de Mestrado, Escola Superior de
+#'     Pernambuco. Dissertação de Mestrado, Escola Superior de
 #'     Agricultura "Luiz de Queiroz"/USP, Piracicaba.
 #' @examples
 #'
@@ -65,7 +65,7 @@
 #'                        title = expression(
 #'                            "Potássio"~(K * ", " * kg~ha^{-1})),
 #'                        cex.title = 1.1),
-#'        strip = strip.custom(strip.names = c(TRUE), sep = " = ",
+#'        strip = strip.custom(strip.names = TRUE, sep = " = ",
 #'                             var.name = expression(
 #'                                 "Fósforo"~(P * ", " * kg~ha^{-1}))),
 #'        xlab = expression("Nitrogênio"~(N * ", " * kg~ha^{-1})),
