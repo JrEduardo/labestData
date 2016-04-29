@@ -4,7 +4,7 @@
 #' @title Cães pré-históricos da Tailândia
 #'
 #' @description Estudo em ancestrais de cães da Tailândia, 
-#' através de medições da mandíbula. Acréscimo de variáveis do Data ManlyTb1.4. 
+#' através de medições da mandíbula.  
 #'
 #' @format Um \code{data.frame} com 5 grupo caninos e 10 variáveis.
 #' 
@@ -12,13 +12,13 @@
 #'
 #' \item{\code{grup}}{Grupo canino}
 #' 
-#' \item{\code{compm}}{Comprimento da mandíbula em milímetros (mm)}
+#' \item{\code{compm}}{Comprimento da mandíbula (mm)}
 #' 
-#'\item{\code{largmapm}}{Largura da mandíbula abaixo do primeiro molar (mm)}
+#'\item{\code{largmapm}}{Largura da mandíbula, abaixo do primeiro molar (mm)}
 #' 
-#'\item{\code{largca}}{Largura do côndilo aricular}
+#'\item{\code{largca}}{Largura do côndilo aricular (mm)}
 #'
-#' \item{\code{altmapm}}{Altura da mandíbula abaixo ao primeiro molar (mm)}
+#' \item{\code{altmapm}}{Altura da mandíbula, abaixo do primeiro molar (mm)}
 #' 
 #' \item{\code{comppm}}{Comprimento do primeiro molar (mm).}
 #' 
@@ -30,19 +30,21 @@
 #'  
 #'\item{\code{largci}}{Largura do canino inferior (mm).}
 #'
-#'\item{\code{sexo}}{Código para sexo, se for 1 é masculino, se for 2 é feminino e caso contrário é desconhecido}
+#'\item{\code{sexo}}{Código para sexo, (1 para masculino, 2 para feminino 
+#'e caso contrário é desconhecido}
+#'
 #' }
 #' 
 #' @keywords TS
-#' @source Manly, B. J. F. (2005). Métodos Estatísticos Multivariados - uma introdução.
-#'      Porto Alegre, RS: Bookman (pg 67 à 69)
+#' @source Manly, B. J. F. (2005). Métodos Estatísticos Multivariados - 
+#'      uma introdução. Porto Alegre, RS: Bookman (pg 67 à 69)
 #' @examples
 #'
 #' data(ManlyTb4.5)
 #' require(lattice)
 #' require(reshape2)
 #' 
-#' ManlyTb4.5long <- melt(ManlyTb4.5, id.vars = "grup")
+#' ManlyTb4.5long <- melt(ManlyTb4.5[,-11], id.vars = "grup")
 #'
 #' bwplot(value ~grup | variable, data = ManlyTb4.5long,
 #'         scales = c(list(relation = "free"), list(x=list(draw=FALSE))),
