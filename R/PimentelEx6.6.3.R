@@ -1,0 +1,49 @@
+#' @name PimentelEx6.6.3
+#' @title Ensaio de Alimentação de Suínos
+#' @description Ensaio de alimentação de suínos, no qual foi usado um
+#'     quadrado latino de 4 x 4, com os resultados referentes aos ganhos
+#'     de peso ao fim de 252 dias.
+#' @format Um \code{data.frame} com 16 observações e 4 variáveis, em que
+#'
+#' \describe{
+#'
+#' \item{\code{leitegada}}{Fator de 4 níveis qualitativos, usado para
+#'     identificar as 4 diferentes ninhadas de leitões, cada leitegada
+#'     representa uma linha do quadrado latino de 4 x 4.}
+#'
+#' \item{\code{coluna}}{Fator de 4 níveis qualitativos, usado para
+#'     identificar as colunas do quadrado latino de 4 x 4, essas colunas
+#'     objetivam controlar a variação de peso dos leitões dentro de cada
+#'     leitegada.}
+#'
+#' \item{\code{castracao}}{Fator de 4 níveis qualitativos, que são os
+#'     diferentes tipos de tratamento, são eles: (A) Castração aos 56
+#'     dias de idade; (B) Animais inteiros (testemunha); (C) Castração
+#'     aos 7 dias de idade; (D) Castração aos 21 dias de idade.}
+#'
+#' \item{\code{peso}}{Ganho de peso, em kg, ao fim de 252 dias.}
+#'
+#' }
+#' @keywords DQL
+#' @source Pimentel-Gomes, F. (2009). Curso de Estatística Experimental
+#'     (15th ed.). Piracicaba, SP: FEALQ. (Exercício 6.6.3)
+#' @examples
+#'
+#' library(lattice)
+#'
+#' grafico1 <- bwplot(peso ~ castracao,
+#'                    data = PimentelEx6.6.3,
+#'                    xlab = "Tipo de Castração",
+#'                    ylab = "Ganho de Peso em kg")
+#'
+#' grafico2 <- xyplot(peso ~ leitegada + coluna,
+#'                    jitter.x = TRUE,
+#'                    data = PimentelEx6.6.3,
+#'                    xlab = "Leitegada (Azul) + Coluna (Rosa)",
+#'                    ylab = "Ganho de Peso em kg")
+#'
+#' print(grafico1, position = c(0, 0, 0.5, 1), more = TRUE)
+#' 
+#' print(grafico2, position = c(0.5, 0, 1, 1))
+#'
+NULL
