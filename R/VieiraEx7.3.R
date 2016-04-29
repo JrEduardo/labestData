@@ -1,6 +1,6 @@
 #' @name VieiraEx7.3
 #' @title Exercício 7.3
-#' @description Dados de um experimento inteiramente ao acoso com
+#' @description Dados de um experimento inteiramente ao acaso com
 #'     número diferente de repetições.
 #' @format Um \code{data.frame} com 24 observações e 2 variáveis, em que
 #'
