@@ -22,7 +22,8 @@
 }}
 \source{
 Paula, G. A. (2004). Modelos de regressão: com apoio
-    computacional. São Paulo, SP: IME-USP. (Exemplo 2.8.1 pág. 150)
+    computacional. São Paulo, SP: IME-USP. (Exemplo 2.8.1, pág. 150;
+    Exemplo 2.9.3, pág. 169.)
 }
 \description{
 Dados de um experimento desenvolvido pelo Departamento
