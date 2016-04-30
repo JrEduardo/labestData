@@ -1,0 +1,34 @@
+#' @name PaulaEx2.10.15
+#' @title Consumo de Energia em Domicílios
+#' @description Dados referentes ao consumo de energia em 53 domicílios
+#'     em que o total de energia consumido num determinado mês é
+#'     utilizado para explicar a demanda de energia no horário de pico.
+#' @format Um \code{data.frame} com 53 observações e 2 variáveis.
+#' \describe{
+#' 
+#' \item{\code{consu}}{Consumo de energia num determinado mês, em
+#'     kilowatts-hora.}
+#' 
+#' \item{\code{deman}}{Demanda de energia no horário de pico, unidade de
+#'     medida não informada.}
+#' 
+#' }
+#' @keywords positivo-assimétrico
+#' @source Paula, G. A. (2004). Modelos de regressão: com apoio
+#'     computacional. São Paulo, SP: IME-USP. (Exercício 2.10.15,
+#'     pág. 178)
+#'
+#' @references Montgomery, D. C., Peck, E. A., Vining,
+#'     G. G. (2001). Introduction to Linear Regression Analysis (3rd
+#'     Ed.). John Wiley, New York.
+#'
+#' @examples
+#' data(PaulaEx2.10.15)
+#' 
+#' str(PaulaEx2.10.15)
+#' 
+#' library(lattice)
+#' xyplot(deman ~ consu, data = PaulaEx2.10.15,
+#'        pch = 19, lwd = 2, type = c("p", "g", "smooth"))
+#'
+NULL
