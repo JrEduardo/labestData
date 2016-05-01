@@ -1,7 +1,8 @@
 #' @name ManlyTb10.4
 #' @title Combinação de tabelas 1.5 e 6.7
 #'
-#' @description Combinação entre a tabela 1.5 e 6.7. Trata-se de variáveis de consumo de proteína com força de trabalho por país
+#' @description Combinação entre a tabela 1.5 e 6.7. Trata-se de 
+#' variáveis de consumo de proteína e força de trabalho por país
 #'
 #' @format Um \code{data.frame} com 22 registros e 18 variáveis.
 #' 
@@ -9,7 +10,8 @@
 #'
 #' \item {\code{pais}}{Identificação do país.}
 #' 
-#' \item{\code{cv}}{Consumo de carne vermelha medida em gramas por pessoa por dia.}
+#' \item{\code{cv}}{Consumo de carne vermelha medida em gramas por 
+#' pessoa por dia.}
 #' 
 #' \item{\code{cb}}{Consumo de carne branca.}
 #'
@@ -27,7 +29,8 @@
 #'  
 #' \item{\code{fv}}{Consumo de frutas e vegetais.}
 #' 
-#' \item{\code{agr}}{Porcentagem da população ativa empregada na agricultura, florestal e pesca.}
+#' \item{\code{agr}}{Porcentagem da população ativa empregada na 
+#' agricultura, florestal e pesca.}
 #'
 #' \item{\code{min}}{Mineração e exploração de pedreiras.}
 #' 
@@ -48,14 +51,16 @@
 #' }
 #'
 #' @keywords ACC
-#' @source Manly, B. J. F. (2005). Métodos Estatísticos Multivariados- uma introdução.
-#'      Porto Alegre, RS: Bookman (pg 175)
+#' @source Manly, B. J. F. (2005). Métodos Estatísticos Multivariados- 
+#' uma introdução. Porto Alegre, RS: Bookman (pg 175)
 #' @examples
 #'
 #' data(ManlyTb10.4)
 #' 
-#' pairs(~ cv + cb + ovo + leite + peixe + cere + carb + gnl+ agr + min + fab + fea + con + ser + fin + ssp + tc,
+#' pairs(~ cv + cb + ovo + leite + peixe + cere + carb + gnl+ agr + 
+#' min + fab + fea + con + ser + fin + ssp + tc,
 #'       data = ManlyTb10.4, 
-#'       main = "Matriz das variáveis de força de trabalho e consumo de proteínas diárias"
+#'       main = "Matriz das variáveis de força de trabalho e consumo de 
+#'       proteínas diárias"
 #'       )
 NULL

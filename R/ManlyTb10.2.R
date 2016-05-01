@@ -1,23 +1,31 @@
 #' @name ManlyTb10.2
 #' @title Variáveis solo e vegetação em Belize
 #'
-#' @description Estudo no distrito de Corozal em Belize em 4 variávei de solo e 4 variáveis de vegetação registradas para quadrados de 2,5 x 2,5 km.
+#' @description Estudo no distrito de Corozal em Belize em 4 variáveis 
+#' de solo e 4 variáveis de vegetação registradas para quadrados 
+#' de 2,5 x 2,5 km.
 #'
 #' @format Um \code{data.frame} com 151 linhas e 8 variáveis.
 #' 
 #' \describe{
 #' 
-#' \item{\code{ser}{Porcentagem de solo com enriquecimento constante de calcário.}}
+#' \item{\code{ser}{Porcentagem de solo com enriquecimento constante de 
+#' calcário.}}
 #'
-#' \item{\code{spc}}{Porcentagem de solo de prado com cálcio na água subterrânea.}
+#' \item{\code{spc}}{Porcentagem de solo de prado com cálcio na água 
+#' subterrânea.}
 #' 
-#' \item{\code{smc}}{Porcentagem de solo com matriz de coral son condições de enriquecimento constante de calcário.}
+#' \item{\code{smc}}{Porcentagem de solo com matriz de coral sob 
+#' condições de enriquecimento constante de calcário.}
 #' 
-#' \item{\code{sao}}{Porcentagem de solos aluvial e orgânico adjacentes a rios e solo orgânico salino na costa.}
+#' \item{\code{sao}}{Porcentagem de solos aluvial e orgânico adjacentes 
+#' a rios e solo orgânico salino na costa.}
 #'
-#' \item{\code{dfe}}{Porcentagem de floresta decídua estacional com ervas de folhas largas.}
+#' \item{\code{dfe}}{Porcentagem de floresta decídua estacional com 
+#' ervas de folhas largas.}
 #' 
-#' \item{\code{flab}}{Porcentagem de floresta de locais altos e baixos coberta com água, plantas herbáceas em lugares úmidos e pântano.}
+#' \item{\code{flab}}{Porcentagem de floresta de locais altos e baixos 
+#' coberta com água, plantas herbáceas em lugares úmidos e pântano.}
 #' 
 #' \item{\code{fpc}}{Porcentagem de floresta palma de cohune.}
 #' 
@@ -26,8 +34,8 @@
 #' }
 #'  
 #' @keywords ACC
-#' @source Manly, B. J. F. (2005). Métodos Estatísticos Multivariados - uma introdução.
-#'      Porto Alegre, RS: Bookman (pg 167 à 170)
+#' @source Manly, B. J. F. (2005). Métodos Estatísticos Multivariados - 
+#' uma introdução.Porto Alegre, RS: Bookman (pg 167 à 170)
 #' @examples
 #'
 #' data(ManlyTb10.2)
