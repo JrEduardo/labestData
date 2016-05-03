@@ -4,9 +4,10 @@
 \alias{PaulaEx2.10.7}
 \title{Resistência de Vidros sob Efeito de Voltagem e Temperatura}
 \format{Um \code{data.frame} com 32 observações e 3 variáveis.
-\describe{
+    \describe{
 
-\item{\code{tempo}}{Tempo de resistência do vidro, mensurado em horas.}
+\item{\code{tempo}}{Tempo de resistência do vidro, mensurado em
+     horas.}
 
 \item{\code{volt}}{Fator com quatro níveis de voltagem considerados,
     valores em quilovolts (kV).}

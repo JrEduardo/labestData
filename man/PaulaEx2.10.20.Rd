@@ -43,7 +43,7 @@ Dados de uma amostra aleatória de 996 apólices de
     dentre as quais o número de sinistros e o custo total dos
     sinistros são, naturalmente, as variáveis de interesse. O
     objetivo do estudo é relacionar o custo médio de um sinistro
-    (razão entre o custo total e o número de sinsitros) com as demais
+    (razão entre o custo total e o número de sinistros) com as demais
     variáveis do estudo (variáveis da apólice, que compreendem
     informações do veículo e do principal condutor).
 }
@@ -52,7 +52,7 @@ data(PaulaEx2.10.20)
 
 str(PaulaEx2.10.20)
 
-# Variável de interesse, custo médio de um sinistro
+# Variável de interesse - custo médio de um sinistro
 PaulaEx2.10.20$cmsinis <- with(PaulaEx2.10.20, csinis/nsinis)
 PaulaEx2.10.20 <- PaulaEx2.10.20[, -c(8:9)]
 

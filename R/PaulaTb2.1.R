@@ -17,7 +17,7 @@
 #' }
 #' @keywords positivo-assimétrico
 #' @source Paula, G. A. (2004). Modelos de regressão: com apoio
-#'     computacional. São Paulo, SP: IME-USP. (Tabela 2.1 pág. 121)
+#'     computacional. São Paulo, SP: IME-USP. (Tabela 2.1, pág. 121)
 #'
 #' @references Lawless, J. F. (1982). Statistical Models and Methods for
 #'     Lifetime Data. John Wiley, New York.

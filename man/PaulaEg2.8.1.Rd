@@ -6,15 +6,15 @@
 \format{Um \code{data.frame} com 750 observações e 3 variáveis.
     \describe{
 
-\item{\code{semana}}{Inteiro com dez valores únicos que indentifica a
+\item{\code{semana}}{Inteiro com dez valores únicos que identifica a
     semana da avaliação.}
 
 \item{\code{tipo}}{Fator com cinco níveis que identifica o tipo de
     snack avaliado. Os níveis representam as seguintes configurações:
-    \code{A}: 22\% de gordura, 0\% de óleo de canola, \code{B}: 0\% de
-    gordura, 22\% de óleo de canola, \code{C}: 17\% de gordura, 5\% de
-    óleo de canola, \code{D}: 11\% de gordura, 11\% de óleo de canola e
-    \code{E}: 5\% de gordura, 17\% de óleo de canola.}
+    \code{A}: 22\% de gordura, 0\% de óleo de canola, \code{B}: 0\%
+    de gordura, 22\% de óleo de canola, \code{C}: 17\% de gordura,
+    5\% de óleo de canola, \code{D}: 11\% de gordura, 11\% de óleo de
+    canola e \code{E}: 5\% de gordura, 17\% de óleo de canola.}
 
 \item{\code{fnpc}}{Força necessária para o cisalhamento, valor para
     avaliação da textura dos produtos.}

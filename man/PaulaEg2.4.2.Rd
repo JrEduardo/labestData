@@ -32,7 +32,7 @@
 }}
 \source{
 Paula, G. A. (2004). Modelos de regressão: com apoio
-    computacional. São Paulo, SP: IME-USP. (Exemplo 2.4.2 pág. 127)
+    computacional. São Paulo, SP: IME-USP. (Exemplo 2.4.2, pág. 127)
 }
 \description{
 Dados parciais de um estudo sobre a atividade de frotas
@@ -41,9 +41,9 @@ Dados parciais de um estudo sobre a atividade de frotas
     pesqueiras, cujo peixe-batata é considerado para pesca, foi
     analisada no período de 1995 a 1999. Para cada embarcação foram
     obtidas variáveis sobre a frota (Santos ou Ubatuba), ano,
-    timestre, latitude, longitude, dias de pesca, quantidade de
+    trimestre, latitude, longitude, dias de pesca, quantidade de
     peixes capturados e a captura por unidade de esforço (definida
-    como divisão da quantidade de peixe captuurado pelos dias de
+    como divisão da quantidade de peixe capturado pelos dias de
     pesca).
 }
 \examples{
@@ -66,7 +66,7 @@ bwplot(cpue ~ frota, data = PaulaEg2.4.2)
 bwplot(cpue ~ ano, data = PaulaEg2.4.2)
 bwplot(cpue ~ trim, data = PaulaEg2.4.2)
 
-# Relação da variável respota com as combinações das
+# Relação da variável resposta com as combinações das
 # covariáveis não numéricas
 ue <- with(PaulaEg2.4.2, paste(ano, trim, sep = "-"))
 bwplot(cpue ~ ue | frota, data = PaulaEg2.4.2,

@@ -20,14 +20,14 @@
 #'     do acidente. Os níveis deste fator são codificados e não
 #'     informou-se quais os meses que eles representam.}
 #' 
-#' \item{\code{to}}{Tempo operacional para pagameto do seguro. Essa
+#' \item{\code{to}}{Tempo operacional para pagamento do seguro. Essa
 #'     variável assume valores de 0,1 a 31,9, pois são considerados
 #'     apenas os 18 últimos meses do estudo.}
 #' 
 #' }
 #' @keywords positivo-assimétrico
 #' @source Paula, G. A. (2004). Modelos de regressão: com apoio
-#'     computacional. São Paulo, SP: IME-USP. (Exemplo 2.4.3 pág. 136)
+#'     computacional. São Paulo, SP: IME-USP. (Exemplo 2.4.3, pág. 136)
 #'
 #' @references De Jong, P., & Heller, G. Z. (2008). Generalized linear
 #'     models for insurance data (Vol. 136). Cambridge: Cambridge

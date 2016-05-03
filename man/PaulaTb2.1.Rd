@@ -15,7 +15,7 @@
 }}
 \source{
 Paula, G. A. (2004). Modelos de regressão: com apoio
-    computacional. São Paulo, SP: IME-USP. (Tabela 2.1 pág. 121)
+    computacional. São Paulo, SP: IME-USP. (Tabela 2.1, pág. 121)
 }
 \description{
 Resultados de um experimento conduzido para avaliar o

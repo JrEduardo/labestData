@@ -7,7 +7,7 @@
 \describe{
 
 \item{\code{consu}}{Consumo de energia num determinado mês, em
-    kilowatts-hora.}
+    quilowatts-hora.}
 
 \item{\code{deman}}{Demanda de energia no horário de pico, unidade de
     medida não informada.}
