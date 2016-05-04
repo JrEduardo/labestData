@@ -1,0 +1,34 @@
+#' @name VieiraPg57.2
+#' @title Experimento do peso de três ratos
+#' @description Experimento que mediu os pesos de 3 ratos 
+#'       com de cinco idades diferentes em um delineamento
+#'       blocos de casualizados.
+#' 
+#' @format Um \code{data.frame} com 15 observações e 3 variáveis, em que
+#'
+#' \describe{
+#'
+#' \item{\code{rato}}{Número do rato.}
+#'
+#' \item{\code{idade}}{Fator de 5 níveis, da idade dos ratos em dias.}
+#'
+#' \item{\code{peso}}{Peso em gramas.}
+#'
+#' }
+#' @keywords DBC
+#' @source Vieira, S.(1999). 
+#'     Estatística experimental (2th ed.). 
+#'     São Paulo, SP: Atlas. (pg 57 - Ex 4).
+#'      
+#' @examples
+#'
+#' data(VieiraPg57.2)
+#' 
+#' library(lattice)
+#' 
+#' xyplot(peso ~ rato, groups= idade, 
+#'       data = VieiraPg57.2,
+#'       xlab = "Rato",
+#'       ylab = "Peso em gramas")
+#'
+NULL
