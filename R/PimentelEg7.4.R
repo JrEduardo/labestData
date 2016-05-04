@@ -1,0 +1,43 @@
+#' @name PimentelEg7.4
+#' @title Experimento de Adubação com Torta de Filtro
+#' @description Experimento fatorial de 2\eqn{^{2}}, em que os fatores
+#'     eram adubo mineral e torte dos filtros de Oliver de usinas de
+#'     açúcar.
+#' @format Um \code{data.frame} com 16 observações e 4 variáveis, em que
+#'
+#' \describe{
+#'
+#' \item{\code{bloco}}{Fator de 4 níveis qualitativos, usado para
+#'     controle local.}
+#'
+#' \item{\code{mineral}}{Fator de 2 níveis qualitativos, que é usado
+#'     para o controle do efeito que o adubo mineral causa no
+#'     experimento, sendo que a variável assume 1, quando houver adubo
+#'     mineral na parcela e -1 caso contrário.}
+#'
+#' \item{\code{torta}}{Fator de 2 níveis qualitativos, que é usado
+#'     para o controle do efeito que a torta dos filtros de Oliver de
+#'     usinas de açúcar causa no experimento, sendo que a variável
+#'     assume 1, quando houver torta na parcela e -1 caso contrário.}
+#'
+#' \item{\code{y}}{Coeficiente medido em função das 3 variáveis do
+#'     experimento (bloco, mineral e torta).}
+#'
+#' }
+#' @keywords FAT2
+#' @source Pimentel-Gomes, F. (2009). Curso de Estatístitica
+#'     Experimental (15th ed.). Piracicaba, SP: FEALQ. (Exemplo 7.4)
+#' @examples
+#'
+#' library(lattice)
+#'
+#' xyplot(y ~ mineral + torta,
+#'        groups = bloco,
+#'        data = PimentelEg7.4,
+#'        xlab = "",
+#'        ylab = "Coeficiente Medido",
+#'        strip = strip.custom(factor.levels =
+#'                                 c("Adubação Mineral",
+#'                                   "Adubação com Torta")))
+#'
+NULL
