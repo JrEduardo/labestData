@@ -22,7 +22,7 @@ incorporar a realização das atividades propostas no ramo `devel` do
 projeto. Para facilitar a visualização o *emoji* :white\_check\_mark:,
 representa que o trabalho foi REALIZADO e :x: o NÃO REALIZADO.
 
-<table style="width:371%;">
+<table style="width:397%;">
 <colgroup>
 <col width="33%" />
 <col width="15%" />
@@ -34,7 +34,7 @@ representa que o trabalho foi REALIZADO e :x: o NÃO REALIZADO.
 <col width="37%" />
 <col width="37%" />
 <col width="37%" />
-<col width="11%" />
+<col width="37%" />
 <col width="11%" />
 </colgroup>
 <thead>
@@ -64,8 +64,8 @@ representa que o trabalho foi REALIZADO e :x: o NÃO REALIZADO.
 <td align="center">:white_check_mark: / !39</td>
 <td align="center">:white_check_mark: / !49</td>
 <td align="center">-</td>
-<td align="center">-</td>
-<td align="center">. / .</td>
+<td align="center">:white_check_mark: / !61</td>
+<td align="center">:white_check_mark: / !70</td>
 <td align="center">. / .</td>
 </tr>
 <tr class="even">
@@ -79,7 +79,7 @@ representa que o trabalho foi REALIZADO e :x: o NÃO REALIZADO.
 <td align="center">:x: / -</td>
 <td align="center">:x: / -</td>
 <td align="center">:x: / -</td>
-<td align="center">. / .</td>
+<td align="center">:x: / -</td>
 <td align="center">. / .</td>
 </tr>
 <tr class="odd">
@@ -93,7 +93,7 @@ representa que o trabalho foi REALIZADO e :x: o NÃO REALIZADO.
 <td align="center">:white_check_mark: / !44</td>
 <td align="center">:white_check_mark: / !52</td>
 <td align="center">:white_check_mark: / !59</td>
-<td align="center">. / .</td>
+<td align="center">:white_check_mark: / !67</td>
 <td align="center">. / .</td>
 </tr>
 <tr class="even">
@@ -107,7 +107,7 @@ representa que o trabalho foi REALIZADO e :x: o NÃO REALIZADO.
 <td align="center">:x: / -</td>
 <td align="center">:white_check_mark: / !51</td>
 <td align="center">:white_check_mark: / !64</td>
-<td align="center">. / .</td>
+<td align="center">:x: / -</td>
 <td align="center">. / .</td>
 </tr>
 <tr class="odd">
@@ -121,7 +121,7 @@ representa que o trabalho foi REALIZADO e :x: o NÃO REALIZADO.
 <td align="center">:x: / -</td>
 <td align="center">:x: / -</td>
 <td align="center">:x: / -</td>
-<td align="center">. / .</td>
+<td align="center">:x: / !69</td>
 <td align="center">. / .</td>
 </tr>
 <tr class="even">
@@ -135,7 +135,7 @@ representa que o trabalho foi REALIZADO e :x: o NÃO REALIZADO.
 <td align="center">:white_check_mark: / !46</td>
 <td align="center">:x: / -</td>
 <td align="center">:x: / -</td>
-<td align="center">. / .</td>
+<td align="center">:x: / -</td>
 <td align="center">. / .</td>
 </tr>
 <tr class="odd">
@@ -149,7 +149,7 @@ representa que o trabalho foi REALIZADO e :x: o NÃO REALIZADO.
 <td align="center">:x: / -</td>
 <td align="center">:white_check_mark: / !53</td>
 <td align="center">:white_check_mark: / !63</td>
-<td align="center">. / .</td>
+<td align="center">:white_check_mark: / !71</td>
 <td align="center">. / .</td>
 </tr>
 <tr class="even">
@@ -163,7 +163,7 @@ representa que o trabalho foi REALIZADO e :x: o NÃO REALIZADO.
 <td align="center">:x: / !57</td>
 <td align="center">:white_check_mark: / !58</td>
 <td align="center">:white_check_mark: / !66</td>
-<td align="center">. / .</td>
+<td align="center">:white_check_mark: / !72</td>
 <td align="center">. / .</td>
 </tr>
 <tr class="odd">
@@ -177,7 +177,7 @@ representa que o trabalho foi REALIZADO e :x: o NÃO REALIZADO.
 <td align="center">:white_check_mark: / !47</td>
 <td align="center">:white_check_mark: / !54</td>
 <td align="center">:white_check_mark: / !62</td>
-<td align="center">. / .</td>
+<td align="center">:white_check_mark: / !68</td>
 <td align="center">. / .</td>
 </tr>
 <tr class="even">
@@ -191,7 +191,7 @@ representa que o trabalho foi REALIZADO e :x: o NÃO REALIZADO.
 <td align="center">:x: / -</td>
 <td align="center">:x: / -</td>
 <td align="center">:x: / -</td>
-<td align="center">. / .</td>
+<td align="center">:x: / -</td>
 <td align="center">. / .</td>
 </tr>
 <tr class="odd">
@@ -205,7 +205,7 @@ representa que o trabalho foi REALIZADO e :x: o NÃO REALIZADO.
 <td align="center">:x: / !45</td>
 <td align="center">:x: / -</td>
 <td align="center">:white_check_mark: / !78</td>
-<td align="center">. / .</td>
+<td align="center">:x: / -</td>
 <td align="center">. / .</td>
 </tr>
 <tr class="even">
@@ -219,7 +219,7 @@ representa que o trabalho foi REALIZADO e :x: o NÃO REALIZADO.
 <td align="center">:white_check_mark: / !50</td>
 <td align="center">:white_check_mark: / !55</td>
 <td align="center">:white_check_mark: / !65</td>
-<td align="center">. / .</td>
+<td align="center">:white_check_mark: / !73</td>
 <td align="center">. / .</td>
 </tr>
 <tr class="odd">
@@ -233,7 +233,7 @@ representa que o trabalho foi REALIZADO e :x: o NÃO REALIZADO.
 <td align="center">-</td>
 <td align="center">-</td>
 <td align="center">-</td>
-<td align="center">. / .</td>
+<td align="center">-</td>
 <td align="center">. / .</td>
 </tr>
 </tbody>
@@ -255,20 +255,36 @@ indicado:
 <!-- atividades. As atividades seguem a ordem da data mais recente para a -->
 <!-- mais antiga. -->
 <!--------------------------------------------- -->
-<!-- * **Semana 10 - (03/05 - 10/05)** -->
-<!--     + **Alcides C. Neto** -->
-<!--     + **Altamiro A. Basiewics** -->
-<!--     + **Ângela L. C. Legey** -->
-<!--     + **Bruna D. Wundervald** -->
-<!--     + **Bruno Geronymo** -->
-<!--     + **Daniel Ikenaga** -->
-<!--     + **Eduardo E. R. Junior** -->
-<!--     + **Gabriel S. Klostermann** -->
-<!--     + **Jhenifer C. Veloso** -->
-<!--     + **Mônica L. H. De Oliveira** -->
-<!--     + **Paula A. Z. Dimas** -->
-<!--     + **Walmes M. Zeviani** -->
-<!--     + **Cesar A. Taconeli** -->
+-   **Semana 10 - (03/05 - 10/05)**
+    -   **Alcides C. Neto**: Concluir a *issue* \#112 (5 tabelas).
+    -   **Altamiro A. Basiewics**: **Concluir as atividades das OITO
+        semanas anteriores**.
+    -   **Ângela L. C. Legey**: Concluir as *issues* \#104 (2 tabelas) e
+        \#110 (4 tabelas).
+    -   **Bruna D. Wundervald**: **Concluir as atividades das semana
+        anterior issue \#100 (8 tabelas)**.
+    -   **Bruno Geronymo**: **Concluir as atividades das SEIS semanas
+        anteriores**.
+    -   **Daniel Ikenaga**: **Concluir as atividades das duas semanas
+        anteriores**; e concluir as *issues* \#85 (8 tabelas) e \#86
+        (8 tabelas).
+    -   **Eduardo E. R. Junior**: Atualizar o `plano.md`; Realizar as
+        eventuais correções de MR e incorporá-los ao ramo `devel`; e
+        concluir a *issue* \#109 (8 tabelas).
+    -   **Gabriel S. Klostermann**: Concluir a *issue* \#111
+        (5 tabelas).
+    -   **Jhenifer C. Veloso**: Concluir as *issues* \#89 (3 tabelas) e
+        \#102 (4 tabelas).
+    -   **Mônica L. H. De Oliveira**: **Concluir as atividades das NOVE
+        semanas anteriores**.
+    -   **Paula A. Z. Dimas**: **Concluir as atividades da semana
+        anterior**; e concluir a *issue* \#108 (5 tabelas).
+    -   **Walmes M. Zeviani**: Realizar as eventuais correções de MR e
+        incorporá-los ao ramo `devel`; e incluir parte das tabelas
+        apresentadas em apêndices do livro do Barbin (número de tabelas
+        não informado).
+    -   **Cesar A. Taconeli**: Realizar as eventuais correções de MR e
+        incorporá-los ao ramo `devel`.
 -   **Semana 9 - (26/04 - 03/05)**
     -   **Alcides C. Neto**: Concluir a *issue* \#107 (3 tabelas).
     -   **Altamiro A. Basiewics**: **Concluir as atividades das SETE
@@ -302,7 +318,7 @@ responsabilidades devem ser concluídas até o final de maio (estendendo o
 prazo do projeto apenas para a conclusão destas pendências).
 
 -   **Semana 8 - (19/04 - 26/04)**
-    -   **Alcides C. Neto**: Concluir a *issue* \#104 (2 tabelas).
+    -   **Alcides C. Neto**: Concluir a *issue* \#106 (4 tabelas).
     -   **Altamiro A. Basiewics**: **Concluir as atividades das SEIS
         semanas anteriores**; e concluir a *issue* \#92 (3 tabelas).
     -   **Ângela L. C. Legey**: Criar as *issues* correspondentes à
@@ -571,7 +587,7 @@ principais informações.
 Lista de datasets
 -----------------
 
-Até o momento, no ramo `devel` temos 190 conjuntos de dados já
+Até o momento, no ramo `devel` temos 198 conjuntos de dados já
 devidamente incluídos, documentados e revisados. Abaixo a contagem de
 *datasets* por obra.
 
@@ -599,9 +615,9 @@ devidamente incluídos, documentados e revisados. Abaixo a contagem de
 </tr>
 <tr class="even">
 <td align="left">Barbin</td>
-<td align="center">3</td>
-<td align="center">221</td>
-<td align="left">8.273 Kb</td>
+<td align="center">6</td>
+<td align="center">1585</td>
+<td align="left">22.062 Kb</td>
 </tr>
 <tr class="odd">
 <td align="left">Charnet</td>
@@ -647,15 +663,15 @@ devidamente incluídos, documentados e revisados. Abaixo a contagem de
 </tr>
 <tr class="even">
 <td align="left">Manly</td>
-<td align="center">5</td>
-<td align="center">1098</td>
-<td align="left">18.641 Kb</td>
+<td align="center">8</td>
+<td align="center">2871</td>
+<td align="left">33.648 Kb</td>
 </tr>
 <tr class="odd">
 <td align="left">Mingoti</td>
-<td align="center">10</td>
-<td align="center">2750</td>
-<td align="left">29.031 Kb</td>
+<td align="center">12</td>
+<td align="center">2915</td>
+<td align="left">32.516 Kb</td>
 </tr>
 <tr class="even">
 <td align="left">Pimentel</td>
