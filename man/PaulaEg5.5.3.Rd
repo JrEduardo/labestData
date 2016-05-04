@@ -40,5 +40,5 @@ xyplot(escore ~ period | trat,
       type = c("p", "g", "a"), data = PaulaEg5.5.3)
       
 }
-\keyword{QM}
+\keyword{quase-verossimilhança}
 
