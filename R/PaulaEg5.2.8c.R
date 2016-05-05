@@ -20,6 +20,9 @@
 #' @keywords quase-verossimilhança
 #' @source Paula, G. A. (2004). Modelos de regressão: com apoio
 #' computacional. São Paulo, SP: IME-USP. (Exemplo 5.2.8a, pág. 367)
+#' 
+#' @references McCullagh, P. e Nelder, J. A. (1989). Generalized Linear
+#'     Models, 2nd. Edition. Chapman and Hall, London. Tabela 9.2.
 #' @examples
 #'
 #' data(PaulaEg5.2.8c)
