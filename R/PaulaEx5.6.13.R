@@ -24,6 +24,11 @@
 #' @keywords quase-verossimilhança
 #' @source Paula, G. A. (2004). Modelos de regressão: com apoio
 #' computacional. São Paulo, SP: IME-USP. (Exercício 5.6.13, pág. 400)
+#' 
+#' @references Myers, R.H.; Montgomery, D. C. e Vining, G. G. (2002).
+#' Generalized Linear Models: With Applications in Engineering and the 
+#' Sciences. John Wiley, New York.
+#' 
 #' @examples
 #' 
 #' library(lattice)

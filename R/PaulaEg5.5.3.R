@@ -25,6 +25,11 @@
 #' @keywords quase-verossimilhança
 #' @source Paula, G. A. (2004). Modelos de regressão: com apoio
 #' computacional. São Paulo, SP: IME-USP. (Exemplo 5.5.3, pág. 390)
+#' 
+#' @references Hadgu, A. e Koch, G. (1999). Application of generalized 
+#' estimating equations to a dental randomized clinical trial. Journal 
+#' of Biopharmaceutical Statistics 9, 161-178.
+#' 
 #' @examples
 #' 
 #' data(PaulaEg5.5.3)

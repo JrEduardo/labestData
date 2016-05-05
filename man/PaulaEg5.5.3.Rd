@@ -40,5 +40,10 @@ xyplot(escore ~ period | trat,
       type = c("p", "g", "a"), data = PaulaEg5.5.3)
       
 }
+\references{
+Hadgu, A. e Koch, G. (1999). Application of generalized 
+estimating equations to a dental randomized clinical trial. Journal 
+of Biopharmaceutical Statistics 9, 161-178.
+}
 \keyword{quase-verossimilhança}
 
