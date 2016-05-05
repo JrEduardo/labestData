@@ -39,5 +39,10 @@ xyplot(reflec ~ mistur, groups = metod, auto.key = TRUE,
       type = c("p", "g", "a"), data = PaulaEx5.6.13)
 
 }
+\references{
+Myers, R.H.; Montgomery, D. C. e Vining, G. G. (2002).
+Generalized Linear Models: With Applications in Engineering and the 
+Sciences. John Wiley, New York.
+}
 \keyword{quase-verossimilhança}
 
