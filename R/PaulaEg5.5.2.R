@@ -53,4 +53,9 @@
 #'            xlab = "Condição Respiratória",
 #'            ylab = "Tratamento")
 #'            
+#' library(lattice)
+#'
+#' bwplot(cond ~ paci, data = PaulaEg5.5.2)
+#' bwplot(cond ~ idade, data = PaulaEg5.5.2)
+#'            
 NULL

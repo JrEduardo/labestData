@@ -54,6 +54,11 @@ mosaicplot(cond ~ trat, data = PaulaEg5.5.2,
            xlab = "Condição Respiratória",
            ylab = "Tratamento")
            
+library(lattice)
+
+bwplot(cond ~ paci, data = PaulaEg5.5.2)
+bwplot(cond ~ idade, data = PaulaEg5.5.2)
+           
 }
 \references{
 Myers, R.H.; Montgomery, D. C.; Vining, G. G. (2002).
