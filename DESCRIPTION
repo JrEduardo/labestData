@@ -32,3 +32,4 @@ Depends:
     R (>= 3.2.3)
 Suggests:
     lattice
+RoxygenNote: 5.0.1
