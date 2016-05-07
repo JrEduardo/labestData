@@ -10,16 +10,16 @@
 #' \item{\code{trat.D}}{Fator de 4 níveis, constituidos por 4 formas de 
 #'     manejo.}
 #' 
-#' \item{\code{blocos}}{Fator de 4 níveis formados constituidos por 4
+#' \item{\code{blocos}}{Fator de 4 níveis constituidos por 4
 #'     blocos.}
 #' 
 #' \item{\code{result}}{Resultados (Kg/parcela) dos tratamentos.}
 #' 
 #' }
-#' @keywords
+#' @keywords DEA
 #' @source Storck, L., & Garcia, B. C., & Lopes, S. J., & Estefanel, 
 #' V. (2011). ExperimentaÃ§Ã£o Vegetal (3th ed.). Santa Maria, RS: ufsm.
-#' (pg 134)
+#' (Tabela 56, pg 134)
 #' @examples 
 #' 
 #' library(lattice)
