@@ -14,7 +14,7 @@
 #'     cinco densidades de semeadura, respectivamente X= 30; 35; 40; 45
 #'     e 50 mil plantas/ha. }
 #' 
-#' \item{\code{blocos}}{ Fator d5 3 níveis constituidos por 5 blocos de 
+#' \item{\code{blocos}}{ Fator de 3 níveis constituídos por 5 blocos de 
 #'     repetições. }
 #' 
 #' \item{\code{result}}{ Resultados (Kg/parcela) dos tratamentos. }
