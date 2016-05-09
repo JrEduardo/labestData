@@ -17,9 +17,15 @@
 #'     unidades experimentais.}
 #'
 #' }
+<<<<<<< HEAD
 #' @keywords DBC
 #' @source Pimentel-Gomes, F. (2009). Curso de Estatístitica
 #'     Experimental (15th ed.). Piracicaba, SP: FEALQ. (Exemplo 5.2)
+=======
+#' @keywords DBC batatinha
+#' @source Pimentel-Gomes, F. (2009). Curso de Estatística
+#'     Experimental (15th ed.). Piracicaba: FEALQ.
+>>>>>>> 6daba6fb621d0da75847c85c02c3ba7a0be841e2
 #' @examples
 #'
 #' library(lattice)

@@ -30,6 +30,7 @@ LazyData: true
 Encoding: UTF-8
 Depends: 
     R (>= 3.2.3)
+<<<<<<< HEAD
 Suggests: 
     lattice,
     latticeExtra,
@@ -42,3 +43,8 @@ Suggests:
     reshape2
 VignetteBuilder: knitr
 RoxygenNote: 5.0.1
+=======
+Suggests:
+    lattice,
+    ggplot2
+>>>>>>> 6daba6fb621d0da75847c85c02c3ba7a0be841e2
