@@ -32,8 +32,8 @@
 #' 
 #' }
 #' @keywords TODO
-#' @source Paula, G. A. (2004). Modelos de regress?o: com apoio
-#' computacional. S?o Paulo, SP: IME-USP. (0.0, p?g. 000)
+#' @source Paula, G. A. (2004). Modelos de regressão: com apoio
+#' computacional. São Paulo, SP: IME-USP. (Exercício 3.7.24, pág. 279)
 #' @examples
 #' 
 #' library(lattice)
