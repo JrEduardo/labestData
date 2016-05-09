@@ -24,7 +24,7 @@
 }}
 \source{
 Paula, G. A. (2004). Modelos de regressão: com apoio
-computacional. São Paulo, SP: IME-USP. (Exemplo 5.5.1, pág. 379)
+    computacional. São Paulo, SP: IME-USP. (Exemplo 5.5.1, pág. 379)
 }
 \description{
 Dados obtidos por Diggle, Liang e Zeger, cujos
@@ -57,7 +57,8 @@ aggregate(ataq ~ indiv,  data = PaulaEg5.5.1,
 }
 \references{
 Diggle, P. J.; Liang, K. Y. e Zeger, S. L. (1994).
-Analysis of Longitudinal Data. Oxford University Press. Seção 8.4.
+    Analysis of Longitudinal Data. Oxford University Press.
+    Seção 8.4.
 }
 \keyword{quase-verossimilhança}
 

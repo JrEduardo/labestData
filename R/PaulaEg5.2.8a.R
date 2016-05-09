@@ -33,7 +33,7 @@
 #' }
 #' @keywords quase-verossimilhança
 #' @source Paula, G. A. (2004). Modelos de regressão: com apoio
-#' computacional. São Paulo, SP: IME-USP. (Exemplo 5.2.8a, pág. 359)
+#'     computacional. São Paulo, SP: IME-USP. (Exemplo 5.2.8a, pág. 359)
 #' 
 #' @references Paula, G. A. e Tavares, H. R. (1992). Relatório de
 #'     Análise Estatística sobre o Projeto: Ácaros Associados ao Esterco
