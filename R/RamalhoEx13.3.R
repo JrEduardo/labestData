@@ -1,0 +1,43 @@
+#' @name RamalhoEx13.3
+#' @title Notas da Avaliação de Famílias de Feijoeiro 
+#' @description Notas de "stay green" obtidos na avaliação de famílias
+#'     de feijoeiro, avaliados nas gerações \eqn{F_{2:3}}, \eqn{F_{2:4}}
+#'     e \eqn{F_{2:5}}.
+#' @format Um \code{data.frame} com 60 observações e 3 variáveis, em que
+#'
+#' \describe{
+#'
+#' \item{\code{fam}}{Fator de 20 níveis que indica a família do
+#'     feijoeiro.}
+#'
+#' \item{\code{gerac}}{Fator de 3 níveis (\eqn{F_{3}}, \eqn{F_{4}} e
+#'     \eqn{F_{5}}) que são os blocos do experimento, utilizado para
+#'     fazer controle local.}
+#'
+#' \item{\code{nota}}{Notas de "stay green".}
+#'
+#' }
+#' @keywords COV DBC
+#' @source Ramalho, M. A. P., Ferreira, D. F., Oliveira, A. C. (2005).
+#'     Experimentação em Genética e Melhoramento de Plantas (2th ed.).
+#'     Lavras: UFLA. (Exercício 13.3, pág. 257)
+#' @examples
+#'
+#' data(RamalhoEx13.3)
+#'
+#' str(RamalhoEx13.3)
+#'
+#' library(lattice)
+#'
+#' xyplot(nota ~ fam | gerac, data = RamalhoEx13.3,
+#'        type = c("p", "smooth"),
+#'        xlab = "Nota de stay green",
+#'        ylab = "Família")
+#'
+#' ftable(with(RamalhoEx13.3,
+#'             tapply(nota,
+#'                    list(fam = fam,
+#'                         gerac = gerac),
+#'                    FUN = mean)))
+#'
+NULL
