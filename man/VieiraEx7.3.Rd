@@ -17,7 +17,7 @@ Vieira, S.(1999). Estatística experimental (2th ed.).
     São Paulo, SP: Atlas. (Exercício 7.3 pág. 85).
 }
 \description{
-Dados de um experimento inteiramente ao acoso com
+Dados de um experimento inteiramente ao acaso com
     número diferente de repetições.
 }
 \examples{

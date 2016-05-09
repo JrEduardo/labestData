@@ -15,7 +15,7 @@
 #' }
 #' @keywords TODO
 #' @source Vieira, S.(1999). Estatística experimental (2th ed.). 
-#'     São Paulo, SP: Atlas. (Tabela 7.7 pág. 81).
+#'     São Paulo, SP: Atlas. (Tabela 7.7 pág. 81; Tabela 8.2 pág. 94).
 #' @examples
 #'
 #' library(lattice)
