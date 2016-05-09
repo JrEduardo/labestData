@@ -15,7 +15,7 @@
 #'     (1) ou não ocorrência (0) do sintoma.}
 #' 
 #' }
-#' @keywords
+#' @keywords TODO
 #' @source Paula, G. A. (2004). Modelos de regressão: com apoio
 #' computacional. São Paulo, SP: IME-USP. (Exercício 3.7.22, pág. 278)
 #' @examples

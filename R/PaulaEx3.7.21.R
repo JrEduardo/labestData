@@ -24,7 +24,7 @@
 #'     ocupação (claro, escuro). }
 #' 
 #' }
-#' @keywords
+#' @keywords TODO
 #' @source Paula, G. A. (2004). Modelos de regressão: com apoio
 #' computacional. São Paulo, SP: IME-USP. (Exercício 21, pág. 277)
 #' @examples
