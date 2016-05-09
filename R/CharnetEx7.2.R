@@ -1,0 +1,34 @@
+#' @name CharnetEx7.2
+#' 
+#' @title Impacto de Impurezas em um Reator Químico
+#' 
+#' @description Relação entre a porcentagem de impurezas dentro de um 
+#'     reator químico e o tempo de permanência da substância dentro 
+#'     deste reator.
+#'
+#' @format Um \code{data.frame} com 4 colunas e 20 linhas.
+#'
+#' \describe{
+#'
+#' \item{\code{rea}}{Reator analisado, "I" ou "II".}
+#' 
+#' \item{\code{t}}{Tempo, em minutos.}
+#'
+#' \item{\code{imp}}{Porcentagem de impurezas, em log(%).}
+#'
+#' }
+#'
+#' @keywords TODO
+#'
+#' @source Charnet, R., de Luna Freire, C.A., Charnet, E.M.R. & Bonvino,
+#'     H. (2008). Análise de modelos de regressão linear com aplicações
+#'     (2nd ed., p. 356). SP: Editora Unicamp (Cap. 7, exer. 2, p. 163,
+#'     Cap 10, exer. 2, p. 253)
+#'
+#' @examples
+#'
+#' data(CharnetEx7.2)
+#'
+#' plot(CharnetEx7.2$imp, CharnetEx7.2$t, col = CharnetEx7.2$rea)
+#'
+NULL
