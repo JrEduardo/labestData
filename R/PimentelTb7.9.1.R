@@ -1,0 +1,73 @@
+#' @name PimentelTb7.9.1
+#' @title Experimento de Adubação de Cafeeiro
+#' @description Experimento fatorial de adubação de cafeeiro com N, P,
+#'     K de 2 x 2 x 2, feito por Malavolta et al. (1958), foram contados
+#'     os galhos secos de 4 pés de café por parcela. Dos números
+#'     obtidos extraiu-se a raiz quadrada.
+#' @format Um \code{data.frame} com 48 observações e 5 variáveis, em que
+#'
+#' \describe{
+#'
+#' \item{\code{bloco}}{Fator de 6 níveis qualitativos, usado para
+#'     controle local.}
+#'
+#' \item{\code{N}}{Fator de 2 níveis qualitativos, que é usado
+#'     para o controle do efeito que o Nitrogênio causa no experimento,
+#'     sendo que a variável assume 1, quando houver Nitrogênio na
+#'     composição do adubo e -1 caso contrário.}
+#'
+#' \item{\code{P}}{Fator de 2 níveis qualitativos, que é usado
+#'     para o controle do efeito que o Fósforo causa no experimento,
+#'     sendo que a variável assume 1, quando houver Fósforo na
+#'     composição do adubo e -1 caso contrário.}
+#'     
+#' \item{\code{K}}{Fator de 2 níveis qualitativos, que é usado
+#'     para o controle do efeito que o Potássio causa no experimento,
+#'     sendo que a variável assume 1, quando houver Potássio na
+#'     composição do adubo e -1 caso contrário.}
+#'
+#' \item{\code{quad}}{Raiz quadrada do número de galhos secos de 4 pés
+#'     de café por parcela.}
+#'
+#' }
+#' @keywords FAT3
+#' @source Pimentel-Gomes, F. (2009). Curso de Estatística
+#'     Experimental (15th ed.). Piracicaba, SP: FEALQ. (Tabela 7.9.1)
+#' @examples
+#'
+#' library(lattice)
+#'
+#' grafico1 <- xyplot(quad ~ N | P,
+#'                    groups = bloco,
+#'                    data = PimentelTb7.9.1,
+#'                    xlab = "Nitrogênio (N)",
+#'                    ylab = "Raiz Quadrada do Número de Galhos Secos",
+#'                    strip = strip.custom(factor.levels =
+#'                                             c("Fósforo Presente",
+#'                                               "Fósforo Ausente")))
+#'
+#' grafico2 <- xyplot(quad ~ N | K,
+#'                    groups = bloco,
+#'                    data = PimentelTb7.9.1,
+#'                    xlab = "Nitrogênio (N)",
+#'                    ylab =  "Raiz Quadrada do Número de Galhos Secos",
+#'                    strip = strip.custom(factor.levels =
+#'                                             c("Potássio Presente",
+#'                                               "Potássio Ausente")))
+#'
+#' grafico3 <- xyplot(quad ~ P | K,
+#'                    groups = bloco,
+#'                    data = PimentelTb7.9.1,
+#'                    xlab = "Fósforo (P)",
+#'                    ylab =  "Raiz Quadrada do Número de Galhos Secos",
+#'                    strip = strip.custom(factor.levels =
+#'                                             c("Potássio Presente",
+#'                                               "Potássio Ausente")))
+#'
+#' print(grafico1, position = c(0, 0, 0.33, 1), more = TRUE)
+#'
+#' print(grafico2, position = c(0.33, 0, 0.66, 1), more = TRUE)
+#'
+#' print(grafico3, position = c(0.66, 0, 1, 1))
+#'
+NULL
