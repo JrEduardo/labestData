@@ -1,0 +1,37 @@
+#' @name PaulaEx3.7.7b
+#' @title Influência de Extrato Vegetal e Químico
+#' @description Experimento de dose-resposta conduzido para avaliar a 
+#'     influência dos extratos vegetais "aquoso frio de folhas", "aquoso
+#'     frio de frutos" e de um extrato químico, respectivamente, na morte 
+#'     de um determinado tipo de caramujo. 
+#'      
+#' @format Um \code{data.frame} com 7 observações e 3 variáveis.
+#' \describe{
+#' 
+#' \item{\code{dose}}{Dose.}
+#' 
+#' \item{\code{cexp}}{Caramujos expostos.}
+#' 
+#' \item{\code{cmort}}{Caramujos mortos.}
+#' 
+#' }
+#' @keywords binários
+#' @source Paula, G. A. (2004). Modelos de regressão: com apoio
+#'     computacional. São Paulo, SP: IME-USP. (Ex 3.7.7b, pág. 269)
+#'
+#' @examples
+#'
+#' data(PaulaEx3.7.7b)
+#' 
+#' str(PaulaEx3.7.7b)
+#' 
+#' library(lattice)
+#' xyplot(dose ~ cexp + cmort,
+#'        data = PaulaEx3.7.7b,
+#'        xlab = "Caramujos expostos e mortos",
+#'        ylab = "Dose",
+#'        auto.key = list(space="top", columns=2, 
+#'                        title="Caramujos", cex.title=1,
+#'                        lines=TRUE, points=FALSE))
+#'
+NULL
