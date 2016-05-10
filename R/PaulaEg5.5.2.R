@@ -1,13 +1,13 @@
 #' @name PaulaEg5.5.2
-#' @title Estudo sobreCondição Respiratória
+#' @title Estudo sobre Condição Respiratória
 #' @description Estudo discutido em Myers, Montgomery e Vining (2002)
 #'     que envolve a comparação de dois tratamentos aplicados em
 #'     pacientes com problemas respiratórios. Nesse estudo foi
 #'     considerado um total de 56 pacientes, sendo que 27 receberam o
 #'     tratamento com uma droga ativa e 29 receberam placebo.
-#'     Cada paciente foi observado em quatro ocasiões em que foi medida a
-#'     condição respiratória. Foram também registrados o sexo e a idade
-#'     de cada paciente além da pré-existência de um nível base.
+#'     Cada paciente foi observado em quatro ocasiões em que foi medida
+#'     a condição respiratória. Foram também registrados o sexo e a
+#'     idade de cada paciente além da pré-existência de um nível base.
 
 #' @format Um \code{data.frame} com 224 observações e 6 variáveis.
 #' \describe{
@@ -21,7 +21,8 @@
 #' 
 #' \item{\code{idade}}{Idade (em anos).}
 #' 
-#' \item{\code{nivel}}{Pré-existência de um nível base (ausência ou presença).}
+#' \item{\code{nivel}}{Pré-existência de um nível base (ausência ou
+#'     presença).}
 #' 
 #' \item{\code{cond}}{Condição respiratória do paciente (boa ou ruim).}
 #' 
@@ -38,20 +39,22 @@
 #' data(PaulaEg5.5.2)
 #'
 #' str(PaulaEg5.5.2)
-#'
-#' mosaicplot(cond ~ sexo, data = PaulaEg5.5.2,
-#'            main = NULL,
-#'            xlab = "Condição Respiratória",
-#'            ylab = "Sexo")
-#'
-#' mosaicplot(cond ~ trat, data = PaulaEg5.5.2,
-#'            main = NULL,
-#'            xlab = "Condição Respiratória",
-#'            ylab = "Tratamento")
 #'            
-#' library(lattice)
+#' library(latticeExtra)
 #'
-#' bwplot(cond ~ paci, data = PaulaEg5.5.2)
-#' bwplot(cond ~ idade, data = PaulaEg5.5.2)
+#' tb <- with(PaulaEg5.5.2, table(nivel, trat, sexo, cond))
+#' ftable(tb)
+#' ftable(prop.table(tb))
+#'
+#' useOuterStrips(
+#'     barchart(prop.table(tb), stack = FALSE,
+#'              xlab = "",
+#'              scales = list(x = list(relation = "free")),
+#'              between = list(x = 0.5),
+#'              auto.key = list(
+#'                  title = "Condição Respiratória",
+#'                  columns = 2, cex.title = 1)
+#'     )
+#' )
 #'            
 NULL
