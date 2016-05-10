@@ -1,7 +1,7 @@
 #' @name PaulaTb3.12
 #' @title Ocorrência de vaso-constrição
-#' @description Dados de um experimento experimento desenvolvido
-#'    para avaliar a influência da quantidade de ar inspirado na ocorrência
+#' @description Dados de um experimento desenvolvido para 
+#'    avaliar a influência da quantidade de ar inspirado na ocorrência
 #'    de vaso-constrição na pele dos dedos da mão.  A resposta é a ocorrência
 #'    (1) ou ausência (0) de compressão de vasos e as covariáveis são o 
 #'    logaritmo do volume e o logaritmo da razão de ar inspirado. 
