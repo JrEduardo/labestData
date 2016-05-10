@@ -6,16 +6,15 @@
 \format{Um \code{data.frame} com 323 observações e 4 variáveis.
 \describe{
 
-\item{\code{volunt}}{Número do paciente voluntário.}
+\item{\code{volunt}}{Identificação do paciente voluntário.}
 
-\item{\code{period}}{Avaliado em três períodos diferentes: tratamento
-    (1), após 3 meses (2) e após 6 meses (3).}
+\item{\code{period}}{Momento de avaliação: (1 = início do tratamento,
+   2 = após 3 meses e 3 = após 6 meses.}
 
-\item{\code{trat}}{Três tipos de tratamento placebo (1), rinse A (2),
-    rinse B (3).}
+\item{\code{trat}}{Tipo de tratamento (1 = placebo, 2 = líquido A e
+    3 = líquido B.}
 
-\item{\code{escore}}{Escore para as placas dentárias de cada 
-    indivíduo.}
+\item{\code{escore}}{Escore atribuído às placas dentárias.}
 
 }}
 \source{
@@ -25,7 +24,7 @@ computacional. São Paulo, SP: IME-USP. (Exemplo 5.5.3, pág. 390)
 \description{
 Um ensaio clínico foi realizado com 109 indivíduos 
     distribuídos de forma aleatória para receberem um líquido
-    tipo A (34 indivíduos), um líquido tipo B (36 indivíduos) e um
+    tipo A (34 indivíduos), um líquido tipo B (36 indivíduos) ou um
     líquido controle (39 indivíduos). As placas dentárias foram 
     avaliadas e classificadas segundo um escore no início do 
     tratamento, após 3 meses e após 6 meses.
@@ -36,8 +35,9 @@ data(PaulaEg5.5.3)
 
 require(lattice)
 
-xyplot(escore ~ period | trat,
-      type = c("p", "g", "a"), data = PaulaEg5.5.3)
+xyplot(escore ~ period | trat, groups = volunt, col = 'blue',
+      xlab = 'Período', ylab = 'Escore', type = c("p", "a"), 
+      data = PaulaEg5.5.3)
       
 }
 \references{
