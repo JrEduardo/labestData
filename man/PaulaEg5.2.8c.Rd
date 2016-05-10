@@ -6,14 +6,11 @@
 \format{Um \code{data.frame} com 90 observações e 3 variáveis.
 \describe{
 
-\item{\code{incid}}{Incidência da área afetada na folha de cevada
-    (em proporção).}
+\item{\code{incid}}{Proporção da área afetada na folha de cevada.}
 
-\item{\code{local}}{Fator de 9 níveis que representa o local onde foi
-    realizado o experimento.}
+\item{\code{local}}{Local onde foi realizado o experimento (1-9).}
 
-\item{\code{varied}}{Fator de 10 níveis que indica a variedade de
-    cevada.}
+\item{\code{varied}}{Variedade de cevada (1-10).}
 
 }}
 \source{
@@ -21,9 +18,9 @@ Paula, G. A. (2004). Modelos de regressão: com apoio
     computacional. São Paulo, SP: IME-USP. (Exemplo 5.2.8a, pág. 367)
 }
 \description{
-Dados obtidos por McCullagh e Nelderem, envolvendo a
-    incidência de um tipo de mancha é observada na folha da cevada
-    segundo 10 variedades em 9 locais diferentes.
+Dados apresentados em McCullagh e Nelder (1989),
+    envolvendo a incidência de um tipo de mancha observada na folha
+    da cevada, com 10 variedades em 9 diferentes locações.
 }
 \examples{
 
@@ -38,13 +35,6 @@ boxplot(incid ~ local, data = PaulaEg5.2.8c,
 boxplot(incid ~ varied, data = PaulaEg5.2.8c,
         xlab = "Variedade",
         ylab = "Área Afetada")
-
-library(lattice)
-
-xyplot(incid ~ local | varied, data = PaulaEg5.2.8c,
-       type = c("p", "a"),
-       xlab = "Local",
-       ylab = "Área Afetada")
 
 }
 \references{

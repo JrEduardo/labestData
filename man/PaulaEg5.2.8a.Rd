@@ -14,14 +14,14 @@
 
 \item{\code{esp14}}{Número de ácaros coletados da espécie 14.}
 
-\item{\code{placa}}{Fator que indica o número de partes da placa de
-    esterco onde foram coletados os ácaros.}
+\item{\code{placa}}{Número de partes da placa de esterco onde 
+    foram coletados os ácaros. (1 ou 6)}
 
-\item{\code{posic}}{Fator com dois níveis que indica a posição na
-    placa de esterco onde foram coletados os ácaros.}
+\item{\code{posic}}{Posição na placa de esterco onde foram coletados 
+os ácaros (central ou lateral).}
 
-\item{\code{reg}}{Fator com quatro níveis que indica a região onde a
-    placa de esterco foi coletada.}
+\item{\code{reg}}{Região onde a placa de esterco foi coletada (São
+     Roque, Pindamonhangaba, Nova Odessa ou Ribeirão Preto).}
 
 \item{\code{temp}}{Temperatura no local da coleta, medida
     \eqn{C^{\circ}}.}
@@ -32,13 +32,13 @@ Paula, G. A. (2004). Modelos de regressão: com apoio
     computacional. São Paulo, SP: IME-USP. (Exemplo 5.2.8a, pág. 359)
 }
 \description{
-Experimento envolvendo a distribuição do número de
-    ácaros em placas de esterco de gado bovino no estado de São
-    Paulo, obtidos por Paula e Tavares, 1992. Essas placas são 
-    depósitos de ovos da mosca do chifre (Haematobia irritans), uma
-    das pragas mais importantes da pecuária brasileira. Os ácaros são
-    inimigos naturais da mosca do chifre uma vez que se alimentam de
-    ovos e larvas dessas moscas.
+Dados de um experimento desenvolvido para estudar  
+    a distribuição do número de ácaros em placas de esterco de gado 
+    bovino no estado de São Paulo, obtidos por Paula e Tavares, 1992. 
+    Essas placas são depósitos de ovos da mosca do chifre 
+    (\emph{Haematobia irritans}), uma das pragas mais importantes da 
+    pecuária brasileira. Os ácaros são inimigos naturais da mosca do 
+    chifre, uma vez que se alimentam de ovos e larvas dessas moscas.
 }
 \examples{
 
@@ -53,8 +53,6 @@ splom(PaulaEg5.2.8a[, index],
       type = c("p", "g"),
       lwd = 2, col.line = 1)
 
-par(mfrow = c(1, 3), las = 2, mar = c(4, 3, 3, 1))
-sapply(PaulaEg5.2.8a[, !index], function(x) barplot(table(x)))
 
 }
 \references{

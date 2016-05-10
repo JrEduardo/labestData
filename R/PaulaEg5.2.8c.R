@@ -1,9 +1,9 @@
 #' @name PaulaEg5.2.8c
 #' @title Manchas na Folha de Cevada
-#' @description Dados apresentados em McCullagh e Nelder (1989), envolvendo a
-#'     incidência de um tipo de mancha observada na folha da cevada,
-#'     com 10 variedades em 9 diferentes locações.
-
+#' @description Dados apresentados em McCullagh e Nelder (1989),
+#'     envolvendo a incidência de um tipo de mancha observada na folha
+#'     da cevada, com 10 variedades em 9 diferentes locações.
+#'
 #' @format Um \code{data.frame} com 90 observações e 3 variáveis.
 #' \describe{
 #' 
@@ -34,7 +34,5 @@
 #' boxplot(incid ~ varied, data = PaulaEg5.2.8c,
 #'         xlab = "Variedade",
 #'         ylab = "Área Afetada")
-#'
-#' library(lattice)
 #'
 NULL
