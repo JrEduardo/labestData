@@ -11,16 +11,17 @@
 #' 
 #' \item{\code{pacient}}{Identificação do paciente.}
 #' 
-#' \item{\code{period}}{Mometo em que o paciente foi avaliado (1 = início 
+#' \item{\code{period}}{Momento em que o paciente foi avaliado (1 = início 
 #' do mês, 2 = após 1 mês, 3 = após 2 meses e 4 = após 3 meses.}
 #' 
 #' \item{\code{sexo}}{Sexo (1 = masculino e 0 = feminino).}
 #' 
 #' \item{\code{idade}}{Idade (em anos).}
 #' 
-#' \item{\code{trat}}{Tratamento aplicado (0 = placebo e 1 = Auronofin).}
+#' \item{\code{trat}}{Tratamento aplicado placebo ou Auronofin).}
 #' 
-#' \item{\code{result}}{Avaliação do paciente (1 = bom e 0 = regular ou ruim.}
+#' \item{\code{result}}{Avaliação do paciente classificada em 
+#' bom e regular ou ruim.}
 #' 
 #' }
 #' @keywords quase-verossimilhança
@@ -33,8 +34,17 @@
 #' 
 #' @examples
 #' 
+#' library(lattice)
+#' 
 #' data(PaulaEx5.6.15)
 #' 
-#' mosaicplot(result ~ trat, data = PaulaEx5.6.15)
-#' mosaicplot(result ~ sexo, data = PaulaEx5.6.15)
+#' barchart(table(PaulaEx5.6.15$result,PaulaEx5.6.15$trat, PaulaEx5.6.15$period), 
+#'          auto.key = list(space="top", 
+#'          columns = 4, cex.title = 1, rectangles = TRUE, points=FALSE, 
+#'          title = "Período"),
+#'          scales = list(y = list(relation = "free"),
+#'          x = list(alternating = FALSE)),
+#'          horizontal = FALSE, beside = FALSE, stack = FALSE, 
+#'          xlab = "Resultado", ylab = "Frequência absoluta")
+#'
 NULL
