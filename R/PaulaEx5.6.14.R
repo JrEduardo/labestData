@@ -11,7 +11,9 @@
 #' 
 #' \item{\code{rato}}{Número de identificação do rato.}
 #' 
-#' \item{\code{period}}{Período de avaliação (1, 2 ou 3).}
+#' \item{\code{period}}{Período de avaliação (1, 2, 3 ou 4).}
+#' 
+#' \item{\code{trat}}{Droga quimio-terápica utilizada (1, 2 ou 3).}
 #' 
 #' \item{\code{celubran}}{Quantidade de células brancas.}
 #' 
