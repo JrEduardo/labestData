@@ -1,0 +1,69 @@
+#' @name PaulaEx3.7.20
+#' @title Pacientes com leucemia
+#'
+#' @description Estudo com 51 pacientes adultos, 
+#' previamente diagnosticados com um tipo agudo de leucemia, que 
+#' receberam um tipo de tratamento e foi verificado após um certo 
+#' período a eficiência ou não do tratamento.
+#' 
+#' @format Um \code{data.frame} com 51 pacientes e 
+#'
+#' \describe{
+#'
+#' \item{\code{idade}}{Idade do paciente em anos.}
+#'
+#' \item{\code{mdd}}{Mancha que diferencia da doença em porcentagem.} 
+#' 
+#' \item{\code{if}}{Infiltração na medula em porcentagem.}
+#'
+#' \item{\code{cl}}{Células com leucemia em porcentagem.}
+#' 
+#' \item{\code{md}}{Malignidade da doença na 10^3.}
+#' 
+#' \item{\code{tmax}}{Temperatura máxima antes do tratamento (*10 F°).}
+#' 
+#' \item{\code{md}}{Malignidade da doença.}
+#' 
+#' \item{\code{trat}}{Tratamento (1:satisfatório, 0:não situação).}
+#' 
+#' \item{\code{tsobre}}{Tempo de sobrevivência em meses.} 
+#'
+#' \item{\code{sit}}{Situação (1:sobrevivente, 0:não sobrevivente).} 
+#' }
+#' 
+#' @keywords ML
+#' @source Paula, G. A. (2004). Modelos de regressão: com apoio
+#'     computacional. São Paulo, SP: IME-USP. 
+#'     (Exercício 3.7.19, página 276)
+#'     
+#' @references Everitt, B. S. (1994). 
+#' A Handbook of Statistical Analysis using S-Plus. 
+#' Chapman and Hall, London. (Página 253)
+#' 
+#' @examples
+#'
+#' data(PaulaEx3.7.20)
+#' 
+#' # Transformar variáveis
+#' 
+#' str(PaulaEx3.7.20)
+#' 
+#' PaulaEx3.7.20 <- transform(
+#'                  PaulaEx3.7.20,
+#'                  PaulaEx3.7.20$trat <- as.factor(PaulaEx3.7.20$trat),
+#'                  PaulaEx3.7.20$sit <- as.factor(PaulaEx3.7.20$sit)
+#'                  )
+#' 
+#' 
+#' require(car)
+#' 
+#' scatterplotMatrix(~ idade + mdd + im + cl + md + tmax + trat 
+#'                   + tsobre + sit,
+#'                   spread = FALSE, 
+#'                   pch = 20, 
+#'                   lwd = 2,
+#'                  smooth = TRUE, 
+#'                   data = PaulaEx3.7.20, 
+#'                   cex = 1.5,
+#'                   main = "Matriz das variáveis de Leucemia")
+NULL
