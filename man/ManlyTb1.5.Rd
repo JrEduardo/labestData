@@ -9,15 +9,18 @@
 
 \item{\code{pais}}{Identificação do país.}
 
-\item{\code{grup}}{Grupo econômico ao qual pertencente o país: União Europeia (UE); Área europeia de livre comércio (AELC); Leste; Outro}
+\item{\code{grup}}{Grupo econômico ao qual pertencente o país: União 
+     Europeia (UE); Área europeia de livre comércio (AELC); Leste; Outro}
 
-\item{\code{afp}}{Porcentagem da população ativa empregada na agricultura, florestal e pesca.}
+\item{\code{afp}}{Porcentagem da população ativa empregada na agricultura, 
+     florestal e pesca.}
 
 \item{\code{mep}}{Porcentagem empregada na mineração e exploração de pedreiras.}
 
 \item{\code{fab}}{Porcentagem empregada nas fábricas.}
 
-\item{\code{fea}}{Porcentagem empregada nas áreas de fornecimento de energia e água.}
+\item{\code{fea}}{Porcentagem empregada nas áreas de fornecimento de 
+     energia e água.}
 
 \item{\code{con}}{Porcentagem empregada na construção.}
  
@@ -25,17 +28,20 @@
  
 \item{\code{fin}}{Porcentagem empregada na área de finanças.}
  
-\item{\code{ssp}}{Porcentagem empregada na área de serviços sociais e pessoais.}
+\item{\code{ssp}}{Porcentagem empregada na área de serviços sociais e
+    pessoais.}
 
-\item{\code{tc}}{Porcentagem empregada nas áreas de transportes e comunicações.}
+\item{\code{tc}}{Porcentagem empregada nas áreas de transportes e 
+     comunicações.}
 
 }}
 \source{
-Manly, B. J. F. (2005). Métodos Estatísticos Multivariados- uma introdução.
-     Porto Alegre, RS: Bookman (pg 22)
+Manly, B. J. F. (2005). Métodos Estatísticos Multivariados- 
+     uma introdução. Porto Alegre, RS: Bookman (pg 22)
 }
 \description{
-Porcentagens da força de trabalho de empregados para nove diferentes campos de trabalho em 30 países europeus
+Porcentagens da força de trabalho de empregados para nove 
+diferentes campos de trabalho em 30 países europeus
 }
 \examples{
 
