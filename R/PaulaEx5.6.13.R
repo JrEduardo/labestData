@@ -1,9 +1,9 @@
 #' @name PaulaEx5.6.13
-#' @title Avaliação da dispersão de um pigmento numa pintura
+#' @title Análise da dispersão de um pigmento na pintura
 #' @description Um experimento foi conduzido para avaliar a dispersão 
 #'     de quatro diferentes pigmentos numa pintura. O procedimento 
 #'     consistiu em preparar cada mistura e aplicá-las num painel usando 
-#'     três métodos diferentes. O experimento é repetido em três dias diferentes 
+#'     três métodos diferentes. O experimento é repetido em três dias distintos 
 #'     e a resposta é a porcentagem de reflectância do pigmento.
 #'     
 #' @format Um \code{data.frame} com 36 observações e 5 variáveis.

@@ -1,11 +1,11 @@
 #' @name PaulaEg5.5.3
 #' @title Ensaio clínico da pré-existência de placa dentária
-#' @description Um ensaio clínico foi realizado com 109 indivíduos 
+#' @description Dados de um ensaio clínico realizado com 109 indivíduos, 
 #'     distribuídos de forma aleatória para receberem um líquido
 #'     tipo A (34 indivíduos), um líquido tipo B (36 indivíduos) ou um
-#'     líquido controle (39 indivíduos). As placas dentárias foram 
+#'     líquido controle (39 indivíduos). Placas dentárias foram 
 #'     avaliadas e classificadas segundo um escore no início do 
-#'     tratamento, após 3 meses e após 6 meses.
+#'     tratamento, após 3 e 6 meses.
 #'     
 #' @format Um \code{data.frame} com 323 observações e 4 variáveis.
 #' \describe{
@@ -35,7 +35,7 @@
 #' 
 #' require(lattice)
 #' 
-#' xyplot(escore ~ period | trat, groups = volunt, col = 'blue',
+#' xyplot(escore ~ period | trat, groups = volunt,
 #'       xlab = 'Período', ylab = 'Escore', type = c("p", "a"), 
 #'       data = PaulaEg5.5.3)
 #'       

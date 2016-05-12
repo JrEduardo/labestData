@@ -1,7 +1,7 @@
 #' @name PaulaEx5.6.14
 #' @title Comparação de drogas para tratamento de leucemia
-#' @description Dados referentes a experimento em que 30 ratos tiveram
-#'     uma condição de leucemia induzida , sendo submetidos, posteriormente, 
+#' @description Dados referentes a um experimento em que 30 ratos tiveram
+#'     uma condição de leucemia induzida, sendo submetidos, posteriormente, 
 #'     a três drogas quimioterápicas. Foram coletadas de cada animal a 
 #'     quantidade de células brancas, a quantidade de células vermelhas 
 #'     e o número de colônias de células cancerosas, em três períodos diferentes.
@@ -13,7 +13,7 @@
 #' 
 #' \item{\code{period}}{Período de avaliação (1, 2, 3 ou 4).}
 #' 
-#' \item{\code{trat}}{Droga quimio-terápica utilizada (1, 2 ou 3).}
+#' \item{\code{trat}}{Droga quimioterápica utilizada (1, 2 ou 3).}
 #' 
 #' \item{\code{celubran}}{Quantidade de células brancas.}
 #' 
@@ -36,7 +36,7 @@
 #'
 #' data(PaulaEx5.6.14)
 #' 
-#' xyplot(celucanc ~ period, groups = rato, col = 'blue',
+#' xyplot(celucanc ~ period, groups = rato,
 #'        type = c("p", "g", "a"), data = PaulaEx5.6.14)
 #'        
 NULL
