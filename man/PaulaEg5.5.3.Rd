@@ -22,12 +22,12 @@ Paula, G. A. (2004). Modelos de regressão: com apoio
 computacional. São Paulo, SP: IME-USP. (Exemplo 5.5.3, pág. 390)
 }
 \description{
-Um ensaio clínico foi realizado com 109 indivíduos 
+Dados de um ensaio clínico realizado com 109 indivíduos, 
     distribuídos de forma aleatória para receberem um líquido
     tipo A (34 indivíduos), um líquido tipo B (36 indivíduos) ou um
-    líquido controle (39 indivíduos). As placas dentárias foram 
+    líquido controle (39 indivíduos). Placas dentárias foram 
     avaliadas e classificadas segundo um escore no início do 
-    tratamento, após 3 meses e após 6 meses.
+    tratamento, após 3 e 6 meses.
 }
 \examples{
 
@@ -35,7 +35,7 @@ data(PaulaEg5.5.3)
 
 require(lattice)
 
-xyplot(escore ~ period | trat, groups = volunt, col = 'blue',
+xyplot(escore ~ period | trat, groups = volunt,
       xlab = 'Período', ylab = 'Escore', type = c("p", "a"), 
       data = PaulaEg5.5.3)
       
