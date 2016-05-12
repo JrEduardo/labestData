@@ -1,16 +1,16 @@
 #' @name PaulaTb3.20
-#' @title Aplicação de inseticidas em um tipo de inseto
-#' @description A tabela resume os resultados de um experimento em que três
+#' @title Aplicação de inseticidas em insetos
+#' @description Dados de um experimento em que três
 #'    inseticidas são aplicados num determinado tipo de inseto e é
-#'    verificado o número de sobreviventes para cada dose aplicada. Para cada
-#'    inseticida, a resposta é 1 para presença e 0 para ausência. 
+#'    verificado o número de sobreviventes para cada dose aplicada. 
+#'    
 #' @format Um \code{data.frame} com 18 observações e 6 variáveis, em que
 #'
 #' \describe{
 #'
 #' \item{mortos}{Número de insetos mortos.}
 #'     
-#' \item{exp}{Número de insetos mortos expostos aos inseticidas.}
+#' \item{exp}{Número de insetos expostos aos inseticidas.}
 #'
 #' \item{dose}{Dose aplicada dos inseticidas.}
 #'

@@ -1,9 +1,10 @@
 #' @name PaulaEg3.6.11a
 #' @title Exposição de besouros
-#' @description Dados de  um estudo que baseia-se no comportamento de 
-#'     besouros adultos à exposição de disulfeto de carbono gasoso (CS2)
-#'     durante cinco horas. Os resultados obtidos a partir dos 481 besouros
-#'     expostos segundo diferentes doses são apresentados na tabela.
+#' @description Dados de  um estudo sobre o efeito da exposição de  
+#'     besouros adultos a diferentes doses de disulfeto de carbono gasoso 
+#'     (CS2), durante cinco horas. Foram registrados os números de besouros
+#'     mortos.
+#' 
 #' @format Um \code{data.frame} com 8 observações e 3 variáveis, em que
 #'
 #' \describe{

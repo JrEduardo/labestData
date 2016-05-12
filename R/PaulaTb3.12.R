@@ -5,6 +5,7 @@
 #'    de vaso-constrição na pele dos dedos da mão.  A resposta é a ocorrência
 #'    (1) ou ausência (0) de compressão de vasos e as covariáveis são o 
 #'    logaritmo do volume e o logaritmo da razão de ar inspirado. 
+#'    
 #' @format Um \code{data.frame} com 39 observações e 3 variáveis, em que
 #'
 #' \describe{

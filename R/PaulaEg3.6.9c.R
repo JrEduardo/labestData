@@ -1,11 +1,12 @@
 #' @name PaulaEg3.6.9c
 #' @title Preferência de consumidores
 #' @description Dados sobre a preferência de consumidores americanos com
-#'    relação a automóveis. Uma amostra aleatóriade 263 consumidores foi 
+#'    relação a automóveis. Uma amostra aleatória de 263 consumidores foi 
 #'    considerada. As seguintes variáveis foram observadas para cada 
 #'    comprador: preferência do tipo de automóvel (1 = americano, 
 #'    0 = japonês), idade (em anos), sexo (0 =  masculino; 1 = feminino)
 #'     e estado civil (0 = casado, 1 = solteiro). 
+#'     
 #' @format Um \code{data.frame} com 263 observações e 4 variáveis, em que
 #'
 #' \describe{

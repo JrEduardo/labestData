@@ -3,9 +3,10 @@
 #' @description Dados de um experimento conduzido para avaliar o efeito de 
 #'    diversos extratos vegetais na mortalidade de embriões de Biomphalaria
 #'    Glabrata. Para o extrato vegetal aquoso frio de folhas de P. Hyrsiflora
-#'    consideramos um total de k = 7 grupos sendo que os n embriões do
-#'    i-ésimo grupo foram submetidos a uma dose x (ppm) do extrato vegetal,
-#'    observando após o vigésimo dia o número de embriões mortos.
+#'    foram considerados 7 amostras, sendo que em cada uma delas 50 embriões
+#'    foram submetidos a uma particular dose do extrato vegetal,
+#'    registrando-se, após o vigésimo dia, o número de embriões mortos.
+#'    
 #' @format Um \code{data.frame} com 7 observações e 3 variáveis, em que
 #'
 #' \describe{

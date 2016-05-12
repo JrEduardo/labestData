@@ -1,17 +1,17 @@
 #' @name PaulaEg3.5.1
 #' @title Associação entre fungicida e desenvolvimento de tumor
-#' @description Dados de um experimento referente a um estudo para avaliar
-#'     o possível efeito cancerígeno do fungicida Avadex. No estudo, 403 camundongos são observados. Desses,
-#'    65 receberam o fungicida e foram acompanhados durante 85 semanas, veri-
-#'    ficando o desenvolvimento ou não de tumor cancerígeno. Os demais animais
-#'    não receberam o fungicida (grupo controle) e também foram acompanhados
-#'    pelo mesmo período, verificando a ocorrência ou não de tumor
+#' @description Dados de um experimento realizado para avaliar
+#'    o possível efeito cancerígeno do fungicida Avadex. Foram utilizados 
+#'    403 camundongos. Desses, 65 receberam o fungicida e foram acompanhados 
+#'    durante 85 semanas, verificando-se o desenvolvimento ou não de tumor 
+#'    cancerígeno. Os demais animais não receberam o fungicida (grupo controle) 
+#'    e também foram acompanhados pelo mesmo período.
+#'    
 #' @format Um \code{data.frame} com 4 observações e 4 variáveis, em que
 #'
 #' \describe{
 #'
-#' \item{sexo}{Fator de níveis numéricos. Identifica o sexo do 
-#'    camundongo.}
+#' \item{sexo}{Sexo do camundongo.}
 #'     
 #' \item{trat}{Fator de níveis numéricos. identifica a presença ou não
 #'    do tratamento.}
@@ -22,6 +22,7 @@
 #' \item{exp}{Número inteiro que identifica a quantidade de expostos.}
 #'
 #' }
+#' 
 #' @keywords GLM
 #' @source Paula, G. A. (2004). Modelos de regressão: com apoio computacional. 
 #'    São Paulo, SP: IME-USP. (Eg 3.5.1 pág. 201)
