@@ -1,10 +1,10 @@
 #' @name PaulaEg5.5.1
 #' @title Ensaio Clínico com Indivíduos Epilépticos
 #' @description Dados apresentados em Diggle, Liang e Zeger (1994), 
-#'     oriundos de um ensaio clínico com 59 indivíduos epilépticos,
+#'     referentes a um ensaio clínico com 59 indivíduos epilépticos,
 #'     aleatorizados de modo que cada um recebesse uma droga
 #'     antiepiléptica (progabide) ou placebo.
-#'     Os dados de cada indivíduo consistiram do número de ataques 
+#'     Os dados de cada indivíduo consistem do número de ataques 
 #'     epilépticos num período de oito semanas antes do tratamento, além
 #'     do número de ataques em cada período de duas semanas, num total
 #'     de quatro períodos após o tratamento. O interesse do estudo é
