@@ -3,7 +3,7 @@
 \name{ManlyTb1.4}
 \alias{ManlyTb1.4}
 \title{Cães pré-históricos da Tailândia}
-\format{Um \code{data.frame} com 7 grupos caninos e 6 variáveis.
+\format{Um \code{data.frame} com 7 grupos caninos e 6 variáveis. 
 
 \describe{
 
@@ -30,6 +30,7 @@ Estudo em ancestrais de cães da Tailândia,
 através de medições das mandíbulas.
 }
 \examples{
+
 
 data(ManlyTb1.4)
 

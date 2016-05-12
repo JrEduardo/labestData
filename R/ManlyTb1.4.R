@@ -4,7 +4,7 @@
 #' @description Estudo em ancestrais de cães da Tailândia, 
 #' através de medições das mandíbulas.
 #'
-#' @format Um \code{data.frame} com 7 grupos caninos e 6 variáveis.
+#' @format Um \code{data.frame} com 7 grupos caninos e 6 variáveis. 
 #' 
 #' \describe{
 #'
