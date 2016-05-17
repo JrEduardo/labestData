@@ -11,10 +11,9 @@
 #'
 #' \describe{
 #'
-#' \item{sexo}{Sexo do camundongo.}
+#' \item{sexo}{Sexo do camundongo (macho = 1 e fêmea = 0).}
 #'     
-#' \item{trat}{Fator de níveis numéricos. identifica a presença ou não
-#'    do tratamento.}
+#' \item{trat}{Identifica a presença ou não do tratamento (sim = 1 e não = 0).}
 #'
 #' \item{casos}{Número inteiro que identifica a quantidade de casos
 #'     ocorridos.}
@@ -23,7 +22,7 @@
 #'
 #' }
 #' 
-#' @keywords GLM
+#' @keywords GLM binarios
 #' @source Paula, G. A. (2004). Modelos de regressão: com apoio computacional. 
 #'    São Paulo, SP: IME-USP. (Eg 3.5.1 pág. 201)
 #' @examples
@@ -32,8 +31,8 @@
 #'
 #' data(PaulaEg3.5.1)
 #'
-#' xyplot(casos ~ trat,  data = PaulaEg3.5.1, 
-#'        type=c("p","a"),
-#'        xlab="Tratamento", ylab="Casos", 
-#'        main="Associação entre fungicida e desenvolvimento de tumor")
+#' barchart(casos ~ trat,  data = PaulaEg3.5.1, groups = exp,
+#'          scales=list(x=list(rot=90,cex=0.8)),
+#'          xlab="Tratamento", ylab="Casos e Expostos", 
+#'          main="Associação entre fungicida e desenvolvimento de tumor")
 NULL

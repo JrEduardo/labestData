@@ -4,7 +4,7 @@
 #'    inseticidas são aplicados num determinado tipo de inseto e é
 #'    verificado o número de sobreviventes para cada dose aplicada. 
 #'    
-#' @format Um \code{data.frame} com 18 observações e 6 variáveis, em que
+#' @format Um \code{data.frame} com 18 observações e 7 variáveis, em que
 #'
 #' \describe{
 #'
@@ -19,6 +19,8 @@
 #' \item{gamaddt}{Presença ou ausência deste tipo de inseticida.}
 #'
 #' \item{ddt.gamaddt}{Presença ou ausência deste tipo de inseticida.}
+#' 
+#' \item{comb}{Combinação dos níveis dos tipos de inseticida.}
 #'
 #' }
 #' @keywords GLM
@@ -30,15 +32,11 @@
 #'
 #' data(PaulaTb3.20)
 #'
-#' xyplot(mortos ~ dose | ddt,  data = PaulaTb3.20, 
-#'        type = c("p","a"),
-#'        xlab = "Dose aplicada (DDT)", 
-#'        ylab = "Quantidade de insetos mortos", 
-#'        main = "Aplicações de inseticidas")
+#' str(PaulaTb3.20)
 #' 
-#' xyplot(mortos ~ dose | gamaddt,  data = PaulaTb3.20, 
-#'        type = c("p","a"),
-#'        xlab = "Dose aplicada (gammaDDT)", 
-#'        ylab = "Quantidade de insetos mortos", 
-#'        main = "Aplicações de inseticidas")
+#' barchart(mortos/(sum(mortos)) ~ dose,  data = PaulaTb3.20, 
+#'          type = c("p","a"), groups= comb, col=c(45:47),
+#'          xlab = "Dose aplicada de cada inseticida", 
+#'          ylab = "Quantidade de insetos mortos", 
+#'          main = "Aplicações de inseticidas")
 NULL

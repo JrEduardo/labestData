@@ -14,10 +14,11 @@
 #'     
 #' \item{razao}{Logaritmo da razão de ar inspirado.}
 #'
-#' \item{resp}{Ocorrência ou não de compressão de vaso.}
+#' \item{resp}{Ocorrência ou não de compressão de vaso (ocorrência = 1
+#'    e ausência = 0).}
 #'     
 #' }
-#' @keywords GLM
+#' @keywords GLM binarios
 #' @source Paula, G. A. (2004). Modelos de regressão: com apoio computacional. 
 #'    São Paulo, SP: IME-USP. (Tb 3.12 pág. 227)
 #' @examples
@@ -26,13 +27,15 @@
 #'
 #' data(PaulaTb3.12)
 #'
-#' xyplot(vol ~ resp,  data = PaulaTb3.12, 
+#' str(PaulaTb3.12)
+#' 
+#' bwplot(vol ~ resp,  data = PaulaTb3.12, 
 #'        type=c("p","a"),
-#'        xlab="Ocorrência", ylab="Volume de ar inspirado", 
+#'        xlab="Ausência e Ocorrência", ylab="Volume de ar inspirado", 
 #'        main="Ocorrência de vaso-constrição")
 #' 
-#' xyplot(razao ~ resp,  data = PaulaTb3.12, 
+#' bwplot(razao ~ resp,  data = PaulaTb3.12, 
 #'        type=c("p","a"),
-#'        xlab="Ocorrência", ylab="Razao de ar inspirado", 
-#'        main="Ocorrência de vaso-constrição")
+#'        xlab=" Ausência e Ocorrência", ylab="Razão de ar inspirado", 
+#'      main="Ocorrência de vaso-constrição")
 NULL

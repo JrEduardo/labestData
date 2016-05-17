@@ -2,8 +2,9 @@
 #' @title Exposição de besouros
 #' @description Dados de  um estudo sobre o efeito da exposição de  
 #'     besouros adultos a diferentes doses de disulfeto de carbono gasoso 
-#'     (CS2), durante cinco horas. Foram registrados os números de besouros
-#'     mortos.
+#'     \emph{(CS2)}, durante cinco horas. Foram registrados os números 
+#'     de besouros mortos. Não há informações sobre a unidade de medida
+#'     das doses do tratamento. 
 #' 
 #' @format Um \code{data.frame} com 8 observações e 3 variáveis, em que
 #'
@@ -17,7 +18,7 @@
 #'    foram expostos.}
 #'     
 #' }
-#' @keywords GLM
+#' @keywords GLM binarios
 #' @source Paula, G. A. (2004). Modelos de regressão: com apoio computacional. 
 #'    São Paulo, SP: IME-USP. (Eg 3.6.11a pág. 237)
 #' @examples
@@ -25,16 +26,18 @@
 #' library(lattice)
 #'
 #' data(PaulaEg3.6.11a)
-#'
-#' xyplot(mortos ~ dose,  data = PaulaEg3.6.11a, 
-#'        type = c("p","a"),
-#'        xlab = "Dose de disulfeto de carbono gasoso", 
-#'        ylab = "Besouros mortos", 
-#'        main = expression("Exposição de besouros a", CS[2]))
 #' 
-#' xyplot(exp ~ dose,  data = PaulaEg3.6.11a, 
-#'        type = c("p","a"),
-#'        xlab = "Dose de disulfeto de carbono gasoso", 
-#'        ylab = "Besouros expostos", 
-#'        main = expression("Exposição de besouros a", CS[2]))
+#' str(PaulaEg3.6.11a)
+#'
+#' barchart(mortos/(sum(mortos)) ~ dose,  data = PaulaEg3.6.11a, 
+#'          col="lightblue",
+#'          xlab = "Dose de disulfeto de carbono gasoso", 
+#'          ylab = "Besouros mortos", 
+#'          main = expression("Exposição de besouros a"~CS[2]))
+#' 
+#' barchart(exp/sum(exp) ~ dose,  data = PaulaEg3.6.11a, 
+#'          col="lightblue",
+#'          xlab = "Dose de disulfeto de carbono gasoso", 
+#'          ylab = "Besouros expostos", 
+#'         main = expression("Exposição de besouros a"~CS[2]))
 NULL

@@ -1,26 +1,24 @@
 #' @name PaulaEg3.5.2
 #' @title Efeito de extrato vegetal
 #' @description Dados de um experimento conduzido para avaliar o efeito de 
-#'    diversos extratos vegetais na mortalidade de embriões de Biomphalaria
-#'    Glabrata. Para o extrato vegetal aquoso frio de folhas de P. Hyrsiflora
-#'    foram considerados 7 amostras, sendo que em cada uma delas 50 embriões
-#'    foram submetidos a uma particular dose do extrato vegetal,
-#'    registrando-se, após o vigésimo dia, o número de embriões mortos.
+#'    diversos extratos vegetais na mortalidade de embriões de 
+#'    \emph{Biomphalaria Glabrata}. Para o extrato vegetal aquoso frio de 
+#'    folhas de \emph{P. Hyrsiflora} foram consideradas 7 amostras, sendo
+#'    que em cada uma delas 50 embriões foram submetidos a uma particular 
+#'    dose do extrato vegetal, registrando-se, após o vigésimo dia, o 
+#'    número de embriões mortos.
 #'    
-#' @format Um \code{data.frame} com 7 observações e 3 variáveis, em que
+#' @format Um \code{data.frame} com 2 observações e 3 variáveis, em que
 #'
 #' \describe{
 #'
 #' \item{dose}{Fator de níveis numéricos. Indica a dose de extrato vegetal
-#'     aplicada.}
-#'     
-#' \item{mi}{Soma de estatísticas suficientes minimais, para aplicar teste
-#'    de tendência.}
+#'     aplicada (em partes por milhão).}
 #'
 #' \item{emb}{Número de embriões mortos observado.}
 #'     
 #' }
-#' @keywords GLM
+#' @keywords GLM binarios
 #' @source Paula, G. A. (2004). Modelos de regressão: com apoio computacional. 
 #'    São Paulo, SP: IME-USP. (Eg 3.5.2 pág. 203)
 #' @examples
@@ -29,8 +27,15 @@
 #'
 #' data(PaulaEg3.5.2)
 #'
-#' xyplot(emb ~ dose,  data = PaulaEg3.5.2, 
-#'        type=c("p","a"),
-#'        xlab="Dose", ylab="Embriões", 
-#'        main="Efeito de extrato vegetal")
+#' str(PaulaEg3.5.2)
+#' 
+#' barchart(emb/(sum(emb)) ~ dose,  data = PaulaEg3.5.2, 
+#'          stack=T, col= "lightblue",
+#'          xlab="Dose (em ppm)", ylab="Embriões mortos", 
+#'          main="Efeito de extrato vegetal")
+#' 
+#' barchart(emb ~ dose,  data = PaulaEg3.5.2, 
+#'          stack=T, col= "tomato",
+#'          xlab="Dose (em ppm)", ylab="Embriões", 
+#'          main="Efeito de extrato vegetal")
 NULL

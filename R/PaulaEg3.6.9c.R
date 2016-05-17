@@ -3,24 +3,23 @@
 #' @description Dados sobre a preferência de consumidores americanos com
 #'    relação a automóveis. Uma amostra aleatória de 263 consumidores foi 
 #'    considerada. As seguintes variáveis foram observadas para cada 
-#'    comprador: preferência do tipo de automóvel (1 = americano, 
-#'    0 = japonês), idade (em anos), sexo (0 =  masculino; 1 = feminino)
-#'     e estado civil (0 = casado, 1 = solteiro). 
+#'    comprador: preferência do tipo de automóvel, idade, sexo e estado civil. 
 #'     
 #' @format Um \code{data.frame} com 263 observações e 4 variáveis, em que
 #'
 #' \describe{
 #'
-#' \item{pref}{Preferência do comprador por um tipo de automóvel.}
+#' \item{pref}{Preferência do comprador por um tipo de automóvel (1 = americano, 
+#'    0 = japonês).}
 #'     
 #' \item{idade}{Idade do comprador (em anos).}
 #'
-#' \item{sexo}{Sexo do comprador.}
+#' \item{sexo}{Sexo do comprador (0 =  masculino; 1 = feminino).}
 #'
-#' \item{est}{Estado civil do comprador.}
+#' \item{est}{Estado civil do comprador (0 = casado, 1 = solteiro).}
 #'
 #' }
-#' @keywords GLM
+#' @keywords GLM binarios 
 #' @source Paula, G. A. (2004). Modelos de regressão: com apoio computacional. 
 #'    São Paulo, SP: IME-USP. (Eg 3.6.9c pág. 231)
 #' @examples
@@ -29,13 +28,17 @@
 #'
 #' data(PaulaEg3.6.9c)
 #'
-#' xyplot(idade ~ sexo | pref,  data = PaulaEg3.6.9c, 
-#'        type=c("p","a"),
-#'        xlab="Sexo do Comprador", ylab="Idade do Comprador", 
-#'        main="Preferência de Compra")
+#' str(PaulaEg3.6.9c)
 #' 
-#' xyplot(idade ~ est | pref,  data = PaulaEg3.6.9c, 
-#'        type=c("p","a"),
-#'        xlab="Estado Civil do Comprador", ylab="Idade do Comprador", 
-#'        main="Preferência de Compra")
+#' bwplot(idade ~ pref,  data = PaulaEg3.6.9c, 
+#'        type="p",
+#'        xlab="Preferência - Japonês e Americano", 
+#'        ylab="Idade do Comprador", 
+#'        main="Preferência de Compra - Japonês e Americano")
+#' 
+#' barchart(idade ~ est | pref,  data = PaulaEg3.6.9c, 
+#'          type="p", col = "lightblue",
+#'          xlab="Estado Civil do Comprador (0 = casado, 1 = solteiro)", 
+#'          ylab="Idade do Comprador", 
+#'          main="Preferência de Compra - Japonês e Americano")
 NULL
