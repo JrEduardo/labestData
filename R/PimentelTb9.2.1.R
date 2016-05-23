@@ -1,0 +1,37 @@
+#' @name PimentelTb9.2.1
+#' @title Experimento de Adubos Verdes e Milho
+#' @description Experimento com 8 tratamentos (7 adubos verdes e milho)
+#'     em blocos ao acaso, com 4 repetições, realizado em dois anos
+#'     sucessivos nas mesmas parcelas.
+#' @format Um \code{data.frame} com 64 observações e 4 variáveis, em que
+#'
+#' \describe{
+#'
+#' \item{\code{ano}}{Fator de 2 níveis qualitativos, que diferencia os
+#'     dois anos sucessivos, tratados como subparcelas.}
+#'
+#' \item{\code{bloco}}{Fator de 4 níveis qualitativos, usado para
+#'     controle local.}
+#'     
+#' \item{\code{cultura}}{Fator de 8 níveis qualitativos, que são os
+#'     diferentes tipos de cultura, variando entre adubos verdes e
+#'     milho.}
+#'     
+#' \item{\code{prod}}{Produção de adubos verdes e milho medidos em kg de
+#'     matéria verde por parcela.}
+#'
+#' }
+#' @keywords PSS
+#' @source Pimentel-Gomes, F. (2009). Curso de Estatística
+#'     Experimental (15th ed.). Piracicaba, SP: FEALQ. (Tabela 9.2.1)
+#' @examples
+#'
+#' library(lattice)
+#'
+#' xyplot(prod ~ cultura,
+#'        groups = ano,
+#'        data = PimentelTb9.2.1,
+#'        xlab = "Cultura x Ano (Azul = 1, Rosa = 2)",
+#'        ylab = "Produção em kg de Matéria Verde por Parcela")
+#'
+NULL
