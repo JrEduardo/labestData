@@ -2,39 +2,39 @@
 % Please edit documentation in R/VieiraTb5.3.R
 \name{VieiraTb5.3}
 \alias{VieiraTb5.3}
-\title{Produção de milho}
+\title{Produção de Variedades de Milho}
 \format{Um \code{data.frame} com 20 observações e 3 variáveis, em que
 
 \describe{
 
-\item{\code{varied}}{Fator de níveis nominais, indicando a variedade
+\item{\code{varied}}{Fator de níveis nominais que indicam a variedade
     do milho.}
 
 \item{\code{bloc}}{Fator de 5 níveis, usado para controle local.}
 
-\item{\code{prod}}{Produção de milho em kg/100 \eqn{^{2}}.}
+\item{\code{prod}}{Produção de milho em kg/100 m\eqn{^{2}}.}
 
 }}
 \source{
-Vieira, S.(1999). 
-    Estatística experimental (2th ed.). 
-    São Paulo, SP: Atlas. (pg 53).
+Vieira, S.(1999).  Estatística experimental (2th ed.).  São
+    Paulo, SP: Atlas. (pág. 53, tabela 5.3).
 }
 \description{
-Experimento da produção de milho de 4 diferentes 
+Experimento da produção de milho de 4 diferentes
     variedades em um delineamento de blocos casualizados.
 }
 \examples{
 
 data(VieiraTb5.3)
 
+str(VieiraTb5.3)
+
 library(lattice)
 
-xyplot(prod ~ varied, groups = bloc, 
+xyplot(prod ~ varied, groups = bloc,
       data = VieiraTb5.3,
       xlab = "Variedade",
-      ylab = "Produção de milho")   
-      
+      ylab = "Produção de milho")
 
 }
 \keyword{DBC}

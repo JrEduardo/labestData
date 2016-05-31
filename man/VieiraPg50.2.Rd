@@ -2,32 +2,36 @@
 % Please edit documentation in R/VieiraPg50.2.R
 \name{VieiraPg50.2}
 \alias{VieiraPg50.2}
-\title{Voltagens de quatro voltrímetros}
+\title{Calibração de Voltrímetros}
 \format{Um \code{data.frame} com 20 observações e 2 variáveis, em que
 
 \describe{
 
-\item{\code{voltim}}{Fator de 4 níveis segundo o voltímetro.}
+\item{\code{voltim}}{Fator categórico de 4 níveis que representa o
+    voltímetro usado.}
 
-\item{\code{voltagem}}{Voltagem avaliada com força consatante 
-      de 100 volts.}
+\item{\code{voltagem}}{Voltagem obtida com os voltímetros na força
+      constante de 100 volts.}
 
 }}
 \source{
-Vieira, S.(1999). 
-    Estatística experimental (2th ed.). 
-    São Paulo, SP: Atlas. (pg 50 - Ex 4).
+Vieira, S.(1999).  Estatística experimental (2th ed.).  São
+    Paulo, SP: Atlas. (pág. 50, Exercício 4).
 }
 \description{
-Experimento para verificar a força constante
-      de 100 volts, testados cinco vezes, para quatro
-      voltímetros de um laboratório.
+Num laboratório são usados quatro voltímetros
+    diferentes. Para verificar se estes estão igualmente calibrados,
+    mediu-se a mesma força constante de 100 volts 5 vezes com cada
+    voltímetro.
 }
 \examples{
 
 data(VieiraPg50.2)
 
+str(VieiraPg50.2)
+
 library(lattice)
+
 xyplot(voltagem ~ voltim, data = VieiraPg50.2,
        xlab = "Voltímetro",
        ylab = "Voltagem")
