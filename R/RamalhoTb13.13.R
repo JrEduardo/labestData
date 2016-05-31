@@ -1,5 +1,5 @@
 #' @name RamalhoTb13.13
-#' @title Produção de Grãos de Feijão
+#' @title Produção de Grãos de Progênies de Feijão
 #' @description Experimento referente a avaliação de progênies
 #'     provenientes do cruzamento (ESAL 501 x Rio Tibagi), obtidos em 3
 #'     gerações (F3, F4 e F5). Foi utilizado o delineamento de blocos
@@ -29,13 +29,12 @@
 #'
 #' library(lattice)
 #'
-#' xyplot(prod ~ prog | gerac, data = RamalhoTb13.13,
-#'        jitter.x = TRUE, type = c("p", "a"),
-#'        as.table = TRUE, layout = c(NA, 2),
-#'        strip = strip.custom(strip.names = TRUE,
-#'                             var.name = "Gerações", sep = " "),
-#'        xlab = "Progênie",
-#'        ylab = "Produção em (g/parcela)")
+#' xyplot(prod ~ prog, groups = gerac, data = RamalhoTb13.13,
+#'        type = c("p", "a"),
+#'        xlab = "Progênie de feijoeiro",
+#'        ylab = "Produção (g/parcela)",
+#'        auto.key = list(title = "Geração", cex.title = 1.1,
+#'                        columns = 3))
 #'
 #' ftable(with(RamalhoTb13.13,
 #'             tapply(prod,

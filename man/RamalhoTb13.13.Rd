@@ -2,7 +2,7 @@
 % Please edit documentation in R/RamalhoTb13.13.R
 \name{RamalhoTb13.13}
 \alias{RamalhoTb13.13}
-\title{Produção de Grãos de Feijão}
+\title{Produção de Grãos de Progênies de Feijão}
 \format{Um \code{data.frame} com 30 observações e 3 variáveis, em que
 
 \describe{
@@ -35,13 +35,12 @@ str(RamalhoTb13.13)
 
 library(lattice)
 
-xyplot(prod ~ prog | gerac, data = RamalhoTb13.13,
-       jitter.x = TRUE, type = c("p", "a"),
-       as.table = TRUE, layout = c(NA, 2),
-       strip = strip.custom(strip.names = TRUE,
-                            var.name = "Gerações", sep = " "),
-       xlab = "Progênie",
-       ylab = "Produção em (g/parcela)")
+xyplot(prod ~ prog, groups = gerac, data = RamalhoTb13.13,
+       type = c("p", "a"),
+       xlab = "Progênie de feijoeiro",
+       ylab = "Produção (g/parcela)",
+       auto.key = list(title = "Geração", cex.title = 1.1,
+                       columns = 3))
 
 ftable(with(RamalhoTb13.13,
             tapply(prod,
