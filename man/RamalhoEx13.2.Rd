@@ -2,12 +2,13 @@
 % Please edit documentation in R/RamalhoEx13.2.R
 \name{RamalhoEx13.2}
 \alias{RamalhoEx13.2}
-\title{Peso de Espigas de Milho}
+\title{Peso de Espigas de Cultivares Milho}
 \format{Um \code{data.frame} com 24 observações e 4 variáveis, em que
 
 \describe{
 
-\item{\code{cult}}{Fator de 8 níveis que indica a cultivar de milho.}
+\item{\code{cult}}{Fator categórico de 8 níveis que indica a cultivar
+    de milho.}
 
 \item{\code{bloc}}{Fator de 3 níveis que são os blocos do
     experimento, utilizado para fazer controle local.}
@@ -23,10 +24,10 @@ Ramalho, M. A. P., Ferreira, D. F., Oliveira, A. C. (2005).
     Lavras: UFLA. (Exercício 13.2, pág. 256)
 }
 \description{
-Experimento envolvendo o número de plantas por parcela
-    e peso de espigas despalhadas obtida na avaliação de cultivares
-    de milho, utilizando o delineamento de blocos casualizados com 3
-    repetições.
+Experimento que avaliou a produção de espigas de
+    cultivares de milho, em delineamento de blocos casualizados. O
+    número de plantas por parcela foi medido é uma covariável para o
+    peso final de espigas por parcela.
 }
 \examples{
 
@@ -36,15 +37,20 @@ str(RamalhoEx13.2)
 
 library(lattice)
 
-xyplot(peso ~ cult | bloc, data = RamalhoEx13.2,
-       xlab = "Peso de espigas",
-       ylab = "Plantas por parcela")
+cex <- with(RamalhoEx13.2, {
+    x <- plant - min(plant)
+    x <- x/max(x)
+    0.5 + 1.3 * x
+})
 
-aggregate(plant ~ cult,  data = RamalhoEx13.2,
-          FUN = function(x) { c(mean = mean(x), var = var(x)) })
+xyplot(peso ~ cult, groups = bloc, data = RamalhoEx13.2,
+       type = "o", cex = cex,
+       ylab = "Peso de espigas despalhadas",
+       xlab = "Cultivares de milho")
 
 xyplot(peso ~ plant, groups = bloc, data = RamalhoEx13.2,
-       auto.key = list(space = "right", title = "Cultivar"),
+       auto.key = list(columns = 3, title = "Cultivar",
+                       cex.title = 1.1),
        xlab = "Peso de espigas",
        ylab = "Plantas por parcela")
 

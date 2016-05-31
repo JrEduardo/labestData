@@ -2,19 +2,18 @@
 % Please edit documentation in R/RamalhoEx13.3.R
 \name{RamalhoEx13.3}
 \alias{RamalhoEx13.3}
-\title{Notas da Avaliação de Famílias de Feijoeiro}
+\title{Avaliação do Stay Green em Famílias de Feijoeiro}
 \format{Um \code{data.frame} com 60 observações e 3 variáveis, em que
 
 \describe{
 
-\item{\code{fam}}{Fator de 20 níveis que indica a família do
-    feijoeiro.}
+\item{\code{fam}}{Fator categórico de 20 níveis que indica a família
+    de feijoeiro.}
 
-\item{\code{gerac}}{Fator de 3 níveis (\eqn{F_{3}}, \eqn{F_{4}} e
-    \eqn{F_{5}}) que são os blocos do experimento, utilizado para
-    fazer controle local.}
+\item{\code{gerac}}{Fator categórico de 3 níveis (\eqn{F_{3}},
+    \eqn{F_{4}} e \eqn{F_{5}}) que indica a geração do cruzamento.}
 
-\item{\code{nota}}{Notas de "stay green".}
+\item{\code{nota}}{Notas para avaliação de "stay green".}
 
 }}
 \source{
@@ -23,7 +22,7 @@ Ramalho, M. A. P., Ferreira, D. F., Oliveira, A. C. (2005).
     Lavras: UFLA. (Exercício 13.3, pág. 257)
 }
 \description{
-Notas de "stay green" obtidos na avaliação de famílias
+Notas da avaliação do "stay green" obtidos de famílias
     de feijoeiro, avaliados nas gerações \eqn{F_{2:3}}, \eqn{F_{2:4}}
     e \eqn{F_{2:5}}.
 }
@@ -35,10 +34,12 @@ str(RamalhoEx13.3)
 
 library(lattice)
 
-xyplot(nota ~ fam | gerac, data = RamalhoEx13.3,
-       type = c("p", "smooth"),
-       xlab = "Nota de stay green",
-       ylab = "Família")
+xyplot(nota ~ fam, groups = gerac,
+       data = RamalhoEx13.3, type = c("p", "a"),
+       ylab = "Nota de stay green",
+       xlab = "Família",
+       auto.key = list(title = "Geração", cex.title = 1.1,
+                       columns = 3))
 
 ftable(with(RamalhoEx13.3,
             tapply(nota,

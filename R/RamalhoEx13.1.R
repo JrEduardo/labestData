@@ -1,20 +1,19 @@
 #' @name RamalhoEx13.1
-#' @title Avaliação de Clones de Eucaliptos
+#' @title Avaliação de Clones de Eucalipto
 #' @description Experimento referente a avaliação de clones de
-#'     eucaliptos, obtidos na Aracruz Celulose.
+#'     eucalipto, obtidos na Aracruz Celulose.
 #' @format Um \code{data.frame} com 20 observações e 5 variáveis, em que
 #'
 #' \describe{
 #'
 #' \item{\code{clone}}{Fator de 20 níveis que representa o clone de
-#'     eucaliptos.}
+#'     eucalipto.}
 #'
 #' \item{\code{alt}}{Altura do eucalipto, medido em metros.}
 #'
-#' \item{\code{dap}}{\eqn{DAP^{\underline{1/}}} (diâmetro a altura do
-#'     peito).}
+#' \item{\code{dap}}{Diâmetro na altura do peito (cm).}
 #'
-#' \item{\code{broto}}{Número médio de brotos/árvore.}
+#' \item{\code{broto}}{Número médio de brotos por árvore.}
 #'
 #' \item{\code{perc}}{Percentagem de enraizamento das estacas.}
 #'
@@ -28,13 +27,9 @@
 #' data(RamalhoEx13.1)
 #'
 #' str(RamalhoEx13.1)
-#' 
-#' library(lattice)
-#' 
-#' xyplot(alt ~ clone, data = RamalhoEx13.1,
-#'        type = c("p", "smooth", "g"), aspect = "iso")
 #'
-#' xyplot(dap ~ clone, data = RamalhoEx13.1,
-#'        type = c("p", "a"), aspect = "iso")
+#' library(lattice)
+#'
+#' splom(RamalhoEx13.1[, -1], type = c("p", "smooth"))
 #'
 NULL
