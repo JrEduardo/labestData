@@ -1,0 +1,34 @@
+#' @name VieiraPg57.2
+#' @title Peso de Ratos em Função da Idade
+#' @description Os dados referem-se ao peso de 3 ratos medidos 5 vezes
+#'     dos 30 aos 46 dias de idade. Para fazer análise dos dados,
+#'     pode-se considerar que os ratos são os blocos e que a idade é o
+#'     fator de interesse.
+#' @format Um \code{data.frame} com 15 observações e 3 variáveis, em que
+#'
+#' \describe{
+#'
+#' \item{\code{rato}}{Número do rato.}
+#'
+#' \item{\code{idade}}{Fator de 5 níveis, da idade dos ratos em dias.}
+#'
+#' \item{\code{peso}}{Peso em gramas.}
+#'
+#' }
+#' @keywords DBC
+#' @source Vieira, S.(1999). Estatística experimental (2th ed.).  São
+#'     Paulo, SP: Atlas. (página 57, exercício 4).
+#' @examples
+#'
+#' data(VieiraPg57.2)
+#'
+#' str(VieiraPg57.2)
+#'
+#' library(lattice)
+#'
+#' xyplot(peso ~ idade, groups = rato,
+#'       data = VieiraPg57.2, type = "b",
+#'       xlab = "Idade (dias)",
+#'       ylab = "Peso (g)")
+#'
+NULL
