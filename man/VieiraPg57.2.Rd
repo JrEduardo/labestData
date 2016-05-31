@@ -2,7 +2,7 @@
 % Please edit documentation in R/VieiraPg57.2.R
 \name{VieiraPg57.2}
 \alias{VieiraPg57.2}
-\title{Experimento do peso de três ratos}
+\title{Peso de Ratos em Função da Idade}
 \format{Um \code{data.frame} com 15 observações e 3 variáveis, em que
 
 \describe{
@@ -15,25 +15,27 @@
 
 }}
 \source{
-Vieira, S.(1999). 
-    Estatística experimental (2th ed.). 
-    São Paulo, SP: Atlas. (pg 57 - Ex 4).
+Vieira, S.(1999). Estatística experimental (2th ed.).  São
+    Paulo, SP: Atlas. (página 57, exercício 4).
 }
 \description{
-Experimento que mediu os pesos de 3 ratos 
-      com de cinco idades diferentes em um delineamento
-      blocos de casualizados.
+Os dados referem-se ao peso de 3 ratos medidos 5 vezes
+    dos 30 aos 46 dias de idade. Para fazer análise dos dados,
+    pode-se considerar que os ratos são os blocos e que a idade é o
+    fator de interesse.
 }
 \examples{
 
 data(VieiraPg57.2)
 
+str(VieiraPg57.2)
+
 library(lattice)
 
-xyplot(peso ~ rato, groups= idade, 
-      data = VieiraPg57.2,
-      xlab = "Rato",
-      ylab = "Peso em gramas")
+xyplot(peso ~ idade, groups = rato,
+      data = VieiraPg57.2, type = "b",
+      xlab = "Idade (dias)",
+      ylab = "Peso (g)")
 
 }
 \keyword{DBC}
