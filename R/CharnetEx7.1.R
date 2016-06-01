@@ -9,15 +9,18 @@
 #'
 #' \describe{
 #'
-#' \item{\code{n}}{Nível de ozônio, "a" ou "b".}
+#' \item{\code{n}}{Nível de ozônio, fator com níveis \code{a} ou
+#'     \code{b}.}
 #'
-#' \item{\code{rad}}{Quantidade de radiação solar aplicada, sem unid.}
+#' \item{\code{rad}}{Quantidade de radiação solar aplicada, unidade de
+#'     medida não informada.}
 #' 
-#' \item{\code{peso}}{Peso das sementes de soja, sem unid.}
+#' \item{\code{peso}}{Peso das sementes de soja, unidade de medida não
+#'     informada.}
 #'
 #' }
 #'
-#' @keywords TODO
+#' @keywords RM
 #'
 #' @source Charnet, R., de Luna Freire, C.A., Charnet, E.M.R. & Bonvino,
 #'     H. (2008). Análise de modelos de regressão linear com aplicações
@@ -28,6 +31,6 @@
 #'
 #' data(CharnetEx7.1)
 #'
-#' plot(CharnetEx7.1$peso, CharnetEx7.1$rad, col = CharnetEx7.1$n)
+#' with(CharnetEx7.1, plot(peso, rad, col = n))
 #'
 NULL

@@ -1,4 +1,4 @@
-rea	t	imp
+rea	tempo	imp
 I	33.9	-4.6011
 I	32.9	-4.5791
 I	32.7	-3.9769

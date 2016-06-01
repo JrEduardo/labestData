@@ -9,16 +9,16 @@
 #'
 #' \describe{
 #'
-#' \item{\code{y}}{Itens produzidos com defeito num dia, em peças.}
+#' \item{\code{nitens}}{Itens produzidos com defeito num dia, em peças.}
 #' 
-#' \item{\code{x1}}{Produção média por hora, em peças.}
+#' \item{\code{prod}}{Produção média por hora, em peças.}
 #'
-#' \item{\code{x2}}{Tempo, em semanas, decorrido do último reparo da 
+#' \item{\code{tempo}}{Tempo, em semanas, decorrido do último reparo da 
 #'     máquina.}
 #'
 #' }
 #'
-#' @keywords TODO
+#' @keywords RM
 #'
 #' @source Charnet, R., de Luna Freire, C.A., Charnet, E.M.R. & Bonvino,
 #'     H. (2008). Análise de modelos de regressão linear com aplicações

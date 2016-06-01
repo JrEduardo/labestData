@@ -1,4 +1,4 @@
-y	x1	x2
+lucro	capi	publi
 12	31	4
 13	16	5
 3	29	3

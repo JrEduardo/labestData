@@ -1,6 +1,6 @@
 #' @name CharnetEx7.7
 #' 
-#' @title Consumo de Combustível e Potência do Motor
+#' @title Relação entre Consumo de Combustível e Potência do Motor
 #' 
 #' @description Relação entre o consumo de combustível (km/l) e a 
 #'     potência do motor (HP) de duas marcas de carro (A e B).
@@ -9,7 +9,8 @@
 #'
 #' \describe{
 #'
-#' \item{\code{marca}}{Marca do carro, "A" ou "B".}
+#' \item{\code{marca}}{Marca do carro, fator com dois níveis \code{A} ou
+#'     \code{B}.}
 #' 
 #' \item{\code{cons}}{Consumo de combustível, em km/l.}
 #'
@@ -17,7 +18,7 @@
 #'
 #' }
 #'
-#' @keywords TODO
+#' @keywords RM
 #'
 #' @source Charnet, R., de Luna Freire, C.A., Charnet, E.M.R. & Bonvino,
 #'     H. (2008). Análise de modelos de regressão linear com aplicações
@@ -28,6 +29,6 @@
 #'
 #' data(CharnetEx7.7)
 #'
-#' plot(CharnetEx7.7$cons, CharnetEx7.7$pot, col = CharnetEx7.7$marca)
+#' with(CharnetEx7.7, plot(cons, pot, col = marca))
 #'
 NULL

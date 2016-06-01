@@ -2,22 +2,23 @@
 #' 
 #' @title Efeito da Temperatura e Concentração numa Reação Química
 #' 
-#' @description Efeito da temperatura (x1) e percentual de concentração 
-#'     (x2) na produção de um composto numa reação química (y).
+#' @description Efeito da temperatura (\code{temp}) e percentual de
+#'     concentração (\code{conc}) na produção de um composto numa reação
+#'     química (\code{prod}).
 #'
 #' @format Um \code{data.frame} com 3 colunas e 20 linhas.
 #'
 #' \describe{
 #'
-#' \item{\code{y}}{Produção de um certo composto, em litros.}
+#' \item{\code{prod}}{Produção de um certo composto, em litros.}
 #' 
-#' \item{\code{x1}}{Temperatura da reação, em ºC.}
+#' \item{\code{temp}}{Temperatura da reação, em ºC.}
 #'
-#' \item{\code{x2}}{Percentual de concentração, em %.}
+#' \item{\code{conc}}{Percentual de concentração, em %.}
 #'
 #' }
 #'
-#' @keywords TODO
+#' @keywords RM
 #'
 #' @source Charnet, R., de Luna Freire, C.A., Charnet, E.M.R. & Bonvino,
 #'     H. (2008). Análise de modelos de regressão linear com aplicações

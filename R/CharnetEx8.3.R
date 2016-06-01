@@ -9,13 +9,13 @@
 #'
 #' \describe{
 #'
-#' \item{\code{x}}{Tempo, em semanas.}
+#' \item{\code{tempo}}{Tempo de exposição do metal, em semanas.}
 #'
-#' \item{\code{y}}{Grau de corrosão.}
+#' \item{\code{gc}}{Grau de corrosão do metal.}
 #'
 #' }
 #'
-#' @keywords TODO
+#' @keywords RP
 #'
 #' @source Charnet, R., de Luna Freire, C.A., Charnet, E.M.R. & Bonvino,
 #'     H. (2008). Análise de modelos de regressão linear com aplicações

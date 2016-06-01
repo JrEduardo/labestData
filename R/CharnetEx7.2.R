@@ -10,15 +10,16 @@
 #'
 #' \describe{
 #'
-#' \item{\code{rea}}{Reator analisado, "I" ou "II".}
+#' \item{\code{rea}}{Reator analisado, um fator com dois níveis \code{I}
+#'     ou \code{II}.}
 #' 
 #' \item{\code{t}}{Tempo, em minutos.}
 #'
-#' \item{\code{imp}}{Porcentagem de impurezas, em log(%).}
+#' \item{\code{imp}}{Porcentagem de impurezas, em escala \eqn{\log}.}
 #'
 #' }
 #'
-#' @keywords TODO
+#' @keywords RM
 #'
 #' @source Charnet, R., de Luna Freire, C.A., Charnet, E.M.R. & Bonvino,
 #'     H. (2008). Análise de modelos de regressão linear com aplicações
@@ -29,6 +30,6 @@
 #'
 #' data(CharnetEx7.2)
 #'
-#' plot(CharnetEx7.2$imp, CharnetEx7.2$t, col = CharnetEx7.2$rea)
+#' with(CharnetEx7.2, plot(tempo ~ imp, col = rea))
 #'
 NULL

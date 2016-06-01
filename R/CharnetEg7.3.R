@@ -17,7 +17,7 @@
 #'
 #' }
 #'
-#' @keywords TODO
+#' @keywords RM
 #'
 #' @source Charnet, R., de Luna Freire, C.A., Charnet, E.M.R. & Bonvino,
 #'     H. (2008). Análise de modelos de regressão linear com aplicações
@@ -27,6 +27,6 @@
 #'
 #' data(CharnetEg7.3)
 #'
-#' plot(CharnetEg7.3$salario, CharnetEg7.3$exp, col=CharnetEg7.3$sexo)
+#' with(CharnetEg7.3, plot(salario, exp, col = sexo))
 #'
 NULL
