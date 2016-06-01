@@ -2,54 +2,54 @@ mes	ano	varied	acidez
 N	1957	Bourbon	28.2
 N	1957	Brasil	38.3
 N	1957	Extrema	37.6
-N	1957	Maca	47.2
-N	1957	NonPlusUltra	36.4
-N	1957	Oliveira	40.0
+N	1957	Maçã	47.2
+N	1957	Non Plus Ultra	36.4
+N	1957	Oliveira	40
 N	1958	Bourbon	24.7
-N	1958	Brasil	32.0
-N	1958	Extrema	39.0
-N	1958	Maca	47.7
-N	1958	NonPlusUltra	35.3
+N	1958	Brasil	32
+N	1958	Extrema	39
+N	1958	Maçã	47.7
+N	1958	Non Plus Ultra	35.3
 N	1958	Oliveira	30.1
 N	1959	Bourbon	16.4
 N	1959	Brasil	38.4
 N	1959	Extrema	50.3
-N	1959	Maca	50.2
-N	1959	NonPlusUltra	40.1
-N	1959	Oliveira	30.0
-D	1957	Bourbon	6.0
-D	1957	Brasil	5.0
-D	1957	Extrema	6.0
-D	1957	Maca	6.2
-D	1957	NonPlusUltra	7.9
-D	1957	Oliveira	6.0
+N	1959	Maçã	50.2
+N	1959	Non Plus Ultra	40.1
+N	1959	Oliveira	30
+D	1957	Bourbon	6
+D	1957	Brasil	5
+D	1957	Extrema	6
+D	1957	Maçã	6.2
+D	1957	Non Plus Ultra	7.9
+D	1957	Oliveira	6
 D	1958	Bourbon	6.2
 D	1958	Brasil	3.6
 D	1958	Extrema	6.6
-D	1958	Maca	6.9
-D	1958	NonPlusUltra	10.2
-D	1958	Oliveira	7.0
+D	1958	Maçã	6.9
+D	1958	Non Plus Ultra	10.2
+D	1958	Oliveira	7
 D	1959	Bourbon	6.9
-D	1959	Brasil	4.0
+D	1959	Brasil	4
 D	1959	Extrema	6.9
-D	1959	Maca	7.9
-D	1959	NonPlusUltra	9.8
+D	1959	Maçã	7.9
+D	1959	Non Plus Ultra	9.8
 D	1959	Oliveira	8.4
 J	1957	Bourbon	4.6
 J	1957	Brasil	4.6
 J	1957	Extrema	5.4
-J	1957	Maca	5.2
-J	1957	NonPlusUltra	4.9
+J	1957	Maçã	5.2
+J	1957	Non Plus Ultra	4.9
 J	1957	Oliveira	6.1
 J	1958	Bourbon	4.4
 J	1958	Brasil	4.2
 J	1958	Extrema	5.4
-J	1958	Maca	4.2
-J	1958	NonPlusUltra	6.8
+J	1958	Maçã	4.2
+J	1958	Non Plus Ultra	6.8
 J	1958	Oliveira	3.5
-J	1959	Bourbon	5.0
+J	1959	Bourbon	5
 J	1959	Brasil	3.8
-J	1959	Extrema	5.0
-J	1959	Maca	5.0
-J	1959	NonPlusUltra	7.0
+J	1959	Extrema	5
+J	1959	Maçã	5
+J	1959	Non Plus Ultra	7
 J	1959	Oliveira	4.8

@@ -2,7 +2,7 @@
 % Please edit documentation in R/PimentelTb7.9.1.R
 \name{PimentelTb7.9.1}
 \alias{PimentelTb7.9.1}
-\title{Experimento de Adubação de Cafeeiro}
+\title{Experimento de Adubação NPK no Cafeeiro}
 \format{Um \code{data.frame} com 48 observações e 5 variáveis, em que
 
 \describe{
@@ -10,20 +10,17 @@
 \item{\code{bloco}}{Fator de 6 níveis qualitativos, usado para
     controle local.}
 
-\item{\code{N}}{Fator de 2 níveis qualitativos, que é usado
-    para o controle do efeito que o Nitrogênio causa no experimento,
-    sendo que a variável assume 1, quando houver Nitrogênio na
-    composição do adubo e -1 caso contrário.}
+\item{\code{N}}{Fator de 2 níveis codificados que representa a dose
+    de nitrogênio aplicada, sendo que a variável assume 1, quando
+    houver nitrogênio na composição do adubo e -1 caso contrário.}
 
-\item{\code{P}}{Fator de 2 níveis qualitativos, que é usado
-    para o controle do efeito que o Fósforo causa no experimento,
-    sendo que a variável assume 1, quando houver Fósforo na
-    composição do adubo e -1 caso contrário.}
-    
-\item{\code{K}}{Fator de 2 níveis qualitativos, que é usado
-    para o controle do efeito que o Potássio causa no experimento,
-    sendo que a variável assume 1, quando houver Potássio na
-    composição do adubo e -1 caso contrário.}
+\item{\code{P}}{Fator de 2 níveis codificados que representa a dose
+    de fósforo aplicada, sendo que a variável assume 1, quando houver
+    fósforo na composição do adubo e -1 caso contrário.}
+
+\item{\code{K}}{Fator de 2 níveis codificados que representa a dose
+    de potássio aplicada, sendo que a variável assume 1, quando
+    houver potássio na composição do adubo e -1 caso contrário.}
 
 \item{\code{quad}}{Raiz quadrada do número de galhos secos de 4 pés
     de café por parcela.}
@@ -31,51 +28,40 @@
 }}
 \source{
 Pimentel-Gomes, F. (2009). Curso de Estatística
-    Experimental (15th ed.). Piracicaba, SP: FEALQ. (Tabela 7.9.1)
+    Experimental (15th ed.). Piracicaba, SP: FEALQ. (Tabela 7.9.1,
+    pág 137)
+
+Malavolta, E.; Pimentel-Gomes, F.; Coury, T. Estudos sobre a
+    alimentação mineral do cafeeiro (\emph{Coffea arabica} L.,
+    Variedade Bourbon Vermelho). Piracicaba, 1958.
 }
 \description{
-Experimento fatorial de adubação de cafeeiro com N, P,
-    K de 2 x 2 x 2, feito por Malavolta et al. (1958), foram contados
-    os galhos secos de 4 pés de café por parcela. Dos números
-    obtidos extraiu-se a raiz quadrada.
+Experimento fatorial 2 \eqn{\times} 2 \eqn{\times} 2 de
+    adubação NPK no cafeeiro feito por Malavolta et al. (1958). Foram
+    contados os galhos secos de 4 pés de café por parcela. Dos
+    números obtidos extraiu-se a raiz quadrada, portanto, para ter a
+    variável original de contagem tem-se que elevar aos valores ao
+    quadrado.
 }
 \examples{
 
 library(lattice)
 
-grafico1 <- xyplot(quad ~ N | P,
-                   groups = bloco,
-                   data = PimentelTb7.9.1,
-                   xlab = "Nitrogênio (N)",
-                   ylab = "Raiz Quadrada do Número de Galhos Secos",
-                   strip = strip.custom(factor.levels =
-                                            c("Fósforo Presente",
-                                              "Fósforo Ausente")))
+data(PimentelTb7.9.1)
+str(PimentelTb7.9.1)
 
-grafico2 <- xyplot(quad ~ N | K,
-                   groups = bloco,
-                   data = PimentelTb7.9.1,
-                   xlab = "Nitrogênio (N)",
-                   ylab =  "Raiz Quadrada do Número de Galhos Secos",
-                   strip = strip.custom(factor.levels =
-                                            c("Potássio Presente",
-                                              "Potássio Ausente")))
+ftable(xtabs(~N + P + K, data = PimentelTb7.9.1))
 
-grafico3 <- xyplot(quad ~ P | K,
-                   groups = bloco,
-                   data = PimentelTb7.9.1,
-                   xlab = "Fósforo (P)",
-                   ylab =  "Raiz Quadrada do Número de Galhos Secos",
-                   strip = strip.custom(factor.levels =
-                                            c("Potássio Presente",
-                                              "Potássio Ausente")))
-
-print(grafico1, position = c(0, 0, 0.33, 1), more = TRUE)
-
-print(grafico2, position = c(0.33, 0, 0.66, 1), more = TRUE)
-
-print(grafico3, position = c(0.66, 0, 1, 1))
+xyplot(quad ~ N | factor(P), groups = K, data = PimentelTb7.9.1,
+       type = c("p", "a"),
+       xlab = "Nível codificado de nitrogênio",
+       ylab = "Raízes quadradas do número de galhos secos",
+       auto.key = list(title = "Potássio", cex.title = 1.1,
+                       columns = 2),
+       strip = strip.custom(strip.names = TRUE,
+                            var.name = "Fósforo"))
 
 }
 \keyword{FAT3}
+\keyword{contagem}
 
