@@ -1,7 +1,7 @@
 #' @name CharnetEx8.5
-#' 
+#'
 #' @title Efeito da Temperatura e Concentração numa Reação Química
-#' 
+#'
 #' @description Efeito da temperatura (\code{temp}) e percentual de
 #'     concentração (\code{conc}) na produção de um composto numa reação
 #'     química (\code{prod}).
@@ -11,10 +11,10 @@
 #' \describe{
 #'
 #' \item{\code{prod}}{Produção de um certo composto, em litros.}
-#' 
+#'
 #' \item{\code{temp}}{Temperatura da reação, em ºC.}
 #'
-#' \item{\code{conc}}{Percentual de concentração, em %.}
+#' \item{\code{conc}}{Percentual de concentração, em \%.}
 #'
 #' }
 #'
