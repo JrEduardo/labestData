@@ -1,0 +1,73 @@
+prog	bloc	local	alt
+Pretoria	I	Araraquara	20.3
+637	I	Araraquara	21.7
+2093	I	Araraquara	22
+2094	I	Araraquara	20.8
+9559	I	Araraquara	21.5
+9575	I	Araraquara	19.6
+Pretoria	II	Araraquara	19.6
+637	II	Araraquara	19.3
+2093	II	Araraquara	24.9
+2094	II	Araraquara	23
+9559	II	Araraquara	22.3
+9575	II	Araraquara	17.7
+Pretoria	III	Araraquara	23.5
+637	III	Araraquara	16.7
+2093	III	Araraquara	24.4
+2094	III	Araraquara	21.3
+9559	III	Araraquara	22.1
+9575	III	Araraquara	18.7
+Pretoria	IV	Araraquara	19.1
+637	IV	Araraquara	18.5
+2093	IV	Araraquara	20.8
+2094	IV	Araraquara	24.9
+9559	IV	Araraquara	21.9
+9575	IV	Araraquara	22
+Pretoria	I	Bento Quirino	10.2
+637	I	Bento Quirino	16.1
+2093	I	Bento Quirino	17.7
+2094	I	Bento Quirino	13.5
+9559	I	Bento Quirino	20.5
+9575	I	Bento Quirino	12
+Pretoria	II	Bento Quirino	11.7
+637	II	Bento Quirino	10.8
+2093	II	Bento Quirino	13.1
+2094	II	Bento Quirino	14.4
+9559	II	Bento Quirino	12.5
+9575	II	Bento Quirino	13
+Pretoria	III	Bento Quirino	9.1
+637	III	Bento Quirino	10.9
+2093	III	Bento Quirino	14.2
+2094	III	Bento Quirino	11.2
+9559	III	Bento Quirino	11.3
+9575	III	Bento Quirino	12.3
+Pretoria	IV	Bento Quirino	8.1
+637	IV	Bento Quirino	10.3
+2093	IV	Bento Quirino	11
+2094	IV	Bento Quirino	12.8
+9559	IV	Bento Quirino	12.2
+9575	IV	Bento Quirino	10.6
+Pretoria	I	Mongi-Guaçu	22.7
+637	I	Mongi-Guaçu	22.6
+2093	I	Mongi-Guaçu	21.4
+2094	I	Mongi-Guaçu	25
+9559	I	Mongi-Guaçu	26.4
+9575	I	Mongi-Guaçu	20.6
+Pretoria	II	Mongi-Guaçu	21.4
+637	II	Mongi-Guaçu	21.4
+2093	II	Mongi-Guaçu	21.7
+2094	II	Mongi-Guaçu	23.6
+9559	II	Mongi-Guaçu	26.4
+9575	II	Mongi-Guaçu	23.5
+Pretoria	III	Mongi-Guaçu	22.9
+637	III	Mongi-Guaçu	20.7
+2093	III	Mongi-Guaçu	22.5
+2094	III	Mongi-Guaçu	23.3
+9559	III	Mongi-Guaçu	28
+9575	III	Mongi-Guaçu	19.4
+Pretoria	IV	Mongi-Guaçu	22
+637	IV	Mongi-Guaçu	20.8
+2093	IV	Mongi-Guaçu	19.4
+2094	IV	Mongi-Guaçu	24.8
+9559	IV	Mongi-Guaçu	27.3
+9575	IV	Mongi-Guaçu	21.9
