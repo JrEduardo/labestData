@@ -2,34 +2,39 @@
 % Please edit documentation in R/VieiraEx7.3.R
 \name{VieiraEx7.3}
 \alias{VieiraEx7.3}
-\title{Exercício 7.3}
-\format{Um \code{data.frame} com 24 observações e 2 variáveis, em que
+\title{Experimento de um Fator em DIC com Número Diferente de
+    Repetições}
+\format{Um \code{data.frame} com 18 observações e 2 variáveis, em que
 
 \describe{
 
-\item{\code{tratamento}}{Tratamento ao qual a variável foi submetida.}
+\item{\code{tratamento}}{Tratamento aplicado na unidade
+    experimental.}
 
-\item{\code{valor}}{Valor da variável.}
+\item{\code{valor}}{Valor da resposta medida nas unidades
+    experimentais.}
 
 }}
 \source{
-Vieira, S.(1999). Estatística experimental (2th ed.). 
-    São Paulo, SP: Atlas. (Exercício 7.3 pág. 85).
+Vieira, S. (1999). Estatística experimental (2th ed.).
+    São Paulo, SP: Atlas. (Exercício 7.3, pág. 85).
 }
 \description{
-Dados de um experimento inteiramente ao acaso com
-    número diferente de repetições.
+Dados de um experimento inteiramente ao acaso com número
+    diferente de repetições.
 }
 \examples{
 
+data(VieiraEx7.3)
+str(VieiraEx7.3)
+
+xtabs(~tratamento, data = VieiraEx7.3)
+
 library(lattice)
 
-data(VieiraEx7.3)
-
 xyplot(valor ~ tratamento, data = VieiraEx7.3,
-       ylab = "Valor",
-       xlab = "Tratamento")
+       jitter.x = TRUE, type = c("p", "a"))
 
 }
-\keyword{TODO}
+\keyword{DIC}
 

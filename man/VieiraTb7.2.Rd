@@ -2,36 +2,39 @@
 % Please edit documentation in R/VieiraTb7.2.R
 \name{VieiraTb7.2}
 \alias{VieiraTb7.2}
-\title{Números de ovos por poedeira}
+\title{Números de Ovos de Poedeiras em Função do Estilo Musical}
 \format{Um \code{data.frame} com 16 observações e 2 variáveis, em que
 
 \describe{
 
-\item{\code{tratamento}}{Tratamento ao qual a poedeira foi submetida.}
+\item{\code{musica}}{Estilo musical do som ambiente no qual ficavam
+    as poedeiras.}
 
-\item{\code{valor}}{Número de ovos da poedeira.}
+\item{\code{ovos}}{Número de ovos aos 35 dias após o início do
+    experimento.}
 
 }}
 \source{
-Vieira, S.(1999). Estatística experimental (2th ed.). 
-    São Paulo, SP: Atlas. (Tabela 7.2 pág. 74).
+Vieira, S. (1999). Estatística experimental (2th ed.).
+    São Paulo, SP: Atlas. (Tabela 7.2, pág. 74).
 }
 \description{
-Refere-se ao número de ovos por poedeira 35 dias após
-    o início do experimento.
-    Foram aplicados três tratamentos: música sertaneja (a), 
-    música clássica (b) e música popular (c).
+Dados que refere-se ao número de ovos por poedeira 35
+    dias após o início do experimento em função do estilo musical do
+    som ambiente: música sertaneja (a), música clássica (b) e música
+    popular (c).
 }
 \examples{
 
+data(VieiraTb7.2)
+str(VieiraTb7.2)
+
 library(lattice)
 
-data(VieiraTb7.2)
-
-xyplot(valor ~ tratamento, data = VieiraTb7.2,
-       ylab = "Número de Ovos",
-       xlab = "Tratamento")
+xyplot(ovos ~ musica, data = VieiraTb7.2,
+       xlab = "Estilo músical ambiente",
+       ylab = "Número de ovos aos 35 dias")
 
 }
-\keyword{TODO}
+\keyword{DIC}
 

@@ -2,21 +2,24 @@
 % Please edit documentation in R/VieiraTb7.7.R
 \name{VieiraTb7.7}
 \alias{VieiraTb7.7}
-\title{Teste de conhecimento}
+\title{Teste Sobre Conhecimento em Função da Fonte de Informação}
 \format{Um \code{data.frame} com 24 observações e 3 variáveis, em que
 
 \describe{
 
-\item{\code{bloco}}{Grupo ao qual a observação pertence.}
+\item{\code{bloco}}{Fator categórico que identifica o bloco ao qual a
+    observação pertence. Os blocos controlam para a faixa de idade
+    dos alunos.}
 
-\item{\code{tratamento}}{Tratamento ao qual o aluno foi submetido.}
+\item{\code{fonte}}{Fator categórico que representa a fonte de
+    informação a qual o aluno teve acesso.}
 
-\item{\code{valor}}{Nota do aluno no teste.}
+\item{\code{nota}}{Nota do aluno no teste.}
 
 }}
 \source{
-Vieira, S.(1999). Estatística experimental (2th ed.). 
-    São Paulo, SP: Atlas. (Tabela 7.7 pág. 81; Tabela 8.2 pág. 94).
+Vieira, S. (1999). Estatística experimental (2th ed.).
+    São Paulo, SP: Atlas. (Tabela 7.7, pág. 81; Tabela 8.2, pág. 94).
 }
 \description{
 Dados referentes às notas dos alunos em um teste de
@@ -27,11 +30,13 @@ Dados referentes às notas dos alunos em um teste de
 library(lattice)
 
 data(VieiraTb7.7)
+str(VieiraTb7.7)
 
-xyplot(valor ~ tratamento, group = bloco, data = VieiraTb7.7,
-       ylab = "Nota do Aluno",
-       xlab = "Tratamento")
+xtabs(~bloco + fonte, data = VieiraTb7.7)
+
+xyplot(nota ~ fonte, groups = bloco, data = VieiraTb7.7,
+       type = c("p", "a"))
 
 }
-\keyword{TODO}
+\keyword{DBC}
 
