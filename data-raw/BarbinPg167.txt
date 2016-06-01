@@ -1,0 +1,91 @@
+anos	penx	bloc	prod
+1970	Tangerineira-Sunki	I	169
+1971	Tangerineira-Sunki	I	145
+1972	Tangerineira-Sunki	I	288.5
+1973	Tangerineira-Sunki	I	155.5
+1974	Tangerineira-Sunki	I	330.4
+1975	Tangerineira-Sunki	I	337.9
+1970	Limoeiro-rugoso-nacional	I	196
+1971	Limoeiro-rugoso-nacional	I	104.5
+1972	Limoeiro-rugoso-nacional	I	181.4
+1973	Limoeiro-rugoso-nacional	I	152.4
+1974	Limoeiro-rugoso-nacional	I	195.3
+1975	Limoeiro-rugoso-nacional	I	173.6
+1970	Limoeiro-rugoso da Flórida	I	128
+1971	Limoeiro-rugoso da Flórida	I	108.5
+1972	Limoeiro-rugoso da Flórida	I	148.2
+1973	Limoeiro-rugoso da Flórida	I	156.1
+1974	Limoeiro-rugoso da Flórida	I	256.8
+1975	Limoeiro-rugoso da Flórida	I	187.5
+1970	Tangerineira Cleópatra	I	110.5
+1971	Tangerineira Cleópatra	I	74
+1972	Tangerineira Cleópatra	I	222
+1973	Tangerineira Cleópatra	I	81
+1974	Tangerineira Cleópatra	I	286.6
+1975	Tangerineira Cleópatra	I	239.1
+1970	Citrange-troyer	I	149
+1971	Citrange-troyer	I	171.5
+1972	Citrange-troyer	I	232.7
+1973	Citrange-troyer	I	125.3
+1974	Citrange-troyer	I	266.8
+1975	Citrange-troyer	I	267.8
+1970	Tangerineira-Sunki	II	76
+1971	Tangerineira-Sunki	II	156.5
+1972	Tangerineira-Sunki	II	300
+1973	Tangerineira-Sunki	II	173.5
+1974	Tangerineira-Sunki	II	335.3
+1975	Tangerineira-Sunki	II	241.1
+1970	Limoeiro-rugoso-nacional	II	90
+1971	Limoeiro-rugoso-nacional	II	184
+1972	Limoeiro-rugoso-nacional	II	161.2
+1973	Limoeiro-rugoso-nacional	II	181
+1974	Limoeiro-rugoso-nacional	II	207.2
+1975	Limoeiro-rugoso-nacional	II	193
+1970	Limoeiro-rugoso da Flórida	II	114
+1971	Limoeiro-rugoso da Flórida	II	111
+1972	Limoeiro-rugoso da Flórida	II	193.5
+1973	Limoeiro-rugoso da Flórida	II	142.6
+1974	Limoeiro-rugoso da Flórida	II	268.5
+1975	Limoeiro-rugoso da Flórida	II	241.7
+1970	Tangerineira Cleópatra	II	97.5
+1971	Tangerineira Cleópatra	II	134.8
+1972	Tangerineira Cleópatra	II	167.5
+1973	Tangerineira Cleópatra	II	139.5
+1974	Tangerineira Cleópatra	II	268.3
+1975	Tangerineira Cleópatra	II	306.6
+1970	Citrange-troyer	II	132
+1971	Citrange-troyer	II	203.5
+1972	Citrange-troyer	II	261.9
+1973	Citrange-troyer	II	162.7
+1974	Citrange-troyer	II	306.2
+1975	Citrange-troyer	II	128.9
+1970	Tangerineira-Sunki	III	130
+1971	Tangerineira-Sunki	III	180.2
+1972	Tangerineira-Sunki	III	219.1
+1973	Tangerineira-Sunki	III	102.3
+1974	Tangerineira-Sunki	III	366.6
+1975	Tangerineira-Sunki	III	279.3
+1970	Limoeiro-rugoso-nacional	III	94.5
+1971	Limoeiro-rugoso-nacional	III	80.5
+1972	Limoeiro-rugoso-nacional	III	93.7
+1973	Limoeiro-rugoso-nacional	III	105.3
+1974	Limoeiro-rugoso-nacional	III	127.6
+1975	Limoeiro-rugoso-nacional	III	161.5
+1970	Limoeiro-rugoso da Flórida	III	148
+1971	Limoeiro-rugoso da Flórida	III	129.1
+1972	Limoeiro-rugoso da Flórida	III	171
+1973	Limoeiro-rugoso da Flórida	III	131
+1974	Limoeiro-rugoso da Flórida	III	245.3
+1975	Limoeiro-rugoso da Flórida	III	233
+1970	Tangerineira Cleópatra	III	48.5
+1971	Tangerineira Cleópatra	III	171
+1972	Tangerineira Cleópatra	III	233.4
+1973	Tangerineira Cleópatra	III	96.7
+1974	Tangerineira Cleópatra	III	274.2
+1975	Tangerineira Cleópatra	III	301.4
+1970	Citrange-troyer	III	89
+1971	Citrange-troyer	III	130.5
+1972	Citrange-troyer	III	159.2
+1973	Citrange-troyer	III	107.5
+1974	Citrange-troyer	III	252.5
+1975	Citrange-troyer	III	231.8

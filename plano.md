@@ -22,7 +22,7 @@ incorporar a realização das atividades propostas no ramo `devel` do
 projeto. Para facilitar a visualização o *emoji* :white\_check\_mark:,
 representa que o trabalho foi REALIZADO e :x: o NÃO REALIZADO.
 
-<table style="width:397%;">
+<table style="width:424%;">
 <colgroup>
 <col width="33%" />
 <col width="15%" />
@@ -35,7 +35,7 @@ representa que o trabalho foi REALIZADO e :x: o NÃO REALIZADO.
 <col width="37%" />
 <col width="37%" />
 <col width="37%" />
-<col width="11%" />
+<col width="37%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -66,7 +66,7 @@ representa que o trabalho foi REALIZADO e :x: o NÃO REALIZADO.
 <td align="center">-</td>
 <td align="center">:white_check_mark: / !61</td>
 <td align="center">:white_check_mark: / !70</td>
-<td align="center">. / .</td>
+<td align="center">:white_check_mark: / !90</td>
 </tr>
 <tr class="even">
 <td align="left">Altamiro A. Basiewics</td>
@@ -80,7 +80,7 @@ representa que o trabalho foi REALIZADO e :x: o NÃO REALIZADO.
 <td align="center">:x: / -</td>
 <td align="center">:x: / -</td>
 <td align="center">:x: / -</td>
-<td align="center">. / .</td>
+<td align="center">:x: / -</td>
 </tr>
 <tr class="odd">
 <td align="left">Ângela L. C. Legey</td>
@@ -94,7 +94,7 @@ representa que o trabalho foi REALIZADO e :x: o NÃO REALIZADO.
 <td align="center">:white_check_mark: / !52</td>
 <td align="center">:white_check_mark: / !59</td>
 <td align="center">:white_check_mark: / !67</td>
-<td align="center">. / .</td>
+<td align="center">:white_check_mark: / !76</td>
 </tr>
 <tr class="even">
 <td align="left">Bruna D. Wundervald</td>
@@ -108,7 +108,7 @@ representa que o trabalho foi REALIZADO e :x: o NÃO REALIZADO.
 <td align="center">:white_check_mark: / !51</td>
 <td align="center">:white_check_mark: / !64</td>
 <td align="center">:x: / -</td>
-<td align="center">. / .</td>
+<td align="center">:x: / !88</td>
 </tr>
 <tr class="odd">
 <td align="left">Bruno Geronymo</td>
@@ -122,7 +122,7 @@ representa que o trabalho foi REALIZADO e :x: o NÃO REALIZADO.
 <td align="center">:x: / -</td>
 <td align="center">:x: / -</td>
 <td align="center">:x: / !69</td>
-<td align="center">. / .</td>
+<td align="center">:x: / !92</td>
 </tr>
 <tr class="even">
 <td align="left">Daniel Ikenaga</td>
@@ -133,10 +133,10 @@ representa que o trabalho foi REALIZADO e :x: o NÃO REALIZADO.
 <td align="center">:white_check_mark: / !31</td>
 <td align="center">:white_check_mark: / !38</td>
 <td align="center">:white_check_mark: / !46</td>
-<td align="center">:x: / -</td>
-<td align="center">:x: / -</td>
-<td align="center">:x: / -</td>
-<td align="center">. / .</td>
+<td align="center">:x: / !77</td>
+<td align="center">:x: / !74</td>
+<td align="center">:x: / !85</td>
+<td align="center">:x: / !80</td>
 </tr>
 <tr class="odd">
 <td align="left">Eduardo E. R. Junior</td>
@@ -146,11 +146,11 @@ representa que o trabalho foi REALIZADO e :x: o NÃO REALIZADO.
 <td align="center">:white_check_mark: / !21</td>
 <td align="center">:white_check_mark: / !35</td>
 <td align="center">:white_check_mark: / !41</td>
-<td align="center">:x: / -</td>
+<td align="center">:x: / !53</td>
 <td align="center">:white_check_mark: / !53</td>
 <td align="center">:white_check_mark: / !63</td>
 <td align="center">:white_check_mark: / !71</td>
-<td align="center">. / .</td>
+<td align="center">:white_check_mark: / !95</td>
 </tr>
 <tr class="even">
 <td align="left">Gabriel S. Klostermann</td>
@@ -164,7 +164,7 @@ representa que o trabalho foi REALIZADO e :x: o NÃO REALIZADO.
 <td align="center">:white_check_mark: / !58</td>
 <td align="center">:white_check_mark: / !66</td>
 <td align="center">:white_check_mark: / !72</td>
-<td align="center">. / .</td>
+<td align="center">:white_check_mark: / !93</td>
 </tr>
 <tr class="odd">
 <td align="left">Jhenifer C. Veloso</td>
@@ -178,7 +178,7 @@ representa que o trabalho foi REALIZADO e :x: o NÃO REALIZADO.
 <td align="center">:white_check_mark: / !54</td>
 <td align="center">:white_check_mark: / !62</td>
 <td align="center">:white_check_mark: / !68</td>
-<td align="center">. / .</td>
+<td align="center">:white_check_mark: / !83</td>
 </tr>
 <tr class="even">
 <td align="left">Mônica L. H. Oliveira</td>
@@ -192,7 +192,7 @@ representa que o trabalho foi REALIZADO e :x: o NÃO REALIZADO.
 <td align="center">:x: / -</td>
 <td align="center">:x: / -</td>
 <td align="center">:x: / -</td>
-<td align="center">. / .</td>
+<td align="center">:white_check_mark: / !86</td>
 </tr>
 <tr class="odd">
 <td align="left">Paula A. Z. Dimas</td>
@@ -205,8 +205,8 @@ representa que o trabalho foi REALIZADO e :x: o NÃO REALIZADO.
 <td align="center">:x: / !45</td>
 <td align="center">:x: / -</td>
 <td align="center">:white_check_mark: / !78</td>
-<td align="center">:x: / -</td>
-<td align="center">. / .</td>
+<td align="center">:x: / !87</td>
+<td align="center">:white_check_mark: / !89</td>
 </tr>
 <tr class="even">
 <td align="left">Walmes M. Zeviani</td>
@@ -220,7 +220,7 @@ representa que o trabalho foi REALIZADO e :x: o NÃO REALIZADO.
 <td align="center">:white_check_mark: / !55</td>
 <td align="center">:white_check_mark: / !65</td>
 <td align="center">:white_check_mark: / !73</td>
-<td align="center">. / .</td>
+<td align="center">:white_check_mark: / !91</td>
 </tr>
 <tr class="odd">
 <td align="left">Cesar A. Taconeli</td>
@@ -234,7 +234,7 @@ representa que o trabalho foi REALIZADO e :x: o NÃO REALIZADO.
 <td align="center">-</td>
 <td align="center">-</td>
 <td align="center">-</td>
-<td align="center">. / .</td>
+<td align="center">-</td>
 </tr>
 </tbody>
 </table>
@@ -255,6 +255,16 @@ indicado:
 <!-- atividades. As atividades seguem a ordem da data mais recente para a -->
 <!-- mais antiga. -->
 <!--------------------------------------------- -->
+-   **Finalização do projeto** Neste dia 10/05 realizou-se a última
+    reunião presencial com todos os contribuidores do pacote. As
+    atividades planejadas foram concluídas parcialmente. Os integrantes
+    **Bruno Geronymo** e **Altamiro Basiewics** ainda estão com
+    atividades pendentes, ficou acordado que eles terão até o final de
+    maio para realizá-las. Walmes informou que tem mais algumas tabelas
+    presentes nos apêndices de sua obra e assim também terá o prazo de
+    final de maio para incluí-las no pacote (*issues* \#113, \#114
+    e \#115).
+
 -   **Semana 10 - (03/05 - 10/05)**
     -   **Alcides C. Neto**: Concluir a *issue* \#112 (5 tabelas).
     -   **Altamiro A. Basiewics**: **Concluir as atividades das OITO
@@ -587,7 +597,7 @@ principais informações.
 Lista de datasets
 -----------------
 
-Até o momento, no ramo `devel` temos 198 conjuntos de dados já
+Até o momento, no ramo `devel` temos 220 conjuntos de dados já
 devidamente incluídos, documentados e revisados. Abaixo a contagem de
 *datasets* por obra.
 
@@ -674,30 +684,36 @@ devidamente incluídos, documentados e revisados. Abaixo a contagem de
 <td align="left">32.516 Kb</td>
 </tr>
 <tr class="even">
-<td align="left">Pimentel</td>
-<td align="center">7</td>
-<td align="center">422</td>
-<td align="left">14.969 Kb</td>
+<td align="left">Paula</td>
+<td align="center">8</td>
+<td align="center">6577</td>
+<td align="left">66.602 Kb</td>
 </tr>
 <tr class="odd">
-<td align="left">Ramalho</td>
-<td align="center">30</td>
-<td align="center">9124</td>
-<td align="left">110.156 Kb</td>
+<td align="left">Pimentel</td>
+<td align="center">12</td>
+<td align="center">954</td>
+<td align="left">29.273 Kb</td>
 </tr>
 <tr class="even">
+<td align="left">Ramalho</td>
+<td align="center">35</td>
+<td align="center">9650</td>
+<td align="left">125.461 Kb</td>
+</tr>
+<tr class="odd">
 <td align="left">Ramos</td>
 <td align="center">14</td>
 <td align="center">2064</td>
 <td align="left">23.211 Kb</td>
 </tr>
-<tr class="odd">
-<td align="left">Vieira</td>
-<td align="center">2</td>
-<td align="center">100</td>
-<td align="left">3.219 Kb</td>
-</tr>
 <tr class="even">
+<td align="left">Vieira</td>
+<td align="center">6</td>
+<td align="center">281</td>
+<td align="left">10.383 Kb</td>
+</tr>
+<tr class="odd">
 <td align="left">Zimmermann</td>
 <td align="center">16</td>
 <td align="center">5107</td>
