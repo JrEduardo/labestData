@@ -1,0 +1,19 @@
+year <- sub(pattern = ".*(2[[:digit:]]{3})-.*",
+            replacement = "\\1",
+            x = meta$Date, perl = TRUE)
+vers <- sprintf("R package version %s", meta$Version)
+author <- "PET Estatística UFPR"
+url <- gsub(x = meta$URL, pattern = "\n", replacement = "")
+url <- gsub(x = url, pattern = ", *", replacement = ", ")
+
+citHeader(sprintf("Para citar o pacote '%s' use:", meta$Package))
+
+citEntry(entry = "manual",
+         title = sprintf("%s: %s", meta$Package, meta$Title),
+         author = author,
+         year = year,
+         note = vers,
+         url = url,
+         textVersion = sprintf("%s (%s). %s: %s. %s.",
+                               author, year, meta$Package,
+                               meta$Title, vers))
