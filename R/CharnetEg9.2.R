@@ -10,15 +10,15 @@
 #'
 #' \describe{
 #'
-#' \item{\code{y}}{Óxido de nitrogênio, sem especificação.}
+#' \item{\code{CO}}{Monóxido de carbono, sem especificação.}
 #' 
-#' \item{\code{x1}}{Monóxido de carbono, sem especificação.}
+#' \item{\code{HC}}{Hidrocarbonetos, sem especificação.}
 #'
-#' \item{\code{x2}}{Hidrocarbonetos, sem especificação.}
+#' \item{\code{NO}}{Óxido de nitrogênio, sem especificação.}
 #'
 #' }
 #'
-#' @keywords TODO
+#' @keywords RM
 #'
 #' @source Charnet, R., de Luna Freire, C.A., Charnet, E.M.R. & Bonvino,
 #'     H. (2008). Análise de modelos de regressão linear com aplicações
@@ -29,5 +29,7 @@
 #' data(CharnetEg9.2)
 #'
 #' plot(CharnetEg9.2)
+#' cor(CharnetEg9.2)
 #'
 NULL
+

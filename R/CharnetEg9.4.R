@@ -1,8 +1,10 @@
 #' @name CharnetEg9.4
 #' 
-#' @title Um Conjunto de 8 Variáveis
+#' @title Um Conjunto de Dados Genérico para Regressão Linear Múltipla
 #' 
-#' @description Um conjunto de dados qualquer.
+#' @description Um conjunto de dados qualquer para exercício de ajuste
+#'     de um modelo de regressão linear múltipla onde temos uma variável
+#'     dependente relaciona a sete outras variáveis independentes. 
 #'
 #' @format Um \code{data.frame} com 8 colunas e 36 linhas.
 #'
@@ -27,7 +29,7 @@
 #'
 #' }
 #'
-#' @keywords TODO
+#' @keywords RM
 #'
 #' @source Charnet, R., de Luna Freire, C.A., Charnet, E.M.R. & Bonvino,
 #'     H. (2008). Análise de modelos de regressão linear com aplicações
