@@ -1,0 +1,25 @@
+euca	dist	bloc	diam
+E. saligna	3x1.5	I	10.69
+E. grandis	3x1.5	I	12.95
+E. alba	3x1.5	I	9.68
+E. propinqua	3x1.5	I	11.78
+E. saligna	3x2	I	9.59
+E. grandis	3x2	I	11.46
+E. alba	3x2	I	9.4
+E. propinqua	3x2	I	10.02
+E. saligna	3x1.5	II	10.05
+E. grandis	3x1.5	II	10.99
+E. alba	3x1.5	II	10.58
+E. propinqua	3x1.5	II	12.28
+E. saligna	3x2	II	9.78
+E. grandis	3x2	II	10.89
+E. alba	3x2	II	7.5
+E. propinqua	3x2	II	10.45
+E. saligna	3x1.5	III	10.31
+E. grandis	3x1.5	III	12.37
+E. alba	3x1.5	III	10.44
+E. propinqua	3x1.5	III	12.82
+E. saligna	3x2	III	10.17
+E. grandis	3x2	III	10.97
+E. alba	3x2	III	8.66
+E. propinqua	3x2	III	10.71
