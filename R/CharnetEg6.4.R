@@ -1,6 +1,6 @@
 #' @name CharnetEg6.4
 #' 
-#' @title Efeito de um Produto Químico em Girassóis
+#' @title Efeito de um Produto Químico no Peso de Girassóis
 #' 
 #' @description Medição do efeito da adição de uma solução de um certo 
 #'    produto químico na regação de girassóis.
@@ -11,11 +11,11 @@
 #'
 #' \item{\code{peso}}{Peso da planta, em gramas.}
 #'
-#' \item{\code{dose}}{Dose da aplicação, em log(g/cm²).}
+#' \item{\code{dose}}{Dose da aplicação, em \eqn{\log(g cm^{-2})}.}
 #'
 #' }
 #'
-#' @keywords TODO
+#' @keywords RS
 #'
 #' @source Charnet, R., de Luna Freire, C.A., Charnet, E.M.R. & Bonvino,
 #'     H. (2008). Análise de modelos de regressão linear com aplicações
@@ -25,6 +25,6 @@
 #'
 #' data(CharnetEg6.4)
 #'
-#' plot(CharnetEg6.4)
+#' plot(peso ~ dose, data = CharnetEg6.4)
 #'
 NULL

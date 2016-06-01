@@ -1,6 +1,6 @@
 #' @name CharnetEx6.7
 #' 
-#' @title Peso das Correspondências
+#' @title Peso de Correspondências
 #' 
 #' @description Relação do peso das correspondências levantados por uma
 #'     agência de correios durante 11 dias.
@@ -9,13 +9,13 @@
 #'
 #' \describe{
 #'
-#' \item{\code{kg}}{Peso total das correspondências no dia, em kg.}
+#' \item{\code{peso}}{Peso total das correspondências no dia, em kg.}
 #'
 #' \item{\code{cor}}{Total de correspondências no dia, em milhares.}
 #'
 #' }
 #'
-#' @keywords TODO
+#' @keywords RS
 #'
 #' @source Charnet, R., de Luna Freire, C.A., Charnet, E.M.R. & Bonvino,
 #'     H. (2008). Análise de modelos de regressão linear com aplicações

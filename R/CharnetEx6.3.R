@@ -1,6 +1,6 @@
 #' @name CharnetEx6.3
 #' 
-#' @title Salário Mensal
+#' @title Salário Mensal de Formandos em Economia
 #' 
 #' @description Pesquisa de uma faculdade de economia sobre a evolução
 #'     do salário mensal de 5 de seus formandos no período de 87 a 93.
@@ -15,7 +15,7 @@
 #'
 #' }
 #'
-#' @keywords TODO
+#' @keywords RS
 #'
 #' @source Charnet, R., de Luna Freire, C.A., Charnet, E.M.R. & Bonvino,
 #'     H. (2008). Análise de modelos de regressão linear com aplicações
