@@ -12,7 +12,7 @@
 #' \item{\code{aplic}}{Fator categórico cujos níveis são a forma de
 #'     aplicação da adubação fosfatada.}
 #'
-#' \item{\code{adub}}{Fator métrico cusjos níveis representam a
+#' \item{\code{adub}}{Fator métrico cujos níveis representam a
 #'     quantidade de adubação fosfatada, em kg ha\eqn{^{-1}}, feita com
 #'     \eqn{\textrm{P}_2 \textrm{O}_5}.}
 #'
