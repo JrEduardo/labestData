@@ -4,21 +4,19 @@
 #' 
 #' @description Medição da quantidade de bactérias em um estudo sobre o 
 #'     efeito de um desinfetante diluído em quantidade fixas de água,
-#'     em concetrações de 1 a 8%.
+#'     em concentrações de 1 a 8%.
 #'
-#' @format Um \code{data.frame} com 3 colunas e 16 linhas.
+#' @format Um \code{data.frame} com 2 colunas e 16 linhas.
 #'
 #' \describe{
 #'
-#' \item{\code{obs}}{Observação}
-#' 
-#' \item{\code{conc}}{Concetração do desinfetante, em percentagem.}
+#' \item{\code{conc}}{Concentração do desinfetante, em percentagem.}
 #'
 #' \item{\code{bact}}{Contagem de bactérias, em unidade.}
 #'
 #' }
 #'
-#' @keywords TODO
+#' @keywords RS
 #'
 #' @source Charnet, R., de Luna Freire, C.A., Charnet, E.M.R. & Bonvino,
 #'     H. (2008). Análise de modelos de regressão linear com aplicações
