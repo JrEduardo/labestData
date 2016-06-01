@@ -20,7 +20,7 @@ período de tempo, com quatro variáveis.
 
 }
 
-Na figura abaixo apresenta as referências das medidas do crânio.
+A figura abaixo descreve as medidas do crânio.
 \if{html}{\figure{ManlyTb1-2.jpg}{options: width="250px"}}
 \if{latex}{\figure{ManlyTb1-2.jpg}{options: width=1.75in}}}
 \source{

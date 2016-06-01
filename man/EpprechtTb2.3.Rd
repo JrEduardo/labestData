@@ -19,9 +19,9 @@ Costa, A. F. B., Epprecht, E. K., Carpinetti, L. (2010).
      Editora Atlas. (pg 35).
 }
 \description{
-Dados referentes aos volumes verificados de 
-    leite em 100 embalagens de 1000 ml. Os dados são extraídos de 
-    um processo isento de causas especiais de variação.
+Dados referentes aos volumes  de leite em 100 embalagens
+    de 1000 ml. Os dados são extraídos de um processo isento de
+    causas especiais de variação.
 }
 \examples{
 

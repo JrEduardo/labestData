@@ -9,7 +9,7 @@
 
 \item{\code{maq}}{Identificação da máquina (A ou B).}
  
-\item{\code{maqb}}{Peso das 20 unidades coletadas das duas máquinas 
+\item{\code{peso}}{Peso das 20 unidades coletadas das duas máquinas 
     de empacotamento (gramas).}
 
 }}

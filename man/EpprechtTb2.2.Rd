@@ -10,7 +10,7 @@
 
 \item{\code{id}}{Identificação da embalagem.}
 
-\item{\code{X}}{Volume de leite presente na embalagem (ml).}
+\item{\code{X}}{Volume de leite na embalagem (ml).}
 
 
 }}
@@ -22,8 +22,8 @@ Costa, A. F. B., Epprecht, E. K., Carpinetti, L. (2010).
 \description{
 Dados referentes aos volumes verificados de 
     leite em 100 embalagens de 1000 ml. Os dados foram extraídos 
-    após uma alteração da pressão de operação, configurando uma causa especial
-    de variação.
+    após uma alteração da pressão de operação, configurando uma causa 
+    especial de variação.
 }
 \examples{
 

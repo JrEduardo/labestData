@@ -14,12 +14,12 @@ dimensões das taças.
 \if{latex}{\figure{ManlyTb6-6.jpg}{options: width=1.75in}} 
 }}
 \source{
-Manly, B. J. F. (2005). Métodos Estatísticos Multivariados- uma introdução.
-     Porto Alegre, RS: Bookman (pg 101)
+Manly, B. J. F. (2005). Métodos Estatísticos Multivariados- 
+     uma introdução. Porto Alegre, RS: Bookman (pg 101)
 }
 \description{
-Dimensões de 25 taças de cerâmicas escavadas de lugares pré-histórico 
-na Tailândia.
+Dimensões de 25 taças de cerâmicas escavadas de lugares 
+pré-históricos na Tailândia.
 }
 \examples{
 
