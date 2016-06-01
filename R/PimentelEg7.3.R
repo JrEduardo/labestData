@@ -1,0 +1,45 @@
+#' @name PimentelEg7.3
+#' @title Experimento Fatorial de Adubação Mineral e com Vinhaça
+#' @description Experimento fatorial, \eqn{2^{2}}, em que os fatores
+#'     eram adubação mineral completa e adubação com vinhaça. As
+#'     parcelas foram dispostas em blocos ao acaso.
+#' @format Um \code{data.frame} com 16 observações e 4 variáveis, em que
+#'
+#' \describe{
+#'
+#' \item{\code{bloco}}{Fator de 4 níveis qualitativos, usado para
+#'     controle local.}
+#'
+#' \item{\code{mineral}}{Fator de 2 níveis codificados que representa a
+#'     adubação mineral completa, sendo que o valor 1 indica adubação e
+#'     -1 indica ausência.}
+#'
+#' \item{\code{vinhaca}}{Fator de 2 níveis codificados que represetna a
+#'     adubação com vinhaça, sendo que o valor 1 indica presença e -1
+#'     ausência.}
+#'
+#' \item{\code{y}}{Resposta observada nas parcelas do experimento.}
+#'
+#' }
+#' @keywords FAT2
+#' @source Pimentel-Gomes, F. (2009). Curso de Estatística Experimental
+#'     (15th ed.). Piracicaba, SP: FEALQ. (Exemplo 7.3, pág. 119)
+#' @examples
+#'
+#' library(lattice)
+#'
+#' data(PimentelEg7.3)
+#' str(PimentelEg7.3)
+#'
+#' xtabs(~mineral + vinhaca, data = PimentelEg7.3)
+#'
+#' xyplot(y ~ mineral | factor(vinhaca),
+#'        groups = bloco, type = "o",
+#'        data = PimentelEg7.3,
+#'        xlab = "Níveis codificados de adubação mineral",
+#'        ylab = "Resposta",
+#'        strip = strip.custom(factor.levels =
+#'                                 c("Sem Vinhaça",
+#'                                   "Com Vinhaça")))
+#'
+NULL
