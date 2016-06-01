@@ -9,17 +9,17 @@
 #'
 #' \describe{
 #'
-#' \item{\code{lucro}}{ILucro, em milhares de reais.}
+#' \item{\code{lucro}}{Lucro, em milhares de reais.}
 #'
 #' \item{\code{gastos}}{Gasto em publicidade, em milhares de reais.}
 #'
 #' }
 #'
-#' @keywords TODO
+#' @keywords RS
 #'
 #' @source Charnet, R., de Luna Freire, C.A., Charnet, E.M.R. & Bonvino,
 #'     H. (2008). Análise de modelos de regressão linear com aplicações
-#'     (2nd ed., p. 356). SP: Editora Unicamp (Cap. 5, exer. 1, p. 112,
+#'     (2nd ed., p. 356). SP: Editora Unicamp (Cap. 5, exer. 11, p. 112,
 #'     cap. 6, exer. 5, p. 143.)
 #'
 #' @examples
