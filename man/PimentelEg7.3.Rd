@@ -2,7 +2,7 @@
 % Please edit documentation in R/PimentelEg7.3.R
 \name{PimentelEg7.3}
 \alias{PimentelEg7.3}
-\title{Experimento de Adubação Mineral e Adubação com Vinhaça}
+\title{Experimento Fatorial de Adubação Mineral e com Vinhaça}
 \format{Um \code{data.frame} com 16 observações e 4 variáveis, em que
 
 \describe{
@@ -10,26 +10,23 @@
 \item{\code{bloco}}{Fator de 4 níveis qualitativos, usado para
     controle local.}
 
-\item{\code{mineral}}{Fator de 2 níveis qualitativos, que é usado
-    para o controle do efeito que a Adubação Mineral Completa causa
-    no experimento, sendo que a variável assume 1 quando houver
-    Adubação Mineral Completa na parcela e -1 caso contrário.}
+\item{\code{mineral}}{Fator de 2 níveis codificados que representa a
+    adubação mineral completa, sendo que o valor 1 indica adubação e
+    -1 indica ausência.}
 
-\item{\code{vinhaca}}{Fator de 2 níveis qualitativos, que é usado
-    para o controle do efeito que a Adubação com Vinhaça causa no
-    experimento, sendo que a variável assume 1 quando houver Adubação
-    com Vinhaça na parcela e -1 caso contrário.}
+\item{\code{vinhaca}}{Fator de 2 níveis codificados que represetna a
+    adubação com vinhaça, sendo que o valor 1 indica presença e -1
+    ausência.}
 
-\item{\code{y}}{Coeficiente medido em função das 3 variáveis do
-    experimento (bloco, mineral e vinhaca).}
+\item{\code{y}}{Resposta observada nas parcelas do experimento.}
 
 }}
 \source{
 Pimentel-Gomes, F. (2009). Curso de Estatística Experimental
-    (15th ed.). Piracicaba, SP: FEALQ. (Exemplo 7.3)
+    (15th ed.). Piracicaba, SP: FEALQ. (Exemplo 7.3, pág. 119)
 }
 \description{
-Experimento fatorial, de \eqn{2^{2}}, em que os fatores
+Experimento fatorial, \eqn{2^{2}}, em que os fatores
     eram adubação mineral completa e adubação com vinhaça. As
     parcelas foram dispostas em blocos ao acaso.
 }
@@ -37,15 +34,19 @@ Experimento fatorial, de \eqn{2^{2}}, em que os fatores
 
 library(lattice)
 
-xyplot(y ~ mineral + vinhaca,
-      groups = bloco,
-      data = PimentelEg7.3,
-      xlab = "",
-      ylab = "Coeficiente Medido",
-      strip = strip.custom(factor.levels =
-                               c("Adubação Mineral",
-                                 "Adubação com Vinhaça")))
+data(PimentelEg7.3)
+str(PimentelEg7.3)
 
+xtabs(~mineral + vinhaca, data = PimentelEg7.3)
+
+xyplot(y ~ mineral | factor(vinhaca),
+       groups = bloco, type = "o",
+       data = PimentelEg7.3,
+       xlab = "Níveis codificados de adubação mineral",
+       ylab = "Resposta",
+       strip = strip.custom(factor.levels =
+                                c("Sem Vinhaça",
+                                  "Com Vinhaça")))
 
 }
 \keyword{FAT2}

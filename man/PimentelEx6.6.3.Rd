@@ -2,7 +2,7 @@
 % Please edit documentation in R/PimentelEx6.6.3.R
 \name{PimentelEx6.6.3}
 \alias{PimentelEx6.6.3}
-\title{Ensaio de Alimentação de Suínos}
+\title{Efeito da Idade de Castração no Ganho de Peso de Suínos}
 \format{Um \code{data.frame} com 16 observações e 4 variáveis, em que
 
 \describe{
@@ -17,16 +17,15 @@
     leitegada.}
 
 \item{\code{castracao}}{Fator de 4 níveis qualitativos, que são os
-    diferentes tipos de tratamento, são eles: (A) Castração aos 56
-    dias de idade; (B) Animais inteiros (testemunha); (C) Castração
-    aos 7 dias de idade; (D) Castração aos 21 dias de idade.}
+    diferentes tipos de tratamento, são eles: castração aos 7, 21 e
+    56 dias de idade e a testemunha, que são animais não castrados.}
 
 \item{\code{peso}}{Ganho de peso, em kg, ao fim de 252 dias.}
 
 }}
 \source{
 Pimentel-Gomes, F. (2009). Curso de Estatística Experimental
-    (15th ed.). Piracicaba, SP: FEALQ. (Exercício 6.6.3)
+    (15th ed.). Piracicaba, SP: FEALQ. (Exercício 6.6.3, página 110)
 }
 \description{
 Ensaio de alimentação de suínos, no qual foi usado um
@@ -35,22 +34,26 @@ Ensaio de alimentação de suínos, no qual foi usado um
 }
 \examples{
 
+data(PimentelEx6.6.3)
+str(PimentelEx6.6.3)
+
 library(lattice)
 
-grafico1 <- bwplot(peso ~ castracao,
-                   data = PimentelEx6.6.3,
-                   xlab = "Tipo de Castração",
-                   ylab = "Ganho de Peso em kg")
+xyplot(peso ~ castracao,
+       jitter.x = TRUE,
+       data = PimentelEx6.6.3,
+       xlab = "Castração",
+       ylab = "Ganho de peso (kg)")
 
-grafico2 <- xyplot(peso ~ leitegada + coluna,
-                   jitter.x = TRUE,
-                   data = PimentelEx6.6.3,
-                   xlab = "Leitegada (Azul) + Coluna (Rosa)",
-                   ylab = "Ganho de Peso em kg")
-
-print(grafico1, position = c(0, 0, 0.5, 1), more = TRUE)
-
-print(grafico2, position = c(0.5, 0, 1, 1))
+levelplot(peso ~ leitegada + coluna,
+          data = PimentelEx6.6.3, aspect = "iso",
+          panel = function(x, y, z, subscripts, ...) {
+              panel.levelplot(x, y, z, subscripts = subscripts, ...)
+              panel.text(x, y,
+                         PimentelEx6.6.3$castracao[subscripts],
+                         cex = 0.8)
+              panel.text(x, y, z, pos = 1)
+          })
 
 }
 \keyword{DQL}
