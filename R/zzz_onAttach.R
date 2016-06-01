@@ -9,7 +9,9 @@
                pkg.info["Package"], ": ", pkg.info["Title"], "\n\n  ",
                "Para colabora\u00e7\u00e3o, suporte ou ",
                "relato de bugs, visite:\n    ",
-               pkg.info["URL"], "\n\n  ",
+               sub(x = pkg.info["URL"],
+                   pattern = "\n",
+                   replacement = "\n    "), "\n\n  ",
                pkg.info["Package"], " version ", pkg.info["Version"],
                " (feito em ", pkg.info["Date"], ") foi carregado.\n",
                dashes)
