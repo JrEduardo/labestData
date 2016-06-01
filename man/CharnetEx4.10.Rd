@@ -16,8 +16,8 @@ unidades.}
 \source{
 Charnet, R., de Luna Freire, C.A., Charnet, E.M.R. & Bonvino,
     H. (2008). Análise de modelos de regressão linear com aplicações
-    (2nd ed., p. 356). SP: Editora Unicamp (Capítulo 4, exercício 10,
-    página 85)
+    (2nd ed., p. 356). SP: Editora Unicamp (Cap. 4, exer. 10, p. 85,
+    cap. 6, exer. 10, p. 146.)
 }
 \description{
 Custo de produção pelo número de peças produzidas em uma
