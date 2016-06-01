@@ -1,29 +1,35 @@
 #' @name VieiraEx8.3
-#' @title Exercício 8.3
-#' @description Dados advindos de um experimento ao acado com repetições.
+#' @title Experimento Em Blocos Casualizados Com Repetições Nos Blocos
+#' @description Dados de um experimento em delineamento em blocos
+#'     casualizados com repetições dos tratamentos dentro dos blocos.
 #' @format Um \code{data.frame} com 24 observações e 3 variáveis, em que
 #'
 #' \describe{
 #'
-#' \item{\code{trat}}{Fator com 4 níveis, referentes aos tratamentos.}
+#' \item{\code{trat}}{Fator categóricos de 4 níveis que são os
+#'     tratamentos aplicados.}
 #'
-#' \item{\code{bloco}}{Fator com 2 níveis, referentes aos blocos.}
-#' 
-#' \item{\code{valor}}{Valor de cada observação.}
+#' \item{\code{bloco}}{Fator categórico com 2 níveis que são os blocos
+#'     do experimento.}
+#'
+#' \item{\code{valor}}{Valor observado da resposta de cada unidade
+#'     experimental.}
 #'
 #' }
-#' @keywords TODO
-#' @source Vieira, S.(1999). Estatística experimental (2th ed.). 
-#'     São Paulo, SP: Atlas. (Exercício 8.3 pág. 102).
+#' @keywords DBC
+#' @source Vieira, S. (1999). Estatística experimental (2th ed.).
+#'     São Paulo, SP: Atlas. (Exercício 8.3, pág. 102).
 #' @examples
 #'
 #' library(lattice)
 #'
 #' data(VieiraEx8.3)
+#' str(VieiraEx8.3)
+#'
+#' xtabs(~bloco + trat, data = VieiraEx8.3)
 #'
 #' xyplot(valor ~ trat, group = bloco, data = VieiraEx8.3,
-#'        type = "b",
-#'        ylab = "Valor",
-#'        xlab = "Tratamento")
+#'        type = c("p", "a"),
+#'        ylab = "Valor", xlab = "Tratamento")
 #'
 NULL
