@@ -10,7 +10,7 @@
 
 \item{\code{ano}}{Ano da colheita do pomar.}
 
-\item{\code{bloc}}{Fator categórico que identica os blocos do
+\item{\code{bloc}}{Fator categórico que identifica os blocos do
     experimento.}
 
 \item{\code{espac}}{Fator categórico que representa os espaçamentos
@@ -52,7 +52,7 @@ xyplot(prod ~ espac | as.factor(ano), groups = bloc,
                        title = "Blocos"))
 
 xyplot(prod ~ ano, groups = espac,
-       data = BarbinEx17, type = c("p", "a"), as.table = TRUE,
+       data = BarbinEx17, type = c("p", "a"),
        xlab = "Ano da colheita",
        ylab = "Produtividade de laranja (kg/planta)",
        auto.key = list(corner = c(0.05, 0.95),

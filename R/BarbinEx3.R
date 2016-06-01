@@ -1,7 +1,7 @@
 #' @name BarbinEx3
 #' @title Podridão Mole de Manga em Função do Tratamento Térmico
-#' @description OS dados referen-se a notas (médias de 6 frutos)
-#'     atribuída a podridão mole de manga (fruto) sob diferentes
+#' @description Os dados referem-se as notas (médias de 6 frutos)
+#'     atribuídas a podridão mole de manga (fruto) sob diferentes
 #'     tratamentos térmicos, de um experimento inteiramente ao acaso
 #'     realizado pelo Prof. Vladimir R. Sampaio, do Departamento de
 #'     Horticultura, ESALQ-USP.

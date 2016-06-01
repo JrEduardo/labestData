@@ -29,7 +29,7 @@ Barbin, D. (2013). Planejamento e Análise Estatística de
 \description{
 Dados referentes à altura de plantas de eucalipto, com 3
     anos de idade, em ensaios inteiramente casualizados estudando o
-    efeito da espécie de eucalipto em vários munícipios (grupo de
+    efeito da espécie de eucalipto em vários municípios (grupo de
     experimentos). Os ensaios foram conduzidos pelo Instituto
     Florestal, em Tupi/SP. Todos os ensaios receberam uma calagem e
     uma adubação completa.

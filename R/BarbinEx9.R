@@ -5,7 +5,7 @@
 #'     onde foram obtidos os resultados de produção, em kg de frutos
 #'     planta, para o ano de 1987, em que as plantas estavam com 16 anos
 #'     de idade. O ensaio foi conduzido pelo Dr. Joaquim Teófilo Sobrino
-#'     em delinamento de blocos ao acaso na Estação Experimental de
+#'     em delineamento de blocos ao acaso na Estação Experimental de
 #'     Limeira, do IAC.
 #' @format Um \code{data.frame} com 78 observações e 4 variáveis.
 #'

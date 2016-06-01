@@ -2,7 +2,7 @@
 #' @title Altura de Plantas de Espécies de Eucalipto em Vários Locais
 #' @description Dados referentes à altura de plantas de eucalipto, com 3
 #'     anos de idade, em ensaios inteiramente casualizados estudando o
-#'     efeito da espécie de eucalipto em vários munícipios (grupo de
+#'     efeito da espécie de eucalipto em vários municípios (grupo de
 #'     experimentos). Os ensaios foram conduzidos pelo Instituto
 #'     Florestal, em Tupi/SP. Todos os ensaios receberam uma calagem e
 #'     uma adubação completa.

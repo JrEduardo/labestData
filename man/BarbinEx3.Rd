@@ -18,8 +18,8 @@ Barbin, D. (2013). Planejamento e Análise Estatística de
     Mecenas. (Exercício 3, pág. 119)
 }
 \description{
-OS dados referen-se a notas (médias de 6 frutos)
-    atribuída a podridão mole de manga (fruto) sob diferentes
+Os dados referem-se as notas (médias de 6 frutos)
+    atribuídas a podridão mole de manga (fruto) sob diferentes
     tratamentos térmicos, de um experimento inteiramente ao acaso
     realizado pelo Prof. Vladimir R. Sampaio, do Departamento de
     Horticultura, ESALQ-USP.

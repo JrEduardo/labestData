@@ -19,7 +19,7 @@
 
 \item{\code{rept}}{Identifica as repetições.}
 
-\item{\code{prod}}{Produtividade da cana-de-açucar, em toneladas por
+\item{\code{prod}}{Produtividade da cana-de-açúcar, em toneladas por
     hectare.}
 
 }}

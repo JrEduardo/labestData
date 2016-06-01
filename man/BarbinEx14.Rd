@@ -27,7 +27,7 @@ Barbin, D. (2013). Planejamento e Análise Estatística de
     Mecenas. (Exercício 14, pág. 206)
 }
 \description{
-Ensaio fatorial de abubação NPK, fatorial \eqn{2^3}, com
+Ensaio fatorial de adubação NPK, fatorial \eqn{2^3}, com
     resultados referentes à produção de milho (kg ha\eqn{^{-1}}),
     conduzido em delineamento de blocos casualizados em Limoeiro, PE.
 }
