@@ -10,26 +10,28 @@
 #'
 #' \describe{
 #'
-#' \item{\code{y}}{Número de horas trabalhada por dia.}
+#' \item{\code{nhora}}{Número de horas trabalhadas por dia.}
 #' 
-#' \item{\code{x1}}{Número de cheques descontados.}
+#' \item{\code{ncheq}}{Número de cheques descontados.}
 #' 
-#' \item{\code{x2}}{Número de pagamentos recebidos pelos funcionários.}
+#' \item{\code{npag}}{Número de pagamentos recebidos pelos
+#'     funcionários.}
 #' 
-#' \item{\code{x3}}{Número de documentos processados e enviados ao banco
-#'     para compensação.}
+#' \item{\code{ndoc}}{Número de documentos processados e enviados ao
+#'     banco para compensação.}
 #'     
-#' \item{\code{x4}}{Número de ordens de pagamento, certificados e 
+#' \item{\code{nord}}{Número de ordens de pagamento, certificados e
 #'     recibos de vendas emitidos pelos funcionários.}
 #'     
-#' \item{\code{x5}}{Número de correspondências processadas e enviadas
+#' \item{\code{ncor}}{Número de correspondências processadas e enviadas
 #'     aos clientes.}
 #'     
-#' \item{\code{x6}}{Número de documentos processados e outras atividades.}
+#' \item{\code{nout}}{Número de documentos processados e outras
+#'     atividades.}
 #' 
 #' }
 #'
-#' @keywords TODO
+#' @keywords RM
 #'
 #' @source Charnet, R., de Luna Freire, C.A., Charnet, E.M.R. & Bonvino,
 #'     H. (2008). Análise de modelos de regressão linear com aplicações

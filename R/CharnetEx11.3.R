@@ -1,24 +1,30 @@
 #' @name CharnetEx11.3
 #' 
-#' @title Relação do Preço de Venda de Imóvel
+#' @title Relação do Preço de Venda de Imóvel e suas Características
 #' 
-#' @description Relação entre o valor de venda de imóveis de um mesmo
-#'     bairro, observado a presença de piscina, tempo de construção, 
-#'     metros quadrados e o número de quartos.
+#' @description Estudo observacional onde o interesse é explicar o valor
+#'     de venda de imóveis de um mesmo bairro a partir de suas
+#'     características presença de piscina, tempo de construção, área
+#'     total e número de quartos.
 #'
 #' @format Um \code{data.frame} com 5 colunas e 20 linhas.
 #'
 #' \describe{
 #'
-#' \item{\code{y}}{Preço de venda do imóvel, em reais.}
-#' \item{\code{x1}}{Área, em m².}
-#' \item{\code{x2}}{Tempo de construção, em anos.}
-#' \item{\code{x3}}{Número de quartos.}
-#' \item{\code{x4}}{Possuí piscina, fator (S ou N).}
+#' \item{\code{preco}}{Preço de venda do imóvel, em reais.}
+#'
+#' \item{\code{area}}{Área total de construção, em m\eqn{^2}.}
+#'
+#' \item{\code{tempo}}{Tempo de construção, em anos.}
+#'
+#' \item{\code{nquar}}{Número de quartos.}
+#'
+#' \item{\code{pisc}}{Fator que indica se há piscina (\code{S}) ou não
+#'     (\code{N}) no imóvel.}
 #'
 #' }
 #'
-#' @keywords TODO
+#' @keywords RM
 #'
 #' @source Charnet, R., de Luna Freire, C.A., Charnet, E.M.R. & Bonvino,
 #'     H. (2008). Análise de modelos de regressão linear com aplicações
