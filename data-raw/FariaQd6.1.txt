@@ -1,4 +1,4 @@
-trat	rept	result
+varied	rept	prod
 A	1	25
 A	2	26
 A	3	20

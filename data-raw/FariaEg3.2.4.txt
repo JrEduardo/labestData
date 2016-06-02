@@ -1,4 +1,4 @@
-trat	rept	result
+clone	rept	prod
 A	1	58
 A	2	49
 A	3	51
