@@ -21,10 +21,10 @@ Pimentel-Gomes, F. (2009). Curso de Estatística
     Experimental (15th ed.). Piracicaba, SP: FEALQ. (Página 185)
 }
 \description{
-Experimento no qual temos v = 5 tratamentos, lambda = 3,
-    k = 3 parcelas por bloco, r = 6 repetições e b = 10 blocos, em
-    que os blocos não podem ser agrupados em repetições ou grupos de
-    repetições.
+Experimento em blocos imcompletos equilibrados, no qual
+    temos v = 5 tratamentos, lambda = 3, k = 3 parcelas por bloco,
+    r = 6 repetições e b = 10 blocos, em que os blocos não podem ser
+    agrupados em repetições ou grupos de repetições.
 }
 \examples{
 

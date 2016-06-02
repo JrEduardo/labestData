@@ -26,9 +26,10 @@ Pimentel-Gomes, F. (2009). Curso de Estatística
     pág. 190)
 }
 \description{
-Experimento no qual temos v = 8 tratamentos, lambda = 1,
-    k = 2 parcelas por bloco, r = 7 repetições, b = 28 blocos e
-    E = 55%, em que os blocos podem ser agrupados em repetições.
+Experimento em blocos imcompletos equilibrados, no qual
+    temos v = 8 tratamentos, lambda = 1, k = 2 parcelas por bloco,
+    r = 7 repetições, b = 28 blocos e E = 55%, em que os blocos podem
+    ser agrupados em repetições.
 }
 \examples{
 
