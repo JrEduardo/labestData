@@ -2,7 +2,7 @@
 % Please edit documentation in R/PimentelTb9.2.1.R
 \name{PimentelTb9.2.1}
 \alias{PimentelTb9.2.1}
-\title{Experimento de Adubos Verdes e Milho}
+\title{Produção de Adubos Verdes e Milho}
 \format{Um \code{data.frame} com 64 observações e 4 variáveis, em que
 
 \describe{
@@ -12,18 +12,18 @@
 
 \item{\code{bloco}}{Fator de 4 níveis qualitativos, usado para
     controle local.}
-    
+
 \item{\code{cultura}}{Fator de 8 níveis qualitativos, que são os
     diferentes tipos de cultura, variando entre adubos verdes e
     milho.}
-    
+
 \item{\code{prod}}{Produção de adubos verdes e milho medidos em kg de
     matéria verde por parcela.}
 
 }}
 \source{
-Pimentel-Gomes, F. (2009). Curso de Estatística
-    Experimental (15th ed.). Piracicaba, SP: FEALQ. (Tabela 9.2.1)
+Pimentel-Gomes, F. (2009). Curso de Estatística Experimental
+    (15th ed.). Piracicaba, SP: FEALQ. (Tabela 9.2.1, pág. 166)
 }
 \description{
 Experimento com 8 tratamentos (7 adubos verdes e milho)
@@ -34,11 +34,17 @@ Experimento com 8 tratamentos (7 adubos verdes e milho)
 
 library(lattice)
 
+data(PimentelTb9.2.1)
+str(PimentelTb9.2.1)
+
 xyplot(prod ~ cultura,
-       groups = ano,
+       groups = ano, type = c("p", "a"),
        data = PimentelTb9.2.1,
-       xlab = "Cultura x Ano (Azul = 1, Rosa = 2)",
-       ylab = "Produção em kg de Matéria Verde por Parcela")
+       scales = list(x = list(rot = 90)),
+       auto.key = list(title = "Ano", cex.title = 1.1,
+                       columns = 2),
+       xlab = "Culturas",
+       ylab = "Produção de matéria verde (kg/parcela)")
 
 }
 \keyword{PSS}
