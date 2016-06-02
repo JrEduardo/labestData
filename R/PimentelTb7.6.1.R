@@ -29,10 +29,13 @@
 #' \item{\code{prod}}{Produção de cana-de-açúcar, em t.ha\eqn{^{-1}}.}
 #'
 #' }
+#' @details Foi constatado que o livro tem um erro de tipografia na
+#'     tabela com os dados pois no bloco W1 existem duas ocorrências do
+#'     tratamento 202 sendo que a última deveria ser 220. Foi feita a
+#'     inclusão desses dados no pacote com essa correção.
 #' @keywords FAT3 confundimento
-#' @source Pimentel-Gomes, F. (2009). Curso de Estatística
-#'     Experimental (15th ed.). Piracicaba, SP: FEALQ. (Tabela 7.6.1,
-#'     pág. 126)
+#' @source Pimentel-Gomes, F. (2009). Curso de Estatística Experimental
+#'     (15th ed.). Piracicaba, SP: FEALQ. (Tabela 7.6.1, pág. 126)
 #'
 #' Straus, F. Esperimentos de adubação na zona canavieira de
 #'     Pernambuco. In: Terceira Reunião Brasileira de Ciência do
