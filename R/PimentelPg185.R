@@ -2,7 +2,8 @@
 #' @title Experimento em Blocos Imcompletos Equilibrados
 #' @description Experimento no qual temos v = 5 tratamentos,
 #'     lambda = 3, k = 3 parcelas por bloco, r = 6 repetições e b = 10
-#'     blocos.
+#'     blocos, em que os blocos não podem ser agrupados em repetições ou
+#'     grupos de repetições.
 #' @format Um \code{data.frame} com 30 observações e 3 variáveis, em que
 #'
 #' \describe{
