@@ -1,8 +1,8 @@
 #' @name CharnetEx2.15
-#' 
+#'
 #' @title Notas Médias de Candidatos ao Vestibular
-#' 
-#' @description Notas médias de candidatos ao vestibular da Unicamp em 
+#'
+#' @description Notas médias de candidatos ao vestibular da Unicamp em
 #'     1998.
 #'
 #' @format Um \code{data.frame} com 9 colunas e 46 linhas.
@@ -12,30 +12,31 @@
 #' \item{\code{curso}}{Cursos ofertados no Vestibular.}
 #'
 #' \item{\code{per}}{Período ofertado (Diurno / Noturno)}
-#' 
+#'
 #' \item{\code{cv}}{Relação Candidato/Vaga do curso.}
-#' 
+#'
 #' \item{\code{nq}}{Nota média nas provas de Química.}
-#' 
+#'
 #' \item{\code{qp}}{Disciplina Prioritária no curso (Química).}
-#' 
+#'
 #' \item{\code{nm}}{Nota média nas provas de Matemática.}
-#' 
+#'
 #' \item{\code{mp}}{Disciplina Prioritária no curso (Matemática).}
-#' 
+#'
 #' \item{\code{nh}}{Nota média nas provas de História.}
-#' 
+#'
 #' \item{\code{hp}}{Disciplina Prioritária no curso (História).}
-#' 
+#'
 #' }
 #'
 #' @keywords RM
 #'
-#' @source Charnet, R., de Luna Freire, C.A., Charnet, E.M.R. & Bonvino,
+#' @source Charnet, R., de Luna Freire, C.A., Charnet, E.M.R., Bonvino,
 #'     H. (2008). Análise de modelos de regressão linear com aplicações
-#'     (2nd ed., p. 356). SP: Editora Unicamp (Cap. 2, exer. 15, p. 50, 
-#'     cap. 7, exer. 3, p. 164, cap. 8, exer. 6, p. 197, cap. 9, 
-#'     exer. 8, p. 231, cap. 10, exer. 3, p. 254)
+#'     (2nd ed.). Campinas, SP: Editora Unicamp (Capítulo 2, exercício
+#'     15, pág. 50, Capítulo 7, exercício 3, pág. 164, Capítulo 8,
+#'     exercício 6, pág. 197, Capítulo 9, exercício 8, pág. 231,
+#'     Capítulo 10, exercício 3, pág. 254)
 #'
 #' @examples
 #'
