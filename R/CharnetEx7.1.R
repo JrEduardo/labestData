@@ -1,7 +1,7 @@
 #' @name CharnetEx7.1
-#' 
+#'
 #' @title Efeito da Radiação ao Ozônio em Sementes de Soja
-#' 
+#'
 #' @description Efeito da radiação solar em dois níveis de ozônio e
 #'     impacto nos pesos de sementes de soja.
 #'
@@ -14,7 +14,7 @@
 #'
 #' \item{\code{rad}}{Quantidade de radiação solar aplicada, unidade de
 #'     medida não informada.}
-#' 
+#'
 #' \item{\code{peso}}{Peso das sementes de soja, unidade de medida não
 #'     informada.}
 #'
@@ -22,10 +22,10 @@
 #'
 #' @keywords RM
 #'
-#' @source Charnet, R., de Luna Freire, C.A., Charnet, E.M.R. & Bonvino,
+#' @source Charnet, R., de Luna Freire, C.A., Charnet, E.M.R., Bonvino,
 #'     H. (2008). Análise de modelos de regressão linear com aplicações
-#'     (2nd ed., p. 356). SP: Editora Unicamp (Cap. 7, exer. 1, p. 163,
-#'     Cap. 10, exer. 1, p. 253)
+#'     (2nd ed.). Campinas, SP: Editora Unicamp (Capítulo 7, exercício
+#'     1, pág. 163, Capítulo 10, exercício 1, pág. 253)
 #'
 #' @examples
 #'

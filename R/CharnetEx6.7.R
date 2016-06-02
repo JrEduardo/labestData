@@ -1,7 +1,7 @@
 #' @name CharnetEx6.7
-#' 
+#'
 #' @title Peso de Correspondências
-#' 
+#'
 #' @description Relação do peso das correspondências levantados por uma
 #'     agência de correios durante 11 dias.
 #'
@@ -17,9 +17,10 @@
 #'
 #' @keywords RS
 #'
-#' @source Charnet, R., de Luna Freire, C.A., Charnet, E.M.R. & Bonvino,
+#' @source Charnet, R., de Luna Freire, C.A., Charnet, E.M.R., Bonvino,
 #'     H. (2008). Análise de modelos de regressão linear com aplicações
-#'     (2nd ed., p. 356). SP: Editora Unicamp (Cap. 6, exer. 7, p. 145)
+#'     (2nd ed.). Campinas, SP: Editora Unicamp (Capítulo 6, exercício
+#'     7, pág. 145)
 #'
 #' @examples
 #'

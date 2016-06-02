@@ -26,9 +26,10 @@
 
 }}
 \source{
-Charnet, R., de Luna Freire, C.A., Charnet, E.M.R. & Bonvino,
+Charnet, R., de Luna Freire, C.A., Charnet, E.M.R., Bonvino,
     H. (2008). Análise de modelos de regressão linear com aplicações
-    (2nd ed., p. 356). SP: Editora Unicamp (Cap. 9, exem. 4, p. 226)
+    (2nd ed.). Campinas, SP: Editora Unicamp (Capítulo 9, exemplo 4,
+    pág. 226)
 }
 \description{
 Um conjunto de dados qualquer para exercício de ajuste

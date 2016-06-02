@@ -13,13 +13,13 @@
 
 }}
 \source{
-Charnet, R., de Luna Freire, C.A., Charnet, E.M.R. & Bonvino,
+Charnet, R., de Luna Freire, C.A., Charnet, E.M.R., Bonvino,
     H. (2008). Análise de modelos de regressão linear com aplicações
-    (2nd ed., p. 356). SP: Editora Unicamp (Cap. 8, exer. 3, p. 196,
-    cap. 9, exer. 9, p. 232)
+    (2nd ed.). Campinas, SP: Editora Unicamp (Capítulo 8, exercício
+    3, pág. 196, Capítulo 9, exercício 9, pág. 232)
 }
 \description{
-Estudo da relação entre o grau de corrosão de um certo 
+Estudo da relação entre o grau de corrosão de um certo
    metal e o tempo de exposição deste metal à ação da acidez do solo.
 }
 \examples{

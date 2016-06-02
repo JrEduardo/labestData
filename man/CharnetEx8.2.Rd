@@ -13,10 +13,10 @@
 
 }}
 \source{
-Charnet, R., de Luna Freire, C.A., Charnet, E.M.R. & Bonvino,
+Charnet, R., de Luna Freire, C.A., Charnet, E.M.R., Bonvino,
     H. (2008). Análise de modelos de regressão linear com aplicações
-    (2nd ed., p. 356). SP: Editora Unicamp (Cap. 8, exer. 2, p. 195,
-    cap. 9, exer. 11, p. 233.)
+    (2nd ed.). Campinas, SP: Editora Unicamp (Capítulo 8, exercício
+    2, pág. 195, Capítulo 9, exercício 11, pág. 233)
 }
 \description{
 Uma indústria química está interessada em maximizar a

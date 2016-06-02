@@ -13,13 +13,14 @@
 
 }}
 \source{
-Charnet, R., de Luna Freire, C.A., Charnet, E.M.R. & Bonvino,
+Charnet, R., de Luna Freire, C.A., Charnet, E.M.R., Bonvino,
     H. (2008). Análise de modelos de regressão linear com aplicações
-    (2nd ed., p. 356). SP: Editora Unicamp (Cap. 3, exer. 3, pág. 66)
+    (2nd ed.). Campinas, SP: Editora Unicamp (Capítulo 3, exercício
+    3, pág. 66, Capítulo 5, exercício 12, pág. 113)
 }
 \description{
-Quantidade de resíduo catalisado, em gramas, 
-    proveniente de 100 ml de água, de um experimento químico, 
+Quantidade de resíduo catalisado, em gramas,
+    proveniente de 100 ml de água, de um experimento químico,
     repetido 5 vezes, comparado a diversas temperaturas.
 }
 \examples{

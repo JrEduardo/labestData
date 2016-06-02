@@ -13,10 +13,10 @@
 
 }}
 \source{
-Charnet, R., de Luna Freire, C.A., Charnet, E.M.R. & Bonvino,
+Charnet, R., de Luna Freire, C.A., Charnet, E.M.R., Bonvino,
     H. (2008). Análise de modelos de regressão linear com aplicações
-    (2nd ed., p. 356). SP: Editora Unicamp (Cap. 5, exer. 5, p. 110,
-    cap. 6, exer. 4, p. 143)
+    (2nd ed.). Campinas, SP: Editora Unicamp (Capítulo 5, exercício
+    5, pág. 110, Capítulo 6, exercício 4, pág. 143)
 }
 \description{
 Relação da resposta a um anúncio de emprego com o número

@@ -13,14 +13,14 @@
 
 }}
 \source{
-Charnet, R., de Luna Freire, C.A., Charnet, E.M.R. & Bonvino,
+Charnet, R., de Luna Freire, C.A., Charnet, E.M.R., Bonvino,
     H. (2008). Análise de modelos de regressão linear com aplicações
-    (2nd ed., p. 356). SP: Editora Unicamp (Capítulo 4, exercício 2,
-    página 82)
+    (2nd ed.). Campinas, SP: Editora Unicamp (Capítulo 4, exercício
+    2, pág. 82)
 }
 \description{
 Pesquisa de uma faculdade de economia sobre a evolução
-    do salário médio mensal de 20 de seus ex-alunos no período de 
+    do salário médio mensal de 20 de seus ex-alunos no período de
     1987 a 1993.
 }
 \examples{

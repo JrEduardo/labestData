@@ -6,13 +6,13 @@
 \format{Uma série temporal \code{ts}, com 32 observações, sendo 4
     observações por ano (trimestralmente) de 1990 a 1997.}
 \source{
-Charnet, R., de Luna Freire, C.A., Charnet, E.M.R. & Bonvino,
+Charnet, R., de Luna Freire, C.A., Charnet, E.M.R., Bonvino,
     H. (2008). Análise de modelos de regressão linear com aplicações
-    (2nd ed., p. 356). SP: Editora Unicamp (Capítulo 2, exercício 14,
-    página 49)
+    (2nd ed.). Campinas, SP: Editora Unicamp (Capítulo 2, exercício
+    14, pág. 49)
 }
 \description{
-Comparação do Produto Interno Bruto (PIB) trimestral do 
+Comparação do Produto Interno Bruto (PIB) trimestral do
     Brasil em 8 anos, de 1990 a 1997.
 }
 \examples{

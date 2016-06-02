@@ -13,13 +13,14 @@
 
 }}
 \source{
-Charnet, R., de Luna Freire, C.A., Charnet, E.M.R. & Bonvino,
+Charnet, R., de Luna Freire, C.A., Charnet, E.M.R., Bonvino,
     H. (2008). Análise de modelos de regressão linear com aplicações
-    (2nd ed., p. 356). SP: Editora Unicamp (Cap. 3, exer. 1, pág. 65)
+    (2nd ed.). Campinas, SP: Editora Unicamp (Capítulo 3, exercício
+    1, pág. 65)
 }
 \description{
 Comparação entre as notas de uma prova teórica e de
-   laboratório de 50 alunos, numa escala de 0 a 100 pontos.
+    laboratório de 50 alunos, numa escala de 0 a 100 pontos.
 }
 \examples{
 

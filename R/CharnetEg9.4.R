@@ -1,29 +1,29 @@
 #' @name CharnetEg9.4
-#' 
+#'
 #' @title Um Conjunto de Dados Genérico para Regressão Linear Múltipla
-#' 
+#'
 #' @description Um conjunto de dados qualquer para exercício de ajuste
 #'     de um modelo de regressão linear múltipla onde temos uma variável
-#'     dependente relaciona a sete outras variáveis independentes. 
+#'     dependente relaciona a sete outras variáveis independentes.
 #'
 #' @format Um \code{data.frame} com 8 colunas e 36 linhas.
 #'
 #' \describe{
 #'
 #' \item{\code{y}}{Variável dependente.}
-#' 
+#'
 #' \item{\code{x1}}{Variável regressora.}
-#' 
+#'
 #' \item{\code{x2}}{Variável regressora.}
-#' 
+#'
 #' \item{\code{x3}}{Variável regressora.}
-#' 
+#'
 #' \item{\code{x4}}{Variável regressora.}
-#' 
+#'
 #' \item{\code{x5}}{Variável regressora.}
-#' 
+#'
 #' \item{\code{x6}}{Variável regressora.}
-#' 
+#'
 #' \item{\code{x7}}{Variável regressora.}
 #'
 #'
@@ -31,9 +31,10 @@
 #'
 #' @keywords RM
 #'
-#' @source Charnet, R., de Luna Freire, C.A., Charnet, E.M.R. & Bonvino,
+#' @source Charnet, R., de Luna Freire, C.A., Charnet, E.M.R., Bonvino,
 #'     H. (2008). Análise de modelos de regressão linear com aplicações
-#'     (2nd ed., p. 356). SP: Editora Unicamp (Cap. 9, exem. 4, p. 226)
+#'     (2nd ed.). Campinas, SP: Editora Unicamp (Capítulo 9, exemplo 4,
+#'     pág. 226)
 #'
 #' @examples
 #'
