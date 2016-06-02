@@ -35,7 +35,9 @@ library(lattice)
 
 xyplot(y ~ varied,
        groups = bloco,
+       type = "o",
        data = PimentelPg185,
+       auto.key = list(title = "Blocos", cex.title = 1, columns = 5),
        xlab = "Variedade",
        ylab = "Y")
 

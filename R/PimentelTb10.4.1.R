@@ -33,7 +33,8 @@
 #' library(lattice)
 #'
 #' xyplot(y ~ varied,
-#'        groups = grupo,
+#'        groups = bloco,
+#'        auto.key = list(title = "Blocos", cex.title = 1, columns = 2),
 #'        data = PimentelTb10.4.1,
 #'        xlab = "Variedade",
 #'        ylab = "Y")

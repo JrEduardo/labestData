@@ -34,6 +34,7 @@
 #'
 #' xyplot(y ~ varied,
 #'        groups = bloco,
+#'        auto.key = list(title = "Blocos", cex.title = 1, columns = 4),
 #'        data = PimentelTb10.3.1,
 #'        xlab = "Variedade",
 #'        ylab = "Y")
