@@ -28,9 +28,8 @@
 
 }}
 \source{
-Pimentel-Gomes, F. (2009). Curso de Estatística
-    Experimental (15th ed.). Piracicaba, SP: FEALQ. (Tabela 7.6.1,
-    pág. 126)
+Pimentel-Gomes, F. (2009). Curso de Estatística Experimental
+    (15th ed.). Piracicaba, SP: FEALQ. (Tabela 7.6.1, pág. 126)
 
 Straus, F. Esperimentos de adubação na zona canavieira de
     Pernambuco. In: Terceira Reunião Brasileira de Ciência do
@@ -42,6 +41,12 @@ Experimento fatorial, de 3\eqn{^{3}}, de adubação de
     W) de dois graus de liberdade da interação tripla N \eqn{\times}
     P \eqn{\times} K. Foi usado o confundimento correspondente aos
     blocos, e foram feitas duas repetições para os 27 tratamentos.
+}
+\details{
+Foi constatado que o livro tem um erro de tipografia na
+    tabela com os dados pois no bloco W1 existem duas ocorrências do
+    tratamento 202 sendo que a última deveria ser 220. Foi feita a
+    inclusão desses dados no pacote com essa correção.
 }
 \examples{
 
