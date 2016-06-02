@@ -2,44 +2,48 @@
 % Please edit documentation in R/StorckTb67.R
 \name{StorckTb67}
 \alias{StorckTb67}
-\title{Dados de Exemplo de um Experimento Bifatorial}
-\format{Um \code{data.frame} com 60 observações e 4 variáveis.
+\title{Efeito da Dose de NPK na Produção de Cultivares de Milho}
+\format{Um \code{data.frame} com 60 observações e 4 variáveis, em que
+
 \describe{
 
-\item{\code{trat.A}}{Os 3 níveis do fator A são constituídos por 3
-    cultivares de trigo. }
+\item{\code{cult}}{Fator categórico que representa 3 cultivares de
+    trigo.}
 
-\item{\code{trat.D}}{Os 5 níveis do fator D são constituidos por 5 
-    doses de NPK/ha.}
+\item{\code{dose}}{Fator métrico que representa 5 doses equidistantes
+    de NPK, em kg ha\eqn{^{-1}}.}
 
-\item{\code{blocos}}{Fator de 4 níveis constituidos por 4
-    blocos de repetições.}
+\item{\code{bloc}}{Fator categórico que representa os blocos.}
 
-\item{\code{result}}{ Resultados (Kg/parcela) dos tratamentos }
+\item{\code{prod}}{Produção (kg parcela\eqn{^{-1}}) nas unidades
+    experimentais.}
 
 }}
 \source{
-Storck, L., & Garcia, B. C., & Lopes, S. J., & Estefanel, 
-V. (2011). Experimentaçãoo Vegetal (3th ed.). Santa Maria, RS: UFSM.
-(Tabela 67, pág. 144)
+Storck, L., Garcia, B. C., Lopes, S. J., Estefanel,
+    V. (2011). Experimentação Vegetal (3th ed.). Santa Maria, RS:
+    UFSM. (Tabela 67, pág. 144)
 }
 \description{
-Resultados ficitícios (kg/parcela) apresentados como 
-    exemplo de um experimento bifatorial 3x5 sob delineamento de 
-    blocos ao acaso com 4 repetições.
+Resultados ficitícios (kg/parcela) de um experimento
+    bifatorial 3 \eqn{\times} 5 no delineamento de blocos ao acaso
+    com 4 repetições.
 }
 \examples{
 
 library(lattice)
 
+data(StorckTb67)
+str(StorckTb67)
 
-data(StorckTb2)
+xyplot(prod ~ dose, data = StorckTb67,
+       groups = cult, type = c("p", "a"),
+       xlab = "Dose de NPK (kg/ha)",
+       ylab = "Produção (kg/parcela)",
+       auto.key = list(title = "Cultivar", cex.title = 1.1,
+                       columns = 3))
 
-
-xyplot(result~trat.D|trat.A , data = StorckTb67, ylab = "trat.D", 
-    xlab = "trat.A" )
-    
-    
 }
-\keyword{DEA}
+\keyword{DBC}
+\keyword{FAT2}
 

@@ -2,41 +2,47 @@
 % Please edit documentation in R/StorckTb101.R
 \name{StorckTb101}
 \alias{StorckTb101}
-\title{Interpretação do Efeito de Tratamentos.}
-\format{Um \code{data.frame} com 96 observações e 4 variáveis.
+\title{Grupo de Experimentos de Competição de Cultivares de Milho}
+\format{Um \code{data.frame} com 96 observações e 4 variáveis, em que
+
 \describe{
 
-\item{\code{amb}}{Fator de 4 níveis constituídos por 4 ambientes.}
+\item{\code{loc}}{Fator categórico que representa os locais
+    (ambientes) de instalação dos experimentos.}
 
-\item{\code{trat}}{Fator de 6 níveis constituídos por 6 tratamentos.}
+\item{\code{cult}}{Fator categórico que representa as cultivares de
+    milho.}
 
-\item{\code{blocos}}{Fator de 4 níveis constituídos por 4 blocos de 
-    repetições.}
+\item{\code{bloc}}{Fator categórico que representa os blocos em cada
+    um dos locais.}
 
-\item{\code{result}}{Resultados (Kg/parcela) dos tratamentos.}
+\item{\code{result}}{Rendimento de grãos, em kg por parcela.}
 
 }}
 \source{
-Storck, L., & Garcia, B. C., & Lopes, S. J., & Estefanel, 
-V. (2011). Experimentaçãoo Vegetal (3th ed.). Santa Maria, RS: UFSM.
-(Tabela 101, pág. 182).
+Storck, L., Garcia, B. C., Lopes, S. J., Estefanel,
+    V. (2011). Experimentação Vegetal (3th ed.). Santa Maria, RS:
+    UFSM. (Tabela 101, pág. 182)
 }
 \description{
-Experimento de 6 cultivres de milho, conduzido no 
-    delineamento de blocos ao acaso com 4 repetições, em 4 locais
-    (4 ambientes) da região central d Rio Grande do Sul, avaiando-se
-    o rendimento de grãos em kg/parcela.
+Grupo de experimentos, avaliando 6 cultivres de milho,
+    conduzidos em 4 locais (4 ambientes) da região central d Rio
+    Grande do Sul, no delineamento de blocos ao acaso com 4
+    repetições. Foi avaliado o rendimento de grãos.
 }
 \examples{
 
 library(lattice)
 
 data(StorckTb101)
+str(StorckTb101)
 
-xyplot(result~trat|amb , data = StorckTb101, ylab = "Tratamentos", 
-       xlab = "Ambiente")
-       
-       
+xyplot(prod ~ cult | loc, groups = bloc, data = StorckTb101,
+       type = "o", as.table = TRUE,
+       xlab = "Cultivares",
+       ylab = "Rendimento de grãos (kg/parcela)")
+
 }
-\keyword{DEA}
+\keyword{DBC}
+\keyword{GE}
 

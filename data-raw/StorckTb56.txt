@@ -1,4 +1,4 @@
-trat.A	trat.D	blocos	result
+espec	manejo	bloc	prod
 1	1	1	66
 1	1	2	52
 1	1	3	57

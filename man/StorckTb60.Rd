@@ -2,43 +2,47 @@
 % Please edit documentation in R/StorckTb60.R
 \name{StorckTb60}
 \alias{StorckTb60}
-\title{Resultados do experimento Bifatorial e Totais dos Tratamentos
-    e Blocos.}
-\format{Um \code{data.frame} com 48 observações e 4 variáveis.
+\title{Experimento Bifatorial em Delineamento de Blocos Ao Acaso}
+\format{Um \code{data.frame} com 48 observações e 4 variáveis, em que
+
 \describe{
 
-\item{\code{trat.A}}{ Os níveis do fator A são constituídos por 4 
-    cultivares de milho. }
+\item{\code{cult}}{Fator categórico que representa 4 cultivares de
+    milho.}
 
-\item{\code{trat.D}}{ Os níveis do fator D são constituídos por 3
-    foras de manejo. }
+\item{\code{manejo}}{Fator cetegórico que representa 3 formas de
+    manejo. }
 
-\item{\code{blocos}}{ Fator de 4 níveis constituídos por 4 blocos de 
-    repetições  }
+\item{\code{bloc}}{Fator categórico que representa 4 blocos.}
 
-\item{\code{result}}{ Resultados (Kg/parcela) dos tratamentos.  }
+\item{\code{result}}{Resultados (kg/parcela) medido em cada parcela.}
 
 }}
 \source{
-Storck, L., & Garcia, B. C., & Lopes, S. J., & Estefanel, 
-V. (2011). Experimentaçãoo Vegetal (3th ed.). Santa Maria, RS: UFSM.
-(Tabela 60, pág. 138)
+Storck, L., Garcia, B. C., Lopes, S. J., Estefanel,
+    V. (2011). Experimentação Vegetal (3th ed.). Santa Maria, RS:
+    UFSM. (Tabela 60, pág. 138)
 }
 \description{
 Resultados fictícios (kg/parcela) de um experimento
-    bifatorial 4x3, no delineamento de blocos ao acaso, com 4 
-    repetições.
+    bifatorial 4 \eqn{\times} 3, no delineamento de blocos ao acaso,
+    com 4 repetições.
 }
 \examples{
 
 library(lattice)
 
-data(StorckTb101)
+data(StorckTb60)
+str(StorckTb60)
 
-xyplot(result~trat.D|trat.A , data = StorckTb60, ylab = "Tratamento D", 
-    xlab = "Tratamento A")
-    
-    
+xyplot(prod ~ cult, groups = manejo, data = StorckTb60,
+       type = c("p", "a"),
+       xlab = "Tipos de manejo",
+       ylab = "Produção (kg/parcela)",
+       auto.key = list(title = "Manejo", cex.title = 1.1,
+                       columns = 3))
+
 }
-\keyword{DEA}
+\keyword{DBC}
+\keyword{FAT2}
 

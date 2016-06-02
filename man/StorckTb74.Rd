@@ -2,44 +2,66 @@
 % Please edit documentation in R/StorckTb74.R
 \name{StorckTb74}
 \alias{StorckTb74}
-\title{Dados de Exemplo de um Experimento Bifatorial}
-\format{Um \code{data.frame} com 75 observações e 4 variáveis.
-\describe{ 
+\alias{StorckTb88}
+\title{Época e Densidade de Semeadura na Produção de Milho}
+\format{Um \code{data.frame} com 75 observações e 4 variáveis, em que
 
-\item{\code{trat.A}}{Os 3 níveis do fator A são constituídos por 3
-    épocas de semeadura de milho.  }
+\describe{
 
-\item{\code{trat.B}}{ Os 5 níveis do fator D são constituidos por 5 
-    densidades de semeadura, respectivamente, X= 30; 35; 40; 45 e 50
-    mil plantas/ha. }
+\item{\code{epoc}}{Fator categórico que representa 3 épocas de
+    semeadura de milho.}
 
-\item{\code{blocos}}{ Fator d5 4 níveis constituidos por 5 blocos de 
-    repetições. }
+\item{\code{dens}}{Fator métrico que representa 5 densidades de
+    semeadura: 30, 35, 40, 45 e 50 mil plantas ha\eqn{^{-1}}.}
 
-\item{\code{result}}{ Resultados (Kg/parcela) dos tratamentos.  }
+\item{\code{bloc}}{Fator categórico que representa os blocos.}
+
+\item{\code{result}}{Produção (kg/parcela).}
 
 }}
 \source{
-Storck, L., & Garcia, B. C., & Lopes, S. J., & Estefanel, 
-V. (2011). Experimentaçãoo Vegetal (3th ed.). Santa Maria, RS: UFSM.
-(Tabela 74, pág. 150.)
+Storck, L., Garcia, B. C., Lopes, S. J., Estefanel,
+    V. (2011). Experimentação Vegetal (3th ed.). Santa Maria, RS:
+    UFSM. (Tabela 74, pág. 150 e Tabela 88, pág. 168)
 }
 \description{
-Resultados ficitícios (kg/parcela) apresentados como 
-    exemplo de um experimento bifatorial 3x5 sob delineamento de 
-    blocos ao acaso com 5 repetições.
+Resultados ficitícios de um experimento fatorial 3
+    \eqn{\times} 5 no delineamento de blocos ao acaso, com arranjo
+    dos fatores em parcela subdividida, que estudou o efeito da época
+    e densidade de semeadura na produção de milho. O fator época de
+    semeadura foi casualizado às parcelas de cada bloco e a densidade
+    de semeadura casualizado às subparcelas dentro de um mesmo nível
+    de época de semeadura.
+}
+\details{
+Este é um experimento que poderia ter sido feito em arranjo
+    fatorial sem ser com parcelas subdivididas. No entanto,
+    aumentaria o número de vizinhanças entre parcelas de época
+    diferente já que a casualização seria de \eqn{3 \times 5 = 15}
+    tratamentos em cada bloco. Isso iria complicar a semeadura
+    mecanizada pois o trator iria manobrar sobre as parcelas da época
+    1 quando fosse semear as parcelas da época 2. Por essa razão o
+    experimento em parcelas subdivididas é considerado. Não foi
+    portanto uma verdadeira restrição de casualização (como acontece
+    com camadas do solo ou tempo) mas sim uma dificuldade logística.
 }
 \examples{
-
 
 library(lattice)
 
 data(StorckTb74)
+str(StorckTb74)
 
-xyplot(result~trat.B|trat.A , data = StorckTb74, ylab = "trat.B", 
-    xlab = "trat.A" )
-    
-    
+xyplot(prod ~ dens, groups = epoc, data = StorckTb74,
+       type = c("p", "a"),
+       xlab = expression("Densidade de plantio" ~
+                             (""\%*\% mil ~ plantas~ha^{-1})),
+       ylab = "Produção (kg/parcela)",
+       auto.key = list(title = "Época de semeadura", cex.title = 1.1,
+                       columns = 3))
+
 }
-\keyword{DEA}
+\keyword{DIC}
+\keyword{FAT2}
+\keyword{PS}
 
