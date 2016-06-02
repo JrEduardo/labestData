@@ -2,7 +2,7 @@
 % Please edit documentation in R/PimentelPg185.R
 \name{PimentelPg185}
 \alias{PimentelPg185}
-\title{Experimento em Blocos Imcompletos Equilibrados}
+\title{Experimento em Blocos Imcompletos do Tipo III}
 \format{Um \code{data.frame} com 30 observações e 3 variáveis, em que
 
 \describe{
@@ -21,10 +21,10 @@ Pimentel-Gomes, F. (2009). Curso de Estatística
     Experimental (15th ed.). Piracicaba, SP: FEALQ. (Página 185)
 }
 \description{
-Experimento no qual temos v = 5 tratamentos,
-    lambda = 3, k = 3 parcelas por bloco, r = 6 repetições e b = 10
-    blocos, em que os blocos não podem ser agrupados em repetições ou
-    grupos de repetições.
+Experimento no qual temos v = 5 tratamentos, lambda = 3,
+    k = 3 parcelas por bloco, r = 6 repetições e b = 10 blocos, em
+    que os blocos não podem ser agrupados em repetições ou grupos de
+    repetições.
 }
 \examples{
 
@@ -33,7 +33,7 @@ str(PimentelPg185)
 
 library(lattice)
 
-bwplot(y ~ varied,
+xyplot(y ~ varied,
        groups = bloco,
        data = PimentelPg185,
        xlab = "Variedade",
