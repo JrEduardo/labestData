@@ -1,7 +1,7 @@
 #' @name CharnetEx5.3
-#' 
+#'
 #' @title Precisão de um Velocímetro
-#' 
+#'
 #' @description Medição da precisão de um velocímetro de locomotiva.
 #'
 #' @format Um \code{data.frame} com 2 colunas e 8 linhas.
@@ -16,9 +16,10 @@
 #'
 #' @keywords RS
 #'
-#' @source Charnet, R., de Luna Freire, C.A., Charnet, E.M.R. & Bonvino,
+#' @source Charnet, R., de Luna Freire, C.A., Charnet, E.M.R., Bonvino,
 #'     H. (2008). Análise de modelos de regressão linear com aplicações
-#'     (2nd ed., p. 356). SP: Editora Unicamp (Cap. 5, exer. 3, p. 109)
+#'     (2nd ed.). Campinas, SP: Editora Unicamp (Capítulo 5, exercício
+#'     3, pág. 109)
 #'
 #' @examples
 #'

@@ -9,14 +9,15 @@
 
 \item{\code{peso}}{Peso do veículo, em kg.}
 
-\item{\code{cons}}{Consumo do veículo num determinado trecho, 
+\item{\code{cons}}{Consumo do veículo num determinado trecho,
    em litros.}
 
 }}
 \source{
-Charnet, R., de Luna Freire, C.A., Charnet, E.M.R. & Bonvino,
+Charnet, R., de Luna Freire, C.A., Charnet, E.M.R., Bonvino,
     H. (2008). Análise de modelos de regressão linear com aplicações
-    (2nd ed., p. 356). SP: Editora Unicamp (Cap. 5, exer. 6, p. 110)
+    (2nd ed.). Campinas, SP: Editora Unicamp (Capítulo 5, exercício
+    6, pág. 110)
 }
 \description{
 Consumo de combustível para percorrer determinado trecho

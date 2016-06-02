@@ -14,18 +14,18 @@
 \item{\code{varied}}{Variedade do trigo, fator com quatro níveis.}
 
 \item{\code{fert}}{Concentração do fertilizante, fator com três
-    níveis.} 
+    níveis.}
 
 }}
 \source{
-Charnet, R., de Luna Freire, C.A., Charnet, E.M.R. & Bonvino,
+Charnet, R., de Luna Freire, C.A., Charnet, E.M.R., Bonvino,
     H. (2008). Análise de modelos de regressão linear com aplicações
-    (2nd ed., p. 356). SP: Editora Unicamp (Cap. 10, exer. 7, p. 256,
-    Cap 11, exer.1, p. 272)
+    (2nd ed.). Campinas, SP: Editora Unicamp (Capítulo 10, exercício
+    7, pág. 256, Capítulo 11, exercício 1, pág. 272)
 }
 \description{
 Experimento com 4 variedades de trigo onde foi observado
-    a precipitação pluviométrica, a concentração de fertilizante e a 
+    a precipitação pluviométrica, a concentração de fertilizante e a
     produtividade. A unidade amostral foram canteiros de mesmo
     tamanho e sob as mesmas condições. O interesse é explicar a
     produtividade pelas demais variáveis coletadas.

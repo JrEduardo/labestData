@@ -13,10 +13,10 @@
 
 }}
 \source{
-Charnet, R., de Luna Freire, C.A., Charnet, E.M.R. & Bonvino,
+Charnet, R., de Luna Freire, C.A., Charnet, E.M.R., Bonvino,
     H. (2008). Análise de modelos de regressão linear com aplicações
-    (2nd ed., p. 356). SP: Editora Unicamp (Capítulo 2, exercício 12,
-    página 48)
+    (2nd ed.). Campinas, SP: Editora Unicamp (Capítulo 2, exercício
+    12, pág. 48)
 }
 \description{
 Crescimentos da taxa de homicídios em um período de 7

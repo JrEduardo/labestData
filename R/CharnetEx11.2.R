@@ -1,7 +1,7 @@
 #' @name CharnetEx11.2
-#' 
+#'
 #' @title Distribuição de Trabalho em um Departamento de Contabilidade
-#' 
+#'
 #' @description Estudo para determinar as atividades mais importantes
 #'     dos funcionários do departamento de contabilidade em uma empresa,
 #'     durante 30 dias.
@@ -11,31 +11,32 @@
 #' \describe{
 #'
 #' \item{\code{nhora}}{Número de horas trabalhadas por dia.}
-#' 
+#'
 #' \item{\code{ncheq}}{Número de cheques descontados.}
-#' 
+#'
 #' \item{\code{npag}}{Número de pagamentos recebidos pelos
 #'     funcionários.}
-#' 
+#'
 #' \item{\code{ndoc}}{Número de documentos processados e enviados ao
 #'     banco para compensação.}
-#'     
+#'
 #' \item{\code{nord}}{Número de ordens de pagamento, certificados e
 #'     recibos de vendas emitidos pelos funcionários.}
-#'     
+#'
 #' \item{\code{ncor}}{Número de correspondências processadas e enviadas
 #'     aos clientes.}
-#'     
+#'
 #' \item{\code{nout}}{Número de documentos processados e outras
 #'     atividades.}
-#' 
+#'
 #' }
 #'
 #' @keywords RM
 #'
-#' @source Charnet, R., de Luna Freire, C.A., Charnet, E.M.R. & Bonvino,
+#' @source Charnet, R., de Luna Freire, C.A., Charnet, E.M.R., Bonvino,
 #'     H. (2008). Análise de modelos de regressão linear com aplicações
-#'     (2nd ed., p. 356). SP: Editora Unicamp (Cap. 11, exer. 2, p. 273)
+#'     (2nd ed.). Campinas, SP: Editora Unicamp (Capítulo 11, exercício
+#'     2, pág. 273)
 #'
 #' @examples
 #'

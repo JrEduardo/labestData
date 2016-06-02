@@ -1,7 +1,7 @@
 #' @name CharnetEx2.10
-#' 
+#'
 #' @title Estudo do Efeito do Carbono na Resistência Elétrica
-#' 
+#'
 #' @description Estudo sobre o efeito do carbono contido, em fios de aço
 #'     em resistência elétrica, na temperatura de 20ºC.
 #'
@@ -18,10 +18,11 @@
 #'
 #' @keywords RS
 #'
-#' @source Charnet, R., de Luna Freire, C.A., Charnet, E.M.R. & Bonvino,
+#' @source Charnet, R., de Luna Freire, C.A., Charnet, E.M.R., Bonvino,
 #'     H. (2008). Análise de modelos de regressão linear com aplicações
-#'     (2nd ed., p. 356). SP: Editora Unicamp (Cap. 2, exer. 10,
-#'     pág. 47; e cap.3, exer. 7, pág. 66)
+#'     (2nd ed.). Campinas, SP: Editora Unicamp (Capítulo 2, exercício
+#'     10, pág. 47, Capítulo 3, exercício 7, pág. 66, Capítulo 4,
+#'     exercício 6, pág. 84, Capítulo 6, exercício 8, pág. 146)
 #'
 #' @examples
 #'

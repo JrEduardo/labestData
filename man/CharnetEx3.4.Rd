@@ -13,9 +13,10 @@
 
 }}
 \source{
-Charnet, R., de Luna Freire, C.A., Charnet, E.M.R. & Bonvino,
+Charnet, R., de Luna Freire, C.A., Charnet, E.M.R., Bonvino,
     H. (2008). Análise de modelos de regressão linear com aplicações
-    (2nd ed., p. 356). SP: Editora Unicamp (Cap. 3, exer. 4, pág. 66)
+    (2nd ed.). Campinas, SP: Editora Unicamp (Capítulo 3, exercício
+    4, pág. 66)
 }
 \description{
 Dados provenientes de um estudo onde se observou a

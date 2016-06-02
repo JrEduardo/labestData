@@ -7,21 +7,21 @@
 
 \describe{
 
-\item{\code{notas}}{Nota atribuída ao vendedor, em escala de 0 a 
+\item{\code{notas}}{Nota atribuída ao vendedor, em escala de 0 a
     100.}
 
 \item{\code{vendas}}{Volume anual de vendas, em milhões de reais.}
 
 }}
 \source{
-Charnet, R., de Luna Freire, C.A., Charnet, E.M.R. & Bonvino,
+Charnet, R., de Luna Freire, C.A., Charnet, E.M.R., Bonvino,
     H. (2008). Análise de modelos de regressão linear com aplicações
-    (2nd ed., p. 356). SP: Editora Unicamp (Cap 4, exem. 4.2, p. 79,
-    cap. 5, exer. 4, p. 109, cap. 5, exer. 7, p. 111, cap. 6, 
-    exer. 1, p. 142)
+    (2nd ed.). Campinas, SP: Editora Unicamp (Capítulo 4, exemplo 4.2,
+    pág. 79, Capítulo 5, exercício 4, pág. 109, Capítulo 5, exercício
+    7, pág. 111, Capítulo 6, exercício 1, pág. 142)
 }
 \description{
-Análise das vendas através das notas atribuídas pelos 
+Análise das vendas através das notas atribuídas pelos
     clientes aos vendedores de uma empresa de seguro.
 }
 \examples{

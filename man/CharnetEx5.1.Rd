@@ -13,9 +13,10 @@
 
 }}
 \source{
-Charnet, R., de Luna Freire, C.A., Charnet, E.M.R. & Bonvino,
+Charnet, R., de Luna Freire, C.A., Charnet, E.M.R., Bonvino,
     H. (2008). Análise de modelos de regressão linear com aplicações
-    (2nd ed., p. 356). SP: Editora Unicamp (Cap. 5, exer. 1, p. 108)
+    (2nd ed.). Campinas, SP: Editora Unicamp (Capítulo 5, exercício
+    1, pág. 108)
 }
 \description{
 Peso de embriões de galinha no tempo.

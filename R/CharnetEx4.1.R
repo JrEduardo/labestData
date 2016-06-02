@@ -1,17 +1,17 @@
 #' @name CharnetEx4.1
-#' 
+#'
 #' @title Valores de uma Variável Aleatória Contínua
-#' 
+#'
 #' @description Valores de uma variável aleatória X contínua.
 #'
 #' @format Um vetor numérico com 20 elementos.
 #'
 #' @keywords amostra
 #'
-#' @source Charnet, R., de Luna Freire, C.A., Charnet, E.M.R. & Bonvino,
+#' @source Charnet, R., de Luna Freire, C.A., Charnet, E.M.R., Bonvino,
 #'     H. (2008). Análise de modelos de regressão linear com aplicações
-#'     (2nd ed., p. 356). SP: Editora Unicamp (Capítulo 4, exercício 1,
-#'     página 82)
+#'     (2nd ed.). Campinas, SP: Editora Unicamp (Capítulo 4, exercício 1,
+#'     pág. 82)
 #'
 #' @examples
 #'

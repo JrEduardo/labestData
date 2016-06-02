@@ -16,13 +16,13 @@
 
 }}
 \source{
-Charnet, R., de Luna Freire, C.A., Charnet, E.M.R. & Bonvino,
+Charnet, R., de Luna Freire, C.A., Charnet, E.M.R., Bonvino,
     H. (2008). Análise de modelos de regressão linear com aplicações
-    (2nd ed., p. 356). SP: Editora Unicamp (Cap. 7, exer. 7, p. 167,
-    Cap 10, exerc. 6, p. 256.)
+    (2nd ed.). Campinas, SP: Editora Unicamp (Capítulo 7, exercício
+    7, pág. 167, Capítulo 10, exercício 6, pág. 256.)
 }
 \description{
-Relação entre o consumo de combustível (km/l) e a 
+Relação entre o consumo de combustível (km/l) e a
     potência do motor (HP) de duas marcas de carro (A e B).
 }
 \examples{

@@ -11,15 +11,15 @@
 
 \item{\code{prod}}{Produção média por hora, em peças.}
 
-\item{\code{tempo}}{Tempo, em semanas, decorrido do último reparo da 
+\item{\code{tempo}}{Tempo, em semanas, decorrido do último reparo da
     máquina.}
 
 }}
 \source{
-Charnet, R., de Luna Freire, C.A., Charnet, E.M.R. & Bonvino,
+Charnet, R., de Luna Freire, C.A., Charnet, E.M.R., Bonvino,
     H. (2008). Análise de modelos de regressão linear com aplicações
-    (2nd ed., p. 356). SP: Editora Unicamp (Cap. 8, exer. 4, p. 196,
-    cap. 9, exer. 7, p. 230.)
+    (2nd ed.). Campinas, SP: Editora Unicamp (Capítulo 8, exercício
+    4, pág. 196, Capítulo 9, exercício 7, pág. 230)
 }
 \description{
 Relação da quantidade de peças defeituosas por produção

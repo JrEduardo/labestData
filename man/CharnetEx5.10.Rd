@@ -15,13 +15,14 @@
 
 }}
 \source{
-Charnet, R., de Luna Freire, C.A., Charnet, E.M.R. & Bonvino,
+Charnet, R., de Luna Freire, C.A., Charnet, E.M.R., Bonvino,
     H. (2008). Análise de modelos de regressão linear com aplicações
-    (2nd ed., p. 356). SP: Editora Unicamp (Cap. 5, exer. 10, p. 112)
+    (2nd ed.). Campinas, SP: Editora Unicamp (Capítulo 5, exercício
+    10, pág. 112)
 }
 \description{
 Dados do jornal Los Angeles Times, de 13 de dezembro de
-    1980, informando as taxas de desemprego e o índice de suicídios 
+    1980, informando as taxas de desemprego e o índice de suicídios
     nos EUA em 14 diferentes anos, no período de 1950 a 1977.
 }
 \examples{

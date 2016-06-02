@@ -5,10 +5,10 @@
 \title{Pressão Sanguínea Sistólica}
 \format{Um \code{vetor} numérico com 16 observações.}
 \source{
-Charnet, R., de Luna Freire, C.A., Charnet, E.M.R. & Bonvino,
+Charnet, R., de Luna Freire, C.A., Charnet, E.M.R., Bonvino,
     H. (2008). Análise de modelos de regressão linear com aplicações
-    (2nd ed., p. 356). SP: Editora Unicamp (Capítulo 1, exercício 6,
-    página 23)
+    (2nd ed.). Campinas, SP: Editora Unicamp (Capítulo 1, exercício
+    6, pág. 23)
 }
 \description{
 Pressão sanguínea sistólica de um grupo de 16 pacientes

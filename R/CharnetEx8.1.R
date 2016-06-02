@@ -1,7 +1,7 @@
 #' @name CharnetEx8.1
-#' 
+#'
 #' @title Influência da Publicidade e Capital Investido no Lucro Anual
-#' 
+#'
 #' @description Influência das variáveis capital investido (\code{capi})
 #'     e gasto em publicidade (\code{publi}) no lucro anual
 #'     (\code{lucro}) de 12 empresas observadas.
@@ -11,7 +11,7 @@
 #' \describe{
 #'
 #' \item{\code{lucro}}{Lucro anual, em 100 mil reais.}
-#' 
+#'
 #' \item{\code{capi}}{Capital investido no ano, em 100 mil reais.}
 #'
 #' \item{\code{publi}}{Gasto com publicidade no ano, em 100 mil reais.}
@@ -20,10 +20,10 @@
 #'
 #' @keywords RM
 #'
-#' @source Charnet, R., de Luna Freire, C.A., Charnet, E.M.R. & Bonvino,
+#' @source Charnet, R., de Luna Freire, C.A., Charnet, E.M.R., Bonvino,
 #'     H. (2008). Análise de modelos de regressão linear com aplicações
-#'     (2nd ed., p. 356). SP: Editora Unicamp (Cap. 8, exer. 1, p. 195,
-#'     cap. 9, exer. 6, p. 230.)
+#'     (2nd ed.). Campinas, SP: Editora Unicamp (Capítulo 8, exercício
+#'     1, pág. 195, Capítulo 9, exercício 6, pág. 230)
 #'
 #' @examples
 #'

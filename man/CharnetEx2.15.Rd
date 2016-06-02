@@ -27,14 +27,15 @@
 
 }}
 \source{
-Charnet, R., de Luna Freire, C.A., Charnet, E.M.R. & Bonvino,
+Charnet, R., de Luna Freire, C.A., Charnet, E.M.R., Bonvino,
     H. (2008). Análise de modelos de regressão linear com aplicações
-    (2nd ed., p. 356). SP: Editora Unicamp (Cap. 2, exer. 15,
-    pág. 50; cap. 7, exer. 3, pág. 164; cap. 8, exer. 6, pág. 197;
-    cap. 9, exer.  8, pág. 231; e cap. 10, exer. 3, pág. 254)
+    (2nd ed.). Campinas, SP: Editora Unicamp (Capítulo 2, exercício
+    15, pág. 50, Capítulo 7, exercício 3, pág. 164, Capítulo 8,
+    exercício 6, pág. 197, Capítulo 9, exercício 8, pág. 231,
+    Capítulo 10, exercício 3, pág. 254)
 }
 \description{
-Notas médias de candidatos ao vestibular da Unicamp em 
+Notas médias de candidatos ao vestibular da Unicamp em
     1998.
 }
 \examples{

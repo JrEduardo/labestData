@@ -1,7 +1,7 @@
 #' @name CharnetEx5.6
-#' 
+#'
 #' @title Consumo de Combustível e Peso do Automóvel
-#' 
+#'
 #' @description Consumo de combustível para percorrer determinado trecho
 #'     conforme o peso dos veículos de passeio, de mesmo ano,
 #'     selecionados aleatoriamente de uma grande empresa.
@@ -12,16 +12,17 @@
 #'
 #' \item{\code{peso}}{Peso do veículo, em kg.}
 #'
-#' \item{\code{cons}}{Consumo do veículo num determinado trecho, 
+#' \item{\code{cons}}{Consumo do veículo num determinado trecho,
 #'    em litros.}
 #'
 #' }
 #'
 #' @keywords RS
 #'
-#' @source Charnet, R., de Luna Freire, C.A., Charnet, E.M.R. & Bonvino,
+#' @source Charnet, R., de Luna Freire, C.A., Charnet, E.M.R., Bonvino,
 #'     H. (2008). Análise de modelos de regressão linear com aplicações
-#'     (2nd ed., p. 356). SP: Editora Unicamp (Cap. 5, exer. 6, p. 110)
+#'     (2nd ed.). Campinas, SP: Editora Unicamp (Capítulo 5, exercício
+#'     6, pág. 110)
 #'
 #' @examples
 #'
