@@ -1,0 +1,40 @@
+#' @name StorckTb67
+#' @title Efeito da Dose de NPK na Produção de Cultivares de Milho
+#' @description Resultados ficitícios (kg/parcela) de um experimento
+#'     bifatorial 3 \eqn{\times} 5 no delineamento de blocos ao acaso
+#'     com 4 repetições.
+#' @format Um \code{data.frame} com 60 observações e 4 variáveis, em que
+#'
+#' \describe{
+#'
+#' \item{\code{cult}}{Fator categórico que representa 3 cultivares de
+#'     trigo.}
+#'
+#' \item{\code{dose}}{Fator métrico que representa 5 doses equidistantes
+#'     de NPK, em kg ha\eqn{^{-1}}.}
+#'
+#' \item{\code{bloc}}{Fator categórico que representa os blocos.}
+#'
+#' \item{\code{prod}}{Produção (kg parcela\eqn{^{-1}}) nas unidades
+#'     experimentais.}
+#'
+#' }
+#' @keywords DBC FAT2
+#' @source Storck, L., Garcia, B. C., Lopes, S. J., Estefanel,
+#'     V. (2011). Experimentação Vegetal (3th ed.). Santa Maria, RS:
+#'     UFSM. (Tabela 67, pág. 144)
+#' @examples
+#'
+#' library(lattice)
+#'
+#' data(StorckTb67)
+#' str(StorckTb67)
+#'
+#' xyplot(prod ~ dose, data = StorckTb67,
+#'        groups = cult, type = c("p", "a"),
+#'        xlab = "Dose de NPK (kg/ha)",
+#'        ylab = "Produção (kg/parcela)",
+#'        auto.key = list(title = "Cultivar", cex.title = 1.1,
+#'                        columns = 3))
+#'
+NULL
