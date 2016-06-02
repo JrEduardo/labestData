@@ -1,9 +1,9 @@
 #' @name PimentelTb10.3.1
 #' @title Experimento em Blocos Imcompletos do Tipo I
 #' @description Experimento em blocos imcompletos equilibrados, no qual
-#'     temos v = 8 tratamentos, lambda = 1, k = 2 parcelas por bloco,
-#'     r = 7 repetições, b = 28 blocos e E = 55%, em que os blocos podem
-#'     ser agrupados em repetições.
+#'     temos v = 8 tratamentos, \eqn{\lambda = 1}, k = 2 parcelas por
+#'     bloco, r = 7 repetições, b = 28 blocos e E = 55%, em que os
+#'     blocos podem ser agrupados em repetições.
 #' @format Um \code{data.frame} com 56 observações e 4 variáveis, em que
 #'
 #' \describe{

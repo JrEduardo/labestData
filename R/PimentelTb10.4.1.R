@@ -1,8 +1,8 @@
 #' @name PimentelTb10.4.1
 #' @title Experimento em Blocos Imcompletos do Tipo II
 #' @description Experimento em blocos imcompletos equilibrados, no qual
-#'     temos v = 7 tratamentos, lambda = 1, r = 6 repetições, b = 21
-#'     blocos, em que os blocos são reunidos em grupos de duas
+#'     temos v = 7 tratamentos, \eqn{\lambda = 1}, r = 6 repetições,
+#'     b = 21 blocos, em que os blocos são reunidos em grupos de duas
 #'     repetições.
 #' @format Um \code{data.frame} com 42 observações e 4 variáveis, em que
 #'

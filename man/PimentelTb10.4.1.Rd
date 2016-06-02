@@ -27,8 +27,8 @@ Pimentel-Gomes, F. (2009). Curso de Estatística
 }
 \description{
 Experimento em blocos imcompletos equilibrados, no qual
-    temos v = 7 tratamentos, lambda = 1, r = 6 repetições, b = 21
-    blocos, em que os blocos são reunidos em grupos de duas
+    temos v = 7 tratamentos, \eqn{\lambda = 1}, r = 6 repetições,
+    b = 21 blocos, em que os blocos são reunidos em grupos de duas
     repetições.
 }
 \examples{
