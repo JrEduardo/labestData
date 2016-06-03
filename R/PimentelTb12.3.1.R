@@ -1,0 +1,34 @@
+#' @name PimentelTb12.3.1
+#' @title Temperaturas Máximas Médias em Piracicaba
+#' @description Dados de temperaturas máximas médias de julho em
+#'     Piracicaba, SP, em graus centígrados, de quinze anos de
+#'     observações.
+#' @format Um \code{data.frame} com 15 observações e 2 variáveis, em que
+#'
+#' \describe{
+#'
+#' \item{\code{ano}}{Variável que indica o ano em que foram registradas
+#'     as temperaturas máximas médias.}
+#'
+#' \item{\code{temperatura}}{Temperatura máxima média de julho em graus
+#'     centígrados.}
+#'
+#' }
+#' @keywords RP
+#' @source Pimentel-Gomes, F. (2009). Curso de Estatística
+#'     Experimental (15th ed.). Piracicaba, SP: FEALQ. (Tabela 12.3.1,
+#'     pág. 236)
+#' @examples
+#'
+#' library(lattice)
+#'
+#' data(PimentelTb12.3.1)
+#' str(PimentelTb12.3.1)
+#' 
+#' xyplot(temperatura ~ ano,
+#'        data = PimentelTb12.3.1,
+#'        type = c("r", "p"),
+#'        ylab = "Temperatura (em graus centígrados)",
+#'        xlab = "Ano")
+#'
+NULL
