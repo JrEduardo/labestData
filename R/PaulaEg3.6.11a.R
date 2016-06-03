@@ -3,14 +3,13 @@
 #' @description Dados de  um estudo sobre o efeito da exposição de  
 #'     besouros adultos a diferentes doses de disulfeto de carbono gasoso 
 #'     \emph{(CS2)}, durante cinco horas. Foram registrados os números 
-#'     de besouros mortos. Não há informações sobre a unidade de medida
-#'     das doses do tratamento. 
+#'     de besouros mortos.  
 #' 
 #' @format Um \code{data.frame} com 8 observações e 3 variáveis, em que
 #'
 #' \describe{
 #'
-#' \item{mortos}{Quantidade de besouros mortos observada.}
+#' \item{mortos}{Quantidade observada de besouros mortos.}
 #'     
 #' \item{exp}{Quantidade de besouros expostos a cada dose.}
 #'
@@ -29,15 +28,10 @@
 #' 
 #' str(PaulaEg3.6.11a)
 #'
-#' barchart(mortos/(sum(mortos)) ~ dose,  data = PaulaEg3.6.11a, 
-#'          col="lightblue",
+#' xyplot(mortos/(sum(mortos)) ~ dose,  data = PaulaEg3.6.11a, 
+#'          type = "o",
 #'          xlab = "Dose de disulfeto de carbono gasoso", 
-#'          ylab = "Besouros mortos", 
+#'          ylab = "Proporção de besouros mortos", 
 #'          main = expression("Exposição de besouros a"~CS[2]))
 #' 
-#' barchart(exp/sum(exp) ~ dose,  data = PaulaEg3.6.11a, 
-#'          col="lightblue",
-#'          xlab = "Dose de disulfeto de carbono gasoso", 
-#'          ylab = "Besouros expostos", 
-#'         main = expression("Exposição de besouros a"~CS[2]))
 NULL

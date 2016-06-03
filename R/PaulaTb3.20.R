@@ -1,7 +1,7 @@
 #' @name PaulaTb3.20
 #' @title Aplicação de inseticidas em insetos
 #' @description Dados de um experimento em que três
-#'    inseticidas são aplicados num determinado tipo de inseto e é
+#'    inseticidas foram aplicados em determinada espécie de inseto, sendo
 #'    verificado o número de sobreviventes para cada dose aplicada. 
 #'    
 #' @format Um \code{data.frame} com 18 observações e 7 variáveis, em que
@@ -13,14 +13,8 @@
 #' \item{exp}{Número de insetos expostos aos inseticidas.}
 #'
 #' \item{dose}{Dose aplicada dos inseticidas.}
-#'
-#' \item{ddt}{Presença ou ausência deste tipo de inseticida.}
-#'
-#' \item{gamaddt}{Presença ou ausência deste tipo de inseticida.}
-#'
-#' \item{ddt.gamaddt}{Presença ou ausência deste tipo de inseticida.}
 #' 
-#' \item{comb}{Combinação dos níveis dos tipos de inseticida.}
+#' \item{inset}{Tipo de inseticida.}
 #'
 #' }
 #' @keywords GLM
@@ -34,9 +28,9 @@
 #'
 #' str(PaulaTb3.20)
 #' 
-#' barchart(mortos/(sum(mortos)) ~ dose,  data = PaulaTb3.20, 
-#'          type = c("p","a"), groups= comb, col=c(45:47),
-#'          xlab = "Dose aplicada de cada inseticida", 
-#'          ylab = "Quantidade de insetos mortos", 
+#' xyplot(mortos/(sum(mortos)) ~ dose,  data = PaulaTb3.20, auto.key = TRUE,
+#'          type = c("p","a"), groups= inset,
+#'          xlab = "Dose de inseticida aplicada", 
+#'          ylab = "Proporção de insetos mortos", 
 #'          main = "Aplicações de inseticidas")
 NULL

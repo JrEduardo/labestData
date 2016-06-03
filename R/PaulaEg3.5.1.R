@@ -18,7 +18,7 @@
 #' \item{casos}{Número inteiro que identifica a quantidade de casos
 #'     ocorridos.}
 #'
-#' \item{exp}{Número inteiro que identifica a quantidade de expostos.}
+#' \item{exp}{Quantidade de camundongos expostos.}
 #'
 #' }
 #' 
@@ -31,8 +31,14 @@
 #'
 #' data(PaulaEg3.5.1)
 #'
-#' barchart(casos ~ trat,  data = PaulaEg3.5.1, groups = exp,
-#'          scales=list(x=list(rot=90,cex=0.8)),
-#'          xlab="Tratamento", ylab="Casos e Expostos", 
+#' barchart(casos/exp ~ trat | sexo,  data = PaulaEg3.5.1,
+#'          xlab="Grupo", ylab="Proporção de casos",
+#'          scales=list(x=list(labels=c("Controle","Tratado"))),
+#'          strip=strip.custom(var.name="Sexo", 
+#'          factor.levels=c(" Fêmea", "Macho"),
+#'          strip.levels=rep(TRUE,2)), 
 #'          main="Associação entre fungicida e desenvolvimento de tumor")
 NULL
+
+
+

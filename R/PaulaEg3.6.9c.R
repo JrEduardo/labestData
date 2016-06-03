@@ -3,7 +3,8 @@
 #' @description Dados sobre a preferência de consumidores americanos com
 #'    relação a automóveis. Uma amostra aleatória de 263 consumidores foi 
 #'    considerada. As seguintes variáveis foram observadas para cada 
-#'    comprador: preferência do tipo de automóvel, idade, sexo e estado civil. 
+#'    comprador: preferência quanto ao tipo de automóvel, idade, sexo e 
+#'    estado civil. 
 #'     
 #' @format Um \code{data.frame} com 263 observações e 4 variáveis, em que
 #'
@@ -34,11 +35,6 @@
 #'        type="p",
 #'        xlab="Preferência - Japonês e Americano", 
 #'        ylab="Idade do Comprador", 
-#'        main="Preferência de Compra - Japonês e Americano")
+#'        main="Preferência")
 #' 
-#' barchart(idade ~ est | pref,  data = PaulaEg3.6.9c, 
-#'          type="p", col = "lightblue",
-#'          xlab="Estado Civil do Comprador (0 = casado, 1 = solteiro)", 
-#'          ylab="Idade do Comprador", 
-#'          main="Preferência de Compra - Japonês e Americano")
 NULL

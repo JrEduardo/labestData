@@ -4,7 +4,7 @@
 #'    avaliar a influência da quantidade de ar inspirado na ocorrência
 #'    de vaso-constrição na pele dos dedos da mão.  A resposta é a ocorrência
 #'    (1) ou ausência (0) de compressão de vasos e as covariáveis são o 
-#'    logaritmo do volume e o logaritmo da razão de ar inspirado. 
+#'    volume e a razão de ar inspirado. 
 #'    
 #' @format Um \code{data.frame} com 39 observações e 3 variáveis, em que
 #'
@@ -31,11 +31,13 @@
 #' 
 #' bwplot(vol ~ resp,  data = PaulaTb3.12, 
 #'        type=c("p","a"),
-#'        xlab="Ausência e Ocorrência", ylab="Volume de ar inspirado", 
+#'        xlab="Vaso-constrição", ylab="Volume de ar inspirado",
+#'        scales=list(x=list(labels=c("Ausência","Ocorrência"))), 
 #'        main="Ocorrência de vaso-constrição")
 #' 
 #' bwplot(razao ~ resp,  data = PaulaTb3.12, 
 #'        type=c("p","a"),
-#'        xlab=" Ausência e Ocorrência", ylab="Razão de ar inspirado", 
+#'        xlab=" Vaso-constrição", ylab="Razão de ar inspirado",
+#'        scales=list(x=list(labels=c("Ausência","Ocorrência"))), 
 #'      main="Ocorrência de vaso-constrição")
 NULL

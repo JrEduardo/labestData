@@ -12,10 +12,9 @@
 #'
 #' \describe{
 #'
-#' \item{dose}{Fator de níveis numéricos. Indica a dose de extrato vegetal
-#'     aplicada (em partes por milhão).}
+#' \item{dose}{Dose de extrato vegetal aplicada (em partes por milhão).}
 #'
-#' \item{emb}{Número de embriões mortos observado.}
+#' \item{emb}{Número observado de embriões mortos.}
 #'     
 #' }
 #' @keywords GLM binarios
@@ -30,12 +29,8 @@
 #' str(PaulaEg3.5.2)
 #' 
 #' barchart(emb/(sum(emb)) ~ dose,  data = PaulaEg3.5.2, 
-#'          stack=T, col= "lightblue",
-#'          xlab="Dose (em ppm)", ylab="Embriões mortos", 
+#'          stack=TRUE, col= "lightblue",
+#'          xlab="Dose (em ppm)", ylab="Proporção de embriões mortos", 
 #'          main="Efeito de extrato vegetal")
 #' 
-#' barchart(emb ~ dose,  data = PaulaEg3.5.2, 
-#'          stack=T, col= "tomato",
-#'          xlab="Dose (em ppm)", ylab="Embriões", 
-#'          main="Efeito de extrato vegetal")
 NULL
