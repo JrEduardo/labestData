@@ -2,15 +2,15 @@
 % Please edit documentation in R/PaulaEx3.7.16.R
 \name{PaulaEx3.7.16}
 \alias{PaulaEx3.7.16}
-\title{Experimento de toxidade}
-\format{Um \code{data.frame} com 3 doses com 5 repetições. 
+\title{Experimento de toxicidade}
+\format{Um \code{data.frame} com 4 variáveis. 
 
 \describe{
 
-\item{\code{conc}}{Identificação da concentração (R-rotenine, 
-D-deguelin e M-mistura).}
+\item{\code{conc}}{Concentração (R = rotenine, 
+D = deguelin e M = mistura).}
 
-\item{\code{dose}}{Quantidade de dose.}
+\item{\code{dose}}{Dose aplicada da concentração.}
 
 \item{\code{exp}}{Número de insetos expostos.}
 
@@ -24,10 +24,10 @@ Paula, G. A. (2004). Modelos de regressão: com apoio
 }
 \description{
 Estudo que descreve os resultados de um
-experimento em que a toxicidade de três concentrações (R-rotenine,
-D-deguelin e M-mistura, essa última como uma mistura das duas pri-
+experimento em que a toxicidade de três concentrações (rotenine,
+deguelin e mistura, essa última como uma mistura das duas pri-
 meiras) é investigada. As concentrações foram testadas em insetos e
-observado para cada dose o número de insetos mortos.
+observado, para cada dose, o número de insetos mortos.
 }
 \examples{
 
@@ -35,9 +35,9 @@ data(PaulaEx3.7.16)
 
 require(lattice)
 
-xyplot(mort/exp ~ dose, groups = conc, data = PaulaEx3.7.16, 
-auto.key = TRUE, xlab = "Porcentagem de insetos mortos",
-ylab = "Dose", main = "Sobrevivência dos insetos expostos a toxina")
+xyplot(mort/exp ~ dose, groups = conc, data = PaulaEx3.7.16, type = 'o',
+auto.key = TRUE, ylab = "Proporção de insetos mortos",
+xlab = "Dose", main = "Sobrevivência dos insetos expostos a toxina")
 }
 \references{
 Morgan, B. J. T. (1992). Analysis of Quantal Response Data. 

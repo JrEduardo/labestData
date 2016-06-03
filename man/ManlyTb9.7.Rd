@@ -8,41 +8,41 @@ variáveis
 
 \describe{
 
-\item{\code{esp}}{Identifica a espécie}
+\item{\code{esp}}{Espécie}
 
-\item{\code{l1}}{Quantidade de abundância da espécie no lote 1.}
+\item{\code{l1}}{Medidas de abundância das espécies no lote 1.}
 
-\item{\code{l2}}{Quantidade de abundância da espécie no lote 2.}
+\item{\code{l2}}{Medidas de abundância das espécies no lote 2.}
 
-\item{\code{l3}}{Quantidade de abundância da espécie no lote 3.}
+\item{\code{l3}}{Medidas de abundância das espécies no lote 3.}
 
-\item{\code{l4}}{Quantidade de abundância da espécie no lote 4.}
+\item{\code{l4}}{Medidas de abundância das espécies no lote 4.}
 
-\item{\code{l5}}{Quantidade de abundância da espécie no lote 5.}
+\item{\code{l5}}{Medidas de abundância das espécies no lote 5.}
 
-\item{\code{l6}}{Quantidade de abundância da espécie no lote 6.}
+\item{\code{l6}}{Medidas de abundância das espécies no lote 6.}
 
-\item{\code{l7}}{Quantidade de abundância da espécie no lote 7.}
+\item{\code{l7}}{Medidas de abundância das espécies no lote 7.}
 
-\item{\code{l8}}{Quantidade de abundância da espécie no lote 8.}
+\item{\code{l8}}{Medidas de abundância das espécies no lote 8.}
 
-\item{\code{l9}}{Quantidade de abundância da espécie no lote 9.}
+\item{\code{l9}}{Medidas de abundância das espécies no lote 9.}
 
-\item{\code{l10}}{Quantidade de abundância da espécie no lote 10.}
+\item{\code{l10}}{Medidas de abundância das espécies no lote 10.}
 
-\item{\code{l11}}{Quantidade de abundância da espécie no lote 11.}
+\item{\code{l11}}{Medidas de abundância das espécies no lote 11.}
 
-\item{\code{l12}}{Quantidade de abundância da espécie no lote 12.}
+\item{\code{l12}}{Medidas de abundância das espécies no lote 12.}
 
-\item{\code{l13}}{Quantidade de abundância da espécie no lote 13.}
+\item{\code{l13}}{Medidas de abundância das espécies no lote 13.}
 
-\item{\code{l14}}{Quantidade de abundância da espécie no lote 14.}
+\item{\code{l14}}{Medidas de abundância das espécies no lote 14.}
 
-\item{\code{l15}}{Quantidade de abundância da espécie no lote 15.}
+\item{\code{l15}}{Medidas de abundância das espécies no lote 15.}
 
-\item{\code{l16}}{Quantidade de abundância da espécie no lote 16.}
+\item{\code{l16}}{Medidas de abundância das espécies no lote 16.}
 
-\item{\code{l17}}{Quantidade de abundância da espécie no lote 17.}
+\item{\code{l17}}{Medidas de abundância das espécies no lote 17.}
 }}
 \source{
 Manly, B. J. F. (2005). Métodos Estatísticos Multivariados- 
@@ -64,7 +64,8 @@ euclid <- as.matrix(dist(ManlyTb9.7[,-1]))
 heatmap(euclid, 
        margins= c(6,6), 
        labRow = ManlyTb9.7$esp, 
-       labCol = ManlyTb9.7$esp)
+       labCol = ManlyTb9.7$esp,
+       main = "Heatmap para a matriz de distâncias para as 25 espécies")
 }
 \keyword{AnaClust}
 
