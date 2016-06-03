@@ -1,25 +1,24 @@
 #' @name PaulaEx3.7.19
 #' @title Gestantes fumantes
 #'
-#' @description Experimento de gestantes fumantes, no qual foi classificado 
-#' segundo os fatores de idade, número de cigarros consumidos, tempo de 
-#' gestação, e a situação da criança.
+#' @description Estudo com gestantes fumantes, no qual as participantes   
+#' foram classificadas segundo os fatores de idade, número de cigarros  
+#' consumidos, tempo de gestação, e a condição (sobrevivência) da criança.
 #' 
-#' @format Um \code{data.frame} com 3 variáveis categóricas e 
-#' 2 do tipo integer.
+#' @format Um \code{data.frame} com 5 variáveis.
 #'
 #' \describe{
 #'
-#' \item{\code{idade}}{Idade < 30 e +30 (factor) .}
+#' \item{\code{idade}}{Idade (<30 anos ou +30).}
 #' 
-#' \item{\code{ncigar}}{Número de cigarros consumidos por dia, 
-#' < 5 e +5 (factor).}
+#' \item{\code{ncigar}}{Número de cigarros consumidos por dia 
+#' (< 5 ou +5).}
 #' 
-#' \item{\code{tgest}}{Tempo de gestação <= 260 dias e >260 (factor).}
+#' \item{\code{tgest}}{Tempo de gestação (<= 260 dias ou >260).}
 #'
-#' \item{\code{sobres}}{Contagem de crianças que sobreviveram.}
+#' \item{\code{sobres}}{Número de crianças que sobreviveram.}
 #' 
-#' \item{\code{sobren}}{Contagem de crianças que não sobreviveram.}
+#' \item{\code{sobren}}{Número de crianças que não sobreviveram.}
 #' 
 #' }
 #' 
@@ -45,13 +44,13 @@
 #' ns <- xtabs(sobren ~ idade + ncigar + tgest, PaulaEx3.7.19)
 #' 
 #' mosaic(ss,
-#'        main = "Pacientes que sobreviveram",
+#'        main = "Crianças que sobreviveram",
 #'        labeling_args = list(
 #'          set_varnames = c(ncigar = "Número de cigarros",
 #'                           tgest = "Tempo de gestação")))
 #' 
 #' mosaic(ns,
-#'        main = "Pacientes que não sobreviveram",
+#'        main = "Crianças que não sobreviveram",
 #'        labeling_args = list(
 #'          set_varnames = c(ncigar = "Número de cigarros",
 #'                           tgest = "Tempo de gestação")))

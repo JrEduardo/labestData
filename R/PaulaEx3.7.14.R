@@ -1,21 +1,20 @@
 #' @name PaulaEx3.7.14
-#' @title Sobrevivência de equipamentos
+#' @title Confiabilidade de equipamentos
 #'
-#' @description Um estudo de regressão logística em análise de
-#' sobrevivência. Medições em tempos para três tipos de equipamentos 
-#' diferentes.
+#' @description Dados referentes aos tempos de falhas de equipamentos.
 #' 
-#' @format Um \code{data.frame} com 5 tempos em 3 tipos de equipamentos.
+#' @format Um \code{data.frame} com 4 variáveis.
 #' 
 #' \describe{
 #'
-#' \item{\code{temp}}{Identificação do tempo (factor).}
+#' \item{\code{temp}}{Tempo de operação (1 a 5).}
 #' 
-#' \item{\code{equip}}{Identificação do equipamento (factor).}
+#' \item{\code{equip}}{Tipo de equipamento (A, B ou C).}
 #' 
-#' \item{\code{nit}}{Número de equipamentos exposto no tempo t.}
+#' \item{\code{nit}}{Número de equipamentos que não falharam até o tempo t,
+#' t = 1,2,3,4,5.}
 #'
-#' \item{\code{yit}}{Número de equipamentos que falharam.}
+#' \item{\code{yit}}{Número de falhas no intervalo entre os tempos t-1 e t.}
 #'
 #' }
 #' @keywords RLAS
@@ -38,7 +37,7 @@
 #' 
 #' PaulaEx3.7.14$temp <- as.factor(PaulaEx3.7.14$temp)
 #' 
-#' xyplot(nit~temp, groups = equip, data = PaulaEx3.7.14, type = "l", 
-#' auto.key = TRUE, xlab = "Tempos", ylab = "N° de equipamentos",
-#' main = "Sobrevivência dos equipamentos")
+#' xyplot(nit~temp, groups = equip, data = PaulaEx3.7.14, type = "o", 
+#' auto.key = TRUE, xlab = "Tempos", ylab = "N° de equipamentos operantes",
+#' main = "Confiabilidade dos equipamentos")
 NULL
