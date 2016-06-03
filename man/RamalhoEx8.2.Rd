@@ -48,7 +48,7 @@ xyplot(prod ~ colh | clone,
        strip = strip.custom(strip.names = TRUE,
                             var.name = "Clone", sep = " "),
        xlab = "Colheita",
-       ylab = expression("Produção"~(g~parcela^{-1}))) +
+       ylab = expression("Produção"~(g~parcela^{-1})))
     layer(panel.xyplot(x = x, groups = NULL,
                        type = "a", lwd = 2, lty = 1, ...))
 

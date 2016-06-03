@@ -7,25 +7,23 @@
 
 \describe{
 
-\item{\code{idade}}{Idade do paciente em anos.}
+\item{\code{idade}}{Idade do paciente (em anos).}
 
-\item{\code{mdd}}{Mancha que diferencia da doença em porcentagem.} 
+\item{\code{mdd}}{Mancha diferencial da doença (em porcentagem).} 
 
-\item{\code{if}}{Infiltração na medula em porcentagem.}
+\item{\code{if}}{Infiltração na medula (em porcentagem).}
 
-\item{\code{cl}}{Células com leucemia em porcentagem.}
+\item{\code{cl}}{Células com leucemia (em porcentagem).}
 
-\item{\code{md}}{Malignidade da doença na 10^3.}
+\item{\code{md}}{Malignidade da doença (*10^3).}
 
 \item{\code{tmax}}{Temperatura máxima antes do tratamento (*10 F°).}
 
-\item{\code{md}}{Malignidade da doença.}
+\item{\code{trat}}{Tratamento (1 = satisfatório, 0 = não satisfatório).}
 
-\item{\code{trat}}{Tratamento (1:satisfatório, 0:não situação).}
+\item{\code{tsobre}}{Tempo de sobrevivência  (em meses).} 
 
-\item{\code{tsobre}}{Tempo de sobrevivência em meses.} 
-
-\item{\code{sit}}{Situação (1:sobrevivente, 0:não sobrevivente).} 
+\item{\code{sit}}{Situação (1 = sobrevivente, 0 = não sobrevivente).} 
 }}
 \source{
 Paula, G. A. (2004). Modelos de regressão: com apoio
@@ -35,8 +33,8 @@ Paula, G. A. (2004). Modelos de regressão: com apoio
 \description{
 Estudo com 51 pacientes adultos, 
 previamente diagnosticados com um tipo agudo de leucemia, que 
-receberam um tipo de tratamento e foi verificado após um certo 
-período a eficiência ou não do tratamento.
+receberam um tipo de tratamento sendo verificada, após  certo 
+período, a eficiência ou não do tratamento.
 }
 \examples{
 
@@ -63,7 +61,7 @@ scatterplotMatrix(~ idade + mdd + im + cl + md + tmax + trat
                  smooth = TRUE, 
                   data = PaulaEx3.7.20, 
                   cex = 1.5,
-                  main = "Matriz das variáveis de Leucemia")
+                  main = "Matriz de gráficos de dispersão - Leucemia")
 }
 \references{
 Everitt, B. S. (1994). 

@@ -1,0 +1,64 @@
+#' @name ZimmermannTb11.1
+#' @title Espaçamento e Densidade de Plantio na Produção de Arroz
+#' @description Dados de um experimento fatorial \eqn{2^3}, com
+#'     confundimento total da interação dupla. O ensaio foi conduzido em
+#'     dois blocos ao acaso de tamanho 4 dentro de quatro repetições, em
+#'     que cada uma continha um par de blocos (8 parcelas). Os fatores
+#'     estudados foram: densidades de plantio de 50 e 90 sementes por
+#'     metro, espaçamentos entre linhas de 35cm e 50cm e fator presença
+#'     ou ausência de adubação nitrogenada em cobertura. A variável
+#'     resposta é a produtividade de grãos, em kg ha\eqn{^{-1}}.
+#' @format Um \code{data.frame} com 32 observações e 4 variáveis, em que
+#'
+#' \describe{
+#'
+#' \item{\code{rept}}{Fator categórico que identifica a repetição. Cada
+#'     repetição contém um par de blocos de tamanho 4.}
+#'
+#' \item{\code{bloco}}{Fator de níveis categóricos que identifica o
+#'     bloco em cada repetição.}
+#'
+#' \item{\code{densi}}{Fator codificado que representa a densidade de
+#'     plantio (50 e 90).}
+#'
+#' \item{\code{espac}}{Fator codificado que representa o espaçamento
+#'     entre as linhas de semeadura (35 e 50 cm).}
+#'
+#' \item{\code{adub}}{Fator codificado que indica a presença ou não de
+#'     adubação nitrogenada (1 e 0).}
+#'
+#' \item{\code{prod}}{Produção de arroz, em kg ha\eqn{^{-1}}.}
+#'
+#' }
+#' @seealso \code{\link{ZimmermannTb11.7}}. Os ensaios
+#'     \code{ZimmermannTb11.1} e \code{ZimmermannTb11.7} possuem os
+#'     mesmos valores observados da resposta e fatores estudados, o que
+#'     muda é a estrutura de confundimento utilizada, com modificação do
+#'     tamanho dos blocos para que isso fosse ilustrado. O primeiro tem
+#'     2 blocos de tamanho 4 em cada repetição e o segundo tem 4 blocos
+#'     de tamanho 2. Essa modificação dos dados é artificial e foi feita
+#'     para fins didáticos. Não se deve alterar o delineamento de dados
+#'     reais para conduzir as análises.
+#' @keywords DBC FAT confundimento
+#' @source Zimmermann, F. J. (2004). Estatística aplicada à pesquisa
+#'     agrícola (1st ed.). Santo Antônio de Goiás, GO: Embrapa Arroz e
+#'     Feijão. (Tabela 11.1, pág. 221)
+#' @examples
+#'
+#' library(lattice)
+#'
+#' data(ZimmermannTb11.1)
+#'
+#' str(ZimmermannTb11.1)
+#'
+#' xyplot(prod ~ factor(densi) | factor(adub), groups = espac,
+#'        data = ZimmermannTb11.1,
+#'        type = c("p", "a"),
+#'        xlab = "Densidade de semeadura",
+#'        ylab = expression ("Produção de Arroz"~(kg~ha^{-1})),
+#'        auto.key = list(title = "Espaçamento", cex.title = 1.1,
+#'                        columns = 2),
+#'        strip = strip.custom(strip.names = TRUE,
+#'                             var.name = "Adubação"))
+#'
+NULL
