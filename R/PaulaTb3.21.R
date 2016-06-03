@@ -1,6 +1,6 @@
-#' @name PaulaTb3.21
-#' @title Distribuição de Rotifers das Duas Espécies
-#' @description Experimentos com duas espécies de *rotifers*, um tipo  
+#' @name PaulaTb3.21 
+#' @title Distribuição de Rotifers de duas espécies
+#' @description Experimento com duas espécies de *rotifers*, um tipo  
 #'     microscópio de invertebrado aquático, para determinar a densidade 
 #'     relativa para cada uma das espécies. São apresentados pra cada espécie
 #'     a densidade relativa da substância, o número de *rotifers* expostos 
