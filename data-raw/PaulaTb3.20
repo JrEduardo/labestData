@@ -1,0 +1,19 @@
+mortos	exp	dose	inset
+1	3	50	1	ddt
+2	5	49	2	ddt
+3	19	47	3	ddt
+4	19	50	4	ddt
+5	24	49	5	ddt
+6	35	50	6	ddt
+7	2	50	1	gamaddt
+8	14	49	2	gamaddt
+9	20	50	3	gamaddt
+10	27	50	4	gamaddt
+11	41	50	5	gamaddt
+12	40	50	6	gamaddt
+13	28	50	1	ddt.gamaddt
+14	37	50	2	ddt.gamaddt
+15	46	50	3	ddt.gamaddt
+16	48	50	4	ddt.gamaddt
+17	48	50	5	ddt.gamaddt
+18	50	50	6	ddt.gamaddt
