@@ -1,16 +1,15 @@
 #' @name ManlyTb10.2
 #' @title Variáveis solo e vegetação em Belize
 #'
-#' @description Estudo no distrito de Corozal em Belize em 4 variáveis 
+#' @description Estudo no distrito de Corozal, em Belize, com 4 variáveis 
 #' de solo e 4 variáveis de vegetação registradas para quadrados 
 #' de 2,5 x 2,5 km.
 #'
 #' @format Um \code{data.frame} com 151 linhas e 8 variáveis.
 #' 
 #' \describe{
-#' 
-#' \item{\code{ser}{Porcentagem de solo com enriquecimento constante de 
-#' calcário.}}
+#' \item{\code{ser}}{Porcentagem de solo com enriquecimento constante de 
+#' calcário.}
 #'
 #' \item{\code{spc}}{Porcentagem de solo de prado com cálcio na água 
 #' subterrânea.}
@@ -25,12 +24,11 @@
 #' ervas de folhas largas.}
 #' 
 #' \item{\code{flab}}{Porcentagem de floresta de locais altos e baixos 
-#' coberta com água, plantas herbáceas em lugares úmidos e pântano.}
+#' coberta com água e plantas herbáceas em lugares úmidos e pântano.}
 #' 
 #' \item{\code{fpc}}{Porcentagem de floresta palma de cohune.}
 #' 
 #' \item{\code{fm}}{Porcentagem de floresta mista.}
-#' 
 #' }
 #'  
 #' @keywords ACC
@@ -41,7 +39,7 @@
 #' data(ManlyTb10.2)
 #' pairs(~ ser + spc + smc + sao + fde + flab + fpc + fm,
 #'       data = ManlyTb10.2, 
-#'       main="Matriz das variáveis dos solos")
+#'       main="Matriz de gráficos para as variáveis de solo")
 #'
 #'             
 NULL

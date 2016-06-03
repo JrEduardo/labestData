@@ -3,11 +3,10 @@
 \name{ManlyTb10.4}
 \alias{ManlyTb10.4}
 \title{Combinação de tabelas 1.5 e 6.7}
-\format{Um \code{data.frame} com 22 registros e 18 variáveis.
+\format{Um \code{data.frame} com 22 países e 18 variáveis.
 
 \describe{
-
-\item {\code{pais}}{Identificação do país.}
+\item{\code{pais}}{Identificação do país.}
 
 \item{\code{cv}}{Consumo de carne vermelha medida em gramas por 
 pessoa por dia.}
@@ -50,11 +49,11 @@ agricultura, florestal e pesca.}
 }}
 \source{
 Manly, B. J. F. (2005). Métodos Estatísticos Multivariados- 
-uma introdução.Porto Alegre, RS: Bookman (pg 175)
+uma introdução. Porto Alegre, RS: Bookman (pg 175)
 }
 \description{
-Combinação entre a tabela 1.5 e 6.7. Trata-se de 
-variáveis de consumo de proteína e força de trabalho por país
+Dados referentes a consumo de proteína e força de trabalho 
+em países europeus.
 }
 \examples{
 
@@ -63,8 +62,8 @@ data(ManlyTb10.4)
 pairs(~ cv + cb + ovo + leite + peixe + cere + carb + gnl+ agr + 
 min + fab + fea + con + ser + fin + ssp + tc,
       data = ManlyTb10.4, 
-      main = "Matriz das variáveis de força de trabalho e consumo de 
-      proteínas diárias"
+      main = "Matriz de gráficos para as variáveis de força de trabalho 
+      e consumo de proteínas diárias"
       )
 }
 \keyword{ACC}

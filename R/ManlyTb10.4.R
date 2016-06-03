@@ -1,14 +1,13 @@
 #' @name ManlyTb10.4
 #' @title Combinação de tabelas 1.5 e 6.7
 #'
-#' @description Combinação entre a tabela 1.5 e 6.7. Trata-se de 
-#' variáveis de consumo de proteína e força de trabalho por país
+#' @description Dados referentes a consumo de proteína e força de trabalho 
+#' em países europeus.
 #'
-#' @format Um \code{data.frame} com 22 registros e 18 variáveis.
+#' @format Um \code{data.frame} com 22 países e 18 variáveis.
 #' 
 #' \describe{
-#'
-#' \item {\code{pais}}{Identificação do país.}
+#' \item{\code{pais}}{Identificação do país.}
 #' 
 #' \item{\code{cv}}{Consumo de carne vermelha medida em gramas por 
 #' pessoa por dia.}
@@ -60,7 +59,7 @@
 #' pairs(~ cv + cb + ovo + leite + peixe + cere + carb + gnl+ agr + 
 #' min + fab + fea + con + ser + fin + ssp + tc,
 #'       data = ManlyTb10.4, 
-#'       main = "Matriz das variáveis de força de trabalho e consumo de 
-#'       proteínas diárias"
+#'       main = "Matriz de gráficos para as variáveis de força de trabalho 
+#'       e consumo de proteínas diárias"
 #'       )
 NULL
