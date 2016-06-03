@@ -2,34 +2,32 @@
 #' @title Espaçamento Entre Linhas e Densidade no Plantio de Feijão
 #' @description Dados de um experimento fatorial \eqn{3^2}, com a
 #'     cultura do feijoeiro testando espaçamento entre linhas de plantio
-#'     (0.45m, 0.6m e 0.75m) e densidade de plantio (7, 10 e 13 sementes
+#'     (0.45, 0.6 e 0.75 m) e densidade de plantio (7, 10 e 13 sementes
 #'     por metro). Os dados se referem à cultivar Jalo
 #'     Precoce. Adotou-se o delineamento de blocos ao acaso com
 #'     confundimento parcial de 2 graus de liberdade da interação
-#'     densidade (A) com espaçamento (B). Os resultados são de altura de
+#'     densidade com espaçamento. Os resultados são de altura de
 #'     plantas, em centímetros.
 #' @format Um \code{data.frame} com 36 observações e 6 variáveis
 #'
 #' \describe{
 #'
-#' \item{\code{rept}{Fator de níveis numéricos. Identifica a repetição
-#'    da observação.}
+#' \item{\code{rept}}{Fator categórico que identifica a repetição. Cada
+#'     repetição tinha 3 blocos de tamanho 3.}
 #'
-#' \item{\code{bloco}}{Fator de níveis numéricos. Identifica o bloco da
+#' \item{\code{bloco}}{Fator categórico que identifica o bloco em cada
 #'     repetição.}
+#'
+#' \item{\code{espac}}{Fator de níveis codificados que identifica o
+#'     espaçamento utilizado (0.45, 0.6 e 0.75 m).}
+#'
+#' \item{\code{dens}}{Fator de níveis codificados que identifica a
+#'    densidade de plantio utilizada (7, 10 e 13 sementes por metro).}
 #'
 #' \item{\code{altura}}{Altura de plantas, em cm.}
 #'
-#' \item{\code{iden}}{Fator de níveis numéricos. É a identificação que
-#'     representa o tratamento.}
-#'
-#' \item{\code{espac}}{Fator de níveis numéricos. Identifica o espaçamento
-#'     utilizado.}
-#'
-#' \item{\code{dens}}{Fator de níveis numéricos. Identifica a densidade de
-#'    plantio utilizada.}
-#'
-#' @keywords DBC FAT
+#' }
+#' @keywords DBC FAT confundimento
 #' @source Zimmermann, F. J. (2004). Estatística aplicada à pesquisa
 #'     agrícola (1st ed.). Santo Antônio de Goiás, GO: Embrapa Arroz e
 #'     Feijão. (pg 231)
@@ -41,12 +39,18 @@
 #'
 #' str(ZimmermannTb11.10)
 #'
-#' ftable(xtabs(~espac + dens + bloco, data = ZimmermannTb11.10))
+#' ftable(xtabs(~espac + dens + rept, data = ZimmermannTb11.10))
+#' ftable(xtabs(~espac + dens + interaction(rept, bloco),
+#'              data = ZimmermannTb11.10))
 #'
-#' xyplot(altura ~ espac, groups = dens,
-#'        data = ZimmermannTb11.10,
-#'        type = c("p", "a"), jitter.x = TRUE,
+#' xyplot(altura ~ factor(espac) | rept, groups = dens,
+#'        data = ZimmermannTb11.10, as.table = TRUE,
+#'        type = c("p", "a"),
 #'        xlab = "Níveis de espaçamento",
-#'        ylab = "Altura de Plantas (cm)")
+#'        ylab = "Altura de plantas (cm)",
+#'        auto.key = list(title = "Densidade", cex.title = 1.1,
+#'                        columns = 3),
+#'        strip = strip.custom(strip.names = TRUE,
+#'                             var.name = "Repetição"))
 #'
 NULL

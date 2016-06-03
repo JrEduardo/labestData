@@ -23,6 +23,16 @@
 #' \item{\code{prod}}{Produção de arroz em kg ha\eqn{^{-1}}.}
 #'
 #' }
+#' @details A formulação da adubação empregada no ensaio de cultivar de
+#'     arroz teve a seguinte composição
+#'
+#' \tabular{rrrrrr}{
+#'  Adub \tab N \tab P\eqn{_2}O\eqn{_5} \tab K\eqn{_2}O
+#'     \tab Micros \tab Zn\cr
+#'   1 \tab  6 \tab 30 \tab 27 \tab  45 \tab  2\cr
+#'   2 \tab 12 \tab 60 \tab 54 \tab  90 \tab  4\cr
+#'   3 \tab 18 \tab 90 \tab 81 \tab 135 \tab  6
+#' }
 #' @keywords DBC EF
 #' @source Zimmermann, F. J. (2004). Estatística aplicada à pesquisa
 #'     agrícola (1st ed.). Santo Antônio de Goiás, GO: Embrapa Arroz e
@@ -35,7 +45,7 @@
 #'
 #' str(ZimmermannTb10.15)
 #'
-#' xyplot(prod ~ adub, groups = bloco, data = ZimmermannTb10.15,
+#' xyplot(prod ~ adub | geno, groups = bloco, data = ZimmermannTb10.15,
 #'        type = c("p", "a"),
 #'        xlab = "Nível de adubação",
 #'        ylab = expression("Produção de arroz"~(kg~ha^{-1})))

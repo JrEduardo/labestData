@@ -7,7 +7,7 @@
 #'     implantadas nas parcelas principais, o inseticida nas subparcelas
 #'     e os genótipos nas sub-parcelas. Os resultados são dados de peso
 #'     de 100 espiguetas de arroz, em gramas.
-#' @format Um \code{data.frame} com 48 observações e 5 variáveis
+#' @format Um \code{data.frame} com 48 observações e 5 variáveis, em que
 #'
 #' \describe{
 #'
@@ -15,7 +15,7 @@
 #'     plantio.}
 #'
 #' \item{\code{inset}}{Fator de níveis numéricos que representa a
-#'     aplicação (ou não) de Fipronil.}
+#'     aplicação (1) ou não (0) de Fipronil.}
 #'
 #' \item{\code{genot}}{Fator de níveis nominais que identifica o
 #'     genótipo de arroz.}

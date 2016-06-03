@@ -5,7 +5,7 @@
 #'     experimento avaliou o efeito de 3 doses do fungicida Fongorene
 #'     (0, 400 e 800 gramas por 100 kg) em cultivares de arroz. Mediu-se
 #'     a percentagem de área foliar lesionada por brusone em cinco
-#'     datas, e depois estabeleceu-se a área sob a curva do progresso da
+#'     datas, e depois calculou-se a área sob a curva do progresso da
 #'     doença (ASCPD). Os dados estão transformados em logaritmo.
 #' @format Um \code{data.frame} com 27 observações e 4 variáveis
 #'
@@ -19,7 +19,7 @@
 #' \item{\code{dose}}{Fator métrico que representa a dose usada do
 #'     fungicida, em gramas por hectare.}
 #'
-#' \item{\code{ascpd}}{Logaritimo da área sob a curva de progresso da
+#' \item{\code{ascpd}}{Logarítimo da área sob a curva de progresso da
 #'     doença.}
 #'
 #' }
@@ -37,7 +37,7 @@
 #'
 #' xyplot(ascpd ~ dose, groups = cult, data = ZimmermannTb10.6,
 #'        type = c("p", "a"),
-#'        xlab = expression("Doses de inseticida"~(g~kg^{-1})),
-#'        ylab = "Logaritmo da Área sob a curva de progresso da doença")
+#'        xlab = expression("Doses de inseticida"~(g~100~kg^{-1})),
+#'        ylab = "Logaritmo da área sob a curva de progresso da doença")
 #'
 NULL

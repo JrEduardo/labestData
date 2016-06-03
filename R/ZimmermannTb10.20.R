@@ -11,7 +11,7 @@
 #'
 #' \describe{
 #'
-#' \item{\code{lam}{Fator de níveis categóricos que identifica a lâmina
+#' \item{\code{lam}}{Fator de níveis categóricos que identifica a lâmina
 #'    de água aplicada ou intensidade de irrigação.}
 #'
 #' \item{\code{nit}}{Fator de níveis categóricos que identifica a dose
@@ -26,6 +26,7 @@
 #' \item{\code{massa}}{Massa de 100 grãos de feijão, sem unidade de
 #'     medida.}
 #'
+#' }
 #' @keywords DBC PSS EF
 #' @source Zimmermann, F. J. (2004). Estatística aplicada à pesquisa
 #'     agrícola (1st ed.). Santo Antônio de Goiás, GO: Embrapa Arroz e
