@@ -30,6 +30,5 @@
 #'        data = PaulaTb1.9,
 #'        type = c("p", "smooth"),
 #'        main = "Número de Bactérias Sobreviventes por Tempo de Exposição")
-
 #'
 NULL

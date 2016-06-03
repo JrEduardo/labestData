@@ -12,9 +12,9 @@
 #' 
 #' \item{\code{grupo}}{Grupo de passagem (0 a 28).}
 #' 
-#' \item{\code{massat}}{Presença de massa tumoral (sim, não).}
+#' \item{\code{massat}}{Presença de massa tumoral (sim ou não).}
 #' 
-#' \item{\code{caq}}{Caquexia (sim, não).}
+#' \item{\code{caq}}{Caquexia (sim ou não).}
 #' 
 #' \item{\code{tempo}}{Tempo de sobrevivência (em dias).}
 #' 

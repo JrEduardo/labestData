@@ -1,23 +1,23 @@
 #' @name PaulaEg1.12.2
-#' @title Pacientes com Processo Infecioso Pulmonar
-#' @description Um total de 175 pacientes com processo infecioso 
-#'     pulmonar atendidos no hospital no período acima foram classificados
-#'     por algumas variáveis. 
+#' @title Pacientes com Processo Infeccioso Pulmonar
+#' @description Dados referentes a 175 pacientes com processo infeccioso 
+#'     pulmonar atendidos no Hospital Heliópolis, em São Paulo, no período 
+#'     de 1970 a 1986. 
 #'      
 #' @format Um \code{data.frame} com 175 observações e 5 variáveis.
 #' \describe{
 #' 
-#' \item{\code{tipo}}{Tipo de tumor (maligno, benigno).}
+#' \item{\code{tipo}}{Tipo de tumor (maligno ou benigno).}
 #' 
 #' \item{\code{idade}}{Idade do paciente (em anos).}
 #' 
-#' \item{\code{sexo}}{Sexo do paciente (masculino, feminino).}
+#' \item{\code{sexo}}{Sexo do paciente (masculino ou feminino).}
 #' 
 #' \item{\code{hl}}{Intensidade da célula histiócitos-linfócitos (ausente, 
-#'     discreta, moderada, intensa).}
+#'     discreta, moderada ou intensa).}
 #' 
 #' \item{\code{ff}}{Intensidade da célula fibrose-frouxa (ausente, 
-#'     discreta, moderada, intensa).}
+#'     discreta, moderada ou intensa).}
 #' 
 #' }
 #' @keywords aplicações
