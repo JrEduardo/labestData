@@ -1,11 +1,11 @@
 #' @name PaulaEg2.4.2
 #' @title Captura de Peixes via Espinhel de Fundo no Litoral Paulista
 #' @description Dados parciais de um estudo sobre a atividade de frotas
-#'     pesqueiras de espinhel de fundo baseadas no litoral paulista,
-#'     Santos e Ubatuba. Neste estudo uma amostra de 156 embarcações
-#'     pesqueiras, cujo peixe-batata é considerado para pesca, foi
+#'     pesqueiras de espinhel de fundo baseadas no litoral paulista (
+#'     Santos e Ubatuba). Neste estudo uma amostra de 156 embarcações
+#'     pesqueiras, destinadas à pesca do peixe-batata, foi
 #'     analisada no período de 1995 a 1999. Para cada embarcação foram
-#'     obtidas variáveis sobre a frota (Santos ou Ubatuba), ano,
+#'     consideradas variáveis sobre a frota (Santos ou Ubatuba), ano,
 #'     trimestre, latitude, longitude, dias de pesca, quantidade de
 #'     peixes capturados e a captura por unidade de esforço (definida
 #'     como divisão da quantidade de peixe capturado pelos dias de

@@ -1,15 +1,15 @@
 #' @name PaulaEx2.10.19
-#' @title Estudo de Leucemia sob Característica Morfológica nas Células
+#' @title Estudo Sobre Leucemia e Característica Morfológica nas Células
 #'     Brancas 
 #' @description Dados provenientes de um estudo em que pacientes com
 #'     leucemia foram classificados segundo a ausência ou presença de
 #'     uma característica morfológica nas células brancas. O objetivo do
 #'     estudo foi avaliar essa característica morfológica a partir do
-#'     tempo de sobrevivência.
+#'     tempo de sobrevivência dos pacientes.
 #' @format Um \code{data.frame} com 32 observações e 3 variáveis.
 #' \describe{
 #' 
-#' \item{\code{ncel}}{Inteiro que representa o número de células brancas
+#' \item{\code{ncel}}{Número de células brancas
 #'     na amostra do paciente.}
 #' 
 #' \item{\code{carac}}{Fator com dois níveis que representa a presença

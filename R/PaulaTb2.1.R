@@ -3,8 +3,8 @@
 #' @description Resultados de um experimento conduzido para avaliar o
 #'     desempenho de cinco tipos de turbina de alta velocidade para
 #'     motores de avião. Foram considerados dez motores de cada tipo
-#'     onde observou-se o tempo até a perda de velocidade ou,
-#'     equivalentemente, duração do motor.
+#'     registrando-se o tempo até a perda de velocidade ou,
+#'     equivalentemente, a duração do motor.
 #' @format Um \code{data.frame} com 50 observações e 2 variáveis.
 #'     \describe{
 #' 

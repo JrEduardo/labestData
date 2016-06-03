@@ -1,16 +1,16 @@
 #' @name PaulaEx2.10.15
 #' @title Consumo de Energia em Domicílios
 #' @description Dados referentes ao consumo de energia em 53 domicílios
-#'     em que o total de energia consumido num determinado mês é
-#'     utilizado para explicar a demanda de energia no horário de pico.
+#'     e demanda de energia no horário de pico.
+#'     
 #' @format Um \code{data.frame} com 53 observações e 2 variáveis.
 #' \describe{
 #' 
 #' \item{\code{consu}}{Consumo de energia num determinado mês, em
 #'     quilowatts-hora.}
 #' 
-#' \item{\code{deman}}{Demanda de energia no horário de pico, unidade de
-#'     medida não informada.}
+#' \item{\code{deman}}{Demanda de energia no horário de pico (unidade de
+#'     medida não informada).}
 #' 
 #' }
 #' @keywords positivo-assimétrico

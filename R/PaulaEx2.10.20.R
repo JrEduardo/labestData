@@ -4,7 +4,7 @@
 #'     seguros de veículos referentes ao período de 2004-2005, extraída
 #'     de Jong e Heller (2008). Foram 9 variáveis observadas na amostra
 #'     dentre as quais o número de sinistros e o custo total dos
-#'     sinistros são, naturalmente, as variáveis de interesse. O
+#'     sinistros que são, naturalmente, as variáveis de interesse. O
 #'     objetivo do estudo é relacionar o custo médio de um sinistro
 #'     (razão entre o custo total e o número de sinistros) com as demais
 #'     variáveis do estudo (variáveis da apólice, que compreendem
@@ -15,25 +15,25 @@
 #' \item{\code{valorv}}{Valor do veículo, em dez mil dólares
 #'     australianos.}
 #' 
-#' \item{\code{expos}}{Exposição do veículo, unidade de medida não
-#'     informada.}
+#' \item{\code{expos}}{Exposição do veículo (unidade de medida não
+#'     informada).}
 #' 
-#' \item{\code{tipov}}{Tipo de veículo, fator com onze níveis.}
+#' \item{\code{tipov}}{Tipo de veículo (fator com onze níveis).}
 #' 
-#' \item{\code{idadev}}{Idade do veículo, fator com quatro níveis.}
+#' \item{\code{idadev}}{Idade do veículo (fator com quatro níveis).}
 #' 
 #' \item{\code{sexoc}}{Sexo do principal condutor, fator com dois níveis
 #'     \code{M} masculino e \code{F} feminino.}
 #' 
-#' \item{\code{areac}}{Área de residência do principal condutor, fator
-#'     com seis níveis.}
+#' \item{\code{areac}}{Área de residência do principal condutor (fator
+#'     com seis níveis).}
 #' 
-#' \item{\code{idadec}}{Idade do principal condutor, fator com seis
-#'     níveis.}
+#' \item{\code{idadec}}{Idade do principal condutor (fator com seis
+#'     níveis).}
 #' 
 #' \item{\code{nsinis}}{Número de sinistros no período.}
 #' 
-#' \item{\code{csinis}}{Custo total dos sinistros em dólares
+#' \item{\code{csinis}}{Custo total dos sinistros, em dólares
 #'     australianos.}
 #' 
 #' }
