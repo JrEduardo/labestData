@@ -13,10 +13,10 @@
 #' \item{\code{P2O5}}{Fator de 5 níveis qualitativos que são as
 #'     diferentes dosagens de \eqn{P_2O_5} em \eqn{kg.ha^{-1}}.}
 #'
-#' \item{prod}{Produção de milho, em kg/parcela.}
+#' \item{\code{prod}}{Produção de milho, em kg/parcela.}
 #'
 #' }
-#' @keywords DBC
+#' @keywords RP
 #' @source Pimentel-Gomes, F. (2009). Curso de Estatística
 #'     Experimental (15th ed.). Piracicaba, SP: FEALQ. (Tabela 12.2.1,
 #'     pág. 232)
