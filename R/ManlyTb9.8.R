@@ -1,24 +1,23 @@
 #' @name ManlyTb9.8
-#' @title Bens de túmulo
+#' @title Bens de túmulos
 #'
-#' @description Conjundo de dados referentes a bens de túmulos de um 
+#' @description Conjunto de dados referentes a bens de túmulos de um 
 #' cemitério em Bannadi, nordeste da Tailândia. São registros de 
 #' presença ou ausência de 38 diferentes artigos em cada um dos 46 
 #' túmulos, com informação adicional sobre se os restos mortais eram de
-#' adulto masculino, feminino ou criança. Os sepultamentos estão na 
-#' ordem de riqueza.
+#' um adulto masculino, feminino ou criança. Os sepultamentos estão na 
+#' ordem de riqueza de diferentes bens (totais variando de 0 a 11), e os
+#' bens estão na ordem de frequência de ocorrência (totais variando de 
+#' 1 a 18).
 #' 
-#' @format Um \code{data.frame} com 45 linhas e 38 variáveis; Túmulo 
-#' B32 repetido
+#' @format Um \code{data.frame} com 45 linhas e 38 colunas.
 #' 
 #' \describe{
 #'
 #' \item{\code{sep}}{Identifica o sepultamento}
 #' 
-#' \item{\code{tipo}}{Identifica os restos Mortais;
-#'  1 - Adulto masculino;
-#'  2 - Adulto Feminino;
-#'  3 - Criança}
+#' \item{\code{tipo}}{Identifica os restos Mortais (1 = Adulto masculino;
+#'  2 = Adulto Feminino; 3 = Criança}
 #' 
 #' \item{\code{obj1}}{Presença (1) ou ausência (0) do objeto 1}
 #' 
@@ -105,9 +104,9 @@
 #'
 #' data(ManlyTb9.8)
 #' 
-#' euclid <- as.matrix(dist(ManlyTb9.8[,-c(1,2)]))
-#' 
-#' heatmap(euclid, 
+#' matdist <- as.matrix(dist(ManlyTb9.8[,-c(1,2)], method = "binary"))
+#' ### Mapa de calor para a matriz de dissimilaridades.
+#' heatmap(matdist, 
 #'        margins= c(6,6), 
 #'        labRow = ManlyTb9.8$sep, 
 #'        labCol = ManlyTb9.8$sep)
