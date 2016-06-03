@@ -60,7 +60,7 @@
 #'        strip = strip.custom(strip.names = TRUE,
 #'                             sep = " ", var.name = "Árvore"),
 #'        xlab = "Operadores",
-#'        ylab = "Altura total (m)") +
+#'        ylab = "Altura total (m)")
 #'     layer(panel.abline(h = mean(y), lwd = 2))
 #'
 #' xyplot(alt ~ oper | apar, data = BarbinPg114,

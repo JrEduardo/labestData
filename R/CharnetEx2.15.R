@@ -48,7 +48,7 @@
 #' qplot(cv, nq, data = CharnetEx2.15, color = qp,
 #'       xlab = "Relação Candidatos Vaga",
 #'       ylab = "Notas na Prova de Química",
-#'       main = "Notas na Prova de Química x Candidatos Vaga") +
+#'       main = "Notas na Prova de Química x Candidatos Vaga")
 #'     geom_smooth(method = "lm", se = FALSE)
 #'
 #' # Considerando a notas médias geral (soma das notas de química,
@@ -56,7 +56,7 @@
 #' soma <- with(CharnetEx2.15, nq + nm + nh)
 #' qplot(cv, soma, data = CharnetEx2.15, color = qp,
 #'       xlab = "Relação Candidatos Vaga",
-#'       ylab = "Soma das Notas") +
+#'       ylab = "Soma das Notas")
 #'     geom_smooth(method = "lm", se = FALSE)
 #'
 #' # Correlação entre as variáveis numéricas (notas e relação

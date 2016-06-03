@@ -35,9 +35,9 @@
 #'
 #' library(ggplot2)
 #'
-#' ggplot(CharnetEx1.17, aes(x = x, y = y)) +
-#'     geom_point() +
-#'     facet_grid(~conj, scales = "free_x") +
+#' ggplot(CharnetEx1.17, aes(x = x, y = y))
+#'     geom_point()
+#'     facet_grid(~conj, scales = "free_x")
 #'     stat_smooth(method = "lm")
 #'
 NULL

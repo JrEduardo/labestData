@@ -36,17 +36,17 @@
 #'     (da <<- data.frame(x = mu$G, mu = mu$x, sd = des$x))
 #' })
 #'
-#' ggplot(CharnetEx1.18, aes(x = temp, y = tempo)) +
-#'     geom_point() +
+#' ggplot(CharnetEx1.18, aes(x = temp, y = tempo))
+#'     geom_point()
 #'     geom_point(
 #'         aes(x = x - 1, y = mu), data = da,
-#'         col = 4, shape = 15, size = 2.5) +
+#'         col = 4, shape = 15, size = 2.5)
 #'     geom_segment(
 #'         aes(x = x - 1, y = mu - sd, xend = x - 1, yend = mu + sd),
 #'         arrow = grid::arrow(angle = 90,
 #'                             length = grid::unit(0.05, "inches"),
 #'                             ends = "both"),
-#'         data = da, col = 4) +
+#'         data = da, col = 4)
 #'     geom_smooth(method = "lm", se = FALSE)
 #'
 NULL

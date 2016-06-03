@@ -36,9 +36,9 @@
 #'
 #' library(ggplot2)
 #'
-#' ggplot(CharnetEx2.8, aes(x = x, y = y)) +
-#'     geom_point() +
-#'     facet_grid(~conj) +
+#' ggplot(CharnetEx2.8, aes(x = x, y = y))
+#'     geom_point()
+#'     facet_grid(~conj)
 #'     stat_smooth(method = "lm")
 #'
 NULL

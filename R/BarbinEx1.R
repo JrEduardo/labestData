@@ -30,18 +30,18 @@
 #'           type = "density",
 #'           ylab = "Densidade de probabilidade",
 #'           xlab = expression("Altura de árvores de"
-#'                             ~italic("Pinus elliottii"))) +
+#'                             ~italic("Pinus elliottii")))
 #'     latticeExtra::as.layer(densityplot(BarbinEx1,
 #'                                        plot.points = FALSE,
-#'                                        col = 1)) +
+#'                                        col = 1))
 #'     latticeExtra::layer(panel.rug(x = x, col = 1))
 #'
 #' # Histograma + densidade com ggplot2.
-#' ggplot() +
+#' ggplot()
 #'     geom_histogram(mapping = aes(x = BarbinEx1, y = ..density..),
-#'                    breaks = ht$breaks, fill = "orange", col = 1) +
-#'     geom_rug(mapping = aes(x = BarbinEx1), sides = "b") +
-#'     geom_density(mapping = aes(x = BarbinEx1, y = ..density..)) +
+#'                    breaks = ht$breaks, fill = "orange", col = 1)
+#'     geom_rug(mapping = aes(x = BarbinEx1), sides = "b")
+#'     geom_density(mapping = aes(x = BarbinEx1, y = ..density..))
 #'     labs(y = "Densidade de probabilidade",
 #'          x = expression("Altura de árvores de"
 #'                         ~italic("Pinus elliottii")))

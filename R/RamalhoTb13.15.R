@@ -31,7 +31,7 @@
 #' xyplot(filha ~ mae, data = RamalhoTb13.15,
 #'        type = c("p", "smooth"), grid = TRUE, aspect = "iso",
 #'        xlab = "Produção de ramas na planta mãe",
-#'        ylab = "Produção de ramas na planta filha") +
+#'        ylab = "Produção de ramas na planta filha")
 #'     layer(panel.abline(a = 0, b = 1, lty = 2))
 #'
 NULL

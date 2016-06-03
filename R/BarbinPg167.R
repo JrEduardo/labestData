@@ -38,7 +38,7 @@
 #'                        title = "Porta-enxertos", cex.title = 1.1),
 #'        as.table = TRUE,
 #'        xlab = "Safras",
-#'        ylab = expression("Produção de laranja"~(kg~planta^{-1}))) +
+#'        ylab = expression("Produção de laranja"~(kg~planta^{-1})))
 #'     layer(panel.xyplot(groups = with(BarbinPg167,
 #'                                      interaction(bloc, penx)),
 #'                        type = "a", lty = 2,

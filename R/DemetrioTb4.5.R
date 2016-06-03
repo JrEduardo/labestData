@@ -44,4 +44,3 @@
 #'      main = "Dispersão duas a duas")
 #'
 NULL
-
