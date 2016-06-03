@@ -1,0 +1,41 @@
+#' @name PimentelTb11.3.1
+#' @title Experimento de Produção de Milho em Látice Quadrado
+#' @description Experimento em um reticulado quadrado triplo de 4 x 4
+#'     avaliando a produção de 16 híbridos de milho, em que m = 3 e
+#'     k = 4.
+#' @format Um \code{data.frame} com 48 observações e 4 variáveis, em que
+#'
+#' \describe{
+#'
+#' \item{\code{rept}}{Fator de 3 níveis qualitativos, que são as 3
+#'     repetições do quadrado triplo.}
+#'
+#' \item{\code{bloco}}{Fator de 4 níveis qualitativos, usado para
+#'     controle local.}
+#'
+#' \item{\code{hibrido}}{Fator de 16 níveis qualitativos, que são os
+#'     diferentes híbridos de milho.}
+#'
+#' \item{prod}{Produção de milho, em kg/parcela.}
+#'
+#' }
+#' @keywords LAT
+#' @source Pimentel-Gomes, F. (2009). Curso de Estatística
+#'     Experimental (15th ed.). Piracicaba, SP: FEALQ. (Tabela 11.3.1,
+#'     pág. 215)
+#' @examples
+#'
+#' data(PimentelTb11.3.1)
+#' str(PimentelTb11.3.1)
+#' 
+#' library(lattice)
+#'
+#' xyplot(prod ~ hibrido,
+#'        groups = bloco,
+#'        type = c("a","p"),
+#'        auto.key = list(title = "Blocos", cex.title = 1, columns = 4),
+#'        data = PimentelTb11.3.1,
+#'        xlab = "Híbridos de Milho",
+#'        ylab = "Produção (kg/parcela)")
+#'
+NULL
