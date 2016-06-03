@@ -2,13 +2,13 @@
 #' @title Diâmetro de Cerejeiras da Pensilvânia
 #' @description Dados referentes ao registro das variáveis diâmetro,
 #'     altura e volume de 31 árvores cerejeiras numa floresta no estado
-#'     da Pensilvânia. O objetivo do estudo é calcular o volume da
+#'     da Pensilvânia. O objetivo do estudo é predizer o volume da
 #'     árvore a partir de sua altura e diâmetro.
 #' @format Um \code{data.frame} com 31 observações e 3 variáveis.
 #'     \describe{
 #' 
 #' \item{\code{diam}}{Diâmetro da cerejeira, em polegadas. Provavelmente
-#'     o diâmetro foi calculado sob a altura do peito (\eqn{\approx}
+#'     o diâmetro foi calculado à altura do peito (\eqn{\approx}
 #'     1.30m).}
 #' 
 #' \item{\code{alt}}{Altura da cerejeira, em pés.}

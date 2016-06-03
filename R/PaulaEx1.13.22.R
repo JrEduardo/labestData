@@ -2,7 +2,7 @@
 #' @title Vendas de Imóveis
 #' @description Dados relativos a uma amostra de 27 imóveis vendidos. Os
 #'     resgistros visam identificar as características que influenciam
-#'     no preço de vendo de um imóvel.
+#'     no preço de venda de um imóvel.
 #' @format Um \code{data.frame} com 27 observações e 5 variáveis.
 #'     \describe{
 #' 

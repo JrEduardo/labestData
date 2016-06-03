@@ -3,8 +3,8 @@
 #' @description Dados referentes aos retornos diários das ações das
 #'     empresas Microsoft, General Eletric (GE) e Ford no período de
 #'     janeiro de 2002 a abril de 2003. No registro dessas ações também
-#'     têm-se a referente taxa de retorno livre de risco e o retorno do
-#'     mercado para padronizar as comparações.
+#'     se dispõe da taxa de retorno livre de risco e do retorno do
+#'     mercado, para padronizar as comparações.
 #' @format Um \code{data.frame} com 311 observações e 5 variáveis.
 #' \describe{
 #' 
