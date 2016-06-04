@@ -26,7 +26,7 @@
 #' @keywords DQL contagem
 #' @source Zimmermann, F. J. (2004). Estatística aplicada à pesquisa
 #'     agrícola (1st ed.). Santo Antônio de Goiás, GO: Embrapa Arroz e
-#'     Feijão. (Tabela 5.1, pág 357)
+#'     Feijão. (Tabela 16.10, pág. 357)
 #' @examples
 #'
 #' library(lattice)
