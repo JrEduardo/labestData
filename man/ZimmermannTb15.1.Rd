@@ -2,16 +2,27 @@
 % Please edit documentation in R/ZimmermannTb15.1.R
 \name{ZimmermannTb15.1}
 \alias{ZimmermannTb15.1}
-\title{Produção média de perfilhos por planta}
+\title{Produção de Perfilhos por Planta em Função de 4 Fatores}
 \format{Um \code{data.frame} com 24 observações e 3 variáveis
 
 \describe{
 
-\item{\code{bloco}}{Indica o bloco da observação.}
+\item{\code{bloc}}{Fator categórico que representa os blocos.}
 
-\item{\code{perf}}{Número médio de perfilhos por plantas.}
+\item{\code{cult}}{Fator de níveis codificados que representa as
+    cultivares: IAC 47 e IAC 165.}
 
-\item{\code{iden}}{Identificação do tratamento utilizado.}
+\item{\code{calc}}{Fator codificado que representa as doses de
+    calcário: 0 e 5000 kg ha\eqn{^{-1}}.}
+
+\item{\code{gess}}{Fator codificado que representa as doses de gesso:
+    0 e 1500 kg ha\eqn{^{-1}}.}
+
+\item{\code{p2o5}}{Fator codificado que representa as doses de
+    fósforo: 0 e 50 kg de P\eqn{_2}O\eqn{_5} ha\eqn{^{-1}}.}
+
+\item{\code{perf}}{Número médio de perfilhos por planta.}
+
 }}
 \source{
 Zimmermann, F. J. (2004). Estatística aplicada à pesquisa
@@ -19,36 +30,42 @@ Zimmermann, F. J. (2004). Estatística aplicada à pesquisa
     Feijão. (pg 306)
 }
 \description{
-Dados de um ensaio fatorial fracionado \eqn{2^4-1}, em blocos 
-   ao acaso. O experimento mediu o número médio de perfilhos por planta. Os
-   quatro fatores são: cultivar, calcário, gesso e fósforo. Para os fatores
-   abióticos, o nível 0 correspondeu à não aplicação do insumo e para as
-   cultivares, a IAC 47. O nível 1 correspondeu a: cultivar IAC 165, 5000
-   kg ha\eqn{^{-1}} de calcário, 1500 kg ha\eqn{^{-1}} de gesso e 
-   kg ha\eqn{^{-1}} de fósforo.
+Dados de um ensaio fatorial fracionado \eqn{2^{4-1}}, em
+    blocos ao acaso. O experimento mediu o número médio de perfilhos
+    por planta. Os quatro fatores estudados foram: cultivar,
+    calcário, gesso e fósforo. Para os fatores abióticos, o nível
+    baixo correspondeu à não aplicação do insumo e para as
+    cultivares, a IAC 47. O nível 1 correspondeu a: cultivar IAC 165,
+    5000 kg ha\eqn{^{-1}} de calcário, 1500 kg ha\eqn{^{-1}} de gesso
+    e kg ha\eqn{^{-1}} de fósforo.
+}
+\details{
+Apesar de ter sido um experimento feito em blocos, não foi
+    utilizado confundimento bom blocos, pois todos os blocos tiveram
+    a mesma fração do fatorial (a fração complementar não foi
+    utilizada).
 }
 \examples{
 
 library(lattice)
-  
+
 data(ZimmermannTb15.1)
+str(ZimmermannTb15.1)
 
-with(ZimmermannTb15.1, interaction.plot(bloco, iden, perf, lty = c(1:5), 
-                                        col = 2:9, 
-                                        ylab = "Média de Perfilhos",
-                                        xlab = "Bloco"))
+ftable(xtabs(~cult + calc + gess + p2o5, data = ZimmermannTb15.1))
 
-xyplot(perf ~ iden, groups = bloco, data = ZimmermannTb15.1, 
-       type=c("p","a"),
-       xlab="Identificações", ylab="Média de Perfilhos", 
-       main="Experimento Fatorial Fracionado")
+xyplot(perf ~ factor(calc) | factor(cult),
+       groups = interaction(gess, p2o5, sep = ":"),
+       data = ZimmermannTb15.1,
+       xlab = "Nível de calcário",
+       ylab = "Número médio de perfilhos por planta",
+       auto.key = list(title = "Gesso:Fósforo", cex.title = 1.1,
+                       columns = 4),
+       strip = strip.custom(strip.names = TRUE,
+                            var.name = "Cultivar",
+                            factor.levels = c("IAC 47", "IAC 165")))
 
-aggregate(perf ~ bloco, data = ZimmermannTb15.1, 
-          FUN = function(x) { c(mean = mean(x), var = var(x)) })
-
-aggregate(perf ~ iden, data = ZimmermannTb15.1, 
-          FUN = function(x) { c(mean = mean(x), var = var(x)) })
 }
 \keyword{DBC}
-\keyword{FAT}
+\keyword{FRAC}
 

@@ -2,50 +2,47 @@
 % Please edit documentation in R/ZimmermannTb15.10.R
 \name{ZimmermannTb15.10}
 \alias{ZimmermannTb15.10}
-\title{Produção de grãos de arroz}
-\format{Um \code{data.frame} com 25 observações e 3 variáveis
+\title{Adubação NPK na Produção de Arroz}
+\format{Um \code{data.frame} com 25 observações e 3 variáveis, em que
 
 \describe{
 
-\item{\code{N}}{Indica a quantidade de Nitrogênio aplicada.}
+\item{\code{N}}{Fator codificado que representa a dose de
+    nitrogênio.}
 
-\item{\code{P}}{Indica a quantidade de Fósforo aplicada.}
+\item{\code{P}}{Fator codificado que representa a dose de fósforo.}
+\item{\code{K}}{Fator codificado que representa a dose de potássio.}
 
-\item{\code{K}}{Indica a quantidade de Potássio aplicada.}
-
-\item{\code{prod}}{Indica a produçao de grãos, kg ha\eqn{^{-1}}.}
+\item{\code{prod}}{Produção de grãos, kg ha\eqn{^{-1}}.}
 
 }}
 \source{
 Zimmermann, F. J. (2004). Estatística aplicada à pesquisa
     agrícola (1st ed.). Santo Antônio de Goiás, GO: Embrapa Arroz e
-    Feijão. (pg 314)
+    Feijão. (Tabela 15.10, pág. 314)
 }
 \description{
-Dados de produção de grãos em terras altas, em kg ha\eqn{^{-1}}.
-    Este é um ensaio contendo apenas uma repetição de um fatorial fracionado
-    correspondente a 1/5 de um \eqn{5^3}. Os fatores são N, P e K, mas as 
-    suas quantidades em cada nível (de 1 a 5) não são especificadas.
+Dados de produção de grãos em terras altas, em kg
+    ha\eqn{^{-1}}.  Este é um ensaio contendo apenas uma repetição de
+    um fatorial fracionado correspondente a 1/5 de um \eqn{5^3}.
 }
 \examples{
 
 library(lattice)
-  
+
 data(ZimmermannTb15.10)
+str(ZimmermannTb15.10)
 
-xyplot(prod ~ N + P + K, data = ZimmermannTb15.10, 
-       type=c("p","a"),
-       xlab="Níveis de NPK", ylab="Produção de Grãos", 
-       main="Dados Simulados")
+# Arranjo de fatores como a estrutura de quadrado latino.
+reshape::cast(data = ZimmermannTb15.10,
+              formula = N ~ P, value = "K")
 
-aggregate(prod ~ N, data = ZimmermannTb15.10, 
-          FUN = function(x) { c(mean = mean(x), var = var(x)) })
+xyplot(prod ~ N + P + K, data = ZimmermannTb15.10,
+       outer = TRUE, as.table = TRUE, type = c("p", "a"),
+       xlab = "Níveis de NPK",
+       ylab = "Produção de grãos")
 
-aggregate(prod ~ P, data = ZimmermannTb15.10, 
-          FUN = function(x) { c(mean = mean(x), var = var(x)) })
-
-aggregate(prod ~ K, data = ZimmermannTb15.10, 
-          FUN = function(x) { c(mean = mean(x), var = var(x)) })
 }
-\keyword{regressao}
+\keyword{FRAC}
+\keyword{superficie}
 

@@ -1,54 +1,69 @@
 #' @name ZimmermannTb14.3
-#' @title Produtividade e estande de plantas de arroz
-#' @description Dados de um ensaio de competição de cultivares de arroz. Na
-#'     tabela são apresentados dados tanto de produtivididade como os de 
-#'     estande, por área útil, para sete cultivares de arroz. O experimento 
-#'     foi feito em delineamento de blocos completos ao acaso. 
+#' @title Estande de Plantas e Produtividade de Cultivares de Feijão
+#' @description Dados de um ensaio de competição de cultivares de feijão
+#'     onde foram registrados a produtivididade, bem como o estande por
+#'     área útil, para sete cultivares de arroz. O experimento foi feito
+#'     em delineamento de blocos completos ao acaso e a informação de
+#'     estande foi medida para explicar parte da variação em
+#'     produtividade das parcelas, já maior estande favorece maior
+#'     produtividade.
 #' @format Um \code{data.frame} com 28 observações e 4 variáveis
 #'
 #' \describe{
 #'
-#' \item{\code{cult}}{Fator de níveis nominais. Indica a cultivar da planta.}
+#' \item{\code{bloc}}{Fator categórico que identifica os blocos.}
 #'
-#' \item{\code{bloco}}{Número inteiro que identifica o bloco da observação.}
+#' \item{\code{cult}}{Fator categórico que identifica as cultivares de
+#'     feijão.}
 #'
-#' \item{\code{prod}}{Produtividade da planta, em kg ha\eqn{^{-1}}}
-#' 
-#' \item{\code{ST}}{Estande, por área útil, da planta.}
+#' \item{\code{stand}}{Estande de plantas na área útil da parcela.}
+#'
+#' \item{\code{prod}}{Produtividade, em kg ha\eqn{^{-1}}}
 #'
 #' }
-#' @keywords DBC
+#' @seealso \code{\link{ZimmermannTb4.4}} contém dados referentes ao
+#'     mesmo ensaio, porém com mais cultivares e sem a informação de
+#'     estande.
+#' @keywords DBC COV
 #' @source Zimmermann, F. J. (2004). Estatística aplicada à pesquisa
 #'     agrícola (1st ed.). Santo Antônio de Goiás, GO: Embrapa Arroz e
-#'     Feijão. (pg 293)
+#'     Feijão. (Tabela 14.3, pág 293)
 #' @examples
 #'
 #' library(lattice)
-#' library(latticeExtra)
-#' 
-#' data(ZimmermannTb14.3)
 #'
-#' xyplot(prod ~ cult, groups = bloco, data = ZimmermannTb14.3, 
-#'        type=c("p","a"),
-#'        xlab="Cultivares", ylab="Produção", 
-#'        main="Competição de Cultivares")
-#'  
-#'  xyplot(ST ~ cult, groups = bloco, data = ZimmermannTb14.3, 
-#'         type=c("p","a"),
-#'         xlab="Cultivares", ylab="Estande", 
-#'         main="Competição de Cultivares")
-#' 
-#' aggregate(prod ~ bloco, data = ZimmermannTb14.3, 
-#'           FUN = function(x) { c(mean = mean(x), var = var(x)) })
-#' 
-#' aggregate(prod ~ cult, data = ZimmermannTb14.3, 
-#'           FUN = function(x) { c(mean = mean(x), var = var(x)) })
-#' 
-#' levelplot(prod~cult+bloco, data=ZimmermannTb14.3,
-#'           xlab="Cultivares", ylab="Produção", 
-#'           main="Competição de Cultivares")
-#' 
-#' with(ZimmermannTb14.3, interaction.plot(bloco, cult, prod, lty = c(1:5), 
-#'                                         col = 2:9, ylab = "Produção",
-#'                                         xlab = "Bloco"))
+#' data(ZimmermannTb14.3)
+#' str(ZimmermannTb14.3)
+#'
+#' cex <- with(ZimmermannTb14.3, {
+#'     x <- stand - min(stand)
+#'     x <- 0.5 + 1 * x/max(x)
+#'     L <- cbind(cex = fivenum(x), labels = fivenum(stand))
+#'     return(list(cex = x, legend = L))
+#' })
+#'
+#' key <- list(
+#'     title = "Stand", cex.title = 1.1, columns = 5,
+#'     points = list(pch = 1, cex = cex$legend[, "cex"]),
+#'     text = list(c(sprintf("%0.0f", cex$legend[, "labels"]))))
+#'
+#' xyplot(prod ~ cult, data = ZimmermannTb14.3,
+#'        type = c("p", "a"), cex = cex$cex,
+#'        xlab = "Cultivares", ylab = "Produção", key = key)
+#'
+#' xyplot(prod ~ cult, groups = bloc, data = ZimmermannTb14.3,
+#'        type = "a", xlab = "Cultivares", ylab = "Produção",
+#'        key = key,
+#'        panel = function(x, y, subscripts, groups, ...) {
+#'            panel.xyplot(x = x, y = y,
+#'                         subscripts = subscripts,
+#'                         groups = groups, ...)
+#'            col <- trellis.par.get()$superpose.symbol$col[
+#'                                        groups[subscripts]]
+#'            panel.points(x = x, y = y, cex = cex$cex[subscripts],
+#'                         col = col)
+#'            panel.text(x = x,  y = y, pos = 2, cex = 0.8,
+#'                       labels = sprintf("%d", ZimmermannTb14.3$stand))
+#'        })
+#'
 NULL

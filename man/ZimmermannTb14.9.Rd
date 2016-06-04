@@ -2,18 +2,17 @@
 % Please edit documentation in R/ZimmermannTb14.9.R
 \name{ZimmermannTb14.9}
 \alias{ZimmermannTb14.9}
-\title{Produtividade de grãos de arroz com controle de insetos}
+\title{Controle de Insetos na Produtividade de Grãos de Arroz}
 \format{Um \code{data.frame} com 36 observações e 4 variáveis
 
 \describe{
 
-\item{\code{linha}}{Fator de níveis numéricos. Indica a linha da 
-    observação.}
+\item{\code{linha}}{Fator que indica a linha do quadrado latino.}
 
-\item{\code{coluna}}{Fator de níveis numéricos. Indica a coluna da 
-    observação.}
+\item{\code{coluna}}{Fator que indica a coluna do quadrado latino.}
 
-\item{\code{inset}}{Indica o inseticida usado na observação.}
+\item{\code{inset}}{Fator que indica o tratamento para controle de
+    insetos.}
 
 \item{\code{prod}}{Produção de grãos por área útil da parcela.}
 
@@ -21,36 +20,47 @@
 \source{
 Zimmermann, F. J. (2004). Estatística aplicada à pesquisa
     agrícola (1st ed.). Santo Antônio de Goiás, GO: Embrapa Arroz e
-    Feijão. (pg 297)
+    Feijão. (Tabela 14.9, pág. 297)
 }
 \description{
-Dados de um ensaio de controle de insetos/pragas de arroz.
-    O experimento foi feito em delineamento quadrado latino, mas há uma 
-    um dado perdido (linha 6, coluna 2). Esta observação recebeu o valor 
-    zero.
+Dados de um ensaio de controle de insetos/pragas na
+    cultura do arroz.  O experimento foi feito em delineamento
+    quadrado latino 6 \eqn{\times} 6 mas há uma um dado perdido
+    (linha 6, coluna 2). Esta observação recebeu o valor \code{NA}.
 }
 \examples{
 
 library(lattice)
-library(latticeExtra)
-library(reshape)
- 
-data(ZimmermannTb14.9)
 
-cast(ZimmermannTb14.9, linha ~ coluna, value = "inset")
+data(ZimmermannTb14.9)
+str(ZimmermannTb14.9)
+
+# Indicadora de observação perdida/ausente.
+is.na(ZimmermannTb14.9$prod)
 
 levelplot(prod ~ linha + coluna,
           data = ZimmermannTb14.9, aspect = "iso",
           panel = function(x, y, z, subscripts, ...) {
             panel.levelplot(x, y, z, subscripts = subscripts)
-            panel.text(x, y, ZimmermannTb14.9$inset[subscripts],
+            panel.text(x, y,
+                       labels = ZimmermannTb14.9$inset[subscripts],
                        pos = 3)
-            panel.text(x, y, sprintf("\%0.1f", z), pos = 1)
+            panel.text(x, y, sprintf("\%0.1f", z), pos = 1,
+                       col = is.na(z[subscripts]) + 1)
           })
 
-xyplot(prod ~ inset, data = ZimmermannTb14.9, type=c("p","a"),
-       xlab="Inseticidas", ylab="Produção", 
-       main="Controle de Insetos")
+xyplot(prod ~ inset,
+       data = na.omit(ZimmermannTb14.9),
+       type = c("p", "a"),
+       xlab = "Inseticidas",
+       ylab = "Produção")
+
+}
+\seealso{
+Dados do mesmo experimento, referente à variável de contagem
+    número de perfilhos de arroz, estão disponíveis em
+    \code{\link{ZimmermannTb5.15}}.
 }
 \keyword{DQL}
+\keyword{desbalanceado}
 
