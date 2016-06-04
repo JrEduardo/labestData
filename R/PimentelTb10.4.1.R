@@ -1,0 +1,45 @@
+#' @name PimentelTb10.4.1
+#' @title Experimento em Blocos Imcompletos do Tipo II
+#' @description Experimento em blocos imcompletos equilibrados, no qual
+#'     temos \eqn{v = 7} tratamentos, \eqn{\lambda = 1}, \eqn{r = 6}
+#'     repetições, \eqn{b = 21} blocos, em que os blocos são reunidos em
+#'     grupos de duas repetições.
+#' @format Um \code{data.frame} com 42 observações e 4 variáveis, em que
+#'
+#' \describe{
+#'
+#' \item{\code{grup}}{Fator de 3 níveis qualitativos, que são os
+#'     os grupos de blocos. Cada grupo tem 7 blocos de tamanho 2 e duas
+#'     repetições de cada tratamento (14 parcelas).}
+#'
+#' \item{\code{bloc}}{Fator de 7 níveis qualitativos, usado para
+#'     identificar os blocos em cada grupo. O bloco tem tamanho 2.}
+#'
+#' \item{\code{trat}}{Fator de 7 níveis qualitativos que são os
+#'     tratamentos estudados.}
+#'
+#' \item{y}{Variável resposta do experimento medida nas parcelas.}
+#'
+#' }
+#' @keywords DBI
+#' @source Pimentel-Gomes, F. (2009). Curso de Estatística Experimental
+#'     (15th ed.). Piracicaba, SP: FEALQ. (Tabela 10.4.1, pág. 192)
+#' @examples
+#'
+#' data(PimentelTb10.4.1)
+#' str(PimentelTb10.4.1)
+#'
+#' library(lattice)
+#'
+#' xtabs(~trat + grup, data = PimentelTb10.4.1)
+#' ftable(xtabs(~trat + grup + bloc, data = PimentelTb10.4.1))
+#'
+#' xyplot(y ~ trat,
+#'        groups = grup,
+#'        auto.key = list(title = "Grupo",
+#'                        cex.title = 1.1, columns = 2),
+#'        data = PimentelTb10.4.1,
+#'        xlab = "Tratamento",
+#'        ylab = "Resposta")
+#'
+NULL
