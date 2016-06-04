@@ -1,7 +1,7 @@
 Package: labestData
 Title: Conjuntos de Dados para Ensino de Estatística
-Version: 0.0-13.323
-Date: 2016-06-03
+Version: 0.0-13.339
+Date: 2016-06-04
 Authors@R: as.person(c(
     "PET Estatística UFPR <pet.estatistica.ufpr@gmail.com> [cre]",
     "Altamiro Antonio Basiewics <alfbasiewics@bol.com.br> [ctb]",
@@ -23,7 +23,7 @@ Description: O labestData é um projeto coletivo do PET Estatística UFPR
     do PET Estatística a desenvolver pacote R com versionamento Git e 2)
     contribuir com a comunidade científica ao reunir, organizar, manter
     e disponibilizar conjuntos de dados disponíveis em livros, páginas
-    de internet e arquivos pessoais. Nesta versão o pacote tem 323
+    de internet e arquivos pessoais. Nesta versão o pacote tem 339
     conjuntos de dados.
 License: GPL-3
 URL:
