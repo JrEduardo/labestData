@@ -8,28 +8,29 @@
 \describe{
 
 \item{\code{rept}}{Fator de 7 níveis qualitativos, que são as
-    repetições do experimento.}
-    
-\item{\code{varied}}{Fator de 8 níveis qualitativos que são os
-    diferentes tratamentos do experimento.}
+    repetições do experimento. Cada repetição tem 4 blocos de tamanho
+    2 e um parcela de cada variedade (8 parcelas).}
 
-\item{\code{bloco}}{Fator de 4 níveis qualitativos, usado para
-    controle local.}
+\item{\code{trat}}{Fator de 8 níveis qualitativos que são os
+    tratamentos estudados.}
 
-\item{y}{Variável medida em função das repetições, das variedades e
-    dos blocos.}
+\item{\code{bloc}}{Fator de 4 níveis qualitativos que identifica os
+    blocos dentro de uma repetição. Os blocos tem tamanho 2.}
+
+\item{y}{Variável medida nas parcelas. Unidade de medida não
+    fornecida.}
 
 }}
 \source{
-Pimentel-Gomes, F. (2009). Curso de Estatística
-    Experimental (15th ed.). Piracicaba, SP: FEALQ. (Tabela 10.3.1,
-    pág. 190)
+Pimentel-Gomes, F. (2009). Curso de Estatística Experimental
+    (15th ed.). Piracicaba, SP: FEALQ. (Tabela 10.3.1, pág. 190)
 }
 \description{
 Experimento em blocos imcompletos equilibrados, no qual
-    temos v = 8 tratamentos, \eqn{\lambda = 1}, k = 2 parcelas por
-    bloco, r = 7 repetições, b = 28 blocos e E = 55%, em que os
-    blocos podem ser agrupados em repetições.
+    temos \eqn{v = 8} tratamentos, \eqn{\lambda = 1}, \eqn{k = 2}
+    parcelas por bloco, \eqn{r = 7} repetições, \eqn{b = 28} blocos e
+    \eqn{E = 55\%}, em que os blocos podem ser agrupados em
+    repetições.
 }
 \examples{
 
@@ -38,12 +39,16 @@ str(PimentelTb10.3.1)
 
 library(lattice)
 
-xyplot(y ~ varied,
-       groups = bloco,
-       auto.key = list(title = "Blocos", cex.title = 1, columns = 4),
+xtabs(~trat + rept, data = PimentelTb10.3.1)
+ftable(xtabs(~trat + bloc + rept, data = PimentelTb10.3.1))
+
+xyplot(y ~ trat,
+       groups = bloc,
+       auto.key = list(title = "Blocos",
+                       cex.title = 1.1, columns = 4),
        data = PimentelTb10.3.1,
        xlab = "Variedade",
-       ylab = "Y")
+       ylab = "Resposta")
 
 }
 \keyword{DBI}

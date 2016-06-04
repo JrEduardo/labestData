@@ -1,20 +1,23 @@
 #' @name PimentelTb11.3.1
 #' @title Experimento de Produção de Milho em Látice Quadrado
-#' @description Experimento em um reticulado quadrado triplo de 4 x 4
-#'     avaliando a produção de 16 híbridos de milho, em que m = 3 e
-#'     k = 4.
+#' @description Produção de milho em um experimento em delineamento
+#'     reticulado quadrado triplo de 4 \eqn{times} 4 avaliando a 16
+#'     híbridos de milho, em que \eqn{m = 3} repetições ortogonais e
+#'     \eqn{k = 4} blocos de tamanho 4.
 #' @format Um \code{data.frame} com 48 observações e 4 variáveis, em que
 #'
 #' \describe{
 #'
 #' \item{\code{rept}}{Fator de 3 níveis qualitativos, que são as 3
-#'     repetições do quadrado triplo.}
+#'     repetições do quadrado triplo. Cada repetição tem 4 blocos de
+#'     tamanho 4 e 1 repetição de cada tratamento que não ocorrem juntas
+#'     nos blocos de uma mesma repetição.}
 #'
-#' \item{\code{bloco}}{Fator de 4 níveis qualitativos, usado para
-#'     controle local.}
+#' \item{\code{bloc}}{Fator de 4 níveis qualitativos, usado para
+#'     controle local. Cada bloco tem tamanho 4.}
 #'
-#' \item{\code{hibrido}}{Fator de 16 níveis qualitativos, que são os
-#'     diferentes híbridos de milho.}
+#' \item{\code{hibr}}{Fator de 16 níveis qualitativos, que são os
+#'     híbridos de milho.}
 #'
 #' \item{prod}{Produção de milho, em kg/parcela.}
 #'
@@ -27,15 +30,19 @@
 #'
 #' data(PimentelTb11.3.1)
 #' str(PimentelTb11.3.1)
-#' 
+#'
+#' xtabs(~hibr + rept, data = PimentelTb11.3.1)
+#' ftable(xtabs(~rept + bloc + hibr, data = PimentelTb11.3.1))
+#'
 #' library(lattice)
 #'
-#' xyplot(prod ~ hibrido,
-#'        groups = bloco,
-#'        type = c("a","p"),
-#'        auto.key = list(title = "Blocos", cex.title = 1, columns = 4),
+#' xyplot(prod ~ hibr,
+#'        groups = rept,
+#'        type = c("p", "a"),
+#'        auto.key = list(title = "Repetições",
+#'                        cex.title = 1.1, columns = 3),
 #'        data = PimentelTb11.3.1,
-#'        xlab = "Híbridos de Milho",
+#'        xlab = "Híbridos de milho",
 #'        ylab = "Produção (kg/parcela)")
 #'
 NULL

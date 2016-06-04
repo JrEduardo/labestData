@@ -1,20 +1,21 @@
 #' @name PimentelPg185
-#' @title Experimento em Blocos Imcompletos do Tipo III
-#' @description Experimento em blocos imcompletos equilibrados, no qual
-#'     temos v = 5 tratamentos, \eqn{\lambda = 3}, k = 3 parcelas por
-#'     bloco, r = 6 repetições e b = 10 blocos, em que os blocos não
-#'     podem ser agrupados em repetições ou grupos de repetições.
+#' @title Experimento em Blocos Incompletos do Tipo III
+#' @description Experimento em blocos incompletos equilibrados, no qual
+#'     temos \eqn{v = 5} tratamentos, \eqn{\lambda = 3}, \eqn{k = 3}
+#'     parcelas por bloco, \eqn{r = 6} repetições e \eqn{b = 10} blocos,
+#'     em que os blocos não podem ser agrupados em repetições ou grupos
+#'     de repetições.
 #' @format Um \code{data.frame} com 30 observações e 3 variáveis, em que
 #'
 #' \describe{
 #'
-#' \item{\code{bloco}}{Fator de 10 níveis qualitativos, usado para
-#'     controle local.}
+#' \item{\code{bloc}}{Fator de 10 níveis qualitativos, usado para
+#'     controle local. Cada bloco tem tamanho 3.}
 #'
-#' \item{\code{varied}}{Fator de 5 níveis qualitativos que são os
-#'     diferentes tratamentos do experimento.}
+#' \item{\code{trat}}{Fator de 5 níveis qualitativos que são os
+#'     tratamentos estudados do experimento.}
 #'
-#' \item{y}{Variável medida em função do bloco e da variedade.}
+#' \item{y}{Variável resposta medida nas parcelas.}
 #'
 #' }
 #' @keywords DBI
@@ -24,15 +25,15 @@
 #'
 #' data(PimentelPg185)
 #' str(PimentelPg185)
-#' 
+#'
 #' library(lattice)
 #'
-#' xyplot(y ~ varied,
-#'        groups = bloco,
-#'        type = "o",
+#' xyplot(y ~ trat,
+#'        groups = bloc, type = "o",
 #'        data = PimentelPg185,
-#'        auto.key = list(title = "Blocos", cex.title = 1, columns = 5),
-#'        xlab = "Variedade",
-#'        ylab = "Y")
+#'        auto.key = list(title = "Blocos",
+#'                        cex.title = 1.1, columns = 5),
+#'        xlab = "Tratamento",
+#'        ylab = "Resposta")
 #'
 NULL

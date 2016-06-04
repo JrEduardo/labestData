@@ -8,29 +8,35 @@
 
 \describe{
 
-\item{\code{bloco}}{Fator de 13 níveis qualitativos, usado para
-    controle local.}
+\item{\code{bloc}}{Fator de 13 níveis qualitativos, usado para
+    controle local. Cada bloco tem tamanho 4.}
 
 \item{\code{trat}}{Fator de 13 níveis qualitativos que são os
-    diferentes tratamentos do experimento.}
+    tratamentos estudados do experimento.}
 
-\item{z}{Variável correspondente à porcentagem p de plantas sadias,
-    obtida através de
-    \eqn{z = \arcsin \left( \sqrt \frac{p}{100}\right)}.}
+\item{z}{Variável expressa como transformação da porcentagem \eqn{p}
+    de plantas sadias, obtida através de \eqn{z = \arcsin \left(
+    \sqrt \frac{p}{100}\right)}. Essa transformação é utilizada em
+    dados de proporção para estabilizar a variância e assim atender o
+    pressuposto de homocedasticidade da análise de variância.}
 
 }}
 \source{
 Pimentel-Gomes, F. (2009). Curso de Estatística
     Experimental (15th ed.). Piracicaba, SP: FEALQ. (Tabela 10.6.1,
     pág. 198)
+
+Fraga Jr., C. G., Costa, A. S. Análise de um experimento para combate
+    de vira-cabeça do tomateiro. Bragantia, 10: 305--316, 1950.
 }
 \description{
-Experimento em blocos imcompletos equilibrados do Tipo
-    III com recuperação da informação interblocos, no qual
-    temos b = v = 13, k = r = 4, \eqn{\lambda = 1} e os valores de z
-    obtidos através de
-    z = \eqn{\arcsin \left (\sqrt \frac{p}{100}\right)}, onde p é a
-    porcentagem de plantas sadias.
+Experimento em blocos incompletos equilibrados do Tipo
+    III com recuperação da informação interblocos, conduzido por
+    Fraga e Costa (1950). Neste experimento temos \eqn{b = v = 13},
+    \eqn{k = r = 4}, \eqn{\lambda = 1} e os valores de \eqn{z}
+    obtidos através de \eqn{z = \arcsin \left (\sqrt
+    \frac{p}{100}\right)}, onde \eqn{p} é a porcentagem amostral de
+    plantas sadias.
 }
 \examples{
 
@@ -39,12 +45,15 @@ str(PimentelTb10.6.1)
 
 library(lattice)
 
+xtabs(~trat + bloc, data = PimentelTb10.6.1)
+
 xyplot(z ~ trat,
-       groups = bloco,
-       auto.key = list(title = "Blocos", cex.title = 1, columns = 5),
+       groups = bloc, jitter.x = TRUE,
+       auto.key = list(title = "Blocos",
+                       cex.title = 1, columns = 5),
        data = PimentelTb10.6.1,
        xlab = "Tratamentos",
-       ylab = "Z")
+       ylab = expression(arcsin * sqrt(p/100)))
 
 }
 \keyword{DBI}

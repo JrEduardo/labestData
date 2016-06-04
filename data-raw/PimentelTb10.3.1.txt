@@ -1,4 +1,4 @@
-rept	varied	bloco	y
+rept	trat	bloc	y
 1	1	1	20
 1	2	1	18
 1	3	2	15
