@@ -1,27 +1,28 @@
 #' @name ZimmermannTb16.5
-#' @title Número de dias para floração de plantas de arroz
-#' @description Experimento realizado em delineamento em blocos completos ao 
-#'     acaso, utilizando oito cultivares de arroz irrigado. os dados são 
-#'     referentes ao número de dias até a floração de plantas de arroz. 
-#'     São apresentados na tabela também os respectivos postos de cada dado, 
-#'     a fim de facilitar a aplicação do teste de Friedman (teste não
-#'     paramétrico).     
-#' @format Um \code{data.frame} com 24 observações e 4 variáveis
+#' @title Número de Dias para Floração de Cultivares de Arroz
+#' @description Experimento realizado em delineamento em blocos
+#'     completos ao acaso, utilizando oito cultivares de arroz
+#'     irrigado. Os dados são referentes ao número de dias até a
+#'     floração das plantas de arroz, uma variável do tipo tempo até o
+#'     evento/desfecho. São apresentados na tabela também os respectivos
+#'     postos de cada dado, a fim de facilitar a aplicação do teste de
+#'     Friedman (teste não paramétrico).
+#' @format Um \code{data.frame} com 24 observações e 4 variáveis, em que
 #'
 #' \describe{
 #'
-#' \item{bloco}{Fator de níveis numéricos. Indica o bloco ao qual a observação
-#'     pertence.}
+#' \item{bloco}{Fator categórico que indica o bloco.}
 #'
-#' \item{cult}{Fator de níveis nominais. Indica a cultivar do arroz. }
+#' \item{cult}{Fator categórico que indica a cultivar.}
 #'
-#' \item{posto}{Fator de níveis numéricos. Indica o número de postos da 
-#'     observação.}
+#' \item{dias}{Número total de dias até a floração das plantas.}
 #'
-#' \item{dias}{Número total de dias até a floração da planta.}
+#' \item{posto}{Posto corresponden ao número de dias de cada cultivas
+#'     dentro de cada bloco. O posto pode ser calculado com a função
+#'     \code{\link[base]{rank}}.}
 #'
 #' }
-#' @keywords DIC
+#' @keywords DIC sobrevivencia
 #' @source Zimmermann, F. J. (2004). Estatística aplicada à pesquisa
 #'     agrícola (1st ed.). Santo Antônio de Goiás, GO: Embrapa Arroz e
 #'     Feijão. (Tabela 5.1, pág 347)
@@ -30,18 +31,28 @@
 #' library(lattice)
 #'
 #' data(ZimmermannTb16.5)
-#'
 #' str(ZimmermannTb16.5)
-#' 
-#' aggregate(dias ~ cult, data = ZimmermannTb16.5, 
-#'     FUN = function(x) { c(mean = mean(x), var = var(x)) })
 #'
-#' xyplot(posto ~ cult, groups = bloco, data = ZimmermannTb16.5, 
-#'        type=c("p","a"),
-#'        xlab="Cultivar", ylab="Postos por Cultivar")
-#' 
-#' xyplot(dias ~ cult, groups = bloco, data = ZimmermannTb16.5, 
-#'        type=c("p","a"),
-#'        xlab="Cultivar", ylab="Dias para Floração")
+#' # Como calcular o posto no R.
+#' p <- by(data = ZimmermannTb16.5,
+#'         INDICES = ZimmermannTb16.5$bloco,
+#'         FUN = function(dataset) {
+#'             dataset$posto <- rank(dataset$dias)
+#'             return(dataset)
+#'         })
+#' ZimmermannTb16.5 <- do.call(rbind, p)
+#' rownames(ZimmermannTb16.5) <- NULL
+#'
+#' xyplot(dias + posto ~ cult, outer = TRUE, groups = bloco,
+#'        data = ZimmermannTb16.5, jitter.x = TRUE,
+#'        scales = list(y = list(relation = "free"),
+#'                      x = list(rot = 90)),
+#'        xlab = "Cultivares", ylab = "",
+#'        strip = strip.custom(factor.levels = c("Dias para floração",
+#'                                               "Posto")))
+#'
+#' xyplot(posto ~ dias, data = ZimmermannTb16.5,
+#'        xlab = "Dias para floração", ylab = "Posto",
+#'        jitter.y = TRUE)
 #'
 NULL
