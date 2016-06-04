@@ -6,12 +6,11 @@
 \format{Um \code{data.frame} com 50 observações e 9 variáveis.
     \describe{
 
-\item{\code{estado}}{Nome do estado, pode ser entendida como nome da
-    linhas.}
+\item{\code{estado}}{Nome do estado.}
 
 \item{\code{pop}}{População estimada em julho de 1975.}
 
-\item{\code{renda}}{Renda per capita em 1974, mensurada em dólares.}
+\item{\code{renda}}{Renda per capita em 1974 (em dólares).}
 
 \item{\code{analf}}{Proporção de analfabetos em 1970.}
 
@@ -24,7 +23,7 @@
 \item{\code{ndias}}{Número de dias do ano com temperatura abaixo de
     0ºC na cidade mais importante do estado.}
 
-\item{\code{area}}{Área do estado em milhas quadradas.}
+\item{\code{area}}{Área do estado (em milhas quadradas).}
 
 \item{\code{expvi}}{Expectativa de vida nos anos de 1969-1970.}
 
@@ -39,7 +38,7 @@ Dados referentes a um estudo demográfico sobre os 50
     estados norte-americanos. Neste estudo foram registradas 8
     variáveis que contém informações sobre características da
     população e do estado. Dentre elas temos a variável expectativa
-    de vida cujo há interesse em explicá-la utilizando as demais
+    de vida, havendo interesse em explicá-la utilizando as demais
     informações.
 }
 \examples{

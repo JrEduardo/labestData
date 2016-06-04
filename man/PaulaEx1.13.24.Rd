@@ -28,8 +28,8 @@ Paula, G. A. (2004). Modelos de regressão: com apoio
 Dados referentes aos retornos diários das ações das
     empresas Microsoft, General Eletric (GE) e Ford no período de
     janeiro de 2002 a abril de 2003. No registro dessas ações também
-    têm-se a referente taxa de retorno livre de risco e o retorno do
-    mercado para padronizar as comparações.
+    se dispõe da taxa de retorno livre de risco e do retorno do
+    mercado, para padronizar as comparações.
 }
 \examples{
 data(PaulaEx1.13.24)
