@@ -1,0 +1,40 @@
+#' @name PimentelPg269
+#' @title Influência da Caseína Iodada na Nutrição de Vacas Leiteiras
+#' @description Ensaio realizado pelo Departamento de Produção Animal da
+#'     Secretaria de Agricultura paulista, que teve por objetivo estudar
+#'     a influência da caseína iodada na nutrição de vacas leiteiras.
+#'     Consideram-se 4 tratamentos e fizeram-se 3 repetições, em blocos
+#'     casualizados com cada bloco contendo 4 parcelas, cada uma
+#'     constituída por uma vaca.
+#' @format Um \code{data.frame} com 12 observações e 3 variáveis, em que
+#'
+#' \describe{
+#'
+#' \item{\code{bloc}}{Fator de 3 níveis qualitativos, usado para
+#'     controle local.}
+#'
+#' \item{\code{caseina}}{Dosagem de caseína iodada, em gramas.}
+#'
+#' \item{\code{prod}}{Produção de leite das vacas, em kg, no período
+#'     experimental de 8 semanas.}
+#'
+#' }
+#' @keywords DBC
+#' @source Pimentel-Gomes, F. (2009). Curso de Estatística Experimental
+#'     (15th ed.). Piracicaba, SP: FEALQ. (Página 269)
+#' @examples
+#'
+#' library(lattice)
+#'
+#' data(PimentelPg269)
+#' stru(PimentelPg269)
+#' 
+#' xyplot(prod ~ caseina,
+#'        groups = bloc,
+#'        type = "o",
+#'        auto.key = list(title = "Bloco", cex.title = 1, columns = 3),
+#'        data = PimentelPg269,
+#'        ylab = "Produção de Leite (em kg)",
+#'        xlab = "Dosagem de Caseína Iodada (em gramas)")
+#'
+NULL
