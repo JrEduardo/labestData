@@ -27,7 +27,7 @@
 #' library(lattice)
 #'
 #' data(PimentelPg269)
-#' stru(PimentelPg269)
+#' str(PimentelPg269)
 #' 
 #' xyplot(prod ~ caseina,
 #'        groups = bloc,
