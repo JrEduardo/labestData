@@ -1,0 +1,43 @@
+#' @name PimentelTb14.7.1
+#' @title Experimento de Pastejo de Bovinos
+#' @description Experimento fatorial de 2 cargas animais x 3 espécies de
+#'     braquiária, com 2 blocos casualizados e 5 grupos de novilhos,
+#'     adaptados do artigo de Pimentel-Gomes et al. (1988).
+#' @format Um \code{data.frame} com 48 observações e 5 variáveis, em que
+#'
+#' \describe{
+#'
+#' \item{\code{bloc}}{Fator de 2 níveis qualitativos, usado para
+#'     controle local.}
+#'
+#' \item{\code{grupo}}{Fator de 8 níveis qualitativos, que são os grupos
+#'     homogêneos de novilhos.}
+#'
+#' \item{\code{carga}}{Fator de 2 níveis qualitativos, que classifica
+#'     a carga como alta (1,5 A/ha) e baixa (0,9 A/ha).}
+#'
+#' \item{\code{braquiaria}}{Fator de 3 níveis qualitativos, que são os
+#'     tipos de braquiária.}
+#'
+#' \item{\code{peso}}{Pesagem dos bovinos, em kg.}
+#'
+#' }
+#' @keywords FAT3
+#' @source Pimentel-Gomes, F. (2009). Curso de Estatística Experimental
+#'     (15th ed.). Piracicaba, SP: FEALQ. (Tabela 14.7.1, pág. 283)
+#' @examples
+#'
+#' library(lattice)
+#'
+#' data(PimentelTb14.7.1)
+#' str(PimentelTb14.7.1)
+#' 
+#' xyplot(peso ~ braquiaria,
+#'        groups = bloc,
+#'        type = c("a", "p"),
+#'        auto.key = list(title = "Bloco", cex.title = 1, columns = 2),
+#'        data = PimentelTb14.7.1,
+#'        ylab = "Pesagem dos Bovinos (em kg)",
+#'        xlab = "Tipo de Braquiária")
+#'
+NULL
