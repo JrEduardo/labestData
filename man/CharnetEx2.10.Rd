@@ -14,10 +14,11 @@
 
 }}
 \source{
-Charnet, R., de Luna Freire, C.A., Charnet, E.M.R. & Bonvino,
+Charnet, R., de Luna Freire, C.A., Charnet, E.M.R., Bonvino,
     H. (2008). Análise de modelos de regressão linear com aplicações
-    (2nd ed., p. 356). SP: Editora Unicamp (Capítulo 2, exercício 10,
-    página 47)
+    (2nd ed.). Campinas, SP: Editora Unicamp (Capítulo 2, exercício
+    10, pág. 47, Capítulo 3, exercício 7, pág. 66, Capítulo 4,
+    exercício 6, pág. 84, Capítulo 6, exercício 8, pág. 146)
 }
 \description{
 Estudo sobre o efeito do carbono contido, em fios de aço
@@ -31,5 +32,5 @@ plot(CharnetEx2.10)
 abline(lm(res ~ carb, data = CharnetEx2.10))
 
 }
-\keyword{TODO}
+\keyword{RS}
 

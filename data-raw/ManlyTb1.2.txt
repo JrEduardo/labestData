@@ -1,0 +1,151 @@
+grup	x1	x2	x3	x4
+Pre-dinastico primitivo	131	138	89	49
+Pre-dinastico primitivo	125	131	92	48
+Pre-dinastico primitivo	131	132	99	50
+Pre-dinastico primitivo	119	132	96	44
+Pre-dinastico primitivo	136	143	100	54
+Pre-dinastico primitivo	138	137	89	56
+Pre-dinastico primitivo	139	130	108	48
+Pre-dinastico primitivo	125	136	93	48
+Pre-dinastico primitivo	131	134	102	51
+Pre-dinastico primitivo	134	134	99	51
+Pre-dinastico primitivo	129	138	95	50
+Pre-dinastico primitivo	134	121	95	53
+Pre-dinastico primitivo	126	129	109	51
+Pre-dinastico primitivo	132	136	100	50
+Pre-dinastico primitivo	141	140	100	51
+Pre-dinastico primitivo	131	134	97	54
+Pre-dinastico primitivo	135	137	103	50
+Pre-dinastico primitivo	132	133	93	53
+Pre-dinastico primitivo	139	136	96	50
+Pre-dinastico primitivo	132	131	101	49
+Pre-dinastico primitivo	126	133	102	51
+Pre-dinastico primitivo	135	135	103	47
+Pre-dinastico primitivo	134	124	93	53
+Pre-dinastico primitivo	128	134	103	50
+Pre-dinastico primitivo	130	130	104	49
+Pre-dinastico primitivo	138	135	100	55
+Pre-dinastico primitivo	128	132	93	53
+Pre-dinastico primitivo	127	129	106	48
+Pre-dinastico primitivo	131	136	114	54
+Pre-dinastico primitivo	124	138	101	46
+Pre-dinastico antigo	124	138	101	48
+Pre-dinastico antigo	133	134	97	48
+Pre-dinastico antigo	138	134	98	45
+Pre-dinastico antigo	148	129	104	51
+Pre-dinastico antigo	126	124	95	45
+Pre-dinastico antigo	135	136	98	52
+Pre-dinastico antigo	132	145	100	54
+Pre-dinastico antigo	133	130	102	48
+Pre-dinastico antigo	131	134	96	50
+Pre-dinastico antigo	133	125	94	46
+Pre-dinastico antigo	133	136	103	53
+Pre-dinastico antigo	131	139	98	51
+Pre-dinastico antigo	131	136	99	56
+Pre-dinastico antigo	138	134	98	49
+Pre-dinastico antigo	130	136	104	53
+Pre-dinastico antigo	131	128	98	45
+Pre-dinastico antigo	138	129	107	53
+Pre-dinastico antigo	123	131	101	51
+Pre-dinastico antigo	130	129	105	47
+Pre-dinastico antigo	134	130	93	54
+Pre-dinastico antigo	137	136	106	49
+Pre-dinastico antigo	126	131	100	48
+Pre-dinastico antigo	135	136	97	52
+Pre-dinastico antigo	129	126	91	50
+Pre-dinastico antigo	134	139	101	49
+Pre-dinastico antigo	131	134	90	53
+Pre-dinastico antigo	132	130	104	50
+Pre-dinastico antigo	130	132	93	52
+Pre-dinastico antigo	135	132	98	54
+Pre-dinastico antigo	130	128	101	51
+12° e 13° dinastias	137	141	96	52
+12° e 13° dinastias	129	133	93	47
+12° e 13° dinastias	132	138	87	48
+12° e 13° dinastias	130	134	106	50
+12° e 13° dinastias	134	134	96	45
+12° e 13° dinastias	140	133	98	50
+12° e 13° dinastias	138	138	95	47
+12° e 13° dinastias	136	145	99	55
+12° e 13° dinastias	136	131	92	46
+12° e 13° dinastias	126	136	95	56
+12° e 13° dinastias	137	129	100	53
+12° e 13° dinastias	137	139	97	50
+12° e 13° dinastias	136	126	101	50
+12° e 13° dinastias	137	133	90	49
+12° e 13° dinastias	129	142	104	47
+12° e 13° dinastias	135	138	102	55
+12° e 13° dinastias	129	135	92	50
+12° e 13° dinastias	134	125	90	60
+12° e 13° dinastias	138	134	96	51
+12° e 13° dinastias	136	135	94	53
+12° e 13° dinastias	132	130	91	52
+12° e 13° dinastias	133	131	100	50
+12° e 13° dinastias	138	137	94	51
+12° e 13° dinastias	130	127	99	45
+12° e 13° dinastias	136	133	91	49
+12° e 13° dinastias	134	123	95	52
+12° e 13° dinastias	136	137	101	54
+12° e 13° dinastias	133	131	96	49
+12° e 13° dinastias	138	133	100	55
+12° e 13° dinastias	138	133	91	46
+Periodo ptolemaico	137	134	107	54
+Periodo ptolemaico	141	128	95	53
+Periodo ptolemaico	141	130	87	49
+Periodo ptolemaico	135	131	99	51
+Periodo ptolemaico	133	120	91	46
+Periodo ptolemaico	131	135	90	50
+Periodo ptolemaico	140	137	94	60
+Periodo ptolemaico	139	130	90	48
+Periodo ptolemaico	140	134	90	51
+Periodo ptolemaico	138	140	100	52
+Periodo ptolemaico	132	133	90	53
+Periodo ptolemaico	134	134	97	54
+Periodo ptolemaico	135	135	99	50
+Periodo ptolemaico	133	136	95	52
+Periodo ptolemaico	136	130	99	55
+Periodo ptolemaico	134	137	93	52
+Periodo ptolemaico	131	141	99	55
+Periodo ptolemaico	129	135	95	47
+Periodo ptolemaico	136	128	93	54
+Periodo ptolemaico	131	125	88	48
+Periodo ptolemaico	139	130	94	53
+Periodo ptolemaico	144	124	86	50
+Periodo ptolemaico	141	131	97	53
+Periodo ptolemaico	130	131	98	53
+Periodo ptolemaico	133	128	92	51
+Periodo ptolemaico	138	126	97	54
+Periodo ptolemaico	131	142	95	53
+Periodo ptolemaico	136	138	94	55
+Periodo ptolemaico	132	136	92	52
+Periodo ptolemaico	135	130	100	51
+Periodo romano	137	123	91	50
+Periodo romano	136	131	95	49
+Periodo romano	128	126	91	57
+Periodo romano	130	134	92	52
+Periodo romano	138	127	86	47
+Periodo romano	126	138	101	52
+Periodo romano	136	138	97	58
+Periodo romano	126	126	92	45
+Periodo romano	132	132	99	55
+Periodo romano	139	135	92	54
+Periodo romano	143	120	95	51
+Periodo romano	141	136	101	54
+Periodo romano	135	135	95	56
+Periodo romano	137	134	93	53
+Periodo romano	142	135	96	52
+Periodo romano	139	134	95	47
+Periodo romano	138	125	99	51
+Periodo romano	137	135	96	54
+Periodo romano	133	125	92	50
+Periodo romano	145	129	89	47
+Periodo romano	138	136	92	46
+Periodo romano	131	129	97	44
+Periodo romano	143	126	88	54
+Periodo romano	134	124	91	55
+Periodo romano	132	127	97	52
+Periodo romano	137	125	85	57
+Periodo romano	129	128	81	52
+Periodo romano	140	135	103	48
+Periodo romano	147	129	87	48
+Periodo romano	136	133	97	51

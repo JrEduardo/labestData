@@ -12,7 +12,7 @@
 #'     controle local.}
 #'
 #' \item{\code{variedade}}{Fator de 7 níveis qualitativos, que são as
-#'     variedades cana-de-açucar.}
+#'     variedades cana-de-açúcar.}
 #'     
 #' \item{\code{prod}}{Dados de produção de cana-planta.}
 #'

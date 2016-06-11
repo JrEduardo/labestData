@@ -1,0 +1,57 @@
+#' @name RamalhoTb11.1
+#' @title Produção de 16 Cultivares de Sorgo
+#' @description Experimento conduzido na EMBRAPA Milho e Sorgo
+#'     envolvendo a avaliação de 16 cultivares de sorgo conduzido
+#'     no delineamento de látice quadrado balanceado.
+#' @format Um \code{data.frame} com 80 observações e 5 variáveis, em que
+#'
+#' \describe{
+#'
+#' \item{\code{bloc}}{Fator de 4 níveis, usado para controle local.}
+#'
+#' \item{\code{cult}}{Fator de 16 níveis. Tratamento aplicado para
+#'     verificar a produção de sorgo.}
+#'
+#' \item{\code{prod}}{Produção de sorgo, medidos em kg/parcela nas
+#'     parcelas.}
+#'
+#' }
+#' @keywords DBI
+#' @source Ramalho, M. A. P., Ferreira, D. F., Oliveira, A. C. (2005).
+#'     Experimentação em Genética e Melhoramento de Plantas (2th ed.).
+#'     Lavras: UFLA. (pág. 165)
+#' @examples
+#'
+#' library(lattice)
+#'
+#' data(RamalhoTb11.1)
+#'
+#' str(RamalhoTb11.1)
+#'
+#' addmargins(xtabs(~cult + bloc, data = RamalhoTb11.1))
+#'
+#' xyplot(prod ~ cult, data = RamalhoTb11.1,
+#'        xlab = "Cultivares de sorgo",
+#'        ylab = expression("Produção de grãos"~(kg~parcela^{-1})))
+#'
+#' k <- nlevels(RamalhoTb11.1$cult)
+#' a <- seq(0, 2 * pi, length.out = k + 1)[-(k + 1)]
+#' par(mfrow = c(2, 2))
+#' col <- 1
+#' for (b in levels(RamalhoTb11.1$bloc)) {
+#'     plot(sin(a), cos(a), asp = 1,
+#'          xlim = c(-1.1, 1.1),
+#'          ylim = c(-1.1, 1.1),
+#'          axes = FALSE, xlab = NA, ylab = NA)
+#'     mtext(paste("Bloco", b))
+#'     i <- unique(as.integer(subset(RamalhoTb11.1, bloc == b)$cult))
+#'     cb <- combn(x = i, m = 2)
+#'     segments(x0 = sin(a[cb[1, ]]), y0 = cos(a[cb[1, ]]),
+#'              x1 = sin(a[cb[2, ]]), y1 = cos(a[cb[2, ]]),
+#'              col = col)
+#'     text(x = 1.08 * sin(a[i]), y = 1.08 * cos(a[i]),
+#'          labels = levels(RamalhoTb11.1$cult)[i])
+#'     col <- col + 1
+#' }
+#'
+NULL

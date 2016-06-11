@@ -1,7 +1,7 @@
 #' @name CharnetEx2.9
-#' 
+#'
 #' @title Notas de Candidatos ao Vestibular
-#' 
+#'
 #' @description Notas de 9 candidatos ao vestibular nas provas de
 #'     Matemática e Física.
 #'
@@ -15,12 +15,12 @@
 #'
 #' }
 #'
-#' @keywords TODO
+#' @keywords RS
 #'
-#' @source Charnet, R., de Luna Freire, C.A., Charnet, E.M.R. & Bonvino,
+#' @source Charnet, R., de Luna Freire, C.A., Charnet, E.M.R., Bonvino,
 #'     H. (2008). Análise de modelos de regressão linear com aplicações
-#'     (2nd ed., p. 356). SP: Editora Unicamp (Capítulo 2, exercício 9,
-#'     página 47)
+#'     (2nd ed.). Campinas, SP: Editora Unicamp (Capítulo 2, exercício
+#'     9, pág. 47)
 #'
 #' @examples
 #'

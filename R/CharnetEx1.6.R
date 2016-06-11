@@ -1,7 +1,7 @@
 #' @name CharnetEx1.6
-#' 
+#'
 #' @title Pressão Sanguínea Sistólica
-#' 
+#'
 #' @description Pressão sanguínea sistólica de um grupo de 16 pacientes
 #'     de uma clínica.
 #'
@@ -9,10 +9,10 @@
 #'
 #' @keywords amostra
 #'
-#' @source Charnet, R., de Luna Freire, C.A., Charnet, E.M.R. & Bonvino,
+#' @source Charnet, R., de Luna Freire, C.A., Charnet, E.M.R., Bonvino,
 #'     H. (2008). Análise de modelos de regressão linear com aplicações
-#'     (2nd ed., p. 356). SP: Editora Unicamp (Capítulo 1, exercício 6,
-#'     página 23)
+#'     (2nd ed.). Campinas, SP: Editora Unicamp (Capítulo 1, exercício
+#'     6, pág. 23)
 #'
 #' @examples
 #'
@@ -27,5 +27,5 @@
 #'       col = 4, lwd = 2)
 #' hist(CharnetEx1.6, prob = TRUE, add = TRUE)
 #' rug(CharnetEx1.6)
-#' 
+#'
 NULL

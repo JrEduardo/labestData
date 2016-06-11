@@ -16,10 +16,10 @@
 
 }}
 \source{
-Charnet, R., de Luna Freire, C.A., Charnet, E.M.R. & Bonvino,
+Charnet, R., de Luna Freire, C.A., Charnet, E.M.R., Bonvino,
     H. (2008). Análise de modelos de regressão linear com aplicações
-    (2nd ed., p. 356). SP: Editora Unicamp (Capítulo 1, exercício 17,
-    página 25)
+    (2nd ed.). Campinas, SP: Editora Unicamp (Capítulo 1, exercício
+    17, pág. 25)
 }
 \description{
 Dois conjuntos de valores X e Y utilizados para
@@ -36,11 +36,11 @@ data(CharnetEx1.17)
 
 library(ggplot2)
 
-ggplot(CharnetEx1.17, aes(x = x, y = y)) +
-    geom_point() +
-    facet_grid(~conj, scales = "free_x") +
+ggplot(CharnetEx1.17, aes(x = x, y = y))
+    geom_point()
+    facet_grid(~conj, scales = "free_x")
     stat_smooth(method = "lm")
 
 }
-\keyword{TODO}
+\keyword{RS}
 

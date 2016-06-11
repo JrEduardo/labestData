@@ -1,11 +1,11 @@
 #' @name CharnetApD.1
-#' 
+#'
 #' @title Conjunto de Dados de Meninas Dançarinas
-#' 
+#'
 #' @description Medidas antropomórficas e extensões de bailarinas.
-#' 
+#'
 #' @format Um \code{data.frame} com 163 linhas e 6 colunas.
-#' 
+#'
 #' \describe{
 #'
 #' \item{\code{idade}}{Idade, em anos, das bailarinas.}
@@ -24,16 +24,16 @@
 #'
 #' }
 #'
-#' @keywords TODO
+#' @keywords RM
 #'
-#' @source Charnet, R., de Luna Freire, C.A., Charnet, E.M.R. & Bonvino, 
-#' H. (2008). Análise de modelos de regressão linear com aplicações (2nd
-#' ed., p. 356). SP: Editora Unicamp (Apêndice D, página 325)
+#' @source Charnet, R., de Luna Freire, C.A., Charnet, E.M.R., Bonvino,
+#'     H. (2008). Análise de modelos de regressão linear com aplicações
+#'     (2nd ed.). Campinas, SP: Editora Unicamp (Apêndice D, pág. 325)
 #'
 #' @examples
 #'
 #' data(CharnetApD.1)
-#' 
+#'
 #' library(ggplot2)
 #'
 #' qplot(peso, altura,

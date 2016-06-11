@@ -1,0 +1,225 @@
+paci	trat	sexo	idade	nivel	cond
+1	placebo	masculino	46	presenca	ruim
+1	placebo	masculino	46	presenca	ruim
+1	placebo	masculino	46	presenca	ruim
+1	placebo	masculino	46	presenca	ruim
+2	placebo	masculino	28	presenca	boa
+2	placebo	masculino	28	presenca	boa
+2	placebo	masculino	28	presenca	boa
+2	placebo	masculino	28	presenca	boa
+3	droga ativa	masculino	23	presenca	ruim
+3	droga ativa	masculino	23	presenca	boa
+3	droga ativa	masculino	23	presenca	boa
+3	droga ativa	masculino	23	presenca	boa
+4	placebo	masculino	44	presenca	ruim
+4	placebo	masculino	44	presenca	ruim
+4	placebo	masculino	44	presenca	ruim
+4	placebo	masculino	44	presenca	boa
+5	placebo	feminino	13	presenca	ruim
+5	placebo	feminino	13	presenca	ruim
+5	placebo	feminino	13	presenca	ruim
+5	placebo	feminino	13	presenca	ruim
+6	droga ativa	masculino	34	presenca	ruim
+6	droga ativa	masculino	34	presenca	boa
+6	droga ativa	masculino	34	presenca	boa
+6	droga ativa	masculino	34	presenca	boa
+7	placebo	masculino	43	presenca	ruim
+7	placebo	masculino	43	presenca	boa
+7	placebo	masculino	43	presenca	ruim
+7	placebo	masculino	43	presenca	ruim
+8	droga ativa	masculino	28	presenca	ruim
+8	droga ativa	masculino	28	presenca	boa
+8	droga ativa	masculino	28	presenca	boa
+8	droga ativa	masculino	28	presenca	boa
+9	droga ativa	masculino	31	presenca	ruim
+9	droga ativa	masculino	31	presenca	ruim
+9	droga ativa	masculino	31	presenca	boa
+9	droga ativa	masculino	31	presenca	boa
+10	placebo	masculino	37	presenca	boa
+10	placebo	masculino	37	presenca	ruim
+10	placebo	masculino	37	presenca	ruim
+10	placebo	masculino	37	presenca	boa
+11	droga ativa	masculino	30	presenca	ruim
+11	droga ativa	masculino	30	presenca	ruim
+11	droga ativa	masculino	30	presenca	boa
+11	droga ativa	masculino	30	presenca	boa
+12	droga ativa	masculino	14	presenca	ruim
+12	droga ativa	masculino	14	presenca	ruim
+12	droga ativa	masculino	14	presenca	boa
+12	droga ativa	masculino	14	presenca	boa
+13	placebo	masculino	23	presenca	ruim
+13	placebo	masculino	23	presenca	boa
+13	placebo	masculino	23	presenca	boa
+13	placebo	masculino	23	presenca	boa
+14	placebo	masculino	30	ausencia	boa
+14	placebo	masculino	30	ausencia	boa
+14	placebo	masculino	30	ausencia	boa
+14	placebo	masculino	30	ausencia	boa
+15	placebo	masculino	20	presenca	ruim
+15	placebo	masculino	20	presenca	ruim
+15	placebo	masculino	20	presenca	ruim
+15	placebo	masculino	20	presenca	ruim
+16	droga ativa	masculino	22	presenca	boa
+16	droga ativa	masculino	22	presenca	boa
+16	droga ativa	masculino	22	presenca	boa
+16	droga ativa	masculino	22	presenca	boa
+17	placebo	masculino	25	presenca	boa
+17	placebo	masculino	25	presenca	boa
+17	placebo	masculino	25	presenca	boa
+17	placebo	masculino	25	presenca	boa
+18	droga ativa	feminino	47	presenca	ruim
+18	droga ativa	feminino	47	presenca	ruim
+18	droga ativa	feminino	47	presenca	ruim
+18	droga ativa	feminino	47	presenca	boa
+19	placebo	feminino	31	ausencia	ruim
+19	placebo	feminino	31	ausencia	ruim
+19	placebo	feminino	31	ausencia	ruim
+19	placebo	feminino	31	ausencia	ruim
+20	droga ativa	masculino	20	presenca	ruim
+20	droga ativa	masculino	20	presenca	ruim
+20	droga ativa	masculino	20	presenca	boa
+20	droga ativa	masculino	20	presenca	boa
+21	droga ativa	masculino	26	presenca	ruim
+21	droga ativa	masculino	26	presenca	boa
+21	droga ativa	masculino	26	presenca	boa
+21	droga ativa	masculino	26	presenca	boa
+22	droga ativa	masculino	46	presenca	ruim
+22	droga ativa	masculino	46	presenca	ruim
+22	droga ativa	masculino	46	presenca	ruim
+22	droga ativa	masculino	46	presenca	ruim
+23	droga ativa	masculino	32	presenca	ruim
+23	droga ativa	masculino	32	presenca	ruim
+23	droga ativa	masculino	32	presenca	boa
+23	droga ativa	masculino	32	presenca	boa
+24	droga ativa	masculino	48	presenca	ruim
+24	droga ativa	masculino	48	presenca	ruim
+24	droga ativa	masculino	48	presenca	boa
+24	droga ativa	masculino	48	presenca	boa
+25	placebo	feminino	35	presenca	ruim
+25	placebo	feminino	35	presenca	ruim
+25	placebo	feminino	35	presenca	ruim
+25	placebo	feminino	35	presenca	ruim
+26	droga ativa	masculino	26	presenca	ruim
+26	droga ativa	masculino	26	presenca	boa
+26	droga ativa	masculino	26	presenca	boa
+26	droga ativa	masculino	26	presenca	boa
+27	placebo	masculino	23	presenca	ruim
+27	placebo	masculino	23	presenca	boa
+27	placebo	masculino	23	presenca	boa
+27	placebo	masculino	23	presenca	ruim
+28	placebo	feminino	36	ausencia	ruim
+28	placebo	feminino	36	ausencia	ruim
+28	placebo	feminino	36	ausencia	ruim
+28	placebo	feminino	36	ausencia	boa
+29	placebo	masculino	19	presenca	ruim
+29	placebo	masculino	19	presenca	ruim
+29	placebo	masculino	19	presenca	ruim
+29	placebo	masculino	19	presenca	boa
+30	droga ativa	masculino	28	presenca	boa
+30	droga ativa	masculino	28	presenca	boa
+30	droga ativa	masculino	28	presenca	boa
+30	droga ativa	masculino	28	presenca	boa
+31	placebo	masculino	37	ausencia	ruim
+31	placebo	masculino	37	ausencia	ruim
+31	placebo	masculino	37	ausencia	ruim
+31	placebo	masculino	37	ausencia	ruim
+32	droga ativa	masculino	23	presenca	ruim
+32	droga ativa	masculino	23	presenca	boa
+32	droga ativa	masculino	23	presenca	boa
+32	droga ativa	masculino	23	presenca	boa
+33	droga ativa	masculino	30	presenca	ruim
+33	droga ativa	masculino	30	presenca	ruim
+33	droga ativa	masculino	30	presenca	boa
+33	droga ativa	masculino	30	presenca	boa
+34	placebo	masculino	15	presenca	boa
+34	placebo	masculino	15	presenca	ruim
+34	placebo	masculino	15	presenca	boa
+34	placebo	masculino	15	presenca	boa
+35	droga ativa	masculino	26	presenca	ruim
+35	droga ativa	masculino	26	presenca	boa
+35	droga ativa	masculino	26	presenca	boa
+35	droga ativa	masculino	26	presenca	boa
+36	placebo	feminino	45	presenca	ruim
+36	placebo	feminino	45	presenca	ruim
+36	placebo	feminino	45	presenca	ruim
+36	placebo	feminino	45	presenca	ruim
+37	droga ativa	masculino	31	presenca	boa
+37	droga ativa	masculino	31	presenca	boa
+37	droga ativa	masculino	31	presenca	boa
+37	droga ativa	masculino	31	presenca	boa
+38	droga ativa	masculino	50	presenca	ruim
+38	droga ativa	masculino	50	presenca	ruim
+38	droga ativa	masculino	50	presenca	ruim
+38	droga ativa	masculino	50	presenca	boa
+39	placebo	masculino	28	presenca	boa
+39	placebo	masculino	28	presenca	boa
+39	placebo	masculino	28	presenca	ruim
+39	placebo	masculino	28	presenca	boa
+40	placebo	masculino	26	ausencia	boa
+40	placebo	masculino	26	ausencia	boa
+40	placebo	masculino	26	ausencia	boa
+40	placebo	masculino	26	ausencia	boa
+41	placebo	masculino	14	presenca	boa
+41	placebo	masculino	14	presenca	boa
+41	placebo	masculino	14	presenca	ruim
+41	placebo	masculino	14	presenca	ruim
+42	droga ativa	masculino	31	presenca	boa
+42	droga ativa	masculino	31	presenca	boa
+42	droga ativa	masculino	31	presenca	boa
+42	droga ativa	masculino	31	presenca	boa
+43	placebo	masculino	13	presenca	ruim
+43	placebo	masculino	13	presenca	ruim
+43	placebo	masculino	13	presenca	boa
+43	placebo	masculino	13	presenca	ruim
+44	placebo	masculino	27	presenca	boa
+44	placebo	masculino	27	presenca	boa
+44	placebo	masculino	27	presenca	ruim
+44	placebo	masculino	27	presenca	boa
+45	placebo	masculino	26	presenca	ruim
+45	placebo	masculino	26	presenca	boa
+45	placebo	masculino	26	presenca	ruim
+45	placebo	masculino	26	presenca	ruim
+46	placebo	masculino	49	presenca	ruim
+46	placebo	masculino	49	presenca	ruim
+46	placebo	masculino	49	presenca	ruim
+46	placebo	masculino	49	presenca	boa
+47	placebo	masculino	63	presenca	ruim
+47	placebo	masculino	63	presenca	ruim
+47	placebo	masculino	63	presenca	ruim
+47	placebo	masculino	63	presenca	ruim
+48	droga ativa	masculino	57	presenca	ruim
+48	droga ativa	masculino	57	presenca	ruim
+48	droga ativa	masculino	57	presenca	ruim
+48	droga ativa	masculino	57	presenca	boa
+49	placebo	masculino	27	ausencia	ruim
+49	placebo	masculino	27	ausencia	ruim
+49	placebo	masculino	27	ausencia	ruim
+49	placebo	masculino	27	ausencia	ruim
+50	droga ativa	masculino	22	presenca	ruim
+50	droga ativa	masculino	22	presenca	boa
+50	droga ativa	masculino	22	presenca	boa
+50	droga ativa	masculino	22	presenca	boa
+51	droga ativa	masculino	15	presenca	boa
+51	droga ativa	masculino	15	presenca	boa
+51	droga ativa	masculino	15	presenca	boa
+51	droga ativa	masculino	15	presenca	boa
+52	placebo	masculino	43	presenca	ruim
+52	placebo	masculino	43	presenca	ruim
+52	placebo	masculino	43	presenca	ruim
+52	placebo	masculino	43	presenca	boa
+53	droga ativa	feminino	32	ausencia	ruim
+53	droga ativa	feminino	32	ausencia	ruim
+53	droga ativa	feminino	32	ausencia	ruim
+53	droga ativa	feminino	32	ausencia	boa
+54	droga ativa	masculino	11	presenca	ruim
+54	droga ativa	masculino	11	presenca	ruim
+54	droga ativa	masculino	11	presenca	boa
+54	droga ativa	masculino	11	presenca	boa
+55	placebo	masculino	24	presenca	ruim
+55	placebo	masculino	24	presenca	ruim
+55	placebo	masculino	24	presenca	ruim
+55	placebo	masculino	24	presenca	ruim
+56	droga ativa	masculino	25	presenca	ruim
+56	droga ativa	masculino	25	presenca	boa
+56	droga ativa	masculino	25	presenca	boa
+56	droga ativa	masculino	25	presenca	boa

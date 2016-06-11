@@ -1,0 +1,101 @@
+loc	espec	rept	alt
+Araraquara	E. saligna	1	3.6
+Araraquara	E. tereticornes	1	3.8
+Araraquara	E. alba	1	4.1
+Araraquara	E. citriodora	1	2.5
+Araraquara	E. saligna	2	3.2
+Araraquara	E. tereticornes	2	3.9
+Araraquara	E. alba	2	3.8
+Araraquara	E. citriodora	2	2.8
+Araraquara	E. saligna	3	3.4
+Araraquara	E. tereticornes	3	3.7
+Araraquara	E. alba	3	3.4
+Araraquara	E. citriodora	3	2.3
+Araraquara	E. saligna	4	3.7
+Araraquara	E. tereticornes	4	4.1
+Araraquara	E. alba	4	4.3
+Araraquara	E. citriodora	4	2.4
+Araraquara	E. saligna	5	4
+Araraquara	E. tereticornes	5	4.2
+Araraquara	E. alba	5	4.1
+Araraquara	E. citriodora	5	2.2
+Mogi-Guaçu	E. saligna	1	4.3
+Mogi-Guaçu	E. tereticornes	1	3.9
+Mogi-Guaçu	E. alba	1	4.2
+Mogi-Guaçu	E. citriodora	1	3
+Mogi-Guaçu	E. saligna	2	4.1
+Mogi-Guaçu	E. tereticornes	2	4.2
+Mogi-Guaçu	E. alba	2	4.5
+Mogi-Guaçu	E. citriodora	2	2.8
+Mogi-Guaçu	E. saligna	3	3.9
+Mogi-Guaçu	E. tereticornes	3	3.8
+Mogi-Guaçu	E. alba	3	3.7
+Mogi-Guaçu	E. citriodora	3	3.1
+Mogi-Guaçu	E. saligna	4	4.2
+Mogi-Guaçu	E. tereticornes	4	4
+Mogi-Guaçu	E. alba	4	4
+Mogi-Guaçu	E. citriodora	4	2.6
+Mogi-Guaçu	E. saligna	5	3.8
+Mogi-Guaçu	E. tereticornes	5	3.9
+Mogi-Guaçu	E. alba	5	3.9
+Mogi-Guaçu	E. citriodora	5	2.7
+São Joaquim da Barra	E. saligna	1	3.5
+São Joaquim da Barra	E. tereticornes	1	4.2
+São Joaquim da Barra	E. alba	1	4.3
+São Joaquim da Barra	E. citriodora	1	2.4
+São Joaquim da Barra	E. saligna	2	3.3
+São Joaquim da Barra	E. tereticornes	2	4
+São Joaquim da Barra	E. alba	2	4.4
+São Joaquim da Barra	E. citriodora	2	2.9
+São Joaquim da Barra	E. saligna	3	4
+São Joaquim da Barra	E. tereticornes	3	3.4
+São Joaquim da Barra	E. alba	3	3.9
+São Joaquim da Barra	E. citriodora	3	2.5
+São Joaquim da Barra	E. saligna	4	3.6
+São Joaquim da Barra	E. tereticornes	4	3.9
+São Joaquim da Barra	E. alba	4	4
+São Joaquim da Barra	E. citriodora	4	2.7
+São Joaquim da Barra	E. saligna	5	3.5
+São Joaquim da Barra	E. tereticornes	5	3.9
+São Joaquim da Barra	E. alba	5	4.1
+São Joaquim da Barra	E. citriodora	5	2.3
+São Simão	E. saligna	1	3.4
+São Simão	E. tereticornes	1	4
+São Simão	E. alba	1	4.5
+São Simão	E. citriodora	1	2.6
+São Simão	E. saligna	2	3.2
+São Simão	E. tereticornes	2	3.9
+São Simão	E. alba	2	3.9
+São Simão	E. citriodora	2	2.3
+São Simão	E. saligna	3	3.8
+São Simão	E. tereticornes	3	4.1
+São Simão	E. alba	3	4.2
+São Simão	E. citriodora	3	2.5
+São Simão	E. saligna	4	3.7
+São Simão	E. tereticornes	4	3.8
+São Simão	E. alba	4	4.1
+São Simão	E. citriodora	4	2.4
+São Simão	E. saligna	5	3.6
+São Simão	E. tereticornes	5	3.9
+São Simão	E. alba	5	4
+São Simão	E. citriodora	5	2.2
+Araras	E. saligna	1	3.4
+Araras	E. tereticornes	1	4.3
+Araras	E. alba	1	4.2
+Araras	E. citriodora	1	2.1
+Araras	E. saligna	2	3.4
+Araras	E. tereticornes	2	4.1
+Araras	E. alba	2	4.5
+Araras	E. citriodora	2	2.6
+Araras	E. saligna	3	3.9
+Araras	E. tereticornes	3	3.7
+Araras	E. alba	3	4.1
+Araras	E. citriodora	3	2.3
+Araras	E. saligna	4	3.7
+Araras	E. tereticornes	4	3.9
+Araras	E. alba	4	4
+Araras	E. citriodora	4	2.7
+Araras	E. saligna	5	3.6
+Araras	E. tereticornes	5	4
+Araras	E. alba	5	4.2
+Araras	E. citriodora	5	2.4

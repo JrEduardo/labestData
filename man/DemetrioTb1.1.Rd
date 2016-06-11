@@ -15,7 +15,7 @@
 
 }}
 \source{
-Demétrio, C. G. B., & Zocchi, S. S. (2011). Modelos de
+Demétrio, C. G. B., Zocchi, S. S. (2011). Modelos de
     Regressão. Piracicaba: ESALQ. (Tabela 1.1 pág. 8)
 }
 \description{
@@ -37,6 +37,5 @@ xyplot(fd ~ fo, data = DemetrioTb1.1,
        ylab = "Fósforo disponível",
        type = c("p", "r"), col.line = 3)
 }
-\keyword{fósforo}
-\keyword{milho}
+\keyword{RS}
 

@@ -20,9 +20,9 @@
 #' 
 #' }
 #' 
-#' @keywords batata aspersor produtividade
+#' @keywords RS
 #' 
-#' @source Demétrio, C. G. B., & Zocchi, S. S. (2011). Modelos de
+#' @source Demétrio, C. G. B., Zocchi, S. S. (2011). Modelos de
 #'     Regressão. Piracicaba: ESALQ. (Tabela 1.2 pág. 9)
 #' 
 #' @examples

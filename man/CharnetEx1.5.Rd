@@ -5,10 +5,10 @@
 \title{Tempo de Duração do Intervalo para o Cafezinho}
 \format{Um \code{vetor} numérico com 20 observações.}
 \source{
-Charnet, R., de Luna Freire, C.A., Charnet, E.M.R. & Bonvino,
+Charnet, R., de Luna Freire, C.A., Charnet, E.M.R., Bonvino,
     H. (2008). Análise de modelos de regressão linear com aplicações
-    (2nd ed., p. 356). SP: Editora Unicamp (Capítulo 1, exercício 5,
-    pág. 23)
+    (2nd ed.). Campinas, SP: Editora Unicamp (Capítulo 1, exercício
+    5, pág. 23)
 }
 \description{
 Tempo de duração do intervalo para o cafezinho para uma

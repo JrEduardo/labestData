@@ -1,0 +1,44 @@
+#' @name PaulaEg3.5.1
+#' @title Associação entre fungicida e desenvolvimento de tumor
+#' @description Dados de um experimento realizado para avaliar
+#'    o possível efeito cancerígeno do fungicida Avadex. Foram utilizados 
+#'    403 camundongos. Desses, 65 receberam o fungicida e foram acompanhados 
+#'    durante 85 semanas, verificando-se o desenvolvimento ou não de tumor 
+#'    cancerígeno. Os demais animais não receberam o fungicida (grupo controle) 
+#'    e também foram acompanhados pelo mesmo período.
+#'    
+#' @format Um \code{data.frame} com 4 observações e 4 variáveis, em que
+#'
+#' \describe{
+#'
+#' \item{sexo}{Sexo do camundongo (macho = 1 e fêmea = 0).}
+#'     
+#' \item{trat}{Identifica a presença ou não do tratamento (sim = 1 e não = 0).}
+#'
+#' \item{casos}{Número inteiro que identifica a quantidade de casos
+#'     ocorridos.}
+#'
+#' \item{exp}{Quantidade de camundongos expostos.}
+#'
+#' }
+#' 
+#' @keywords GLM binarios
+#' @source Paula, G. A. (2004). Modelos de regressão: com apoio computacional. 
+#'    São Paulo, SP: IME-USP. (Eg 3.5.1 pág. 201)
+#' @examples
+#'
+#' library(lattice)
+#'
+#' data(PaulaEg3.5.1)
+#'
+#' barchart(casos/exp ~ trat | sexo,  data = PaulaEg3.5.1,
+#'          xlab="Grupo", ylab="Proporção de casos",
+#'          scales=list(x=list(labels=c("Controle","Tratado"))),
+#'          strip=strip.custom(var.name="Sexo", 
+#'          factor.levels=c(" Fêmea", "Macho"),
+#'          strip.levels=rep(TRUE,2)), 
+#'          main="Associação entre fungicida e desenvolvimento de tumor")
+NULL
+
+
+

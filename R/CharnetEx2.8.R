@@ -1,7 +1,7 @@
 #' @name CharnetEx2.8
-#' 
+#'
 #' @title Dados Genéricos para Regressão Linear Simples
-#' 
+#'
 #' @description Três conjuntos de dados apresentados para
 #'     exercício. Objetivo do exercício é visualizar casos em que só
 #'     o termo linear não é satisfatório.
@@ -23,12 +23,12 @@
 #'     sejam de populações distintas. Portanto ao utilizá-lo separe-o
 #'     com base na variável \code{conj}.
 #'
-#' @keywords TODO
+#' @keywords RS
 #'
-#' @source Charnet, R., de Luna Freire, C.A., Charnet, E.M.R. & Bonvino,
+#' @source Charnet, R., de Luna Freire, C.A., Charnet, E.M.R., Bonvino,
 #'     H. (2008). Análise de modelos de regressão linear com aplicações
-#'     (2nd ed., p. 356). SP: Editora Unicamp (Capítulo 2, exercício 8,
-#'     página 47)
+#'     (2nd ed.). Campinas, SP: Editora Unicamp (Capítulo 2, exercício
+#'     8, pág. 47)
 #'
 #' @examples
 #'
@@ -36,9 +36,9 @@
 #'
 #' library(ggplot2)
 #'
-#' ggplot(CharnetEx2.8, aes(x = x, y = y)) +
-#'     geom_point() +
-#'     facet_grid(~conj) +
+#' ggplot(CharnetEx2.8, aes(x = x, y = y))
+#'     geom_point()
+#'     facet_grid(~conj)
 #'     stat_smooth(method = "lm")
-#' 
+#'
 NULL

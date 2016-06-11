@@ -21,13 +21,13 @@
 
 }}
 \source{
-Charnet, R., de Luna Freire, C.A., Charnet, E.M.R. & Bonvino,
+Charnet, R., de Luna Freire, C.A., Charnet, E.M.R., Bonvino,
     H. (2008). Análise de modelos de regressão linear com aplicações
-    (2nd ed., p. 356). SP: Editora Unicamp (Capítulo 12, exemplo
-    12.2, página 286)
+    (2nd ed.). Campinas, SP: Editora Unicamp (Capítulo 12, exemplo
+    12.2, pág. 286)
 }
 \description{
-Relação entre as medidas de tecidos adiposos obtidas por 
+Relação entre as medidas de tecidos adiposos obtidas por
     tomagrafia computadorizada da área abdominal e variáveis
     relacionadas.
 }
@@ -45,5 +45,5 @@ panel.density <- function(x, ...) {
 
 pairs(CharnetEg12.2, diag.panel = panel.density)
 }
-\keyword{TODO}
+\keyword{RM}
 

@@ -1,0 +1,28 @@
+cult	bloco	dose	ascpd
+Canastra	1	0	6.29754
+Maravilha	1	0	4.92718
+R. Paranaíba	1	0	6.38072
+Canastra	2	0	6.03998
+Maravilha	2	0	6.03634
+R. Paranaíba	2	0	6.12295
+Canastra	3	0	6.13508
+Maravilha	3	0	5.44038
+R. Paranaíba	3	0	6.75723
+Canastra	1	400	3.38405
+Maravilha	1	400	2.6841
+R. Paranaíba	1	400	4.22442
+Canastra	2	400	3.43865
+Maravilha	2	400	3.2745
+R. Paranaíba	2	400	3.00642
+Canastra	3	400	3.02796
+Maravilha	3	400	3.30615
+R. Paranaíba	3	400	4.33899
+Canastra	1	800	3.71637
+Maravilha	1	800	2.33117
+R. Paranaíba	1	800	2.26124
+Canastra	2	800	2.74181
+Maravilha	2	800	2.66966
+R. Paranaíba	2	800	2.73404
+Canastra	3	800	2.77633
+Maravilha	3	800	3.40768
+R. Paranaíba	3	800	3.5806

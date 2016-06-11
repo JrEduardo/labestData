@@ -23,9 +23,9 @@ dança clássica}
 
 }}
 \source{
-Charnet, R., de Luna Freire, C.A., Charnet, E.M.R. & Bonvino, 
-H. (2008). Análise de modelos de regressão linear com aplicações (2nd
-ed., p. 356). SP: Editora Unicamp (Apêndice D, página 325)
+Charnet, R., de Luna Freire, C.A., Charnet, E.M.R., Bonvino,
+    H. (2008). Análise de modelos de regressão linear com aplicações
+    (2nd ed.). Campinas, SP: Editora Unicamp (Apêndice D, pág. 325)
 }
 \description{
 Medidas antropomórficas e extensões de bailarinas.
@@ -51,5 +51,5 @@ bailarinas <- qplot(ped, pee,
 
 bailarinas + geom_abline(intercept = 0, slope = 1)
 }
-\keyword{TODO}
+\keyword{RM}
 

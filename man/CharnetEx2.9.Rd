@@ -13,10 +13,10 @@
 
 }}
 \source{
-Charnet, R., de Luna Freire, C.A., Charnet, E.M.R. & Bonvino,
+Charnet, R., de Luna Freire, C.A., Charnet, E.M.R., Bonvino,
     H. (2008). Análise de modelos de regressão linear com aplicações
-    (2nd ed., p. 356). SP: Editora Unicamp (Capítulo 2, exercício 9,
-    página 47)
+    (2nd ed.). Campinas, SP: Editora Unicamp (Capítulo 2, exercício
+    9, pág. 47)
 }
 \description{
 Notas de 9 candidatos ao vestibular nas provas de
@@ -35,5 +35,5 @@ plot(data.wide)
 abline(a = 0, b = 1)
 
 }
-\keyword{TODO}
+\keyword{RS}
 

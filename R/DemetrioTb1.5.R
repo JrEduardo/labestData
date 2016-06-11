@@ -34,13 +34,15 @@
 #'     124,00. Neste conjunto de dados manteve-se o valor discrepante
 #'     para efeitos didáticos.
 #'
-#' @keywords TODO
+#' @keywords RM dummy
 #' 
-#' @source Demétrio, C. G. B., & Zocchi, S. S. (2011). Modelos de
+#' @source Demétrio, C. G. B., Zocchi, S. S. (2011). Modelos de
 #'     Regressão. Piracicaba: ESALQ. (Tabela 1.5 pág. 12)
 #' 
 #' @examples 
-#' 
+#'
+#' data(DemetrioTb1.5)
+#'
 #' library(lattice)
 #' 
 #' xyplot(ctc ~ dose | bloco, groups = metodo,

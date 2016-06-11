@@ -1,0 +1,65 @@
+ano	bloco	cultura	prod
+1	1	Mucuna preta	86.8
+1	1	Feijao-de-porco	44
+1	1	Crotalaria juncea	102.4
+1	1	Guandu	68.4
+1	1	Tephrosia candida	34
+1	1	Soja	33
+1	1	Crotalaria grantiana	25.8
+1	1	Milho	138.8
+2	1	Mucuna preta	90.2
+2	1	Feijao-de-porco	83.8
+2	1	Crotalaria juncea	120.2
+2	1	Guandu	91
+2	1	Tephrosia candida	57.2
+2	1	Soja	33.6
+2	1	Crotalaria grantiana	77
+2	1	Milho	110.2
+1	2	Mucuna preta	76.8
+1	2	Feijao-de-porco	56.6
+1	2	Crotalaria juncea	90.8
+1	2	Guandu	55.2
+1	2	Tephrosia candida	32.4
+1	2	Soja	34.8
+1	2	Crotalaria grantiana	21.6
+1	2	Milho	106.4
+2	2	Mucuna preta	94
+2	2	Feijao-de-porco	72.2
+2	2	Crotalaria juncea	104.6
+2	2	Guandu	78.8
+2	2	Tephrosia candida	54
+2	2	Soja	33.2
+2	2	Crotalaria grantiana	62.4
+2	2	Milho	80
+1	3	Mucuna preta	88.6
+1	3	Feijao-de-porco	52.4
+1	3	Crotalaria juncea	92
+1	3	Guandu	49
+1	3	Tephrosia candida	24.4
+1	3	Soja	32
+1	3	Crotalaria grantiana	19.2
+1	3	Milho	108
+2	3	Mucuna preta	86.4
+2	3	Feijao-de-porco	88.6
+2	3	Crotalaria juncea	112
+2	3	Guandu	83.4
+2	3	Tephrosia candida	50.8
+2	3	Soja	33.4
+2	3	Crotalaria grantiana	63.6
+2	3	Milho	92
+1	4	Mucuna preta	81.6
+1	4	Feijao-de-porco	52.2
+1	4	Crotalaria juncea	84.8
+1	4	Guandu	61.2
+1	4	Tephrosia candida	30
+1	4	Soja	33.6
+1	4	Crotalaria grantiana	21
+1	4	Milho	81.8
+2	4	Mucuna preta	82.2
+2	4	Feijao-de-porco	83.2
+2	4	Crotalaria juncea	113.6
+2	4	Guandu	91.2
+2	4	Tephrosia candida	46.2
+2	4	Soja	42.6
+2	4	Crotalaria grantiana	63.4
+2	4	Milho	90.6

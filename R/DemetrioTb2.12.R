@@ -22,7 +22,7 @@
 #' 
 #' @keywords TODO
 #' 
-#' @source Demétrio, C. G. B., & Zocchi, S. S. (2011). Modelos de
+#' @source Demétrio, C. G. B., Zocchi, S. S. (2011). Modelos de
 #'     Regressão. Piracicaba: ESALQ. (Tabela 2.12 pág. 66-67)
 #' 
 #' @examples 

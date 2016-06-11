@@ -1,5 +1,5 @@
 #' @name DemetrioEx1.4.1.5
-#' @title Número de Ovos
+#' @title Número de Ovos por Folículos Ovulados
 #' 
 #' @description Foi contado o número me ovos postos e o número de
 #'     folículos ovulados.
@@ -16,7 +16,7 @@
 #' 
 #' @keywords TODO
 #' 
-#' @source Demétrio, C. G. B., & Zocchi, S. S. (2011). Modelos de
+#' @source Demétrio, C. G. B., Zocchi, S. S. (2011). Modelos de
 #'     Regressão. Piracicaba: ESALQ. (Exercício 1.4.1.5 pág. 15)
 #' 
 #' @examples 

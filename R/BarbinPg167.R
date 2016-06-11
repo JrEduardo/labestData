@@ -1,0 +1,47 @@
+#' @name BarbinPg167
+#' @title Produção de Porta-enxertos para Laranjeira em Várias Safras
+#' @description Dados de produção de laranja de um ensaio de competição
+#'     de porta-enxertos para laranjeira Valência realizado na Estação
+#'     Experimental de Limeira, em delineamento de blocos casualizados.
+#' @format Um \code{data.frame} com 90 observações e 4 variáveis, em que
+#'
+#' \describe{
+#'
+#' \item{\code{anos}}{Fator métrico cujos níveis são os anos em que
+#'     foram feitas as colheitas do experimento.}
+#'
+#' \item{\code{penx}}{Fator categórico cujos níveis são os
+#'     porta-enxertos utilizados para o cultivo de laranja.}
+#'
+#' \item{\code{bloc}}{Fator categórico cujos níveis são os blocos do
+#'     experimento.}
+#'
+#' \item{\code{prod}}{Produção (kg/planta) obtida pela média de duas
+#'     plantas por parcela.}
+#'
+#' }
+#' @keywords PS DBC
+#' @source Barbin, D. (2013). Planejamento e Análise Estatística de
+#'     Experimentos Agronômicos (2nd ed.). Londrina, PR:
+#'     Mecenas. (pág. 167)
+#' @examples
+#'
+#' library(latticeExtra)
+#'
+#' data(BarbinPg167)
+#'
+#' str(BarbinPg167)
+#'
+#' xyplot(prod ~ anos, data = BarbinPg167,
+#'        groups = penx, type = c("p", "a"), lwd = 2,
+#'        auto.key = list(columns = 2,
+#'                        title = "Porta-enxertos", cex.title = 1.1),
+#'        as.table = TRUE,
+#'        xlab = "Safras",
+#'        ylab = expression("Produção de laranja"~(kg~planta^{-1})))
+#'     layer(panel.xyplot(groups = with(BarbinPg167,
+#'                                      interaction(bloc, penx)),
+#'                        type = "a", lty = 2,
+#'                        lwd = 1, col = "gray50", ...))
+#'
+NULL

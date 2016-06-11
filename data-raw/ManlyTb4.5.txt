@@ -1,0 +1,78 @@
+grup	compm	largmapm	largca	altmapm	comppm	largpm	compptm	comppqp	largci	sexo
+Caes modernos da Tailandia	123	10.1	23	23	19	78	32	33	5.6	1
+Caes modernos da Tailandia	137	9.6	19	22	19	78	32	40	5.8	1
+Caes modernos da Tailandia	121	10.2	18	21	21	79	35	38	6.2	1
+Caes modernos da Tailandia	130	10.7	24	22	20	79	32	37	5.9	1
+Caes modernos da Tailandia	149	12	25	25	21	84	35	43	6.6	1
+Caes modernos da Tailandia	125	9.5	23	20	20	78	33	37	6.3	1
+Caes modernos da Tailandia	126	9.1	20	22	19	75	32	35	5.5	1
+Caes modernos da Tailandia	125	9.7	19	19	19	75	32	37	6.2	1
+Caes modernos da Tailandia	121	9.6	22	20	18	76	31	35	5.3	2
+Caes modernos da Tailandia	122	8.9	20	20	19	76	31	35	5.7	2
+Caes modernos da Tailandia	115	9.3	19	19	20	78	33	34	6.5	2
+Caes modernos da Tailandia	112	9.1	19	20	19	66	30	33	5.1	2
+Caes modernos da Tailandia	124	9.3	21	21	18	71	30	36	5.5	2
+Caes modernos da Tailandia	128	9.6	22	21	19	75	32	38	5.8	2
+Caes modernos da Tailandia	130	8.4	23	20	19	73	31	40	5.8	2
+Caes modernos da Tailandia	127	10.5	25	23	20	87	32	35	6.1	2
+Chacais dourados	120	8.2	18	17	18	70	32	35	5.2	1
+Chacais dourados	107	7.9	17	17	20	70	32	34	5.3	1
+Chacais dourados	110	8.1	18	16	19	71	31	32	4.7	1
+Chacais dourados	116	8.5	20	18	18	71	32	33	4.7	1
+Chacais dourados	114	8.2	19	18	19	79	32	33	5.1	1
+Chacais dourados	111	8.5	19	16	18	71	30	33	5	1
+Chacais dourados	113	8.5	17	18	19	71	30	34	4.6	1
+Chacais dourados	117	8.7	20	17	18	70	30	34	5.2	1
+Chacais dourados	114	9.4	21	19	19	75	31	35	5.3	1
+Chacais dourados	112	8.2	19	17	19	68	30	34	5.1	1
+Chacais dourados	110	8.5	18	17	19	70	31	33	4.9	2
+Chacais dourados	111	7.7	20	18	18	67	30	32	4.5	2
+Chacais dourados	107	7.2	17	16	17	60	28	35	4.7	2
+Chacais dourados	108	8.2	18	16	17	65	29	33	4.8	2
+Chacais dourados	110	7.3	19	15	17	61	30	33	4.5	2
+Chacais dourados	105	8.3	19	17	17	65	29	32	4.5	2
+Chacais dourados	107	8.4	18	17	18	62	29	31	4.3	2
+Chacais dourados	106	7.8	19	18	18	62	31	32	4.4	2
+Chacais dourados	111	8.4	17	16	18	70	30	34	4.7	2
+Chacais dourados	111	7.6	19	17	18	65	30	35	4.6	2
+Cuons	123	9.7	22	21	20	78	27	36	6.1	1
+Cuons	135	11.8	25	21	23	89	31	38	7.1	1
+Cuons	138	11.4	25	25	22	90	30	38	7.3	1
+Cuons	141	10.8	26	25	21	81	29	39	6.6	1
+Cuons	135	11.2	25	25	21	85	29	39	6.7	1
+Cuons	136	11	22	24	22	81	31	39	6.8	1
+Cuons	131	10.4	23	23	23	87	30	36	6.8	1
+Cuons	137	10.6	25	24	21	83	28	38	6.5	1
+Cuons	135	10.5	25	25	21	84	29	39	6.9	1
+Cuons	131	10.9	25	24	21	85	29	35	6.2	2
+Cuons	130	11.3	22	23	21	87	29	37	7	2
+Cuons	144	10.8	24	26	22	89	30	42	7.1	2
+Cuons	139	10.9	26	23	22	87	30	39	6.9	2
+Cuons	123	9.8	23	22	20	81	26	34	5.6	2
+Cuons	137	11.3	27	26	23	87	30	39	6.5	2
+Cuons	128	10	22	23	22	87	29	37	6.6	2
+Cuons	122	9.9	22	22	20	82	26	36	5.7	2
+Lobos indianos	167	11.5	29	28	25	95	41	45	7.2	1
+Lobos indianos	164	12.3	27	26	25	100	42	47	7.9	1
+Lobos indianos	150	11.5	21	24	25	93	41	46	8.5	1
+Lobos indianos	145	11.3	28	24	24	92	36	41	7.2	1
+Lobos indianos	177	12.4	31	27	27	105	43	50	7.9	1
+Lobos indianos	166	13.4	32	27	26	95	40	47	7.3	1
+Lobos indianos	164	12.1	27	24	25	99	42	45	8.3	1
+Lobos indianos	165	12.6	30	26	25	77	40	43	7.9	1
+Lobos indianos	131	11.8	20	24	23	88	38	40	6.5	2
+Lobos indianos	163	10.8	27	24	24	92	39	48	7	2
+Lobos indianos	164	10.7	24	23	26	95	43	47	7.6	2
+Lobos indianos	141	10.4	20	23	23	89	38	43	6	2
+Lobos indianos	148	10.6	26	21	24	89	39	40	7	2
+Lobos indianos	158	10.7	25	25	24	98	41	45	7.4	2
+Caes pre-historicos tailandeses	112	10.1	17	18	19	77	31	33	5.8	0
+Caes pre-historicos tailandeses	115	10	18	23	20	78	33	36	6	0
+Caes pre-historicos tailandeses	136	11.9	22	25	21	85	36	39	7	0
+Caes pre-historicos tailandeses	111	9.9	19	20	18	73	29	34	5.3	0
+Caes pre-historicos tailandeses	130	11.2	23	27	20	91	35	35	6.6	0
+Caes pre-historicos tailandeses	125	10.7	19	26	20	84	33	37	6.3	0
+Caes pre-historicos tailandeses	132	9.6	19	20	19	97	35	38	6.6	0
+Caes pre-historicos tailandeses	121	10.7	21	23	19	79	32	35	6	0
+Caes pre-historicos tailandeses	122	9.8	22	23	18	79	32	35	6.1	0
+Caes pre-historicos tailandeses	124	9.5	20	24	19	76	32	37	6	0

@@ -1,0 +1,57 @@
+#' @name ZimmermannTb16.10
+#' @title Número de Colmos Atacados por \emph{Elasmopalpus}
+#' @description Experimento realizado em delineamento quadrado latino 6
+#'     \eqn{times} 6.  Os dados são referentes ao número de colmos
+#'     atacados por \emph{Elasmopalpus lignosellus} L. em plantas de
+#'     arroz. São apresentados na tabela também os respectivos postos de
+#'     cada dado.
+#' @format Um \code{data.frame} com 36 observações e 5 variáveis
+#'
+#' \describe{
+#'
+#' \item{linha}{Fator categórico que representa as linhas do quadrado
+#'     latino.}
+#'
+#' \item{coluna}{Fator categórico que representa as colunas do quadrado
+#'     latino.}
+#'
+#' \item{trat}{Fator que representa o tratamento aplicado.}
+#'
+#' \item{colmos}{Número de colmos atacados por \emph{E. lignosellus}.}
+#'
+#' \item{posto}{Posto correspondente ao número de colmos atacados de
+#'     cada unidade experimental (\eqn{6 \times 6 = 36}).}
+#'
+#' }
+#' @keywords DQL contagem
+#' @source Zimmermann, F. J. (2004). Estatística aplicada à pesquisa
+#'     agrícola (1st ed.). Santo Antônio de Goiás, GO: Embrapa Arroz e
+#'     Feijão. (Tabela 16.10, pág. 357)
+#' @examples
+#'
+#' library(lattice)
+#'
+#' data(ZimmermannTb16.10)
+#' str(ZimmermannTb16.10)
+#'
+#' ZimmermannTb16.10$posto <- rank(ZimmermannTb16.10$colmos)
+#'
+#' levelplot(colmos ~ linha + coluna,
+#'           data = ZimmermannTb16.10, aspect = "iso",
+#'           panel = function(x, y, z, subscripts, ...) {
+#'               panel.levelplot(x, y, z, subscripts = subscripts)
+#'               trat <- ZimmermannTb16.10$trat[subscripts]
+#'               posto <- ZimmermannTb16.10$posto[subscripts]
+#'               panel.text(x, y, labels = trat, pos = 3)
+#'               panel.text(x, y,
+#'                          labels = sprintf("%0.1f (%0.1f)",
+#'                                           z, posto),
+#'                          pos = 1)
+#'           })
+#'
+#' xyplot(colmos ~ trat, data = ZimmermannTb16.10,
+#'        type = c("p", "a"),
+#'        ylab = "Número de colmos atacados",
+#'        xlab = "Tratamento")
+#'
+NULL

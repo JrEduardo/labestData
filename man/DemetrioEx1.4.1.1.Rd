@@ -2,7 +2,7 @@
 % Please edit documentation in R/DemetrioEx1.4.1.1.R
 \name{DemetrioEx1.4.1.1}
 \alias{DemetrioEx1.4.1.1}
-\title{Altura de Feijão}
+\title{Alturas de Feijão}
 \format{Um \code{data.frame} de 7 linhas e 2 colunas.
 
 \describe{
@@ -13,7 +13,7 @@
     
 }}
 \source{
-Demétrio, C. G. B., & Zocchi, S. S. (2011). Modelos de
+Demétrio, C. G. B., Zocchi, S. S. (2011). Modelos de
     Regressão. Piracicaba: ESALQ. (Exercício 1.4.1.1 pág. 14)
 }
 \description{
@@ -32,5 +32,5 @@ xyplot(altura ~ idade, data = DemetrioEx1.4.1.1,
      type = c("p", "r"), col.line = 3)
      
 }
-\keyword{TODO}
+\keyword{RS}
 

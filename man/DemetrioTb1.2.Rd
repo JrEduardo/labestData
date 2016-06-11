@@ -15,7 +15,7 @@
 
 }}
 \source{
-Demétrio, C. G. B., & Zocchi, S. S. (2011). Modelos de
+Demétrio, C. G. B., Zocchi, S. S. (2011). Modelos de
     Regressão. Piracicaba: ESALQ. (Tabela 1.2 pág. 9)
 }
 \description{
@@ -38,7 +38,5 @@ xyplot(prod ~ lamina, data = DemetrioTb1.2,
        ylab = "Produção (t/ha)",
        type = c("p", "r"), col.line = 3)
 }
-\keyword{aspersor}
-\keyword{batata}
-\keyword{produtividade}
+\keyword{RS}
 

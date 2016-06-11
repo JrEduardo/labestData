@@ -2,8 +2,8 @@
 #' @title Volumes em embalagens de leite
 #' @description Dados referentes aos volumes verificados de 
 #'     leite em 100 embalagens de 1000 ml. Os dados foram extraídos 
-#'     após uma alteração da pressão de operação, configurando uma causa especial
-#'     de variação.
+#'     após uma alteração da pressão de operação, configurando uma causa 
+#'     especial de variação.
 #' 
 #' @format Um \code{data.frame} com 100 observações e 2 variáveis, 
 #'     em que
@@ -12,7 +12,7 @@
 #'
 #' \item{\code{id}}{Identificação da embalagem.}
 #' 
-#' \item{\code{X}}{Volume de leite presente na embalagem (ml).}
+#' \item{\code{X}}{Volume de leite na embalagem (ml).}
 #' 
 #' 
 #' }

@@ -13,10 +13,10 @@
 
 }}
 \source{
-Charnet, R., de Luna Freire, C.A., Charnet, E.M.R. & Bonvino,
+Charnet, R., de Luna Freire, C.A., Charnet, E.M.R., Bonvino,
     H. (2008). Análise de modelos de regressão linear com aplicações
-    (2nd ed., p. 356). SP: Editora Unicamp (Capítulo 1, exercício 18,
-    página 25)
+    (2nd ed.). Campinas, SP: Editora Unicamp (Capítulo 1, exercício
+    18, pág. 25; e Capítulo 3, exercício 2, pág. 65)
 }
 \description{
 Registro de 35 tempos de reação química em 7
@@ -26,6 +26,8 @@ Registro de 35 tempos de reação química em 7
 
 data(CharnetEx1.18)
 
+str(CharnetEx1.18)
+
 library(ggplot2)
 
 with(CharnetEx1.18, {
@@ -34,17 +36,19 @@ with(CharnetEx1.18, {
     (da <<- data.frame(x = mu$G, mu = mu$x, sd = des$x))
 })
 
-ggplot(CharnetEx1.18, aes(x = temp, y = tempo)) +
-    geom_point() +
+ggplot(CharnetEx1.18, aes(x = temp, y = tempo))
+    geom_point()
     geom_point(
         aes(x = x - 1, y = mu), data = da,
-        col = 4, shape = 15, size = 2.5) +
+        col = 4, shape = 15, size = 2.5)
     geom_segment(
         aes(x = x - 1, y = mu - sd, xend = x - 1, yend = mu + sd),
-        arrow = arrow(angle = 90, length = unit(0.05, "inches"),
-                      ends = "both"), data = da, col = 4) +
+        arrow = grid::arrow(angle = 90,
+                            length = grid::unit(0.05, "inches"),
+                            ends = "both"),
+        data = da, col = 4)
     geom_smooth(method = "lm", se = FALSE)
 
 }
-\keyword{TODO}
+\keyword{RS}
 

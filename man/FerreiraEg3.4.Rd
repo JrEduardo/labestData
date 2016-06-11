@@ -2,7 +2,7 @@
 % Please edit documentation in R/FerreiraEg3.4.R
 \name{FerreiraEg3.4}
 \alias{FerreiraEg3.4}
-\title{Exame de sangue em pintores de carro}
+\title{Exame de Sangue em Pintores de Carro}
 \format{Um \code{data.frame} com 20 observações e 2 variáveis, em que
 
 \describe{
@@ -23,7 +23,7 @@ Royston, J. P. (1983). Some techniques for assessing multivariate
 }
 \description{
 Subconjunto de valores de um hemograma aplicado à
-    pintores de carros, apresentado por Royston (1983)
+    pintores de carros, apresentado por Royston (1983).
 }
 \examples{
 

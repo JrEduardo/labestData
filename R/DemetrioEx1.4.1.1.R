@@ -1,5 +1,5 @@
 #' @name DemetrioEx1.4.1.1
-#' @title Altura de Feijão
+#' @title Alturas de Feijão
 #' 
 #' @description Dados de altura de feijão durante 7 semanas.
 #' 
@@ -13,9 +13,9 @@
 #'     
 #' }
 #' 
-#' @keywords TODO
+#' @keywords RS
 #' 
-#' @source Demétrio, C. G. B., & Zocchi, S. S. (2011). Modelos de
+#' @source Demétrio, C. G. B., Zocchi, S. S. (2011). Modelos de
 #'     Regressão. Piracicaba: ESALQ. (Exercício 1.4.1.1 pág. 14)
 #' 
 #' @examples 

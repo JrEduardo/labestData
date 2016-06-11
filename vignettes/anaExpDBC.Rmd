@@ -1,0 +1,406 @@
+---
+title: "Análise de Experimentos em Delineamento de Blocos Casualizados"
+author: "PET Estatística UFPR"
+vignette: >
+  %\VignetteIndexEntry{Experimentos em Delineamento Inteiramente Casualizado}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r setup, include=FALSE}
+source("_setup.R")
+```
+
+## Análise exploratória
+
+Para exemplificação da análise de um experimento em delineamento de
+blocos casualizados (DBC), vamos considerar o conjunto de dados
+`PimentelEg5.2`.
+
+```{r}
+library(labestData)
+ls("package:labestData")
+```
+```{r, eval=FALSE}
+help(PimentelEg5.2, help_type = "html")
+```
+
+Nesse experimento estudou-se a produção (resposta) de variedades de
+batatinha (fator de interesse). O experimento foi instalado em blocos,
+muito provavelmente para controlar variáveis do ambiente, como a
+fertilidade do solo, por exemplo. Além disso, uma vez feita a imposição
+dos blocos, todas as demais variáveis de entrada (mão de obra, dia de
+colheita, máquinas, etc) devem ser as mesmas para todas as parcelas de
+um bloco. Isso significa, por exemplo, que todas as parcelas de um bloco
+devem ser colhidas no mesmo dia e devem ser zeladas (capina,
+irrigação) pela mesma pessoa. Lembre-se que a blocagem visa a
+uniformidade, ou seja, condições de contorno iguais para todas as suas
+parcelas, e por isso as variáveis de entrada precisam ser controladas
+também.
+
+No conjunto de dados `PimentelEg5.2`, temos a variável `bloco` e
+`variedade`, ambas como fator. Esse é um detalhe importante: quando as
+fontes de variação forem de níveis categóricos, elas devem ser variáveis
+de classe `factor` no R. É preciso cuidado pois alguns livros usam
+números inteiros para representar os níveis de fatores categóricos, de 
+tal forma que, se não as declararmos como fatores, o R as entenderá como
+variáveis numéricas.
+
+```{r}
+#-----------------------------------------------------------------------
+# Ler a partir do repositório do labestData.
+
+# url <- paste0("https://gitlab.c3sl.ufpr.br/pet-estatistica",
+#               "/labestData/raw/devel/data-raw/PimentelEg5.2.txt")
+#
+# PimentelEg5.2 <-
+#     read.table(file = url, sep = "\t", header = TRUE)
+
+#-----------------------------------------------------------------------
+# Análise exploratória.
+
+# Estrutura do objeto.
+str(PimentelEg5.2)
+
+# Tabela de frequência para os tratamentos.
+xtabs(~variedade + bloco, data = PimentelEg5.2)
+
+# Dados desempilhados.
+t(unstack(x = PimentelEg5.2, form = producao ~ variedade))
+
+library(lattice)
+
+# Para uma melhor exibição dos dados, vamos reordenar os níveis
+# de cultivar pela média de cada uma delas. Depois vamos ordenar os
+# registros no data.frame por bloco/variedade.
+
+# Reordena os níveis.
+PimentelEg5.2 <- transform(PimentelEg5.2,
+                           variedade = reorder(variedade, producao))
+
+# Reordena os registros.
+PimentelEg5.2 <- PimentelEg5.2[
+    with(PimentelEg5.2, order(bloco, variedade)), ]
+
+# Diagrama de dispersão.
+xyplot(producao ~ variedade, data = PimentelEg5.2,
+       groups = bloco, type = "o",
+       auto.key = list(corner = c(0.05, 0.95), columns = 1,
+                       title = "Bloco", cex.title = 1.1),
+       xlab = "Variedades de batatinha (ordenadas)",
+       ylab = expression("Produção de batatinha"~(t~ha^{-1})),
+       scales = list(x = list(rot = 90)))
+```
+
+Como pode ser visto na análise preliminar, o número de níveis de
+`variedade` é `r nlevels(PimentelEg5.2$variedade)` e o número de blocos é
+`r nlevels(PimentelEg5.2$bloco)`.
+
+No gráfico de dispersão, ordenamos as variedades pela média amostral e as
+observações de um mesmo bloco foram ligadas. Note que a relação
+sinal-ruído fornece uma evidência visual do efeito de variedade.
+
+As observações de um mesmo blocos não foram ligadas por acaso. Nesse
+gráfico é possível ter impressões sob uma suposição do modelo
+estatístico: a aditividade dos efeitos de tratamento e bloco.
+
+## Especificação e ajuste do modelo
+
+O modelo estatístico correspondente ao delineamento de blocos
+casualizados é
+
+$$
+\begin{aligned}
+  Y|\text{bloco, variedade}
+    &\,\sim \text{Normal}(\mu_{ij}, \sigma^2) \newline
+  \mu_{ij} &= \mu + \alpha_{i} + \tau_{j},
+\end{aligned}
+$$
+
+em que $Y$ é a variável resposta, $\alpha_{i}$ é o efeito do bloco $i$,
+$\tau_j$ é o efeito da variedade $j$, $\mu$ é a média de $Y$ na ausência
+do efeito dos blocos e da variedade e $\sigma^2$ é a variância das
+observações ao redor das suas respectivas médias. Note que a média
+($\mu$) tem dois índices, um referente ao bloco e outro à variedade.
+
+```{r}
+#-----------------------------------------------------------------------
+# Ajuste do modelo.
+
+m0 <- lm(producao ~ bloco + variedade, data = PimentelEg5.2)
+
+# Estimativas dos efeitos. Restrição de zerar primeiro nível.
+cbind(coef(m0))
+
+# Aqui tem-se o grupo de coeficientes para cada um dos termos do
+# preditor para a média (\mu = 0, \alpha_i = 1, \tau_j = 2).
+split(coef(m0), m0$assign)
+
+# Matrizes de contrastes utilizadas, sob a retrição zerar primeiro nível.
+contrasts(PimentelEg5.2$bloco)
+contrasts(PimentelEg5.2$variedade)
+
+# Médias amostrais.
+aggregate(producao ~ variedade, data = PimentelEg5.2, FUN = mean)
+```
+
+No modelo estatístico para DBC, tem-se dois termos com efeito na média: os
+blocos e as variedades, que são os parâmetros com subíndice. Como os
+fatores são categóricos, $k-1$ parâmetros são estimados para acomodar o
+efeito de cada um ($k$ é o número de níveis). O R por padrão usa a
+restrição de zerar o efeito do primeiro nível de cada fator e cada
+coeficiente corresponde, então, à diferença entre o nível de referência e
+outro nível qualquer.
+
+O prefixo no nome dos coeficientes vem dos correspondentes termos do
+modelo. O elemento `assign` mostra que foi atribuido o mesmo número
+inteiro para os coeficientes do mesmo termo.
+
+É possível usar outra restrição ou tipo de contraste. Abaixo foi usado o
+contraste que zera o efeito do último nível, padrão de outro software.
+
+```{r}
+m1 <- update(m0, contrasts = list(bloco = "contr.SAS"))
+split(data.frame(coef(m0), coef(m1), row.names = NULL), m0$assign)
+
+# Médias ajustadas de mínimos quadrados (least squares means).
+# L <- doBy::LSmatrix(m1, effect = "variedade")
+L <- matrix(c(1, 0.25, 0.25, 0.25, 0, 0, 0, 0, 0, 0, 0,
+              1, 0.25, 0.25, 0.25, 1, 0, 0, 0, 0, 0, 0,
+              1, 0.25, 0.25, 0.25, 0, 1, 0, 0, 0, 0, 0,
+              1, 0.25, 0.25, 0.25, 0, 0, 1, 0, 0, 0, 0,
+              1, 0.25, 0.25, 0.25, 0, 0, 0, 1, 0, 0, 0,
+              1, 0.25, 0.25, 0.25, 0, 0, 0, 0, 1, 0, 0,
+              1, 0.25, 0.25, 0.25, 0, 0, 0, 0, 0, 1, 0,
+              1, 0.25, 0.25, 0.25, 0, 0, 0, 0, 0, 0, 1),
+            byrow = TRUE,
+            nrow = nlevels(PimentelEg5.2$variedade),
+            dimnames = list(levels(PimentelEg5.2$variedade), NULL))
+
+L %*% coef(m1)
+```
+
+O interesse nesse experimento é estudar o efeito das variedades. No
+entanto, no modelo tem-se também o efeito dos blocos, que foram
+incluídos para efeito de controle local. Uma maneira de representar 
+o efeito das variedades é calcular as médias ajustadas, ao invés de 
+considerar os coeficientes estimados. Ajustar, no caso, é considerar 
+que para cada termo fora de interesse, os efeitos terão como peso o inverso 
+do número de níveis. Sendo assim, com 4 blocos os pesos são 1/4, ou seja, 
+cada bloco contribui com 1/4 do seu efeito. Perceba que isso é exatamente 
+uma média de efeitos. Apesar da simplicidade, esse tipo de média ficou 
+conhecida por *lsmeans* (Least Squares Means).
+
+## Avaliação dos pressupostos
+
+Além das suposições de normalidade e homogeneidade de variâncias, no
+modelo para DBC tem-se que o efeito dos blocos e das variedades é
+aditivo. Ou seja, espera-se que ao mudar de bloco as médias das diferentes
+variedades sejam deslocadas em igual quantidade. Mas há situações em
+que isso pode não acontecer. Por exemplo, imagine um experimento de
+competição de cultivares em que existem blocos pouco férteis e muito
+férteis. Pode acontecer que no bloco fértil exista praticamente nunhuma
+diferença entre as cultivares, já que o ambiente é favorável. No bloco
+pouco fértil, por outro lado, as cultivares melhor adaptadas à baixa
+fertilidade podem apresentar produção superior. Em outras palavras, nesse
+cenário o bloco interage com as cultivares, pois as diferenças entre
+elas é influenciada pelos blocos. O modelo estatístico assume
+aditividade e, por isso, cabe na hora do planejamento perceber se a
+característica blocada (fertilidade) pode influenciar no efeito sendo
+estudado (cultivares). Em caso afirmativo, poder-se-ia procurar uma área
+experimental uniforme em fertilidade (de preferência, nesse caso, de
+baixa fertilidade) para permitir distinguir as cultivares.
+
+```{r}
+#-----------------------------------------------------------------------
+# Exibe o quarteto fantástico da avaliação dos pressupostos.
+
+par(mfrow = c(2, 2))
+plot(m0); layout(1)
+
+```
+
+Os gráficos de resíduos não apresentam evidências para o fuga dos
+pressupostos. O gráfico 2-1 (Scale-Location) mostra que a dispersão dos
+valores é a mesma independente da média. O gráfico 1-2 (Normal Q-Q)
+mostra que os pontos não fogem acentuadamente uma reta, indicando que a 
+suposição de normalidade dos erros foi atendida.
+
+O teste de Tukey para não aditividade foi proposto por Tukey em 1949 com
+a finalidade de verificar se dois termos tem efeitos aditivos. Não é o
+objetivo dessa vinheta entrar em detalhes sobre os fundamentos do teste.
+
+No R há ao menos 3 pacotes com funções para fazer o teste de aditividade
+de Tukey: [`agricolae::nonadditivity()`], [`asbio::tukey.add.test()`] e
+[`addititivityTests::tukey.test()`]. No entanto, esse teste pode ser
+feito sem chamar pacotes, conforme ilustramos abaixo.
+
+```{r}
+#-----------------------------------------------------------------------
+# Teste da aditividade bloco x tratamento.
+
+X <- model.matrix(m0)
+beta <- coef(m0)
+a <- m0$assign
+aditiv <- X[, a == 1] %*% beta[a == 1] * X[, a == 2] %*% beta[a == 2]
+
+anova(update(m0, . ~ . + aditiv))
+
+# Pacote agricolae possuí função para o teste da aditividade.
+# agricolae::nonadditivity(y = PimentelEg5.2$prod,
+#                          factor1 = PimentelEg5.2$bloco,
+#                          factor2 = PimentelEg5.2$variedade,
+#                          df = df.residual(m0),
+#                          MSerror = deviance(m0)/df.residual(m0))
+
+```
+
+Pelo resultado do teste não rejeitamos a hipótese de que os efeitos de
+blocos e variedades são aditivos.  Para detalhes sobre o teste
+da aditividade visite
+<http://www.ime.usp.br/~botter/mae327/Blocos/Blocos.pdf>, página 20.
+
+## Inferências
+
+O efeito das variedades é representado pelos coeficientes $\tau_j$ no
+modelo estatístico do experimento. Se não existe efeito das variedades,
+os valores estimados $\tau_{i}$ serão próximos a zero. A hipóteses nula
+de não haver efeito é representada por
+
+$$
+  \text{H}_{0}: \tau_j = 0, \text{para todo}\,j.
+$$
+
+Essa hipótese é avaliada pelo estatística F do quadro de análise de
+variância.
+
+```{r}
+anova(m0)
+```
+
+Pelo quadro, existe efeito das variedades, ou seja, elas não apresentam 
+a mesma produção média. Os códigos abaixo retornam os valores preditos 
+para as variedades sob efeito do bloco I. Ou seja, esses são os valores
+esperados de produção para as variedades cultivadas no bloco I. Se outro
+bloco for considerado, os valores médios serão diferentes devido à 
+mudança no efeito do bloco. No entanto, é importante enfatizar que as
+diferenças entre as médias das variedades é a mesma, independente do
+bloco considerado. Portanto, como o interesse está na diferença entre
+médias, tanto faz o bloco escolhido.
+
+```{r}
+# Predição das médias das variades no bloco I.
+pred <- data.frame(variedade = levels(PimentelEg5.2$variedade),
+                   bloco = "I")
+pred <- cbind(pred,
+              as.data.frame(predict(m0,
+                                    newdata = pred,
+                                    interval = "confidence")))
+pred$variedade <- reorder(pred$variedade, pred$fit)
+pred
+```
+
+Se por um lado a escolha do bloco não altera a diferença entre médias,
+por outro, existe preferência por considerar não o efeito de um bloco
+qualquer, mas sim o efeito médio de todos. São duas as principais
+vantagens: 1) com o efeito médio dos blocos o erro padrão das médias é
+menor e 2) considerando que efeito dos blocos vem de uma distribuição de
+probabilidades, usar a média dos efeitos tem uma interpretação
+interessante. Por exemplo, se os blocos controlam as variações de
+fertilidade do solo, ao considerar a média do efeito dos blocos tem-se as
+produtividades médias das variedades ao longo dessas condições de
+fertilidade (férteis, normais, ruins). Embora o objetivo do experimento 
+seja estudar a diferença entre as variedades, o pesquisador tem necessidade
+de reportar um número que indique, de alguma forma, a previsão de
+desempenho futuro.
+
+```{r}
+suppressMessages(library(multcomp, quietly = TRUE))
+
+# Vetor de pesos para o valor esperado da variedade 1 no bloco I e na
+# média dos blocos.
+l1 <- matrix(c(1, 0,    0,    0,    0, 0, 0, 0, 0, 0, 0), nrow = 1)
+l0 <- matrix(c(1, 0.25, 0.25, 0.25, 0, 0, 0, 0, 0, 0, 0), nrow = 1)
+
+# Os erros padrões também são diferentes, assim como as médias.
+summary(glht(m0, linfct = l1))
+summary(glht(m0, linfct = l0))
+
+# Erros-padrões obtidos matricialmente.
+# sqrt(l1 %*% vcov(m0) %*% t(l1))
+# sqrt(l0 %*% vcov(m0) %*% t(l0))
+
+# A prova de que a variância do efeito de bloco não contribui para a
+# variância da média quando se usa a média dos blocos.
+round(data.frame("bloco I" = t(l1 %*% vcov(m0)),
+                 "média" = t(l0 %*% vcov(m0))), 5)
+```
+
+O código acima mostra que ao considerar a médias dos blocos o
+erro-padrão foi menor. Isso porque na média dos blocos, os efeitos dos
+blocos se anulam e por isso o erro-padrão da estimativa do efeito dos
+blocos é 0 e não contribui pro erro-padrão da estimativa dos efeitos das
+variedades.
+
+```{r}
+# IC *individual* de cobertura 95%.
+# ic <- confint(glht(m0, linfct = L), calpha = univariate_calpha())
+# ic <- as.data.frame(ic$confint)
+
+# IC *global* de cobertura 95%. CUIDADO, essa função demora muito quando
+# o número de níveis é grande.
+ic <- confint(glht(m0, linfct = L))
+ic <- as.data.frame(ic$confint)
+
+names(ic) <- c("fit", "lwr", "upr")
+
+pred <- cbind(variedade = pred$variedade, ic)
+pred
+
+library(latticeExtra)
+
+segplot(variedade ~ lwr + upr, centers = fit, data = pred,
+        draw = FALSE, horizontal = FALSE,
+        xlab = "Variedades de batatinha",
+        ylab = expression("Produção de batatinha"~(t~ha^{-1})),
+        scales = list(x = list(rot = 90)),
+        panel = function(x, y, z, centers, ...) {
+            panel.segplot(x = x, y = y, z = z, centers = centers, ...)
+            panel.text(x = as.numeric(z), y = centers,
+                       label = sprintf("%0.2f", centers),
+                       srt = 90, cex = 0.8, adj = c(0.5, -0.5))
+        })
+```
+
+Por fim, uma representação intessante é colocar as médias ajustadas das
+variades com alguma presentação de incerteza, como o intervalo de
+confiança. No caso, foi usando o intervalo de confiança com cobertura
+global de 95%. Os intervalos de cobertura individual são aqueles cuja
+probabilidade de conter o parâmetro é $\gama$ para cada coeficiente
+separadamente.  Já o de confiança global, a probabilidade $\gama$ é a
+de todos os intervalores conterem os parâmetros simultaneamente. Esses
+intervalos são mais amplos (menos precisos) que os de cobertura individual.
+
+## Gerando experimento em DBC
+
+A casualização em um experimento em delineamento de blocos casualizados
+é feita dentro de cada bloco. O código abaixo produz um sorteio
+considerando a mesma estrutra do conjunto de dados analisado.
+
+```{r}
+replicate(nlevels(PimentelEg5.2$bloco),
+          sample(levels(PimentelEg5.2$variedade)))
+```
+
+## Informações da sessão
+
+```{r}
+sessionInfo()
+```
+
+<!------------------------------------------- -->
+
+[**labestData**]: https://gitlab.c3sl.ufpr.br/pet-estatistica/labestData
+[`agricolae::nonadditivity()`]: http://www.inside-r.org/packages/cran/agricolae/docs/nonadditivity
+[`asbio::tukey.add.test()`]: http://www.inside-r.org/packages/cran/asbio/docs/tukey.add.test
+[`addititivityTests::tukey.test()`]: (http://www.inside-r.org/packages/cran/additivityTests/docs/tukey.test

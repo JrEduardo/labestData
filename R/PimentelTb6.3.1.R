@@ -1,0 +1,69 @@
+#' @name PimentelTb6.3.1
+#' @title Experimento de Adubação Mineral e Verde em Cana-de-açúcar
+#' @description Experimento de adubação de cana da Usina Monte Alegre,
+#'     com fertilizantes minerais e adubos verdes. O delineamento
+#'     utilizado foi um quadrado latino de 6 x 6.
+#' @format Um \code{data.frame} com 36 observações e 4 variáveis, em que
+#'
+#' \describe{
+#'
+#' \item{\code{linhas}}{Fator de 6 níveis qualitativos, usado para
+#'     identificar as linhas do quadrado latino de 6 x 6.}
+#'
+#' \item{\code{colunas}}{Fator de 6 níveis qualitativos, usado para
+#'     identificar as colunas do quadrado latino de 6 x 6.}
+#'
+#' \item{\code{adub}}{Fator de 6 níveis qualitativos, que são os 6
+#'     diferentes tipos de tratamento provenientes da combinação de
+#'     calcário, crotalária e adubação mineral. A variável assume os
+#'     valores 0 ou 1, sendo que 0 representa ausência e 1 representa
+#'     presença de cada um dos fatores. A primeira posição representa a
+#'     presença ou ausência de calcário, a segurança posição representa
+#'     a presença ou ausência de crotalária (adubo verde), e a terceira
+#'     posição, caso exista, representa a presença ou ausência de adubo
+#'     mineral.}
+#'
+#' \item{\code{prod}}{Totais de açúcar provável, em kg por parcela.}
+#'
+#' }
+#' @details Considerando que a composição do fator adubação é dada por 3
+#'     fatores combinados (calcário, crotalária e adubo mineral), ao
+#'     transformar os digitos nos níveis desses fatores, tem-se na
+#'     realidade um experimento fatorial incompleto no qual não existem
+#'     os níveis de de adução mineral para o nível sem crotalária.
+#' @keywords DQL
+#' @source Pimentel-Gomes, F. (2009). Curso de Estatística Experimental
+#'     (15th ed.). Piracicaba, SP: FEALQ. (Tabela 6.3.1, página 99)
+#' @examples
+#'
+#' data(PimentelTb6.3.1)
+#'
+#' str(PimentelTb6.3.1)
+#'
+#' aggregate(prod ~ adub, data = PimentelTb6.3.1, FUN = sum)
+#'
+#' library(lattice)
+#'
+#' xyplot(prod ~ adub,
+#'        data = PimentelTb6.3.1,
+#'        xlab = "Combinação calcário-crotalária-adubo",
+#'        ylab = "Produção (kg/parcela)")
+#'
+#' levelplot(prod ~ linhas + colunas,
+#'           data = PimentelTb6.3.1, aspect = "iso",
+#'           panel = function(x, y, z, subscripts, ...) {
+#'               panel.levelplot(x, y, z, subscripts = subscripts, ...)
+#'               panel.text(x, y,
+#'                          PimentelTb6.3.1$adub[subscripts],
+#'                          cex = 0.8)
+#'               panel.text(x, y, z, pos = 1)
+#'           })
+#'
+#' # Decompondo os digitos para formas os níveis dos fatores
+#' # constituintes.
+#' L <- strsplit(as.character(PimentelTb6.3.1$adub), split = "")
+#' t(sapply(L, FUN = function(x) {
+#'     if (length(x) <= 2) c(x, NA) else x
+#' }))
+#'
+NULL

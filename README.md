@@ -2,6 +2,12 @@
 
 **PET Estatística UFPR** - <pet.estatistica.ufpr@gmail.com>
 
+[![Build Status](https://travis-ci.org/pet-estatistica/labestData.svg?branch=master)](https://travis-ci.org/pet-estatistica/labestData)
+Build status for the stable version (`master` branch)
+
+[![Build Status](https://travis-ci.org/pet-estatistica/labestData.svg?branch=devel)](https://travis-ci.org/pet-estatistica/labestData)
+Build status for the development version (`devel` branch)
+
 > “Without data, you're just another person with an opinion.”
 >
 >> -- W. Edwards Deming
@@ -37,7 +43,7 @@ Estatística Multivariada.
 
 <!-- Inserir links das milestones que representam os livros -->
 1. Banzatto, D. A., Kronka, S. D. (2013). **Experimentação Agrícola**
-   (4th ed.). Jaboticabal, SP: Funep.
+   (4th ed.). Jaboticabal, SP: Funep.  
    [_Milestone_ Banzatto](https://gitlab.c3sl.ufpr.br/pet-estatistica/labestData/milestones/1)
    <!-- [*Walmes Zeviani*](https://gitlab.c3sl.ufpr.br/walmes) -->
 
@@ -71,7 +77,7 @@ Estatística Multivariada.
 
 8. Ferreira, D. F. (2011). **Estatística Multivariada** (2nd
    ed.). Lavras, MG: Editora UFLA.  
-   [_Milestone_ Mingoti](https://gitlab.c3sl.ufpr.br/pet-estatistica/labestData/milestones/8)
+   [_Milestone_ Ferreira](https://gitlab.c3sl.ufpr.br/pet-estatistica/labestData/milestones/8)
    <!-- [*Eduardo Junior*](https://gitlab.c3sl.ufpr.br/eerj12) -->
 
 9. Manly, B. J. F. (2005). **Métodos Estatísticos Multivariados- uma
@@ -82,18 +88,45 @@ Estatística Multivariada.
 10. Storck, L., Garcia, B. C., Lopes, S. J., Estefanel,
     V. (2011). **Experimentação Vegetal** (3th ed.). Santa Maria, RS:
     Editora UFSM.  
-   [_Milestone_ Manly](https://gitlab.c3sl.ufpr.br/pet-estatistica/labestData/milestones/10)
+   [_Milestone_ Storck](https://gitlab.c3sl.ufpr.br/pet-estatistica/labestData/milestones/10)
    <!-- [*Mônica Ludmilla*](https://gitlab.c3sl.ufpr.br/mlho15) -->
 
 11. Charnet, R., de Luna Freire, C.A., Charnet, E.M.R., Bonvino,
    H. (2008). **Análise de modelos de regressão linear com aplicações**
    (2nd ed.). Campinas, SP: Editora Unicamp  
-   [_Milestone_ Pimentel-Gomes](https://gitlab.c3sl.ufpr.br/pet-estatistica/labestData/milestones/11)
+   [_Milestone_ Charnet](https://gitlab.c3sl.ufpr.br/pet-estatistica/labestData/milestones/11)
     <!-- [*Daniel Ikenaga*](https://gitlab.c3sl.ufpr.br/di12) -->
 
 12. Demétrio, C. G. B., & Zocchi, S. S. (2011). **Modelos de
    Regressão**. Piracicaba: ESALQ.  
    [_Milestone_ Demetrio](https://gitlab.c3sl.ufpr.br/pet-estatistica/labestData/milestones/12)
+   <!-- [*Alcides Neto*](https://gitlab.c3sl.ufpr.br/acn13) -->
+
+13. Ramos, E. M. L. S., & Almeida, S. S, & Araújo,
+   A. R. (2013). **Controle Estatístico da Qualidade** (1th ed.). Porto
+   Alegre, RS: Bookman.  
+   [_Milestone_ Ramos](https://gitlab.c3sl.ufpr.br/pet-estatistica/labestData/milestones/13)
+   <!-- [*Ângela Legey*](https://gitlab.c3sl.ufpr.br/alcl12) -->
+
+14. Costa, A. F. B., Epprecht, E. K., Carpinetti, L. (2010).  **Controle
+   Estatístico de Qualidade** (2nd ed.). São Paulo - SP: Editora
+   Atlas.  
+   [_Milestone_ Epprecht](https://gitlab.c3sl.ufpr.br/pet-estatistica/labestData/milestones/14)
+   <!-- [*Paula Alessandra*](https://gitlab.c3sl.ufpr.br/pazd11) -->
+
+15. Barbin, D. (2013). **Planejamento e Análise Estatística de
+   Experimentos Agronômicos** (2nd ed.). Londrina, PR: Mecenas.  
+   [_Milestone_ Barbin](https://gitlab.c3sl.ufpr.br/pet-estatistica/labestData/milestones/15)
+   <!-- [*Walmes Zeviani*](https://gitlab.c3sl.ufpr.br/walmes) -->
+
+16. Paula, G. A. (2004). **Modelos de regressão: com apoio
+   computacional**. São Paulo, SP: IME-USP.  
+   [_Milestone_ Paula](https://gitlab.c3sl.ufpr.br/pet-estatistica/labestData/milestones/16)
+   <!-- [*Eduardo Junior*](https://gitlab.c3sl.ufpr.br/eerj12) -->
+
+17. Vieira, S.(1999). **Estatística experimental** (2th ed.). São Paulo, SP: Atlas.  
+   [_Milestone_ Vieira](https://gitlab.c3sl.ufpr.br/pet-estatistica/labestData/milestones/17)
+   <!-- [*Ângela Legey*](https://gitlab.c3sl.ufpr.br/alcl12) e -->
    <!-- [*Alcides Neto*](https://gitlab.c3sl.ufpr.br/acn13) -->
 
 Ao término desta primeira fase pretende-se ter todos os conjuntos de
@@ -112,14 +145,14 @@ professores.
 |----------------------------------|------------|---------|---------|
 | Alcides Conte Neto               | Voluntário | S       | -       |
 | Altamiro Antonio Basiewics       | Petiano    | S       | -       |
-| Angela Luiza Cunha Legey         | Petiana    | S       | -       |
+| Ângela Luiza Cunha Legey         | Petiana    | S       | -       |
 | Bruna Davies Wundervald          | Petiana    | S       | -       |
 | Bruno Geronymo                   | Petiano    | S       | -       |
 | Daniel Ikenaga                   | Petiano    | S       | -       |
 | Eduardo Elias Ribeiro Junior     | Petiano    | S       | -       |
 | Gabriel Sartori Klostermann      | Petiano    | S       | -       |
 | Jhenifer Caetano Veloso          | Petiana    | S       | -       |
-| Monica Ludmila Hintz De Oliveira | Petiana    | S       | -       |
+| Mônica Ludmila Hintz De Oliveira | Petiana    | S       | -       |
 | Paula Alessandra Zeizer Dimas    | Petiana    | S       | -       |
 | Walmes Marques Zeviani           | Professor  | S       | -       |
 | Cesar Augusto Taconeli           | Professor  | S       | -       |
@@ -149,13 +182,13 @@ fontes:
      site com materiais suplementares. Essa será a maior fonte de dados
      para o pacote labestData.
   2. Internet. A internet está repleta de dados. Existem dados prontos
-     em formas de tabela (páginas pessoais, orgãos públicos, instiuições
+     em formas de tabela (páginas pessoais, órgãos públicos, instituições
      de pesquisa, resultados de enquetes, etc) e também dados não
      tabulados/organizados que podem ser capturados (com *web scrap*,
      por exemplo) e processados.
   3. Arquivos pessoais. Alunos, professores, pesquisadores também podem
      disponibilizar os dados de suas pesquisas para inclusão no pacote.
-  4. Simulação. Embora sejam artificiais, dados proveninentes de
+  4. Simulação. Embora sejam artificiais, dados provenientes de
      simulação podem ser considerados pois, muitas vezes, são
      deliberadamente feitos com uma particular característica relevante
      para um problema. No pacote labestData essa será a menor fonte de
@@ -171,7 +204,7 @@ proprietários dos dados, pessoas ou instituições.
 
 Por razões de conveniência, a primeira etapa do pacote irá priorizar
 dados correspondentes às disciplinas de Análise de Regressão Linear
-(CE071), Planjamento de Experimentos I (CE213) e Métodos Estatísticos
+(CE071), Planejamento de Experimentos I (CE213) e Métodos Estatísticos
 Multivariados (CE090). No Curso de Estatística da UFPR, essas
 disciplinas são ofertadas no primeiro semestre. Na segunda etapa, os
 dados irão priorizar as disciplinas de Modelos Lineares Generalizados
@@ -181,7 +214,7 @@ semestre para o Curso de Estatística da UFPR.
 
 Embora sejam esses os contextos de prioridade, dados de outras áreas são
 igualmente bem vindos, como dados espaciais, séries temporais, de
-análise de sobreviência, de questionário, etc.
+análise de sobrevivência, de questionário, etc.
 
 Os dados reais devem possuir uma boa descrição das variáveis (nome,
 unidade de medida, instrumento de medida usado, definição da unidade

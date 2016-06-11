@@ -1,0 +1,51 @@
+#' @name CostaTb7
+#' @title Tipos de Inoculantes em Variedades de Cana-de-açúcar
+#' @description Experimento fatorial que avaliou o peso do colmo de duas
+#'     variedades de cana-de-açúcar em resposta a três inoculantes
+#'     aplicados.
+#' @format Um \code{data.frame} com 24 observações e 4 variáveis.
+#'
+#' \describe{
+#'
+#' \item{\code{varied}}{Fator de níveis nominais que representa as
+#'     cultivares de cana-de-açúcar.}
+#'
+#' \item{\code{inocu}}{Fator de níveis nominais que representa os
+#'     inoculantes aplicados. Possivelmente são inóculos de bactérias
+#'     para fixação de nitrogênio.}
+#'
+#' \item{\code{bloco}}{Fator de níveis nominais que são os blocos do
+#'     experimento.}
+#'
+#' \item{\code{peso}}{Variável resposta contínua que é o peso de colmos,
+#'     em ton ha^{^{-1}}.}
+#'
+#' }
+#' @keywords DBC FAT2
+#' @source Costa, J. R. (2003). Técnicas experimentais aplicadas às
+#'     ciências agrárias (Documentos 163). Seropédica, RJ: Embrapa
+#'     Agrobiologia. (Tabela 7, pág. 68)
+#' @examples
+#'
+#' library(lattice)
+#'
+#' data(CostaTb7)
+#'
+#' str(CostaTb7)
+#'
+#' ftable(with(CostaTb7,
+#'             tapply(peso,
+#'                    list(varied = varied,
+#'                         inocu = inocu,
+#'                         bloco = bloco),
+#'                    FUN = mean)))
+#'
+#' xyplot(peso ~ inocu, groups = varied, data = CostaTb7,
+#'        as.table = TRUE, layout = c(NA, 1),
+#'        jitter.x = TRUE, type = c("p", "a"),
+#'        auto.key = list(title = "Variedade de cana-de-açúcar",
+#'                        cex.title = 1, columns = 2),
+#'        xlab = "Tipo de inoculante",
+#'        ylab = expression("Peso de colmo"~(ton~ha^{-1})))
+#'
+NULL
