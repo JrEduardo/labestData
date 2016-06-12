@@ -1,0 +1,8 @@
+origem	MO	fosf	postoMO	postofosf	Nc	Nd
+picos	0.6	2	1	1	6	0
+luzi	0.9	16.6	2	4	3	2
+parn	1.1	3.4	3	2	4	0
+piri	1.2	7.2	4	3	3	0
+ipan	1.3	73.3	5	7	0	2
+caico	1.4	30.2	6	5	1	0
+tere	1.5	38.9	7	6	0	0

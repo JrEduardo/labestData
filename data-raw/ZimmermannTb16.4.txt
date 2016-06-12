@@ -1,0 +1,10 @@
+classe	mortas	posto
+A	12	4
+A	13	5
+A	15	7
+B	11	3
+B	9	2
+B	7	1
+C	16	8
+C	17	9
+C	14	6
