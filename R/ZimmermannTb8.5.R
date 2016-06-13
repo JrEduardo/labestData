@@ -10,7 +10,7 @@
 #' \describe{
 #'
 #' \item{\code{bloco}}{Fator de níveis numéricos. Identifica o bloco da 
-#'     repetição}
+#'     repetição.}
 #'     
 #' \item{\code{trat}}{Fator de níveis numericos. Identifica o tratamento 
 #'     aplicado.}
