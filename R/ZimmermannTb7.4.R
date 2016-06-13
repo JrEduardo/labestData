@@ -4,7 +4,7 @@
 #'     irrigado. O experimento foi conduzido em ensaio em reticulado retangular
 #'     5x6, com três repetições e três blocos (X, Y e Z). A unidade de 
 #'     medida é kg/ha. 
-#' @format Um \code{data.frame} com 32 observações e 3 variáveis
+#' @format Um \code{data.frame} com 90 observações e 3 variáveis
 #'
 #' \describe{
 #'
@@ -12,7 +12,7 @@
 #'    observação.}
 #'
 #' \item{\code{bloco}}{Fator de níveis nominais. Identifica o bloco da 
-#'     repetição}
+#'     repetição.}
 #'
 #' \item{\code{prod}}{Produção de grãos de arroz irrigado (ka ha\eqn{^{-1}}).}
 #'
