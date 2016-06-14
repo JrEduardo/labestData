@@ -2,7 +2,7 @@
 % Please edit documentation in R/FerreiraEx8.5.1.R
 \name{FerreiraEx8.5.1}
 \alias{FerreiraEx8.5.1}
-\title{Diâmetro à Altura do Peito e Altura de Árvores em Lavras, MG}
+\title{Diâmetro à Altura do Peito e Altura de Árvores em Lavras-MG}
 \format{Um \code{data.frame} com 30 observações e 4 variáveis.
 
 \describe{
@@ -15,22 +15,24 @@
 
 \item{\code{alt}}{Altura da árvore.}
 
-\item{\code{dap}}{Diâmetro à altura do peito, 1.30 metros.}
+\item{\code{dap}}{Diâmetro à altura do peito, 1.30 metros do solo.}
 
 }}
 \source{
 Ferreira, D. F. (2011). Estatística Multivariada (2nd
-    ed.). Lavras, MG: Editora UFLA. (Exercício 8.5.1 pág. 351)
+    ed.). Lavras, MG: Editora UFLA. (Exercício 8.5.1, pág. 351)
 }
 \description{
 Resultados de um experimento inteiramente casualizado
-    com dez repetições, realizado no período de seca para avaliar o
+    com dez repetições, realizado no período de seca, para avaliar o
     diferenças entre diferentes transectos na altura e no diâmetro à
     altura do peito (DAP) das árvores em uma área de recuperação às
     margens de um rio na região de Lavras, MG.
 }
 \examples{
+
 data(FerreiraEx8.5.1)
+str(FerreiraEx8.5.1)
 
 library(lattice)
 library(latticeExtra)
@@ -46,11 +48,10 @@ doubleYScale(p1, p2, add.ylab2 = TRUE)
 xyplot(alt ~ dap,
        groups = tran,
        grid = TRUE,
-       auto.key = list(space = "right", title = "Transecto", cex = 0.8),
-       data = FerreiraEx8.5.1)
-
-(m0 <- lm(cbind(dap, alt) ~ tran, data = FerreiraEx8.5.1))
-manova(m0)
+       auto.key = list(title = "Transecto", cex = 0.8),
+       data = FerreiraEx8.5.1,
+       xlab = "Diâmetro à altura do peito",
+       ylab = "Altura")
 
 }
 \keyword{manova}

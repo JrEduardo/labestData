@@ -1,32 +1,32 @@
 #' @name FerreiraEg8.1
 #' @title Número de Grãos e Produtividade em Cultivares de Feijão
 #' @description Dados obtidos de um experimento inteiramente casualizado
-#'     com cinco repetições realizado no período de seca onde avaliou-se
-#'     o efeito de diferentes cultivares na produtividade do feijão por
-#'     meio das variáveis produtividade e número médio de grãos por
-#'     vagem.
+#'     com cinco repetições, realizado no período de seca, onde
+#'     avaliou-se o efeito de diferentes cultivares na produtividade do
+#'     feijão por meio das variáveis produtividade e número médio de
+#'     grãos por vagem.
 #' @format Um \code{data.frame} com 20 observações e 4 variáveis.
 #'
 #' \describe{
 #'
 #' \item{\code{cult}}{Fator nominal com 4 níveis que representa as
-#'     cultivares de feijão experimentadas.}
+#'     cultivares de feijão.}
 #'
 #' \item{\code{rept}}{Inteiro que identifica as unidades experimentais
 #'     de cada cultivar.}
 #'
-#' \item{\code{ngrao}}{Contagem do número médio de grãos por vagem.}
+#' \item{\code{ngrao}}{Número médio de grãos por vagem.}
 #'
-#' \item{\code{prod}}{Produtividade de feijão, mensurada em kg
-#'     ha\eqn{^{-1}}.}
+#' \item{\code{prod}}{Produtividade de feijão, em kg ha\eqn{^{-1}}.}
 #'
 #' }
 #' @keywords manova
 #' @source Ferreira, D. F. (2011). Estatística Multivariada (2nd
-#'     ed.). Lavras, MG: Editora UFLA. (Exemplo 8.1 pág. 339)
-#'
+#'     ed.). Lavras, MG: Editora UFLA. (Exemplo 8.1, pág. 339)
 #' @examples
+#'
 #' data(FerreiraEg8.1)
+#' str(FerreiraEg8.1)
 #'
 #' library(lattice)
 #' library(latticeExtra)
@@ -42,9 +42,10 @@
 #' xyplot(prod ~ ngrao,
 #'        groups = cult,
 #'        grid = TRUE,
-#'        auto.key = list(space = "right", title = "Cultivar", cex = 0.8),
-#'        data = FerreiraEg8.1)
-#' (m0 <- lm(cbind(ngrao, prod) ~ cult, data = FerreiraEg8.1))
-#' manova(m0)
-#' 
+#'        auto.key = list(space = "right",
+#'                        title = "Cultivar", cex = 0.8),
+#'        data = FerreiraEg8.1,
+#'        xlab = "Número médio de grãos por vagem",
+#'        ylab = "Produção de feijão")
+#'
 NULL
