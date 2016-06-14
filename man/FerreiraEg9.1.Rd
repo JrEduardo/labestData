@@ -2,10 +2,11 @@
 % Please edit documentation in R/FerreiraEg9.1.R
 \name{FerreiraEg9.1}
 \alias{FerreiraEg9.1}
-\title{Avaliação de Areia e Argila para Diferentes Usos da Terra na
+\title{Teores de Areia e Argila para Diferentes Usos da Terra na
     Amazônia}
-\format{Um \code{data.frame} com 6 observações e 2 variáveis.
-    \describe{
+\format{Um \code{data.frame} com 6 observações e 2 variáveis, em que
+
+\describe{
 
 \item{\code{areia}}{Média das medidas de areia.}
 
@@ -19,7 +20,7 @@ O sistema de uso da terra é indicado conforme nomenclatura das linhas
     capoeira velha, (CN) para capoeira nova e (P) para pastagem.}
 \source{
 Ferreira, D. F. (2011). Estatística Multivariada (2nd
-    ed.). Lavras, MG: Editora UFLA. (Exemplo 9.1 pág. 402)
+    ed.). Lavras, MG: Editora UFLA. (Exemplo 9.1, pág. 402)
 }
 \description{
 Os dados referem-se a média de vários pontos amostrais
@@ -31,20 +32,26 @@ Os dados referem-se a média de vários pontos amostrais
 \examples{
 
 data(FerreiraEg9.1)
+str(FerreiraEg9.1)
+rownames(FerreiraEg9.1)
 
 (D <- dist(FerreiraEg9.1))
 plot(hclust(D), hang = -1)
 
-library(lattice) 
+library(lattice)
 
 (cl <- kmeans(FerreiraEg9.1, 3))
+
 xyplot(argila ~ areia, groups = cl$cluster,
        data = FerreiraEg9.1,
        pch = 19, cex = 1.3, grid = TRUE,
+       xlab = "Teor de argila (\%)",
+       ylab = "Teor de areia (\%)",
        panel = function(x, y, ...) {
            cols <- trellis.par.get()$superpose.symbol$col[cl$cluster]
            panel.xyplot(x, y, ...)
-           ltext(x, y, labels = rownames(FerreiraEg9.1),
+           ltext(x, y,
+                 labels = rownames(FerreiraEg9.1),
                  pos = 4, offset = 1, col = cols)
        })
 

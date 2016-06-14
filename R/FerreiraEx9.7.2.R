@@ -5,30 +5,28 @@
 #'     diferentes tipos de carnes. O estudo é apresentado em Bussab et
 #'     al., 1990 sob o objetivo de agrupar os tipos de carne com base em
 #'     sua informação nutricional.
-#' @format Um \code{data.frame} com 5 observações e 5 variáveis.
-#'     \describe{
-#' 
-#' \item{\code{ener}}{Valor energético de uma porção, mensurado em
-#' calorias.}
-#' 
-#' \item{\code{prot}}{Valor proteico de uma porção, mensurado em
-#' gramas.}
-#' 
-#' \item{\code{gord}}{Quantidade de gordura em uma porção, mensurada em
-#' gramas.}
-#' 
-#' \item{\code{calc}}{Quantidade de cálcio em uma porção, mensurada em
+#' @format Um \code{data.frame} com 5 observações e 5 variáveis, em que
+#'
+#' \describe{
+#'
+#' \item{\code{ener}}{Valor energético de uma porção, em calorias.}
+#'
+#' \item{\code{prot}}{Valor proteico de uma porção, em gramas.}
+#'
+#' \item{\code{gord}}{Quantidade de gordura em uma porção, em gramas.}
+#'
+#' \item{\code{calc}}{Quantidade de cálcio em uma porção, em
 #'     miligramas.}
-#' 
-#' \item{\code{ferro}}{Quantidade de ferro em uma porção, mensurada em
+#'
+#' \item{\code{ferro}}{Quantidade de ferro em uma porção, em
 #'     miligramas.}
-#' 
+#'
 #' }
 #'
 #' O tipo de carne é indicado conforme nomenclatura das linhas do
 #'     \code{data.frame}. Os tipos de carne marisco, siri e camarão são
 #'     todos enlatados.
-#' @keywords KM
+#' @keywords agrupamento
 #' @source Ferreira, D. F. (2011). Estatística Multivariada (2nd
 #'     ed.). Lavras, MG: Editora UFLA. (Exercício 9.7.2, pág. 409)
 #' @references Bussab, W. O., Miazaki, É. S., Andrade,
@@ -37,6 +35,7 @@
 #' @examples
 #'
 #' data(FerreiraEx9.7.2)
+#' FerreiraEx9.7.2
 #'
 #' (cl2 <- kmeans(FerreiraEx9.7.2, 2))
 #' (cl3 <- kmeans(FerreiraEx9.7.2, 3))
@@ -47,7 +46,7 @@
 #' plot(as.dendrogram(hc), main = "Dendograma")
 #' rect.hclust(hc, k = 2, border = 2)
 #' rect.hclust(hc, k = 3, border = 4)
-#' legend(x = 3.3, y = 280,  lty = 1, col = c(2, 4), bty = "n",
+#' legend("topright", lty = 1, col = c(2, 4), bty = "n",
 #'        legend = c("2 grupos (k=2)", "3 grupos (k=3)"))
 #'
 NULL

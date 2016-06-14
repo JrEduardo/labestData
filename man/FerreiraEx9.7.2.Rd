@@ -3,22 +3,20 @@
 \name{FerreiraEx9.7.2}
 \alias{FerreiraEx9.7.2}
 \title{Avaliação Nutricional de Tipos de Carne}
-\format{Um \code{data.frame} com 5 observações e 5 variáveis.
-    \describe{
+\format{Um \code{data.frame} com 5 observações e 5 variáveis, em que
 
-\item{\code{ener}}{Valor energético de uma porção, mensurado em
-calorias.}
+\describe{
 
-\item{\code{prot}}{Valor proteico de uma porção, mensurado em
-gramas.}
+\item{\code{ener}}{Valor energético de uma porção, em calorias.}
 
-\item{\code{gord}}{Quantidade de gordura em uma porção, mensurada em
-gramas.}
+\item{\code{prot}}{Valor proteico de uma porção, em gramas.}
 
-\item{\code{calc}}{Quantidade de cálcio em uma porção, mensurada em
+\item{\code{gord}}{Quantidade de gordura em uma porção, em gramas.}
+
+\item{\code{calc}}{Quantidade de cálcio em uma porção, em
     miligramas.}
 
-\item{\code{ferro}}{Quantidade de ferro em uma porção, mensurada em
+\item{\code{ferro}}{Quantidade de ferro em uma porção, em
     miligramas.}
 
 }
@@ -40,6 +38,7 @@ Dados provenientes de um estudo onde avaliou-se as
 \examples{
 
 data(FerreiraEx9.7.2)
+FerreiraEx9.7.2
 
 (cl2 <- kmeans(FerreiraEx9.7.2, 2))
 (cl3 <- kmeans(FerreiraEx9.7.2, 3))
@@ -50,7 +49,7 @@ hc <- hclust(D)
 plot(as.dendrogram(hc), main = "Dendograma")
 rect.hclust(hc, k = 2, border = 2)
 rect.hclust(hc, k = 3, border = 4)
-legend(x = 3.3, y = 280,  lty = 1, col = c(2, 4), bty = "n",
+legend("topright", lty = 1, col = c(2, 4), bty = "n",
        legend = c("2 grupos (k=2)", "3 grupos (k=3)"))
 
 }
@@ -59,5 +58,5 @@ Bussab, W. O., Miazaki, É. S., Andrade,
     D. F. (1990). Introdução à análise de agrupamentos. São Paulo,
     SP: ABE.
 }
-\keyword{KM}
+\keyword{agrupamento}
 
