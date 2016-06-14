@@ -3,28 +3,32 @@
 \name{FerreiraEx10.11.9}
 \alias{FerreiraEx10.11.9}
 \title{Amostra de uma População Normal Trivariada}
-\format{Um \code{data.frame} com 30 observações e 3 variáveis.
-    \describe{
+\format{Um \code{data.frame} com 30 observações e 3 variáveis, em que
 
-\item{\code{x1}}{Valores na primeira dimensão (\eqn{X_1}) do vetor X.}
+\describe{
+
+\item{\code{x1}}{Valores na primeira dimensão (\eqn{X_1}) do vetor
+    X.}
 
 \item{\code{x2}}{Valores na segunda dimensão (\eqn{X_2}) do vetor X.}
 
-\item{\code{x3}}{Valores na terceira dimensão (\eqn{X_3}) do vetor X.}
+\item{\code{x3}}{Valores na terceira dimensão (\eqn{X_3}) do vetor
+    X.}
 
 }}
 \source{
 D. F. (2011). Estatística Multivariada (2nd ed.). Lavras, MG:
-Editora UFLA. (Exercício 10.11.9, pág. 487)
+    Editora UFLA. (Exercício 10.11.9, pág. 487)
 }
 \description{
-Dados provenientes de uma amostra de tamanho n = 30 de
-    uma população normal trivariada, \eqn{X=(X_1,X_2,X_3), X \sim
-    \textrm{Normal}_3(\underline{\mu} ,\Sigma)}. Características
-    práticas dos dados não foram descritas.
+Dados provenientes de uma amostra de tamanho \eqn{n =
+    30} de uma população normal trivariada, \eqn{X = (X_1, X_2, X_3),
+    X \sim \textrm{Normal}_3(\underline{\mu}, \Sigma)}.
 }
 \examples{
+
 data(FerreiraEx10.11.9)
+str(FerreiraEx10.11.9)
 
 panel.density <- function(x, ...) {
     usr <- par("usr")
