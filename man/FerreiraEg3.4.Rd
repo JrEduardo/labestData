@@ -35,7 +35,7 @@ with(FerreiraEg3.4, {
     qqnorm(linf, main = "Normal Q-Q Plot\\nCont. Linfócitos")
     qqline(linf)
 })
-#'
+
 }
 \keyword{TODO}
 
