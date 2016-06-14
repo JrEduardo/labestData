@@ -33,8 +33,6 @@
 #'     Feijão. (Tabela 16.1, pág 327)
 #' @examples
 #'
-#' library(lattice)
-#'
 #' data(ZimmermannTb16.1)
 #'
 #' str(ZimmermannTb16.1)
