@@ -1,0 +1,7 @@
+metod	enxerto	freq
+A	pegado	180
+B	pegado	150
+C	pegado	144
+A	morto	20
+B	morto	50
+C	morto	56
