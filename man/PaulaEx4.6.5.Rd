@@ -27,11 +27,11 @@ Paula, G. A. (2004). Modelos de regressão: com apoio
 \description{
 Dados provenientes de um estudo prospectivo com 100
     indivíduos de pelo menos 65 anos de idade em boas condições
-    físicas onde se avaliou o número de quedas num período de seis
-    meses registrando, também, as informações: tipo de intervenção
-    realizada, sexo e os escores de balanço e força. O objetivo do
-    estudo é tentar relacionar o número médio de quedas com as
-    variáveis explicativas coletadas.
+    físicas em que se avaliou o número de quedas num período de seis
+    meses registrando, além das informações: tipo de intervenção
+    realizada, sexo e escores de balanço e força. O objetivo do
+    estudo é relacionar o número médio de quedas com o tipo de intervenção
+    e as demais variáveis explicativas coletadas.
 }
 \examples{
 
@@ -45,6 +45,7 @@ xyplot(nquedas ~ balan + forca | interv,
        groups = sexo,
        data = PaulaEx4.6.5,
        xlab = "Escore",
+       ylab = "Número de quedas",
        type = c("p", "g", "smooth"),
        scales = list(x = list(rot = 45, relation = "free")),
        auto.key = list(cex.title = 1, columns = 2,

@@ -7,15 +7,18 @@
     \describe{
 
 \item{\code{tipo}}{Fator com cinco níveis que representa o tipo de
-    navio.}
+    navio (A, B, C, D e E).}
 
 \item{\code{ano}}{Fator com quatro níveis que representa o ano de
-    fabricação do navio.}
+    fabricação do navio (entre 1960 e 1964 (\code{60-64}), entre 1965
+    e 1969 (\code{65-69}), entre 1970 e 1974 (\code{70-74}) e 
+    entre 1975 e 1979 (\code{75-79})).}
 
 \item{\code{peri}}{Fator com dois níveis que representa o período de
-    operação do navio.}
+    operação do navio (entre 1960 e 1974 (\code{60-74}) e entre 1975
+    e 1979 (\code{75-79})).}
 
-\item{\code{meses}}{Tempo em meses que o navio esteve em operação.}
+\item{\code{meses}}{Tempo, em meses, em que o navio esteve em operação.}
 
 \item{\code{avarias}}{Número de avarias no navio.}
 
@@ -25,8 +28,8 @@ Paula, G. A. (2004). Modelos de regressão: com apoio
     computacional. São Paulo, SP: IME-USP. (Tabela 4.9 pág. 322)
 }
 \description{
-Dados referentes a um estudo onde se avaliou o número de
-    avarias causadas por ondas em navios de carga. Foram 34 registros
+Dados referentes a um estudo em que se avaliou o número de
+    avarias causadas por ondas em navios de carga. Contém 34 registros
     com informações do tipo de navio, ano de fabricação, período de
     operação e tempo em operação (que pode ser considerado como
     offset na análise, pois espera-se um maior número de avarias em

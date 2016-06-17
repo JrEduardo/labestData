@@ -7,17 +7,17 @@
     \describe{
 
 \item{\code{etnia}}{Fator com dois níveis que indica se o aluno é
-    aborígene, da própria região (A) ou não aborígene (N).}
+    aborígene da própria região (A) ou não aborígene (N).}
 
 \item{\code{sexo}}{Fator com dois níveis que indica o sexo do
-    aluno, masculino (M) e feminino (F).}
+    aluno: masculino (M) ou feminino (F).}
 
-\item{\code{ano}}{Fator com quatro níveis que indica o ano cujo aluno
-    está cursando, 8ª série (F0), 1º ano do ensino médio (F1), 2º ano
-    do ensino médio (F2) e 3º ano do ensino médio (F3).}
+\item{\code{ano}}{Fator com quatro níveis que indica o ano que o aluno
+    está cursando: 8ª série (F0), 1º ano do ensino médio (F1), 2º ano
+    do ensino médio (F2) ou 3º ano do ensino médio (F3).}
 
 \item{\code{desemp}}{Fator com dois níveis que indica o desempenho do
-    respectivo aluno, baixo (SL) e normal (AL).}
+    aluno: baixo (SL) ou normal (AL).}
 
 \item{\code{ndias}}{Número de dias ausentes no ano letivo.}
 
@@ -28,10 +28,10 @@ Paula, G. A. (2004). Modelos de regressão: com apoio
 }
 \description{
 Dados provenientes de um estudo sociológico desenvolvido
-    na Austrália com 146 estudantes de 8ª série e ensino médio. Neste
+    na Austrália com 146 estudantes de 8ª série e ensino médio. Nesse
     estudo avaliou-se a ausência escolar (contagem de dias ausentes)
-    com o objetivo de sua comparação segundo etnia, sexo, ano que
-    está cursando e desempenho escolar.
+    com o objetivo de avaliar sua relaçao com etnia, sexo, ano que
+    o aluno está cursando e desempenho escolar.
 }
 \examples{
 
@@ -58,6 +58,7 @@ useOuterStrips(
            groups = desemp,
            data = PaulaEg4.3.6,
            type = c("p", "a", "g"),
+           ylab = 'Número de dias ausente',
            auto.key = list(
                columns = 2, cex.title = 1,
                title = "Desempenho escolar")),

@@ -2,7 +2,7 @@
 % Please edit documentation in R/PaulaTb4.7.R
 \name{PaulaTb4.7}
 \alias{PaulaTb4.7}
-\title{Demandas de TV a Cabo em Áreas Metropolitanos dos EUA}
+\title{Demanda de TV a Cabo em Áreas Metropolitanos dos EUA}
 \format{Um \code{data.frame} com 40 observações e 8 variáveis.
 \describe{
 
@@ -33,9 +33,9 @@ Paula, G. A. (2004). Modelos de regressão: com apoio
 }
 \description{
 Dados de um estudo sobre demanda de TV's a cabo em 40
-    áreas metropolitanas dos Estados Unidos. Neste estudo a variável
+    áreas metropolitanas dos Estados Unidos. Nesse estudo a variável
     de interesse é o número de assinantes (\code{nass}) e as demais
-    variáveis mensuradas tentam explicar esta contagem.
+    variáveis registradas tem por objetivo explicar esta contagem.
 }
 \examples{
 

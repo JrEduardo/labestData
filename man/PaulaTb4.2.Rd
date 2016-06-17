@@ -2,19 +2,20 @@
 % Please edit documentation in R/PaulaTb4.2.R
 \name{PaulaTb4.2}
 \alias{PaulaTb4.2}
-\title{Mortes por Câncer de Pulmão sob Efeito do Consumo de Cigarro}
+\title{Mortes por Câncer de Pulmão e Consumo de Cigarro}
 \format{Um \code{data.frame} com 16 observações e 4 variáveis.
     \describe{
 
 \item{\code{nmortes}}{Número de casos de morte por câncer de
     pulmão.}
 
-\item{\code{tpessoas}}{Total de pessoas por ano de observação.}
+\item{\code{tpessoas}}{Total de anos de exposição (somado para toda a 
+    amostra).}
 
 \item{\code{cmdc}}{Consumo médio diário de cigarros, dividido em
     quatro níveis 0, 1-9, 10-30 ou +30 cigarros consumidos.}
 
-\item{\code{idade}}{Idade, mensurada em faixas-etária de 40- 49,
+\item{\code{idade}}{Idade, registrada em faixas-etárias de 40- 49,
     50-59, 60-79 e 70-80 anos.}
 
 }}
@@ -41,7 +42,7 @@ plot(xt)
 library(lattice)
 xyplot((nmortes/tpessoas)*100 ~ cmdc,
        xlab = "Consumo médio de cigarros",
-       ylab = "Percentual de mortes por câncer de pulmão",
+       ylab = "Taxa de mortes por câncer de pulmão",
        groups = idade,
        data = PaulaTb4.2,
        type = c("b", "g"),

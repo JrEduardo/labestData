@@ -18,7 +18,7 @@ Paula, G. A. (2004). Modelos de regressão: com apoio
 \description{
 Dados referentes à produção de peças de tecido em uma
     determinada fábrica. A fábrica registra o comprimento da peça
-    produzida e o número de falhas encontradas na peça.
+    produzida e o número de falhas encontradas.
 }
 \examples{
 
@@ -28,9 +28,11 @@ str(PaulaEx4.6.7)
 
 library(lattice)
 xyplot(nfalhas ~ comp, data = PaulaEx4.6.7,
-       type = c("p", "g", "smooth"))
+       type = c("p", "g", "smooth"), xlab = "Comprimento", ylab = 
+       "Número de falhas")
 
-histogram( ~nfalhas/comp, data = PaulaEx4.6.7)
+histogram( ~nfalhas/comp, data = PaulaEx4.6.7, 
+      xlab = "Número de falhas por metro de tecido", ylab = "Frequência")
 
 }
 \references{

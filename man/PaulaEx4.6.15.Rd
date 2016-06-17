@@ -10,14 +10,14 @@
     nadar do recruta (\code{ocasional} ou \code{frequente}).}
 
 \item{\code{local}}{Fator com dois níveis que indica o local onde o
-    recruta costuma nadar (\code{praia} ou \code{piscina}).}
+    recruta costuma nadar, (\code{praia} ou \code{piscina}).}
 
 \item{\code{idade}}{Idade do recruta, em anos categorizados em três
-    níveis \code{15-19}, \code{20-24} e \code{25-29}.}
+    níveis (\code{15-19}, \code{20-24} e \code{25-29}).}
 
-\item{\code{sexo}}{Sexo, \code{F} para feminino e \code{M} para masculino.}
+\item{\code{sexo}}{Sexo (\code{F} para feminino e \code{M} para masculino).}
 
-\item{\code{ninfec}}{Número de infecções de ouvido diagnósticadas
+\item{\code{ninfec}}{Número de infecções de ouvido diagnosticadas
     pelo próprio recruta.}
 
 }}
@@ -28,10 +28,10 @@ Paula, G. A. (2004). Modelos de regressão: com apoio
 }
 \description{
 Dados referentes a um estudo realizado em 1990 com
-    recrutas americanos onde a variável de interesse era o número de
-    infecções de ouvido. Para associação com a infecção de ouvido,
-    foram coletadas as seguintes informações sobre os recrutas:
-    hábito de nadar, local em que costuma nadar, idade e sexo.
+    recrutas americanos em que a variável de interesse era o número de
+    infecções de ouvido. Além disso, foram coletadas as seguintes 
+    informações sobre os recrutas: hábito de nadar, local em que 
+    costuma nadar, idade e sexo.
 }
 \examples{
 
@@ -41,7 +41,7 @@ str(PaulaEx4.6.15)
 
 xt <- xtabs(ninfec ~ ., data = PaulaEx4.6.15)
 ftable(prop.table(xt))
-plot(xt)
+plot(xt, xlab = "Hábito", main = "")
 
 mv <- aggregate(ninfec ~ ., FUN = function(x)
     c(mu = mean(x), var = var(x)), data = PaulaEx4.6.15)
@@ -65,6 +65,7 @@ useOuterStrips(
            data = PaulaEx4.6.15,
            jitter.x = TRUE, jitter.y = TRUE,
            type = c("p", "g", "a"),
+           ylab = "Número de infecções",
            auto.key = list(space = "right", cex.title = 1,
                            title = "Sexo"))
     )
