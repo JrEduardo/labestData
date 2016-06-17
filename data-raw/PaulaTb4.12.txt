@@ -1,0 +1,17 @@
+renda	satis	nind
+<6	alto	20
+<6	bom	24
+<6	médio	80
+<6	baixo	82
+6-15	alto	22
+6-15	bom	38
+6-15	médio	104
+6-15	baixo	125
+15-25	alto	13
+15-25	bom	28
+15-25	médio	81
+15-25	baixo	113
+>25	alto	7
+>25	bom	18
+>25	médio	54
+>25	baixo	92

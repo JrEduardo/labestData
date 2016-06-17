@@ -1,0 +1,43 @@
+#' @name PaulaTb4.7
+#' @title Demanda de TV a Cabo em Áreas Metropolitanos dos EUA
+#' @description Dados de um estudo sobre demanda de TV's a cabo em 40
+#'     áreas metropolitanas dos Estados Unidos. Nesse estudo a variável
+#'     de interesse é o número de assinantes (\code{nass}) e as demais
+#'     variáveis registradas tem por objetivo explicar esta contagem.
+#' @format Um \code{data.frame} com 40 observações e 8 variáveis.
+#' \describe{
+#' 
+#' \item{\code{nass}}{Número de assinantes de TV a cabo (em milhares).}
+#' 
+#' \item{\code{domic}}{Número de domicílios na área (em milhares).}
+#' 
+#' \item{\code{perc}}{Percentagem de domicílios com TV a cabo.}
+#' 
+#' \item{\code{renda}}{Renda per capita por domicílio com TV a cabo (em
+#'     USD).}
+#' 
+#' \item{\code{taxa}}{Valor da taxa de instalação de TV a cabo (em
+#'     USD).}
+#' 
+#' \item{\code{custo}}{Custo médio mensal de manutenção de TV a cabo (em
+#'     USD).}
+#' 
+#' \item{\code{ncabo}}{Número de canais a cabo disponíveis na área.}
+#' 
+#' \item{\code{ntv}}{Número de canais não pagos com sinal de boa
+#'     qualidade na área.}
+#' 
+#' }
+#' @keywords contagem superdispersão
+#' @source Paula, G. A. (2004). Modelos de regressão: com apoio
+#'     computacional. São Paulo, SP: IME-USP. (Tabela 4.7, pág. 317)
+#' @examples
+#'
+#' data(PaulaTb4.7)
+#' 
+#' str(PaulaTb4.7)
+#' 
+#' library(lattice)
+#' splom(PaulaTb4.7, type = c("p", "smooth"), lwd = 2)
+#'
+NULL
