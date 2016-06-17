@@ -2,14 +2,14 @@
 #' @title Associação entre Renda e Satisfação no Emprego
 #' @description Dados resultantes de uma pesquisa com 901 indivíduos
 #'     classificados segundo sua renda anual e grau informado de
-#'     satisfação no emprego. O interesse no estudo é relacionar o
-#'     número de indivíduos conforme renda anual e satisfação no
-#'     emprego.
+#'     satisfação no emprego. O interesse no estudo é relacionar a renda
+#'     anual e satisfação no emprego.
+#'     
 #' @format Um \code{data.frame} com 16 observações e 3 variáveis.
 #' \describe{
 #' 
 #' \item{\code{renda}}{Fator com quatro níveis representando a renda do
-#'     indivíduo. Com unidades de mil USD os fatores são: menor que 6
+#'     indivíduo. Expressos em mil USD os níveis são: menor que 6
 #'     (\code{<6}), entre 6 e 12 (\code{6-15}), entre 15 e 25
 #'     (\code{15-25}) e maior que 25 (\code{>25}).}
 #' 
@@ -41,6 +41,7 @@
 #'        groups = satis,
 #'        data = PaulaTb4.12,
 #'        type = c("p", "a", "g"),
+#'        ylab = 'Número de indivíduos',
 #'        auto.key = list(
 #'            space = "right", cex.title = 1,
 #'            title = "Grau de\nsatisfação"))

@@ -2,7 +2,7 @@
 #' @title Número de Falhas em Peças de Tecido
 #' @description Dados referentes à produção de peças de tecido em uma
 #'     determinada fábrica. A fábrica registra o comprimento da peça
-#'     produzida e o número de falhas encontradas na peça.
+#'     produzida e o número de falhas encontradas.
 #' @format Um \code{data.frame} com 32 observações e 2 variáveis.
 #' \describe{
 #' 
@@ -25,8 +25,10 @@
 #'
 #' library(lattice)
 #' xyplot(nfalhas ~ comp, data = PaulaEx4.6.7,
-#'        type = c("p", "g", "smooth"))
+#'        type = c("p", "g", "smooth"), xlab = "Comprimento", ylab = 
+#'        "Número de falhas")
 #' 
-#' histogram( ~nfalhas/comp, data = PaulaEx4.6.7)
+#' histogram( ~nfalhas/comp, data = PaulaEx4.6.7, 
+#'       xlab = "Número de falhas por metro de tecido", ylab = "Frequência")
 #'
 NULL

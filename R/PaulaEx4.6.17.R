@@ -2,14 +2,14 @@
 #' @title Avaliação de Detergentes
 #' @description Dados resultantes de uma pesquisa em que 1008 pessoas
 #'     receberam duas marcas de detergente, \code{X} e \code{M}, e
-#'     posteriormente responderam às perguntas sobre a temperatura da
+#'     posteriormente responderam a perguntas sobre a temperatura da
 #'     água, uso anterior do detergente \code{M}, detergente de
 #'     preferência e maciez da água.
 #' @format Um \code{data.frame} com 24 observações e 5 variáveis.
 #'     \describe{
 #' 
 #' \item{\code{temp}}{Temperatura da água, mensurada em dois níveis
-#'     \code{alta} e \code{baixa}.}
+#'     (\code{alta} e \code{baixa}).}
 #' 
 #' \item{\code{usom}}{Uso anterior do detergente da marca \code{M}
 #'     (\code{sim} ou \code{não}).}
@@ -18,7 +18,7 @@
 #'     \code{X}).}
 #' 
 #' \item{\code{maciez}}{Maciez da água, mensurada em três níveis
-#'     \code{forte}, code{leve} e \code{média}.}
+#'     (\code{forte}, code{leve} e \code{média}).}
 #' 
 #' \item{\code{nind}}{Número de pessoas que tiveram respostas conforme
 #'     combinação de \code{temp}, \code{usom}, \code{prefer} e \code{maciez}.}
@@ -48,6 +48,8 @@
 #'            groups = temp,
 #'            data = PaulaEx4.6.17,
 #'            type = c("p", "g", "a"),
+#'            xlab = "Maciez da água",
+#'            ylab = "Número de indivíduos",
 #'            auto.key = list(cex.title = 1, columns = 2,
 #'                            title = "Temperatura da água"))
 #'     )
