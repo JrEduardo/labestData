@@ -21,8 +21,8 @@ Paula, G. A. (2004). Modelos de regressão: com apoio
 Resultados de um experimento conduzido para avaliar o
     desempenho de cinco tipos de turbina de alta velocidade para
     motores de avião. Foram considerados dez motores de cada tipo
-    onde observou-se o tempo até a perda de velocidade ou,
-    equivalentemente, duração do motor.
+    registrando-se o tempo até a perda de velocidade ou,
+    equivalentemente, a duração do motor.
 }
 \examples{
 data(PaulaTb2.1)

@@ -6,18 +6,16 @@
 \format{Um \code{data.frame} com 750 observações e 3 variáveis.
     \describe{
 
-\item{\code{semana}}{Inteiro com dez valores únicos que identifica a
-    semana da avaliação.}
+\item{\code{semana}}{Semana da avaliação.}
 
-\item{\code{tipo}}{Fator com cinco níveis que identifica o tipo de
-    snack avaliado. Os níveis representam as seguintes configurações:
+\item{\code{tipo}}{Tipo de snack avaliado. Os níveis representam as 
+    seguintes configurações:
     \code{A}: 22\% de gordura, 0\% de óleo de canola, \code{B}: 0\%
     de gordura, 22\% de óleo de canola, \code{C}: 17\% de gordura,
     5\% de óleo de canola, \code{D}: 11\% de gordura, 11\% de óleo de
     canola e \code{E}: 5\% de gordura, 17\% de óleo de canola.}
 
-\item{\code{fnpc}}{Força necessária para o cisalhamento, valor para
-    avaliação da textura dos produtos.}
+\item{\code{fnpc}}{Força necessária para o cisalhamento.}
 
 }}
 \source{
@@ -29,12 +27,12 @@ Paula, G. A. (2004). Modelos de regressão: com apoio
 Dados de um experimento desenvolvido pelo Departamento
     de Nutrição da Faculdade de Saúde Pública da USP em que 5 tipos
     diferentes de um novo snack, com baixo teor de gordura e de
-    ácidos graxos, foram comparados ao longo de 20 semanas. Neste
+    ácidos graxos, foram comparados ao longo de 20 semanas. Nesse
     novo produto a gordura vegetal hidrogenada, responsável pela
     fixação do aroma do produto, foi substituída, totalmente ou
-    parcialmente por óleo de canola. Ao todo foram 750 observações
-    providas de 15 avaliações para cada tipo de snack a cada 2
-    semanas.
+    parcialmente, por óleo de canola. Ao todo foram produzidas 750 
+    observações, referentes a 15 avaliações para cada tipo de snack 
+    a cada 2 semanas.
 }
 \examples{
 data(PaulaEg2.8.1)
@@ -71,6 +69,7 @@ xyplot(fnpc[, "Média"] ~ semana,
        auto.key = list(
            points = FALSE,
            lines = TRUE,
+           title = 'snack',
            corner = c(0.1, 0.9)))
 
 }

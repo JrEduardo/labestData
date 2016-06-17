@@ -6,11 +6,11 @@
 \format{Um \code{data.frame} com 30 observações e 3 variáveis.
     \describe{
 
-\item{\code{N}}{Inteiro que indica a quantidade de nitrogênio
-    utilizada, em libras/acre.}
+\item{\code{N}}{Quantidade de nitrogênio utilizada na adubação, em
+    libras/acre.}
 
-\item{\code{P2O5}}{Inteiro que indica a quantidade de fosfato
-    utilizada, em libras/acre.}
+\item{\code{P2O5}}{Quantidade de fosfato utilizada na adubação, em
+    libras/acre.}
 
 \item{\code{prod}}{Produtividade de milho, em libras/acre.}
 

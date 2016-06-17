@@ -10,8 +10,8 @@
     experimental do filme (temperaturas \code{72ºC}, \code{82ºC} e
     \code{92ºC}).}
 
-\item{\code{dmax}}{Valor da densidade máxima do filme, unidade de
-    medida não informada.}
+\item{\code{dmax}}{Valor da densidade máxima do filme (unidade de
+    medida não informada).}
 
 \item{\code{tempo}}{Tempo de duração do filme, mensurado em horas.}
 
@@ -22,12 +22,12 @@ Paula, G. A. (2004). Modelos de regressão: com apoio
     pág. 179)
 }
 \description{
-Dados provenientes de um experimento cujo o objetivo foi
+Dados provenientes de um experimento cujo objetivo foi
     avaliar a qualidade de determinado filme utilizado em máquinas
     fotográficas sob três condições experimentais (relacionadas à
     temperatura do filme). Para tal avaliação considerou-se a
-    variável tempo de duração do filme como variável resposta e sua
-    densidade máxima como variável de controle.
+    variável tempo de duração do filme como a resposta e a
+    densidade máxima do filme como variável de controle.
 }
 \examples{
 data(PaulaEx2.10.17)
@@ -38,13 +38,16 @@ library(lattice)
 xyplot(tempo ~ dmax,
        groups = temp,
        data = PaulaEx2.10.17,
-       type = c("p", "g", "spline"),
+       type = c("p", "g"),
        auto.key = list(
            corner = c(0.95, 0.95),
            lines = TRUE,
            cex.title = 1,
            title = "Temperatura"
-           ))
+       ), panel = function(x, y, ...){
+           panel.xyplot(x, y, ...)
+           panel.loess(x, y, col = 1, ...)
+       })
 
 }
 \references{

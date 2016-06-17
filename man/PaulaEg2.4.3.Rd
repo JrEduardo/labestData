@@ -29,8 +29,8 @@ Dados referentes aos valores pagos de seguros
     individuais por danos com acidentes pessoais no período de
     janeiro de 1998 a junho de 1999 (18 meses). O estudo completo
     (Jong e Heller, 2008) contém o acompanhamento dos seguros desde
-    1989. No período considerado aqui foram 769 seguros pagos sob o
-    qual são armazenadas as informações: se houve representação
+    1989. No período considerado aqui foram pagos 769 seguros, sendo 
+    armazenadas as informações: se houve representação
     legal, tempo operacional para pagamento e mês em que ocorreu o
     acidente.
 }
