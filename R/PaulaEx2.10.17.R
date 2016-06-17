@@ -8,16 +8,16 @@
 #'     densidade máxima do filme como variável de controle.
 #' @format Um \code{data.frame} com 21 observações e 3 variáveis.
 #' \describe{
-#' 
+#'
 #' \item{\code{temp}}{Fator com três níveis que indicam a condição
 #'     experimental do filme (temperaturas \code{72ºC}, \code{82ºC} e
 #'     \code{92ºC}).}
-#' 
+#'
 #' \item{\code{dmax}}{Valor da densidade máxima do filme (unidade de
 #'     medida não informada).}
-#' 
+#'
 #' \item{\code{tempo}}{Tempo de duração do filme, mensurado em horas.}
-#' 
+#'
 #' }
 #' @keywords positivo-assimétrico
 #' @source Paula, G. A. (2004). Modelos de regressão: com apoio
@@ -30,19 +30,22 @@
 #'
 #' @examples
 #' data(PaulaEx2.10.17)
-#' 
+#'
 #' str(PaulaEx2.10.17)
-#' 
+#'
 #' library(lattice)
 #' xyplot(tempo ~ dmax,
 #'        groups = temp,
 #'        data = PaulaEx2.10.17,
-#'        type = c("p", "g", "spline"),
+#'        type = c("p", "g"),
 #'        auto.key = list(
 #'            corner = c(0.95, 0.95),
 #'            lines = TRUE,
 #'            cex.title = 1,
 #'            title = "Temperatura"
-#'            ))
+#'        ), panel = function(x, y, ...){
+#'            panel.xyplot(x, y, ...)
+#'            panel.loess(x, y, col = 1, ...)
+#'        })
 #'
 NULL
