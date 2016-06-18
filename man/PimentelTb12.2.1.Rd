@@ -2,7 +2,7 @@
 % Please edit documentation in R/PimentelTb12.2.1.R
 \name{PimentelTb12.2.1}
 \alias{PimentelTb12.2.1}
-\title{Experimento de Adubação de Milho em Polinômios Ortogonais}
+\title{Experimento de Adubação com P\eqn{_2}O\eqn{_5} em Milho}
 \format{Um \code{data.frame} com 20 observações e 3 variáveis, em que
 
 \describe{
@@ -10,8 +10,8 @@
 \item{\code{bloco}}{Fator de 4 níveis qualitativos, usado para
     controle local.}
 
-\item{\code{P2O5}}{Fator de 5 níveis qualitativos que são as
-    diferentes dosagens de \eqn{P_2O_5} em \eqn{kg.ha^{-1}}.}
+\item{\code{P2O5}}{Fator de 5 níveis métricos que são as doses de
+    \eqn{P_2O_5} em \eqn{kg ha^{-1}}.}
 
 \item{\code{prod}}{Produção de milho, em kg/parcela.}
 
@@ -22,9 +22,9 @@ Pimentel-Gomes, F. (2009). Curso de Estatística
     pág. 232)
 }
 \description{
-Experimento de adubação de milho em polinômios
-    ortogonais, feito pelos engenheiros agrônomos Glauco Pinto Viegas
-    e Erik Smith, em blocos ao acaso
+Experimento de adubação de milho feito pelos engenheiros
+    agrônomos Glauco Pinto Viegas e Erik Smith, em blocos ao acaso,
+    para estudar o efeito da adubação na produtividade da cultura.
 }
 \examples{
 
@@ -36,10 +36,20 @@ str(PimentelTb12.2.1)
 xyplot(prod ~ P2O5,
        groups = bloco,
        data = PimentelTb12.2.1,
-       auto.key = list(title = "Blocos", cex.title = 1, columns = 4),
-       type = c("r", "p"),
+       auto.key = list(title = "Blocos", cex.title = 1,
+                       columns = 4),
        ylab = "Produção (kg/parcela)",
-       xlab = expression(Dosagem~de~P[2]*O[5]))
+       xlab = expression(Dosagem~de~P[2]*O[5]~(kg~ha^{-1})),
+       panel = panel.superpose,
+       degree = 2,
+       panel.groups = function(x, y, col, col.symbol, degree, ...) {
+           panel.xyplot(x, y, col = col.symbol, ...)
+           xnew <- seq(min(x), max(x), length.out = 30)
+           m0 <- lm(y ~ poly(x, degree = degree))
+           ynew <- predict(m0, newdata = list(x = xnew))
+           panel.lines(x = xnew, y = ynew, col = col.symbol)
+       })
+
 
 }
 \keyword{RP}

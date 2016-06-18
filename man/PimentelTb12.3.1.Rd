@@ -8,21 +8,19 @@
 \describe{
 
 \item{\code{ano}}{Variável que indica o ano em que foram registradas
-    as temperaturas máximas médias.}
+    as temperaturas máximas médias do mês de Julho.}
 
-\item{\code{temperatura}}{Temperatura máxima média de julho em graus
+\item{\code{temperatura}}{Temperatura máxima média de Julho em graus
     centígrados.}
 
 }}
 \source{
-Pimentel-Gomes, F. (2009). Curso de Estatística
-    Experimental (15th ed.). Piracicaba, SP: FEALQ. (Tabela 12.3.1,
-    pág. 236)
+Pimentel-Gomes, F. (2009). Curso de Estatística Experimental
+    (15th ed.). Piracicaba, SP: FEALQ. (Tabela 12.3.1, pág. 236)
 }
 \description{
-Dados de temperaturas máximas médias de julho em
-    Piracicaba, SP, em graus centígrados, de quinze anos de
-    observações.
+Série de 15 anos das temperaturas máximas médias de
+    Julho em Piracicaba-SP, em graus centígrados.
 }
 \examples{
 
@@ -32,9 +30,8 @@ data(PimentelTb12.3.1)
 str(PimentelTb12.3.1)
 
 xyplot(temperatura ~ ano,
-       data = PimentelTb12.3.1,
-       type = c("r", "p"),
-       ylab = "Temperatura (em graus centígrados)",
+       data = PimentelTb12.3.1, type = "o",
+       ylab = expression("Temperatura"~(degree*C)),
        xlab = "Ano")
 
 }
