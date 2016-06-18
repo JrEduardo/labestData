@@ -1,0 +1,46 @@
+#' @name FariaQd12.5
+#' @title Colonização do TVC em Vassouras de Bruxa, %.
+#' @description Os dados referem-se a contagem da colonização de um 
+#'     antagonista (trichoderma - TVC) aplicado sobre as vassouras de 
+#'     bruxa de uma cultura de cacau no Município de Ibatuma - BA em 
+#'     em 20000. Na aplicação apl1 o antagonista foi aplicado em 15 em 
+#'     15 dias (0, 15, 30 e 60), na apl2 de 30 em 30 dias (0, 30 e 60) e
+#'     a apl2 não recebeu aplicação do antagonista (testemunha). As 
+#'     avaliações foram feitas aos 15, 45 e 75 dias após  início das
+#'     aplicações. O experimento foi montado no delineamento em blocos 
+#'     casualizados com 3 repetições.
+#' @format Um \code{data.frame} com 27 observações e 4 variáveis.
+#' \describe{
+#' 
+#' \item{\code{apl}}{  Os níveis do fator são constituídos por 3 
+#'     aplicações (1, 2 e 3) do antagonista. }
+#' 
+#' \item{\code{trat}}{ Os níveis do fator são constituídos por 2 ( apl1
+#'     de 15 em 15 dias (0, 15, 30 e 60) e apl2 de 30 em 30 dias (0, 30 
+#'     e 60) sem receber aplicações do antagonista.) tratamentos.  }
+#' 
+#' \item{\code{blocos}}{ Os níveis do fator são constituídos por 3 
+#'     repetições (1, 2 e 3). }
+#' 
+#' \item{\code{result}}{ Resultado em % da Colonização do TVC em 
+#'     vassouras de bruxa. }
+#' 
+#' }
+#' @keywords DIC
+#' @source Faria, J. C. (2009). Notas de aulas expandidas (10th ed.)
+#'     Ilhéus - BA : UESC. ( Quadro 12.5, pág 159.)
+#' @examples
+#' 
+#' 
+#' library(lattice)
+#' 
+#' 
+#' data(FariaQd12.5)
+#' 
+#' 
+#' plot(trat ~ rept, data = FariaQd12.5)
+#' 
+#' 
+#' 
+NULL
+#' 
