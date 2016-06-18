@@ -1,34 +1,33 @@
 #' @name PimentelTb12.4.1
-#' @title Produção de Cana em função do Teor de K
+#' @title Produção de Cana em Função do Teor de K do Solo
 #' @description Experimento de produção de cana-de-açúcar em função do
 #'     teor de K trocável do solo, em miliequivalentes de terra fina
 #'     seca na estufa, onde a nutrição com potássio foi feita com
-#'     \eqn{150kg.ha^{-1}} de \eqn{K_2O}.
+#'     150 kg ha\eqn{^{-1}} de \eqn{K_{2}O}.
 #' @format Um \code{data.frame} com 15 observações e 2 variáveis, em que
 #'
 #' \describe{
 #'
 #' \item{\code{K20}}{Teor de potássio (K) trocável do solo, feito com
-#'     \eqn{150kg.ha^{-1}} de \eqn{K_2O}.}
+#'     150kg ha\eqn{^{-1}} de \eqn{K_{2}O}.}
 #'
-#' \item{\code{prod}}{Aumento de produção de cana em \eqn{t.ha^{-1}}.}
+#' \item{\code{prod}}{Aumento de produção de cana em t ha\eqn{^{-1}}.}
 #'
 #' }
 #' @keywords RP
-#' @source Pimentel-Gomes, F. (2009). Curso de Estatística
-#'     Experimental (15th ed.). Piracicaba, SP: FEALQ. (Tabela 12.4.1,
-#'     pág. 238)
+#' @source Pimentel-Gomes, F. (2009). Curso de Estatística Experimental
+#'     (15th ed.). Piracicaba, SP: FEALQ. (Tabela 12.4.1, pág. 238)
 #' @examples
 #'
 #' library(lattice)
 #'
 #' data(PimentelTb12.4.1)
 #' str(PimentelTb12.4.1)
-#' 
+#'
 #' xyplot(prod ~ K2O,
 #'        data = PimentelTb12.4.1,
-#'        type = c("r", "p"),
+#'        type = c("smooth", "p"),
 #'        ylab = "Produção de Cana (em t/ha)",
-#'        xlab = "Teor de K do Solo")
+#'        xlab = "Teor de K do solo")
 #'
 NULL

@@ -1,229 +1,229 @@
-varied	P	prod
-cana-planta	0	60.2
-cana-planta	0	40.9
-cana-planta	0	29
-cana-planta	0	61
-cana-planta	0	84.1
-cana-planta	0	15.7
-cana-planta	0	50.2
-cana-planta	0	87
-cana-planta	0	88.3
-cana-planta	0	42
-cana-planta	0	47.3
-cana-planta	0	53.1
-cana-planta	0	13.2
-cana-planta	0	20.4
-cana-planta	0	23.1
-cana-planta	0	43.6
-cana-planta	0	32.8
-cana-planta	0	32.1
-cana-planta	0	43.6
-cana-planta	0	27.5
-cana-planta	0	34.9
-cana-planta	0	24
-cana-planta	0	28
-cana-planta	0	28.4
-cana-planta	0	31.8
-cana-planta	0	21.2
-cana-planta	0	25.3
-cana-planta	0	31.5
-cana-planta	0	37.3
-cana-planta	0	56.4
-cana-planta	0	24.5
-cana-planta	0	44.9
-cana-planta	0	55.2
-cana-planta	0	40.2
-cana-planta	0	32.3
-cana-planta	0	45.3
-cana-planta	0	30
-cana-planta	0	30
-cana-planta	1	70.6
-cana-planta	1	56.1
-cana-planta	1	47
-cana-planta	1	67.5
-cana-planta	1	97.4
-cana-planta	1	45.2
-cana-planta	1	61.3
-cana-planta	1	97.2
-cana-planta	1	92.9
-cana-planta	1	56.6
-cana-planta	1	56.3
-cana-planta	1	98.7
-cana-planta	1	86.4
-cana-planta	1	54.8
-cana-planta	1	32.3
-cana-planta	1	71.6
-cana-planta	1	67.2
-cana-planta	1	49.5
-cana-planta	1	48.1
-cana-planta	1	57.3
-cana-planta	1	45.9
-cana-planta	1	40.1
-cana-planta	1	43.6
-cana-planta	1	46.9
-cana-planta	1	35.5
-cana-planta	1	55.8
-cana-planta	1	50.5
-cana-planta	1	60.2
-cana-planta	1	46.2
-cana-planta	1	74.6
-cana-planta	1	34.8
-cana-planta	1	56.4
-cana-planta	1	63
-cana-planta	1	57.8
-cana-planta	1	50.7
-cana-planta	1	52.7
-cana-planta	1	49.7
-cana-planta	1	38.8
-cana-planta	2	74.8
-cana-planta	2	62.7
-cana-planta	2	55.6
-cana-planta	2	72.4
-cana-planta	2	105.1
-cana-planta	2	54.3
-cana-planta	2	77.2
-cana-planta	2	96.6
-cana-planta	2	96.4
-cana-planta	2	59.9
-cana-planta	2	58.5
-cana-planta	2	108.5
-cana-planta	2	106.7
-cana-planta	2	53.9
-cana-planta	2	52.5
-cana-planta	2	71.4
-cana-planta	2	71.8
-cana-planta	2	57.5
-cana-planta	2	51.5
-cana-planta	2	65
-cana-planta	2	55.3
-cana-planta	2	43.4
-cana-planta	2	45.9
-cana-planta	2	48.8
-cana-planta	2	37.7
-cana-planta	2	71.5
-cana-planta	2	58.9
-cana-planta	2	61.4
-cana-planta	2	50.2
-cana-planta	2	80.7
-cana-planta	2	35
-cana-planta	2	59.8
-cana-planta	2	65.2
-cana-planta	2	57.5
-cana-planta	2	66.6
-cana-planta	2	47.4
-cana-planta	2	48.8
-cana-planta	2	39.5
-soca	0	30.8
-soca	0	40.2
-soca	0	10.6
-soca	0	42.7
-soca	0	46.3
-soca	0	10.5
-soca	0	16.7
-soca	0	43.5
-soca	0	64.7
-soca	0	24.1
-soca	0	23.8
-soca	0	23.2
-soca	0	1.7
-soca	0	9.3
-soca	0	13.3
-soca	0	46.3
-soca	0	7.9
-soca	0	42.1
-soca	0	61.4
-soca	0	45.4
-soca	0	46.2
-soca	0	15.7
-soca	0	57.7
-soca	0	35.2
-soca	0	26.5
-soca	0	18
-soca	0	28.9
-soca	0	35.9
-soca	0	35
-soca	0	64.5
-soca	0	16.1
-soca	0	44.6
-soca	0	28.8
-soca	0	53.8
-soca	0	30.1
-soca	0	33.2
-soca	0	12.2
-soca	0	18.5
-soca	1	31.9
-soca	1	50.8
-soca	1	11
-soca	1	35.3
-soca	1	51.6
-soca	1	28.2
-soca	1	26.3
-soca	1	51.7
-soca	1	68.1
-soca	1	34.7
-soca	1	30.8
-soca	1	41.4
-soca	1	26.9
-soca	1	12.6
-soca	1	24.1
-soca	1	59.9
-soca	1	27.2
-soca	1	44.6
-soca	1	59.6
-soca	1	63.6
-soca	1	52.1
-soca	1	18.9
-soca	1	54.1
-soca	1	41.9
-soca	1	26.8
-soca	1	40
-soca	1	51.6
-soca	1	50
-soca	1	36.9
-soca	1	68.4
-soca	1	29.8
-soca	1	57.7
-soca	1	33
-soca	1	58.2
-soca	1	43.7
-soca	1	35.3
-soca	1	20
-soca	1	18
-soca	2	35.5
-soca	2	57.4
-soca	2	16.8
-soca	2	39
-soca	2	56.3
-soca	2	41.1
-soca	2	37.1
-soca	2	50.6
-soca	2	63.5
-soca	2	38
-soca	2	30.4
-soca	2	53.9
-soca	2	42.2
-soca	2	19.1
-soca	2	40.1
-soca	2	65.4
-soca	2	34.8
-soca	2	42.3
-soca	2	60
-soca	2	73.4
-soca	2	56.6
-soca	2	23.6
-soca	2	57.9
-soca	2	49
-soca	2	28.3
-soca	2	53.7
-soca	2	51.5
-soca	2	49.7
-soca	2	38.3
-soca	2	68.7
-soca	2	35.9
-soca	2	51.4
-soca	2	30.9
-soca	2	62.5
-soca	2	49.3
-soca	2	33.1
-soca	2	22.7
-soca	2	20.6
+safra	P	prod	ue
+planta	0	60.2	1
+planta	0	40.9	2
+planta	0	29	3
+planta	0	61	4
+planta	0	84.1	5
+planta	0	15.7	6
+planta	0	50.2	7
+planta	0	87	8
+planta	0	88.3	9
+planta	0	42	10
+planta	0	47.3	11
+planta	0	53.1	12
+planta	0	13.2	13
+planta	0	20.4	14
+planta	0	23.1	15
+planta	0	43.6	16
+planta	0	32.8	17
+planta	0	32.1	18
+planta	0	43.6	19
+planta	0	27.5	20
+planta	0	34.9	21
+planta	0	24	22
+planta	0	28	23
+planta	0	28.4	24
+planta	0	31.8	25
+planta	0	21.2	26
+planta	0	25.3	27
+planta	0	31.5	28
+planta	0	37.3	29
+planta	0	56.4	30
+planta	0	24.5	31
+planta	0	44.9	32
+planta	0	55.2	33
+planta	0	40.2	34
+planta	0	32.3	35
+planta	0	45.3	36
+planta	0	30	37
+planta	0	30	38
+planta	60	70.6	39
+planta	60	56.1	40
+planta	60	47	41
+planta	60	67.5	42
+planta	60	97.4	43
+planta	60	45.2	44
+planta	60	61.3	45
+planta	60	97.2	46
+planta	60	92.9	47
+planta	60	56.6	48
+planta	60	56.3	49
+planta	60	98.7	50
+planta	60	86.4	51
+planta	60	54.8	52
+planta	60	32.3	53
+planta	60	71.6	54
+planta	60	67.2	55
+planta	60	49.5	56
+planta	60	48.1	57
+planta	60	57.3	58
+planta	60	45.9	59
+planta	60	40.1	60
+planta	60	43.6	61
+planta	60	46.9	62
+planta	60	35.5	63
+planta	60	55.8	64
+planta	60	50.5	65
+planta	60	60.2	66
+planta	60	46.2	67
+planta	60	74.6	68
+planta	60	34.8	69
+planta	60	56.4	70
+planta	60	63	71
+planta	60	57.8	72
+planta	60	50.7	73
+planta	60	52.7	74
+planta	60	49.7	75
+planta	60	38.8	76
+planta	120	74.8	77
+planta	120	62.7	78
+planta	120	55.6	79
+planta	120	72.4	80
+planta	120	105.1	81
+planta	120	54.3	82
+planta	120	77.2	83
+planta	120	96.6	84
+planta	120	96.4	85
+planta	120	59.9	86
+planta	120	58.5	87
+planta	120	108.5	88
+planta	120	106.7	89
+planta	120	53.9	90
+planta	120	52.5	91
+planta	120	71.4	92
+planta	120	71.8	93
+planta	120	57.5	94
+planta	120	51.5	95
+planta	120	65	96
+planta	120	55.3	97
+planta	120	43.4	98
+planta	120	45.9	99
+planta	120	48.8	100
+planta	120	37.7	101
+planta	120	71.5	102
+planta	120	58.9	103
+planta	120	61.4	104
+planta	120	50.2	105
+planta	120	80.7	106
+planta	120	35	107
+planta	120	59.8	108
+planta	120	65.2	109
+planta	120	57.5	110
+planta	120	66.6	111
+planta	120	47.4	112
+planta	120	48.8	113
+planta	120	39.5	114
+soca	0	30.8	1
+soca	0	40.2	2
+soca	0	10.6	3
+soca	0	42.7	4
+soca	0	46.3	5
+soca	0	10.5	6
+soca	0	16.7	7
+soca	0	43.5	8
+soca	0	64.7	9
+soca	0	24.1	10
+soca	0	23.8	11
+soca	0	23.2	12
+soca	0	1.7	13
+soca	0	9.3	14
+soca	0	13.3	15
+soca	0	46.3	16
+soca	0	7.9	17
+soca	0	42.1	18
+soca	0	61.4	19
+soca	0	45.4	20
+soca	0	46.2	21
+soca	0	15.7	22
+soca	0	57.7	23
+soca	0	35.2	24
+soca	0	26.5	25
+soca	0	18	26
+soca	0	28.9	27
+soca	0	35.9	28
+soca	0	35	29
+soca	0	64.5	30
+soca	0	16.1	31
+soca	0	44.6	32
+soca	0	28.8	33
+soca	0	53.8	34
+soca	0	30.1	35
+soca	0	33.2	36
+soca	0	12.2	37
+soca	0	18.5	38
+soca	60	31.9	39
+soca	60	50.8	40
+soca	60	11	41
+soca	60	35.3	42
+soca	60	51.6	43
+soca	60	28.2	44
+soca	60	26.3	45
+soca	60	51.7	46
+soca	60	68.1	47
+soca	60	34.7	48
+soca	60	30.8	49
+soca	60	41.4	50
+soca	60	26.9	51
+soca	60	12.6	52
+soca	60	24.1	53
+soca	60	59.9	54
+soca	60	27.2	55
+soca	60	44.6	56
+soca	60	59.6	57
+soca	60	63.6	58
+soca	60	52.1	59
+soca	60	18.9	60
+soca	60	54.1	61
+soca	60	41.9	62
+soca	60	26.8	63
+soca	60	40	64
+soca	60	51.6	65
+soca	60	50	66
+soca	60	36.9	67
+soca	60	68.4	68
+soca	60	29.8	69
+soca	60	57.7	70
+soca	60	33	71
+soca	60	58.2	72
+soca	60	43.7	73
+soca	60	35.3	74
+soca	60	20	75
+soca	60	18	76
+soca	120	35.5	77
+soca	120	57.4	78
+soca	120	16.8	79
+soca	120	39	80
+soca	120	56.3	81
+soca	120	41.1	82
+soca	120	37.1	83
+soca	120	50.6	84
+soca	120	63.5	85
+soca	120	38	86
+soca	120	30.4	87
+soca	120	53.9	88
+soca	120	42.2	89
+soca	120	19.1	90
+soca	120	40.1	91
+soca	120	65.4	92
+soca	120	34.8	93
+soca	120	42.3	94
+soca	120	60	95
+soca	120	73.4	96
+soca	120	56.6	97
+soca	120	23.6	98
+soca	120	57.9	99
+soca	120	49	100
+soca	120	28.3	101
+soca	120	53.7	102
+soca	120	51.5	103
+soca	120	49.7	104
+soca	120	38.3	105
+soca	120	68.7	106
+soca	120	35.9	107
+soca	120	51.4	108
+soca	120	30.9	109
+soca	120	62.5	110
+soca	120	49.3	111
+soca	120	33.1	112
+soca	120	22.7	113
+soca	120	20.6	114

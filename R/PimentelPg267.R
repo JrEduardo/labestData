@@ -1,46 +1,46 @@
 #' @name PimentelPg267
-#' @title Peso Total em Ensaios de 12 ou 13 Aves
-#' @description Ensaio de Torres e Pimentel-Gomes (1959) em que usaram
-#'     4 rações com 2 repetições para pintos machos e outras duas para
-#'     pintos fêmeas, com um delineamento inteiramente casualizado. Cada
-#'     parcela tinha inicialmente 13 aves, mas algumas morreram, de modo
-#'     que, na pesagem final, com 4 semanas de idade, algumas parcelas
-#'     contavam com 12 animais apenas.
+#' @title Percentual de Sorgo na Ração para Desenvolvimento de Pintos
+#' @description Ensaio de Torres e Pimentel-Gomes (1959) em que foram
+#'     estudadas 4 rações para pintos dos dois sexos (machos e fêmeas),
+#'     instalado um delineamento inteiramente casualizado com duas
+#'     repetições. Cada parcela tinha inicialmente 13 aves, mas algumas
+#'     morreram, de modo que, na pesagem final, com 4 semanas de idade,
+#'     algumas parcelas contavam com 12 animais apenas.
 #' @format Um \code{data.frame} com 16 observações e 4 variáveis, em que
 #'
 #' \describe{
 #'
 #' \item{\code{sexo}}{Fator de 2 níveis qualitativos, que refere-se ao
-#'     sexo do animal: Masculino (M) e Feminino (F).}
-#'     
-#' \item{\code{sorgo}}{Fator de 4 níveis qualitativos, que são os
-#'     diferentes tipos de ração, sendo: 0 (sem sorgo), 10 (com
-#'     \eqn{10\%} de sorgo), 20 (com \eqn{20\%} porcento de sorgo) e 30
-#'     (com \eqn{30\%} de sorgo).}
+#'     sexo do animal: masculino (M) e eeminino (F).}
 #'
-#' \item{\code{animais}}{Número de aves vivas ao final de cada ensaio.}
-#' 
-#' \item{\code{peso}}{Peso total das parcelas, em decagramas.}
+#' \item{\code{sorgo}}{Fator de 4 níveis que representa o percentual de
+#'     sorgo na ração: 0, 10, 20 e 30\% de sorgo na ração.}
+#'
+#' \item{\code{animais}}{Número de aves na parcela.}
+#'
+#' \item{\code{peso}}{Peso total das aves da parcela, em decagramas.}
 #'
 #' }
 #' @keywords DIC
 #' @source Pimentel-Gomes, F. (2009). Curso de Estatística
 #'     Experimental (15th ed.). Piracicaba, SP: FEALQ. (Página 267)
+#'
+#' Torres, A. P., Pimentel-Gomes, F. Substituição de subprodutos de
+#'     trigo pelo sorgo moído na alimentação de pintos. Escola Superior
+#'     de Agricultura "Luiz de Queiroz". Anais E.S.A. "Luiz de Queiroz"
+#'     16:251-76, 1959.
 #' @examples
 #'
 #' library(lattice)
 #'
 #' data(PimentelPg267)
 #' str(PimentelPg267)
-#' 
-#' xyplot(peso ~ sorgo,
-#'        groups = sexo,
-#'        auto.key = list(title = "Sexo",
-#'                        cex.title = 1,
+#'
+#' xyplot(peso ~ sorgo, data = PimentelPg267,
+#'        groups = sexo, type = c("a", "p"),
+#'        auto.key = list(title = "Sexo", cex.title = 1,
 #'                        columns = 2),
-#'        type = c("a", "p"),
-#'        data = PimentelPg267,
 #'        ylab = "Peso Total (em decagramas)",
-#'        xlab = "Tipo de Ração")
+#'        xlab = "Percentual de sorgo na ração (%)")
 #'
 NULL
