@@ -3,9 +3,16 @@
 #' @description Ensaio realizado pelo Departamento de Produção Animal da
 #'     Secretaria de Agricultura paulista, que teve por objetivo estudar
 #'     a influência da caseína iodada na nutrição de vacas leiteiras.
-#'     Consideram-se 4 tratamentos e fizeram-se 3 repetições, em blocos
-#'     casualizados com cada bloco contendo 4 parcelas, cada uma
-#'     constituída por uma vaca.
+#'     Consideram-se 4 tratamentos (doses de caseina iodada) e
+#'     fizeram-se 3 repetições, em blocos casualizados com cada bloco
+#'     contendo 4 parcelas, cada uma constituída por uma vaca. As vacas
+#'     eram todas mestiças Flamengo \eqn{\times} Caracu e todas paridas
+#'     em maio, junho ou julho de 1959. Os blocos foram organizados
+#'     tendo em vista a produção de leite das vacas em um período
+#'     pré-experimental de duas semanas, em que todas recebiam uma
+#'     mesma ração. No primeiro bloco ficaram as vacas de maior
+#'     produção, no segundo as 4 seguintes e no terceiro as de menor
+#'     produção.
 #' @format Um \code{data.frame} com 12 observações e 3 variáveis, em que
 #'
 #' \describe{
@@ -16,9 +23,14 @@
 #' \item{\code{caseina}}{Dosagem de caseína iodada, em gramas.}
 #'
 #' \item{\code{prod}}{Produção de leite das vacas, em kg, no período
-#'     experimental de 8 semanas.}
+#'     experimental de 8 semanas (de 20 de Outubro a 15 Dezembro de
+#'     1959).}
 #'
 #' }
+#'
+#' A observação da testemunha (0 de caseina) no bloco 3 foi perdida. O
+#'     valor correspondente foi estimado por métodos de imputação de
+#'     parcela perdida discutido na seção 5.4 de Pimentel-Gomes (2009).
 #' @keywords DBC
 #' @source Pimentel-Gomes, F. (2009). Curso de Estatística Experimental
 #'     (15th ed.). Piracicaba, SP: FEALQ. (Página 269)
@@ -28,13 +40,18 @@
 #'
 #' data(PimentelPg269)
 #' str(PimentelPg269)
-#' 
-#' xyplot(prod ~ caseina,
-#'        groups = bloc,
-#'        type = "o",
-#'        auto.key = list(title = "Bloco", cex.title = 1, columns = 3),
-#'        data = PimentelPg269,
-#'        ylab = "Produção de Leite (em kg)",
-#'        xlab = "Dosagem de Caseína Iodada (em gramas)")
+#'
+#' xyplot(prod ~ caseina, data = PimentelPg269,
+#'        groups = bloc, type = "o",
+#'        auto.key = list(title = "Bloco", cex.title = 1.1,
+#'                        columns = 3),
+#'        ylab = "Produção de Leite (kg)",
+#'        xlab = "Dose de Caseína Iodada (gramas)")
+#'
+#' # Parcela perdida que foi estimada.
+#' subset(PimentelPg269, caseina == 0 & bloc == "3")
+#'
+#' i <- with(PimentelPg269, caseina == 0 & bloc == "3")
+#' PimentelPg269$prod[i] <- NA
 #'
 NULL

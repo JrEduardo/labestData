@@ -1,4 +1,4 @@
-bloc	grupo	carga	braquiaria	peso
+bloc	grupo	carga	braq	peso
 1	1	0.9	humidicola	312
 1	2	0.9	humidicola	350
 1	3	0.9	humidicola	341

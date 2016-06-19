@@ -1,4 +1,4 @@
-grupo	vaca	periodo	alimento	prod
+grupo	vaca	periodo	trat	prod
 1	1	1	A	527
 1	1	2	C	883
 1	1	3	B	785
