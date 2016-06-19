@@ -1,0 +1,51 @@
+#' @name PimentelTb14.4.1
+#' @title Produção de Leite em um Ensaio de Alimentação de Vacas
+#' @description Experimento de nutrição de vacas, conduzido em períodos
+#'     com 12 vacas distribuídas em 4 grupos de 3 vacas. Foram estudados
+#'     3 tipos de alimentação para as vacas em um delineamento quadrado
+#'     latino 3 \eqn{\times} 3 em cada grupo (linha = vaca, coluna =
+#'     período). A variável resposta é a produção de leite das parcelas.
+#' @format Um \code{data.frame} com 36 observações e 5 variáveis, em que
+#'
+#' \describe{
+#'
+#' \item{\code{grupo}}{Fator de 4 níveis qualitativos, usado para
+#'     controle local. Cada grupo tem 9 parcelas em um quadrado latino 3
+#'     \eqn{\times}.}
+#'
+#' \item{\code{vaca}}{Fator de 3 níveis qualitativos, que são as vacas,
+#' utilizado como linhas do quadrado latino de 3 \eqn{\times} 3. Ao todo
+#'     são 12 vacas, 3 por grupo.}
+#'
+#' \item{\code{periodo}}{Fator de 3 níveis qualitativos, que são os
+#'     períodos sucessivos de produção de leite, utilizado como colunas
+#'     do quadrado latino de 3 \eqn{\times} 3.}
+#'
+#' \item{\code{trat}}{Fator de 3 níveis qualitativos, que são os
+#'     tratamentos relacionados à alimentação das vacas.}
+#'
+#' \item{\code{prod}}{Produções de leite, em kg.}
+#'
+#' }
+#' @keywords SQL
+#' @source Pimentel-Gomes, F. (2009). Curso de Estatística Experimental
+#'     (15th ed.). Piracicaba, SP: FEALQ. (Tabela 14.4.1, pág. 272)
+#' @examples
+#'
+#' library(lattice)
+#'
+#' data(PimentelTb14.4.1)
+#' str(PimentelTb14.4.1)
+#'
+#' ftable(xtabs(~trat + vaca + grupo, data = PimentelTb14.4.1))
+#'
+#' xyplot(prod ~ trat,
+#'        groups = grupo,
+#'        type = c("a", "p"),
+#'        auto.key = list(title = "Grupo",
+#'                        cex.title = 1.1, columns = 4),
+#'        data = PimentelTb14.4.1,
+#'        ylab = "Produção de leite (kg)",
+#'        xlab = "Tratamento de alimentação")
+#'
+NULL
