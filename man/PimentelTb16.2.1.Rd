@@ -11,7 +11,8 @@
     controle local.}
 
 \item{\code{inset}}{Fator de 5 níveis qualitativos, que são os
-    diferentes tipos de insetos.}
+    diferentes tipos de inseticidas, sendo um a testemunha e os
+    demais produtos comerciais.}
 
 \item{\code{stand}}{Variável quantitativa, que refere-se ao número de
     plantas de cada parcela.}
@@ -27,40 +28,45 @@ Pimentel-Gomes, F. (2009). Curso de Estatística Experimental
 Ensaio de controle de pragas do feijoeiro, realizado
     pelo engenheiro agrônomo João Ferreira do Amaral. Nesse
     experimento, em 8 blocos casualizados, foram utilizados 5
-    tratamentos, e além da produção determinou-se o número de plantas
-    de cada parcela.
+    tratamentos. Além da produção do feijoeiro (g/parcela)
+    determinou-se o número de plantas de cada parcela para que fosse
+    corrigida a variação da produção final pela quantidade de plantas
+    na parcela.
 }
 \examples{
 
 library(lattice)
+library(latticeExtra)
 
 data(PimentelTb16.2.1)
 str(PimentelTb16.2.1)
 
-graf1 <- xyplot(prod ~ inset,
-                groups = bloc,
-                type = c("a", "p"),
-                auto.key = list(title = "Bloco",
-                                cex.title = 1,
-                                columns = 4),
-                data = PimentelTb16.2.1,
-                ylab = "Produção",
-                xlab = "Tipo de Inseto")
+cex <- with(PimentelTb16.2.1, {
+    std <- stand - min(stand)
+    cex <- std/max(std)
+    cex <- 0.5 + 1 * cex
+    nums <- function(x) seq(min(x), max(x), length.out = 5)
+    key <- list(text = list(formatC(nums(stand), digits = 1)),
+                points = list(cex = nums(cex), pch = 1),
+                title = "Plantas por parcela",
+                cex.title = 1.1,
+                columns = 5)
+    return(list(cex = cex, key = key))
+})
 
-graf2 <- xyplot(jitter(stand) ~ inset,
-                groups = bloc,
-                type = c("a", "p"),
-                auto.key = list(title = "Bloco",
-                                cex.title = 1,
-                                columns = 4),
-                data = PimentelTb16.2.1,
-                ylab = "Número de Plantas por Parcela",
-                xlab = "Tipo de Inseto")
+xyplot(prod ~ inset, data = PimentelTb16.2.1,
+       cex = cex$cex, key = cex$key,
+       ylab = "Produção de feijão (g/parcela)",
+       xlab = "Inseticidas")
 
-print(graf1, position = c(0, 0, 0.5, 1), more = TRUE)
-
-print(graf2, position = c(0.5, 0, 1, 1))
+xyplot(prod ~ stand, data = PimentelTb16.2.1,
+       groups = inset, type = c("p", "r"),
+       auto.key = list(title = "Inseticidas", cex.title = 1.1,
+                       columns = 2),
+       ylab = "Produção de feijão (g/parcela)",
+       xlab = "Plantas por parcela")
 
 }
+\keyword{COV}
 \keyword{DBC}
 

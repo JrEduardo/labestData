@@ -1,4 +1,4 @@
-exper	bloc	especie	prod
+exper	bloc	espec	prod
 1	1	1	5.3
 1	2	1	4.8
 1	3	1	5.5

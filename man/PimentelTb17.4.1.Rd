@@ -7,11 +7,11 @@
 
 \describe{
 
-\item{\code{exper}}{Fator de 2 níveis qualitativos, usado para
-    diferenciar o grupo de experimentos.}
+\item{\code{exper}}{Fator de 2 níveis qualitativos que identifica os
+    experimentos.}
 
-\item{\code{bloc}}{Fator de 4 níveis qualitativos, usado para
-    controle local.}
+\item{\code{bloc}}{Fator de 4 níveis qualitativos que identifica os
+    blocos em cada experimento.}
 
 \item{\code{varied}}{Fator de 11 níveis qualitativos, que são as
     variedades de cana-de-açúcar.}
@@ -26,8 +26,8 @@ Pimentel-Gomes, F. (2009). Curso de Estatística Experimental
 \description{
 Grupo de dois ensaios com variedades de cana-de-açúcar,
     realizado na Argentina por G. Kenning Voss. Os dados referem-se a
-    um ensaio com 7 variedades de cana, com 3 repetições, e outro com
-    8 variedades e 4 repetições.
+    um ensaio com 7 variedades de cana em 3 blocos, e outro com
+    8 variedades em 4 blocos.
 }
 \examples{
 
@@ -36,15 +36,18 @@ library(lattice)
 data(PimentelTb17.4.1)
 str(PimentelTb17.4.1)
 
-xyplot(y ~ varied,
-       groups = bloc,
+PimentelTb17.4.1$bloc <- with(PimentelTb17.4.1,
+                              interaction(bloc, exper, drop = TRUE))
+ftable(xtabs(~varied + exper + bloc,
+             data = PimentelTb17.4.1))
+
+xyplot(y ~ reorder(varied, y), data = PimentelTb17.4.1,
+       groups = interaction(exper, bloc, drop = TRUE),
        type = c("a", "p"),
-       auto.key = list(title = "Bloco",
-                       cex.title = 1,
-                       columns = 4),
-       data = PimentelTb17.4.1,
-       ylab = "Variável Resposta",
-       xlab = "Variedade de Cana-de-açúcar")
+       auto.key = list(title = "Blocos",
+                       cex.title = 1.1, columns = 4),
+       ylab = "Resposta",
+       xlab = "Variedades de cana-de-açúcar")
 
 }
 \keyword{GE}

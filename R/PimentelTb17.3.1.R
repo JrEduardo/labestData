@@ -4,26 +4,27 @@
 #'     realizados pela Companhia Paulista de Estradas de Ferro
 #'     (Pimentel-Gomes e Guimarães, 1958). Ambos os ensaios, localizados
 #'     lado a lado no campo, tinham 10 espécies, em 5 blocos
-#'     casualizados. Uma única espécie (Eucalyptus saligna) ocorria em
-#'     ambos os experimentos.
-#' @format Um \code{data.frame} com 100 observações e 4 variáveis, em que
+#'     casualizados. Uma única espécie (\emph{Eucalyptus saligna})
+#'     ocorria em ambos os experimentos.
+#' @format Um \code{data.frame} com 100 observações e 4 variáveis, em
+#'     que
 #'
 #' \describe{
 #'
 #' \item{\code{exper}}{Fator de 2 níveis qualitativos, usado para
-#'     diferenciar o grupo de experimentos.}
+#'     diferenciar os experimentos que foram instalados lado a lado.}
 #'
-#' \item{\code{bloc}}{Fator de 5 níveis qualitativos, usado para
-#'     controle local.}
+#' \item{\code{bloc}}{Fator de 5 níveis qualitativos que identifica os
+#'     blocos em cada experimento.}
 #'
-#' \item{\code{especie}}{Fator de 19 níveis qualitativos, que são as
+#' \item{\code{espec}}{Fator de 19 níveis qualitativos, que são as
 #'     espécies de eucalipto.}
 #'
 #' \item{\code{prod}}{Produção de lenha, em metros cúbicos por parcela,
-#'     por corte aos 8 anos de idade.}
+#'     com corte aos 8 anos de idade.}
 #'
 #' }
-#' @keywords DBC
+#' @keywords DBC GE
 #' @source Pimentel-Gomes, F. (2009). Curso de Estatística Experimental
 #'     (15th ed.). Piracicaba, SP: FEALQ. (Tabela 17.3.1, pág. 317)
 #' @examples
@@ -33,14 +34,11 @@
 #' data(PimentelTb17.3.1)
 #' str(PimentelTb17.3.1)
 #'
-#' xyplot(prod ~ especie,
-#'        groups = bloc,
-#'        type = c("a", "p"),
-#'        auto.key = list(title = "Bloco",
-#'                        cex.title = 1,
-#'                        columns = 5),
+#' ftable(xtabs(~exper + bloc + espec, data = PimentelTb17.3.1))
+#'
+#' xyplot(prod ~ espec,
 #'        data = PimentelTb17.3.1,
-#'        ylab = "Produção de Lenha (em metros cúbicos por parcela)",
-#'        xlab = "Espécies de Eucalipto")
+#'        ylab = expression("Produção de lenha"~(m^3 ~ parcela^{-1})),
+#'        xlab = "Espécies de eucalipto")
 #'
 NULL
