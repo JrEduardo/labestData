@@ -1,0 +1,4 @@
+metod	morta	viva
+A	20	180
+B	50	150
+C	56	144

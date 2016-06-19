@@ -1,0 +1,36 @@
+#' @name PimentelPg382
+#' @title Métodos de Enxertia no Pegamento de Mudas
+#' @description Experimento com 3 métodos de enxertia em que haviam 200
+#'     estacas para cada método e pegaram 180, 150 e 145 desses
+#'     enxertos, respectivamente.
+#' @format Um \code{data.frame} com 3 observações e 3 variáveis, em que
+#'
+#' \describe{
+#'
+#' \item{\code{metod}}{Fator de 3 níveis qualitativos que são os métodos
+#'     de enxertia das estacas.}
+#'
+#' \item{\code{morta}}{Quantidade de estacas mortas, ou seja, que não
+#'     pegaram com a enxertia, de um total de 200 estacas.}
+#'
+#' \item{\code{viva}}{Quantidade de estacas vivas, ou seja, que pegaram
+#'     com a enxertia, de um total de 200 estacas. A soma das vivas com
+#'     as mortas é 200, portanto.}
+#'
+#' }
+#' @keywords DIC
+#' @source Pimentel-Gomes, F. (2009). Curso de Estatística Experimental
+#'     (15th ed.). Piracicaba, SP: FEALQ. (Página 382)
+#' @examples
+#'
+#' library(lattice)
+#'
+#' data(PimentelPg382)
+#' str(PimentelPg382)
+#'
+#' barchart(morta + viva ~ metod, data = PimentelPg382,
+#'          stack = TRUE, auto.key = TRUE,
+#'          xlab = "Método de enxertia",
+#'          ylab = "Quantidade de estacas")
+#'
+NULL
