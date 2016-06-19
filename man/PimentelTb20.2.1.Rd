@@ -13,7 +13,8 @@
 \item{\code{K}}{Variável que indica os níveis de Potássio (K) em cada
     parcela.}
 
-\item{\code{totais}}{Totais dos tratamentos em \eqn{t.ha^{-1}}.}
+\item{\code{totais}}{Produção total nos 6 blocos, em ton
+    ha\eqn{^{-1}}. Valores individuais não disponíveis.}
 
 }}
 \source{
@@ -31,15 +32,12 @@ library(lattice)
 data(PimentelTb20.2.1)
 str(PimentelTb20.2.1)
 
-xyplot(totais ~ P,
-       groups = K,
-       type = "o",
+xyplot(totais ~ P, data = PimentelTb20.2.1,
+       groups = K, type = "o",
        auto.key = list(title = "Níveis de Potássio (K)",
-                       cext.tile = 1,
-                       columns = 3),
-       data = PimentelTb20.2.1,
-       ylab = "Totais de Tratamentos (em t/ha)",
-       xlab = "Níveis de Fósforo (P)")
+                       cex.title = 1.1, columns = 3),
+       ylab = "Totais de tratamentos (ton/ha)",
+       xlab = "Níveis de fósforo (P)")
 
 }
 \keyword{FAT2}

@@ -1,29 +1,45 @@
 #' @name PimentelTb18.2.1
-#' @title Ensaio de Adubação de Milho
-#' @description Ensaio de adubação de milho, fatorial de \eqn{3^{3}} com
-#'     N, P e K, com confundimento de 2 graus de liberdade da interação
-#'     tripla. A cada três blocos de 9 parcelas juntaram-se 5
-#'     tratamentos adicionais.
-#' @format Um \code{data.frame} com 42 observações e 3 variáveis, em que
+#' @title Ensaio Fatorial com Tratamentos Adicionais de Adubação de
+#'     Milho
+#' @description Ensaio de adubação NPK de milho, fatorial de
+#'     \eqn{3^{3}}, com confundimento de 2 graus de liberdade da
+#'     interação tripla. A cada três blocos de 9 parcelas juntaram-se
+#'     mais 5 com tratamentos adicionais combinando calcário e
+#'     micronutrientes.
+#' @format Um \code{data.frame} com 42 observações e 8 variáveis, em que
 #'
 #' \describe{
 #'
 #' \item{\code{bloc}}{Fator de 3 níveis qualitativos, usado para
-#'     controle local.}
+#'     controle local. Os blocos tem 14 parcelas, 9 da porção fatorial e
+#'     5 da porção adicional.}
 #'
 #' \item{\code{trat}}{Fator de 30 níveis qualitativos, que são os
 #'     tratamentos aplicados em cada parcela, sendo que cada algarismo
-#'     possui um significado diferente conforme sua posição: A posição
-#'     1 indica os níveis de Nitrogênio; A posição 2 indica os níveis de
-#'     Fósforo; A posição 3 indica  os níveis de Potássio; A posição 4
-#'     (após o hífen) indica uma possível adição de Calcário; E a
-#'     posição 5 (após o hífen) indica uma possível adição de
-#'     micronutrientes.}
+#'     possui um significado diferente conforme sua posição: A posição 1
+#'     indica os níveis de nitrogênio, a posição 2 indica os níveis de
+#'     fósforo e a posição 3 indica os níveis de potássio. A letra C
+#'     indica a adição de calcário e M a adição de micronutrientes.}
 #'
-#' \item{\code{prod}}{Produção de milho, em \eqn{kg.ha^{-1}}.}
+#' \item{\code{N}}{Fator de níveis codificados que representa a dose de
+#'     nitrogênio.}
+#'
+#' \item{\code{P}}{Fator de níveis codificados que representa a dose de
+#'     fósforo.}
+#'
+#' \item{\code{K}}{Fator de níveis codificados que representa a dose de
+#'     potássio.}
+#'
+#' \item{\code{calc}}{Fator de níveis codificados que indica a presença
+#'     (1) ou ausência de calcário.}
+#'
+#' \item{\code{micro}}{Fator de níveis codificados que indica a presença
+#'     (1) ou ausência de micronutrientes.}
+#'
+#' \item{\code{prod}}{Produção de milho, em kg ha\eqn{^{-1}}.}
 #'
 #' }
-#' @keywords FAT3
+#' @keywords FAT3 adicional
 #' @source Pimentel-Gomes, F. (2009). Curso de Estatística Experimental
 #'     (15th ed.). Piracicaba, SP: FEALQ. (Tabela 18.2.1, pág. 330)
 #' @examples
@@ -32,15 +48,16 @@
 #'
 #' data(PimentelTb18.2.1)
 #' str(PimentelTb18.2.1)
-#' 
-#' xyplot(prod ~ trat,
-#'        groups = bloc,
-#'        auto.key = list(title = "Blocos",
-#'                        cex.title = 1,
-#'                        columns = 3),
-#'        data = PimentelTb18.2.1,
-#'        type = c("a", "p"),
-#'        ylab = "Produção de Milho (em kg/ha)",
-#'        xlab = "Tratamento")
+#'
+#' xtabs(~trat + bloc, data = PimentelTb18.2.1)
+#'
+#' xyplot(prod ~ N | factor(P), groups = K, data = PimentelTb18.2.1,
+#'        layout = c(NA, 1), type = c("p", "a"),
+#'        xlab = "Nitrogênio (codificado)",
+#'        ylab = expression("Produção de milho"~(ka~ha^{-1})),
+#'        auto.key = list(title = "Potássio (codificado)",
+#'                        cex.title = 1.1, columns = 3),
+#'        strip = strip.custom(strip.names = TRUE,
+#'                             var.name = "Fósforo"))
 #'
 NULL

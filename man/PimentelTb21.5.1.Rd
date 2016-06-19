@@ -19,9 +19,10 @@ Pimentel-Gomes, F. (2009). Curso de Estatística Experimental
     (15th ed.). Piracicaba, SP: FEALQ. (Tabela 21.5.1, pág. 384)
 }
 \description{
-Ensaio inteiramente casualizado relativo à porcentagem
-    de plantas doentes em um experimento de tomateiros, em que foi
-    aplicado o teste de Kruskal-Wallis.
+Ensaio inteiramente casualizado para avaliar a
+    porcentagem de plantas doentes em um experimento de tomateiros
+    onde foi estudado um fator de 3 níveis. Para análise dos
+    resultados pode-se considerar o de Kruskal- Wallis.
 }
 \examples{
 
@@ -33,7 +34,7 @@ str(PimentelTb21.5.1)
 xyplot(doentes ~ trat,
        data = PimentelTb21.5.1,
        type = c("a", "p"),
-       ylab = "Porcentagem de Plantas Doentes",
+       ylab = "Porcentagem de plantas doentes",
        xlab = "Tratamento")
 
 }

@@ -2,18 +2,20 @@
 % Please edit documentation in R/PimentelPg382.R
 \name{PimentelPg382}
 \alias{PimentelPg382}
-\title{Experimento de Métodos de Enxertia}
-\format{Um \code{data.frame} com 6 observações e 3 variáveis, em que
+\title{Métodos de Enxertia no Pegamento de Mudas}
+\format{Um \code{data.frame} com 3 observações e 3 variáveis, em que
 
 \describe{
 
-\item{\code{metod}}{Fator de 3 níveis qualitativos, que são os
-    métodos de enxertia.}
+\item{\code{metod}}{Fator de 3 níveis qualitativos que são os métodos
+    de enxertia das estacas.}
 
-\item{\code{enxerto}}{Fator de 2 níveis qualitativos, que indica os
-     Enxertos Pegados e os Enxertos Mortos.}
+\item{\code{morta}}{Quantidade de estacas mortas, ou seja, que não
+    pegaram com a enxertia, de um total de 200 estacas.}
 
-\item{\code{freq}}{Totais de frequências.}
+\item{\code{viva}}{Quantidade de estacas vivas, ou seja, que pegaram
+    com a enxertia, de um total de 200 estacas. A soma das vivas com
+    as mortas é 200, portanto.}
 
 }}
 \source{
@@ -22,10 +24,8 @@ Pimentel-Gomes, F. (2009). Curso de Estatística Experimental
 }
 \description{
 Experimento com 3 métodos de enxertia em que haviam 200
-    enxertos para cada método e pegaram 180, 150 e 145 desses
-    enxertos, respectivamente. O resultado, traduzido por
-    frequências, pode ser expresso em porcentagens, que devem ser
-    comparadas.
+    estacas para cada método e pegaram 180, 150 e 145 desses
+    enxertos, respectivamente.
 }
 \examples{
 
@@ -34,15 +34,10 @@ library(lattice)
 data(PimentelPg382)
 str(PimentelPg382)
 
-xyplot(freq ~ metod,
-       groups = enxerto,
-       type = "o",
-       auto.key = list(title = "Enxerto",
-                       cext.tile = 1,
-                       columns = 2),
-       data = PimentelPg382,
-       ylab = "Frequência",
-       xlab = "Método de Enxertia")
+barchart(morta + viva ~ metod, data = PimentelPg382,
+         stack = TRUE, auto.key = TRUE,
+         xlab = "Método de enxertia",
+         ylab = "Quantidade de estacas")
 
 }
 \keyword{DIC}
