@@ -1,35 +1,34 @@
 #' @name FariaQd14.2
-#' @title Produção de milho, em kg/ha-¹
-#' @description Os dados abaixo são provenientes de um ensaio
-#'     experimental em que foram utilizadas 7 doses de nitrogênio 
-#'     aplicado em cobertura sobre a produtividade de milho. 
-#'     O experimento foi montado em delineamento inteiramente 
-#'     casualizado, DIC, com 5 repetições.
-#' @format Um \code{data.frame} com 35 observações e 3 variáveis.
+#' @title Adubação Nitrogenada na Produção de Milho
+#' @description Os dados abaixo são provenientes de um ensaio em que
+#'     foram utilizadas 7 doses de nitrogênio aplicado em cobertura para
+#'     avaliar a produtividade de milho. O experimento foi montado em
+#'     delineamento inteiramente casualizado, com 5 repetições.
+#' @format Um \code{data.frame} com 35 observações e 3 variáveis, em que
+#'
 #' \describe{
-#' 
-#' \item{\code{trat}}{ Os níveis do fator são constituídos por 7 doses
-#'     de nitrogênio (10, 20, 30, 40, 50, 60 e 70). }
-#' 
-#' \item{\code{rept}}{ Os níveis do fator são constituídos por 5 (1, 2,
-#'     3, 4 e 5) repetições. }
-#' 
-#' \item{\code{result}}{ Resultaos obtidos pelo experimento da 
-#'     produção de milho, em kg/ha-¹ }
-#' 
+#'
+#' \item{\code{N}}{Fator métrico que é a dose de nitrogênio aplicado em
+#'     cobertura, kg ha\eqn{^{-1}}.}
+#'
+#' \item{\code{rept}}{Inteiro que identifica as repetições das doses.}
+#'
+#' \item{\code{result}}{Produção de milho, em kg ha\eqn{^{-1}}.}
+#'
 #' }
-#' @keywords DIC
+#' @keywords DIC RL
 #' @source Faria, J. C. (2009). Notas de aulas expandidas (10th ed.)
-#'     Ilhéus - BA : UESC. ( Quadro 14.2 pág 198.)
+#'     Ilhéus - BA: UESC. (Quadro 14.2 pág. 198)
 #' @examples
-#' 
-#' 
+#'
 #' library(lattice)
-#' 
-#' 
+#'
 #' data(FariaQd14.2)
-#' 
-#' plot(trat ~ rept, data = FariaQd14.2)
-#' 
-#' 
+#' str(FariaQd14.2)
+#'
+#' aggregate(prod ~ N, data = FariaQd14.2, FUN = mean)
+#'
+#' xyplot(prod ~ N, data = FariaQd14.2,
+#'        jitter.x = TRUE, type = c("p", "smooth"))
+#'
 NULL

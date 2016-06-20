@@ -2,41 +2,44 @@
 % Please edit documentation in R/FariaQd14.3.R
 \name{FariaQd14.3}
 \alias{FariaQd14.3}
-\title{Matéria seca da parte aérea das plantas de milho, g/vaso-¹}
-\format{Um \code{data.frame} com 25 observações e 3 variáveis.
+\title{Adubação com Fósforo na Produção de Matéria Seca de Parte
+    Aérea de Milho}
+\format{Um \code{data.frame} com 25 observações e 3 variáveis, em que
+
 \describe{
 
-\item{\code{trat}}{  Os níveis do fator são constituídos por 5 doses
-    de fósforo (0,0, 32,5, 65,0, 97,5 e 130,0 ). }
+\item{\code{P}}{Fator métrico que representa as doses de fósforo (mg
+    kg\eqn{^{-1}}).}
 
-\item{\code{blo}}{ Os níveis do fator são constituídos por 5 
-    repetições (1, 2, 3, 4 e 5). }
+\item{\code{bloco}}{Fator que representa os blocos dentro da casa de
+    vegetação.}
 
-\item{\code{result}}{ Resultado da matéria seca da parte aérea das 
-    plantas de milho, g/vaso-¹. }
+\item{\code{mspa}}{Massa da matéria seca da parte aérea das
+    plantas de milho, g vaso\eqn{^{-1}}.}
 
 }}
 \source{
 Faria, J. C. (2009). Notas de aulas expandidas (10th ed.)
-    Ilhéus - BA : UESC. ( Quadro 14.3 pág 200.)
+    Ilhéus - BA: UESC. (Quadro 14.3 pág. 200)
 }
 \description{
-Os dados abaixo são provenientes de um ensaio 
-    experimental realizado em casa de vegetação, montado no 
-    delineamento em blocos casualizados, com 5 repetições, para 
-    avaliar o efeito de doses de fósforo na produção de matéria seca 
+Os dados abaixo são provenientes de um ensaio
+    experimental realizado em casa de vegetação, montado no
+    delineamento em blocos casualizados, com 5 repetições, para
+    avaliar o efeito de doses de fósforo na produção de matéria seca
     da parte aérea do milho.
 }
 \examples{
 
-
 library(lattice)
 
-
 data(FariaQd14.3)
+str(FariaQd14.3)
 
-plot(trat ~ rept, data = FariaQd14.3)
+aggregate(mspa ~ P, data = FariaQd14.3, FUN = mean)
 
+xyplot(mspa ~ P, data = FariaQd14.3,
+       groups = bloc, type = "o")
 
 }
 \keyword{DBC}

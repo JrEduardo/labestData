@@ -2,41 +2,50 @@
 % Please edit documentation in R/FariaQd11.4.R
 \name{FariaQd11.4}
 \alias{FariaQd11.4}
-\title{Produção de Batatas em Kg/parcela.}
-\format{Um \code{data.frame} com 16 observações e 4 variáveis.
-\describe{ 
+\title{Produção de Batatas em Função da Calagem e Adubação}
+\format{Um \code{data.frame} com 16 observações e 4 variáveis, em
+    que
 
-\item{\code{trat1}}{  Os níveis do fator são constituídos por 2
-    tratamentos  (ci = com irrigação e si = sem irrigação) no solo. }
+\describe{
 
-\item{\code{trat2}}{ Os níveis do fator são constituídos por 2
-    tratamentos  (cac = com calagem e cas = sem calagem) no solo. }
+\item{\code{irri}}{Fator categórico que indica o uso ou não de
+    irrigação para o cultivo da batata.}
 
-\item{\code{rept}}{  Os níveis do fator são constituídos por 4
-    (1, 2, 3 e 4) repetições. }
+\item{\code{calc}}{Fator categórico que indica o uso ou não de
+    calagem para o cultivo da batata.}
 
-\item{\code{result}}{ Resultado obtido em kg/parcela }
+\item{\code{rept}}{Inteiro que identifica as repetições das
+    combinações dos fatores acima mencionados.}
+
+\item{\code{result}}{Produção de batata, em kg ha\eqn{^{-1}}.}
 
 }}
 \source{
 Faria, J. C. (2009). Notas de aulas expandidas (10th ed.)
-    Ilhéus - BA : UESC. ( Quadro 11.4, pág 134.)
+    Ilhéus - BA: UESC. (Quadro 11.4, pág. 134)
 }
 \description{
-Experimento montado no DIC com interação significativa.
+Experimento montado em delineamento inteiramente
+    casualizado para estudar o efeito da combibação dos fatores
+    irrigação e calagem da produção de batata.
 }
 \examples{
 
-
 library(lattice)
 
-
 data(FariaQd11.4)
+str(FariaQd11.4)
 
+xtabs(~irri + calc, data = FariaQd11.4)
 
-plot(trat2 ~ trat1, data = FariaQd11.4)
-
+xyplot(prod ~ factor(irri), groups = calc, data = FariaQd11.4,
+       type = c("p", "a"),
+       xlab = "Uso de irrigação",
+       ylab = expression("Produção de batata"~(kg~parcela^{-1})),
+       auto.key = list(title = "Use de calagem", cex.title = 1.1,
+                       columns = 2))
 
 }
 \keyword{DIC}
+\keyword{FAT2}
 
