@@ -1,0 +1,48 @@
+#' @name MingotiAnA3
+#' @title Dados dos domicílios
+#' @description Dados de uma pesquisa feita em 120 residências de uma
+#'     determinada região. Os dados contém informações dos domicílios e
+#'     dos residentes. 
+#' 
+#' 
+#' @format Um \code{data.frame} com 120 observações e 6 variáveis, 
+#'     em que
+#' 
+#' \describe{
+#'
+#' \item{\code{dom}}{Identificação do domicílio.}
+#' 
+#' \item{\code{loc}}{Fator que indica localidade da residência 
+#'     (de 1 a 3).}
+#' 
+#' \item{\code{inst}}{Fator que indica grau de instrução do chefe da 
+#'     família (de 1 a 3).}
+#' 
+#' \item{\code{nres}}{Número de pessoas residentes no domicílio.}
+#' 
+#' \item{\code{rendm}}{Renda familiar mensal (em quantidade de salários 
+#'     mínimos).}
+#' 
+#' \item{\code{rendpc}}{Renda familiar mensal per capita (em número de 
+#'     salários mínimos).}
+#' 
+#' }
+#'
+#' @keywords AnaComp
+#' @source Mingoti, S.A. (2005). Análise de dados através de métodos de 
+#'      estatística multivariada - uma abordagem aplicada. 
+#'      Belo Horizonte, MG: Editora UFMG. (pg 287).
+#' 
+#' @examples
+#'
+#' data(MingotiAnA3) 
+#' 
+#' library(lattice)
+#' 
+#' bwplot(inst~rendpc|loc, data=MingotiAnA3,
+#'        xlab = "Renda per capita ",
+#'        ylab = "Grau de instrução",
+#'        main = "Renda e Grau de Instrução por Localidade")
+#' 
+#'                   
+NULL
