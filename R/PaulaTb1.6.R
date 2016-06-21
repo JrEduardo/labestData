@@ -14,9 +14,9 @@
 #' \item{\code{rendm}}{Renda média mensal (em reais).}
 #' 
 #' }
-#' @keywords aplicações
+#' @keywords MLG
 #' @source Paula, G. A. (2004). Modelos de regressão: com apoio
-#'     computacional. São Paulo, SP: IME-USP. (Tabela 1.6, pág. 80)
+#'     computacional. São Paulo, SP: IME-USP. (Tabela 1.6, p?g. 80)
 #'
 #' @examples
 #'

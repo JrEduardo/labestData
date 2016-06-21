@@ -15,7 +15,7 @@
 }}
 \source{
 Paula, G. A. (2004). Modelos de regressão: com apoio
-    computacional. São Paulo, SP: IME-USP. (Tabela 1.6, pág. 80)
+    computacional. São Paulo, SP: IME-USP. (Tabela 1.6, p?g. 80)
 }
 \description{
 Conjunto de dados que apresenta para  cada unidade da
@@ -45,5 +45,5 @@ xyplot(rendm ~ esc,
        main = "Renda Média Mensal por Anos de Estudo")
 
 }
-\keyword{aplicações}
+\keyword{MLG}
 

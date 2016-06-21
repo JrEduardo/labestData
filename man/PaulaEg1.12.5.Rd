@@ -21,14 +21,13 @@
 }}
 \source{
 Paula, G. A. (2004). Modelos de regressão: com apoio
-    computacional. São Paulo, SP: IME-USP. (Eg 1.12.5, pág. 94)
+    computacional. São Paulo, SP: IME-USP. (Eg 1.12.5, p?g. 94)
 }
 \description{
 Dados referentes ao consumo de combustível em 48 estados 
-    norte-americanos contíguos juntamente com as seguintes variáveis:
-    taxa do combustível no estado, proporção de motoristas licenciados,
-    renda percapita, ajuda federal para as estradas e consumo de 
-    combustível por habitante.
+    norte-americanos. O interesse nesse estudo é tentar explicar o 
+    consumo de combustível pelas Variáveis taxa, licença, renda e 
+    estradas.
 }
 \examples{
 
@@ -51,5 +50,5 @@ xyplot(cons ~ est,
        grid = TRUE)
 
 }
-\keyword{aplicações}
+\keyword{MLG}
 

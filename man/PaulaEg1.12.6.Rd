@@ -18,7 +18,7 @@
 }}
 \source{
 Paula, G. A. (2004). Modelos de regressão: com apoio
-    computacional. São Paulo, SP: IME-USP. (Eg 1.12.6, pág. 97)
+    computacional. São Paulo, SP: IME-USP. (Eg 1.12.6, p?g. 97)
 }
 \description{
 Dados referentes ao salário anual de uma 
@@ -34,11 +34,6 @@ str(PaulaEg1.12.6)
 
 library(lattice)
 
-bwplot(sal ~ sexo, 
-       data = PaulaEg1.12.6,
-       ylab = "Salário",
-       main = "Bwplot de Salário por Sexo")
-
 xyplot(sal ~ aexp | sexo,
        data = PaulaEg1.12.6,
        type = c("p", "smooth"),
@@ -47,5 +42,5 @@ xyplot(sal ~ aexp | sexo,
        main = "Dispersão de Salário por Anos de Experiência")
 
 }
-\keyword{aplicações}
+\keyword{MLG}
 

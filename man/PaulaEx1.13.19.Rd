@@ -10,7 +10,7 @@
 
 \item{\code{pop}}{População estimada em julho de 1975.}
 
-\item{\code{rendapc}}{Renda percapita em 1974 (em USD).}
+\item{\code{rendapc}}{Renda per capita em 1974 (em USD).}
 
 \item{\code{analf}}{Proporção de analfabetos em 1970.}
 
@@ -30,16 +30,12 @@
 }}
 \source{
 Paula, G. A. (2004). Modelos de regressão: com apoio
-    computacional. São Paulo, SP: IME-USP. (Eg 1.13.19, pág. 109)
+    computacional. São Paulo, SP: IME-USP. (Eg 1.13.19, p?g. 109)
 }
 \description{
-Dados referentes a 50 estados norte-americanos descritos
-    com as seguintes variáveis: população estimada em julho de 1975, 
-    renda percapita em 1974, proporção de analfabetos em 1970, expectativa
-    de vida em 1969-1970, taxa de criminalidade em 1976, porcentagem de 
-    estudantes que concluem o segundo grau em 1970, número de dias do 
-    ano com temperatura abaixo de zero graus Celsus na cidade mais 
-    importante do estado, e área do estado.
+Dados referentes a 50 estados norte-americanos com o
+ objetivo de tentar explicar a variável expectativa de vida usando um
+ modelo de regressão normal linear.
 }
 \examples{
 
@@ -55,5 +51,5 @@ scatterplotMatrix( ~ expvida + analf + crime + estud + ndias + dens,
 
 
 }
-\keyword{aplicações}
+\keyword{MLG}
 

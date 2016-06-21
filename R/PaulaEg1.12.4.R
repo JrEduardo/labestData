@@ -19,7 +19,7 @@
 #' \item{\code{tempo}}{Tempo de sobrevivência (em dias).}
 #' 
 #' }
-#' @keywords aplicações
+#' @keywords MLG
 #' @source Paula, G. A. (2004). Modelos de regressão: com apoio
 #'     computacional. São Paulo, SP: IME-USP. (Eg 1.12.4, pág. 90)
 #'

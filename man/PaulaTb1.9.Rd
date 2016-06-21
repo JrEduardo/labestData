@@ -18,7 +18,7 @@ Paula, G. A. (2004). Modelos de regressão: com apoio
 \description{
 Número de bactérias sobreviventes em amostras de um 
     produto alimentício segundo o tempo de exposição do produto a uma
-    temperatura de 300ºF.
+    temperatura de 300°F.
 }
 \examples{
 
@@ -32,9 +32,9 @@ xyplot(num ~ temp,
        ylab = "Número de bactérias",
        xlab = "Tempo de exposição",
        data = PaulaTb1.9,
-       type = c("p", "smooth"),
+       type = c("o"),
        main = "Número de Bactérias Sobreviventes por Tempo de Exposição")
 
 }
-\keyword{aplicações}
+\keyword{MLG}
 

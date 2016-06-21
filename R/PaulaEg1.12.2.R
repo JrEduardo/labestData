@@ -1,28 +1,28 @@
 #' @name PaulaEg1.12.2
-#' @title Pacientes com Processo Infeccioso Pulmonar
-#' @description Dados referentes a 175 pacientes com processo infeccioso 
-#'     pulmonar atendidos no Hospital Heliópolis, em São Paulo, no período 
-#'     de 1970 a 1986. 
+#' @title Pacientes com Processo Infecioso Pulmonar
+#' @description Um total de 175 pacientes com processo infecioso 
+#'     pulmonar atendidos no hospital no período acima foram classificados
+#'     por algumas variáveis. 
 #'      
 #' @format Um \code{data.frame} com 175 observações e 5 variáveis.
 #' \describe{
 #' 
-#' \item{\code{tipo}}{Tipo de tumor (maligno ou benigno).}
+#' \item{\code{tipo}}{Tipo de tumor (maligno, benigno).}
 #' 
 #' \item{\code{idade}}{Idade do paciente (em anos).}
 #' 
-#' \item{\code{sexo}}{Sexo do paciente (masculino ou feminino).}
+#' \item{\code{sexo}}{Sexo do paciente (masculino, feminino).}
 #' 
 #' \item{\code{hl}}{Intensidade da célula histiócitos-linfócitos (ausente, 
-#'     discreta, moderada ou intensa).}
+#'     discreta, moderada, intensa).}
 #' 
 #' \item{\code{ff}}{Intensidade da célula fibrose-frouxa (ausente, 
-#'     discreta, moderada ou intensa).}
+#'     discreta, moderada, intensa).}
 #' 
 #' }
-#' @keywords aplicações
+#' @keywords MLG
 #' @source Paula, G. A. (2004). Modelos de regressão: com apoio
-#'     computacional. São Paulo, SP: IME-USP. (Eg 1.12.2, pág. 85)
+#'     computacional. São Paulo, SP: IME-USP. (Eg 1.12.2, p?g. 85)
 #'
 #' @examples
 #'
@@ -31,7 +31,6 @@
 #' str(PaulaEg1.12.2)
 #' 
 #' library(lattice)
-#' 
 #' bwplot(idade ~ hl | tipo, 
 #'        data = PaulaEg1.12.2,
 #'        ylab = "Idade",
@@ -40,6 +39,12 @@
 #' bwplot(idade ~ ff | tipo, 
 #'        data = PaulaEg1.12.2,
 #'        ylab = "Idade",
-#'        xlab = "Intensidade da célula fibrose-frouxa")
+#'        xlab = "Intensidade da c?lula fibrose-frouxa")
+#'        
+#' barchart(table(PaulaEg1.12.2$tipo,PaulaEg1.12.2$hl), 
+#' auto.key=list(space="top", columns=2, 
+#'               cex.title=1,
+#'               rectangles = TRUE, 
+#'               points=FALSE))
 #'
 NULL

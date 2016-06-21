@@ -1,10 +1,9 @@
 #' @name PaulaEg1.12.5
 #' @title Consumo de Combustível
 #' @description Dados referentes ao consumo de combustível em 48 estados 
-#'     norte-americanos contíguos juntamente com as seguintes variáveis:
-#'     taxa do combustível no estado, proporção de motoristas licenciados,
-#'     renda percapita, ajuda federal para as estradas e consumo de 
-#'     combustível por habitante.
+#'     norte-americanos. O interesse nesse estudo é tentar explicar o 
+#'     consumo de combustível pelas Variáveis taxa, licença, renda e 
+#'     estradas.
 #'      
 #' @format Um \code{data.frame} com 48 observações e 6 variáveis.
 #' \describe{
@@ -22,9 +21,9 @@
 #' \item{\code{cons}}{Consumo de combustível por habitante.}
 #' 
 #' }
-#' @keywords aplicações
+#' @keywords MLG
 #' @source Paula, G. A. (2004). Modelos de regressão: com apoio
-#'     computacional. São Paulo, SP: IME-USP. (Eg 1.12.5, pág. 94)
+#'     computacional. São Paulo, SP: IME-USP. (Eg 1.12.5, p?g. 94)
 #'
 #' @examples
 #'
@@ -47,5 +46,3 @@
 #'        grid = TRUE)
 #'
 NULL
-
-
