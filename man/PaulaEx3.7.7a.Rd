@@ -31,14 +31,15 @@ str(PaulaEx3.7.7a)
 
 library(lattice)
 
-xyplot(dose ~ cexp + cmort,
-       data = PaulaEx3.7.7a,
-       xlab = "Caramujos expostos e mortos",
-       ylab = "Dose",
-       auto.key = list(space="top", columns=2, 
-                       title="Caramujos", cex.title=1,
-                       lines=TRUE, points=FALSE))
+xyplot(PaulaEx3.7.7a$cmort/PaulaEx3.7.7a$cexp ~ dose,
+data = PaulaEx3.7.7a,
+xlab = "Dose",
+type = c("o"),
+ylab = "Proporção de mortos",
+auto.key = list(space="top", columns=2, 
+                title="Caramujos", cex.title=1,
+                lines=TRUE, points=FALSE))
 
 }
-\keyword{binários}
+\keyword{MLG}
 

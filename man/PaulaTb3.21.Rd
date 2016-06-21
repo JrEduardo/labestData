@@ -21,10 +21,9 @@ Paula, G. A. (2004). Modelos de regressão: com apoio
 }
 \description{
 Experimentos com duas espécies de *rotifers*, um tipo  
-    microscópio de invertebrado aquático, para determinar a densidade 
-    relativa para cada uma das espécies. São apresentados pra cada espécie
-    a densidade relativa da substância, o número de *rotifers* expostos 
-    e o número de *rotifers* em suspensão.
+    microscópio de invertebrado aquático. São apresentados pra cada 
+    espécie a densidade relativa da substância, o número de *rotifers*
+    expostos e o número de *rotifers* em suspensão.
 }
 \examples{
 
@@ -34,15 +33,16 @@ str(PaulaTb3.21)
 
 library(lattice)
 
-xyplot(dens ~ susp + exp,
+xyplot(PaulaTb3.21$susp/PaulaTb3.21$exp ~ dens,
        groups = esp,
        data = PaulaTb3.21,
-       xlab = " ",
-       ylab = "Densidade",
+       xlab = "Densidade",
+       ylab = "Proporção de rotifers suspensos",
+       type = c("o"),
        auto.key = list(space="top", columns=2, 
                        title="Espécie", cex.title=1,
                        lines=TRUE, points=FALSE))
 
 }
-\keyword{binários}
+\keyword{MLG}
 

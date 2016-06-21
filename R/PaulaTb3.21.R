@@ -1,10 +1,9 @@
-#' @name PaulaTb3.21 
-#' @title Distribuição de Rotifers de duas espécies
-#' @description Experimento com duas espécies de *rotifers*, um tipo  
-#'     microscópio de invertebrado aquático, para determinar a densidade 
-#'     relativa para cada uma das espécies. São apresentados pra cada espécie
-#'     a densidade relativa da substância, o número de *rotifers* expostos 
-#'     e o número de *rotifers* em suspensão. 
+#' @name PaulaTb3.21
+#' @title Distribuição de Rotifers das Duas Espécies
+#' @description Experimentos com duas espécies de *rotifers*, um tipo  
+#'     microscópio de invertebrado aquático. São apresentados pra cada 
+#'     espécie a densidade relativa da substância, o número de *rotifers*
+#'     expostos e o número de *rotifers* em suspensão.
 #'      
 #' @format Um \code{data.frame} com 40 observações e 4 variáveis.
 #' \describe{
@@ -18,7 +17,7 @@
 #' \item{\code{esp}}{Espécie (Polyarthra, Keratella).}
 #' 
 #' }
-#' @keywords binários
+#' @keywords MLG
 #' @source Paula, G. A. (2004). Modelos de regressão: com apoio
 #'     computacional. São Paulo, SP: IME-USP. (Tb 3.21, pág. 257)
 #'
@@ -30,11 +29,12 @@
 #' 
 #' library(lattice)
 #' 
-#' xyplot(dens ~ susp + exp,
+#' xyplot(PaulaTb3.21$susp/PaulaTb3.21$exp ~ dens,
 #'        groups = esp,
 #'        data = PaulaTb3.21,
-#'        xlab = " ",
-#'        ylab = "Densidade",
+#'        xlab = "Densidade",
+#'        ylab = "Proporção de rotifers suspensos",
+#'        type = c("o"),
 #'        auto.key = list(space="top", columns=2, 
 #'                        title="Espécie", cex.title=1,
 #'                        lines=TRUE, points=FALSE))

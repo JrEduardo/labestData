@@ -21,10 +21,10 @@ Paula, G. A. (2004). Modelos de regressão: com apoio
     computacional. São Paulo, SP: IME-USP. (Ex 3.7.8, pág. 270)
 }
 \description{
-Dados referentes ao salário anual de uma 
-    amostra aleatória de 220 executivos (145 homens e 75 mulheres). O 
-    salário será relacionado com as variáveis: sexo, anos de experiência 
-    no cargo e posição na empresa.
+Dados referentes a um experimento desenvolvido para avaliar
+     a germinação de um determinado tipo de semente. A tabela abaixo 
+     apresenta o número de sementes que germinaram após cinco dias para 
+     cada 100 sementes submetidas a cada condição experimental.
 }
 \examples{
 
@@ -46,5 +46,5 @@ xyplot(temp ~ numid + ntemp,
                        lines=TRUE, points=FALSE))
 
 }
-\keyword{aplicações}
+\keyword{MLG}
 
