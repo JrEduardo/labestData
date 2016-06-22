@@ -1,0 +1,42 @@
+#' @name MingotiAnA4
+#' @title Dados relativos às empresas 
+#' @description Dados de 21 empresas, coletados aproximadamente 2 anos
+#'     antes da falência das mesmas, e de outras 25 empresas que não
+#'     faliram no período.
+#' @format Um \code{data.frame} com 46 observações e 6 variáveis, em que
+#' 
+#' \describe{
+#'
+#' \item{\code{emp}}{Identificação da empresa.}
+#' 
+#' \item{\code{grp}}{Fator que indica o grupo em que a empresa está situada
+#'     (1 = se a empresa faliu, 2 = se a empresa não faliu).}
+#' 
+#' \item{\code{x1}}{Fluxo de caixa/ total de débitos.}
+#' 
+#' \item{\code{x2}}{Rendimento da empresa/ total de patrimônio.}
+#' 
+#' \item{\code{x3}}{Patrimônio atual/ total de débito.}
+#' 
+#' \item{\code{x4}}{Patrimônio atual/ rendimento das vendas.}
+#' 
+#' }
+#'
+#' @keywords AnaComp
+#' @source Mingoti, S.A. (2005). Análise de dados através de métodos de 
+#'      estatística multivariada - uma abordagem aplicada. 
+#'      Belo Horizonte, MG: Editora UFMG. (pg 290).
+#' 
+#' @examples
+#'
+#' data(MingotiAnA4) 
+#' 
+#' library(car)
+#' 
+#' scatterplotMatrix(~ x1 + x2 + x3 + x4 | grp, data=MingotiAnA4, 
+#'      reg.line = FALSE,
+#'      spread = FALSE, 
+#'      smoother = FALSE,
+#'      main = "Dispersão das variáveis de medidas para os dois grupos")
+#'                   
+NULL
