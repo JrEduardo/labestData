@@ -1,6 +1,6 @@
 #' @name PaulaTb3.21
 #' @title Distribuição de Rotifers das Duas Espécies
-#' @description Experimentos com duas espécies de *rotifers*, um tipo  
+#' @description Experimento com duas espécies de *rotifers*, um tipo  
 #'     microscópio de invertebrado aquático. São apresentados pra cada 
 #'     espécie a densidade relativa da substância, o número de *rotifers*
 #'     expostos e o número de *rotifers* em suspensão.
@@ -34,9 +34,7 @@
 #'        data = PaulaTb3.21,
 #'        xlab = "Densidade",
 #'        ylab = "Proporção de rotifers suspensos",
-#'        type = c("o"),
-#'        auto.key = list(space="top", columns=2, 
-#'                        title="Espécie", cex.title=1,
-#'                        lines=TRUE, points=FALSE))
+#'        type = c("p"),
+#'        auto.key = TRUE)
 #' 
 NULL
