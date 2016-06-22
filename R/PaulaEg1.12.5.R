@@ -2,8 +2,7 @@
 #' @title Consumo de Combustível
 #' @description Dados referentes ao consumo de combustível em 48 estados 
 #'     norte-americanos. O interesse nesse estudo é tentar explicar o 
-#'     consumo de combustível pelas Variáveis taxa, licença, renda e 
-#'     estradas.
+#'     consumo de combustível com base em variáveis econômicas.
 #'      
 #' @format Um \code{data.frame} com 48 observações e 6 variáveis.
 #' \describe{
@@ -42,6 +41,7 @@
 #'        ylab = "Consumo",
 #'        xlab = "Estados",
 #'        data = PaulaEg1.12.5,
+#'        type = 'h',
 #'        main = "Consumo por Habitante em cada Estado",
 #'        grid = TRUE)
 #'

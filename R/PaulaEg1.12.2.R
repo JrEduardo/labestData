@@ -39,7 +39,7 @@
 #' bwplot(idade ~ ff | tipo, 
 #'        data = PaulaEg1.12.2,
 #'        ylab = "Idade",
-#'        xlab = "Intensidade da c?lula fibrose-frouxa")
+#'        xlab = "Intensidade da célula fibrose-frouxa")
 #'        
 #' barchart(table(PaulaEg1.12.2$tipo,PaulaEg1.12.2$hl), 
 #' auto.key=list(space="top", columns=2, 

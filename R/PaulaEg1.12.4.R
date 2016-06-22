@@ -1,7 +1,7 @@
 #' @name PaulaEg1.12.4
 #' @title Desenvolvimento de Massa Tumoral em Ratos
 #' @description Estudo realizado para avaliar a influência da série 
-#'     (passagem do tumor) na morte (caquexia) de um certo tipo de rato.
+#'     (passagem do tumor) na morte (caquexia) de certa espécie de rato.
 #'     Um total de 204 animais teve tumor inoculado num determinado
 #'     momento da série. Para cada animal, além do grupo de passagem, 
 #'     foram observadas as variáveis presença de massa tumoral, caquexia
@@ -31,13 +31,13 @@
 #' 
 #' library(lattice)
 #' 
-#' xyplot(grupo ~ tempo | massat,
+#' xyplot(tempo ~ grupo | massat,
 #'        groups = caq,
 #'        data = PaulaEg1.12.4,
 #'        type = c("p", "smooth"),
-#'        xlab = "Tempo",
-#'        ylab = "Grupo",
-#'        main = "Dispersão para Massa Tumoral não Presente (à esquerda) ou Presente (à direita)", 
+#'        xlab = "Grupo",
+#'        ylab = "Tempo",
+#'        main = "Tempo de sobrevivência vs grupo de passagem \n (segundo caquexia e presença de massa tumoral)", 
 #'        auto.key = list(space="top", columns=2, 
 #'                        title="Presença de caquexia", cex.title=1,
 #'                        lines=TRUE, points=FALSE))

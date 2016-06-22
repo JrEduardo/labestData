@@ -1,8 +1,8 @@
 #' @name PaulaEx1.13.19
 #' @title Expectativa de Vida de Estados Norte-americanos
 #' @description Dados referentes a 50 estados norte-americanos com o
-#'  objetivo de tentar explicar a variável expectativa de vida usando um
-#'  modelo de regressão normal linear.
+#'  objetivo de tentar explicar a variável expectativa de vida com base
+#'  em outras variáveis sócio-econômicas.
 #'      
 #' @format Um \code{data.frame} com 50 observações e 9 variáveis.
 #' \describe{
