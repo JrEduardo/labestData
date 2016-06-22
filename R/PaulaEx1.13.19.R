@@ -31,7 +31,7 @@
 #' \item{\code{expvi}}{Expectativa de vida nos anos de 1969-1970.}
 #' 
 #' }
-#' @keywords TODO
+#' @keywords MLG
 #' @source Paula, G. A. (2004). Modelos de regressão: com apoio
 #'     computacional. São Paulo, SP: IME-USP. (Exercício 1.13.19,
 #'     pág. 109)
@@ -40,19 +40,11 @@
 #' 
 #' str(PaulaEx1.13.19)
 #' 
-#' library(lattice)
-#' splom(PaulaEx1.13.19[, -1],
-#'       type = c("p", "g", "smooth"),
-#'       col.line = 1)
+#' library(car)
 #' 
-#' # Distribuição marginal das variáveis
-#' par(mfrow = c(3, 3))
-#' vn <- colnames(PaulaEx1.13.19)
-#' sapply(1:8, function(x) {
-#'     hist(PaulaEx1.13.19[, x+1], prob = TRUE, main = vn[x+1])
-#'     lines(density(PaulaEx1.13.19[, x+1]), col = 4)
-#'     rug(PaulaEx1.13.19[, x+1])
-#'     invisible(x)
-#' })
+#' PaulaEx1.13.19$dens <- PaulaEx1.13.19$pop/PaulaEx1.13.19$area
+#' scatterplotMatrix( ~ expvida + analf + crime + estud + ndias + dens,
+#'                    data = PaulaEx1.13.19)
+#' 
 #'
 NULL
