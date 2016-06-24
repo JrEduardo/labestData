@@ -1,4 +1,4 @@
-epoca	pot	nit	altura
+epoc	pota	nitr	alt
 1	1	1	56.9
 2	1	1	55.9
 3	1	1	53.3

@@ -1,4 +1,4 @@
-classe	mortas	posto
+cult	nmort	porto
 A	12	4
 A	13	5
 A	15	7

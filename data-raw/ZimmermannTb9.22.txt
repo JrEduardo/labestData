@@ -1,56 +1,56 @@
-trat	rept	sem	arcsen
-F1 puro	1	5	0.36137
-F1 Antes	1	1	0.15878
-F1 Mistura	1	3	0.27741
-F2 puro	1	7	0.43161
-F2 Antes	1	3	0.27741
-F2 Mistura	1	6	0.3977
-F3 puro	1	0	0
-F3 Antes	1	0	0
-F3 Mistura	1	0	0
-Polímero	1	6	0.3977
-Testemunha	1	14	0.63305
-F1 puro	2	0	0
-F1 Antes	2	1	0.15878
-F1 Mistura	2	0	0
-F2 puro	2	8	0.46365
-F2 Antes	2	0	0
-F2 Mistura	2	5	0.36137
-F3 puro	2	0	0
-F3 Antes	2	0	0
-F3 Mistura	2	0	0
-Polímero	2	7	0.43161
-Testemunha	2	8	0.46365
-F1 puro	3	0	0
-F1 Antes	3	0	0
-F1 Mistura	3	2	0.22551
-F2 puro	3	5	0.36137
-F2 Antes	3	0	0
-F2 Mistura	3	6	0.3977
-F3 puro	3	0	0
-F3 Antes	3	0	0
-F3 Mistura	3	0	0
-Polímero	3	5	0.36137
-Testemunha	3	7	0.43161
-F1 puro	4	0	0
-F1 Antes	4	0	0
-F1 Mistura	4	0	0
-F2 puro	4	13	0.60661
-F2 Antes	4	5	0.36137
-F2 Mistura	4	6	0.3977
-F3 puro	4	2	0.22551
-F3 Antes	4	1	0.15878
-F3 Mistura	4	0	0
-Polímero	4	9	0.49422
-Testemunha	4	10	0.5236
-F1 puro	5	0	0
-F1 Antes	5	0	0
-F1 Mistura	5	5	0.36137
-F2 puro	5	4	0.32175
-F2 Antes	5	0	0
-F2 Mistura	5	4	0.32175
-F3 puro	5	0	0
-F3 Antes	5	0	0
-F3 Mistura	5	0	0
-Polímero	5	11	0.55202
-Testemunha	5	6	0.3977
+trat	fung	aplic	nsi
+benlate puro	benlate	puro	5
+benlate antes	benlate	antes	1
+benlate misturado	benlate	misturado	3
+captam puro	captam	puro	7
+captam antes	captam	antes	3
+captam misturado	captam	misturado	6
+derosal puro	derosal	puro	0
+derosal antes	derosal	antes	0
+derosal misturado	derosal	misturado	0
+polimero	polimero	polimero	6
+testemunha	testemunha	testemunha	14
+benlate puro	benlate	puro	0
+benlate antes	benlate	antes	1
+benlate misturado	benlate	misturado	0
+captam puro	captam	puro	8
+captam antes	captam	antes	0
+captam misturado	captam	misturado	5
+derosal puro	derosal	puro	0
+derosal antes	derosal	antes	0
+derosal misturado	derosal	misturado	0
+polimero	polimero	polimero	7
+testemunha	testemunha	testemunha	8
+benlate puro	benlate	puro	0
+benlate antes	benlate	antes	0
+benlate misturado	benlate	misturado	2
+captam puro	captam	puro	5
+captam antes	captam	antes	0
+captam misturado	captam	misturado	6
+derosal puro	derosal	puro	0
+derosal antes	derosal	antes	0
+derosal misturado	derosal	misturado	0
+polimero	polimero	polimero	5
+testemunha	testemunha	testemunha	7
+benlate puro	benlate	puro	0
+benlate antes	benlate	antes	0
+benlate misturado	benlate	misturado	0
+captam puro	captam	puro	13
+captam antes	captam	antes	5
+captam misturado	captam	misturado	6
+derosal puro	derosal	puro	2
+derosal antes	derosal	antes	1
+derosal misturado	derosal	misturado	0
+polimero	polimero	polimero	9
+testemunha	testemunha	testemunha	10
+benlate puro	benlate	puro	0
+benlate antes	benlate	antes	0
+benlate misturado	benlate	misturado	5
+captam puro	captam	puro	4
+captam antes	captam	antes	0
+captam misturado	captam	misturado	4
+derosal puro	derosal	puro	0
+derosal antes	derosal	antes	0
+derosal misturado	derosal	misturado	0
+polimero	polimero	polimero	11
+testemunha	testemunha	testemunha	6

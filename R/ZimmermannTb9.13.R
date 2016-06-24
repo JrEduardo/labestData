@@ -1,25 +1,27 @@
 #' @name ZimmermannTb9.13
 #' @title Matéria Seca de Feijão em Fatorial 3x3
-#' @description Dados de um estudo em ensaio fatorial 3x3, considerando 
-#'     três doses de densidade de solo e uma dose intermediária de 
-#'     microelementos de 1 grama por vaso de FTE-BR-12. Cada vaso continha três
-#'     plantas de arroz e, adicionalmente aos microelementos , foi feita 
-#'     adubação com 4g por vaso de formulado 5-30-15. Os dados são de matéria
-#'     seca de feijão, sem unidade de medida. 
-#'     
-#' @format Um \code{data.frame} com 27 observações e 4 variáveis
+#' @description Dados de um estudo em ensaio fatorial 3 \eqn{times} 3,
+#'     considerando três níveis de densidade de solo e três doses
+#'     microelementos. Cada vaso continha três plantas de arroz e,
+#'     adicionalmente aos microelementos, foi feita adubação com 4 g por
+#'     vaso de formulado 5-30-15. Os dados são de matéria seca de
+#'     feijão, em escala logarítmica. O experimento foi instalado em
+#'     delineamento de blocos casualizados.
+#' @format Um \code{data.frame} com 27 observações e 4 variáveis, em que
 #'
 #' \describe{
 #'
-#' \item{\code{rept}}{Fator de níveis numéricos. Identifica a repetição da 
-#'     observação.}
-#'     
-#' \item{\code{micro}}{Fator de níveis numericos. Identifica os microelementos
-#'     presentes.}
-#'     
-#' \item{\code{dens}}{Fator de níveis numericos. Identifica a densidade do solo.}
+#' \item{\code{micro}}{Fator de níveis métricos que são as doses de
+#'     microelementos (FTE-BR-12) aplicado ao solo (g vaso\eqn{^{-1}}).}
 #'
-#' \item{\code{imseca}}{Matéria seca de feijão.}
+#' \item{\code{dens}}{Fator de níveis métricos que é densidade do solo
+#'     na qual foram cultivadas as plantas (g dm\eqn{^{-1}}).}
+#'
+#' \item{\code{rept}}{Inteiro que identifica as repetições de cada cela
+#'     experimental.}
+#'
+#' \item{\code{imseca}}{Logaritimo decimal da matéria seca das plantas
+#'     de feijão.}
 #'
 #' }
 #' @keywords FAT fatorial
@@ -31,19 +33,16 @@
 #' library(lattice)
 #'
 #' data(ZimmermannTb9.13)
-#'
 #' str(ZimmermannTb9.13)
 #'
-#' xyplot(imseca ~ rept, data = ZimmermannTb9.13,
-#'        type = "o", jitter.x = TRUE,
-#'        xlab = "Repetições",
-#'        ylab = expression("Matéria Seca de Feijão"),
-#'        main = "Ensaio Fatorial 3x3",
-#'        scales = list(x = list(rot = 90)))
-#' 
-#' aggregate(imseca ~ dens, data = ZimmermannTb9.13,
-#'           FUN = function(x) { c(mean = mean(x), var = var(x)) })
-#' 
-#' aggregate(imseca ~ micro, data = ZimmermannTb9.13,
-#'           FUN = function(x) { c(mean = mean(x), var = var(x)) })
+#' xtabs(~micro + dens, data = ZimmermannTb9.13)
+#'
+#' xyplot(lms ~ dens, data = ZimmermannTb9.13,
+#'        groups = micro, type = c("p", "a"),
+#'        auto.key = list(
+#'            title = expression("Microelementos"~(g~vaso^{-1})),
+#'            cex.title = 1.1, columns = 3),
+#'        xlab = expression("Densidade do solo"~(g~cm^{-3})),
+#'        ylab = "log da matéria seca")
+#'
 NULL

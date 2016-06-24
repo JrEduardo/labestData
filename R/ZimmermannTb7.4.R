@@ -1,41 +1,45 @@
 #' @name ZimmermannTb7.4
-#' @title Produção de Grãos de Arroz em Ensaio Reticulado Retangular 
-#' @description Dados de um estudo sobre competição de cultivares de arroz 
-#'     irrigado. O experimento foi conduzido em ensaio em reticulado retangular
-#'     5x6, com três repetições e três blocos (X, Y e Z). A unidade de 
-#'     medida é kg/ha. 
-#' @format Um \code{data.frame} com 90 observações e 3 variáveis
+#' @title Produção de Grãos de Arroz em Ensaio Reticulado Retangular
+#' @description Dados de um estudo sobre competição de cultivares e
+#'     linhagens de arroz irrigado quanto a produtividade. O experimento
+#'     foi conduzido em ensaio em reticulado retangular 5 \eqn{\times} 6
+#'     (blocos de tamanho 5, 6 blocos por repetição), com três
+#'     repetições.
+#' @format Um \code{data.frame} com 90 observações e 3 variáveis, em que
 #'
 #' \describe{
 #'
-#' \item{\code{rept}}{Fator de níveis numericos. Identifica a repetição da
-#'    observação.}
+#' \item{\code{rept}}{Fator categórico que representa as repetições do
+#'     experimento. Cada repetições tem 6 blocos de tamanho 3,
+#'     perfazendo 30 parcelas, uma para cada uma das
+#'     cultivares/linhagens estudadas.}
 #'
-#' \item{\code{bloco}}{Fator de níveis nominais. Identifica o bloco da 
-#'     repetição.}
+#' \item{\code{bloco}}{Fator categórico que indentifica os blocos.}
 #'
-#' \item{\code{prod}}{Produção de grãos de arroz irrigado (ka ha\eqn{^{-1}}).}
+#' \item{\code{cult}}{Fator categórico que identifica as
+#'     cultivares/linhagens em competição.}
+#'
+#' \item{\code{prod}}{Produção de grãos de arroz irrigado (ka
+#'     ha\eqn{^{-1}}).}
 #'
 #' }
 #' @keywords reticulado
 #' @source Zimmermann, F. J. (2004). Estatística aplicada à pesquisa
 #'     agrícola (1st ed.). Santo Antônio de Goiás, GO: Embrapa Arroz e
-#'     Feijão. (Tabela 7.4, pág 140)
+#'     Feijão. (Tabela 7.4, pág. 140)
 #' @examples
 #'
 #' library(lattice)
 #'
 #' data(ZimmermannTb7.4)
-#'
 #' str(ZimmermannTb7.4)
 #'
-#' xyplot(prod ~ rept, groups = bloco, data = ZimmermannTb7.4,
-#'        type = "o", jitter.x = TRUE,
-#'        xlab = "Repetições",
-#'        ylab = expression("Grãos de Arroz"~(kg~ha^{-1})),
-#'        main = "Reticulado Retangular 5x6",
-#'        scales = list(x = list(rot = 90)))
-#' 
-#' aggregate(prod ~ bloco, data = ZimmermannTb7.4,
-#'           FUN = function(x) { c(mean = mean(x), var = var(x)) })
+#' xtabs(~bloc + rept, data = ZimmermannTb7.4)
+#' xtabs(~cult + rept, data = ZimmermannTb7.4)
+#'
+#' xyplot(prod ~ reorder(cult, prod),
+#'        data = ZimmermannTb7.4, type = c("p", "a"),
+#'        xlab = "Cultiavres",
+#'        ylab = expression("Produção de grãos de arroz"~(kg~ha^{-1})))
+#'
 NULL
