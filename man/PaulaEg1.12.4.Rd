@@ -20,37 +20,38 @@ Paula, G. A. (2004). Modelos de regressão: com apoio
     computacional. São Paulo, SP: IME-USP. (Eg 1.12.4, pág. 90)
 }
 \description{
-Estudo realizado para avaliar a influência da série 
-    (passagem do tumor) na morte (caquexia) de um certo tipo de rato.
+Estudo realizado para avaliar a influência da série
+    (passagem do tumor) na morte (caquexia) de certa espécie de rato.
     Um total de 204 animais teve tumor inoculado num determinado
-    momento da série. Para cada animal, além do grupo de passagem, 
+    momento da série. Para cada animal, além do grupo de passagem,
     foram observadas as variáveis presença de massa tumoral, caquexia
     e o tempo de observação.
 }
 \examples{
 
 data(PaulaEg1.12.4)
-
 str(PaulaEg1.12.4)
 
 library(lattice)
 
-xyplot(grupo ~ tempo | massat,
+xyplot(tempo ~ grupo | massat,
        groups = caq,
        data = PaulaEg1.12.4,
        type = c("p", "smooth"),
-       xlab = "Tempo",
-       ylab = "Grupo",
-       main = "Dispersão para Massa Tumoral não Presente (à esquerda) ou Presente (à direita)", 
-       auto.key = list(space="top", columns=2, 
-                       title="Presença de caquexia", cex.title=1,
-                       lines=TRUE, points=FALSE))
+       xlab = "Grupo",
+       ylab = "Tempo",
+       main = paste("Tempo de sobrevivência vs grupo de passagem\\n",
+                    "(segundo caquexia e presença de massa tumoral)"),
+       auto.key = list(space = "top", columns = 2,
+                       title = "Presença de caquexia", cex.title = 1,
+                       lines = TRUE, points = FALSE))
 
-bwplot(tempo ~ massat | caq, 
+bwplot(tempo ~ massat | caq,
        data = PaulaEg1.12.4,
        ylab = "Tempo",
-       xlab = "Presença de massa tumoral", 
-       main = "Bwplot para Caquexia não Presente (à esquerda) ou Presente (à direita)")
+       xlab = "Presença de massa tumoral",
+       main = paste("Bwplot para Caquexia não Presente\\n",
+                    "(à esquerda) ou Presente (à direita)"))
 
 }
 \keyword{MLG}

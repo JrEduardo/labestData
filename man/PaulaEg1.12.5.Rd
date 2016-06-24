@@ -26,8 +26,7 @@ Paula, G. A. (2004). Modelos de regressão: com apoio
 \description{
 Dados referentes ao consumo de combustível em 48 estados 
     norte-americanos. O interesse nesse estudo é tentar explicar o 
-    consumo de combustível pelas Variáveis taxa, licença, renda e 
-    estradas.
+    consumo de combustível com base em variáveis econômicas.
 }
 \examples{
 
@@ -46,6 +45,7 @@ xyplot(cons ~ est,
        ylab = "Consumo",
        xlab = "Estados",
        data = PaulaEg1.12.5,
+       type = 'h',
        main = "Consumo por Habitante em cada Estado",
        grid = TRUE)
 

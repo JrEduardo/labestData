@@ -34,6 +34,7 @@ xyplot(rendm ~ est,
         ylab = "Renda",
         xlab = "Estados",
         data = PaulaTb1.6,
+        type = 'h',
         main = "Renda Média Mensal em Estado",
         grid = TRUE)
 

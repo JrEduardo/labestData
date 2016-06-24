@@ -36,14 +36,11 @@ library(lattice)
 
 PaulaEx3.7.8$ntemp <- as.factor(PaulaEx3.7.8$ntemp)
 
-xyplot(temp ~ numid + ntemp,
-       groups = sgerm,
+PaulaEx3.7.8$numid <- as.factor(PaulaEx3.7.8$numid)
+xyplot(sgerm ~ numid | ntemp,
        data = PaulaEx3.7.8,
-       xlab = " ",
-       ylab = "Densidade",
-       auto.key = list(space="top", columns=2, 
-                       title="Espécie", cex.title=1,
-                       lines=TRUE, points=FALSE))
+       xlab = "Nível de temperatura",
+       ylab = "Número de sementes germinadas")
 
 }
 \keyword{MLG}
