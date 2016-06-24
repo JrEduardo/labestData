@@ -1,0 +1,27 @@
+#' @name DiasEx6.5.10
+#' @title Correlação entre Produção e Diâmetro
+#' @description Dados referentes a 8 pares de valores de produção
+#'     (gramas) e diâmetro (cm).
+#' @format Um \code{data.frame} com 8 observações e 3 variáveis, em que
+#'
+#' \describe{
+#'
+#' \item{\code{prod}}{Produção em gramas.}
+#'
+#' \item{\code{diam}}{Diãmetro em centimetros.}
+#'
+#' }
+#' @keywords ASS RL
+#' @source Dias, L. A. S., Barros, W. S. (2009). Biometria
+#'     Experimental. Viçosa, MG: UFV. (Exercício 10, Cap. 7, pág. 181)
+#' @examples
+#'
+#' library(lattice)
+#'
+#' data(DiasEx6.5.10)
+#' str(DiasEx6.5.10)
+#'
+#' xyplot(prod ~ diam, data = DiasEx6.5.10, type = c("p", "r"),
+#'        xlab = "Produção (gramas)", ylab = "Diâmetro (cm)")
+#'
+NULL

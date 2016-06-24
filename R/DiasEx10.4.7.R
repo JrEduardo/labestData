@@ -1,0 +1,47 @@
+#' @name DiasEx10.4.7
+#' @title Adubação NPK na Cultura do Cafeeiro
+#' @description Em um experimento em delineamento inteiramente
+#'     casualizado foi estudado efeito da adubação NPK na produção da do
+#'     cafeeiro por meio de um experimento fatorial \eqn{2^3} com 6
+#'     repetições.
+#' @format Um \code{data.frame} com 48 observações e 3 variáveis, em que
+#'
+#' \describe{
+#'
+#' \item{\code{N}}{Inteiro que indica o nível do fator nitrogênio: 0 -
+#'     nível baixo, 1 - nível alto.}
+#'
+#' \item{\code{P}}{Inteiro que indica o nível do fator fósforo: 0 -
+#'     nível baixo, 1 - nível alto.}
+#'
+#' \item{\code{K}}{Inteiro que indica o nível do fator potássio: 0 -
+#'     nível baixo, 1 - nível alto.}
+#'
+#' \item{\code{rept}}{Inteiro que indica as repetições das celas
+#'     experimentais.}
+#'
+#' \item{\code{prod}}{Produção de café, em kg por parcela de 90
+#'     m\eqn{^2} (30 covas de espaçamento 3 \eqn{\times} 1).}
+#'
+#' }
+#' @keywords DIC FAT3
+#' @source Dias, L. A. S., Barros, W. S. (2009). Biometria
+#'     Experimental. Viçosa, MG: UFV. (Exercício 7, Cap. 10, pág. 295)
+#' @examples
+#'
+#' library(lattice)
+#'
+#' data(DiasEx10.4.7)
+#' str(DiasEx10.4.7)
+#'
+#' ftable(xtabs(~N + P + K, data = DiasEx10.4.7))
+#'
+#' xyplot(prod ~ factor(N) | factor(P), groups = K, data = DiasEx10.4.7,
+#'        type = c("p", "a"),
+#'        xlab = "Nitrogênio", ylab = "Produção (kg/parcela)",
+#'        auto.key = list(title = "Potássio", cex.title = 1.1,
+#'                        columns = 2),
+#'        strip = strip.custom(strip.name = TRUE,
+#'                             var.name = "Fósforo"))
+#'
+NULL
