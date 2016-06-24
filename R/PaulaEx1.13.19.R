@@ -8,43 +8,43 @@
 #'     informações.
 #' @format Um \code{data.frame} com 50 observações e 9 variáveis.
 #'     \describe{
-#' 
+#'
 #' \item{\code{estado}}{Nome do estado.}
-#' 
+#'
 #' \item{\code{pop}}{População estimada em julho de 1975.}
-#' 
+#'
 #' \item{\code{renda}}{Renda per capita em 1974 (em dólares).}
-#' 
+#'
 #' \item{\code{analf}}{Proporção de analfabetos em 1970.}
-#' 
+#'
 #' \item{\code{crime}}{Taxa de criminalidade por cem mil habitantes em
-#'     1976.} 
-#' 
+#'     1976.}
+#'
 #' \item{\code{estud}}{Porcentagem de estudantes que concluem o segundo
 #'     grau em 1970.}
-#' 
+#'
 #' \item{\code{ndias}}{Número de dias do ano com temperatura abaixo de
-#'     0ºC na cidade mais importante do estado.}
-#' 
+#'     0\eqn{^\circ C} na cidade mais importante do estado.}
+#'
 #' \item{\code{area}}{Área do estado (em milhas quadradas).}
-#' 
+#'
 #' \item{\code{expvi}}{Expectativa de vida nos anos de 1969-1970.}
-#' 
+#'
 #' }
 #' @keywords MLG
 #' @source Paula, G. A. (2004). Modelos de regressão: com apoio
 #'     computacional. São Paulo, SP: IME-USP. (Exercício 1.13.19,
 #'     pág. 109)
 #' @examples
+#'
 #' data(PaulaEx1.13.19)
-#' 
 #' str(PaulaEx1.13.19)
-#' 
+#'
 #' library(car)
-#' 
+#'
 #' PaulaEx1.13.19$dens <- PaulaEx1.13.19$pop/PaulaEx1.13.19$area
-#' scatterplotMatrix( ~ expvida + analf + crime + estud + ndias + dens,
-#'                    data = PaulaEx1.13.19)
-#' 
+#' scatterplotMatrix(~expvi + analf + crime + estud + ndias + dens,
+#'                   data = PaulaEx1.13.19)
+#'
 #'
 NULL
