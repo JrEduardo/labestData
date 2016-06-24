@@ -1,0 +1,56 @@
+trat	fung	aplic	nsi
+benlate puro	benlate	puro	5
+benlate antes	benlate	antes	1
+benlate misturado	benlate	misturado	3
+captam puro	captam	puro	7
+captam antes	captam	antes	3
+captam misturado	captam	misturado	6
+derosal puro	derosal	puro	0
+derosal antes	derosal	antes	0
+derosal misturado	derosal	misturado	0
+polimero	polimero	polimero	6
+testemunha	testemunha	testemunha	14
+benlate puro	benlate	puro	0
+benlate antes	benlate	antes	1
+benlate misturado	benlate	misturado	0
+captam puro	captam	puro	8
+captam antes	captam	antes	0
+captam misturado	captam	misturado	5
+derosal puro	derosal	puro	0
+derosal antes	derosal	antes	0
+derosal misturado	derosal	misturado	0
+polimero	polimero	polimero	7
+testemunha	testemunha	testemunha	8
+benlate puro	benlate	puro	0
+benlate antes	benlate	antes	0
+benlate misturado	benlate	misturado	2
+captam puro	captam	puro	5
+captam antes	captam	antes	0
+captam misturado	captam	misturado	6
+derosal puro	derosal	puro	0
+derosal antes	derosal	antes	0
+derosal misturado	derosal	misturado	0
+polimero	polimero	polimero	5
+testemunha	testemunha	testemunha	7
+benlate puro	benlate	puro	0
+benlate antes	benlate	antes	0
+benlate misturado	benlate	misturado	0
+captam puro	captam	puro	13
+captam antes	captam	antes	5
+captam misturado	captam	misturado	6
+derosal puro	derosal	puro	2
+derosal antes	derosal	antes	1
+derosal misturado	derosal	misturado	0
+polimero	polimero	polimero	9
+testemunha	testemunha	testemunha	10
+benlate puro	benlate	puro	0
+benlate antes	benlate	antes	0
+benlate misturado	benlate	misturado	5
+captam puro	captam	puro	4
+captam antes	captam	antes	0
+captam misturado	captam	misturado	4
+derosal puro	derosal	puro	0
+derosal antes	derosal	antes	0
+derosal misturado	derosal	misturado	0
+polimero	polimero	polimero	11
+testemunha	testemunha	testemunha	6

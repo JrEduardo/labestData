@@ -1,0 +1,48 @@
+#' @name ZimmermannTb9.13
+#' @title Matéria Seca de Feijão em Fatorial 3x3
+#' @description Dados de um estudo em ensaio fatorial 3 \eqn{times} 3,
+#'     considerando três níveis de densidade de solo e três doses
+#'     microelementos. Cada vaso continha três plantas de arroz e,
+#'     adicionalmente aos microelementos, foi feita adubação com 4 g por
+#'     vaso de formulado 5-30-15. Os dados são de matéria seca de
+#'     feijão, em escala logarítmica. O experimento foi instalado em
+#'     delineamento de blocos casualizados.
+#' @format Um \code{data.frame} com 27 observações e 4 variáveis, em que
+#'
+#' \describe{
+#'
+#' \item{\code{micro}}{Fator de níveis métricos que são as doses de
+#'     microelementos (FTE-BR-12) aplicado ao solo (g vaso\eqn{^{-1}}).}
+#'
+#' \item{\code{dens}}{Fator de níveis métricos que é densidade do solo
+#'     na qual foram cultivadas as plantas (g dm\eqn{^{-1}}).}
+#'
+#' \item{\code{rept}}{Inteiro que identifica as repetições de cada cela
+#'     experimental.}
+#'
+#' \item{\code{imseca}}{Logaritimo decimal da matéria seca das plantas
+#'     de feijão.}
+#'
+#' }
+#' @keywords FAT fatorial
+#' @source Zimmermann, F. J. (2004). Estatística aplicada à pesquisa
+#'     agrícola (1st ed.). Santo Antônio de Goiás, GO: Embrapa Arroz e
+#'     Feijão. (Tabela 9.13, pág 179)
+#' @examples
+#'
+#' library(lattice)
+#'
+#' data(ZimmermannTb9.13)
+#' str(ZimmermannTb9.13)
+#'
+#' xtabs(~micro + dens, data = ZimmermannTb9.13)
+#'
+#' xyplot(lms ~ dens, data = ZimmermannTb9.13,
+#'        groups = micro, type = c("p", "a"),
+#'        auto.key = list(
+#'            title = expression("Microelementos"~(g~vaso^{-1})),
+#'            cex.title = 1.1, columns = 3),
+#'        xlab = expression("Densidade do solo"~(g~cm^{-3})),
+#'        ylab = "log da matéria seca")
+#'
+NULL

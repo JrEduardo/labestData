@@ -1,0 +1,45 @@
+#' @name ZimmermannTb7.4
+#' @title Produção de Grãos de Arroz em Ensaio Reticulado Retangular
+#' @description Dados de um estudo sobre competição de cultivares e
+#'     linhagens de arroz irrigado quanto a produtividade. O experimento
+#'     foi conduzido em ensaio em reticulado retangular 5 \eqn{\times} 6
+#'     (blocos de tamanho 5, 6 blocos por repetição), com três
+#'     repetições.
+#' @format Um \code{data.frame} com 90 observações e 3 variáveis, em que
+#'
+#' \describe{
+#'
+#' \item{\code{rept}}{Fator categórico que representa as repetições do
+#'     experimento. Cada repetições tem 6 blocos de tamanho 3,
+#'     perfazendo 30 parcelas, uma para cada uma das
+#'     cultivares/linhagens estudadas.}
+#'
+#' \item{\code{bloco}}{Fator categórico que indentifica os blocos.}
+#'
+#' \item{\code{cult}}{Fator categórico que identifica as
+#'     cultivares/linhagens em competição.}
+#'
+#' \item{\code{prod}}{Produção de grãos de arroz irrigado (ka
+#'     ha\eqn{^{-1}}).}
+#'
+#' }
+#' @keywords reticulado
+#' @source Zimmermann, F. J. (2004). Estatística aplicada à pesquisa
+#'     agrícola (1st ed.). Santo Antônio de Goiás, GO: Embrapa Arroz e
+#'     Feijão. (Tabela 7.4, pág. 140)
+#' @examples
+#'
+#' library(lattice)
+#'
+#' data(ZimmermannTb7.4)
+#' str(ZimmermannTb7.4)
+#'
+#' xtabs(~bloc + rept, data = ZimmermannTb7.4)
+#' xtabs(~cult + rept, data = ZimmermannTb7.4)
+#'
+#' xyplot(prod ~ reorder(cult, prod),
+#'        data = ZimmermannTb7.4, type = c("p", "a"),
+#'        xlab = "Cultiavres",
+#'        ylab = expression("Produção de grãos de arroz"~(kg~ha^{-1})))
+#'
+NULL
