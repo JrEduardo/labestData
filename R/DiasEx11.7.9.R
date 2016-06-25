@@ -1,0 +1,41 @@
+#' @name DiasEx11.7.9
+#' @title Ensaios de Competição de Cultivares de Milho
+#' @description Resultados de ensaio de competição de cultivares de
+#'     milho em diferentes locais onde foi avaliada a produção em grãos.
+#' @format Um \code{data.frame} com 90 observações e 4 variáveis, em que
+#'
+#' \describe{
+#'
+#' \item{\code{local}}{Fator categórico que representa os locais de
+#'     instalação do experimento.}
+#'
+#' \item{\code{cult}}{Fator categórico que representa as cultivares de
+#'     milho.}
+#'
+#' \item{\code{rept}}{Inteiro que representa as repetições das
+#'     cultivares em cada experimento.}
+#'
+#'  \item{\code{prod}}{Produção de grãos de milho.}
+#'
+#' }
+#' @keywords GE DIC
+#' @source Dias, L. A. S., Barros, W. S. (2009). Biometria
+#'     Experimental. Viçosa, MG: UFV. (Exercício 9, Cap. 11, pág. 321)
+#' @examples
+#'
+#' library(lattice)
+#'
+#' data(DiasEx11.7.9)
+#' str(DiasEx11.7.9)
+#'
+#' with(DiasEx11.7.9,
+#'      tapply(prod,
+#'             list(cult = cult, rept = rept, local = local),
+#'             FUN = sum))
+#'
+#' xyplot(prod ~ cult | local, data = DiasEx11.7.9,
+#'        type = c("p", "a"), as.table = TRUE,
+#'        xlab = "Cultivares", ylab = "Produção de grãos",
+#'        strip = strip.custom(strip.names = TRUE, var.name = "Local"))
+#'
+NULL

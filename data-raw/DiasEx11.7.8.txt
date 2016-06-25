@@ -1,0 +1,17 @@
+geno	exper	prod
+Quitéria	1	0.83
+Quitéria	2	0.95
+Quitéria	3	0.78
+Quitéria	4	0.66
+Contestado	1	0.93
+Contestado	2	1.08
+Contestado	3	1.06
+Contestado	4	1.01
+Choran	1	1.21
+Choran	2	1.32
+Choran	3	1.24
+Choran	4	1.11
+Caxiense	1	0.66
+Caxiense	2	0.78
+Caxiense	3	0.54
+Caxiense	4	0.88
