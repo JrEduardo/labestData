@@ -1,0 +1,32 @@
+#' @name DiasEg9.1
+#' @title Teor Proteico de Cultivares de Feijoeiro e Soja
+#' @description Em um ensaio em delineamento inteiramente casualizado
+#'     foi avaliado o teor proteico de 10 cultivares de feijoeiro e 1 de
+#'     soja com 3 repetições.
+#' @format Um \code{data.frame} com 33 observações e 3 variáveis, em que
+#'
+#' \describe{
+#'
+#' \item{\code{cult}}{Fator de 9 níveis qualitativos que representa cada
+#'     um dos cultivares.}
+#'
+#' \item{\code{rept}}{Inteiro que identifica as repetições.}
+#'
+#'  \item{\code{teor}}{Teor proteico (\%).}
+#'
+#' }
+#' @keywords DIC
+#' @source Dias, L. A. S., Barros, W. S. (2009). Biometria
+#'     Experimental. Viçosa, MG: UFV. (Exemplo 9.1, pág. 222)
+#' @examples
+#'
+#' library(lattice)
+#'
+#' data(DiasEg9.1)
+#' str(DiasEg9.1)
+#'
+#' xyplot(teor ~ reorder(cult, teor), data = DiasEg9.1,
+#'        xlab = "Cultivares", ylab = "Teor proteico (%)",
+#'        scales = list(x = list(rot = 90)))
+#'
+NULL

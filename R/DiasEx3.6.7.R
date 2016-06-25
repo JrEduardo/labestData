@@ -1,0 +1,30 @@
+#' @name DiasEx3.6.7
+#' @title Percentual de Germinação de Lotes de Sementes de Tomate
+#' @description Percentuais de germinação de 2 lotes de sementes de
+#'      tomate com 5 repetições com 100 sementes em cada repetição.
+#' @format Um \code{data.frame} com 2 observações e 1 variável, em que
+#'
+#' \describe{
+#'
+#' \item{\code{lote}}{Fator categórico de dois níveis que indica os
+#'     lotes de semente.}
+#'
+#' \item{\code{pgerm}}{Percentual de germinação das sementes.}
+#'
+#' }
+#' @keywords AAS
+#' @source Dias, L. A. S., Barros, W. S. (2009). Biometria
+#'     Experimental. Viçosa, MG: UFV. (Exercício 7, Cap. 7.6, pág.102)
+#' @examples
+#'
+#' library(lattice)
+#'
+#' data(DiasEx3.6.7)
+#' str(DiasEx3.6.7)
+#'
+#' xyplot(pgerm ~ lote,
+#'        data = DiasEx3.6.7 ,
+#'        xlab = "Lote",
+#'        ylab = "Percentual germinação")
+#'
+NULL

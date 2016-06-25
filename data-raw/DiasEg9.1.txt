@@ -1,0 +1,34 @@
+cult	rept	teor
+Rubá	1	27.2
+Rubá	2	26.1
+Rubá	3	26.2
+Kaboon	1	26.6
+Kaboon	2	26.7
+Kaboon	3	26.7
+Pérola	1	29.5
+Pérola	2	29.4
+Pérola	3	29.5
+Perry marrow	1	30.9
+Perry marrow	2	31.3
+Perry marrow	3	31.4
+Michelite	1	27.7
+Michelite	2	27.9
+Michelite	3	27.3
+Cornel	1	33.7
+Cornel	2	33.5
+Cornel	3	33.3
+Tu	1	28.4
+Tu	2	28.5
+Tu	3	28.3
+AB136	1	27.3
+AB136	2	27.3
+AB136	3	27.4
+MDRK	1	30.1
+MDRK	2	30.2
+MDRK	3	29.9
+México 222	1	22.4
+México 222	2	21.7
+México 222	3	22.3
+Roko RC	1	45.7
+Roko RC	2	45.9
+Roko RC	3	46.3

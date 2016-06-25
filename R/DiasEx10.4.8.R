@@ -1,0 +1,43 @@
+#' @name DiasEx10.4.8
+#' @title Teores de Matéria Seca de Gramineas em Função da Calagem
+#' @description Em um ensaio em delineamento de blocos casualizados foi
+#'     analisado o efeito de doses de calcário no teor de matéria seca
+#'     de gramíneas forrageiras. Foi utilizado esquema fatorial 3
+#'     \eqn{\times} 4, sendo 3 gramínias (A, B e C) e 4 doses de calagem
+#'     (0, 1, 2 e 4 t/ha), os teores de matéria seca (t/ha).
+#' @format Um \code{data.frame} com 36 observações e 4 variáveis, em que
+#'
+#' \describe{
+#'
+#' \item{\code{calc}}{Fator métrico que representa das doses de calcário
+#'     aplicadas (t/ha).}
+#'
+#' \item{\code{gram}}{Fator categórico que representa as gramineas
+#'     forrageiras cultivadas.}
+#'
+#' \item{\code{bloc}}{Fator categórico que representa os blocos do
+#'     experimento.}
+#'
+#'  \item{\code{tms}}{Teor de matéria seca (t/ha).}
+#'
+#' }
+#' @keywords DBC FAT2
+#' @source Dias, L. A. S., Barros, W. S. (2009). Biometria
+#'     Experimental. Viçosa, MG: UFV. (Exercício 8, Cap. 10, pág. 295)
+#' @examples
+#'
+#' library(lattice)
+#'
+#' data(DiasEx10.4.8)
+#' str(DiasEx10.4.8)
+#'
+#' xtabs(~gram + calc, data = DiasEx10.4.8)
+#'
+#' xyplot(tms ~ calc, groups = gram, data = DiasEx10.4.8,
+#'        type = c("p", "a"), jitter.x = TRUE,
+#'        xlab = "Calagem (ton/ha)",
+#'        ylab = "Teor de matéria seca (ton/ha)",
+#'        auto.key = list(title = "Graminea", cex.title = 1.1,
+#'                        columns = 3))
+#'
+NULL
