@@ -19,7 +19,7 @@
 #' 
 #' @keywords peso planta contínuo
 #' 
-#' @source Storck, L., & Garcia, B. C., & Lopes, S. J., & Estefanel, 
+#' @source Storck, L., Garcia, B. C., Lopes, S. J., Estefanel, 
 #' V. (2011). Experimentação Vegetal (3th ed.). Santa Maria, RS: ufsm.
 #' (pg 21)
 #' 
