@@ -19,7 +19,7 @@
 #' \item{\code{alt}}{Altura da muda (cm).}
 #'
 #' }
-#' @keywords BDC
+#' @keywords DBC
 #' @source Barbin, D. (2013). Planejamento e Análise Estatística de
 #'     Experimentos Agronômicos (2nd ed.). Londrina, PR:
 #'     Mecenas. (Exercício 8, pág. 202)

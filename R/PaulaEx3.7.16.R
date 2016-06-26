@@ -22,7 +22,7 @@
 #' 
 #' }
 #' 
-#' @keywords AD
+#' @keywords binomial
 #' @source Paula, G. A. (2004). Modelos de regressão: com apoio
 #'     computacional. São Paulo, SP: IME-USP. 
 #'     (Exercício 3.7.14, pág. 274 e 275)
