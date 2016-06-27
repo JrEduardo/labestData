@@ -16,7 +16,7 @@
 \source{
 Ramos, E. M. L. S., et al.(2013). 
     Controle Estatístico da Qualidade (1th ed.). 
-    Porto Alegre, RS: Bookman. (pg 30).
+    Porto Alegre, RS: Bookman. (pág. 30).
 }
 \description{
 Dados referente a um processo de fundição
@@ -27,10 +27,10 @@ Dados referente a um processo de fundição
 
 data(RamosTb2.7)
 
-library (lattice)
+library(lattice)
 
-xyplot(recupe ~ fluxo, pch=20,
-     RamosTb2.7, type =c( "g", "p"))
+xyplot(recupe ~ fluxo, pch = 20,
+       data = RamosTb2.7, type = c( "g", "p"))
 
 }
 \keyword{CEQ}

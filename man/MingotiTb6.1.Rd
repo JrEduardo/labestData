@@ -36,5 +36,5 @@ xyplot(renda ~ idade,
       ylab="Renda mensal")
 
 }
-\keyword{AnaClus}
+\keyword{AnaClust}
 

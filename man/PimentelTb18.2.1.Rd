@@ -68,5 +68,5 @@ xyplot(prod ~ N | factor(P), groups = K, data = PimentelTb18.2.1,
 
 }
 \keyword{FAT3}
-\keyword{adicional}
+\keyword{FATADI}
 

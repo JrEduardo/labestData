@@ -53,5 +53,4 @@ xyplot(lms ~ dens, data = ZimmermannTb9.13,
 
 }
 \keyword{FAT}
-\keyword{fatorial}
 

@@ -2,12 +2,13 @@
 % Please edit documentation in R/StorckTb2.R
 \name{StorckTb2}
 \alias{StorckTb2}
-\title{Tabela referente ao peso das mudas}
+\title{Peso das Plantas 30 após a Semeadura}
 \format{data.frame com 20 observações e 3 variáveis, em que
+
 \describe{
 
-\item{trat}{Fator de níveis nominais. Tratamento aplicado para
-    controle do peso das plantas.}
+\item{trat}{Fator de níveis nominais que são os tratamento
+    aplicados.}
 
 \item{rep}{Número inteiro que identifica as repetições de cada
     tratamento.}
@@ -16,25 +17,26 @@
 
 }}
 \source{
-Storck, L., & Garcia, B. C., & Lopes, S. J., & Estefanel, 
-V. (2011). Experimentação Vegetal (3th ed.). Santa Maria, RS: ufsm.
-(pg 21)
+Storck, L., Garcia, B. C., Lopes, S. J., Estefanel,
+    V. (2011). Experimentação Vegetal (3th ed.). Santa Maria, RS:
+    UFMS. (Tabela 2, pág. 21)
 }
 \description{
 Experimento referente ao peso das plantas aos 30 dias
-após a semeadura. Houve repetição de tratamentos.
+    após a semeadura.
 }
 \examples{
 
 library(lattice)
 
 data(StorckTb2)
+str(StorckTb2)
 
-xyplot(peso~rep|trat, data=StorckTb2, ylab='Peso das plantas',
-xlab='Repetições', main='Dispersão dos pesos das plantas por 
-tratamento')
+xyplot(peso ~ trat,
+       data = StorckTb2,
+       ylab = "Peso das plantas",
+       xlab = "Tratamentos")
+
 }
-\keyword{contínuo}
-\keyword{peso}
-\keyword{planta}
+\keyword{DIC}
 

@@ -49,5 +49,5 @@ xyplot(alt ~ fumig, groups = fung, data = BarbinEx8,
                        title = "Fungicidas", cex.title = 1.1))
 
 }
-\keyword{BDC}
+\keyword{DBC}
 
