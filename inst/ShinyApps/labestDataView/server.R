@@ -7,7 +7,7 @@ shinyServer(
         output$HEADER <- renderPrint({
             vers <- as.character(packageVersion("labestData"))
             tagList(
-                h1(paste("labestData: Conjuntos de dados para",
+                h1(paste("labestData: Biblioteca de dados para",
                          "Ensino de Estatística"), class = "title"),
                 h2(paste("PET-Estatística UFPR - Versão", vers),
                    class = "title"),
