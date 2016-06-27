@@ -1,6 +1,6 @@
 #' @name EpprechtTb8.12
 #' @title Controle de qualidade para a fração de não conformes. 
-#' @description Dados das 20 primeiras amostras que representam o número 
+#' @description Dados de 20 amostras, representando o número 
 #'     de peças não-conformes em amostras de tamanho 100.
 #' 
 #' @format Um \code{data.frame} com 20 observações e 1 variável, 
@@ -25,6 +25,6 @@
 #' library(qcc)
 #' 
 #' qcc(EpprechtTb8.12, type="p", size=100,
-#'     xblab="Amostras", ylab="Número de itens não conformes", title=" ")
+#'     xlab="Amostra", ylab="Proporção de itens não conformes", title=" ")
 #'                   
 NULL

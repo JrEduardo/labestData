@@ -3,7 +3,7 @@
 #' @description Uma grande companhia faz o controle estatístico de
 #'     seus processos administrativos. Para isso, são coletados
 #'     semanalmente o número de pedidos de compra e o número de pedidos 
-#'     de compra não conformes durante a semana.
+#'     de compra com erros.
 #' 
 #' @format Um \code{data.frame} com 15 observações e 2 variáveis, 
 #'     em que
@@ -12,7 +12,7 @@
 #' 
 #' \item{\code{pc}}{Número de pedidos de compra.}
 #' 
-#' \item{\code{pce}}{Número de pedidos de compra com erro.}
+#' \item{\code{pce}}{Número de pedidos de compra com erros.}
 #' 
 #' }
 #'
@@ -29,7 +29,7 @@
 #' library(qcc)
 #' 
 #' qcc(EpprechtTb8.13$pce, type="p", sizes=EpprechtTb8.13$pc,
-#'     xblab=" ", ylab="Observações", title=" ")
+#'     xlab="Semana", ylab="Proporção de pedidos com erros", title=" ")
 #' 
 #'                   
 NULL

@@ -1,10 +1,10 @@
 #' @name EpprechtTb8.14
-#' @title Controle de Qualidade para o Número de Defeitos em uma Montagem 
-#' de Placa de Circuito
+#' @title Controle de Qualidade para o Número de Defeitos na Montagem 
+#' de Placas de Circuito
 #' 
 #' @description Para monitorar um processo de montagem de placas de 
 #'     circuitos foram registrados os números de componentes montados 
-#'     erradamente a cada 5 placas (cada amostra consiste em 5 placas). 
+#'     erradamente a cada 5 placas (cada amostra consiste de 5 placas). 
 #' 
 #' @format Um \code{data.frame} com 20 observações e 1 variável, 
 #'     em que

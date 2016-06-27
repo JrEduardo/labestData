@@ -8,7 +8,7 @@
 
 \describe{
 
-\item{\code{nconf}}{Número de itens não conformes.} 
+\item{\code{nconf}}{Número de não-conformidades.} 
 
 }}
 \source{
@@ -17,7 +17,7 @@ Costa, A. F. B., Epprecht, E. K., Carpinetti, L. (2010).
      Editora Atlas. (pg 222).
 }
 \description{
-Dados referentes ao número de não-conformidades  
+Dados referentes aos números de não-conformidades  
     em 40 amostras de cinco geladeiras. Foi suposto que o processo
     operava sob controle nesse período.
 }
@@ -28,7 +28,7 @@ data(EpprechtTb8.8)
 library(qcc)
 
 qcc(EpprechtTb8.8, type="c", size=5,
-    xblab="Amostras", ylab="Número de itens não conformes", title=" ")
+    xlab="Amostra", ylab="Número de não-conformidades", title=" ")
                   
 }
 \keyword{CEQ}

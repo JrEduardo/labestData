@@ -2,7 +2,7 @@
 #' @title Controle de qualidade na produção de cabos elétricos
 #' @description Dados referentes ao monitoramento do processo de produção
 #'     de cabos elétricos. Foi registrada a quantidade de defeitos
-#'     encontrados em determinada quantidade de metros de cabo.
+#'     encontrados em amostras de determinada quantidade de metros de cabo.
 #' 
 #' @format Um \code{data.frame} com 10 observações e 2 variáveis, 
 #'     em que
@@ -28,6 +28,6 @@
 #' library(qcc)
 #' 
 #' qcc(EpprechtTb8.16$def, type="u", sizes=EpprechtTb8.16$met,
-#'     xblab=" ", ylab="Observações", title=" ")  
+#'     xlab="Amostra", ylab="Quantidade de defeitos", title=" ")  
 #'                    
 NULL

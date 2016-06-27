@@ -9,7 +9,7 @@ de Produção de Tecidos}
 
 \describe{
 
-\item{\code{def}}{Defeitos encontrados em cada rolo.}
+\item{\code{def}}{Defeitos encontrados no rolo.}
 
 }}
 \source{
@@ -19,7 +19,7 @@ Costa, A. F. B., Epprecht, E. K., Carpinetti, L. (2010).
 }
 \description{
 Para monitorar um processo de produção de tecidos
-    estampados foram examinados os 10 primeiros rolos, com 200 m de 
+    estampados foram examinados os 10 primeiros rolos, com 200m de 
     tecido cada. Foi registrado o número de defeitos encontrados em 
     cada rolo.
 }
@@ -30,7 +30,7 @@ data(EpprechtTb8.15)
 library(qcc)
 
 qcc(EpprechtTb8.15, type="c", 
-    xblab=" ", ylab="Observações", title=" ")
+    xlab="Amostra", ylab="Número de defeitos", title=" ")
                   
 }
 \keyword{CEQ}

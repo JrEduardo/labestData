@@ -21,7 +21,7 @@ Costa, A. F. B., Epprecht, E. K., Carpinetti, L. (2010).
 \description{
 Dados referentes ao monitoramento do processo de produção
     de cabos elétricos. Foi registrada a quantidade de defeitos
-    encontrados em determinada quantidade de metros de cabo.
+    encontrados em amostras de determinada quantidade de metros de cabo.
 }
 \examples{
 
@@ -30,7 +30,7 @@ data(EpprechtTb8.16)
 library(qcc)
 
 qcc(EpprechtTb8.16$def, type="u", sizes=EpprechtTb8.16$met,
-    xblab=" ", ylab="Observações", title=" ")  
+    xlab="Amostra", ylab="Quantidade de defeitos", title=" ")  
                    
 }
 \keyword{CEQ}

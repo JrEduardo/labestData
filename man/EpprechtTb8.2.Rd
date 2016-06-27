@@ -19,7 +19,8 @@ Costa, A. F. B., Epprecht, E. K., Carpinetti, L. (2010).
 \description{
 Dados referentes ao número de clientes insatisfeitos
     com a comida de um restaurante. Esses dados foram obtidos após o
-    diagnóstico e a eliminação de causas especiais.
+    diagnóstico e a eliminação de causas especiais. A cada dia 200
+    clientes foram consultados, durante 30 dias.
 }
 \examples{
 
@@ -27,8 +28,8 @@ data(EpprechtTb8.2)
 
 library(qcc)
 
-qcc(EpprechtTb8.2, type="p", size=30,
-    xblab=" ", ylab="Observações", title=" ")
+qcc(EpprechtTb8.2, type="p", size=200,
+    xlab="Amostra", ylab="Proporção de insatisfeitos", title=" ")
                   
 }
 \keyword{CEQ}

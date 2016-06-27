@@ -17,7 +17,7 @@ Costa, A. F. B., Epprecht, E. K., Carpinetti, L. (2010).
      Editora Atlas. (pg 227).
 }
 \description{
-Dados das 20 primeiras amostras que representam o número 
+Dados de 20 amostras, representando o número 
     de peças não-conformes em amostras de tamanho 100.
 }
 \examples{
@@ -27,7 +27,7 @@ data(EpprechtTb8.12)
 library(qcc)
 
 qcc(EpprechtTb8.12, type="p", size=100,
-    xblab="Amostras", ylab="Número de itens não conformes", title=" ")
+    xlab="Amostra", ylab="Proporção de itens não conformes", title=" ")
                   
 }
 \keyword{CEQ}
