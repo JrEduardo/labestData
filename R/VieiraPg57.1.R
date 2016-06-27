@@ -16,8 +16,8 @@
 #'
 #' }
 #' @keywords DBC
-#' @source Vieira, S.(1999).  Estatística experimental (2th ed.).  São
-#'     Paulo, SP: Atlas. (página 57, exercício 3).
+#' @source Vieira, S. (1999).  Estatística experimental (2th ed.).  São
+#'     Paulo, SP: Atlas. (pág. 57, exercício 3).
 #' @examples
 #'
 #' data(VieiraPg57.1)
