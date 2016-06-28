@@ -15,7 +15,7 @@
 
 }}
 \source{
-Vieira, S.(1999).  Estatística experimental (2th ed.).  São
+Vieira, S. (1999).  Estatística experimental (2th ed.).  São
     Paulo, SP: Atlas. (pág. 50, Exercício 4).
 }
 \description{

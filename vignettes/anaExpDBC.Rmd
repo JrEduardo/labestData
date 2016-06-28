@@ -2,7 +2,7 @@
 title: "Análise de Experimentos em Delineamento de Blocos Casualizados"
 author: "PET Estatística UFPR"
 vignette: >
-  %\VignetteIndexEntry{Experimentos em Delineamento Inteiramente Casualizado}
+  %\VignetteIndexEntry{Análise de Experimentos em Delineamento de Blocos Casualizados}
   %\VignetteEngine{knitr::rmarkdown}
   %\VignetteEncoding{UTF-8}
 ---

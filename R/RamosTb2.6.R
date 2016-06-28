@@ -1,7 +1,6 @@
 #' @name RamosTb2.6
 #' @title Resistência à ruptura e peso de garrafas
 #' @description Resistência e peso de 25 garrafas.     
-#'
 #' @format Um \code{data.frame} com 25 observações e 2 variáveis, em que
 #'
 #' \describe{
@@ -14,16 +13,14 @@
 #' @keywords CEQ
 #' @source Ramos, E. M. L. S., et al.(2013). 
 #'     Controle Estatístico da Qualidade (1th ed.). 
-#'     Porto Alegre, RS: Bookman. (pg 30).
-#'      
+#'     Porto Alegre, RS: Bookman. (pág. 30).
 #' @examples
 #'
 #' data(RamosTb2.6)
 #'
-#' library (lattice)
+#' library(lattice)
 #'
-#' xyplot(forca ~ peso ,pch=20,
-#'       RamosTb2.6,type =c( "g", "p"))
-#'
+#' xyplot(forca ~ peso, pch = 20,
+#'        data = RamosTb2.6, type = c("g", "p"))
 #'
 NULL

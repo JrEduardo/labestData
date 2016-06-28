@@ -15,7 +15,7 @@
 \source{
 Ramos, E. M. L. S., et al.(2013). 
     Controle Estatístico da Qualidade (1th ed.). 
-    Porto Alegre, RS: Bookman. (pg 30).
+    Porto Alegre, RS: Bookman. (pág. 30).
 }
 \description{
 Resistência e peso de 25 garrafas.
@@ -24,11 +24,10 @@ Resistência e peso de 25 garrafas.
 
 data(RamosTb2.6)
 
-library (lattice)
+library(lattice)
 
-xyplot(forca ~ peso ,pch=20,
-      RamosTb2.6,type =c( "g", "p"))
-
+xyplot(forca ~ peso, pch = 20,
+       data = RamosTb2.6, type = c("g", "p"))
 
 }
 \keyword{CEQ}

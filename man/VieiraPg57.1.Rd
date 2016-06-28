@@ -15,8 +15,8 @@
 
 }}
 \source{
-Vieira, S.(1999).  Estatística experimental (2th ed.).  São
-    Paulo, SP: Atlas. (página 57, exercício 3).
+Vieira, S. (1999).  Estatística experimental (2th ed.).  São
+    Paulo, SP: Atlas. (pág. 57, exercício 3).
 }
 \description{
 Resultados de um experimento em delineamento de blocos

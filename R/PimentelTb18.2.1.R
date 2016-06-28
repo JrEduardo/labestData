@@ -39,7 +39,7 @@
 #' \item{\code{prod}}{Produção de milho, em kg ha\eqn{^{-1}}.}
 #'
 #' }
-#' @keywords FAT3 adicional
+#' @keywords FAT3 FATADI
 #' @source Pimentel-Gomes, F. (2009). Curso de Estatística Experimental
 #'     (15th ed.). Piracicaba, SP: FEALQ. (Tabela 18.2.1, pág. 330)
 #' @examples

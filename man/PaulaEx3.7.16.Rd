@@ -43,5 +43,5 @@ xlab = "Dose", main = "Sobrevivência dos insetos expostos a toxina")
 Morgan, B. J. T. (1992). Analysis of Quantal Response Data. 
 Chapman and Hall, London. (Página 90)
 }
-\keyword{AD}
+\keyword{binomial}
 

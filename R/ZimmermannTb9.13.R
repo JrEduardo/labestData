@@ -24,7 +24,7 @@
 #'     de feijão.}
 #'
 #' }
-#' @keywords FAT fatorial
+#' @keywords FAT
 #' @source Zimmermann, F. J. (2004). Estatística aplicada à pesquisa
 #'     agrícola (1st ed.). Santo Antônio de Goiás, GO: Embrapa Arroz e
 #'     Feijão. (Tabela 9.13, pág 179)

@@ -14,7 +14,7 @@
 #' }
 #' @keywords DIC
 #' @source Vieira, S. (1999). Estatística experimental (2th ed.). São
-#'     Paulo, SP: Atlas. (pág 50, exercício 2).
+#'     Paulo, SP: Atlas. (pág. 50, exercício 2).
 #' @examples
 #'
 #' data(VieiraPg50.1)

@@ -25,8 +25,8 @@
 #'
 #' }
 #' @keywords DBC
-#' @source Vieira, S.(1999). Estatística experimental (2th ed.).
-#'     São Paulo, SP: Atlas. (Tabela 8.5 pág. 98).
+#' @source Vieira, S. (1999). Estatística experimental (2th ed.).
+#'     São Paulo, SP: Atlas. (Tabela 8.5, pág. 98).
 #' @examples
 #'
 #' library(lattice)

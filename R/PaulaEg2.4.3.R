@@ -29,7 +29,7 @@
 #' @source Paula, G. A. (2004). Modelos de regressão: com apoio
 #'     computacional. São Paulo, SP: IME-USP. (Exemplo 2.4.3, pág. 136)
 #'
-#' @references De Jong, P., & Heller, G. Z. (2008). Generalized linear
+#' @references De Jong, P., Heller, G. Z. (2008). Generalized linear
 #'     models for insurance data (Vol. 136). Cambridge: Cambridge
 #'     University Press. 
 #' @examples

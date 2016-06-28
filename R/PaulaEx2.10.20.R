@@ -42,7 +42,7 @@
 #'     computacional. São Paulo, SP: IME-USP. (Exercício 2.10.20,
 #'     pág. 181; exercício 5.6.3, pág. 396)
 #'
-#' @references De Jong, P., & Heller, G. Z. (2008). Generalized linear
+#' @references De Jong, P., Heller, G. Z. (2008). Generalized linear
 #'     models for insurance data (Vol. 136). Cambridge: Cambridge
 #'     University Press.
 #'

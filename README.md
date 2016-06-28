@@ -20,126 +20,41 @@ Build status for the development version (`devel` branch)
 
 ## O que o *labestData*?
 
-O *labestData* é um projeto coletivo do PET Estatística UFPR para
-desenvolver um pacote R com conjuntos de dados para ensino de
-Estatística.
+O *labestData* é pacote R com conjuntos de dados para ensino de
+Estatística desenvolvido pelo [PET Estatística UFPR]. Os dados extraídos
+de livros e apostila, mantidos juntos no *labestData* forma uma galeria
+de dados TODO
+
+O nome *labest* vem de LABoratório de ESTatística.
+
+
+## Por que fazer um pacote com conjuntos de dados?
+
+A excelência na análise de dados vem com a prática.  Facilitar o acesso
+dos estudantes aos dados é incentivar que façam mais análises, que
+aprendam mais ou fixem melhor os conteúdos de sala de aula.  Dados de
+livros, por exemplo, são um excelente ponto de partida pois são bem
+documentados. Inclusive alguns são análisos nas próprias obras. Dessa
+maneira, o aluno além de poder reproduzir os resultados exibidos na obra
+pode tentar novas maneiras de analisar os dados. Por fim, cada conjunto
+de dados tem um história por traz e o estudante em contato com isso
+desenvolve uma maior capacidade de compreender os problemas reais de
+estatística e de buscar soluções para eles.
 
 ## Quais são os objetivos do projeto *labestaData*?
 
 O projeto tem dois objetivos principais:
 
-  1. Capacitar os membros do PET Estatística (bolsistas e voluntários)
+  1. Contribuir a comunidade científica em geral, com o Departamento de
+     Estatística, por reunir, organizar, manter e disponibilizar
+     conjuntos de dados para o ensino-apredizagem de Estatística.
+  2. Capacitar os membros do PET Estatística (bolsistas e voluntários)
      a desenvolver pacote R com versionamento Git;
-  2. Contribuir com o Departamento de Estatística, e a comunidade
-     científica em geral, por reunir, organizar, manter e disponibilizar
-     conjuntos de dados na forma de um pacote R de tal forma que possam
-     ser usados para o ensino de Estatística.
-
-Nesta primeira fase do projeto foram definidas algumas obras nacionais
-para transcrição e documentação de suas tabelas de dados ao pacote. As
-obras escolhidas estão descritas abaixo e compreendem as disciplinas de
-Planejamento de Experimentos, Análise de Regressão Linear e Análise
-Estatística Multivariada.
-
-<!-- Inserir links das milestones que representam os livros -->
-1. Banzatto, D. A., Kronka, S. D. (2013). **Experimentação Agrícola**
-   (4th ed.). Jaboticabal, SP: Funep.  
-   [_Milestone_ Banzatto](https://gitlab.c3sl.ufpr.br/pet-estatistica/labestData/milestones/1)
-   <!-- [*Walmes Zeviani*](https://gitlab.c3sl.ufpr.br/walmes) -->
-
-2. Mingoti, S.A. (2005). **Análise de dados através de métodos de
-   estatística multivariada - uma abordagem aplicada**. Belo
-   Horizonte, MG: Editora UFMG.  
-   [_Milestone_ Mingoti](https://gitlab.c3sl.ufpr.br/pet-estatistica/labestData/milestones/2)
-   <!-- [*Paula Alessandra*](https://gitlab.c3sl.ufpr.br/pazd11) e -->
-   <!-- [*Ângela Legey*](https://gitlab.c3sl.ufpr.br/alcl12) -->
-
-3. Ramalho, M. A. P., Ferreira, D. F., Oliveira,
-   A. C. (2005). **Experimentação em Genética e Melhoramento de
-   Plantas** (2th ed.). Lavras, MG: Editora UFLA.  
-   [_Milestone_ Ramalho](https://gitlab.c3sl.ufpr.br/pet-estatistica/labestData/milestones/3)
-   <!-- [*Jhenifer Veloso*](https://gitlab.c3sl.ufpr.br/jcv12) -->
-
-4. Barros, W. S., Dias, L. A. S. (2009). **Biometria
-   Experimental**. Viçosa, MG: Editora UFV.  
-   [_Milestone_ Barros](https://gitlab.c3sl.ufpr.br/pet-estatistica/labestData/milestones/4)
-   <!-- [*Altamiro Basiewics*](https://gitlab.c3sl.ufpr.br/aab15) -->
-
-6. Zimmermann, F.J. (2004), **Estatística aplicada à pesquisa agrícola**
-   (1st ed.). Santo Antônio de Goiás, GO: Embrapa Arroz e Feijão.  
-   [_Milestone_ Zimmermann](https://gitlab.c3sl.ufpr.br/pet-estatistica/labestData/milestones/6)
-   <!-- [*Bruna Wundervald*](https://gitlab.c3sl.ufpr.br/bdw13) -->
-
-7. Pimentel-Gomes, F. (2009). **Curso de Estatística Experimental**
-   (15th ed.). Piracicaba, SP: FEALQ.  
-   [_Milestone_ Pimentel-Gomes](https://gitlab.c3sl.ufpr.br/pet-estatistica/labestData/milestones/7)
-   <!-- [*Bruno Geronymo*](https://gitlab.c3sl.ufpr.br/bg15) -->
-
-8. Ferreira, D. F. (2011). **Estatística Multivariada** (2nd
-   ed.). Lavras, MG: Editora UFLA.  
-   [_Milestone_ Ferreira](https://gitlab.c3sl.ufpr.br/pet-estatistica/labestData/milestones/8)
-   <!-- [*Eduardo Junior*](https://gitlab.c3sl.ufpr.br/eerj12) -->
-
-9. Manly, B. J. F. (2005). **Métodos Estatísticos Multivariados- uma
-   introdução**. Porto Alegre, RS: Bookman  
-   [_Milestone_ Manly](https://gitlab.c3sl.ufpr.br/pet-estatistica/labestData/milestones/9)
-   <!-- [*Gabriel Klostermann*](https://gitlab.c3sl.ufpr.br/gsk12) -->
-
-10. Storck, L., Garcia, B. C., Lopes, S. J., Estefanel,
-    V. (2011). **Experimentação Vegetal** (3th ed.). Santa Maria, RS:
-    Editora UFSM.  
-   [_Milestone_ Storck](https://gitlab.c3sl.ufpr.br/pet-estatistica/labestData/milestones/10)
-   <!-- [*Mônica Ludmilla*](https://gitlab.c3sl.ufpr.br/mlho15) -->
-
-11. Charnet, R., de Luna Freire, C.A., Charnet, E.M.R., Bonvino,
-   H. (2008). **Análise de modelos de regressão linear com aplicações**
-   (2nd ed.). Campinas, SP: Editora Unicamp  
-   [_Milestone_ Charnet](https://gitlab.c3sl.ufpr.br/pet-estatistica/labestData/milestones/11)
-    <!-- [*Daniel Ikenaga*](https://gitlab.c3sl.ufpr.br/di12) -->
-
-12. Demétrio, C. G. B., & Zocchi, S. S. (2011). **Modelos de
-   Regressão**. Piracicaba: ESALQ.  
-   [_Milestone_ Demetrio](https://gitlab.c3sl.ufpr.br/pet-estatistica/labestData/milestones/12)
-   <!-- [*Alcides Neto*](https://gitlab.c3sl.ufpr.br/acn13) -->
-
-13. Ramos, E. M. L. S., & Almeida, S. S, & Araújo,
-   A. R. (2013). **Controle Estatístico da Qualidade** (1th ed.). Porto
-   Alegre, RS: Bookman.  
-   [_Milestone_ Ramos](https://gitlab.c3sl.ufpr.br/pet-estatistica/labestData/milestones/13)
-   <!-- [*Ângela Legey*](https://gitlab.c3sl.ufpr.br/alcl12) -->
-
-14. Costa, A. F. B., Epprecht, E. K., Carpinetti, L. (2010).  **Controle
-   Estatístico de Qualidade** (2nd ed.). São Paulo - SP: Editora
-   Atlas.  
-   [_Milestone_ Epprecht](https://gitlab.c3sl.ufpr.br/pet-estatistica/labestData/milestones/14)
-   <!-- [*Paula Alessandra*](https://gitlab.c3sl.ufpr.br/pazd11) -->
-
-15. Barbin, D. (2013). **Planejamento e Análise Estatística de
-   Experimentos Agronômicos** (2nd ed.). Londrina, PR: Mecenas.  
-   [_Milestone_ Barbin](https://gitlab.c3sl.ufpr.br/pet-estatistica/labestData/milestones/15)
-   <!-- [*Walmes Zeviani*](https://gitlab.c3sl.ufpr.br/walmes) -->
-
-16. Paula, G. A. (2004). **Modelos de regressão: com apoio
-   computacional**. São Paulo, SP: IME-USP.  
-   [_Milestone_ Paula](https://gitlab.c3sl.ufpr.br/pet-estatistica/labestData/milestones/16)
-   <!-- [*Eduardo Junior*](https://gitlab.c3sl.ufpr.br/eerj12) -->
-
-17. Vieira, S.(1999). **Estatística experimental** (2th ed.). São Paulo, SP: Atlas.  
-   [_Milestone_ Vieira](https://gitlab.c3sl.ufpr.br/pet-estatistica/labestData/milestones/17)
-   <!-- [*Ângela Legey*](https://gitlab.c3sl.ufpr.br/alcl12) e -->
-   <!-- [*Alcides Neto*](https://gitlab.c3sl.ufpr.br/acn13) -->
-
-Ao término desta primeira fase pretende-se ter todos os conjuntos de
-dados relevantes destas obras disponíveis para usuários do pacote. Ainda
-*vignettes* (vinhetas), exemplificando a análise de dados (em códigos R)
-referentes a cada disciplina compreendida, serão elaboradas para
-servirem de inspiração ou roteiro para análise dos demais dados do
-pacote.
 
 ## Quem são os desenvolvedores do *labestData*?
 
 Os colaboradores do *labestData* são os bolsistas do PET, voluntários e
-professores.
+professores. A tabela abaixo exibe todos os colaboradores.
 
 |                                  | Tipo       | 1 etapa | 2 etapa |
 |----------------------------------|------------|---------|---------|
@@ -160,8 +75,8 @@ professores.
 ## Como fazer para ser colaborar do *labestData*?
 
 Colaborações são muito bem vindas. Para colaborar, entre em contato com
-PET Estatística (<pet.estatistica.ufpr@gmail.com>, PC09, 04133613261) ou
-com o Tutor (<walmes@ufpr.br>. 04133613573) comunicando a
+PET Estatística (<pet.estatistica.ufpr@gmail.com>, PC09, (41) 3361-3261)
+ou com o Tutor (<walmes@ufpr.br>. (41) 3361-3573) comunicando a
 intenção. Antes, no entanto, leia o Guia de Contribuição:
 [CONTRIBUTING.md](./CONTRIBUTING.md).
 
@@ -177,18 +92,21 @@ primeira etapa inicia em 29/02/2016 com duração de 10 semanas (fim em
 Os dados a serem incluídos no pacote serão provenientes de 4 principais
 fontes:
 
-  1. Livros. Os livros que exibem aplicações normalmente contém dados em
-     formas de tabela, em CD-Rom que acompanha o livro, pacote ou em
-     site com materiais suplementares. Essa será a maior fonte de dados
-     para o pacote labestData.
-  2. Internet. A internet está repleta de dados. Existem dados prontos
-     em formas de tabela (páginas pessoais, órgãos públicos, instituições
-     de pesquisa, resultados de enquetes, etc) e também dados não
-     tabulados/organizados que podem ser capturados (com *web scrap*,
-     por exemplo) e processados.
-  3. Arquivos pessoais. Alunos, professores, pesquisadores também podem
-     disponibilizar os dados de suas pesquisas para inclusão no pacote.
-  4. Simulação. Embora sejam artificiais, dados provenientes de
+  1. **Livros**. Os livros que exibem aplicações normalmente contém
+     dados em formas de tabela, em CD-Rom que acompanha o livro, pacote
+     ou em site com materiais suplementares. Essa será a maior fonte de
+     dados para o pacote labestData. Isso porque os dados dos livros
+     geralmente estão documentados e alguns possuem aplicação com
+     solução na própria obra.
+  2. **Internet**. A internet está repleta de dados. Existem dados
+     prontos em formas de tabela (páginas pessoais, órgãos públicos,
+     instituições de pesquisa, resultados de enquetes, etc) e também
+     dados não tabulados/organizados que podem ser capturados (com *web
+     scrap*, por exemplo) e processados.
+  3. **Arquivos pessoais**. Alunos, professores, pesquisadores também
+     podem disponibilizar os dados de suas pesquisas para inclusão no
+     pacote.
+  4. **Simulação**. Embora sejam artificiais, dados provenientes de
      simulação podem ser considerados pois, muitas vezes, são
      deliberadamente feitos com uma particular característica relevante
      para um problema. No pacote labestData essa será a menor fonte de
@@ -214,7 +132,7 @@ semestre para o Curso de Estatística da UFPR.
 
 Embora sejam esses os contextos de prioridade, dados de outras áreas são
 igualmente bem vindos, como dados espaciais, séries temporais, de
-análise de sobrevivência, de questionário, etc.
+análise de sobrevivência, de questionário, análise sensorial, etc.
 
 Os dados reais devem possuir uma boa descrição das variáveis (nome,
 unidade de medida, instrumento de medida usado, definição da unidade
@@ -224,8 +142,8 @@ condições de contorno do experimento, etc.
 
 ## O que o *labestData* possui além dos conjuntos de dados?
 
-Além dos dados, o pacote possui vinhetas (**vignettes**) com estudos de
-caso com os dados do pacote. Essas vinhetas são um guia simples de como
+Além dos dados, o pacote possui vinhetas (**vignettes**) que fazem
+análise dos dados do pacote. Essas vinhetas são um guia simples de como
 coordenar funções do R para analisar os dados. Embora as vinhetas sejam
 para alguns dados, elas servem de inspiração ou roteiro para os demais
 dados do pacote.
@@ -235,61 +153,102 @@ dados do pacote.
 O *labestData* é um pacote livre para o uso. O estudante pode usar (e
 deve) para praticar a execução de análises, os cientistas podem usar
 como referência para análise dos dados de suas pesquisas e os
-professores podem usar como ferramenta de ensino. Ao tornar público
-qualquer material que use elementos do pacote, solicitamos que faça
-citação do mesmo.
+professores podem usar principalmente como instrumento de ensino. Ao
+tornar público qualquer material que use elementos do pacote,
+solicitamos que faça citação do mesmo.
 
 ## Como citar o pacote *labestData*?
 
-PET Estatística UFPR (2016). **labestData: conjuntos de dados para
-ensino de estatística**. R package version x.y-z.
-https://gitlab.c3sl.ufpr.br/pet-estatistica/labesData
+Digite `citation("labestData")` no R. Usa saída semelhante e que está
+abaixo será exibida. Lembre-se que a versão pode ser diferente.
 
-    @Manual{labestData2016,
-      title = {labestData: conjuntos de dados para ensino de estatística},
-      author = {PET Estatística UFPR},
-      year = {2016},
-      note = {R package version x.y-z},
-      url = {https://gitlab.c3sl.ufpr.br/pet-estatistica/labesData},
-    }
+```
+> citation("labestData")
 
-**Atenção**: x.y-z deve ser substituído pela versão considerada do
-pacote.
+Para citar o pacote 'labestData' use:
 
-## Como usar os conjuntos de dados do *labestData*?
+  PET Estatística UFPR (2016). labestData: Conjuntos de Dados para
+  Ensino de Estatística. R package version 0.0-16.451.
 
-Para usar os conjuntos de dados você precisa instalar o pacote. Existem
-duas formas de fazer isso:
+A BibTeX entry for LaTeX users is
 
-  1. Instalando o pacote pelos arquivos fonte: você precisar baixar o
-     arquivo com os fontes (`labestData.tar.gz` para Linux e
-     `labestData.zip` para Windows) e, de dentro de uma sessão R,
-     instalar com
+  @Manual{,
+    title = {labestData: Conjuntos de Dados para Ensino de Estatística},
+    author = {PET Estatística UFPR},
+    year = {2016},
+    note = {R package version 0.0-16.451},
+    url = {http://gitlab.c3sl.ufpr.br/pet-estatistica/labestData,
+           https://github.com/pet-estatistica/labestData},
+  }
+```
 
-        install.packages("labestData.tar.gz", repos = NULL)
-  2. Instalando a partir do endereço do repositório. Para isso você
-     precisa ter o pacote `devtools` instalado (com todas as suas
-     dependências). De dentro de uma sessão R, instale com
+## Como o *labestData* é desenvolvido
 
-        library(devtools)
-        install_git("https://gitlab.c3sl.ufpr.br/pet-estatistica/labesData.git")
+O *labestData* é desenvolvido com controle de versão usando o Git. Ele é
+mantido em duas plataformas de versionamento Git, o [GitLab] e o
+[GitHub]. O GitLab é mantido pelo [C3SL] e é onde de fato o pacote é
+desenvolvido. Lá estão as milestones e issues de desenvolvimento do
+projeto. O projeto é espelhado para o GitHub para que mais pessoas
+tenham acesso, tanto para instalação, quanto para poder colaborar com o
+projeto.
+
+O fluxo de trabalho do *labestData* é semanal e contém vários elementos
+de trabalho em equipe do [Scrum] e das [4 Disciplinas da Execução]. Tal
+forma de trabalhar foi admitida para potencialar o desenvolvimento do
+projeto, pois aumentam o engajamento da equipe.
+
+Para o desenvolvimento da parte R propriamente dita, foi usado o pacote
+`devtools` e `roxygen2`. Esses pacotes combinados facilitam o
+desenvolvimento do pacote pois permitem que a documentação seja escrita
+de uma forma mais legível e junto com a definição dos objetos exportados
+(ou não) pelo pacote.
+
+## Como instalar o *labestData*?
+
+Para usar os conjuntos de dados você precisa instalar o
+*labestData*. Instale a partir do endereço de um dos repositórios. Para
+isso você precisa ter o pacote `devtools` instalado (com todas as suas
+dependências). De dentro de uma sessão R, instale com alguma das duas
+opções abaixo.
+
+```
+library(devtools)
+
+# Do GitLab.
+install_git(url = "https://gitlab.c3sl.ufpr.br/pet-estatistica/labestData.git",
+            branch = "master")
+
+# Do GitHub.
+install_github(repo = "pet-estatistica/labestData",
+               branch = "master")
+```
+
+O ramo `devel` é o de desenvolvimento do pacote. Você pode instalar do
+ramo `devel` também, mas esteja ciente que pode não ser uma versão
+estável do pacote.
 
 Depois de instalado, basta carregar o pacote e chamar o conjunto de
 dados que deseja usar.
 
-    library(labestData)      # Carrega o pacote para sessão.
-    ls("package:labestData") # Lista os objetos do pacote.
-    data(dados)              # Traz para área de trabalho um dataset.
-    str(dados)               # Mostra a estrutura do dataset.
-    help(dados)              # Mostra as informações de ajuda do dataset
+```
+library(labestData)          # Carrega o pacote.
+ls("package:labestData")     # Mostra os objetos do pacote.
+help(package = "labestData") # Abre a home da documentação do pacote.
+
+data(PimentelEg5.2) # Traz para área de trabalho um dataset.
+str(PimentelEg5.2)  # Mostra a estrutura do dataset.
+help(PimentelEg5.2) # Mostra as informações de ajuda do dataset.
+
+labestDataView()    # Abre aplicação shiny para navegar pelos dados.
+```
 
 ## Como reportar sugestões ou erros ao projeto *labestData*?
 
-Você pode abrir *issues* no projeto *labestData* em dois repositórios:
+Você pode abrir *issues* no projeto *labestData* nos dois repositórios:
 
-  1. No repositório principal dentro do GitLab do c3sl:
+  1. No repositório principal dentro do GitLab do C3SL:
      <https://gitlab.c3sl.ufpr.br/pet-estatistica/labesData/issues>.
-     Apenas usuários com conta no GitLab do c3sl podem abrir *issue*.
+     Apenas usuários com conta no GitLab do C3SL podem abrir *issue*.
   2. No repositório espelho no GitHub:
      <https://github.com/pet-estatistica/labestData/issues>. Qualquer
      usuário do GitHub pode abrir *issue*.
@@ -299,3 +258,14 @@ em abrir uma conta, envie sua sugestão/bug para o endereço
 <pet.estatistica.ufpr@gmail.com>. Coloque no início título da mensagem
 (*subject*) a palavra `[labestData]`, e.g. `[labesData] Dados com número
 incorreto de observações`.
+
+<!------------------------------------------- -->
+
+[PET Estatística UFPR]: http://www.pet.est.ufpr.br/
+[C3SL]: www.c3sl.ufpr.br
+[GitLab]: https://gitlab.c3sl.ufpr.br/explore
+[GitHub]: https://github.com/
+[Scrum]: https://www.amazon.com.br/Scrum-fazer-dobro-trabalho-metade-ebook/dp/B00OEI3TKM
+[4 Disciplinas da Execução]: http://franklincovey.com.br/execucao/as-4-disciplinas-da-execucao/
+[`devtools`]: https://cran.r-project.org/web/packages/devtools/index.html
+[`roxygen2`]: https://cran.r-project.org/web/packages/roxygen2/index.html

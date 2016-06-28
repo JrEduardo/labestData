@@ -20,7 +20,7 @@
 
 }}
 \source{
-Banzatto, D. A., & Kronka, S. D. (2013). Experimentação
+Banzatto, D. A., Kronka, S. D. (2013). Experimentação
     Agrícola (4th ed.). Jaboticabal, SP: Funep. (Quadro 4.5.2
     pág. 84)
 

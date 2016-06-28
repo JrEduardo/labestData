@@ -5,7 +5,7 @@
 \title{Diâmetro à Altura do Peito de \emph{Eucalyptus saligna}}
 \format{Um vetor numérico com 20 elementos.}
 \source{
-Banzatto, D. A., & Kronka, S. D. (2013). Experimentação
+Banzatto, D. A., Kronka, S. D. (2013). Experimentação
     Agrícola (4th ed.). Jaboticabal, SP: Funep. (Quadro 1.2.3 pág. 3)
 }
 \description{

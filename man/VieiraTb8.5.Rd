@@ -17,8 +17,8 @@
 
 }}
 \source{
-Vieira, S.(1999). Estatística experimental (2th ed.).
-    São Paulo, SP: Atlas. (Tabela 8.5 pág. 98).
+Vieira, S. (1999). Estatística experimental (2th ed.).
+    São Paulo, SP: Atlas. (Tabela 8.5, pág. 98).
 }
 \description{
 Os dados advém de um experimento no qual foram
