@@ -1,5 +1,5 @@
 #' @name ZimmermannTb14.9
-#' @title Controle de Insetos na Produtividade de Grãos de Arroz
+#' @title Controle de Insetos na Produtividade de Gr\enc{ã}{a}os de Arroz
 #' @description Dados de um ensaio de controle de insetos/pragas na
 #'     cultura do arroz.  O experimento foi feito em delineamento
 #'     quadrado latino 6 \eqn{\times} 6 mas há uma um dado perdido

@@ -2,7 +2,7 @@
 % Please edit documentation in R/ZimmermannTb3.12.R
 \name{ZimmermannTb3.12}
 \alias{ZimmermannTb3.12}
-\title{Dados de matéria seca em plantas}
+\title{Dados de mat\enc{é}{e}ria seca em plantas}
 \format{Um \code{data.frame} com 75 observações e 4 variáveis
 
 \describe{

@@ -1,5 +1,5 @@
 #' @name PaulaTb3.12
-#' @title Ocorrência de vaso-constrição
+#' @title Ocorr\enc{ê}{e}ncia de vaso-constri\enc{çã}{ca}o
 #' @description Dados de um experimento desenvolvido para 
 #'    avaliar a influência da quantidade de ar inspirado na ocorrência
 #'    de vaso-constrição na pele dos dedos da mão.  A resposta é a ocorrência

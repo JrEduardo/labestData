@@ -2,7 +2,7 @@
 % Please edit documentation in R/ZimmermannTb12.13.R
 \name{ZimmermannTb12.13}
 \alias{ZimmermannTb12.13}
-\title{Proporção de Insetos Infectados}
+\title{Propor\enc{çã}{ca}o de Insetos Infectados}
 \format{Um \code{data.frame} com 35 observações e 3 variáveis
 
 \describe{

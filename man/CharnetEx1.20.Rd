@@ -2,7 +2,7 @@
 % Please edit documentation in R/CharnetEx1.20.R
 \name{CharnetEx1.20}
 \alias{CharnetEx1.20}
-\title{Testes de Avaliação de Personalidade}
+\title{Testes de Avalia\enc{çã}{ca}o de Personalidade}
 \format{Um \code{data.frame} com 2 colunas e 20 linhas.
 
 \describe{

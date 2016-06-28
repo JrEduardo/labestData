@@ -1,6 +1,6 @@
 #' @name CharnetEx1.18
 #'
-#' @title Tempo e Temperatura de uma Reação Química
+#' @title Tempo e Temperatura de uma Rea\enc{çã}{ca}o Qu\enc{í}{i}mica
 #'
 #' @description Registro de 35 tempos de reação química em 7
 #'     temperaturas diferentes.

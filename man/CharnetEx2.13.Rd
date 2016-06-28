@@ -2,7 +2,7 @@
 % Please edit documentation in R/CharnetEx2.13.R
 \name{CharnetEx2.13}
 \alias{CharnetEx2.13}
-\title{Comparação entre Alturas de Pais e Filhos}
+\title{Compara\enc{çã}{ca}o entre Alturas de Pais e Filhos}
 \format{Um \code{data.frame} com 2 colunas e 7 linhas.
 
 \describe{

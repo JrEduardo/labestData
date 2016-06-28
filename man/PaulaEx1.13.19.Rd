@@ -2,7 +2,7 @@
 % Please edit documentation in R/PaulaEx1.13.19.R
 \name{PaulaEx1.13.19}
 \alias{PaulaEx1.13.19}
-\title{Estudo Demográfico dos Estados Norte-Americanos}
+\title{Estudo Demogr\enc{á}{a}fico dos Estados Norte-Americanos}
 \format{Um \code{data.frame} com 50 observações e 9 variáveis.
     \describe{
 

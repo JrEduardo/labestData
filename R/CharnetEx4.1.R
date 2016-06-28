@@ -1,6 +1,6 @@
 #' @name CharnetEx4.1
 #'
-#' @title Valores de uma Variável Aleatória Contínua
+#' @title Valores de uma Vari\enc{á}{a}vel Aleat\enc{ó}{o}ria Cont\enc{í}{i}nua
 #'
 #' @description Valores de uma variável aleatória X contínua.
 #'

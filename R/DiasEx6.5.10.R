@@ -1,5 +1,5 @@
 #' @name DiasEx6.5.10
-#' @title Correlação entre Produção e Diâmetro
+#' @title Correla\enc{çã}{ca}o entre Produ\enc{çã}{ca}o e Di\enc{â}{a}metro
 #' @description Dados referentes a 8 pares de valores de produção
 #'     (gramas) e diâmetro (cm).
 #' @format Um \code{data.frame} com 8 observações e 3 variáveis, em que

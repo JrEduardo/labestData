@@ -1,5 +1,5 @@
 #' @name DemetrioTb2.12
-#' @title Produção de Ruibarbo
+#' @title Produ\enc{çã}{ca}o de Ruibarbo
 #' 
 #' @description Dados de um experimento conduzido em delineamento de
 #'     blocos ao acaso onde foi mensurada a produção de ruibarbos para

@@ -2,7 +2,7 @@
 % Please edit documentation in R/DemetrioTb4.5.R
 \name{DemetrioTb4.5}
 \alias{DemetrioTb4.5}
-\title{Dados Simulados para Regressão Linear Simples e Polinomial}
+\title{Dados Simulados para Regress\enc{ã}{a}o Linear Simples e Polinomial}
 \format{Um \code{data.frame} de 9 linhas e 5 colunas.
 
 \describe{

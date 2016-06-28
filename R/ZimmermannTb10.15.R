@@ -1,5 +1,5 @@
 #' @name ZimmermannTb10.15
-#' @title Adubação Após Pastagem em Cultivares de Arroz
+#' @title Aduba\enc{çã}{ca}o Ap\enc{ó}{o}s Pastagem em Cultivares de Arroz
 #' @description Dados de um experimento conduzido em faixas, no
 #'     delineamento de blocos ao acaso, para testar o efeito da
 #'     aplicação de adubos em arroz após pastagem no qual foram

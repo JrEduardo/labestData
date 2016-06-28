@@ -1,6 +1,6 @@
 #' @name CharnetEx8.5
 #'
-#' @title Efeito da Temperatura e Concentração numa Reação Química
+#' @title Efeito da Temperatura e Concentra\enc{çã}{ca}o numa Rea\enc{çã}{ca}o Qu\enc{í}{i}mica
 #'
 #' @description Efeito da temperatura (\code{temp}) e percentual de
 #'     concentração (\code{conc}) na produção de um composto numa reação

@@ -2,7 +2,7 @@
 % Please edit documentation in R/PimentelTb8.3.1.R
 \name{PimentelTb8.3.1}
 \alias{PimentelTb8.3.1}
-\title{Grupo de Ensaios de Batatinha na Província de Buenos Aires}
+\title{Grupo de Ensaios de Batatinha na Prov\enc{í}{i}ncia de Buenos Aires}
 \format{Um \code{data.frame} com 56 observações e 3 variáveis, em que
 
 \describe{

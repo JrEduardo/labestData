@@ -1,5 +1,5 @@
 #' @name BanzattoQd5.2.4
-#' @title Efeito de Recipientes para Duas Espécies de Eucalipto
+#' @title Efeito de Recipientes para Duas Esp\enc{é}{e}cies de Eucalipto
 #' @description Experimento em esquema fatorial 3 \eqn{\times} 2 para
 #'     estudar o efeito de 3 tipos de recipientes para a produção de
 #'     mudas de duas espécies de Eucalipto. O experimento foi instalado

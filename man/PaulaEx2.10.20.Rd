@@ -2,7 +2,7 @@
 % Please edit documentation in R/PaulaEx2.10.20.R
 \name{PaulaEx2.10.20}
 \alias{PaulaEx2.10.20}
-\title{Estudo de Apólices de Seguros de Veículos}
+\title{Estudo de Ap\enc{ó}{o}lices de Seguros de Ve\enc{í}{i}culos}
 \format{Um \code{data.frame} com 996 observações e 9 variáveis.
     \describe{
 

@@ -1,5 +1,5 @@
 #' @name BanzattoQd5.5.1
-#' @title Adubação Mineral no Milho com Uso de Confundimento
+#' @title Aduba\enc{çã}{ca}o Mineral no Milho com Uso de Confundimento
 #' @description Experimento realizado em Jaboticabal - SP por Vilalta
 #'     (1972) que, com um arranjo fatorial triplo, estudou a combinação
 #'     de nitrogênio, fósforo e potássio, cada um com 3 níveis (27

@@ -2,7 +2,7 @@
 % Please edit documentation in R/MingotiTb8.1.R
 \name{MingotiTb8.1}
 \alias{MingotiTb8.1}
-\title{Renda e o número de filhos}
+\title{Renda e o n\enc{ú}{u}mero de filhos}
 \format{Um \code{data.frame} com 3 observações e 5 variáveis, em que
 
 \describe{

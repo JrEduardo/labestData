@@ -1,5 +1,5 @@
 #' @name DiasEx10.4.6
-#' @title Ensaio de Competição de Batata Doce
+#' @title Ensaio de Competi\enc{çã}{ca}o de Batata Doce
 #' @description Ensaio de competição de batata doce, instalado em
 #'     delineamento de blocos casualizados com 3 repetições e sob
 #'     esquema fatorial 3 \eqn{\times} 4, onde foram avaliados 3 tipos

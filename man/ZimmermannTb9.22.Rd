@@ -2,7 +2,7 @@
 % Please edit documentation in R/ZimmermannTb9.22.R
 \name{ZimmermannTb9.22}
 \alias{ZimmermannTb9.22}
-\title{Fungicidas e Polímero na Infecção de \emph{Fusarium} em
+\title{Fungicidas e Pol\enc{í}{i}mero na Infec\enc{çã}{ca}o de \emph{Fusarium} em
     Sementes}
 \format{Um \code{data.frame} com 55 observações e 4 variáveis, em que
 

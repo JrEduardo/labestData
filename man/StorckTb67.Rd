@@ -2,7 +2,7 @@
 % Please edit documentation in R/StorckTb67.R
 \name{StorckTb67}
 \alias{StorckTb67}
-\title{Efeito da Dose de NPK na Produção de Cultivares de Milho}
+\title{Efeito da Dose de NPK na Produ\enc{çã}{ca}o de Cultivares de Milho}
 \format{Um \code{data.frame} com 60 observações e 4 variáveis, em que
 
 \describe{

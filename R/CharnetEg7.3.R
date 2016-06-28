@@ -1,6 +1,6 @@
 #' @name CharnetEg7.3
 #'
-#' @title Relação entre Salário, Tempo de Experiência e Sexo
+#' @title Rela\enc{çã}{ca}o entre Sal\enc{á}{a}rio, Tempo de Experi\enc{ê}{e}ncia e Sexo
 #'
 #' @description Dados de salário, tempo de experiência e sexo dos
 #'     gerentes de agências bancárias de um grande banco.

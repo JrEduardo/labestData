@@ -2,7 +2,7 @@
 % Please edit documentation in R/RamalhoEx3.1.R
 \name{RamalhoEx3.1}
 \alias{RamalhoEx3.1}
-\title{Número de plantas de milho após inoculação}
+\title{N\enc{ú}{u}mero de plantas de milho ap\enc{ó}{o}s inocula\enc{çã}{ca}o}
 \format{data.frame com 20 observações e 4 variáveis, em que
 
 \describe{

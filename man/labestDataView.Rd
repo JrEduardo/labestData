@@ -2,7 +2,7 @@
 % Please edit documentation in R/labestDataView.R
 \name{labestDataView}
 \alias{labestDataView}
-\title{Shiny App para Visualização e Download dos Datasets}
+\title{Shiny App para Visualiza\enc{çã}{ca}o e Download dos Datasets}
 \usage{
 labestDataView()
 }

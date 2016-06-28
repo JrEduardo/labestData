@@ -1,5 +1,5 @@
 #' @name FerreiraEg7.4
-#' @title Avaliação de Duas Variedades de Milho
+#' @title Avalia\enc{çã}{ca}o de Duas Variedades de Milho
 #' @description Com o interesse de testar a hipótese de igualdade entre
 #'     duas variedades de milho, foram mensuradas as variáveis aleatórias
 #'     produtividade e altura das plantas em cada uma das variedades.

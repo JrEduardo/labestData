@@ -1,5 +1,5 @@
 #' @name DemetrioTb4.5
-#' @title Dados Simulados para Regressão Linear Simples e Polinomial
+#' @title Dados Simulados para Regress\enc{ã}{a}o Linear Simples e Polinomial
 #' 
 #' @description Dados simulados para exercício de ajuste de modelos de
 #'     regressão linear simples e polinomial. São simulados, para uma

@@ -2,7 +2,7 @@
 % Please edit documentation in R/DemetrioEx1.4.2.R
 \name{DemetrioEx1.4.2}
 \alias{DemetrioEx1.4.2}
-\title{Tempo de Irrigação de Solo}
+\title{Tempo de Irriga\enc{çã}{ca}o de Solo}
 \format{Um \code{data.frame} de 15 linhas e 2 colunas.
 
 \describe{

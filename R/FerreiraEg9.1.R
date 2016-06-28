@@ -1,6 +1,6 @@
 #' @name FerreiraEg9.1
 #' @title Teores de Areia e Argila para Diferentes Usos da Terra na
-#'     Amazônia
+#'     Amaz\enc{ô}{o}nia
 #' @description Os dados referem-se a média de vários pontos amostrais
 #'     em sistema de gride nos solos da Amazônia, onde foram mensuradas
 #'     as variáveis areia e argila para 6 sistemas de uso da terra

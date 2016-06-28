@@ -2,7 +2,7 @@
 % Please edit documentation in R/DemetrioEx1.4.1.2.R
 \name{DemetrioEx1.4.1.2}
 \alias{DemetrioEx1.4.1.2}
-\title{Peso Médio de Galinhas}
+\title{Peso M\enc{é}{e}dio de Galinhas}
 \format{Um \code{data.frame} de 10 linhas e 2 colunas.
 
 \describe{

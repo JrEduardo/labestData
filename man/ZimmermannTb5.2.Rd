@@ -2,7 +2,7 @@
 % Please edit documentation in R/ZimmermannTb5.2.R
 \name{ZimmermannTb5.2}
 \alias{ZimmermannTb5.2}
-\title{Produção de Grãos de Genótipos de Arroz}
+\title{Produ\enc{çã}{ca}o de Gr\enc{ã}{a}os de Gen\enc{ó}{o}tipos de Arroz}
 \format{Um \code{data.frame} com 64 observações e 4 variáveis
 
 \describe{

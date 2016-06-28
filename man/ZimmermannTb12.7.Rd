@@ -2,7 +2,7 @@
 % Please edit documentation in R/ZimmermannTb12.7.R
 \name{ZimmermannTb12.7}
 \alias{ZimmermannTb12.7}
-\title{Área Sob a Curva do Progresso de Brusone}
+\title{\enc{Á}{A}rea Sob a Curva do Progresso de Brusone}
 \format{Um \code{data.frame} com 18 observações e 3 variáveis
 
 \describe{

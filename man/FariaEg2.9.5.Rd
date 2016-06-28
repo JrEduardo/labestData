@@ -2,7 +2,7 @@
 % Please edit documentation in R/FariaEg2.9.5.R
 \name{FariaEg2.9.5}
 \alias{FariaEg2.9.5}
-\title{Variação de Métodos para a Determinação da CTC do Solo}
+\title{Varia\enc{çã}{ca}o de M\enc{é}{e}todos para a Determina\enc{çã}{ca}o da CTC do Solo}
 \format{Um \code{data.frame} com 20 observações e 3 variáveis, em que
 
 \describe{

@@ -1,6 +1,6 @@
 #' @name CharnetEg4.2
 #'
-#' @title Avaliação de Vendedores pelos Clientes
+#' @title Avalia\enc{çã}{ca}o de Vendedores pelos Clientes
 #'
 #' @description Análise das vendas através das notas atribuídas pelos
 #'     clientes aos vendedores de uma empresa de seguro.

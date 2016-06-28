@@ -1,5 +1,5 @@
 #' @name EpprechtTb5.4
-#' @title Capacidade de medição de um relógio apalpador 
+#' @title Capacidade de medi\enc{çã}{ca}o de um rel\enc{ó}{o}gio apalpador 
 #' @description Dados utilizados para avaliar a capacidade
 #'     de um relógio apalpador na medição do erro de batida radial de 
 #'     um eixo retificado. São 20 peças medidas por um mesmo

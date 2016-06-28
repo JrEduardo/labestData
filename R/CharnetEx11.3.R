@@ -1,6 +1,6 @@
 #' @name CharnetEx11.3
 #'
-#' @title Relação do Preço de Venda de Imóvel e suas Características
+#' @title Rela\enc{çã}{ca}o do Pre\enc{ç}{c}o de Venda de Im\enc{ó}{o}vel e suas Caracter\enc{í}{i}sticas
 #'
 #' @description Estudo observacional onde o interesse é explicar o valor
 #'     de venda de imóveis de um mesmo bairro a partir de suas

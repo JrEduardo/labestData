@@ -2,7 +2,7 @@
 % Please edit documentation in R/ManlyTb11.3.R
 \name{ManlyTb11.3}
 \alias{ManlyTb11.3}
-\title{Distâncias rodoviárias}
+\title{Dist\enc{â}{a}ncias rodovi\enc{á}{a}rias}
 \format{Uma matriz (13x13) com as distâncias rodoviárias entre as 
 cidades da ilha Sul da Nova Zelândia.}
 \source{

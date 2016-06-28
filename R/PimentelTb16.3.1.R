@@ -1,5 +1,5 @@
 #' @name PimentelTb16.3.1
-#' @title Suscetibilidade de Variedades de Soja ao Ataque de Nematóides
+#' @title Suscetibilidade de Variedades de Soja ao Ataque de Nemat\enc{ó}{o}ides
 #' @description Experimento de Arruda (1952), em blocos casualizados, em
 #'     que se compararam 21 variedades de soja para estudar sua
 #'     suscetibilidade ao ataque de nematóides. Em cada parcela foram

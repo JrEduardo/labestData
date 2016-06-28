@@ -1,5 +1,5 @@
 #' @name BanzattoQd6.2.5
-#' @title Fontes e Doses para Adubação Nitrogenada no Milho
+#' @title Fontes e Doses para Aduba\enc{çã}{ca}o Nitrogenada no Milho
 #' @description Experimento que estudou a produção de milho como função
 #'     de fontes e doses de adubação nitrogenada. O experimento foi
 #'     instalado em delineamento de blocos casualizados com arranjo de

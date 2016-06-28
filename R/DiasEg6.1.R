@@ -1,5 +1,5 @@
 #' @name DiasEg6.1
-#' @title Ganhos de Produção de Arroz nos Ciclos de Seleção
+#' @title Ganhos de Produ\enc{çã}{ca}o de Arroz nos Ciclos de Sele\enc{çã}{ca}o
 #' @description Amostra com 6 pares de observações representanto os
 #'     ciclos de seleção e ganhos percentuais de produção
 #'     correspondentes em arroz.

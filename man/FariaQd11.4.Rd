@@ -2,7 +2,7 @@
 % Please edit documentation in R/FariaQd11.4.R
 \name{FariaQd11.4}
 \alias{FariaQd11.4}
-\title{Produção de Batatas em Função da Calagem e Adubação}
+\title{Produ\enc{çã}{ca}o de Batatas em Fun\enc{çã}{ca}o da Calagem e Aduba\enc{çã}{ca}o}
 \format{Um \code{data.frame} com 16 observações e 4 variáveis, em
     que
 

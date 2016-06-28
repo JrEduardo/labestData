@@ -1,5 +1,5 @@
 #' @name PaulaEx4.6.7
-#' @title Número de Falhas em Peças de Tecido
+#' @title N\enc{ú}{u}mero de Falhas em Pe\enc{ç}{c}as de Tecido
 #' @description Dados referentes à produção de peças de tecido em uma
 #'     determinada fábrica. A fábrica registra o comprimento da peça
 #'     produzida e o número de falhas encontradas.

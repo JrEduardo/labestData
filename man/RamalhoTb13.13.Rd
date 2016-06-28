@@ -2,7 +2,7 @@
 % Please edit documentation in R/RamalhoTb13.13.R
 \name{RamalhoTb13.13}
 \alias{RamalhoTb13.13}
-\title{Produção de Grãos de Progênies de Feijão}
+\title{Produ\enc{çã}{ca}o de Gr\enc{ã}{a}os de Prog\enc{ê}{e}nies de Feij\enc{ã}{a}o}
 \format{Um \code{data.frame} com 30 observações e 3 variáveis, em que
 
 \describe{

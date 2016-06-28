@@ -2,7 +2,7 @@
 % Please edit documentation in R/CharnetEx3.9.R
 \name{CharnetEx3.9}
 \alias{CharnetEx3.9}
-\title{Consumo de Combustível por Velocidade}
+\title{Consumo de Combust\enc{í}{i}vel por Velocidade}
 \format{Um \code{data.frame} com 2 colunas e 28 linhas.
 
 \describe{

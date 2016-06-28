@@ -1,5 +1,5 @@
 #' @name FerreiraEg8.1
-#' @title Número de Grãos e Produtividade em Cultivares de Feijão
+#' @title N\enc{ú}{u}mero de Gr\enc{ã}{a}os e Produtividade em Cultivares de Feij\enc{ã}{a}o
 #' @description Dados obtidos de um experimento inteiramente casualizado
 #'     com cinco repetições, realizado no período de seca, onde
 #'     avaliou-se o efeito de diferentes cultivares na produtividade do

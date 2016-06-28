@@ -2,7 +2,7 @@
 % Please edit documentation in R/ZimmermannTb13.1.R
 \name{ZimmermannTb13.1}
 \alias{ZimmermannTb13.1}
-\title{Índice de Área de Folhar e Idade das Plantas}
+\title{\enc{Í}{I}ndice de \enc{Á}{A}rea de Folhar e Idade das Plantas}
 \format{Um \code{data.frame} com 8 observações e 5 variáveis
 
 \describe{

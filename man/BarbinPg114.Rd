@@ -2,7 +2,7 @@
 % Please edit documentation in R/BarbinPg114.R
 \name{BarbinPg114}
 \alias{BarbinPg114}
-\title{Influência do Aparelho e Operador na Medição de Árvores}
+\title{Influ\enc{ê}{e}ncia do Aparelho e Operador na Medi\enc{çã}{ca}o de \enc{Á}{A}rvores}
 \format{Um \code{data.frame} com 200 observações e 4 variáveis.
 
 \describe{

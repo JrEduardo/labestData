@@ -1,6 +1,6 @@
 #' @name CharnetEx5.11
 #'
-#' @title Relação do Lucro de uma Loja e Gastos com Publicidade
+#' @title Rela\enc{çã}{ca}o do Lucro de uma Loja e Gastos com Publicidade
 #'
 #' @description Relação do lucro de uma loja de eletrônicos e seu gasto
 #'     com publicidade num período de 19 meses.

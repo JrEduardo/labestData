@@ -2,7 +2,7 @@
 % Please edit documentation in R/BanzattoQd5.2.1.R
 \name{BanzattoQd5.2.1}
 \alias{BanzattoQd5.2.1}
-\title{Peneira e Densidade de Plantio na Produção de Amendoim}
+\title{Peneira e Densidade de Plantio na Produ\enc{çã}{ca}o de Amendoim}
 \format{Um \code{data.frame} com 27 observações e 4 variáveis, em que
 
 \describe{

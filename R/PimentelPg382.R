@@ -1,5 +1,5 @@
 #' @name PimentelPg382
-#' @title Métodos de Enxertia no Pegamento de Mudas
+#' @title M\enc{é}{e}todos de Enxertia no Pegamento de Mudas
 #' @description Experimento com 3 métodos de enxertia em que haviam 200
 #'     estacas para cada método e pegaram 180, 150 e 145 desses
 #'     enxertos, respectivamente.

@@ -2,7 +2,7 @@
 % Please edit documentation in R/MingotiTb6.1.R
 \name{MingotiTb6.1}
 \alias{MingotiTb6.1}
-\title{Renda mensal de seis indivíduos de certa localidade}
+\title{Renda mensal de seis indiv\enc{í}{i}duos de certa localidade}
 \format{Um \code{data.frame} com 6 observações e 3 variáveis, em que
 
 \describe{

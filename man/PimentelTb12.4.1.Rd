@@ -2,7 +2,7 @@
 % Please edit documentation in R/PimentelTb12.4.1.R
 \name{PimentelTb12.4.1}
 \alias{PimentelTb12.4.1}
-\title{Produção de Cana em Função do Teor de K do Solo}
+\title{Produ\enc{çã}{ca}o de Cana em Fun\enc{çã}{ca}o do Teor de K do Solo}
 \format{Um \code{data.frame} com 15 observações e 2 variáveis, em que
 
 \describe{

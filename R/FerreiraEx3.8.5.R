@@ -1,5 +1,5 @@
 #' @name FerreiraEx3.8.5
-#' @title Avaliação de cultivar de melão
+#' @title Avalia\enc{çã}{ca}o de cultivar de mel\enc{ã}{a}o
 #' @description Os dados referem-se à avaliação de uma cultivar de melão
 #'     em 32 unidades experimentais.
 #' @format \code{data.frame} com 32 observações e 3 variáveis, em que

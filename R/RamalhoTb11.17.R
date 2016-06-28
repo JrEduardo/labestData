@@ -1,5 +1,5 @@
 #' @name RamalhoTb11.17
-#' @title Produção de Grãos de Feijão
+#' @title Produ\enc{çã}{ca}o de Gr\enc{ã}{a}os de Feij\enc{ã}{a}o
 #' @description Dados provenientes de 3 experimentos envolvendo a
 #'     produção de grãos de 15 linhagens de feijão, conduzidos sob
 #'     delineamento em blocos casualizados incompletos, pois somente as

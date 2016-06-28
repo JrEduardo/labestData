@@ -2,7 +2,7 @@
 % Please edit documentation in R/MingotiAnA3.R
 \name{MingotiAnA3}
 \alias{MingotiAnA3}
-\title{Dados dos domicílios}
+\title{Dados dos domic\enc{í}{i}lios}
 \format{Um \code{data.frame} com 120 observações e 6 variáveis, 
     em que
 

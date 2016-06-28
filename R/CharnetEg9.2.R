@@ -1,7 +1,7 @@
 
 #' @name CharnetEg9.2
 #'
-#' @title Relação entre Poluentes Atmosféricos
+#' @title Rela\enc{çã}{ca}o entre Poluentes Atmosf\enc{é}{e}ricos
 #'
 #' @description Relação de poluentes atmosféricos emitidos por carros
 #'     durante uma coleta realizada em sete períodos diferentes em um

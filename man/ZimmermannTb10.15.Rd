@@ -2,7 +2,7 @@
 % Please edit documentation in R/ZimmermannTb10.15.R
 \name{ZimmermannTb10.15}
 \alias{ZimmermannTb10.15}
-\title{Adubação Após Pastagem em Cultivares de Arroz}
+\title{Aduba\enc{çã}{ca}o Ap\enc{ó}{o}s Pastagem em Cultivares de Arroz}
 \format{Um \code{data.frame} com 24 observações e 4 variáveis
 
 \describe{

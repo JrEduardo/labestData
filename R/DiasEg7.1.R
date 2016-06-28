@@ -1,5 +1,5 @@
 #' @name DiasEg7.1
-#' @title Luz e Água na Produção de Tomateiros
+#' @title Luz e \enc{Á}{A}gua na Produ\enc{çã}{ca}o de Tomateiros
 #' @description Resultados de um experimento que avaliou o efeito da
 #'     quantidade de luz e de água na produção de tomateiros.
 #' @format Um \code{data.frame} com 18 observações e 3 variáveis, em que

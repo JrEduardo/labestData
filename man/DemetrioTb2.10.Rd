@@ -2,7 +2,7 @@
 % Please edit documentation in R/DemetrioTb2.10.R
 \name{DemetrioTb2.10}
 \alias{DemetrioTb2.10}
-\title{Absorção de CO2 por Folhas de Trigo}
+\title{Absor\enc{çã}{ca}o de CO2 por Folhas de Trigo}
 \format{Um \code{data.frame} de 17 linhas e 2 colunas.
 
 \describe{

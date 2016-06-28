@@ -2,8 +2,8 @@
 % Please edit documentation in R/DemetrioEx5.4.5.R
 \name{DemetrioEx5.4.5}
 \alias{DemetrioEx5.4.5}
-\title{Estudo sobre a Avaliação Visual do Grau da Infestação de
-    Plantas por Doenças}
+\title{Estudo sobre a Avalia\enc{çã}{ca}o Visual do Grau da Infesta\enc{çã}{ca}o de
+    Plantas por Doen\enc{ç}{c}as}
 \format{Um \code{data.frame} de 10 linhas e 2 colunas.
 
 \describe{

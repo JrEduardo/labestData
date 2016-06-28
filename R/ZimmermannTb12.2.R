@@ -1,5 +1,5 @@
 #' @name ZimmermannTb12.2
-#' @title Estudo sobre produtividade de grãos de arroz irrigado
+#' @title Estudo sobre produtividade de gr\enc{ã}{a}os de arroz irrigado
 #' @description Dados do Ensaio 2 de um experimento em DIC, que estudou
 #'     a produtividade de grãos de arroz em lavoura conduzida com
 #'     inundação contínua até a fase de diferenciação do primórdio

@@ -1,5 +1,5 @@
 #' @name RamalhoTb3.4
-#' @title Incidênica de \emph{Colletotrichum} no feijoeiro
+#' @title Incid\enc{ê}{e}nica de \emph{Colletotrichum} no feijoeiro
 #' @description Experimento para verificar a incidência de patógenos do
 #'     tipo \emph{Colletotrichum} nas cultivares de feijão, foi
 #'     utilizada uma escala de notas variando de 1 (resistente) a 5

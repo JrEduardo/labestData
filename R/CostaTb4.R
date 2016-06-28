@@ -1,5 +1,5 @@
 #' @name CostaTb4
-#' @title Massa Seca de Parte Aérea em Cana-de-açúcar
+#' @title Massa Seca de Parte A\enc{é}{e}rea em Cana-de-a\enc{çú}{cu}car
 #' @description Resultados de um experimento conduzido em casa de
 #'     vegetação em delineamento inteiramente casualizado para avaliar a
 #'     massa seca de parte aérea de variedades de cana-de-açúcar. A

@@ -2,7 +2,7 @@
 % Please edit documentation in R/ZimmermannTb12.2.R
 \name{ZimmermannTb12.2}
 \alias{ZimmermannTb12.2}
-\title{Estudo sobre produtividade de grãos de arroz irrigado}
+\title{Estudo sobre produtividade de gr\enc{ã}{a}os de arroz irrigado}
 \format{Um \code{data.frame} com 42 observações e 3 variáveis
 
 \describe{

@@ -1,5 +1,5 @@
 #' @name FariaQd12.5
-#' @title Colonização do TVC em Vassoura-de-bruxa
+#' @title Coloniza\enc{çã}{ca}o do TVC em Vassoura-de-bruxa
 #' @description Os dados referem-se a contagem da colonização de um
 #'     antagonista (\emph{trichoderma} - TVC) aplicado sobre as
 #'     vassouras-de-bruxa de uma cultura de cacau no Município de

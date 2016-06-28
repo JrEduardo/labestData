@@ -1,5 +1,5 @@
 #' @name RamosTb5.2
-#' @title Itens não conformes no processo produtivo de ovos de galinha
+#' @title Itens n\enc{ã}{a}o conformes no processo produtivo de ovos de galinha
 #' @description Número de ovos não conformes de um processo  
 #'     produtivo de ovos de galinha, com 30 amostras de 
 #'     tamanhos diferentes. 

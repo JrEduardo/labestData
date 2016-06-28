@@ -1,6 +1,6 @@
 #' @name CharnetEx5.6
 #'
-#' @title Consumo de Combustível e Peso do Automóvel
+#' @title Consumo de Combust\enc{í}{i}vel e Peso do Autom\enc{ó}{o}vel
 #'
 #' @description Consumo de combustível para percorrer determinado trecho
 #'     conforme o peso dos veículos de passeio, de mesmo ano,

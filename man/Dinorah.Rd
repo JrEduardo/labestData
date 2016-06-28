@@ -2,7 +2,7 @@
 % Please edit documentation in R/Dinorah.R
 \name{Dinorah}
 \alias{Dinorah}
-\title{Produção de Milho com Adubação Orgânica com Cama de Frango}
+\title{Produ\enc{çã}{ca}o de Milho com Aduba\enc{çã}{ca}o Org\enc{â}{a}nica com Cama de Frango}
 \format{Um \code{data.frame} com 60 observações e 11 variáveis.
     \describe{
 

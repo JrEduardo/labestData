@@ -1,5 +1,5 @@
 #' @name PimentelTb12.2.1
-#' @title Experimento de Adubação com P\eqn{_2}O\eqn{_5} em Milho
+#' @title Experimento de Aduba\enc{çã}{ca}o com P\eqn{_2}O\eqn{_5} em Milho
 #' @description Experimento de adubação de milho feito pelos engenheiros
 #'     agrônomos Glauco Pinto Viegas e Erik Smith, em blocos ao acaso,
 #'     para estudar o efeito da adubação na produtividade da cultura.

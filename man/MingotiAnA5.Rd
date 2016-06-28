@@ -2,7 +2,7 @@
 % Please edit documentation in R/MingotiAnA5.R
 \name{MingotiAnA5}
 \alias{MingotiAnA5}
-\title{Seleção de alunos para um programa de pós-graduação}
+\title{Sele\enc{çã}{ca}o de alunos para um programa de p\enc{ó}{o}s-gradua\enc{çã}{ca}o}
 \format{Um \code{data.frame} com 62 observações e 4 variáveis, em que
 
 \describe{

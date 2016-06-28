@@ -1,5 +1,5 @@
 #' @name PaulaEg5.5.3
-#' @title Ensaio clínico da pré-existência de placa dentária
+#' @title Ensaio cl\enc{í}{i}nico da pr\enc{é}{e}-exist\enc{ê}{e}ncia de placa dent\enc{á}{a}ria
 #' @description Dados de um ensaio clínico realizado com 109 indivíduos, 
 #'     distribuídos de forma aleatória para receberem um líquido
 #'     tipo A (34 indivíduos), um líquido tipo B (36 indivíduos) ou um

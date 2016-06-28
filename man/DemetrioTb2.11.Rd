@@ -2,7 +2,7 @@
 % Please edit documentation in R/DemetrioTb2.11.R
 \name{DemetrioTb2.11}
 \alias{DemetrioTb2.11}
-\title{Radiação Gama em Explantes de Abacaxis}
+\title{Radia\enc{çã}{ca}o Gama em Explantes de Abacaxis}
 \format{Um \code{data.frame} de 70 linhas e 2 colunas.
 
 \describe{

@@ -1,5 +1,5 @@
 #' @name MingotiTb6.1
-#' @title Renda mensal de seis indivíduos de certa localidade
+#' @title Renda mensal de seis indiv\enc{í}{i}duos de certa localidade
 #' @description Dados referente às rendas mensais (em quantidade de 
 #'     salários mínimos) e às idades de seis indivíduos de uma
 #'     localidade.

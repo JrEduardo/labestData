@@ -2,7 +2,7 @@
 % Please edit documentation in R/ZimmermannTb12.27.R
 \name{ZimmermannTb12.27}
 \alias{ZimmermannTb12.27}
-\title{Produtividade de Arroz para Resistência a Insetos}
+\title{Produtividade de Arroz para Resist\enc{ê}{e}ncia a Insetos}
 \format{Um \code{data.frame} com 36 observações e 4 variáveis
 
 \describe{

@@ -1,5 +1,5 @@
 #' @name CostaEx5.7.3
-#' @title Efeito de Adubação Nitrogenada na Cultura do Milho
+#' @title Efeito de Aduba\enc{çã}{ca}o Nitrogenada na Cultura do Milho
 #' @description Experimento instalado em delineamento inteiramente
 #'     casualizado que mediu o efeito da adubação nitrogenada na
 #'     produção de milho.

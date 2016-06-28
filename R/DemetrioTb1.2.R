@@ -1,5 +1,5 @@
 #' @name DemetrioTb1.2
-#' @title Irrigação em Batata
+#' @title Irriga\enc{çã}{ca}o em Batata
 #' 
 #' @description Este experimento refere-se a irrigação em batata
 #'     plantada em terra roxa estruturada. Foram medidas as lâminas de

@@ -2,7 +2,7 @@
 % Please edit documentation in R/PimentelEx5.8.4.R
 \name{PimentelEx5.8.4}
 \alias{PimentelEx5.8.4}
-\title{Dados de Produção de Cana-planta em Ensaio de Variedades}
+\title{Dados de Produ\enc{çã}{ca}o de Cana-planta em Ensaio de Variedades}
 \format{Um \code{data.frame} com 28 observações e 3 variáveis, em que
 
 \describe{

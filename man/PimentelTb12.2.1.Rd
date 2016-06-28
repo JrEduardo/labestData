@@ -2,7 +2,7 @@
 % Please edit documentation in R/PimentelTb12.2.1.R
 \name{PimentelTb12.2.1}
 \alias{PimentelTb12.2.1}
-\title{Experimento de Adubação com P\eqn{_2}O\eqn{_5} em Milho}
+\title{Experimento de Aduba\enc{çã}{ca}o com P\eqn{_2}O\eqn{_5} em Milho}
 \format{Um \code{data.frame} com 20 observações e 3 variáveis, em que
 
 \describe{

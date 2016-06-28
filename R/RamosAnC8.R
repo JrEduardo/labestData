@@ -1,5 +1,5 @@
 #' @name RamosAnC8
-#' @title Teor de elementos químicos
+#' @title Teor de elementos qu\enc{í}{i}micos
 #' @description Conjunto de dados de teor de elementos químicos  
 #'     resultantes de análises de laboratório em 30 amostras 
 #'     unitárias.

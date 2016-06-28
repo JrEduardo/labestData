@@ -2,7 +2,7 @@
 % Please edit documentation in R/ZimmermannTb14.9.R
 \name{ZimmermannTb14.9}
 \alias{ZimmermannTb14.9}
-\title{Controle de Insetos na Produtividade de Grãos de Arroz}
+\title{Controle de Insetos na Produtividade de Gr\enc{ã}{a}os de Arroz}
 \format{Um \code{data.frame} com 36 observações e 4 variáveis
 
 \describe{

@@ -1,5 +1,5 @@
 #' @name PimentelPg72
-#' @title Ensaio de alimentação de leitoas
+#' @title Ensaio de alimenta\enc{çã}{ca}o de leitoas
 #' @description Experimento realizado pelos técnicos Manoel Becker, Luís
 #'     Paulin Neto, Geraldo Leme da Rocha e Benjamin Cintra, no qual
 #'     dois tratamentos foram estudados (feno de alfafa e feno de

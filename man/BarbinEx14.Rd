@@ -2,7 +2,7 @@
 % Please edit documentation in R/BarbinEx14.R
 \name{BarbinEx14}
 \alias{BarbinEx14}
-\title{Produção de Milho em Ensaio Fatorial de NPK}
+\title{Produ\enc{çã}{ca}o de Milho em Ensaio Fatorial de NPK}
 \format{Um \code{data.frame} com 24 observações e 5 variáveis.
 
 \describe{

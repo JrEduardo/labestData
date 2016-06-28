@@ -1,5 +1,5 @@
 #' @name FerreiraEx10.11.9
-#' @title Amostra de uma População Normal Trivariada
+#' @title Amostra de uma Popula\enc{çã}{ca}o Normal Trivariada
 #' @description Dados provenientes de uma amostra de tamanho \eqn{n =
 #'     30} de uma população normal trivariada, \eqn{X = (X_1, X_2, X_3),
 #'     X \sim \textrm{Normal}_3(\underline{\mu}, \Sigma)}.

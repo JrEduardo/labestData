@@ -2,7 +2,7 @@
 % Please edit documentation in R/EpprechtTb8.8.R
 \name{EpprechtTb8.8}
 \alias{EpprechtTb8.8}
-\title{Controle de qualidade para o número de não-conformidades em geladeiras}
+\title{Controle de qualidade para o n\enc{ú}{u}mero de n\enc{ã}{a}o-conformidades em geladeiras}
 \format{Um \code{data.frame} com 40 observações e 1 variável, 
     em que
 

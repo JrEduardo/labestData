@@ -2,7 +2,7 @@
 % Please edit documentation in R/RamosTb2.6.R
 \name{RamosTb2.6}
 \alias{RamosTb2.6}
-\title{Resistência à ruptura e peso de garrafas}
+\title{Resist\enc{ê}{e}ncia \enc{à}{a} ruptura e peso de garrafas}
 \format{Um \code{data.frame} com 25 observações e 2 variáveis, em que
 
 \describe{

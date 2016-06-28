@@ -2,7 +2,7 @@
 % Please edit documentation in R/CharnetEx3.1.R
 \name{CharnetEx3.1}
 \alias{CharnetEx3.1}
-\title{Comparação entre Notas}
+\title{Compara\enc{çã}{ca}o entre Notas}
 \format{Um \code{data.frame} com 2 colunas e 50 linhas.
 
 \describe{

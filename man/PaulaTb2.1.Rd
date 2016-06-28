@@ -2,7 +2,7 @@
 % Please edit documentation in R/PaulaTb2.1.R
 \name{PaulaTb2.1}
 \alias{PaulaTb2.1}
-\title{Desempenho de Turbinas para Motores de Avião}
+\title{Desempenho de Turbinas para Motores de Avi\enc{ã}{a}o}
 \format{Um \code{data.frame} com 50 observações e 2 variáveis.
     \describe{
 

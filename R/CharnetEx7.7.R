@@ -1,6 +1,6 @@
 #' @name CharnetEx7.7
 #'
-#' @title Relação entre Consumo de Combustível e Potência do Motor
+#' @title Rela\enc{çã}{ca}o entre Consumo de Combust\enc{í}{i}vel e Pot\enc{ê}{e}ncia do Motor
 #'
 #' @description Relação entre o consumo de combustível (km/l) e a
 #'     potência do motor (HP) de duas marcas de carro (A e B).

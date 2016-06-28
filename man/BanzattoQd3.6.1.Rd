@@ -2,7 +2,7 @@
 % Please edit documentation in R/BanzattoQd3.6.1.R
 \name{BanzattoQd3.6.1}
 \alias{BanzattoQd3.6.1}
-\title{Produção de Matéria Seca em Cultivares de Sorgo}
+\title{Produ\enc{çã}{ca}o de Mat\enc{é}{e}ria Seca em Cultivares de Sorgo}
 \format{Um \code{data.frame} com 30 observações e 3 variáveis.
 
 \describe{

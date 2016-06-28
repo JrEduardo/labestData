@@ -1,5 +1,5 @@
 #' @name PimentelTb8.3.1
-#' @title Grupo de Ensaios de Batatinha na Província de Buenos Aires
+#' @title Grupo de Ensaios de Batatinha na Prov\enc{í}{i}ncia de Buenos Aires
 #' @description Grupo de ensaios de competição de variedades de
 #'     batatinha, realizados pelo engenheiro agrônomo Oscar A. Garay, da
 #'     Estação Experimental de Balcarce, Argentina, instalados em

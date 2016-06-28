@@ -1,6 +1,6 @@
 #' @name ZimmermannTb16.1
 #' @aliases ZimmermannTb16.2
-#' @title Análise de Composição do Solo Aluviais
+#' @title An\enc{á}{a}lise de Composi\enc{çã}{ca}o do Solo Aluviais
 #' @description Dados de análise de solos aluviais, que apresentaram pH
 #'     abaixo de sete, referentes à associação existente entre teor de
 #'     matéria orgânica no solo (porcentagem) com disponibilidade de

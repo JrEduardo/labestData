@@ -2,7 +2,7 @@
 % Please edit documentation in R/ZimmermannTb12.20.R
 \name{ZimmermannTb12.20}
 \alias{ZimmermannTb12.20}
-\title{Produtividade de Grãos de Cultivares de Feijão}
+\title{Produtividade de Gr\enc{ã}{a}os de Cultivares de Feij\enc{ã}{a}o}
 \format{Um \code{data.frame} com 36 observações e 3 variáveis
 
 \describe{

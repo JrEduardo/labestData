@@ -2,7 +2,7 @@
 % Please edit documentation in R/PaulaEx4.6.17.R
 \name{PaulaEx4.6.17}
 \alias{PaulaEx4.6.17}
-\title{Avaliação de Detergentes}
+\title{Avalia\enc{çã}{ca}o de Detergentes}
 \format{Um \code{data.frame} com 24 observações e 5 variáveis.
     \describe{
 

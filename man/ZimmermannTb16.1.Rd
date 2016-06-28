@@ -3,7 +3,7 @@
 \name{ZimmermannTb16.1}
 \alias{ZimmermannTb16.1}
 \alias{ZimmermannTb16.2}
-\title{Análise de Composição do Solo Aluviais}
+\title{An\enc{á}{a}lise de Composi\enc{çã}{ca}o do Solo Aluviais}
 \format{Um \code{data.frame} com 7 observações e 7 variáveis, em que
 
 \describe{

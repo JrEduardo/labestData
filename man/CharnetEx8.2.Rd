@@ -2,7 +2,7 @@
 % Please edit documentation in R/CharnetEx8.2.R
 \name{CharnetEx8.2}
 \alias{CharnetEx8.2}
-\title{Relação da Temperatura e Produção de um Produto Químico}
+\title{Rela\enc{çã}{ca}o da Temperatura e Produ\enc{çã}{ca}o de um Produto Qu\enc{í}{i}mico}
 \format{Um \code{data.frame} com 2 colunas e 11 linhas.
 
 \describe{

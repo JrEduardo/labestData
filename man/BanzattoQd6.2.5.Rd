@@ -2,7 +2,7 @@
 % Please edit documentation in R/BanzattoQd6.2.5.R
 \name{BanzattoQd6.2.5}
 \alias{BanzattoQd6.2.5}
-\title{Fontes e Doses para Adubação Nitrogenada no Milho}
+\title{Fontes e Doses para Aduba\enc{çã}{ca}o Nitrogenada no Milho}
 \format{Um \code{data.frame} com 48 observações e 4 variáveis.
 
 \describe{

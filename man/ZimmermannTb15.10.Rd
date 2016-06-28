@@ -2,7 +2,7 @@
 % Please edit documentation in R/ZimmermannTb15.10.R
 \name{ZimmermannTb15.10}
 \alias{ZimmermannTb15.10}
-\title{Adubação NPK na Produção de Arroz}
+\title{Aduba\enc{çã}{ca}o NPK na Produ\enc{çã}{ca}o de Arroz}
 \format{Um \code{data.frame} com 25 observações e 3 variáveis, em que
 
 \describe{

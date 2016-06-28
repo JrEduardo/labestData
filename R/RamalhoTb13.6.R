@@ -1,5 +1,5 @@
 #' @name RamalhoTb13.6
-#' @title Produção de Grãos de Feijão e Teor de \eqn{P_{2}O_{5}}
+#' @title Produ\enc{çã}{ca}o de Gr\enc{ã}{a}os de Feij\enc{ã}{a}o e Teor de \eqn{P_{2}O_{5}}
 #' @description Experimento apresentado por Pereira (1993) referente a
 #'     avaliação da produção de feijão e teor de \eqn{P_{2}O_{5}} em
 #'     cada parcela, cujos dados foram obtidos de 10 cultivares de

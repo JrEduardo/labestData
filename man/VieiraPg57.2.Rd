@@ -2,7 +2,7 @@
 % Please edit documentation in R/VieiraPg57.2.R
 \name{VieiraPg57.2}
 \alias{VieiraPg57.2}
-\title{Peso de Ratos em Função da Idade}
+\title{Peso de Ratos em Fun\enc{çã}{ca}o da Idade}
 \format{Um \code{data.frame} com 15 observações e 3 variáveis, em que
 
 \describe{

@@ -1,5 +1,5 @@
 #' @name BanzattoQd5.2.1
-#' @title Peneira e Densidade de Plantio na Produção de Amendoim
+#' @title Peneira e Densidade de Plantio na Produ\enc{çã}{ca}o de Amendoim
 #' @description Dados de um experimento fatorial que estudou o efeito de
 #'     densidade de plantio e tamanho da peneiras comerciais, de crivos
 #'     circulares, para classificação das sementes da produção de

@@ -2,7 +2,7 @@
 % Please edit documentation in R/PaulaEg3.6.11b.R
 \name{PaulaEg3.6.11b}
 \alias{PaulaEg3.6.11b}
-\title{Idade do início da menstruação em garotas de Varsóvia}
+\title{Idade do in\enc{í}{i}cio da menstrua\enc{çã}{ca}o em garotas de Vars\enc{ó}{o}via}
 \format{Um \code{data.frame} com 25 observações e 3 variáveis, em que
 
 \describe{

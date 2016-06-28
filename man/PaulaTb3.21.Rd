@@ -2,7 +2,7 @@
 % Please edit documentation in R/PaulaTb3.21.R
 \name{PaulaTb3.21}
 \alias{PaulaTb3.21}
-\title{Distribuição de Rotifers das Duas Espécies}
+\title{Distribui\enc{çã}{ca}o de Rotifers das Duas Esp\enc{é}{e}cies}
 \format{Um \code{data.frame} com 40 observações e 4 variáveis.
 \describe{
 

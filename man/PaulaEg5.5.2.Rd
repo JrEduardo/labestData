@@ -2,7 +2,7 @@
 % Please edit documentation in R/PaulaEg5.5.2.R
 \name{PaulaEg5.5.2}
 \alias{PaulaEg5.5.2}
-\title{Estudo sobre Condição Respiratória}
+\title{Estudo sobre Condi\enc{çã}{ca}o Respirat\enc{ó}{o}ria}
 \format{Um \code{data.frame} com 224 observações e 6 variáveis.
 \describe{
 

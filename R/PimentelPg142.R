@@ -1,5 +1,5 @@
 #' @name PimentelPg142
-#' @title Grupo de Experimentos Fatoriais de Adubação de Algodão
+#' @title Grupo de Experimentos Fatoriais de Aduba\enc{çã}{ca}o de Algod\enc{ã}{a}o
 #' @description Grupo de experimentos de adubação de algodão, todos em
 #'     delineamento inteiramente casualiado com 4 repetições cada. As
 #'     combinações de NPK formam em ensaio fatorial com um tratamento

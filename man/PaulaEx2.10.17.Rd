@@ -2,7 +2,7 @@
 % Please edit documentation in R/PaulaEx2.10.17.R
 \name{PaulaEx2.10.17}
 \alias{PaulaEx2.10.17}
-\title{Qualidade de Filme em Máquinas Fotográficas}
+\title{Qualidade de Filme em M\enc{á}{a}quinas Fotogr\enc{á}{a}ficas}
 \format{Um \code{data.frame} com 21 observações e 3 variáveis.
 \describe{
 

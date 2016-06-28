@@ -2,7 +2,7 @@
 % Please edit documentation in R/MingotiAnA2.R
 \name{MingotiAnA2}
 \alias{MingotiAnA2}
-\title{Desempenho de 44 funcionários de uma empresa}
+\title{Desempenho de 44 funcion\enc{á}{a}rios de uma empresa}
 \format{Um \code{data.frame} com 44 observações e 8 variáveis, em que
 
 \describe{

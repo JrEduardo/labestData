@@ -2,7 +2,7 @@
 % Please edit documentation in R/BanzattoQd3.7.1.R
 \name{BanzattoQd3.7.1}
 \alias{BanzattoQd3.7.1}
-\title{Composição do Substrato na Altura de \emph{Pinus oocarpa}}
+\title{Composi\enc{çã}{ca}o do Substrato na Altura de \emph{Pinus oocarpa}}
 \format{Um \code{data.frame} com 20 observações e 3 variáveis.
 
 \describe{

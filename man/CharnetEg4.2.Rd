@@ -2,7 +2,7 @@
 % Please edit documentation in R/CharnetEg4.2.R
 \name{CharnetEg4.2}
 \alias{CharnetEg4.2}
-\title{Avaliação de Vendedores pelos Clientes}
+\title{Avalia\enc{çã}{ca}o de Vendedores pelos Clientes}
 \format{Um \code{data.frame} com 2 colunas e 10 linhas.
 
 \describe{

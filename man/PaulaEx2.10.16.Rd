@@ -2,7 +2,7 @@
 % Please edit documentation in R/PaulaEx2.10.16.R
 \name{PaulaEx2.10.16}
 \alias{PaulaEx2.10.16}
-\title{Relação entre Publicidade e Faturamento em Restaurantes}
+\title{Rela\enc{çã}{ca}o entre Publicidade e Faturamento em Restaurantes}
 \format{Um \code{data.frame} com 30 observações e 2 variáveis.
 \describe{
 

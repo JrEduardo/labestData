@@ -1,5 +1,5 @@
 #' @name RamalhoEx4.2
-#' @title Número de perfilhos de arroz
+#' @title N\enc{ú}{u}mero de perfilhos de arroz
 #' @description Experimento que estudou o número de perfilhos de plantas
 #'     de arroz de 8 linhagens em um delineamento de blocos
 #'     casualizados.

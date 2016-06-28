@@ -1,5 +1,5 @@
 #' @name PaulaEx5.6.14
-#' @title Comparação de drogas para tratamento de leucemia
+#' @title Compara\enc{çã}{ca}o de drogas para tratamento de leucemia
 #' @description Dados referentes a um experimento em que 30 ratos tiveram
 #'     uma condição de leucemia induzida, sendo submetidos, posteriormente, 
 #'     a três drogas quimioterápicas. Foram coletadas de cada animal a 

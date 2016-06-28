@@ -1,6 +1,6 @@
 #' @name CharnetEx4.2
 #'
-#' @title Salário Médio Mensal de Ex-Alunos de Economia
+#' @title Sal\enc{á}{a}rio M\enc{é}{e}dio Mensal de Ex-Alunos de Economia
 #'
 #' @description Pesquisa de uma faculdade de economia sobre a evolução
 #'     do salário médio mensal de 20 de seus ex-alunos no período de

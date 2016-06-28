@@ -1,5 +1,5 @@
 #' @name FerreiraEx9.7.2
-#' @title Avaliação Nutricional de Tipos de Carne
+#' @title Avalia\enc{çã}{ca}o Nutricional de Tipos de Carne
 #' @description Dados provenientes de um estudo onde avaliou-se as
 #'     variáveis energia, proteína, gordura, cálcio e ferro em 5
 #'     diferentes tipos de carnes. O estudo é apresentado em Bussab et

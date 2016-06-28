@@ -1,5 +1,5 @@
 #' @name BarbinPg125
-#' @title Adubação NPK no Cafeeiro
+#' @title Aduba\enc{çã}{ca}o NPK no Cafeeiro
 #' @description Experimento no o delineamento de blocos casualizados que
 #'     estudou a combinação de nitrogênio, fósforo e potássio, cada um
 #'     com dois níveis (fatorial \eqn{2^3}), na produção de café

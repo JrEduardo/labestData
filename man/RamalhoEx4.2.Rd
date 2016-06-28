@@ -2,7 +2,7 @@
 % Please edit documentation in R/RamalhoEx4.2.R
 \name{RamalhoEx4.2}
 \alias{RamalhoEx4.2}
-\title{Número de perfilhos de arroz}
+\title{N\enc{ú}{u}mero de perfilhos de arroz}
 \format{Um \code{data.frame} com 32 observações e 3 variáveis, em que
 
 \describe{

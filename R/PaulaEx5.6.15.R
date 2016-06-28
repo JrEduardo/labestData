@@ -1,5 +1,5 @@
 #' @name PaulaEx5.6.15
-#' @title Ensaio clínico em pacientes com artrite
+#' @title Ensaio cl\enc{í}{i}nico em pacientes com artrite
 #' @description Ensaio clínico em que 20 pacientes com artrite 
 #'     foram aleatorizados, de modo que 10 receberam o medicamento
 #'     auronofin e os outros 10 receberam placebo. São consideradas como

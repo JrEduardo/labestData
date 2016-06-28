@@ -2,7 +2,7 @@
 % Please edit documentation in R/RamosAnC7.R
 \name{RamosAnC7}
 \alias{RamosAnC7}
-\title{Processo químico}
+\title{Processo qu\enc{í}{i}mico}
 \format{Um \code{data.frame} com 30 observações e 3 variáveis, em que
 
 \describe{

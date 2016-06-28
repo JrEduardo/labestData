@@ -1,5 +1,5 @@
 #' @name DemetrioEx2.12.16
-#' @title Calagem para a Sucessão batata-triticale-milho
+#' @title Calagem para a Sucess\enc{ã}{a}o batata-triticale-milho
 #' 
 #' @description Neste experimento foram obtidos os valores para o teor
 #'     de cálcio no solo e a porcentagem de tubérculos maduros com o

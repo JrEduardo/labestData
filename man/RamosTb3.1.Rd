@@ -2,7 +2,7 @@
 % Please edit documentation in R/RamosTb3.1.R
 \name{RamosTb3.1}
 \alias{RamosTb3.1}
-\title{Teor de flúor de um processo químico}
+\title{Teor de fl\enc{ú}{u}or de um processo qu\enc{í}{i}mico}
 \format{Um \code{data.frame} com 75 observações e 2 variáveis, em que
 
 \describe{

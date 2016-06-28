@@ -2,7 +2,7 @@
 % Please edit documentation in R/PimentelEg7.4.R
 \name{PimentelEg7.4}
 \alias{PimentelEg7.4}
-\title{Experimento de Adubação com Torta de Filtro e Adubo Mineral}
+\title{Experimento de Aduba\enc{çã}{ca}o com Torta de Filtro e Adubo Mineral}
 \format{Um \code{data.frame} com 16 observações e 4 variáveis, em que
 
 \describe{

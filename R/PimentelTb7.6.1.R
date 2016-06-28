@@ -1,6 +1,6 @@
 #' @name PimentelTb7.6.1
-#' @title Experimento Fatorial Com Confunfimento de Adubação em
-#'     Cana-de-açúcar
+#' @title Experimento Fatorial Com Confunfimento de Aduba\enc{çã}{ca}o em
+#'     Cana-de-a\enc{çú}{cu}car
 #' @description Experimento fatorial, de 3\eqn{^{3}}, de adubação de
 #'     cana com NPK, feito por Strauss (1951), com confundimento (grupo
 #'     W) de dois graus de liberdade da interação tripla N \eqn{\times}

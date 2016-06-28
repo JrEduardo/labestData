@@ -1,5 +1,5 @@
 #' @name PaulaEx2.10.17
-#' @title Qualidade de Filme em Máquinas Fotográficas
+#' @title Qualidade de Filme em M\enc{á}{a}quinas Fotogr\enc{á}{a}ficas
 #' @description Dados provenientes de um experimento cujo objetivo foi
 #'     avaliar a qualidade de determinado filme utilizado em máquinas
 #'     fotográficas sob três condições experimentais (relacionadas à

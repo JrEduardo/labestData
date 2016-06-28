@@ -1,5 +1,5 @@
 #' @name DiasEg11.1
-#' @title Grupo de Experimentos com Cultivares de Feijão
+#' @title Grupo de Experimentos com Cultivares de Feij\enc{ã}{a}o
 #' @description Resultados de experimentos em 3 sítios, em delineamento
 #'     de blocos casualizados, que avaliaram a produção de 6 cultivares
 #'     de feijão.

@@ -1,5 +1,5 @@
 #' @name RamosTb3.1
-#' @title Teor de flúor de um processo químico
+#' @title Teor de fl\enc{ú}{u}or de um processo qu\enc{í}{i}mico
 #' @description Conjunto de dados sobre teor de flúor com 15 
 #'     amostras de tamanho 5 de um processo químico.
 #'

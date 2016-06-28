@@ -2,7 +2,7 @@
 % Please edit documentation in R/BanzattoQd8.2.1.R
 \name{BanzattoQd8.2.1}
 \alias{BanzattoQd8.2.1}
-\title{Grupo de Ensaios de Competição de Batata}
+\title{Grupo de Ensaios de Competi\enc{çã}{ca}o de Batata}
 \format{Um \code{data.frame} com 160 observações e 4 variáveis.
 
 \describe{
@@ -16,7 +16,7 @@
 \item{\code{cult}}{Fator de níveis categóricos que identifica as
     cultivares de batata.}
 
-\item{\code{prod}}{Produção de tubérculos, em tom ha^{^{-1}}.}
+\item{\code{prod}}{Produção de tubérculos, em tom ha\eqn{^{-1}}.}
 
 }}
 \source{

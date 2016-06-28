@@ -1,6 +1,6 @@
 #' @name CharnetEx8.1
 #'
-#' @title Influência da Publicidade e Capital Investido no Lucro Anual
+#' @title Influ\enc{ê}{e}ncia da Publicidade e Capital Investido no Lucro Anual
 #'
 #' @description Influência das variáveis capital investido (\code{capi})
 #'     e gasto em publicidade (\code{publi}) no lucro anual

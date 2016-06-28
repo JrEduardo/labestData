@@ -1,5 +1,5 @@
 #' @name BarbinEx13
-#' @title Diâmetro Médio do Tronco de Espécies de Eucalipto
+#' @title Di\enc{â}{a}metro M\enc{é}{e}dio do Tronco de Esp\enc{é}{e}cies de Eucalipto
 #' @description Diâmetro médio (cm), aos 5 anos de idade, de plantas
 #'     úteis da parcela de um ensaio fatorial 2 \eqn{\times} 4, em
 #'     blocos casualizados com 3 repetições, conduzido por H. A. Mello e

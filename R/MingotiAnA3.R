@@ -1,5 +1,5 @@
 #' @name MingotiAnA3
-#' @title Dados dos domicílios
+#' @title Dados dos domic\enc{í}{i}lios
 #' @description Dados de uma pesquisa feita em 120 residências de uma
 #'     determinada região. Os dados contém informações dos domicílios e
 #'     dos residentes. 

@@ -1,5 +1,5 @@
 #' @name EpprechtTb8.13
-#' @title Controle de qualidade para o número de pedidos de compra com erro
+#' @title Controle de qualidade para o n\enc{ú}{u}mero de pedidos de compra com erro
 #' @description Uma grande companhia faz o controle estatístico de
 #'     seus processos administrativos. Para isso, são coletados
 #'     semanalmente o número de pedidos de compra e o número de pedidos 

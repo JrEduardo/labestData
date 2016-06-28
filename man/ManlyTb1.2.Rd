@@ -2,7 +2,7 @@
 % Please edit documentation in R/ManlyTb1.2.R
 \name{ManlyTb1.2}
 \alias{ManlyTb1.2}
-\title{Crânios egípcios}
+\title{Cr\enc{â}{a}nios eg\enc{í}{i}pcios}
 \format{Um \code{data.frame} com os tamanhos de 30 crânios para cada 
 período de tempo, com quatro variáveis.
 

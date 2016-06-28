@@ -1,5 +1,5 @@
 #' @name BanzattoQd7.2.1
-#' @title Efeito do Gesso no Peso de Grãos de Feijão
+#' @title Efeito do Gesso no Peso de Gr\enc{ã}{a}os de Feij\enc{ã}{a}o
 #' @description Estudo sobre o efeito do gesso no peso de grãos de
 #'     feijão (\emph{Phaseolus vulgaris} L.) feito por Ragazzi (1979). O
 #'     experimento foi instalado em delineamento inteiramente

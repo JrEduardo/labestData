@@ -2,7 +2,7 @@
 % Please edit documentation in R/ZimmermannTb5.11.R
 \name{ZimmermannTb5.11}
 \alias{ZimmermannTb5.11}
-\title{Proporção de hastes sobreviventes ao ataque de insetos}
+\title{Propor\enc{çã}{ca}o de hastes sobreviventes ao ataque de insetos}
 \format{Um \code{data.frame} com 484 observações e 5 variáveis
 
 \describe{

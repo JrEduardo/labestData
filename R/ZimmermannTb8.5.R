@@ -1,5 +1,5 @@
 #' @name ZimmermannTb8.5
-#' @title Produção de Grãos de Feijão em Delineamento de Blocos Aumentos
+#' @title Produ\enc{çã}{ca}o de Gr\enc{ã}{a}os de Feij\enc{ã}{a}o em Delineamento de Blocos Aumentos
 #'     de Federer
 #' @description Dados de um estudo em desenho de blocos aumentados de
 #'     Federer, com total de dezoito blocos, cada um com quatro

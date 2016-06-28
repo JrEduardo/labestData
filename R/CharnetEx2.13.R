@@ -1,6 +1,6 @@
 #' @name CharnetEx2.13
 #'
-#' @title Comparação entre Alturas de Pais e Filhos
+#' @title Compara\enc{çã}{ca}o entre Alturas de Pais e Filhos
 #'
 #' @description Comparação entre alturas de 12 pais e respectivos 12
 #'    filhos.

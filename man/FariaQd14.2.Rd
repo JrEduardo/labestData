@@ -2,7 +2,7 @@
 % Please edit documentation in R/FariaQd14.2.R
 \name{FariaQd14.2}
 \alias{FariaQd14.2}
-\title{Adubação Nitrogenada na Produção de Milho}
+\title{Aduba\enc{çã}{ca}o Nitrogenada na Produ\enc{çã}{ca}o de Milho}
 \format{Um \code{data.frame} com 35 observações e 3 variáveis, em que
 
 \describe{

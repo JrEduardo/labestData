@@ -2,7 +2,7 @@
 % Please edit documentation in R/PaulaEx1.13.24.R
 \name{PaulaEx1.13.24}
 \alias{PaulaEx1.13.24}
-\title{Porcentagens de Retorno de Ações}
+\title{Porcentagens de Retorno de A\enc{çõ}{co}es}
 \format{Um \code{data.frame} com 311 observações e 5 variáveis.
 \describe{
 

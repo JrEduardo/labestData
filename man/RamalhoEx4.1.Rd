@@ -2,7 +2,7 @@
 % Please edit documentation in R/RamalhoEx4.1.R
 \name{RamalhoEx4.1}
 \alias{RamalhoEx4.1}
-\title{Comprimento de conídios de \emph{Colletotrichum
+\title{Comprimento de con\enc{í}{i}dios de \emph{Colletotrichum
     lindemuthianum}}
 \format{Um \code{data.frame} com 60 observações e 3 variáveis, em que
 

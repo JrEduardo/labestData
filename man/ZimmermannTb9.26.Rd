@@ -2,7 +2,7 @@
 % Please edit documentation in R/ZimmermannTb9.26.R
 \name{ZimmermannTb9.26}
 \alias{ZimmermannTb9.26}
-\title{Época de Aplicação de NK na Altura de Plantas}
+\title{\enc{É}{E}poca de Aplica\enc{çã}{ca}o de NK na Altura de Plantas}
 \format{Um \code{data.frame} com 27 observações e 4 variáveis, em que
 
 \describe{

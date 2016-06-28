@@ -2,7 +2,7 @@
 % Please edit documentation in R/CostaTb6.R
 \name{CostaTb6}
 \alias{CostaTb6}
-\title{Efeito da Cobertura Morta no Peso Seco de Brócolis}
+\title{Efeito da Cobertura Morta no Peso Seco de Br\enc{ó}{o}colis}
 \format{Um \code{data.frame} com 20 observações e 3 variáveis.
 \describe{
 

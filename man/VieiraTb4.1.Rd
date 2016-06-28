@@ -2,7 +2,7 @@
 % Please edit documentation in R/VieiraTb4.1.R
 \name{VieiraTb4.1}
 \alias{VieiraTb4.1}
-\title{Produção de Variedades de Milho}
+\title{Produ\enc{çã}{ca}o de Variedades de Milho}
 \format{Um \code{data.frame} com 20 observações e 2 variáveis, em que
 
 \describe{

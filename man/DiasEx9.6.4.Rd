@@ -2,7 +2,7 @@
 % Please edit documentation in R/DiasEx9.6.4.R
 \name{DiasEx9.6.4}
 \alias{DiasEx9.6.4}
-\title{Produção de Frutos de Variedades de Manga}
+\title{Produ\enc{çã}{ca}o de Frutos de Variedades de Manga}
 \format{Um \code{data.frame} com 30 observações e 3 variáveis, em que
 
 \describe{

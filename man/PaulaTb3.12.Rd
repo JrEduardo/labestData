@@ -2,7 +2,7 @@
 % Please edit documentation in R/PaulaTb3.12.R
 \name{PaulaTb3.12}
 \alias{PaulaTb3.12}
-\title{Ocorrência de vaso-constrição}
+\title{Ocorr\enc{ê}{e}ncia de vaso-constri\enc{çã}{ca}o}
 \format{Um \code{data.frame} com 39 observações e 3 variáveis, em que
 
 \describe{

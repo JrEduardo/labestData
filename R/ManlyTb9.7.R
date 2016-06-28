@@ -1,5 +1,5 @@
 #' @name ManlyTb9.7
-#' @title Espécies de plantas em lotes
+#' @title Esp\enc{é}{e}cies de plantas em lotes
 #'
 #' @description Estudo de 25 espécies de plantas em 17 lotes de um prado
 #' de pastagem na Reserva Natural em Steneryd na Suécia. Cada valor na 

@@ -2,7 +2,7 @@
 % Please edit documentation in R/PaulaEx1.13.22.R
 \name{PaulaEx1.13.22}
 \alias{PaulaEx1.13.22}
-\title{Vendas de Imóveis}
+\title{Vendas de Im\enc{ó}{o}veis}
 \format{Um \code{data.frame} com 27 observações e 5 variáveis.
     \describe{
 

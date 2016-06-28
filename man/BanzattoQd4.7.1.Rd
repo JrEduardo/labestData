@@ -2,7 +2,7 @@
 % Please edit documentation in R/BanzattoQd4.7.1.R
 \name{BanzattoQd4.7.1}
 \alias{BanzattoQd4.7.1}
-\title{Comparação de Métodos de Semeadura do Mamoeiro}
+\title{Compara\enc{çã}{ca}o de M\enc{é}{e}todos de Semeadura do Mamoeiro}
 \format{Um \code{data.frame} com 24 observações e 3 variáveis.
 
 \describe{

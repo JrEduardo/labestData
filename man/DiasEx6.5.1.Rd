@@ -2,7 +2,7 @@
 % Please edit documentation in R/DiasEx6.5.1.R
 \name{DiasEx6.5.1}
 \alias{DiasEx6.5.1}
-\title{Peso em Função das Idades em Codornas}
+\title{Peso em Fun\enc{çã}{ca}o das Idades em Codornas}
 \format{Um \code{data.frame} com 10 observações e 2 variáveis, em que
 
 \describe{

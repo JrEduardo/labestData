@@ -1,5 +1,5 @@
 #' @name VieiraTb4.1
-#' @title Produção de Variedades de Milho
+#' @title Produ\enc{çã}{ca}o de Variedades de Milho
 #' @description Experimento que mediu a produção, em kg/100
 #'     m\eqn{^{-2}}), de 4 variedades de milho em um delineamento
 #'     inteiramente casualizado.

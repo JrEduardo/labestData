@@ -1,5 +1,5 @@
 #' @name RamalhoEg12.10
-#' @title Ensaio Dialelo para o Tempo Até o Florescimento do Feijoeiro
+#' @title Ensaio Dialelo para o Tempo At\enc{é}{e} o Florescimento do Feijoeiro
 #' @description Dados referentes ao cruzamento dialelo realizado por
 #'     Arriel et al. (1993), em que foi avaliado o número de dias para o
 #'     florescimento do feijoeiro para cada progenie.

@@ -1,5 +1,5 @@
 #' @name PaulaEx4.6.15
-#' @title Número de Infecções de Ouvido em Recrutas Americanos
+#' @title N\enc{ú}{u}mero de Infec\enc{çõ}{co}es de Ouvido em Recrutas Americanos
 #' @description Dados referentes a um estudo realizado em 1990 com
 #'     recrutas americanos em que a variável de interesse era o número de
 #'     infecções de ouvido. Além disso, foram coletadas as seguintes 

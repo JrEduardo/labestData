@@ -1,5 +1,5 @@
 #' @name VieiraTb7.7
-#' @title Teste Sobre Conhecimento em Função da Fonte de Informação
+#' @title Teste Sobre Conhecimento em Fun\enc{çã}{ca}o da Fonte de Informa\enc{çã}{ca}o
 #' @description Dados referentes às notas dos alunos em um teste de
 #'      conhecimento segundo a fonte de informação (tratamento).
 #' @format Um \code{data.frame} com 24 observações e 3 variáveis, em que

@@ -1,5 +1,5 @@
 #' @name PaulaEx2.10.16
-#' @title Relação entre Publicidade e Faturamento em Restaurantes
+#' @title Rela\enc{çã}{ca}o entre Publicidade e Faturamento em Restaurantes
 #' @description Dados referentes a faturamentos anuais e gastos com
 #'     publicidade de uma amostra de 30 restaurantes. O objetivo
 #'     principal é relacionar o faturamento médio com os gastos com

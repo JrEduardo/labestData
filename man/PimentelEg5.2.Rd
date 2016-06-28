@@ -2,7 +2,7 @@
 % Please edit documentation in R/PimentelEg5.2.R
 \name{PimentelEg5.2}
 \alias{PimentelEg5.2}
-\title{Competição de Variedades de Batatinha}
+\title{Competi\enc{çã}{ca}o de Variedades de Batatinha}
 \format{Um \code{data.frame} com 32 observações e 3 variáveis, em que
 
 \describe{

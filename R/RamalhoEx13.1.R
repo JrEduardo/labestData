@@ -1,5 +1,5 @@
 #' @name RamalhoEx13.1
-#' @title Avaliação de Clones de Eucalipto
+#' @title Avalia\enc{çã}{ca}o de Clones de Eucalipto
 #' @description Experimento referente a avaliação de clones de
 #'     eucalipto, obtidos na Aracruz Celulose.
 #' @format Um \code{data.frame} com 20 observações e 5 variáveis, em que

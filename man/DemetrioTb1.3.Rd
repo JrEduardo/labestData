@@ -2,7 +2,7 @@
 % Please edit documentation in R/DemetrioTb1.3.R
 \name{DemetrioTb1.3}
 \alias{DemetrioTb1.3}
-\title{Estudo da Construção de um Tensiômetro}
+\title{Estudo da Constru\enc{çã}{ca}o de um Tensi\enc{ô}{o}metro}
 \format{Um \code{data.frame} com 9 linhas e 2 colunas.
 
 \describe{

@@ -1,5 +1,5 @@
 #' @name VieiraTb5.3
-#' @title Produção de Variedades de Milho
+#' @title Produ\enc{çã}{ca}o de Variedades de Milho
 #' @description Experimento da produção de milho de 4 diferentes
 #'     variedades em um delineamento de blocos casualizados.
 #' @format Um \code{data.frame} com 20 observações e 3 variáveis, em que

@@ -1,5 +1,5 @@
 #' @name RamalhoTb7.1
-#' @title Volume de Madeira em Progênies de Eucalipto
+#' @title Volume de Madeira em Prog\enc{ê}{e}nies de Eucalipto
 #' @description Pesquisa sobre avaliação de progênies de
 #'     \emph{Eucaliptus camaldulensis}, referente ao volume de madeira
 #'     por árvore, cujos dados foram obtidos pela V. \& M. Florestal

@@ -2,7 +2,7 @@
 % Please edit documentation in R/MingotiTb6.8.R
 \name{MingotiTb6.8}
 \alias{MingotiTb6.8}
-\title{Índices de desenvolvimento de países}
+\title{\enc{Í}{I}ndices de desenvolvimento de pa\enc{í}{i}ses}
 \format{Um \code{data.frame} com 21 observações e 5 variáveis, em que
 
 \describe{

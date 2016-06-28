@@ -2,7 +2,7 @@
 % Please edit documentation in R/VieiraTb8.5.R
 \name{VieiraTb8.5}
 \alias{VieiraTb8.5}
-\title{Número de Itens Produzidos Em Função do Tipo de Máquina}
+\title{N\enc{ú}{u}mero de Itens Produzidos Em Fun\enc{çã}{ca}o do Tipo de M\enc{á}{a}quina}
 \format{Um \code{data.frame} com 60 observações e 3 variáveis, em que
 
 \describe{

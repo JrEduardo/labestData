@@ -1,5 +1,5 @@
 #' @name DemetrioEx7.8.3
-#' @title Alturas de Eucaliptos sob Adubação Potássica
+#' @title Alturas de Eucaliptos sob Aduba\enc{çã}{ca}o Pot\enc{á}{a}ssica
 #' 
 #' @description Dados referentes a um experimento de adubação,
 #'     conduzido em casa de vegetação. Foram usadas 4 doses de

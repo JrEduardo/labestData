@@ -2,7 +2,7 @@
 % Please edit documentation in R/CharnetEx2.15.R
 \name{CharnetEx2.15}
 \alias{CharnetEx2.15}
-\title{Notas Médias de Candidatos ao Vestibular}
+\title{Notas M\enc{é}{e}dias de Candidatos ao Vestibular}
 \format{Um \code{data.frame} com 9 colunas e 46 linhas.
 
 \describe{

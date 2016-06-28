@@ -2,7 +2,7 @@
 % Please edit documentation in R/PaulaEg2.8.1.R
 \name{PaulaEg2.8.1}
 \alias{PaulaEg2.8.1}
-\title{Comparação de Tipos de Snack}
+\title{Compara\enc{çã}{ca}o de Tipos de Snack}
 \format{Um \code{data.frame} com 750 observações e 3 variáveis.
     \describe{
 

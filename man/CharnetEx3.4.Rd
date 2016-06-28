@@ -2,7 +2,7 @@
 % Please edit documentation in R/CharnetEx3.4.R
 \name{CharnetEx3.4}
 \alias{CharnetEx3.4}
-\title{Comparação da Velocidade Máxima e Peso de Carros de Corrida}
+\title{Compara\enc{çã}{ca}o da Velocidade M\enc{á}{a}xima e Peso de Carros de Corrida}
 \format{Um \code{data.frame} com 2 colunas e 24 linhas.
 
 \describe{

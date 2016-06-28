@@ -1,5 +1,5 @@
 #' @name PimentelTb11.3.1
-#' @title Experimento de Produção de Milho em Látice Quadrado
+#' @title Experimento de Produ\enc{çã}{ca}o de Milho em L\enc{á}{a}tice Quadrado
 #' @description Produção de milho em um experimento em delineamento
 #'     reticulado quadrado triplo de 4 \eqn{times} 4 avaliando a 16
 #'     híbridos de milho, em que \eqn{m = 3} repetições ortogonais e

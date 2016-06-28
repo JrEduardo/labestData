@@ -1,5 +1,5 @@
 #' @name PaulaEg4.3.6
-#' @title Ausência Escolar de Estudantes Australianos
+#' @title Aus\enc{ê}{e}ncia Escolar de Estudantes Australianos
 #' @description Dados provenientes de um estudo sociológico desenvolvido
 #'     na Austrália com 146 estudantes de 8ª série e ensino médio. Nesse
 #'     estudo avaliou-se a ausência escolar (contagem de dias ausentes)

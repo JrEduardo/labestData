@@ -2,7 +2,7 @@
 % Please edit documentation in R/CharnetEx1.6.R
 \name{CharnetEx1.6}
 \alias{CharnetEx1.6}
-\title{Pressão Sanguínea Sistólica}
+\title{Press\enc{ã}{a}o Sangu\enc{í}{i}nea Sist\enc{ó}{o}lica}
 \format{Um \code{vetor} numérico com 16 observações.}
 \source{
 Charnet, R., de Luna Freire, C.A., Charnet, E.M.R., Bonvino,

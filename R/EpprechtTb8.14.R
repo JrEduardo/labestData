@@ -1,5 +1,5 @@
 #' @name EpprechtTb8.14
-#' @title Controle de Qualidade para o Número de Defeitos na Montagem 
+#' @title Controle de Qualidade para o N\enc{ú}{u}mero de Defeitos na Montagem 
 #' de Placas de Circuito
 #' 
 #' @description Para monitorar um processo de montagem de placas de 

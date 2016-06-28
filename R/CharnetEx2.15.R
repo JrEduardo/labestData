@@ -1,6 +1,6 @@
 #' @name CharnetEx2.15
 #'
-#' @title Notas Médias de Candidatos ao Vestibular
+#' @title Notas M\enc{é}{e}dias de Candidatos ao Vestibular
 #'
 #' @description Notas médias de candidatos ao vestibular da Unicamp em
 #'     1998.

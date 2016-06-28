@@ -2,7 +2,7 @@
 % Please edit documentation in R/RamalhoTb11.1.R
 \name{RamalhoTb11.1}
 \alias{RamalhoTb11.1}
-\title{Produção de 16 Cultivares de Sorgo}
+\title{Produ\enc{çã}{ca}o de 16 Cultivares de Sorgo}
 \format{Um \code{data.frame} com 80 observações e 5 variáveis, em que
 
 \describe{

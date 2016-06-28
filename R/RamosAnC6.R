@@ -1,5 +1,5 @@
 #' @name RamosAnC6
-#' @title Processo de fabricação de panelas
+#' @title Processo de fabrica\enc{çã}{ca}o de panelas
 #' @description Conjunto de dados de um processo de fabricação  
 #'     de panelas, com 30 amostras com tamanhos diferentes.
 #'

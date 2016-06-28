@@ -2,7 +2,7 @@
 % Please edit documentation in R/DiasEx9.6.6.R
 \name{DiasEx9.6.6}
 \alias{DiasEx9.6.6}
-\title{Teores de Sólidos Solúveis Totais da Poupa de Frutos}
+\title{Teores de S\enc{ó}{o}lidos Sol\enc{ú}{u}veis Totais da Poupa de Frutos}
 \format{Um \code{data.frame} com 20 observações e 3 variáveis, em que
 
 \describe{

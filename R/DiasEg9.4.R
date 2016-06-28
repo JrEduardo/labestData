@@ -1,5 +1,5 @@
 #' @name DiasEg9.4
-#' @title Produção de Cultivares de Cacau
+#' @title Produ\enc{çã}{ca}o de Cultivares de Cacau
 #' @description Dados de produção de cacau de 5 cultivares em um
 #'     experimento em delineamento quadrado latino 5 \eqn{\times} 5.
 #' @format Um \code{data.frame} com 2 observações e 4 variáveis, em que

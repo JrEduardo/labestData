@@ -2,7 +2,7 @@
 % Please edit documentation in R/BarbinEx18.R
 \name{BarbinEx18}
 \alias{BarbinEx18}
-\title{Altura de Plantas de Espécies de Eucalipto em Vários Locais}
+\title{Altura de Plantas de Esp\enc{é}{e}cies de Eucalipto em V\enc{á}{a}rios Locais}
 \format{Um \code{data.frame} com 100 observações e 4 variáveis, em
     que
 

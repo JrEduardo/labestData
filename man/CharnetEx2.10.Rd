@@ -2,7 +2,7 @@
 % Please edit documentation in R/CharnetEx2.10.R
 \name{CharnetEx2.10}
 \alias{CharnetEx2.10}
-\title{Estudo do Efeito do Carbono na Resistência Elétrica}
+\title{Estudo do Efeito do Carbono na Resist\enc{ê}{e}ncia El\enc{é}{e}trica}
 \format{Um \code{data.frame} com 2 colunas e 15 linhas.
 
 \describe{

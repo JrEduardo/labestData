@@ -1,5 +1,5 @@
 #' @name RamalhoTb11.1
-#' @title Produção de 16 Cultivares de Sorgo
+#' @title Produ\enc{çã}{ca}o de 16 Cultivares de Sorgo
 #' @description Experimento conduzido na EMBRAPA Milho e Sorgo
 #'     envolvendo a avaliação de 16 cultivares de sorgo conduzido
 #'     no delineamento de látice quadrado balanceado.

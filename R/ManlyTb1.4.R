@@ -1,5 +1,5 @@
 #' @name ManlyTb1.4
-#' @title Cães pré-históricos da Tailândia
+#' @title C\enc{ã}{a}es pr\enc{é}{e}-hist\enc{ó}{o}ricos da Tail\enc{â}{a}ndia
 #'
 #' @description Estudo em ancestrais de cães da Tailândia, 
 #' através de medições das mandíbulas.

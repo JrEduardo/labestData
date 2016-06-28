@@ -1,5 +1,5 @@
 #' @name PaulaTb4.12
-#' @title Associação entre Renda e Satisfação no Emprego
+#' @title Associa\enc{çã}{ca}o entre Renda e Satisfa\enc{çã}{ca}o no Emprego
 #' @description Dados resultantes de uma pesquisa com 901 indivíduos
 #'     classificados segundo sua renda anual e grau informado de
 #'     satisfação no emprego. O interesse no estudo é relacionar a renda

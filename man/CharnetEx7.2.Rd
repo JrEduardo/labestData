@@ -2,7 +2,7 @@
 % Please edit documentation in R/CharnetEx7.2.R
 \name{CharnetEx7.2}
 \alias{CharnetEx7.2}
-\title{Impacto de Impurezas em um Reator Químico}
+\title{Impacto de Impurezas em um Reator Qu\enc{í}{i}mico}
 \format{Um \code{data.frame} com 4 colunas e 20 linhas.
 
 \describe{

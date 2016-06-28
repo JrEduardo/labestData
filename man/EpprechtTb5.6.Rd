@@ -2,7 +2,7 @@
 % Please edit documentation in R/EpprechtTb5.6.R
 \name{EpprechtTb5.6}
 \alias{EpprechtTb5.6}
-\title{Avaliação das leituras de um micrômetro}
+\title{Avalia\enc{çã}{ca}o das leituras de um micr\enc{ô}{o}metro}
 \format{Um \code{data.frame} com 10 observações e 2 variáveis, 
     em que
 

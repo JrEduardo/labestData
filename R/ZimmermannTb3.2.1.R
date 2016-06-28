@@ -1,5 +1,5 @@
 #' @name ZimmermannTb3.2.1
-#' @title Adubação nitrogenada na Cultura do Arroz
+#' @title Aduba\enc{çã}{ca}o nitrogenada na Cultura do Arroz
 #' @description Dados de um experimento em DIC que visa estudar a
 #'     adubação nitrogenada no arroz irrigado, com 4 tratamentos e 8
 #'     repetições. A resposta observada foi a produção de grãos de arroz

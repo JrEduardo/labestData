@@ -1,5 +1,5 @@
 #' @name PaulaEg5.5.2
-#' @title Estudo sobre Condição Respiratória
+#' @title Estudo sobre Condi\enc{çã}{ca}o Respirat\enc{ó}{o}ria
 #' @description Estudo discutido em Myers, Montgomery e Vining (2002)
 #'     que envolve a comparação de dois tratamentos aplicados em
 #'     pacientes com problemas respiratórios. Nesse estudo foi

@@ -1,5 +1,5 @@
 #' @name PaulaEg5.2.8a
-#' @title Número de Ácaros em Placas de Esterco de Gado
+#' @title N\enc{ú}{u}mero de \enc{Á}{A}caros em Placas de Esterco de Gado
 #' @description Dados de um experimento desenvolvido para estudar  
 #'     a distribuição do número de ácaros em placas de esterco de gado 
 #'     bovino no estado de São Paulo, obtidos por Paula e Tavares, 1992. 

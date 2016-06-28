@@ -1,5 +1,5 @@
 #' @name ZimmermannTb15.10
-#' @title Adubação NPK na Produção de Arroz
+#' @title Aduba\enc{çã}{ca}o NPK na Produ\enc{çã}{ca}o de Arroz
 #' @description Dados de produção de grãos em terras altas, em kg
 #'     ha\eqn{^{-1}}.  Este é um ensaio contendo apenas uma repetição de
 #'     um fatorial fracionado correspondente a 1/5 de um \eqn{5^3}.

@@ -2,7 +2,7 @@
 % Please edit documentation in R/PaulaTb1.9.R
 \name{PaulaTb1.9}
 \alias{PaulaTb1.9}
-\title{Bactérias Sobreviventes em Amostras}
+\title{Bact\enc{é}{e}rias Sobreviventes em Amostras}
 \format{Um \code{data.frame} com 12 observações e 2 variáveis.
 \describe{
 

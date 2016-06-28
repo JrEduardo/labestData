@@ -1,5 +1,5 @@
 #' @name PimentelTb9.3.1
-#' @title Experimento de Adubação de Variedades de Cana-de-açúcar
+#' @title Experimento de Aduba\enc{çã}{ca}o de Variedades de Cana-de-a\enc{çú}{cu}car
 #' @description Experimento com 5 variedades de cana-de-açúcar, em
 #'     delineamento quadrado latino de 5 x 5, sendo cada parcela
 #'     dividida em duas subparcelas, uma sem adubo e outra com adubação

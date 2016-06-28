@@ -2,7 +2,7 @@
 % Please edit documentation in R/PimentelTb10.6.1.R
 \name{PimentelTb10.6.1}
 \alias{PimentelTb10.6.1}
-\title{Experimento do Tipo III com recuperação da informação
+\title{Experimento do Tipo III com recupera\enc{çã}{ca}o da informa\enc{çã}{ca}o
     interblocos}
 \format{Um \code{data.frame} com 52 observações e 3 variáveis, em que
 

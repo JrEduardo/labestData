@@ -2,7 +2,7 @@
 % Please edit documentation in R/PimentelEx6.6.3.R
 \name{PimentelEx6.6.3}
 \alias{PimentelEx6.6.3}
-\title{Efeito da Idade de Castração no Ganho de Peso de Suínos}
+\title{Efeito da Idade de Castra\enc{çã}{ca}o no Ganho de Peso de Su\enc{í}{i}nos}
 \format{Um \code{data.frame} com 16 observações e 4 variáveis, em que
 
 \describe{

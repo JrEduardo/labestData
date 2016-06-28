@@ -2,7 +2,7 @@
 % Please edit documentation in R/ManlyTb9.7.R
 \name{ManlyTb9.7}
 \alias{ManlyTb9.7}
-\title{Espécies de plantas em lotes}
+\title{Esp\enc{é}{e}cies de plantas em lotes}
 \format{Um \code{data.frame} com 25 espécie de plantas com 18 
 variáveis
 

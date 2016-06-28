@@ -1,5 +1,5 @@
 #' @name RamalhoTb1.2
-#' @title Produtividade Média de Espiga
+#' @title Produtividade M\enc{é}{e}dia de Espiga
 #' @description Experimento da produtividade média de espigas de milho
 #'     de diversas cultivares obtidas por Ferreira et al (1995).
 #' @format data.frame com 28 observações e 2 variáveis, em que

@@ -1,5 +1,5 @@
 #' @name RamalhoEx4.1
-#' @title Comprimento de conídios de \emph{Colletotrichum
+#' @title Comprimento de con\enc{í}{i}dios de \emph{Colletotrichum
 #'     lindemuthianum}
 #' @description Experimento para avaliar o comprimento de conídios de
 #'     diferentes isolados do fungo \emph{Colletotrichum

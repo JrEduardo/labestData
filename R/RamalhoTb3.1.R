@@ -1,5 +1,5 @@
 #' @name RamalhoTb3.1
-#' @title Número de nematóides por vasos
+#' @title N\enc{ú}{u}mero de nemat\enc{ó}{o}ides por vasos
 #' @description Experimento do número de nematóides (vermes que estão
 #'     presentes no solo) por vasos infectando plantas de figo em
 #'     diferentes idades de inoculação, experimento com 4 repetições.

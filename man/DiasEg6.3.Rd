@@ -2,7 +2,7 @@
 % Please edit documentation in R/DiasEg6.3.R
 \name{DiasEg6.3}
 \alias{DiasEg6.3}
-\title{Número Total de Frutos Colhidos e Sadios em Clones de
+\title{N\enc{ú}{u}mero Total de Frutos Colhidos e Sadios em Clones de
     Cacaueiro}
 \format{Um \code{data.frame} com 7 observações e 3 variáveis, em que
 

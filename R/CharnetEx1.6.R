@@ -1,6 +1,6 @@
 #' @name CharnetEx1.6
 #'
-#' @title Pressão Sanguínea Sistólica
+#' @title Press\enc{ã}{a}o Sangu\enc{í}{i}nea Sist\enc{ó}{o}lica
 #'
 #' @description Pressão sanguínea sistólica de um grupo de 16 pacientes
 #'     de uma clínica.

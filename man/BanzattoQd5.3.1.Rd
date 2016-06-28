@@ -2,7 +2,7 @@
 % Please edit documentation in R/BanzattoQd5.3.1.R
 \name{BanzattoQd5.3.1}
 \alias{BanzattoQd5.3.1}
-\title{Produção de Café em Função de Adubação NPK}
+\title{Produ\enc{çã}{ca}o de Caf\enc{é}{e} em Fun\enc{çã}{ca}o de Aduba\enc{çã}{ca}o NPK}
 \format{Um \code{data.frame} com 48 observações e 5 variáveis.
 \describe{
 

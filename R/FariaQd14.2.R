@@ -1,5 +1,5 @@
 #' @name FariaQd14.2
-#' @title Adubação Nitrogenada na Produção de Milho
+#' @title Aduba\enc{çã}{ca}o Nitrogenada na Produ\enc{çã}{ca}o de Milho
 #' @description Os dados abaixo são provenientes de um ensaio em que
 #'     foram utilizadas 7 doses de nitrogênio aplicado em cobertura para
 #'     avaliar a produtividade de milho. O experimento foi montado em

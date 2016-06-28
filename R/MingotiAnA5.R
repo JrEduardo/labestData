@@ -1,5 +1,5 @@
 #' @name MingotiAnA5
-#' @title Seleção de alunos para um programa de pós-graduação
+#' @title Sele\enc{çã}{ca}o de alunos para um programa de p\enc{ó}{o}s-gradua\enc{çã}{ca}o
 #' @description Um programa de pós-graduação dividiu 62 candidatos do 
 #'     ano anterior em 3 grupos: (1) candidatos aprovados, 
 #'     (2) candidatos na lista de espera e (3) candidatos que não

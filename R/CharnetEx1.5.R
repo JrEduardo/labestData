@@ -1,6 +1,6 @@
 #' @name CharnetEx1.5
 #'
-#' @title Tempo de Duração do Intervalo para o Cafezinho
+#' @title Tempo de Dura\enc{çã}{ca}o do Intervalo para o Cafezinho
 #'
 #' @description Tempo de duração do intervalo para o cafezinho para uma
 #'     amostra de 20 empregados de uma grande empresa.

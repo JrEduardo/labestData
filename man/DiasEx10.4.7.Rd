@@ -2,7 +2,7 @@
 % Please edit documentation in R/DiasEx10.4.7.R
 \name{DiasEx10.4.7}
 \alias{DiasEx10.4.7}
-\title{Adubação NPK na Cultura do Cafeeiro}
+\title{Aduba\enc{çã}{ca}o NPK na Cultura do Cafeeiro}
 \format{Um \code{data.frame} com 48 observações e 3 variáveis, em que
 
 \describe{

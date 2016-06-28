@@ -2,7 +2,7 @@
 % Please edit documentation in R/RamalhoEg11.10.R
 \name{RamalhoEg11.10}
 \alias{RamalhoEg11.10}
-\title{Produção de Grãos de Sorgo}
+\title{Produ\enc{çã}{ca}o de Gr\enc{ã}{a}os de Sorgo}
 \format{Um \code{data.frame} com 120 observações e 3 variáveis, em
     que
 

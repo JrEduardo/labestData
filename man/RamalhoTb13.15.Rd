@@ -2,7 +2,7 @@
 % Please edit documentation in R/RamalhoTb13.15.R
 \name{RamalhoTb13.15}
 \alias{RamalhoTb13.15}
-\title{Produção de Ramas de Clones de Mandioca}
+\title{Produ\enc{çã}{ca}o de Ramas de Clones de Mandioca}
 \format{Um \code{data.frame} com 20 observações e 3 variáveis, em que
 
 \describe{

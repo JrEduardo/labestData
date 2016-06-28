@@ -2,7 +2,7 @@
 % Please edit documentation in R/PaulaEx5.6.13.R
 \name{PaulaEx5.6.13}
 \alias{PaulaEx5.6.13}
-\title{Análise da dispersão de um pigmento na pintura}
+\title{An\enc{á}{a}lise da dispers\enc{ã}{a}o de um pigmento na pintura}
 \format{Um \code{data.frame} com 36 observações e 5 variáveis.
 \describe{
 

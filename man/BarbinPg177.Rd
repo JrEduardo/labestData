@@ -2,7 +2,7 @@
 % Please edit documentation in R/BarbinPg177.R
 \name{BarbinPg177}
 \alias{BarbinPg177}
-\title{Altura de Progênies de \emph{E. grandis} em Três Locais}
+\title{Altura de Prog\enc{ê}{e}nies de \emph{E. grandis} em Tr\enc{ê}{e}s Locais}
 \format{Um \code{data.frame} com 72 observações e 4 variáveis, em que
 
 \describe{

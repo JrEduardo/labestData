@@ -1,5 +1,5 @@
 #' @name EpprechtTb6.9
-#' @title Volume de Refrigerante em Garrafas Plásticas
+#' @title Volume de Refrigerante em Garrafas Pl\enc{á}{a}sticas
 #' @description Os dados referem-se aos volumes de refrigerante em 
 #'     20 amostras, cada uma delas composta por 3 garrafas. 
 #' 

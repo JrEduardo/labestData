@@ -2,7 +2,7 @@
 % Please edit documentation in R/EpprechtTb8.16.R
 \name{EpprechtTb8.16}
 \alias{EpprechtTb8.16}
-\title{Controle de qualidade na produção de cabos elétricos}
+\title{Controle de qualidade na produ\enc{çã}{ca}o de cabos el\enc{é}{e}tricos}
 \format{Um \code{data.frame} com 10 observações e 2 variáveis, 
     em que
 

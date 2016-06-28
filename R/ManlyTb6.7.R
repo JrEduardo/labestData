@@ -1,5 +1,5 @@
 #' @name ManlyTb6.7
-#' @title Consumo de proteína por habitantes de países europeus 
+#' @title Consumo de prote\enc{í}{i}na por habitantes de pa\enc{í}{i}ses europeus 
 #'
 #' @description Estimativas dos consumos médios de proteínas de diferentes 
 #' fontes de alimentos para habitantes de 25 países europeus. 

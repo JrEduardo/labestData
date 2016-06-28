@@ -2,7 +2,7 @@
 % Please edit documentation in R/PaulaEx1.13.25.R
 \name{PaulaEx1.13.25}
 \alias{PaulaEx1.13.25}
-\title{Venda de Imóveis em Eugene, Estatdos Unidos}
+\title{Venda de Im\enc{ó}{o}veis em Eugene, Estatdos Unidos}
 \format{Um \code{data.frame} com 50 observações e 2 variáveis.
     \describe{
 

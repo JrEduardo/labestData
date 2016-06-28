@@ -2,7 +2,7 @@
 % Please edit documentation in R/DemetrioTb2.12.R
 \name{DemetrioTb2.12}
 \alias{DemetrioTb2.12}
-\title{Produção de Ruibarbo}
+\title{Produ\enc{çã}{ca}o de Ruibarbo}
 \format{Um \code{data.frame} de 28 linhas e 3 colunas.
 
 \describe{

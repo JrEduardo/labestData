@@ -3,7 +3,7 @@
 \name{BarbinEx9}
 \alias{BarbinEx10}
 \alias{BarbinEx9}
-\title{Ensaio de Competição de Clones de Laranja Pera-do-Rio}
+\title{Ensaio de Competi\enc{çã}{ca}o de Clones de Laranja Pera-do-Rio}
 \format{Um \code{data.frame} com 78 observações e 4 variáveis.
 
 \describe{

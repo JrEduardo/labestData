@@ -1,5 +1,5 @@
 #' @name PimentelTb7.9.1
-#' @title Experimento de Adubação NPK no Cafeeiro
+#' @title Experimento de Aduba\enc{çã}{ca}o NPK no Cafeeiro
 #' @description Experimento fatorial 2 \eqn{\times} 2 \eqn{\times} 2 de
 #'     adubação NPK no cafeeiro feito por Malavolta et al. (1958). Foram
 #'     contados os galhos secos de 4 pés de café por parcela. Dos

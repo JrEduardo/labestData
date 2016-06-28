@@ -2,7 +2,7 @@
 % Please edit documentation in R/DemetrioEg7.7.R
 \name{DemetrioEg7.7}
 \alias{DemetrioEg7.7}
-\title{Produtividade de Cana-de-açúcar sob Níveis de Pentóxido de Fósforo}
+\title{Produtividade de Cana-de-a\enc{çú}{cu}car sob N\enc{í}{i}veis de Pent\enc{ó}{o}xido de F\enc{ó}{o}sforo}
 \format{Um \code{data.frame} de 5 linhas e 2 colunas.
 
 \describe{

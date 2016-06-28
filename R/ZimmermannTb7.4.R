@@ -1,5 +1,5 @@
 #' @name ZimmermannTb7.4
-#' @title Produção de Grãos de Arroz em Ensaio Reticulado Retangular
+#' @title Produ\enc{çã}{ca}o de Gr\enc{ã}{a}os de Arroz em Ensaio Reticulado Retangular
 #' @description Dados de um estudo sobre competição de cultivares e
 #'     linhagens de arroz irrigado quanto a produtividade. O experimento
 #'     foi conduzido em ensaio em reticulado retangular 5 \eqn{\times} 6

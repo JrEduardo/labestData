@@ -2,7 +2,7 @@
 % Please edit documentation in R/PimentelTb9.2.1.R
 \name{PimentelTb9.2.1}
 \alias{PimentelTb9.2.1}
-\title{Produção de Adubos Verdes e Milho}
+\title{Produ\enc{çã}{ca}o de Adubos Verdes e Milho}
 \format{Um \code{data.frame} com 64 observações e 4 variáveis, em que
 
 \describe{

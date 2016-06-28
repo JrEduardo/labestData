@@ -2,7 +2,7 @@
 % Please edit documentation in R/CharnetEx7.1.R
 \name{CharnetEx7.1}
 \alias{CharnetEx7.1}
-\title{Efeito da Radiação ao Ozônio em Sementes de Soja}
+\title{Efeito da Radia\enc{çã}{ca}o ao Oz\enc{ô}{o}nio em Sementes de Soja}
 \format{Um \code{data.frame} com 3 colunas e 12 linhas.
 
 \describe{

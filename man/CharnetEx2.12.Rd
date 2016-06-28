@@ -2,7 +2,7 @@
 % Please edit documentation in R/CharnetEx2.12.R
 \name{CharnetEx2.12}
 \alias{CharnetEx2.12}
-\title{Taxa de Homicídios por Ano}
+\title{Taxa de Homic\enc{í}{i}dios por Ano}
 \format{Um \code{data.frame} com 2 colunas e 7 linhas.
 
 \describe{

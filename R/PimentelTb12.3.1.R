@@ -1,5 +1,5 @@
 #' @name PimentelTb12.3.1
-#' @title Temperaturas Máximas Médias em Piracicaba
+#' @title Temperaturas M\enc{á}{a}ximas M\enc{é}{e}dias em Piracicaba
 #' @description Série de 15 anos das temperaturas máximas médias de
 #'     Julho em Piracicaba-SP, em graus centígrados.
 #' @format Um \code{data.frame} com 15 observações e 2 variáveis, em que

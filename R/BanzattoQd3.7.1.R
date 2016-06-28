@@ -1,5 +1,5 @@
 #' @name BanzattoQd3.7.1
-#' @title Composição do Substrato na Altura de \emph{Pinus oocarpa}
+#' @title Composi\enc{çã}{ca}o do Substrato na Altura de \emph{Pinus oocarpa}
 #' @description Dados de experimento para estudo do efeito de 5
 #'     composições de substrato para o desenvolvimento de \emph{Pinus
 #'     oocarpa}. Experimento realizado em delineamento inteiramente

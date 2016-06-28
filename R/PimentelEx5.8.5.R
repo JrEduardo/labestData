@@ -1,5 +1,5 @@
 #' @name PimentelEx5.8.5
-#' @title Competição de Variedades de Mandioca
+#' @title Competi\enc{çã}{ca}o de Variedades de Mandioca
 #' @description Experimento em blocos ao acaso, realizado pelo Instituto
 #'     de Pesquisas Agronômicas do Leste (atual Centro Nacional de
 #'     Pesquisa de Mandioca e Fruticultura da Embrapa), em Cruz das

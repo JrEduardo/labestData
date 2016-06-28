@@ -2,7 +2,7 @@
 % Please edit documentation in R/DemetrioEx5.4.2.R
 \name{DemetrioEx5.4.2}
 \alias{DemetrioEx5.4.2}
-\title{Estudo Físico Químico de Méis Silvestres}
+\title{Estudo F\enc{í}{i}sico Qu\enc{í}{i}mico de M\enc{é}{e}is Silvestres}
 \format{Um \code{data.frame} de 94 linhas e 3 colunas.
 
 \describe{

@@ -2,7 +2,7 @@
 % Please edit documentation in R/EpprechtTb8.13.R
 \name{EpprechtTb8.13}
 \alias{EpprechtTb8.13}
-\title{Controle de qualidade para o número de pedidos de compra com erro}
+\title{Controle de qualidade para o n\enc{ú}{u}mero de pedidos de compra com erro}
 \format{Um \code{data.frame} com 15 observações e 2 variáveis, 
     em que
 

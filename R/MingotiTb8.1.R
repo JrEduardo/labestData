@@ -1,5 +1,5 @@
 #' @name MingotiTb8.1
-#' @title Renda e o número de filhos
+#' @title Renda e o n\enc{ú}{u}mero de filhos
 #' @description Dados relativos a 257 indivíduos classificados de acordo
 #'     com a renda e número de filhos.
 #' @format Um \code{data.frame} com 3 observações e 5 variáveis, em que

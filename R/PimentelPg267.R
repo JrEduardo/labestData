@@ -1,5 +1,5 @@
 #' @name PimentelPg267
-#' @title Percentual de Sorgo na Ração para Desenvolvimento de Pintos
+#' @title Percentual de Sorgo na Ra\enc{çã}{ca}o para Desenvolvimento de Pintos
 #' @description Ensaio de Torres e Pimentel-Gomes (1959) em que foram
 #'     estudadas 4 rações para pintos dos dois sexos (machos e fêmeas),
 #'     instalado um delineamento inteiramente casualizado com duas

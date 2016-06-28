@@ -2,7 +2,7 @@
 % Please edit documentation in R/ManlyTb10.2.R
 \name{ManlyTb10.2}
 \alias{ManlyTb10.2}
-\title{Variáveis solo e vegetação em Belize}
+\title{Vari\enc{á}{a}veis solo e vegeta\enc{çã}{ca}o em Belize}
 \format{Um \code{data.frame} com 151 linhas e 8 variáveis.
 
 \describe{

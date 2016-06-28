@@ -1,5 +1,5 @@
 #' @name PaulaTb2.1
-#' @title Desempenho de Turbinas para Motores de Avião
+#' @title Desempenho de Turbinas para Motores de Avi\enc{ã}{a}o
 #' @description Resultados de um experimento conduzido para avaliar o
 #'     desempenho de cinco tipos de turbina de alta velocidade para
 #'     motores de avião. Foram considerados dez motores de cada tipo

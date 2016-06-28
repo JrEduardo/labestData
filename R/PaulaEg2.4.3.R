@@ -1,5 +1,5 @@
 #' @name PaulaEg2.4.3
-#' @title Valores Pagos de Seguros sob Influência de Representação Legal
+#' @title Valores Pagos de Seguros sob Influ\enc{ê}{e}ncia de Representa\enc{çã}{ca}o Legal
 #' @description Dados referentes aos valores pagos de seguros
 #'     individuais por danos com acidentes pessoais no período de
 #'     janeiro de 1998 a junho de 1999 (18 meses). O estudo completo

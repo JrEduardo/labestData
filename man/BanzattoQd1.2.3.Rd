@@ -2,7 +2,7 @@
 % Please edit documentation in R/BanzattoQd1.2.3.R
 \name{BanzattoQd1.2.3}
 \alias{BanzattoQd1.2.3}
-\title{Diâmetro à Altura do Peito de \emph{Eucalyptus saligna}}
+\title{Di\enc{â}{a}metro \enc{à}{a} Altura do Peito de \emph{Eucalyptus saligna}}
 \format{Um vetor numérico com 20 elementos.}
 \source{
 Banzatto, D. A., Kronka, S. D. (2013). Experimentação

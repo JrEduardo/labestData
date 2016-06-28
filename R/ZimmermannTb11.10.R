@@ -1,5 +1,5 @@
 #' @name ZimmermannTb11.10
-#' @title Espaçamento Entre Linhas e Densidade no Plantio de Feijão
+#' @title Espa\enc{ç}{c}amento Entre Linhas e Densidade no Plantio de Feij\enc{ã}{a}o
 #' @description Dados de um experimento fatorial \eqn{3^2}, com a
 #'     cultura do feijoeiro testando espaçamento entre linhas de plantio
 #'     (0.45, 0.6 e 0.75 m) e densidade de plantio (7, 10 e 13 sementes

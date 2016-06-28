@@ -2,7 +2,7 @@
 % Please edit documentation in R/DiasEg6.2.R
 \name{DiasEg6.2}
 \alias{DiasEg6.2}
-\title{Adubação NPK na Produção de Feijão}
+\title{Aduba\enc{çã}{ca}o NPK na Produ\enc{çã}{ca}o de Feij\enc{ã}{a}o}
 \format{Um \code{data.frame} com 20 observações e 3 variáveis, em que
 
 \describe{

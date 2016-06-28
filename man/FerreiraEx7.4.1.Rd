@@ -2,7 +2,7 @@
 % Please edit documentation in R/FerreiraEx7.4.1.R
 \name{FerreiraEx7.4.1}
 \alias{FerreiraEx7.4.1}
-\title{Avaliação de Dieta em Animais}
+\title{Avalia\enc{çã}{ca}o de Dieta em Animais}
 \format{Um \code{data.frame} com 12 observações e 3 variáveis.
 
 \describe{

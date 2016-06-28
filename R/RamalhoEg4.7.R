@@ -1,5 +1,5 @@
 #' @name RamalhoEg4.7
-#' @title Produção de grãos de arroz.
+#' @title Produ\enc{çã}{ca}o de gr\enc{ã}{a}os de arroz.
 #' @description Experimento da produção de grãos na avaliação de
 #'     cultivares de arroz, conduzido em Lavras/MG. Delineamento em
 #'     blocos casualizados.

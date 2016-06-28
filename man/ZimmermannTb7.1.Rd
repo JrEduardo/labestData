@@ -2,7 +2,7 @@
 % Please edit documentation in R/ZimmermannTb7.1.R
 \name{ZimmermannTb7.1}
 \alias{ZimmermannTb7.1}
-\title{Ensaio de Competição de Cultivares em Reticulado Quadrado}
+\title{Ensaio de Competi\enc{çã}{ca}o de Cultivares em Reticulado Quadrado}
 \format{Um \code{data.frame} com 75 observações e 4 variáveis, em que
 
 \describe{

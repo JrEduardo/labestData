@@ -2,7 +2,7 @@
 % Please edit documentation in R/DiasEg10.2.R
 \name{DiasEg10.2}
 \alias{DiasEg10.2}
-\title{Percentual de Germinação}
+\title{Percentual de Germina\enc{çã}{ca}o}
 \format{Um \code{data.frame} com 48 observações e 4 variáveis, em que
 
 \describe{

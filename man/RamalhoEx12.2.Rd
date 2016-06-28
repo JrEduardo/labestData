@@ -2,7 +2,7 @@
 % Please edit documentation in R/RamalhoEx12.2.R
 \name{RamalhoEx12.2}
 \alias{RamalhoEx12.2}
-\title{Dados Genéricos para Regressão Múltipla}
+\title{Dados Gen\enc{é}{e}ricos para Regress\enc{ã}{a}o M\enc{ú}{u}ltipla}
 \format{Um \code{data.frame} com 8 observações e 4 variáveis, em que
 
 \describe{

@@ -2,7 +2,7 @@
 % Please edit documentation in R/ManlyTb1.4.R
 \name{ManlyTb1.4}
 \alias{ManlyTb1.4}
-\title{Cães pré-históricos da Tailândia}
+\title{C\enc{ã}{a}es pr\enc{é}{e}-hist\enc{ó}{o}ricos da Tail\enc{â}{a}ndia}
 \format{Um \code{data.frame} com 7 grupos caninos e 6 variáveis. 
 
 \describe{

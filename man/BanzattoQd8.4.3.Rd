@@ -2,7 +2,7 @@
 % Please edit documentation in R/BanzattoQd8.4.3.R
 \name{BanzattoQd8.4.3}
 \alias{BanzattoQd8.4.3}
-\title{Grupo de Experimentos de Adubação Nitrogenada em Milho}
+\title{Grupo de Experimentos de Aduba\enc{çã}{ca}o Nitrogenada em Milho}
 \format{Um \code{data.frame} com 24 observações e 3 variáveis.
 
 \describe{

@@ -2,7 +2,7 @@
 % Please edit documentation in R/FerreiraEx3.8.5.R
 \name{FerreiraEx3.8.5}
 \alias{FerreiraEx3.8.5}
-\title{Avaliação de cultivar de melão}
+\title{Avalia\enc{çã}{ca}o de cultivar de mel\enc{ã}{a}o}
 \format{\code{data.frame} com 32 observações e 3 variáveis, em que
 
 \describe{

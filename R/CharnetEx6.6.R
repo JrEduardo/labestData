@@ -1,6 +1,6 @@
 #' @name CharnetEx6.6
 #'
-#' @title Conjunto de Dados Genérico
+#' @title Conjunto de Dados Gen\enc{é}{e}rico
 #'
 #' @description Conjunto de dados qualquer para exercício de ajuste de
 #'     um modelo de regressão linear simples, com transformação na

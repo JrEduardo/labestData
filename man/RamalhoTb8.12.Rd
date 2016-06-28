@@ -2,7 +2,7 @@
 % Please edit documentation in R/RamalhoTb8.12.R
 \name{RamalhoTb8.12}
 \alias{RamalhoTb8.12}
-\title{Produção Média de Grãos de Café-cereja}
+\title{Produ\enc{çã}{ca}o M\enc{é}{e}dia de Gr\enc{ã}{a}os de Caf\enc{é}{e}-cereja}
 \format{Um \code{data.frame} com 120 observações e 4 variáveis, em
     que
 

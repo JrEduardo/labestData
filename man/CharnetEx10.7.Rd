@@ -2,7 +2,7 @@
 % Please edit documentation in R/CharnetEx10.7.R
 \name{CharnetEx10.7}
 \alias{CharnetEx10.7}
-\title{Plantação de Variedades de Trigo}
+\title{Planta\enc{çã}{ca}o de Variedades de Trigo}
 \format{Um \code{data.frame} com 4 colunas e 24 linhas.
 
 \describe{

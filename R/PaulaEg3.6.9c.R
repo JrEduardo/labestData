@@ -1,5 +1,5 @@
 #' @name PaulaEg3.6.9c
-#' @title Preferência de consumidores
+#' @title Prefer\enc{ê}{e}ncia de consumidores
 #' @description Dados sobre a preferência de consumidores americanos com
 #'    relação a automóveis. Uma amostra aleatória de 263 consumidores foi 
 #'    considerada. As seguintes variáveis foram observadas para cada 

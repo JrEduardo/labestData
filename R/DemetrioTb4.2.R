@@ -1,5 +1,5 @@
 #' @name DemetrioTb4.2
-#' @title Sobrevivência de Ratos após Envenenamento
+#' @title Sobreviv\enc{ê}{e}ncia de Ratos ap\enc{ó}{o}s Envenenamento
 #' 
 #' @description Os dados referem-se a tempos de sobrevivência de ratos 
 #'     após envenenamento com 4 tipos de venenos e 3 diferentes 

@@ -1,6 +1,6 @@
 #' @name CharnetApD.1
 #'
-#' @title Conjunto de Dados de Meninas Dançarinas
+#' @title Conjunto de Dados de Meninas Dan\enc{ç}{c}arinas
 #'
 #' @description Medidas antropomórficas e extensões de bailarinas.
 #'

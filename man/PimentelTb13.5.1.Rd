@@ -2,7 +2,7 @@
 % Please edit documentation in R/PimentelTb13.5.1.R
 \name{PimentelTb13.5.1}
 \alias{PimentelTb13.5.1}
-\title{Grupo de Experimentos de Adubação de Cana-de-açúcar}
+\title{Grupo de Experimentos de Aduba\enc{çã}{ca}o de Cana-de-a\enc{çú}{cu}car}
 \format{Um \code{data.frame} com 228 observações e 4 variáveis, em
     que
 

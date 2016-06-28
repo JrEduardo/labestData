@@ -2,7 +2,7 @@
 % Please edit documentation in R/FerreiraEg7.1.R
 \name{FerreiraEg7.1}
 \alias{FerreiraEg7.1}
-\title{Avaliação de Exercícios Físicos sobre o Estresse Oxidativo}
+\title{Avalia\enc{çã}{ca}o de Exerc\enc{í}{i}cios F\enc{í}{i}sicos sobre o Estresse Oxidativo}
 \format{Um \code{data.frame} com 32 observações e 3 variáveis.
 
 \describe{

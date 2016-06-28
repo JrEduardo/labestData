@@ -3,7 +3,7 @@
 \name{FerreiraEg9.1}
 \alias{FerreiraEg9.1}
 \title{Teores de Areia e Argila para Diferentes Usos da Terra na
-    Amazônia}
+    Amaz\enc{ô}{o}nia}
 \format{Um \code{data.frame} com 6 observações e 2 variáveis, em que
 
 \describe{

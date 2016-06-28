@@ -1,6 +1,6 @@
 #' @name CharnetEx5.10
 #'
-#' @title Relação entre a Taxa de Desemprego e Índice de Suicídios
+#' @title Rela\enc{çã}{ca}o entre a Taxa de Desemprego e \enc{Í}{I}ndice de Suic\enc{í}{i}dios
 #'
 #' @description Dados do jornal Los Angeles Times, de 13 de dezembro de
 #'     1980, informando as taxas de desemprego e o índice de suicídios

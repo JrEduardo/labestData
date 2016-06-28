@@ -2,7 +2,7 @@
 % Please edit documentation in R/DiasEg11.1.R
 \name{DiasEg11.1}
 \alias{DiasEg11.1}
-\title{Grupo de Experimentos com Cultivares de Feijão}
+\title{Grupo de Experimentos com Cultivares de Feij\enc{ã}{a}o}
 \format{Um \code{data.frame} com 54 observações e 4 variáveis, em que
 
 \describe{

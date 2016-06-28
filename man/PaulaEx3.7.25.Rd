@@ -2,7 +2,7 @@
 % Please edit documentation in R/PaulaEx3.7.25.R
 \name{PaulaEx3.7.25}
 \alias{PaulaEx3.7.25}
-\title{Pulsação Alterial em Repouso em Homens que Fuman}
+\title{Pulsa\enc{çã}{ca}o Alterial em Repouso em Homens que Fuman}
 \format{Um \code{data.frame} com 92 observações e 3 variáveis, em que
 
 \describe{

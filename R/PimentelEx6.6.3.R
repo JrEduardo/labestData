@@ -1,5 +1,5 @@
 #' @name PimentelEx6.6.3
-#' @title Efeito da Idade de Castração no Ganho de Peso de Suínos
+#' @title Efeito da Idade de Castra\enc{çã}{ca}o no Ganho de Peso de Su\enc{í}{i}nos
 #' @description Ensaio de alimentação de suínos, no qual foi usado um
 #'     quadrado latino de 4 x 4, com os resultados referentes aos ganhos
 #'     de peso ao fim de 252 dias.

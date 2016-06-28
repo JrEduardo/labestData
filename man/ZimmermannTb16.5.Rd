@@ -2,7 +2,7 @@
 % Please edit documentation in R/ZimmermannTb16.5.R
 \name{ZimmermannTb16.5}
 \alias{ZimmermannTb16.5}
-\title{Número de Dias para Floração de Cultivares de Arroz}
+\title{N\enc{ú}{u}mero de Dias para Flora\enc{çã}{ca}o de Cultivares de Arroz}
 \format{Um \code{data.frame} com 24 observações e 4 variáveis, em que
 
 \describe{

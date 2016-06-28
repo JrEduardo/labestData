@@ -1,5 +1,5 @@
 #' @name FerreiraEx7.4.1
-#' @title Avaliação de Dieta em Animais
+#' @title Avalia\enc{çã}{ca}o de Dieta em Animais
 #' @description Dados referentes a um estudo com animais avaliados antes
 #'     e depois de terem sido submetidos a uma dieta balanceada. O
 #'     interesse do estudo é avaliar se houve efeito significativo da

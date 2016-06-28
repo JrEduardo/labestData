@@ -1,5 +1,5 @@
 #' @name BarbinEx17
-#' @title Efeito do Espaçamento na Produtividade de Laranjeira Valência
+#' @title Efeito do Espa\enc{ç}{c}amento na Produtividade de Laranjeira Val\enc{ê}{e}ncia
 #' @description Dados de produtividade de laranja, em kg por planta, de
 #'     um ensaio em blocos casualizados estudando o efeito do
 #'     espaçamento de plantio de laranjeira Valência (clone novo) sobre

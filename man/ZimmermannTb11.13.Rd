@@ -2,7 +2,7 @@
 % Please edit documentation in R/ZimmermannTb11.13.R
 \name{ZimmermannTb11.13}
 \alias{ZimmermannTb11.13}
-\title{Absorção e Translocação de Zinco em Arroz de Terras Altas}
+\title{Absor\enc{çã}{ca}o e Transloca\enc{çã}{ca}o de Zinco em Arroz de Terras Altas}
 \format{Um \code{data.frame} com 81 observações e 6 variáveis, em que
 
 \describe{

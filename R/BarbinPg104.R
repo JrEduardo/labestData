@@ -1,5 +1,5 @@
 #' @name BarbinPg104
-#' @title Produção de Cultivares de Cana-de-açúcar
+#' @title Produ\enc{çã}{ca}o de Cultivares de Cana-de-a\enc{çú}{cu}car
 #' @description Experimento em delineamento quadrado latino que avaliou
 #'     a produção de cultivares de cana-ade-açúcar.
 #' @format Um \code{data.frame} com 25 observações e 4 variáveis, em que

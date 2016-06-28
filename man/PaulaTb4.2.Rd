@@ -2,7 +2,7 @@
 % Please edit documentation in R/PaulaTb4.2.R
 \name{PaulaTb4.2}
 \alias{PaulaTb4.2}
-\title{Mortes por Câncer de Pulmão e Consumo de Cigarro}
+\title{Mortes por C\enc{â}{a}ncer de Pulm\enc{ã}{a}o e Consumo de Cigarro}
 \format{Um \code{data.frame} com 16 observações e 4 variáveis.
     \describe{
 

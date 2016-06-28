@@ -2,7 +2,7 @@
 % Please edit documentation in R/CharnetEg7.3.R
 \name{CharnetEg7.3}
 \alias{CharnetEg7.3}
-\title{Relação entre Salário, Tempo de Experiência e Sexo}
+\title{Rela\enc{çã}{ca}o entre Sal\enc{á}{a}rio, Tempo de Experi\enc{ê}{e}ncia e Sexo}
 \format{Um \code{data.frame} com 2 colunas e 15 linhas.
 
 \describe{

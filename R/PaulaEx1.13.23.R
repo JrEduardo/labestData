@@ -1,5 +1,5 @@
 #' @name PaulaEx1.13.23
-#' @title Diâmetro de Cerejeiras da Pensilvânia
+#' @title Di\enc{â}{a}metro de Cerejeiras da Pensilv\enc{â}{a}nia
 #' @description Dados referentes ao registro das variáveis diâmetro,
 #'     altura e volume de 31 árvores cerejeiras numa floresta no estado
 #'     da Pensilvânia. O objetivo do estudo é predizer o volume da

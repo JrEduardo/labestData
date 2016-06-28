@@ -1,6 +1,6 @@
 #' @name DemetrioEx5.4.5
-#' @title Estudo sobre a Avaliação Visual do Grau da Infestação de
-#'     Plantas por Doenças
+#' @title Estudo sobre a Avalia\enc{çã}{ca}o Visual do Grau da Infesta\enc{çã}{ca}o de
+#'     Plantas por Doen\enc{ç}{c}as
 #' 
 #' @description Dados referentes a avaliação visual (realizada por um
 #'     pesquisador) e real do grau de infestação de folhas de amendoim.

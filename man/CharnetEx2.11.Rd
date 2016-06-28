@@ -2,7 +2,7 @@
 % Please edit documentation in R/CharnetEx2.11.R
 \name{CharnetEx2.11}
 \alias{CharnetEx2.11}
-\title{Estudo do Efeito de Droga sobre o Ritmo Cardíaco}
+\title{Estudo do Efeito de Droga sobre o Ritmo Card\enc{í}{i}aco}
 \format{Um \code{data.frame} com 3 colunas e 6 linhas.
 
 \describe{

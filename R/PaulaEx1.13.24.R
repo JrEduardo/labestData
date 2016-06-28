@@ -1,5 +1,5 @@
 #' @name PaulaEx1.13.24
-#' @title Porcentagens de Retorno de Ações 
+#' @title Porcentagens de Retorno de A\enc{çõ}{co}es 
 #' @description Dados referentes aos retornos diários das ações das
 #'     empresas Microsoft, General Eletric (GE) e Ford no período de
 #'     janeiro de 2002 a abril de 2003. No registro dessas ações também

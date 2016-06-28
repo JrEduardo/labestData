@@ -1,5 +1,5 @@
 #' @name PaulaEx3.7.21
-#' @title Fatores Ambientais na Abundância de Duas Espécies de Lagarto
+#' @title Fatores Ambientais na Abund\enc{â}{a}ncia de Duas Esp\enc{é}{e}cies de Lagarto
 #' @description Dados referentes à distribuição de duas espécies de
 #'     lagarto (\emph{grahani} e \emph{opalinus}) segundo quatro
 #'     fatores: periodo do dia, comprimento da madeira, largura da

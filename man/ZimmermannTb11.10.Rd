@@ -2,7 +2,7 @@
 % Please edit documentation in R/ZimmermannTb11.10.R
 \name{ZimmermannTb11.10}
 \alias{ZimmermannTb11.10}
-\title{Espaçamento Entre Linhas e Densidade no Plantio de Feijão}
+\title{Espa\enc{ç}{c}amento Entre Linhas e Densidade no Plantio de Feij\enc{ã}{a}o}
 \format{Um \code{data.frame} com 36 observações e 6 variáveis
 
 \describe{

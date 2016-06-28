@@ -2,7 +2,7 @@
 % Please edit documentation in R/PaulaTb4.12.R
 \name{PaulaTb4.12}
 \alias{PaulaTb4.12}
-\title{Associação entre Renda e Satisfação no Emprego}
+\title{Associa\enc{çã}{ca}o entre Renda e Satisfa\enc{çã}{ca}o no Emprego}
 \format{Um \code{data.frame} com 16 observações e 3 variáveis.
 \describe{
 

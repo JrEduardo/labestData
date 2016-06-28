@@ -2,7 +2,7 @@
 % Please edit documentation in R/DemetrioEx2.12.16.R
 \name{DemetrioEx2.12.16}
 \alias{DemetrioEx2.12.16}
-\title{Calagem para a Sucessão batata-triticale-milho}
+\title{Calagem para a Sucess\enc{ã}{a}o batata-triticale-milho}
 \format{Um \code{data.frame} de 9 linhas e 2 colunas.
 
 \describe{

@@ -2,7 +2,7 @@
 % Please edit documentation in R/RamosAnC1.R
 \name{RamosAnC1}
 \alias{RamosAnC1}
-\title{Temperatura do óleo de misturadores}
+\title{Temperatura do \enc{ó}{o}leo de misturadores}
 \format{Um \code{data.frame} com 200 observações e 2 variáveis, em que
 
 \describe{

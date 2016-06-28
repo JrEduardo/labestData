@@ -1,5 +1,5 @@
 #' @name DiasEx10.4.7
-#' @title Adubação NPK na Cultura do Cafeeiro
+#' @title Aduba\enc{çã}{ca}o NPK na Cultura do Cafeeiro
 #' @description Em um experimento em delineamento inteiramente
 #'     casualizado foi estudado efeito da adubação NPK na produção da do
 #'     cafeeiro por meio de um experimento fatorial \eqn{2^3} com 6

@@ -1,6 +1,6 @@
 #' @name VieiraEx7.3
-#' @title Experimento de um Fator em DIC com Número Diferente de
-#'     Repetições
+#' @title Experimento de um Fator em DIC com N\enc{ú}{u}mero Diferente de
+#'     Repeti\enc{çõ}{co}es
 #' @description Dados de um experimento inteiramente ao acaso com número
 #'     diferente de repetições.
 #' @format Um \code{data.frame} com 18 observações e 2 variáveis, em que

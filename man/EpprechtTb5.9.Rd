@@ -2,7 +2,7 @@
 % Please edit documentation in R/EpprechtTb5.9.R
 \name{EpprechtTb5.9}
 \alias{EpprechtTb5.9}
-\title{Medidas de peças de uma linha de produção}
+\title{Medidas de pe\enc{ç}{c}as de uma linha de produ\enc{çã}{ca}o}
 \format{Um \code{data.frame} com 60 observações e 3 variáveis, 
     em que
 

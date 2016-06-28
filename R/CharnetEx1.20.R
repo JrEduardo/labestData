@@ -1,6 +1,6 @@
 #' @name CharnetEx1.20
 #'
-#' @title Testes de Avaliação de Personalidade
+#' @title Testes de Avalia\enc{çã}{ca}o de Personalidade
 #'
 #' @description Dois testes de avaliação de personalidade aplicados a 20
 #'     indivíduos.

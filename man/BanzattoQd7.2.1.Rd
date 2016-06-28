@@ -2,7 +2,7 @@
 % Please edit documentation in R/BanzattoQd7.2.1.R
 \name{BanzattoQd7.2.1}
 \alias{BanzattoQd7.2.1}
-\title{Efeito do Gesso no Peso de Grãos de Feijão}
+\title{Efeito do Gesso no Peso de Gr\enc{ã}{a}os de Feij\enc{ã}{a}o}
 \format{Um \code{data.frame} com 28 observações e 3 variáveis.
 
 \describe{

@@ -2,7 +2,7 @@
 % Please edit documentation in R/PimentelTb14.4.1.R
 \name{PimentelTb14.4.1}
 \alias{PimentelTb14.4.1}
-\title{Produção de Leite em um Ensaio de Alimentação de Vacas}
+\title{Produ\enc{çã}{ca}o de Leite em um Ensaio de Alimenta\enc{çã}{ca}o de Vacas}
 \format{Um \code{data.frame} com 36 observações e 5 variáveis, em que
 
 \describe{

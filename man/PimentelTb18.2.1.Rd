@@ -2,7 +2,7 @@
 % Please edit documentation in R/PimentelTb18.2.1.R
 \name{PimentelTb18.2.1}
 \alias{PimentelTb18.2.1}
-\title{Ensaio Fatorial com Tratamentos Adicionais de Adubação de
+\title{Ensaio Fatorial com Tratamentos Adicionais de Aduba\enc{çã}{ca}o de
     Milho}
 \format{Um \code{data.frame} com 42 observações e 8 variáveis, em que
 

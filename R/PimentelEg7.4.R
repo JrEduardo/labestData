@@ -1,5 +1,5 @@
 #' @name PimentelEg7.4
-#' @title Experimento de Adubação com Torta de Filtro e Adubo Mineral
+#' @title Experimento de Aduba\enc{çã}{ca}o com Torta de Filtro e Adubo Mineral
 #' @description Experimento fatorial 2\eqn{^{2}} em que os fatores eram
 #'     adubo mineral e torta dos filtros de Oliver de usinas de açúcar.
 #' @format Um \code{data.frame} com 16 observações e 4 variáveis, em que

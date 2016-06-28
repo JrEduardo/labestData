@@ -1,5 +1,5 @@
 #' @name ZimmermannTb3.12
-#' @title Dados de matéria seca em plantas
+#' @title Dados de mat\enc{é}{e}ria seca em plantas
 #' @description Experimento em DIC que estudou a produção de matéria
 #'     seca em plantas de arroz, em gramas. No experimento foram
 #'     utilizados cinco vasos para cada um de quatro tratamentos e três

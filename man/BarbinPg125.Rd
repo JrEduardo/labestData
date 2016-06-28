@@ -2,7 +2,7 @@
 % Please edit documentation in R/BarbinPg125.R
 \name{BarbinPg125}
 \alias{BarbinPg125}
-\title{Adubação NPK no Cafeeiro}
+\title{Aduba\enc{çã}{ca}o NPK no Cafeeiro}
 \format{Um \code{data.frame} com 48 observações e 5 variáveis.
 
 \describe{

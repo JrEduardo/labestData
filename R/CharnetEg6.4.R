@@ -1,6 +1,6 @@
 #' @name CharnetEg6.4
 #'
-#' @title Efeito de um Produto Químico no Peso de Girassóis
+#' @title Efeito de um Produto Qu\enc{í}{i}mico no Peso de Girass\enc{ó}{o}is
 #'
 #' @description Medição do efeito da adição de uma solução de um certo
 #'    produto químico na regação de girassóis.

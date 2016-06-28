@@ -1,5 +1,5 @@
 #' @name PaulaEx1.13.19
-#' @title Estudo Demográfico dos Estados Norte-Americanos
+#' @title Estudo Demogr\enc{á}{a}fico dos Estados Norte-Americanos
 #' @description Dados referentes a um estudo demográfico sobre os 50
 #'     estados norte-americanos. Neste estudo foram registradas 8
 #'     variáveis que contém informações sobre características da

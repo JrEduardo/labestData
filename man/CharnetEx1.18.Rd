@@ -2,7 +2,7 @@
 % Please edit documentation in R/CharnetEx1.18.R
 \name{CharnetEx1.18}
 \alias{CharnetEx1.18}
-\title{Tempo e Temperatura de uma Reação Química}
+\title{Tempo e Temperatura de uma Rea\enc{çã}{ca}o Qu\enc{í}{i}mica}
 \format{Um \code{data.frame} com 2 colunas e 35 linhas.
 
 \describe{

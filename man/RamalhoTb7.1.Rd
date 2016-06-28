@@ -2,7 +2,7 @@
 % Please edit documentation in R/RamalhoTb7.1.R
 \name{RamalhoTb7.1}
 \alias{RamalhoTb7.1}
-\title{Volume de Madeira em Progênies de Eucalipto}
+\title{Volume de Madeira em Prog\enc{ê}{e}nies de Eucalipto}
 \format{Um \code{data.frame} com 180 observações e 4 variáveis, em
     que
 

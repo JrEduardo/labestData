@@ -1,5 +1,5 @@
 #' @name PaulaEx4.6.5
-#' @title Estudo Gerontológico do Número de Quedas
+#' @title Estudo Gerontol\enc{ó}{o}gico do N\enc{ú}{u}mero de Quedas
 #' @description Dados provenientes de um estudo prospectivo com 100
 #'     indivíduos de pelo menos 65 anos de idade em boas condições
 #'     físicas em que se avaliou o número de quedas num período de seis

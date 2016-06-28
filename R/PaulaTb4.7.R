@@ -1,5 +1,5 @@
 #' @name PaulaTb4.7
-#' @title Demanda de TV a Cabo em Áreas Metropolitanos dos EUA
+#' @title Demanda de TV a Cabo em \enc{Á}{A}reas Metropolitanos dos EUA
 #' @description Dados de um estudo sobre demanda de TV's a cabo em 40
 #'     áreas metropolitanas dos Estados Unidos. Nesse estudo a variável
 #'     de interesse é o número de assinantes (\code{nass}) e as demais

@@ -1,5 +1,5 @@
 #' @name VieiraEx8.3
-#' @title Experimento Em Blocos Casualizados Com Repetições Nos Blocos
+#' @title Experimento Em Blocos Casualizados Com Repeti\enc{çõ}{co}es Nos Blocos
 #' @description Dados de um experimento em delineamento em blocos
 #'     casualizados com repetições dos tratamentos dentro dos blocos.
 #' @format Um \code{data.frame} com 24 observações e 3 variáveis, em que

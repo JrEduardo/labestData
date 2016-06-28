@@ -1,5 +1,5 @@
 #' @name RamalhoEx8.1
-#' @title Produção de Grãos de Arroz em Municípios de Minas Gerais
+#' @title Produ\enc{çã}{ca}o de Gr\enc{ã}{a}os de Arroz em Munic\enc{í}{i}pios de Minas Gerais
 #' @description Experimentos para avaliar a produção de grãos de
 #'     cultivares de arroz, conduzidos em três locais do Estado de Minas
 #'     Gerais (Lambari, Lavras e Felixlândia) em delineamento

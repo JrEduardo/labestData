@@ -1,5 +1,5 @@
 #' @name DemetrioTb1.3
-#' @title Estudo da Construção de um Tensiômetro
+#' @title Estudo da Constru\enc{çã}{ca}o de um Tensi\enc{ô}{o}metro
 #' 
 #' @description Estudo da construção de um tensiômetro de leitura
 #'     direta. Neste estudo obteve-se os resultados de alturas da câmara

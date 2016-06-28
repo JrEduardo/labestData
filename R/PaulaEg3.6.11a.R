@@ -1,5 +1,5 @@
 #' @name PaulaEg3.6.11a
-#' @title Exposição de besouros
+#' @title Exposi\enc{çã}{ca}o de besouros
 #' @description Dados de  um estudo sobre o efeito da exposição de  
 #'     besouros adultos a diferentes doses de disulfeto de carbono gasoso 
 #'     \emph{(CS2)}, durante cinco horas. Foram registrados os números 

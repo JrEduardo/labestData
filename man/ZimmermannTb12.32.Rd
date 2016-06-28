@@ -2,7 +2,7 @@
 % Please edit documentation in R/ZimmermannTb12.32.R
 \name{ZimmermannTb12.32}
 \alias{ZimmermannTb12.32}
-\title{Competição de Cultivares de Feijão}
+\title{Competi\enc{çã}{ca}o de Cultivares de Feij\enc{ã}{a}o}
 \format{Um \code{data.frame} com 13 observações e 4 variáveis
 
 \describe{

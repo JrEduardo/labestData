@@ -1,5 +1,5 @@
 #' @name ManlyTb4.5
-#' @title Crânios egípcios
+#' @title Cr\enc{â}{a}nios eg\enc{í}{i}pcios
 #'
 #' @title Cães pré-históricos da Tailândia
 #'

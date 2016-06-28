@@ -1,5 +1,5 @@
 #' @name PimentelTb7.8.1
-#' @title Acidez de Variedades de Mangas em Função da Época
+#' @title Acidez de Variedades de Mangas em Fun\enc{çã}{ca}o da \enc{É}{E}poca
 #' @description Experimento fatorial, de 6 \eqn{\times} 3 \eqn{\times}
 #'     3, referente a acidez de 6 variedades de mangas, em 3 meses do
 #'     ano e em 3 anos agrícolas sucessivos reproduzidos de um trabalho

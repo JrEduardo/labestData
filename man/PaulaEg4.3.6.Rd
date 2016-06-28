@@ -2,7 +2,7 @@
 % Please edit documentation in R/PaulaEg4.3.6.R
 \name{PaulaEg4.3.6}
 \alias{PaulaEg4.3.6}
-\title{Ausência Escolar de Estudantes Australianos}
+\title{Aus\enc{ê}{e}ncia Escolar de Estudantes Australianos}
 \format{Um \code{data.frame} com 146 observações e 5 variáveis.
     \describe{
 

@@ -1,5 +1,5 @@
 #' @name BarbinPg167
-#' @title Produção de Porta-enxertos para Laranjeira em Várias Safras
+#' @title Produ\enc{çã}{ca}o de Porta-enxertos para Laranjeira em V\enc{á}{a}rias Safras
 #' @description Dados de produção de laranja de um ensaio de competição
 #'     de porta-enxertos para laranjeira Valência realizado na Estação
 #'     Experimental de Limeira, em delineamento de blocos casualizados.

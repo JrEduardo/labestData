@@ -1,5 +1,5 @@
 #' @name BarbinPg177
-#' @title Altura de Progênies de \emph{E. grandis} em Três Locais
+#' @title Altura de Prog\enc{ê}{e}nies de \emph{E. grandis} em Tr\enc{ê}{e}s Locais
 #' @description Dados de experimento que mediu a altura (m) de árvores
 #'     seis progênies de \emph{Eucaliptus grandis} em experimentos
 #'     instalados em 3 locais sob o delineamento de blocos casualizados.

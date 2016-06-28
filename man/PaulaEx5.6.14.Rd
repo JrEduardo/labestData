@@ -2,7 +2,7 @@
 % Please edit documentation in R/PaulaEx5.6.14.R
 \name{PaulaEx5.6.14}
 \alias{PaulaEx5.6.14}
-\title{Comparação de drogas para tratamento de leucemia}
+\title{Compara\enc{çã}{ca}o de drogas para tratamento de leucemia}
 \format{Um \code{data.frame} com 120 observações e 5 variáveis.
 \describe{
 

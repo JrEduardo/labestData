@@ -2,7 +2,7 @@
 % Please edit documentation in R/RamosAnC6.R
 \name{RamosAnC6}
 \alias{RamosAnC6}
-\title{Processo de fabricação de panelas}
+\title{Processo de fabrica\enc{çã}{ca}o de panelas}
 \format{Um \code{data.frame} com 30 observações e 3 variáveis, em que
 
 \describe{

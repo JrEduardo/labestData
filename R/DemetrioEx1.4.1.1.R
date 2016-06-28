@@ -1,5 +1,5 @@
 #' @name DemetrioEx1.4.1.1
-#' @title Alturas de Feijão
+#' @title Alturas de Feij\enc{ã}{a}o
 #' 
 #' @description Dados de altura de feijão durante 7 semanas.
 #' 

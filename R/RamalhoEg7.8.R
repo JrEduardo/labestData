@@ -1,5 +1,5 @@
 #' @name RamalhoEg7.8
-#' @title Produção de Grãos de Cruzamentos Feijão
+#' @title Produ\enc{çã}{ca}o de Gr\enc{ã}{a}os de Cruzamentos Feij\enc{ã}{a}o
 #' @description Experimento referente à produção de grãos de feijão
 #'     obtida na avaliação de 24 famílias \eqn{F_{5}} do cruzamento
 #'     Jalo x Small White, cujos dados foram obtidos por Souza (1991).

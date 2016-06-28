@@ -1,5 +1,5 @@
 #' @name PaulaEx1.13.21
-#' @title Número de Octanas na Produção de Gasolina
+#' @title N\enc{ú}{u}mero de Octanas na Produ\enc{çã}{ca}o de Gasolina
 #' @description Dados referentes à produção de gasolina numa determinada
 #'     refinaria segundo três variáveis observadas durante o processo e
 #'     uma quarta variável que é uma combinação das três primeiras. A

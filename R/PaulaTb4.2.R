@@ -1,5 +1,5 @@
 #' @name PaulaTb4.2
-#' @title Mortes por Câncer de Pulmão e Consumo de Cigarro
+#' @title Mortes por C\enc{â}{a}ncer de Pulm\enc{ã}{a}o e Consumo de Cigarro
 #' @description Dados provenientes de um estudo de acompanhamento de
 #'     doutores Britânicos durante a década de 50. Neste estudo
 #'     observou-se a ocorrência de mortes por câncer de pulmão segundo o

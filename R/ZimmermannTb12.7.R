@@ -1,5 +1,5 @@
 #' @name ZimmermannTb12.7
-#' @title Área Sob a Curva do Progresso de Brusone
+#' @title \enc{Á}{A}rea Sob a Curva do Progresso de Brusone
 #' @description Dados do ensaio 1 de um experimento que avaliou as
 #'     cultivares para a área foliar atacada por brusone
 #'     (\emph{Pyricularia Orizae} L.) em diferentes datas e se calculou

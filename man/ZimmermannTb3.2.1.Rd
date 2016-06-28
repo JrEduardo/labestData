@@ -2,7 +2,7 @@
 % Please edit documentation in R/ZimmermannTb3.2.1.R
 \name{ZimmermannTb3.2.1}
 \alias{ZimmermannTb3.2.1}
-\title{Adubação nitrogenada na Cultura do Arroz}
+\title{Aduba\enc{çã}{ca}o nitrogenada na Cultura do Arroz}
 \format{Um \code{data.frame} com 24 observações e 3 variáveis
 
 \describe{

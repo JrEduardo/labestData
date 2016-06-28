@@ -1,6 +1,6 @@
 #' @name CharnetEx6.7
 #'
-#' @title Peso de Correspondências
+#' @title Peso de Correspond\enc{ê}{e}ncias
 #'
 #' @description Relação do peso das correspondências levantados por uma
 #'     agência de correios durante 11 dias.

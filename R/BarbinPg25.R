@@ -1,5 +1,5 @@
 #' @name BarbinPg25
-#' @title Enraizamento de Estacas de Pêssego
+#' @title Enraizamento de Estacas de P\enc{ê}{e}ssego
 #' @description Dados adaptados de Zambão, Sampaio e Barbin (1982), onde
 #'     foram comparadas quatro cultivares de pêssego quando ao
 #'     enraizamento de estacas. Experimento foi instalado em

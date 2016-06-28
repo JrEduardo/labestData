@@ -2,7 +2,7 @@
 % Please edit documentation in R/ZimmermannTb5.15.R
 \name{ZimmermannTb5.15}
 \alias{ZimmermannTb5.15}
-\title{Número de Perfilhos em Arroz em Função de 6 Tratamentos}
+\title{N\enc{ú}{u}mero de Perfilhos em Arroz em Fun\enc{çã}{ca}o de 6 Tratamentos}
 \format{Um \code{data.frame} com 36 observações e 4 variáveis, em que
 
 \describe{

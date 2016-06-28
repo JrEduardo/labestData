@@ -1,5 +1,5 @@
 #' @name ZimmermannTb14.3
-#' @title Estande de Plantas e Produtividade de Cultivares de Feijão
+#' @title Estande de Plantas e Produtividade de Cultivares de Feij\enc{ã}{a}o
 #' @description Dados de um ensaio de competição de cultivares de feijão
 #'     onde foram registrados a produtivididade, bem como o estande por
 #'     área útil, para sete cultivares de arroz. O experimento foi feito

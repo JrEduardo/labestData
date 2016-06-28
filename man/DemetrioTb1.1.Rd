@@ -2,7 +2,7 @@
 % Please edit documentation in R/DemetrioTb1.1.R
 \name{DemetrioTb1.1}
 \alias{DemetrioTb1.1}
-\title{Níveis de Fósforo no Solo após Plantio de Milho}
+\title{N\enc{í}{i}veis de F\enc{ó}{o}sforo no Solo ap\enc{ó}{o}s Plantio de Milho}
 \format{Um \code{data.frame} com 9 linhas e 2 colunas.
 
 \describe{

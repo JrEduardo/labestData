@@ -1,5 +1,5 @@
 #' @name DiasEx6.5.9
-#' @title Correlação entre Temperatura e Massa
+#' @title Correla\enc{çã}{ca}o entre Temperatura e Massa
 #' @description Dados de 11 pares de valores de temperatura e massa.
 #' @format Um \code{data.frame} com 11 observações e 3 variáveis, em que
 #'

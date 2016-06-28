@@ -1,5 +1,5 @@
 #' @name PaulaEg3.5.1
-#' @title Associação entre fungicida e desenvolvimento de tumor
+#' @title Associa\enc{çã}{ca}o entre fungicida e desenvolvimento de tumor
 #' @description Dados de um experimento realizado para avaliar
 #'    o possível efeito cancerígeno do fungicida Avadex. Foram utilizados 
 #'    403 camundongos. Desses, 65 receberam o fungicida e foram acompanhados 

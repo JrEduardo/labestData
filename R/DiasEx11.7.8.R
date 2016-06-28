@@ -1,5 +1,5 @@
 #' @name  DiasEx11.7.8
-#' @title Competição de Genótipos de Alho
+#' @title Competi\enc{çã}{ca}o de Gen\enc{ó}{o}tipos de Alho
 #' @description Resultados de um grupo de experimento de competiação de
 #'     genótipos de alho. Os valores disponíveis são as médias dos
 #'     genótipos em cada experimento.

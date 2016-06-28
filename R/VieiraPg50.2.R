@@ -1,5 +1,5 @@
 #' @name VieiraPg50.2
-#' @title Calibração de Voltrímetros
+#' @title Calibra\enc{çã}{ca}o de Voltr\enc{í}{i}metros
 #' @description Num laboratório são usados quatro voltímetros
 #'     diferentes. Para verificar se estes estão igualmente calibrados,
 #'     mediu-se a mesma força constante de 100 volts 5 vezes com cada

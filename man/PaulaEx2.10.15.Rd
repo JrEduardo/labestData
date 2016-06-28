@@ -2,7 +2,7 @@
 % Please edit documentation in R/PaulaEx2.10.15.R
 \name{PaulaEx2.10.15}
 \alias{PaulaEx2.10.15}
-\title{Consumo de Energia em Domicílios}
+\title{Consumo de Energia em Domic\enc{í}{i}lios}
 \format{Um \code{data.frame} com 53 observações e 2 variáveis.
 \describe{
 

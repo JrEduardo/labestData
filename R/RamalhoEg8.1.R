@@ -1,5 +1,5 @@
 #' @name RamalhoEg8.1
-#' @title Produção de Grãos em Cultivares de Feijão
+#' @title Produ\enc{çã}{ca}o de Gr\enc{ã}{a}os em Cultivares de Feij\enc{ã}{a}o
 #' @description Experimentos para medir a produção de grãos de
 #'     cultivares de feijão, conduzidos em Lavras e Patos de Minas/MG
 #'     durante o ano de 1990 em delineamento em blocos casualizados.

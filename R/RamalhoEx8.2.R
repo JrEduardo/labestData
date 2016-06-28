@@ -1,5 +1,5 @@
 #' @name RamalhoEx8.2
-#' @title Produção de Amêndoas de Clones de Caju
+#' @title Produ\enc{çã}{ca}o de Am\enc{ê}{e}ndoas de Clones de Caju
 #' @description Experimento em delineamento de blocos casualizados para
 #'     estudar a produção de amêndoas obtidos da avaliação de clones de
 #'     caju, em 5 colheitas.

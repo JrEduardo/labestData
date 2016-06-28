@@ -1,5 +1,5 @@
 #' @name DiasEg10.1
-#' @title Substâncias Aleloáticas no Percentual de Germinação de
+#' @title Subst\enc{â}{a}ncias Alelo\enc{á}{a}ticas no Percentual de Germina\enc{çã}{ca}o de
 #'     Sementes
 #' @description Experimento em delineamento inteiramente casualizado
 #'     onde foram avaliados os percentuais de germinação de sementes de

@@ -2,7 +2,7 @@
 % Please edit documentation in R/PimentelPg382.R
 \name{PimentelPg382}
 \alias{PimentelPg382}
-\title{Métodos de Enxertia no Pegamento de Mudas}
+\title{M\enc{é}{e}todos de Enxertia no Pegamento de Mudas}
 \format{Um \code{data.frame} com 3 observações e 3 variáveis, em que
 
 \describe{

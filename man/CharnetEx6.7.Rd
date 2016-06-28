@@ -2,7 +2,7 @@
 % Please edit documentation in R/CharnetEx6.7.R
 \name{CharnetEx6.7}
 \alias{CharnetEx6.7}
-\title{Peso de Correspondências}
+\title{Peso de Correspond\enc{ê}{e}ncias}
 \format{Um \code{data.frame} com 2 colunas e 11 linhas.
 
 \describe{

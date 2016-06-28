@@ -1,5 +1,5 @@
 #' @name MingotiAnA2
-#' @title Desempenho de 44 funcionários de uma empresa
+#' @title Desempenho de 44 funcion\enc{á}{a}rios de uma empresa
 #' @description Dados referentes a 44 funcionários de uma empresa, aos 
 #'     quais foram atribuídas notas para desempenho nas vendas, 
 #'     desempenho nos lucros, captação de novos clientes, além dos

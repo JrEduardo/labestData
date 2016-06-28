@@ -2,7 +2,7 @@
 % Please edit documentation in R/ManlyTb1.3.R
 \name{ManlyTb1.3}
 \alias{ManlyTb1.3}
-\title{Distribuiçao de uma espécie de borboletas}
+\title{Distribui\enc{ç}{c}ao de uma esp\enc{é}{e}cie de borboletas}
 \format{Um \code{data.frame} com 16 colônias de borboletas com 11 variáveis.
 
 \describe{

@@ -1,5 +1,5 @@
 #' @name RamalhoTb13.15
-#' @title Produção de Ramas de Clones de Mandioca
+#' @title Produ\enc{çã}{ca}o de Ramas de Clones de Mandioca
 #' @description Experimento envolvendo a produção de ramas (parte aérea)
 #'     de 20 genótipos parentais (clones) de mandioca e de seus
 #'     respectivos decendentes.

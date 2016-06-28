@@ -2,7 +2,7 @@
 % Please edit documentation in R/FariaQd12.5.R
 \name{FariaQd12.5}
 \alias{FariaQd12.5}
-\title{Colonização do TVC em Vassoura-de-bruxa}
+\title{Coloniza\enc{çã}{ca}o do TVC em Vassoura-de-bruxa}
 \format{Um \code{data.frame} com 27 observações e 4 variáveis, em que
 
 \describe{

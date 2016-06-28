@@ -2,7 +2,7 @@
 % Please edit documentation in R/EpprechtTb6.9.R
 \name{EpprechtTb6.9}
 \alias{EpprechtTb6.9}
-\title{Volume de Refrigerante em Garrafas Plásticas}
+\title{Volume de Refrigerante em Garrafas Pl\enc{á}{a}sticas}
 \format{Um \code{data.frame} com 60 observações e 2 variáveis, 
     em que
 

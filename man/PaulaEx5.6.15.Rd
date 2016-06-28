@@ -2,7 +2,7 @@
 % Please edit documentation in R/PaulaEx5.6.15.R
 \name{PaulaEx5.6.15}
 \alias{PaulaEx5.6.15}
-\title{Ensaio clínico em pacientes com artrite}
+\title{Ensaio cl\enc{í}{i}nico em pacientes com artrite}
 \format{Um \code{data.frame} com 80 observações e 6 variáveis.
 \describe{
 

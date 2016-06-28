@@ -1,6 +1,6 @@
 #' @name CharnetEx8.3
 #'
-#' @title Tempo de Corrosão do Metal
+#' @title Tempo de Corros\enc{ã}{a}o do Metal
 #'
 #' @description Estudo da relação entre o grau de corrosão de um certo
 #'    metal e o tempo de exposição deste metal à ação da acidez do solo.

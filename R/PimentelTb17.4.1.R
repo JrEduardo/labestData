@@ -1,5 +1,5 @@
 #' @name PimentelTb17.4.1
-#' @title Grupo de Ensaios de Variedades de Cana-de-açúcar
+#' @title Grupo de Ensaios de Variedades de Cana-de-a\enc{çú}{cu}car
 #' @description Grupo de dois ensaios com variedades de cana-de-açúcar,
 #'     realizado na Argentina por G. Kenning Voss. Os dados referem-se a
 #'     um ensaio com 7 variedades de cana em 3 blocos, e outro com

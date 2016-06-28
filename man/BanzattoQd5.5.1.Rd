@@ -2,7 +2,7 @@
 % Please edit documentation in R/BanzattoQd5.5.1.R
 \name{BanzattoQd5.5.1}
 \alias{BanzattoQd5.5.1}
-\title{Adubação Mineral no Milho com Uso de Confundimento}
+\title{Aduba\enc{çã}{ca}o Mineral no Milho com Uso de Confundimento}
 \format{Um \code{data.frame} com 27 observações e 4 variáveis, em que
     \describe{
 

@@ -1,5 +1,5 @@
 #' @name PaulaEg2.5.2
-#' @title Adubação de Nitrogênio e Fosfato em Milhos
+#' @title Aduba\enc{çã}{ca}o de Nitrog\enc{ê}{e}nio e Fosfato em Milhos
 #' @description Dados de um experimento inteiramente casualizado em que
 #'     a produtividade de milho é estudada segundo combinações de
 #'     quantidades de nitrogênio (N) e fosfato (P2O5) utilizadas na

@@ -1,5 +1,5 @@
 #' @name RamosAnC2
-#' @title Teor de sódio em um processo químico 
+#' @title Teor de s\enc{ó}{o}dio em um processo qu\enc{í}{i}mico 
 #' @description Conjunto de dados do teor de sódio (Na)  
 #'     em 25 amostras de tamanho 5 de um processo químico.
 #'

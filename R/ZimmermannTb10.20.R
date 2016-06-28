@@ -1,5 +1,5 @@
 #' @name ZimmermannTb10.20
-#' @title Nitrogênio, Irrigação e Preparo do Solo para Feijoeiro
+#' @title Nitrog\enc{ê}{e}nio, Irriga\enc{çã}{ca}o e Preparo do Solo para Feijoeiro
 #' @description Dados de um experimento conduzido em faixas, no
 #'     delineamento de blocos ao acaso, com duas repetições e parcelas
 #'     divididas. Se testaram, nas faixas horizontais, as lâminas de

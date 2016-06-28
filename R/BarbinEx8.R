@@ -1,5 +1,5 @@
 #' @name BarbinEx8
-#' @title Controle Químico do Damping-off em Eucalipto
+#' @title Controle Qu\enc{í}{i}mico do Damping-off em Eucalipto
 #' @description Os dados referem-se à altura (cm) de mudas de
 #'     \emph{E. saligna} Sm., de um ensaio inteiramente casualizado, de
 #'     controle químico de "Damping-off" conduzido por Krugner (1971).

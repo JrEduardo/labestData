@@ -1,5 +1,5 @@
 #' @name DiasEx10.4.8
-#' @title Teores de Matéria Seca de Gramineas em Função da Calagem
+#' @title Teores de Mat\enc{é}{e}ria Seca de Gramineas em Fun\enc{çã}{ca}o da Calagem
 #' @description Em um ensaio em delineamento de blocos casualizados foi
 #'     analisado o efeito de doses de calcário no teor de matéria seca
 #'     de gramíneas forrageiras. Foi utilizado esquema fatorial 3

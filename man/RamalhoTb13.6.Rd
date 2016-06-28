@@ -2,7 +2,7 @@
 % Please edit documentation in R/RamalhoTb13.6.R
 \name{RamalhoTb13.6}
 \alias{RamalhoTb13.6}
-\title{Produção de Grãos de Feijão e Teor de \eqn{P_{2}O_{5}}}
+\title{Produ\enc{çã}{ca}o de Gr\enc{ã}{a}os de Feij\enc{ã}{a}o e Teor de \eqn{P_{2}O_{5}}}
 \format{Um \code{data.frame} com 30 observações e 4 variáveis, em que
 
 \describe{

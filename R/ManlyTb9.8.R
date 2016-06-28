@@ -1,5 +1,5 @@
 #' @name ManlyTb9.8
-#' @title Bens de túmulos
+#' @title Bens de t\enc{ú}{u}mulos
 #'
 #' @description Conjunto de dados referentes a bens de túmulos de um 
 #' cemitério em Bannadi, nordeste da Tailândia. São registros de 

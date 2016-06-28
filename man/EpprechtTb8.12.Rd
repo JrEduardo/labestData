@@ -2,7 +2,7 @@
 % Please edit documentation in R/EpprechtTb8.12.R
 \name{EpprechtTb8.12}
 \alias{EpprechtTb8.12}
-\title{Controle de qualidade para a fração de não conformes.}
+\title{Controle de qualidade para a fra\enc{çã}{ca}o de n\enc{ã}{a}o conformes.}
 \format{Um \code{data.frame} com 20 observações e 1 variável, 
     em que
 

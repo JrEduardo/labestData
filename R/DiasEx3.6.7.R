@@ -1,5 +1,5 @@
 #' @name DiasEx3.6.7
-#' @title Percentual de Germinação de Lotes de Sementes de Tomate
+#' @title Percentual de Germina\enc{çã}{ca}o de Lotes de Sementes de Tomate
 #' @description Percentuais de germinação de 2 lotes de sementes de
 #'      tomate com 5 repetições com 100 sementes em cada repetição.
 #' @format Um \code{data.frame} com 2 observações e 1 variável, em que

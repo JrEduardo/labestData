@@ -1,5 +1,5 @@
 #' @name ZimmermannTb12.20
-#' @title Produtividade de Grãos de Cultivares de Feijão
+#' @title Produtividade de Gr\enc{ã}{a}os de Cultivares de Feij\enc{ã}{a}o
 #' @description Dados do ensaio 2 de um experimento em DBC de competição
 #'     de cultivares de feijão do grupo preto. Este ensaio foi realizado
 #'     no município de Santo Antonio de Goiás (GO). Houveram três

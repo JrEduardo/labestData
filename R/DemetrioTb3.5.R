@@ -1,5 +1,5 @@
 #' @name DemetrioTb3.5
-#' @title Dados Genéricos para Regressão Múltipla
+#' @title Dados Gen\enc{é}{e}ricos para Regress\enc{ã}{a}o M\enc{ú}{u}ltipla
 #' 
 #' @description Dados para exercício de análise via modelo de regressão
 #'     linear múltipla.

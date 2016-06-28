@@ -1,5 +1,5 @@
 #' @name RamalhoTb13.11
-#' @title Produção de Raízes de Mandioca
+#' @title Produ\enc{çã}{ca}o de Ra\enc{í}{i}zes de Mandioca
 #' @description Experimento envolvendo a produção de raízes de 20
 #'     genótipos parentais (clones) de mandioca e de suas respectivas
 #'     filhas.

@@ -2,7 +2,7 @@
 % Please edit documentation in R/BanzattoQd6.4.2.R
 \name{BanzattoQd6.4.2}
 \alias{BanzattoQd6.4.2}
-\title{Época de Plantio e Adubação Nitrogenada em Beterraba}
+\title{\enc{É}{E}poca de Plantio e Aduba\enc{çã}{ca}o Nitrogenada em Beterraba}
 \format{Um \code{data.frame} com 80 observações e 4 variáveis.
     \describe{
 

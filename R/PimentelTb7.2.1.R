@@ -1,5 +1,5 @@
 #' @name PimentelTb7.2.1
-#' @title Experimento Fatorial Sobre Adubação NPK na Produção de Milho
+#' @title Experimento Fatorial Sobre Aduba\enc{çã}{ca}o NPK na Produ\enc{çã}{ca}o de Milho
 #' @description Resultados da produção de milho em um experimento
 #'     com fatorial \eqn{2^{3}} dos fatores presentes na adubação
 #'     minenal (NPK) em delineamento de blocos casualizados.

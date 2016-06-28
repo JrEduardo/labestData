@@ -2,7 +2,7 @@
 % Please edit documentation in R/CharnetEx5.1.R
 \name{CharnetEx5.1}
 \alias{CharnetEx5.1}
-\title{Peso de Embriões de Galinha no Tempo}
+\title{Peso de Embri\enc{õ}{o}es de Galinha no Tempo}
 \format{Um \code{data.frame} com 2 colunas e 11 linhas.
 
 \describe{

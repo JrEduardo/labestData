@@ -2,7 +2,7 @@
 % Please edit documentation in R/PaulaTb4.14.R
 \name{PaulaTb4.14}
 \alias{PaulaTb4.14}
-\title{Ocorrência de Doença das Coronárias}
+\title{Ocorr\enc{ê}{e}ncia de Doen\enc{ç}{c}a das Coron\enc{á}{a}rias}
 \format{Um \code{data.frame} com 32 observações e 4 variáveis.
     \describe{
 

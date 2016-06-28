@@ -2,7 +2,7 @@
 % Please edit documentation in R/ZimmermannTb8.5.R
 \name{ZimmermannTb8.5}
 \alias{ZimmermannTb8.5}
-\title{Produção de Grãos de Feijão em Delineamento de Blocos Aumentos
+\title{Produ\enc{çã}{ca}o de Gr\enc{ã}{a}os de Feij\enc{ã}{a}o em Delineamento de Blocos Aumentos
     de Federer}
 \format{Um \code{data.frame} com 90 observações e 3 variáveis, em que
 

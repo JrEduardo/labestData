@@ -2,7 +2,7 @@
 % Please edit documentation in R/CostaEx5.7.2.R
 \name{CostaEx5.7.2}
 \alias{CostaEx5.7.2}
-\title{Densidade do Solo ao Longo do Perfil em Zonas de Compactação}
+\title{Densidade do Solo ao Longo do Perfil em Zonas de Compacta\enc{çã}{ca}o}
 \format{Um \code{data.frame} com 10 observações e 2 variáveis.
 
 \describe{

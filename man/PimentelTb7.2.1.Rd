@@ -2,7 +2,7 @@
 % Please edit documentation in R/PimentelTb7.2.1.R
 \name{PimentelTb7.2.1}
 \alias{PimentelTb7.2.1}
-\title{Experimento Fatorial Sobre Adubação NPK na Produção de Milho}
+\title{Experimento Fatorial Sobre Aduba\enc{çã}{ca}o NPK na Produ\enc{çã}{ca}o de Milho}
 \format{Um \code{data.frame} com 32 observações e 5 variáveis, em que
 
 \describe{

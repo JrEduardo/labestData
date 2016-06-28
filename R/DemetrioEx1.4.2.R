@@ -1,5 +1,5 @@
 #' @name DemetrioEx1.4.2
-#' @title Tempo de Irrigação de Solo
+#' @title Tempo de Irriga\enc{çã}{ca}o de Solo
 #' 
 #' @description Neste estudo foram medidos os tempos acumulados de
 #'     irrigação e as correspondentes medidas de infiltração acumulada

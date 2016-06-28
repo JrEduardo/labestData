@@ -2,7 +2,7 @@
 % Please edit documentation in R/ZimmermannTb3.5.R
 \name{ZimmermannTb3.5}
 \alias{ZimmermannTb3.5}
-\title{Fracionamento da Adubação na Produção de Grãos de Arroz
+\title{Fracionamento da Aduba\enc{çã}{ca}o na Produ\enc{çã}{ca}o de Gr\enc{ã}{a}os de Arroz
     Irrigado}
 \format{Um \code{data.frame} com 32 observações e 3 variáveis
 

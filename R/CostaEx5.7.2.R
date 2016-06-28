@@ -1,5 +1,5 @@
 #' @name CostaEx5.7.2
-#' @title Densidade do Solo ao Longo do Perfil em Zonas de Compactação
+#' @title Densidade do Solo ao Longo do Perfil em Zonas de Compacta\enc{çã}{ca}o
 #' @description Os dados são resultados de um estudo feito em zonas de
 #'     compactação e referem-se a valores de densidade do solo em
 #'     amostras retiradas de diferentes profundidades no perfil do solo.

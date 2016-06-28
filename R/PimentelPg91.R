@@ -1,5 +1,5 @@
 #' @name PimentelPg91
-#' @title Preparo com do solo na Produção de Milho
+#' @title Preparo com do solo na Produ\enc{çã}{ca}o de Milho
 #' @description Experimento em blocos casualizados realizado pelo
 #'     Engenheiro Agrônomo Duvilio Ometto, com 2 tratamentos (aradura
 #'     profunda e aradura superficial) e 6 blocos com 2 repetições cada.

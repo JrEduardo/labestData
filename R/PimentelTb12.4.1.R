@@ -1,5 +1,5 @@
 #' @name PimentelTb12.4.1
-#' @title Produção de Cana em Função do Teor de K do Solo
+#' @title Produ\enc{çã}{ca}o de Cana em Fun\enc{çã}{ca}o do Teor de K do Solo
 #' @description Experimento de produção de cana-de-açúcar em função do
 #'     teor de K trocável do solo, em miliequivalentes de terra fina
 #'     seca na estufa, onde a nutrição com potássio foi feita com

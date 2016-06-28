@@ -1,6 +1,6 @@
 #' @name CharnetEx8.4
 #'
-#' @title Peças Defeituosas por Produção Média e Tempo de Reparo
+#' @title Pe\enc{ç}{c}as Defeituosas por Produ\enc{çã}{ca}o M\enc{é}{e}dia e Tempo de Reparo
 #'
 #' @description Relação da quantidade de peças defeituosas por produção
 #'     média e tempo decorrido desde o último reparo da máquina.

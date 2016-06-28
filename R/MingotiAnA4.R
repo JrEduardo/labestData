@@ -1,5 +1,5 @@
 #' @name MingotiAnA4
-#' @title Dados relativos às empresas 
+#' @title Dados relativos \enc{à}{a}s empresas 
 #' @description Dados de 21 empresas, coletados aproximadamente 2 anos
 #'     antes da falência das mesmas, e de outras 25 empresas que não
 #'     faliram no período.

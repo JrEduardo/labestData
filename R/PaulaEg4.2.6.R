@@ -1,5 +1,5 @@
 #' @name PaulaEg4.2.6
-#' @title Perfis de Clientes de uma Loja nas Áreas de uma Cidade
+#' @title Perfis de Clientes de uma Loja nas \enc{Á}{A}reas de uma Cidade
 #' @description Dados apresentados em Neter et al. (1996) sobre um
 #'     estudo do perfil dos clientes de determinada loja oriundos de 110
 #'     áreas de uma cidade. O interesse do estudo é relacionar o número

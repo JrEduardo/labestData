@@ -1,5 +1,5 @@
 #' @name RamalhoEg11.10
-#' @title Produção de Grãos de Sorgo
+#' @title Produ\enc{çã}{ca}o de Gr\enc{ã}{a}os de Sorgo
 #' @description Experimento da avaliação da produção de 40 cultivares de sorgo
 #'     conduzido no delineamento alfa-látice.
 #' @format Um \code{data.frame} com 120 observações e 3 variáveis, em

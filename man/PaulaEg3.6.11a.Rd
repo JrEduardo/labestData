@@ -2,7 +2,7 @@
 % Please edit documentation in R/PaulaEg3.6.11a.R
 \name{PaulaEg3.6.11a}
 \alias{PaulaEg3.6.11a}
-\title{Exposição de besouros}
+\title{Exposi\enc{çã}{ca}o de besouros}
 \format{Um \code{data.frame} com 8 observações e 3 variáveis, em que
 
 \describe{

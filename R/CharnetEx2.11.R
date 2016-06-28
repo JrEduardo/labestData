@@ -1,6 +1,6 @@
 #' @name CharnetEx2.11
 #'
-#' @title Estudo do Efeito de Droga sobre o Ritmo Cardíaco
+#' @title Estudo do Efeito de Droga sobre o Ritmo Card\enc{í}{i}aco
 #'
 #' @description Estudo do efeito de droga sobre o ritmo cardíaco em um
 #'     paciente voluntário por um período de 6 dias.

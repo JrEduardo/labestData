@@ -1,5 +1,5 @@
 #' @name PaulaEx1.13.25
-#' @title Venda de Imóveis em Eugene, Estatdos Unidos
+#' @title Venda de Im\enc{ó}{o}veis em Eugene, Estatdos Unidos
 #' @description Dados de um estudo cujo objetivo foi tentar prever o
 #'     preço de venda de um imóvel dada sua área total. Foram 50 imóveis
 #'     da região de Eugene, Estados Unidos com valores de área e preço

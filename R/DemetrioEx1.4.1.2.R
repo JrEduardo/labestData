@@ -1,5 +1,5 @@
 #' @name DemetrioEx1.4.1.2
-#' @title Peso Médio de Galinhas
+#' @title Peso M\enc{é}{e}dio de Galinhas
 #' 
 #' @description Foi mensurado o peso médio e consumo de alimentos de 50
 #'     galinhas para 10 linhagens \emph{White Leghorn}.

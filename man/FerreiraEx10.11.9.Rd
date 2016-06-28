@@ -2,7 +2,7 @@
 % Please edit documentation in R/FerreiraEx10.11.9.R
 \name{FerreiraEx10.11.9}
 \alias{FerreiraEx10.11.9}
-\title{Amostra de uma População Normal Trivariada}
+\title{Amostra de uma Popula\enc{çã}{ca}o Normal Trivariada}
 \format{Um \code{data.frame} com 30 observações e 3 variáveis, em que
 
 \describe{

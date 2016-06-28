@@ -1,5 +1,5 @@
 #' @name VieiraTb7.2
-#' @title Números de Ovos de Poedeiras em Função do Estilo Musical
+#' @title N\enc{ú}{u}meros de Ovos de Poedeiras em Fun\enc{çã}{ca}o do Estilo Musical
 #' @description Dados que refere-se ao número de ovos por poedeira 35
 #'     dias após o início do experimento em função do estilo musical do
 #'     som ambiente: música sertaneja (a), música clássica (b) e música

@@ -1,5 +1,5 @@
 #' @name DemetrioTb2.9
-#' @title Dados Genéricos para Regressão Simples
+#' @title Dados Gen\enc{é}{e}ricos para Regress\enc{ã}{a}o Simples
 #' 
 #' @description Dados para exercício analítico, com o objetivo de
 #'     estimar os parâmetros de forma pontual e intervalar, realizar a

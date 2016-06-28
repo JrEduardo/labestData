@@ -1,5 +1,5 @@
 #' @name FerreiraEg7.1
-#' @title Avaliação de Exercícios Físicos sobre o Estresse Oxidativo
+#' @title Avalia\enc{çã}{ca}o de Exerc\enc{í}{i}cios F\enc{í}{i}sicos sobre o Estresse Oxidativo
 #' @description Dados observados de um estudo realizado no laboratório
 #'     de Bioquímica Clínica do Departamento de Análises Clínicas e
 #'     Toxicológicas da Universidade Federal de Alfenas (UNIFAL), no

@@ -2,7 +2,7 @@
 % Please edit documentation in R/RamalhoTb12.8.R
 \name{RamalhoTb12.8}
 \alias{RamalhoTb12.8}
-\title{Componentes da Produção de Linhagens de Feijão}
+\title{Componentes da Produ\enc{çã}{ca}o de Linhagens de Feij\enc{ã}{a}o}
 \format{Um \code{data.frame} com 20 observações e 5 variáveis, em que
 
 \describe{

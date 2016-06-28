@@ -1,5 +1,5 @@
 #' @name PaulaTb3.20
-#' @title Aplicação de inseticidas em insetos
+#' @title Aplica\enc{çã}{ca}o de inseticidas em insetos
 #' @description Dados de um experimento em que três
 #'    inseticidas foram aplicados em determinada espécie de inseto, sendo
 #'    verificado o número de sobreviventes para cada dose aplicada. 

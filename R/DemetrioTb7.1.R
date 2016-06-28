@@ -1,5 +1,5 @@
 #' @name DemetrioTb7.1
-#' @title Produção de Milho por Adubo
+#' @title Produ\enc{çã}{ca}o de Milho por Adubo
 #' 
 #' @description Os dados referem-se a produções de milho, em kg/parcela,
 #'     de um experimento casualizado em blocos de adubação com 

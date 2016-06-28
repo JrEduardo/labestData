@@ -2,7 +2,7 @@
 % Please edit documentation in R/FerreiraEg5.1.R
 \name{FerreiraEg5.1}
 \alias{FerreiraEg5.1}
-\title{Teores de Areia e Argila em Solo na Amazônia}
+\title{Teores de Areia e Argila em Solo na Amaz\enc{ô}{o}nia}
 \format{Um \code{data.frame} com 30 observações e 2 variáveis, em que
 
 \describe{

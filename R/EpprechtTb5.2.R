@@ -1,5 +1,5 @@
 #' @name EpprechtTb5.2
-#' @title Medidas de peças em uma linha de produção
+#' @title Medidas de pe\enc{ç}{c}as em uma linha de produ\enc{çã}{ca}o
 #' @description Dados referentes às medidas de peças de uma linha de
 #'     produção. O objetivo é analisar a repetitividade e a 
 #'     reprodutividade de um micrômetro com leitura milesimal, usado na

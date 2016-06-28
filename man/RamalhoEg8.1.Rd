@@ -2,7 +2,7 @@
 % Please edit documentation in R/RamalhoEg8.1.R
 \name{RamalhoEg8.1}
 \alias{RamalhoEg8.1}
-\title{Produção de Grãos em Cultivares de Feijão}
+\title{Produ\enc{çã}{ca}o de Gr\enc{ã}{a}os em Cultivares de Feij\enc{ã}{a}o}
 \format{Um \code{data.frame} com 60 observações e 4 variáveis, em que
 
 \describe{

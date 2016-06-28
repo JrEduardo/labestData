@@ -2,7 +2,7 @@
 % Please edit documentation in R/PaulaEg4.2.6.R
 \name{PaulaEg4.2.6}
 \alias{PaulaEg4.2.6}
-\title{Perfis de Clientes de uma Loja nas Áreas de uma Cidade}
+\title{Perfis de Clientes de uma Loja nas \enc{Á}{A}reas de uma Cidade}
 \format{Um \code{data.frame} com 110 observações e 6 variáveis.
     \describe{
 

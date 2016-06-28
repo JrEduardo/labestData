@@ -1,5 +1,5 @@
 #' @name EpprechtTb6.10
-#' @title Concentração de um Processo Químico
+#' @title Concentra\enc{çã}{ca}o de um Processo Qu\enc{í}{i}mico
 #' @description Dados referentes à concentração de um processo químico
 #'     registrada a cada 3 minutos.
 #' 

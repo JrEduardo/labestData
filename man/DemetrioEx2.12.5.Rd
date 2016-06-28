@@ -2,7 +2,7 @@
 % Please edit documentation in R/DemetrioEx2.12.5.R
 \name{DemetrioEx2.12.5}
 \alias{DemetrioEx2.12.5}
-\title{Dados Genéricos para Regressão Segmentada}
+\title{Dados Gen\enc{é}{e}ricos para Regress\enc{ã}{a}o Segmentada}
 \format{Um \code{data.frame} de 5 linhas e 2 colunas.
 
 \describe{

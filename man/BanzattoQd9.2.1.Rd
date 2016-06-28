@@ -2,7 +2,7 @@
 % Please edit documentation in R/BanzattoQd9.2.1.R
 \name{BanzattoQd9.2.1}
 \alias{BanzattoQd9.2.1}
-\title{Produção de Variedades de Milho}
+\title{Produ\enc{çã}{ca}o de Variedades de Milho}
 \format{Um \code{data.frame} com 24 observações e 6 variáveis.
 
 \describe{

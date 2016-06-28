@@ -1,5 +1,5 @@
 #' @name ZimmermannTb16.3
-#' @title Teores de Matéria Orgânica de Solos de Várzea
+#' @title Teores de Mat\enc{é}{e}ria Org\enc{â}{a}nica de Solos de V\enc{á}{a}rzea
 #' @description Teores de matéria orgânica de solos aluviais e gely
 #'     húmicos.
 #' @format Um \code{data.frame} com 14 observações e 2 variáveis, em que

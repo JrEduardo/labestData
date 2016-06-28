@@ -2,7 +2,7 @@
 % Please edit documentation in R/MingotiAnA4.R
 \name{MingotiAnA4}
 \alias{MingotiAnA4}
-\title{Dados relativos às empresas}
+\title{Dados relativos \enc{à}{a}s empresas}
 \format{Um \code{data.frame} com 46 observações e 6 variáveis, em que
 
 \describe{

@@ -1,5 +1,5 @@
 #' @name RamalhoEg13.2
-#' @title Produção de Grãos de Milho em Consórcio com Feijão.
+#' @title Produ\enc{çã}{ca}o de Gr\enc{ã}{a}os de Milho em Cons\enc{ó}{o}rcio com Feij\enc{ã}{a}o.
 #' @description Dados referente ao experimento conduzido por Rezende et
 #'     al. (1994), envolvendo 4 cultivares de milho consorciadas com 3
 #'     de feijão.

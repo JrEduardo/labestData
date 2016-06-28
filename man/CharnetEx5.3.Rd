@@ -2,7 +2,7 @@
 % Please edit documentation in R/CharnetEx5.3.R
 \name{CharnetEx5.3}
 \alias{CharnetEx5.3}
-\title{Precisão de um Velocímetro}
+\title{Precis\enc{ã}{a}o de um Veloc\enc{í}{i}metro}
 \format{Um \code{data.frame} com 2 colunas e 8 linhas.
 
 \describe{

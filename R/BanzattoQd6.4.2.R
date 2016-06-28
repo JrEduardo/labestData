@@ -1,5 +1,5 @@
 #' @name BanzattoQd6.4.2
-#' @title Época de Plantio e Adubação Nitrogenada em Beterraba
+#' @title \enc{É}{E}poca de Plantio e Aduba\enc{çã}{ca}o Nitrogenada em Beterraba
 #' @description Experimento em delineamento de blocos casualizados cujos
 #'     níveis dos fatores, época de plantio e nitrogênio, foram
 #'     casualizados em faixas. A variável reposta observada foi a

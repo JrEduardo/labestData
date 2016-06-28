@@ -1,5 +1,5 @@
 #' @name BanzattoQd6.3.4
-#' @title Épocas de Plantio e Colheita na Produção de Beterraba
+#' @title \enc{É}{E}pocas de Plantio e Colheita na Produ\enc{çã}{ca}o de Beterraba
 #' @description Experimento estudar o efeito de datas de plantio, épocas
 #'     de colheita e aplicação de inseticidas na produção de
 #'     beterraba. Os tratamentos foi arranjados em parcelas

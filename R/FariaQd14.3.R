@@ -1,6 +1,6 @@
 #' @name FariaQd14.3
-#' @title Adubação com Fósforo na Produção de Matéria Seca de Parte
-#'     Aérea de Milho
+#' @title Aduba\enc{çã}{ca}o com F\enc{ó}{o}sforo na Produ\enc{çã}{ca}o de Mat\enc{é}{e}ria Seca de Parte
+#'     A\enc{é}{e}rea de Milho
 #' @description Os dados abaixo são provenientes de um ensaio
 #'     experimental realizado em casa de vegetação, montado no
 #'     delineamento em blocos casualizados, com 5 repetições, para

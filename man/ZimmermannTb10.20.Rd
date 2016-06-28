@@ -2,7 +2,7 @@
 % Please edit documentation in R/ZimmermannTb10.20.R
 \name{ZimmermannTb10.20}
 \alias{ZimmermannTb10.20}
-\title{Nitrogênio, Irrigação e Preparo do Solo para Feijoeiro}
+\title{Nitrog\enc{ê}{e}nio, Irriga\enc{çã}{ca}o e Preparo do Solo para Feijoeiro}
 \format{Um \code{data.frame} com 72 observações e 5 variáveis
 
 \describe{

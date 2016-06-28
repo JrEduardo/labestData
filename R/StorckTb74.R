@@ -1,6 +1,6 @@
 #' @name StorckTb74
 #' @aliases StorckTb88
-#' @title Época e Densidade de Semeadura na Produção de Milho
+#' @title \enc{É}{E}poca e Densidade de Semeadura na Produ\enc{çã}{ca}o de Milho
 #' @description Resultados ficitícios de um experimento fatorial 3
 #'     \eqn{\times} 5 no delineamento de blocos ao acaso, com arranjo
 #'     dos fatores em parcela subdividida, que estudou o efeito da época

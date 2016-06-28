@@ -2,7 +2,7 @@
 % Please edit documentation in R/ManlyTb11.5.R
 \name{ManlyTb11.5}
 \alias{ManlyTb11.5}
-\title{Votações de parlamentares}
+\title{Vota\enc{çõ}{co}es de parlamentares}
 \format{Uma matriz com os números de votos discordantes entre 15
 parlamentares de Nova Jersey.}
 \source{

@@ -1,5 +1,5 @@
 #' @name DiasEg10.2
-#' @title Percentual de Germinação
+#' @title Percentual de Germina\enc{çã}{ca}o
 #' @description Experimento em delineamento inteiramente casualizado
 #'     onde são avaliados os percentuais de germinação de sementes de 2
 #'     cultivares, submetidas a 6 tempos de condicionamento osmótico, em

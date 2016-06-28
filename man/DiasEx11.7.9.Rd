@@ -2,7 +2,7 @@
 % Please edit documentation in R/DiasEx11.7.9.R
 \name{DiasEx11.7.9}
 \alias{DiasEx11.7.9}
-\title{Ensaios de Competição de Cultivares de Milho}
+\title{Ensaios de Competi\enc{çã}{ca}o de Cultivares de Milho}
 \format{Um \code{data.frame} com 90 observações e 4 variáveis, em que
 
 \describe{

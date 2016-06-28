@@ -1,5 +1,5 @@
 #' @name ZimmermannTb11.1
-#' @title Espaçamento e Densidade de Plantio na Produção de Arroz
+#' @title Espa\enc{ç}{c}amento e Densidade de Plantio na Produ\enc{çã}{ca}o de Arroz
 #' @description Dados de um experimento fatorial \eqn{2^3}, com
 #'     confundimento total da interação dupla. O ensaio foi conduzido em
 #'     dois blocos ao acaso de tamanho 4 dentro de quatro repetições, em

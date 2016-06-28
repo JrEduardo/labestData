@@ -2,7 +2,7 @@
 % Please edit documentation in R/DiasEg7.1.R
 \name{DiasEg7.1}
 \alias{DiasEg7.1}
-\title{Luz e Água na Produção de Tomateiros}
+\title{Luz e \enc{Á}{A}gua na Produ\enc{çã}{ca}o de Tomateiros}
 \format{Um \code{data.frame} com 18 observações e 3 variáveis, em que
 
 \describe{

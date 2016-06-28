@@ -1,5 +1,5 @@
 #' @name DiasEg6.2
-#' @title Adubação NPK na Produção de Feijão
+#' @title Aduba\enc{çã}{ca}o NPK na Produ\enc{çã}{ca}o de Feij\enc{ã}{a}o
 #' @description Experimento instalado em delineamento de blocos
 #'     casualizados para estudar o efeito da adubação NPK na
 #'     produtividade do feijoeiro.

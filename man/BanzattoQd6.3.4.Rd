@@ -2,7 +2,7 @@
 % Please edit documentation in R/BanzattoQd6.3.4.R
 \name{BanzattoQd6.3.4}
 \alias{BanzattoQd6.3.4}
-\title{Épocas de Plantio e Colheita na Produção de Beterraba}
+\title{\enc{É}{E}pocas de Plantio e Colheita na Produ\enc{çã}{ca}o de Beterraba}
 \format{Um \code{data.frame} com 72 observações e 5 variáveis.
     \describe{
 

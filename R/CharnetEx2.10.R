@@ -1,6 +1,6 @@
 #' @name CharnetEx2.10
 #'
-#' @title Estudo do Efeito do Carbono na Resistência Elétrica
+#' @title Estudo do Efeito do Carbono na Resist\enc{ê}{e}ncia El\enc{é}{e}trica
 #'
 #' @description Estudo sobre o efeito do carbono contido, em fios de aço
 #'     em resistência elétrica, na temperatura de 20ºC.

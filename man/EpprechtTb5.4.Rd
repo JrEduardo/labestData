@@ -2,7 +2,7 @@
 % Please edit documentation in R/EpprechtTb5.4.R
 \name{EpprechtTb5.4}
 \alias{EpprechtTb5.4}
-\title{Capacidade de medição de um relógio apalpador}
+\title{Capacidade de medi\enc{çã}{ca}o de um rel\enc{ó}{o}gio apalpador}
 \format{Um \code{data.frame} com 40 observações e 2 variáveis, 
     em que
 

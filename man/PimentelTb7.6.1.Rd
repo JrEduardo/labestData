@@ -2,8 +2,8 @@
 % Please edit documentation in R/PimentelTb7.6.1.R
 \name{PimentelTb7.6.1}
 \alias{PimentelTb7.6.1}
-\title{Experimento Fatorial Com Confunfimento de Adubação em
-    Cana-de-açúcar}
+\title{Experimento Fatorial Com Confunfimento de Aduba\enc{çã}{ca}o em
+    Cana-de-a\enc{çú}{cu}car}
 \format{Um \code{data.frame} com 54 observações e 6 variáveis, em que
 
 \describe{

@@ -2,7 +2,7 @@
 % Please edit documentation in R/ZimmermannTb4.4.R
 \name{ZimmermannTb4.4}
 \alias{ZimmermannTb4.4}
-\title{Competição de Cultivares de Feijão}
+\title{Competi\enc{çã}{ca}o de Cultivares de Feij\enc{ã}{a}o}
 \format{Um \code{data.frame} com 60 observações e 3 variáveis
 
 \describe{

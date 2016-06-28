@@ -2,7 +2,7 @@
 % Please edit documentation in R/MingotiTb3.1.R
 \name{MingotiTb3.1}
 \alias{MingotiTb3.1}
-\title{Receitas e patrimônio de empresas}
+\title{Receitas e patrim\enc{ô}{o}nio de empresas}
 \format{Um \code{data.frame} com 12 observações e 4 variáveis, em que
 
 \describe{

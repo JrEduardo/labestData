@@ -2,7 +2,7 @@
 % Please edit documentation in R/PaulaEx2.10.19.R
 \name{PaulaEx2.10.19}
 \alias{PaulaEx2.10.19}
-\title{Estudo Sobre Leucemia e Característica Morfológica nas Células
+\title{Estudo Sobre Leucemia e Caracter\enc{í}{i}stica Morfol\enc{ó}{o}gica nas C\enc{é}{e}lulas
     Brancas}
 \format{Um \code{data.frame} com 32 observações e 3 variáveis.
 \describe{

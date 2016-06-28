@@ -2,7 +2,7 @@
 % Please edit documentation in R/VieiraPg50.2.R
 \name{VieiraPg50.2}
 \alias{VieiraPg50.2}
-\title{Calibração de Voltrímetros}
+\title{Calibra\enc{çã}{ca}o de Voltr\enc{í}{i}metros}
 \format{Um \code{data.frame} com 20 observações e 2 variáveis, em que
 
 \describe{

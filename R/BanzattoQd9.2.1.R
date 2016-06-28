@@ -1,5 +1,5 @@
 #' @name BanzattoQd9.2.1
-#' @title Produção de Variedades de Milho
+#' @title Produ\enc{çã}{ca}o de Variedades de Milho
 #' @description Resultados de um experimento para avaliação da produção
 #'     de cultivares de milho. O experimento foi instalado em
 #'     delineamento de blocos casualizados. Além da produção em cada

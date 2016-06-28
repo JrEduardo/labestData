@@ -1,6 +1,6 @@
 #' @name CharnetEg9.4
 #'
-#' @title Um Conjunto de Dados Genérico para Regressão Linear Múltipla
+#' @title Um Conjunto de Dados Gen\enc{é}{e}rico para Regress\enc{ã}{a}o Linear M\enc{ú}{u}ltipla
 #'
 #' @description Um conjunto de dados qualquer para exercício de ajuste
 #'     de um modelo de regressão linear múltipla onde temos uma variável

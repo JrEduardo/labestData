@@ -1,5 +1,5 @@
 #' @name BarbinPg137
-#' @title Adubação NPK na Produção de Algodão Herbáceo
+#' @title Aduba\enc{çã}{ca}o NPK na Produ\enc{çã}{ca}o de Algod\enc{ã}{a}o Herb\enc{á}{a}ceo
 #' @description Produção de algodão herbáceo de um ensaio de adubação
 #'     NPK \eqn{3^3} com confundimento (grupo W) de dois graus de
 #'     liberdade da interação tripla. Cada combinação NPK teve duas

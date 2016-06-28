@@ -1,5 +1,5 @@
 #' @name DemetrioEx5.4.2
-#' @title Estudo Físico Químico de Méis Silvestres
+#' @title Estudo F\enc{í}{i}sico Qu\enc{í}{i}mico de M\enc{é}{e}is Silvestres
 #' 
 #' @description Análise físico química de méis silvestres, produzidos
 #'     por \emph{Apis mellifera} em 1999, provenientes de 94 localidades

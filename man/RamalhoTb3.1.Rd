@@ -2,7 +2,7 @@
 % Please edit documentation in R/RamalhoTb3.1.R
 \name{RamalhoTb3.1}
 \alias{RamalhoTb3.1}
-\title{Número de nematóides por vasos}
+\title{N\enc{ú}{u}mero de nemat\enc{ó}{o}ides por vasos}
 \format{data.frame com 16 observações e 3 variáveis, em que
 
 \describe{

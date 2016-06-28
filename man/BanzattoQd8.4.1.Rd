@@ -2,7 +2,7 @@
 % Please edit documentation in R/BanzattoQd8.4.1.R
 \name{BanzattoQd8.4.1}
 \alias{BanzattoQd8.4.1}
-\title{Grupo de Ensaios de Competição de Genótipos de Cebola}
+\title{Grupo de Ensaios de Competi\enc{çã}{ca}o de Gen\enc{ó}{o}tipos de Cebola}
 \format{Um \code{data.frame} com 60 observações e 3 variáveis.
 
 \describe{

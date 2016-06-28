@@ -2,7 +2,7 @@
 % Please edit documentation in R/CharnetEx4.10.R
 \name{CharnetEx4.10}
 \alias{CharnetEx4.10}
-\title{Custo de Produção por Tamanho do Lote}
+\title{Custo de Produ\enc{çã}{ca}o por Tamanho do Lote}
 \format{Um \code{data.frame} com 2 colunas e 10 linhas.
 
 \describe{

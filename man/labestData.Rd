@@ -4,7 +4,7 @@
 \name{labestData}
 \alias{labestData}
 \alias{labestData-package}
-\title{Biblioteca de Dados para Ensino de Estatística}
+\title{Biblioteca de Dados para Ensino de Estat\enc{í}{i}stica}
 \description{
 O labestData é um projeto coletivo do PET Estatística
     UFPR para desenvolver um pacote R com conjuntos de dados para

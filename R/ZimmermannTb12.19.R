@@ -1,5 +1,5 @@
 #' @name ZimmermannTb12.19
-#' @title Produtividade de feijão em ensaio de competição de cultivares
+#' @title Produtividade de feij\enc{ã}{a}o em ensaio de competi\enc{çã}{ca}o de cultivares
 #' @description Dados do ensaio 1 de um experimento em DBC de competição
 #'     de cultivares de feijão do grupo preto. Este ensaio foi realizado
 #'     no município de Senador Canedo (GO). Houveram três cultivares

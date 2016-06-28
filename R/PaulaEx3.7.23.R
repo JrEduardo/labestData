@@ -1,5 +1,5 @@
 #' @name PaulaEx3.7.23
-#' @title Incidência de Dengue e Fatores Socio-econômicos
+#' @title Incid\enc{ê}{e}ncia de Dengue e Fatores Socio-econ\enc{ô}{o}micos
 #' @description Os dados provém de um estudo para investigar a
 #'     incidência de dengue numa determinanda cidade da costa mexicana.
 #'

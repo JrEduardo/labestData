@@ -1,5 +1,5 @@
 #' @name VieiraEx7.5
-#' @title Experimento Com Um Fator e Repetição Dentro dos Blocos
+#' @title Experimento Com Um Fator e Repeti\enc{çã}{ca}o Dentro dos Blocos
 #' @description Dados de um experimento em delineamento de blocos
 #'     casualizados com repetição de tratamentos dentro dos blocos.
 #' @format Um \code{data.frame} com 12 observações e 3 variáveis, em que

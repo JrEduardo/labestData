@@ -1,5 +1,5 @@
 #' @name ZimmermannTb7.1
-#' @title Ensaio de Competição de Cultivares em Reticulado Quadrado
+#' @title Ensaio de Competi\enc{çã}{ca}o de Cultivares em Reticulado Quadrado
 #' @description Experimento feito pelos pesquisadores Orlando Peixoto
 #'     Moraes, Emilio da Maia de Castro e Flavio Breseghello, da Embrapa
 #'     Arroz e Feijão, na fazenda Capivara em Santo Antônio de Goiás. O

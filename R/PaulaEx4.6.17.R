@@ -1,5 +1,5 @@
 #' @name PaulaEx4.6.17
-#' @title Avaliação de Detergentes
+#' @title Avalia\enc{çã}{ca}o de Detergentes
 #' @description Dados resultantes de uma pesquisa em que 1008 pessoas
 #'     receberam duas marcas de detergente, \code{X} e \code{M}, e
 #'     posteriormente responderam a perguntas sobre a temperatura da

@@ -2,7 +2,7 @@
 % Please edit documentation in R/CharnetEg9.4.R
 \name{CharnetEg9.4}
 \alias{CharnetEg9.4}
-\title{Um Conjunto de Dados Genérico para Regressão Linear Múltipla}
+\title{Um Conjunto de Dados Gen\enc{é}{e}rico para Regress\enc{ã}{a}o Linear M\enc{ú}{u}ltipla}
 \format{Um \code{data.frame} com 8 colunas e 36 linhas.
 
 \describe{

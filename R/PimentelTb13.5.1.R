@@ -1,5 +1,5 @@
 #' @name PimentelTb13.5.1
-#' @title Grupo de Experimentos de Adubação de Cana-de-açúcar
+#' @title Grupo de Experimentos de Aduba\enc{çã}{ca}o de Cana-de-a\enc{çú}{cu}car
 #' @description Conjunto de 38 ensaios fatoriais de \eqn{3^{3}} com N, P
 #'     e K, em cana-de-açúçar, com dados de cana-planta e soca, obtidos
 #'     por Strauss (1951). O nutriente foi aplicado nas doses de zero,

@@ -1,5 +1,5 @@
 #' @name PaulaTb1.6
-#' @title Anos de Estudo e a Renda Média Mensal
+#' @title Anos de Estudo e a Renda M\enc{é}{e}dia Mensal
 #' @description Conjunto de dados que apresenta para  cada unidade da
 #'     federação o número médio de anos de estudo e a renda média mensal
 #'     do chefe ou chefes de domicílio.

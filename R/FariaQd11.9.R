@@ -1,5 +1,5 @@
 #' @name FariaQd11.9
-#' @title Qualidade de Mudas em Função do Recipiente da Espécie
+#' @title Qualidade de Mudas em Fun\enc{çã}{ca}o do Recipiente da Esp\enc{é}{e}cie
 #' @description Experimento montado no delineamento inteiramente
 #'     casualizado cujo resultado é a qualidade de mudas em função do
 #'     recipiente utilizado e para cada espécie cultiavda.

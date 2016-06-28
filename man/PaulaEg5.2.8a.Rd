@@ -2,7 +2,7 @@
 % Please edit documentation in R/PaulaEg5.2.8a.R
 \name{PaulaEg5.2.8a}
 \alias{PaulaEg5.2.8a}
-\title{Número de Ácaros em Placas de Esterco de Gado}
+\title{N\enc{ú}{u}mero de \enc{Á}{A}caros em Placas de Esterco de Gado}
 \format{Um \code{data.frame} com 102 observações e 8 variáveis.
 \describe{
 

@@ -1,5 +1,5 @@
 #' @name EpprechtTb5.9
-#' @title Medidas de peças de uma linha de produção
+#' @title Medidas de pe\enc{ç}{c}as de uma linha de produ\enc{çã}{ca}o
 #' @description Após a aquisição de um equipamento de medição mais 
 #'     sofisticado que o anterior, foi realizado um estudo de 
 #'     repetitividade e reprodutividade do processo de medida com o 

@@ -2,7 +2,7 @@
 % Please edit documentation in R/PimentelTb17.4.1.R
 \name{PimentelTb17.4.1}
 \alias{PimentelTb17.4.1}
-\title{Grupo de Ensaios de Variedades de Cana-de-açúcar}
+\title{Grupo de Ensaios de Variedades de Cana-de-a\enc{çú}{cu}car}
 \format{Um \code{data.frame} com 53 observações e 4 variáveis, em que
 
 \describe{

@@ -2,7 +2,7 @@
 % Please edit documentation in R/CostaEx5.7.3.R
 \name{CostaEx5.7.3}
 \alias{CostaEx5.7.3}
-\title{Efeito de Adubação Nitrogenada na Cultura do Milho}
+\title{Efeito de Aduba\enc{çã}{ca}o Nitrogenada na Cultura do Milho}
 \format{Um \code{data.frame} com 15 observações e 3 variáveis.
 
 \describe{

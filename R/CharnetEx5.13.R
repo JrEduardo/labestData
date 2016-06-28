@@ -1,6 +1,6 @@
 #' @name CharnetEx5.13
 #'
-#' @title Danos aos Pulmões em Pacientes com Enfisema
+#' @title Danos aos Pulm\enc{õ}{o}es em Pacientes com Enfisema
 #'
 #' @description Danos aos pulmões em 16 pacientes com enfisema pulmonar
 #'     conforme o número de anos que ele fumou.

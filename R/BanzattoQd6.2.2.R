@@ -1,5 +1,5 @@
 #' @name BanzattoQd6.2.2
-#' @title Espaçamento de Plantio na Produção de Cana-de-açúcar
+#' @title Espa\enc{ç}{c}amento de Plantio na Produ\enc{çã}{ca}o de Cana-de-a\enc{çú}{cu}car
 #' @description O experimento avaliou o efeito do espaçamento de plantio
 #'     na produção de variedades de cana-de-açúcar. Para estudar os dois
 #'     fatores, espaçamento e variedades, considerou-se o delineamento

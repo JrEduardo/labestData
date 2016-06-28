@@ -2,7 +2,7 @@
 % Please edit documentation in R/PimentelEg6.2.R
 \name{PimentelEg6.2}
 \alias{PimentelEg6.2}
-\title{Ensaio de Competição de Variedades de Cana-de-açúcar}
+\title{Ensaio de Competi\enc{çã}{ca}o de Variedades de Cana-de-a\enc{çú}{cu}car}
 \format{Um \code{data.frame} com 25 observações e 4 variáveis, em que
 
 \describe{

@@ -2,7 +2,7 @@
 % Please edit documentation in R/DemetrioTb2.9.R
 \name{DemetrioTb2.9}
 \alias{DemetrioTb2.9}
-\title{Dados Genéricos para Regressão Simples}
+\title{Dados Gen\enc{é}{e}ricos para Regress\enc{ã}{a}o Simples}
 \format{Um \code{data.frame} de 10 linhas e 2 colunas.
 
 \describe{

@@ -2,7 +2,7 @@
 % Please edit documentation in R/DemetrioEx6.5.2.R
 \name{DemetrioEx6.5.2}
 \alias{DemetrioEx6.5.2}
-\title{Dados Genéricos Simulados para Regressão Linear Múltipla}
+\title{Dados Gen\enc{é}{e}ricos Simulados para Regress\enc{ã}{a}o Linear M\enc{ú}{u}ltipla}
 \format{Um \code{data.frame} de 5 linhas e 4 colunas.
 
 \describe{

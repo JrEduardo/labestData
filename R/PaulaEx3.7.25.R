@@ -1,5 +1,5 @@
 #' @name PaulaEx3.7.25
-#' @title Pulsação Alterial em Repouso em Homens que Fuman
+#' @title Pulsa\enc{çã}{ca}o Alterial em Repouso em Homens que Fuman
 #' @description Os dados provém de uma amostra de 92 homens adultos que
 #'     foram questionados sobre o hábito de fumar. Neles foi medido peso
 #'     e pulsação, classificada como normal e alta. Deseja-se saber se a

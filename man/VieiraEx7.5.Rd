@@ -2,7 +2,7 @@
 % Please edit documentation in R/VieiraEx7.5.R
 \name{VieiraEx7.5}
 \alias{VieiraEx7.5}
-\title{Experimento Com Um Fator e Repetição Dentro dos Blocos}
+\title{Experimento Com Um Fator e Repeti\enc{çã}{ca}o Dentro dos Blocos}
 \format{Um \code{data.frame} com 12 observações e 3 variáveis, em que
 
 \describe{

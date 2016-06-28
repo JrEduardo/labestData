@@ -2,7 +2,7 @@
 % Please edit documentation in R/RamalhoEx7.10.R
 \name{RamalhoEx7.10}
 \alias{RamalhoEx7.10}
-\title{Produção de Arroz em 18 Populações na F2}
+\title{Produ\enc{çã}{ca}o de Arroz em 18 Popula\enc{çõ}{co}es na F2}
 \format{Um \code{data.frame} com 600 observações e 4 variáveis, em
     que
 

@@ -2,7 +2,7 @@
 % Please edit documentation in R/PaulaEx3.7.24.R
 \name{PaulaEx3.7.24}
 \alias{PaulaEx3.7.24}
-\title{Cor dos Olhos dos Filhos em Função dos Pais e Avós}
+\title{Cor dos Olhos dos Filhos em Fun\enc{çã}{ca}o dos Pais e Av\enc{ó}{o}s}
 \format{Um \code{data.frame} com 78 observações e 4 variáveis, em que
 
 \describe{

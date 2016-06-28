@@ -2,7 +2,7 @@
 % Please edit documentation in R/VieiraEx8.3.R
 \name{VieiraEx8.3}
 \alias{VieiraEx8.3}
-\title{Experimento Em Blocos Casualizados Com Repetições Nos Blocos}
+\title{Experimento Em Blocos Casualizados Com Repeti\enc{çõ}{co}es Nos Blocos}
 \format{Um \code{data.frame} com 24 observações e 3 variáveis, em que
 
 \describe{

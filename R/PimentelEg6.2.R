@@ -1,5 +1,5 @@
 #' @name PimentelEg6.2
-#' @title Ensaio de Competição de Variedades de Cana-de-açúcar
+#' @title Ensaio de Competi\enc{çã}{ca}o de Variedades de Cana-de-a\enc{çú}{cu}car
 #' @description Experimento de competição de variedades de
 #'     cana-de-açúcar no qual foram usadas cinco variedades dispostas
 #'     em um delineamento quadrado latino 5 \eqn{\times} 5.

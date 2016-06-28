@@ -1,6 +1,6 @@
 #' @name CharnetEx10.7
 #'
-#' @title Plantação de Variedades de Trigo
+#' @title Planta\enc{çã}{ca}o de Variedades de Trigo
 #'
 #' @description Experimento com 4 variedades de trigo onde foi observado
 #'     a precipitação pluviométrica, a concentração de fertilizante e a

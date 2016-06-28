@@ -2,7 +2,7 @@
 % Please edit documentation in R/DiasEx9.6.10.R
 \name{DiasEx9.6.10}
 \alias{DiasEx9.6.10}
-\title{Ensaio de Competição de Cultivares de Café}
+\title{Ensaio de Competi\enc{çã}{ca}o de Cultivares de Caf\enc{é}{e}}
 \format{Um \code{data.frame} com 25 observações e 4 variáveis, em que
 
 \describe{

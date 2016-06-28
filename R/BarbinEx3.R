@@ -1,5 +1,5 @@
 #' @name BarbinEx3
-#' @title Podridão Mole de Manga em Função do Tratamento Térmico
+#' @title Podrid\enc{ã}{a}o Mole de Manga em Fun\enc{çã}{ca}o do Tratamento T\enc{é}{e}rmico
 #' @description Os dados referem-se as notas (médias de 6 frutos)
 #'     atribuídas a podridão mole de manga (fruto) sob diferentes
 #'     tratamentos térmicos, de um experimento inteiramente ao acaso

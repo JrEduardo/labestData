@@ -2,7 +2,7 @@
 % Please edit documentation in R/PimentelEg4.2.R
 \name{PimentelEg4.2}
 \alias{PimentelEg4.2}
-\title{Alimentação de porcos}
+\title{Alimenta\enc{çã}{ca}o de porcos}
 \format{Um \code{data.frame} com 20 observações e 2 variáveis, em que
 
 \describe{

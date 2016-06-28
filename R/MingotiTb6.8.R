@@ -1,5 +1,5 @@
 #' @name MingotiTb6.8
-#' @title Índices de desenvolvimento de países
+#' @title \enc{Í}{I}ndices de desenvolvimento de pa\enc{í}{i}ses
 #' @description Dados referentes a 
 #'     índices de expectativa de vida, educação, renda (PIB) e 
 #'     estabilidade política e de segurança de 21 países. Os índices foram 

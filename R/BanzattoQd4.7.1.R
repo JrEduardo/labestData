@@ -1,5 +1,5 @@
 #' @name BanzattoQd4.7.1
-#' @title Comparação de Métodos de Semeadura do Mamoeiro
+#' @title Compara\enc{çã}{ca}o de M\enc{é}{e}todos de Semeadura do Mamoeiro
 #' @description Estudo realizado em Jaboticabal - SP por Ruiz (1977)
 #'     que comparou métodos de semeadura no mamoeiro. O experimento foi
 #'     instalado em delineamento de blocos casualizados, com 4

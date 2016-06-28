@@ -1,5 +1,5 @@
 #' @name DemetrioTb2.11
-#' @title Radiação Gama em Explantes de Abacaxis
+#' @title Radia\enc{çã}{ca}o Gama em Explantes de Abacaxis
 #' 
 #' @description Dados provenientes de um experimento inteiramente
 #'     casualizado onde expuseram explantes de abacaxis a diferentes

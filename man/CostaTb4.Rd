@@ -2,7 +2,7 @@
 % Please edit documentation in R/CostaTb4.R
 \name{CostaTb4}
 \alias{CostaTb4}
-\title{Massa Seca de Parte Aérea em Cana-de-açúcar}
+\title{Massa Seca de Parte A\enc{é}{e}rea em Cana-de-a\enc{çú}{cu}car}
 \format{Um \code{data.frame} com 24 observações e 3 variáveis.
 
 \describe{

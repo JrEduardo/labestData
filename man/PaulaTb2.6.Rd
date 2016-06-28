@@ -2,7 +2,7 @@
 % Please edit documentation in R/PaulaTb2.6.R
 \name{PaulaTb2.6}
 \alias{PaulaTb2.6}
-\title{Projeção de Vendas}
+\title{Proje\enc{çã}{ca}o de Vendas}
 \format{Um \code{data.frame} com 20 observações e 2 variáveis.
 \describe{
 

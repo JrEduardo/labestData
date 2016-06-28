@@ -2,8 +2,8 @@
 % Please edit documentation in R/VieiraEx7.3.R
 \name{VieiraEx7.3}
 \alias{VieiraEx7.3}
-\title{Experimento de um Fator em DIC com Número Diferente de
-    Repetições}
+\title{Experimento de um Fator em DIC com N\enc{ú}{u}mero Diferente de
+    Repeti\enc{çõ}{co}es}
 \format{Um \code{data.frame} com 18 observações e 2 variáveis, em que
 
 \describe{

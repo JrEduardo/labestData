@@ -2,7 +2,7 @@
 % Please edit documentation in R/CharnetEx2.8.R
 \name{CharnetEx2.8}
 \alias{CharnetEx2.8}
-\title{Dados Genéricos para Regressão Linear Simples}
+\title{Dados Gen\enc{é}{e}ricos para Regress\enc{ã}{a}o Linear Simples}
 \format{Um \code{data.frame} com 3 colunas e 34 linhas.
 
 \describe{

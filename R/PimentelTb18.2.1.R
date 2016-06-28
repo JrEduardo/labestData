@@ -1,5 +1,5 @@
 #' @name PimentelTb18.2.1
-#' @title Ensaio Fatorial com Tratamentos Adicionais de Adubação de
+#' @title Ensaio Fatorial com Tratamentos Adicionais de Aduba\enc{çã}{ca}o de
 #'     Milho
 #' @description Ensaio de adubação NPK de milho, fatorial de
 #'     \eqn{3^{3}}, com confundimento de 2 graus de liberdade da

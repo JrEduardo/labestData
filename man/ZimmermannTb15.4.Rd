@@ -2,7 +2,7 @@
 % Please edit documentation in R/ZimmermannTb15.4.R
 \name{ZimmermannTb15.4}
 \alias{ZimmermannTb15.4}
-\title{Fatorial Fracionado para Estudo da Adubação em Arroz}
+\title{Fatorial Fracionado para Estudo da Aduba\enc{çã}{ca}o em Arroz}
 \format{Um \code{data.frame} com 27 observações e 3 variáveis
 
 \describe{

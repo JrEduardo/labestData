@@ -1,5 +1,5 @@
 #' @name PaulaEx3.7.22
-#' @title Avaliação de caduquice
+#' @title Avalia\enc{çã}{ca}o de caduquice
 #' @description Os dados provém de um experimento com 54 indivíduos
 #'     considerados idosos. Eles foram submetidos a um exame
 #'     psiquiátrico para avaliar a ocorrência ou não de sintoma de

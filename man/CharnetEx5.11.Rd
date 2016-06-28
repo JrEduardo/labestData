@@ -2,7 +2,7 @@
 % Please edit documentation in R/CharnetEx5.11.R
 \name{CharnetEx5.11}
 \alias{CharnetEx5.11}
-\title{Relação do Lucro de uma Loja e Gastos com Publicidade}
+\title{Rela\enc{çã}{ca}o do Lucro de uma Loja e Gastos com Publicidade}
 \format{Um \code{data.frame} com 2 colunas e 19 linhas.
 
 \describe{

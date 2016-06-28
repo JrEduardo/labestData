@@ -2,7 +2,7 @@
 % Please edit documentation in R/PimentelEg7.3.R
 \name{PimentelEg7.3}
 \alias{PimentelEg7.3}
-\title{Experimento Fatorial de Adubação Mineral e com Vinhaça}
+\title{Experimento Fatorial de Aduba\enc{çã}{ca}o Mineral e com Vinha\enc{ç}{c}a}
 \format{Um \code{data.frame} com 16 observações e 4 variáveis, em que
 
 \describe{

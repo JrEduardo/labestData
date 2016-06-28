@@ -2,7 +2,7 @@
 % Please edit documentation in R/CharnetEx8.5.R
 \name{CharnetEx8.5}
 \alias{CharnetEx8.5}
-\title{Efeito da Temperatura e Concentração numa Reação Química}
+\title{Efeito da Temperatura e Concentra\enc{çã}{ca}o numa Rea\enc{çã}{ca}o Qu\enc{í}{i}mica}
 \format{Um \code{data.frame} com 3 colunas e 20 linhas.
 
 \describe{

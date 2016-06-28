@@ -1,5 +1,5 @@
 #' @name StorckTb101
-#' @title Grupo de Experimentos de Competição de Cultivares de Milho
+#' @title Grupo de Experimentos de Competi\enc{çã}{ca}o de Cultivares de Milho
 #' @description Grupo de experimentos, avaliando 6 cultivres de milho,
 #'     conduzidos em 4 locais (4 ambientes) da região central d Rio
 #'     Grande do Sul, no delineamento de blocos ao acaso com 4

@@ -2,7 +2,7 @@
 % Please edit documentation in R/ManlyTb.6.7.R, R/ManlyTb6.7.R
 \name{ManlyTb6.7}
 \alias{ManlyTb6.7}
-\title{Consumo de proteína}
+\title{Consumo de prote\enc{í}{i}na}
 \format{Um \code{data.frame} com 25 países em 9 variáveis.
 
 \describe{

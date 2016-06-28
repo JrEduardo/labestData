@@ -1,5 +1,5 @@
 #' @name FerreiraEg6.3
-#' @title Avaliação dos Solos de Pastagem e Capoeira Nova da Amazônia
+#' @title Avalia\enc{çã}{ca}o dos Solos de Pastagem e Capoeira Nova da Amaz\enc{ô}{o}nia
 #' @description Os dados referem-se a avaliação de parcelas de solo da
 #'     Amazônia. Os atributos quantidade de cálcio, magnésio e saturação
 #'     de bases foram avaliados em parcelas de solo sob os sistemas de

@@ -2,7 +2,7 @@
 % Please edit documentation in R/DiasEg5.1.R
 \name{DiasEg5.1}
 \alias{DiasEg5.1}
-\title{Número de Ovos Eclodidos de Nematóides Após Aplicação de
+\title{N\enc{ú}{u}mero de Ovos Eclodidos de Nemat\enc{ó}{o}ides Ap\enc{ó}{o}s Aplica\enc{çã}{ca}o de
     Nematicidas Naturais}
 \format{Um \code{data.frame} com 20 observações e 3 variáveis, em que
 

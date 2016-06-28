@@ -1,5 +1,5 @@
 #' @name ZimmermannTb12.33
-#' @title Competição de Cultivares de Feijão
+#' @title Competi\enc{çã}{ca}o de Cultivares de Feij\enc{ã}{a}o
 #' @description Dados de um estudo em delineamento de blocos completos com 
 #'     quatro repetições. O experimento foi um ensaio de competição de
 #'     cultivares e linhagens de feijão, em cultivos irrigado e de sequeiro.

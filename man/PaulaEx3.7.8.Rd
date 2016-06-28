@@ -2,7 +2,7 @@
 % Please edit documentation in R/PaulaEx3.7.8.R
 \name{PaulaEx3.7.8}
 \alias{PaulaEx3.7.8}
-\title{Salário de Executivos}
+\title{Sal\enc{á}{a}rio de Executivos}
 \format{Um \code{data.frame} com 18 observações e 4 variáveis.
 \describe{
 

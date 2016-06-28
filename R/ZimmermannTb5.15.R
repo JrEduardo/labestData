@@ -1,5 +1,5 @@
 #' @name ZimmermannTb5.15
-#' @title Número de Perfilhos em Arroz em Função de 6 Tratamentos
+#' @title N\enc{ú}{u}mero de Perfilhos em Arroz em Fun\enc{çã}{ca}o de 6 Tratamentos
 #' @description Esperimento conduzido pelo pesquisador Evane Ferreira,
 #'     em Santo Antônio de Goiás, em 1998. O estudo avaliou o número de
 #'     perfilhos de arroz em função de 6 tratamentos (não mencionados)

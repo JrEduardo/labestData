@@ -1,6 +1,6 @@
 #' @name CharnetEx2.12
 #'
-#' @title Taxa de Homicídios por Ano
+#' @title Taxa de Homic\enc{í}{i}dios por Ano
 #'
 #' @description Crescimentos da taxa de homicídios em um período de 7
 #'     anos em uma cidade.

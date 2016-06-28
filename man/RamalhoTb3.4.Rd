@@ -2,7 +2,7 @@
 % Please edit documentation in R/RamalhoTb3.4.R
 \name{RamalhoTb3.4}
 \alias{RamalhoTb3.4}
-\title{Incidênica de \emph{Colletotrichum} no feijoeiro}
+\title{Incid\enc{ê}{e}nica de \emph{Colletotrichum} no feijoeiro}
 \format{data.frame com 48 observações e 4 variáveis, em que
 
 \describe{

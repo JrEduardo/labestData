@@ -2,7 +2,7 @@
 % Please edit documentation in R/RamalhoEg4.7.R
 \name{RamalhoEg4.7}
 \alias{RamalhoEg4.7}
-\title{Produção de grãos de arroz.}
+\title{Produ\enc{çã}{ca}o de gr\enc{ã}{a}os de arroz.}
 \format{data.frame com 30 observações e 3 variáveis, em que
 
 \describe{

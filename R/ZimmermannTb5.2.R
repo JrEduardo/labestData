@@ -1,5 +1,5 @@
 #' @name ZimmermannTb5.2
-#' @title Produção de Grãos de Genótipos de Arroz
+#' @title Produ\enc{çã}{ca}o de Gr\enc{ã}{a}os de Gen\enc{ó}{o}tipos de Arroz
 #' @description Experimento em delineamento quadrado latino cujo
 #'     objetivo foi medir a resposta em produtividade de um grupo de
 #'     oito genótipos de arroz ao ataque inicial de pragas.

@@ -1,5 +1,5 @@
 #' @name PaulaEx3.7.8
-#' @title Salário de Executivos
+#' @title Sal\enc{á}{a}rio de Executivos
 #' @description Dados referentes a um experimento desenvolvido para avaliar
 #'      a germinação de um determinado tipo de semente. A tabela abaixo 
 #'      apresenta o número de sementes que germinaram após cinco dias para 

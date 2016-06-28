@@ -1,5 +1,5 @@
 #' @name FerreiraEg5.1
-#' @title Teores de Areia e Argila em Solo na Amazônia
+#' @title Teores de Areia e Argila em Solo na Amaz\enc{ô}{o}nia
 #' @description Conjunto de dados referente aos teores de areia e argila
 #'     de uma amostra com 30 parcelas de solo de capoeira nova na
 #'     Amazônia.

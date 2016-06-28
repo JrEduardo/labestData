@@ -2,7 +2,7 @@
 % Please edit documentation in R/PimentelPg142.R
 \name{PimentelPg142}
 \alias{PimentelPg142}
-\title{Grupo de Experimentos Fatoriais de Adubação de Algodão}
+\title{Grupo de Experimentos Fatoriais de Aduba\enc{çã}{ca}o de Algod\enc{ã}{a}o}
 \format{Um \code{data.frame} com 100 observações e 6 variáveis, em
     que
 

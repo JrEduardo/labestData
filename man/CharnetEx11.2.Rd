@@ -2,7 +2,7 @@
 % Please edit documentation in R/CharnetEx11.2.R
 \name{CharnetEx11.2}
 \alias{CharnetEx11.2}
-\title{Distribuição de Trabalho em um Departamento de Contabilidade}
+\title{Distribui\enc{çã}{ca}o de Trabalho em um Departamento de Contabilidade}
 \format{Um \code{data.frame} com 7 colunas e 30 linhas.
 
 \describe{

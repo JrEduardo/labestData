@@ -1,5 +1,5 @@
 #' @name ZimmermannTb10.9
-#' @title Época de Plantio e Manejo de Inseticida em Cultivares de Arroz
+#' @title \enc{É}{E}poca de Plantio e Manejo de Inseticida em Cultivares de Arroz
 #' @description Dados de um em delineamento de blocos completos ao
 #'     acaso, em parcelas subdivididas. O experimento avaliou o efeito
 #'     de 2 épocas de plantio e aplicação (ou não) do inseticida

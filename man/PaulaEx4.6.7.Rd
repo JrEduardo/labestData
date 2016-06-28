@@ -2,7 +2,7 @@
 % Please edit documentation in R/PaulaEx4.6.7.R
 \name{PaulaEx4.6.7}
 \alias{PaulaEx4.6.7}
-\title{Número de Falhas em Peças de Tecido}
+\title{N\enc{ú}{u}mero de Falhas em Pe\enc{ç}{c}as de Tecido}
 \format{Um \code{data.frame} com 32 observações e 2 variáveis.
 \describe{
 

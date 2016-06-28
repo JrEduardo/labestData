@@ -1,6 +1,6 @@
 #' @name CharnetEx7.2
 #'
-#' @title Impacto de Impurezas em um Reator Químico
+#' @title Impacto de Impurezas em um Reator Qu\enc{í}{i}mico
 #'
 #' @description Relação entre a porcentagem de impurezas dentro de um
 #'     reator químico e o tempo de permanência da substância dentro

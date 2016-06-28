@@ -2,7 +2,7 @@
 % Please edit documentation in R/PaulaEg3.5.1.R
 \name{PaulaEg3.5.1}
 \alias{PaulaEg3.5.1}
-\title{Associação entre fungicida e desenvolvimento de tumor}
+\title{Associa\enc{çã}{ca}o entre fungicida e desenvolvimento de tumor}
 \format{Um \code{data.frame} com 4 observações e 4 variáveis, em que
 
 \describe{

@@ -1,5 +1,5 @@
 #' @name ZimmermannTb4.11
-#' @title Alturas Médias de Perfilhos
+#' @title Alturas M\enc{é}{e}dias de Perfilhos
 #' @description Dados de um ensaio com dez genótipos, quatro blocos e
 #'     cinco amostras por parcela, tomadas ao acaso, das alturas dos
 #'     perfilhos, medidos em cm.

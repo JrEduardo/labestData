@@ -1,5 +1,5 @@
 #' @name RamalhoTb13.1
-#' @title Produção de Grãos de Milho
+#' @title Produ\enc{çã}{ca}o de Gr\enc{ã}{a}os de Milho
 #' @description Experimento referente a cultura de milho, cujos dados
 #'     foram obtidos de dez plantas. Neste experimento, a produção de
 #'     grãos é considerada a variável dependente e a altura da planta a

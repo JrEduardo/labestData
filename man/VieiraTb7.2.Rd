@@ -2,7 +2,7 @@
 % Please edit documentation in R/VieiraTb7.2.R
 \name{VieiraTb7.2}
 \alias{VieiraTb7.2}
-\title{Números de Ovos de Poedeiras em Função do Estilo Musical}
+\title{N\enc{ú}{u}meros de Ovos de Poedeiras em Fun\enc{çã}{ca}o do Estilo Musical}
 \format{Um \code{data.frame} com 16 observações e 2 variáveis, em que
 
 \describe{

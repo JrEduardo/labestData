@@ -1,5 +1,5 @@
 #' @name BanzattoQd7.3.1
-#' @title Diâmetro e Altura de Tubetes na Formação de Mudas de Eucalipto
+#' @title Di\enc{â}{a}metro e Altura de Tubetes na Forma\enc{çã}{ca}o de Mudas de Eucalipto
 #' @description Experimento fatorial 3 \eqn{\times} 3 que avaliou o
 #'     efeito das dimensões do tubete (diâmetro e altura, 3 níveis cada)
 #'     na produção de mudas de eucalipto. O experimento foi instalado em

@@ -1,5 +1,5 @@
 #' @name DemetrioTb1.1
-#' @title Níveis de Fósforo no Solo após Plantio de Milho
+#' @title N\enc{í}{i}veis de F\enc{ó}{o}sforo no Solo ap\enc{ó}{o}s Plantio de Milho
 #' 
 #' @description Resultados de um experimento onde diferentes níveis de
 #'     fósforo orgânico foram utilizados na preparação do solo para o

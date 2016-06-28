@@ -1,6 +1,6 @@
 #' @name CharnetEx3.1
 #'
-#' @title Comparação entre Notas
+#' @title Compara\enc{çã}{ca}o entre Notas
 #'
 #' @description Comparação entre as notas de uma prova teórica e de
 #'     laboratório de 50 alunos, numa escala de 0 a 100 pontos.

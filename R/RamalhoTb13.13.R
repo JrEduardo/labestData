@@ -1,5 +1,5 @@
 #' @name RamalhoTb13.13
-#' @title Produção de Grãos de Progênies de Feijão
+#' @title Produ\enc{çã}{ca}o de Gr\enc{ã}{a}os de Prog\enc{ê}{e}nies de Feij\enc{ã}{a}o
 #' @description Experimento referente a avaliação de progênies
 #'     provenientes do cruzamento (ESAL 501 x Rio Tibagi), obtidos em 3
 #'     gerações (F3, F4 e F5). Foi utilizado o delineamento de blocos

@@ -2,7 +2,7 @@
 % Please edit documentation in R/PimentelPg269.R
 \name{PimentelPg269}
 \alias{PimentelPg269}
-\title{Influência da Caseína Iodada na Nutrição de Vacas Leiteiras}
+\title{Influ\enc{ê}{e}ncia da Case\enc{í}{i}na Iodada na Nutri\enc{çã}{ca}o de Vacas Leiteiras}
 \format{Um \code{data.frame} com 12 observações e 3 variáveis, em que
 
 \describe{

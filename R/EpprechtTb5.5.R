@@ -1,5 +1,5 @@
 #' @name EpprechtTb5.5
-#' @title Medidas de dureza de peças de uma linha de produção
+#' @title Medidas de dureza de pe\enc{ç}{c}as de uma linha de produ\enc{çã}{ca}o
 #' @description Dados referentes a medidas de dureza de peças, para avaliar a 
 #'     capacidade de medição de um durômetro. São 10 peças medidas três vezes
 #'     cada por um mesmo operador.

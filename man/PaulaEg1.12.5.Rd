@@ -2,7 +2,7 @@
 % Please edit documentation in R/PaulaEg1.12.5.R
 \name{PaulaEg1.12.5}
 \alias{PaulaEg1.12.5}
-\title{Consumo de Combustível}
+\title{Consumo de Combust\enc{í}{i}vel}
 \format{Um \code{data.frame} com 48 observações e 6 variáveis.
 \describe{
 

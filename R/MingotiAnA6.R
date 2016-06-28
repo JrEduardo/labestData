@@ -1,5 +1,5 @@
 #' @name MingotiAnA6
-#' @title Dados de funcionários da empresa 
+#' @title Dados de funcion\enc{á}{a}rios da empresa 
 #' @description Dados descritivos dos funcionários de uma empresa para
 #'     avaliar qualidade.
 #' 

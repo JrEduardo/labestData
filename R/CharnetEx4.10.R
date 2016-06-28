@@ -1,6 +1,6 @@
 #' @name CharnetEx4.10
 #'
-#' @title Custo de Produção por Tamanho do Lote
+#' @title Custo de Produ\enc{çã}{ca}o por Tamanho do Lote
 #'
 #' @description Custo de produção pelo número de peças produzidas em uma
 #'     amostra de 10 lotes.

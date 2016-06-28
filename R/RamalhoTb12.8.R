@@ -1,5 +1,5 @@
 #' @name RamalhoTb12.8
-#' @title Componentes da Produção de Linhagens de Feijão
+#' @title Componentes da Produ\enc{çã}{ca}o de Linhagens de Feij\enc{ã}{a}o
 #' @description Dados obtidos por Perreira Filho et al. (1987),
 #'     referentes ao número médio de vagens por planta, número de
 #'     sementes por vagem, peso de 100 sementes e produção de grãos,

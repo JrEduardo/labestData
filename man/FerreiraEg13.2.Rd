@@ -2,7 +2,7 @@
 % Please edit documentation in R/FerreiraEg13.2.R
 \name{FerreiraEg13.2}
 \alias{FerreiraEg13.2}
-\title{Dados Simulados para Classificação}
+\title{Dados Simulados para Classifica\enc{çã}{ca}o}
 \format{Um \code{data.frame} com 50 observações e 2 variáveis, em que
 
 \describe{

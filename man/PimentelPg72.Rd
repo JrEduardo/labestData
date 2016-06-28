@@ -2,7 +2,7 @@
 % Please edit documentation in R/PimentelPg72.R
 \name{PimentelPg72}
 \alias{PimentelPg72}
-\title{Ensaio de alimentação de leitoas}
+\title{Ensaio de alimenta\enc{çã}{ca}o de leitoas}
 \format{Um \code{data.frame} com 8 observações e 2 variáveis, em que
 
 \describe{

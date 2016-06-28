@@ -2,7 +2,7 @@
 % Please edit documentation in R/FerreiraEg8.1.R
 \name{FerreiraEg8.1}
 \alias{FerreiraEg8.1}
-\title{Número de Grãos e Produtividade em Cultivares de Feijão}
+\title{N\enc{ú}{u}mero de Gr\enc{ã}{a}os e Produtividade em Cultivares de Feij\enc{ã}{a}o}
 \format{Um \code{data.frame} com 20 observações e 4 variáveis.
 
 \describe{

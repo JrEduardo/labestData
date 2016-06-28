@@ -2,7 +2,7 @@
 % Please edit documentation in R/ZimmermannTb9.13.R
 \name{ZimmermannTb9.13}
 \alias{ZimmermannTb9.13}
-\title{Matéria Seca de Feijão em Fatorial 3x3}
+\title{Mat\enc{é}{e}ria Seca de Feij\enc{ã}{a}o em Fatorial 3x3}
 \format{Um \code{data.frame} com 27 observações e 4 variáveis, em que
 
 \describe{

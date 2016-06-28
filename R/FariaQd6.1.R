@@ -1,5 +1,5 @@
 #' @name FariaQd6.1
-#' @title Produção de Variedades de Milho
+#' @title Produ\enc{çã}{ca}o de Variedades de Milho
 #' @description Produção de milho, em kg 100 m\eqn{^2} em um experimento
 #'     conduzido no delineamento inteiramente casualizado com 5
 #'     repetições, onde foram avaliadas quatro variedades de milho.

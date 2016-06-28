@@ -2,7 +2,7 @@
 % Please edit documentation in R/BarbinPg156.R
 \name{BarbinPg156}
 \alias{BarbinPg156}
-\title{Aplicação de Adubação Fosfatada na Produção de Milho}
+\title{Aplica\enc{çã}{ca}o de Aduba\enc{çã}{ca}o Fosfatada na Produ\enc{çã}{ca}o de Milho}
 \format{Um \code{data.frame} com 48 observações e 4 variáveis, em que
 
 \describe{

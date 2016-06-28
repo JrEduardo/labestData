@@ -1,5 +1,5 @@
 #' @name PimentelEg7.3
-#' @title Experimento Fatorial de Adubação Mineral e com Vinhaça
+#' @title Experimento Fatorial de Aduba\enc{çã}{ca}o Mineral e com Vinha\enc{ç}{c}a
 #' @description Experimento fatorial, \eqn{2^{2}}, em que os fatores
 #'     eram adubação mineral completa e adubação com vinhaça. As
 #'     parcelas foram dispostas em blocos ao acaso.

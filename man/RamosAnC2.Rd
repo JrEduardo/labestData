@@ -2,7 +2,7 @@
 % Please edit documentation in R/RamosAnC2.R
 \name{RamosAnC2}
 \alias{RamosAnC2}
-\title{Teor de sódio em um processo químico}
+\title{Teor de s\enc{ó}{o}dio em um processo qu\enc{í}{i}mico}
 \format{Um \code{data.frame} com 125 observações e 2 variáveis, em que
 
 \describe{

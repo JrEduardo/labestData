@@ -2,7 +2,7 @@
 % Please edit documentation in R/RamosTb2.7.R
 \name{RamosTb2.7}
 \alias{RamosTb2.7}
-\title{Processo de fundição de magnésio}
+\title{Processo de fundi\enc{çã}{ca}o de magn\enc{é}{e}sio}
 \format{Um \code{data.frame} com 7 observações e 2 variáveis, em que
 
 \describe{

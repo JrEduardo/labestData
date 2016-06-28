@@ -2,7 +2,7 @@
 % Please edit documentation in R/BarbinPg72.R
 \name{BarbinPg72}
 \alias{BarbinPg72}
-\title{Produção de Laranjeira sob Diferentes Porta-enxertos}
+\title{Produ\enc{çã}{ca}o de Laranjeira sob Diferentes Porta-enxertos}
 \format{Um \code{data.frame} com 27 observações e 3 variáveis.
 
 \describe{

@@ -1,5 +1,5 @@
 #' @name EpprechtTb8.12
-#' @title Controle de qualidade para a fração de não conformes. 
+#' @title Controle de qualidade para a fra\enc{çã}{ca}o de n\enc{ã}{a}o conformes. 
 #' @description Dados de 20 amostras, representando o número 
 #'     de peças não-conformes em amostras de tamanho 100.
 #' 

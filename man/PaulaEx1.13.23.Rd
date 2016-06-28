@@ -2,7 +2,7 @@
 % Please edit documentation in R/PaulaEx1.13.23.R
 \name{PaulaEx1.13.23}
 \alias{PaulaEx1.13.23}
-\title{Diâmetro de Cerejeiras da Pensilvânia}
+\title{Di\enc{â}{a}metro de Cerejeiras da Pensilv\enc{â}{a}nia}
 \format{Um \code{data.frame} com 31 observações e 3 variáveis.
     \describe{
 

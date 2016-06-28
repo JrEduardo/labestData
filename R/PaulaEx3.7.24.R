@@ -1,5 +1,5 @@
 #' @name PaulaEx3.7.24
-#' @title Cor dos Olhos dos Filhos em Função dos Pais e Avós
+#' @title Cor dos Olhos dos Filhos em Fun\enc{çã}{ca}o dos Pais e Av\enc{ó}{o}s
 #' @description Os dados são de 78 famílias com pelo menos 6 filhos
 #'     cada uma. Nestas famílias, codificou-se a cor dos pais e dos avós
 #'     e o número total de filhos por casal e o número de filhos com

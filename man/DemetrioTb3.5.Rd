@@ -2,7 +2,7 @@
 % Please edit documentation in R/DemetrioTb3.5.R
 \name{DemetrioTb3.5}
 \alias{DemetrioTb3.5}
-\title{Dados Genéricos para Regressão Múltipla}
+\title{Dados Gen\enc{é}{e}ricos para Regress\enc{ã}{a}o M\enc{ú}{u}ltipla}
 \format{Um \code{data.frame} de 6 linhas e 3 colunas.
 
 \describe{

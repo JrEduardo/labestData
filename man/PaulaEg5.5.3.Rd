@@ -2,7 +2,7 @@
 % Please edit documentation in R/PaulaEg5.5.3.R
 \name{PaulaEg5.5.3}
 \alias{PaulaEg5.5.3}
-\title{Ensaio clínico da pré-existência de placa dentária}
+\title{Ensaio cl\enc{í}{i}nico da pr\enc{é}{e}-exist\enc{ê}{e}ncia de placa dent\enc{á}{a}ria}
 \format{Um \code{data.frame} com 323 observações e 4 variáveis.
 \describe{
 

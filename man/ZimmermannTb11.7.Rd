@@ -2,7 +2,7 @@
 % Please edit documentation in R/ZimmermannTb11.7.R
 \name{ZimmermannTb11.7}
 \alias{ZimmermannTb11.7}
-\title{Espaçamento, Densidade e Nitrogênio na Produção de Arroz}
+\title{Espa\enc{ç}{c}amento, Densidade e Nitrog\enc{ê}{e}nio na Produ\enc{çã}{ca}o de Arroz}
 \format{Um \code{data.frame} com 32 observações e 7 variáveis
 
 \describe{

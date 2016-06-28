@@ -2,7 +2,7 @@
 % Please edit documentation in R/RamosTb5.8.R
 \name{RamosTb5.8}
 \alias{RamosTb5.8}
-\title{Taxa de defeitos na fabricação de copos de cristal}
+\title{Taxa de defeitos na fabrica\enc{çã}{ca}o de copos de cristal}
 \format{Um \code{data.frame} com 26 observações e 3 variáveis, em que
 
 \describe{

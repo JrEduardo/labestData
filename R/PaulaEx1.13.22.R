@@ -1,5 +1,5 @@
 #' @name PaulaEx1.13.22
-#' @title Vendas de Imóveis
+#' @title Vendas de Im\enc{ó}{o}veis
 #' @description Dados relativos a uma amostra de 27 imóveis vendidos. Os
 #'     resgistros visam identificar as características que influenciam
 #'     no preço de venda de um imóvel.

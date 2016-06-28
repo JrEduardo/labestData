@@ -1,5 +1,5 @@
 #' @name PimentelPg269
-#' @title Influência da Caseína Iodada na Nutrição de Vacas Leiteiras
+#' @title Influ\enc{ê}{e}ncia da Case\enc{í}{i}na Iodada na Nutri\enc{çã}{ca}o de Vacas Leiteiras
 #' @description Ensaio realizado pelo Departamento de Produção Animal da
 #'     Secretaria de Agricultura paulista, que teve por objetivo estudar
 #'     a influência da caseína iodada na nutrição de vacas leiteiras.

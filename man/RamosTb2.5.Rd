@@ -2,7 +2,7 @@
 % Please edit documentation in R/RamosTb2.5.R
 \name{RamosTb2.5}
 \alias{RamosTb2.5}
-\title{Resistência à ruptura de garrafas}
+\title{Resist\enc{ê}{e}ncia \enc{à}{a} ruptura de garrafas}
 \format{Um \code{data.frame} com 9 observações e 2 variáveis, em que
 
 \describe{

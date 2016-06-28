@@ -1,5 +1,5 @@
 #' @name BanzattoQd8.4.3
-#' @title Grupo de Experimentos de Adubação Nitrogenada em Milho
+#' @title Grupo de Experimentos de Aduba\enc{çã}{ca}o Nitrogenada em Milho
 #' @description Dados referentes à produção de milho em grãos de ensaios
 #'     fatoriais \eqn{3^3} de adubação NPK na cultura do milho. Os
 #'     experimentos foram realizados em 8 locais. O delineamento

@@ -2,7 +2,7 @@
 % Please edit documentation in R/BanzattoQd7.3.1.R
 \name{BanzattoQd7.3.1}
 \alias{BanzattoQd7.3.1}
-\title{Diâmetro e Altura de Tubetes na Formação de Mudas de Eucalipto}
+\title{Di\enc{â}{a}metro e Altura de Tubetes na Forma\enc{çã}{ca}o de Mudas de Eucalipto}
 \format{Um \code{data.frame} com 27 observações e 4 variáveis.
 
 \describe{

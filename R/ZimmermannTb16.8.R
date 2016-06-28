@@ -1,5 +1,5 @@
 #' @name ZimmermannTb16.8
-#' @title Dias para Floração de Cultivares de Arroz em um Reticulado
+#' @title Dias para Flora\enc{çã}{ca}o de Cultivares de Arroz em um Reticulado
 #'     Quadrado
 #' @description Experimento realizado em delineamento reticulado
 #'     quadrado 5 \eqn{\times} 5, com três repetições. Os dados são

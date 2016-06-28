@@ -1,5 +1,5 @@
 #' @name DiasEx9.6.4
-#' @title Produção de Frutos de Variedades de Manga
+#' @title Produ\enc{çã}{ca}o de Frutos de Variedades de Manga
 #' @description Experimento instalado em delineamento inteiramente
 #'     casualizado, onde foram estudadas 5 variedades de manga com cada
 #'     parcela constituída de 3 arvores. Cada variedade teve 6

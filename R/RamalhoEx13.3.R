@@ -1,5 +1,5 @@
 #' @name RamalhoEx13.3
-#' @title Avaliação do Stay Green em Famílias de Feijoeiro
+#' @title Avalia\enc{çã}{ca}o do Stay Green em Fam\enc{í}{i}lias de Feijoeiro
 #' @description Notas da avaliação do "stay green" obtidos de famílias
 #'     de feijoeiro, avaliados nas gerações \eqn{F_{2:3}}, \eqn{F_{2:4}}
 #'     e \eqn{F_{2:5}}.

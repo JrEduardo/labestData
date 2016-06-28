@@ -2,7 +2,7 @@
 % Please edit documentation in R/CostaTb8.R
 \name{CostaTb8}
 \alias{CostaTb8}
-\title{Irrigação no Tamanho de Frutos de Variedades de Banana}
+\title{Irriga\enc{çã}{ca}o no Tamanho de Frutos de Variedades de Banana}
 \format{Um \code{data.frame} com 32 observações e 4 variáveis.
 
 \describe{

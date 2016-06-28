@@ -1,5 +1,5 @@
 #' @name PimentelTb10.6.1
-#' @title Experimento do Tipo III com recuperação da informação
+#' @title Experimento do Tipo III com recupera\enc{çã}{ca}o da informa\enc{çã}{ca}o
 #'     interblocos
 #' @description Experimento em blocos incompletos equilibrados do Tipo
 #'     III com recuperação da informação interblocos, conduzido por

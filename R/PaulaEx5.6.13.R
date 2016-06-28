@@ -1,5 +1,5 @@
 #' @name PaulaEx5.6.13
-#' @title Análise da dispersão de um pigmento na pintura
+#' @title An\enc{á}{a}lise da dispers\enc{ã}{a}o de um pigmento na pintura
 #' @description Um experimento foi conduzido para avaliar a dispersão 
 #'     de quatro diferentes pigmentos numa pintura. O procedimento 
 #'     consistiu em preparar cada mistura e aplicá-las num painel usando 

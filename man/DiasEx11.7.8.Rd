@@ -2,7 +2,7 @@
 % Please edit documentation in R/DiasEx11.7.8.R
 \name{DiasEx11.7.8}
 \alias{DiasEx11.7.8}
-\title{Competição de Genótipos de Alho}
+\title{Competi\enc{çã}{ca}o de Gen\enc{ó}{o}tipos de Alho}
 \format{Um \code{data.frame} com 16 observações e 3 variáveis, em que
 
 \describe{

@@ -1,5 +1,5 @@
 #' @name ZimmermannTb9.22
-#' @title Fungicidas e Polímero na Infecção de \emph{Fusarium} em
+#' @title Fungicidas e Pol\enc{í}{i}mero na Infec\enc{çã}{ca}o de \emph{Fusarium} em
 #'     Sementes
 #' @description Resultados de um experimento fatorial com tratamentos
 #'     adicionais \eqn{3 \times 3 + 2} que estudou o número de sementes

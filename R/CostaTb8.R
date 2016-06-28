@@ -1,5 +1,5 @@
 #' @name CostaTb8
-#' @title Irrigação no Tamanho de Frutos de Variedades de Banana
+#' @title Irriga\enc{çã}{ca}o no Tamanho de Frutos de Variedades de Banana
 #' @description Experimento em parcelas subdivididas que estudou o
 #'     comprimento de frutos de variedades de banana em função do nível
 #'     de irrigação fornecido.

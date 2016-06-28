@@ -1,6 +1,6 @@
 #' @name CharnetEx3.4
 #'
-#' @title Comparação da Velocidade Máxima e Peso de Carros de Corrida
+#' @title Compara\enc{çã}{ca}o da Velocidade M\enc{á}{a}xima e Peso de Carros de Corrida
 #'
 #' @description Dados provenientes de um estudo onde se observou a
 #'     velocidade máxima que carros de corrida de uma certa categoria

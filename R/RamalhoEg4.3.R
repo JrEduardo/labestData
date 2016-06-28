@@ -1,5 +1,5 @@
 #' @name RamalhoEg4.3
-#' @title Porcentagem de absorção de água de feijão
+#' @title Porcentagem de absor\enc{çã}{ca}o de \enc{á}{a}gua de feij\enc{ã}{a}o
 #' @description Experimento conduzido na Universidade Federal de Lavras,
 #'     avaliando a porcentagem de absorção de água de 10 linhares de
 #'     feijão. O delineamento é inteiramente ao acaso com 3 repetições.

@@ -2,7 +2,7 @@
 % Please edit documentation in R/FerreiraEg7.4.R
 \name{FerreiraEg7.4}
 \alias{FerreiraEg7.4}
-\title{Avaliação de Duas Variedades de Milho}
+\title{Avalia\enc{çã}{ca}o de Duas Variedades de Milho}
 \format{Um \code{data.frame} com 11 observações e 3 variáveis.
 
 \describe{

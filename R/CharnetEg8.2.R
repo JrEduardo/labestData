@@ -1,6 +1,6 @@
 #' @name CharnetEg8.2
 #'
-#' @title Conjunto de Dados Genérico
+#' @title Conjunto de Dados Gen\enc{é}{e}rico
 #'
 #' @description Um conjunto de dados qualquer para exercício de ajuste
 #'     de modelos de regressão linear com diferentes preditores.

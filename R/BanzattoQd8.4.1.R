@@ -1,5 +1,5 @@
 #' @name BanzattoQd8.4.1
-#' @title Grupo de Ensaios de Competição de Genótipos de Cebola
+#' @title Grupo de Ensaios de Competi\enc{çã}{ca}o de Gen\enc{ó}{o}tipos de Cebola
 #' @description Grupo de experimentos de competição de genótipos de
 #'     cebola realizado por Santos (2003). O delineamento considerado em
 #'     cada ensaio não foi informado.

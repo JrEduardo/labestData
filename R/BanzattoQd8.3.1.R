@@ -1,5 +1,5 @@
 #' @name BanzattoQd8.3.1
-#' @title Grupo de Ensaios de Competição de Genótipos de Batata
+#' @title Grupo de Ensaios de Competi\enc{çã}{ca}o de Gen\enc{ó}{o}tipos de Batata
 #' @description Grupo de ensaios de competição de genótipos de batata
 #'     realizado por Filgueira (1991) em Anápolis - GO. Cada experimento
 #'     foi instalado em delineamento de blocos casualizados com 4

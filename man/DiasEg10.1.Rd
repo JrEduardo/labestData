@@ -2,7 +2,7 @@
 % Please edit documentation in R/DiasEg10.1.R
 \name{DiasEg10.1}
 \alias{DiasEg10.1}
-\title{Substâncias Aleloáticas no Percentual de Germinação de
+\title{Subst\enc{â}{a}ncias Alelo\enc{á}{a}ticas no Percentual de Germina\enc{çã}{ca}o de
     Sementes}
 \format{Um \code{data.frame} com 40 observações e 4 variáveis, em que
 

@@ -1,5 +1,5 @@
 #' @name ZimmermannTb15.4
-#' @title Fatorial Fracionado para Estudo da Adubação em Arroz
+#' @title Fatorial Fracionado para Estudo da Aduba\enc{çã}{ca}o em Arroz
 #' @description Dados de um ensaio com fração 1/3 de um fatorial
 #'     \eqn{3^3}, conduzido em blocos ao acaso. O estudo é sobre a
 #'     absorção e translocação de zinco em arroz de terras altas sob a

@@ -1,5 +1,5 @@
 #' @name ZimmermannTb4.4
-#' @title Competição de Cultivares de Feijão
+#' @title Competi\enc{çã}{ca}o de Cultivares de Feij\enc{ã}{a}o
 #' @description Dados de um ensaio de competição de cultivares, em
 #'     blocos completos ao acaso, da produção de grãos de feijão em
 #'     kg/ha. O experimento teve quinze tratamentos (cultivares e/ou

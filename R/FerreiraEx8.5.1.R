@@ -1,5 +1,5 @@
 #' @name FerreiraEx8.5.1
-#' @title Diâmetro à Altura do Peito e Altura de Árvores em Lavras-MG
+#' @title Di\enc{â}{a}metro \enc{à}{a} Altura do Peito e Altura de \enc{Á}{A}rvores em Lavras-MG
 #' @description Resultados de um experimento inteiramente casualizado
 #'     com dez repetições, realizado no período de seca, para avaliar o
 #'     diferenças entre diferentes transectos na altura e no diâmetro à

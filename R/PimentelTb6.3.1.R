@@ -1,5 +1,5 @@
 #' @name PimentelTb6.3.1
-#' @title Experimento de Adubação Mineral e Verde em Cana-de-açúcar
+#' @title Experimento de Aduba\enc{çã}{ca}o Mineral e Verde em Cana-de-a\enc{çú}{cu}car
 #' @description Experimento de adubação de cana da Usina Monte Alegre,
 #'     com fertilizantes minerais e adubos verdes. O delineamento
 #'     utilizado foi um quadrado latino de 6 x 6.

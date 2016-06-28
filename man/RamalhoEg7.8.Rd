@@ -2,7 +2,7 @@
 % Please edit documentation in R/RamalhoEg7.8.R
 \name{RamalhoEg7.8}
 \alias{RamalhoEg7.8}
-\title{Produção de Grãos de Cruzamentos Feijão}
+\title{Produ\enc{çã}{ca}o de Gr\enc{ã}{a}os de Cruzamentos Feij\enc{ã}{a}o}
 \format{Um \code{data.frame} com 240 observações e 4 variáveis, em
     que
 

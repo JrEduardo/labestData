@@ -2,7 +2,7 @@
 % Please edit documentation in R/DiasEx9.6.7.R
 \name{DiasEx9.6.7}
 \alias{DiasEx9.6.7}
-\title{Produção de Porta-Enxertos em Mangueira}
+\title{Produ\enc{çã}{ca}o de Porta-Enxertos em Mangueira}
 \format{Um \code{data.frame} com 24 observações e 3 variáveis, em que
 
 \describe{

@@ -2,7 +2,7 @@
 % Please edit documentation in R/BanzattoQd6.2.2.R
 \name{BanzattoQd6.2.2}
 \alias{BanzattoQd6.2.2}
-\title{Espaçamento de Plantio na Produção de Cana-de-açúcar}
+\title{Espa\enc{ç}{c}amento de Plantio na Produ\enc{çã}{ca}o de Cana-de-a\enc{çú}{cu}car}
 \format{Um \code{data.frame} com 40 observações e 4 variáveis.
 
 \describe{

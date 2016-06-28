@@ -1,5 +1,5 @@
 #' @name ZimmermannTb12.26
-#' @title Produtividade de Arroz para Resistência a Insetos
+#' @title Produtividade de Arroz para Resist\enc{ê}{e}ncia a Insetos
 #' @description Ensaio 1 de um experimento em DQL, que avaliou a
 #'     resistência a insetos em seis cultivares de arroz, sendo uma
 #'     delas comum ao ensaio 2. Os dados são de produtividade de

@@ -2,7 +2,7 @@
 % Please edit documentation in R/MingotiTb3.5.R
 \name{MingotiTb3.5}
 \alias{MingotiTb3.5}
-\title{Impressões sensoriais de marcas de coxinha de galinha}
+\title{Impress\enc{õ}{o}es sensoriais de marcas de coxinha de galinha}
 \format{Um \code{data.frame} com 8 observações e 5 variáveis, em que
 
 \describe{

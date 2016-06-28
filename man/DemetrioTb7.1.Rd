@@ -2,7 +2,7 @@
 % Please edit documentation in R/DemetrioTb7.1.R
 \name{DemetrioTb7.1}
 \alias{DemetrioTb7.1}
-\title{Produção de Milho por Adubo}
+\title{Produ\enc{çã}{ca}o de Milho por Adubo}
 \format{Um \code{data.frame} de 20 linhas e 3 colunas.
 
 \describe{

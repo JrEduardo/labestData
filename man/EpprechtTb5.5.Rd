@@ -2,7 +2,7 @@
 % Please edit documentation in R/EpprechtTb5.5.R
 \name{EpprechtTb5.5}
 \alias{EpprechtTb5.5}
-\title{Medidas de dureza de peças de uma linha de produção}
+\title{Medidas de dureza de pe\enc{ç}{c}as de uma linha de produ\enc{çã}{ca}o}
 \format{Um \code{data.frame} com 30 observações e 2 variáveis, 
     em que
 

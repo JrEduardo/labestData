@@ -1,5 +1,5 @@
 #' @name RamalhoTb8.12
-#' @title Produção Média de Grãos de Café-cereja
+#' @title Produ\enc{çã}{ca}o M\enc{é}{e}dia de Gr\enc{ã}{a}os de Caf\enc{é}{e}-cereja
 #' @description Experimento que estudou a produção média de grãos de
 #'     café-cereja, obtidos por Mendes (1994), em função da progênie em
 #'     3 anos. Foi utilizado o delineamento de blocos casualizados.

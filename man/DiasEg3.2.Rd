@@ -2,7 +2,7 @@
 % Please edit documentation in R/DiasEg3.2.R
 \name{DiasEg3.2}
 \alias{DiasEg3.2}
-\title{Produção de frutos em cacaueiro}
+\title{Produ\enc{çã}{ca}o de frutos em cacaueiro}
 \format{Vetor com 43 observações que são o número de frutos
     produzidos por plantas de cacaueiro.}
 \source{

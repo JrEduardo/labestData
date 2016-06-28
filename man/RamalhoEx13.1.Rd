@@ -2,7 +2,7 @@
 % Please edit documentation in R/RamalhoEx13.1.R
 \name{RamalhoEx13.1}
 \alias{RamalhoEx13.1}
-\title{Avaliação de Clones de Eucalipto}
+\title{Avalia\enc{çã}{ca}o de Clones de Eucalipto}
 \format{Um \code{data.frame} com 20 observações e 5 variáveis, em que
 
 \describe{

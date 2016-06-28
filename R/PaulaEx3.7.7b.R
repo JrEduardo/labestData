@@ -1,5 +1,5 @@
 #' @name PaulaEx3.7.7b
-#' @title Influência de Extrato Vegetal e Químico
+#' @title Influ\enc{ê}{e}ncia de Extrato Vegetal e Qu\enc{í}{i}mico
 #' @description Experimento de dose-resposta conduzido para avaliar a 
 #'     influência dos extratos vegetais "aquoso frio de folhas", "aquoso
 #'     frio de frutos" e de um extrato químico, respectivamente, na morte 

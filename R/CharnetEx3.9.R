@@ -1,6 +1,6 @@
 #' @name CharnetEx3.9
 #'
-#' @title Consumo de Combustível por Velocidade
+#' @title Consumo de Combust\enc{í}{i}vel por Velocidade
 #'
 #' @description Teste feito com um certo tipo de carro, comparando o
 #'     consumo de combustível (em milhas por galão) e sua velocidade

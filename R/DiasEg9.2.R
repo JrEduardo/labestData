@@ -1,5 +1,5 @@
 #' @name DiasEg9.2
-#' @title Produção de Cacau
+#' @title Produ\enc{çã}{ca}o de Cacau
 #' @description Dados de produção de cacau úmido (kg/planta) obtidos de
 #'     seis progênies formadas por 3 plantas cada e amostradas em 3
 #'     bacias hidrográficas da Amazonia. Este é um exemplo de

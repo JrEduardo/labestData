@@ -2,7 +2,7 @@
 % Please edit documentation in R/ManlyTb10.4.R
 \name{ManlyTb10.4}
 \alias{ManlyTb10.4}
-\title{Combinação de tabelas 1.5 e 6.7}
+\title{Combina\enc{çã}{ca}o de tabelas 1.5 e 6.7}
 \format{Um \code{data.frame} com 22 países e 18 variáveis.
 
 \describe{

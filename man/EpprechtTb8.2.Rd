@@ -2,7 +2,7 @@
 % Please edit documentation in R/EpprechtTb8.2.R
 \name{EpprechtTb8.2}
 \alias{EpprechtTb8.2}
-\title{Número de Clientes Insatisfeitos com a Comida}
+\title{N\enc{ú}{u}mero de Clientes Insatisfeitos com a Comida}
 \format{Um \code{data.frame} com 30 observações e 1 variável, 
     em que
 

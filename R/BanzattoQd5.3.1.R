@@ -1,5 +1,5 @@
 #' @name BanzattoQd5.3.1
-#' @title Produção de Café em Função de Adubação NPK
+#' @title Produ\enc{çã}{ca}o de Caf\enc{é}{e} em Fun\enc{çã}{ca}o de Aduba\enc{çã}{ca}o NPK
 #' @description Resultados de um experimento em arranjo fatorial triplo
 #'     2 \eqn{\times} 2 \eqn{\times} 2, instalado em delineamento de
 #'     blocos casualizados, para estudar o efeito da combinação de

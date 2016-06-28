@@ -1,5 +1,5 @@
 #' @name ZimmermannTb13.1
-#' @title Índice de Área de Folhar e Idade das Plantas
+#' @title \enc{Í}{I}ndice de \enc{Á}{A}rea de Folhar e Idade das Plantas
 #' @description Em um plantio de feijão com a cultivar Jalo Precoce
 #'     foram coletadas plantas em dias sequenciais (Idades), e o índice
 #'     de área foliar (IAF) foi medido.

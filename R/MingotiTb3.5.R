@@ -1,5 +1,5 @@
 #' @name MingotiTb3.5
-#' @title Impressões sensoriais de marcas de coxinha de galinha
+#' @title Impress\enc{õ}{o}es sensoriais de marcas de coxinha de galinha
 #' @description Dados de 8 marcas de coxinha de galinha, avaliados em 4
 #'     atributos (sabor, aroma, qualidade da massa e qualidade do
 #'     recheio) avaliados por 5 julgadores numa escala de 1 a 5, quanto

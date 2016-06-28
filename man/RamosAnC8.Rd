@@ -2,7 +2,7 @@
 % Please edit documentation in R/RamosAnC8.R
 \name{RamosAnC8}
 \alias{RamosAnC8}
-\title{Teor de elementos químicos}
+\title{Teor de elementos qu\enc{í}{i}micos}
 \format{Um \code{data.frame} com 30 observações e 8 variáveis, em que
 
 \describe{

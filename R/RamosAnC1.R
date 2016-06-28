@@ -1,5 +1,5 @@
 #' @name RamosAnC1
-#' @title Temperatura do óleo de misturadores
+#' @title Temperatura do \enc{ó}{o}leo de misturadores
 #' @description Conjunto de dados da temperatura do óleo de misturadores,  
 #'    com 25 amostras de tamanho 8 de um processo metalúrgico.
 #'

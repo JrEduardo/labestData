@@ -1,5 +1,5 @@
 #' @name RamosTb2.5
-#' @title Resistência à ruptura de garrafas
+#' @title Resist\enc{ê}{e}ncia \enc{à}{a} ruptura de garrafas
 #' @description Distribuição de frequências para as 
 #'     resistências à  ruptura de 100 garrafas de 
 #'     refrigerante de um litro.

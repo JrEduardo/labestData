@@ -2,7 +2,7 @@
 % Please edit documentation in R/DemetrioEx2.12.15.R
 \name{DemetrioEx2.12.15}
 \alias{DemetrioEx2.12.15}
-\title{Dados Genéricos Simulados para Regressão Simples}
+\title{Dados Gen\enc{é}{e}ricos Simulados para Regress\enc{ã}{a}o Simples}
 \format{Um \code{data.frame} de 6 linhas e 2 colunas.
 
 \describe{

@@ -2,7 +2,7 @@
 % Please edit documentation in R/RamalhoTb13.1.R
 \name{RamalhoTb13.1}
 \alias{RamalhoTb13.1}
-\title{Produção de Grãos de Milho}
+\title{Produ\enc{çã}{ca}o de Gr\enc{ã}{a}os de Milho}
 \format{Um \code{data.frame} com 10 observações e 2 variáveis, em que
 
 \describe{

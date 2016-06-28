@@ -2,7 +2,7 @@
 % Please edit documentation in R/PimentelPg91.R
 \name{PimentelPg91}
 \alias{PimentelPg91}
-\title{Preparo com do solo na Produção de Milho}
+\title{Preparo com do solo na Produ\enc{çã}{ca}o de Milho}
 \format{Um \code{data.frame} com 24 observações e 3 variáveis, em que
 
 \describe{

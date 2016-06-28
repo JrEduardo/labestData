@@ -1,5 +1,5 @@
 #' @name BanzattoQd3.6.1
-#' @title Produção de Matéria Seca em Cultivares de Sorgo
+#' @title Produ\enc{çã}{ca}o de Mat\enc{é}{e}ria Seca em Cultivares de Sorgo
 #' @description Experimento em delineamento inteiramente casualizado
 #'     avaliando a produção de matéria de cultivares de sorgo. O
 #'     experimento é desbalanceado no número de repetições das

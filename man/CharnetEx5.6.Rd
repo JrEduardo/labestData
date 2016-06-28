@@ -2,7 +2,7 @@
 % Please edit documentation in R/CharnetEx5.6.R
 \name{CharnetEx5.6}
 \alias{CharnetEx5.6}
-\title{Consumo de Combustível e Peso do Automóvel}
+\title{Consumo de Combust\enc{í}{i}vel e Peso do Autom\enc{ó}{o}vel}
 \format{Um \code{data.frame} com 2 colunas e 14 linhas.
 
 \describe{

@@ -1,6 +1,6 @@
 #' @name CharnetEx11.2
 #'
-#' @title Distribuição de Trabalho em um Departamento de Contabilidade
+#' @title Distribui\enc{çã}{ca}o de Trabalho em um Departamento de Contabilidade
 #'
 #' @description Estudo para determinar as atividades mais importantes
 #'     dos funcionários do departamento de contabilidade em uma empresa,

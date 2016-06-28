@@ -2,7 +2,7 @@
 % Please edit documentation in R/PimentelTb14.5.1.R
 \name{PimentelTb14.5.1}
 \alias{PimentelTb14.5.1}
-\title{Ensaio de Reversão na Produção de Leite}
+\title{Ensaio de Revers\enc{ã}{a}o na Produ\enc{çã}{ca}o de Leite}
 \format{Um \code{data.frame} com 36 observações e 5 variáveis, em que
 
 \describe{

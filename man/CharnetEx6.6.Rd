@@ -2,7 +2,7 @@
 % Please edit documentation in R/CharnetEx6.6.R
 \name{CharnetEx6.6}
 \alias{CharnetEx6.6}
-\title{Conjunto de Dados Genérico}
+\title{Conjunto de Dados Gen\enc{é}{e}rico}
 \format{Um \code{data.frame} com 2 colunas e 15 linhas.
 
 \describe{

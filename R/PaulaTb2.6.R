@@ -1,5 +1,5 @@
 #' @name PaulaTb2.6
-#' @title Projeção de Vendas
+#' @title Proje\enc{çã}{ca}o de Vendas
 #' @description Dados referentes a 20 valores projetados para vendas de
 #'     produtos confrontados com os verdadeiros valores de venda
 #'     obtidos.

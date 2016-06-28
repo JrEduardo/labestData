@@ -1,5 +1,5 @@
 #' @name VieiraPg57.2
-#' @title Peso de Ratos em Função da Idade
+#' @title Peso de Ratos em Fun\enc{çã}{ca}o da Idade
 #' @description Os dados referem-se ao peso de 3 ratos medidos 5 vezes
 #'     dos 30 aos 46 dias de idade. Para fazer análise dos dados,
 #'     pode-se considerar que os ratos são os blocos e que a idade é o

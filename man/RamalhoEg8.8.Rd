@@ -2,7 +2,7 @@
 % Please edit documentation in R/RamalhoEg8.8.R
 \name{RamalhoEg8.8}
 \alias{RamalhoEg8.8}
-\title{Produção de Grãos de Feijão de Populações Segregantes}
+\title{Produ\enc{çã}{ca}o de Gr\enc{ã}{a}os de Feij\enc{ã}{a}o de Popula\enc{çõ}{co}es Segregantes}
 \format{Um \code{data.frame} com 72 observações e 4 variáveis, em que
 
 \describe{

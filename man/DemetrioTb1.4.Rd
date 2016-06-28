@@ -2,7 +2,7 @@
 % Please edit documentation in R/DemetrioTb1.4.R
 \name{DemetrioTb1.4}
 \alias{DemetrioTb1.4}
-\title{Concentração de Fósforo}
+\title{Concentra\enc{çã}{ca}o de F\enc{ó}{o}sforo}
 \format{Um \code{data.frame} com 18 linhas e 3 colunas.
 
 \describe{

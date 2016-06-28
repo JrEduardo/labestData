@@ -2,7 +2,7 @@
 % Please edit documentation in R/ZimmermannTb11.1.R
 \name{ZimmermannTb11.1}
 \alias{ZimmermannTb11.1}
-\title{Espaçamento e Densidade de Plantio na Produção de Arroz}
+\title{Espa\enc{ç}{c}amento e Densidade de Plantio na Produ\enc{çã}{ca}o de Arroz}
 \format{Um \code{data.frame} com 32 observações e 4 variáveis, em que
 
 \describe{

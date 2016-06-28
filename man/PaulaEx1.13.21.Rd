@@ -2,7 +2,7 @@
 % Please edit documentation in R/PaulaEx1.13.21.R
 \name{PaulaEx1.13.21}
 \alias{PaulaEx1.13.21}
-\title{Número de Octanas na Produção de Gasolina}
+\title{N\enc{ú}{u}mero de Octanas na Produ\enc{çã}{ca}o de Gasolina}
 \format{Um \code{data.frame} com 82 observações e 5 variáveis.
     \describe{
 

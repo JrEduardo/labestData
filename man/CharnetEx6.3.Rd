@@ -2,7 +2,7 @@
 % Please edit documentation in R/CharnetEx6.3.R
 \name{CharnetEx6.3}
 \alias{CharnetEx6.3}
-\title{Salário Mensal de Formandos em Economia}
+\title{Sal\enc{á}{a}rio Mensal de Formandos em Economia}
 \format{Um \code{data.frame} com 2 colunas e 35 linhas.
 
 \describe{

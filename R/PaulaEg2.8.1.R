@@ -1,5 +1,5 @@
 #' @name PaulaEg2.8.1
-#' @title Comparação de Tipos de Snack
+#' @title Compara\enc{çã}{ca}o de Tipos de Snack
 #' @description Dados de um experimento desenvolvido pelo Departamento
 #'     de Nutrição da Faculdade de Saúde Pública da USP em que 5 tipos
 #'     diferentes de um novo snack, com baixo teor de gordura e de

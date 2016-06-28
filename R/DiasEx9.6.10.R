@@ -1,5 +1,5 @@
 #' @name DiasEx9.6.10
-#' @title Ensaio de Competição de Cultivares de Café
+#' @title Ensaio de Competi\enc{çã}{ca}o de Cultivares de Caf\enc{é}{e}
 #' @description Experimento de competição de cultivares de café
 #'     instalado em delineamento quadrado latino.
 #' @format Um \code{data.frame} com 25 observações e 4 variáveis, em que

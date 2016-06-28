@@ -1,5 +1,5 @@
 #' @name BanzattoQd5.3.7
-#' @title Eficiência na Utilização de P por Cultivares de trigo
+#' @title Efici\enc{ê}{e}ncia na Utiliza\enc{çã}{ca}o de P por Cultivares de trigo
 #' @description Experimento em delineamento inteiramente casualizado que
 #'     avaliou o efeito a eficiência na utilização de fósforo por três
 #'     cultivares de trigo cultivadas em solo com e sem calagem.

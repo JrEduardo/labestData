@@ -1,5 +1,5 @@
 #' @name PaulaEx2.10.20
-#' @title Estudo de Apólices de Seguros de Veículos
+#' @title Estudo de Ap\enc{ó}{o}lices de Seguros de Ve\enc{í}{i}culos
 #' @description Dados de uma amostra aleatória de 996 apólices de
 #'     seguros de veículos referentes ao período de 2004-2005, extraída
 #'     de Jong e Heller (2008). Foram 9 variáveis observadas na amostra

@@ -1,5 +1,5 @@
 #' @name PaulaEg5.5.1
-#' @title Ensaio Clínico com Indivíduos Epilépticos
+#' @title Ensaio Cl\enc{í}{i}nico com Indiv\enc{í}{i}duos Epil\enc{é}{e}pticos
 #' @description Dados apresentados em Diggle, Liang e Zeger (1994), 
 #'     referentes a um ensaio clínico com 59 indivíduos epilépticos,
 #'     aleatorizados de modo que cada um recebesse uma droga

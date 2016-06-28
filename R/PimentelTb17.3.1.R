@@ -1,5 +1,5 @@
 #' @name PimentelTb17.3.1
-#' @title Produção de Lenha de Espécies de Eucaliptos
+#' @title Produ\enc{çã}{ca}o de Lenha de Esp\enc{é}{e}cies de Eucaliptos
 #' @description Grupo de dois experimentos com espécies de eucaliptos
 #'     realizados pela Companhia Paulista de Estradas de Ferro
 #'     (Pimentel-Gomes e Guimarães, 1958). Ambos os ensaios, localizados

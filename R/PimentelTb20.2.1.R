@@ -1,5 +1,5 @@
 #' @name PimentelTb20.2.1
-#' @title Ensaio Fatorial de Adubação de Cana-de-açúcar
+#' @title Ensaio Fatorial de Aduba\enc{çã}{ca}o de Cana-de-a\enc{çú}{cu}car
 #' @description Ensaio fatorial, de \eqn{3^{2}}, de adubação de
 #'     cana-de-açúcar com P e K, em 6 blocos casualizados.
 #' @format Um \code{data.frame} com 9 observações e 3 variáveis, em que

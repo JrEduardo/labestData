@@ -1,5 +1,5 @@
 #' @name RamalhoEg8.8
-#' @title Produção de Grãos de Feijão de Populações Segregantes
+#' @title Produ\enc{çã}{ca}o de Gr\enc{ã}{a}os de Feij\enc{ã}{a}o de Popula\enc{çõ}{co}es Segregantes
 #' @description Dados da produção de grãos de feijão obtidos por Corte
 #'     et al. (2002) relativos à avaliação de 6 populações segregantes
 #'     avaliadas nas gerações F\eqn{_{2}}, F\eqn{_{3}} e F\eqn{_{4}} com

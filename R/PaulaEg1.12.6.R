@@ -1,5 +1,5 @@
 #' @name PaulaEg1.12.6
-#' @title Salário de Executivos
+#' @title Sal\enc{á}{a}rio de Executivos
 #' @description Dados referentes ao salário anual de uma 
 #'     amostra aleatória de 220 executivos (145 homens e 75 mulheres). O 
 #'     salário será relacionado com as variáveis: sexo, anos de experiência 

@@ -2,7 +2,7 @@
 % Please edit documentation in R/DiasEx6.5.9.R
 \name{DiasEx6.5.9}
 \alias{DiasEx6.5.9}
-\title{Correlação entre Temperatura e Massa}
+\title{Correla\enc{çã}{ca}o entre Temperatura e Massa}
 \format{Um \code{data.frame} com 11 observações e 3 variáveis, em que
 
 \describe{

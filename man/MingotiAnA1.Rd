@@ -2,7 +2,7 @@
 % Please edit documentation in R/MingotiAnA1.R
 \name{MingotiAnA1}
 \alias{MingotiAnA1}
-\title{Aceitação de um novo produto comestível}
+\title{Aceita\enc{çã}{ca}o de um novo produto comest\enc{í}{i}vel}
 \format{Um \code{data.frame} com 200 observações e 9 variáveis, 
      em que
 

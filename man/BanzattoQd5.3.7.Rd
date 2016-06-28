@@ -2,7 +2,7 @@
 % Please edit documentation in R/BanzattoQd5.3.7.R
 \name{BanzattoQd5.3.7}
 \alias{BanzattoQd5.3.7}
-\title{Eficiência na Utilização de P por Cultivares de trigo}
+\title{Efici\enc{ê}{e}ncia na Utiliza\enc{çã}{ca}o de P por Cultivares de trigo}
 \format{Um \code{data.frame} com 48 observações e 5 variáveis.
 \describe{
 

@@ -2,7 +2,7 @@
 % Please edit documentation in R/ZimmermannTb16.3.R
 \name{ZimmermannTb16.3}
 \alias{ZimmermannTb16.3}
-\title{Teores de Matéria Orgânica de Solos de Várzea}
+\title{Teores de Mat\enc{é}{e}ria Org\enc{â}{a}nica de Solos de V\enc{á}{a}rzea}
 \format{Um \code{data.frame} com 14 observações e 2 variáveis, em que
 
 \describe{

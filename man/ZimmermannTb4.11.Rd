@@ -2,7 +2,7 @@
 % Please edit documentation in R/ZimmermannTb4.11.R
 \name{ZimmermannTb4.11}
 \alias{ZimmermannTb4.11}
-\title{Alturas Médias de Perfilhos}
+\title{Alturas M\enc{é}{e}dias de Perfilhos}
 \format{Um \code{data.frame} com 200 observações e 4 variáveis
 
 \describe{

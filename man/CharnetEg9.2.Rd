@@ -2,7 +2,7 @@
 % Please edit documentation in R/CharnetEg9.2.R
 \name{CharnetEg9.2}
 \alias{CharnetEg9.2}
-\title{Relação entre Poluentes Atmosféricos}
+\title{Rela\enc{çã}{ca}o entre Poluentes Atmosf\enc{é}{e}ricos}
 \format{Um \code{data.frame} com 3 colunas e 7 linhas.
 
 \describe{

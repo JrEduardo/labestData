@@ -2,7 +2,7 @@
 % Please edit documentation in R/PaulaEx3.7.23.R
 \name{PaulaEx3.7.23}
 \alias{PaulaEx3.7.23}
-\title{Incidência de Dengue e Fatores Socio-econômicos}
+\title{Incid\enc{ê}{e}ncia de Dengue e Fatores Socio-econ\enc{ô}{o}micos}
 \format{Um \code{data.frame} com 196 observações e 4 variáveis.
 
 \describe{

@@ -2,7 +2,7 @@
 % Please edit documentation in R/BarbinEx3.R
 \name{BarbinEx3}
 \alias{BarbinEx3}
-\title{Podridão Mole de Manga em Função do Tratamento Térmico}
+\title{Podrid\enc{ã}{a}o Mole de Manga em Fun\enc{çã}{ca}o do Tratamento T\enc{é}{e}rmico}
 \format{Um \code{data.frame} com 28 observações e 2 variáveis.
 \describe{
 

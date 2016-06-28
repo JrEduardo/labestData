@@ -2,7 +2,7 @@
 % Please edit documentation in R/ZimmermannTb7.4.R
 \name{ZimmermannTb7.4}
 \alias{ZimmermannTb7.4}
-\title{Produção de Grãos de Arroz em Ensaio Reticulado Retangular}
+\title{Produ\enc{çã}{ca}o de Gr\enc{ã}{a}os de Arroz em Ensaio Reticulado Retangular}
 \format{Um \code{data.frame} com 90 observações e 3 variáveis, em que
 
 \describe{

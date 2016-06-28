@@ -1,5 +1,5 @@
 #' @name ZimmermannTb15.1
-#' @title Produção de Perfilhos por Planta em Função de 4 Fatores
+#' @title Produ\enc{çã}{ca}o de Perfilhos por Planta em Fun\enc{çã}{ca}o de 4 Fatores
 #' @description Dados de um ensaio fatorial fracionado \eqn{2^{4-1}}, em
 #'     blocos ao acaso. O experimento mediu o número médio de perfilhos
 #'     por planta. Os quatro fatores estudados foram: cultivar,

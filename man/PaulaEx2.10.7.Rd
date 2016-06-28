@@ -2,7 +2,7 @@
 % Please edit documentation in R/PaulaEx2.10.7.R
 \name{PaulaEx2.10.7}
 \alias{PaulaEx2.10.7}
-\title{Resistência de Vidros sob Efeito de Voltagem e Temperatura}
+\title{Resist\enc{ê}{e}ncia de Vidros sob Efeito de Voltagem e Temperatura}
 \format{Um \code{data.frame} com 32 observações e 3 variáveis.
     \describe{
 

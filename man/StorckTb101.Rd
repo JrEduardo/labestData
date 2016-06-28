@@ -2,7 +2,7 @@
 % Please edit documentation in R/StorckTb101.R
 \name{StorckTb101}
 \alias{StorckTb101}
-\title{Grupo de Experimentos de Competição de Cultivares de Milho}
+\title{Grupo de Experimentos de Competi\enc{çã}{ca}o de Cultivares de Milho}
 \format{Um \code{data.frame} com 96 observações e 4 variáveis, em que
 
 \describe{

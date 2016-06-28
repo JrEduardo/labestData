@@ -2,7 +2,7 @@
 % Please edit documentation in R/RamalhoEx13.3.R
 \name{RamalhoEx13.3}
 \alias{RamalhoEx13.3}
-\title{Avaliação do Stay Green em Famílias de Feijoeiro}
+\title{Avalia\enc{çã}{ca}o do Stay Green em Fam\enc{í}{i}lias de Feijoeiro}
 \format{Um \code{data.frame} com 60 observações e 3 variáveis, em que
 
 \describe{

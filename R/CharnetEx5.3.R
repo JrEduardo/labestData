@@ -1,6 +1,6 @@
 #' @name CharnetEx5.3
 #'
-#' @title Precisão de um Velocímetro
+#' @title Precis\enc{ã}{a}o de um Veloc\enc{í}{i}metro
 #'
 #' @description Medição da precisão de um velocímetro de locomotiva.
 #'

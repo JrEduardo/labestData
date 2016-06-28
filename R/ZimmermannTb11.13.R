@@ -1,5 +1,5 @@
 #' @name ZimmermannTb11.13
-#' @title Absorção e Translocação de Zinco em Arroz de Terras Altas
+#' @title Absor\enc{çã}{ca}o e Transloca\enc{çã}{ca}o de Zinco em Arroz de Terras Altas
 #' @description Dados de um experimento fatorial \eqn{3^3}, com
 #'     confundimento parcial de 2 graus de liberdade da interação dupla.
 #'     O estudo é sobre a absorção e translocação de zinco em arroz de

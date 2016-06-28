@@ -2,7 +2,7 @@
 % Please edit documentation in R/FerreiraEg13.3.R
 \name{FerreiraEg13.3}
 \alias{FerreiraEg13.3}
-\title{Classificação de Solos na Região Amazônica}
+\title{Classifica\enc{çã}{ca}o de Solos na Regi\enc{ã}{a}o Amaz\enc{ô}{o}nica}
 \format{Um \code{data.frame} com 30 observações e 3 variáveis, em que
 
 \describe{

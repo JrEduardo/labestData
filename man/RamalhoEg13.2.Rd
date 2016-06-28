@@ -2,7 +2,7 @@
 % Please edit documentation in R/RamalhoEg13.2.R
 \name{RamalhoEg13.2}
 \alias{RamalhoEg13.2}
-\title{Produção de Grãos de Milho em Consórcio com Feijão.}
+\title{Produ\enc{çã}{ca}o de Gr\enc{ã}{a}os de Milho em Cons\enc{ó}{o}rcio com Feij\enc{ã}{a}o.}
 \format{Um \code{data.frame} com 36 observações e 5 variáveis, em que
 
 \describe{

@@ -2,7 +2,7 @@
 % Please edit documentation in R/PaulaTb1.6.R
 \name{PaulaTb1.6}
 \alias{PaulaTb1.6}
-\title{Anos de Estudo e a Renda Média Mensal}
+\title{Anos de Estudo e a Renda M\enc{é}{e}dia Mensal}
 \format{Um \code{data.frame} com 27 observações e 3 variáveis.
 \describe{
 

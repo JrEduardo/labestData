@@ -2,7 +2,7 @@
 % Please edit documentation in R/ZimmermannTb15.1.R
 \name{ZimmermannTb15.1}
 \alias{ZimmermannTb15.1}
-\title{Produção de Perfilhos por Planta em Função de 4 Fatores}
+\title{Produ\enc{çã}{ca}o de Perfilhos por Planta em Fun\enc{çã}{ca}o de 4 Fatores}
 \format{Um \code{data.frame} com 24 observações e 3 variáveis
 
 \describe{

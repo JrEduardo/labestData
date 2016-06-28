@@ -2,7 +2,7 @@
 % Please edit documentation in R/RamalhoEg12.10.R
 \name{RamalhoEg12.10}
 \alias{RamalhoEg12.10}
-\title{Ensaio Dialelo para o Tempo Até o Florescimento do Feijoeiro}
+\title{Ensaio Dialelo para o Tempo At\enc{é}{e} o Florescimento do Feijoeiro}
 \format{Um \code{data.frame} com 9 observações e 3 variáveis, em que
 
 \describe{

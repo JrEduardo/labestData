@@ -1,5 +1,5 @@
 #' @name DiasEg6.3
-#' @title Número Total de Frutos Colhidos e Sadios em Clones de
+#' @title N\enc{ú}{u}mero Total de Frutos Colhidos e Sadios em Clones de
 #'     Cacaueiro
 #' @description Foram avaliados 7 clones de cacaueiros a fim determinar
 #'     a correlação entre o número de frutos sadios e número de frutos

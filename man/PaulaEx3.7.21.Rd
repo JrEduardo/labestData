@@ -2,7 +2,7 @@
 % Please edit documentation in R/PaulaEx3.7.21.R
 \name{PaulaEx3.7.21}
 \alias{PaulaEx3.7.21}
-\title{Fatores Ambientais na Abundância de Duas Espécies de Lagarto}
+\title{Fatores Ambientais na Abund\enc{â}{a}ncia de Duas Esp\enc{é}{e}cies de Lagarto}
 \format{Um \code{data.frame} com 23 observações e 6 variáveis.
     \describe{
 

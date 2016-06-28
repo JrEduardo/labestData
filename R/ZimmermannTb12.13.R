@@ -1,5 +1,5 @@
 #' @name ZimmermannTb12.13
-#' @title Proporção de Insetos Infectados
+#' @title Propor\enc{çã}{ca}o de Insetos Infectados
 #' @description Dados do ensaio 1 de um experimento em DBC que estudou a
 #'     patogenicidade de fungos ao percevejo do grão de arroz. A
 #'     testemunha sem infecção (1) era o tratamento comum entre os dois

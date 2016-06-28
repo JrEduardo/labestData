@@ -1,7 +1,7 @@
 #' @name EpprechtTb8.15
 #' 
-#' @title Controle de Qualidade para o Número de Defeitos em um Processo 
-#' de Produção de Tecidos
+#' @title Controle de Qualidade para o N\enc{ú}{u}mero de Defeitos em um Processo 
+#' de Produ\enc{çã}{ca}o de Tecidos
 #' 
 #' @description Para monitorar um processo de produção de tecidos
 #'     estampados foram examinados os 10 primeiros rolos, com 200m de 

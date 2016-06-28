@@ -1,5 +1,5 @@
 #' @name FariaQd11.4
-#' @title Produção de Batatas em Função da Calagem e Adubação
+#' @title Produ\enc{çã}{ca}o de Batatas em Fun\enc{çã}{ca}o da Calagem e Aduba\enc{çã}{ca}o
 #' @description Experimento montado em delineamento inteiramente
 #'     casualizado para estudar o efeito da combibação dos fatores
 #'     irrigação e calagem da produção de batata.

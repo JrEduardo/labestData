@@ -2,7 +2,7 @@
 % Please edit documentation in R/CharnetEx5.13.R
 \name{CharnetEx5.13}
 \alias{CharnetEx5.13}
-\title{Danos aos Pulmões em Pacientes com Enfisema}
+\title{Danos aos Pulm\enc{õ}{o}es em Pacientes com Enfisema}
 \format{Um \code{data.frame} com 2 colunas e 16 linhas.
 
 \describe{

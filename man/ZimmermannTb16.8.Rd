@@ -2,7 +2,7 @@
 % Please edit documentation in R/ZimmermannTb16.8.R
 \name{ZimmermannTb16.8}
 \alias{ZimmermannTb16.8}
-\title{Dias para Floração de Cultivares de Arroz em um Reticulado
+\title{Dias para Flora\enc{çã}{ca}o de Cultivares de Arroz em um Reticulado
     Quadrado}
 \format{Um \code{data.frame} com 75 observações e 5 variáveis, em que
 

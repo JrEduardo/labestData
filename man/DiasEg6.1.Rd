@@ -2,7 +2,7 @@
 % Please edit documentation in R/DiasEg6.1.R
 \name{DiasEg6.1}
 \alias{DiasEg6.1}
-\title{Ganhos de Produção de Arroz nos Ciclos de Seleção}
+\title{Ganhos de Produ\enc{çã}{ca}o de Arroz nos Ciclos de Sele\enc{çã}{ca}o}
 \format{Um \code{data.frame} com 6 observações e 2 variáveis, em que
 
 \describe{

@@ -1,5 +1,5 @@
 #' @name RamosAnC7
-#' @title Processo químico
+#' @title Processo qu\enc{í}{i}mico
 #' @description Conjunto de dados de um processo químico com  
 #'     o pH da água, e pH do cloreto de potássio em 30 amostras
 #'     de tamanho 1.

@@ -2,7 +2,7 @@
 % Please edit documentation in R/ZimmermannTb12.19.R
 \name{ZimmermannTb12.19}
 \alias{ZimmermannTb12.19}
-\title{Produtividade de feijão em ensaio de competição de cultivares}
+\title{Produtividade de feij\enc{ã}{a}o em ensaio de competi\enc{çã}{ca}o de cultivares}
 \format{Um \code{data.frame} com 36 observações e 3 variáveis
 
 \describe{

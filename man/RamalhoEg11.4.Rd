@@ -2,7 +2,7 @@
 % Please edit documentation in R/RamalhoEg11.4.R
 \name{RamalhoEg11.4}
 \alias{RamalhoEg11.4}
-\title{Produção de Grãos de Milho}
+\title{Produ\enc{çã}{ca}o de Gr\enc{ã}{a}os de Milho}
 \format{Um \code{data.frame} com 72 observações e 5 variáveis, em que
 
 \describe{

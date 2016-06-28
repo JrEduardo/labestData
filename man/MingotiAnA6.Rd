@@ -2,7 +2,7 @@
 % Please edit documentation in R/MingotiAnA6.R
 \name{MingotiAnA6}
 \alias{MingotiAnA6}
-\title{Dados de funcionários da empresa}
+\title{Dados de funcion\enc{á}{a}rios da empresa}
 \format{Um \code{data.frame} com 109 observações e 10 variáveis, 
     em que
 

@@ -1,5 +1,5 @@
 #' @name ZimmermannTb16.5
-#' @title Número de Dias para Floração de Cultivares de Arroz
+#' @title N\enc{ú}{u}mero de Dias para Flora\enc{çã}{ca}o de Cultivares de Arroz
 #' @description Experimento realizado em delineamento em blocos
 #'     completos ao acaso, utilizando oito cultivares de arroz
 #'     irrigado. Os dados são referentes ao número de dias até a

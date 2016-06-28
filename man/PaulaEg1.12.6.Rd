@@ -2,7 +2,7 @@
 % Please edit documentation in R/PaulaEg1.12.6.R
 \name{PaulaEg1.12.6}
 \alias{PaulaEg1.12.6}
-\title{Salário de Executivos}
+\title{Sal\enc{á}{a}rio de Executivos}
 \format{Um \code{data.frame} com 220 observações e 4 variáveis.
 \describe{
 

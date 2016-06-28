@@ -2,7 +2,7 @@
 % Please edit documentation in R/CharnetEx5.5.R
 \name{CharnetEx5.5}
 \alias{CharnetEx5.5}
-\title{Respostas a um Anúncio de Emprego}
+\title{Respostas a um An\enc{ú}{u}ncio de Emprego}
 \format{Um \code{data.frame} com 2 colunas e 14 linhas.
 
 \describe{

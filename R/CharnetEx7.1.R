@@ -1,6 +1,6 @@
 #' @name CharnetEx7.1
 #'
-#' @title Efeito da Radiação ao Ozônio em Sementes de Soja
+#' @title Efeito da Radia\enc{çã}{ca}o ao Oz\enc{ô}{o}nio em Sementes de Soja
 #'
 #' @description Efeito da radiação solar em dois níveis de ozônio e
 #'     impacto nos pesos de sementes de soja.

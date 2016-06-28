@@ -2,7 +2,7 @@
 % Please edit documentation in R/BarbinEx17.R
 \name{BarbinEx17}
 \alias{BarbinEx17}
-\title{Efeito do Espaçamento na Produtividade de Laranjeira Valência}
+\title{Efeito do Espa\enc{ç}{c}amento na Produtividade de Laranjeira Val\enc{ê}{e}ncia}
 \format{Um \code{data.frame} com 100 observações e 4 variáveis, em
     que
 

@@ -1,5 +1,5 @@
 #' @name DemetrioTb1.4
-#' @title Concentração de Fósforo
+#' @title Concentra\enc{çã}{ca}o de F\enc{ó}{o}sforo
 #' 
 #' @description Dados referentes a medidas de concentrações de fósforo
 #'     inorgânico e orgânico no solo, onde posteriormente mediu-se o

@@ -1,5 +1,5 @@
 #' @name BanzattoQd1.2.3
-#' @title Diâmetro à Altura do Peito de \emph{Eucalyptus saligna}
+#' @title Di\enc{â}{a}metro \enc{à}{a} Altura do Peito de \emph{Eucalyptus saligna}
 #' @description Valores de diâmetro à altura do peito (DAP, cm) de uma
 #'     amostra aleatória de árvores de \emph{Eucalyptus saligna} de um
 #'     povoamento com 15 anos de idade.

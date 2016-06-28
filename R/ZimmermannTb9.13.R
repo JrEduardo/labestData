@@ -1,5 +1,5 @@
 #' @name ZimmermannTb9.13
-#' @title Matéria Seca de Feijão em Fatorial 3x3
+#' @title Mat\enc{é}{e}ria Seca de Feij\enc{ã}{a}o em Fatorial 3x3
 #' @description Dados de um estudo em ensaio fatorial 3 \eqn{times} 3,
 #'     considerando três níveis de densidade de solo e três doses
 #'     microelementos. Cada vaso continha três plantas de arroz e,

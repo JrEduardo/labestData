@@ -2,7 +2,7 @@
 % Please edit documentation in R/FerreiraEx9.7.2.R
 \name{FerreiraEx9.7.2}
 \alias{FerreiraEx9.7.2}
-\title{Avaliação Nutricional de Tipos de Carne}
+\title{Avalia\enc{çã}{ca}o Nutricional de Tipos de Carne}
 \format{Um \code{data.frame} com 5 observações e 5 variáveis, em que
 
 \describe{

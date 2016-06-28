@@ -1,5 +1,5 @@
 #' @name PaulaEg3.6.11b
-#' @title Idade do início da menstruação em garotas de Varsóvia
+#' @title Idade do in\enc{í}{i}cio da menstrua\enc{çã}{ca}o em garotas de Vars\enc{ó}{o}via
 #' @description Dados de  um estudo em que se investigou a idade do início 
 #'     da menstruação em 3918 garotas de Varsóvia. Para 25 médias de 
 #'     idade foram observadas a ocorrência  ou não  do início de períodos

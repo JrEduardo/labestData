@@ -1,5 +1,5 @@
 #' @name DiasEg3.2
-#' @title Produção de frutos em cacaueiro
+#' @title Produ\enc{çã}{ca}o de frutos em cacaueiro
 #' @description Amostra aleatória do número de frutos produzidos por
 #'     plantas cacaueiro.
 #' @format Vetor com 43 observações que são o número de frutos

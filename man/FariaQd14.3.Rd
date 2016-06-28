@@ -2,8 +2,8 @@
 % Please edit documentation in R/FariaQd14.3.R
 \name{FariaQd14.3}
 \alias{FariaQd14.3}
-\title{Adubação com Fósforo na Produção de Matéria Seca de Parte
-    Aérea de Milho}
+\title{Aduba\enc{çã}{ca}o com F\enc{ó}{o}sforo na Produ\enc{çã}{ca}o de Mat\enc{é}{e}ria Seca de Parte
+    A\enc{é}{e}rea de Milho}
 \format{Um \code{data.frame} com 25 observações e 3 variáveis, em que
 
 \describe{

@@ -1,5 +1,5 @@
 #' @name DiasEg5.1
-#' @title Número de Ovos Eclodidos de Nematóides Após Aplicação de
+#' @title N\enc{ú}{u}mero de Ovos Eclodidos de Nemat\enc{ó}{o}ides Ap\enc{ó}{o}s Aplica\enc{çã}{ca}o de
 #'     Nematicidas Naturais
 #' @description Resultados de um experimento em delineamento
 #'     inteiramente casualizado que avaliou o efeito de 5 nematicidas

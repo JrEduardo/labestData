@@ -2,7 +2,7 @@
 % Please edit documentation in R/PimentelTb16.3.1.R
 \name{PimentelTb16.3.1}
 \alias{PimentelTb16.3.1}
-\title{Suscetibilidade de Variedades de Soja ao Ataque de Nematóides}
+\title{Suscetibilidade de Variedades de Soja ao Ataque de Nemat\enc{ó}{o}ides}
 \format{Um \code{data.frame} com 60 observações e 4 variáveis, em que
 
 \describe{

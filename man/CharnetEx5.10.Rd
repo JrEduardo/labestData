@@ -2,7 +2,7 @@
 % Please edit documentation in R/CharnetEx5.10.R
 \name{CharnetEx5.10}
 \alias{CharnetEx5.10}
-\title{Relação entre a Taxa de Desemprego e Índice de Suicídios}
+\title{Rela\enc{çã}{ca}o entre a Taxa de Desemprego e \enc{Í}{I}ndice de Suic\enc{í}{i}dios}
 \format{Um \code{data.frame} com 2 colunas e 14 linhas.
 
 \describe{

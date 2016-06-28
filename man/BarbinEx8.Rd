@@ -2,7 +2,7 @@
 % Please edit documentation in R/BarbinEx8.R
 \name{BarbinEx8}
 \alias{BarbinEx8}
-\title{Controle Químico do Damping-off em Eucalipto}
+\title{Controle Qu\enc{í}{i}mico do Damping-off em Eucalipto}
 \format{Um \code{data.frame} com 45 observações e 3 variáveis.
 
 \describe{

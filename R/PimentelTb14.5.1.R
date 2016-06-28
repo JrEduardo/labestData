@@ -1,5 +1,5 @@
 #' @name PimentelTb14.5.1
-#' @title Ensaio de Reversão na Produção de Leite
+#' @title Ensaio de Revers\enc{ã}{a}o na Produ\enc{çã}{ca}o de Leite
 #' @description Experimento de reversão (switch-back) avaliando a
 #'     produção de leite em função do nível de nutrição. Os fatores
 #'     período, bloco e vaca são de blocagem. O tratamento estudado

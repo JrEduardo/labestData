@@ -1,6 +1,6 @@
 #' @name CharnetEx3.3
 #'
-#' @title Resíduo Catalisado de um Experimento Químico
+#' @title Res\enc{í}{i}duo Catalisado de um Experimento Qu\enc{í}{i}mico
 #'
 #' @description Quantidade de resíduo catalisado, em gramas,
 #'     proveniente de 100 ml de água, de um experimento químico,

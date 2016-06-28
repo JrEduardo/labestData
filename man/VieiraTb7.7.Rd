@@ -2,7 +2,7 @@
 % Please edit documentation in R/VieiraTb7.7.R
 \name{VieiraTb7.7}
 \alias{VieiraTb7.7}
-\title{Teste Sobre Conhecimento em Função da Fonte de Informação}
+\title{Teste Sobre Conhecimento em Fun\enc{çã}{ca}o da Fonte de Informa\enc{çã}{ca}o}
 \format{Um \code{data.frame} com 24 observações e 3 variáveis, em que
 
 \describe{

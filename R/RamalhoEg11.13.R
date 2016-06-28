@@ -1,5 +1,5 @@
 #' @name RamalhoEg11.13
-#' @title Produção de Grãos de Milho em Diferentes Populações
+#' @title Produ\enc{çã}{ca}o de Gr\enc{ã}{a}os de Milho em Diferentes Popula\enc{çõ}{co}es
 #' @description Experimento envolvendo populações de milho no
 #'     delinemanto em blocos aumentados com 4 populações comuns e 25
 #'     populações regulares.

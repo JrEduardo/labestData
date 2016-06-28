@@ -1,5 +1,5 @@
 #' @name StorckTb67
-#' @title Efeito da Dose de NPK na Produção de Cultivares de Milho
+#' @title Efeito da Dose de NPK na Produ\enc{çã}{ca}o de Cultivares de Milho
 #' @description Resultados ficitícios (kg/parcela) de um experimento
 #'     bifatorial 3 \eqn{\times} 5 no delineamento de blocos ao acaso
 #'     com 4 repetições.

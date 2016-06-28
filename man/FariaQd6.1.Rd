@@ -2,7 +2,7 @@
 % Please edit documentation in R/FariaQd6.1.R
 \name{FariaQd6.1}
 \alias{FariaQd6.1}
-\title{Produção de Variedades de Milho}
+\title{Produ\enc{çã}{ca}o de Variedades de Milho}
 \format{Um \code{data.frame} com 20 observações e 3 variáveis, em que
 
 \describe{

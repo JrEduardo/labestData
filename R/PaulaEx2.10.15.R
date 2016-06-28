@@ -1,5 +1,5 @@
 #' @name PaulaEx2.10.15
-#' @title Consumo de Energia em Domicílios
+#' @title Consumo de Energia em Domic\enc{í}{i}lios
 #' @description Dados referentes ao consumo de energia em 53 domicílios
 #'     e demanda de energia no horário de pico.
 #'     

@@ -2,7 +2,7 @@
 % Please edit documentation in R/PaulaEg3.6.9c.R
 \name{PaulaEg3.6.9c}
 \alias{PaulaEg3.6.9c}
-\title{Preferência de consumidores}
+\title{Prefer\enc{ê}{e}ncia de consumidores}
 \format{Um \code{data.frame} com 263 observações e 4 variáveis, em que
 
 \describe{

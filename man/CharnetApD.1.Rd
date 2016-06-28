@@ -2,7 +2,7 @@
 % Please edit documentation in R/CharnetApD.1.R
 \name{CharnetApD.1}
 \alias{CharnetApD.1}
-\title{Conjunto de Dados de Meninas Dançarinas}
+\title{Conjunto de Dados de Meninas Dan\enc{ç}{c}arinas}
 \format{Um \code{data.frame} com 163 linhas e 6 colunas.
 
 \describe{

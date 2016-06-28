@@ -2,7 +2,7 @@
 % Please edit documentation in R/PaulaEx4.6.15.R
 \name{PaulaEx4.6.15}
 \alias{PaulaEx4.6.15}
-\title{Número de Infecções de Ouvido em Recrutas Americanos}
+\title{N\enc{ú}{u}mero de Infec\enc{çõ}{co}es de Ouvido em Recrutas Americanos}
 \format{Um \code{data.frame} com 287 observações e 5 variáveis.
     \describe{
 

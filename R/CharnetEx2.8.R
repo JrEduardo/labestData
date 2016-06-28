@@ -1,6 +1,6 @@
 #' @name CharnetEx2.8
 #'
-#' @title Dados Genéricos para Regressão Linear Simples
+#' @title Dados Gen\enc{é}{e}ricos para Regress\enc{ã}{a}o Linear Simples
 #'
 #' @description Três conjuntos de dados apresentados para
 #'     exercício. Objetivo do exercício é visualizar casos em que só

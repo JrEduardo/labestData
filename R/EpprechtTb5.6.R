@@ -1,5 +1,5 @@
 #' @name EpprechtTb5.6
-#' @title Avaliação das leituras de um micrômetro
+#' @title Avalia\enc{çã}{ca}o das leituras de um micr\enc{ô}{o}metro
 #' @description Dados referentes às leituras de um micrômetro usado para 
 #'     medir peças com dimensão nominal de 20 mm, utilizando um bloco padrão de 
 #'     dimensão 20 mm como referência. O bloco foi

@@ -1,5 +1,5 @@
 #' @name PaulaEx4.6.6
-#' @title Câncer Nasal em Trabalhadores de Refinaria de Níquel
+#' @title C\enc{â}{a}ncer Nasal em Trabalhadores de Refinaria de N\enc{í}{i}quel
 #' @description Dados provenientes de um estudo de seguimento em que se
 #'     acompanhou trabalhadores de uma refinaria de níquel no País de
 #'     Gales durante determinado período e avaliou-se o número de ocorrências de

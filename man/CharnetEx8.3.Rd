@@ -2,7 +2,7 @@
 % Please edit documentation in R/CharnetEx8.3.R
 \name{CharnetEx8.3}
 \alias{CharnetEx8.3}
-\title{Tempo de Corrosão do Metal}
+\title{Tempo de Corros\enc{ã}{a}o do Metal}
 \format{Um \code{data.frame} com 2 colunas e 10 linhas.
 
 \describe{

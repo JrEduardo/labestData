@@ -2,7 +2,7 @@
 % Please edit documentation in R/PaulaEx4.6.5.R
 \name{PaulaEx4.6.5}
 \alias{PaulaEx4.6.5}
-\title{Estudo Gerontológico do Número de Quedas}
+\title{Estudo Gerontol\enc{ó}{o}gico do N\enc{ú}{u}mero de Quedas}
 \format{Um \code{data.frame} com 100 observações e 5 variáveis.
     \describe{
 

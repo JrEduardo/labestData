@@ -1,5 +1,5 @@
 #' @name BarbinPg114
-#' @title Influência do Aparelho e Operador na Medição de Árvores
+#' @title Influ\enc{ê}{e}ncia do Aparelho e Operador na Medi\enc{çã}{ca}o de \enc{Á}{A}rvores
 #' @description Dados de um experimento fatorial 5 \eqn{\times} 4, em
 #'     delineamento de blocos casualizados, sobre e influência do
 #'     aparelho e do operador na determinação de altura de árvores, aos

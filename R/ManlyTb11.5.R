@@ -1,5 +1,5 @@
 #' @name ManlyTb11.5
-#' @title Votações de parlamentares
+#' @title Vota\enc{çõ}{co}es de parlamentares
 #'
 #' @description Número de votos discordantes entre os parlamentares de 
 #' Nova Jersey em leis referentes a problemas ambientais

@@ -2,7 +2,7 @@
 % Please edit documentation in R/PimentelTb17.3.1.R
 \name{PimentelTb17.3.1}
 \alias{PimentelTb17.3.1}
-\title{Produção de Lenha de Espécies de Eucaliptos}
+\title{Produ\enc{çã}{ca}o de Lenha de Esp\enc{é}{e}cies de Eucaliptos}
 \format{Um \code{data.frame} com 100 observações e 4 variáveis, em
     que
 

@@ -2,7 +2,7 @@
 % Please edit documentation in R/ZimmermannTb12.8.R
 \name{ZimmermannTb12.8}
 \alias{ZimmermannTb12.8}
-\title{Área Sob a Curva do Progresso de uma doença}
+\title{\enc{Á}{A}rea Sob a Curva do Progresso de uma doen\enc{ç}{c}a}
 \format{Um \code{data.frame} com 18 observações e 3 variáveis
 
 \describe{

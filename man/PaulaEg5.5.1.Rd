@@ -2,7 +2,7 @@
 % Please edit documentation in R/PaulaEg5.5.1.R
 \name{PaulaEg5.5.1}
 \alias{PaulaEg5.5.1}
-\title{Ensaio Clínico com Indivíduos Epilépticos}
+\title{Ensaio Cl\enc{í}{i}nico com Indiv\enc{í}{i}duos Epil\enc{é}{e}pticos}
 \format{Um \code{data.frame} com 295 observações e 5 variáveis.
 \describe{
 

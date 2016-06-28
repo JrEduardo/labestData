@@ -2,7 +2,7 @@
 % Please edit documentation in R/ZimmermannTb16.10.R
 \name{ZimmermannTb16.10}
 \alias{ZimmermannTb16.10}
-\title{Número de Colmos Atacados por \emph{Elasmopalpus}}
+\title{N\enc{ú}{u}mero de Colmos Atacados por \emph{Elasmopalpus}}
 \format{Um \code{data.frame} com 36 observações e 5 variáveis
 
 \describe{

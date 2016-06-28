@@ -1,5 +1,5 @@
 #' @name StorckTb2
-#' @title Peso das Plantas 30 após a Semeadura
+#' @title Peso das Plantas 30 ap\enc{ó}{o}s a Semeadura
 #' @description Experimento referente ao peso das plantas aos 30 dias
 #'     após a semeadura.
 #' @format data.frame com 20 observações e 3 variáveis, em que

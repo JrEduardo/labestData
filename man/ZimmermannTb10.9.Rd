@@ -2,7 +2,7 @@
 % Please edit documentation in R/ZimmermannTb10.9.R
 \name{ZimmermannTb10.9}
 \alias{ZimmermannTb10.9}
-\title{Época de Plantio e Manejo de Inseticida em Cultivares de Arroz}
+\title{\enc{É}{E}poca de Plantio e Manejo de Inseticida em Cultivares de Arroz}
 \format{Um \code{data.frame} com 48 observações e 5 variáveis, em que
 
 \describe{

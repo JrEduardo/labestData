@@ -1,5 +1,5 @@
 #' @name BarbinEx18
-#' @title Altura de Plantas de Espécies de Eucalipto em Vários Locais
+#' @title Altura de Plantas de Esp\enc{é}{e}cies de Eucalipto em V\enc{á}{a}rios Locais
 #' @description Dados referentes à altura de plantas de eucalipto, com 3
 #'     anos de idade, em ensaios inteiramente casualizados estudando o
 #'     efeito da espécie de eucalipto em vários municípios (grupo de

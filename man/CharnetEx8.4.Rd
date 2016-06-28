@@ -2,7 +2,7 @@
 % Please edit documentation in R/CharnetEx8.4.R
 \name{CharnetEx8.4}
 \alias{CharnetEx8.4}
-\title{Peças Defeituosas por Produção Média e Tempo de Reparo}
+\title{Pe\enc{ç}{c}as Defeituosas por Produ\enc{çã}{ca}o M\enc{é}{e}dia e Tempo de Reparo}
 \format{Um \code{data.frame} com 3 colunas e 15 linhas.
 
 \describe{

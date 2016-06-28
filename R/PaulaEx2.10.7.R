@@ -1,5 +1,5 @@
 #' @name PaulaEx2.10.7
-#' @title Resistência de Vidros sob Efeito de Voltagem e Temperatura
+#' @title Resist\enc{ê}{e}ncia de Vidros sob Efeito de Voltagem e Temperatura
 #' @description Resultados de um experimento em que a resistência de um
 #'     determinado tipo de vidro foi avaliada segundo quatro níveis de
 #'     voltagem e duas temperaturas. Foram 32 avaliações referentes a 4

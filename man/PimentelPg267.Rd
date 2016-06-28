@@ -2,7 +2,7 @@
 % Please edit documentation in R/PimentelPg267.R
 \name{PimentelPg267}
 \alias{PimentelPg267}
-\title{Percentual de Sorgo na Ração para Desenvolvimento de Pintos}
+\title{Percentual de Sorgo na Ra\enc{çã}{ca}o para Desenvolvimento de Pintos}
 \format{Um \code{data.frame} com 16 observações e 4 variáveis, em que
 
 \describe{

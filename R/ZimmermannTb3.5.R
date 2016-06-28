@@ -1,5 +1,5 @@
 #' @name ZimmermannTb3.5
-#' @title Fracionamento da Adubação na Produção de Grãos de Arroz
+#' @title Fracionamento da Aduba\enc{çã}{ca}o na Produ\enc{çã}{ca}o de Gr\enc{ã}{a}os de Arroz
 #'     Irrigado
 #' @description Dados de um estudo sobre adubação nitrogenada na cultura
 #'     do arroz irrigado. Foram testadas quatros formas de aplicação do

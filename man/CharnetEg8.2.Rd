@@ -2,7 +2,7 @@
 % Please edit documentation in R/CharnetEg8.2.R
 \name{CharnetEg8.2}
 \alias{CharnetEg8.2}
-\title{Conjunto de Dados Genérico}
+\title{Conjunto de Dados Gen\enc{é}{e}rico}
 \format{Um \code{data.frame} com 2 colunas e 15 linhas.
 
 \describe{

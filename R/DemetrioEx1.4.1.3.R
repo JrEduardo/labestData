@@ -1,5 +1,5 @@
 #' @name DemetrioEx1.4.1.3
-#' @title Absorção de CO2 por Folhas de Trigo
+#' @title Absor\enc{çã}{ca}o de CO2 por Folhas de Trigo
 #' 
 #' @description Foi aplicado \eqn{CO_2} sobre folhas de trigo a uma
 #'     temperatura de 35°C. Mediu-se a quantia de \eqn{CO_2} absorvido

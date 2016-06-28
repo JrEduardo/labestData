@@ -2,7 +2,7 @@
 % Please edit documentation in R/RamosTb5.2.R
 \name{RamosTb5.2}
 \alias{RamosTb5.2}
-\title{Itens não conformes no processo produtivo de ovos de galinha}
+\title{Itens n\enc{ã}{a}o conformes no processo produtivo de ovos de galinha}
 \format{Um \code{data.frame} com 30 observações e 3 variáveis, em que
 
 \describe{

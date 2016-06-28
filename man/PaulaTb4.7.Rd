@@ -2,7 +2,7 @@
 % Please edit documentation in R/PaulaTb4.7.R
 \name{PaulaTb4.7}
 \alias{PaulaTb4.7}
-\title{Demanda de TV a Cabo em Áreas Metropolitanos dos EUA}
+\title{Demanda de TV a Cabo em \enc{Á}{A}reas Metropolitanos dos EUA}
 \format{Um \code{data.frame} com 40 observações e 8 variáveis.
 \describe{
 

@@ -1,5 +1,5 @@
 #' @name PaulaTb1.9
-#' @title Bactérias Sobreviventes em Amostras
+#' @title Bact\enc{é}{e}rias Sobreviventes em Amostras
 #' @description Número de bactérias sobreviventes em amostras de um 
 #'     produto alimentício segundo o tempo de exposição do produto a uma
 #'     temperatura de 300°F.

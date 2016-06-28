@@ -1,6 +1,6 @@
 #' @name CharnetEx8.2
 #'
-#' @title Relação da Temperatura e Produção de um Produto Químico
+#' @title Rela\enc{çã}{ca}o da Temperatura e Produ\enc{çã}{ca}o de um Produto Qu\enc{í}{i}mico
 #'
 #' @description Uma indústria química está interessada em maximizar a
 #'     sua produção de um certo processo químico. Para isso, obteve os

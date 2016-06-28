@@ -1,5 +1,5 @@
 #' @name MingotiTb2.1
-#' @title Rochas de uma determinada região
+#' @title Rochas de uma determinada regi\enc{ã}{a}o
 #' @description Dados relativos a uma amostra de 12 rochas de uma certa
 #'     região no qual tem as porcentagens de quartzo, feldspato e um
 #'     índice que mede cor para cada uma das rochas.

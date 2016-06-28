@@ -1,5 +1,5 @@
 #' @name ManlyTb1.2
-#' @title Crânios egípcios
+#' @title Cr\enc{â}{a}nios eg\enc{í}{i}pcios
 #'
 #' @description Medidas de crânios egípcios masculinos em cinco períodos 
 #' de tempo. Medidas tomadas em milímetros.

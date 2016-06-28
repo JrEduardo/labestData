@@ -2,7 +2,7 @@
 % Please edit documentation in R/PaulaEg2.4.3.R
 \name{PaulaEg2.4.3}
 \alias{PaulaEg2.4.3}
-\title{Valores Pagos de Seguros sob Influência de Representação Legal}
+\title{Valores Pagos de Seguros sob Influ\enc{ê}{e}ncia de Representa\enc{çã}{ca}o Legal}
 \format{Um \code{data.frame} com 769 observações e 4 variáveis.
     \describe{
 

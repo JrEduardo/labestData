@@ -1,5 +1,5 @@
 #' @name FerreiraEg13.2
-#' @title Dados Simulados para Classificação
+#' @title Dados Simulados para Classifica\enc{çã}{ca}o
 #' @description Dados provenientes de simulação. Foram 50 dados
 #'     simulados de duas populações, P1 e P2, definidas pelos modelos
 #'     probabilísticos exponenciais \eqn{P1 \sim Exp(1)} e \eqn{P2 \sim

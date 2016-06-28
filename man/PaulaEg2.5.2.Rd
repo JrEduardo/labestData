@@ -2,7 +2,7 @@
 % Please edit documentation in R/PaulaEg2.5.2.R
 \name{PaulaEg2.5.2}
 \alias{PaulaEg2.5.2}
-\title{Adubação de Nitrogênio e Fosfato em Milhos}
+\title{Aduba\enc{çã}{ca}o de Nitrog\enc{ê}{e}nio e Fosfato em Milhos}
 \format{Um \code{data.frame} com 30 observações e 3 variáveis.
     \describe{
 

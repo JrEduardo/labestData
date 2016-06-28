@@ -1,5 +1,5 @@
 #' @name ZimmermannTb12.1
-#' @title Produtividade de Grãos de Arroz Irrigado
+#' @title Produtividade de Gr\enc{ã}{a}os de Arroz Irrigado
 #' @description Dados do Ensaio 1 de um experimento em DIC, que estudou
 #'     a produtividade de grãos de arroz em lavoura conduzida com
 #'     inundação contínua durante todo o ciclo. O experimento teve seis

@@ -2,7 +2,7 @@
 % Please edit documentation in R/ManlyTb9.8.R
 \name{ManlyTb9.8}
 \alias{ManlyTb9.8}
-\title{Bens de túmulos}
+\title{Bens de t\enc{ú}{u}mulos}
 \format{Um \code{data.frame} com 45 linhas e 38 colunas.
 
 \describe{

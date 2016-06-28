@@ -1,5 +1,5 @@
 #' @name PaulaEg1.12.5
-#' @title Consumo de Combustível
+#' @title Consumo de Combust\enc{í}{i}vel
 #' @description Dados referentes ao consumo de combustível em 48 estados 
 #'     norte-americanos. O interesse nesse estudo é tentar explicar o 
 #'     consumo de combustível com base em variáveis econômicas.

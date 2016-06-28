@@ -1,5 +1,5 @@
 #' @name DiasEx11.7.9
-#' @title Ensaios de Competição de Cultivares de Milho
+#' @title Ensaios de Competi\enc{çã}{ca}o de Cultivares de Milho
 #' @description Resultados de ensaio de competição de cultivares de
 #'     milho em diferentes locais onde foi avaliada a produção em grãos.
 #' @format Um \code{data.frame} com 90 observações e 4 variáveis, em que

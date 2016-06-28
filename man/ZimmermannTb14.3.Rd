@@ -2,7 +2,7 @@
 % Please edit documentation in R/ZimmermannTb14.3.R
 \name{ZimmermannTb14.3}
 \alias{ZimmermannTb14.3}
-\title{Estande de Plantas e Produtividade de Cultivares de Feijão}
+\title{Estande de Plantas e Produtividade de Cultivares de Feij\enc{ã}{a}o}
 \format{Um \code{data.frame} com 28 observações e 4 variáveis
 
 \describe{

@@ -1,5 +1,5 @@
 #' @name ManlyTb1.3
-#' @title Distribuiçao de uma espécie de borboletas
+#' @title Distribui\enc{ç}{c}ao de uma esp\enc{é}{e}cie de borboletas
 #'
 #' @description Estudo de colônias de borboletas do tipo \emph{Euphydryas 
 #' editha} na Califórnia e em Oregon, EUA, com variáveis ambientais e 

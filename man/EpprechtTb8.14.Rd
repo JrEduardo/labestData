@@ -2,7 +2,7 @@
 % Please edit documentation in R/EpprechtTb8.14.R
 \name{EpprechtTb8.14}
 \alias{EpprechtTb8.14}
-\title{Controle de Qualidade para o Número de Defeitos na Montagem 
+\title{Controle de Qualidade para o N\enc{ú}{u}mero de Defeitos na Montagem 
 de Placas de Circuito}
 \format{Um \code{data.frame} com 20 observações e 1 variável, 
     em que

@@ -2,7 +2,7 @@
 % Please edit documentation in R/FerreiraEg6.3.R
 \name{FerreiraEg6.3}
 \alias{FerreiraEg6.3}
-\title{Avaliação dos Solos de Pastagem e Capoeira Nova da Amazônia}
+\title{Avalia\enc{çã}{ca}o dos Solos de Pastagem e Capoeira Nova da Amaz\enc{ô}{o}nia}
 \format{Um \code{data.frame} com 43 observações e 4 variáveis, em que
 
 \describe{

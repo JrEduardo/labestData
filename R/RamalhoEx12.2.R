@@ -1,5 +1,5 @@
 #' @name RamalhoEx12.2
-#' @title Dados Genéricos para Regressão Múltipla
+#' @title Dados Gen\enc{é}{e}ricos para Regress\enc{ã}{a}o M\enc{ú}{u}ltipla
 #' @description Conjunto de dados apresentados para exercício. Objetivo
 #'     do exercício é estimar a equação de regressão múltipla.
 #' @format Um \code{data.frame} com 8 observações e 4 variáveis, em que

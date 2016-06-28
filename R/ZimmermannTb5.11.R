@@ -1,5 +1,5 @@
 #' @name ZimmermannTb5.11
-#' @title Proporção de hastes sobreviventes ao ataque de insetos
+#' @title Propor\enc{çã}{ca}o de hastes sobreviventes ao ataque de insetos
 #' @description Experimento em delineamento quadrado latino onde foram
 #'     tomadas quatro amostras em cada uma das parcelas (tipo de
 #'     inseticida) no que diz respeito ao número total de hastes e

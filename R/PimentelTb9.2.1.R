@@ -1,5 +1,5 @@
 #' @name PimentelTb9.2.1
-#' @title Produção de Adubos Verdes e Milho
+#' @title Produ\enc{çã}{ca}o de Adubos Verdes e Milho
 #' @description Experimento com 8 tratamentos (7 adubos verdes e milho)
 #'     em blocos ao acaso, com 4 repetições, realizado em dois anos
 #'     sucessivos nas mesmas parcelas.

@@ -1,5 +1,5 @@
 #' @name DemetrioEx2.12.5
-#' @title Dados Genéricos para Regressão Segmentada
+#' @title Dados Gen\enc{é}{e}ricos para Regress\enc{ã}{a}o Segmentada
 #' 
 #' @description Dados para exercício analítico, com o objetivo de obter
 #'     as estimativas de mínimos quadrados dos parâmetros de um modelo

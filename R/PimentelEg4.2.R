@@ -1,5 +1,5 @@
 #' @name PimentelEg4.2
-#' @title Alimentação de porcos
+#' @title Alimenta\enc{çã}{ca}o de porcos
 #' @description Experimento (fictício) de alimentação de porcos em que
 #'     se usaram quatro rações (A, B, C, D), cada uma fornecida a cinco
 #'     animais escolhidos ao acaso. A tabela apresenta os aumentos de

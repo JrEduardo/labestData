@@ -2,7 +2,7 @@
 % Please edit documentation in R/PaulaEx4.6.6.R
 \name{PaulaEx4.6.6}
 \alias{PaulaEx4.6.6}
-\title{Câncer Nasal em Trabalhadores de Refinaria de Níquel}
+\title{C\enc{â}{a}ncer Nasal em Trabalhadores de Refinaria de N\enc{í}{i}quel}
 \format{Um \code{data.frame} com 72 observações e 5 variáveis.
     \describe{
 

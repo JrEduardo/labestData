@@ -2,7 +2,7 @@
 % Please edit documentation in R/CharnetEx4.1.R
 \name{CharnetEx4.1}
 \alias{CharnetEx4.1}
-\title{Valores de uma Variável Aleatória Contínua}
+\title{Valores de uma Vari\enc{á}{a}vel Aleat\enc{ó}{o}ria Cont\enc{í}{i}nua}
 \format{Um vetor numérico com 20 elementos.}
 \source{
 Charnet, R., de Luna Freire, C.A., Charnet, E.M.R., Bonvino,

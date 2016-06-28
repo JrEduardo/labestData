@@ -2,7 +2,7 @@
 % Please edit documentation in R/DiasEg9.4.R
 \name{DiasEg9.4}
 \alias{DiasEg9.4}
-\title{Produção de Cultivares de Cacau}
+\title{Produ\enc{çã}{ca}o de Cultivares de Cacau}
 \format{Um \code{data.frame} com 2 observações e 4 variáveis, em que
 
 \describe{

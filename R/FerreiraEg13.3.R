@@ -1,5 +1,5 @@
 #' @name FerreiraEg13.3
-#' @title Classificação de Solos na Região Amazônica
+#' @title Classifica\enc{çã}{ca}o de Solos na Regi\enc{ã}{a}o Amaz\enc{ô}{o}nica
 #' @description Dados amostrais relativos ao teor de zinco (\emph{Zn}) e
 #'     ferro \emph{Fe}, em ppm, obtidos em solos de pastagem e de
 #'     floresta na região amazônica.

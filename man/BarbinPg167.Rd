@@ -2,7 +2,7 @@
 % Please edit documentation in R/BarbinPg167.R
 \name{BarbinPg167}
 \alias{BarbinPg167}
-\title{Produção de Porta-enxertos para Laranjeira em Várias Safras}
+\title{Produ\enc{çã}{ca}o de Porta-enxertos para Laranjeira em V\enc{á}{a}rias Safras}
 \format{Um \code{data.frame} com 90 observações e 4 variáveis, em que
 
 \describe{

@@ -1,6 +1,6 @@
 #' @name BarbinEx9
 #' @aliases BarbinEx10
-#' @title Ensaio de Competição de Clones de Laranja Pera-do-Rio
+#' @title Ensaio de Competi\enc{çã}{ca}o de Clones de Laranja Pera-do-Rio
 #' @description Ensaio de competição de 13 clones de laranja Pera-do-Rio
 #'     onde foram obtidos os resultados de produção, em kg de frutos
 #'     planta, para o ano de 1987, em que as plantas estavam com 16 anos

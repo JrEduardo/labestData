@@ -2,7 +2,7 @@
 % Please edit documentation in R/MingotiTb2.1.R
 \name{MingotiTb2.1}
 \alias{MingotiTb2.1}
-\title{Rochas de uma determinada região}
+\title{Rochas de uma determinada regi\enc{ã}{a}o}
 \format{Um \code{data.frame} com 12 observações e 4 variáveis, em que
 
 \describe{

@@ -2,7 +2,7 @@
 % Please edit documentation in R/PimentelTb7.9.1.R
 \name{PimentelTb7.9.1}
 \alias{PimentelTb7.9.1}
-\title{Experimento de Adubação NPK no Cafeeiro}
+\title{Experimento de Aduba\enc{çã}{ca}o NPK no Cafeeiro}
 \format{Um \code{data.frame} com 48 observações e 5 variáveis, em que
 
 \describe{

@@ -2,7 +2,7 @@
 % Please edit documentation in R/BarbinPg137.R
 \name{BarbinPg137}
 \alias{BarbinPg137}
-\title{Adubação NPK na Produção de Algodão Herbáceo}
+\title{Aduba\enc{çã}{ca}o NPK na Produ\enc{çã}{ca}o de Algod\enc{ã}{a}o Herb\enc{á}{a}ceo}
 \format{Um \code{data.frame} com 54 observações e 6 variáveis.
     \describe{
 

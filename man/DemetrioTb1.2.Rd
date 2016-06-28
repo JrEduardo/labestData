@@ -2,7 +2,7 @@
 % Please edit documentation in R/DemetrioTb1.2.R
 \name{DemetrioTb1.2}
 \alias{DemetrioTb1.2}
-\title{Irrigação em Batata}
+\title{Irriga\enc{çã}{ca}o em Batata}
 \format{Um \code{data.frame} com 12 linhas e 2 colunas.
 
 \describe{

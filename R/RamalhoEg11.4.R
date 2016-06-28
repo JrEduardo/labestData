@@ -1,5 +1,5 @@
 #' @name RamalhoEg11.4
-#' @title Produção de Grãos de Milho
+#' @title Produ\enc{çã}{ca}o de Gr\enc{ã}{a}os de Milho
 #' @description Experimento conduzido na EMBRAPA Milho e Sorgo em 1997,
 #'     envolvendo a avaliação de produção de grãos de 36 cultivares de
 #'     milho, conduzido no delineamento de látice quadrado parcialmente

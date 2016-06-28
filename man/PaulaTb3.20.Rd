@@ -2,7 +2,7 @@
 % Please edit documentation in R/PaulaTb3.20.R
 \name{PaulaTb3.20}
 \alias{PaulaTb3.20}
-\title{Aplicação de inseticidas em insetos}
+\title{Aplica\enc{çã}{ca}o de inseticidas em insetos}
 \format{Um \code{data.frame} com 18 observações e 7 variáveis, em que
 
 \describe{

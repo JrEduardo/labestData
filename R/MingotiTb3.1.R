@@ -1,5 +1,5 @@
 #' @name MingotiTb3.1
-#' @title Receitas e patrimônio de empresas
+#' @title Receitas e patrim\enc{ô}{o}nio de empresas
 #' @description Dados de 12 empresas sobre ganhos (bruto e líquido) e
 #'     patrimônio acumulado num determinado período.
 #' @format Um \code{data.frame} com 12 observações e 4 variáveis, em que

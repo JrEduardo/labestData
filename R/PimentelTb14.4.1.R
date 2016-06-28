@@ -1,5 +1,5 @@
 #' @name PimentelTb14.4.1
-#' @title Produção de Leite em um Ensaio de Alimentação de Vacas
+#' @title Produ\enc{çã}{ca}o de Leite em um Ensaio de Alimenta\enc{çã}{ca}o de Vacas
 #' @description Experimento de nutrição de vacas, conduzido em períodos
 #'     com 12 vacas distribuídas em 4 grupos de 3 vacas. Foram estudados
 #'     3 tipos de alimentação para as vacas em um delineamento quadrado

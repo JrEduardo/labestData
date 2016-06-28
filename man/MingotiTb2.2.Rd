@@ -2,7 +2,7 @@
 % Please edit documentation in R/MingotiTb2.2.R
 \name{MingotiTb2.2}
 \alias{MingotiTb2.2}
-\title{Notas de estudantes em três provas}
+\title{Notas de estudantes em tr\enc{ê}{e}s provas}
 \format{Um \code{data.frame} com 19 observações e 4 variáveis, em que
 
 \describe{

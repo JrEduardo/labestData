@@ -1,6 +1,6 @@
 #' @name CharnetEx5.1
 #'
-#' @title Peso de Embriões de Galinha no Tempo
+#' @title Peso de Embri\enc{õ}{o}es de Galinha no Tempo
 #'
 #' @description Peso de embriões de galinha no tempo.
 #'

@@ -1,5 +1,5 @@
 #' @name ZimmermannTb9.26
-#' @title Época de Aplicação de NK na Altura de Plantas
+#' @title \enc{É}{E}poca de Aplica\enc{çã}{ca}o de NK na Altura de Plantas
 #' @description Dados de um estudo em fatorial \eqn{3^3}, sobre adubação
 #'     nitrogenada e potássica e suas épocas de aplicação. Os dados são
 #'     referentes a altura de plantas no cultivo da soca de arroz

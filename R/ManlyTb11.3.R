@@ -1,5 +1,5 @@
 #' @name ManlyTb11.3
-#' @title Distâncias rodoviárias
+#' @title Dist\enc{â}{a}ncias rodovi\enc{á}{a}rias
 #'
 #' @description Distâncias rodoviárias (em milhas) entre cidades na ilha
 #' Sul da Nova Zelândia

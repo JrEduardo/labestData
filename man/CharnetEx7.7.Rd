@@ -2,7 +2,7 @@
 % Please edit documentation in R/CharnetEx7.7.R
 \name{CharnetEx7.7}
 \alias{CharnetEx7.7}
-\title{Relação entre Consumo de Combustível e Potência do Motor}
+\title{Rela\enc{çã}{ca}o entre Consumo de Combust\enc{í}{i}vel e Pot\enc{ê}{e}ncia do Motor}
 \format{Um \code{data.frame} com 4 colunas e 20 linhas.
 
 \describe{

@@ -1,5 +1,5 @@
 #' @name RamosTb2.6
-#' @title Resistência à ruptura e peso de garrafas
+#' @title Resist\enc{ê}{e}ncia \enc{à}{a} ruptura e peso de garrafas
 #' @description Resistência e peso de 25 garrafas.     
 #' @format Um \code{data.frame} com 25 observações e 2 variáveis, em que
 #'

@@ -2,7 +2,7 @@
 % Please edit documentation in R/CharnetEg6.4.R
 \name{CharnetEg6.4}
 \alias{CharnetEg6.4}
-\title{Efeito de um Produto Químico no Peso de Girassóis}
+\title{Efeito de um Produto Qu\enc{í}{i}mico no Peso de Girass\enc{ó}{o}is}
 \format{Um \code{data.frame} com 2 colunas e 20 linhas.
 
 \describe{

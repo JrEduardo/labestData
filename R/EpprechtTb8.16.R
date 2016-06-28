@@ -1,5 +1,5 @@
 #' @name EpprechtTb8.16
-#' @title Controle de qualidade na produção de cabos elétricos
+#' @title Controle de qualidade na produ\enc{çã}{ca}o de cabos el\enc{é}{e}tricos
 #' @description Dados referentes ao monitoramento do processo de produção
 #'     de cabos elétricos. Foi registrada a quantidade de defeitos
 #'     encontrados em amostras de determinada quantidade de metros de cabo.

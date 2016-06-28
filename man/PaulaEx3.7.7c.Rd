@@ -2,7 +2,7 @@
 % Please edit documentation in R/PaulaEx3.7.7c.R
 \name{PaulaEx3.7.7c}
 \alias{PaulaEx3.7.7c}
-\title{Influência de Extrato Vegetal e Químico}
+\title{Influ\enc{ê}{e}ncia de Extrato Vegetal e Qu\enc{í}{i}mico}
 \format{Um \code{data.frame} com 7 observações e 3 variáveis.
 \describe{
 

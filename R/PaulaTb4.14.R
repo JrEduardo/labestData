@@ -1,5 +1,5 @@
 #' @name PaulaTb4.14
-#' @title Ocorrência de Doença das Coronárias
+#' @title Ocorr\enc{ê}{e}ncia de Doen\enc{ç}{c}a das Coron\enc{á}{a}rias
 #' @description Os dados são referentes à classificação de 1330
 #'     pacientes segundo três fatores: ocorrência de doença das
 #'     coronárias, nível de colesterol e pressão arterial. O interesse

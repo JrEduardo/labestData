@@ -2,7 +2,7 @@
 % Please edit documentation in R/CharnetEx1.5.R
 \name{CharnetEx1.5}
 \alias{CharnetEx1.5}
-\title{Tempo de Duração do Intervalo para o Cafezinho}
+\title{Tempo de Dura\enc{çã}{ca}o do Intervalo para o Cafezinho}
 \format{Um \code{vetor} numérico com 20 observações.}
 \source{
 Charnet, R., de Luna Freire, C.A., Charnet, E.M.R., Bonvino,

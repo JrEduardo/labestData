@@ -2,7 +2,7 @@
 % Please edit documentation in R/EpprechtTb6.4.R
 \name{EpprechtTb6.4}
 \alias{EpprechtTb6.4}
-\title{Temperatura do Banho Químico}
+\title{Temperatura do Banho Qu\enc{í}{i}mico}
 \format{Um \code{data.frame} com 60 observações e 2 variáveis, 
     em que
 

@@ -2,7 +2,7 @@
 % Please edit documentation in R/RamalhoEx8.2.R
 \name{RamalhoEx8.2}
 \alias{RamalhoEx8.2}
-\title{Produção de Amêndoas de Clones de Caju}
+\title{Produ\enc{çã}{ca}o de Am\enc{ê}{e}ndoas de Clones de Caju}
 \format{Um \code{data.frame} com 200 observações e 4 variáveis, em
     que
 

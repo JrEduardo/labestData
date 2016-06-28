@@ -2,7 +2,7 @@
 % Please edit documentation in R/PimentelEx5.8.5.R
 \name{PimentelEx5.8.5}
 \alias{PimentelEx5.8.5}
-\title{Competição de Variedades de Mandioca}
+\title{Competi\enc{çã}{ca}o de Variedades de Mandioca}
 \format{Um \code{data.frame} com 24 observações e 3 variáveis, em que
 
 \describe{

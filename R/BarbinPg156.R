@@ -1,5 +1,5 @@
 #' @name BarbinPg156
-#' @title Aplicação de Adubação Fosfatada na Produção de Milho
+#' @title Aplica\enc{çã}{ca}o de Aduba\enc{çã}{ca}o Fosfatada na Produ\enc{çã}{ca}o de Milho
 #' @description Dados de um ensaio de adubação fosfatada em milho,
 #'     realizado no esquema de parcelas subdivididas em delineamento de
 #'     blocos ao acaso, que avaliou o efeito da forma de aplicação da

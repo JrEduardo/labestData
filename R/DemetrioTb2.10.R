@@ -1,5 +1,5 @@
 #' @name DemetrioTb2.10
-#' @title Absorção de CO2 por Folhas de Trigo
+#' @title Absor\enc{çã}{ca}o de CO2 por Folhas de Trigo
 #' 
 #' @description Dados provenientes de um ensaio inteiramente casualizado
 #'     onde aplicou-se \eqn{CO_2} sobre folhas de trigo a uma

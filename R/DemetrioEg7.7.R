@@ -1,5 +1,5 @@
 #' @name DemetrioEg7.7
-#' @title Produtividade de Cana-de-açúcar sob Níveis de Pentóxido de Fósforo
+#' @title Produtividade de Cana-de-a\enc{çú}{cu}car sob N\enc{í}{i}veis de Pent\enc{ó}{o}xido de F\enc{ó}{o}sforo
 #' 
 #' @description Dados referentes a produtividade de cana-de-açúcar, em
 #'     ton/ha, obtidos de um experimento delineado em blocos

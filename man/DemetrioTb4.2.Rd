@@ -2,7 +2,7 @@
 % Please edit documentation in R/DemetrioTb4.2.R
 \name{DemetrioTb4.2}
 \alias{DemetrioTb4.2}
-\title{Sobrevivência de Ratos após Envenenamento}
+\title{Sobreviv\enc{ê}{e}ncia de Ratos ap\enc{ó}{o}s Envenenamento}
 \format{Um \code{data.frame} de 48 linhas e 3 colunas.
 
 \describe{

@@ -2,7 +2,7 @@
 % Please edit documentation in R/PaulaEx3.7.22.R
 \name{PaulaEx3.7.22}
 \alias{PaulaEx3.7.22}
-\title{Avaliação de caduquice}
+\title{Avalia\enc{çã}{ca}o de caduquice}
 \format{Um \code{data.frame} com 55 observações e 2 variáveis.
 
 \describe{

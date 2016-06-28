@@ -2,7 +2,7 @@
 % Please edit documentation in R/CharnetEx11.3.R
 \name{CharnetEx11.3}
 \alias{CharnetEx11.3}
-\title{Relação do Preço de Venda de Imóvel e suas Características}
+\title{Rela\enc{çã}{ca}o do Pre\enc{ç}{c}o de Venda de Im\enc{ó}{o}vel e suas Caracter\enc{í}{i}sticas}
 \format{Um \code{data.frame} com 5 colunas e 20 linhas.
 
 \describe{

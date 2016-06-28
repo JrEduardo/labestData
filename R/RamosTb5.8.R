@@ -1,5 +1,5 @@
 #' @name RamosTb5.8
-#' @title Taxa de defeitos na fabricação de copos de cristal
+#' @title Taxa de defeitos na fabrica\enc{çã}{ca}o de copos de cristal
 #' @description Número de não conformidades em um processo de fabricação
 #'     de copos de cristal, com amostras de tamanhos diferentes.
 #'

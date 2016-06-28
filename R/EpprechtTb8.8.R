@@ -1,5 +1,5 @@
 #' @name EpprechtTb8.8
-#' @title Controle de qualidade para o número de não-conformidades em geladeiras
+#' @title Controle de qualidade para o n\enc{ú}{u}mero de n\enc{ã}{a}o-conformidades em geladeiras
 #' @description Dados referentes aos números de não-conformidades  
 #'     em 40 amostras de cinco geladeiras. Foi suposto que o processo
 #'     operava sob controle nesse período. 

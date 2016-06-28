@@ -1,5 +1,5 @@
 #' @name EpprechtTb8.2
-#' @title Número de Clientes Insatisfeitos com a Comida 
+#' @title N\enc{ú}{u}mero de Clientes Insatisfeitos com a Comida 
 #' @description Dados referentes ao número de clientes insatisfeitos
 #'     com a comida de um restaurante. Esses dados foram obtidos após o
 #'     diagnóstico e a eliminação de causas especiais. A cada dia 200

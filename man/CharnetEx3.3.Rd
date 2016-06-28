@@ -2,7 +2,7 @@
 % Please edit documentation in R/CharnetEx3.3.R
 \name{CharnetEx3.3}
 \alias{CharnetEx3.3}
-\title{Resíduo Catalisado de um Experimento Químico}
+\title{Res\enc{í}{i}duo Catalisado de um Experimento Qu\enc{í}{i}mico}
 \format{Um \code{data.frame} com 2 colunas e 50 linhas.
 
 \describe{

@@ -1,5 +1,5 @@
 #' @name BanzattoQd8.2.1
-#' @title Grupo de Ensaios de Competição de Batata
+#' @title Grupo de Ensaios de Competi\enc{çã}{ca}o de Batata
 #' @description Dados referentes a um grupo de 4 ensaios de competição
 #'     de 10 cultivares de batata, realizado por Filgueira (1991) em
 #'     Guaíra - SP. Os ensaios foram instalados no delineamento de
@@ -18,7 +18,7 @@
 #' \item{\code{cult}}{Fator de níveis categóricos que identifica as
 #'     cultivares de batata.}
 #'
-#' \item{\code{prod}}{Produção de tubérculos, em tom ha^{^{-1}}.}
+#' \item{\code{prod}}{Produção de tubérculos, em tom ha\eqn{^{-1}}.}
 #'
 #' }
 #' @keywords DBC GE

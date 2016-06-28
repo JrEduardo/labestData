@@ -1,5 +1,5 @@
 #' @name MingotiTb2.2
-#' @title Notas de estudantes em três provas
+#' @title Notas de estudantes em tr\enc{ê}{e}s provas
 #' @description Notas obtidas em uma turma de estudantes em três provas
 #'     de uma determinada disciplina.
 #' @format Um \code{data.frame} com 19 observações e 4 variáveis, em que

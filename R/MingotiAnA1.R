@@ -1,5 +1,5 @@
 #' @name MingotiAnA1
-#' @title Aceitação de um novo produto comestível
+#' @title Aceita\enc{çã}{ca}o de um novo produto comest\enc{í}{i}vel
 #' @description Pesquisa de mercado feita para avaliar a aceitação do
 #'     consumidor para um novo produto comestível. Cada consumidor foi
 #'     convidado a dar uma nota de 1 a 5 para sete atributos do produto.

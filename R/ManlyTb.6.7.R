@@ -1,5 +1,5 @@
 #' @name ManlyTb6.7
-#' @title Consumo de proteína  
+#' @title Consumo de prote\enc{í}{i}na  
 #'
 #' @description Estimativas do consumo médio de proteínas de diferentes fontes de alimentos para os habitantes de 25 países europeus. Medida em gramas por pessoa por dia
 #'

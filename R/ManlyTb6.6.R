@@ -1,5 +1,5 @@
 #' @name ManlyTb6.6
-#' @title Taças de cerâmicas pré-históricas
+#' @title Ta\enc{ç}{c}as de cer\enc{â}{a}micas pr\enc{é}{e}-hist\enc{ó}{o}ricas
 #'
 #' @description Dimensões de 25 taças de cerâmicas escavadas de lugares 
 #' pré-históricos na Tailândia.

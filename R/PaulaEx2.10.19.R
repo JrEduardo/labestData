@@ -1,5 +1,5 @@
 #' @name PaulaEx2.10.19
-#' @title Estudo Sobre Leucemia e Característica Morfológica nas Células
+#' @title Estudo Sobre Leucemia e Caracter\enc{í}{i}stica Morfol\enc{ó}{o}gica nas C\enc{é}{e}lulas
 #'     Brancas 
 #' @description Dados provenientes de um estudo em que pacientes com
 #'     leucemia foram classificados segundo a ausência ou presença de

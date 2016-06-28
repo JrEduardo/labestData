@@ -2,7 +2,7 @@
 % Please edit documentation in R/RamalhoTb1.2.R
 \name{RamalhoTb1.2}
 \alias{RamalhoTb1.2}
-\title{Produtividade Média de Espiga}
+\title{Produtividade M\enc{é}{e}dia de Espiga}
 \format{data.frame com 28 observações e 2 variáveis, em que
 
 \describe{

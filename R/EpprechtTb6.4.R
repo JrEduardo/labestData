@@ -1,5 +1,5 @@
 #' @name EpprechtTb6.4
-#' @title Temperatura do Banho Químico
+#' @title Temperatura do Banho Qu\enc{í}{i}mico
 #' @description A cada 30 minutos registram-se três temperaturas do 
 #'     banho, espaçadas de 3 minutos. Exemplo: na primeira amostra 
 #'     efetua-se uma medida às 8h00, outra às 8h03 e outra às 8h06. Na 

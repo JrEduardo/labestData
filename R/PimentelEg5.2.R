@@ -1,5 +1,5 @@
 #' @name PimentelEg5.2
-#' @title Competição de Variedades de Batatinha
+#' @title Competi\enc{çã}{ca}o de Variedades de Batatinha
 #' @description Experimento de competição de variedades de batatinha
 #'     feito pelo Engenheiro Agrônomo Oscar A. Garay em Balcare,
 #'     Argentina. O experimento foi realizado em blocos casualizados.

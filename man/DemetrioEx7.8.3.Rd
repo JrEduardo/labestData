@@ -2,7 +2,7 @@
 % Please edit documentation in R/DemetrioEx7.8.3.R
 \name{DemetrioEx7.8.3}
 \alias{DemetrioEx7.8.3}
-\title{Alturas de Eucaliptos sob Adubação Potássica}
+\title{Alturas de Eucaliptos sob Aduba\enc{çã}{ca}o Pot\enc{á}{a}ssica}
 \format{Um \code{data.frame} de 12 linhas e 2 colunas.
 
 \describe{

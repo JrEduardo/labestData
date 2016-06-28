@@ -1,6 +1,6 @@
 #' @name CharnetEx1.17
 #'
-#' @title Dados Genéricos para Regressão Linear Simples
+#' @title Dados Gen\enc{é}{e}ricos para Regress\enc{ã}{a}o Linear Simples
 #'
 #' @description Dois conjuntos de valores X e Y utilizados para
 #'     para exemplificação de regressão linear simples.

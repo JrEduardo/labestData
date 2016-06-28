@@ -1,5 +1,5 @@
 #' @name CostaTb7
-#' @title Tipos de Inoculantes em Variedades de Cana-de-açúcar
+#' @title Tipos de Inoculantes em Variedades de Cana-de-a\enc{çú}{cu}car
 #' @description Experimento fatorial que avaliou o peso do colmo de duas
 #'     variedades de cana-de-açúcar em resposta a três inoculantes
 #'     aplicados.

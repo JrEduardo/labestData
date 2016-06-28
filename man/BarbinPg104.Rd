@@ -2,7 +2,7 @@
 % Please edit documentation in R/BarbinPg104.R
 \name{BarbinPg104}
 \alias{BarbinPg104}
-\title{Produção de Cultivares de Cana-de-açúcar}
+\title{Produ\enc{çã}{ca}o de Cultivares de Cana-de-a\enc{çú}{cu}car}
 \format{Um \code{data.frame} com 25 observações e 4 variáveis, em que
 
 \describe{

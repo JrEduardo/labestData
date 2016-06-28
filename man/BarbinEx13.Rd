@@ -2,7 +2,7 @@
 % Please edit documentation in R/BarbinEx13.R
 \name{BarbinEx13}
 \alias{BarbinEx13}
-\title{Diâmetro Médio do Tronco de Espécies de Eucalipto}
+\title{Di\enc{â}{a}metro M\enc{é}{e}dio do Tronco de Esp\enc{é}{e}cies de Eucalipto}
 \format{Um \code{data.frame} com 24 observações e 4 variáveis.
 
 \describe{

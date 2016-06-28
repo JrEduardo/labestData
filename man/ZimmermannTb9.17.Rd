@@ -2,7 +2,7 @@
 % Please edit documentation in R/ZimmermannTb9.17.R
 \name{ZimmermannTb9.17}
 \alias{ZimmermannTb9.17}
-\title{Época de Aplicação de NK na Produção de Grãos de Arroz}
+\title{\enc{É}{E}poca de Aplica\enc{çã}{ca}o de NK na Produ\enc{çã}{ca}o de Gr\enc{ã}{a}os de Arroz}
 \format{Um \code{data.frame} com 81 observações e 5 variáveis, em que
 
 \describe{

@@ -1,5 +1,5 @@
 #' @name labestDataView
-#' @title Shiny App para Visualização e Download dos Datasets
+#' @title Shiny App para Visualiza\enc{çã}{ca}o e Download dos Datasets
 #' @author Walmes Zeviani e Eduardo Ribeiro Jr.
 #' @description Essa função abre uma interface \pkg{shiny} em seu
 #'     navegador padrão para visualizar as tabelas de dados, consultar

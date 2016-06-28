@@ -2,8 +2,8 @@
 % Please edit documentation in R/EpprechtTb8.15.R
 \name{EpprechtTb8.15}
 \alias{EpprechtTb8.15}
-\title{Controle de Qualidade para o Número de Defeitos em um Processo 
-de Produção de Tecidos}
+\title{Controle de Qualidade para o N\enc{ú}{u}mero de Defeitos em um Processo 
+de Produ\enc{çã}{ca}o de Tecidos}
 \format{Um \code{data.frame} com 10 observações e 1 variável, 
     em que
 

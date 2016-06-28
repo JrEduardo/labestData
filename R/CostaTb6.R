@@ -1,5 +1,5 @@
 #' @name CostaTb6
-#' @title Efeito da Cobertura Morta no Peso Seco de Brócolis
+#' @title Efeito da Cobertura Morta no Peso Seco de Br\enc{ó}{o}colis
 #' @description Experimento instalado em delineamento de blocos
 #'     casualizados para estudar o efeito de tipos de cobertura morta no
 #'     peso seco de brócolis.

@@ -2,7 +2,7 @@
 % Please edit documentation in R/CharnetEx8.1.R
 \name{CharnetEx8.1}
 \alias{CharnetEx8.1}
-\title{Influência da Publicidade e Capital Investido no Lucro Anual}
+\title{Influ\enc{ê}{e}ncia da Publicidade e Capital Investido no Lucro Anual}
 \format{Um \code{data.frame} com 3 colunas e 12 linhas.
 
 \describe{

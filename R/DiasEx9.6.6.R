@@ -1,5 +1,5 @@
 #' @name DiasEx9.6.6
-#' @title Teores de Sólidos Solúveis Totais da Poupa de Frutos
+#' @title Teores de S\enc{ó}{o}lidos Sol\enc{ú}{u}veis Totais da Poupa de Frutos
 #' @description Experimento em delineamento inteiramente casualizado,
 #'     com 5 repetições e 4 cultivares de tomateiro onde os totais de
 #'     sólidos solúveis na poupa dos frutos foram avaliados.

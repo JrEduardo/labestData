@@ -1,5 +1,5 @@
 #' @name RamalhoEx7.10
-#' @title Produção de Arroz em 18 Populações na F2
+#' @title Produ\enc{çã}{ca}o de Arroz em 18 Popula\enc{çõ}{co}es na F2
 #' @description Experimento referente à produção de arroz obtida na
 #'     avaliação de 18 populações \eqn{F_{2}} e duas linhagens
 #'     utilizadas como testemunhas. O Experimento foi realizado em

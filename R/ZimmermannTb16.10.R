@@ -1,5 +1,5 @@
 #' @name ZimmermannTb16.10
-#' @title Número de Colmos Atacados por \emph{Elasmopalpus}
+#' @title N\enc{ú}{u}mero de Colmos Atacados por \emph{Elasmopalpus}
 #' @description Experimento realizado em delineamento quadrado latino 6
 #'     \eqn{times} 6.  Os dados são referentes ao número de colmos
 #'     atacados por \emph{Elasmopalpus lignosellus} L. em plantas de

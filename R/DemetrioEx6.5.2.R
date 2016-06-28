@@ -1,5 +1,5 @@
 #' @name DemetrioEx6.5.2
-#' @title Dados Genéricos Simulados para Regressão Linear Múltipla
+#' @title Dados Gen\enc{é}{e}ricos Simulados para Regress\enc{ã}{a}o Linear M\enc{ú}{u}ltipla
 #' 
 #' @description Dados simulados para exercício de análise de um modelo
 #'     de regressão linear múltipla com 3 covariáveis.

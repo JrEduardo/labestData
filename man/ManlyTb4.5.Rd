@@ -2,7 +2,7 @@
 % Please edit documentation in R/ManlyTb4.5.R
 \name{ManlyTb4.5}
 \alias{ManlyTb4.5}
-\title{Crânios egípcios}
+\title{Cr\enc{â}{a}nios eg\enc{í}{i}pcios}
 \format{Um \code{data.frame} com 5 grupo caninos e 10 variáveis.
 
 \describe{

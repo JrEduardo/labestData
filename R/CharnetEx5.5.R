@@ -1,6 +1,6 @@
 #' @name CharnetEx5.5
 #'
-#' @title Respostas a um Anúncio de Emprego
+#' @title Respostas a um An\enc{ú}{u}ncio de Emprego
 #'
 #' @description Relação da resposta a um anúncio de emprego com o número
 #'     de linhas do anúncio.

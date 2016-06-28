@@ -1,5 +1,5 @@
 #' @name RamosTb2.7
-#' @title Processo de fundição de magnésio
+#' @title Processo de fundi\enc{çã}{ca}o de magn\enc{é}{e}sio
 #' @description Dados referente a um processo de fundição
 #'     de magnésio, compreendendo a recuperação do metal 
 #'     e os valores do fluxo de regeneração adicionada.

@@ -1,5 +1,5 @@
 #' @name DiasEx9.6.7
-#' @title Produção de Porta-Enxertos em Mangueira
+#' @title Produ\enc{çã}{ca}o de Porta-Enxertos em Mangueira
 #' @description Resultados de um experimento em delineamento de blocos
 #'     casualizados que considerou a produção de frutos na primeira
 #'     colheita para difentes porta-enxertos de magueira sendo a copa a

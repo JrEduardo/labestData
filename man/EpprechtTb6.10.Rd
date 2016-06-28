@@ -2,7 +2,7 @@
 % Please edit documentation in R/EpprechtTb6.10.R
 \name{EpprechtTb6.10}
 \alias{EpprechtTb6.10}
-\title{Concentração de um Processo Químico}
+\title{Concentra\enc{çã}{ca}o de um Processo Qu\enc{í}{i}mico}
 \format{Um \code{data.frame} com 100 observações e 1 variável, 
     em que
 

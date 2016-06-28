@@ -1,5 +1,5 @@
 #' @name BarbinEx14
-#' @title Produção de Milho em Ensaio Fatorial de NPK
+#' @title Produ\enc{çã}{ca}o de Milho em Ensaio Fatorial de NPK
 #' @description Ensaio fatorial de adubação NPK, fatorial \eqn{2^3}, com
 #'     resultados referentes à produção de milho (kg ha\eqn{^{-1}}),
 #'     conduzido em delineamento de blocos casualizados em Limoeiro, PE.

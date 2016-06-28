@@ -1,5 +1,5 @@
 #' @name ManlyTb10.2
-#' @title Variáveis solo e vegetação em Belize
+#' @title Vari\enc{á}{a}veis solo e vegeta\enc{çã}{ca}o em Belize
 #'
 #' @description Estudo no distrito de Corozal, em Belize, com 4 variáveis 
 #' de solo e 4 variáveis de vegetação registradas para quadrados 

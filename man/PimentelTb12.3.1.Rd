@@ -2,7 +2,7 @@
 % Please edit documentation in R/PimentelTb12.3.1.R
 \name{PimentelTb12.3.1}
 \alias{PimentelTb12.3.1}
-\title{Temperaturas Máximas Médias em Piracicaba}
+\title{Temperaturas M\enc{á}{a}ximas M\enc{é}{e}dias em Piracicaba}
 \format{Um \code{data.frame} com 15 observações e 2 variáveis, em que
 
 \describe{

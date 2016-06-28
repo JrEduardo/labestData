@@ -2,7 +2,7 @@
 % Please edit documentation in R/RamalhoEg4.3.R
 \name{RamalhoEg4.3}
 \alias{RamalhoEg4.3}
-\title{Porcentagem de absorção de água de feijão}
+\title{Porcentagem de absor\enc{çã}{ca}o de \enc{á}{a}gua de feij\enc{ã}{a}o}
 \format{Um \code{data.frame} com 30 observações e 3 variáveis, em que
 
 \describe{

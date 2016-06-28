@@ -2,7 +2,7 @@
 % Please edit documentation in R/DiasEx3.6.7.R
 \name{DiasEx3.6.7}
 \alias{DiasEx3.6.7}
-\title{Percentual de Germinação de Lotes de Sementes de Tomate}
+\title{Percentual de Germina\enc{çã}{ca}o de Lotes de Sementes de Tomate}
 \format{Um \code{data.frame} com 2 observações e 1 variável, em que
 
 \describe{

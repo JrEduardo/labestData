@@ -2,7 +2,7 @@
 % Please edit documentation in R/BarbinPg25.R
 \name{BarbinPg25}
 \alias{BarbinPg25}
-\title{Enraizamento de Estacas de Pêssego}
+\title{Enraizamento de Estacas de P\enc{ê}{e}ssego}
 \format{Um \code{data.frame} com 20 observações e 2 variáveis.
 
 \describe{

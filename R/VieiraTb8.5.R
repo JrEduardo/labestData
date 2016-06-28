@@ -1,5 +1,5 @@
 #' @name VieiraTb8.5
-#' @title Número de Itens Produzidos Em Função do Tipo de Máquina
+#' @title N\enc{ú}{u}mero de Itens Produzidos Em Fun\enc{çã}{ca}o do Tipo de M\enc{á}{a}quina
 #' @description Os dados advém de um experimento no qual foram
 #'     comparados cinco tipos de máquinas, operadas por três diferentes
 #'     operadores (blocos).  O objetivo era verificar a suspeita de que

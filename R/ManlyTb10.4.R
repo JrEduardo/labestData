@@ -1,5 +1,5 @@
 #' @name ManlyTb10.4
-#' @title Combinação de tabelas 1.5 e 6.7
+#' @title Combina\enc{çã}{ca}o de tabelas 1.5 e 6.7
 #'
 #' @description Dados referentes a consumo de proteína e força de trabalho 
 #' em países europeus.

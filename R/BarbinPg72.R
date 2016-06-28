@@ -1,5 +1,5 @@
 #' @name BarbinPg72
-#' @title Produção de Laranjeira sob Diferentes Porta-enxertos
+#' @title Produ\enc{çã}{ca}o de Laranjeira sob Diferentes Porta-enxertos
 #' @description Dados de produção de laranjeira aos 12 anos de idade sob
 #'     diferentes porta-enxertos. O experimento foi instalado em
 #'     delineamento de blocos casualizados.
