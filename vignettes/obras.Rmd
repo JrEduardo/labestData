@@ -10,7 +10,8 @@ vignette: >
 ---
 
 ```{r, include = FALSE}
-bib <- gsub(x = grep(x = readLines("config/bibliography.bib"),
+rl <- readLines("config/bibliography.bib")
+bib <- gsub(x = grep(x = rl,
                      pattern = "^@",
                      value = TRUE),
             pattern = "^.*\\{(.*),.*", replacement = "  * @\\1")
@@ -24,6 +25,14 @@ dessas obras.
 
 ```{r, echo = FALSE, results = "asis"}
 cat(bib, sep = "\n")
+```
+
+## Referências em formato bibtex
+
+```{r, echo = FALSE, results = "asis"}
+cat("```tex\n")
+cat(rl, sep = "\n")
+cat("```\n")
 ```
 
 ## Referências Bibliográficas
