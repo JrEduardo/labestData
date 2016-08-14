@@ -1,5 +1,5 @@
 Package: labestData
-Title: Biblioteca de Dados para Ensino de Estatística
+Title: Biblioteca de Dados para Aprendizado de Estatística
 Version: 0.0-17.458
 Date: 2016-06-27
 Authors@R: as.person(c(
@@ -18,12 +18,12 @@ Authors@R: as.person(c(
     "Walmes Marques Zeviani <walmes@ufpr.br> [ctb]",
     "Cesar Augusto Taconeli <taconeli@ufpr.br> [ctb]"))
 Description: O labestData é um projeto coletivo do PET Estatística UFPR
-    para desenvolver um pacote R com conjuntos de dados para ensino de
-    Estatística. O desenvolvimento do pacote visa contribuir com a
+    para desenvolver um pacote R com conjuntos de dados para aprendizado
+    de Estatística. O desenvolvimento do pacote visa contribuir com a
     comunidade científica ao reunir, organizar, manter e disponibilizar
     conjuntos de dados disponíveis em livros, páginas de internet e
-    arquivos pessoais para o ensino-aprendizado de Estatística.
-    Nesta versão o pacote tem 458 conjuntos de dados.
+    arquivos pessoais para o ensino-aprendizado de Estatística. Nesta
+    versão o pacote tem 458 conjuntos de dados.
 License: GPL-3
 URL:
     http://gitlab.c3sl.ufpr.br/pet-estatistica/labestData,
