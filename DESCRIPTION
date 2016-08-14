@@ -1,6 +1,6 @@
 Package: labestData
 Title: Biblioteca de Dados para Aprendizado de Estatística
-Version: 0.0-17.458
+Version: 0.1-17.458
 Date: 2016-06-27
 Authors@R: as.person(c(
     "PET Estatística UFPR <pet.estatistica.ufpr@gmail.com> [cre]",
