@@ -1,0 +1,29 @@
+---
+title: "Obras Contidas no labestData"
+author: "PET Estatística UFPR"
+bibliography: config/bibliography.bib
+csl: config/ABNT_UFPR_2011-Mendeley.csl
+vignette: >
+  %\VignetteIndexEntry{Obras Contidas no labestData}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+bib <- gsub(x = grep(x = readLines("config/bibliography.bib"),
+                     pattern = "^@",
+                     value = TRUE),
+            pattern = "^.*\\{(.*),.*", replacement = "  * @\\1")
+```
+
+O pacote *labestData* contém conjuntos de dados de `r length(bib)` obras
+de diversas áreas da Estatística como: modelo regressão, estatística
+experimental, modelos lineares generalizados, controle estatístico da
+qualidade, e outros. A lista abaixo contém a referência de cada uma
+dessas obras.
+
+```{r, echo = FALSE, results = "asis"}
+cat(bib, sep = "\n")
+```
+
+## Referências Bibliográficas
