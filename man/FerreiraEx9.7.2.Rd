@@ -58,5 +58,5 @@ Bussab, W. O., Miazaki, É. S., Andrade,
     D. F. (1990). Introdução à análise de agrupamentos. São Paulo,
     SP: ABE.
 }
-\keyword{agrupamento}
+\keyword{AnaAgrup}
 

@@ -22,8 +22,7 @@
 
 }}
 \source{
-Pimentel-Gomes, F. (2009). Curso de Estatística Experimental
-    (15th ed.). Piracicaba, SP: FEALQ. (Tabela 17.3.1, pág. 317)
+PIMENTEL-GOMES (2009), Tabela 17.3.1, pág. 317.
 }
 \description{
 Grupo de dois experimentos com espécies de eucaliptos

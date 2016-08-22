@@ -2,8 +2,9 @@
 % Please edit documentation in R/Barbin.R
 \name{BarbinEx13}
 \alias{BarbinEx13}
-\title{Di\enc{â}{a}metro M\enc{é}{e}dio do Tronco de Esp\enc{é}{e}cies de Eucalipto}
-\format{Um \code{data.frame} com 24 observações e 4 variáveis.
+\title{Di\enc{â}{a}metro M\enc{é}{e}dio do Tronco de
+    Esp\enc{é}{e}cies de Eucalipto}
+\format{Um \code{data.frame} com 24 observações e 4 variáveis, em que
 
 \describe{
 
@@ -19,9 +20,7 @@
 
 }}
 \source{
-Barbin, D. (2013). Planejamento e Análise Estatística de
-    Experimentos Agronômicos (2nd ed.). Londrina, PR:
-    Mecenas. (Exercício 13, pág. 206)
+BARBIN (2013), Exercício 13, pág. 206.
 }
 \description{
 Diâmetro médio (cm), aos 5 anos de idade, de plantas

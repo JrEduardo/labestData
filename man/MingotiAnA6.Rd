@@ -54,5 +54,5 @@ scatterplotMatrix(~ testp + testc + anexp | grupo, data=MingotiAnA6,
      main="Dispersão das variáveis de medidas para os dois grupos")
                   
 }
-\keyword{AnaComp}
+\keyword{AnaComPrin}
 

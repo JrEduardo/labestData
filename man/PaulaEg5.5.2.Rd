@@ -40,7 +40,7 @@ Estudo discutido em Myers, Montgomery e Vining (2002)
 data(PaulaEg5.5.2)
 
 str(PaulaEg5.5.2)
-           
+
 library(latticeExtra)
 
 tb <- with(PaulaEg5.5.2, table(nivel, trat, sexo, cond))
@@ -57,7 +57,7 @@ useOuterStrips(
                  columns = 2, cex.title = 1)
     )
 )
-           
+
 }
 \references{
 Myers, R.H.; Montgomery, D. C.; Vining, G. G. (2002).

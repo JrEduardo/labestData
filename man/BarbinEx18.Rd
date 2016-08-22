@@ -2,7 +2,8 @@
 % Please edit documentation in R/Barbin.R
 \name{BarbinEx18}
 \alias{BarbinEx18}
-\title{Altura de Plantas de Esp\enc{é}{e}cies de Eucalipto em V\enc{á}{a}rios Locais}
+\title{Altura de Plantas de Esp\enc{é}{e}cies de Eucalipto em
+    V\enc{á}{a}rios Locais}
 \format{Um \code{data.frame} com 100 observações e 4 variáveis, em
     que
 
@@ -22,9 +23,7 @@
 
 }}
 \source{
-Barbin, D. (2013). Planejamento e Análise Estatística de
-    Experimentos Agronômicos (2nd ed.). Londrina, PR:
-    Mecenas. (Exercício 18, pág. 210)
+BARBIN (2013), Exercício 18, pág. 210.
 }
 \description{
 Dados referentes à altura de plantas de eucalipto, com 3

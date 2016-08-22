@@ -9,7 +9,7 @@
 \item{\code{nmortes}}{Número de casos de morte por câncer de
     pulmão.}
 
-\item{\code{tpessoas}}{Total de anos de exposição (somado para toda a 
+\item{\code{tpessoas}}{Total de anos de exposição (somado para toda a
     amostra).}
 
 \item{\code{cmdc}}{Consumo médio diário de cigarros, dividido em

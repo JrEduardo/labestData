@@ -2,7 +2,8 @@
 % Please edit documentation in R/Ramalho.R
 \name{RamalhoTb13.13}
 \alias{RamalhoTb13.13}
-\title{Produ\enc{çã}{ca}o de Gr\enc{ã}{a}os de Prog\enc{ê}{e}nies de Feij\enc{ã}{a}o}
+\title{Produ\enc{çã}{ca}o de Gr\enc{ã}{a}os de Prog\enc{ê}{e}nies de
+    Feij\enc{ã}{a}o}
 \format{Um \code{data.frame} com 30 observações e 3 variáveis, em que
 
 \describe{
@@ -17,9 +18,7 @@
 
 }}
 \source{
-Ramalho, M. A. P., Ferreira, D. F., Oliveira, A. C. (2005).
-    Experimentação em Genética e Melhoramento de Plantas (2th ed.).
-    Lavras: UFLA. (Tabela 13.13, pág. 251)
+RAMALHO et al. (2005), Tabela 13.13, pág. 251.
 }
 \description{
 Experimento referente a avaliação de progênies

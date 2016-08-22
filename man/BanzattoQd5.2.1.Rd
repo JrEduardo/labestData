@@ -2,7 +2,8 @@
 % Please edit documentation in R/Banzatto.R
 \name{BanzattoQd5.2.1}
 \alias{BanzattoQd5.2.1}
-\title{Peneira e Densidade de Plantio na Produ\enc{çã}{ca}o de Amendoim}
+\title{Peneira e Densidade de Plantio na Produ\enc{çã}{ca}o de
+    Amendoim}
 \format{Um \code{data.frame} com 27 observações e 4 variáveis, em que
 
 \describe{
@@ -27,9 +28,7 @@ das linhas centrais foram consideradas como bordadura, fazendo-se as
 avaliações apenas no comprimento restante das duas linhas centrais, o
 que resultou em uma área útil de 6 m\eqn{^2}.}
 \source{
-Banzatto, D. A., Kronka, S. D. (2013). Experimentação
-    Agrícola (4th ed.). Jaboticabal, SP: Funep. (Quadro 5.2.1,
-    pág. 102)
+BANZATTO; KRONKA (2013), Quadro 5.2.1, pág. 102.
 }
 \description{
 Dados de um experimento fatorial que estudou o efeito de

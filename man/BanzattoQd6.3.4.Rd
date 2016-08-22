@@ -2,9 +2,11 @@
 % Please edit documentation in R/Banzatto.R
 \name{BanzattoQd6.3.4}
 \alias{BanzattoQd6.3.4}
-\title{\enc{É}{E}pocas de Plantio e Colheita na Produ\enc{çã}{ca}o de Beterraba}
-\format{Um \code{data.frame} com 72 observações e 5 variáveis.
-    \describe{
+\title{\enc{É}{E}pocas de Plantio e Colheita na Produ\enc{çã}{ca}o de
+    Beterraba}
+\format{Um \code{data.frame} com 72 observações e 5 variáveis, em que
+
+\describe{
 
 \item{\code{data}}{Fator de níveis ordinais que representa as datas
     de plantio de beterraba. Os níveis do fator data foram
@@ -26,9 +28,7 @@
 
 }}
 \source{
-Banzatto, D. A., Kronka, S. D. (2013). Experimentação
-    Agrícola (4th ed.). Jaboticabal, SP: Funep. (Quadro 6.3.4,
-    pág. 156)
+BANZATTO; KRONKA (2013), Quadro 6.3.4, pág. 156.
 }
 \description{
 Experimento estudar o efeito de datas de plantio, épocas

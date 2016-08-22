@@ -15,8 +15,7 @@
 
 }}
 \source{
-Pimentel-Gomes, F. (2009). Curso de Estatística Experimental
-    (15th ed.). Piracicaba, SP: FEALQ. (Tabela 21.5.1, pág. 384)
+PIMENTEL-GOMES (2009), Tabela 21.5.1, pág. 384.
 }
 \description{
 Ensaio inteiramente casualizado para avaliar a

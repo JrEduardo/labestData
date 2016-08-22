@@ -2,7 +2,8 @@
 % Please edit documentation in R/Pimentel.R
 \name{PimentelEx5.8.4}
 \alias{PimentelEx5.8.4}
-\title{Dados de Produ\enc{çã}{ca}o de Cana-planta em Ensaio de Variedades}
+\title{Dados de Produ\enc{çã}{ca}o de Cana-planta em Ensaio de
+    Variedades}
 \format{Um \code{data.frame} com 28 observações e 3 variáveis, em que
 
 \describe{
@@ -12,13 +13,12 @@
 
 \item{\code{variedade}}{Fator de 7 níveis qualitativos, que são as
     variedades cana-de-açúcar.}
-    
+
 \item{\code{prod}}{Dados de produção de cana-planta.}
 
 }}
 \source{
-Pimentel-Gomes, F. (2009). Curso de Estatística Experimental
-    (15th ed.). Piracicaba, SP: FEALQ.
+PIMENTEL-GOMES (2009).
 }
 \description{
 Experimento em blocos casualizados realizado pela

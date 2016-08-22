@@ -3,11 +3,11 @@
 \name{PaulaEx3.7.16}
 \alias{PaulaEx3.7.16}
 \title{Experimento de toxicidade}
-\format{Um \code{data.frame} com 4 variáveis. 
+\format{Um \code{data.frame} com 4 variáveis.
 
 \describe{
 
-\item{\code{conc}}{Concentração (R = rotenine, 
+\item{\code{conc}}{Concentração (R = rotenine,
 D = deguelin e M = mistura).}
 
 \item{\code{dose}}{Dose aplicada da concentração.}
@@ -19,7 +19,7 @@ D = deguelin e M = mistura).}
 }}
 \source{
 Paula, G. A. (2004). Modelos de regressão: com apoio
-    computacional. São Paulo, SP: IME-USP. 
+    computacional. São Paulo, SP: IME-USP.
     (Exercício 3.7.14, pág. 274 e 275)
 }
 \description{
@@ -40,7 +40,7 @@ auto.key = TRUE, ylab = "Proporção de insetos mortos",
 xlab = "Dose", main = "Sobrevivência dos insetos expostos a toxina")
 }
 \references{
-Morgan, B. J. T. (1992). Analysis of Quantal Response Data. 
+Morgan, B. J. T. (1992). Analysis of Quantal Response Data.
 Chapman and Hall, London. (Página 90)
 }
 \keyword{binomial}

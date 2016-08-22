@@ -28,10 +28,10 @@ str(PaulaEx4.6.7)
 
 library(lattice)
 xyplot(nfalhas ~ comp, data = PaulaEx4.6.7,
-       type = c("p", "g", "smooth"), xlab = "Comprimento", ylab = 
+       type = c("p", "g", "smooth"), xlab = "Comprimento", ylab =
        "Número de falhas")
 
-histogram( ~nfalhas/comp, data = PaulaEx4.6.7, 
+histogram( ~nfalhas/comp, data = PaulaEx4.6.7,
       xlab = "Número de falhas por metro de tecido", ylab = "Frequência")
 
 }

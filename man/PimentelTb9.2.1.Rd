@@ -22,8 +22,7 @@
 
 }}
 \source{
-Pimentel-Gomes, F. (2009). Curso de Estatística Experimental
-    (15th ed.). Piracicaba, SP: FEALQ. (Tabela 9.2.1, pág. 166)
+PIMENTEL-GOMES (2009), Tabela 9.2.1, pág. 166.
 }
 \description{
 Experimento com 8 tratamentos (7 adubos verdes e milho)

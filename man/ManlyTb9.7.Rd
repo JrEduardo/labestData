@@ -3,7 +3,7 @@
 \name{ManlyTb9.7}
 \alias{ManlyTb9.7}
 \title{Esp\enc{é}{e}cies de plantas em lotes}
-\format{Um \code{data.frame} com 25 espécie de plantas com 18 
+\format{Um \code{data.frame} com 25 espécie de plantas com 18
 variáveis
 
 \describe{
@@ -45,14 +45,14 @@ variáveis
 \item{\code{l17}}{Medidas de abundância das espécies no lote 17.}
 }}
 \source{
-Manly, B. J. F. (2005). Métodos Estatísticos Multivariados- 
+Manly, B. J. F. (2005). Métodos Estatísticos Multivariados-
 uma introdução. Porto Alegre, RS: Bookman (pg 152)
 }
 \description{
 Estudo de 25 espécies de plantas em 17 lotes de um prado
-de pastagem na Reserva Natural em Steneryd na Suécia. Cada valor na 
-tabela é a soma dos valores cobertos em um intervalo de 0 a 5 por 
-nove quadrantes de amostra, de modo que um valor 45 corresponde à 
+de pastagem na Reserva Natural em Steneryd na Suécia. Cada valor na
+tabela é a soma dos valores cobertos em um intervalo de 0 a 5 por
+nove quadrantes de amostra, de modo que um valor 45 corresponde à
 completa cobertura pela espécie.
 }
 \examples{
@@ -61,11 +61,11 @@ data(ManlyTb9.7)
 
 euclid <- as.matrix(dist(ManlyTb9.7[,-1]))
 
-heatmap(euclid, 
-       margins= c(6,6), 
-       labRow = ManlyTb9.7$esp, 
+heatmap(euclid,
+       margins= c(6,6),
+       labRow = ManlyTb9.7$esp,
        labCol = ManlyTb9.7$esp,
        main = "Heatmap para a matriz de distâncias para as 25 espécies")
 }
-\keyword{AnaClust}
+\keyword{AnaAgrup}
 

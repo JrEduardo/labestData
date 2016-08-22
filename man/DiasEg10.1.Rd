@@ -2,8 +2,8 @@
 % Please edit documentation in R/Dias.R
 \name{DiasEg10.1}
 \alias{DiasEg10.1}
-\title{Subst\enc{â}{a}ncias Alelo\enc{á}{a}ticas no Percentual de Germina\enc{çã}{ca}o de
-    Sementes}
+\title{Subst\enc{â}{a}ncias Alelo\enc{á}{a}ticas no Percentual de
+    Germina\enc{çã}{ca}o de Sementes}
 \format{Um \code{data.frame} com 40 observações e 4 variáveis, em que
 
 \describe{
@@ -20,8 +20,7 @@
 
 }}
 \source{
-Dias, L. A. S., Barros, W. S. (2009). Biometria
-     Experimental. Viçosa, MG: UFV. (Exemplo 10.1, pág. 269)
+BARROS; DIAS (2009), Exemplo 10.1, pág. 269.
 }
 \description{
 Experimento em delineamento inteiramente casualizado

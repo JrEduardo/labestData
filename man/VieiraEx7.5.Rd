@@ -2,7 +2,8 @@
 % Please edit documentation in R/Vieira.R
 \name{VieiraEx7.5}
 \alias{VieiraEx7.5}
-\title{Experimento Com Um Fator e Repeti\enc{çã}{ca}o Dentro dos Blocos}
+\title{Experimento Com Um Fator e Repeti\enc{çã}{ca}o Dentro dos
+    Blocos}
 \format{Um \code{data.frame} com 12 observações e 3 variáveis, em que
 
 \describe{
@@ -17,8 +18,7 @@
 
 }}
 \source{
-Vieira, S. (1999). Estatística experimental (2th ed.).  São
-    Paulo, SP: Atlas. (Exercício 7.5, pág. 85).
+VIEIRA (1999), Exercício 7.5, pág. 85.
 }
 \description{
 Dados de um experimento em delineamento de blocos

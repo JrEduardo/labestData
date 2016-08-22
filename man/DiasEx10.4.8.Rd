@@ -2,7 +2,8 @@
 % Please edit documentation in R/Dias.R
 \name{DiasEx10.4.8}
 \alias{DiasEx10.4.8}
-\title{Teores de Mat\enc{é}{e}ria Seca de Gramineas em Fun\enc{çã}{ca}o da Calagem}
+\title{Teores de Mat\enc{é}{e}ria Seca de Gramineas em
+    Fun\enc{çã}{ca}o da Calagem}
 \format{Um \code{data.frame} com 36 observações e 4 variáveis, em que
 
 \describe{
@@ -20,8 +21,7 @@
 
 }}
 \source{
-Dias, L. A. S., Barros, W. S. (2009). Biometria
-    Experimental. Viçosa, MG: UFV. (Exercício 8, Cap. 10, pág. 295)
+BARROS; DIAS (2009), Exercício 8, Cap. 10, pág. 295.
 }
 \description{
 Em um ensaio em delineamento de blocos casualizados foi

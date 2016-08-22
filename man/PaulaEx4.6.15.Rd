@@ -29,8 +29,8 @@ Paula, G. A. (2004). Modelos de regressão: com apoio
 \description{
 Dados referentes a um estudo realizado em 1990 com
     recrutas americanos em que a variável de interesse era o número de
-    infecções de ouvido. Além disso, foram coletadas as seguintes 
-    informações sobre os recrutas: hábito de nadar, local em que 
+    infecções de ouvido. Além disso, foram coletadas as seguintes
+    informações sobre os recrutas: hábito de nadar, local em que
     costuma nadar, idade e sexo.
 }
 \examples{
@@ -59,7 +59,7 @@ xyplot(ninfec[, "var"] ~ ninfec[, "mu"],
         })
 
 library(latticeExtra)
-useOuterStrips(    
+useOuterStrips(
     xyplot(ninfec ~ idade | habito + local,
            groups = sexo,
            data = PaulaEx4.6.15,

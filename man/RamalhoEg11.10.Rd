@@ -20,13 +20,11 @@
 
 }}
 \source{
-Ramalho, M. A. P., Ferreira, D. F., Oliveira, A. C. (2005).
-    Experimentação em Genética e Melhoramento de Plantas (2th ed.).
-    Lavras: UFLA. (pág. 181)
+RAMALHO et al. (2005), pág. 181.
 }
 \description{
-Experimento da avaliação da produção de 40 cultivares de sorgo
-    conduzido no delineamento alfa-látice.
+Experimento da avaliação da produção de 40 cultivares de
+    sorgo conduzido no delineamento alfa-látice.
 }
 \examples{
 

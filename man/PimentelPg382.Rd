@@ -19,8 +19,7 @@
 
 }}
 \source{
-Pimentel-Gomes, F. (2009). Curso de Estatística Experimental
-    (15th ed.). Piracicaba, SP: FEALQ. (Página 382)
+PIMENTEL-GOMES (2009), página 382.
 }
 \description{
 Experimento com 3 métodos de enxertia em que haviam 200

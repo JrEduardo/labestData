@@ -2,7 +2,8 @@
 % Please edit documentation in R/Pimentel.R
 \name{PimentelTb13.5.1}
 \alias{PimentelTb13.5.1}
-\title{Grupo de Experimentos de Aduba\enc{çã}{ca}o de Cana-de-a\enc{çú}{cu}car}
+\title{Grupo de Experimentos de Aduba\enc{çã}{ca}o de
+    Cana-de-a\enc{çú}{cu}car}
 \format{Um \code{data.frame} com 228 observações e 4 variáveis, em
     que
 
@@ -22,8 +23,7 @@
 
 }}
 \source{
-Pimentel-Gomes, F. (2009). Curso de Estatística Experimental
-    (15th ed.). Piracicaba, SP: FEALQ. (Tabela 13.5.1, pág. 259)
+PIMENTEL-GOMES (2009), Tabela 13.5.1, pág. 259.
 }
 \description{
 Conjunto de 38 ensaios fatoriais de \eqn{3^{3}} com N, P

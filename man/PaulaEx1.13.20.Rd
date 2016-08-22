@@ -27,7 +27,7 @@ Paula, G. A. (2004). Modelos de regressão: com apoio
     pág. 110)
 }
 \description{
-Dados referentes a vendas de um tipo de telhado de madeira 
+Dados referentes a vendas de um tipo de telhado de madeira
     em 26 filiais de uma rede de lojas de construção. Um dos objetivos do
     estudo é tentar prever o número esperado de telhados vendidos
     dadas as demais variáveis registradas.

@@ -20,8 +20,7 @@
 
 }}
 \source{
-Dias, L. A. S., Barros, W. S. (2009). Biometria
-    Experimental. Viçosa, MG: UFV. (Exemplo 9.4, pág.247)
+BARROS; DIAS (2009), Exemplo 9.4, pág. 247.
 }
 \description{
 Dados de produção de cacau de 5 cultivares em um

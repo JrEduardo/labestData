@@ -2,7 +2,8 @@
 % Please edit documentation in R/Pimentel.R
 \name{PimentelTb9.3.1}
 \alias{PimentelTb9.3.1}
-\title{Experimento de Aduba\enc{çã}{ca}o de Variedades de Cana-de-a\enc{çú}{cu}car}
+\title{Experimento de Aduba\enc{çã}{ca}o de Variedades de
+    Cana-de-a\enc{çú}{cu}car}
 \format{Um \code{data.frame} com 50 observações e 5 variáveis, em que
 
 \describe{

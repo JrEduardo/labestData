@@ -2,7 +2,8 @@
 % Please edit documentation in R/Barbin.R
 \name{BarbinPg177}
 \alias{BarbinPg177}
-\title{Altura de Prog\enc{ê}{e}nies de \emph{E. grandis} em Tr\enc{ê}{e}s Locais}
+\title{Altura de Prog\enc{ê}{e}nies de \emph{E. grandis} em
+    Tr\enc{ê}{e}s Locais}
 \format{Um \code{data.frame} com 72 observações e 4 variáveis, em que
 
 \describe{
@@ -21,9 +22,7 @@
 
 }}
 \source{
-Barbin, D. (2013). Planejamento e Análise Estatística de
-    Experimentos Agronômicos (2nd ed.). Londrina, PR:
-    Mecenas. (pág. 177)
+BARBIN (2013), pág. 177.
 }
 \description{
 Dados de experimento que mediu a altura (m) de árvores

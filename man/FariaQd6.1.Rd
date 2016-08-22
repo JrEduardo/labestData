@@ -17,8 +17,7 @@
 
 }}
 \source{
-Faria, J. C. (2009). Notas de aulas expandidas (10th ed.)
-    Ilhéus, BA: UESC. (Tabela 6.1 pág 76)
+FARIA (2009), Tabela 6.1 pág 76.
 }
 \description{
 Produção de milho, em kg 100 m\eqn{^2} em um experimento

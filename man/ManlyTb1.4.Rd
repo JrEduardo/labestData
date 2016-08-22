@@ -3,7 +3,7 @@
 \name{ManlyTb1.4}
 \alias{ManlyTb1.4}
 \title{C\enc{ã}{a}es pr\enc{é}{e}-hist\enc{ó}{o}ricos da Tail\enc{â}{a}ndia}
-\format{Um \code{data.frame} com 7 grupos caninos e 6 variáveis. 
+\format{Um \code{data.frame} com 7 grupos caninos e 6 variáveis.
 
 \describe{
 
@@ -26,7 +26,7 @@ Manly, B. J. F. (2005). Métodos Estatísticos Multivariados- uma introdução.
      Porto Alegre, RS: Bookman (pg 21)
 }
 \description{
-Estudo em ancestrais de cães da Tailândia, 
+Estudo em ancestrais de cães da Tailândia,
 através de medições das mandíbulas.
 }
 \examples{
@@ -35,8 +35,8 @@ através de medições das mandíbulas.
 data(ManlyTb1.4)
 
 pairs(~largm + altm + comppm + largpm + comppt + comppq,
-      data = ManlyTb1.4, 
+      data = ManlyTb1.4,
       main="Gráfico de dispersão para as medições da mandíbula")
 }
-\keyword{AnaClust}
+\keyword{AnaAgrup}
 

@@ -2,8 +2,9 @@
 % Please edit documentation in R/Banzatto.R
 \name{BanzattoQd3.7.1}
 \alias{BanzattoQd3.7.1}
-\title{Composi\enc{çã}{ca}o do Substrato na Altura de \emph{Pinus oocarpa}}
-\format{Um \code{data.frame} com 20 observações e 3 variáveis.
+\title{Composi\enc{çã}{ca}o do Substrato na Altura de \emph{Pinus
+    oocarpa}}
+\format{Um \code{data.frame} com 20 observações e 3 variáveis, em que
 
 \describe{
 
@@ -20,9 +21,7 @@
 
 }}
 \source{
-Banzatto, D. A., Kronka, S. D. (2013). Experimentação
-    Agrícola (4th ed.). Jaboticabal, SP: Funep. (Quadro 3.7.1 pág.
-    64)
+BANZATTO; KRONKA (2013), Quadro 3.7.1, pág. 64.
 }
 \description{
 Dados de experimento para estudo do efeito de 5

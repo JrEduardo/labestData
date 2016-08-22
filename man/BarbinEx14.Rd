@@ -3,7 +3,7 @@
 \name{BarbinEx14}
 \alias{BarbinEx14}
 \title{Produ\enc{çã}{ca}o de Milho em Ensaio Fatorial de NPK}
-\format{Um \code{data.frame} com 24 observações e 5 variáveis.
+\format{Um \code{data.frame} com 24 observações e 5 variáveis, em que
 
 \describe{
 
@@ -22,9 +22,7 @@
 
 }}
 \source{
-Barbin, D. (2013). Planejamento e Análise Estatística de
-    Experimentos Agronômicos (2nd ed.). Londrina, PR:
-    Mecenas. (Exercício 14, pág. 206)
+BARBIN (2013), Exercício 14, pág. 206.
 }
 \description{
 Ensaio fatorial de adubação NPK, fatorial \eqn{2^3}, com

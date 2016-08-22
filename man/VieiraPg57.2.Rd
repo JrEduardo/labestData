@@ -15,8 +15,7 @@
 
 }}
 \source{
-Vieira, S. (1999). Estatística experimental (2th ed.).  São
-    Paulo, SP: Atlas. (pág. 57, exercício 4).
+VIEIRA (1999), pág. 57, exercício 4 .
 }
 \description{
 Os dados referem-se ao peso de 3 ratos medidos 5 vezes

@@ -14,10 +14,10 @@
 
 \item{\code{esp14}}{Número de ácaros coletados da espécie 14.}
 
-\item{\code{placa}}{Número de partes da placa de esterco onde 
+\item{\code{placa}}{Número de partes da placa de esterco onde
     foram coletados os ácaros. (1 ou 6)}
 
-\item{\code{posic}}{Posição na placa de esterco onde foram coletados 
+\item{\code{posic}}{Posição na placa de esterco onde foram coletados
 os ácaros (central ou lateral).}
 
 \item{\code{reg}}{Região onde a placa de esterco foi coletada (São
@@ -32,12 +32,12 @@ Paula, G. A. (2004). Modelos de regressão: com apoio
     computacional. São Paulo, SP: IME-USP. (Exemplo 5.2.8a, pág. 359)
 }
 \description{
-Dados de um experimento desenvolvido para estudar  
-    a distribuição do número de ácaros em placas de esterco de gado 
-    bovino no estado de São Paulo, obtidos por Paula e Tavares, 1992. 
-    Essas placas são depósitos de ovos da mosca do chifre 
-    (\emph{Haematobia irritans}), uma das pragas mais importantes da 
-    pecuária brasileira. Os ácaros são inimigos naturais da mosca do 
+Dados de um experimento desenvolvido para estudar
+    a distribuição do número de ácaros em placas de esterco de gado
+    bovino no estado de São Paulo, obtidos por Paula e Tavares, 1992.
+    Essas placas são depósitos de ovos da mosca do chifre
+    (\emph{Haematobia irritans}), uma das pragas mais importantes da
+    pecuária brasileira. Os ácaros são inimigos naturais da mosca do
     chifre, uma vez que se alimentam de ovos e larvas dessas moscas.
 }
 \examples{

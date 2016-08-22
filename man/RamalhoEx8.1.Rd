@@ -2,7 +2,8 @@
 % Please edit documentation in R/Ramalho.R
 \name{RamalhoEx8.1}
 \alias{RamalhoEx8.1}
-\title{Produ\enc{çã}{ca}o de Gr\enc{ã}{a}os de Arroz em Munic\enc{í}{i}pios de Minas Gerais}
+\title{Produ\enc{çã}{ca}o de Gr\enc{ã}{a}os de Arroz em
+    Munic\enc{í}{i}pios de Minas Gerais}
 \format{Um \code{data.frame} com 90 observações e 4 variáveis, em que
 
 \describe{
@@ -20,9 +21,7 @@
 
 }}
 \source{
-Ramalho, M. A. P., Ferreira, D. F., Oliveira, A. C. (2005).
-    Experimentação em Genética e Melhoramento de Plantas (2th ed.).
-    Lavras: UFLA. (Exercício 8.1, pág. 132)
+RAMALHO et al. (2005), Exercício 8.1, pág. 132.
 }
 \description{
 Experimentos para avaliar a produção de grãos de

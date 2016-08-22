@@ -20,13 +20,13 @@
 \item{\code{peixe}}{Consumo de peixe.}
 
 \item{\code{cere}}{Consumo por cereais.}
- 
+
 \item{\code{carb}}{Consumo de carboidratos.}
 
 \item{\code{gnso}}{Consumo de grãos, nozes e sementes oleaginosas.}
- 
+
 \item{\code{fv}}{Consumo de frutas e vegetais.}
- 
+
 \item{\code{total}}{Total de consumo do país.}
 
 }}
@@ -34,14 +34,14 @@
 Manly, B. J. F. (2005). Métodos Estatísticos Multivariados - uma introdução.
      Porto Alegre, RS: Bookman (pg 103)
 
-Manly, B. J. F. (2005). Métodos Estatísticos Multivariados - 
+Manly, B. J. F. (2005). Métodos Estatísticos Multivariados -
      uma introdução. Porto Alegre, RS: Bookman (pg 103)
 }
 \description{
 Estimativas do consumo médio de proteínas de diferentes fontes de alimentos para os habitantes de 25 países europeus. Medida em gramas por pessoa por dia
 
-Estimativas dos consumos médios de proteínas de diferentes 
-fontes de alimentos para habitantes de 25 países europeus. 
+Estimativas dos consumos médios de proteínas de diferentes
+fontes de alimentos para habitantes de 25 países europeus.
 Consumos registrados em gramas por pessoa por dia.
 }
 \examples{
@@ -49,15 +49,14 @@ Consumos registrados em gramas por pessoa por dia.
 data(ManlyTb6.7)
 
 pairs(~ cv + cb + ovo + leite + peixe + cere + carb + gnso + fv,
-      data = ManlyTb6.7, 
+      data = ManlyTb6.7,
       main="Matriz das variáveis de consumo de proteína")
 
 data(ManlyTb6.7)
 
 pairs(~ cv + cb + ovo + leite + peixe + cere + carb + gnso + fv,
-      data = ManlyTb6.7, 
+      data = ManlyTb6.7,
       main="Matriz das variáveis de consumo de proteína")
 }
-\keyword{AnaComp}
-\keyword{CP}
+\keyword{AnaComPrin}
 

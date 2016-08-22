@@ -2,7 +2,8 @@
 % Please edit documentation in R/Ramalho.R
 \name{RamalhoTb8.12}
 \alias{RamalhoTb8.12}
-\title{Produ\enc{çã}{ca}o M\enc{é}{e}dia de Gr\enc{ã}{a}os de Caf\enc{é}{e}-cereja}
+\title{Produ\enc{çã}{ca}o M\enc{é}{e}dia de Gr\enc{ã}{a}os de
+    Caf\enc{é}{e}-cereja}
 \format{Um \code{data.frame} com 120 observações e 4 variáveis, em
     que
 
@@ -23,9 +24,7 @@
 
 }}
 \source{
-Ramalho, M. A. P., Ferreira, D. F., Oliveira, A. C. (2005).
-    Experimentação em Genética e Melhoramento de Plantas (2th ed.).
-    Lavras: UFLA. (pág. 128)
+RAMALHO et al. (2005), pág. 128.
 
     Mendes, A. N. G. Avaliação de Metodologias Empregadas na Seleção
     de Progênies do Cafeeiro (Coffea arabica L.) no estado de Minas

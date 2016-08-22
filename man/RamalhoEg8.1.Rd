@@ -2,7 +2,8 @@
 % Please edit documentation in R/Ramalho.R
 \name{RamalhoEg8.1}
 \alias{RamalhoEg8.1}
-\title{Produ\enc{çã}{ca}o de Gr\enc{ã}{a}os em Cultivares de Feij\enc{ã}{a}o}
+\title{Produ\enc{çã}{ca}o de Gr\enc{ã}{a}os em Cultivares de
+    Feij\enc{ã}{a}o}
 \format{Um \code{data.frame} com 60 observações e 4 variáveis, em que
 
 \describe{
@@ -21,9 +22,7 @@
 
 }}
 \source{
-Ramalho, M. A. P., Ferreira, D. F., Oliveira, A. C. (2005).
-    Experimentação em Genética e Melhoramento de Plantas (2th ed.).
-    Lavras: UFLA. (Exemplo 8.1, pág. 115)
+RAMALHO et al. (2005), Exemplo 8.1, pág. 115.
 }
 \description{
 Experimentos para medir a produção de grãos de

@@ -2,8 +2,10 @@
 % Please edit documentation in R/Banzatto.R
 \name{BanzattoQd5.3.7}
 \alias{BanzattoQd5.3.7}
-\title{Efici\enc{ê}{e}ncia na Utiliza\enc{çã}{ca}o de P por Cultivares de trigo}
-\format{Um \code{data.frame} com 48 observações e 5 variáveis.
+\title{Efici\enc{ê}{e}ncia na Utiliza\enc{çã}{ca}o de P por
+    Cultivares de Trigo}
+\format{Um \code{data.frame} com 48 observações e 5 variáveis, em que
+
 \describe{
 
 \item{\code{cult}}{Cultivares de trigo usadas no experimento: BR 20
@@ -24,9 +26,7 @@
 
 }}
 \source{
-Banzatto, D. A., Kronka, S. D. (2013). Experimentação
-    Agrícola (4th ed.). Jaboticabal, SP: Funep. (Quadro 5.3.7,
-    pág. 120)
+BANZATTO; KRONKA (2013), Quadro 5.3.7, pág. 120.
 }
 \description{
 Experimento em delineamento inteiramente casualizado que

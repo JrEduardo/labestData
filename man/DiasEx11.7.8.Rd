@@ -16,8 +16,7 @@
 
 }}
 \source{
-Dias, L. A. S., Barros, W. S. (2009). Biometria
-    Experimental. Viçosa, MG: UFV. (Exercício 8, Cap. 11, pág. 321
+BARROS; DIAS (2009), Exercício 8, Cap. 11, pág. 321.
 }
 \description{
 Resultados de um grupo de experimento de competiação de

@@ -18,8 +18,7 @@
 \item{\code{prod}}{Produtividade em sacas beneficiadas.}
 }}
 \source{
-Dias, L. A. S., Barros, W. S. (2009). Biometria
-    Experimental. Viçosa, MG: UFV. (Exercício 10, Cap. 9, pág. 261)
+BARROS; DIAS (2009), Exercício 10, Cap. 9, pág. 261.
 }
 \description{
 Experimento de competição de cultivares de café

@@ -4,7 +4,8 @@
 \alias{BanzattoQd5.5.1}
 \title{Aduba\enc{çã}{ca}o Mineral no Milho com Uso de Confundimento}
 \format{Um \code{data.frame} com 27 observações e 4 variáveis, em que
-    \describe{
+
+\describe{
 
 \item{\code{N}}{Níveis codificados de nitrogênio (N) que representam
     0, 30 e 60 kg ha\eqn{^{-1}}. A fonte do N é o sulfato de amônio
@@ -32,9 +33,7 @@ consideradas as 4 linhas centrais com 8 metros de comprimento (por
 desconsiderar 1 m em cada extremidade), perfazendo 32 m\eqn{^{2}}. O
 híbrido de milho utilizado foi o HMD-7974.}
 \source{
-Banzatto, D. A., Kronka, S. D. (2013). Experimentação
-    Agrícola (4th ed.). Jaboticabal, SP: Funep. (Quadro 5.5.1,
-    pág. 131)
+BANZATTO; KRONKA (2013), Quadro 5.5.1, pág. 131.
 
 Vilalta, O. A. (1972). Avaliação da produção de milho (\emph{Zea
     mays} L.) em função da adubação NPK em um latossolo

@@ -2,7 +2,8 @@
 % Please edit documentation in R/Ramalho.R
 \name{RamalhoEg13.2}
 \alias{RamalhoEg13.2}
-\title{Produ\enc{çã}{ca}o de Gr\enc{ã}{a}os de Milho em Cons\enc{ó}{o}rcio com Feij\enc{ã}{a}o.}
+\title{Produ\enc{çã}{ca}o de Gr\enc{ã}{a}os de Milho em
+    Cons\enc{ó}{o}rcio com Feij\enc{ã}{a}o.}
 \format{Um \code{data.frame} com 36 observações e 5 variáveis, em que
 
 \describe{
@@ -22,9 +23,7 @@ de milho.}
 
 }}
 \source{
-Ramalho, M. A. P., Ferreira, D. F., Oliveira, A. C. (2005).
-    Experimentação em Genética e Melhoramento de Plantas (2th ed.).
-    Lavras: UFLA. (Exemplo 13.2, pág. 237)
+RAMALHO et al. (2005), Exemplo 13.2, pág. 237.
 
     Rezende, G. D. S. P.; Ramalho, M. A. P. Competitive Ability of
     Maize and Commom Bean (Phaseolus Vulgaris L.) Cultivars

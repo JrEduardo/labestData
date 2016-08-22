@@ -3,7 +3,7 @@
 \name{BanzattoQd3.4.1}
 \alias{BanzattoQd3.4.1}
 \title{Produtividades de Cultivares de Mandioca}
-\format{Um \code{data.frame} com 25 observações e 3 variáveis.
+\format{Um \code{data.frame} com 25 observações e 3 variáveis, em que
 
 \describe{
 
@@ -18,9 +18,7 @@
 
 }}
 \source{
-Banzatto, D. A., Kronka, S. D. (2013). Experimentação
-    Agrícola (4th ed.). Jaboticabal, SP: Funep. (Quadro 3.4.1 pág.
-    50)
+BANZATTO; KRONKA (2013), Quadro 3.4.1, pág. 50.
 }
 \description{
 Produção de mandioca em experimento de competição de

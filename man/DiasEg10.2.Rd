@@ -20,8 +20,7 @@
 
 }}
 \source{
-Dias, L. A. S., Barros, W. S. (2009). Biometria
-    Experimental. Viçosa, MG: UFV. (Exemplo 10.2, pág. 286)
+BARROS; DIAS (2009), Exemplo 10.2, pág. 286.
 }
 \description{
 Experimento em delineamento inteiramente casualizado

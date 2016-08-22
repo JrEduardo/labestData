@@ -2,7 +2,8 @@
 % Please edit documentation in R/Ramalho.R
 \name{RamalhoEg4.3}
 \alias{RamalhoEg4.3}
-\title{Porcentagem de absor\enc{çã}{ca}o de \enc{á}{a}gua de feij\enc{ã}{a}o}
+\title{Porcentagem de absor\enc{çã}{ca}o de \enc{á}{a}gua de
+    feij\enc{ã}{a}o}
 \format{Um \code{data.frame} com 30 observações e 3 variáveis, em que
 
 \describe{
@@ -18,9 +19,7 @@
 
 }}
 \source{
-Ramalho, M. A. P., Ferreira, D. F., Oliveira, A. C. (2005).
-    Experimentação em Genética e Melhoramento de Plantas (2th ed.).
-    Lavras, MG: UFLA. (Exemplo 4.3, pág 56)
+RAMALHO et al. (2005), Exemplo 4.3, pág 56.
 }
 \description{
 Experimento conduzido na Universidade Federal de Lavras,

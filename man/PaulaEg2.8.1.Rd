@@ -8,7 +8,7 @@
 
 \item{\code{semana}}{Semana da avaliação.}
 
-\item{\code{tipo}}{Tipo de snack avaliado. Os níveis representam as 
+\item{\code{tipo}}{Tipo de snack avaliado. Os níveis representam as
     seguintes configurações:
     \code{A}: 22\% de gordura, 0\% de óleo de canola, \code{B}: 0\%
     de gordura, 22\% de óleo de canola, \code{C}: 17\% de gordura,
@@ -30,8 +30,8 @@ Dados de um experimento desenvolvido pelo Departamento
     ácidos graxos, foram comparados ao longo de 20 semanas. Nesse
     novo produto a gordura vegetal hidrogenada, responsável pela
     fixação do aroma do produto, foi substituída, totalmente ou
-    parcialmente, por óleo de canola. Ao todo foram produzidas 750 
-    observações, referentes a 15 avaliações para cada tipo de snack 
+    parcialmente, por óleo de canola. Ao todo foram produzidas 750
+    observações, referentes a 15 avaliações para cada tipo de snack
     a cada 2 semanas.
 }
 \examples{

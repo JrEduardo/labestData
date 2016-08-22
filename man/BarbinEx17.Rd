@@ -2,7 +2,8 @@
 % Please edit documentation in R/Barbin.R
 \name{BarbinEx17}
 \alias{BarbinEx17}
-\title{Efeito do Espa\enc{ç}{c}amento na Produtividade de Laranjeira Val\enc{ê}{e}ncia}
+\title{Efeito do Espa\enc{ç}{c}amento na Produtividade de Laranjeira
+    Val\enc{ê}{e}ncia}
 \format{Um \code{data.frame} com 100 observações e 4 variáveis, em
     que
 
@@ -21,9 +22,7 @@
 
 }}
 \source{
-Barbin, D. (2013). Planejamento e Análise Estatística de
-    Experimentos Agronômicos (2nd ed.). Londrina, PR:
-    Mecenas. (Exercício 17, pág. 209)
+BARBIN (2013), Exercício 17, pág. 209.
 }
 \description{
 Dados de produtividade de laranja, em kg por planta, de

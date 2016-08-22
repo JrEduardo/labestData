@@ -16,7 +16,7 @@ Paula, G. A. (2004). Modelos de regressão: com apoio
     computacional. São Paulo, SP: IME-USP. (Tabela 1.9, pág. 88)
 }
 \description{
-Número de bactérias sobreviventes em amostras de um 
+Número de bactérias sobreviventes em amostras de um
     produto alimentício segundo o tempo de exposição do produto a uma
     temperatura de 300°F.
 }

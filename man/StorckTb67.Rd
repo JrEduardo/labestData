@@ -2,7 +2,8 @@
 % Please edit documentation in R/Storck.R
 \name{StorckTb67}
 \alias{StorckTb67}
-\title{Efeito da Dose de NPK na Produ\enc{çã}{ca}o de Cultivares de Milho}
+\title{Efeito da Dose de NPK na Produ\enc{çã}{ca}o de Cultivares de
+    Milho}
 \format{Um \code{data.frame} com 60 observações e 4 variáveis, em que
 
 \describe{
@@ -20,9 +21,7 @@
 
 }}
 \source{
-Storck, L., Garcia, B. C., Lopes, S. J., Estefanel,
-    V. (2011). Experimentação Vegetal (3th ed.). Santa Maria, RS:
-    UFSM. (Tabela 67, pág. 144)
+STORCK et al. (2011), Tabela 67, pág. 144.
 }
 \description{
 Resultados ficitícios (kg/parcela) de um experimento

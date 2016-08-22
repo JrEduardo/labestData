@@ -33,5 +33,5 @@ library(lattice)
 bwplot(peso~maq, data = MingotiTb3.10, xlab = "Máquina")
 
 }
-\keyword{AnaComp}
+\keyword{AnaComPrin}
 

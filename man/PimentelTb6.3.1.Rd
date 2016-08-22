@@ -2,7 +2,8 @@
 % Please edit documentation in R/Pimentel.R
 \name{PimentelTb6.3.1}
 \alias{PimentelTb6.3.1}
-\title{Experimento de Aduba\enc{çã}{ca}o Mineral e Verde em Cana-de-a\enc{çú}{cu}car}
+\title{Experimento de Aduba\enc{çã}{ca}o Mineral e Verde em
+    Cana-de-a\enc{çú}{cu}car}
 \format{Um \code{data.frame} com 36 observações e 4 variáveis, em que
 
 \describe{
@@ -27,8 +28,7 @@
 
 }}
 \source{
-Pimentel-Gomes, F. (2009). Curso de Estatística Experimental
-    (15th ed.). Piracicaba, SP: FEALQ. (Tabela 6.3.1, página 99)
+PIMENTEL-GOMES (2009), Tabela 6.3.1, página 99.
 }
 \description{
 Experimento de adubação de cana da Usina Monte Alegre,

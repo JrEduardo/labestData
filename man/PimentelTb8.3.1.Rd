@@ -2,7 +2,8 @@
 % Please edit documentation in R/Pimentel.R
 \name{PimentelTb8.3.1}
 \alias{PimentelTb8.3.1}
-\title{Grupo de Ensaios de Batatinha na Prov\enc{í}{i}ncia de Buenos Aires}
+\title{Grupo de Ensaios de Batatinha na Prov\enc{í}{i}ncia de Buenos
+    Aires}
 \format{Um \code{data.frame} com 56 observações e 3 variáveis, em que
 
 \describe{
@@ -26,8 +27,7 @@ O atributo \code{qmr} é um vetor com os quadrados médios residuais da
     dados individuais está em \code{\link{PimentelEg5.2}}, que
     refere-se ao experimento número 3 com todas as observações.}
 \source{
-Pimentel-Gomes, F. (2009). Curso de Estatística Experimental
-    (15th ed.). Piracicaba, SP: FEALQ. (Tabela 8.3.1, pág. 147)
+PIMENTEL-GOMES (2009), Tabela 8.3.1, pág. 147.
 }
 \description{
 Grupo de ensaios de competição de variedades de

@@ -13,8 +13,7 @@
 
 }}
 \source{
-Dias, L. A. S., Barros, W. S. (2009). Biometria
-    Experimental. Viçosa, MG: UFV. (Exercício 10, Cap. 7, pág. 181)
+BARROS; DIAS (2009), Exercício 10, Cap. 7, pág. 181.
 }
 \description{
 Dados referentes a 8 pares de valores de produção
@@ -31,6 +30,6 @@ xyplot(prod ~ diam, data = DiasEx6.5.10, type = c("p", "r"),
        xlab = "Produção (gramas)", ylab = "Diâmetro (cm)")
 
 }
-\keyword{ASS}
+\keyword{AAS}
 \keyword{RL}
 

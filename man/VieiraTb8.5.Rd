@@ -2,7 +2,8 @@
 % Please edit documentation in R/Vieira.R
 \name{VieiraTb8.5}
 \alias{VieiraTb8.5}
-\title{N\enc{ú}{u}mero de Itens Produzidos Em Fun\enc{çã}{ca}o do Tipo de M\enc{á}{a}quina}
+\title{N\enc{ú}{u}mero de Itens Produzidos Em Fun\enc{çã}{ca}o do
+    Tipo de M\enc{á}{a}quina}
 \format{Um \code{data.frame} com 60 observações e 3 variáveis, em que
 
 \describe{
@@ -17,8 +18,7 @@
 
 }}
 \source{
-Vieira, S. (1999). Estatística experimental (2th ed.).
-    São Paulo, SP: Atlas. (Tabela 8.5, pág. 98).
+VIEIRA (1999), Tabela 8.5, pág. 98 .
 }
 \description{
 Os dados advém de um experimento no qual foram

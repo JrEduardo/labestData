@@ -87,20 +87,20 @@
 \item{\code{obj37}}{Presença (1) ou ausência (0) do objeto 37.}
 
 \item{\code{obj38}}{Presença (1) ou ausência (0) do objeto 38.}
- 
+
 }}
 \source{
-Manly, B. J. F. (2005). Métodos Estatísticos Multivariados- 
+Manly, B. J. F. (2005). Métodos Estatísticos Multivariados-
 uma introdução. Porto Alegre, RS: Bookman (pg 153 e 154)
 }
 \description{
-Conjunto de dados referentes a bens de túmulos de um 
-cemitério em Bannadi, nordeste da Tailândia. São registros de 
-presença ou ausência de 38 diferentes artigos em cada um dos 46 
+Conjunto de dados referentes a bens de túmulos de um
+cemitério em Bannadi, nordeste da Tailândia. São registros de
+presença ou ausência de 38 diferentes artigos em cada um dos 46
 túmulos, com informação adicional sobre se os restos mortais eram de
-um adulto masculino, feminino ou criança. Os sepultamentos estão na 
+um adulto masculino, feminino ou criança. Os sepultamentos estão na
 ordem de riqueza de diferentes bens (totais variando de 0 a 11), e os
-bens estão na ordem de frequência de ocorrência (totais variando de 
+bens estão na ordem de frequência de ocorrência (totais variando de
 1 a 18).
 }
 \examples{
@@ -109,10 +109,10 @@ data(ManlyTb9.8)
 
 matdist <- as.matrix(dist(ManlyTb9.8[,-c(1,2)], method = "binary"))
 ### Mapa de calor para a matriz de dissimilaridades.
-heatmap(matdist, 
-       margins= c(6,6), 
-       labRow = ManlyTb9.8$sep, 
+heatmap(matdist,
+       margins= c(6,6),
+       labRow = ManlyTb9.8$sep,
        labCol = ManlyTb9.8$sep)
 }
-\keyword{AnaClust}
+\keyword{AnaAgrup}
 

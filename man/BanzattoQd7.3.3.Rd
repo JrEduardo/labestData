@@ -3,7 +3,7 @@
 \name{BanzattoQd7.3.3}
 \alias{BanzattoQd7.3.3}
 \title{Experimento Fatorial com Fatores Qualitativos e Quantitativos}
-\format{Um \code{data.frame} com 32 observações e 4 variáveis.
+\format{Um \code{data.frame} com 32 observações e 4 variáveis, em que
 
 \describe{
 
@@ -18,9 +18,7 @@
 
 }}
 \source{
-Banzatto, D. A., Kronka, S. D. (2013). Experimentação
-    Agrícola (4th ed.). Jaboticabal, SP: Funep. (Quadro 7.3.3,
-    pág. 182)
+BANZATTO; KRONKA (2013), Quadro 7.3.3, pág. 182.
 }
 \description{
 Dados fictícios de um experimento fatorial duplo com um

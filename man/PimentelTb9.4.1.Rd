@@ -18,8 +18,7 @@
 
 }}
 \source{
-Pimentel-Gomes, F. (2009). Curso de Estatística Experimental
-    (15th ed.). Piracicaba, SP: FEALQ. (Tabela 9.4.1, pág. 175)
+PIMENTEL-GOMES (2009), Tabela 9.4.1, pág. 175.
 }
 \description{
 Experimento que mediu o grau brix de frutos de 5

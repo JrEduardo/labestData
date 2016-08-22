@@ -11,14 +11,14 @@ A figura apresentada descreve as cinco variáveis, correspondentes às
 dimensões das taças.
 
 \if{html}{\figure{ManlyTb6-6.jpg}{options: width="250px"}}
-\if{latex}{\figure{ManlyTb6-6.jpg}{options: width=1.75in}} 
+\if{latex}{\figure{ManlyTb6-6.jpg}{options: width=1.75in}}
 }}
 \source{
-Manly, B. J. F. (2005). Métodos Estatísticos Multivariados- 
+Manly, B. J. F. (2005). Métodos Estatísticos Multivariados-
      uma introdução. Porto Alegre, RS: Bookman (pg 101)
 }
 \description{
-Dimensões de 25 taças de cerâmicas escavadas de lugares 
+Dimensões de 25 taças de cerâmicas escavadas de lugares
 pré-históricos na Tailândia.
 }
 \examples{
@@ -26,8 +26,8 @@ pré-históricos na Tailândia.
 data(ManlyTb6.6)
 
 pairs(~ x1 + x2 + x3 + x4 + x5 + x6,
-      data = ManlyTb6.6, 
+      data = ManlyTb6.6,
       main="Matriz de diapersão para as variáveis de medida das taças")
 }
-\keyword{AnaComp}
+\keyword{AnaComPrin}
 

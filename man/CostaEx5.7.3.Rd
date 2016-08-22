@@ -16,9 +16,7 @@
 
 }}
 \source{
-Costa, J. R. (2003). Técnicas experimentais aplicadas às
-    ciências agrárias (Documentos 163). Seropédica, RJ: Embrapa
-    Agrobiologia. (Exemplo 5.7.3.1, pág. 95)
+Costa (2013), Exemplo 5.7.3.1, pág. 95.
 }
 \description{
 Experimento instalado em delineamento inteiramente

@@ -20,8 +20,7 @@
 
 }}
 \source{
-Dias, L. A. S., Barros, W. S. (2009). Biometria
-    Experimental. Viçosa, MG: UFV. (Exemplo 11.1, pág. 305)
+BARROS; DIAS (2009), Exemplo 11.1, pág. 305.
 }
 \description{
 Resultados de experimentos em 3 sítios, em delineamento

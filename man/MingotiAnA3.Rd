@@ -48,5 +48,5 @@ bwplot(inst~rendpc|loc, data=MingotiAnA3,
 
                   
 }
-\keyword{AnaComp}
+\keyword{AnaComPrin}
 

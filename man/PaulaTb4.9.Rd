@@ -11,7 +11,7 @@
 
 \item{\code{ano}}{Fator com quatro níveis que representa o ano de
     fabricação do navio (entre 1960 e 1964 (\code{60-64}), entre 1965
-    e 1969 (\code{65-69}), entre 1970 e 1974 (\code{70-74}) e 
+    e 1969 (\code{65-69}), entre 1970 e 1974 (\code{70-74}) e
     entre 1975 e 1979 (\code{75-79})).}
 
 \item{\code{peri}}{Fator com dois níveis que representa o período de

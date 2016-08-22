@@ -18,8 +18,7 @@
 
 }}
 \source{
-Dias, L. A. S., Barros, W. S. (2009). Biometria
-    Experimental. Viçosa, MG: UFV. (Exercício 7, Cap. 9, pág. 261)
+BARROS; DIAS (2009), Exercício 7, Cap. 9, pág. 261.
 }
 \description{
 Resultados de um experimento em delineamento de blocos

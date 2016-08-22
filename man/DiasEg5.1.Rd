@@ -2,8 +2,8 @@
 % Please edit documentation in R/Dias.R
 \name{DiasEg5.1}
 \alias{DiasEg5.1}
-\title{N\enc{ú}{u}mero de Ovos Eclodidos de Nemat\enc{ó}{o}ides Ap\enc{ó}{o}s Aplica\enc{çã}{ca}o de
-    Nematicidas Naturais}
+\title{N\enc{ú}{u}mero de Ovos Eclodidos de Nemat\enc{ó}{o}ides
+    Ap\enc{ó}{o}s Aplica\enc{çã}{ca}o de Nematicidas Naturais}
 \format{Um \code{data.frame} com 20 observações e 3 variáveis, em que
 
 \describe{
@@ -16,8 +16,7 @@
 
 }}
 \source{
-Dias, L. A. S., Barros, W. S. (2009). Biometria
-    Experimental. Viçosa, MG: UFV. (Exemplo 5.1, pág. 130)
+BARROS; DIAS (2009), Exemplo 5.1, pág. 130.
 }
 \description{
 Resultados de um experimento em delineamento

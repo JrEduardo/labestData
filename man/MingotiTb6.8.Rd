@@ -43,5 +43,5 @@ data(MingotiTb6.8)
 pairs(MingotiTb6.8)
 
 }
-\keyword{AnaClust}
+\keyword{AnaAgrup}
 

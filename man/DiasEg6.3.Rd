@@ -16,8 +16,7 @@
 
 }}
 \source{
-Dias, L. A. S., Barros, W. S. (2009). Biometria
-    Experimental. Viçosa, MG: UFV. (Exemplo 6.3, pág. 173)
+BARROS; DIAS (2009), Exemplo 6.3, pág. 173.
 }
 \description{
 Foram avaliados 7 clones de cacaueiros a fim determinar

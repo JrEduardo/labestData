@@ -5,8 +5,7 @@
 \title{Alturas de plantas de milho}
 \format{Vetor com 100 observações da altura (cm).}
 \source{
-Dias, L. A. S., Barros, W. S. (2009). Biometria
-    Experimental. Viçosa, MG: UFV.
+BARROS; DIAS (2009), Exemplo 3.6.
 }
 \description{
 Amostras aleatória da alturas de plantas de milho.

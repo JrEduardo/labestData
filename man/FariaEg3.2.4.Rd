@@ -17,8 +17,7 @@
 
 }}
 \source{
-Faria, J. C. (2009). Notas de aulas expandidas (10th ed.)
-    Ilhéus, BA: UESC. (Tabela 3.2.4, pág 46)
+FARIA (2009), Tabela 3.2.4, pág 46.
 }
 \description{
 Experimento em delineamento inteiramente casualizado que

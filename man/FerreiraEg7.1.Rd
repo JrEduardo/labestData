@@ -46,7 +46,7 @@ boxplot(proteina ~ amostra, data = FerreiraEg7.1,
         axes = FALSE)
 box()
 axis(side = 2, col.axis = 4)
-mtext(side = 2, text = "Proteínas em g/dl", line = 3, col = 4) 
+mtext(side = 2, text = "Proteínas em g/dl", line = 3, col = 4)
 par(new = TRUE, mar = c(4, 5, 4, 5))
 boxplot(peroxido ~ amostra, data = FerreiraEg7.1,
         xlim = c(0.5, 2.5), border = 2,

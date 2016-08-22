@@ -8,22 +8,22 @@
 \describe{
 
 \item{vol}{Logaritmo do volume de ar inspirado.}
-    
+
 \item{razao}{Logaritmo da razão de ar inspirado.}
 
 \item{resp}{Ocorrência ou não de compressão de vaso (ocorrência = 1
    e ausência = 0).}
-    
+
 }}
 \source{
-Paula, G. A. (2004). Modelos de regressão: com apoio computacional. 
+Paula, G. A. (2004). Modelos de regressão: com apoio computacional.
    São Paulo, SP: IME-USP. (Tb 3.12 pág. 227)
 }
 \description{
-Dados de um experimento desenvolvido para 
+Dados de um experimento desenvolvido para
    avaliar a influência da quantidade de ar inspirado na ocorrência
    de vaso-constrição na pele dos dedos da mão.  A resposta é a ocorrência
-   (1) ou ausência (0) de compressão de vasos e as covariáveis são o 
+   (1) ou ausência (0) de compressão de vasos e as covariáveis são o
    volume e a razão de ar inspirado.
 }
 \examples{
@@ -34,18 +34,18 @@ data(PaulaTb3.12)
 
 str(PaulaTb3.12)
 
-bwplot(vol ~ resp,  data = PaulaTb3.12, 
+bwplot(vol ~ resp,  data = PaulaTb3.12,
        type=c("p","a"),
        xlab="Vaso-constrição", ylab="Volume de ar inspirado",
-       scales=list(x=list(labels=c("Ausência","Ocorrência"))), 
+       scales=list(x=list(labels=c("Ausência","Ocorrência"))),
        main="Ocorrência de vaso-constrição")
 
-bwplot(razao ~ resp,  data = PaulaTb3.12, 
+bwplot(razao ~ resp,  data = PaulaTb3.12,
        type=c("p","a"),
        xlab=" Vaso-constrição", ylab="Razão de ar inspirado",
-       scales=list(x=list(labels=c("Ausência","Ocorrência"))), 
+       scales=list(x=list(labels=c("Ausência","Ocorrência"))),
      main="Ocorrência de vaso-constrição")
 }
-\keyword{GLM}
+\keyword{MLG}
 \keyword{binarios}
 

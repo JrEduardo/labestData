@@ -8,8 +8,8 @@
 
 \item{\code{indiv}}{Identificação do indivíduo.}
 
-\item{\code{period}}{Período de observação (1 = antes do tratamento, 
-    2 = primeiro período após o tratamento, 3 = segundo período após 
+\item{\code{period}}{Período de observação (1 = antes do tratamento,
+    2 = primeiro período após o tratamento, 3 = segundo período após
     o tratamento e 4 = terceiro período após o tratamento).}
 
 \item{\code{seman}}{Número de semanas em cada período.}
@@ -25,11 +25,11 @@ Paula, G. A. (2004). Modelos de regressão: com apoio
     computacional. São Paulo, SP: IME-USP. (Exemplo 5.5.1, pág. 379)
 }
 \description{
-Dados apresentados em Diggle, Liang e Zeger (1994), 
+Dados apresentados em Diggle, Liang e Zeger (1994),
     referentes a um ensaio clínico com 59 indivíduos epilépticos,
     aleatorizados de modo que cada um recebesse uma droga
     antiepiléptica (progabide) ou placebo.
-    Os dados de cada indivíduo consistem do número de ataques 
+    Os dados de cada indivíduo consistem do número de ataques
     epilépticos num período de oito semanas antes do tratamento, além
     do número de ataques em cada período de duas semanas, num total
     de quatro períodos após o tratamento. O interesse do estudo é
@@ -47,7 +47,7 @@ xyplot(ataq ~ period | trat, groups = indiv, data = PaulaEg5.5.1,
        type = c("p", "a"),
        xlab = "Período",
        ylab = "Número de ataques epilépticos")
-       
+
 }
 \references{
 Diggle, P. J.; Liang, K. Y. e Zeger, S. L. (1994).

@@ -20,8 +20,7 @@
 
 }}
 \source{
-Dias, L. A. S., Barros, W. S. (2009). Biometria
-    Experimental. Viçosa, MG: UFV. (Exemplo 9.2, pág. 231)
+BARROS; DIAS (2009), Exemplo 9.2, pág. 231.
 }
 \description{
 Dados de produção de cacau úmido (kg/planta) obtidos de

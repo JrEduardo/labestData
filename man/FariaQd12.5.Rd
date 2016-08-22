@@ -25,8 +25,7 @@
 As parcelas da testemunha, que não receberam aplicação de TVC,
     exibiram um valor 0 para a colonização das vassouras-de-bruxa.}
 \source{
-Faria, J. C. (2009). Notas de aulas expandidas (10th ed.)
-    Ilhéus - BA: UESC. ( Quadro 12.5, pág. 159)
+FARIA (2009), Quadro 12.5, pág. 159.
 }
 \description{
 Os dados referem-se a contagem da colonização de um

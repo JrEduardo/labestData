@@ -19,7 +19,7 @@ t = 1,2,3,4,5.}
 }}
 \source{
 Paula, G. A. (2004). Modelos de regressão: com apoio
-    computacional. São Paulo, SP: IME-USP. 
+    computacional. São Paulo, SP: IME-USP.
     (Exercício 3.7.14, página 272)
 }
 \description{
@@ -33,18 +33,18 @@ data(PaulaEx3.7.14)
 
 PaulaEx3.7.14$temp <- as.factor(PaulaEx3.7.14$temp)
 
-xyplot(nit~temp, groups = equip, data = PaulaEx3.7.14, type = "o", 
-       auto.key = TRUE, xlab = "Tempos", 
+xyplot(nit~temp, groups = equip, data = PaulaEx3.7.14, type = "o",
+       auto.key = TRUE, xlab = "Tempos",
        ylab = "N° de equipamentos operantes",
        main = "Confiabilidade dos equipamentos")
 }
 \references{
-Lawless, J. F. (1982). Statistical Models and Methods for 
+Lawless, J. F. (1982). Statistical Models and Methods for
     Lifetime Data. John Wiley & Sons, New York. (Página 389)
 
-Efron, B. (1988). Logistic regression, survival analysis, 
+Efron, B. (1988). Logistic regression, survival analysis,
     and the Kaplan-Meier curve. J. Amer. Stat. Assoc., 83.
     (Páginas 414-425)
 }
-\keyword{RLAS}
+\keyword{sobrevivencia}
 

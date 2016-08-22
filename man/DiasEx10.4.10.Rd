@@ -22,8 +22,7 @@
 
 }}
 \source{
-Dias, L. A. S., Barros, W. S. (2009). Biometria
-    Experimental. Viçosa, MG: UFV. (Exercício 10, Cap. 10, pág. 296)
+BARROS; DIAS (2009), Exercício 10, Cap. 10, pág. 296.
 }
 \description{
 Dados refentes à produção de 3 clones

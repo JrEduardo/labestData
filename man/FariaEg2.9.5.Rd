@@ -2,7 +2,8 @@
 % Please edit documentation in R/Faria.R
 \name{FariaEg2.9.5}
 \alias{FariaEg2.9.5}
-\title{Varia\enc{çã}{ca}o de M\enc{é}{e}todos para a Determina\enc{çã}{ca}o da CTC do Solo}
+\title{Varia\enc{çã}{ca}o de M\enc{é}{e}todos para a
+    Determina\enc{çã}{ca}o da CTC do Solo}
 \format{Um \code{data.frame} com 20 observações e 3 variáveis, em que
 
 \describe{
@@ -14,8 +15,7 @@
 
 }}
 \source{
-Faria, J. C. (2009). Notas de aulas expandidas (10th ed.)
-    Ilhéus - BA: UESC. (Exemplo 2.9.5, pág 39)
+FARIA (2009), Exemplo 2.9.5, pág 39.
 }
 \description{
 Dois métodos de CTC do solo são usados em uma amostra de
@@ -36,5 +36,5 @@ aggregate(ctc ~ metod, data = FariaEg2.9.5,
 xyplot(ctc ~ metod, data = FariaEg2.9.5)
 
 }
-\keyword{ASS}
+\keyword{AAS}
 

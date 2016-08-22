@@ -20,32 +20,32 @@
 \item{\code{dg0.4}}{Frequência 0.4 em demobilidade gênica PGi (porcentagem).}
 
 \item{\code{dg0.6}}{Frequência 0.6 em demobilidade gênica PGi.}
- 
+
 \item{\code{dg0.8}}{Frequência 0.8 em demobilidade gênica PGi.}
 
 \item{\code{dg1}}{Frequência 1 em demobilidade gênica PGi.}
- 
+
 \item{\code{dg1.16}}{Frequência 1.16 em demobilidade gênica PGi.}
 
 \item{\code{dg1.3}}{Frequência 1.3 em demobilidade gênica PGi.}
- 
+
 }}
 \source{
-Manly, B. J. F. (2005). Métodos Estatísticos Multivariados 
+Manly, B. J. F. (2005). Métodos Estatísticos Multivariados
      - uma introdução. Porto Alegre, RS: Bookman (pg 19)
 }
 \description{
-Estudo de colônias de borboletas do tipo \emph{Euphydryas 
-editha} na Califórnia e em Oregon, EUA, com variáveis ambientais e 
+Estudo de colônias de borboletas do tipo \emph{Euphydryas
+editha} na Califórnia e em Oregon, EUA, com variáveis ambientais e
 frequências gênicas.
 }
 \examples{
 
 data(ManlyTb1.3)
 
-pairs(~ alt + precip + tempmax + tempmin + dg0.4 + dg0.6 + dg0.8 + 
+pairs(~ alt + precip + tempmax + tempmin + dg0.4 + dg0.6 + dg0.8 +
       dg1 + dg1.16 + dg1.3, data = ManlyTb1.3, cex.labels = 1.4,
       main="Matriz de gráficos de dispersão")
 }
-\keyword{CP}
+\keyword{AnaComPrin}
 

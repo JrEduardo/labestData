@@ -10,7 +10,7 @@
 
 \item{\code{dia}}{Dia de aplicação (1, 2 ou 3).}
 
-\item{\code{metod}}{Método utilizado: (1 = pincel, 2 = rolo e 
+\item{\code{metod}}{Método utilizado: (1 = pincel, 2 = rolo e
     3 = spray.}
 
 \item{\code{mistur}}{Tipo de mistura do pigmento (1, 2, 3 ou 4).}
@@ -23,10 +23,10 @@ Paula, G. A. (2004). Modelos de regressão: com apoio
 computacional. São Paulo, SP: IME-USP. (Exercício 5.6.13, pág. 400)
 }
 \description{
-Um experimento foi conduzido para avaliar a dispersão 
-    de quatro diferentes pigmentos numa pintura. O procedimento 
-    consistiu em preparar cada mistura e aplicá-las num painel usando 
-    três métodos diferentes. O experimento é repetido em três dias distintos 
+Um experimento foi conduzido para avaliar a dispersão
+    de quatro diferentes pigmentos numa pintura. O procedimento
+    consistiu em preparar cada mistura e aplicá-las num painel usando
+    três métodos diferentes. O experimento é repetido em três dias distintos
     e a resposta é a porcentagem de reflectância do pigmento.
 }
 \examples{
@@ -42,7 +42,7 @@ xyplot(reflec ~ mistur, groups = metod, auto.key = list(title = 'Método'),
 }
 \references{
 Myers, R.H.; Montgomery, D. C. e Vining, G. G. (2002).
-Generalized Linear Models: With Applications in Engineering and the 
+Generalized Linear Models: With Applications in Engineering and the
 Sciences. John Wiley, New York.
 }
 \keyword{quase-verossimilhança}

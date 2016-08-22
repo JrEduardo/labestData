@@ -17,7 +17,7 @@
 
 \item{\code{tesc}}{Tempo de escolaridade (em anos).}
 
-\item{\code{gesc}}{Grau de escolaridade (0 = nenhum, 1 = segundo grau, 
+\item{\code{gesc}}{Grau de escolaridade (0 = nenhum, 1 = segundo grau,
 2 = técnico, 3 = universitário, 4 = mestrado, 5 = doutorado).}
 
 \item{\code{cur}}{Checkup Regular (1 = sim, 2 = não).}
@@ -34,7 +34,7 @@
 
 \item{\code{iupmen}}{Idade do último período menstrual.}
 
-\item{\code{ec}}{Estado civil (1 = casada, 2 = divorciada, 3 = separada, 
+\item{\code{ec}}{Estado civil (1 = casada, 2 = divorciada, 3 = separada,
 4 = viúva, 5 = solteira).}
 
 }}
@@ -57,22 +57,22 @@ data(PaulaEx3.7.15)
 str(PaulaEx3.7.15)
 
 PaulaEx3.7.15 <- transform(
-                 PaulaEx3.7.15, 
+                 PaulaEx3.7.15,
                  PaulaEx3.7.15$est <- as.factor(PaulaEx3.7.15$est),
                  PaulaEx3.7.15$diag <- as.factor(PaulaEx3.7.15$diag),
                  PaulaEx3.7.15$cur <- as.factor(PaulaEx3.7.15$cur),
                  PaulaEx3.7.15$ec <- as.factor(PaulaEx3.7.15$ec)
                   )
 # Libra para Kg
-PaulaEx3.7.15$peso <- PaulaEx3.7.15$peso*0.453592 
+PaulaEx3.7.15$peso <- PaulaEx3.7.15$peso*0.453592
 
-pairs(~ idade + diag + tesc + gesc + cur + ipg + idmens 
+pairs(~ idade + diag + tesc + gesc + cur + ipg + idmens
       + numab + numfi + peso + idupmens + ec,
-      data = PaulaEx3.7.15, 
+      data = PaulaEx3.7.15,
       main = "Matriz de gráficos de dispersão - tumor benigno na mama")
 }
 \references{
-Hosmer, D. W. e Lemeshow, S. (1989). 
+Hosmer, D. W. e Lemeshow, S. (1989).
 Applied Logistic Regression. John Wiley, New York. (Capítulo.7)
 }
 \keyword{RL}

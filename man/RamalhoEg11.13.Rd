@@ -2,7 +2,8 @@
 % Please edit documentation in R/Ramalho.R
 \name{RamalhoEg11.13}
 \alias{RamalhoEg11.13}
-\title{Produ\enc{çã}{ca}o de Gr\enc{ã}{a}os de Milho em Diferentes Popula\enc{çõ}{co}es}
+\title{Produ\enc{çã}{ca}o de Gr\enc{ã}{a}os de Milho em Diferentes
+    Popula\enc{çõ}{co}es}
 \format{Um \code{data.frame} com 48 observações e 4 variáveis, em que
 
 \describe{
@@ -20,9 +21,7 @@
 
 }}
 \source{
-Ramalho, M. A. P., Ferreira, D. F., Oliveira, A. C. (2005).
-    Experimentação em Genética e Melhoramento de Plantas (2th ed.).
-    Lavras: UFLA. (Exemplo 11.13, pág. 188)
+RAMALHO et al. (2005), Exemplo 11.13, pág. 188.
 }
 \description{
 Experimento envolvendo populações de milho no

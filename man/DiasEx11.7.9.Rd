@@ -20,8 +20,7 @@
 
 }}
 \source{
-Dias, L. A. S., Barros, W. S. (2009). Biometria
-    Experimental. Viçosa, MG: UFV. (Exercício 9, Cap. 11, pág. 321)
+BARROS; DIAS (2009), Exercício 9, Cap. 11, pág. 321.
 }
 \description{
 Resultados de ensaio de competição de cultivares de

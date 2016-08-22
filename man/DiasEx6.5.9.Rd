@@ -13,8 +13,7 @@
 
 }}
 \source{
-Dias, L. A. S., Barros, W. S. (2009). Biometria
-    Experimental. Viçosa, MG: UFV. (Exercício 9, Cap. 6, pág. 181)
+BARROS; DIAS (2009), Exercício 9, Cap. 6, pág. 181.
 
 library(lattice)
 

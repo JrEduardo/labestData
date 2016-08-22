@@ -8,19 +8,19 @@
 \describe{
 
 \item{menst}{Número de garotas menstruando.}
-    
+
 \item{entre}{Número de garotas entrevistadas.}
 
 \item{idade}{Idade media.}
-    
+
 }}
 \source{
-Paula, G. A. (2004). Modelos de regressão: com apoio computacional. 
+Paula, G. A. (2004). Modelos de regressão: com apoio computacional.
    São Paulo, SP: IME-USP. (Eg 3.6.11b pág. 241)
 }
 \description{
-Dados de  um estudo em que se investigou a idade do início 
-    da menstruação em 3918 garotas de Varsóvia. Para 25 médias de 
+Dados de  um estudo em que se investigou a idade do início
+    da menstruação em 3918 garotas de Varsóvia. Para 25 médias de
     idade foram observadas a ocorrência  ou não  do início de períodos
     de menstruação nas adolescentes.
 }
@@ -30,12 +30,12 @@ library(lattice)
 
 data(PaulaEg3.6.11b)
 
-       
-xyplot((menst/entre) ~ idade,  data = PaulaEg3.6.11b, 
+
+xyplot((menst/entre) ~ idade,  data = PaulaEg3.6.11b,
        type = c("p","a"),
-       xlab = "Idade média", 
-       ylab = "Meninas menstruando/Entrevistadas", 
+       xlab = "Idade média",
+       ylab = "Meninas menstruando/Entrevistadas",
        main = "Idade do início da menstruação em garotas de Varsóvia.")
 }
-\keyword{GLM}
+\keyword{MLG}
 

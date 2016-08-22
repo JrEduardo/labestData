@@ -2,8 +2,9 @@
 % Please edit documentation in R/Banzatto.R
 \name{BanzattoQd3.6.1}
 \alias{BanzattoQd3.6.1}
-\title{Produ\enc{çã}{ca}o de Mat\enc{é}{e}ria Seca em Cultivares de Sorgo}
-\format{Um \code{data.frame} com 30 observações e 3 variáveis.
+\title{Produ\enc{çã}{ca}o de Mat\enc{é}{e}ria Seca em Cultivares de
+    Sorgo}
+\format{Um \code{data.frame} com 30 observações e 3 variáveis, em que
 
 \describe{
 
@@ -17,9 +18,7 @@
 
 }}
 \source{
-Banzatto, D. A., Kronka, S. D. (2013). Experimentação
-    Agrícola (4th ed.). Jaboticabal, SP: Funep. (Quadro 3.6.1 pág.
-    57)
+BANZATTO; KRONKA (2013), Quadro 3.6.1, pág. 57.
 }
 \description{
 Experimento em delineamento inteiramente casualizado

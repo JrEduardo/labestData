@@ -3,13 +3,13 @@
 \name{PaulaEx3.7.20}
 \alias{PaulaEx3.7.20}
 \title{Pacientes com leucemia}
-\format{Um \code{data.frame} com 51 pacientes e 
+\format{Um \code{data.frame} com 51 pacientes e
 
 \describe{
 
 \item{\code{idade}}{Idade do paciente (em anos).}
 
-\item{\code{mdd}}{Mancha diferencial da doença (em porcentagem).} 
+\item{\code{mdd}}{Mancha diferencial da doença (em porcentagem).}
 
 \item{\code{if}}{Infiltração na medula (em porcentagem).}
 
@@ -21,19 +21,19 @@
 
 \item{\code{trat}}{Tratamento (1 = satisfatório, 0 = não satisfatório).}
 
-\item{\code{tsobre}}{Tempo de sobrevivência  (em meses).} 
+\item{\code{tsobre}}{Tempo de sobrevivência  (em meses).}
 
-\item{\code{sit}}{Situação (1 = sobrevivente, 0 = não sobrevivente).} 
+\item{\code{sit}}{Situação (1 = sobrevivente, 0 = não sobrevivente).}
 }}
 \source{
 Paula, G. A. (2004). Modelos de regressão: com apoio
-    computacional. São Paulo, SP: IME-USP. 
+    computacional. São Paulo, SP: IME-USP.
     (Exercício 3.7.19, página 276)
 }
 \description{
-Estudo com 51 pacientes adultos, 
-previamente diagnosticados com um tipo agudo de leucemia, que 
-receberam um tipo de tratamento sendo verificada, após  certo 
+Estudo com 51 pacientes adultos,
+previamente diagnosticados com um tipo agudo de leucemia, que
+receberam um tipo de tratamento sendo verificada, após  certo
 período, a eficiência ou não do tratamento.
 }
 \examples{
@@ -53,19 +53,19 @@ PaulaEx3.7.20 <- transform(
 
 require(car)
 
-scatterplotMatrix(~ idade + mdd + im + cl + md + tmax + trat 
+scatterplotMatrix(~ idade + mdd + im + cl + md + tmax + trat
                   + tsobre + sit,
-                  spread = FALSE, 
-                  pch = 20, 
+                  spread = FALSE,
+                  pch = 20,
                   lwd = 2,
-                 smooth = TRUE, 
-                  data = PaulaEx3.7.20, 
+                 smooth = TRUE,
+                  data = PaulaEx3.7.20,
                   cex = 1.5,
                   main = "Matriz de gráficos de dispersão - Leucemia")
 }
 \references{
-Everitt, B. S. (1994). 
-A Handbook of Statistical Analysis using S-Plus. 
+Everitt, B. S. (1994).
+A Handbook of Statistical Analysis using S-Plus.
 Chapman and Hall, London. (Página 253)
 }
 \keyword{ML}

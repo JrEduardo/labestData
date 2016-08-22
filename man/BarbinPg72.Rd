@@ -3,7 +3,7 @@
 \name{BarbinPg72}
 \alias{BarbinPg72}
 \title{Produ\enc{çã}{ca}o de Laranjeira sob Diferentes Porta-enxertos}
-\format{Um \code{data.frame} com 27 observações e 3 variáveis.
+\format{Um \code{data.frame} com 27 observações e 3 variáveis, em que
 
 \describe{
 
@@ -21,9 +21,7 @@ O atributo \code{missings} é um vetor com o número das observações
     consideradas como perdidas para ilustrar como fazer a análise do
     experimento desbalanceado.}
 \source{
-Barbin, D. (2013). Planejamento e Análise Estatística de
-    Experimentos Agronômicos (2nd ed.). Londrina, PR:
-    Mecenas. (pág. 72)
+BARBIN (2013), pág. 72.
 
 Teófilo Sobrinho, J. (1972). Comportamento da laranjeira valência
     (\emph{Citrus sinensis} L., Osbeck) sob diferentes

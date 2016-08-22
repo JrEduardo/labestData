@@ -8,7 +8,7 @@
 \describe{
 
 \item{mortos}{Número de insetos mortos.}
-    
+
 \item{exp}{Número de insetos expostos aos inseticidas.}
 
 \item{dose}{Dose aplicada dos inseticidas.}
@@ -17,7 +17,7 @@
 
 }}
 \source{
-Paula, G. A. (2004). Modelos de regressão: com apoio computacional. 
+Paula, G. A. (2004). Modelos de regressão: com apoio computacional.
    São Paulo, SP: IME-USP. (Tb 3.20 pág. 246)
 }
 \description{
@@ -35,9 +35,9 @@ str(PaulaTb3.20)
 
 xyplot(mortos/(sum(mortos)) ~ dose,  data = PaulaTb3.20, auto.key = TRUE,
          type = c("p","a"), groups= inset,
-         xlab = "Dose de inseticida aplicada", 
-         ylab = "Proporção de insetos mortos", 
+         xlab = "Dose de inseticida aplicada",
+         ylab = "Proporção de insetos mortos",
          main = "Aplicações de inseticidas")
 }
-\keyword{GLM}
+\keyword{MLG}
 

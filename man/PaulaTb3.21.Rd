@@ -20,8 +20,8 @@ Paula, G. A. (2004). Modelos de regressão: com apoio
     computacional. São Paulo, SP: IME-USP. (Tb 3.21, pág. 257)
 }
 \description{
-Experimento com duas espécies de *rotifers*, um tipo  
-    microscópio de invertebrado aquático. São apresentados pra cada 
+Experimento com duas espécies de *rotifers*, um tipo
+    microscópio de invertebrado aquático. São apresentados pra cada
     espécie a densidade relativa da substância, o número de *rotifers*
     expostos e o número de *rotifers* em suspensão.
 }

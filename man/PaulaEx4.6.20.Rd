@@ -9,7 +9,7 @@
 \item{\code{dose}}{Dosagem de \emph{Nitrofen} aplicada, em mg/l.}
 
 \item{\code{novos}}{Número de ovos de \emph{Ceriodaphnia dubia}
-    eclodidos após 3 ninhadas.} 
+    eclodidos após 3 ninhadas.}
 
 }}
 \source{

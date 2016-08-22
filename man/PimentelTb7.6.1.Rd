@@ -2,8 +2,8 @@
 % Please edit documentation in R/Pimentel.R
 \name{PimentelTb7.6.1}
 \alias{PimentelTb7.6.1}
-\title{Experimento Fatorial Com Confunfimento de Aduba\enc{çã}{ca}o em
-    Cana-de-a\enc{çú}{cu}car}
+\title{Experimento Fatorial Com Confunfimento de Aduba\enc{çã}{ca}o
+    em Cana-de-a\enc{çú}{cu}car}
 \format{Um \code{data.frame} com 54 observações e 6 variáveis, em que
 
 \describe{
@@ -28,8 +28,7 @@
 
 }}
 \source{
-Pimentel-Gomes, F. (2009). Curso de Estatística Experimental
-    (15th ed.). Piracicaba, SP: FEALQ. (Tabela 7.6.1, pág. 126)
+PIMENTEL-GOMES (2009), Tabela 7.6.1, pág. 126.
 
 Straus, F. Esperimentos de adubação na zona canavieira de
     Pernambuco. In: Terceira Reunião Brasileira de Ciência do

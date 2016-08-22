@@ -4,7 +4,7 @@
 \alias{BarbinEx16}
 \title{Efeito de Sistemas de Plantio na Produtividade de
     Cana-de-a\enc{çú}{cu}car}
-\format{Um \code{data.frame} com 40 observações e 4 variáveis.
+\format{Um \code{data.frame} com 40 observações e 4 variáveis, em que
 
 \describe{
 
@@ -24,9 +24,7 @@
 
 }}
 \source{
-Barbin, D. (2013). Planejamento e Análise Estatística de
-    Experimentos Agronômicos (2nd ed.). Londrina, PR:
-    Mecenas. (Exercício 16, pág. 208)
+BARBIN (2013), Exercício 16, pág. 208.
 }
 \description{
 Produtividade de cana-de-açúcar, cultivar CB-43-5,

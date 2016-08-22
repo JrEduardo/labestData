@@ -45,7 +45,7 @@ ftable(xt)
 plot(xt)
 
 library(latticeExtra)
-useOuterStrips(    
+useOuterStrips(
     xyplot(nind ~ maciez | prefer + usom,
            groups = temp,
            data = PaulaEx4.6.17,

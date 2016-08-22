@@ -2,7 +2,8 @@
 % Please edit documentation in R/Ramalho.R
 \name{RamalhoEg8.8}
 \alias{RamalhoEg8.8}
-\title{Produ\enc{çã}{ca}o de Gr\enc{ã}{a}os de Feij\enc{ã}{a}o de Popula\enc{çõ}{co}es Segregantes}
+\title{Produ\enc{çã}{ca}o de Gr\enc{ã}{a}os de Feij\enc{ã}{a}o de
+    Popula\enc{çõ}{co}es Segregantes}
 \format{Um \code{data.frame} com 72 observações e 4 variáveis, em que
 
 \describe{
@@ -20,9 +21,7 @@
 
 }}
 \source{
-Ramalho, M. A. P., Ferreira, D. F., Oliveira, A. C. (2005).
-    Experimentação em Genética e Melhoramento de Plantas (2th ed.).
-    Lavras: UFLA. (Tabela 8.8, pág. 123)
+RAMALHO et al. (2005), Tabela 8.8, pág. 123.
 
     Corte, H. R., Ramalho, M. A. P., Gonçalves, F. M. A., Abreu. A de
     F. B. Natural Selection for Grain Yield in Dry Bean Population

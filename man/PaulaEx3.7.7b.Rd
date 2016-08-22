@@ -18,9 +18,9 @@ Paula, G. A. (2004). Modelos de regressão: com apoio
     computacional. São Paulo, SP: IME-USP. (Ex 3.7.7b, pág. 269)
 }
 \description{
-Experimento de dose-resposta conduzido para avaliar a 
+Experimento de dose-resposta conduzido para avaliar a
     influência dos extratos vegetais "aquoso frio de folhas", "aquoso
-    frio de frutos" e de um extrato químico, respectivamente, na morte 
+    frio de frutos" e de um extrato químico, respectivamente, na morte
     de um determinado tipo de caramujo.
 }
 \examples{
@@ -30,13 +30,13 @@ data(PaulaEx3.7.7b)
 str(PaulaEx3.7.7b)
 
 library(lattice)
-                       
+
 xyplot(PaulaEx3.7.7b$cmort/PaulaEx3.7.7b$cexp ~ dose,
      data = PaulaEx3.7.7b,
      xlab = "Dose",
      type = c("o"),
      ylab = "Proporção de mortos",
-     auto.key = list(space="top", columns=2, 
+     auto.key = list(space="top", columns=2,
                      title="Caramujos", cex.title=1,
                      lines=TRUE, points=FALSE))
 

@@ -2,7 +2,8 @@
 % Please edit documentation in R/Vieira.R
 \name{VieiraEx8.3}
 \alias{VieiraEx8.3}
-\title{Experimento Em Blocos Casualizados Com Repeti\enc{çõ}{co}es Nos Blocos}
+\title{Experimento Em Blocos Casualizados Com Repeti\enc{çõ}{co}es
+    Nos Blocos}
 \format{Um \code{data.frame} com 24 observações e 3 variáveis, em que
 
 \describe{
@@ -18,8 +19,7 @@
 
 }}
 \source{
-Vieira, S. (1999). Estatística experimental (2th ed.).
-    São Paulo, SP: Atlas. (Exercício 8.3, pág. 102).
+VIEIRA (1999), Exercício 8.3, pág. 102.
 }
 \description{
 Dados de um experimento em delineamento em blocos

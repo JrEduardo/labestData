@@ -2,7 +2,7 @@
 % Please edit documentation in R/Banzatto.R
 \name{BanzattoQd3.2.1}
 \alias{BanzattoQd3.2.1}
-\title{Controle de pulg\enc{ã}{a}o na cultura de pepino}
+\title{Controle de Pulg\enc{ã}{a}o na Cultura de Pepino}
 \format{Um \code{data.frame} com 30 observações e 3 variáveis, em que
 
 \describe{
@@ -18,9 +18,7 @@
 
 }}
 \source{
-Banzatto, D. A., Kronka, S. D. (2013). Experimentação
-    Agrícola (4th ed.). Jaboticabal, SP: Funep. (Quadro 3.2.1 pág.
-    44)
+BANZATTO; KRONKA (2013), Quadro 3.2.1, pág. 44.
 }
 \description{
 Dados de um experimento visando controle de pulgão

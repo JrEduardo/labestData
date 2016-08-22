@@ -2,9 +2,11 @@
 % Please edit documentation in R/Banzatto.R
 \name{BanzattoQd6.4.2}
 \alias{BanzattoQd6.4.2}
-\title{\enc{É}{E}poca de Plantio e Aduba\enc{çã}{ca}o Nitrogenada em Beterraba}
-\format{Um \code{data.frame} com 80 observações e 4 variáveis.
-    \describe{
+\title{\enc{É}{E}poca de Plantio e Aduba\enc{çã}{ca}o Nitrogenada em
+    Beterraba}
+\format{Um \code{data.frame} com 80 observações e 4 variáveis, em que
+
+\describe{
 
 \item{\code{nitro}}{Fator de níveis métricos que correspondem à
     quantidade de nitrogênio aplicada, em libras por acre.}
@@ -30,9 +32,7 @@ Na figura abaixo, tem-se a organização dos 4 blocos, bem como dos
 \if{html}{\figure{BanzattoQd6-4-2.png}{options: width="250px"}}
 \if{latex}{\figure{BanzattoQd6-4-2.png}{options: width=1.75in}}}
 \source{
-Banzatto, D. A., Kronka, S. D. (2013). Experimentação
-    Agrícola (4th ed.). Jaboticabal, SP: Funep. (Quadro 6.4.2,
-    pág. 163)
+BANZATTO; KRONKA (2013), Quadro 6.4.2, pág. 163.
 }
 \description{
 Experimento em delineamento de blocos casualizados cujos

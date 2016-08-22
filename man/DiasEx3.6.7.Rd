@@ -2,7 +2,8 @@
 % Please edit documentation in R/Dias.R
 \name{DiasEx3.6.7}
 \alias{DiasEx3.6.7}
-\title{Percentual de Germina\enc{çã}{ca}o de Lotes de Sementes de Tomate}
+\title{Percentual de Germina\enc{çã}{ca}o de Lotes de Sementes de
+    Tomate}
 \format{Um \code{data.frame} com 2 observações e 1 variável, em que
 
 \describe{
@@ -14,8 +15,7 @@
 
 }}
 \source{
-Dias, L. A. S., Barros, W. S. (2009). Biometria
-    Experimental. Viçosa, MG: UFV. (Exercício 7, Cap. 7.6, pág.102)
+BARROS; DIAS (2009), (Exercício 7, Cap. 7.6, pág. 102.
 }
 \description{
 Percentuais de germinação de 2 lotes de sementes de

@@ -42,7 +42,7 @@ with(FerreiraEx7.4.1, {
                   axes = FALSE)
      box()
      axis(side = 2, col.axis = 4)
-     mtext(side = 2, text = "Peso", line = 3, col = 4) 
+     mtext(side = 2, text = "Peso", line = 3, col = 4)
      par(new = TRUE, mar = c(4, 5, 4, 5))
      plot.default(y = teor, xlab = "", ylab = "",
                   x = jitter(as.numeric(fase), factor = 0.5) + 0.15,

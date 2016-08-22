@@ -2,8 +2,9 @@
 % Please edit documentation in R/Barbin.R
 \name{BarbinPg137}
 \alias{BarbinPg137}
-\title{Aduba\enc{çã}{ca}o NPK na Produ\enc{çã}{ca}o de Algod\enc{ã}{a}o Herb\enc{á}{a}ceo}
-\format{Um \code{data.frame} com 54 observações e 6 variáveis.
+\title{Aduba\enc{çã}{ca}o NPK na Produ\enc{çã}{ca}o de
+    Algod\enc{ã}{a}o Herb\enc{á}{a}ceo}
+\format{Um \code{data.frame} com 54 observações e 6 variáveis, em que
     \describe{
 
 \item{\code{N}}{Dose de nitrogênio (kg ha\eqn{^{-1}}) usada na
@@ -26,9 +27,7 @@
 
 }}
 \source{
-Barbin, D. (2013). Planejamento e Análise Estatística de
-    Experimentos Agronômicos (2nd ed.). Londrina, PR:
-    Mecenas. (pág. 137)
+BARBIN (2013), pág. 137.
 
 Cavalcanti, F. B. (1977). A adubação mineral na cultura do algodão
     (\emph{Gossypium hirsutum} L.) no Estado de

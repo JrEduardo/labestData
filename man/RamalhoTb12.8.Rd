@@ -2,7 +2,8 @@
 % Please edit documentation in R/Ramalho.R
 \name{RamalhoTb12.8}
 \alias{RamalhoTb12.8}
-\title{Componentes da Produ\enc{çã}{ca}o de Linhagens de Feij\enc{ã}{a}o}
+\title{Componentes da Produ\enc{çã}{ca}o de Linhagens de
+    Feij\enc{ã}{a}o}
 \format{Um \code{data.frame} com 20 observações e 5 variáveis, em que
 
 \describe{
@@ -20,9 +21,7 @@
 
 }}
 \source{
-Ramalho, M. A. P., Ferreira, D. F., Oliveira, A. C. (2005).
-    Experimentação em Genética e Melhoramento de Plantas (2th ed.).
-    Lavras: UFLA. (Tabela 12.8, pág. 225)
+RAMALHO et al. (2005), Tabela 12.8, pág. 225.
 
     Pereira Filho, I. A., Ramalho, M. A. P., Ferreira, S. Avaliação
     de Progênies de Feijão e Estimativas de Parâmetros Genéticos na

@@ -24,8 +24,7 @@
 
 }}
 \source{
-Dias, L. A. S., Barros, W. S. (2009). Biometria
-    Experimental. Viçosa, MG: UFV. (Exercício 7, Cap. 10, pág. 295)
+BARROS; DIAS (2009), Exercício 7, Cap. 10, pág. 295.
 }
 \description{
 Em um experimento em delineamento inteiramente

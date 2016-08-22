@@ -2,8 +2,8 @@
 % Please edit documentation in R/Pimentel.R
 \name{PimentelTb18.2.1}
 \alias{PimentelTb18.2.1}
-\title{Ensaio Fatorial com Tratamentos Adicionais de Aduba\enc{çã}{ca}o de
-    Milho}
+\title{Ensaio Fatorial com Tratamentos Adicionais de
+    Aduba\enc{çã}{ca}o de Milho}
 \format{Um \code{data.frame} com 42 observações e 8 variáveis, em que
 
 \describe{
@@ -38,8 +38,7 @@
 
 }}
 \source{
-Pimentel-Gomes, F. (2009). Curso de Estatística Experimental
-    (15th ed.). Piracicaba, SP: FEALQ. (Tabela 18.2.1, pág. 330)
+PIMENTEL-GOMES (2009), Tabela 18.2.1, pág. 330.
 }
 \description{
 Ensaio de adubação NPK de milho, fatorial de

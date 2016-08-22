@@ -13,9 +13,7 @@
 
 }}
 \source{
-Ramalho, M. A. P., Ferreira, D. F., Oliveira, A. C. (2005).
-    Experimentação em Genética e Melhoramento de Plantas (2th ed.).
-    Lavras: UFLA. (Tabela 13.1, pág. 233)
+RAMALHO et al. (2005), Tabela 13.1, pág. 233.
 }
 \description{
 Experimento referente a cultura de milho, cujos dados

@@ -2,7 +2,8 @@
 % Please edit documentation in R/Pimentel.R
 \name{PimentelPg142}
 \alias{PimentelPg142}
-\title{Grupo de Experimentos Fatoriais de Aduba\enc{çã}{ca}o de Algod\enc{ã}{a}o}
+\title{Grupo de Experimentos Fatoriais de Aduba\enc{çã}{ca}o de
+    Algod\enc{ã}{a}o}
 \format{Um \code{data.frame} com 100 observações e 6 variáveis, em
     que
 
@@ -32,8 +33,7 @@
 
 }}
 \source{
-Pimentel-Gomes, F. (2009). Curso de Estatística Experimental
-    (15th ed.). Piracicaba, SP: FEALQ. (Página 142)
+PIMENTEL-GOMES (2009), página 142.
 }
 \description{
 Grupo de experimentos de adubação de algodão, todos em

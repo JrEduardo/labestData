@@ -22,9 +22,7 @@
 
 }}
 \source{
-Costa, J. R. (2003). Técnicas experimentais aplicadas às
-    ciências agrárias (Documentos 163). Seropédica, RJ: Embrapa
-    Agrobiologia. (Tabela 7, pág. 68)
+Costa (2013), Tabela 7, pág. 68.
 }
 \description{
 Experimento fatorial que avaliou o peso do colmo de duas

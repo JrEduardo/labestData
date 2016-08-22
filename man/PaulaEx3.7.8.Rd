@@ -22,8 +22,8 @@ Paula, G. A. (2004). Modelos de regressão: com apoio
 }
 \description{
 Dados referentes a um experimento desenvolvido para avaliar
-     a germinação de um determinado tipo de semente. A tabela abaixo 
-     apresenta o número de sementes que germinaram após cinco dias para 
+     a germinação de um determinado tipo de semente. A tabela abaixo
+     apresenta o número de sementes que germinaram após cinco dias para
      cada 100 sementes submetidas a cada condição experimental.
 }
 \examples{

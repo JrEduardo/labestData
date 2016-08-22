@@ -44,5 +44,5 @@ scatterplotMatrix(~ x1 + x2 + x3 + x4 | grp, data=MingotiAnA4,
      main = "Dispersão das variáveis de medidas para os dois grupos")
                   
 }
-\keyword{AnaComp}
+\keyword{AnaComPrin}
 

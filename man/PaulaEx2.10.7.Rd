@@ -36,7 +36,7 @@ str(PaulaEx2.10.7)
 library(lattice)
 xyplot(tempo ~ volt,
        groups = temp,
-       data = PaulaEx2.10.7, 
+       data = PaulaEx2.10.7,
        type = c("p", "g", "a"),
        auto.key = list(
            corner = c(0.9, 0.9),
@@ -71,5 +71,5 @@ xyplot(tempo[, "C.Variação"] ~ factor(trat),
 Lawless, J. F. (1982). Statistical Models and Methods for
     Lifetime Data. John Wiley, New York.
 }
-\keyword{positivos-assimétricos}
+\keyword{positivo-assimétrico}
 

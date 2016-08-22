@@ -38,5 +38,5 @@ scatterplotMatrix(~ amst + areia + sed + arg + morg,
     data = MingotiTb3.7, main = "Matriz de gráficos de dispersão")
                   
 }
-\keyword{AnaComp}
+\keyword{AnaComPrin}
 

@@ -2,7 +2,8 @@
 % Please edit documentation in R/Pimentel.R
 \name{PimentelTb7.2.1}
 \alias{PimentelTb7.2.1}
-\title{Experimento Fatorial Sobre Aduba\enc{çã}{ca}o NPK na Produ\enc{çã}{ca}o de Milho}
+\title{Experimento Fatorial Sobre Aduba\enc{çã}{ca}o NPK na
+    Produ\enc{çã}{ca}o de Milho}
 \format{Um \code{data.frame} com 32 observações e 5 variáveis, em que
 
 \describe{
@@ -23,8 +24,7 @@
 
 }}
 \source{
-Pimentel-Gomes, F. (2009). Curso de Estatística Experimental
-    (15th ed.). Piracicaba, SP: FEALQ. (Tabela 7.2.1, página 115)
+PIMENTEL-GOMES (2009), Tabela 7.2.1, página 115.
 }
 \description{
 Resultados da produção de milho em um experimento

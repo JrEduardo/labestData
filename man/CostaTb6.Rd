@@ -20,9 +20,7 @@
 
 }}
 \source{
-Costa, J. R. (2003). Técnicas experimentais aplicadas às
-    ciências agrárias (Documentos 163). Seropédica, RJ: Embrapa
-    Agrobiologia. (Tabela 6 pág. 63)
+Costa (2013), Tabela 6 pág. 63.
 }
 \description{
 Experimento instalado em delineamento de blocos

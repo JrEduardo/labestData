@@ -15,9 +15,7 @@
 
 }}
 \source{
-Ramalho, M. A. P., Ferreira, D. F., Oliveira, A. C. (2005).
-    Experimentação em Genética e Melhoramento de Plantas (2th ed.).
-    Lavras, MG: UFLA. (pg 48)
+RAMALHO et al. (2005), pág. 48.
 }
 \description{
 Experimento referente a largura dos ascos de três

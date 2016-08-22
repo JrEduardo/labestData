@@ -2,20 +2,20 @@
 % Please edit documentation in R/Barbin.R
 \name{BarbinEx3}
 \alias{BarbinEx3}
-\title{Podrid\enc{ã}{a}o Mole de Manga em Fun\enc{çã}{ca}o do Tratamento T\enc{é}{e}rmico}
-\format{Um \code{data.frame} com 28 observações e 2 variáveis.
+\title{Podrid\enc{ã}{a}o Mole de Manga em Fun\enc{çã}{ca}o do
+    Tratamento T\enc{é}{e}rmico}
+\format{Um \code{data.frame} com 28 observações e 2 variáveis, em que
 \describe{
 
-\item{\code{tterm}}{Fator categórico que indica o tratamento térmico.}
+\item{\code{tterm}}{Fator categórico que indica o tratamento
+    térmico.}
 
 \item{\code{nota}}{Nota atribuída a podridão mole de manga, valor
     resultante da média de 6 frutos avaliados.}
 
 }}
 \source{
-Barbin, D. (2013). Planejamento e Análise Estatística de
-    Experimentos Agronômicos (2nd ed.). Londrina, PR:
-    Mecenas. (Exercício 3, pág. 119)
+BARBIN (2013), Exercício 3, pág. 119.
 }
 \description{
 Os dados referem-se as notas (médias de 6 frutos)

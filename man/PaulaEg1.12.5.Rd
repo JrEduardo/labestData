@@ -24,8 +24,8 @@ Paula, G. A. (2004). Modelos de regressão: com apoio
     computacional. São Paulo, SP: IME-USP. (Eg 1.12.5, p?g. 94)
 }
 \description{
-Dados referentes ao consumo de combustível em 48 estados 
-    norte-americanos. O interesse nesse estudo é tentar explicar o 
+Dados referentes ao consumo de combustível em 48 estados
+    norte-americanos. O interesse nesse estudo é tentar explicar o
     consumo de combustível com base em variáveis econômicas.
 }
 \examples{

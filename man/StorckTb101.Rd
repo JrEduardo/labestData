@@ -2,7 +2,8 @@
 % Please edit documentation in R/Storck.R
 \name{StorckTb101}
 \alias{StorckTb101}
-\title{Grupo de Experimentos de Competi\enc{çã}{ca}o de Cultivares de Milho}
+\title{Grupo de Experimentos de Competi\enc{çã}{ca}o de Cultivares de
+    Milho}
 \format{Um \code{data.frame} com 96 observações e 4 variáveis, em que
 
 \describe{
@@ -20,9 +21,7 @@
 
 }}
 \source{
-Storck, L., Garcia, B. C., Lopes, S. J., Estefanel,
-    V. (2011). Experimentação Vegetal (3th ed.). Santa Maria, RS:
-    UFSM. (Tabela 101, pág. 182)
+STORCK et al. (2011), Tabela 101, pág. 182.
 }
 \description{
 Grupo de experimentos, avaliando 6 cultivres de milho,

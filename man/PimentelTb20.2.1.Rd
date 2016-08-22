@@ -18,8 +18,7 @@
 
 }}
 \source{
-Pimentel-Gomes, F. (2009). Curso de Estatística Experimental
-    (15th ed.). Piracicaba, SP: FEALQ. (Tabela 20.2.1, pág. 369)
+PIMENTEL-GOMES (2009), Tabela 20.2.1, pág. 369.
 }
 \description{
 Ensaio fatorial, de \eqn{3^{2}}, de adubação de

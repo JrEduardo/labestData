@@ -24,19 +24,19 @@
 \item{\code{compptm}}{Comprimento do primeiro ao terceiro molar (mm).}
 
 \item{\code{comppqp}}{Comprimento do primeiro ao quarto pré-molar (mm).}
- 
+
 \item{\code{largci}}{Largura do canino inferior (mm).}
 
-\item{\code{sexo}}{Código para sexo, (1 para masculino, 2 para feminino 
+\item{\code{sexo}}{Código para sexo, (1 para masculino, 2 para feminino
 e caso contrário é desconhecido}
 
 }}
 \source{
-Manly, B. J. F. (2005). Métodos Estatísticos Multivariados - 
+Manly, B. J. F. (2005). Métodos Estatísticos Multivariados -
      uma introdução. Porto Alegre, RS: Bookman (pg 67 à 69)
 }
 \description{
-Estudo em ancestrais de cães da Tailândia, 
+Estudo em ancestrais de cães da Tailândia,
 através de medições da mandíbula.
 }
 \examples{
@@ -51,13 +51,13 @@ bwplot(value ~grup | variable, data = ManlyTb4.5long,
         scales = c(list(relation = "free"), list(x=list(draw=FALSE))),
       ylab = "",
        main = "Boxplot de entre os grupo das medições da mandíbula",
-       par.settings = list( box.umbrella=list(col = c(1,2,3,4,6)), 
-                            box.dot=list(col = c(1,2,3,4,6)), 
+       par.settings = list( box.umbrella=list(col = c(1,2,3,4,6)),
+                            box.dot=list(col = c(1,2,3,4,6)),
                             box.rectangle = list(col = c(1,2,3,4,6))),
        key = list(points = list(col=c(1,2,3,4,6), pch=19),
                   space = "top",
                   columns=2,
-                  text=list(c("Caes modernos da Tailandia", "Chacais dourados", "Cuons", 
+                  text=list(c("Caes modernos da Tailandia", "Chacais dourados", "Cuons",
                               "Lobos indianos", "Caes pre-historicos tailandeses"))))
 }
 \keyword{TS}

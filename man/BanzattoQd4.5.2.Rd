@@ -2,8 +2,8 @@
 % Please edit documentation in R/Banzatto.R
 \name{BanzattoQd4.5.2}
 \alias{BanzattoQd4.5.2}
-\title{Efeito do Promalin sobre Furtos de Macieira}
-\format{Um \code{data.frame} com 20 observações e 3 variáveis.
+\title{Efeito do Promalin sobre a Produçaõ de Frutos de Macieira}
+\format{Um \code{data.frame} com 20 observações e 3 variáveis, em que
 
 \describe{
 
@@ -20,9 +20,7 @@
 
 }}
 \source{
-Banzatto, D. A., Kronka, S. D. (2013). Experimentação
-    Agrícola (4th ed.). Jaboticabal, SP: Funep. (Quadro 4.5.2
-    pág. 84)
+BANZATTO; KRONKA (2013), Quadro 4.5.2, pág. 84.
 
 Mestriner,  J. C. (1980). Estudos dos efeitos do promalin sobre
     frutos de macieiras (\emph{Malus} ssp) cultivares Brasil e

@@ -2,7 +2,8 @@
 % Please edit documentation in R/Pimentel.R
 \name{PimentelTb7.8.1}
 \alias{PimentelTb7.8.1}
-\title{Acidez de Variedades de Mangas em Fun\enc{çã}{ca}o da \enc{É}{E}poca}
+\title{Acidez de Variedades de Mangas em Fun\enc{çã}{ca}o da
+    \enc{É}{E}poca}
 \format{Um \code{data.frame} com 54 observações e 4 variáveis, em que
 
 \describe{

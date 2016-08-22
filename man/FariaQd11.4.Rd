@@ -2,9 +2,9 @@
 % Please edit documentation in R/Faria.R
 \name{FariaQd11.4}
 \alias{FariaQd11.4}
-\title{Produ\enc{çã}{ca}o de Batatas em Fun\enc{çã}{ca}o da Calagem e Aduba\enc{çã}{ca}o}
-\format{Um \code{data.frame} com 16 observações e 4 variáveis, em
-    que
+\title{Produ\enc{çã}{ca}o de Batatas em Fun\enc{çã}{ca}o da Calagem e
+    Aduba\enc{çã}{ca}o}
+\format{Um \code{data.frame} com 16 observações e 4 variáveis, em que
 
 \describe{
 
@@ -21,8 +21,7 @@
 
 }}
 \source{
-Faria, J. C. (2009). Notas de aulas expandidas (10th ed.)
-    Ilhéus - BA: UESC. (Quadro 11.4, pág. 134)
+FARIA (2009), Quadro 11.4, pág. 134.
 }
 \description{
 Experimento montado em delineamento inteiramente
