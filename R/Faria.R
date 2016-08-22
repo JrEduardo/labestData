@@ -1,5 +1,6 @@
 #' @name FariaEg2.9.5
-#' @title Varia\enc{çã}{ca}o de M\enc{é}{e}todos para a Determina\enc{çã}{ca}o da CTC do Solo
+#' @title Varia\enc{çã}{ca}o de M\enc{é}{e}todos para a
+#'     Determina\enc{çã}{ca}o da CTC do Solo
 #' @description Dois métodos de CTC do solo são usados em uma amostra de
 #'     controle e fornecem os resultados em cmol kg\eqn{^{-1}}.
 #' @format Um \code{data.frame} com 20 observações e 3 variáveis, em que
@@ -12,9 +13,8 @@
 #' \item{\code{ctc}}{CTC da amostra de solo, em cmol kg\eqn{^{-1}}.}
 #'
 #' }
-#' @keywords ASS
-#' @source Faria, J. C. (2009). Notas de aulas expandidas (10th ed.)
-#'     Ilhéus - BA: UESC. (Exemplo 2.9.5, pág 39)
+#' @keywords AAS
+#' @source FARIA (2009), Exemplo 2.9.5, pág 39.
 #' @examples
 #'
 #' library(lattice)
@@ -49,8 +49,7 @@ NULL
 #'
 #' }
 #' @keywords DIC
-#' @source Faria, J. C. (2009). Notas de aulas expandidas (10th ed.)
-#'     Ilhéus, BA: UESC. (Tabela 3.2.4, pág 46)
+#' @source FARIA (2009), Tabela 3.2.4, pág 46.
 #' @examples
 #'
 #' library(lattice)
@@ -68,12 +67,12 @@ NULL
 NULL
 
 #' @name FariaQd11.4
-#' @title Produ\enc{çã}{ca}o de Batatas em Fun\enc{çã}{ca}o da Calagem e Aduba\enc{çã}{ca}o
+#' @title Produ\enc{çã}{ca}o de Batatas em Fun\enc{çã}{ca}o da Calagem e
+#'     Aduba\enc{çã}{ca}o
 #' @description Experimento montado em delineamento inteiramente
 #'     casualizado para estudar o efeito da combibação dos fatores
 #'     irrigação e calagem da produção de batata.
-#' @format Um \code{data.frame} com 16 observações e 4 variáveis, em
-#'     que
+#' @format Um \code{data.frame} com 16 observações e 4 variáveis, em que
 #'
 #' \describe{
 #'
@@ -90,8 +89,7 @@ NULL
 #'
 #' }
 #' @keywords DIC FAT2
-#' @source Faria, J. C. (2009). Notas de aulas expandidas (10th ed.)
-#'     Ilhéus - BA: UESC. (Quadro 11.4, pág. 134)
+#' @source FARIA (2009), Quadro 11.4, pág. 134.
 #' @examples
 #'
 #' library(lattice)
@@ -111,7 +109,8 @@ NULL
 NULL
 
 #' @name FariaQd11.9
-#' @title Qualidade de Mudas em Fun\enc{çã}{ca}o do Recipiente da Esp\enc{é}{e}cie
+#' @title Qualidade de Mudas em Fun\enc{çã}{ca}o do Recipiente da
+#'     Esp\enc{é}{e}cie
 #' @description Experimento montado no delineamento inteiramente
 #'     casualizado cujo resultado é a qualidade de mudas em função do
 #'     recipiente utilizado e para cada espécie cultiavda.
@@ -132,8 +131,7 @@ NULL
 #'
 #' }
 #' @keywords DIC FAT2
-#' @source Faria, J. C. (2009). Notas de aulas expandidas (10th ed.)
-#'     Ilhéus - BA: UESC. (Quadro 11.9, pág 145)
+#' @source FARIA (2009), Quadro 11.9, pág 145.
 #' @examples
 #'
 #' library(lattice)
@@ -182,8 +180,7 @@ NULL
 #' As parcelas da testemunha, que não receberam aplicação de TVC,
 #'     exibiram um valor 0 para a colonização das vassouras-de-bruxa.
 #' @keywords DBC PS
-#' @source Faria, J. C. (2009). Notas de aulas expandidas (10th ed.)
-#'     Ilhéus - BA: UESC. ( Quadro 12.5, pág. 159)
+#' @source FARIA (2009), Quadro 12.5, pág. 159.
 #' @examples
 #'
 #' library(lattice)
@@ -221,8 +218,7 @@ NULL
 #'
 #' }
 #' @keywords DIC RL
-#' @source Faria, J. C. (2009). Notas de aulas expandidas (10th ed.)
-#'     Ilhéus - BA: UESC. (Quadro 14.2 pág. 198)
+#' @source FARIA (2009), Quadro 14.2 pág. 198.
 #' @examples
 #'
 #' library(lattice)
@@ -238,8 +234,8 @@ NULL
 NULL
 
 #' @name FariaQd14.3
-#' @title Aduba\enc{çã}{ca}o com F\enc{ó}{o}sforo na Produ\enc{çã}{ca}o de Mat\enc{é}{e}ria Seca de Parte
-#'     A\enc{é}{e}rea de Milho
+#' @title Aduba\enc{çã}{ca}o com F\enc{ó}{o}sforo na Produ\enc{çã}{ca}o
+#'     de Mat\enc{é}{e}ria Seca de Parte A\enc{é}{e}rea de Milho
 #' @description Os dados abaixo são provenientes de um ensaio
 #'     experimental realizado em casa de vegetação, montado no
 #'     delineamento em blocos casualizados, com 5 repetições, para
@@ -260,8 +256,7 @@ NULL
 #'
 #' }
 #' @keywords DBC
-#' @source Faria, J. C. (2009). Notas de aulas expandidas (10th ed.)
-#'     Ilhéus - BA: UESC. (Quadro 14.3 pág. 200)
+#' @source FARIA (2009), Quadro 14.3 pág. 200.
 #' @examples
 #'
 #' library(lattice)
@@ -295,8 +290,7 @@ NULL
 #'
 #' }
 #' @keywords DIC
-#' @source Faria, J. C. (2009). Notas de aulas expandidas (10th ed.)
-#'     Ilhéus, BA: UESC. (Tabela 6.1 pág 76)
+#' @source FARIA (2009), Tabela 6.1 pág 76.
 #' @examples
 #'
 #' library(lattice)
@@ -307,4 +301,3 @@ NULL
 #' xyplot(prod ~ varied, data = FariaQd6.1)
 #'
 NULL
-

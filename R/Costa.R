@@ -1,5 +1,6 @@
 #' @name CostaEx5.7.2
-#' @title Densidade do Solo ao Longo do Perfil em Zonas de Compacta\enc{çã}{ca}o
+#' @title Densidade do Solo ao Longo do Perfil em Zonas de
+#'     Compacta\enc{çã}{ca}o
 #' @description Os dados são resultados de um estudo feito em zonas de
 #'     compactação e referem-se a valores de densidade do solo em
 #'     amostras retiradas de diferentes profundidades no perfil do solo.
@@ -14,10 +15,8 @@
 #'     amostra retirada do perfil do solo.}
 #'
 #' }
-#' @keywords TODO
-#' @source Costa, J. R. (2003). Técnicas experimentais aplicadas às
-#'     ciências agrárias (Documentos 163). Seropédica, RJ: Embrapa
-#'     Agrobiologia. (Exemplo 5.7.2.1, pág. 90)
+#' @keywords RL
+#' @source Costa (2013), Exemplo 5.7.2.1, pág. 90.
 #' @examples
 #'
 #' library(lattice)
@@ -51,9 +50,7 @@ NULL
 #'
 #' }
 #' @keywords DIC RegSeg
-#' @source Costa, J. R. (2003). Técnicas experimentais aplicadas às
-#'     ciências agrárias (Documentos 163). Seropédica, RJ: Embrapa
-#'     Agrobiologia. (Exemplo 5.7.3.1, pág. 95)
+#' @source Costa (2013), Exemplo 5.7.3.1, pág. 95.
 #' @examples
 #'
 #' library(lattice)
@@ -90,9 +87,7 @@ NULL
 #'
 #' }
 #' @keywords DIC
-#' @source Costa, J. R. (2003). Técnicas experimentais aplicadas às
-#'     ciências agrárias (Documentos 163). Seropédica, RJ: Embrapa
-#'     Agrobiologia. (Tabela 4, pág. 58)
+#' @source Costa (2013), Tabela 4, pág. 58.
 #' @examples
 #'
 #' library(lattice)
@@ -130,9 +125,7 @@ NULL
 #'
 #' }
 #' @keywords DBC
-#' @source Costa, J. R. (2003). Técnicas experimentais aplicadas às
-#'     ciências agrárias (Documentos 163). Seropédica, RJ: Embrapa
-#'     Agrobiologia. (Tabela 6 pág. 63)
+#' @source Costa (2013), Tabela 6 pág. 63.
 #' @examples
 #'
 #' library(lattice)
@@ -176,9 +169,7 @@ NULL
 #'
 #' }
 #' @keywords DBC FAT2
-#' @source Costa, J. R. (2003). Técnicas experimentais aplicadas às
-#'     ciências agrárias (Documentos 163). Seropédica, RJ: Embrapa
-#'     Agrobiologia. (Tabela 7, pág. 68)
+#' @source Costa (2013), Tabela 7, pág. 68.
 #' @examples
 #'
 #' library(lattice)
@@ -205,7 +196,8 @@ NULL
 NULL
 
 #' @name CostaTb8
-#' @title Irriga\enc{çã}{ca}o no Tamanho de Frutos de Variedades de Banana
+#' @title Irriga\enc{çã}{ca}o no Tamanho de Frutos de Variedades de
+#'     Banana
 #' @description Experimento em parcelas subdivididas que estudou o
 #'     comprimento de frutos de variedades de banana em função do nível
 #'     de irrigação fornecido.
@@ -231,9 +223,7 @@ NULL
 #'
 #' }
 #' @keywords DBC PS
-#' @source Costa, J. R. (2003). Técnicas experimentais aplicadas às
-#'     ciências agrárias (Documentos 163). Seropédica, RJ: Embrapa
-#'     Agrobiologia. (Tabela 8, pág. 76)
+#' @source Costa (2013), Tabela 8, pág. 76.
 #' @examples
 #'
 #' library(lattice)
@@ -258,4 +248,3 @@ NULL
 #'        ylab = expression("Comprimento do fruto"~(cm)))
 #'
 NULL
-

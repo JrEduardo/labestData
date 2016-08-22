@@ -256,7 +256,7 @@ NULL
 #'
 #' aggregate(peroxido ~ amostra, data = FerreiraEg7.1, summary)
 #' aggregate(proteina ~ amostra, data = FerreiraEg7.1, summary)
-#' 
+#'
 #' par(mar = c(4, 5, 4, 5))
 #' boxplot(proteina ~ amostra, data = FerreiraEg7.1,
 #'         xlim = c(0.5, 2.5), border = 4,
@@ -264,7 +264,7 @@ NULL
 #'         axes = FALSE)
 #' box()
 #' axis(side = 2, col.axis = 4)
-#' mtext(side = 2, text = "Proteínas em g/dl", line = 3, col = 4) 
+#' mtext(side = 2, text = "Proteínas em g/dl", line = 3, col = 4)
 #' par(new = TRUE, mar = c(4, 5, 4, 5))
 #' boxplot(peroxido ~ amostra, data = FerreiraEg7.1,
 #'         xlim = c(0.5, 2.5), border = 2,
@@ -274,7 +274,7 @@ NULL
 #' axis(side = 1, at = 1:2, labels = c("antes", "depois"))
 #' mtext(side = 4, text = "Peróxidos em nmol/g de proteína",
 #'       line = 3, col = 2)
-#' 
+#'
 NULL
 
 #' @name FerreiraEg7.4
@@ -282,7 +282,7 @@ NULL
 #' @description Com o interesse de testar a hipótese de igualdade entre
 #'     duas variedades de milho, foram mensuradas as variáveis aleatórias
 #'     produtividade e altura das plantas em cada uma das variedades.
-#'     
+#'
 #' @format Um \code{data.frame} com 11 observações e 3 variáveis.
 #'
 #' \describe{
@@ -306,7 +306,7 @@ NULL
 #' aggregate(prod ~ varie, data = FerreiraEg7.4, summary)
 #' aggregate(altura ~ varie, data = FerreiraEg7.4, summary)
 #' by(FerreiraEg7.4[2:3], FerreiraEg7.4[1], cov)
-#' 
+#'
 #' with(FerreiraEg7.4, {
 #'      par(mar = c(4, 5, 4, 5))
 #'      plot.default(y = prod, xlab = "", ylab = "",
@@ -317,7 +317,7 @@ NULL
 #'      box()
 #'      axis(side = 2, col.axis = 4)
 #'      mtext(side = 2, text = "Produtividade em t/ha",
-#'            line = 3, col = 4) 
+#'            line = 3, col = 4)
 #'      par(new = TRUE, mar = c(4, 5, 4, 5))
 #'      plot.default(y = altura, xlab = "", ylab = "",
 #'                   x = jitter(as.numeric(varie), factor = 0.5) + 0.1,
@@ -533,7 +533,7 @@ NULL
 #'     e depois de terem sido submetidos a uma dieta balanceada. O
 #'     interesse do estudo é avaliar se houve efeito significativo da
 #'     dieta nas variáveis peso e teor de proteína.
-#'     
+#'
 #' @format Um \code{data.frame} com 12 observações e 3 variáveis.
 #'
 #' \describe{
@@ -555,9 +555,9 @@ NULL
 #'
 #' aggregate(peso ~ fase, data = FerreiraEx7.4.1, summary)
 #' aggregate(teor ~ fase, data = FerreiraEx7.4.1, summary)
-#' 
+#'
 #' by(FerreiraEx7.4.1[2:3], FerreiraEx7.4.1[1], cov)
-#' 
+#'
 #' with(FerreiraEx7.4.1, {
 #'      par(mar = c(4, 5, 4, 5))
 #'      plot.default(y = peso, xlab = "", ylab = "",
@@ -567,7 +567,7 @@ NULL
 #'                   axes = FALSE)
 #'      box()
 #'      axis(side = 2, col.axis = 4)
-#'      mtext(side = 2, text = "Peso", line = 3, col = 4) 
+#'      mtext(side = 2, text = "Peso", line = 3, col = 4)
 #'      par(new = TRUE, mar = c(4, 5, 4, 5))
 #'      plot.default(y = teor, xlab = "", ylab = "",
 #'                   x = jitter(as.numeric(fase), factor = 0.5) + 0.15,
@@ -661,7 +661,7 @@ NULL
 #' O tipo de carne é indicado conforme nomenclatura das linhas do
 #'     \code{data.frame}. Os tipos de carne marisco, siri e camarão são
 #'     todos enlatados.
-#' @keywords agrupamento
+#' @keywords AnaAgrup
 #' @source Ferreira, D. F. (2011). Estatística Multivariada (2nd
 #'     ed.). Lavras, MG: Editora UFLA. (Exercício 9.7.2, pág. 409)
 #' @references Bussab, W. O., Miazaki, É. S., Andrade,
@@ -685,4 +685,3 @@ NULL
 #'        legend = c("2 grupos (k=2)", "3 grupos (k=3)"))
 #'
 NULL
-

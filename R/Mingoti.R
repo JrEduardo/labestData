@@ -131,7 +131,7 @@ NULL
 #' 
 #' }
 #'
-#' @keywords AnaComp
+#' @keywords AnaComPrin
 #' @source Mingoti, S.A. (2005). Análise de dados através de métodos de 
 #'      estatística multivariada - uma abordagem aplicada. 
 #'      Belo Horizonte, MG: Editora UFMG. (pg 287).
@@ -174,7 +174,7 @@ NULL
 #' 
 #' }
 #'
-#' @keywords AnaComp
+#' @keywords AnaComPrin
 #' @source Mingoti, S.A. (2005). Análise de dados através de métodos de 
 #'      estatística multivariada - uma abordagem aplicada. 
 #'      Belo Horizonte, MG: Editora UFMG. (pg 290).
@@ -267,7 +267,7 @@ NULL
 #' 
 #' }
 #'
-#' @keywords AnaComp
+#' @keywords AnaComPrin
 #' @source Mingoti, S.A. (2005). Análise de dados através de métodos de 
 #'      estatística multivariada - uma abordagem aplicada. 
 #'      Belo Horizonte, MG: Editora UFMG. (pg 292).
@@ -401,7 +401,7 @@ NULL
 #' 
 #' }
 #'
-#' @keywords AnaComp
+#' @keywords AnaComPrin
 #' @source Mingoti, S.A. (2005). Análise de dados através de métodos de 
 #'      estatística multivariada - uma abordagem aplicada. 
 #'      Belo Horizonte, MG: Editora UFMG. (pg 75).
@@ -480,7 +480,7 @@ NULL
 #' 
 #' }
 #'
-#' @keywords AnaComp
+#' @keywords AnaComPrin
 #' @source Mingoti, S.A. (2005). Análise de dados através de métodos de 
 #'      estatística multivariada - uma abordagem aplicada. 
 #'      Belo Horizonte, MG: Editora UFMG. (pg 73).
@@ -513,7 +513,7 @@ NULL
 #' \item{\code{idade}}{Idade do indivíduo.}
 #'
 #' }
-#' @keywords AnaClust
+#' @keywords AnaAgrup
 #' @source Mingoti, S.A. (2005). Análise de dados através de métodos de 
 #'     estatística multivariada - uma abordagem aplicada. 
 #'     Belo Horizonte, MG: Editora UFMG. (pg 159).
@@ -558,7 +558,7 @@ NULL
 #'     desestabilização (tensões étnicas, conflito armado, etc).}
 #'
 #' }
-#' @keywords AnaClust
+#' @keywords AnaAgrup
 #' @source Mingoti, S.A. (2005). Análise de dados através de métodos de 
 #'     estatística multivariada - uma abordagem aplicada. 
 #'     Belo Horizonte, MG: Editora UFMG. (pg 184).

@@ -25,9 +25,7 @@
 #'
 #' }
 #' @keywords DQL
-#' @source Storck, L., Garcia, B. C., Lopes, S. J., Estefanel,
-#'     V. (2011). Experimentação Vegetal (3th ed.). Santa Maria, RS:
-#'     UFSM. (Tabela 2.3.5, pág 63)
+#' @source STORCK et al. (2011), Tabela 2.3.5, pág. 63.
 #' @examples
 #'
 #' library(lattice)
@@ -41,7 +39,8 @@
 NULL
 
 #' @name StorckTb101
-#' @title Grupo de Experimentos de Competi\enc{çã}{ca}o de Cultivares de Milho
+#' @title Grupo de Experimentos de Competi\enc{çã}{ca}o de Cultivares de
+#'     Milho
 #' @description Grupo de experimentos, avaliando 6 cultivres de milho,
 #'     conduzidos em 4 locais (4 ambientes) da região central d Rio
 #'     Grande do Sul, no delineamento de blocos ao acaso com 4
@@ -63,9 +62,7 @@ NULL
 #'
 #' }
 #' @keywords GE DBC
-#' @source Storck, L., Garcia, B. C., Lopes, S. J., Estefanel,
-#'     V. (2011). Experimentação Vegetal (3th ed.). Santa Maria, RS:
-#'     UFSM. (Tabela 101, pág. 182)
+#' @source STORCK et al. (2011), Tabela 101, pág. 182.
 #' @examples
 #'
 #' library(lattice)
@@ -98,9 +95,7 @@ NULL
 #'
 #' }
 #' @keywords DIC
-#' @source Storck, L., Garcia, B. C., Lopes, S. J., Estefanel,
-#'     V. (2011). Experimentação Vegetal (3th ed.). Santa Maria, RS:
-#'     UFMS. (Tabela 2, pág. 21)
+#' @source STORCK et al. (2011), Tabela 2, pág. 21.
 #' @examples
 #'
 #' library(lattice)
@@ -134,9 +129,7 @@ NULL
 #'
 #' }
 #' @keywords DBC FAT2
-#' @source Storck, L., Garcia, B. C., Lopes, S. J., Estefanel,
-#'     V. (2011). Experimentação Vegetal (3th ed.). Santa Maria, RS:
-#'     UFSM.  (Tabela 56, pg 134)
+#' @source STORCK et al. (2011), Tabela 56, pg 134.
 #' @examples
 #'
 #' library(lattice)
@@ -174,9 +167,7 @@ NULL
 #'
 #' }
 #' @keywords DBC FAT2
-#' @source Storck, L., Garcia, B. C., Lopes, S. J., Estefanel,
-#'     V. (2011). Experimentação Vegetal (3th ed.). Santa Maria, RS:
-#'     UFSM. (Tabela 60, pág. 138)
+#' @source STORCK et al. (2011), Tabela 60, pág. 138.
 #' @examples
 #'
 #' library(lattice)
@@ -194,7 +185,8 @@ NULL
 NULL
 
 #' @name StorckTb67
-#' @title Efeito da Dose de NPK na Produ\enc{çã}{ca}o de Cultivares de Milho
+#' @title Efeito da Dose de NPK na Produ\enc{çã}{ca}o de Cultivares de
+#'     Milho
 #' @description Resultados ficitícios (kg/parcela) de um experimento
 #'     bifatorial 3 \eqn{\times} 5 no delineamento de blocos ao acaso
 #'     com 4 repetições.
@@ -215,9 +207,7 @@ NULL
 #'
 #' }
 #' @keywords DBC FAT2
-#' @source Storck, L., Garcia, B. C., Lopes, S. J., Estefanel,
-#'     V. (2011). Experimentação Vegetal (3th ed.). Santa Maria, RS:
-#'     UFSM. (Tabela 67, pág. 144)
+#' @source STORCK et al. (2011), Tabela 67, pág. 144.
 #' @examples
 #'
 #' library(lattice)
@@ -236,7 +226,8 @@ NULL
 
 #' @name StorckTb74
 #' @aliases StorckTb88
-#' @title \enc{É}{E}poca e Densidade de Semeadura na Produ\enc{çã}{ca}o de Milho
+#' @title \enc{É}{E}poca e Densidade de Semeadura na Produ\enc{çã}{ca}o
+#'     de Milho
 #' @description Resultados ficitícios de um experimento fatorial 3
 #'     \eqn{\times} 5 no delineamento de blocos ao acaso, com arranjo
 #'     dos fatores em parcela subdividida, que estudou o efeito da época
@@ -270,9 +261,8 @@ NULL
 #'     portanto uma verdadeira restrição de casualização (como acontece
 #'     com camadas do solo ou tempo) mas sim uma dificuldade logística.
 #' @keywords DIC FAT2 PS
-#' @source Storck, L., Garcia, B. C., Lopes, S. J., Estefanel,
-#'     V. (2011). Experimentação Vegetal (3th ed.). Santa Maria, RS:
-#'     UFSM. (Tabela 74, pág. 150 e Tabela 88, pág. 168)
+#' @source STORCK et al. (2011), Tabela 74, pág. 150 e Tabela 88,
+#'     pág. 168.
 #' @examples
 #'
 #' library(lattice)
@@ -310,9 +300,7 @@ NULL
 #'
 #' }
 #' @keywords DIC
-#' @source Storck, L., Garcia, B. C., Lopes, S. J., Estefanel,
-#'     V. (2011). Experimentação Vegetal (3th ed.). Santa Maria, RS:
-#'     UFSM. (Tabela 8, pág. 33)
+#' @source STORCK et al. (2011), Tabela 8, pág. 33.
 #' @examples
 #'
 #' library(lattice)
@@ -324,4 +312,3 @@ NULL
 #'        xlab = "Tratamentos", ylab = "Resposta")
 #'
 NULL
-
