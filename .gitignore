@@ -8,13 +8,9 @@
 *.aux
 *.log
 *.out
+*.RData
 README.html
 CONTRIBUTING.html
-STYLEGUIDE.html
 roteiro.R
 inst/doc
-plano.Rmd
 vignettes/*.html
-!vignettes/_Mathjax.html
-!vignettes/_before_body.html
-!vignettes/_after_body.html
