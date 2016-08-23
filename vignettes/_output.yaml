@@ -1,0 +1,12 @@
+html_document:
+  fig_width: 6
+  fig_height: 6
+  toc: true
+  toc_dep: 3
+  css: config/_style.css
+  fig_caption: yes
+  highlight: default
+  includes:
+    in_header: config/_MathJax.html
+    before_body: config/_before_body.html
+    after_body: config/_after_body.html
