@@ -13,22 +13,25 @@
 #' \item{\code{variedade}}{Fator de 8 níveis qualitativos que são as
 #'     variedades de batatinha.}
 #'
-#' \item{producao}{Produção de batatinha, em ton ha\eqn{^{-1}}, nas
-#'     unidades experimentais.}
+#' \item{producao}{Produção de batatinha, em ton ha\eqn{^{-1}}.}
 #'
 #' }
 #' @keywords DBC
-#' @source Pimentel-Gomes, F. (2009). Curso de Estatístitica
-#'     Experimental (15th ed.). Piracicaba, SP: FEALQ. (Exemplo 5.2)
+#' @source PIMENTEL-GOMES (2009), Exemplo 5.2, pág. ??.
 #' @examples
 #'
 #' library(lattice)
 #'
 #' data(PimentelEg5.2)
+#' str(PimentelEg5.2)
 #'
-#' xyplot(producao ~ variedade, groups = bloco, data = PimentelEg5.2,
-#'        type = "b",
-#'        ylab=expression(Produção~(t~ha^{-1})),
-#'        xlab="Variedades de batatinha")
+#' xtabs(~variedade + bloco, data = PimentelEg5.2)
+#'
+#' xyplot(producao ~ variedade,
+#'        groups = bloco,
+#'        data = PimentelEg5.2,
+#'        type = "o",
+#'        ylab = expression(Produção ~ (t ~ ha^{-1})),
+#'        xlab = "Variedades de batatinha")
 #'
 NULL
