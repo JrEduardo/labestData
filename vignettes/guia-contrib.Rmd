@@ -365,6 +365,54 @@ por causa do nome, segue breve explicação.
   próprios dados (11). Depois da documentação, um `NULL` deve estar
   presente (14).
 
+## Fluxo de Trabalho
+
+O fluxograma abaixo resumo em linhas gerais o fluxo de trabalho do
+*labestData*. O fluxo é composto de 3 partes: 1) a da esquerda resume
+ações feitas no gitlab ou entre gitlab e repositório local; 2) a do meio
+são ações usando o R com o pacote *devtools*; e 3) são as ações usando o
+Git.
+
+![](./img/workflow-labestData.png)
+
+A primeira coisa é ler o Guia de Contribuição, que é este documento. Em
+seguida, catalogar toda a obra criando uma
+[*milestone*](https://gitlab.c3sl.ufpr.br/pet-estatistica/labestData/milestones)
+para ela. Dentro da *milestone* devem ser criados *issues*. Cada *issue*
+deve ter o conteúdo para uma semana de desenvolvimento.
+
+O desenvolvimento começa com a criação de um ramo para inclusão das
+contribuições. Cada *issue* no gitlab é numerado e para uma fácil
+indentificação, o padrão é criar ramos autor numerados: `jhenifer33`,
+`alessandra90`, `walmes160`. O ramo de desenvolvimento deve ser tirado
+do ramo *baby*. Antes, no entanto, atualize o ramo *baby*.
+
+Com o Git no ramo de desenvolvimento, o trabalho de inclusão do conjunto
+de dados começa com a criação do arquivo texto `txt` no diretório
+`data-raw/`. O arquivo deve ser um TSV (*tab separeted values*) com
+valores separados por tabulação e a primeira linha como cabeçalho. Você
+tem a opção de fazer *commits* quando convier. Carregue os dados em uma
+sessão R e gere o binário `rda` no diretório `data/`. Em seguida,
+carrege o pacote e experimente os dados que acabou de incluir para
+eliminar qualquer eventual erro. Escreva a documentação do conjunto de
+dados no diretório `R/`. Use a função `roxy_data()` definida em
+<https://gitlab.c3sl.ufpr.br/snippets/46>. Por fim, gere e verifique se
+a transcrição para o formato `Rd` aconteceu sem erros.
+
+Agora que todos os arquivos foram criados (`txt`, `rda`, `R` e `Rd`), é
+necessário fazer uma verificação completa no pacote. Se problemas
+forem indentificados nessa fase, deve procurar fazer a correção antes de
+subir. Se não houveram erros, então faça o empacotamento para gerar o
+`tar.gz` do pacote. Por fim, suba para o repositório remoto no gitlab.
+
+Na interface do gitlab, faça um *merge request* (requisição de fusão)
+para o *merger* designado à você. Se o MR for aceito, ponto positivo,
+você pode fechar o *issue* pois o completou e remover o ramo que já não
+é mais necessário. Caso contrário, providencie as correções indicadas
+pelo *merger* e, quando prontas, notifique-o novamente no mesmo MR.
+
+O Projeto só termina quando todas as obras tiverem sido concluídas.
+
 ## Referências Bibliográficas
 
 <!------------------------------------------- -->
