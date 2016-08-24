@@ -1,5 +1,6 @@
 #' @name ZimmermannTb10.15
-#' @title Aduba\enc{çã}{ca}o Ap\enc{ó}{o}s Pastagem em Cultivares de Arroz
+#' @title Aduba\enc{çã}{ca}o Ap\enc{ó}{o}s Pastagem em Cultivares de
+#'     Arroz
 #' @description Dados de um experimento conduzido em faixas, no
 #'     delineamento de blocos ao acaso, para testar o efeito da
 #'     aplicação de adubos em arroz após pastagem no qual foram
@@ -34,9 +35,7 @@
 #'   3 \tab 18 \tab 90 \tab 81 \tab 135 \tab  6
 #' }
 #' @keywords DBC EF
-#' @source Zimmermann, F. J. (2004). Estatística aplicada à pesquisa
-#'     agrícola (1st ed.). Santo Antônio de Goiás, GO: Embrapa Arroz e
-#'     Feijão. (Tabela 10.15, pág. 210)
+#' @source ZIMMERMANN (2004), Tabela 10.15, pág. 210.
 #' @examples
 #'
 #' library(lattice)
@@ -53,7 +52,8 @@
 NULL
 
 #' @name ZimmermannTb10.20
-#' @title Nitrog\enc{ê}{e}nio, Irriga\enc{çã}{ca}o e Preparo do Solo para Feijoeiro
+#' @title Nitrog\enc{ê}{e}nio, Irriga\enc{çã}{ca}o e Preparo do Solo
+#'     para Feijoeiro
 #' @description Dados de um experimento conduzido em faixas, no
 #'     delineamento de blocos ao acaso, com duas repetições e parcelas
 #'     divididas. Se testaram, nas faixas horizontais, as lâminas de
@@ -82,9 +82,7 @@ NULL
 #'
 #' }
 #' @keywords DBC PSS EF
-#' @source Zimmermann, F. J. (2004). Estatística aplicada à pesquisa
-#'     agrícola (1st ed.). Santo Antônio de Goiás, GO: Embrapa Arroz e
-#'     Feijão. (Tabela 10.20, pág 213)
+#' @source ZIMMERMANN (2004), Tabela 10.20, pág 213.
 #' @examples
 #'
 #' library(lattice)
@@ -132,9 +130,7 @@ NULL
 #'
 #' }
 #' @keywords PS DBC
-#' @source Zimmermann, F. J. (2004). Estatística aplicada à pesquisa
-#'     agrícola (1st ed.). Santo Antônio de Goiás, GO: Embrapa Arroz e
-#'     Feijão. (Tabela 10.6, pág. 201)
+#' @source ZIMMERMANN (2004), Tabela 10.6, pág. 201.
 #' @examples
 #'
 #' library(lattice)
@@ -151,7 +147,8 @@ NULL
 NULL
 
 #' @name ZimmermannTb10.9
-#' @title \enc{É}{E}poca de Plantio e Manejo de Inseticida em Cultivares de Arroz
+#' @title \enc{É}{E}poca de Plantio e Manejo de Inseticida em Cultivares
+#'     de Arroz
 #' @description Dados de um em delineamento de blocos completos ao
 #'     acaso, em parcelas subdivididas. O experimento avaliou o efeito
 #'     de 2 épocas de plantio e aplicação (ou não) do inseticida
@@ -179,9 +176,7 @@ NULL
 #'
 #' }
 #' @keywords PSS DBC
-#' @source Zimmermann, F. J. (2004). Estatística aplicada à pesquisa
-#'     agrícola (1st ed.). Santo Antônio de Goiás, GO: Embrapa Arroz e
-#'     Feijão. (Tabela 10.9, pág. 205)
+#' @source ZIMMERMANN (2004), Tabela 10.9, pág. 205.
 #' @examples
 #'
 #' library(lattice)
@@ -201,7 +196,8 @@ NULL
 NULL
 
 #' @name ZimmermannTb11.1
-#' @title Espa\enc{ç}{c}amento e Densidade de Plantio na Produ\enc{çã}{ca}o de Arroz
+#' @title Espa\enc{ç}{c}amento e Densidade de Plantio na
+#'     Produ\enc{çã}{ca}o de Arroz
 #' @description Dados de um experimento fatorial \eqn{2^3}, com
 #'     confundimento total da interação dupla. O ensaio foi conduzido em
 #'     dois blocos ao acaso de tamanho 4 dentro de quatro repetições, em
@@ -242,9 +238,7 @@ NULL
 #'     para fins didáticos. Não se deve alterar o delineamento de dados
 #'     reais para conduzir as análises.
 #' @keywords DBC FAT confundimento
-#' @source Zimmermann, F. J. (2004). Estatística aplicada à pesquisa
-#'     agrícola (1st ed.). Santo Antônio de Goiás, GO: Embrapa Arroz e
-#'     Feijão. (Tabela 11.1, pág. 221)
+#' @source ZIMMERMANN (2004), Tabela 11.1, pág. 221.
 #' @examples
 #'
 #' library(lattice)
@@ -266,7 +260,8 @@ NULL
 NULL
 
 #' @name ZimmermannTb11.10
-#' @title Espa\enc{ç}{c}amento Entre Linhas e Densidade no Plantio de Feij\enc{ã}{a}o
+#' @title Espa\enc{ç}{c}amento Entre Linhas e Densidade no Plantio de
+#'     Feij\enc{ã}{a}o
 #' @description Dados de um experimento fatorial \eqn{3^2}, com a
 #'     cultura do feijoeiro testando espaçamento entre linhas de plantio
 #'     (0.45, 0.6 e 0.75 m) e densidade de plantio (7, 10 e 13 sementes
@@ -295,9 +290,7 @@ NULL
 #'
 #' }
 #' @keywords DBC FAT confundimento
-#' @source Zimmermann, F. J. (2004). Estatística aplicada à pesquisa
-#'     agrícola (1st ed.). Santo Antônio de Goiás, GO: Embrapa Arroz e
-#'     Feijão. (pg 231)
+#' @source ZIMMERMANN (2004), Tabela 11.10, pág 231.
 #' @examples
 #'
 #' library(lattice)
@@ -323,7 +316,8 @@ NULL
 NULL
 
 #' @name ZimmermannTb11.13
-#' @title Absor\enc{çã}{ca}o e Transloca\enc{çã}{ca}o de Zinco em Arroz de Terras Altas
+#' @title Absor\enc{çã}{ca}o e Transloca\enc{çã}{ca}o de Zinco em Arroz
+#'     de Terras Altas
 #' @description Dados de um experimento fatorial \eqn{3^3}, com
 #'     confundimento parcial de 2 graus de liberdade da interação dupla.
 #'     O estudo é sobre a absorção e translocação de zinco em arroz de
@@ -354,9 +348,7 @@ NULL
 #'
 #' }
 #' @keywords DBC FAT confundimento
-#' @source Zimmermann, F. J. (2004). Estatística aplicada à pesquisa
-#'     agrícola (1st ed.). Santo Antônio de Goiás, GO: Embrapa Arroz e
-#'     Feijão. (Tabela 11.13, pág. 234)
+#' @source ZIMMERMANN (2004), Tabela 11.13, pág. 234.
 #' @examples
 #'
 #' library(lattice)
@@ -385,14 +377,14 @@ NULL
 NULL
 
 #' @name ZimmermannTb11.19
-#' @title Produtividade de arroz irrigado em ensaio fatorial com confundimento
+#' @title Produtividade de arroz irrigado em ensaio fatorial com
+#'     confundimento
 #' @description Dados de um experimento fatorial \eqn{2^5}, com
-#'     confundimento da interação de quinta ordem.
-#'     Estudou-se o efeito dos cinco principais problemas da cultura: controle de
-#'     invasoras, adubação, irrigação, controle de doenças e
-#'     cultivar. A interação de quarta ordem (5 fatores) foi
-#'     confundida com blocos.  Os dados da produtividade do arroz estão
-#'     em kg/ha.
+#'     confundimento da interação de quinta ordem.  Estudou-se o efeito
+#'     dos cinco principais problemas da cultura: controle de invasoras,
+#'     adubação, irrigação, controle de doenças e cultivar. A interação
+#'     de quarta ordem (5 fatores) foi confundida com blocos.  Os dados
+#'     da produtividade do arroz estão em kg/ha.
 #' @format Um \code{data.frame} com 32 observações e 7 variáveis, em que
 #'
 #' \describe{
@@ -419,9 +411,7 @@ NULL
 #'
 #' }
 #' @keywords DBC FAT confundimento
-#' @source Zimmermann, F. J. (2004). Estatística aplicada à pesquisa
-#'     agrícola (1st ed.). Santo Antônio de Goiás, GO: Embrapa Arroz e
-#'     Feijão. (Tabela 11.19, pág. 237)
+#' @source ZIMMERMANN (2004), Tabela 11.19, pág. 237.
 #' @examples
 #'
 #' library(lattice)
@@ -451,7 +441,8 @@ NULL
 NULL
 
 #' @name ZimmermannTb11.7
-#' @title Espa\enc{ç}{c}amento, Densidade e Nitrog\enc{ê}{e}nio na Produ\enc{çã}{ca}o de Arroz
+#' @title Espa\enc{ç}{c}amento, Densidade e Nitrog\enc{ê}{e}nio na
+#'     Produ\enc{çã}{ca}o de Arroz
 #' @description Dados de um experimento fatorial \eqn{2^3}, com
 #'     confundimento de duas das interações simples. Referem-se à
 #'     produtividade de grãos, em kg ha\eqn{^{-1}}. O ensaio foi
@@ -492,9 +483,7 @@ NULL
 #'     para fins didáticos. Não se deve alterar o delineamento de dados
 #'     reais para conduzir as análises.
 #' @keywords DBC FAT confundimento
-#' @source Zimmermann, F. J. (2004). Estatística aplicada à pesquisa
-#'     agrícola (1st ed.). Santo Antônio de Goiás, GO: Embrapa Arroz e
-#'     Feijão. (Tabela 11.7, pág 226)
+#' @source ZIMMERMANN (2004), Tabela 11.7, pág 226.
 #' @examples
 #'
 #' library(lattice)
@@ -538,9 +527,7 @@ NULL
 #'
 #' }
 #' @keywords DIC
-#' @source Zimmermann, F. J. (2004). Estatística aplicada à pesquisa
-#'     agrícola (1st ed.). Santo Antônio de Goiás, GO: Embrapa Arroz e
-#'     Feijão. (pg 249)
+#' @source ZIMMERMANN (2004), Tabela 12.1, pág. 249.
 #' @examples
 #'
 #' library(lattice)
@@ -583,9 +570,7 @@ NULL
 #'
 #' }
 #' @keywords DBC proporção
-#' @source Zimmermann, F. J. (2004). Estatística aplicada à pesquisa
-#'     agrícola (1st ed.). Santo Antônio de Goiás, GO: Embrapa Arroz e
-#'     Feijão. (Tab 12.13, pág 255)
+#' @source ZIMMERMANN (2004), Tabela 12.13, pág. 255.
 #' @examples
 #'
 #' library(lattice)
@@ -628,9 +613,7 @@ NULL
 #'
 #' }
 #' @keywords DBC proporção
-#' @source Zimmermann, F. J. (2004). Estatística aplicada à pesquisa
-#'     agrícola (1st ed.). Santo Antônio de Goiás, GO: Embrapa Arroz e
-#'     Feijão. (pg 255)
+#' @source ZIMMERMANN (2004), Tabela 12.14, pág. 255.
 #' @examples
 #'
 #' library(lattice)
@@ -650,7 +633,8 @@ NULL
 NULL
 
 #' @name ZimmermannTb12.19
-#' @title Produtividade de feij\enc{ã}{a}o em ensaio de competi\enc{çã}{ca}o de cultivares
+#' @title Produtividade de feij\enc{ã}{a}o em ensaio de
+#'     competi\enc{çã}{ca}o de cultivares
 #' @description Dados do ensaio 1 de um experimento em DBC de competição
 #'     de cultivares de feijão do grupo preto. Este ensaio foi realizado
 #'     no município de Senador Canedo (GO). Houveram três cultivares
@@ -671,9 +655,7 @@ NULL
 #'
 #' }
 #' @keywords DBC
-#' @source Zimmermann, F. J. (2004). Estatística aplicada à pesquisa
-#'     agrícola (1st ed.). Santo Antônio de Goiás, GO: Embrapa Arroz e
-#'     Feijão. (Tabela 12.19, pág 258)
+#' @source ZIMMERMANN (2004), Tabela 12.19, pág. 258.
 #' @examples
 #'
 #' library(lattice)
@@ -715,9 +697,7 @@ NULL
 #'
 #' }
 #' @keywords DIC
-#' @source Zimmermann, F. J. (2004). Estatística aplicada à pesquisa
-#'     agrícola (1st ed.). Santo Antônio de Goiás, GO: Embrapa Arroz e
-#'     Feijão. (Tabela 12.2, pág 249)
+#' @source ZIMMERMANN (2004), Tabela 12.2, pág. 249.
 #' @examples
 #'
 #' library(lattice)
@@ -736,7 +716,8 @@ NULL
 NULL
 
 #' @name ZimmermannTb12.20
-#' @title Produtividade de Gr\enc{ã}{a}os de Cultivares de Feij\enc{ã}{a}o
+#' @title Produtividade de Gr\enc{ã}{a}os de Cultivares de
+#'     Feij\enc{ã}{a}o
 #' @description Dados do ensaio 2 de um experimento em DBC de competição
 #'     de cultivares de feijão do grupo preto. Este ensaio foi realizado
 #'     no município de Santo Antonio de Goiás (GO). Houveram três
@@ -758,9 +739,7 @@ NULL
 #'
 #' }
 #' @keywords DBC
-#' @source Zimmermann, F. J. (2004). Estatística aplicada à pesquisa
-#'     agrícola (1st ed.). Santo Antônio de Goiás, GO: Embrapa Arroz e
-#'     Feijão. (pg 258)
+#' @source ZIMMERMANN (2004), Tabela 12.20, pág. 258.
 #' @examples
 #'
 #' library(lattice)
@@ -798,9 +777,7 @@ NULL
 #'
 #' }
 #' @keywords DQL
-#' @source Zimmermann, F. J. (2004). Estatística aplicada à pesquisa
-#'     agrícola (1st ed.). Santo Antônio de Goiás, GO: Embrapa Arroz e
-#'     Feijão. (pg 261)
+#' @source ZIMMERMANN (2004), Tabela 12.16, pág. 261.
 #' @examples
 #'
 #' library(lattice)
@@ -850,9 +827,7 @@ NULL
 #'
 #' }
 #' @keywords DQL
-#' @source Zimmermann, F. J. (2004). Estatística aplicada à pesquisa
-#'     agrícola (1st ed.). Santo Antônio de Goiás, GO: Embrapa Arroz e
-#'     Feijão. (Tabela 12.27, pág 262)
+#' @source ZIMMERMANN (2004), Tabela 12.27, pág. 262.
 #' @examples
 #'
 #' library(lattice)
@@ -881,29 +856,27 @@ NULL
 
 #' @name ZimmermannTb12.32
 #' @title Competi\enc{çã}{ca}o de Cultivares de Feij\enc{ã}{a}o
-#' @description Dados de um estudo em delineamento de blocos completos com 
-#'     quatro repetições. O experimento foi um ensaio de competição de
-#'     cultivares e linhagens de feijão, em cultivos irrigado e de sequeiro.
-#'     São apresentadas na tabela a média nos ensaios irrigados, nos de sequeiro
-#'     e geral. 
+#' @description Dados de um estudo em delineamento de blocos completos
+#'     com quatro repetições. O experimento foi um ensaio de competição
+#'     de cultivares e linhagens de feijão, em cultivos irrigado e de
+#'     sequeiro.  São apresentadas na tabela a média nos ensaios
+#'     irrigados, nos de sequeiro e geral.
 #' @format Um \code{data.frame} com 13 observações e 4 variáveis
 #'
 #' \describe{
 #'
-#' \item{\code{geno}}{Fator de níveis nominais. Identifica o genótipo repetição 
-#'     da observação.}
+#' \item{\code{geno}}{Fator de níveis nominais. Identifica o genótipo
+#'     repetição da observação.}
 #'
 #' \item{\code{irrigados}}{Médias nos ensaios irrigados.}
-#' 
+#'
 #' \item{\code{sequeiro}}{Médias nos ensaios de sequeiro.}
 #'
 #' \item{\code{geral}}{Média geral.}
 #'
 #' }
 #' @keywords DBC
-#' @source Zimmermann, F. J. (2004). Estatística aplicada à pesquisa
-#'     agrícola (1st ed.). Santo Antônio de Goiás, GO: Embrapa Arroz e
-#'     Feijão. (Tabela 12.32, pág 264)
+#' @source ZIMMERMANN (2004), Tabela 12.32, pág. 264.
 #' @examples
 #'
 #' library(lattice)
@@ -922,29 +895,27 @@ NULL
 
 #' @name ZimmermannTb12.33
 #' @title Competi\enc{çã}{ca}o de Cultivares de Feij\enc{ã}{a}o
-#' @description Dados de um estudo em delineamento de blocos completos com 
-#'     quatro repetições. O experimento foi um ensaio de competição de
-#'     cultivares e linhagens de feijão, em cultivos irrigado e de sequeiro.
-#'     São apresentadas na tabela o total nos ensaios irrigados, nos de sequeiro
-#'     e geral. 
+#' @description Dados de um estudo em delineamento de blocos completos
+#'     com quatro repetições. O experimento foi um ensaio de competição
+#'     de cultivares e linhagens de feijão, em cultivos irrigado e de
+#'     sequeiro.  São apresentadas na tabela o total nos ensaios
+#'     irrigados, nos de sequeiro e geral.
 #' @format Um \code{data.frame} com 13 observações e 4 variáveis
 #'
 #' \describe{
 #'
-#' \item{\code{geno}}{Fator de níveis nominais. Identifica o genótipo repetição 
-#'     da observação.}
+#' \item{\code{geno}}{Fator de níveis nominais. Identifica o genótipo
+#'     repetição da observação.}
 #'
 #' \item{\code{irrigados}}{Totais nos ensaios irrigados.}
-#' 
+#'
 #' \item{\code{sequeiro}}{Totais nos ensaios de sequeiro.}
 #'
 #' \item{\code{geral}}{Total geral.}
 #'
 #' }
 #' @keywords DBC
-#' @source Zimmermann, F. J. (2004). Estatística aplicada à pesquisa
-#'     agrícola (1st ed.). Santo Antônio de Goiás, GO: Embrapa Arroz e
-#'     Feijão. (Tabela 12.33, pág 265)
+#' @source ZIMMERMANN (2004), Tabela 12.33, pág. 265.
 #' @examples
 #'
 #' library(lattice)
@@ -984,9 +955,7 @@ NULL
 #'
 #' }
 #' @keywords DBC
-#' @source Zimmermann, F. J. (2004). Estatística aplicada à pesquisa
-#'     agrícola (1st ed.). Santo Antônio de Goiás, GO: Embrapa Arroz e
-#'     Feijão. (Tabela 12.7, pág 251)
+#' @source ZIMMERMANN (2004), Tabela 12.7, pág. 251.
 #' @examples
 #'
 #' library(lattice)
@@ -1028,9 +997,7 @@ NULL
 #'
 #' }
 #' @keywords DBC
-#' @source Zimmermann, F. J. (2004). Estatística aplicada à pesquisa
-#'     agrícola (1st ed.). Santo Antônio de Goiás, GO: Embrapa Arroz e
-#'     Feijão. (pg 252)
+#' @source ZIMMERMANN (2004), Tabela 12.8, pág. 252.
 #' @examples
 #'
 #' library(lattice)
@@ -1070,9 +1037,7 @@ NULL
 #'
 #' }
 #' @keywords REG
-#' @source Zimmermann, F. J. (2004). Estatística aplicada à pesquisa
-#'     agrícola (1st ed.). Santo Antônio de Goiás, GO: Embrapa Arroz e
-#'     Feijão. (Tabela 13.1, pág 272)
+#' @source ZIMMERMANN (2004), Tabela 13.1, pág. 272.
 #' @examples
 #'
 #' library(lattice)
@@ -1084,7 +1049,8 @@ NULL
 NULL
 
 #' @name ZimmermannTb14.3
-#' @title Estande de Plantas e Produtividade de Cultivares de Feij\enc{ã}{a}o
+#' @title Estande de Plantas e Produtividade de Cultivares de
+#'     Feij\enc{ã}{a}o
 #' @description Dados de um ensaio de competição de cultivares de feijão
 #'     onde foram registrados a produtivididade, bem como o estande por
 #'     área útil, para sete cultivares de arroz. O experimento foi feito
@@ -1110,9 +1076,7 @@ NULL
 #'     mesmo ensaio, porém com mais cultivares e sem a informação de
 #'     estande.
 #' @keywords DBC COV
-#' @source Zimmermann, F. J. (2004). Estatística aplicada à pesquisa
-#'     agrícola (1st ed.). Santo Antônio de Goiás, GO: Embrapa Arroz e
-#'     Feijão. (Tabela 14.3, pág 293)
+#' @source ZIMMERMANN (2004), Tabela 14.3, pág. 293.
 #' @examples
 #'
 #' library(lattice)
@@ -1154,7 +1118,8 @@ NULL
 NULL
 
 #' @name ZimmermannTb14.9
-#' @title Controle de Insetos na Produtividade de Gr\enc{ã}{a}os de Arroz
+#' @title Controle de Insetos na Produtividade de Gr\enc{ã}{a}os de
+#'     Arroz
 #' @description Dados de um ensaio de controle de insetos/pragas na
 #'     cultura do arroz.  O experimento foi feito em delineamento
 #'     quadrado latino 6 \eqn{\times} 6 mas há uma um dado perdido
@@ -1177,9 +1142,7 @@ NULL
 #'     número de perfilhos de arroz, estão disponíveis em
 #'     \code{\link{ZimmermannTb5.15}}.
 #' @keywords DQL desbalanceado
-#' @source Zimmermann, F. J. (2004). Estatística aplicada à pesquisa
-#'     agrícola (1st ed.). Santo Antônio de Goiás, GO: Embrapa Arroz e
-#'     Feijão. (Tabela 14.9, pág. 297)
+#' @source ZIMMERMANN (2004), Tabela 14.9, pág. 297.
 #' @examples
 #'
 #' library(lattice)
@@ -1210,7 +1173,8 @@ NULL
 NULL
 
 #' @name ZimmermannTb15.1
-#' @title Produ\enc{çã}{ca}o de Perfilhos por Planta em Fun\enc{çã}{ca}o de 4 Fatores
+#' @title Produ\enc{çã}{ca}o de Perfilhos por Planta em Fun\enc{çã}{ca}o
+#'     de 4 Fatores
 #' @description Dados de um ensaio fatorial fracionado \eqn{2^{4-1}}, em
 #'     blocos ao acaso. O experimento mediu o número médio de perfilhos
 #'     por planta. Os quatro fatores estudados foram: cultivar,
@@ -1245,9 +1209,7 @@ NULL
 #'     a mesma fração do fatorial (a fração complementar não foi
 #'     utilizada).
 #' @keywords DBC FRAC
-#' @source Zimmermann, F. J. (2004). Estatística aplicada à pesquisa
-#'     agrícola (1st ed.). Santo Antônio de Goiás, GO: Embrapa Arroz e
-#'     Feijão. (pg 306)
+#' @source ZIMMERMANN (2004), Tabela 15.1, pág. 306.
 #' @examples
 #'
 #' library(lattice)
@@ -1290,9 +1252,7 @@ NULL
 #'
 #' }
 #' @keywords FRAC superficie
-#' @source Zimmermann, F. J. (2004). Estatística aplicada à pesquisa
-#'     agrícola (1st ed.). Santo Antônio de Goiás, GO: Embrapa Arroz e
-#'     Feijão. (Tabela 15.10, pág. 314)
+#' @source ZIMMERMANN (2004), Tabela 15.10, pág. 314.
 #' @examples
 #'
 #' library(lattice)
@@ -1345,9 +1305,7 @@ NULL
 #'     blocos (do total de 9) continham a combinação 000 de zinco,
 #'     fósforo e cálcio.
 #' @keywords DBC FRAC
-#' @source Zimmermann, F. J. (2004). Estatística aplicada à pesquisa
-#'     agrícola (1st ed.). Santo Antônio de Goiás, GO: Embrapa Arroz e
-#'     Feijão. (Tabela 15.4, pág. 309)
+#' @source ZIMMERMANN (2004), Tabela 15.4, pág. 309.
 #' @examples
 #'
 #' library(lattice)
@@ -1396,9 +1354,7 @@ NULL
 #'
 #' }
 #' @keywords correlacao
-#' @source Zimmermann, F. J. (2004). Estatística aplicada à pesquisa
-#'     agrícola (1st ed.). Santo Antônio de Goiás, GO: Embrapa Arroz e
-#'     Feijão. (Tabela 16.1, pág. 327)
+#' @source ZIMMERMANN (2004), Tabela 16.1, pág. 327.
 #' @examples
 #'
 #' data(ZimmermannTb16.1)
@@ -1439,9 +1395,7 @@ NULL
 #'
 #' }
 #' @keywords DQL contagem
-#' @source Zimmermann, F. J. (2004). Estatística aplicada à pesquisa
-#'     agrícola (1st ed.). Santo Antônio de Goiás, GO: Embrapa Arroz e
-#'     Feijão. (Tabela 16.10, pág. 357)
+#' @source ZIMMERMANN (2004), Tabela 16.10, pág. 357.
 #' @examples
 #'
 #' library(lattice)
@@ -1472,7 +1426,8 @@ NULL
 NULL
 
 #' @name ZimmermannTb16.3
-#' @title Teores de Mat\enc{é}{e}ria Org\enc{â}{a}nica de Solos de V\enc{á}{a}rzea
+#' @title Teores de Mat\enc{é}{e}ria Org\enc{â}{a}nica de Solos de
+#'     V\enc{á}{a}rzea
 #' @description Teores de matéria orgânica de solos aluviais e gely
 #'     húmicos.
 #' @format Um \code{data.frame} com 14 observações e 2 variáveis, em que
@@ -1486,9 +1441,7 @@ NULL
 #'
 #' }
 #' @keywords TODO
-#' @source Zimmermann, F. J. (2004). Estatística aplicada à pesquisa
-#'     agrícola (1st ed.). Santo Antônio de Goiás, GO: Embrapa Arroz e
-#'     Feijão. (Tabela 16.3, pág. 337)
+#' @source ZIMMERMANN (2004), Tabela 16.3, pág. 337.
 #' @examples
 #'
 #' # Postos.
@@ -1519,9 +1472,7 @@ NULL
 #'
 #' }
 #' @keywords DIC contagem
-#' @source Zimmermann, F. J. (2004). Estatística aplicada à pesquisa
-#'     agrícola (1st ed.). Santo Antônio de Goiás, GO: Embrapa Arroz e
-#'     Feijão. (Tabela 16.4, pág. 341)
+#' @source ZIMMERMANN (2004), Tabela 16.4, pág. 341.
 #' @examples
 #'
 #' library(lattice)
@@ -1538,7 +1489,8 @@ NULL
 NULL
 
 #' @name ZimmermannTb16.5
-#' @title N\enc{ú}{u}mero de Dias para Flora\enc{çã}{ca}o de Cultivares de Arroz
+#' @title N\enc{ú}{u}mero de Dias para Flora\enc{çã}{ca}o de Cultivares
+#'     de Arroz
 #' @description Experimento realizado em delineamento em blocos
 #'     completos ao acaso, utilizando oito cultivares de arroz
 #'     irrigado. Os dados são referentes ao número de dias até a
@@ -1562,9 +1514,7 @@ NULL
 #'
 #' }
 #' @keywords DIC sobrevivencia
-#' @source Zimmermann, F. J. (2004). Estatística aplicada à pesquisa
-#'     agrícola (1st ed.). Santo Antônio de Goiás, GO: Embrapa Arroz e
-#'     Feijão. (Tabela 16.5, pág 347)
+#' @source ZIMMERMANN (2004), Tabela 16.5, pág. 347.
 #' @examples
 #'
 #' library(lattice)
@@ -1597,8 +1547,8 @@ NULL
 NULL
 
 #' @name ZimmermannTb16.8
-#' @title Dias para Flora\enc{çã}{ca}o de Cultivares de Arroz em um Reticulado
-#'     Quadrado
+#' @title Dias para Flora\enc{çã}{ca}o de Cultivares de Arroz em um
+#'     Reticulado Quadrado
 #' @description Experimento realizado em delineamento reticulado
 #'     quadrado 5 \eqn{\times} 5, com três repetições. Os dados são
 #'     referentes ao número de dias até a floração das cultivares de
@@ -1627,9 +1577,7 @@ NULL
 #' @seealso Os dados de produção de arroz do mesmo ensaio estão
 #'     disponíveis em \code{\link{ZimmermannTb7.1}}.
 #' @keywords LAT sobrevivencia
-#' @source Zimmermann, F. J. (2004). Estatística aplicada à pesquisa
-#'     agrícola (1st ed.). Santo Antônio de Goiás, GO: Embrapa Arroz e
-#'     Feijão. (Tabela 16.8, pág. 353)
+#' @source ZIMMERMANN (2004), Tabela 16.8, pág. 353.
 #' @examples
 #'
 #' library(lattice)
@@ -1662,7 +1610,7 @@ NULL
 NULL
 
 #' @name ZimmermannTb3.12
-#' @title Dados de mat\enc{é}{e}ria seca em plantas
+#' @title Dados de Mat\enc{é}{e}ria Seca em Plantas
 #' @description Experimento em DIC que estudou a produção de matéria
 #'     seca em plantas de arroz, em gramas. No experimento foram
 #'     utilizados cinco vasos para cada um de quatro tratamentos e três
@@ -1684,9 +1632,7 @@ NULL
 #'
 #' }
 #' @keywords DIC
-#' @source Zimmermann, F. J. (2004). Estatística aplicada à pesquisa
-#'     agrícola (1st ed.). Santo Antônio de Goiás, GO: Embrapa Arroz e
-#'     Feijão. (Table 3.12, pág 62)
+#' @source ZIMMERMANN (2004), Tabela 3.12, pág. 62.
 #' @examples
 #'
 #' library(lattice)
@@ -1727,9 +1673,7 @@ NULL
 #'
 #' }
 #' @keywords DIC
-#' @source Zimmermann, F. J. (2004). Estatística aplicada à pesquisa
-#'     agrícola (1st ed.). Santo Antônio de Goiás, GO: Embrapa Arroz e
-#'     Feijão. (pg 54)
+#' @source ZIMMERMANN (2004), Tabela 3.2.1, pág. 54.
 #' @examples
 #'
 #' library(lattice)
@@ -1751,8 +1695,8 @@ NULL
 NULL
 
 #' @name ZimmermannTb3.5
-#' @title Fracionamento da Aduba\enc{çã}{ca}o na Produ\enc{çã}{ca}o de Gr\enc{ã}{a}os de Arroz
-#'     Irrigado
+#' @title Fracionamento da Aduba\enc{çã}{ca}o na Produ\enc{çã}{ca}o de
+#'     Gr\enc{ã}{a}os de Arroz Irrigado
 #' @description Dados de um estudo sobre adubação nitrogenada na cultura
 #'     do arroz irrigado. Foram testadas quatros formas de aplicação do
 #'     adubo fazendo o fracionamento das quantidades em diferentes
@@ -1776,9 +1720,7 @@ NULL
 #'
 #' }
 #' @keywords DIC
-#' @source Zimmermann, F. J. (2004). Estatística aplicada à pesquisa
-#'     agrícola (1st ed.). Santo Antônio de Goiás, GO: Embrapa Arroz e
-#'     Feijão. (Tabela 3.5, pág. 54)
+#' @source ZIMMERMANN (2004), Tabela 3.5, pág. 54.
 #' @examples
 #'
 #' library(lattice)
@@ -1824,9 +1766,7 @@ NULL
 #'
 #' }
 #' @keywords DBC
-#' @source Zimmermann, F. J. (2004). Estatística aplicada à pesquisa
-#'     agrícola (1st ed.). Santo Antônio de Goiás, GO: Embrapa Arroz e
-#'     Feijão. (Tabela 4.11, pág 79)
+#' @source ZIMMERMANN (2004), Tabela 4.11, pág. 79.
 #' @examples
 #'
 #' library(lattice)
@@ -1866,9 +1806,7 @@ NULL
 #'
 #' }
 #' @keywords DBC
-#' @source Zimmermann, F. J. (2004). Estatística aplicada à pesquisa
-#'     agrícola (1st ed.). Santo Antônio de Goiás, GO: Embrapa Arroz e
-#'     Feijão. (Tabela 4.4, pág 72)
+#' @source ZIMMERMANN (2004), Tabela 4.4, pág. 72.
 #' @examples
 #'
 #' library(lattice)
@@ -1890,7 +1828,8 @@ NULL
 NULL
 
 #' @name ZimmermannTb5.11
-#' @title Propor\enc{çã}{ca}o de hastes sobreviventes ao ataque de insetos
+#' @title Propor\enc{çã}{ca}o de Hastes Sobreviventes ao Ataque de
+#'     Insetos
 #' @description Experimento em delineamento quadrado latino onde foram
 #'     tomadas quatro amostras em cada uma das parcelas (tipo de
 #'     inseticida) no que diz respeito ao número total de hastes e
@@ -1921,9 +1860,7 @@ NULL
 #'
 #' }
 #' @keywords DQL
-#' @source Zimmermann, F. J. (2004). Estatística aplicada à pesquisa
-#'     agrícola (1st ed.). Santo Antônio de Goiás, GO: Embrapa Arroz e
-#'     Feijão. (Tabela 5.1, pág 101)
+#' @source ZIMMERMANN (2004), Tabela 5.1, pág. 101.
 #' @examples
 #'
 #' library(lattice)
@@ -1955,7 +1892,8 @@ NULL
 NULL
 
 #' @name ZimmermannTb5.15
-#' @title N\enc{ú}{u}mero de Perfilhos em Arroz em Fun\enc{çã}{ca}o de 6 Tratamentos
+#' @title N\enc{ú}{u}mero de Perfilhos em Arroz em Fun\enc{çã}{ca}o de 6
+#'     Tratamentos
 #' @description Esperimento conduzido pelo pesquisador Evane Ferreira,
 #'     em Santo Antônio de Goiás, em 1998. O estudo avaliou o número de
 #'     perfilhos de arroz em função de 6 tratamentos (não mencionados)
@@ -1977,9 +1915,7 @@ NULL
 #'
 #' }
 #' @keywords DQL contagem
-#' @source Zimmermann, F. J. (2004). Estatística aplicada à pesquisa
-#'     agrícola (1st ed.). Santo Antônio de Goiás, GO: Embrapa Arroz e
-#'     Feijão. (Tabela 5.15, pág. 107)
+#' @source ZIMMERMANN (2004), Tabela 5.15, pág. 107.
 #' @examples
 #'
 #' library(lattice)
@@ -1996,7 +1932,8 @@ NULL
 NULL
 
 #' @name ZimmermannTb5.2
-#' @title Produ\enc{çã}{ca}o de Gr\enc{ã}{a}os de Gen\enc{ó}{o}tipos de Arroz
+#' @title Produ\enc{çã}{ca}o de Gr\enc{ã}{a}os de Gen\enc{ó}{o}tipos de
+#'     Arroz
 #' @description Experimento em delineamento quadrado latino cujo
 #'     objetivo foi medir a resposta em produtividade de um grupo de
 #'     oito genótipos de arroz ao ataque inicial de pragas.
@@ -2017,9 +1954,7 @@ NULL
 #'
 #' }
 #' @keywords DQL
-#' @source Zimmermann, F. J. (2004). Estatística aplicada à pesquisa
-#'     agrícola (1st ed.). Santo Antônio de Goiás, GO: Embrapa Arroz e
-#'     Feijão. (Tabela 5.2, pág 92)
+#' @source ZIMMERMANN (2004), Tabela 5.2, pág. 92.
 #' @examples
 #'
 #' library(lattice)
@@ -2048,7 +1983,8 @@ NULL
 NULL
 
 #' @name ZimmermannTb7.1
-#' @title Ensaio de Competi\enc{çã}{ca}o de Cultivares em Reticulado Quadrado
+#' @title Ensaio de Competi\enc{çã}{ca}o de Cultivares em Reticulado
+#'     Quadrado
 #' @description Experimento feito pelos pesquisadores Orlando Peixoto
 #'     Moraes, Emilio da Maia de Castro e Flavio Breseghello, da Embrapa
 #'     Arroz e Feijão, na fazenda Capivara em Santo Antônio de Goiás. O
@@ -2073,9 +2009,7 @@ NULL
 #'
 #' }
 #' @keywords LAT
-#' @source Zimmermann, F. J. (2004). Estatística aplicada à pesquisa
-#'     agrícola (1st ed.). Santo Antônio de Goiás, GO: Embrapa Arroz e
-#'     Feijão. (Tabela 7.1, pág. 136)
+#' @source ZIMMERMANN (2004), Tabela 7.1, pág. 136.
 #' @examples
 #'
 #' library(lattice)
@@ -2095,7 +2029,8 @@ NULL
 NULL
 
 #' @name ZimmermannTb7.4
-#' @title Produ\enc{çã}{ca}o de Gr\enc{ã}{a}os de Arroz em Ensaio Reticulado Retangular
+#' @title Produ\enc{çã}{ca}o de Gr\enc{ã}{a}os de Arroz em Ensaio
+#'     Reticulado Retangular
 #' @description Dados de um estudo sobre competição de cultivares e
 #'     linhagens de arroz irrigado quanto a produtividade. O experimento
 #'     foi conduzido em ensaio em reticulado retangular 5 \eqn{\times} 6
@@ -2120,9 +2055,7 @@ NULL
 #'
 #' }
 #' @keywords reticulado
-#' @source Zimmermann, F. J. (2004). Estatística aplicada à pesquisa
-#'     agrícola (1st ed.). Santo Antônio de Goiás, GO: Embrapa Arroz e
-#'     Feijão. (Tabela 7.4, pág. 140)
+#' @source ZIMMERMANN (2004), Tabela 7.4, pág. 140.
 #' @examples
 #'
 #' library(lattice)
@@ -2141,8 +2074,8 @@ NULL
 NULL
 
 #' @name ZimmermannTb8.5
-#' @title Produ\enc{çã}{ca}o de Gr\enc{ã}{a}os de Feij\enc{ã}{a}o em Delineamento de Blocos Aumentos
-#'     de Federer
+#' @title Produ\enc{çã}{ca}o de Gr\enc{ã}{a}os de Feij\enc{ã}{a}o em
+#'     Delineamento de Blocos Aumentados de Federer
 #' @description Dados de um estudo em desenho de blocos aumentados de
 #'     Federer, com total de dezoito blocos, cada um com quatro
 #'     testemunhas (1 a 4), e 12 linhagens, num total de 216
@@ -2165,9 +2098,7 @@ NULL
 #'
 #' }
 #' @keywords BAF
-#' @source Zimmermann, F. J. (2004). Estatística aplicada à pesquisa
-#'     agrícola (1st ed.). Santo Antônio de Goiás, GO: Embrapa Arroz e
-#'     Feijão. (Tabela 8.5, pág. 158)
+#' @source ZIMMERMANN (2004), Tabela 8.5, pág. 158.
 #' @examples
 #'
 #' library(lattice)
@@ -2185,7 +2116,8 @@ NULL
 NULL
 
 #' @name ZimmermannTb9.13
-#' @title Mat\enc{é}{e}ria Seca de Feij\enc{ã}{a}o em Fatorial 3x3
+#' @title Mat\enc{é}{e}ria Seca de Feij\enc{ã}{a}o em Fatorial 3
+#'     \eqn{\times} 3
 #' @description Dados de um estudo em ensaio fatorial 3 \eqn{times} 3,
 #'     considerando três níveis de densidade de solo e três doses
 #'     microelementos. Cada vaso continha três plantas de arroz e,
@@ -2211,9 +2143,7 @@ NULL
 #'
 #' }
 #' @keywords FAT
-#' @source Zimmermann, F. J. (2004). Estatística aplicada à pesquisa
-#'     agrícola (1st ed.). Santo Antônio de Goiás, GO: Embrapa Arroz e
-#'     Feijão. (Tabela 9.13, pág 179)
+#' @source ZIMMERMANN (2004), Tabela 9.13, pág. 179.
 #' @examples
 #'
 #' library(lattice)
@@ -2234,7 +2164,8 @@ NULL
 NULL
 
 #' @name ZimmermannTb9.17
-#' @title \enc{É}{E}poca de Aplica\enc{çã}{ca}o de NK na Produ\enc{çã}{ca}o de Gr\enc{ã}{a}os de Arroz
+#' @title \enc{É}{E}poca de Aplica\enc{çã}{ca}o de NK na
+#'     Produ\enc{çã}{ca}o de Gr\enc{ã}{a}os de Arroz
 #' @description Dados de um estudo em ensaio fatorial 3 \eqn{\times} 3,
 #'     referentes à produção de grãos de arroz, em kg ha\eqn{^{-1}}. O
 #'     delineamento é o de blocos completos ao acaso, com três
@@ -2261,9 +2192,7 @@ NULL
 #'
 #' }
 #' @keywords FAT3
-#' @source Zimmermann, F. J. (2004). Estatística aplicada à pesquisa
-#'     agrícola (1st ed.). Santo Antônio de Goiás, GO: Embrapa Arroz e
-#'     Feijão. (Tabela 9.17, pág. 182)
+#' @source ZIMMERMANN (2004), Tabela 9.17, pág. 182.
 #' @examples
 #'
 #' library(lattice)
@@ -2287,8 +2216,8 @@ NULL
 NULL
 
 #' @name ZimmermannTb9.22
-#' @title Fungicidas e Pol\enc{í}{i}mero na Infec\enc{çã}{ca}o de \emph{Fusarium} em
-#'     Sementes
+#' @title Fungicidas e Pol\enc{í}{i}mero na Infec\enc{çã}{ca}o de
+#'     \emph{Fusarium} em Sementes
 #' @description Resultados de um experimento fatorial com tratamentos
 #'     adicionais \eqn{3 \times 3 + 2} que estudou o número de sementes
 #'     infectadas por fusaruim em função aplicação de fungicidas às
@@ -2318,9 +2247,7 @@ NULL
 #'
 #' }
 #' @keywords DIC binomial
-#' @source Zimmermann, F. J. (2004). Estatística aplicada à pesquisa
-#'     agrícola (1st ed.). Santo Antônio de Goiás, GO: Embrapa Arroz e
-#'     Feijão. (Tabela 9.22, pág. 188)
+#' @source ZIMMERMANN (2004), Tabela 9.22, pág. 188.
 #' @examples
 #'
 #' library(lattice)
@@ -2350,7 +2277,8 @@ NULL
 NULL
 
 #' @name ZimmermannTb9.26
-#' @title \enc{É}{E}poca de Aplica\enc{çã}{ca}o de NK na Altura de Plantas
+#' @title \enc{É}{E}poca de Aplica\enc{çã}{ca}o de NK na Altura de
+#'     Plantas
 #' @description Dados de um estudo em fatorial \eqn{3^3}, sobre adubação
 #'     nitrogenada e potássica e suas épocas de aplicação. Os dados são
 #'     referentes a altura de plantas no cultivo da soca de arroz
@@ -2373,9 +2301,7 @@ NULL
 #'
 #' }
 #' @keywords FAT3
-#' @source Zimmermann, F. J. (2004). Estatística aplicada à pesquisa
-#'     agrícola (1st ed.). Santo Antônio de Goiás, GO: Embrapa Arroz e
-#'     Feijão. (Tabela 9.26, pág. 190)
+#' @source ZIMMERMANN (2004), Tabela 9.26, pág. 190.
 #' @examples
 #'
 #' library(lattice)
@@ -2397,4 +2323,3 @@ NULL
 #'                    factor.levels = c("Nitrogênio", "Potássio")))
 #'
 NULL
-
