@@ -1,7 +1,7 @@
 Package: labestData
 Title: Biblioteca de Dados para Aprendizado de Estatística
 Version: 0.1-17.458
-Date: 2016-06-27
+Date: 2016-08-23
 Authors@R: as.person(c(
     "PET Estatística UFPR <pet.estatistica.ufpr@gmail.com> [cre]",
     "Altamiro Antonio Basiewics <alfbasiewics@bol.com.br> [ctb]",
@@ -11,17 +11,23 @@ Authors@R: as.person(c(
     "Daniel Ikenaga <oladani@gmail.com> [ctb]",
     "Eduardo Elias Ribeiro Junior <edujrrib@gmail.com> [ctb]",
     "Gabriel Sartori Klostermann <gabrielsartori2008@gmail.com> [ctb]",
+    "Guilherme Hathy <guilhermehathy@hotmail.com> [ctb]"
     "Jhenifer Caetano Veloso <jhenicaet@gmail.com> [ctb]",
+    "Leonardo Marques <leonardommarques@gmail.com> [ctb]",
+    "Maria Helena Oliveira <mariaholiveira34@gmail.com> [ctb]",
+    "Mariana Marinho Soares <marianasoares1201@gmail.com> [ctb]",
     "Monica Ludmila Hintz De Oliveira <monica.ludmila@gmail.com> [ctb]",
     "Paula Alessandra Zeizer Dimas <alessandra.zeizer@gmail.com> [ctb]",
+    "Vinicius César Pedroso <vinicius.cesar.pedroso@gmail.com> [ctb]",
     "Alcides Conte Neto <neto_conte@hotmail.com> [ctb]",
     "Walmes Marques Zeviani <walmes@ufpr.br> [ctb]",
-    "Cesar Augusto Taconeli <taconeli@ufpr.br> [ctb]"))
+    "Cesar Augusto Taconeli <taconeli@ufpr.br> [ctb]",
+    "Fernando Mayer <fernandomayer@gmail.com> [ctb]"))
 Description: O labestData é um projeto coletivo do PET Estatística UFPR
-    para desenvolver um pacote R com conjuntos de dados para aprendizado
-    de Estatística. O desenvolvimento do pacote visa contribuir com a
+    para desenvolver um pacote para o software R com conjuntos de dados
+    para aprendizado de Estatística. O pacote visa contribuir com a
     comunidade científica ao reunir, organizar, manter e disponibilizar
-    conjuntos de dados disponíveis em livros, páginas de internet e
+    conjuntos de dados presentes em livros, páginas de internet e
     arquivos pessoais para o ensino-aprendizado de Estatística. Nesta
     versão o pacote tem 458 conjuntos de dados.
 License: GPL-3
