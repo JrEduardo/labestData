@@ -9,7 +9,7 @@ shinyUI(
 
         fluidRow(
             column(
-                width = 4, offset = 2,
+                width = 4, ## offset = 2,
                 selectInput(inputId = "DATASET",
                             label = "Dados disponíveis",
                             choices = c("Escolha um dataset" = "", L))
@@ -20,6 +20,15 @@ shinyUI(
                            'os dados:</label><br>', sep = "")),
                 downloadButton(outputId = "DOWNLOADDATA",
                                label = "Download tsv")
+            ),
+            column(
+                width = 2, offset = 2,
+                HTML(paste('<label class="control-label">Execução R:',
+                           '</label><br>', sep = "")),
+                actionButton(inputId = "EXIT",
+                             label = "Stop",
+                             class = "btn btn-danger")
+
             )
         ),
 
@@ -28,6 +37,3 @@ shinyUI(
         )
     )
 )
-
-
-

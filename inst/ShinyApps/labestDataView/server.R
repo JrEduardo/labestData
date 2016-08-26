@@ -69,5 +69,11 @@ shinyServer(
                 )
             }
         })
+
+        observe({
+            if(input$EXIT > 0) {
+                stopApp()
+            }
+        })
     }
 )
