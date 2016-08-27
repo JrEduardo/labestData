@@ -18,7 +18,8 @@ shinyServer(
 
         ## Cria listbox para seleção das obras
         output$OBRAUI <- renderUI({
-            CHOICES <- c("Todas" = "", sort(keywords$obra))
+            CHOICES <- c("Escolha uma obra" = "", "Todas",
+                         sort(keywords$obra))
             selectInput(inputId = "OBRA",
                         label = "Escolha a(s) obra(s)",
                         choices = CHOICES, multiple = TRUE)
@@ -35,16 +36,17 @@ shinyServer(
         DATACHOICE <- reactive({
             OBRA <- input$OBRA
             KEYS <- input$KEYS
-            if (is.null(OBRA) & is.null(KEYS)) {
+            OBRAL <- is.null(OBRA) || OBRA == "Todas"
+            if (OBRAL & is.null(KEYS)) {
                 DATA <- keywords
             }
-            if (is.null(OBRA) & !is.null(KEYS)) {
+            if (OBRAL & !is.null(KEYS)) {
                 DATA <- subset(keywords, keyword %in% KEYS)
             }
-            if (!is.null(OBRA) & is.null(KEYS)) {
+            if (!OBRAL & is.null(KEYS)) {
                 DATA <- subset(keywords, obra %in% OBRA)
             }
-            if (!is.null(OBRA) & !is.null(KEYS)) {
+            if (!OBRAL & !is.null(KEYS)) {
                 DATA <- subset(keywords,
                                obra %in% OBRA & keyword %in% KEYS)
             }
@@ -64,6 +66,13 @@ shinyServer(
                         choices = CHOICES)
         })
 
+        output$DATATABLE <- renderDataTable({
+            da <- DATACHOICE()
+            names(da) <- c("Dataset", "Keyword", "Obra")
+            da[order(da$Dataset), c(3, 2, 1)]
+        }, options = list(lengthMenu = c(5, 10, 25, 50),
+                          pageLength = 5))
+
         output$DOC <- renderPrint({
             if (input$DATASET != "") {
                 tmp <- tempfile()
@@ -72,7 +81,9 @@ shinyServer(
                 headfoot <- grep("body", out)
                 cat(out[(headfoot[1] + 1):(headfoot[2] - 2)],
                     sep = "\n")
-            } else return("Processando")
+            } else {
+                cat("Selecione o conjunto de dados.")
+            }
         })
 
         output$TABLE <- renderPrint({
@@ -92,7 +103,9 @@ shinyServer(
                             })
                 dig <- sapply(a, howmanydigits)
                 print(xtable(a, digits = c(0, dig)), type = "html")
-            } else return("Processando")
+            } else {
+                cat("Selecione o conjunto de dados")
+            }
         })
 
         output$DOWNLOADDATA <- downloadHandler(
@@ -108,10 +121,18 @@ shinyServer(
             })
 
         output$TABLE_DOC <- renderUI({
-            if(input$DATASET == "") {
-                return(includeMarkdown("ABOUT.md"))
+            test <- input$DATASET == "" & is.null(input$OBRA) &
+                is.null(input$KEYS)
+            if (test) {
+                tagList(
+                    hr(),
+                    includeMarkdown("ABOUT.md")## ,
+                    ## dataTableOutput("DATATABLE")
+                )
             } else {
                 tabsetPanel(
+                    tabPanel("Lista de Datasets",
+                             dataTableOutput("DATATABLE")),
                     tabPanel("Documentação", uiOutput("DOC")),
                     tabPanel("Tabela de dados",
                              tableOutput("TABLE"))
