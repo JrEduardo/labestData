@@ -104,7 +104,7 @@ shinyServer(
                 dig <- sapply(a, howmanydigits)
                 print(xtable(a, digits = c(0, dig)), type = "html")
             } else {
-                cat("Selecione o conjunto de dados")
+                cat("Selecione o conjunto de dados.")
             }
         })
 
@@ -120,23 +120,35 @@ shinyServer(
                             quote = FALSE)
             })
 
+        ## Para fixar a aba selecionada
+        aba <- reactiveValues(x = "datasets")
+        observeEvent(input$TAB, {
+            aba$x <- input$TAB
+        })
+
         output$TABLE_DOC <- renderUI({
             test <- input$DATASET == "" & is.null(input$OBRA) &
                 is.null(input$KEYS)
-            if (test) {
-                tagList(
-                    hr(),
-                    includeMarkdown("ABOUT.md")## ,
-                    ## dataTableOutput("DATATABLE")
-                )
+            if (length(test) == 0) {
+                includeMarkdown("ABOUT.md")
             } else {
-                tabsetPanel(
-                    tabPanel("Lista de Datasets",
-                             dataTableOutput("DATATABLE")),
-                    tabPanel("Documentação", uiOutput("DOC")),
-                    tabPanel("Tabela de dados",
-                             tableOutput("TABLE"))
-                )
+                if (test) {
+                    return(includeMarkdown("ABOUT.md"))
+                } else {
+                    tabsetPanel(
+                        id = "TAB",
+                        selected = aba$x,
+                        tabPanel("Lista de Datasets",
+                                 dataTableOutput("DATATABLE"),
+                                 value = "datasets"),
+                        tabPanel("Documentação",
+                                 uiOutput("DOC"),
+                                 value = "doc"),
+                        tabPanel("Tabela de dados",
+                                 tableOutput("TABLE"),
+                                 value = "tabela")
+                    )
+                }
             }
         })
 
