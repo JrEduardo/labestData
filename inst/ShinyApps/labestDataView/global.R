@@ -4,11 +4,11 @@
 library(xtable)
 library(labestData)
 
-L <- ls("package:labestData")
-i <- sapply(L, function(x) {
-    class(eval(parse(text = x)))
-})
-L <- L[i %in% c("data.frame", "numeric", "integer")]
+data(keywords, package = "labestData")
+keywords$obra <- gsub(
+    pattern = "^([A-Z]{1}[a-z]*)[A-Z]{1}[a-z]{1}.*$",
+    replacement = "\\1",
+    x = keywords$name)
 
 howmanydigits <- function(x) {
     x <- na.omit(x)

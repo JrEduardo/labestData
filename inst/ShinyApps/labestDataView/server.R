@@ -8,11 +8,60 @@ shinyServer(
             vers <- as.character(packageVersion("labestData"))
             tagList(
                 h1(paste("labestData: Biblioteca de dados para",
-                         "Ensino de Estatística"), class = "title"),
+                         "aprendizado de Estatística"),
+                   class = "title"),
                 h2(paste("PET-Estatística UFPR - Versão", vers),
                    class = "title"),
                 hr()
             )
+        })
+
+        ## Cria listbox para seleção das obras
+        output$OBRAUI <- renderUI({
+            CHOICES <- c("Todas" = "", sort(keywords$obra))
+            selectInput(inputId = "OBRA",
+                        label = "Escolha a(s) obra(s)",
+                        choices = CHOICES, multiple = TRUE)
+        })
+
+        ## Cria listbox para seleção das keywords
+        output$KEYSUI <- renderUI({
+            CHOICES <- c("Todas" = "", levels(keywords$keyword))
+            selectInput(inputId = "KEYS", label = "Keyword(s)",
+                        choices = CHOICES, multiple = TRUE)
+        })
+
+        ## Separa o conjunto de dados com base nos filtros
+        DATACHOICE <- reactive({
+            OBRA <- input$OBRA
+            KEYS <- input$KEYS
+            if (is.null(OBRA) & is.null(KEYS)) {
+                DATA <- keywords
+            }
+            if (is.null(OBRA) & !is.null(KEYS)) {
+                DATA <- subset(keywords, keyword %in% KEYS)
+            }
+            if (!is.null(OBRA) & is.null(KEYS)) {
+                DATA <- subset(keywords, obra %in% OBRA)
+            }
+            if (!is.null(OBRA) & !is.null(KEYS)) {
+                DATA <- subset(keywords,
+                               obra %in% OBRA & keyword %in% KEYS)
+            }
+            return(DATA)
+        })
+
+        ## Cria listbox para seleção dos datasets
+        output$DATASETUI <- renderUI({
+            na <- sort(DATACHOICE()$name)
+            if (length(na) != 0) {
+                CHOICES <- c("Escolha um dataset" = "", na)
+            } else {
+                CHOICES <- c("Não há datasets" = "")
+            }
+            selectInput(inputId = "DATASET",
+                        label = "Dados disponíveis",
+                        choices = CHOICES)
         })
 
         output$DOC <- renderPrint({
