@@ -23,8 +23,8 @@ shinyUI(
             ),
             column(
                 width = 2,
-                HTML(paste('<label class="control-label">Baixe ',
-                           'os dados:</label><br>', sep = "")),
+                HTML(paste('<label class="control-label">Download:',
+                           '</label><br>', sep = "")),
                 downloadButton(outputId = "DOWNLOADDATA",
                                label = "",
                                class = "btn btn-primary")
