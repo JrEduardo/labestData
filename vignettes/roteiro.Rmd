@@ -1,8 +1,6 @@
 ---
 title: "Roteiro"
 author: "PET Estatística UFPR"
-bibliography: config/bibliography.bib
-csl: config/ABNT_UFPR_2011-Mendeley.csl
 vignette: >
   %\VignetteIndexEntry{Guia de Contribuição e Estilo}
   %\VignetteEngine{knitr::rmarkdown}
@@ -41,27 +39,28 @@ git config --global user.email "seuemail@aqui.com"
 git config --list
 ```
 
-Essas instruções escrevem um arquivo oculto na home do usuário chamado
+Essas instruções escrevem um arquivo oculto na *home* do usuário chamado
 `.gitconfig`. Você pode abrir e editar esse arquivo se quiser, inclusive
-para incluir atalhos (aliases) de comandos, mas tenha cuidado para não
-comprometê-lo com erros.
+para incluir atalhos (*aliases*) de comandos, mas tenha cuidado para não
+comprometê-lo com erros. Veja um exemplo de arquivo
+[`.gitconfig`](https://gitlab.c3sl.ufpr.br/walmes/linux-config/blob/master/dotgitconfig).
 
 ## Comunição do Cliente com o GitLab
 
 Depois de instalar o Git é necessário estabelecer comunição com o
-servidor do serviço GitLab para que conteúdo (arquivos) sejam
-transferidos entre cliente (computador do usuário) e servidor
-(computador que hospeda o GitLab). A autenticação entre as máquinas é
-baseada em chaves. Para gerar um par de chaves, execute as instruções
-abaixo no terminal ou git-bash, substituindo o email pelo seu. O prompt
-vai pedir para que você forneça *passphrase* mas você pode apenas
-pressionar ENTER.
+servidor do serviço GitLab para que conteúdo (arquivos) seja transferido
+entre cliente (computador do usuário) e servidor (computador que hospeda
+o GitLab). A autenticação entre as máquinas é baseada em
+[chaves](https://www.vivaolinux.com.br/artigo/Conexoes-SSH-sem-senha-facil-e-descomplicado).
+Para gerar um par de chaves, execute as instruções abaixo no terminal ou
+git-bash, substituindo o email pelo seu. O *prompt* vai pedir para que
+você forneça uma *passphrase* mas você pode apenas pressionar ENTER.
 
 ```sh
 ssh-keygen -t rsa -C "seuemail@aqui.com"
 ```
 
-No output do terminal será informado o endereço do par de arquivos
+No *output* do terminal será informado o endereço do par de arquivos
 gerados: `id_rsa` e `id_rsa.pub`. Esse par é único. Abra o arquivo
 `id_rsa.pub` do editor de texto e copie o seu conteúdo sem
 modificá-lo. Entre em <https://gitlab.c3sl.ufpr.br/profile/keys>, cole o
@@ -77,9 +76,11 @@ terminal ou git-bash a instrução abaixo.
 ssh -T git@gitlab.c3sl.ufpr.br
 ```
 
-Se for retornado um *Welcome*, então ok. Importante: Sempre que você
-executar o comando que gera chaves, novas chaves serão geradas e você
-terá que substituir as chaves cadastradas anteriormente.
+Se for retornado um *Welcome*, então procedimento realizado com
+sucesso. Importante: Sempre que você executar o comando que gera as
+chaves, novas chaves serão geradas e você terá que substituir as chaves
+cadastradas anteriormente (a menos que você gere em outro diretório ou
+faça backup).
 
 ## Clonar o Repositório do LabestData
 
@@ -109,10 +110,15 @@ cd labestData/
 git status
 
 # Exibe todos os ramos presentes. Com asterisco é o ramo atual.
+# Sem argumentos equivale a -l (local), -r (remotes), -a (all).
 git branch
+git branch -l
+git branch -r
+git branch -a
 
 # Mostra o log (histórico) do projeto. Pressione q para sair.
 git log
+git log --oneline
 
 # Abre a aplicação gitk para navegar no projeto.
 gitk
@@ -123,23 +129,24 @@ gitk
 Toda obra no labestData é uma *milestone*. A tradução literal é pedra de
 milha. A *milestone* na realidade é a definição de uma meta. Uma
 *milestone* é um coletivo de *issues*. *Issue* é um assunto ou
-tópico. No projeto, *issue* é a definição do trabalho de uma
-semana. Portanto, uma *milestone* é uma obra, e os *issues* dessa
+tópico. No projeto *labestData*, *issue* é a definição do trabalho de
+uma semana. Portanto, uma *milestone* é uma obra, e os *issues* dessa
 *milestone* são fragmentos dessa obra que serão trabalhados cada um em
 uma semana.
 
 Para criar uma *milestone*, acesse
 <https://gitlab.c3sl.ufpr.br/pet-estatistica/labestData/milestones> e
 clique em *New Milestone*. Preencha o campo descrição com detalhes da
-obra, como título, autores, ano, editora. Visite *milestones* já criadas
-para ver exemplos.
+obra, como título, autores, ano, editora. Visite as *milestones* já
+criadas para ver exemplos.
 
 ## Criar *Issues*
 
-Dentro da *milestone* recém criada, clique em `New Issue` para criar
+Dentro da *milestone* recém criada, clique em `New Issue` para criar os
 *issues*. Na descrição dos *issues* indique com detalhes o trabalho a
 ser feito naquele *issue*. Por exemplo, indique a tabela/página dos
-conjuntos de dados a serem incluídos com esse *issue*.
+conjuntos de dados a serem incluídos com esse *issue*.  Ao criar o
+*issue* escolha uma *label* condizente com o tema da obra.
 
 Cada *issue* deve ter conteúdo programado para uma semana de
 desenvolvimento. Pela experiência adquirida, isso equivale à 2 tabelas
@@ -150,8 +157,8 @@ na digitação dos mesmos.
 
 O ideal é que toda a obra seja fragmentada em *issues* dentro da
 *milestone* no início do período de desenvolvimento do projeto. Isso é
-fundamental para o planejamento individual e coletivo das pessoas. Ao
-criar o *issue* escolha uma *label* condizente com o tema da obra.
+fundamental para o planejamento individual e coletivo dos
+desenvolvedores do projeto.
 
 Você pode nagegar pelos *issues* do projeto em
 <https://gitlab.c3sl.ufpr.br/pet-estatistica/labestData/issues>. É
@@ -165,10 +172,11 @@ Agora que a obra já possui *milestone* e *issues* com seus respectividos
 números, vamos criar ramos para inclusão das contribuições previstas no
 *issue*.
 
-O *branch* de desenvolvimento autor numerado (e.g. `walmes159`, nome do
-autor com número do *issue*) é extraído do *branch* `baby`. Antes, no
-entanto, é recomendado incorporar possível atualizações no `baby`. Os
-comandos abaixo ilustram isso.
+O *branch* de desenvolvimento é autor numerado, ou seja, composto pelo
+nome do autor e número do *issue* (e.g. `walmes159`). Esse ramo é sempre
+extraído do *branch* `baby`, que tem apenas o conteúdo mínimo
+necessário. Antes, no entanto, é recomendado incorporar possível
+atualizações no `baby`. Os comandos abaixo ilustram isso.
 
 ```sh
 # Muda para o ramo baby.
@@ -184,12 +192,17 @@ git checkout -b seunome123
 git branch
 ```
 
+O ciclo de vida dos ramos de desenvolvimento (ou demanda) é de uma
+semana. Ao final de cada semana eles são incorporados ao ramo `devel` e
+depois são removidos. Só existem três ramos permanentes: `baby`, `devel`
+e `master`.
+
 ## Adicionar Contribuições
 
 Essa parte consiste basicamente em criar 4 arquivos para cada conjunto
 de dados: `data-raw/*.txt`, `data/*.rda`, `R/*.R` e
 `man/*.Rd`. Considerando que o nome do conjunto de dados seja `dados`,
-teríamos então a seguinte estrutura.
+por simplicidade, teríamos então a seguinte estrutura.
 
 ```
 labestData/
@@ -198,40 +211,44 @@ labestData/
 |-- data-raw/
 |   `-- dados.txt               1. Digitar os dados e criar arquivo txt.
 |-- data/
-|   `-- dados.rda               2. Gerar rda com use_data().
+|   `-- dados.rda               2. Gerar rda com use_data(dados).
 |-- R/
-|   `-- dados.R                 3. Gerar esqueleto com roxy_data()
+|   `-- dados.R                 3. Gerar esqueleto com roxy_data(dados)
 `-- man/                           e preencher.
     `-- dados.Rd                4. Gerar documentação com document().
 ```
 
 Algumas funções foram criadas para auxiliar no desenvolvimento do
-labestData. Elas estão disponíveis no *snippet* 46 do GitLab:
-<https://gitlab.c3sl.ufpr.br/snippets/46>. Recomenda-se que você tenha
-um *script* com os código para trabalhar no *labestData* e que carrege
-as funções no *snippet* ao iniciar sua sessão R.
+*labestData*, como a `roxy_data()`. Elas estão disponíveis no *snippet*
+46 do GitLab: <https://gitlab.c3sl.ufpr.br/snippets/46>. Recomenda-se
+que você tenha um *script* com os código para trabalhar no *labestData*
+e que carrege as funções no *snippet* ao iniciar sua sessão R.
 
 ```{r}
+# Abre no navegador o snippet 46.
+browseURL("https://gitlab.c3sl.ufpr.br/snippets/46/")
+
 # Carrega as funções do definidas no snippet 46.
 source("https://gitlab.c3sl.ufpr.br/snippets/46/raw")
 ```
 
 ### Arquivo `txt`
 
-Para gerar o arquivo `*.txt` existem várias maneiras que destacamos
-três: digitar na planilha e exportar pela planilha, digitar na planilha
-e exportar pelo R, digitar no R e exportar pelo R.
+Existem várias maneiras de gerar o arquivo `*.txt` e destacamos três:
+digitar na planilha e exportar pela planilha, digitar na planilha e
+exportar pelo R, digitar no R e exportar pelo R.
 
 Digitar na planilha e exportar pela planilha
-: Digitar os dados na planilha eletrônica, copiar a região com os dados,
-  criar um arquivo `txt` vazio em `data-raw/` e colar o conteúdo copiado
-  da planilha dentro. As colunas serão separadas por tabulação.
+: Consiste em digitar os dados na planilha eletrônica, copiar a região
+  com os dados, criar um arquivo `txt` vazio em `data-raw/` e colar o
+  conteúdo copiado da planilha dentro. As colunas serão separadas por
+  tabulação.
 
 Digitar na planilha e exportar com o R
 : Digitar os dados na planilha eletrônica, copiar a região com os dados,
   carregar pelo R com `read.table("clipboard", header = TRUE, sep =
-  "\t")`. Depois exporte com a função `write2txt(dados)`, disponível no
-  *snippet*.
+  "\t")`. Depois escrever em `data-raw/` com a função `write2txt(dados)`
+  (disponível no *snippet* 46).
 
 Digitar no R e exportar com o R
 : Digitar os dados com o R usando `scan()` ou `edit()` e exportar com a
@@ -246,31 +263,60 @@ O arquivo `rda` pode ser gerado com a função `use_data()` do pacote
 `devtools`.
 
 ```{r}
+# Gera o arquivo dados.rda no diretório data/.
 use_data(dados)
+```
+
+Depois de criar o arquivo `rda`, você deve remover esse objeto do da
+memória e carregar o *labestData* com `load_all()`. Esse é momento de
+experimental o conjunto de dados para ver se ele não tem erros.
+
+```{r}
+# Remove o objeto "dados" da memória.
+rm("dados")
+
+# Carrega os objetos do labestData. Isso vai carregar o dados.
+load_all()
+
+# Objetos do labestData.
+ls("package:labestData")
+
+# Mostra a estrutura do objeto.
+str(dados)
 ```
 
 ### Arquivo `R`
 
 O arquivo R vai conter a documentação do conjunto de dados escrito no
-formato definido pelo `roxygen2`. Esse formato será transcrito para o
-formato oficial de documentação R, cuaj extensão de arquivo é Rd (*R
-documentation*), e se assemelha à textos LaTeX.
+formato definido pelo pacote
+[`roxygen2`](http://kbroman.org/pkg_primer/pages/docs.html).  Esse
+formato será transcrito para o formato oficial de documentação R, cuja
+extensão de arquivo é `Rd` (*R documentation*), e se assemelha aos
+textos LaTeX.
 
 Para gerar o arquivo R com a documentação começada, execute a função
 `roxy_data()` definida no *snippet*.
 
 ```{r}
+# Cria o arquivo dados.R no diretório R/.
 roxy_data(dados)
 ```
+
+A função `roxy_data()` vai criar o arquivo com parte da documentação
+preenchida. Abra o arquivo e complete com as informações restantes.
+
 ### Arquivo `Rd`
 
-O arquivo Rd é gerado automaticamente, a partir do arquivo R, pela
+O arquivo `Rd` é gerado automaticamente, a partir do arquivo R, pela
 função `document()` do *devtools*. A função `check_man()` verifica se
 existe problemas com a documentação gerara, como campos mal formados ou
 inexistentes.
 
 ```{r}
+# Gera a documentação dados.Rd em man/.
 document()
+
+# Verifica se a documentação não contém erros.
 check_man()
 ```
 
@@ -328,30 +374,41 @@ dirtree("../")
 Depois de adicionados os 4 arquivos referentes ao conjunto de dados, é
 necessário fazer uma verificação integral do pacote. Caso erros tenham
 sido introduzidos, nessa fase serão indenficados para serem corrigidos
-antes de serem enviados para o repositório remoto.
+antes de serem enviados para o repositório remoto. Procure sempre subir
+para o repositório remoto contribuições estáveis.
 
 ```{r}
-# Verificação integral. Gera manual mas não vinhetas. Resultados ficam
-# em diretório ao lado do atual.
+# Verificação integral. Gera manual mas não as vinhetas. Resultados
+# ficam em diretório ao lado do atual.
 check(manual = TRUE, vignettes = FALSE, check_dir = "../")
 
-# Cria o arqquivo comprimido (zip, tar.gz) para distribuição do pacote.
+# Cria o arquivo comprimido (zip, tar.gz) para distribuição do pacote.
 build(manual = TRUE, vignettes = TRUE)
+
+install.packages("MRDCr",
+                 repos = "http://leg.ufpr.br/~walmes/pacotes/")
+
+install.packages("http://leg.ufpr.br/~walmes/pacotes/MRDCr_0.0-2.tar.gz")
 ```
 
 ## Orientações de uso do Git
 
 Como fazer commits, periodicidade.
 
-## Fazer Merge Request
+## Fazer *Merge Request*
 
 Para fazer *merge request* visite:
 <https://gitlab.c3sl.ufpr.br/pet-estatistica/labestData/merge_requests>.
 Clique no botão *New Merge Request* para criar um novo MR. Detalhe no
 campo descrição todas as contribuições enviadas com o ramo que você
-submeteu para a avaliação.
+submeteu para a avaliação. Escolha dentre os *mergers* do projeto aquele
+que foi designado para você.
 
-## Referências Bibliográficas
+Quando o seu MR não for aceito, o *merger* vai deixar descrição das
+correções a serem feitas na página do seu MR. Todo MR tem um número
+correspondente, como os *issues*. Quando fizer as correções por ele
+apontadas, comente na página do MR que o ramo está pronto para
+incorporação novamente.
 
 <!------------------------------------------- -->
 
