@@ -19,7 +19,10 @@ Foi feito um experimento, na Universidade Federal de
 
 data(AndradeTb1.1)
 
-hist(AndradeTb1.1, prob = TRUE,
+hist(AndradeTb1.1,
+     prob = TRUE,
+     labels = TRUE,
+     col = "darkturquoise",
      xlab = "Duração do Quinto Estádio Ninfal (em dias)",
      ylab = "Densidade",
      main = NULL,
