@@ -12,7 +12,9 @@ Abre uma aplicação web com shiny em seu navegador padrão.
 \description{
 Essa função abre uma interface \pkg{shiny} em seu
     navegador padrão para visualizar as tabelas de dados, consultar
-    sua respectiva documentação e salvá-las, em txt, se preciso.
+    sua respectiva documentação e salvá-las, em txt, se preciso. A
+    interfaze exibe uma tabela reativa a filtros para as obras e
+    keywords que classificam as obras.
 }
 \section{Warning}{
  Para funcionar, é necessário ter o pacote shiny
@@ -22,8 +24,37 @@ Essa função abre uma interface \pkg{shiny} em seu
     Browser).
 }
 \examples{
+
+# Objetos do pacote labesData.
+ls("package:labestData")
+
+# Dataframe com os pares keywords e datasets.
+str(keywords)
+
+# Cria uma coluna para a obra.
+keywords$obra <-
+    gsub(pattern = "^ *([A-Z]{1}[a-z]*)[A-Z]{1}[a-z]{1}.*$",
+         replacement = "\\\\1",
+         x = keywords$name)
+
+# Mostra um pedaço do dataframe.
+head(keywords)
+
+library(lattice)
+
+# Gráfico de Pareto das keywords.
+barchart(sort(xtabs(~keyword, data = keywords)))
+
+ob <- gsub(pattern = "^ *([A-Z]{1}[a-z]*)[A-Z]{1}[a-z]{1}.*$",
+           replacement = "\\\\1",
+           x = unique(keywords$name))
+
+# Gráfico de pareto das obras.
+barchart(sort(xtabs(~ob)))
+
 \dontrun{
 
+# Abre a interface no navegador.
 labestDataView()
 
 }

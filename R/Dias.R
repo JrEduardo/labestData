@@ -513,7 +513,7 @@ NULL
 #'
 NULL
 
-#' @name  DiasEx10.4.10
+#' @name DiasEx10.4.10
 #' @title Massa fresca de Capim Elefante
 #' @description Dados refentes à produção de 3 clones
 #'     de capim elefante em função da época de corte do capim. O
@@ -694,7 +694,7 @@ NULL
 #'
 NULL
 
-#' @name  DiasEx11.7.8
+#' @name DiasEx11.7.8
 #' @title Competi\enc{çã}{ca}o de Gen\enc{ó}{o}tipos de Alho
 #' @description Resultados de um grupo de experimento de competiação de
 #'     genótipos de alho. Os valores disponíveis são as médias dos
@@ -1048,4 +1048,3 @@ NULL
 #'        ylab = "Número de frutos na primeira colheita")
 #'
 NULL
-

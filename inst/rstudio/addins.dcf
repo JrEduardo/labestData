@@ -1,0 +1,6 @@
+Name: labestData view data
+Description: Aplicativo interativo para visualizar a
+    documentação e estrutura dos datasets além de baixá-la o .csv
+    correspondente.
+Binding: labestDataView
+Interactive: true
