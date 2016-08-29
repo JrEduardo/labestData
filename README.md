@@ -227,6 +227,21 @@ O ramo `devel` é o de desenvolvimento do pacote. Você pode instalar do
 ramo `devel` também, mas esteja ciente que pode não ser uma versão
 estável do pacote.
 
+Você também pode instalar o pacote por meio dos arquivos comprimidos
+disponíveis em <http://leg.ufpr.br/~walmes/pacotes/>. Para instalar por
+esse aquivos, execute o códido abaixo. Substitua *x*, *y*, *z* e *w*
+pelos valores da versão mais recente.
+
+```
+# Se Linux.
+install.packages("http://leg.ufpr.br/~walmes/pacotes/labestData_x.y-z.w.tar.gz",
+                 repos = NULL)
+
+# Se Windows.
+install.packages("http://leg.ufpr.br/~walmes/pacotes/labestData_x.y.z.w.zip",
+                 repos = NULL)
+```
+
 Depois de instalado, basta carregar o pacote e chamar o conjunto de
 dados que deseja usar.
 
