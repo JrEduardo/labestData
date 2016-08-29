@@ -1,7 +1,7 @@
 Package: labestData
 Title: Biblioteca de Dados para Aprendizado de Estatística
-Version: 0.1-17.458
-Date: 2016-08-23
+Version: 0.1-1.462
+Date: 2016-08-29
 Authors@R: as.person(c(
     "PET Estatística UFPR <pet.estatistica.ufpr@gmail.com> [cre]",
     "Altamiro Antonio Basiewics <alfbasiewics@bol.com.br> [ctb]",
@@ -29,7 +29,7 @@ Description: O labestData é um projeto coletivo do PET Estatística UFPR
     comunidade científica ao reunir, organizar, manter e disponibilizar
     conjuntos de dados presentes em livros, páginas de internet e
     arquivos pessoais para o ensino-aprendizado de Estatística. Nesta
-    versão o pacote tem 458 conjuntos de dados.
+    versão o pacote tem 462 conjuntos de dados.
 License: GPL-3
 URL:
     http://gitlab.c3sl.ufpr.br/pet-estatistica/labestData,
