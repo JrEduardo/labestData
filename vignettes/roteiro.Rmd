@@ -1,5 +1,5 @@
 ---
-title: "Roteiro"
+title: "Roteiro de Trabalho"
 author: "PET Estatística UFPR"
 vignette: >
   %\VignetteIndexEntry{Guia de Contribuição e Estilo}
@@ -12,9 +12,18 @@ source("config/_setup.R")
 opts_chunk$set(eval = FALSE)
 ```
 
+Esse documento descreve o roteiro de trabalho no *labestData*, desde a
+instalação do software até os passos para inclusão das contribuições. Os
+primeiros 4 itens precisam ser feitos apenas uma vez por máquina, as
+*milestones* e *issues* são feitos uma vez por obra, enquanto que os
+demais procedimentos tem uma base semanal.
+
 ## Instalação e Configuração do Git
 
-Para instalar o Git no Linux, execute no terminal as instruções abaixo.
+O
+[Git](https://git-scm.com/book/pt-br/v1/Primeiros-passos-No%C3%A7%C3%B5es-B%C3%A1sicas-de-Git)
+é um sistema de controle de versão. Para instalar o Git no Linux,
+execute no terminal as instruções abaixo.
 
 ```sh
 # Instalar no Linux (Ubuntu e Mint).
@@ -82,6 +91,35 @@ chaves, novas chaves serão geradas e você terá que substituir as chaves
 cadastradas anteriormente (a menos que você gere em outro diretório ou
 faça backup).
 
+## Instalar os Pacotes `devtools` e `roxygen2`
+
+O desenvolvimento do pacote *labestData* é baseado no uso do pacote
+`devtools` com a documentação escrita no formato `roxygen2`.
+
+Para instalar esses pacotes, execute em uma sessão R os códigos abaixo.
+
+```{r}
+install.packages(c("devtools", "roxygen2"),
+                 dependencies = TRUE
+                 repos = )
+```
+
+O `devtools` tem dependências do sistema operacional. Se a sua
+instalação no Linux não der certo, leia o output no console que
+normamente é indicado lá o que não foi encontrado. Normalmente basta
+instalar as "libs" abaixo.
+
+```
+sudo apt-get install libcurl4-openssl-dev libssl-dev
+```
+
+Depois de instalar, tente carregar os dois pacotes.
+
+```{r}
+library(devtools)
+library(roxygen2)
+```
+
 ## Clonar o Repositório do LabestData
 
 Para trabalhar no *labestData* você precisa ter uma cópia do
@@ -92,7 +130,7 @@ mouse no espaço em branco do navegador de arquivos (Nautilus ou Windows
 Explorer) e clicar em *Open in Terminal* ou *Open gih-bash here* para
 abri-los no diretório exibido pelo navegador de arquivos.
 
-Para clonar o repositório, execute as instruções abaixo.
+Para clonar o repositório, execute as instrução abaixo.
 
 ```sh
 # Clona o repositório do labestData.
@@ -103,6 +141,9 @@ Agora com a cópia, você pode explorar o projeto e fazer contribuições ao
 mesmo. Os comandos Git abaixo vão fazer um tour pelo labestData.
 
 ```sh
+# Mostra o diretório atual.
+pwd
+
 # Move para o diretório recém clonado do labestData.
 cd labestData/
 
@@ -126,8 +167,8 @@ gitk
 
 ## Criar *Milestone*
 
-Toda obra no labestData é uma *milestone*. A tradução literal é pedra de
-milha. A *milestone* na realidade é a definição de uma meta. Uma
+Toda obra no *labestData* é uma *milestone*. A tradução literal é pedra
+de milha. A *milestone* na realidade é a definição de uma meta. Uma
 *milestone* é um coletivo de *issues*. *Issue* é um assunto ou
 tópico. No projeto *labestData*, *issue* é a definição do trabalho de
 uma semana. Portanto, uma *milestone* é uma obra, e os *issues* dessa
@@ -384,16 +425,46 @@ check(manual = TRUE, vignettes = FALSE, check_dir = "../")
 
 # Cria o arquivo comprimido (zip, tar.gz) para distribuição do pacote.
 build(manual = TRUE, vignettes = TRUE)
-
-install.packages("MRDCr",
-                 repos = "http://leg.ufpr.br/~walmes/pacotes/")
-
-install.packages("http://leg.ufpr.br/~walmes/pacotes/MRDCr_0.0-2.tar.gz")
 ```
 
 ## Orientações de uso do Git
 
-Como fazer commits, periodicidade.
+O recurso que mais o desenvolvedor vai usar do Git e que é permanente no
+projeto é o *commit*. Por isso, é importante fazer o *commit* de forma
+correta para tirarmos ainda mais vatagem desse incrível recurso. Algumas
+[diretrizes para fazer *commits*](https://git-scm.com/book/pt-br/v1/Git-Distribu%C3%ADdo-Contribuindo-Para-Um-Projeto#Diretrizes-de-Commit)
+são dadas na página oficial do mesmo. Destacaremos as mais relevantes
+para o *labestData*.
+
+Faça *commits* de mudanças completas
+: Apenas faça *commits* de arquivos para unidades completas de algo. Por
+  exemplo, não faça *commit* de um texto com frases incompletas, não
+  faça commmit de uma função cujo código não foi terminado de escrever.
+
+Faça *commits* pensando que vai precisar revertê-los
+: Antes de fazer um *commit*, imagine que vai precisar revertê-lo,
+  voltar para o instante antes de fazê-lo. Existe um jeito melhor de
+  agrupar mudanças que seja melhor para o caso de precisar retroceder?
+  Se sim, faça o agrupamento de mudanças para um *commit* com isso em
+  mente.
+
+Use uma mensagem curta e apropriada
+: Prefira mensagens curtas e acertivas. Elas devem em poucas palavras
+  permitir se lembrar ou advinhar o que foi feito. Normalmente mensagens
+  que relatam o porquê das modificações são assim. Se um *commit*
+  precisar de uma mensagem longa demais, então é porque ele agrupa
+  modificações divisíveis.
+
+Use o tempo verbal como se fosse um comando
+: Recomenda-se usar o tempo verbal no presente da segunda pessoa
+  (ele/ela): faz, corrige, remove, muda, fatora, rescreve, transfere,
+  copia, acrescenta, modifica.
+
+Adote o idioma plenamente
+: Adotar o idioma plenamente, com palabras acentuadas e sinais de
+  pontuação facilita bastante quando for necessário fazer buscas nos
+  textos das mensagens pois só existe um jeito certo para a grafia das
+  palavras.
 
 ## Fazer *Merge Request*
 
