@@ -20,7 +20,7 @@
 Estatística para as ciências agrárias e biológicas: com
     noções de experimentação / Dalton F. Andrade, Paulo J. Ogliari.
     2. ed. rev. e ampl. - Florianópolis: Ed. da UFSC, 2010. (Tabela
-    1.1, pág. 37)
+    1.2, pág. 40)
 }
 \description{
 Experimento que tem como objetivo verificar o
