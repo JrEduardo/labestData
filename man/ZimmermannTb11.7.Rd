@@ -2,7 +2,8 @@
 % Please edit documentation in R/Zimmermann.R
 \name{ZimmermannTb11.7}
 \alias{ZimmermannTb11.7}
-\title{Espa\enc{ç}{c}amento, Densidade e Nitrog\enc{ê}{e}nio na Produ\enc{çã}{ca}o de Arroz}
+\title{Espa\enc{ç}{c}amento, Densidade e Nitrog\enc{ê}{e}nio na
+    Produ\enc{çã}{ca}o de Arroz}
 \format{Um \code{data.frame} com 32 observações e 7 variáveis
 
 \describe{
@@ -26,9 +27,7 @@
 
 }}
 \source{
-Zimmermann, F. J. (2004). Estatística aplicada à pesquisa
-    agrícola (1st ed.). Santo Antônio de Goiás, GO: Embrapa Arroz e
-    Feijão. (Tabela 11.7, pág 226)
+ZIMMERMANN (2004), Tabela 11.7, pág 226.
 }
 \description{
 Dados de um experimento fatorial \eqn{2^3}, com

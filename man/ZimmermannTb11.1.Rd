@@ -2,7 +2,8 @@
 % Please edit documentation in R/Zimmermann.R
 \name{ZimmermannTb11.1}
 \alias{ZimmermannTb11.1}
-\title{Espa\enc{ç}{c}amento e Densidade de Plantio na Produ\enc{çã}{ca}o de Arroz}
+\title{Espa\enc{ç}{c}amento e Densidade de Plantio na
+    Produ\enc{çã}{ca}o de Arroz}
 \format{Um \code{data.frame} com 32 observações e 4 variáveis, em que
 
 \describe{
@@ -26,9 +27,7 @@
 
 }}
 \source{
-Zimmermann, F. J. (2004). Estatística aplicada à pesquisa
-    agrícola (1st ed.). Santo Antônio de Goiás, GO: Embrapa Arroz e
-    Feijão. (Tabela 11.1, pág. 221)
+ZIMMERMANN (2004), Tabela 11.1, pág. 221.
 }
 \description{
 Dados de um experimento fatorial \eqn{2^3}, com

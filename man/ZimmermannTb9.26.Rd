@@ -2,7 +2,8 @@
 % Please edit documentation in R/Zimmermann.R
 \name{ZimmermannTb9.26}
 \alias{ZimmermannTb9.26}
-\title{\enc{É}{E}poca de Aplica\enc{çã}{ca}o de NK na Altura de Plantas}
+\title{\enc{É}{E}poca de Aplica\enc{çã}{ca}o de NK na Altura de
+    Plantas}
 \format{Um \code{data.frame} com 27 observações e 4 variáveis, em que
 
 \describe{
@@ -20,9 +21,7 @@
 
 }}
 \source{
-Zimmermann, F. J. (2004). Estatística aplicada à pesquisa
-    agrícola (1st ed.). Santo Antônio de Goiás, GO: Embrapa Arroz e
-    Feijão. (Tabela 9.26, pág. 190)
+ZIMMERMANN (2004), Tabela 9.26, pág. 190.
 }
 \description{
 Dados de um estudo em fatorial \eqn{3^3}, sobre adubação

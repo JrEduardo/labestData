@@ -2,7 +2,8 @@
 % Please edit documentation in R/Zimmermann.R
 \name{ZimmermannTb11.10}
 \alias{ZimmermannTb11.10}
-\title{Espa\enc{ç}{c}amento Entre Linhas e Densidade no Plantio de Feij\enc{ã}{a}o}
+\title{Espa\enc{ç}{c}amento Entre Linhas e Densidade no Plantio de
+    Feij\enc{ã}{a}o}
 \format{Um \code{data.frame} com 36 observações e 6 variáveis
 
 \describe{
@@ -23,9 +24,7 @@
 
 }}
 \source{
-Zimmermann, F. J. (2004). Estatística aplicada à pesquisa
-    agrícola (1st ed.). Santo Antônio de Goiás, GO: Embrapa Arroz e
-    Feijão. (pg 231)
+ZIMMERMANN (2004), Tabela 11.10, pág 231.
 }
 \description{
 Dados de um experimento fatorial \eqn{3^2}, com a

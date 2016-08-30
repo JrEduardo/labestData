@@ -2,7 +2,8 @@
 % Please edit documentation in R/Zimmermann.R
 \name{ZimmermannTb16.3}
 \alias{ZimmermannTb16.3}
-\title{Teores de Mat\enc{é}{e}ria Org\enc{â}{a}nica de Solos de V\enc{á}{a}rzea}
+\title{Teores de Mat\enc{é}{e}ria Org\enc{â}{a}nica de Solos de
+    V\enc{á}{a}rzea}
 \format{Um \code{data.frame} com 14 observações e 2 variáveis, em que
 
 \describe{
@@ -14,9 +15,7 @@
 
 }}
 \source{
-Zimmermann, F. J. (2004). Estatística aplicada à pesquisa
-    agrícola (1st ed.). Santo Antônio de Goiás, GO: Embrapa Arroz e
-    Feijão. (Tabela 16.3, pág. 337)
+ZIMMERMANN (2004), Tabela 16.3, pág. 337.
 }
 \description{
 Teores de matéria orgânica de solos aluviais e gely

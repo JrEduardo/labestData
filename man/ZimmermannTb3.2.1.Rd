@@ -18,9 +18,7 @@
 
 }}
 \source{
-Zimmermann, F. J. (2004). Estatística aplicada à pesquisa
-    agrícola (1st ed.). Santo Antônio de Goiás, GO: Embrapa Arroz e
-    Feijão. (pg 54)
+ZIMMERMANN (2004), Tabela 3.2.1, pág. 54.
 }
 \description{
 Dados de um experimento em DIC que visa estudar a

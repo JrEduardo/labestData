@@ -17,9 +17,7 @@
 
 }}
 \source{
-Zimmermann, F. J. (2004). Estatística aplicada à pesquisa
-    agrícola (1st ed.). Santo Antônio de Goiás, GO: Embrapa Arroz e
-    Feijão. (Tabela 16.4, pág. 341)
+ZIMMERMANN (2004), Tabela 16.4, pág. 341.
 }
 \description{
 Dados de um experimento em delineamento inteiramente

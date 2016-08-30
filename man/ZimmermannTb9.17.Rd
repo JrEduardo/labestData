@@ -2,7 +2,8 @@
 % Please edit documentation in R/Zimmermann.R
 \name{ZimmermannTb9.17}
 \alias{ZimmermannTb9.17}
-\title{\enc{É}{E}poca de Aplica\enc{çã}{ca}o de NK na Produ\enc{çã}{ca}o de Gr\enc{ã}{a}os de Arroz}
+\title{\enc{É}{E}poca de Aplica\enc{çã}{ca}o de NK na
+    Produ\enc{çã}{ca}o de Gr\enc{ã}{a}os de Arroz}
 \format{Um \code{data.frame} com 81 observações e 5 variáveis, em que
 
 \describe{
@@ -23,9 +24,7 @@
 
 }}
 \source{
-Zimmermann, F. J. (2004). Estatística aplicada à pesquisa
-    agrícola (1st ed.). Santo Antônio de Goiás, GO: Embrapa Arroz e
-    Feijão. (Tabela 9.17, pág. 182)
+ZIMMERMANN (2004), Tabela 9.17, pág. 182.
 }
 \description{
 Dados de um estudo em ensaio fatorial 3 \eqn{\times} 3,

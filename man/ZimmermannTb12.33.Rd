@@ -7,8 +7,8 @@
 
 \describe{
 
-\item{\code{geno}}{Fator de níveis nominais. Identifica o genótipo repetição 
-    da observação.}
+\item{\code{geno}}{Fator de níveis nominais. Identifica o genótipo
+    repetição da observação.}
 
 \item{\code{irrigados}}{Totais nos ensaios irrigados.}
 
@@ -18,16 +18,14 @@
 
 }}
 \source{
-Zimmermann, F. J. (2004). Estatística aplicada à pesquisa
-    agrícola (1st ed.). Santo Antônio de Goiás, GO: Embrapa Arroz e
-    Feijão. (Tabela 12.33, pág 265)
+ZIMMERMANN (2004), Tabela 12.33, pág. 265.
 }
 \description{
-Dados de um estudo em delineamento de blocos completos com 
-    quatro repetições. O experimento foi um ensaio de competição de
-    cultivares e linhagens de feijão, em cultivos irrigado e de sequeiro.
-    São apresentadas na tabela o total nos ensaios irrigados, nos de sequeiro
-    e geral.
+Dados de um estudo em delineamento de blocos completos
+    com quatro repetições. O experimento foi um ensaio de competição
+    de cultivares e linhagens de feijão, em cultivos irrigado e de
+    sequeiro.  São apresentadas na tabela o total nos ensaios
+    irrigados, nos de sequeiro e geral.
 }
 \examples{
 

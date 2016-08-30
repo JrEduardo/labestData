@@ -2,7 +2,7 @@
 % Please edit documentation in R/Zimmermann.R
 \name{ZimmermannTb3.12}
 \alias{ZimmermannTb3.12}
-\title{Dados de mat\enc{é}{e}ria seca em plantas}
+\title{Dados de Mat\enc{é}{e}ria Seca em Plantas}
 \format{Um \code{data.frame} com 75 observações e 4 variáveis
 
 \describe{
@@ -20,9 +20,7 @@
 
 }}
 \source{
-Zimmermann, F. J. (2004). Estatística aplicada à pesquisa
-    agrícola (1st ed.). Santo Antônio de Goiás, GO: Embrapa Arroz e
-    Feijão. (Table 3.12, pág 62)
+ZIMMERMANN (2004), Tabela 3.12, pág. 62.
 }
 \description{
 Experimento em DIC que estudou a produção de matéria

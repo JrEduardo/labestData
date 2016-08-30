@@ -26,9 +26,7 @@
 
 }}
 \source{
-Zimmermann, F. J. (2004). Estatística aplicada à pesquisa
-    agrícola (1st ed.). Santo Antônio de Goiás, GO: Embrapa Arroz e
-    Feijão. (Tabela 16.1, pág. 327)
+ZIMMERMANN (2004), Tabela 16.1, pág. 327.
 }
 \description{
 Dados de análise de solos aluviais, que apresentaram pH

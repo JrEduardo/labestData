@@ -2,7 +2,8 @@
 % Please edit documentation in R/Zimmermann.R
 \name{ZimmermannTb5.15}
 \alias{ZimmermannTb5.15}
-\title{N\enc{ú}{u}mero de Perfilhos em Arroz em Fun\enc{çã}{ca}o de 6 Tratamentos}
+\title{N\enc{ú}{u}mero de Perfilhos em Arroz em Fun\enc{çã}{ca}o de 6
+    Tratamentos}
 \format{Um \code{data.frame} com 36 observações e 4 variáveis, em que
 
 \describe{
@@ -20,9 +21,7 @@
 
 }}
 \source{
-Zimmermann, F. J. (2004). Estatística aplicada à pesquisa
-    agrícola (1st ed.). Santo Antônio de Goiás, GO: Embrapa Arroz e
-    Feijão. (Tabela 5.15, pág. 107)
+ZIMMERMANN (2004), Tabela 5.15, pág. 107.
 }
 \description{
 Esperimento conduzido pelo pesquisador Evane Ferreira,

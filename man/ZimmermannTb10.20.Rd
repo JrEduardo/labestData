@@ -2,7 +2,8 @@
 % Please edit documentation in R/Zimmermann.R
 \name{ZimmermannTb10.20}
 \alias{ZimmermannTb10.20}
-\title{Nitrog\enc{ê}{e}nio, Irriga\enc{çã}{ca}o e Preparo do Solo para Feijoeiro}
+\title{Nitrog\enc{ê}{e}nio, Irriga\enc{çã}{ca}o e Preparo do Solo
+    para Feijoeiro}
 \format{Um \code{data.frame} com 72 observações e 5 variáveis
 
 \describe{
@@ -24,9 +25,7 @@
 
 }}
 \source{
-Zimmermann, F. J. (2004). Estatística aplicada à pesquisa
-    agrícola (1st ed.). Santo Antônio de Goiás, GO: Embrapa Arroz e
-    Feijão. (Tabela 10.20, pág 213)
+ZIMMERMANN (2004), Tabela 10.20, pág 213.
 }
 \description{
 Dados de um experimento conduzido em faixas, no

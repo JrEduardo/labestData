@@ -2,7 +2,8 @@
 % Please edit documentation in R/Zimmermann.R
 \name{ZimmermannTb5.11}
 \alias{ZimmermannTb5.11}
-\title{Propor\enc{çã}{ca}o de hastes sobreviventes ao ataque de insetos}
+\title{Propor\enc{çã}{ca}o de Hastes Sobreviventes ao Ataque de
+    Insetos}
 \format{Um \code{data.frame} com 484 observações e 5 variáveis
 
 \describe{
@@ -26,9 +27,7 @@
 
 }}
 \source{
-Zimmermann, F. J. (2004). Estatística aplicada à pesquisa
-    agrícola (1st ed.). Santo Antônio de Goiás, GO: Embrapa Arroz e
-    Feijão. (Tabela 5.1, pág 101)
+ZIMMERMANN (2004), Tabela 5.1, pág. 101.
 }
 \description{
 Experimento em delineamento quadrado latino onde foram

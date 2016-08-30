@@ -23,9 +23,7 @@
 
 }}
 \source{
-Zimmermann, F. J. (2004). Estatística aplicada à pesquisa
-    agrícola (1st ed.). Santo Antônio de Goiás, GO: Embrapa Arroz e
-    Feijão. (Tabela 15.4, pág. 309)
+ZIMMERMANN (2004), Tabela 15.4, pág. 309.
 }
 \description{
 Dados de um ensaio com fração 1/3 de um fatorial
