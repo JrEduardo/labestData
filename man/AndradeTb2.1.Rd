@@ -46,54 +46,69 @@ library(plyr)
 data(AndradeTb2.1)
 str(AndradeTb2.1)
 
-graf1 <- xyplot(rm ~ hibr,
-                data = AndradeTb2.1,
-                type = c("p", "r"),
-                xlab = "Híbrido de Milho",
-                ylab = "Rendimento Médio (em kg/ha)")
+xyplot(rm ~ hibr,
+       groups = grao,
+       type = "b",
+       data = AndradeTb2.1,
+       auto.key = list(title = "Tipo de Grão",
+                       cex.title = 1.1,
+                       columns = 3),
+       ylab = "Rendimendo Médio (em kg/ha)",
+       xlab = "Híbrido de Milho")
 
-graf2 <- xyplot(ciclo ~ hibr,
-                data = AndradeTb2.1,
-                type = c("p", "r"),
-                xlab = "Híbrido de Milho",
-                ylab = "Ciclo (em dias)")
+xyplot(rm ~ hibr,
+       groups = resist,
+       type = "b",
+       data = AndradeTb2.1,
+       auto.key = list(title = "Resistência à Ferrugem",
+                       cex.title = 1.1,
+                       columns = 4),
+       ylab = "Rendimendo Médio (em kg/ha)",
+       xlab = "Híbrido de Milho")
 
-graf3 <- xyplot(ap + ae ~ hibr,
-                data = AndradeTb2.1,
-                type = c("p", "r"),
-                xlab = "Híbrido de Milho",
-                ylab = "Alturas (em cm)",
-                auto.key = list(columns = 2))
+xyplot(ciclo ~ hibr,
+       groups = grao,
+       type = "b",
+       data = AndradeTb2.1,
+       auto.key = list(title = "Tipo de Grão",
+                       cex.title = 1.1,
+                       columns = 3),
+       ylab = "Ciclo (em dias)",
+       xlab = "Híbrido de Milho")
 
-print(graf1, c(0, 0.66, 1, 1), more = TRUE)
+xyplot(ciclo ~ hibr,
+       groups = resist,
+       type = "b",
+       data = AndradeTb2.1,
+       auto.key = list(title = "Resistência à Ferrugem",
+                       cex.title = 1.1,
+                       columns = 4),
+       ylab = "Ciclo (em dias)",
+       xlab = "Híbrido de Milho")
 
-print(graf2, c(0, 0.33, 1, 0.66), more = TRUE)
+xyplot(ap + ae ~ hibr,
+       groups = grao,
+       type = "b",
+       strip = strip.custom(factor.levels = c("Altura da Planta",
+                                              "Altura da Espiga")),
+       data = AndradeTb2.1,
+       auto.key = list(title = "Tipo de Grão",
+                       cex.title = 1.1,
+                       columns = 3),
+       ylab = "Altura (em cm)",
+       xlab = "Híbrido de Milho")
 
-print(graf3, c(0, 0, 1, 0.33))
-
-d <- count(AndradeTb2.1$grao == "dentado")[[2]][2]
-
-sd <- count(AndradeTb2.1$grao == "semidentado")[[2]][2]
-
-s <- count(AndradeTb2.1$grao == "semiduro")[[2]][2]
-
-barplot(c(Dentado = d, Semidentado = sd, Semiduro = s),
-        col = "darkturquoise",
-        xlab = "Tipo de Grão",
-        ylab = "Frequência")                
-
-r <- count(AndradeTb2.1$resist == "r")[[2]][2]
-
-mr <- count(AndradeTb2.1$resist == "mr")[[2]][2]
-
-ms <- count(AndradeTb2.1$resist == "ms")[[2]][2]
-
-s <- count(AndradeTb2.1$resist == "s")[[2]][2]
-
-barplot(c(R = r, mr = mr, MS = ms, S = s),
-        col = "darkturquoise",
-        xlab = "Resistência à Ferrugem",
-        ylab = "Frequência")
+xyplot(ap + ae ~ hibr,
+       groups = resist,
+       type = "b",
+       strip = strip.custom(factor.levels = c("Altura da Planta",
+                                              "Altura da Espiga")),
+       data = AndradeTb2.1,
+       auto.key = list(title = "Resistência à Ferrugem",
+                       cex.title = 1.1,
+                       columns = 4),
+       ylab = "Altura (em cm)",
+       xlab = "Híbrido de Milho")
 
 }
 \keyword{AAS}
