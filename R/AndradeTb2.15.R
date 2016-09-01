@@ -1,0 +1,39 @@
+#' @name AndradeTb2.15
+#' @title Distribuição do Número de Plantas Sadias de Mandioca
+#' @description Estudo da distribuição do número de plantas sadias de
+#'     mandioca colhidas na área útil de uma parcela.
+#' @format Um \code{data.frame} com 5 observações e 2 variáveis, em que
+#'
+#' \describe{
+#'
+#' \item{\code{plantas}}{Número de plantas sadias de mandioca.}
+#'
+#' \item{\code{freq}}{Frequência do número de plantas sadias de
+#'     mandioca.}
+#'
+#' }
+#' @keywords AAS
+#' @source Estatística para as ciências agrárias e biológicas: com
+#'     noções de experimentação / Dalton F. Andrade, Paulo J. Ogliari.
+#'     2. ed. rev. e ampl. - Florianópolis: Ed. da UFSC, 2010. (Tabela
+#'     2.15, pág. 89)
+#' @examples
+#'
+#' library(lattice)
+#'
+#' data(AndradeTb2.15)
+#' str(AndradeTb2.15)
+#'
+#' bp <- barplot(AndradeTb2.15$freq * (100/sum(AndradeTb2.15$freq)),
+#'               names.arg = AndradeTb2.15$plantas,
+#'               col = "darkturquoise",
+#'               beside = TRUE,
+#'               ylim = c(0, 50),
+#'               xlab = "Número de Plantas Colhidas Sadias",
+#'               ylab = "Porcentagem do Número de Parcelas")
+#'
+#' text(bp, 0,
+#'      round(AndradeTb2.15$freq * (100/sum(AndradeTb2.15$freq)), 1),
+#'      cex= 1, pos = 3)
+#'
+NULL
