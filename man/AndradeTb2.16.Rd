@@ -29,7 +29,7 @@ hist(AndradeTb2.16,
      col = "darkturquoise",
      labels = TRUE,
      xlab = "Altura dos Calos (em cm)",
-     ylab = "Densidade",
+     ylab = "Frequência",
      xlim = c(0, 1))
 
 }
