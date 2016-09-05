@@ -16,8 +16,6 @@ Rendimentos médios, em \eqn{kg.ha^{-1}}, de 32 híbridos
 }
 \examples{
 
-library(lattice)
-
 data(AndradeTb2.18)
 str(AndradeTb2.18)
 

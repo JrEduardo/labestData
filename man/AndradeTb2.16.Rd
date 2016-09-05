@@ -20,8 +20,6 @@ Avaliação da formação de calos, mais especificamente, da
 }
 \examples{
 
-library(lattice)
-
 data(AndradeTb2.16)
 str(AndradeTb2.16)
 

@@ -15,8 +15,6 @@ Dados de peso da carne de mexilhões de manguezal.
 }
 \examples{
 
-library(lattice)
-
 data(AndradeTb2.17)
 str(AndradeTb2.17)
 

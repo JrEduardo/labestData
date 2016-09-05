@@ -9,8 +9,6 @@
 #'     2.17, pág. 96)
 #' @examples
 #'
-#' library(lattice)
-#'
 #' data(AndradeTb2.17)
 #' str(AndradeTb2.17)
 #'
