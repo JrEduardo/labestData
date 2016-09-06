@@ -19,6 +19,9 @@
 #' @source PIMENTEL-GOMES (2009).
 #' @examples
 #'
+#' data(PimentelEg4.2)
+#' str(PimentelEg4.2)
+#'
 #' plot(PimentelEg4.2,
 #'      xlab = "Rações",
 #'      ylab = "Ganho de Peso")
@@ -45,18 +48,20 @@ NULL
 #'
 #' }
 #' @keywords DBC
-#' @source Pimentel-Gomes, F. (2009). Curso de Estatístitica
-#'     Experimental (15th ed.). Piracicaba, SP: FEALQ. (Exemplo 5.2)
+#' @source PIMENTEL-GOMES (2009), Exemplo 5.2.
 #' @examples
 #'
 #' library(lattice)
 #'
 #' data(PimentelEg5.2)
+#' str(PimentelEg5.2)
 #'
-#' xyplot(producao ~ variedade, groups = bloco, data = PimentelEg5.2,
+#' xyplot(producao ~ variedade,
+#'        groups = bloco,
+#'        data = PimentelEg5.2,
 #'        type = "b",
-#'        ylab=expression(Produção~(t~ha^{-1})),
-#'        xlab="Variedades de batatinha")
+#'        ylab = expression(Produção~(t~ha^{-1})),
+#'        xlab = "Variedades de batatinha")
 #'
 NULL
 
@@ -133,7 +138,7 @@ NULL
 #' \item{\code{y}}{Resposta observada nas parcelas do experimento.}
 #'
 #' }
-#' @keywords FAT2
+#' @keywords FAT2ao2
 #' @source PIMENTEL-GOMES (2009), Exemplo 7.3, pág. 119.
 #' @examples
 #'
@@ -180,7 +185,7 @@ NULL
 #' \item{\code{y}}{Respoata medida no ensaio.}
 #'
 #' }
-#' @keywords FAT2
+#' @keywords FAT2ao2
 #' @source PIMENTEL-GOMES (2009), Exemplo 7.4, pág. 120.
 #' @examples
 #'
@@ -360,7 +365,7 @@ NULL
 #'     adicional, a testemunha, que é a combinção das doses zero de NPK,
 #'     e a porção fatorial é a combinação das doses 1 e 2 de NK tendo o
 #'     P fixo em 1.
-#' @keywords GE DIC FATADI
+#' @keywords GE FATADI
 #' @source PIMENTEL-GOMES (2009), página 142.
 #' @examples
 #'
@@ -403,8 +408,7 @@ NULL
 #'
 #' }
 #' @keywords DBI
-#' @source Pimentel-Gomes, F. (2009). Curso de Estatística
-#'     Experimental (15th ed.). Piracicaba, SP: FEALQ. (Página 185)
+#' @source PIMENTEL-GOMES (2009), Página 185.
 #' @examples
 #'
 #' data(PimentelPg185)
@@ -446,9 +450,8 @@ NULL
 #' \item{\code{peso}}{Peso total das aves da parcela, em decagramas.}
 #'
 #' }
-#' @keywords DIC
-#' @source Pimentel-Gomes, F. (2009). Curso de Estatística
-#'     Experimental (15th ed.). Piracicaba, SP: FEALQ. (Página 267)
+#' @keywords DIC FAT2
+#' @source PIMENTEL-GOMES (2009), Página 267.
 #'
 #' Torres, A. P., Pimentel-Gomes, F. Substituição de subprodutos de
 #'     trigo pelo sorgo moído na alimentação de pintos. Escola Superior
@@ -548,7 +551,7 @@ NULL
 #'     as mortas é 200, portanto.}
 #'
 #' }
-#' @keywords DIC
+#' @keywords contingência
 #' @source PIMENTEL-GOMES (2009), página 382.
 #' @examples
 #'
@@ -565,7 +568,7 @@ NULL
 NULL
 
 #' @name PimentelPg72
-#' @title Ensaio de alimenta\enc{çã}{ca}o de leitoas
+#' @title Ensaio de alimenta\enc{çã}{ca}o de Leitoas
 #' @description Experimento realizado pelos técnicos Manoel Becker, Luís
 #'     Paulin Neto, Geraldo Leme da Rocha e Benjamin Cintra, no qual
 #'     dois tratamentos foram estudados (feno de alfafa e feno de
@@ -588,6 +591,9 @@ NULL
 #' @keywords DIC
 #' @source PIMENTEL-GOMES (2009).
 #' @examples
+#'
+#' data(PimentelPg72)
+#' str(PimentelPg72)
 #'
 #' library(lattice)
 #'
@@ -617,15 +623,21 @@ NULL
 #'     200\eqn{m^{2}}.}
 #'
 #' }
-#' @keywords DBC
+#' @keywords DBC replicata
 #' @source PIMENTEL-GOMES (2009).
 #' @examples
 #'
 #' library(lattice)
 #'
+#' data(PimentelPg91)
+#' str(PimentelPg91)
+#'
+#' xtabs(~aradura + bloco, data = PimentelPg91)
+#'
 #' xyplot(prod ~ aradura,
 #'        jitter.x = TRUE,
 #'        groups = bloco,
+#'        type = "o",
 #'        data = PimentelPg91,
 #'        xlab = "Aradura",
 #'        ylab = "Produção")
@@ -751,10 +763,8 @@ NULL
 #'     pressuposto de homocedasticidade da análise de variância.}
 #'
 #' }
-#' @keywords DBI
-#' @source Pimentel-Gomes, F. (2009). Curso de Estatística
-#'     Experimental (15th ed.). Piracicaba, SP: FEALQ. (Tabela 10.6.1,
-#'     pág. 198)
+#' @keywords DBI proporção unitário
+#' @source PIMENTEL-GOMES (2009), Tabela 10.6.1, pág. 198.
 #'
 #' Fraga Jr., C. G., Costa, A. S. Análise de um experimento para combate
 #'     de vira-cabeça do tomateiro. Bragantia, 10: 305--316, 1950.
@@ -802,10 +812,8 @@ NULL
 #' \item{prod}{Produção de milho, em kg/parcela.}
 #'
 #' }
-#' @keywords LAT
-#' @source Pimentel-Gomes, F. (2009). Curso de Estatística
-#'     Experimental (15th ed.). Piracicaba, SP: FEALQ. (Tabela 11.3.1,
-#'     pág. 215)
+#' @keywords LAT RET
+#' @source PIMENTEL-GOMES (2009), Tabela 11.3.1, pág. 215.
 #' @examples
 #'
 #' data(PimentelTb11.3.1)
@@ -846,10 +854,8 @@ NULL
 #' \item{\code{prod}}{Produção de milho, em kg/parcela.}
 #'
 #' }
-#' @keywords RP
-#' @source Pimentel-Gomes, F. (2009). Curso de Estatística
-#'     Experimental (15th ed.). Piracicaba, SP: FEALQ. (Tabela 12.2.1,
-#'     pág. 232)
+#' @keywords RS
+#' @source PIMENTEL-GOMES (2009), Tabela 12.2.1, pág. 232.
 #' @examples
 #'
 #' library(lattice)
@@ -892,7 +898,7 @@ NULL
 #'     centígrados.}
 #'
 #' }
-#' @keywords RP
+#' @keywords RS TS
 #' @source PIMENTEL-GOMES (2009), Tabela 12.3.1, pág. 236.
 #' @examples
 #'
@@ -925,7 +931,7 @@ NULL
 #' \item{\code{prod}}{Aumento de produção de cana em t ha\eqn{^{-1}}.}
 #'
 #' }
-#' @keywords RP
+#' @keywords RS
 #' @source PIMENTEL-GOMES (2009), Tabela 12.4.1, pág. 238.
 #' @examples
 #'
@@ -1308,7 +1314,7 @@ NULL
 #'     com corte aos 8 anos de idade.}
 #'
 #' }
-#' @keywords DBC GE
+#' @keywords GE
 #' @source PIMENTEL-GOMES (2009), Tabela 17.3.1, pág. 317.
 #' @examples
 #'
@@ -1413,7 +1419,7 @@ NULL
 #' \item{\code{prod}}{Produção de milho, em kg ha\eqn{^{-1}}.}
 #'
 #' }
-#' @keywords FAT3 FATADI
+#' @keywords FAT3ao3 FATADI confundimento
 #' @source PIMENTEL-GOMES (2009), Tabela 18.2.1, pág. 330.
 #' @examples
 #'
@@ -1453,7 +1459,7 @@ NULL
 #'     ha\eqn{^{-1}}. Valores individuais não disponíveis.}
 #'
 #' }
-#' @keywords FAT2
+#' @keywords FAT3ao2
 #' @source PIMENTEL-GOMES (2009), Tabela 20.2.1, pág. 369.
 #' @examples
 #'
@@ -1476,7 +1482,7 @@ NULL
 #' @description Ensaio inteiramente casualizado para avaliar a
 #'     porcentagem de plantas doentes em um experimento de tomateiros
 #'     onde foi estudado um fator de 3 níveis. Para análise dos
-#'     resultados pode-se considerar o de Kruskal- Wallis.
+#'     resultados pode-se considerar o de Kruskal-Wallis.
 #' @format Um \code{data.frame} com 12 observações e 2 variáveis, em que
 #'
 #' \describe{
@@ -1488,7 +1494,7 @@ NULL
 #'     tomateiros.}
 #'
 #' }
-#' @keywords DIC
+#' @keywords DIC unitário
 #' @source PIMENTEL-GOMES (2009), Tabela 21.5.1, pág. 384.
 #' @examples
 #'
@@ -1506,7 +1512,7 @@ NULL
 NULL
 
 #' @name PimentelTb5.3.1
-#' @title Teor de colesterol no sangue
+#' @title Teor de Colesterol no Sangue
 #' @description Pesquisa sobre o efeito do óleo de milho no teor de
 #'     colesterol do sangue, realizada em sete pacientes tomados como
 #'     blocos, cujos dados foram obtidos pelo médico Dr. Ben Hur
@@ -1526,7 +1532,7 @@ NULL
 #'     100g.}
 #'
 #' }
-#' @keywords DBC
+#' @keywords pareado
 #' @source PIMENTEL-GOMES (2009).
 #' @examples
 #'
@@ -1575,12 +1581,11 @@ NULL
 #'     transformar os digitos nos níveis desses fatores, tem-se na
 #'     realidade um experimento fatorial incompleto no qual não existem
 #'     os níveis de de adução mineral para o nível sem crotalária.
-#' @keywords DQL
+#' @keywords DQL incompleto
 #' @source PIMENTEL-GOMES (2009), Tabela 6.3.1, página 99.
 #' @examples
 #'
 #' data(PimentelTb6.3.1)
-#'
 #' str(PimentelTb6.3.1)
 #'
 #' aggregate(prod ~ adub, data = PimentelTb6.3.1, FUN = sum)
@@ -1636,7 +1641,7 @@ NULL
 #' \item{\code{prod}}{Produção de milho, em ton ha\eqn{^{-1}}.}
 #'
 #' }
-#' @keywords FAT3
+#' @keywords FAT2ao3
 #' @source PIMENTEL-GOMES (2009), Tabela 7.2.1, página 115.
 #' @examples
 #'
@@ -1691,7 +1696,7 @@ NULL
 #'     tabela com os dados pois no bloco W1 existem duas ocorrências do
 #'     tratamento 202 sendo que a última deveria ser 220. Foi feita a
 #'     inclusão desses dados no pacote com essa correção.
-#' @keywords FAT3 confundimento
+#' @keywords FAT3ao3 confundimento
 #' @source PIMENTEL-GOMES (2009), Tabela 7.6.1, pág. 126.
 #'
 #' Straus, F. Esperimentos de adubação na zona canavieira de
@@ -1742,10 +1747,8 @@ NULL
 #'     informada.}
 #'
 #' }
-#' @keywords FAT3 PS
-#' @source Pimentel-Gomes, F. (2009). Curso de Estatística
-#'     Experimental (15th ed.). Piracicaba, SP: FEALQ. (Tabela 7.8.1,
-#'     pág 132)
+#' @keywords PSS
+#' @source PIMENTEL-GOMES (2009), Tabela 7.8.1, pág. 132.
 #'
 #' Simão, S. Estudo da planta e dos frutos da mangueira (\emph{Magnifera
 #'     indica} L.). Piracicaba, 1960. Tese.
@@ -1797,10 +1800,8 @@ NULL
 #'     de café por parcela.}
 #'
 #' }
-#' @keywords FAT3 contagem
-#' @source Pimentel-Gomes, F. (2009). Curso de Estatística
-#'     Experimental (15th ed.). Piracicaba, SP: FEALQ. (Tabela 7.9.1,
-#'     pág 137)
+#' @keywords FAT2ao3 contagem
+#' @source PIMENTEL-GOMES (2009), Tabela 7.9.1, pág. 137.
 #'
 #' Malavolta, E.; Pimentel-Gomes, F.; Coury, T. Estudos sobre a
 #'     alimentação mineral do cafeeiro (\emph{Coffea arabica} L.,
@@ -1907,7 +1908,7 @@ NULL
 #'     matéria verde por parcela.}
 #'
 #' }
-#' @keywords PSS
+#' @keywords GE
 #' @source PIMENTEL-GOMES (2009), Tabela 9.2.1, pág. 166.
 #' @examples
 #'
@@ -1956,8 +1957,7 @@ NULL
 #'
 #' }
 #' @keywords PS DQL
-#' @source Pimentel-Gomes, F. (2009). Curso de Estatística
-#'     Experimental (15th ed.). Piracicaba, SP: FEALQ. (Tabela 9.3.1)
+#' @source PIMENTEL-GOMES (2009), Tabela 9.3.1.
 #' @examples
 #'
 #' library(lattice)

@@ -88,7 +88,7 @@ NULL
 #' \item{\code{result}}{Produção de batata, em kg ha\eqn{^{-1}}.}
 #'
 #' }
-#' @keywords DIC FAT2
+#' @keywords DIC FAT2ao2
 #' @source FARIA (2009), Quadro 11.4, pág. 134.
 #' @examples
 #'
@@ -179,7 +179,7 @@ NULL
 #'
 #' As parcelas da testemunha, que não receberam aplicação de TVC,
 #'     exibiram um valor 0 para a colonização das vassouras-de-bruxa.
-#' @keywords DBC PS
+#' @keywords PS
 #' @source FARIA (2009), Quadro 12.5, pág. 159.
 #' @examples
 #'
@@ -217,7 +217,7 @@ NULL
 #' \item{\code{result}}{Produção de milho, em kg ha\eqn{^{-1}}.}
 #'
 #' }
-#' @keywords DIC RL
+#' @keywords DIC RS
 #' @source FARIA (2009), Quadro 14.2 pág. 198.
 #' @examples
 #'

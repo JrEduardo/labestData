@@ -60,10 +60,12 @@ NULL
 #'
 #' \item{\code{rept}}{Inteiro que identifica as repetições.}
 #'
-#' \item{\code{pg}}{Percentual de germinação das sementes.}
+#' \item{\code{pg}}{Percentual de germinação das sementes. Como todos os
+#'     resultados são pares, infere-se que o total de sementes usadas
+#'     para determinar a germinação seja 50.}
 #'
 #' }
-#' @keywords DIC PS
+#' @keywords PS unitario binomial
 #' @source BARROS; DIAS (2009), Exemplo 10.2, pág. 286.
 #' @examples
 #'
@@ -105,7 +107,7 @@ NULL
 #'
 #' }
 #'
-#' @keywords DBC GE
+#' @keywords DBC
 #' @source BARROS; DIAS (2009), Exemplo 11.1, pág. 305.
 #' @examples
 #'
@@ -113,7 +115,6 @@ NULL
 #'
 #' data(DiasEg11.1)
 #' str(DiasEg11.1)
-#'
 #'
 #' ftable(xtabs(~sitio + bloc + cult, data = DiasEg11.1))
 #'
@@ -260,7 +261,7 @@ NULL
 #' \item{\code{prod}}{percentuais de ganhos de produção.}
 #'
 #' }
-#' @keywords DIC
+#' @keywords DIC RS
 #' @source BARROS; DIAS (2009), Exemplo 6.1, pág. 157.
 #' @examples
 #'
@@ -304,8 +305,6 @@ NULL
 #' data(DiasEg6.2)
 #' str(DiasEg6.2)
 #'
-#' names(DiasEg6.2)[2] <- "bloc"
-#'
 #' xyplot(prod ~ npk, data = DiasEg6.2,
 #'        groups = bloc, type = "b",
 #'        xlab = expression("Dose de NPK"~(kg~ha^{-1})),
@@ -332,7 +331,7 @@ NULL
 #' \item{\code{ntfs}}{Número total de frutos sadios.}
 #'
 #' }
-#' @keywords AAS
+#' @keywords RS
 #' @source BARROS; DIAS (2009), Exemplo 6.3, pág. 173.
 #' @examples
 #'
@@ -364,7 +363,7 @@ NULL
 #' \item{\code{prod}}{Produção de tomateiros.}
 #'
 #' }
-#' @keywords DIC RM
+#' @keywords DIC FAT2
 #' @source BARROS; DIAS (2009), Exemplo 7.1, pág. 187.
 #' @examples
 #'
@@ -613,7 +612,7 @@ NULL
 #'     m\eqn{^2} (30 covas de espaçamento 3 \eqn{\times} 1).}
 #'
 #' }
-#' @keywords DIC FAT3
+#' @keywords DIC FAT2ao3
 #' @source BARROS; DIAS (2009), Exercício 7, Cap. 10, pág. 295.
 #' @examples
 #'
@@ -695,7 +694,7 @@ NULL
 #'  \item{\code{prod}}{Produção de bulbos de alho.}
 #'
 #' }
-#' @keywords DBC
+#' @keywords GE
 #' @source BARROS; DIAS (2009), Exercício 8, Cap. 11, pág. 321.
 #' @examples
 #'
@@ -703,7 +702,6 @@ NULL
 #'
 #' data(DiasEx11.7.8)
 #' str(DiasEx11.7.8)
-#'
 #'
 #' xtabs(~geno + exper, data = DiasEx11.7.8)
 #'
@@ -742,7 +740,7 @@ NULL
 #'  \item{\code{prod}}{Produção de grãos de milho.}
 #'
 #' }
-#' @keywords GE DIC
+#' @keywords GE
 #' @source BARROS; DIAS (2009), Exercício 9, Cap. 11, pág. 321.
 #' @examples
 #'
@@ -778,7 +776,7 @@ NULL
 #' \item{\code{pgerm}}{Percentual de germinação das sementes.}
 #'
 #' }
-#' @keywords AAS
+#' @keywords DIC
 #' @source BARROS; DIAS (2009), (Exercício 7, Cap. 7.6, pág. 102.
 #' @examples
 #'
@@ -806,7 +804,7 @@ NULL
 #' \item{\code{peso}}{Peso do animal (g).}
 #'
 #' }
-#' @keywords RL
+#' @keywords RS
 #' @source BARROS; DIAS (2009), Exercício 1, Cap. 6, pág. 179.
 #' @examples
 #'
@@ -821,7 +819,8 @@ NULL
 NULL
 
 #' @name DiasEx6.5.10
-#' @title Correla\enc{çã}{ca}o entre Produ\enc{çã}{ca}o e Di\enc{â}{a}metro
+#' @title Correla\enc{çã}{ca}o entre Produ\enc{çã}{ca}o e
+#'     Di\enc{â}{a}metro
 #' @description Dados referentes a 8 pares de valores de produção
 #'     (gramas) e diâmetro (cm).
 #' @format Um \code{data.frame} com 8 observações e 3 variáveis, em que
@@ -833,7 +832,7 @@ NULL
 #' \item{\code{diam}}{Diãmetro em centimetros.}
 #'
 #' }
-#' @keywords AAS RL
+#' @keywords RS
 #' @source BARROS; DIAS (2009), Exercício 10, Cap. 7, pág. 181.
 #' @examples
 #'
@@ -859,7 +858,7 @@ NULL
 #' \item{\code{massa}}{Massa em gramas.}
 #'
 #' }
-#' @keywords AAS RL
+#' @keywords RS
 #' @source BARROS; DIAS (2009), Exercício 9, Cap. 6, pág. 181.
 #'
 #' library(lattice)

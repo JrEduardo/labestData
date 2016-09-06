@@ -1,5 +1,5 @@
 #' @name BarbinEx1
-#' @title Altura de \emph{Pinus elliottii} aos 10 anos de idade
+#' @title Altura de \emph{Pinus elliottii} aos 10 Anos de Idade
 #' @description Os dados referem-se à altura (m) de \emph{Pinus
 #'     elliottii}, var. \emph{elliottii}, com 10 anos de idade plantadas
 #'     no espaçamento 2\eqn{\times}2,5 metros.
@@ -118,7 +118,7 @@ NULL
 #' \item{\code{prod}}{Produção de milho, em kg ha\eqn{^{-1}}.}
 #'
 #' }
-#' @keywords DBC FAT3
+#' @keywords DBC FAT2ao3
 #' @source BARBIN (2013), Exercício 14, pág. 206.
 #' @examples
 #'
@@ -168,7 +168,7 @@ NULL
 #'     hectare.}
 #'
 #' }
-#' @keywords PS FAT2
+#' @keywords PS
 #' @source BARBIN (2013), Exercício 16, pág. 208.
 #' @examples
 #'
@@ -218,7 +218,7 @@ NULL
 #'     de duas plantas por parcela).}
 #'
 #' }
-#' @keywords DBC PS FAT2
+#' @keywords PS
 #' @source BARBIN (2013), Exercício 17, pág. 209.
 #' @examples
 #'
@@ -275,7 +275,7 @@ NULL
 #'     idade.}
 #'
 #' }
-#' @keywords GE DIC
+#' @keywords GE
 #' @source BARBIN (2013), Exercício 18, pág. 210.
 #' @examples
 #'
@@ -334,7 +334,6 @@ NULL
 #' @description Os dados referem-se à altura (cm) de mudas de
 #'     \emph{E. saligna} Sm., de um ensaio inteiramente casualizado, de
 #'     controle químico de "Damping-off" conduzido por Krugner (1971).
-#'
 #' @format Um \code{data.frame} com 45 observações e 3 variáveis, em que
 #'
 #' \describe{
@@ -438,7 +437,7 @@ NULL
 #' @name BarbinPg104
 #' @title Produ\enc{çã}{ca}o de Cultivares de Cana-de-a\enc{çú}{cu}car
 #' @description Experimento em delineamento quadrado latino que avaliou
-#'     a produção de cultivares de cana-ade-açúcar.
+#'     a produção de cultivares de cana-de-açúcar.
 #' @format Um \code{data.frame} com 25 observações e 4 variáveis, em que
 #'
 #' \describe{
@@ -497,7 +496,7 @@ NULL
 #'     7 anos de idade, de \emph{Eucaliptus saligna} (Simões,  Mello e
 #'     Barbin, 1967).
 #'
-#' Cinco aparelhos ou instrumentos de mensuração (hipsômetro de
+#'     Cinco aparelhos ou instrumentos de mensuração (hipsômetro de
 #'     Blume-Leiss, hipsômetro de Haga, hipsômetro Weise, prancheta
 #'     dendrométrica e trena) foram testados por 4 operadores resultando
 #'     em 20 combinações. Diante de uma árvore era sorteado um número no
@@ -590,7 +589,7 @@ NULL
 #'     m).}
 #'
 #' }
-#' @keywords DBC FAT3
+#' @keywords DBC FAT2ao3
 #' @source BARBIN (2013), pág. 125).
 #' @examples
 #'
@@ -641,7 +640,7 @@ NULL
 #'     ha\eqn{^{-1}}.}
 #'
 #' }
-#' @keywords DBC FAT3 confundimento
+#' @keywords FAT3ao3 confundimento
 #' @source BARBIN (2013), pág. 137.
 #'
 #' Cavalcanti, F. B. (1977). A adubação mineral na cultura do algodão
@@ -711,7 +710,7 @@ NULL
 #' \item{\code{prod}}{Produção de milho (kg ha\eqn{^{-1}}).}
 #'
 #' }
-#' @keywords PS DBC
+#' @keywords PS
 #' @source BARBIN (2013), pág. 156.
 #' @examples
 #'
@@ -753,7 +752,7 @@ NULL
 #'     plantas por parcela.}
 #'
 #' }
-#' @keywords PS DBC
+#' @keywords PS
 #' @source BARBIN (2013), pág. 167.
 #' @examples
 #'
@@ -800,7 +799,7 @@ NULL
 #'     anos de idade.}
 #'
 #' }
-#' @keywords GE DBC
+#' @keywords GE
 #' @source BARBIN (2013), pág. 177.
 #' @examples
 #'
