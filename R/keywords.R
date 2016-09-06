@@ -15,6 +15,83 @@
 #' \item{\code{keyword}}{Keyword atribuída ao conjunto de dados.}
 #'
 #' }
+#' @details As keywords estão organizadas por tema e estão descritas nas
+#'     tabelas abaixo.
+#'
+#' \describe{
+#'
+#' \item{Análise multivaridada}{
+#'    \tabular{ll}{
+#'      AnaCorCan  \tab  Análise de correlação canônica   \cr
+#'      AnaAgrup   \tab  Análise de agrupamento           \cr
+#'      AnaComPrin \tab  Análise de componentes pricipais \cr
+#'      AnaDisc    \tab  Análise discriminante            \cr
+#'      AnaFat     \tab  Análise fatorial                 \cr
+#'      manova     \tab  Análise de variância multivariada
+#'    }
+#' }
+#'
+#' \item{Tipo de reposta}{
+#'    \tabular{ll}{
+#'      binarios             \tab  Resposta do tipo binária (dicotômica)\cr
+#'      binomial             \tab  Resposta do tipo binomial            \cr
+#'      contagem             \tab  Resposta do tipo contagem            \cr
+#'      proporção            \tab  Resposta do tipo proporção           \cr
+#'      positivo-assimétrico \tab  Reposta positiva assimétrica
+#'    }
+#' }
+#'
+#' \item{Planejamento e análise de experimentos}{
+#'    \tabular{ll}{
+#'      DIC           \tab  Delineamento inteiramente casualizado                   \cr
+#'      DBC           \tab  Delineamento em blocos casualizados completos           \cr
+#'      DQL           \tab  Delineamento quadrado latino                            \cr
+#'      DBI           \tab  Delineamento em blocos casualizados incompletos         \cr
+#'      BAF           \tab  Delineamento de blocos aumentados de Federer            \cr
+#'      LAT           \tab  Experimento em látice                                   \cr
+#'      RET           \tab  Experimento em delineamento reticulado                  \cr
+#'      FAT           \tab  Experimento fatorial                                    \cr
+#'      FAT2          \tab  Experimento fatorial duplo                              \cr
+#'      FAT3          \tab  Experimento fatorial triplo                             \cr
+#'      FATADI        \tab  Experimento fatorial com tratamento(s) adicionai(s)     \cr
+#'      ClaHier       \tab  Classificação hierárquica de fatores                    \cr
+#'      FRAC          \tab  Experimento fatorial fracionado                         \cr
+#'      PS            \tab  Experimento em parcela subdividida                      \cr
+#'      PSS           \tab  Experimento em parcela subsubdividida                   \cr
+#'      EF            \tab  Experimento em faixas                                   \cr
+#'      GE            \tab  Grupo de experimentos                                   \cr
+#'      COV           \tab  Análise de covariância                                  \cr
+#'      ER            \tab  Ensaio de reversão                                      \cr
+#'      Dialelo       \tab  Experimento de cruzamento dialelo                       \cr
+#'      desbalanceado \tab  Experimento desbalanceado                               \cr
+#'      contrastes    \tab  Fator com níveis para aplicação de contrastes planejados\cr
+#'      confundimento \tab  Experimento com confundimento de efeitos
+#'    }
+#' }
+#'
+#' \item{Modelos de regressão}{
+#'    \tabular{ll}{
+#'      MLG    \tab  Modelo linear generalizado\cr
+#'      RegSeg \tab  Regressão segmentada      \cr
+#'      REG    \tab  Regressão                 \cr
+#'      RL     \tab  Regressão linear          \cr
+#'      RS     \tab  Regressão linear simples  \cr
+#'      RM     \tab  Regressão múltipla        \cr
+#'      RP     \tab  Regressão polinomial
+#'    }
+#' }
+#'
+#' \item{Outras áreas da Estatística}{
+#'    \tabular{ll}{
+#'      CEQ           \tab  Controle estatístico da qualidade\cr
+#'      TS            \tab  Séries temporais                 \cr
+#'      sensorial     \tab  Análise sensorial                \cr
+#'      sobrevivencia \tab  Análise de sobrevivência
+#'    }
+#' }
+#'
+#' }
+#'
 #' @examples
 #'
 #' data(keywords)
