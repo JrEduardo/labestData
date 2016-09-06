@@ -1,0 +1,5 @@
+Cultivares	Germinacao	Freq
+BolaPrecoce	Germinaram	392
+Norte14	Germinaram	381
+BolaPrecoce	NaoGerminaram	8
+Norte14	NaoGerminaram	19
