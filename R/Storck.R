@@ -61,7 +61,7 @@ NULL
 #' \item{\code{result}}{Rendimento de grãos, em kg por parcela.}
 #'
 #' }
-#' @keywords GE DBC
+#' @keywords GE
 #' @source STORCK et al. (2011), Tabela 101, pág. 182.
 #' @examples
 #'
@@ -260,7 +260,7 @@ NULL
 #'     experimento em parcelas subdivididas é considerado. Não foi
 #'     portanto uma verdadeira restrição de casualização (como acontece
 #'     com camadas do solo ou tempo) mas sim uma dificuldade logística.
-#' @keywords DIC FAT2 PS
+#' @keywords DIC PS
 #' @source STORCK et al. (2011), Tabela 74, pág. 150 e Tabela 88,
 #'     pág. 168.
 #' @examples
