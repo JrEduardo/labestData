@@ -247,7 +247,7 @@ NULL
 #'
 #' }
 #' @keywords DIC
-#' @source VIEIRA (1999), pág 44, tabela 4.1.
+#' @source VIEIRA (1999), pág. 44, tabela 4.1.
 #' @examples
 #'
 #' data(VieiraTb4.1)
@@ -314,7 +314,7 @@ NULL
 #'
 #' }
 #' @keywords DIC
-#' @source VIEIRA (1999), Tabela 7.2, pág. 74 .
+#' @source VIEIRA (1999), Tabela 7.2, pág. 74.
 #' @examples
 #'
 #' data(VieiraTb7.2)
@@ -348,7 +348,7 @@ NULL
 #'
 #' }
 #' @keywords DBC
-#' @source VIEIRA (1999), Tabela 7.7, pág. 81; Tabela 8.2, pág. 94 .
+#' @source VIEIRA (1999), Tabela 7.7, pág. 81; Tabela 8.2, pág. 94.
 #' @examples
 #'
 #' library(lattice)
@@ -391,7 +391,7 @@ NULL
 #'
 #' }
 #' @keywords DBC
-#' @source VIEIRA (1999), Tabela 8.5, pág. 98 .
+#' @source VIEIRA (1999), Tabela 8.5, pág. 98.
 #' @examples
 #'
 #' library(lattice)
