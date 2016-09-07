@@ -169,7 +169,7 @@ NULL
 #'     feijoeiro.}
 #'
 #' }
-#' @keywords Dialelo
+#' @keywords dialelo
 #' @source RAMALHO et al. (2005), Exemplo 12.10, pág. 227.
 #'
 #'     Arriel, E., Ramalho, M. A. P., Pacheco, C. A. P. Expected and
@@ -383,7 +383,7 @@ NULL
 #'     nas unidades experimentais.}
 #'
 #' }
-#' @keywords DBC GE
+#' @keywords GE
 #' @source RAMALHO et al. (2005), Exemplo 8.1, pág. 115.
 #' @examples
 #'
@@ -436,7 +436,7 @@ NULL
 #' \item{\code{prod}}{Produção de grãos de feijão, em kg ha\eqn{^{-1}}.}
 #'
 #' }
-#' @keywords DBC GE
+#' @keywords GE
 #' @source RAMALHO et al. (2005), Tabela 8.8, pág. 123.
 #'
 #'     Corte, H. R., Ramalho, M. A. P., Gonçalves, F. M. A., Abreu. A de
@@ -826,7 +826,7 @@ NULL
 #' \item{\code{prod}}{Produção de grãos de arroz, em kg ha\eqn{^{-1}}.}
 #'
 #' }
-#' @keywords DIC GE
+#' @keywords GE
 #' @source RAMALHO et al. (2005), Exercício 8.1, pág. 132.
 #' @examples
 #'
@@ -898,7 +898,7 @@ NULL
 #' \item{\code{prod}}{Produção de clones de caju, medido em g/planta.}
 #'
 #' }
-#' @keywords DBC GE
+#' @keywords GE
 #' @source RAMALHO et al. (2005), Exercício 8.2, pág. 133.
 #' @examples
 #'
