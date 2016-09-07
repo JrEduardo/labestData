@@ -32,7 +32,7 @@
 NULL
 
 #' @name FariaEg3.2.4
-#' @title Produ\enc{çã}{ca}o de Am\enc{ê}{e}ndoas de Clones de Cacau
+#' @title Produção de Amêndoas de Clones de Cacau
 #' @description Experimento em delineamento inteiramente casualizado que
 #'     estudou a produção de amendoas de clones de cacau.
 #' @format Um \code{data.frame} com 24 observações e 3 variáveis, em que
