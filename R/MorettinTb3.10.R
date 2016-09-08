@@ -41,12 +41,10 @@
 #' data(MorettinTb3.10)
 #' 
 #' library(lattice)
-#' library(latticeExtra)
-#' 
 #' str(MorettinTb3.10)
 #' 
-#' xyplot(MorettinTb3.10[ , -1], type = c("l", "g"), 
-#'     layout = c(2, 6), xlab = "Meses", ylab = "Valores", 
+#' xyplot(MorettinTb3.10, type = c("l", "g"), 
+#'     layout = c(2, 6), xlab = "Anos", ylab = "Valores", 
 #'     main = "Série de IPI", strip = strip.custom(bg = "white"), 
 #'     lwd = 2, col = c("red", "green", "violetred", "blue", "palegreen2", 
 #'                      "orange"), 
