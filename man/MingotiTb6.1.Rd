@@ -2,38 +2,38 @@
 % Please edit documentation in R/Mingoti.R
 \name{MingotiTb6.1}
 \alias{MingotiTb6.1}
-\title{Renda mensal de seis indiv\enc{í}{i}duos de certa localidade}
+\title{Renda Mensal de Seis Indiv\enc{í}{i}duos de Certa Localidade}
 \format{Um \code{data.frame} com 6 observações e 3 variáveis, em que
 
 \describe{
 
-\item{\code{id}}{Identificação do indivíduo  
+\item{\code{id}}{Identificação do indivíduo
     (A-F).}
 
-\item{\code{renda}}{Renda mensal (em quantidade de salários mínimos).}
+\item{\code{renda}}{Renda mensal (em quantidade de salários
+    mínimos).}
 
 \item{\code{idade}}{Idade do indivíduo.}
 
 }}
 \source{
-Mingoti, S.A. (2005). Análise de dados através de métodos de 
-    estatística multivariada - uma abordagem aplicada. 
-    Belo Horizonte, MG: Editora UFMG. (pg 159).
+MINGOTI (2005), pág. 159.
 }
 \description{
-Dados referente às rendas mensais (em quantidade de 
+Dados referente às rendas mensais (em quantidade de
     salários mínimos) e às idades de seis indivíduos de uma
     localidade.
 }
 \examples{
 
 data(MingotiTb6.1)
+str(MingotiTb6.1)
 
 library(lattice)
 
 xyplot(renda ~ idade,
-      data = MingotiTb6.1,
-      ylab="Renda mensal")
+       data = MingotiTb6.1,
+       ylab = "Renda mensal")
 
 }
 \keyword{AnaAgrup}

@@ -49,6 +49,5 @@ xyplot(alt ~ espec | loc,
        scales = list(x = list(rot = 90)))
 
 }
-\keyword{DIC}
 \keyword{GE}
 

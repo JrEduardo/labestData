@@ -29,5 +29,5 @@ xyplot(peso ~ idade, data = DiasEx6.5.1, type = c("p", "r"),
        ylab = "Peso (g)", xlab = "Idade (semanas)")
 
 }
-\keyword{RL}
+\keyword{RS}
 

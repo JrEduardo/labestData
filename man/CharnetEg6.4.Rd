@@ -2,8 +2,9 @@
 % Please edit documentation in R/Charnet.R
 \name{CharnetEg6.4}
 \alias{CharnetEg6.4}
-\title{Efeito de um Produto Qu\enc{í}{i}mico no Peso de Girass\enc{ó}{o}is}
-\format{Um \code{data.frame} com 2 colunas e 20 linhas.
+\title{Efeito de um Produto Qu\enc{í}{i}mico no Peso de
+    Girass\enc{ó}{o}is}
+\format{Um \code{data.frame} com 2 colunas e 20 linhas, em que
 
 \describe{
 
@@ -13,10 +14,7 @@
 
 }}
 \source{
-Charnet, R., de Luna Freire, C.A., Charnet, E.M.R., Bonvino,
-    H. (2008). Análise de modelos de regressão linear com aplicações
-    (2nd ed.). Campinas, SP: Editora Unicamp (Capítulo 6, exemplo 4,
-    pág. 136)
+CHARNET et al. (2008), Capítulo 6, exemplo 4, pág. 136.
 }
 \description{
 Medição do efeito da adição de uma solução de um certo
@@ -25,6 +23,7 @@ Medição do efeito da adição de uma solução de um certo
 \examples{
 
 data(CharnetEg6.4)
+str(CharnetEg6.4)
 
 plot(peso ~ dose, data = CharnetEg6.4)
 

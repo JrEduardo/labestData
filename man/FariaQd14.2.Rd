@@ -38,5 +38,5 @@ xyplot(prod ~ N, data = FariaQd14.2,
 
 }
 \keyword{DIC}
-\keyword{RL}
+\keyword{RS}
 

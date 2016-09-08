@@ -40,7 +40,6 @@ Dados de um em delineamento de blocos completos ao
 library(lattice)
 
 data(ZimmermannTb10.9)
-
 str(ZimmermannTb10.9)
 
 ftable(xtabs(~genot + epoca + inset, data = ZimmermannTb10.9))
@@ -52,6 +51,5 @@ xyplot(peso ~ genot | epoca, groups = inset,
        ylab = "Peso de 100 espiguetas (g)")
 
 }
-\keyword{DBC}
 \keyword{PSS}
 

@@ -2,8 +2,9 @@
 % Please edit documentation in R/Charnet.R
 \name{CharnetEx11.3}
 \alias{CharnetEx11.3}
-\title{Rela\enc{çã}{ca}o do Pre\enc{ç}{c}o de Venda de Im\enc{ó}{o}vel e suas Caracter\enc{í}{i}sticas}
-\format{Um \code{data.frame} com 5 colunas e 20 linhas.
+\title{Rela\enc{çã}{ca}o do Pre\enc{ç}{c}o de Venda de
+    Im\enc{ó}{o}vel e suas Caracter\enc{í}{i}sticas}
+\format{Um \code{data.frame} com 5 colunas e 20 linhas, em que
 
 \describe{
 
@@ -20,10 +21,7 @@
 
 }}
 \source{
-Charnet, R., de Luna Freire, C.A., Charnet, E.M.R., Bonvino,
-    H. (2008). Análise de modelos de regressão linear com aplicações
-    (2nd ed.). Campinas, SP: Editora Unicamp (Capítulo 11, exercício
-    3, pág. 274)
+CHARNET et al. (2008), Capítulo 11, exercício 3, pág. 274.
 }
 \description{
 Estudo observacional onde o interesse é explicar o valor
@@ -34,9 +32,11 @@ Estudo observacional onde o interesse é explicar o valor
 \examples{
 
 data(CharnetEx11.3)
+str(CharnetEx11.3)
 
 plot(CharnetEx11.3)
 
 }
 \keyword{RM}
+\keyword{dummy}
 

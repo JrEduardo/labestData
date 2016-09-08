@@ -4,7 +4,7 @@
 \alias{ZimmermannTb12.20}
 \title{Produtividade de Gr\enc{ã}{a}os de Cultivares de
     Feij\enc{ã}{a}o}
-\format{Um \code{data.frame} com 36 observações e 3 variáveis
+\format{Um \code{data.frame} com 36 observações e 3 variáveis, em que
 
 \describe{
 
@@ -18,7 +18,7 @@
 
 }}
 \source{
-ZIMMERMANN (2004), Tabela 12.20, pág. 258.
+ZIMMERMANN (2004), pág. 258.
 }
 \description{
 Dados do ensaio 2 de um experimento em DBC de competição
@@ -34,6 +34,7 @@ Dados do ensaio 2 de um experimento em DBC de competição
 library(lattice)
 
 data(ZimmermannTb12.20)
+str(ZimmermannTb12.20)
 
 xyplot(prod ~ cult , groups = bloco, data = ZimmermannTb12.20,
        type = c("p", "a"),

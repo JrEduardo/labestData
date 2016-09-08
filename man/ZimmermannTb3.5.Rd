@@ -43,6 +43,7 @@ adub <- expression(80[0],
                    40[0] + 40[40],
                    13.2[0] + 66.8[40],
                    13.2[0] + 33.4[40] + 33.4[60])
+
 xyplot(prod ~ adub, data = ZimmermannTb3.5,
        type = c("p", "a"), jitter.x = TRUE,
        xlab = "Formas de adubação",
@@ -54,4 +55,5 @@ aggregate(prod ~ adub, data = ZimmermannTb3.5,
 
 }
 \keyword{DIC}
+\keyword{contrastes}
 

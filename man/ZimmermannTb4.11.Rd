@@ -32,7 +32,6 @@ Dados de um ensaio com dez genótipos, quatro blocos e
 library(lattice)
 
 data(ZimmermannTb4.11)
-
 str(ZimmermannTb4.11)
 
 xyplot(alt ~ geno, groups = bloco,

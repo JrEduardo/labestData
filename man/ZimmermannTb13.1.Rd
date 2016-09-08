@@ -34,6 +34,7 @@ data(ZimmermannTb13.1)
 str(ZimmermannTb13.1)
 
 splom(ZimmermannTb13.1, type = c("p", "smooth"))
+
 }
-\keyword{REG}
+\keyword{RM}
 

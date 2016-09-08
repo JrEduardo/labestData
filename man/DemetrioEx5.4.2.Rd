@@ -2,21 +2,21 @@
 % Please edit documentation in R/Demetrio.R
 \name{DemetrioEx5.4.2}
 \alias{DemetrioEx5.4.2}
-\title{Estudo F\enc{í}{i}sico Qu\enc{í}{i}mico de M\enc{é}{e}is Silvestres}
-\format{Um \code{data.frame} de 94 linhas e 3 colunas.
+\title{Estudo F\enc{í}{i}sico Qu\enc{í}{i}mico de M\enc{é}{e}is
+    Silvestres}
+\format{Um \code{data.frame} de 94 linhas e 3 colunas, em que
 
 \describe{
 
-    \item{\code{condut}}{Condutividade elétrica, em \eqn{\mu}S.}
-    
-    \item{\code{N}}{Proporção de Nitrogênio proteico.}
-    
-    \item{\code{cinzas}}{Proporção de cinzas.}
-    
+\item{\code{condut}}{Condutividade elétrica, em \eqn{\mu}S.}
+
+\item{\code{N}}{Proporção de Nitrogênio proteico.}
+
+\item{\code{cinzas}}{Proporção de cinzas.}
+
 }}
 \source{
-Demétrio, C. G. B., Zocchi, S. S. (2011). Modelos de
-    Regressão. Piracicaba: ESALQ. (Exercício 5.4.2 pág. 169)
+DEMÉTRIO; ZOCCHI (2011), Exercício 5.4.2 pág. 169.
 }
 \description{
 Análise físico química de méis silvestres, produzidos
@@ -26,10 +26,11 @@ Análise físico química de méis silvestres, produzidos
 \examples{
 
 data(DemetrioEx5.4.2)
+str(DemetrioEx5.4.2)
 
 pairs(~ condut + N + cinzas, data = DemetrioEx5.4.2,
-    main = "Gráfico de Pares")
-     
+      main = "Gráfico de Pares")
+
 }
 \keyword{RM}
 

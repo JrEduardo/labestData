@@ -51,5 +51,5 @@ useOuterStrips(xyplot(alt ~ nitr + pota | epoc, outer = TRUE,
                    factor.levels = c("Nitrogênio", "Potássio")))
 
 }
-\keyword{FAT3}
+\keyword{FAT3ao3}
 

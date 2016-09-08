@@ -16,7 +16,7 @@
 
 }}
 \source{
-VIEIRA (1999), Tabela 7.2, pág. 74 .
+VIEIRA (1999), Tabela 7.2, pág. 74.
 }
 \description{
 Dados que refere-se ao número de ovos por poedeira 35

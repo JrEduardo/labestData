@@ -2,8 +2,9 @@
 % Please edit documentation in R/Charnet.R
 \name{CharnetEx8.4}
 \alias{CharnetEx8.4}
-\title{Pe\enc{ç}{c}as Defeituosas por Produ\enc{çã}{ca}o M\enc{é}{e}dia e Tempo de Reparo}
-\format{Um \code{data.frame} com 3 colunas e 15 linhas.
+\title{Pe\enc{ç}{c}as Defeituosas por Produ\enc{çã}{ca}o
+    M\enc{é}{e}dia e Tempo de Reparo}
+\format{Um \code{data.frame} com 3 colunas e 15 linhas, em que
 
 \describe{
 
@@ -16,10 +17,8 @@
 
 }}
 \source{
-Charnet, R., de Luna Freire, C.A., Charnet, E.M.R., Bonvino,
-    H. (2008). Análise de modelos de regressão linear com aplicações
-    (2nd ed.). Campinas, SP: Editora Unicamp (Capítulo 8, exercício
-    4, pág. 196, Capítulo 9, exercício 7, pág. 230)
+CHARNET et al. (2008), Capítulo 8, exercício 4, pág. 196;
+    Capítulo 9, exercício 7, pág. 230.
 }
 \description{
 Relação da quantidade de peças defeituosas por produção
@@ -28,6 +27,7 @@ Relação da quantidade de peças defeituosas por produção
 \examples{
 
 data(CharnetEx8.4)
+str(CharnetEx8.4)
 
 plot(CharnetEx8.4)
 

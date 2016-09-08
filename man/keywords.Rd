@@ -21,7 +21,8 @@ As keywords servem para classificar os conjuntos de
     exercício, por exemplo.
 }
 \details{
-As keywords estão organizadas por tema e descritas abaixo.
+As keywords estão organizadas por tema e estão descritas nas
+    tabelas abaixo.
 
 \describe{
 
@@ -44,7 +45,6 @@ As keywords estão organizadas por tema e descritas abaixo.
      proporção            \tab  Resposta do tipo proporção           \cr
      positivo-assimétrico \tab  Reposta positiva assimétrica
    }
-
 }
 
 \item{Planejamento e análise de experimentos}{
@@ -72,6 +72,27 @@ As keywords estão organizadas por tema e descritas abaixo.
      desbalanceado \tab  Experimento desbalanceado                               \cr
      contrastes    \tab  Fator com níveis para aplicação de contrastes planejados\cr
      confundimento \tab  Experimento com confundimento de efeitos
+   }
+}
+
+\item{Modelos de regressão}{
+   \tabular{ll}{
+     MLG    \tab  Modelo linear generalizado\cr
+     RegSeg \tab  Regressão segmentada      \cr
+     REG    \tab  Regressão                 \cr
+     RL     \tab  Regressão linear          \cr
+     RS     \tab  Regressão linear simples  \cr
+     RM     \tab  Regressão múltipla        \cr
+     RP     \tab  Regressão polinomial
+   }
+}
+
+\item{Outras áreas da Estatística}{
+   \tabular{ll}{
+     CEQ           \tab  Controle estatístico da qualidade\cr
+     TS            \tab  Séries temporais                 \cr
+     sensorial     \tab  Análise sensorial                \cr
+     sobrevivencia \tab  Análise de sobrevivência
    }
 }
 

@@ -2,35 +2,36 @@
 % Please edit documentation in R/Epprecht.R
 \name{EpprechtTb8.14}
 \alias{EpprechtTb8.14}
-\title{Controle de Qualidade para o N\enc{ú}{u}mero de Defeitos na Montagem 
-de Placas de Circuito}
-\format{Um \code{data.frame} com 20 observações e 1 variável, 
-    em que
+\title{Controle de Qualidade para o N\enc{ú}{u}mero de Defeitos na
+    Montagem de Placas de Circuito}
+\format{Um \code{data.frame} com 20 observações e 1 variável, em que
 
 \describe{
 
-\item{\code{nconf}}{Número de não-conformidades encontradas na amostra.}
+\item{\code{nconf}}{Número de não-conformidades encontradas na
+    amostra.}
 
 }}
 \source{
-Costa, A. F. B., Epprecht, E. K., Carpinetti, L. (2010).
-     Controle Estatístico de Qualidade (2nd ed.). São Paulo - SP:
-     Editora Atlas. (pg 230).
+COSTA et al. (2010), pág. 230.
 }
 \description{
-Para monitorar um processo de montagem de placas de 
-    circuitos foram registrados os números de componentes montados 
+Para monitorar um processo de montagem de placas de
+    circuitos foram registrados os números de componentes montados
     erradamente a cada 5 placas (cada amostra consiste de 5 placas).
 }
 \examples{
 
-data(EpprechtTb8.14) 
+data(EpprechtTb8.14)
+str(EpprechtTb8.14)
 
 library(qcc)
 
-qcc(EpprechtTb8.14, type="c", size=5,
-    xblab="Amostras", ylab="Número de itens não conformes", title=" ")
-                  
+qcc(EpprechtTb8.14, type = "c", size = 5,
+    xlab = "Amostras",
+    ylab = "Número de itens não conformes",
+    title = "")
+
 }
 \keyword{CEQ}
 

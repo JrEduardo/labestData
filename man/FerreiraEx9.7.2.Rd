@@ -21,12 +21,11 @@
 
 }
 
-O tipo de carne é indicado conforme nomenclatura das linhas do
+    O tipo de carne é indicado conforme nomenclatura das linhas do
     \code{data.frame}. Os tipos de carne marisco, siri e camarão são
     todos enlatados.}
 \source{
-Ferreira, D. F. (2011). Estatística Multivariada (2nd
-    ed.). Lavras, MG: Editora UFLA. (Exercício 9.7.2, pág. 409)
+FERREIRA (2011), Exercício 9.7.2, pág. 409.
 }
 \description{
 Dados provenientes de um estudo onde avaliou-se as
@@ -42,7 +41,7 @@ FerreiraEx9.7.2
 
 (cl2 <- kmeans(FerreiraEx9.7.2, 2))
 (cl3 <- kmeans(FerreiraEx9.7.2, 3))
-cbind("k=2" = cl2$cluster, "k=3" = cl3$cluster)
+cbind("k = 2" = cl2$cluster, "k = 3" = cl3$cluster)
 
 (D <- dist(FerreiraEx9.7.2))
 hc <- hclust(D)
@@ -50,7 +49,7 @@ plot(as.dendrogram(hc), main = "Dendograma")
 rect.hclust(hc, k = 2, border = 2)
 rect.hclust(hc, k = 3, border = 4)
 legend("topright", lty = 1, col = c(2, 4), bty = "n",
-       legend = c("2 grupos (k=2)", "3 grupos (k=3)"))
+       legend = c("2 grupos (k = 2)", "3 grupos (k = 3)"))
 
 }
 \references{

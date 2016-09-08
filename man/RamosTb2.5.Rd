@@ -2,7 +2,7 @@
 % Please edit documentation in R/Ramos.R
 \name{RamosTb2.5}
 \alias{RamosTb2.5}
-\title{Resist\enc{ê}{e}ncia \enc{à}{a} ruptura de garrafas}
+\title{Resist\enc{ê}{e}ncia \enc{à}{a} Ruptura de Garrafas}
 \format{Um \code{data.frame} com 9 observações e 2 variáveis, em que
 
 \describe{
@@ -13,22 +13,19 @@
 
 }}
 \source{
-Ramos, E. M. L. S., et al.(2013). 
-    Controle Estatístico da Qualidade (1th ed.). 
-    Porto Alegre, RS: Bookman. (pg 29).
+RAMOS et al. (2013), pág. 29.
 }
 \description{
-Distribuição de frequências para as 
-    resistências à  ruptura de 100 garrafas de 
-    refrigerante de um litro.
+Distribuição de frequências para as resistências à
+    ruptura de 100 garrafas de refrigerante de um litro.
 }
 \examples{
 
 data(RamosTb2.5)
+str(RamosTb2.5)
 
-barplot(RamosTb2.5$freq, names=RamosTb2.5$forca, 
-      xlab = 'Resistência', ylab = 'Frequência')
-
+barplot(RamosTb2.5$freq, names = RamosTb2.5$forca,
+        xlab = "Resistência", ylab = "Frequência")
 
 }
 \keyword{CEQ}

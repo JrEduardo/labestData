@@ -2,7 +2,7 @@
 % Please edit documentation in R/Manly.R
 \name{ManlyTb1.5}
 \alias{ManlyTb1.5}
-\title{Emprego em paises europeus}
+\title{Emprego em Paises Europeus}
 \format{Um \code{data.frame} com 30 registros em 11 variáveis.
 
 \describe{
@@ -10,12 +10,14 @@
 \item{\code{pais}}{Identificação do país.}
 
 \item{\code{grup}}{Grupo econômico ao qual pertencente o país: União
-     Europeia (UE); Área europeia de livre comércio (AELC); Leste; Outro}
+     Europeia (UE); Área europeia de livre comércio (AELC); Leste;
+     Outro}
 
-\item{\code{afp}}{Porcentagem da população ativa empregada na agricultura,
-     florestal e pesca.}
+\item{\code{afp}}{Porcentagem da população ativa empregada na
+     agricultura, florestal e pesca.}
 
-\item{\code{mep}}{Porcentagem empregada na mineração e exploração de pedreiras.}
+\item{\code{mep}}{Porcentagem empregada na mineração e exploração de
+    pedreiras.}
 
 \item{\code{fab}}{Porcentagem empregada nas fábricas.}
 
@@ -36,21 +38,20 @@
 
 }}
 \source{
-Manly, B. J. F. (2005). Métodos Estatísticos Multivariados-
-     uma introdução. Porto Alegre, RS: Bookman (pg 22)
+MANLY (2005), pág. 22.
 }
 \description{
-Porcentagens da força de trabalho de empregados para nove
-diferentes campos de trabalho em 30 países europeus
+Porcentagens da força de trabalho de empregados para
+    nove diferentes campos de trabalho em 30 países europeus
 }
 \examples{
 
 data(ManlyTb1.5)
+str(ManlyTb1.5)
 
 pairs(~afp + mep + fab + fea + con + ser + fin + ssp + tc,
-      data = ManlyTb1.5,
-      main="Matriz das variáveis de força de trabalho"
-      )
+      data = ManlyTb1.5)
+
 }
 \keyword{AnaAgrup}
 

@@ -3,7 +3,7 @@
 \name{CharnetEx3.3}
 \alias{CharnetEx3.3}
 \title{Res\enc{í}{i}duo Catalisado de um Experimento Qu\enc{í}{i}mico}
-\format{Um \code{data.frame} com 2 colunas e 50 linhas.
+\format{Um \code{data.frame} com 2 colunas e 50 linhas, em que
 
 \describe{
 
@@ -13,10 +13,8 @@
 
 }}
 \source{
-Charnet, R., de Luna Freire, C.A., Charnet, E.M.R., Bonvino,
-    H. (2008). Análise de modelos de regressão linear com aplicações
-    (2nd ed.). Campinas, SP: Editora Unicamp (Capítulo 3, exercício
-    3, pág. 66, Capítulo 5, exercício 12, pág. 113)
+CHARNET et al. (2008), Capítulo 3, exercício
+    3, pág. 66; Capítulo 5, exercício 12, pág. 113.
 }
 \description{
 Quantidade de resíduo catalisado, em gramas,
@@ -26,7 +24,9 @@ Quantidade de resíduo catalisado, em gramas,
 \examples{
 
 data(CharnetEx3.3)
+str(CharnetEx3.3)
 
+xtabs(~temp, data = CharnetEx3.3)
 plot(CharnetEx3.3)
 
 }

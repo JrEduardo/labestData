@@ -3,7 +3,7 @@
 \name{BarbinEx16}
 \alias{BarbinEx16}
 \title{Efeito de Sistemas de Plantio na Produtividade de
-    Cana-de-a\enc{çú}{cu}car}
+    Cana-de-açúcar}
 \format{Um \code{data.frame} com 40 observações e 4 variáveis, em que
 
 \describe{
@@ -57,6 +57,5 @@ xyplot(prod ~ cort, groups = interaction(sulc, rept),
        ylab = "Produtividade de cana-de-açúcar (t/ha)")
 
 }
-\keyword{FAT2}
 \keyword{PS}
 

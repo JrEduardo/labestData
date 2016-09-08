@@ -59,7 +59,5 @@ xyplot(prod ~ ano, groups = espac,
                        title = "Espaçamentos (m x m)"))
 
 }
-\keyword{DBC}
-\keyword{FAT2}
 \keyword{PS}
 

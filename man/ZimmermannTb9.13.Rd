@@ -2,8 +2,7 @@
 % Please edit documentation in R/Zimmermann.R
 \name{ZimmermannTb9.13}
 \alias{ZimmermannTb9.13}
-\title{Mat\enc{é}{e}ria Seca de Feij\enc{ã}{a}o em Fatorial 3
-    \eqn{\times} 3}
+\title{Mat\enc{é}{e}ria Seca de Feij\enc{ã}{a}o}
 \format{Um \code{data.frame} com 27 observações e 4 variáveis, em que
 
 \describe{
@@ -51,5 +50,5 @@ xyplot(lms ~ dens, data = ZimmermannTb9.13,
        ylab = "log da matéria seca")
 
 }
-\keyword{FAT}
+\keyword{FAT3ao3}
 

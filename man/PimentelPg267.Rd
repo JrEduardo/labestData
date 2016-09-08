@@ -20,8 +20,7 @@
 
 }}
 \source{
-Pimentel-Gomes, F. (2009). Curso de Estatística
-    Experimental (15th ed.). Piracicaba, SP: FEALQ. (Página 267)
+PIMENTEL-GOMES (2009), Página 267.
 
 Torres, A. P., Pimentel-Gomes, F. Substituição de subprodutos de
     trigo pelo sorgo moído na alimentação de pintos. Escola Superior
@@ -52,4 +51,5 @@ xyplot(peso ~ sorgo, data = PimentelPg267,
 
 }
 \keyword{DIC}
+\keyword{FAT2}
 

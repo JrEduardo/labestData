@@ -2,7 +2,8 @@
 % Please edit documentation in R/Dias.R
 \name{DiasEx6.5.10}
 \alias{DiasEx6.5.10}
-\title{Correla\enc{çã}{ca}o entre Produ\enc{çã}{ca}o e Di\enc{â}{a}metro}
+\title{Correla\enc{çã}{ca}o entre Produ\enc{çã}{ca}o e
+    Di\enc{â}{a}metro}
 \format{Um \code{data.frame} com 8 observações e 3 variáveis, em que
 
 \describe{
@@ -30,6 +31,5 @@ xyplot(prod ~ diam, data = DiasEx6.5.10, type = c("p", "r"),
        xlab = "Produção (gramas)", ylab = "Diâmetro (cm)")
 
 }
-\keyword{AAS}
-\keyword{RL}
+\keyword{RS}
 

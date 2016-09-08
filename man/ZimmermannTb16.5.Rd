@@ -20,7 +20,7 @@
 
 }}
 \source{
-ZIMMERMANN (2004), Tabela 16.5, pág. 347.
+ZIMMERMANN (2004), Tabela 16.5, pág 347.
 }
 \description{
 Experimento realizado em delineamento em blocos
@@ -62,5 +62,5 @@ xyplot(posto ~ dias, data = ZimmermannTb16.5,
 
 }
 \keyword{DIC}
-\keyword{sobrevivencia}
+\keyword{sobrevivência}
 

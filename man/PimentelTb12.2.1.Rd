@@ -18,9 +18,7 @@
 
 }}
 \source{
-Pimentel-Gomes, F. (2009). Curso de Estatística
-    Experimental (15th ed.). Piracicaba, SP: FEALQ. (Tabela 12.2.1,
-    pág. 232)
+PIMENTEL-GOMES (2009), Tabela 12.2.1, pág. 232.
 }
 \description{
 Experimento de adubação de milho feito pelos engenheiros
@@ -53,5 +51,5 @@ xyplot(prod ~ P2O5,
 
 
 }
-\keyword{RP}
+\keyword{RS}
 

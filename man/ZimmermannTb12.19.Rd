@@ -2,9 +2,9 @@
 % Please edit documentation in R/Zimmermann.R
 \name{ZimmermannTb12.19}
 \alias{ZimmermannTb12.19}
-\title{Produtividade de feij\enc{ã}{a}o em ensaio de
-    competi\enc{çã}{ca}o de cultivares}
-\format{Um \code{data.frame} com 36 observações e 3 variáveis
+\title{Produtividade de feij\enc{ã}{a}o em Ensaio de
+    Competi\enc{çã}{ca}o de Cultivares}
+\format{Um \code{data.frame} com 36 observações e 3 variáveis, em que
 
 \describe{
 
@@ -18,7 +18,7 @@
 
 }}
 \source{
-ZIMMERMANN (2004), Tabela 12.19, pág. 258.
+ZIMMERMANN (2004), Tabela 12.19, pág 258.
 }
 \description{
 Dados do ensaio 1 de um experimento em DBC de competição
@@ -33,7 +33,6 @@ Dados do ensaio 1 de um experimento em DBC de competição
 library(lattice)
 
 data(ZimmermannTb12.19)
-
 str(ZimmermannTb12.19)
 
 xyplot(prod ~ cult, data = ZimmermannTb12.19,

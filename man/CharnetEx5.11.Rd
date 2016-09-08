@@ -2,8 +2,9 @@
 % Please edit documentation in R/Charnet.R
 \name{CharnetEx5.11}
 \alias{CharnetEx5.11}
-\title{Rela\enc{çã}{ca}o do Lucro de uma Loja e Gastos com Publicidade}
-\format{Um \code{data.frame} com 2 colunas e 19 linhas.
+\title{Rela\enc{çã}{ca}o do Lucro de uma Loja e Gastos com
+    Publicidade}
+\format{Um \code{data.frame} com 2 colunas e 19 linhas, em que
 
 \describe{
 
@@ -13,10 +14,8 @@
 
 }}
 \source{
-Charnet, R., de Luna Freire, C.A., Charnet, E.M.R., Bonvino,
-    H. (2008). Análise de modelos de regressão linear com aplicações
-    (2nd ed.). Campinas, SP: Editora Unicamp (Capítulo 5, exercício
-    11, pág. 112, Capítulo 6, exercício 5, pág. 143)
+CHARNET et al. (2008), Capítulo 5, exercício 11, pág. 112;
+    Capítulo 6, exercício 5, pág. 143.
 }
 \description{
 Relação do lucro de uma loja de eletrônicos e seu gasto
@@ -25,8 +24,10 @@ Relação do lucro de uma loja de eletrônicos e seu gasto
 \examples{
 
 data(CharnetEx5.11)
+str(CharnetEx5.11)
 
-plot(CharnetEx5.11)
+plot(lucro ~ gastos, data = CharnetEx5.11)
+plot(lucro ~ gastos, data = CharnetEx5.11, log = "xy")
 
 }
 \keyword{RS}

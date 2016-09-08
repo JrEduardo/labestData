@@ -17,8 +17,7 @@
 
 }}
 \source{
-D. F. (2011). Estatística Multivariada (2nd ed.). Lavras, MG:
-    Editora UFLA. (Exercício 10.11.9, pág. 487)
+FERREIRA (2011), Exercício 10.11.9, pág. 487.
 }
 \description{
 Dados provenientes de uma amostra de tamanho \eqn{n =
@@ -51,5 +50,5 @@ biplot(comp, pc.biplot = TRUE)
 cor(FerreiraEx10.11.9, comp$x)
 
 }
-\keyword{TODO}
+\keyword{AnaComPrin}
 

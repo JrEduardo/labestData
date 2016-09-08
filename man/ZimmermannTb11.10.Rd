@@ -24,7 +24,7 @@
 
 }}
 \source{
-ZIMMERMANN (2004), Tabela 11.10, pág 231.
+ZIMMERMANN (2004), pág. 231.
 }
 \description{
 Dados de um experimento fatorial \eqn{3^2}, com a
@@ -41,7 +41,6 @@ Dados de um experimento fatorial \eqn{3^2}, com a
 library(lattice)
 
 data(ZimmermannTb11.10)
-
 str(ZimmermannTb11.10)
 
 ftable(xtabs(~espac + dens + rept, data = ZimmermannTb11.10))
@@ -60,6 +59,6 @@ xyplot(altura ~ factor(espac) | rept, groups = dens,
 
 }
 \keyword{DBC}
-\keyword{FAT}
+\keyword{FAT2ao3}
 \keyword{confundimento}
 

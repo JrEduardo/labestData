@@ -3,36 +3,33 @@
 \name{EpprechtTb6.9}
 \alias{EpprechtTb6.9}
 \title{Volume de Refrigerante em Garrafas Pl\enc{á}{a}sticas}
-\format{Um \code{data.frame} com 60 observações e 2 variáveis, 
-    em que
+\format{Um \code{data.frame} com 60 observações e 2 variáveis, em que
 
 \describe{
 
 \item{\code{amostra}}{Identificação da amostra.}
- 
+
 \item{\code{vol}}{Volumes registrados.}
 
 }}
 \source{
-Costa, A. F. B., Epprecht, E. K., Carpinetti, L. (2010).
-     Controle Estatístico de Qualidade (2nd ed.). São Paulo - SP:
-     Editora Atlas. (pg 180).
+COSTA et al. (2010), pág. 180.
 }
 \description{
-Os dados referem-se aos volumes de refrigerante em 
-    20 amostras, cada uma delas composta por 3 garrafas.
+Os dados referem-se aos volumes de refrigerante emq 20
+    amostras, cada uma delas composta por 3 garrafas.
 }
 \examples{
 
 data(EpprechtTb6.9)
+str(EpprechtTb6.9)
 
 library(qcc)
 
 obj <- qcc.groups(EpprechtTb6.9$vol, EpprechtTb6.9$amostra)
-qcc(obj, type="xbar", nsigmas=3,
-    xlab="Amostra", ylab="Volume", title=" ")
+qcc(obj, type = "xbar", nsigmas = 3,
+    xlab = "Amostra", ylab = "Volume", title = "")
 
-                  
 }
 \keyword{CEQ}
 

@@ -3,7 +3,7 @@
 \name{CharnetEx5.3}
 \alias{CharnetEx5.3}
 \title{Precis\enc{ã}{a}o de um Veloc\enc{í}{i}metro}
-\format{Um \code{data.frame} com 2 colunas e 8 linhas.
+\format{Um \code{data.frame} com 2 colunas e 8 linhas, em que
 
 \describe{
 
@@ -13,10 +13,7 @@
 
 }}
 \source{
-Charnet, R., de Luna Freire, C.A., Charnet, E.M.R., Bonvino,
-    H. (2008). Análise de modelos de regressão linear com aplicações
-    (2nd ed.). Campinas, SP: Editora Unicamp (Capítulo 5, exercício
-    3, pág. 109)
+CHARNET et al. (2008), Capítulo 5, exercício 3, pág. 109.
 }
 \description{
 Medição da precisão de um velocímetro de locomotiva.
@@ -24,9 +21,10 @@ Medição da precisão de um velocímetro de locomotiva.
 \examples{
 
 data(CharnetEx5.3)
+str(CharnetEx5.3)
 
-plot(CharnetEx5.3)
-abline(a = 0, b = 1)
+plot(CharnetEx5.3, asp = 1)
+abline(a = 0, b = 1, lty = 2)
 
 }
 \keyword{RS}

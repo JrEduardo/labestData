@@ -25,7 +25,7 @@ BARBIN (2013), pág. 104.
 }
 \description{
 Experimento em delineamento quadrado latino que avaliou
-    a produção de cultivares de cana-ade-açúcar.
+    a produção de cultivares de cana-de-açúcar.
 }
 \examples{
 

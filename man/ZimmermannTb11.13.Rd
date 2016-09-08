@@ -43,7 +43,6 @@ Dados de um experimento fatorial \eqn{3^3}, com
 library(lattice)
 
 data(ZimmermannTb11.13)
-
 str(ZimmermannTb11.13)
 
 ftable(xtabs(~fosf + calc + zinco,
@@ -65,6 +64,6 @@ xyplot(prod ~ factor(fosf) | factor(calc),
 
 }
 \keyword{DBC}
-\keyword{FAT}
+\keyword{FAT3ao3}
 \keyword{confundimento}
 

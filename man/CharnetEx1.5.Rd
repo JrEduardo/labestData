@@ -5,10 +5,7 @@
 \title{Tempo de Dura\enc{çã}{ca}o do Intervalo para o Cafezinho}
 \format{Um \code{vetor} numérico com 20 observações.}
 \source{
-Charnet, R., de Luna Freire, C.A., Charnet, E.M.R., Bonvino,
-    H. (2008). Análise de modelos de regressão linear com aplicações
-    (2nd ed.). Campinas, SP: Editora Unicamp (Capítulo 1, exercício
-    5, pág. 23)
+CHARNET et al. (2008), Capítulo 1, exercício 5, pág. 23.
 }
 \description{
 Tempo de duração do intervalo para o cafezinho para uma
@@ -17,6 +14,7 @@ Tempo de duração do intervalo para o cafezinho para uma
 \examples{
 
 data(CharnetEx1.5)
+str(CharnetEx1.5)
 
 (m <- mean(CharnetEx1.5))
 (s <- sd(CharnetEx1.5))
@@ -28,5 +26,5 @@ curve(dnorm(x, m, s),
 hist(CharnetEx1.5, prob = TRUE, add = TRUE)
 rug(CharnetEx1.5)
 }
-\keyword{amostra}
+\keyword{AAS}
 

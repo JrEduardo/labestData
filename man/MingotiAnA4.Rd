@@ -2,15 +2,15 @@
 % Please edit documentation in R/Mingoti.R
 \name{MingotiAnA4}
 \alias{MingotiAnA4}
-\title{Dados relativos \enc{à}{a}s empresas}
+\title{Dados Relativos \enc{à}{a}s Empresas}
 \format{Um \code{data.frame} com 46 observações e 6 variáveis, em que
 
 \describe{
 
 \item{\code{emp}}{Identificação da empresa.}
 
-\item{\code{grp}}{Fator que indica o grupo em que a empresa está situada
-    (1 = se a empresa faliu, 2 = se a empresa não faliu).}
+\item{\code{grp}}{Fator que indica o grupo em que a empresa está
+    situada (1 = se a empresa faliu, 2 = se a empresa não faliu).}
 
 \item{\code{x1}}{Fluxo de caixa/ total de débitos.}
 
@@ -22,9 +22,7 @@
 
 }}
 \source{
-Mingoti, S.A. (2005). Análise de dados através de métodos de 
-     estatística multivariada - uma abordagem aplicada. 
-     Belo Horizonte, MG: Editora UFMG. (pg 290).
+MINGOTI (2005), pág. 290.
 }
 \description{
 Dados de 21 empresas, coletados aproximadamente 2 anos
@@ -33,16 +31,17 @@ Dados de 21 empresas, coletados aproximadamente 2 anos
 }
 \examples{
 
-data(MingotiAnA4) 
+data(MingotiAnA4)
+str(MingotiAnA4)
 
 library(car)
 
-scatterplotMatrix(~ x1 + x2 + x3 + x4 | grp, data=MingotiAnA4, 
-     reg.line = FALSE,
-     spread = FALSE, 
-     smoother = FALSE,
-     main = "Dispersão das variáveis de medidas para os dois grupos")
-                  
+scatterplotMatrix(~x1 + x2 + x3 + x4 | grp,
+                  data = MingotiAnA4,
+                  reg.line = FALSE,
+                  spread = FALSE,
+                  smoother = FALSE)
+
 }
 \keyword{AnaComPrin}
 

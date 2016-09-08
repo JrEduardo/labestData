@@ -2,34 +2,35 @@
 % Please edit documentation in R/Epprecht.R
 \name{EpprechtTb8.8}
 \alias{EpprechtTb8.8}
-\title{Controle de qualidade para o n\enc{ú}{u}mero de n\enc{ã}{a}o-conformidades em geladeiras}
-\format{Um \code{data.frame} com 40 observações e 1 variável, 
-    em que
+\title{Controle de Qualidade para o N\enc{ú}{u}mero de
+    N\enc{ã}{a}o-conformidades em Geladeiras}
+\format{Um \code{data.frame} com 40 observações e 1 variável, em que
 
 \describe{
 
-\item{\code{nconf}}{Número de não-conformidades.} 
+\item{\code{nconf}}{Número de não-conformidades.}
 
 }}
 \source{
-Costa, A. F. B., Epprecht, E. K., Carpinetti, L. (2010).
-     Controle Estatístico de Qualidade (2nd ed.). São Paulo - SP:
-     Editora Atlas. (pg 222).
+COSTA et al. (2010), pág. 222.
 }
 \description{
-Dados referentes aos números de não-conformidades  
-    em 40 amostras de cinco geladeiras. Foi suposto que o processo
-    operava sob controle nesse período.
+Dados referentes aos números de não-conformidades em 40
+    amostras de cinco geladeiras. Foi suposto que o processo operava
+    sob controle nesse período.
 }
 \examples{
 
-data(EpprechtTb8.8) 
+data(EpprechtTb8.8)
+str(EpprechtTb8.8)
 
 library(qcc)
 
-qcc(EpprechtTb8.8, type="c", size=5,
-    xlab="Amostra", ylab="Número de não-conformidades", title=" ")
-                  
+qcc(EpprechtTb8.8, type = "c", size = 5,
+    xlab = "Amostra",
+    ylab = "Número de não-conformidades",
+    title = "")
+
 }
 \keyword{CEQ}
 

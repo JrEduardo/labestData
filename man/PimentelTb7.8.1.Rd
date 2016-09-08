@@ -23,9 +23,7 @@
 
 }}
 \source{
-Pimentel-Gomes, F. (2009). Curso de Estatística
-    Experimental (15th ed.). Piracicaba, SP: FEALQ. (Tabela 7.8.1,
-    pág 132)
+PIMENTEL-GOMES (2009), Tabela 7.8.1, pág. 132.
 
 Simão, S. Estudo da planta e dos frutos da mangueira (\emph{Magnifera
     indica} L.). Piracicaba, 1960. Tese.
@@ -52,6 +50,5 @@ xyplot(acidez ~ mes | factor(ano), groups = varied,
        ylab = "Acidez do fruto")
 
 }
-\keyword{FAT3}
-\keyword{PS}
+\keyword{PSS}
 

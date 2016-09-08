@@ -4,6 +4,7 @@
 \alias{PaulaEg1.12.4}
 \title{Desenvolvimento de Massa Tumoral em Ratos}
 \format{Um \code{data.frame} com 204 observações e 4 variáveis.
+
 \describe{
 
 \item{\code{grupo}}{Grupo de passagem (0 a 28).}
@@ -16,8 +17,7 @@
 
 }}
 \source{
-Paula, G. A. (2004). Modelos de regressão: com apoio
-    computacional. São Paulo, SP: IME-USP. (Eg 1.12.4, pág. 90)
+PAULA (2004), Eg 1.12.4, pág. 90.
 }
 \description{
 Estudo realizado para avaliar a influência da série
@@ -40,18 +40,14 @@ xyplot(tempo ~ grupo | massat,
        type = c("p", "smooth"),
        xlab = "Grupo",
        ylab = "Tempo",
-       main = paste("Tempo de sobrevivência vs grupo de passagem\\n",
-                    "(segundo caquexia e presença de massa tumoral)"),
        auto.key = list(space = "top", columns = 2,
                        title = "Presença de caquexia", cex.title = 1,
                        lines = TRUE, points = FALSE))
 
-bwplot(tempo ~ massat | caq,
+bwplot(tempo ~ massat | caq, pch = "|",
        data = PaulaEg1.12.4,
        ylab = "Tempo",
-       xlab = "Presença de massa tumoral",
-       main = paste("Bwplot para Caquexia não Presente\\n",
-                    "(à esquerda) ou Presente (à direita)"))
+       xlab = "Presença de massa tumoral")
 
 }
 \keyword{MLG}

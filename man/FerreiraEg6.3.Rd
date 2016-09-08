@@ -2,7 +2,8 @@
 % Please edit documentation in R/Ferreira.R
 \name{FerreiraEg6.3}
 \alias{FerreiraEg6.3}
-\title{Avalia\enc{çã}{ca}o dos Solos de Pastagem e Capoeira Nova da Amaz\enc{ô}{o}nia}
+\title{Avalia\enc{çã}{ca}o dos Solos de Pastagem e Capoeira Nova da
+    Amaz\enc{ô}{o}nia}
 \format{Um \code{data.frame} com 43 observações e 4 variáveis, em que
 
 \describe{
@@ -19,8 +20,7 @@
 
 }}
 \source{
-Ferreira, D. F. (2011). Estatística Multivariada (2nd
-    ed.). Lavras, MG: Editora UFLA. (Exemplo 6.3 pág. 240-241 e
+FERREIRA (2011), (Exemplo 6.3 pág. 240-241 e
     exemplo 6.6 pág. 268-269)
 }
 \description{
@@ -33,7 +33,6 @@ Os dados referem-se a avaliação de parcelas de solo da
 \examples{
 
 data(FerreiraEg6.3)
-
 str(FerreiraEg6.3)
 
 library(lattice)
@@ -47,5 +46,6 @@ by(FerreiraEg6.3[2:4], FerreiraEg6.3[1], cov)
 by(FerreiraEg6.3[2:4], FerreiraEg6.3[1], cor)
 
 }
-\keyword{TODO}
+\keyword{AASM}
+\keyword{manova}
 

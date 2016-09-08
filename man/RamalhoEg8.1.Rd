@@ -53,6 +53,5 @@ aggregate(prod ~ cult + local,  data = RamalhoEg8.1,
           FUN = function(x) { c(mean = mean(x), var = var(x)) })
 
 }
-\keyword{DBC}
 \keyword{GE}
 

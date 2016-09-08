@@ -16,8 +16,7 @@
 
 }}
 \source{
-Ferreira, D. F. (2011). Estatística Multivariada (2nd
-    ed.). Lavras, MG: Editora UFLA. (Exercício 7.4.1 pág. 328)
+FERREIRA (2011), Exercício 7.4.1 pág. 328.
 }
 \description{
 Dados referentes a um estudo com animais avaliados antes
@@ -26,7 +25,9 @@ Dados referentes a um estudo com animais avaliados antes
     dieta nas variáveis peso e teor de proteína.
 }
 \examples{
+
 data(FerreiraEx7.4.1)
+str(FerreiraEx7.4.1)
 
 aggregate(peso ~ fase, data = FerreiraEx7.4.1, summary)
 aggregate(teor ~ fase, data = FerreiraEx7.4.1, summary)
@@ -56,5 +57,5 @@ with(FerreiraEx7.4.1, {
 })
 
 }
-\keyword{TODO}
+\keyword{manova}
 

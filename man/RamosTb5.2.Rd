@@ -2,7 +2,8 @@
 % Please edit documentation in R/Ramos.R
 \name{RamosTb5.2}
 \alias{RamosTb5.2}
-\title{Itens n\enc{ã}{a}o conformes no processo produtivo de ovos de galinha}
+\title{Itens n\enc{ã}{a}o Conformes no Processo Produtivo de Ovos de
+    Galinha}
 \format{Um \code{data.frame} com 30 observações e 3 variáveis, em que
 
 \describe{
@@ -12,17 +13,14 @@
 \item{\code{tamamostra}}{Número de unidades amostradas.}
 
 \item{\code{naoconf}}{Número de ovos não conformes na amostra.}
-    
+
 }}
 \source{
-Ramos, E. M. L. S., et al.(2013). 
-    Controle Estatístico da Qualidade (1th ed.). 
-    Porto Alegre, RS: Bookman. (pg 79).
+RAMOS et al. (2013), pág. 79.
 }
 \description{
-Número de ovos não conformes de um processo  
-    produtivo de ovos de galinha, com 30 amostras de 
-    tamanhos diferentes.
+Número de ovos não conformes de um processo produtivo de
+    ovos de galinha, com 30 amostras de tamanhos diferentes.
 }
 \examples{
 
@@ -31,8 +29,8 @@ data(RamosTb5.2)
 library(qcc)
 
 qcc(RamosTb5.2$naoconf, sizes = RamosTb5.2$tamamostra, type = "p",
-     xlab = "Amostra", ylab = "Fração de ovos não conformes", title =
-      "")
+    xlab = "Amostra", ylab = "Fração de ovos não conformes",
+    title = "")
 
 }
 \keyword{CEQ}

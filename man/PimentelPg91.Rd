@@ -29,13 +29,20 @@ Experimento em blocos casualizados realizado pelo
 
 library(lattice)
 
+data(PimentelPg91)
+str(PimentelPg91)
+
+xtabs(~aradura + bloco, data = PimentelPg91)
+
 xyplot(prod ~ aradura,
        jitter.x = TRUE,
        groups = bloco,
+       type = "o",
        data = PimentelPg91,
        xlab = "Aradura",
        ylab = "Produção")
 
 }
 \keyword{DBC}
+\keyword{replicata}
 

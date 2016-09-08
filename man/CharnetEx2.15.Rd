@@ -3,13 +3,13 @@
 \name{CharnetEx2.15}
 \alias{CharnetEx2.15}
 \title{Notas M\enc{é}{e}dias de Candidatos ao Vestibular}
-\format{Um \code{data.frame} com 9 colunas e 46 linhas.
+\format{Um \code{data.frame} com 9 colunas e 46 linhas, em que
 
 \describe{
 
 \item{\code{curso}}{Cursos ofertados no Vestibular.}
 
-\item{\code{per}}{Período ofertado (Diurno / Noturno)}
+\item{\code{per}}{Período ofertado (Diurno/Noturno)}
 
 \item{\code{cv}}{Relação Candidato/Vaga do curso.}
 
@@ -27,12 +27,10 @@
 
 }}
 \source{
-Charnet, R., de Luna Freire, C.A., Charnet, E.M.R., Bonvino,
-    H. (2008). Análise de modelos de regressão linear com aplicações
-    (2nd ed.). Campinas, SP: Editora Unicamp (Capítulo 2, exercício
-    15, pág. 50, Capítulo 7, exercício 3, pág. 164, Capítulo 8,
-    exercício 6, pág. 197, Capítulo 9, exercício 8, pág. 231,
-    Capítulo 10, exercício 3, pág. 254)
+CHARNET et al. (2008), Capítulo 2, exercício
+    15, pág. 50; Capítulo 7, exercício 3, pág. 164; Capítulo 8,
+    exercício 6, pág. 197; Capítulo 9, exercício 8, pág. 231;
+    Capítulo 10, exercício 3, pág. 254.
 }
 \description{
 Notas médias de candidatos ao vestibular da Unicamp em
@@ -41,14 +39,16 @@ Notas médias de candidatos ao vestibular da Unicamp em
 \examples{
 
 data(CharnetEx2.15)
+str(CharnetEx2.15)
 
+# detach("package:lattice")
 library(ggplot2)
 
 # Considerando a notas médias na prova de química
 qplot(cv, nq, data = CharnetEx2.15, color = qp,
       xlab = "Relação Candidatos Vaga",
       ylab = "Notas na Prova de Química",
-      main = "Notas na Prova de Química x Candidatos Vaga")
+      main = "Notas na Prova de Química x Candidatos Vaga") +
     geom_smooth(method = "lm", se = FALSE)
 
 # Considerando a notas médias geral (soma das notas de química,
@@ -56,7 +56,7 @@ qplot(cv, nq, data = CharnetEx2.15, color = qp,
 soma <- with(CharnetEx2.15, nq + nm + nh)
 qplot(cv, soma, data = CharnetEx2.15, color = qp,
       xlab = "Relação Candidatos Vaga",
-      ylab = "Soma das Notas")
+      ylab = "Soma das Notas") +
     geom_smooth(method = "lm", se = FALSE)
 
 # Correlação entre as variáveis numéricas (notas e relação
@@ -66,4 +66,5 @@ plot(CharnetEx2.15[, numcols])
 
 }
 \keyword{RM}
+\keyword{dummy}
 

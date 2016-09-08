@@ -3,7 +3,7 @@
 \name{CharnetEx3.9}
 \alias{CharnetEx3.9}
 \title{Consumo de Combust\enc{í}{i}vel por Velocidade}
-\format{Um \code{data.frame} com 2 colunas e 28 linhas.
+\format{Um \code{data.frame} com 2 colunas e 28 linhas, em que
 
 \describe{
 
@@ -13,10 +13,7 @@
 
 }}
 \source{
-Charnet, R., de Luna Freire, C.A., Charnet, E.M.R., Bonvino,
-    H. (2008). Análise de modelos de regressão linear com aplicações
-    (2nd ed.). Campinas, SP: Editora Unicamp (Capítulo 3, exercício
-    9, pág. 68)
+CHARNET et al. (2008), Capítulo 3, exercício 9, pág. 68.
 }
 \description{
 Teste feito com um certo tipo de carro, comparando o
@@ -26,6 +23,8 @@ Teste feito com um certo tipo de carro, comparando o
 \examples{
 
 data(CharnetEx3.9)
+str(CharnetEx3.9)
+xtabs(~velo, data = CharnetEx3.9)
 
 plot(CharnetEx3.9)
 

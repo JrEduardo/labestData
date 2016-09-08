@@ -4,7 +4,8 @@
 \alias{PaulaEx1.13.20}
 \title{Vendas de Telhados de Madeira}
 \format{Um \code{data.frame} com 26 observações e 5 variáveis.
-    \describe{
+
+\describe{
 
 \item{\code{gasto}}{Gasto com publicidade do produto (em mil
     dólares).}
@@ -22,26 +23,25 @@
 
 }}
 \source{
-Paula, G. A. (2004). Modelos de regressão: com apoio
-    computacional. São Paulo, SP: IME-USP. (Exercício 1.13.20,
-    pág. 110)
+PAULA (2004), Exercício 1.13.20, pág. 110.
 }
 \description{
-Dados referentes a vendas de um tipo de telhado de madeira
-    em 26 filiais de uma rede de lojas de construção. Um dos objetivos do
-    estudo é tentar prever o número esperado de telhados vendidos
-    dadas as demais variáveis registradas.
+Dados referentes a vendas de um tipo de telhado de
+    madeira em 26 filiais de uma rede de lojas de construção. Um dos
+    objetivos do estudo é tentar prever o número esperado de telhados
+    vendidos dadas as demais variáveis registradas.
 }
 \examples{
-data(PaulaEx1.13.20)
 
+data(PaulaEx1.13.20)
 str(PaulaEx1.13.20)
 
 library(lattice)
+
 splom(PaulaEx1.13.20,
       type = c("p", "g", "smooth"),
       col.line = 1)
 
 }
-\keyword{TODO}
+\keyword{RM}
 

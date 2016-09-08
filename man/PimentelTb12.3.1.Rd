@@ -34,5 +34,6 @@ xyplot(temperatura ~ ano,
        xlab = "Ano")
 
 }
-\keyword{RP}
+\keyword{RS}
+\keyword{TS}
 

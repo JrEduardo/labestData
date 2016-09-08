@@ -3,7 +3,7 @@
 \name{CharnetEx6.3}
 \alias{CharnetEx6.3}
 \title{Sal\enc{á}{a}rio Mensal de Formandos em Economia}
-\format{Um \code{data.frame} com 2 colunas e 35 linhas.
+\format{Um \code{data.frame} com 2 colunas e 35 linhas, em que
 
 \describe{
 
@@ -13,10 +13,7 @@
 
 }}
 \source{
-Charnet, R., de Luna Freire, C.A., Charnet, E.M.R., Bonvino,
-    H. (2008). Análise de modelos de regressão linear com aplicações
-    (2nd ed.). Campinas, SP: Editora Unicamp (Capítulo 6, exercício
-    3, pág. 143)
+CHARNET et al. (2008), Capítulo 6, exercício 3, pág. 143.
 }
 \description{
 Pesquisa de uma faculdade de economia sobre a evolução
@@ -25,6 +22,7 @@ Pesquisa de uma faculdade de economia sobre a evolução
 \examples{
 
 data(CharnetEx6.3)
+str(CharnetEx6.3)
 
 plot(CharnetEx6.3)
 

@@ -3,8 +3,7 @@
 \name{EpprechtTb7.5}
 \alias{EpprechtTb7.5}
 \title{Qualidade de um Processo}
-\format{Um \code{data.frame} com 15 observações e 1 variável, 
-    em que
+\format{Um \code{data.frame} com 15 observações e 1 variável, em que
 
 \describe{
 
@@ -12,27 +11,25 @@
 
 }}
 \source{
-Costa, A. F. B., Epprecht, E. K., Carpinetti, L. (2010).
-     Controle Estatístico de Qualidade (2nd ed.). São Paulo - SP:
-     Editora Atlas. (pg 198).
+COSTA et al. (2010), pág. 198.
 }
 \description{
-Uma característica de qualidade de um processo  
+Uma característica de qualidade de um processo
     monitorada por meio de quinze observações.
 }
 \examples{
 
 data(EpprechtTb7.5)
+str(EpprechtTb7.5)
 
 library(qcc)
 
+qcc(EpprechtTb7.5, type = "xbar.one", nsigmas = 3,
+     xblab = "", ylab = "Observações", title = "")
 
-qcc(EpprechtTb7.5, type="xbar.one", nsigmas=3,
-     xblab=" ", ylab="Observações", title=" ")
 ewma(EpprechtTb7.5, nsigmas = 3,plot = TRUE,
-     xblab=" ", ylab="Observações", title=" ")
+     xblab = "", ylab = "Observações", title = "")
 
-                  
 }
 \keyword{CEQ}
 \keyword{EWMA}

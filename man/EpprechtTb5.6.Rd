@@ -3,8 +3,7 @@
 \name{EpprechtTb5.6}
 \alias{EpprechtTb5.6}
 \title{Avalia\enc{çã}{ca}o das leituras de um micr\enc{ô}{o}metro}
-\format{Um \code{data.frame} com 10 observações e 2 variáveis, 
-    em que
+\format{Um \code{data.frame} com 10 observações e 2 variáveis, em que
 
 \describe{
 
@@ -14,27 +13,25 @@
 
 }}
 \source{
-Costa, A. F. B., Epprecht, E. K., Carpinetti, L. (2010).
-     Controle Estatístico de Qualidade (2nd ed.). São Paulo - SP:
-     Editora Atlas. (pg 156).
+COSTA et al. (2010), pág. 156.
 }
 \description{
-Dados referentes às leituras de um micrômetro usado para 
-    medir peças com dimensão nominal de 20 mm, utilizando um bloco padrão de 
-    dimensão 20 mm como referência. O bloco foi
-    medido dez vezes por um mesmo operador.
+Dados referentes às leituras de um micrômetro usado para
+    medir peças com dimensão nominal de 20 mm, utilizando um bloco
+    padrão de dimensão 20 mm como referência. O bloco foi medido dez
+    vezes por um mesmo operador.
 }
 \examples{
 
 data(EpprechtTb5.6)
- 
-boxplot(EpprechtTb5.6$leit, 
-        col="#F0FFFF",
-        ylab="Leitura",
-        main="Leituras do micrômetro")
-grid(nx=NA, ny=NULL, col='grey')
-                  
+str(EpprechtTb5.6)
+
+boxplot(EpprechtTb5.6$leit,
+        col = "#F0FFFF",
+        ylab = "Leitura")
+grid(nx = NA, ny = NULL, col = "grey")
+rug(EpprechtTb5.6$leit, side = 2)
+
 }
-\keyword{ASM}
 \keyword{CEQ}
 

@@ -2,7 +2,7 @@
 % Please edit documentation in R/Ramos.R
 \name{RamosTb5.8}
 \alias{RamosTb5.8}
-\title{Taxa de defeitos na fabrica\enc{çã}{ca}o de copos de cristal}
+\title{Taxa de Defeitos na Fabrica\enc{çã}{ca}o de Copos de Cristal}
 \format{Um \code{data.frame} com 26 observações e 3 variáveis, em que
 
 \describe{
@@ -12,12 +12,10 @@
 \item{\code{tamamostra}}{Número de unidades amostradas.}
 
 \item{\code{naoconf}}{Número de não conformidades na amostra.}
-    
+
 }}
 \source{
-Ramos, E. M. L. S., et al.(2013). 
-    Controle Estatístico da Qualidade (1th ed.). 
-    Porto Alegre, RS: Bookman. (pg 96).
+RAMOS et al. (2013), pág. 96.
 }
 \description{
 Número de não conformidades em um processo de fabricação
@@ -26,11 +24,13 @@ Número de não conformidades em um processo de fabricação
 \examples{
 
 data(RamosTb5.8)
+str(RamosTb5.8)
 
 library(qcc)
 
-qcc(RamosTb5.8$naoconf, sizes = RamosTb5.8$tamamostra, type = "u", 
-     xlab = "Amostra", ylab = "Taxa de não conformidades", title = "")
+qcc(RamosTb5.8$naoconf, sizes = RamosTb5.8$tamamostra, type = "u",
+    xlab = "Amostra", ylab = "Taxa de não conformidades",
+    title = "")
 
 }
 \keyword{CEQ}

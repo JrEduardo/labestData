@@ -2,8 +2,9 @@
 % Please edit documentation in R/Charnet.R
 \name{CharnetEx5.10}
 \alias{CharnetEx5.10}
-\title{Rela\enc{çã}{ca}o entre a Taxa de Desemprego e \enc{Í}{I}ndice de Suic\enc{í}{i}dios}
-\format{Um \code{data.frame} com 2 colunas e 14 linhas.
+\title{Rela\enc{çã}{ca}o entre a Taxa de Desemprego e \enc{Í}{I}ndice
+    de Suic\enc{í}{i}dios}
+\format{Um \code{data.frame} com 2 colunas e 14 linhas, em que
 
 \describe{
 
@@ -15,10 +16,7 @@
 
 }}
 \source{
-Charnet, R., de Luna Freire, C.A., Charnet, E.M.R., Bonvino,
-    H. (2008). Análise de modelos de regressão linear com aplicações
-    (2nd ed.). Campinas, SP: Editora Unicamp (Capítulo 5, exercício
-    10, pág. 112)
+CHARNET et al. (2008), Capítulo 5, exercício 10, pág. 112.
 }
 \description{
 Dados do jornal Los Angeles Times, de 13 de dezembro de
@@ -28,9 +26,10 @@ Dados do jornal Los Angeles Times, de 13 de dezembro de
 \examples{
 
 data(CharnetEx5.10)
+str(CharnetEx5.10)
 
 plot(CharnetEx5.10)
 
 }
-\keyword{RS}
+\keyword{RM}
 

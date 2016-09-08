@@ -41,7 +41,6 @@ Dados de um experimento conduzido em faixas, no
 library(lattice)
 
 data(ZimmermannTb10.20)
-
 str(ZimmermannTb10.20)
 
 ftable(xtabs(~solo + nit + lam, data = ZimmermannTb10.20))

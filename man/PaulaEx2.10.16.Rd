@@ -2,8 +2,10 @@
 % Please edit documentation in R/Paula.R
 \name{PaulaEx2.10.16}
 \alias{PaulaEx2.10.16}
-\title{Rela\enc{çã}{ca}o entre Publicidade e Faturamento em Restaurantes}
+\title{Rela\enc{çã}{ca}o entre Publicidade e Faturamento em
+    Restaurantes}
 \format{Um \code{data.frame} com 30 observações e 2 variáveis.
+
 \describe{
 
 \item{\code{fatura}}{Faturamento anual do restaurante, em mil
@@ -14,9 +16,7 @@
 
 }}
 \source{
-Paula, G. A. (2004). Modelos de regressão: com apoio
-    computacional. São Paulo, SP: IME-USP. (Exercício 2.10.16,
-    pág. 179)
+PAULA (2004), Exercício 2.10.16, pág. 179.
 }
 \description{
 Dados referentes a faturamentos anuais e gastos com
@@ -25,11 +25,12 @@ Dados referentes a faturamentos anuais e gastos com
     publicidade.
 }
 \examples{
-data(PaulaEx2.10.16)
 
+data(PaulaEx2.10.16)
 str(PaulaEx2.10.16)
 
 library(lattice)
+
 xyplot(fatura ~ gastos,
        data = PaulaEx2.10.16,
        type = c("p", "g", "smooth"))
@@ -41,5 +42,4 @@ Montgomery, D. C., Peck, E. A., Vining,
     Ed.). John Wiley, New York.
 }
 \keyword{RS}
-\keyword{positivo-assimétrico}
 

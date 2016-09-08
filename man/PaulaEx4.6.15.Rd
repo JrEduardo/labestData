@@ -2,9 +2,11 @@
 % Please edit documentation in R/Paula.R
 \name{PaulaEx4.6.15}
 \alias{PaulaEx4.6.15}
-\title{N\enc{ú}{u}mero de Infec\enc{çõ}{co}es de Ouvido em Recrutas Americanos}
+\title{N\enc{ú}{u}mero de Infec\enc{çõ}{co}es de Ouvido em Recrutas
+    Americanos}
 \format{Um \code{data.frame} com 287 observações e 5 variáveis.
-    \describe{
+
+\describe{
 
 \item{\code{habito}}{Fator com dois níveis que indica o hábito em
     nadar do recruta (\code{ocasional} ou \code{frequente}).}
@@ -15,36 +17,37 @@
 \item{\code{idade}}{Idade do recruta, em anos categorizados em três
     níveis (\code{15-19}, \code{20-24} e \code{25-29}).}
 
-\item{\code{sexo}}{Sexo (\code{F} para feminino e \code{M} para masculino).}
+\item{\code{sexo}}{Sexo (\code{F} para feminino e \code{M} para
+    masculino).}
 
 \item{\code{ninfec}}{Número de infecções de ouvido diagnosticadas
     pelo próprio recruta.}
 
 }}
 \source{
-Paula, G. A. (2004). Modelos de regressão: com apoio
-    computacional. São Paulo, SP: IME-USP. (Exercício 4.6.15,
-    pág. 346)
+PAULA (2004), Exercício 4.6.15, pág. 346.
 }
 \description{
 Dados referentes a um estudo realizado em 1990 com
-    recrutas americanos em que a variável de interesse era o número de
-    infecções de ouvido. Além disso, foram coletadas as seguintes
+    recrutas americanos em que a variável de interesse era o número
+    de infecções de ouvido. Além disso, foram coletadas as seguintes
     informações sobre os recrutas: hábito de nadar, local em que
     costuma nadar, idade e sexo.
 }
 \examples{
 
 data(PaulaEx4.6.15)
-
 str(PaulaEx4.6.15)
 
 xt <- xtabs(ninfec ~ ., data = PaulaEx4.6.15)
 ftable(prop.table(xt))
 plot(xt, xlab = "Hábito", main = "")
 
-mv <- aggregate(ninfec ~ ., FUN = function(x)
-    c(mu = mean(x), var = var(x)), data = PaulaEx4.6.15)
+mv <- aggregate(ninfec ~ .,
+                data = PaulaEx4.6.15,
+                FUN = function(x) {
+                    c(mu = mean(x), var = var(x))
+                })
 
 library(lattice)
 
@@ -59,6 +62,7 @@ xyplot(ninfec[, "var"] ~ ninfec[, "mu"],
         })
 
 library(latticeExtra)
+
 useOuterStrips(
     xyplot(ninfec ~ idade | habito + local,
            groups = sexo,
@@ -77,5 +81,5 @@ Hand, D. J, Daly, F., Lunn, A. D., McConway, K. J.,
     Hall, London.
 }
 \keyword{contagem}
-\keyword{superdispersão}
+\keyword{contingência}
 

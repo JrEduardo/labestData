@@ -4,11 +4,12 @@
 \alias{PaulaEx2.10.17}
 \title{Qualidade de Filme em M\enc{á}{a}quinas Fotogr\enc{á}{a}ficas}
 \format{Um \code{data.frame} com 21 observações e 3 variáveis.
+
 \describe{
 
 \item{\code{temp}}{Fator com três níveis que indicam a condição
-    experimental do filme (temperaturas \code{72ºC}, \code{82ºC} e
-    \code{92ºC}).}
+    experimental do filme (temperaturas 72\eqn{^\circ}C,
+    82\eqn{^\circ}C e 92\eqn{^\circ}C).}
 
 \item{\code{dmax}}{Valor da densidade máxima do filme (unidade de
     medida não informada).}
@@ -17,24 +18,26 @@
 
 }}
 \source{
-Paula, G. A. (2004). Modelos de regressão: com apoio
-    computacional. São Paulo, SP: IME-USP. (Exercício 2.10.17,
-    pág. 179)
+PAULA (2004), Exercício 2.10.17, pág. 179.
 }
 \description{
 Dados provenientes de um experimento cujo objetivo foi
     avaliar a qualidade de determinado filme utilizado em máquinas
     fotográficas sob três condições experimentais (relacionadas à
     temperatura do filme). Para tal avaliação considerou-se a
-    variável tempo de duração do filme como a resposta e a
-    densidade máxima do filme como variável de controle.
+    variável tempo de duração do filme como a resposta e a densidade
+    máxima do filme como variável de controle.
 }
 \examples{
-data(PaulaEx2.10.17)
 
+data(PaulaEx2.10.17)
 str(PaulaEx2.10.17)
 
 library(lattice)
+
+xyplot(tempo ~ dmax | temp, type = c("p", "r"),
+       data = PaulaEx2.10.17)
+
 xyplot(tempo ~ dmax,
        groups = temp,
        data = PaulaEx2.10.17,
@@ -43,8 +46,8 @@ xyplot(tempo ~ dmax,
            corner = c(0.95, 0.95),
            lines = TRUE,
            cex.title = 1,
-           title = "Temperatura"
-       ), panel = function(x, y, ...){
+           title = "Temperatura"),
+       panel = function(x, y, ...){
            panel.xyplot(x, y, ...)
            panel.loess(x, y, col = 1, ...)
        })
@@ -55,5 +58,6 @@ Myers, R. H., Montgomery, D. C., Vining,
     G. G. (2002). Generalized Linear Models: With Applications in
     Engineering and the Sciences. John Wiley, New York.
 }
-\keyword{positivo-assimétrico}
+\keyword{RS}
+\keyword{dummy}
 

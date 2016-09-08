@@ -2,7 +2,7 @@
 % Please edit documentation in R/Paula.R
 \name{PaulaEx3.7.19}
 \alias{PaulaEx3.7.19}
-\title{Gestantes fumantes}
+\title{Gestantes Fumantes}
 \format{Um \code{data.frame} com 5 variáveis.
 
 \describe{
@@ -20,20 +20,20 @@
 
 }}
 \source{
-Paula, G. A. (2004). Modelos de regressão: com apoio
-    computacional. São Paulo, SP: IME-USP.
-    (Exercício 3.7.19, página 276)
+PAULA (2004), Exercício 3.7.19, página 276.
 }
 \description{
 Estudo com gestantes fumantes, no qual as participantes
-foram classificadas segundo os fatores de idade, número de cigarros
-consumidos, tempo de gestação, e a condição (sobrevivência) da criança.
+    foram classificadas segundo os fatores de idade, número de
+    cigarros consumidos, tempo de gestação, e a condição
+    (sobrevivência) da criança.
 }
 \examples{
 
 data(PaulaEx3.7.19)
+str(PaulaEx3.7.19)
 
-require(vcd)
+library(vcd)
 
 # Paciente que sobreviveram
 ss <- xtabs(sobres ~ idade + ncigar + tgest, PaulaEx3.7.19)
@@ -52,10 +52,11 @@ mosaic(ns,
        labeling_args = list(
          set_varnames = c(ncigar = "Número de cigarros",
                           tgest = "Tempo de gestação")))
+
 }
 \references{
 Agresti A. (1990). Categorical Data Analysis. John Wiley,
-New York. (página 253))
+    New York. (página 253))
 }
-\keyword{ML}
+\keyword{contingência}
 

@@ -3,20 +3,19 @@
 \name{DemetrioTb1.2}
 \alias{DemetrioTb1.2}
 \title{Irriga\enc{çã}{ca}o em Batata}
-\format{Um \code{data.frame} com 12 linhas e 2 colunas.
+\format{Um \code{data.frame} com 12 linhas e 2 colunas, em que
 
 \describe{
 
-    \item{\code{lamina}}{Espessura da lâmina de água medida em
-    milímetros (mm).}
-    
-    \item{\code{prod}}{Produtividade medida em toneladas de batatas
-     por hectare (t/ha).}
+\item{\code{lamina}}{Espessura da lâmina de água medida em milímetros
+    (mm).}
+
+\item{\code{prod}}{Produtividade medida em toneladas de batatas por
+     hectare (t/ha).}
 
 }}
 \source{
-Demétrio, C. G. B., Zocchi, S. S. (2011). Modelos de
-    Regressão. Piracicaba: ESALQ. (Tabela 1.2 pág. 9)
+DEMÉTRIO; ZOCCHI (2011), Tabela 1.2 pág. 9.
 }
 \description{
 Este experimento refere-se a irrigação em batata
@@ -31,12 +30,13 @@ Este experimento refere-se a irrigação em batata
 library(lattice)
 
 data(DemetrioTb1.2)
+str(DemetrioTb1.2)
 
 xyplot(prod ~ lamina, data = DemetrioTb1.2,
-       main = "Produção VS Lâmina de Água",
        xlab = "Lâmina de água (mm)",
        ylab = "Produção (t/ha)",
        type = c("p", "r"), col.line = 3)
+
 }
 \keyword{RS}
 

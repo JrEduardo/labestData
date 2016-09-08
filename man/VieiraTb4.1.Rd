@@ -14,7 +14,7 @@
 
 }}
 \source{
-VIEIRA (1999), pág 44, tabela 4.1.
+VIEIRA (1999), pág. 44, tabela 4.1.
 }
 \description{
 Experimento que mediu a produção, em kg/100

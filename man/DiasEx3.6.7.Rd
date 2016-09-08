@@ -34,5 +34,5 @@ xyplot(pgerm ~ lote,
        ylab = "Percentual germinação")
 
 }
-\keyword{AAS}
+\keyword{DIC}
 

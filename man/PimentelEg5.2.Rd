@@ -18,8 +18,7 @@
 
 }}
 \source{
-Pimentel-Gomes, F. (2009). Curso de Estatístitica
-    Experimental (15th ed.). Piracicaba, SP: FEALQ. (Exemplo 5.2)
+PIMENTEL-GOMES (2009), Exemplo 5.2.
 }
 \description{
 Experimento de competição de variedades de batatinha
@@ -31,11 +30,14 @@ Experimento de competição de variedades de batatinha
 library(lattice)
 
 data(PimentelEg5.2)
+str(PimentelEg5.2)
 
-xyplot(producao ~ variedade, groups = bloco, data = PimentelEg5.2,
+xyplot(producao ~ variedade,
+       groups = bloco,
+       data = PimentelEg5.2,
        type = "b",
-       ylab=expression(Produção~(t~ha^{-1})),
-       xlab="Variedades de batatinha")
+       ylab = expression(Produção~(t~ha^{-1})),
+       xlab = "Variedades de batatinha")
 
 }
 \keyword{DBC}

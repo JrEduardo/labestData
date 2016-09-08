@@ -4,7 +4,7 @@
 \alias{ZimmermannTb15.1}
 \title{Produ\enc{çã}{ca}o de Perfilhos por Planta em Fun\enc{çã}{ca}o
     de 4 Fatores}
-\format{Um \code{data.frame} com 24 observações e 3 variáveis
+\format{Um \code{data.frame} com 24 observações e 3 variáveis, em que
 
 \describe{
 
@@ -26,7 +26,7 @@
 
 }}
 \source{
-ZIMMERMANN (2004), Tabela 15.1, pág. 306.
+ZIMMERMANN (2004), pág. 306.
 }
 \description{
 Dados de um ensaio fatorial fracionado \eqn{2^{4-1}}, em
@@ -66,5 +66,6 @@ xyplot(perf ~ factor(calc) | factor(cult),
 
 }
 \keyword{DBC}
+\keyword{FAT2ao4}
 \keyword{FRAC}
 

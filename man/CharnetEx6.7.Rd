@@ -13,10 +13,7 @@
 
 }}
 \source{
-Charnet, R., de Luna Freire, C.A., Charnet, E.M.R., Bonvino,
-    H. (2008). Análise de modelos de regressão linear com aplicações
-    (2nd ed.). Campinas, SP: Editora Unicamp (Capítulo 6, exercício
-    7, pág. 145)
+CHARNET et al. (2008), Capítulo 6, exercício 7, pág. 145.
 }
 \description{
 Relação do peso das correspondências levantados por uma
@@ -25,6 +22,7 @@ Relação do peso das correspondências levantados por uma
 \examples{
 
 data(CharnetEx6.7)
+str(CharnetEx6.7)
 
 plot(CharnetEx6.7)
 

@@ -42,6 +42,5 @@ xyplot(prod ~ cult | loc, groups = bloc, data = StorckTb101,
        ylab = "Rendimento de grãos (kg/parcela)")
 
 }
-\keyword{DBC}
 \keyword{GE}
 

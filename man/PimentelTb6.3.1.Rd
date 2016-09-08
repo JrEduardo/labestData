@@ -45,7 +45,6 @@ Considerando que a composição do fator adubação é dada por 3
 \examples{
 
 data(PimentelTb6.3.1)
-
 str(PimentelTb6.3.1)
 
 aggregate(prod ~ adub, data = PimentelTb6.3.1, FUN = sum)
@@ -76,4 +75,5 @@ t(sapply(L, FUN = function(x) {
 
 }
 \keyword{DQL}
+\keyword{incompleto}
 

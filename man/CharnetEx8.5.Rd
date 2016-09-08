@@ -2,23 +2,22 @@
 % Please edit documentation in R/Charnet.R
 \name{CharnetEx8.5}
 \alias{CharnetEx8.5}
-\title{Efeito da Temperatura e Concentra\enc{çã}{ca}o numa Rea\enc{çã}{ca}o Qu\enc{í}{i}mica}
-\format{Um \code{data.frame} com 3 colunas e 20 linhas.
+\title{Efeito da Temperatura e Concentra\enc{çã}{ca}o numa
+    Rea\enc{çã}{ca}o Qu\enc{í}{i}mica}
+\format{Um \code{data.frame} com 3 colunas e 20 linhas, em que
 
 \describe{
 
 \item{\code{prod}}{Produção de um certo composto, em litros.}
 
-\item{\code{temp}}{Temperatura da reação, em ºC.}
+\item{\code{temp}}{Temperatura da reação, em \eqn{^\circ}C.}
 
 \item{\code{conc}}{Percentual de concentração, em \%.}
 
 }}
 \source{
-Charnet, R., de Luna Freire, C.A., Charnet, E.M.R., Bonvino,
-    H. (2008). Análise de modelos de regressão linear com aplicações
-    (2nd ed.). Campinas, SP: Editora Unicamp (Capítulo 8, exercício
-    5, pág. 197.  Capítulo 9, exercício 10, pág. 233)
+CHARNET et al. (2008), Capítulo 8, exercício 5, pág. 197;
+    Capítulo 9, exercício 10, pág. 233.
 }
 \description{
 Efeito da temperatura (\code{temp}) e percentual de
@@ -28,9 +27,12 @@ Efeito da temperatura (\code{temp}) e percentual de
 \examples{
 
 data(CharnetEx8.5)
+str(CharnetEx8.5)
+
+xtabs(~temp + conc, data = CharnetEx8.5)
 
 plot(CharnetEx8.5)
 
 }
-\keyword{RM}
+\keyword{FAT2}
 

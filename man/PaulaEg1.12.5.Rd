@@ -4,6 +4,7 @@
 \alias{PaulaEg1.12.5}
 \title{Consumo de Combust\enc{í}{i}vel}
 \format{Um \code{data.frame} com 48 observações e 6 variáveis.
+
 \describe{
 
 \item{\code{est}}{Estado.}
@@ -20,8 +21,7 @@
 
 }}
 \source{
-Paula, G. A. (2004). Modelos de regressão: com apoio
-    computacional. São Paulo, SP: IME-USP. (Eg 1.12.5, p?g. 94)
+PAULA (2004), (Eg 1.12.5, p?g. 94)
 }
 \description{
 Dados referentes ao consumo de combustível em 48 estados
@@ -31,24 +31,21 @@ Dados referentes ao consumo de combustível em 48 estados
 \examples{
 
 data(PaulaEg1.12.5)
-
 str(PaulaEg1.12.5)
 
 library(lattice)
-
 library(car)
 
-scatterplotMatrix( ~ cons + taxa + licen + renda + estr,
+scatterplotMatrix(~ cons + taxa + licen + renda + estr,
                   data = PaulaEg1.12.5)
 
 xyplot(cons ~ est,
        ylab = "Consumo",
        xlab = "Estados",
        data = PaulaEg1.12.5,
-       type = 'h',
-       main = "Consumo por Habitante em cada Estado",
-       grid = TRUE)
+       grid = TRUE,
+       scales = list(x = list(rot = 90)))
 
 }
-\keyword{MLG}
+\keyword{RM}
 

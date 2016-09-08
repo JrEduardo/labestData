@@ -3,7 +3,7 @@
 \name{CharnetEg9.2}
 \alias{CharnetEg9.2}
 \title{Rela\enc{çã}{ca}o entre Poluentes Atmosf\enc{é}{e}ricos}
-\format{Um \code{data.frame} com 3 colunas e 7 linhas.
+\format{Um \code{data.frame} com 3 colunas e 7 linhas, em que
 
 \describe{
 
@@ -15,10 +15,7 @@
 
 }}
 \source{
-Charnet, R., de Luna Freire, C.A., Charnet, E.M.R., Bonvino,
-    H. (2008). Análise de modelos de regressão linear com aplicações
-    (2nd ed.). Campinas, SP: Editora Unicamp (Capítulo 9, exemplo 2,
-    pág. 216)
+CHARNET et al. (2008), Capítulo 9, exemplo 2, pág. 216.
 }
 \description{
 Relação de poluentes atmosféricos emitidos por carros
@@ -28,6 +25,7 @@ Relação de poluentes atmosféricos emitidos por carros
 \examples{
 
 data(CharnetEg9.2)
+str(CharnetEg9.2)
 
 plot(CharnetEg9.2)
 cor(CharnetEg9.2)

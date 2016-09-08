@@ -3,7 +3,7 @@
 \name{CharnetEg8.2}
 \alias{CharnetEg8.2}
 \title{Conjunto de Dados Gen\enc{é}{e}rico}
-\format{Um \code{data.frame} com 2 colunas e 15 linhas.
+\format{Um \code{data.frame} com 2 colunas e 15 linhas, em que
 
 \describe{
 
@@ -13,10 +13,7 @@
 
 }}
 \source{
-Charnet, R., de Luna Freire, C.A., Charnet, E.M.R., Bonvino,
-    H. (2008). Análise de modelos de regressão linear com aplicações
-    (2nd ed.). Campinas, SP: Editora Unicamp (Capítulo 8, exercício
-    2, pág. 191)
+CHARNET et al. (2008), Capítulo 8, exercício 2, pág. 191.
 }
 \description{
 Um conjunto de dados qualquer para exercício de ajuste
@@ -25,8 +22,10 @@ Um conjunto de dados qualquer para exercício de ajuste
 \examples{
 
 data(CharnetEg8.2)
+str(CharnetEg8.2)
 
 plot(CharnetEg8.2)
+plot(CharnetEg8.2 - 1.1 * min(CharnetEg8.2), log = "xy")
 
 }
 \keyword{RS}

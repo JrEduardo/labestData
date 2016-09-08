@@ -2,33 +2,31 @@
 % Please edit documentation in R/Mingoti.R
 \name{MingotiAnA3}
 \alias{MingotiAnA3}
-\title{Dados dos domic\enc{í}{i}lios}
-\format{Um \code{data.frame} com 120 observações e 6 variáveis, 
-    em que
+\title{Dados dos Domic\enc{í}{i}lios}
+\format{Um \code{data.frame} com 120 observações e 6 variáveis, em
+    que
 
 \describe{
 
 \item{\code{dom}}{Identificação do domicílio.}
 
-\item{\code{loc}}{Fator que indica localidade da residência 
-    (de 1 a 3).}
+\item{\code{loc}}{Fator que indica localidade da residência (de 1 a
+    3).}
 
-\item{\code{inst}}{Fator que indica grau de instrução do chefe da 
+\item{\code{inst}}{Fator que indica grau de instrução do chefe da
     família (de 1 a 3).}
 
 \item{\code{nres}}{Número de pessoas residentes no domicílio.}
 
-\item{\code{rendm}}{Renda familiar mensal (em quantidade de salários 
+\item{\code{rendm}}{Renda familiar mensal (em quantidade de salários
     mínimos).}
 
-\item{\code{rendpc}}{Renda familiar mensal per capita (em número de 
+\item{\code{rendpc}}{Renda familiar mensal per capita (em número de
     salários mínimos).}
 
 }}
 \source{
-Mingoti, S.A. (2005). Análise de dados através de métodos de 
-     estatística multivariada - uma abordagem aplicada. 
-     Belo Horizonte, MG: Editora UFMG. (pg 287).
+MINGOTI (2005), pág. 287.
 }
 \description{
 Dados de uma pesquisa feita em 120 residências de uma
@@ -37,16 +35,17 @@ Dados de uma pesquisa feita em 120 residências de uma
 }
 \examples{
 
-data(MingotiAnA3) 
+data(MingotiAnA3)
+str(MingotiAnA3)
 
 library(lattice)
 
-bwplot(inst~rendpc|loc, data=MingotiAnA3,
+bwplot(inst ~ rendpc | loc,
+       data = MingotiAnA3,
+       pch = "|",
        xlab = "Renda per capita ",
-       ylab = "Grau de instrução",
-       main = "Renda e Grau de Instrução por Localidade")
+       ylab = "Grau de instrução")
 
-                  
 }
 \keyword{AnaComPrin}
 

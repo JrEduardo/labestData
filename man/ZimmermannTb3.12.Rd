@@ -2,8 +2,8 @@
 % Please edit documentation in R/Zimmermann.R
 \name{ZimmermannTb3.12}
 \alias{ZimmermannTb3.12}
-\title{Dados de Mat\enc{é}{e}ria Seca em Plantas}
-\format{Um \code{data.frame} com 75 observações e 4 variáveis
+\title{Dados de Mat\enc{é}{e}ria seca em Plantas}
+\format{Um \code{data.frame} com 75 observações e 4 variáveis, em que
 
 \describe{
 
@@ -20,7 +20,7 @@
 
 }}
 \source{
-ZIMMERMANN (2004), Tabela 3.12, pág. 62.
+ZIMMERMANN (2004), Table 3.12, pág. 62.
 }
 \description{
 Experimento em DIC que estudou a produção de matéria
@@ -33,8 +33,8 @@ Experimento em DIC que estudou a produção de matéria
 library(lattice)
 
 data(ZimmermannTb3.12)
-
 str(ZimmermannTb3.12)
+
 xtabs(~solo + vaso, data = ZimmermannTb3.12)
 
 aggregate(prod ~ solo, data = ZimmermannTb3.12,

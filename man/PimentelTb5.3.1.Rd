@@ -2,7 +2,7 @@
 % Please edit documentation in R/Pimentel.R
 \name{PimentelTb5.3.1}
 \alias{PimentelTb5.3.1}
-\title{Teor de colesterol no sangue}
+\title{Teor de Colesterol no Sangue}
 \format{Um \code{data.frame} com 14 observações e 3 variáveis, em que
 
 \describe{
@@ -39,5 +39,5 @@ xyplot(colesterol ~ periodo,
        ylab = "Teor de Colesterol")
 
 }
-\keyword{DBC}
+\keyword{pareado}
 

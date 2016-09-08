@@ -2,7 +2,8 @@
 % Please edit documentation in R/Paula.R
 \name{PaulaEx3.7.23}
 \alias{PaulaEx3.7.23}
-\title{Incid\enc{ê}{e}ncia de Dengue e Fatores Socio-econ\enc{ô}{o}micos}
+\title{Incid\enc{ê}{e}ncia de Dengue e Fatores
+    Socio-econ\enc{ô}{o}micos}
 \format{Um \code{data.frame} com 196 observações e 4 variáveis.
 
 \describe{
@@ -20,9 +21,7 @@
 
 }}
 \source{
-Paula, G. A. (2004). Modelos de regressão: com apoio
-    computacional. São Paulo, SP: IME-USP. (Exercício 3.7.23,
-    pág. 279)
+PAULA (2004), Exercício 3.7.23, pág. 279.
 }
 \description{
 Os dados provém de um estudo para investigar a
@@ -50,5 +49,5 @@ xyplot(caso ~ idade | nivel, groups = setor, data = PaulaEx3.7.23,
        ylab = "Indicadora de ter contraído dengue")
 
 }
-\keyword{binomial}
+\keyword{binario}
 

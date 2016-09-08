@@ -2,21 +2,21 @@
 % Please edit documentation in R/Demetrio.R
 \name{DemetrioTb1.1}
 \alias{DemetrioTb1.1}
-\title{N\enc{í}{i}veis de F\enc{ó}{o}sforo no Solo ap\enc{ó}{o}s Plantio de Milho}
-\format{Um \code{data.frame} com 9 linhas e 2 colunas.
+\title{N\enc{í}{i}veis de F\enc{ó}{o}sforo no Solo ap\enc{ó}{o}s
+    Plantio de Milho}
+\format{Um \code{data.frame} com 9 linhas e 2 colunas, em que
 
 \describe{
 
-    \item{\code{fo}}{Níveis de fósforo orgânico adicionado ao solo,
+\item{\code{fo}}{Níveis de fósforo orgânico adicionado ao solo,
     mensurados em partes por milhão (ppm).}
-    
-    \item{\code{fd}}{Fósforo disponível no solo após a colheita do
-    milho, mensurado em partes por milhão (ppm).}
+
+\item{\code{fd}}{Fósforo disponível no solo após a colheita do milho,
+    mensurado em partes por milhão (ppm).}
 
 }}
 \source{
-Demétrio, C. G. B., Zocchi, S. S. (2011). Modelos de
-    Regressão. Piracicaba: ESALQ. (Tabela 1.1 pág. 8)
+DEMÉTRIO; ZOCCHI (2011), Tabela 1.1 pág. 8.
 }
 \description{
 Resultados de um experimento onde diferentes níveis de
@@ -30,12 +30,13 @@ Resultados de um experimento onde diferentes níveis de
 library(lattice)
 
 data(DemetrioTb1.1)
+str(DemetrioTb1.1)
 
 xyplot(fd ~ fo, data = DemetrioTb1.1,
-       main = "Níveis de fósforo no solo",
        xlab = "Fósforo orgânico",
        ylab = "Fósforo disponível",
        type = c("p", "r"), col.line = 3)
+
 }
 \keyword{RS}
 

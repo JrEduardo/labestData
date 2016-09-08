@@ -2,7 +2,8 @@
 % Please edit documentation in R/Manly.R
 \name{ManlyTb1.4}
 \alias{ManlyTb1.4}
-\title{C\enc{ã}{a}es pr\enc{é}{e}-hist\enc{ó}{o}ricos da Tail\enc{â}{a}ndia}
+\title{C\enc{ã}{a}es Pr\enc{é}{e}-hist\enc{ó}{o}ricos da
+    Tail\enc{â}{a}ndia}
 \format{Um \code{data.frame} com 7 grupos caninos e 6 variáveis.
 
 \describe{
@@ -11,7 +12,8 @@
 
 \item{\code{largm}}{Largura da mandíbula (mm)}
 
-\item{\code{altm}}{Altura da mandíbula abaixo do primeiro molar (mm).}
+\item{\code{altm}}{Altura da mandíbula abaixo do primeiro molar
+    (mm).}
 
 \item{\code{comppm}}{Comprimento do primeiro molar (mm).}
 
@@ -22,21 +24,23 @@
  \item{\code{comppq}}{Comprimento do primeiro ao quarto molar (mm).}
 }}
 \source{
-Manly, B. J. F. (2005). Métodos Estatísticos Multivariados- uma introdução.
-     Porto Alegre, RS: Bookman (pg 21)
+MANLY (2005), pág. 21.
 }
 \description{
-Estudo em ancestrais de cães da Tailândia,
-através de medições das mandíbulas.
+Estudo em ancestrais de cães da Tailândia, através de
+    medições das mandíbulas.
 }
 \examples{
 
-
 data(ManlyTb1.4)
+str(ManlyTb1.4)
 
 pairs(~largm + altm + comppm + largpm + comppt + comppq,
-      data = ManlyTb1.4,
-      main="Gráfico de dispersão para as medições da mandíbula")
+      data = ManlyTb1.4)
+
+}
+\seealso{
+Veja também \code{\link{ManlyTb4.5}}.
 }
 \keyword{AnaAgrup}
 

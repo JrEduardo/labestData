@@ -2,41 +2,40 @@
 % Please edit documentation in R/Epprecht.R
 \name{EpprechtTb5.4}
 \alias{EpprechtTb5.4}
-\title{Capacidade de medi\enc{çã}{ca}o de um rel\enc{ó}{o}gio apalpador}
-\format{Um \code{data.frame} com 40 observações e 2 variáveis, 
-    em que
+\title{Capacidade de medi\enc{çã}{ca}o de um rel\enc{ó}{o}gio
+    apalpador}
+\format{Um \code{data.frame} com 40 observações e 2 variáveis, em que
 
 \describe{
 
 \item{\code{pc}}{Identificação da peça.}
 
-
 \item{\code{tam}}{Tamanho da peça (décimos de mícrons).}
 
 }}
 \source{
-Costa, A. F. B., Epprecht, E. K., Carpinetti, L. (2010).
-     Controle Estatístico de Qualidade (2nd ed.). São Paulo - SP:
-     Editora Atlas. (pg 155).
+COSTA et al. (2010), pág. 155.
 }
 \description{
-Dados utilizados para avaliar a capacidade
-    de um relógio apalpador na medição do erro de batida radial de 
-    um eixo retificado. São 20 peças medidas por um mesmo
-    operador, duas vezes cada.
+Dados utilizados para avaliar a capacidade de um relógio
+    apalpador na medição do erro de batida radial de um eixo
+    retificado. São 20 peças medidas por um mesmo operador, duas
+    vezes cada.
 }
 \examples{
 
 data(EpprechtTb5.4)
+str(EpprechtTb5.4)
 
-plot(tam ~ pc,data=EpprechtTb5.4,
+plot(tam ~ pc, data = EpprechtTb5.4,
      ylab = "Tamanho",
-     xlab = "Peça", xaxt = "n")
+     xlab = "Peça",
+     xaxt = "n")
 axis(1, 1:20)
 abline(mean(EpprechtTb5.4$tam), 0, lty=2)
 
-                  
+qqnorm(EpprechtTb5.4$tam)
+
 }
-\keyword{ASM}
 \keyword{CEQ}
 

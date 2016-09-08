@@ -26,8 +26,7 @@
 
 }}
 \source{
-Pimentel-Gomes, F. (2009). Curso de Estatística
-    Experimental (15th ed.). Piracicaba, SP: FEALQ. (Tabela 9.3.1)
+PIMENTEL-GOMES (2009), Tabela 9.3.1.
 }
 \description{
 Experimento com 5 variedades de cana-de-açúcar, em

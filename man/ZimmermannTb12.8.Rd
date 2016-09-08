@@ -17,7 +17,7 @@
 
 }}
 \source{
-ZIMMERMANN (2004), Tabela 12.8, pág. 252.
+ZIMMERMANN (2004), pág. 252.
 }
 \description{
 Dados do ensaio 1 de um experimento que avaliou as
@@ -33,7 +33,6 @@ Dados do ensaio 1 de um experimento que avaliou as
 library(lattice)
 
 data(ZimmermannTb12.8)
-
 str(ZimmermannTb12.8)
 
 xyplot(aacpd ~ cult, groups = bloco, data = ZimmermannTb12.8,

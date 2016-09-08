@@ -18,7 +18,7 @@
 
 }}
 \source{
-ZIMMERMANN (2004), Tabela 12.32, pág. 264.
+ZIMMERMANN (2004), Tabela 12.32, pág.264.
 }
 \description{
 Dados de um estudo em delineamento de blocos completos
@@ -32,7 +32,6 @@ Dados de um estudo em delineamento de blocos completos
 library(lattice)
 
 data(ZimmermannTb12.32)
-
 str(ZimmermannTb12.32)
 
 xyplot(geral ~ geno, data = ZimmermannTb12.32,

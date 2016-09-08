@@ -32,7 +32,6 @@ Dados de um estudo em delineamento de blocos completos
 library(lattice)
 
 data(ZimmermannTb12.33)
-
 str(ZimmermannTb12.33)
 
 xyplot(geral ~ geno, data = ZimmermannTb12.33,

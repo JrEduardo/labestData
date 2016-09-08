@@ -33,8 +33,6 @@ library(lattice)
 data(DiasEg6.2)
 str(DiasEg6.2)
 
-names(DiasEg6.2)[2] <- "bloc"
-
 xyplot(prod ~ npk, data = DiasEg6.2,
        groups = bloc, type = "b",
        xlab = expression("Dose de NPK"~(kg~ha^{-1})),

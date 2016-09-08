@@ -19,7 +19,7 @@
 
 }}
 \source{
-ZIMMERMANN (2004), Tabela 12.16, pág. 261.
+ZIMMERMANN (2004), pág. 261.
 }
 \description{
 Ensaio 1 de um experimento em DQL, que avaliou a

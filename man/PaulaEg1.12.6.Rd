@@ -4,6 +4,7 @@
 \alias{PaulaEg1.12.6}
 \title{Sal\enc{á}{a}rio de Executivos}
 \format{Um \code{data.frame} com 220 observações e 4 variáveis.
+
 \describe{
 
 \item{\code{sal}}{Salário anual (em mil USD).}
@@ -14,22 +15,19 @@
 
 \item{\code{aexp}}{Experiência (em anos).}
 
-
 }}
 \source{
-Paula, G. A. (2004). Modelos de regressão: com apoio
-    computacional. São Paulo, SP: IME-USP. (Eg 1.12.6, p?g. 97)
+PAULA (2004), Eg 1.12.6, pág. 97.
 }
 \description{
-Dados referentes ao salário anual de uma
-    amostra aleatória de 220 executivos (145 homens e 75 mulheres). O
-    salário será relacionado com as variáveis: sexo, anos de experiência
-    no cargo e posição na empresa.
+Dados referentes ao salário anual de uma amostra
+    aleatória de 220 executivos (145 homens e 75 mulheres). O salário
+    será relacionado com as variáveis: sexo, anos de experiência no
+    cargo e posição na empresa.
 }
 \examples{
 
 data(PaulaEg1.12.6)
-
 str(PaulaEg1.12.6)
 
 library(lattice)
@@ -38,9 +36,9 @@ xyplot(sal ~ aexp | sexo,
        data = PaulaEg1.12.6,
        type = c("p", "smooth"),
        xlab = "Anos de experiência",
-       ylab = "Salário",
-       main = "Dispersão de Salário por Anos de Experiência")
+       ylab = "Salário")
 
 }
-\keyword{MLG}
+\keyword{RL}
+\keyword{dummy}
 

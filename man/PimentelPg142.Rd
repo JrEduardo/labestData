@@ -66,7 +66,6 @@ xyplot(y ~ interaction(N, P, K, drop = TRUE, sep = ""),
        ylab = "Resposta")
 
 }
-\keyword{DIC}
 \keyword{FATADI}
 \keyword{GE}
 

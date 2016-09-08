@@ -2,7 +2,7 @@
 % Please edit documentation in R/Ramos.R
 \name{RamosTb2.7}
 \alias{RamosTb2.7}
-\title{Processo de fundi\enc{çã}{ca}o de magn\enc{é}{e}sio}
+\title{Processo de Fundi\enc{çã}{ca}o de Magn\enc{é}{e}sio}
 \format{Um \code{data.frame} com 7 observações e 2 variáveis, em que
 
 \describe{
@@ -14,14 +14,12 @@
 
 }}
 \source{
-Ramos, E. M. L. S., et al.(2013). 
-    Controle Estatístico da Qualidade (1th ed.). 
-    Porto Alegre, RS: Bookman. (pág. 30).
+RAMOS et al. (2013), pág. 30.
 }
 \description{
-Dados referente a um processo de fundição
-    de magnésio, compreendendo a recuperação do metal 
-    e os valores do fluxo de regeneração adicionada.
+Dados referente a um processo de fundição de magnésio,
+    compreendendo a recuperação do metal e os valores do fluxo de
+    regeneração adicionada.
 }
 \examples{
 
@@ -34,4 +32,5 @@ xyplot(recupe ~ fluxo, pch = 20,
 
 }
 \keyword{CEQ}
+\keyword{RL}
 

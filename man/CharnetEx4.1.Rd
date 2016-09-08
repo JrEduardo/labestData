@@ -2,13 +2,11 @@
 % Please edit documentation in R/Charnet.R
 \name{CharnetEx4.1}
 \alias{CharnetEx4.1}
-\title{Valores de uma Vari\enc{á}{a}vel Aleat\enc{ó}{o}ria Cont\enc{í}{i}nua}
+\title{Valores de uma Vari\enc{á}{a}vel Aleat\enc{ó}{o}ria
+    Cont\enc{í}{i}nua}
 \format{Um vetor numérico com 20 elementos.}
 \source{
-Charnet, R., de Luna Freire, C.A., Charnet, E.M.R., Bonvino,
-    H. (2008). Análise de modelos de regressão linear com aplicações
-    (2nd ed.). Campinas, SP: Editora Unicamp (Capítulo 4, exercício 1,
-    pág. 82)
+CHARNET et al. (2008), Capítulo 4, exercício 1, pág. 82.
 }
 \description{
 Valores de uma variável aleatória X contínua.
@@ -16,6 +14,7 @@ Valores de uma variável aleatória X contínua.
 \examples{
 
 data(CharnetEx4.1)
+str(CharnetEx4.1)
 
 hist(CharnetEx4.1, prob = TRUE)
 lines(density(CharnetEx4.1), col = 4)

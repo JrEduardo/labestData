@@ -3,21 +3,20 @@
 \name{DemetrioTb2.10}
 \alias{DemetrioTb2.10}
 \title{Absor\enc{çã}{ca}o de CO2 por Folhas de Trigo}
-\format{Um \code{data.frame} de 17 linhas e 2 colunas.
+\format{Um \code{data.frame} de 17 linhas e 2 colunas, em que
 
 \describe{
 
-    \item{\code{co2}}{Concentração de \eqn{CO_2} aplicada sobre as
-    folhas de trigo.}
-    
-    \item{\code{absorv}}{Quantia de \eqn{CO_2} absorvida pelas folhas
-    de trigo, medida em \eqn{cm^3/dm^2/hora.}}
-    
+\item{\code{co2}}{Concentração de \eqn{CO_2} aplicada sobre as folhas
+    de trigo.}
+
+\item{\code{absorv}}{Quantia de \eqn{CO_2} absorvida pelas folhas de
+    trigo, medida em \eqn{cm^3/dm^2/hora.}}
+
 }}
 \source{
-Demétrio, C. G. B., Zocchi, S. S. (2011). Modelos de
-    Regressão. Piracicaba: ESALQ. (Tabela 2.10 pág. 65, Exercício
-    1.4.1.3 pág. 14)
+DEMÉTRIO; ZOCCHI (2011), Tabela 2.10 pág. 65, Exercício
+    1.4.1.3 pág. 14.
 }
 \description{
 Dados provenientes de um ensaio inteiramente casualizado
@@ -28,11 +27,11 @@ Dados provenientes de um ensaio inteiramente casualizado
 \examples{
 
 data(DemetrioTb2.10)
+str(DemetrioTb2.10)
 
 library(lattice)
 
 xyplot(absorv ~ co2, data = DemetrioTb2.10,
-       main = "CO2 Aplicado VS Absorvido",
        xlab = "Aplicado",
        ylab = "Absorvido",
        type = c("p", "r"), col.line = 3)
@@ -45,5 +44,5 @@ xyplot(absorv ~ co2, data = DemetrioEx1.4.1.3,
        type = c("p", "r"), col.line = 3)
 
 }
-\keyword{TODO}
+\keyword{RS}
 

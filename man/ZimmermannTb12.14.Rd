@@ -2,8 +2,8 @@
 % Please edit documentation in R/Zimmermann.R
 \name{ZimmermannTb12.14}
 \alias{ZimmermannTb12.14}
-\title{Propor\enc{çã}{ca}o de insetos infectados}
-\format{Um \code{data.frame} com 35 observações e 3 variáveis
+\title{Propor\enc{çã}{ca}o de Insetos Infectados}
+\format{Um \code{data.frame} com 35 observações e 3 variáveis, em que
 
 \describe{
 
@@ -19,7 +19,7 @@
 
 }}
 \source{
-ZIMMERMANN (2004), Tabela 12.14, pág. 255.
+ZIMMERMANN (2004), pág. 255.
 }
 \description{
 Dados do ensaio 2 de um experimento em DBC que estudou a
@@ -34,7 +34,6 @@ Dados do ensaio 2 de um experimento em DBC que estudou a
 library(lattice)
 
 data(ZimmermannTb12.14)
-
 str(ZimmermannTb12.14)
 
 xyplot(asinprop ~ trat , groups = bloco, data = ZimmermannTb12.14,

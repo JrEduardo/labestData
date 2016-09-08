@@ -2,24 +2,22 @@
 % Please edit documentation in R/Charnet.R
 \name{CharnetEx1.17}
 \alias{CharnetEx1.17}
-\title{Dados Gen\enc{é}{e}ricos para Regress\enc{ã}{a}o Linear Simples}
-\format{Um \code{data.frame} com 3 colunas e 45 linhas.
+\title{Dados Gen\enc{é}{e}ricos para Regress\enc{ã}{a}o Linear
+    Simples}
+\format{Um \code{data.frame} com 3 colunas e 45 linhas, em que
 
 \describe{
 
-    \item{\code{conj}}{Fator que indica a qual conjunto a observação
+\item{\code{conj}}{Fator que indica a qual conjunto a observação
     pertence.}
 
-    \item{\code{x}}{Variável independente, sem interpretação.}
+\item{\code{x}}{Variável independente, sem interpretação.}
 
-    \item{\code{y}}{Variável dependente, sem interpretação.}
+\item{\code{y}}{Variável dependente, sem interpretação.}
 
 }}
 \source{
-Charnet, R., de Luna Freire, C.A., Charnet, E.M.R., Bonvino,
-    H. (2008). Análise de modelos de regressão linear com aplicações
-    (2nd ed.). Campinas, SP: Editora Unicamp (Capítulo 1, exercício
-    17, pág. 25)
+CHARNET et al. (2008), Capítulo 1, exercício 17, pág. 25.
 }
 \description{
 Dois conjuntos de valores X e Y utilizados para
@@ -33,12 +31,14 @@ Este conjunto de dados agrupa dados onde pressupõe-se que
 \examples{
 
 data(CharnetEx1.17)
+str(CharnetEx1.17)
 
+# detach("package:lattice")
 library(ggplot2)
 
-ggplot(CharnetEx1.17, aes(x = x, y = y))
-    geom_point()
-    facet_grid(~conj, scales = "free_x")
+ggplot(CharnetEx1.17, aes(x = x, y = y)) +
+    geom_point() +
+    facet_grid(~conj, scales = "free_x") +
     stat_smooth(method = "lm")
 
 }

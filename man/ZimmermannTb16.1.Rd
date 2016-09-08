@@ -48,5 +48,5 @@ with(ZimmermannTb16.1, {
 })
 
 }
-\keyword{correlacao}
+\keyword{AASM}
 

@@ -2,8 +2,9 @@
 % Please edit documentation in R/Charnet.R
 \name{CharnetEx8.2}
 \alias{CharnetEx8.2}
-\title{Rela\enc{çã}{ca}o da Temperatura e Produ\enc{çã}{ca}o de um Produto Qu\enc{í}{i}mico}
-\format{Um \code{data.frame} com 2 colunas e 11 linhas.
+\title{Rela\enc{çã}{ca}o da Temperatura e Produ\enc{çã}{ca}o de um
+    Produto Qu\enc{í}{i}mico}
+\format{Um \code{data.frame} com 2 colunas e 11 linhas, em que
 
 \describe{
 
@@ -13,10 +14,8 @@
 
 }}
 \source{
-Charnet, R., de Luna Freire, C.A., Charnet, E.M.R., Bonvino,
-    H. (2008). Análise de modelos de regressão linear com aplicações
-    (2nd ed.). Campinas, SP: Editora Unicamp (Capítulo 8, exercício
-    2, pág. 195, Capítulo 9, exercício 11, pág. 233)
+CHARNET et al. (2008), Capítulo 8, exercício 2, pág. 195,
+    Capítulo 9, exercício 11, pág. 233.
 }
 \description{
 Uma indústria química está interessada em maximizar a
@@ -27,6 +26,7 @@ Uma indústria química está interessada em maximizar a
 \examples{
 
 data(CharnetEx8.2)
+str(CharnetEx8.2)
 
 plot(CharnetEx8.2)
 

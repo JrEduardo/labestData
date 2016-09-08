@@ -25,6 +25,9 @@ Experimento (fictício) de alimentação de porcos em que
 }
 \examples{
 
+data(PimentelEg4.2)
+str(PimentelEg4.2)
+
 plot(PimentelEg4.2,
      xlab = "Rações",
      ylab = "Ganho de Peso")

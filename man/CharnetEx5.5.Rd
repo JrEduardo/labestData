@@ -3,7 +3,7 @@
 \name{CharnetEx5.5}
 \alias{CharnetEx5.5}
 \title{Respostas a um An\enc{ú}{u}ncio de Emprego}
-\format{Um \code{data.frame} com 2 colunas e 14 linhas.
+\format{Um \code{data.frame} com 2 colunas e 14 linhas, em que
 
 \describe{
 
@@ -13,10 +13,8 @@
 
 }}
 \source{
-Charnet, R., de Luna Freire, C.A., Charnet, E.M.R., Bonvino,
-    H. (2008). Análise de modelos de regressão linear com aplicações
-    (2nd ed.). Campinas, SP: Editora Unicamp (Capítulo 5, exercício
-    5, pág. 110, Capítulo 6, exercício 4, pág. 143)
+CHARNET et al. (2008), Capítulo 5, exercício
+    5, pág. 110; Capítulo 6, exercício 4, pág. 143.
 }
 \description{
 Relação da resposta a um anúncio de emprego com o número
@@ -25,6 +23,7 @@ Relação da resposta a um anúncio de emprego com o número
 \examples{
 
 data(CharnetEx5.5)
+str(CharnetEx5.5)
 
 plot(CharnetEx5.5)
 

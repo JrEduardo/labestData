@@ -44,6 +44,5 @@ xyplot(alt ~ prog | local, data = BarbinPg177,
        ylab = "Altura de plantas (m)")
 
 }
-\keyword{DBC}
 \keyword{GE}
 

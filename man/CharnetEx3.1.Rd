@@ -3,7 +3,7 @@
 \name{CharnetEx3.1}
 \alias{CharnetEx3.1}
 \title{Compara\enc{çã}{ca}o entre Notas}
-\format{Um \code{data.frame} com 2 colunas e 50 linhas.
+\format{Um \code{data.frame} com 2 colunas e 50 linhas, em que
 
 \describe{
 
@@ -13,10 +13,7 @@
 
 }}
 \source{
-Charnet, R., de Luna Freire, C.A., Charnet, E.M.R., Bonvino,
-    H. (2008). Análise de modelos de regressão linear com aplicações
-    (2nd ed.). Campinas, SP: Editora Unicamp (Capítulo 3, exercício
-    1, pág. 65)
+CHARNET et al. (2008), Capítulo 3, exercício 1, pág. 65.
 }
 \description{
 Comparação entre as notas de uma prova teórica e de
@@ -25,6 +22,9 @@ Comparação entre as notas de uma prova teórica e de
 \examples{
 
 data(CharnetEx3.1)
+str(CharnetEx3.1)
+
+xtabs(~teo, data = CharnetEx3.1)
 
 plot(CharnetEx3.1)
 

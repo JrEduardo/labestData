@@ -3,18 +3,15 @@
 \name{EpprechtTb6.10}
 \alias{EpprechtTb6.10}
 \title{Concentra\enc{çã}{ca}o de um Processo Qu\enc{í}{i}mico}
-\format{Um \code{data.frame} com 100 observações e 1 variável, 
-    em que
+\format{Um \code{data.frame} com 100 observações e 1 variável, em que
 
 \describe{
 
 \item{\code{conc}}{Concentração registrada na amostra.}
- 
+
 }}
 \source{
-Costa, A. F. B., Epprecht, E. K., Carpinetti, L. (2010).
-     Controle Estatístico de Qualidade (2nd ed.). São Paulo - SP:
-     Editora Atlas. (pg 182).
+COSTA et al. (2010), pág. 182.
 }
 \description{
 Dados referentes à concentração de um processo químico
@@ -23,13 +20,13 @@ Dados referentes à concentração de um processo químico
 \examples{
 
 data(EpprechtTb6.10)
+str(EpprechtTb6.10)
 
 library(qcc)
 
-qcc(EpprechtTb6.10$conc, type="xbar.one", nsigmas=3,
-    xlab=" ", ylab="Concentração", title=" ")
+qcc(EpprechtTb6.10$conc, type = "xbar.one", nsigmas = 3,
+    xlab = "", ylab = "Concentração", title = "")
 
-                  
 }
 \keyword{CEQ}
 

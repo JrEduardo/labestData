@@ -2,7 +2,7 @@
 % Please edit documentation in R/Ramos.R
 \name{RamosTb2.6}
 \alias{RamosTb2.6}
-\title{Resist\enc{ê}{e}ncia \enc{à}{a} ruptura e peso de garrafas}
+\title{Resist\enc{ê}{e}ncia \enc{à}{a} Ruptura e Peso de Garrafas}
 \format{Um \code{data.frame} com 25 observações e 2 variáveis, em que
 
 \describe{
@@ -13,9 +13,7 @@
 
 }}
 \source{
-Ramos, E. M. L. S., et al.(2013). 
-    Controle Estatístico da Qualidade (1th ed.). 
-    Porto Alegre, RS: Bookman. (pág. 30).
+RAMOS et al. (2013), pág. 30.
 }
 \description{
 Resistência e peso de 25 garrafas.
@@ -23,6 +21,7 @@ Resistência e peso de 25 garrafas.
 \examples{
 
 data(RamosTb2.6)
+str(RamosTb2.6)
 
 library(lattice)
 
@@ -31,4 +30,5 @@ xyplot(forca ~ peso, pch = 20,
 
 }
 \keyword{CEQ}
+\keyword{RL}
 

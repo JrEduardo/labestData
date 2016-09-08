@@ -3,7 +3,7 @@
 \name{CostaEx5.7.3}
 \alias{CostaEx5.7.3}
 \title{Efeito de Aduba\enc{çã}{ca}o Nitrogenada na Cultura do Milho}
-\format{Um \code{data.frame} com 15 observações e 3 variáveis.
+\format{Um \code{data.frame} com 15 observações e 3 variáveis, em que
 
 \describe{
 
@@ -28,7 +28,6 @@ Experimento instalado em delineamento inteiramente
 library(lattice)
 
 data(CostaEx5.7.3)
-
 str(CostaEx5.7.3)
 
 xyplot(prod ~ dose, data = CostaEx5.7.3,
@@ -38,5 +37,6 @@ xyplot(prod ~ dose, data = CostaEx5.7.3,
 
 }
 \keyword{DIC}
-\keyword{RegSeg}
+\keyword{RNL}
+\keyword{RS}
 

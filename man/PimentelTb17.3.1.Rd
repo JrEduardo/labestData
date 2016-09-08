@@ -47,6 +47,5 @@ xyplot(prod ~ espec,
        xlab = "Espécies de eucalipto")
 
 }
-\keyword{DBC}
 \keyword{GE}
 

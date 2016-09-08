@@ -20,7 +20,7 @@
 
 }}
 \source{
-ZIMMERMANN (2004), Tabela 12.27, pág. 262.
+ZIMMERMANN (2004), Tabela 12.27, pág.262.
 }
 \description{
 Ensaio 2 de um experimento em delineamento quadrado

@@ -39,5 +39,5 @@ barchart(morta + viva ~ metod, data = PimentelPg382,
          ylab = "Quantidade de estacas")
 
 }
-\keyword{DIC}
+\keyword{contingência}
 

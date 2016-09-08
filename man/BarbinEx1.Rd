@@ -2,7 +2,7 @@
 % Please edit documentation in R/Barbin.R
 \name{BarbinEx1}
 \alias{BarbinEx1}
-\title{Altura de \emph{Pinus elliottii} aos 10 anos de idade}
+\title{Altura de \emph{Pinus elliottii} aos 10 Anos de Idade}
 \format{Um vetor com 50 elementos de valor numérico.}
 \source{
 BARBIN (2013), Exercício 1, pág. 199.

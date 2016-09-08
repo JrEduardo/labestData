@@ -2,8 +2,8 @@
 % Please edit documentation in R/Zimmermann.R
 \name{ZimmermannTb11.19}
 \alias{ZimmermannTb11.19}
-\title{Produtividade de arroz irrigado em ensaio fatorial com
-    confundimento}
+\title{Produtividade de Arroz Irrigado em Ensaio Fatorial com
+    Confundimento}
 \format{Um \code{data.frame} com 32 observações e 7 variáveis, em que
 
 \describe{
@@ -30,7 +30,7 @@
 
 }}
 \source{
-ZIMMERMANN (2004), Tabela 11.19, pág. 237.
+ZIMMERMANN (2004), (Tabela 11.19, pág. 237)
 }
 \description{
 Dados de um experimento fatorial \eqn{2^5}, com
@@ -68,6 +68,6 @@ useOuterStrips(
 
 }
 \keyword{DBC}
-\keyword{FAT}
+\keyword{FAT2ao5}
 \keyword{confundimento}
 

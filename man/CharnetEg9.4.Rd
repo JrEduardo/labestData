@@ -2,8 +2,9 @@
 % Please edit documentation in R/Charnet.R
 \name{CharnetEg9.4}
 \alias{CharnetEg9.4}
-\title{Um Conjunto de Dados Gen\enc{é}{e}rico para Regress\enc{ã}{a}o Linear M\enc{ú}{u}ltipla}
-\format{Um \code{data.frame} com 8 colunas e 36 linhas.
+\title{Um Conjunto de Dados Gen\enc{é}{e}rico para Regress\enc{ã}{a}o
+    Linear M\enc{ú}{u}ltipla}
+\format{Um \code{data.frame} com 8 colunas e 36 linhas, em que
 
 \describe{
 
@@ -23,13 +24,9 @@
 
 \item{\code{x7}}{Variável regressora.}
 
-
 }}
 \source{
-Charnet, R., de Luna Freire, C.A., Charnet, E.M.R., Bonvino,
-    H. (2008). Análise de modelos de regressão linear com aplicações
-    (2nd ed.). Campinas, SP: Editora Unicamp (Capítulo 9, exemplo 4,
-    pág. 226)
+CHARNET et al. (2008), Capítulo 9, exemplo 4, pág. 226.
 }
 \description{
 Um conjunto de dados qualquer para exercício de ajuste
@@ -39,6 +36,7 @@ Um conjunto de dados qualquer para exercício de ajuste
 \examples{
 
 data(CharnetEg9.4)
+str(CharnetEg9.4)
 
 plot(CharnetEg9.4)
 

@@ -4,7 +4,7 @@
 \alias{CostaTb8}
 \title{Irriga\enc{çã}{ca}o no Tamanho de Frutos de Variedades de
     Banana}
-\format{Um \code{data.frame} com 32 observações e 4 variáveis.
+\format{Um \code{data.frame} com 32 observações e 4 variáveis, em que
 
 \describe{
 
@@ -38,7 +38,6 @@ Experimento em parcelas subdivididas que estudou o
 library(lattice)
 
 data(CostaTb8)
-
 str(CostaTb8)
 
 ftable(with(CostaTb8,
@@ -57,6 +56,5 @@ xyplot(comp ~ varied, groups = irrig, data = CostaTb8,
        ylab = expression("Comprimento do fruto"~(cm)))
 
 }
-\keyword{DBC}
 \keyword{PS}
 

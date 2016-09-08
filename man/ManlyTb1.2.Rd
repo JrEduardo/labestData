@@ -2,9 +2,9 @@
 % Please edit documentation in R/Manly.R
 \name{ManlyTb1.2}
 \alias{ManlyTb1.2}
-\title{Cr\enc{â}{a}nios eg\enc{í}{i}pcios}
+\title{Cr\enc{â}{a}nios Eg\enc{í}{i}pcios}
 \format{Um \code{data.frame} com os tamanhos de 30 crânios para cada
-período de tempo, com quatro variáveis.
+    período de tempo, com quatro variáveis.
 
 \describe{
 
@@ -21,35 +21,36 @@ período de tempo, com quatro variáveis.
 }
 
 A figura abaixo descreve as medidas do crânio.
-\if{html}{\figure{ManlyTb1-2.jpg}{options: width="250px"}}
-\if{latex}{\figure{ManlyTb1-2.jpg}{options: width=1.75in}}}
+    \if{html}{\figure{ManlyTb1-2.jpg}{options: width="250px"}}
+    \if{latex}{\figure{ManlyTb1-2.jpg}{options: width=1.75in}}}
 \source{
-Manly, B. J. F. (2005). Métodos Estatísticos Multivariados -
-     uma introdução. Porto Alegre, RS: Bookman (pg 16)
+MANLY (2005), pág. 16.
 }
 \description{
 Medidas de crânios egípcios masculinos em cinco períodos
-de tempo. Medidas tomadas em milímetros.
+    de tempo. Medidas tomadas em milímetros.
 }
 \examples{
 
 data(ManlyTb1.2)
-require(lattice)
-require(reshape2)
+str(ManlyTb1.2)
 
-splom(~ManlyTb1.2[2:5] | grup, data = ManlyTb1.2,
-    layout=c(3,2),
-    pscales = 0,
-    varnames = c("x1", "x2","x3", "x4"),
-    main = "Gráfico de dispersão das medidas de crânio para cada período")
+library(lattice)
+library(reshape2)
+
+splom(~ManlyTb1.2[2:5] | grup,
+      data = ManlyTb1.2,
+      layout = c(3, 2),
+      pscales = 0,
+      varnames = c("x1", "x2","x3", "x4"))
 
 ManlyTb1.2long <- melt(ManlyTb1.2, id.vars = "grup")
 
-bwplot(value ~grup | variable, data = ManlyTb1.2long,
+bwplot(value ~grup | variable,
+       data = ManlyTb1.2long,
        scales = list(relation = "free"),
        ylab = "",
-       main = "Boxplot das medições de crânio em cada período" )
-
+       pch = "|")
 
 }
 \keyword{AnaFat}

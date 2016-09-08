@@ -3,7 +3,7 @@
 \name{CharnetEx2.9}
 \alias{CharnetEx2.9}
 \title{Notas de Candidatos ao Vestibular}
-\format{Um \code{data.frame} com 2 colunas e 9 linhas.
+\format{Um \code{data.frame} com 2 colunas e 9 linhas, em que
 
 \describe{
 
@@ -13,10 +13,7 @@
 
 }}
 \source{
-Charnet, R., de Luna Freire, C.A., Charnet, E.M.R., Bonvino,
-    H. (2008). Análise de modelos de regressão linear com aplicações
-    (2nd ed.). Campinas, SP: Editora Unicamp (Capítulo 2, exercício
-    9, pág. 47)
+CHARNET et al. (2008), Capítulo 2, exercício 9, pág. 47.
 }
 \description{
 Notas de 9 candidatos ao vestibular nas provas de
@@ -25,6 +22,7 @@ Notas de 9 candidatos ao vestibular nas provas de
 \examples{
 
 data(CharnetEx2.9)
+str(CharnetEx2.9)
 
 plot(CharnetEx2.9)
 

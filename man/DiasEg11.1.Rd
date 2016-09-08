@@ -34,7 +34,6 @@ library(lattice)
 data(DiasEg11.1)
 str(DiasEg11.1)
 
-
 ftable(xtabs(~sitio + bloc + cult, data = DiasEg11.1))
 
 xyplot(prod ~ cult | sitio, groups = bloc, data = DiasEg11.1,
@@ -48,5 +47,4 @@ xyplot(prod ~ cult | sitio, groups = bloc, data = DiasEg11.1,
 
 }
 \keyword{DBC}
-\keyword{GE}
 

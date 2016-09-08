@@ -62,6 +62,5 @@ xyplot(prod ~ dens, groups = epoc, data = StorckTb74,
 
 }
 \keyword{DIC}
-\keyword{FAT2}
 \keyword{PS}
 

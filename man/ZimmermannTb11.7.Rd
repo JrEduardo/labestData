@@ -27,7 +27,7 @@
 
 }}
 \source{
-ZIMMERMANN (2004), Tabela 11.7, pág 226.
+ZIMMERMANN (2004), Tabela 11.7, pág. 226.
 }
 \description{
 Dados de um experimento fatorial \eqn{2^3}, com
@@ -72,6 +72,6 @@ xyplot(prod ~ factor(dens) | factor(adub), groups = espac,
     reais para conduzir as análises.
 }
 \keyword{DBC}
-\keyword{FAT}
+\keyword{FAT2ao3}
 \keyword{confundimento}
 

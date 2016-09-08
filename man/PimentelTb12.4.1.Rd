@@ -37,5 +37,5 @@ xyplot(prod ~ K2O,
        xlab = "Teor de K do solo")
 
 }
-\keyword{RP}
+\keyword{RS}
 

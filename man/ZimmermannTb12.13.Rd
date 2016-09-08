@@ -19,7 +19,7 @@
 
 }}
 \source{
-ZIMMERMANN (2004), Tabela 12.13, pág. 255.
+ZIMMERMANN (2004), Tab 12.13, pág 255.
 }
 \description{
 Dados do ensaio 1 de um experimento em DBC que estudou a
@@ -34,7 +34,6 @@ Dados do ensaio 1 de um experimento em DBC que estudou a
 library(lattice)
 
 data(ZimmermannTb12.13)
-
 str(ZimmermannTb12.13)
 
 xyplot(asinprop ~ trat , groups = bloco, data = ZimmermannTb12.13,

@@ -4,6 +4,7 @@
 \alias{PaulaEg5.5.2}
 \title{Estudo sobre Condi\enc{çã}{ca}o Respirat\enc{ó}{o}ria}
 \format{Um \code{data.frame} com 224 observações e 6 variáveis.
+
 \describe{
 
 \item{\code{paci}}{Identificação do paciente.}
@@ -22,23 +23,21 @@
 
 }}
 \source{
-Paula, G. A. (2004). Modelos de regressão: com apoio
-    computacional. São Paulo, SP: IME-USP. (Exemplo 5.5.2, pág. 385)
+PAULA (2004), Exemplo 5.5.2, pág. 385.
 }
 \description{
 Estudo discutido em Myers, Montgomery e Vining (2002)
     que envolve a comparação de dois tratamentos aplicados em
     pacientes com problemas respiratórios. Nesse estudo foi
     considerado um total de 56 pacientes, sendo que 27 receberam o
-    tratamento com uma droga ativa e 29 receberam placebo.
-    Cada paciente foi observado em quatro ocasiões em que foi medida
-    a condição respiratória. Foram também registrados o sexo e a
-    idade de cada paciente além da pré-existência de um nível base.
+    tratamento com uma droga ativa e 29 receberam placebo.  Cada
+    paciente foi observado em quatro ocasiões em que foi medida a
+    condição respiratória. Foram também registrados o sexo e a idade
+    de cada paciente além da pré-existência de um nível base.
 }
 \examples{
 
 data(PaulaEg5.5.2)
-
 str(PaulaEg5.5.2)
 
 library(latticeExtra)

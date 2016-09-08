@@ -52,6 +52,5 @@ xyplot(colon ~ aplic, data = FariaQd12.5,
                        cex.title = 1.1, columns = 3))
 
 }
-\keyword{DBC}
 \keyword{PS}
 

@@ -18,7 +18,7 @@
 
 }}
 \source{
-VIEIRA (1999), Tabela 8.5, pág. 98 .
+VIEIRA (1999), Tabela 8.5, pág. 98.
 }
 \description{
 Os dados advém de um experimento no qual foram

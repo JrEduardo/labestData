@@ -3,7 +3,7 @@
 \name{CharnetEx7.2}
 \alias{CharnetEx7.2}
 \title{Impacto de Impurezas em um Reator Qu\enc{í}{i}mico}
-\format{Um \code{data.frame} com 4 colunas e 20 linhas.
+\format{Um \code{data.frame} com 4 colunas e 20 linhas, em que
 
 \describe{
 
@@ -16,10 +16,8 @@
 
 }}
 \source{
-Charnet, R., de Luna Freire, C.A., Charnet, E.M.R., Bonvino,
-    H. (2008). Análise de modelos de regressão linear com aplicações
-    (2nd ed.). Campinas, SP: Editora Unicamp (Capítulo 7, exercício
-    2, pág. 163, Capítulo 10, exercício 2, pág. 253)
+CHARNET et al. (2008), Capítulo 7, exercício 2, pág. 163;
+    Capítulo 10, exercício 2, pág. 253.
 }
 \description{
 Relação entre a porcentagem de impurezas dentro de um
@@ -29,9 +27,11 @@ Relação entre a porcentagem de impurezas dentro de um
 \examples{
 
 data(CharnetEx7.2)
+str(CharnetEx7.2)
 
 with(CharnetEx7.2, plot(tempo ~ imp, col = rea))
 
 }
-\keyword{RM}
+\keyword{RS}
+\keyword{dummy}
 

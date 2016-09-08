@@ -2,7 +2,7 @@
 % Please edit documentation in R/Mingoti.R
 \name{MingotiTb2.1}
 \alias{MingotiTb2.1}
-\title{Rochas de uma determinada regi\enc{ã}{a}o}
+\title{Rochas de uma Determinada Regi\enc{ã}{a}o}
 \format{Um \code{data.frame} com 12 observações e 4 variáveis, em que
 
 \describe{
@@ -17,9 +17,7 @@
 
 }}
 \source{
-Mingoti, S. A. (2005). Análise de dados através de métodos de
-    estatística multivariada: uma abordagem aplicada.  Belo
-    Horizonte, MG: Editora UFMG. (pg 42).
+MINGOTI (2005), pág. 42.
 }
 \description{
 Dados relativos a uma amostra de 12 rochas de uma certa
@@ -29,10 +27,10 @@ Dados relativos a uma amostra de 12 rochas de uma certa
 \examples{
 
 data(MingotiTb2.1)
+str(MingotiTb2.1)
 
 pairs(~qrtz + cor + fdsp,
-      data = MingotiTb2.1,
-      main = "Matriz de dispersão das variáveis da rocha")
+      data = MingotiTb2.1)
 
 }
 \keyword{TODO}

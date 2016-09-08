@@ -2,24 +2,23 @@
 % Please edit documentation in R/Ramos.R
 \name{RamosAnC2}
 \alias{RamosAnC2}
-\title{Teor de s\enc{ó}{o}dio em um processo qu\enc{í}{i}mico}
-\format{Um \code{data.frame} com 125 observações e 2 variáveis, em que
+\title{Teor de S\enc{ó}{o}dio em um Processo Qu\enc{í}{i}mico}
+\format{Um \code{data.frame} com 125 observações e 2 variáveis, em
+    que
 
 \describe{
 
 \item{\code{amostra}}{Número da amostra.}
 
 \item{\code{sodio}}{Teor do sódio.}
-    
+
 }}
 \source{
-Ramos, E. M. L. S., et al.(2013). 
-    Controle Estatístico da Qualidade (1th ed.). 
-    Porto Alegre, RS: Bookman. (pg 134).
+RAMOS et al. (2013), pág. 134.
 }
 \description{
-Conjunto de dados do teor de sódio (Na)  
-    em 25 amostras de tamanho 5 de um processo químico.
+Conjunto de dados do teor de sódio (Na) em 25 amostras
+    de tamanho 5 de um processo químico.
 }
 \examples{
 
@@ -29,8 +28,8 @@ library(qcc)
 
 obj <- qcc.groups(RamosAnC2$sodio, RamosAnC2$amostra)
 
-qcc(obj, type = "xbar", nsigmas = 3, ylab = "Média amostral", xlab = 
-     "Amostra", title = "")
+qcc(obj, type = "xbar", nsigmas = 3,
+    ylab = "Média amostral", xlab = "Amostra", title = "")
 
 }
 \keyword{CEQ}

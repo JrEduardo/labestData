@@ -15,8 +15,7 @@
 
 }}
 \source{
-Ferreira, D. F. (2011). Estatística Multivariada (2nd
-    ed.). Lavras, MG: Editora UFLA. (Exemplo 5.1 pág. 193-194)
+FERREIRA (2011), Exemplo 5.1 pág. 193-194.
 }
 \description{
 Conjunto de dados referente aos teores de areia e argila
@@ -59,5 +58,5 @@ par(mar = c(5, 0, 0.5, 1))
 barplot(argilaPlot$counts, axes = FALSE, space = 0, horiz = TRUE)
 
 }
-\keyword{TODO}
+\keyword{AASM}
 

@@ -19,7 +19,7 @@
 
 }}
 \source{
-VIEIRA (1999), Tabela 7.7, pág. 81; Tabela 8.2, pág. 94 .
+VIEIRA (1999), Tabela 7.7, pág. 81; Tabela 8.2, pág. 94.
 }
 \description{
 Dados referentes às notas dos alunos em um teste de

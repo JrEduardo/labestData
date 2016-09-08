@@ -23,9 +23,7 @@
 
 }}
 \source{
-Pimentel-Gomes, F. (2009). Curso de Estatística
-    Experimental (15th ed.). Piracicaba, SP: FEALQ. (Tabela 11.3.1,
-    pág. 215)
+PIMENTEL-GOMES (2009), Tabela 11.3.1, pág. 215.
 }
 \description{
 Produção de milho em um experimento em delineamento
@@ -54,4 +52,5 @@ xyplot(prod ~ hibr,
 
 }
 \keyword{LAT}
+\keyword{RET}
 

@@ -2,8 +2,9 @@
 % Please edit documentation in R/Charnet.R
 \name{CharnetEx7.1}
 \alias{CharnetEx7.1}
-\title{Efeito da Radia\enc{çã}{ca}o ao Oz\enc{ô}{o}nio em Sementes de Soja}
-\format{Um \code{data.frame} com 3 colunas e 12 linhas.
+\title{Efeito da Radia\enc{çã}{ca}o ao Oz\enc{ô}{o}nio em Sementes de
+    Soja}
+\format{Um \code{data.frame} com 3 colunas e 12 linhas, em que
 
 \describe{
 
@@ -18,10 +19,8 @@
 
 }}
 \source{
-Charnet, R., de Luna Freire, C.A., Charnet, E.M.R., Bonvino,
-    H. (2008). Análise de modelos de regressão linear com aplicações
-    (2nd ed.). Campinas, SP: Editora Unicamp (Capítulo 7, exercício
-    1, pág. 163, Capítulo 10, exercício 1, pág. 253)
+CHARNET et al. (2008), Capítulo 7, exercício 1, pág. 163;
+    Capítulo 10, exercício 1, pág. 253.
 }
 \description{
 Efeito da radiação solar em dois níveis de ozônio e
@@ -30,9 +29,11 @@ Efeito da radiação solar em dois níveis de ozônio e
 \examples{
 
 data(CharnetEx7.1)
+str(CharnetEx7.1)
 
 with(CharnetEx7.1, plot(peso, rad, col = n))
 
 }
-\keyword{RM}
+\keyword{RS}
+\keyword{dummy}
 

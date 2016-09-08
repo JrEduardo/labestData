@@ -2,7 +2,7 @@
 % Please edit documentation in R/Faria.R
 \name{FariaEg3.2.4}
 \alias{FariaEg3.2.4}
-\title{Produ\enc{çã}{ca}o de Am\enc{ê}{e}ndoas de Clones de Cacau}
+\title{Produção de Amêndoas de Clones de Cacau}
 \format{Um \code{data.frame} com 24 observações e 3 variáveis, em que
 
 \describe{

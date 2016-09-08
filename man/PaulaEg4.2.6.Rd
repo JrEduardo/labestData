@@ -2,9 +2,11 @@
 % Please edit documentation in R/Paula.R
 \name{PaulaEg4.2.6}
 \alias{PaulaEg4.2.6}
-\title{Perfis de Clientes de uma Loja nas \enc{Á}{A}reas de uma Cidade}
+\title{Perfis de Clientes de uma Loja nas \enc{Á}{A}reas de uma
+    Cidade}
 \format{Um \code{data.frame} com 110 observações e 6 variáveis.
-    \describe{
+
+\describe{
 
 \item{\code{nclien}}{Número de clientes da loja na área.}
 
@@ -21,8 +23,7 @@
 
 }}
 \source{
-Paula, G. A. (2004). Modelos de regressão: com apoio
-    computacional. São Paulo, SP: IME-USP. (Exemplo 4.2.6, pág. 299)
+PAULA (2004), Exemplo 4.2.6, pág. 299.
 }
 \description{
 Dados apresentados em Neter et al. (1996) sobre um
@@ -34,10 +35,10 @@ Dados apresentados em Neter et al. (1996) sobre um
 \examples{
 
 data(PaulaEg4.2.6)
-
 str(PaulaEg4.2.6)
 
 library(lattice)
+
 splom(PaulaEg4.2.6, type = c("p", "smooth"), lwd = 2)
 
 }

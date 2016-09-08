@@ -47,5 +47,5 @@ xyplot(prod ~ as.factor(N) | as.factor(P),
 
 }
 \keyword{DBC}
-\keyword{FAT3}
+\keyword{FAT2ao3}
 

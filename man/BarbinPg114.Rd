@@ -39,7 +39,7 @@ Dados de um experimento fatorial 5 \eqn{\times} 4, em
     7 anos de idade, de \emph{Eucaliptus saligna} (Simões,  Mello e
     Barbin, 1967).
 
-Cinco aparelhos ou instrumentos de mensuração (hipsômetro de
+    Cinco aparelhos ou instrumentos de mensuração (hipsômetro de
     Blume-Leiss, hipsômetro de Haga, hipsômetro Weise, prancheta
     dendrométrica e trena) foram testados por 4 operadores resultando
     em 20 combinações. Diante de uma árvore era sorteado um número no

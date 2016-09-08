@@ -2,8 +2,8 @@
 % Please edit documentation in R/Zimmermann.R
 \name{ZimmermannTb12.2}
 \alias{ZimmermannTb12.2}
-\title{Estudo sobre produtividade de gr\enc{ã}{a}os de arroz irrigado}
-\format{Um \code{data.frame} com 42 observações e 3 variáveis
+\title{Estudo Sobre Produtividade de Gr\enc{ã}{a}os de Arroz Irrigado}
+\format{Um \code{data.frame} com 42 observações e 3 variáveis, em que
 
 \describe{
 
@@ -18,7 +18,7 @@
 
 }}
 \source{
-ZIMMERMANN (2004), Tabela 12.2, pág. 249.
+ZIMMERMANN (2004), Tabela 12.2, pág 249.
 }
 \description{
 Dados do Ensaio 2 de um experimento em DIC, que estudou

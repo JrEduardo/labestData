@@ -4,7 +4,7 @@
 \alias{CostaEx5.7.2}
 \title{Densidade do Solo ao Longo do Perfil em Zonas de
     Compacta\enc{çã}{ca}o}
-\format{Um \code{data.frame} com 10 observações e 2 variáveis.
+\format{Um \code{data.frame} com 10 observações e 2 variáveis, em que
 
 \describe{
 
@@ -37,5 +37,5 @@ xyplot(dens ~ prof, data = CostaEx5.7.2,
        ylab = expression("Densidade do solo"~(g~cm^{-3})))
 
 }
-\keyword{RL}
+\keyword{RS}
 

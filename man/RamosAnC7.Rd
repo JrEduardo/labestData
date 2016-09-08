@@ -2,7 +2,7 @@
 % Please edit documentation in R/Ramos.R
 \name{RamosAnC7}
 \alias{RamosAnC7}
-\title{Processo qu\enc{í}{i}mico}
+\title{Processo Qu\enc{í}{i}mico}
 \format{Um \code{data.frame} com 30 observações e 3 variáveis, em que
 
 \describe{
@@ -12,17 +12,14 @@
 \item{\code{phagua}}{pH da água.}
 
 \item{\code{phclore}}{pH do cloreto de potássio.}
-    
+
 }}
 \source{
-Ramos, E. M. L. S., et al.(2013). 
-    Controle Estatístico da Qualidade (1th ed.). 
-    Porto Alegre, RS: Bookman. (pg 137).
+RAMOS et al. (2013), pág. 137.
 }
 \description{
-Conjunto de dados de um processo químico com  
-    o pH da água, e pH do cloreto de potássio em 30 amostras
-    de tamanho 1.
+Conjunto de dados de um processo químico com o pH da
+    água, e pH do cloreto de potássio em 30 amostras de tamanho 1.
 }
 \examples{
 
@@ -31,11 +28,12 @@ data(RamosAnC7)
 library(qcc)
 
 qcc(RamosAnC7$phagua, type="xbar.one",
-  xlab = "Amostra", ylab = "Ph da água", 
-  title = "")
+    xlab = "Amostra", ylab = "Ph da água",
+    title = "")
+
 qcc(RamosAnC7$phclore, type="xbar.one",
-  xlab = "Amostra", ylab = "Ph do cloreto", 
-  title = "")
+    xlab = "Amostra", ylab = "Ph do cloreto",
+    title = "")
 
 }
 \keyword{CEQ}

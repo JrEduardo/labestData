@@ -2,48 +2,50 @@
 % Please edit documentation in R/Manly.R
 \name{ManlyTb10.2}
 \alias{ManlyTb10.2}
-\title{Vari\enc{á}{a}veis solo e vegeta\enc{çã}{ca}o em Belize}
+\title{Vari\enc{á}{a}veis de Solo e Vegeta\enc{çã}{ca}o em Belize}
 \format{Um \code{data.frame} com 151 linhas e 8 variáveis.
 
 \describe{
+
 \item{\code{ser}}{Porcentagem de solo com enriquecimento constante de
-calcário.}
+    calcário.}
 
 \item{\code{spc}}{Porcentagem de solo de prado com cálcio na água
-subterrânea.}
+    subterrânea.}
 
 \item{\code{smc}}{Porcentagem de solo com matriz de coral sob
-condições de enriquecimento constante de calcário.}
+    condições de enriquecimento constante de calcário.}
 
 \item{\code{sao}}{Porcentagem de solos aluvial e orgânico adjacentes
-a rios e solo orgânico salino na costa.}
+    a rios e solo orgânico salino na costa.}
 
 \item{\code{dfe}}{Porcentagem de floresta decídua estacional com
-ervas de folhas largas.}
+    ervas de folhas largas.}
 
 \item{\code{flab}}{Porcentagem de floresta de locais altos e baixos
-coberta com água e plantas herbáceas em lugares úmidos e pântano.}
+    coberta com água e plantas herbáceas em lugares úmidos e
+    pântano.}
 
 \item{\code{fpc}}{Porcentagem de floresta palma de cohune.}
 
 \item{\code{fm}}{Porcentagem de floresta mista.}
+
 }}
 \source{
-Manly, B. J. F. (2005). Métodos Estatísticos Multivariados -
-uma introdução.Porto Alegre, RS: Bookman (pg 167 à 170)
+MANLY (2005), pág. 167 à 170.
 }
 \description{
-Estudo no distrito de Corozal, em Belize, com 4 variáveis
-de solo e 4 variáveis de vegetação registradas para quadrados
-de 2,5 x 2,5 km.
+Estudo no distrito de Corozal, em Belize, com 4
+    variáveis de solo e 4 variáveis de vegetação registradas para
+    quadrados de 2,5 x 2,5 km.
 }
 \examples{
 
 data(ManlyTb10.2)
-pairs(~ ser + spc + smc + sao + fde + flab + fpc + fm,
-      data = ManlyTb10.2,
-      main="Matriz de gráficos para as variáveis de solo")
+str(ManlyTb10.2)
 
+pairs(~ ser + spc + smc + sao + fde + flab + fpc + fm,
+      data = ManlyTb10.2)
 
 }
 \keyword{AnaCorCan}

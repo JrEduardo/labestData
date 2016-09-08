@@ -2,7 +2,7 @@
 % Please edit documentation in R/Pimentel.R
 \name{PimentelPg72}
 \alias{PimentelPg72}
-\title{Ensaio de alimenta\enc{çã}{ca}o de leitoas}
+\title{Ensaio de alimenta\enc{çã}{ca}o de Leitoas}
 \format{Um \code{data.frame} com 8 observações e 2 variáveis, em que
 
 \describe{
@@ -28,6 +28,9 @@ Experimento realizado pelos técnicos Manoel Becker, Luís
     experimental de três meses.
 }
 \examples{
+
+data(PimentelPg72)
+str(PimentelPg72)
 
 library(lattice)
 

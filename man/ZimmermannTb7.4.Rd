@@ -21,8 +21,7 @@
 \item{\code{prod}}{Produção de grãos de arroz irrigado (ka
     ha\eqn{^{-1}}).}
 
-}
-RET}
+}}
 \source{
 ZIMMERMANN (2004), Tabela 7.4, pág. 140.
 }
@@ -49,4 +48,5 @@ xyplot(prod ~ reorder(cult, prod),
        ylab = expression("Produção de grãos de arroz"~(kg~ha^{-1})))
 
 }
+\keyword{RET}
 

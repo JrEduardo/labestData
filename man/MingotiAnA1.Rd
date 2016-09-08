@@ -2,43 +2,39 @@
 % Please edit documentation in R/Mingoti.R
 \name{MingotiAnA1}
 \alias{MingotiAnA1}
-\title{Aceita\enc{çã}{ca}o de um novo produto comest\enc{í}{i}vel}
-\format{Um \code{data.frame} com 200 observações e 9 variáveis, 
-     em que
+\title{Aceita\enc{çã}{ca}o de um Novo Produto Comest\enc{í}{i}vel}
+\format{Um \code{data.frame} com 200 observações e 9 variáveis, em
+    que
 
 \describe{
 
 \item{\code{id}}{Número de identificação do indivíduo.}
 
-\item{\code{sexo}}{Sexo do indivíduo 
-    (0 para mulheres e 1 para homens).}
+\item{\code{sexo}}{Sexo do indivíduo (0 para mulheres e 1 para
+    homens).}
 
-\item{\code{sabor}}{Nota atribuída ao sabor do produto.} 
-   
+\item{\code{sabor}}{Nota atribuída ao sabor do produto.}
 
-\item{\code{aroma}}{Nota atribuída ao aroma do produto.} 
-   
-    
-\item{\code{cor}}{Nota atribuída à cor do produto.} 
-   
 
-\item{\code{textu}}{Nota atribuída à textura do produto.} 
-   
+\item{\code{aroma}}{Nota atribuída ao aroma do produto.}
 
-\item{\code{utili}}{Nota atribuída à utilidade do 
+
+\item{\code{cor}}{Nota atribuída à cor do produto.}
+
+
+\item{\code{textu}}{Nota atribuída à textura do produto.}
+
+
+\item{\code{utili}}{Nota atribuída à utilidade do produto.}
+
+\item{\code{local}}{Nota atribuída à facilidade de encontrar o
    produto.}
-    
-\item{\code{local}}{Nota atribuída à facilidade de 
-   encontrar o produto.}
-    
-\item{\code{embal}}{Nota atribuída à embalagem do 
-   produto.}
+
+\item{\code{embal}}{Nota atribuída à embalagem do produto.}
 
 }}
 \source{
-Mingoti, S.A. (2005). Análise de dados através de métodos de 
-    estatística multivariada - uma abordagem aplicada. 
-    Belo Horizonte, MG: Editora UFMG. (pg 108).
+MINGOTI (2005) pág. 108.
 }
 \description{
 Pesquisa de mercado feita para avaliar a aceitação do
@@ -48,17 +44,29 @@ Pesquisa de mercado feita para avaliar a aceitação do
 \examples{
 
 data(MingotiAnA1)
+str(MingotiAnA1)
 
-da <- reshape(MingotiAnA1, direction = "long", varying = list(3:9),
-              v.names = "notas", timevar = "atributo")
-tab<-with(da,data.frame(table(sexo,atributo,notas)))
-names(tab)<-c('sexo','atributo','notas','freq')              
+da <- reshape(MingotiAnA1,
+              direction = "long",
+              varying = list(3:9),
+              v.names = "notas",
+              timevar = "atributo")
+
+tab <- with(da, data.frame(table(sexo, atributo, notas)))
+names(tab) <- c("sexo", "atributo", "notas", "freq")
+
 library(lattice)
-barchart(freq~atributo|sexo,groups=notas,data=tab,
-     xlab='Atributo',ylab='Freq',auto.key=list(space="top", columns=5,
-     title="Nota", cex.title=1),main="Distribuição das notas atribuídas ao produto",
-     strip=strip.custom(factor.levels=c("Mulheres","Homens")),
-     scales=list(x=list(labels=c("Sabor","Aroma","Cor","Textu","Utili","Local","Embal"))))
+barchart(freq ~ atributo | sexo, groups = notas, data = tab,
+         xlab = "Atributo", ylab = "Freq",
+         auto.key = list(space = "top", columns = 5, title = "Nota",
+                         cex.title = 1),
+         main = "Distribuição das notas atribuídas ao produto",
+         strip = strip.custom(factor.levels =
+                                  c("Mulheres", "Homens")),
+         scales = list(x = list(labels = c("Sabor", "Aroma", "Cor",
+                                           "Textu", "Utili", "Local",
+                                           "Embal"))))
+
 }
 \keyword{AnaFat}
 

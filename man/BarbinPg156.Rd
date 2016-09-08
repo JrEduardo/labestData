@@ -47,6 +47,5 @@ xyplot(prod ~ adub | aplic, data = BarbinPg156,
        ylab = expression("Produção de milho"~(kg~ha^{-1})))
 
 }
-\keyword{DBC}
 \keyword{PS}
 

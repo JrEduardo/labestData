@@ -46,5 +46,5 @@ xyplot(prod ~ factor(irri), groups = calc, data = FariaQd11.4,
 
 }
 \keyword{DIC}
-\keyword{FAT2}
+\keyword{FAT2ao2}
 

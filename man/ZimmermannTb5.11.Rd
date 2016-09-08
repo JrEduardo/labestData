@@ -43,7 +43,6 @@ Experimento em delineamento quadrado latino onde foram
 library(lattice)
 
 data(ZimmermannTb5.11)
-
 str(ZimmermannTb5.11)
 
 aux <- aggregate(prop ~ linha + coluna + inset,

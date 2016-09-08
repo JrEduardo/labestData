@@ -50,6 +50,5 @@ xyplot(prod ~ anos, data = BarbinPg167,
                        lwd = 1, col = "gray50", ...))
 
 }
-\keyword{DBC}
 \keyword{PS}
 

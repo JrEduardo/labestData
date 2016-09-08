@@ -3,7 +3,7 @@
 \name{CharnetApD.1}
 \alias{CharnetApD.1}
 \title{Conjunto de Dados de Meninas Dan\enc{ç}{c}arinas}
-\format{Um \code{data.frame} com 163 linhas e 6 colunas.
+\format{Um \code{data.frame} com 163 linhas e 6 colunas, em que
 
 \describe{
 
@@ -14,18 +14,16 @@
 \item{\code{altura}}{Altura, em centímetros, das bailarinas.}
 
 \item{\code{ped}}{Medida de angulação do pé direito em movimento de
-dança clássica}
+    dança clássica.}
 
 \item{\code{pee}}{Medida de angulação do pé esquerdo em movimento de
-dança clássica}
+    dança clássica.}
 
-\item{\code{pem}}{Média das duas medidas de angulação dos pés}
+\item{\code{pem}}{Média das duas medidas de angulação dos pés.}
 
 }}
 \source{
-Charnet, R., de Luna Freire, C.A., Charnet, E.M.R., Bonvino,
-    H. (2008). Análise de modelos de regressão linear com aplicações
-    (2nd ed.). Campinas, SP: Editora Unicamp (Apêndice D, pág. 325)
+CHARNET et al. (2008), Apêndice D, pág. 325.
 }
 \description{
 Medidas antropomórficas e extensões de bailarinas.
@@ -44,10 +42,10 @@ qplot(peso, altura,
       main = "Relação Peso e Altura por Idade de Jovens Bailarinas")
 
 bailarinas <- qplot(ped, pee,
-                     data = CharnetApD.1,
-                     xlab = "Angulação do pé direito",
-                     ylab = "Angulação do pé esquerdo",
-                     main = "Diferença na Angulação Entre os Pés")
+                    data = CharnetApD.1,
+                    xlab = "Angulação do pé direito",
+                    ylab = "Angulação do pé esquerdo",
+                    main = "Diferença na Angulação Entre os Pés")
 
 bailarinas + geom_abline(intercept = 0, slope = 1)
 }

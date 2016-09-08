@@ -18,7 +18,7 @@
 
 }}
 \source{
-ZIMMERMANN (2004), Tabela 12.1, pág. 249.
+ZIMMERMANN (2004), pág. 249.
 }
 \description{
 Dados do Ensaio 1 de um experimento em DIC, que estudou
@@ -31,7 +31,6 @@ Dados do Ensaio 1 de um experimento em DIC, que estudou
 library(lattice)
 
 data(ZimmermannTb12.1)
-
 str(ZimmermannTb12.1)
 
 xyplot(prod ~ geno, data = ZimmermannTb12.1,

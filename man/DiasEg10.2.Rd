@@ -16,7 +16,9 @@
 
 \item{\code{rept}}{Inteiro que identifica as repetições.}
 
-\item{\code{pg}}{Percentual de germinação das sementes.}
+\item{\code{pg}}{Percentual de germinação das sementes. Como todos os
+    resultados são pares, infere-se que o total de sementes usadas
+    para determinar a germinação seja 50.}
 
 }}
 \source{
@@ -45,6 +47,7 @@ xyplot(pg ~ tempo, groups = cult, data = DiasEg10.2,
        ylab = "Percentagem de germinação")
 
 }
-\keyword{DIC}
 \keyword{PS}
+\keyword{binomial}
+\keyword{unitario}
 

@@ -3,8 +3,7 @@
 \name{EpprechtTb8.2}
 \alias{EpprechtTb8.2}
 \title{N\enc{ú}{u}mero de Clientes Insatisfeitos com a Comida}
-\format{Um \code{data.frame} com 30 observações e 1 variável, 
-    em que
+\format{Um \code{data.frame} com 30 observações e 1 variável, em que
 
 \describe{
 
@@ -12,25 +11,26 @@
 
 }}
 \source{
-Costa, A. F. B., Epprecht, E. K., Carpinetti, L. (2010).
-     Controle Estatístico de Qualidade (2nd ed.). São Paulo - SP:
-     Editora Atlas. (pg 204).
+COSTA et al. (2010), pág. 204.
 }
 \description{
-Dados referentes ao número de clientes insatisfeitos
-    com a comida de um restaurante. Esses dados foram obtidos após o
+Dados referentes ao número de clientes insatisfeitos com
+    a comida de um restaurante. Esses dados foram obtidos após o
     diagnóstico e a eliminação de causas especiais. A cada dia 200
     clientes foram consultados, durante 30 dias.
 }
 \examples{
 
-data(EpprechtTb8.2) 
+data(EpprechtTb8.2)
+str(EpprechtTb8.2)
 
 library(qcc)
 
-qcc(EpprechtTb8.2, type="p", size=200,
-    xlab="Amostra", ylab="Proporção de insatisfeitos", title=" ")
-                  
+qcc(EpprechtTb8.2, type = "p", size = 200,
+    xlab = "Amostra",
+    ylab = "Proporção de insatisfeitos",
+    title = "")
+
 }
 \keyword{CEQ}
 

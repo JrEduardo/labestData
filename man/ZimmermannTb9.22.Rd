@@ -64,6 +64,6 @@ xyplot(asin(sqrt(nsi/40)) ~ trat, data = ZimmermannTb9.22,
        scales = list(x = list(rot = 90)))
 
 }
-\keyword{DIC}
+\keyword{FATADI}
 \keyword{binomial}
 

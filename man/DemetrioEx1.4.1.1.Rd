@@ -2,19 +2,18 @@
 % Please edit documentation in R/Demetrio.R
 \name{DemetrioEx1.4.1.1}
 \alias{DemetrioEx1.4.1.1}
-\title{Alturas de Feij\enc{ã}{a}o}
-\format{Um \code{data.frame} de 7 linhas e 2 colunas.
+\title{Alturas de Feijão}
+\format{Um \code{data.frame} de 7 linhas e 2 colunas, em que
 
 \describe{
 
-    \item{\code{idade}}{Idade do feijão medida em semanas.}
-    
-    \item{\code{altura}}{Altura do feijão medida em centímetros (cm).}
-    
+\item{\code{idade}}{Idade do feijão medida em semanas.}
+
+\item{\code{altura}}{Altura do feijão medida em centímetros (cm).}
+
 }}
 \source{
-Demétrio, C. G. B., Zocchi, S. S. (2011). Modelos de
-    Regressão. Piracicaba: ESALQ. (Exercício 1.4.1.1 pág. 14)
+DEMÉTRIO; ZOCCHI (2011), Exercício 1.4.1.1 pág. 14.
 }
 \description{
 Dados de altura de feijão durante 7 semanas.
@@ -22,15 +21,16 @@ Dados de altura de feijão durante 7 semanas.
 \examples{
 
 data(DemetrioEx1.4.1.1)
+str(DemetrioEx1.4.1.1)
 
 library(lattice)
 
-xyplot(altura ~ idade, data = DemetrioEx1.4.1.1,
-     main = "Idade VS Altura",
-     xlab = "Idade",
-     ylab = "Altura",
-     type = c("p", "r"), col.line = 3)
-     
+xyplot(altura ~ idade,
+       data = DemetrioEx1.4.1.1,
+       xlab = "Idade",
+       ylab = "Altura",
+       type = c("p", "r"), col.line = 3)
+
 }
 \keyword{RS}
 

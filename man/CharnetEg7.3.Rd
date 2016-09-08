@@ -2,8 +2,9 @@
 % Please edit documentation in R/Charnet.R
 \name{CharnetEg7.3}
 \alias{CharnetEg7.3}
-\title{Rela\enc{çã}{ca}o entre Sal\enc{á}{a}rio, Tempo de Experi\enc{ê}{e}ncia e Sexo}
-\format{Um \code{data.frame} com 2 colunas e 15 linhas.
+\title{Rela\enc{çã}{ca}o entre Sal\enc{á}{a}rio, Tempo de
+    Experi\enc{ê}{e}ncia e Sexo}
+\format{Um \code{data.frame} com 2 colunas e 15 linhas, em que
 
 \describe{
 
@@ -15,10 +16,7 @@
 
 }}
 \source{
-Charnet, R., de Luna Freire, C.A., Charnet, E.M.R., Bonvino,
-    H. (2008). Análise de modelos de regressão linear com aplicações
-    (2nd ed.). Campinas, SP: Editora Unicamp (Capítulo 7, exemplo 3,
-    pág. 152)
+CHARNET et al. (2008), Capítulo 7, exemplo 3, pág. 152.
 }
 \description{
 Dados de salário, tempo de experiência e sexo dos
@@ -27,9 +25,14 @@ Dados de salário, tempo de experiência e sexo dos
 \examples{
 
 data(CharnetEg7.3)
+str(CharnetEg7.3)
+
+library(lattice)
 
 with(CharnetEg7.3, plot(salario, exp, col = sexo))
+xyplot(exp ~ salario, data = CharnetEg7.3, groups = sexo)
 
 }
 \keyword{RM}
+\keyword{dummy}
 

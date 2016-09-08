@@ -47,5 +47,5 @@ X2 <- model.matrix(~0 + prog2, data = RamalhoEg12.10)
 X <- 0.5 * (X1 + X2)
 
 }
-\keyword{Dialelo}
+\keyword{dialelo}
 

@@ -30,7 +30,6 @@ library(lattice)
 data(DiasEx11.7.8)
 str(DiasEx11.7.8)
 
-
 xtabs(~geno + exper, data = DiasEx11.7.8)
 
 # Totais.
@@ -47,5 +46,5 @@ xyplot(prod ~ geno, groups = exper, data = DiasEx11.7.8,
                        columns = 4))
 
 }
-\keyword{DBC}
+\keyword{GE}
 

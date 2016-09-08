@@ -3,7 +3,7 @@
 \name{CostaTb7}
 \alias{CostaTb7}
 \title{Tipos de Inoculantes em Variedades de Cana-de-a\enc{çú}{cu}car}
-\format{Um \code{data.frame} com 24 observações e 4 variáveis.
+\format{Um \code{data.frame} com 24 observações e 4 variáveis, em que
 
 \describe{
 
@@ -34,7 +34,6 @@ Experimento fatorial que avaliou o peso do colmo de duas
 library(lattice)
 
 data(CostaTb7)
-
 str(CostaTb7)
 
 ftable(with(CostaTb7,

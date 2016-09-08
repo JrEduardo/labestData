@@ -2,7 +2,7 @@
 % Please edit documentation in R/Ramos.R
 \name{RamosTb6.1}
 \alias{RamosTb6.1}
-\title{Densidade aparente de um processo de eletrodos}
+\title{Densidade Aparente de um Processo de Eletrodos}
 \format{Um \code{data.frame} com 30 observações e 2 variáveis, em que
 
 \describe{
@@ -10,15 +10,13 @@
 \item{\code{amostra}}{Número da amostra.}
 
 \item{\code{densi}}{Densidade aparente (em g/cm^{3} do eletrodo).}
- 
+
 }}
 \source{
-Ramos, E. M. L. S., et al.(2013). 
-    Controle Estatístico da Qualidade (1th ed.). 
-    Porto Alegre, RS: Bookman. (pg 106).
+RAMOS et al. (2013), pág. 106.
 }
 \description{
-Dados da densidade aparente de um processo de produtivo  
+Dados da densidade aparente de um processo de produtivo
     de eletrodos de carbono.
 }
 \examples{
@@ -27,9 +25,10 @@ data(RamosTb6.1)
 
 library(qcc)
 
-qcc(RamosTb6.1$densi, type = "xbar.one", 
-     std.dev = "SD", nsigmas = 3, xlab = "Amostra", ylab = "Densidade",
-     title = "")
+qcc(RamosTb6.1$densi, type = "xbar.one",
+    std.dev = "SD", nsigmas = 3,
+    xlab = "Amostra", ylab = "Densidade",
+    title = "")
 
 }
 \keyword{CEQ}

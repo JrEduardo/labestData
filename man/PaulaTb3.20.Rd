@@ -2,7 +2,7 @@
 % Please edit documentation in R/Paula.R
 \name{PaulaTb3.20}
 \alias{PaulaTb3.20}
-\title{Aplica\enc{çã}{ca}o de inseticidas em insetos}
+\title{Aplica\enc{çã}{ca}o de Inseticidas em Insetos}
 \format{Um \code{data.frame} com 18 observações e 7 variáveis, em que
 
 \describe{
@@ -17,27 +17,30 @@
 
 }}
 \source{
-Paula, G. A. (2004). Modelos de regressão: com apoio computacional.
-   São Paulo, SP: IME-USP. (Tb 3.20 pág. 246)
+PAULA (2004), Tb 3.20 pág. 246.
 }
 \description{
-Dados de um experimento em que três
-   inseticidas foram aplicados em determinada espécie de inseto, sendo
-   verificado o número de sobreviventes para cada dose aplicada.
+Dados de um experimento em que três inseticidas foram
+    aplicados em determinada espécie de inseto, sendo verificado o
+    número de sobreviventes para cada dose aplicada.
 }
 \examples{
 
 library(lattice)
 
 data(PaulaTb3.20)
-
 str(PaulaTb3.20)
 
-xyplot(mortos/(sum(mortos)) ~ dose,  data = PaulaTb3.20, auto.key = TRUE,
-         type = c("p","a"), groups= inset,
-         xlab = "Dose de inseticida aplicada",
-         ylab = "Proporção de insetos mortos",
-         main = "Aplicações de inseticidas")
+xyplot(mortos/(sum(mortos)) ~ dose,
+       data = PaulaTb3.20,
+       auto.key = TRUE,
+       type = c("p", "a"),
+       groups = inset,
+       xlab = "Dose de inseticida aplicada",
+       ylab = "Proporção de insetos mortos")
+
 }
-\keyword{MLG}
+\keyword{FAT2}
+\keyword{binomial}
+\keyword{dummy}
 

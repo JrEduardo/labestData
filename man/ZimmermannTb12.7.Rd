@@ -33,7 +33,6 @@ Dados do ensaio 1 de um experimento que avaliou as
 library(lattice)
 
 data(ZimmermannTb12.7)
-
 str(ZimmermannTb12.7)
 
 xyplot(aacpd ~ cult , groups = bloco, data = ZimmermannTb12.7,

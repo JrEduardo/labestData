@@ -27,9 +27,7 @@
 
 }}
 \source{
-Pimentel-Gomes, F. (2009). Curso de Estatística
-    Experimental (15th ed.). Piracicaba, SP: FEALQ. (Tabela 7.9.1,
-    pág 137)
+PIMENTEL-GOMES (2009), Tabela 7.9.1, pág. 137.
 
 Malavolta, E.; Pimentel-Gomes, F.; Coury, T. Estudos sobre a
     alimentação mineral do cafeeiro (\emph{Coffea arabica} L.,
@@ -62,6 +60,6 @@ xyplot(quad ~ N | factor(P), groups = K, data = PimentelTb7.9.1,
                             var.name = "Fósforo"))
 
 }
-\keyword{FAT3}
+\keyword{FAT2ao3}
 \keyword{contagem}
 

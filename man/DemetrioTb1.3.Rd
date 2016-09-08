@@ -3,21 +3,20 @@
 \name{DemetrioTb1.3}
 \alias{DemetrioTb1.3}
 \title{Estudo da Constru\enc{çã}{ca}o de um Tensi\enc{ô}{o}metro}
-\format{Um \code{data.frame} com 9 linhas e 2 colunas.
+\format{Um \code{data.frame} com 9 linhas e 2 colunas, em que
 
 \describe{
 
-    \item{\code{altura}}{ Altura da câmara no tensiômetro medida
+\item{\code{altura}}{ Altura da câmara no tensiômetro medida
     em milímetros (mm). }
-    
-    \item{\code{tensao}}{ Tensão da água no solo medida em coloumb
+
+\item{\code{tensao}}{ Tensão da água no solo medida em coloumb
     (mb) }
 
 }}
 \source{
-Demétrio, C. G. B., Zocchi, S. S. (2011). Modelos de
-    Regressão. Piracicaba: ESALQ. (Tabela 1.3 pág. 10; 
-    Ex 2.12.14 pág. 62)
+DEMÉTRIO; ZOCCHI (2011), Tabela 1.3 pág. 10; Ex 2.12.14
+    pág. 62.
 }
 \description{
 Estudo da construção de um tensiômetro de leitura
@@ -29,17 +28,18 @@ Estudo da construção de um tensiômetro de leitura
 library(lattice)
 
 data(DemetrioTb1.3)
+str(DemetrioTb1.3)
 
 xyplot(tensao ~ altura, data = DemetrioTb1.3,
-    main = "Altura VS Tensão",
-    xlab = "Altura do Tensiômetro",
-    ylab = "Tensão da Água")
+       xlab = "Altura do Tensiômetro",
+       ylab = "Tensão da Água")
 
 xyplot(tensao ~ log(altura), data = DemetrioTb1.3,
-    main = "Altura VS Tensão",
-    xlab = expression(log~"(Altura do Tensiômetro)"),
-    ylab = "Tensão da Água")
+       main = "Altura VS Tensão",
+       xlab = expression(log~"(Altura do Tensiômetro)"),
+       ylab = "Tensão da Água")
 
 }
+\keyword{RNL}
 \keyword{RS}
 

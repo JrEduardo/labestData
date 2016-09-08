@@ -2,8 +2,10 @@
 % Please edit documentation in R/Paula.R
 \name{PaulaTb4.12}
 \alias{PaulaTb4.12}
-\title{Associa\enc{çã}{ca}o entre Renda e Satisfa\enc{çã}{ca}o no Emprego}
+\title{Associa\enc{çã}{ca}o entre Renda e Satisfa\enc{çã}{ca}o no
+    Emprego}
 \format{Um \code{data.frame} com 16 observações e 3 variáveis.
+
 \describe{
 
 \item{\code{renda}}{Fator com quatro níveis representando a renda do
@@ -20,8 +22,7 @@
 
 }}
 \source{
-Paula, G. A. (2004). Modelos de regressão: com apoio
-    computacional. São Paulo, SP: IME-USP. (Tabela 4.12, pág. 331)
+PAULA (2004), Tabela 4.12, pág. 331.
 }
 \description{
 Dados resultantes de uma pesquisa com 901 indivíduos
@@ -32,13 +33,13 @@ Dados resultantes de uma pesquisa com 901 indivíduos
 \examples{
 
 data(PaulaTb4.12)
-
 str(PaulaTb4.12)
 
 (xt <- xtabs(nind ~ ., data = PaulaTb4.12))
 plot(xt)
 
 library(lattice)
+
 xyplot(nind ~ renda,
        groups = satis,
        data = PaulaTb4.12,
@@ -54,4 +55,5 @@ Agresti, A. (1990). Categorical Data Analysis. John
     Wiley, New York.
 }
 \keyword{contagem}
+\keyword{contingência}
 

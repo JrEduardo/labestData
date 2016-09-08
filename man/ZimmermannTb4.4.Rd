@@ -3,7 +3,7 @@
 \name{ZimmermannTb4.4}
 \alias{ZimmermannTb4.4}
 \title{Competi\enc{çã}{ca}o de Cultivares de Feij\enc{ã}{a}o}
-\format{Um \code{data.frame} com 60 observações e 3 variáveis
+\format{Um \code{data.frame} com 60 observações e 3 variáveis, em que
 
 \describe{
 

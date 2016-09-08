@@ -44,6 +44,5 @@ xyplot(prod ~ cult | local, data = DiasEx11.7.9,
        strip = strip.custom(strip.names = TRUE, var.name = "Local"))
 
 }
-\keyword{DIC}
 \keyword{GE}
 

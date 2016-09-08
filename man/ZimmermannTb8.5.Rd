@@ -3,7 +3,7 @@
 \name{ZimmermannTb8.5}
 \alias{ZimmermannTb8.5}
 \title{Produ\enc{çã}{ca}o de Gr\enc{ã}{a}os de Feij\enc{ã}{a}o em
-    Delineamento de Blocos Aumentados de Federer}
+    Delineamento de Blocos Aumentos de Federer}
 \format{Um \code{data.frame} com 90 observações e 3 variáveis, em que
 
 \describe{

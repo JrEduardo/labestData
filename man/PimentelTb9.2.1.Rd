@@ -46,5 +46,5 @@ xyplot(prod ~ cultura,
        ylab = "Produção de matéria verde (kg/parcela)")
 
 }
-\keyword{PSS}
+\keyword{GE}
 

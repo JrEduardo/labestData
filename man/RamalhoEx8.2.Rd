@@ -51,6 +51,5 @@ xyplot(prod ~ colh | clone,
                        type = "a", lwd = 2, lty = 1, ...))
 
 }
-\keyword{DBC}
 \keyword{GE}
 

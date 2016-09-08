@@ -48,5 +48,5 @@ xyplot(prod ~ N | factor(P), groups = K, data = PimentelTb7.2.1,
        auto.key = list(title = "K", cex.title = 1.1, columns = 2))
 
 }
-\keyword{FAT3}
+\keyword{FAT2ao3}
 

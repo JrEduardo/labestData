@@ -3,21 +3,19 @@
 \name{CharnetEx4.10}
 \alias{CharnetEx4.10}
 \title{Custo de Produ\enc{çã}{ca}o por Tamanho do Lote}
-\format{Um \code{data.frame} com 2 colunas e 10 linhas.
+\format{Um \code{data.frame} com 2 colunas e 10 linhas, em que
 
 \describe{
 
 \item{\code{npecas}}{Quantidade de peças produzidas no lote, em
-unidades.}
+    unidades.}
 
 \item{\code{custo}}{Custo do total de peças do lote.}
 
 }}
 \source{
-Charnet, R., de Luna Freire, C.A., Charnet, E.M.R., Bonvino,
-    H. (2008). Análise de modelos de regressão linear com aplicações
-    (2nd ed.). Campinas, SP: Editora Unicamp (Capítulo 4, exercício
-    10, pág. 85, Capítulo 6, exercício 10, pág. 146)
+CHARNET et al. (2008), Capítulo 4, exercício
+    10, pág. 85; Capítulo 6, exercício 10, pág. 146.
 }
 \description{
 Custo de produção pelo número de peças produzidas em uma
@@ -26,6 +24,7 @@ Custo de produção pelo número de peças produzidas em uma
 \examples{
 
 data(CharnetEx4.10)
+str(CharnetEx4.10)
 
 plot(CharnetEx4.10)
 

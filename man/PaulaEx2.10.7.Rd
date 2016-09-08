@@ -2,9 +2,11 @@
 % Please edit documentation in R/Paula.R
 \name{PaulaEx2.10.7}
 \alias{PaulaEx2.10.7}
-\title{Resist\enc{ê}{e}ncia de Vidros sob Efeito de Voltagem e Temperatura}
+\title{Resist\enc{ê}{e}ncia de Vidros sob Efeito de Voltagem e
+    Temperatura}
 \format{Um \code{data.frame} com 32 observações e 3 variáveis.
-    \describe{
+
+\describe{
 
 \item{\code{tempo}}{Tempo de resistência do vidro, mensurado em
      horas.}
@@ -17,9 +19,7 @@
 
 }}
 \source{
-Paula, G. A. (2004). Modelos de regressão: com apoio
-    computacional. São Paulo, SP: IME-USP. (Exercício 2.10.7,
-    pág. 175)
+PAULA (2004), Exercício 2.10.7, pág. 175.
 }
 \description{
 Resultados de um experimento em que a resistência de um
@@ -29,11 +29,14 @@ Resultados de um experimento em que a resistência de um
     e temperatura.)
 }
 \examples{
-data(PaulaEx2.10.7)
 
+data(PaulaEx2.10.7)
 str(PaulaEx2.10.7)
 
+xtabs(~volt + temp, data = PaulaEx2.10.7)
+
 library(lattice)
+
 xyplot(tempo ~ volt,
        groups = temp,
        data = PaulaEx2.10.7,
@@ -71,5 +74,5 @@ xyplot(tempo[, "C.Variação"] ~ factor(trat),
 Lawless, J. F. (1982). Statistical Models and Methods for
     Lifetime Data. John Wiley, New York.
 }
-\keyword{positivo-assimétrico}
+\keyword{FAT2}
 

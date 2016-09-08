@@ -2,7 +2,8 @@
 % Please edit documentation in R/Paula.R
 \name{PaulaEg3.6.11b}
 \alias{PaulaEg3.6.11b}
-\title{Idade do in\enc{í}{i}cio da menstrua\enc{çã}{ca}o em garotas de Vars\enc{ó}{o}via}
+\title{Idade do in\enc{í}{i}cio da menstrua\enc{çã}{ca}o em garotas
+    de Vars\enc{ó}{o}via}
 \format{Um \code{data.frame} com 25 observações e 3 variáveis, em que
 
 \describe{
@@ -15,27 +16,28 @@
 
 }}
 \source{
-Paula, G. A. (2004). Modelos de regressão: com apoio computacional.
-   São Paulo, SP: IME-USP. (Eg 3.6.11b pág. 241)
+PAULA (2004), Eg 3.6.11b pág. 241.
 }
 \description{
-Dados de  um estudo em que se investigou a idade do início
-    da menstruação em 3918 garotas de Varsóvia. Para 25 médias de
-    idade foram observadas a ocorrência  ou não  do início de períodos
-    de menstruação nas adolescentes.
+Dados de um estudo em que se investigou a idade do
+    início da menstruação em 3918 garotas de Varsóvia. Para 25 médias
+    de idade foram observadas a ocorrência ou não do início de
+    períodos de menstruação nas adolescentes.
 }
 \examples{
 
 library(lattice)
 
 data(PaulaEg3.6.11b)
-
+str(PaulaEg3.6.11b)
+PaulaEg3.6.11b$idade <-
+    as.numeric(as.character(PaulaEg3.6.11b$idade))
 
 xyplot((menst/entre) ~ idade,  data = PaulaEg3.6.11b,
        type = c("p","a"),
        xlab = "Idade média",
-       ylab = "Meninas menstruando/Entrevistadas",
-       main = "Idade do início da menstruação em garotas de Varsóvia.")
+       ylab = "Meninas menstruando/Entrevistadas")
+
 }
 \keyword{MLG}
 

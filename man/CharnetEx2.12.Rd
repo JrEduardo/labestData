@@ -3,7 +3,7 @@
 \name{CharnetEx2.12}
 \alias{CharnetEx2.12}
 \title{Taxa de Homic\enc{í}{i}dios por Ano}
-\format{Um \code{data.frame} com 2 colunas e 7 linhas.
+\format{Um \code{data.frame} com 2 colunas e 7 linhas, em que
 
 \describe{
 
@@ -13,10 +13,7 @@
 
 }}
 \source{
-Charnet, R., de Luna Freire, C.A., Charnet, E.M.R., Bonvino,
-    H. (2008). Análise de modelos de regressão linear com aplicações
-    (2nd ed.). Campinas, SP: Editora Unicamp (Capítulo 2, exercício
-    12, pág. 48)
+CHARNET et al. (2008), Capítulo 2, exercício 12, pág. 48.
 }
 \description{
 Crescimentos da taxa de homicídios em um período de 7
@@ -25,6 +22,7 @@ Crescimentos da taxa de homicídios em um período de 7
 \examples{
 
 data(CharnetEx2.12)
+str(CharnetEx2.12)
 
 plot(CharnetEx2.12)
 
