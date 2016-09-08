@@ -34,6 +34,6 @@ xyplot(num ~ temp,
        type = "o")
 
 }
-\keyword{RL}
+\keyword{RS}
 \keyword{contagem}
 

@@ -31,6 +31,6 @@ str(CharnetEx8.2)
 plot(CharnetEx8.2)
 
 }
-\keyword{RP}
-\keyword{RegSeg}
+\keyword{RNL}
+\keyword{RS}
 

@@ -49,5 +49,5 @@ xyplot(pg ~ tempo, groups = cult, data = DiasEg10.2,
 }
 \keyword{PS}
 \keyword{binomial}
-\keyword{unitario}
+\keyword{unitário}
 

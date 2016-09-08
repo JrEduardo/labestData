@@ -63,5 +63,6 @@ Myers, R.H.; Montgomery, D. C.; Vining, G. G. (2002).
     Generalized Linear Models: With Applications in Engineering and
     the Sciences. John Wiley, New York. Seção 6.5.
 }
-\keyword{quase-verossimilhança}
+\keyword{binário}
+\keyword{longitudinal}
 

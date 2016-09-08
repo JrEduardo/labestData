@@ -159,7 +159,7 @@ NULL
 #' \item{\code{aexp}}{Experiência (em anos).}
 #'
 #' }
-#' @keywords RL dummy
+#' @keywords RS dummy
 #' @source PAULA (2004), Eg 1.12.6, pág. 97.
 #' @examples
 #'
@@ -215,7 +215,7 @@ NULL
 #'     pelo número de dias de pesca \code{dias}.}
 #'
 #' }
-#' @keywords RM positivo-assimétrico
+#' @keywords RM
 #' @source PAULA (2004), Exemplo 2.4.2, pág. 127.
 #' @references Paula, G. A., Oshiro, C. H. (2001). Relatório de Análise
 #'     Estatística sobre o Projeto: Análise de Captura por Unidade de
@@ -292,7 +292,7 @@ NULL
 #'     apenas os 18 últimos meses do estudo.}
 #'
 #' }
-#' @keywords RM dummy positivo-assimétrico
+#' @keywords RM dummy
 #' @source PAULA (2004), Exemplo 2.4.3, pág. 136.
 #' @references De Jong, P., Heller, G. Z. (2008). Generalized linear
 #'     models for insurance data (Vol. 136). Cambridge: Cambridge
@@ -348,7 +348,7 @@ NULL
 #' \item{\code{prod}}{Produtividade de milho, em libras/acre.}
 #'
 #' }
-#' @keywords RM positivo-assimétrico
+#' @keywords RM
 #' @source PAULA (2004), Exemplo 2.5.2, pág. 144.
 #' @examples
 #'
@@ -400,7 +400,7 @@ NULL
 #' \item{\code{fnpc}}{Força necessária para o cisalhamento.}
 #'
 #' }
-#' @keywords FAT2 longitudinal positivo-assimétrico
+#' @keywords FAT2 longitudinal
 #' @source PAULA (2004), Exemplo 2.8.1, pág. 150; Exemplo 2.9.3,
 #'     pág. 169.
 #' @examples
@@ -471,7 +471,7 @@ NULL
 #'
 #' }
 #'
-#' @keywords MLG FAT2 binarios
+#' @keywords MLG FAT2 binário
 #' @source PAULA (2004), Eg 3.5.1 pág. 201.
 #' @examples
 #'
@@ -509,7 +509,7 @@ NULL
 #' \item{emb}{Número observado de embriões mortos.}
 #'
 #' }
-#' @keywords MLG binarios
+#' @keywords MLG binário
 #' @source PAULA (2004), Eg 3.5.2 pág. 203.
 #' @examples
 #'
@@ -543,7 +543,7 @@ NULL
 #'    foram expostos.}
 #'
 #' }
-#' @keywords MLG binarios
+#' @keywords MLG binário
 #' @source PAULA (2004), Eg 3.6.11a pág. 237.
 #' @examples
 #'
@@ -618,7 +618,7 @@ NULL
 #' \item{est}{Estado civil do comprador (0 = casado, 1 = solteiro).}
 #'
 #' }
-#' @keywords MLG binarios
+#' @keywords MLG binário
 #' @source PAULA (2004), Eg 3.6.9c, pág. 231.
 #' @examples
 #'
@@ -863,7 +863,7 @@ NULL
 #'     progabide).}
 #'
 #' }
-#' @keywords quase-verossimilhança
+#' @keywords contagem longitudinal
 #' @source PAULA (2004), Exemplo 5.5.1, pág. 379.
 #' @references Diggle, P. J.; Liang, K. Y. e Zeger, S. L. (1994).
 #'     Analysis of Longitudinal Data. Oxford University Press.  Seção
@@ -913,7 +913,7 @@ NULL
 #' \item{\code{cond}}{Condição respiratória do paciente (boa ou ruim).}
 #'
 #' }
-#' @keywords quase-verossimilhança
+#' @keywords binário longitudinal
 #' @source PAULA (2004), Exemplo 5.5.2, pág. 385.
 #' @references Myers, R.H.; Montgomery, D. C.; Vining, G. G. (2002).
 #'     Generalized Linear Models: With Applications in Engineering and
@@ -966,7 +966,7 @@ NULL
 #' \item{\code{escore}}{Escore atribuído às placas dentárias.}
 #'
 #' }
-#' @keywords longitudinal quase-verossimilhança
+#' @keywords longitudinal
 #' @source PAULA (2004), Exemplo 5.5.3, pág. 390.
 #' @references Hadgu, A. e Koch, G. (1999). Application of generalized
 #'     estimating equations to a dental randomized clinical
@@ -1403,7 +1403,7 @@ NULL
 #' \item{\code{tempo}}{Tempo de sobrevivência do paciente, em semanas.}
 #'
 #' }
-#' @keywords RL dummy heterovar
+#' @keywords RS dummy heterovar
 #' @source PAULA (2004), Exemplo 2.10.19, pág. 180.
 #' @references Feigl, P., Zelen, M. (1965). Estimation of exponential
 #'     survival probabilities with concomitant information. Biometrics
@@ -1587,7 +1587,7 @@ NULL
 #'     t.}
 #'
 #' }
-#' @keywords sobrevivencia
+#' @keywords sobrevivência
 #' @source PAULA (2004), Exercício 3.7.14, página 272.
 #' @references Lawless, J. F. (1982). Statistical Models and Methods for
 #'     Lifetime Data. John Wiley & Sons, New York. (Página 389)
@@ -1807,7 +1807,7 @@ NULL
 #' \item{\code{sit}}{Situação (1 = sobrevivente, 0 = não sobrevivente).}
 #'
 #' }
-#' @keywords sobrevivência binaria
+#' @keywords sobrevivência binário
 #' @source PAULA (2004), Exercício 3.7.19, página 276.
 #' @references Everitt, B. S. (1994).  A Handbook of Statistical
 #'     Analysis using S-Plus.  Chapman and Hall, London. (Página 253)
@@ -1955,7 +1955,7 @@ NULL
 #'     contraiu (1) ou não contraiu (0) a doença recentemente.}
 #'
 #' }
-#' @keywords binario
+#' @keywords binário
 #' @source PAULA (2004), Exercício 3.7.23, pág. 279.
 #' @examples
 #'
@@ -2074,7 +2074,7 @@ NULL
 #' \item{\code{cmort}}{Caramujos mortos.}
 #'
 #' }
-#' @keywords bionomial
+#' @keywords binomial
 #' @source PAULA (2004), Ex 3.7.7a, pág. 269.
 #' @examples
 #'
@@ -2371,7 +2371,7 @@ NULL
 #'     análise a comparação das médias dos números de ovos eclodidos,
 #'     pode-se considerá-la como fator de cinco níveis (0, 80, 160, 235
 #'     e 310 mg/l) e estimar as médias para cada nível
-#' @keywords RL contagem
+#' @keywords RS contagem
 #' @source PAULA (2004), Exercício 4.6.20, pág. 349.
 #' @examples
 #'
@@ -2532,7 +2532,7 @@ NULL
 #' \item{\code{nfalhas}}{Número de falhas encontradas na peça.}
 #'
 #' }
-#' @keywords RL contagem
+#' @keywords RS contagem
 #' @source PAULA (2004), Exercício 4.6.7, pág. 343.
 #' @references Hinde, J. (1982). Compound Poisson Regression Models in R
 #'     (Gilchrist ed.). Springer, New York.
@@ -2672,7 +2672,7 @@ NULL
 #'     regular ou ruim.}
 #'
 #' }
-#' @keywords binario
+#' @keywords binário
 #' @source PAULA (2004), Exercício 5.6.14, pág. 401.
 #' @references Myers, R.H.; Montgomery, D. C. e Vining, G. G. (2002).
 #'     Generalized Linear Models: With Applications in Engineering and
@@ -2715,7 +2715,7 @@ NULL
 #' \item{\code{rendm}}{Renda média mensal (em reais).}
 #'
 #' }
-#' @keywords RL
+#' @keywords RS
 #' @source PAULA (2004), Tabela 1.6, pág. 80.
 #' @examples
 #'
@@ -2752,7 +2752,7 @@ NULL
 #' \item{\code{temp}}{Tempo de exposição (em minutos).}
 #'
 #' }
-#' @keywords RL contagem
+#' @keywords RS contagem
 #' @source PAULA (2004), Tabela 1.9, pág. 88.
 #' @examples
 #'
@@ -2828,7 +2828,7 @@ NULL
 #' \item{\code{real}}{Valor real de venda.}
 #'
 #' }
-#' @keywords RL
+#' @keywords RS
 #' @source PAULA (2004), Tabela 2.6, pág. 159.
 #' @examples
 #'
@@ -2865,7 +2865,7 @@ NULL
 #'    ausência = 0).}
 #'
 #' }
-#' @keywords binario
+#' @keywords binário
 #' @source PAULA (2004), Tb 3.12 pág. 227.
 #' @examples
 #'

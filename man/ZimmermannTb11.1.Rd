@@ -69,6 +69,6 @@ xyplot(prod ~ factor(densi) | factor(adub), groups = espac,
     reais para conduzir as análises.
 }
 \keyword{DBC}
-\keyword{FAT2ao3}
+\keyword{FAT2K}
 \keyword{confundimento}
 

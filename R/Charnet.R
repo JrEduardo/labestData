@@ -928,7 +928,7 @@ NULL
 #'     Cont\enc{í}{i}nua
 #' @description Valores de uma variável aleatória X contínua.
 #' @format Um vetor numérico com 20 elementos.
-#' @keywords amostra
+#' @keywords AAS
 #' @source CHARNET et al. (2008), Capítulo 4, exercício 1, pág. 82.
 #' @examples
 #'
@@ -1413,7 +1413,7 @@ NULL
 #' \item{\code{peso}}{Peso do produto, em kg.}
 #'
 #' }
-#' @keywords RP RegSeg
+#' @keywords RS RNL
 #' @source CHARNET et al. (2008), Capítulo 8, exercício 2, pág. 195,
 #'     Capítulo 9, exercício 11, pág. 233.
 #' @examples

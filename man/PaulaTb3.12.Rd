@@ -50,5 +50,5 @@ bwplot(razao ~ resp,
        main = "Ocorrência de vaso-constrição")
 
 }
-\keyword{binario}
+\keyword{binário}
 

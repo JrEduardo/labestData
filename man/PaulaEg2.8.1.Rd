@@ -77,5 +77,4 @@ xyplot(fnpc[, "Média"] ~ semana,
 }
 \keyword{FAT2}
 \keyword{longitudinal}
-\keyword{positivo-assimétrico}
 

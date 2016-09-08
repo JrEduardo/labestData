@@ -43,5 +43,5 @@ xyplot(PaulaEx3.7.7a$cmort/PaulaEx3.7.7a$cexp ~ dose,
                        points = FALSE))
 
 }
-\keyword{bionomial}
+\keyword{binomial}
 

@@ -50,5 +50,5 @@ Efron, B. (1988). Logistic regression, survival analysis,
     and the Kaplan-Meier curve. J. Amer. Stat. Assoc., 83.  (Páginas
     414-425)
 }
-\keyword{sobrevivencia}
+\keyword{sobrevivência}
 

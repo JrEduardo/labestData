@@ -62,6 +62,6 @@ scatterplotMatrix(~idade + mdd + im + cl + md + tmax + trat +
 Everitt, B. S. (1994).  A Handbook of Statistical
     Analysis using S-Plus.  Chapman and Hall, London. (Página 253)
 }
-\keyword{binaria}
+\keyword{binário}
 \keyword{sobrevivência}
 

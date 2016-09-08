@@ -234,7 +234,7 @@ NULL
 #'     de tamanho 2. Essa modificação dos dados é artificial e foi feita
 #'     para fins didáticos. Não se deve alterar o delineamento de dados
 #'     reais para conduzir as análises.
-#' @keywords DBC FAT2ao3 confundimento
+#' @keywords DBC FAT2K confundimento
 #' @source ZIMMERMANN (2004), (Tabela 11.1, pág. 221)
 #' @examples
 #'
@@ -285,7 +285,7 @@ NULL
 #' \item{\code{altura}}{Altura de plantas, em cm.}
 #'
 #' }
-#' @keywords DBC FAT2ao3 confundimento
+#' @keywords DBC FAT2K confundimento
 #' @source ZIMMERMANN (2004), pág. 231.
 #' @examples
 #'
@@ -342,7 +342,7 @@ NULL
 #' \item{\code{prod}}{Produtividade de grãos, em kg ha\eqn{^{-1}}.}
 #'
 #' }
-#' @keywords DBC FAT3ao3 confundimento
+#' @keywords DBC FAT3K confundimento
 #' @source ZIMMERMANN (2004), Tabela 11.13, pág. 234.
 #' @examples
 #'
@@ -404,7 +404,7 @@ NULL
 #'     ha\eqn{^{-1}}).}
 #'
 #' }
-#' @keywords DBC FAT2ao5 confundimento
+#' @keywords DBC FAT2K confundimento
 #' @source ZIMMERMANN (2004), (Tabela 11.19, pág. 237)
 #' @examples
 #'
@@ -476,7 +476,7 @@ NULL
 #'     de tamanho 2. Essa modificação dos dados é artificial e foi feita
 #'     para fins didáticos. Não se deve alterar o delineamento de dados
 #'     reais para conduzir as análises.
-#' @keywords DBC FAT2ao3 confundimento
+#' @keywords DBC FAT2K confundimento
 #' @source ZIMMERMANN (2004), Tabela 11.7, pág. 226.
 #' @examples
 #'
@@ -1196,7 +1196,7 @@ NULL
 #'     utilizado confundimento bom blocos, pois todos os blocos tiveram
 #'     a mesma fração do fatorial (a fração complementar não foi
 #'     utilizada).
-#' @keywords DBC FAT2ao4 FRAC
+#' @keywords DBC FAT2K FRAC
 #' @source ZIMMERMANN (2004), pág. 306.
 #' @examples
 #'
@@ -1292,7 +1292,7 @@ NULL
 #'     \code{\link{ZimmermannTb11.13}} pois referem-se ao conjunto dos 3
 #'     blocos (do total de 9) continham a combinação 000 de zinco,
 #'     fósforo e cálcio.
-#' @keywords FAT3ao3 FRAC
+#' @keywords FAT3K FRAC
 #' @source ZIMMERMANN (2004), Tabela 15.4, pág. 309.
 #' @examples
 #'
@@ -1564,7 +1564,7 @@ NULL
 #' }
 #' @seealso Os dados de produção de arroz do mesmo ensaio estão
 #'     disponíveis em \code{\link{ZimmermannTb7.1}}.
-#' @keywords LAT sobrevivencia
+#' @keywords LAT sobrevivência
 #' @source ZIMMERMANN (2004), Tabela 16.8, pág. 353.
 #' @examples
 #'
@@ -2127,7 +2127,7 @@ NULL
 #'     de feijão.}
 #'
 #' }
-#' @keywords FAT3ao3
+#' @keywords FAT3K
 #' @source ZIMMERMANN (2004), Tabela 9.13, pág. 179.
 #' @examples
 #'
@@ -2176,7 +2176,7 @@ NULL
 #' \item{\code{prod}}{Produção de grão de arroz em (kg ha\eqn{^{-1}}).}
 #'
 #' }
-#' @keywords FAT3ao3
+#' @keywords FAT3K
 #' @source ZIMMERMANN (2004), Tabela 9.17, pág. 182.
 #' @examples
 #'
@@ -2285,7 +2285,7 @@ NULL
 #' \item{\code{alt}}{Altura das plantas (cm).}
 #'
 #' }
-#' @keywords FAT3ao3
+#' @keywords FAT3K
 #' @source ZIMMERMANN (2004), Tabela 9.26, pág. 190.
 #' @examples
 #'

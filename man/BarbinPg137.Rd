@@ -78,6 +78,6 @@ xyplot(prod ~ as.factor(N) | as.factor(P), data = BarbinPg137,
            "Produção de algodão herbáceo"~(kg~ha^{-1})))
 
 }
-\keyword{FAT3ao3}
+\keyword{FAT3K}
 \keyword{confundimento}
 

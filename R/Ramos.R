@@ -234,7 +234,7 @@ NULL
 #' \item{\code{peso}}{Peso da garrafa (em gramas).}
 #'
 #' }
-#' @keywords CEQ RL
+#' @keywords CEQ RS
 #' @source RAMOS et al. (2013), pág. 30.
 #' @examples
 #'
@@ -263,7 +263,7 @@ NULL
 #' \item{\code{recupe}}{Recuperação do metal.}
 #'
 #' }
-#' @keywords CEQ RL
+#' @keywords CEQ RS
 #' @source RAMOS et al. (2013), pág. 30.
 #' @examples
 #'

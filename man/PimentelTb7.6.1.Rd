@@ -66,6 +66,6 @@ xyplot(prod ~ N | factor(P), groups = K, data = PimentelTb7.6.1,
                             var.name = "Fósforo"))
 
 }
-\keyword{FAT3ao3}
+\keyword{FAT3K}
 \keyword{confundimento}
 

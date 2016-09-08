@@ -48,5 +48,4 @@ xyplot(prod ~ qtde | adub,
 
 }
 \keyword{RM}
-\keyword{positivo-assimétrico}
 

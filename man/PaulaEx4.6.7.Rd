@@ -42,6 +42,6 @@ histogram(~nfalhas/comp,
 Hinde, J. (1982). Compound Poisson Regression Models in R
     (Gilchrist ed.). Springer, New York.
 }
-\keyword{RL}
+\keyword{RS}
 \keyword{contagem}
 

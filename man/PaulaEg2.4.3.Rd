@@ -72,5 +72,4 @@ De Jong, P., Heller, G. Z. (2008). Generalized linear
 }
 \keyword{RM}
 \keyword{dummy}
-\keyword{positivo-assimétrico}
 

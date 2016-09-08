@@ -330,7 +330,7 @@ NULL
 #' \item{\code{x}}{Observações registradas do processo.}
 #'
 #' }
-#' @keywords CEQ EWMA
+#' @keywords CEQ
 #' @source COSTA et al. (2010), pág. 198.
 #' @examples
 #'

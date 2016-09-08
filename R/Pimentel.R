@@ -138,7 +138,7 @@ NULL
 #' \item{\code{y}}{Resposta observada nas parcelas do experimento.}
 #'
 #' }
-#' @keywords FAT2ao2
+#' @keywords FAT2K
 #' @source PIMENTEL-GOMES (2009), Exemplo 7.3, pág. 119.
 #' @examples
 #'
@@ -185,7 +185,7 @@ NULL
 #' \item{\code{y}}{Respoata medida no ensaio.}
 #'
 #' }
-#' @keywords FAT2ao2
+#' @keywords FAT2K
 #' @source PIMENTEL-GOMES (2009), Exemplo 7.4, pág. 120.
 #' @examples
 #'
@@ -1419,7 +1419,7 @@ NULL
 #' \item{\code{prod}}{Produção de milho, em kg ha\eqn{^{-1}}.}
 #'
 #' }
-#' @keywords FAT3ao3 FATADI confundimento
+#' @keywords FAT3K FATADI confundimento
 #' @source PIMENTEL-GOMES (2009), Tabela 18.2.1, pág. 330.
 #' @examples
 #'
@@ -1459,7 +1459,7 @@ NULL
 #'     ha\eqn{^{-1}}. Valores individuais não disponíveis.}
 #'
 #' }
-#' @keywords FAT3ao2
+#' @keywords FAT3K
 #' @source PIMENTEL-GOMES (2009), Tabela 20.2.1, pág. 369.
 #' @examples
 #'
@@ -1641,7 +1641,7 @@ NULL
 #' \item{\code{prod}}{Produção de milho, em ton ha\eqn{^{-1}}.}
 #'
 #' }
-#' @keywords FAT2ao3
+#' @keywords FAT2K
 #' @source PIMENTEL-GOMES (2009), Tabela 7.2.1, página 115.
 #' @examples
 #'
@@ -1696,7 +1696,7 @@ NULL
 #'     tabela com os dados pois no bloco W1 existem duas ocorrências do
 #'     tratamento 202 sendo que a última deveria ser 220. Foi feita a
 #'     inclusão desses dados no pacote com essa correção.
-#' @keywords FAT3ao3 confundimento
+#' @keywords FAT3K confundimento
 #' @source PIMENTEL-GOMES (2009), Tabela 7.6.1, pág. 126.
 #'
 #' Straus, F. Esperimentos de adubação na zona canavieira de
@@ -1800,7 +1800,7 @@ NULL
 #'     de café por parcela.}
 #'
 #' }
-#' @keywords FAT2ao3 contagem
+#' @keywords FAT2K contagem
 #' @source PIMENTEL-GOMES (2009), Tabela 7.9.1, pág. 137.
 #'
 #' Malavolta, E.; Pimentel-Gomes, F.; Coury, T. Estudos sobre a

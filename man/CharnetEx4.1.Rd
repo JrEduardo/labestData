@@ -26,5 +26,5 @@ plot(CharnetEx4.1^3 ~ CharnetEx4.1,
      xlab = "X")
 
 }
-\keyword{amostra}
+\keyword{AAS}
 

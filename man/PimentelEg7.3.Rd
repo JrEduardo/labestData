@@ -49,5 +49,5 @@ xyplot(y ~ mineral | factor(vinhaca),
                                   "Com Vinhaça")))
 
 }
-\keyword{FAT2ao2}
+\keyword{FAT2K}
 

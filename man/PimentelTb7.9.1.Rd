@@ -60,6 +60,6 @@ xyplot(quad ~ N | factor(P), groups = K, data = PimentelTb7.9.1,
                             var.name = "Fósforo"))
 
 }
-\keyword{FAT2ao3}
+\keyword{FAT2K}
 \keyword{contagem}
 

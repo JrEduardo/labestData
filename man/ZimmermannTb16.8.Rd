@@ -69,5 +69,5 @@ Os dados de produção de arroz do mesmo ensaio estão
     disponíveis em \code{\link{ZimmermannTb7.1}}.
 }
 \keyword{LAT}
-\keyword{sobrevivencia}
+\keyword{sobrevivência}
 

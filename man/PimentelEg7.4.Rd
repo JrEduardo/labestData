@@ -48,5 +48,5 @@ xyplot(y ~ mineral, groups = torta, data = PimentelEg7.4,
                        title = "Torta", cex.title = 1.1))
 
 }
-\keyword{FAT2ao2}
+\keyword{FAT2K}
 

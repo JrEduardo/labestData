@@ -44,5 +44,5 @@ xyplot(peso ~ gesso, data = BanzattoQd7.2.1,
 
 }
 \keyword{DIC}
-\keyword{RP}
+\keyword{RS}
 

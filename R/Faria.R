@@ -88,7 +88,7 @@ NULL
 #' \item{\code{result}}{Produção de batata, em kg ha\eqn{^{-1}}.}
 #'
 #' }
-#' @keywords DIC FAT2ao2
+#' @keywords DIC FAT2K
 #' @source FARIA (2009), Quadro 11.4, pág. 134.
 #' @examples
 #'

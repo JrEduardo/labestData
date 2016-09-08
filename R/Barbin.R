@@ -118,7 +118,7 @@ NULL
 #' \item{\code{prod}}{Produção de milho, em kg ha\eqn{^{-1}}.}
 #'
 #' }
-#' @keywords DBC FAT2ao3
+#' @keywords DBC FAT2K
 #' @source BARBIN (2013), Exercício 14, pág. 206.
 #' @examples
 #'
@@ -589,7 +589,7 @@ NULL
 #'     m).}
 #'
 #' }
-#' @keywords DBC FAT2ao3
+#' @keywords DBC FAT2K
 #' @source BARBIN (2013), pág. 125).
 #' @examples
 #'
@@ -640,7 +640,7 @@ NULL
 #'     ha\eqn{^{-1}}.}
 #'
 #' }
-#' @keywords FAT3ao3 confundimento
+#' @keywords FAT3K confundimento
 #' @source BARBIN (2013), pág. 137.
 #'
 #' Cavalcanti, F. B. (1977). A adubação mineral na cultura do algodão

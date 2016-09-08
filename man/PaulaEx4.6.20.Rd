@@ -48,6 +48,6 @@ xyplot(novos ~ dose,
        type = c("p", "g", "smooth"))
 
 }
-\keyword{RL}
+\keyword{RS}
 \keyword{contagem}
 

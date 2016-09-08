@@ -58,6 +58,6 @@ Estes dados são na realiadade uma adaptação dos dados em
     blocos (do total de 9) continham a combinação 000 de zinco,
     fósforo e cálcio.
 }
-\keyword{FAT3ao3}
+\keyword{FAT3K}
 \keyword{FRAC}
 

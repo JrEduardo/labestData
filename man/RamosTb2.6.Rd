@@ -30,5 +30,5 @@ xyplot(forca ~ peso, pch = 20,
 
 }
 \keyword{CEQ}
-\keyword{RL}
+\keyword{RS}
 

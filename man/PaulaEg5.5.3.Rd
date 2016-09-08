@@ -50,5 +50,4 @@ Hadgu, A. e Koch, G. (1999). Application of generalized
     trial. Journal of Biopharmaceutical Statistics 9, 161-178.
 }
 \keyword{longitudinal}
-\keyword{quase-verossimilhança}
 

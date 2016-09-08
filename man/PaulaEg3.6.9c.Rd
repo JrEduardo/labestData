@@ -42,5 +42,5 @@ bwplot(idade ~ pref,  data = PaulaEg3.6.9c,
 
 }
 \keyword{MLG}
-\keyword{binarios}
+\keyword{binário}
 

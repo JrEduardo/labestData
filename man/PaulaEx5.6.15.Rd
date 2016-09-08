@@ -59,5 +59,5 @@ Myers, R.H.; Montgomery, D. C. e Vining, G. G. (2002).
     Generalized Linear Models: With Applications in Engineering and
     the Sciences. John Wiley, New York.
 }
-\keyword{binario}
+\keyword{binário}
 

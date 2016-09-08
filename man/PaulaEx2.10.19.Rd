@@ -52,7 +52,7 @@ Feigl, P., Zelen, M. (1965). Estimation of exponential
     survival probabilities with concomitant information. Biometrics
     21, 826-838.
 }
-\keyword{RL}
+\keyword{RS}
 \keyword{dummy}
 \keyword{heterovar}
 

@@ -68,6 +68,6 @@ useOuterStrips(
 
 }
 \keyword{DBC}
-\keyword{FAT2ao5}
+\keyword{FAT2K}
 \keyword{confundimento}
 

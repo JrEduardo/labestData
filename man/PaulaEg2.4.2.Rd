@@ -94,5 +94,4 @@ Paula, G. A., Oshiro, C. H. (2001). Relatório de Análise
     Esforço de Peixe-Batata na Frota Paulista. RAE-CEA0102, IME-USP.
 }
 \keyword{RM}
-\keyword{positivo-assimétrico}
 

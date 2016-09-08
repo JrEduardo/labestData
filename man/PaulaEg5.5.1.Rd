@@ -56,5 +56,6 @@ Diggle, P. J.; Liang, K. Y. e Zeger, S. L. (1994).
     Analysis of Longitudinal Data. Oxford University Press.  Seção
     8.4.
 }
-\keyword{quase-verossimilhança}
+\keyword{contagem}
+\keyword{longitudinal}
 

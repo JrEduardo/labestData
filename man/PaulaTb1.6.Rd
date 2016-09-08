@@ -42,5 +42,5 @@ xyplot(rendm ~ esc,
        type = c("p", "smooth"))
 
 }
-\keyword{RL}
+\keyword{RS}
 

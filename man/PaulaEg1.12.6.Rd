@@ -39,6 +39,6 @@ xyplot(sal ~ aexp | sexo,
        ylab = "Salário")
 
 }
-\keyword{RL}
+\keyword{RS}
 \keyword{dummy}
 

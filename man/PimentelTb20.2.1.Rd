@@ -39,5 +39,5 @@ xyplot(totais ~ P, data = PimentelTb20.2.1,
        xlab = "Níveis de fósforo (P)")
 
 }
-\keyword{FAT3ao2}
+\keyword{FAT3K}
 

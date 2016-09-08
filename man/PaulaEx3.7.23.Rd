@@ -49,5 +49,5 @@ xyplot(caso ~ idade | nivel, groups = setor, data = PaulaEx3.7.23,
        ylab = "Indicadora de ter contraído dengue")
 
 }
-\keyword{binario}
+\keyword{binário}
 

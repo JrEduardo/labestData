@@ -55,5 +55,5 @@ xyplot(prod ~ nitr | epoc, data = ZimmermannTb9.17,
        ylab = expression("Produção de grãos de arroz"~(kg~ha^{-1})))
 
 }
-\keyword{FAT3ao3}
+\keyword{FAT3K}
 

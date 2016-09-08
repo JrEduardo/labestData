@@ -39,5 +39,5 @@ xyplot(mortos/(sum(mortos)) ~ dose,
 
 }
 \keyword{MLG}
-\keyword{binarios}
+\keyword{binário}
 

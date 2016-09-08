@@ -398,7 +398,7 @@ NULL
 #'     cada uma das combinações de N, P e K na adubação.}
 #'
 #' }
-#' @keywords DBC FAT2ao3
+#' @keywords DBC FAT2K
 #' @source BANZATTO; KRONKA (2013), Quadro 5.3.1, pág. 113.
 #' @examples
 #'
@@ -518,7 +518,7 @@ NULL
 #' desconsiderar 1 m em cada extremidade), perfazendo 32 m\eqn{^{2}}. O
 #' híbrido de milho utilizado foi o HMD-7974.
 #'
-#' @keywords DBC FAT3ao3 confundimento
+#' @keywords DBC FAT3K confundimento
 #' @source BANZATTO; KRONKA (2013), Quadro 5.5.1, pág. 131.
 #'
 #' Vilalta, O. A. (1972). Avaliação da produção de milho (\emph{Zea
@@ -803,7 +803,7 @@ NULL
 #' \item{\code{peso}}{Peso de 1000 sementes de feijão, em gramas.}
 #'
 #' }
-#' @keywords DIC RP
+#' @keywords DIC RS
 #' @source BANZATTO; KRONKA (2013), Quadro 7.2.1, pág. 170.
 #'
 #' Ragazzi, D. (1979). Efeito de doses de gesso na cultura do feijoeiro

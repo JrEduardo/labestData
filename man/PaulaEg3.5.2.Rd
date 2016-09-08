@@ -38,5 +38,5 @@ barchart(emb/(sum(emb)) ~ dose,  data = PaulaEg3.5.2,
 
 }
 \keyword{MLG}
-\keyword{binarios}
+\keyword{binário}
 

@@ -65,7 +65,7 @@ NULL
 #'     para determinar a germinação seja 50.}
 #'
 #' }
-#' @keywords PS unitario binomial
+#' @keywords PS unitário binomial
 #' @source BARROS; DIAS (2009), Exemplo 10.2, pág. 286.
 #' @examples
 #'
@@ -296,7 +296,7 @@ NULL
 #'     parcela\eqn{^{-1}}).}
 #'
 #' }
-#' @keywords DBC RP
+#' @keywords DBC RS
 #' @source BARROS; DIAS (2009), Exemplo 6.2, pág. 164.
 #' @examples
 #'
@@ -612,7 +612,7 @@ NULL
 #'     m\eqn{^2} (30 covas de espaçamento 3 \eqn{\times} 1).}
 #'
 #' }
-#' @keywords DIC FAT2ao3
+#' @keywords DIC FAT2K
 #' @source BARROS; DIAS (2009), Exercício 7, Cap. 10, pág. 295.
 #' @examples
 #'

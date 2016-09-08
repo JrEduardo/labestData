@@ -50,5 +50,5 @@ xyplot(lms ~ dens, data = ZimmermannTb9.13,
        ylab = "log da matéria seca")
 
 }
-\keyword{FAT3ao3}
+\keyword{FAT3K}
 

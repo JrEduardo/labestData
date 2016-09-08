@@ -50,5 +50,5 @@ barchart(casos/exp ~ trat | sexo,
 }
 \keyword{FAT2}
 \keyword{MLG}
-\keyword{binarios}
+\keyword{binário}
 
