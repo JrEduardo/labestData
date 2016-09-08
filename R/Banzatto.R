@@ -178,7 +178,8 @@ NULL
 NULL
 
 #' @name BanzattoQd4.5.2
-#' @title Efeito do Promalin sobre a Produçaõ de Frutos de Macieira
+#' @title Efeito do Promalin sobre a Produ\enc{çã}{ca}o de Frutos de
+#'     Macieira
 #' @description Resultados de um experimento instalado na Fazenda
 #'     Chapadão, no município de Angatuba - SP. O delineamento
 #'     experimental foi o de blocos casualizados, sendo as parcelas

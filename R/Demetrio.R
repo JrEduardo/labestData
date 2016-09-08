@@ -35,7 +35,7 @@
 NULL
 
 #' @name DemetrioEx1.4.1.1
-#' @title Alturas de Feijão
+#' @title Alturas de Feij\enc{ã}{a}o
 #' @description Dados de altura de feijão durante 7 semanas.
 #' @format Um \code{data.frame} de 7 linhas e 2 colunas, em que
 #'
@@ -1081,7 +1081,8 @@ NULL
 NULL
 
 #' @name DemetrioTb7.1
-#' @title Produ\enc{çã}{ca} de Milho em Função da Adubação
+#' @title Produ\enc{çã}{ca} de Milho em Fun\enc{çã}{ca}o da
+#'     Aduba\enc{çã}{ca}o
 #' @description Os dados referem-se a produções de milho, em kg/parcela,
 #'     de um experimento casualizado em blocos de adubação com
 #'     diferentes doses de \eqn{P_2O_5}.

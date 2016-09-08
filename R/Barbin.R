@@ -140,7 +140,7 @@ NULL
 
 #' @name BarbinEx16
 #' @title Efeito de Sistemas de Plantio na Produtividade de
-#'     Cana-de-açúcar
+#'     Cana-de-a\enc{çú}{cu}car
 #' @description Produtividade de cana-de-açúcar, cultivar CB-43-5,
 #'     obtidos de dois sistemas de plantio nos dois primeiros cortes
 #'     (cana planta e cana soca) em um ensaio de parcelas subdivididas

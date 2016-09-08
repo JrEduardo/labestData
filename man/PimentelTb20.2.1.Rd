@@ -2,7 +2,8 @@
 % Please edit documentation in R/Pimentel.R
 \name{PimentelTb20.2.1}
 \alias{PimentelTb20.2.1}
-\title{Ensaio Fatorial de Aduba\enc{çã}{ca}o de Cana-de-a\enc{çú}{cu}car}
+\title{Ensaio Fatorial de Aduba\enc{çã}{ca}o de
+    Cana-de-a\enc{çú}{cu}car}
 \format{Um \code{data.frame} com 9 observações e 3 variáveis, em que
 
 \describe{

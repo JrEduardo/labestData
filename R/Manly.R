@@ -415,7 +415,8 @@ NULL
 
 #' @name ManlyTb4.5
 #' @title Cr\enc{â}{a}nios Eg\enc{í}{i}pcios
-#' @title Cães pré-históricos da Tailândia
+#' @title C\enc{ã}{a}es pr\enc{é}{e}-hist\enc{ó}{o}ricos da
+#'     Tail\enc{â}{a}ndia
 #' @description Estudo em ancestrais de cães da Tailândia, através de
 #'     medições da mandíbula.
 #' @format Um \code{data.frame} com 5 grupo caninos e 10 variáveis.

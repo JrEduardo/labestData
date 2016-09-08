@@ -2178,7 +2178,7 @@ NULL
 NULL
 
 #' @name PaulaEx3.7.8
-#' @title Germinação de Sementes
+#' @title Germina\enc{çã}{ca}o de Sementes
 #' @description Dados referentes a um experimento desenvolvido para
 #'     avaliar a germinação de um determinado tipo de semente. A tabela
 #'     abaixo apresenta o número de sementes que germinaram após cinco

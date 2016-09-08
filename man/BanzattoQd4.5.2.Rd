@@ -2,7 +2,8 @@
 % Please edit documentation in R/Banzatto.R
 \name{BanzattoQd4.5.2}
 \alias{BanzattoQd4.5.2}
-\title{Efeito do Promalin sobre a Produçaõ de Frutos de Macieira}
+\title{Efeito do Promalin sobre a Produ\enc{çã}{ca}o de Frutos de
+    Macieira}
 \format{Um \code{data.frame} com 20 observações e 3 variáveis, em que
 
 \describe{

@@ -1,5 +1,6 @@
 #' @name Dinorah
-#' @title Produ\enc{çã}{ca}o de Milho com Aduba\enc{çã}{ca}o Org\enc{â}{a}nica com Cama de Frango
+#' @title Produ\enc{çã}{ca}o de Milho com Aduba\enc{çã}{ca}o
+#'     Org\enc{â}{a}nica com Cama de Frango
 #' @description Experimento instalado e conduzido por Walmes M. Zeviani,
 #'     estudante do 4 ano de Agronomia da UFGD na época, na Fazenda
 #'     Dinorah em Jateí - MS na safra de inverno de 2006. No experimento

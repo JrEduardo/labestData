@@ -2,7 +2,7 @@
 % Please edit documentation in R/Demetrio.R
 \name{DemetrioEx1.4.1.1}
 \alias{DemetrioEx1.4.1.1}
-\title{Alturas de Feijão}
+\title{Alturas de Feij\enc{ã}{a}o}
 \format{Um \code{data.frame} de 7 linhas e 2 colunas, em que
 
 \describe{

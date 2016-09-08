@@ -2,7 +2,7 @@
 % Please edit documentation in R/Paula.R
 \name{PaulaEx3.7.8}
 \alias{PaulaEx3.7.8}
-\title{Germinação de Sementes}
+\title{Germina\enc{çã}{ca}o de Sementes}
 \format{Um \code{data.frame} com 18 observações e 4 variáveis.
 
 \describe{
