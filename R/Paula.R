@@ -1816,16 +1816,15 @@ NULL
 #' data(PaulaEx3.7.20)
 #' str(PaulaEx3.7.20)
 #'
-# Transformar variáveis.
-#' PaulaEx3.7.20 <- transform(
-#'     PaulaEx3.7.20,
-#'     PaulaEx3.7.20$trat = as.factor(PaulaEx3.7.20$trat),
-#'     PaulaEx3.7.20$sit = as.factor(PaulaEx3.7.20$sit))
+#' # Transformar variáveis.
+#' PaulaEx3.7.20 <- transform(PaulaEx3.7.20,
+#'                            trat = as.factor(PaulaEx3.7.20$trat),
+#'                            sit = as.factor(PaulaEx3.7.20$sit))
 #'
 #' library(car)
 #'
-#' scatterplotMatrix(~idade + mdd + im + cl + md + tmax + trat + tsobre +
-#'                       sit,
+#' scatterplotMatrix(~idade + mdd + im + cl + md + tmax + trat +
+#'                       tsobre + sit,
 #'                   spread = FALSE,
 #'                   pch = 20,
 #'                   lwd = 2,

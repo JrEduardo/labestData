@@ -309,7 +309,7 @@ NULL
 #' data(CharnetEx1.17)
 #' str(CharnetEx1.17)
 #'
-#' detach("package:lattice")
+#' # detach("package:lattice")
 #' library(ggplot2)
 #'
 #' ggplot(CharnetEx1.17, aes(x = x, y = y)) +
@@ -340,7 +340,7 @@ NULL
 #' data(CharnetEx1.18)
 #' str(CharnetEx1.18)
 #'
-#' detach("package:lattice")
+#' # detach("package:lattice")
 #' library(ggplot2)
 #'
 #' with(CharnetEx1.18, {
@@ -467,7 +467,7 @@ NULL
 #'
 #' xtabs(~varied + fert, data = CharnetEx10.7)
 #'
-#' detach("package:ggplot2")
+#' # detach("package:ggplot2")
 #' library(lattice)
 #'
 #' xyplot(prod ~ prec | fert,
@@ -722,7 +722,7 @@ NULL
 #' data(CharnetEx2.15)
 #' str(CharnetEx2.15)
 #'
-#' detach("package:lattice")
+#' # detach("package:lattice")
 #' library(ggplot2)
 #'
 #' # Considerando a notas médias na prova de química
@@ -776,7 +776,7 @@ NULL
 #' data(CharnetEx2.8)
 #' str(CharnetEx2.8)
 #'
-#' detach("package:lattice")
+#' # detach("package:lattice")
 #' library(ggplot2)
 #'
 #' ggplot(CharnetEx2.8, aes(x = x, y = y)) +
