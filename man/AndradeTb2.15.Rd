@@ -14,10 +14,9 @@
 
 }}
 \source{
-Estatística para as ciências agrárias e biológicas: com
-    noções de experimentação / Dalton F. Andrade, Paulo J. Ogliari.
-    2. ed. rev. e ampl. - Florianópolis: Ed. da UFSC, 2010. (Tabela
-    2.15, pág. 89)
+Andrade, D. F., Ogliari, P. J. (2010). Estatística para as
+    ciências agrárias e biológicas com noções de experimentação (2nd
+    ed.). Florianópolis, SC. Editora da UFSC. (Tabela 2.15, pág. 89)
 }
 \description{
 Estudo da distribuição do número de plantas sadias de
@@ -25,23 +24,29 @@ Estudo da distribuição do número de plantas sadias de
 }
 \examples{
 
-library(lattice)
-
 data(AndradeTb2.15)
 str(AndradeTb2.15)
 
-bp <- barplot(AndradeTb2.15$freq * (100/sum(AndradeTb2.15$freq)),
-              names.arg = AndradeTb2.15$plantas,
-              col = "darkturquoise",
-              beside = TRUE,
-              ylim = c(0, 50),
-              xlab = "Número de Plantas Colhidas Sadias",
-              ylab = "Porcentagem do Número de Parcelas")
+# Gráfico de barras
+with(AndradeTb2.15, {
+    fr <- paste0("(", round(100 * freq / sum(freq)), "\% )")
+    bp <- barplot(freq,
+                  names.arg = plantas,
+                  col = "darkturquoise",
+                  beside = TRUE,
+                  ylim = extendrange(freq),
+                  xlab = "Número de Plantas Colhidas Sadias",
+                  ylab = "Porcentagem do Número de Parcelas")
+    text(bp, freq + 0.3, labels = paste(freq, fr))
+})
 
-text(bp, 0,
-     round(AndradeTb2.15$freq * (100/sum(AndradeTb2.15$freq)), 1),
-     cex= 1, pos = 3)
+# Gráfico de setores
+with(AndradeTb2.15, {
+    fr <- paste0("(", round(100 * freq / sum(freq)), "\%)")
+    pie(freq, labels = paste(plantas, "plantas\\nsadias", fr),
+        col = gray.colors(length(freq)))
+})
 
 }
-\keyword{AAS}
+\keyword{contingência}
 

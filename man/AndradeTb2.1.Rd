@@ -2,7 +2,7 @@
 % Please edit documentation in R/AndradeTb2.1.R
 \name{AndradeTb2.1}
 \alias{AndradeTb2.1}
-\title{Experimento de Competição de Híbridos de Milho}
+\title{Competição de Híbridos de Milho}
 \format{Um \code{data.frame} com 32 observações e 7 variáveis, em que
 
 \describe{
@@ -11,7 +11,7 @@
     híbridos de milho.}
 
 \item{\code{rm}}{Rendimento médio do híbrido de milho, em
-    \eqn{kg.ha^{-1}}.}
+    \eqn{kg\ ha^{-1}}.}
 
 \item{\code{ciclo}}{Ciclo de vida do híbrido de milho, em dias.}
 
@@ -23,93 +23,99 @@
     de grão.}
 
 \item{\code{resist}}{Fator de 4 níveis qualitativos que indica a
-    resistência à ferrugem, sendo: r = resistente; mr = moderadamente
-    resistente; ms = moderadamente susceptível; s = susceptível.}
+    resistência à ferrugem, sendo \code{r}: resistente; \code{mr}:
+    moderadamente resistente; \code{ms}: moderadamente susceptível; e
+    \code{s}: susceptível.}
 
 }}
 \source{
-Estatística para as ciências agrárias e biológicas: com
-    noções de experimentação / Dalton F. Andrade, Paulo J. Ogliari.
-    2. ed. rev. e ampl. - Florianópolis: Ed. da UFSC, 2010. (Tabela
-    2.1, pág. 62)
+Andrade, D. F., Ogliari, P. J. (2010). Estatística para as
+    ciências agrárias e biológicas com noções de experimentação (2nd
+    ed.). Florianópolis, SC. Editora da UFSC. (Tabela 2.1, pág. 62)
 }
 \description{
-Um pesquisador instalou um experimento, na região de
-    Chapecó, SC, para avaliação do comportamento de híbridos de
-    milho.
+Um pesquisador avaliou, na região de Chapecó, SC, o
+    comportamento de híbridos de milho mensurados pelo rendimento
+    médio de milho, ciclo de vida, altura da planta e altura da
+    espiga.
 }
 \examples{
 
 library(lattice)
-library(plyr)
 
 data(AndradeTb2.1)
 str(AndradeTb2.1)
 
-xyplot(rm ~ hibr,
-       groups = grao,
+levels_resist <- c("Resistente", "Moderadamente Resistente",
+                   "Moderadamente Susceptível", "Susceptível")
+
+# Comportamento do rendimento médio
+xyplot(rm ~ hibr | grao,
+       groups = resist,
        type = "b",
+       layout = c(NA, 1),
        data = AndradeTb2.1,
-       auto.key = list(title = "Tipo de Grão",
+       auto.key = list(title = "Resistência à ferrugem",
                        cex.title = 1.1,
-                       columns = 3),
+                       columns = 2,
+                       text = levels_resist),
        ylab = "Rendimendo Médio (em kg/ha)",
        xlab = "Híbrido de Milho")
 
-xyplot(rm ~ hibr,
+# Compartamento do ciclo de vida
+xyplot(ciclo ~ hibr | grao,
        groups = resist,
        type = "b",
+       layout = c(NA, 1),
        data = AndradeTb2.1,
-       auto.key = list(title = "Resistência à Ferrugem",
+       auto.key = list(title = "Resistência à ferrugem",
                        cex.title = 1.1,
-                       columns = 4),
-       ylab = "Rendimendo Médio (em kg/ha)",
-       xlab = "Híbrido de Milho")
-
-xyplot(ciclo ~ hibr,
-       groups = grao,
-       type = "b",
-       data = AndradeTb2.1,
-       auto.key = list(title = "Tipo de Grão",
-                       cex.title = 1.1,
-                       columns = 3),
+                       columns = 2,
+                       text = levels_resist),
        ylab = "Ciclo (em dias)",
        xlab = "Híbrido de Milho")
 
-xyplot(ciclo ~ hibr,
-       groups = resist,
-       type = "b",
-       data = AndradeTb2.1,
-       auto.key = list(title = "Resistência à Ferrugem",
-                       cex.title = 1.1,
-                       columns = 4),
-       ylab = "Ciclo (em dias)",
-       xlab = "Híbrido de Milho")
+# Comportamento das alturas
+library(latticeExtra)
+useOuterStrips(
+    xyplot(ap + ae ~ hibr | grao,
+           groups = resist,
+           type = "b",
+           data = AndradeTb2.1,
+           auto.key = list(title = "Resistência à ferrugem",
+                           cex.title = 1.1,
+                           columns = 2,
+                           text = levels_resist),
+           ylab = "Altura (em cm)",
+           xlab = "Híbrido de Milho"),
+    strip.left = strip.custom(factor.levels = c("Planta", "Espiga"))
+    )
 
-xyplot(ap + ae ~ hibr,
-       groups = grao,
-       type = "b",
-       strip = strip.custom(factor.levels = c("Altura da Planta",
-                                              "Altura da Espiga")),
-       data = AndradeTb2.1,
-       auto.key = list(title = "Tipo de Grão",
-                       cex.title = 1.1,
-                       columns = 3),
-       ylab = "Altura (em cm)",
-       xlab = "Híbrido de Milho")
+# Comportamento geral
+vars <- c("Rendimento", "Ciclo de vida", "Altura planta", "Altura espiga")
+useOuterStrips(
+    xyplot(rm + ciclo + ap + ae ~ hibr | grao,
+           groups = resist,
+           data = AndradeTb2.1,
+           type = "b",
+           as.table = TRUE,
+           xlab = "Híbrido de Milho",
+           ylab = "",
+           scales = list(y = "free", x = list(rot = 90)),
+           auto.key = list(
+               title = "Resistência à Ferrugem",
+               cex.title = 1.1,
+               columns = 2,
+               text = levels_resist)
+           ),
+    strip.left = strip.custom(factor.levels = vars)
+)
 
-xyplot(ap + ae ~ hibr,
-       groups = resist,
-       type = "b",
-       strip = strip.custom(factor.levels = c("Altura da Planta",
-                                              "Altura da Espiga")),
-       data = AndradeTb2.1,
-       auto.key = list(title = "Resistência à Ferrugem",
-                       cex.title = 1.1,
-                       columns = 4),
-       ylab = "Altura (em cm)",
-       xlab = "Híbrido de Milho")
+# Relação entre as variáveis de interesse
+splom(~AndradeTb2.1[, c("rm", "ciclo", "ap", "ae")],
+      type = c("p", "smooth"),
+      data = AndradeTb2.1)
 
 }
-\keyword{AAS}
+\keyword{AASM}
 

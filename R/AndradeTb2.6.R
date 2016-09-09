@@ -8,7 +8,7 @@
 #' \describe{
 #'
 #' \item{\code{H}}{Fator de 2 níveis qualitativos que são os hábitos de
-#'     crescimento, sendo \code}{3}: "indeterminado trepador"; e
+#'     crescimento, sendo \code{3}: "indeterminado trepador"; e
 #'     \code{4}: "indeterminado prostrado".}
 #'
 #' \item{\code{P}}{Fator de 3 níveis qualitativos que são os portes,

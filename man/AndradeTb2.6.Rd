@@ -8,18 +8,18 @@
 \describe{
 
 \item{\code{H}}{Fator de 2 níveis qualitativos que são os hábitos de
-    crescimento, sendo: 3 = "indeterminado trepador"; 4 =
-    "indeterminado prostrado".}
+    crescimento, sendo \code{3}: "indeterminado trepador"; e
+    \code{4}: "indeterminado prostrado".}
 
 \item{\code{P}}{Fator de 3 níveis qualitativos que são os portes,
-    sendo: Tr = "trepador"; EB = "ereto na base"; Pr = "prostrado".}
+    sendo \code{Tr}: "trepador"; \code{EB}: "ereto na base"; e
+    \code{Pr}: "prostrado".}
 
 }}
 \source{
-Estatística para as ciências agrárias e biológicas: com
-    noções de experimentação / Dalton F. Andrade, Paulo J. Ogliari.
-    2. ed. rev. e ampl. - Florianópolis: Ed. da UFSC, 2010. (Tabela
-    2.6, pág. 74)
+Andrade, D. F., Ogliari, P. J. (2010). Estatística para as
+    ciências agrárias e biológicas com noções de experimentação (2nd
+    ed.). Florianópolis, SC. Editora da UFSC. (Tabela 2.6, pág. 74)
 }
 \description{
 Experimento no qual um pesquisador está procurando
@@ -28,25 +28,22 @@ Experimento no qual um pesquisador está procurando
 }
 \examples{
 
-library(lattice)
-library(plyr)
-
 data(AndradeTb2.6)
 str(AndradeTb2.6)
 
-tb <- xtabs(~H+P, data= AndradeTb2.6)
+(tb <- xtabs(~H+P, data= AndradeTb2.6))
+
+mosaicplot(tb)
 
 barplot(t(tb), names.arg = c("Prostrado", "Trepador"),
-        beside=TRUE,
-        space = c(0.2,1),
-        col = c("darkturquoise","lawngreen","blue"),
+        beside = TRUE,
+        space = c(0.2, 1),
+        col = c("darkturquoise", "lawngreen", "blue"),
         ylim = c(0, 30))
-
 legend("topleft",
-       legend = c("Eb", "Pr", "Tr"),
-       col = c("darkturquoise", "lawngreen","blue"),
-       pch = 8)
+       legend = levels(AndradeTb2.6$P),
+       fill = c("darkturquoise", "lawngreen", "blue"))
 
 }
-\keyword{AAS}
+\keyword{contingência}
 
