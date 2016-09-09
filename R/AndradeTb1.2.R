@@ -19,10 +19,9 @@
 #'
 #' }
 #' @keywords DIC
-#' @source Estatística para as ciências agrárias e biológicas: com
-#'     noções de experimentação / Dalton F. Andrade, Paulo J. Ogliari.
-#'     2. ed. rev. e ampl. - Florianópolis: Ed. da UFSC, 2010. (Tabela
-#'     1.2, pág. 40)
+#' @source Andrade, D. F., Ogliari, P. J. (2010). Estatística para as
+#'     ciências agrárias e biológicas com noções de experimentação (2nd
+#'     ed.). Florianópolis, SC. Editora da UFSC. (Tabela 1.2, pág. 40)
 #' @examples
 #'
 #' data(AndradeTb1.2)

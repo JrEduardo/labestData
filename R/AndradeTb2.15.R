@@ -12,11 +12,10 @@
 #'     mandioca.}
 #'
 #' }
-#' @keywords tabfreq
-#' @source Estatística para as ciências agrárias e biológicas: com
-#'     noções de experimentação / Dalton F. Andrade, Paulo J. Ogliari.
-#'     2. ed. rev. e ampl. - Florianópolis: Ed. da UFSC, 2010. (Tabela
-#'     2.15, pág. 89)
+#' @keywords contingência
+#' @source Andrade, D. F., Ogliari, P. J. (2010). Estatística para as
+#'     ciências agrárias e biológicas com noções de experimentação (2nd
+#'     ed.). Florianópolis, SC. Editora da UFSC. (Tabela 2.15, pág. 89)
 #' @examples
 #'
 #' data(AndradeTb2.15)
