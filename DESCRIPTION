@@ -43,6 +43,7 @@ Suggests:
     reshape2,
     MASS,
     qcc,
-    multcomp
+    multcomp,
+    vcd
 VignetteBuilder: knitr
 RoxygenNote: 5.0.1
