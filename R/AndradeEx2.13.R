@@ -11,8 +11,6 @@
 #'     (Capítulo 2, Exercício 13, pág. 109)
 #' @examples
 #'
-#' library(lattice)
-#'
 #' data(AndradeEx2.13)
 #' str(AndradeEx2.13)
 #'

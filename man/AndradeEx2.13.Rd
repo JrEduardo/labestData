@@ -17,8 +17,6 @@ Estudo do comportamento da variável número de ovos
 }
 \examples{
 
-library(lattice)
-
 data(AndradeEx2.13)
 str(AndradeEx2.13)
 
