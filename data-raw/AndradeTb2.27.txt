@@ -1,0 +1,7 @@
+Saude	Vacina	Freq
+Gripados	NaoVacinados	24
+NaoGripados	NaoVacinados	289
+Gripados	UmaDose	9
+NaoGripados	UmaDose	100
+Gripados	DuasDoses	13
+NaoGripados	DuasDoses	565
