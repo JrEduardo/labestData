@@ -20,7 +20,8 @@ Andrade, D. F., Ogliari, P. J. (2010). Estatística para as
 }
 \description{
 Estudo da distribuição do número de plantas sadias de
-    mandioca colhidas na área útil de uma parcela.
+    mandioca colhidas na área útil de uma parcela. Foram 30 parcelas
+    onde avaliou-se o número de mandiocas sadias em cada.
 }
 \examples{
 

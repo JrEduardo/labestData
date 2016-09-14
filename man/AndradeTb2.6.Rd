@@ -2,7 +2,7 @@
 % Please edit documentation in R/AndradeTb2.6.R
 \name{AndradeTb2.6}
 \alias{AndradeTb2.6}
-\title{Experimento de Cultura de Feijão de Vagem}
+\title{Estudo sobre Cultura de Feijão-de-Vagem}
 \format{Um \code{data.frame} com 50 observações e 2 variáveis, em que
 
 \describe{
@@ -22,9 +22,9 @@ Andrade, D. F., Ogliari, P. J. (2010). Estatística para as
     ed.). Florianópolis, SC. Editora da UFSC. (Tabela 2.6, pág. 74)
 }
 \description{
-Experimento no qual um pesquisador está procurando
-    verificar se existe associação entre hábito de crescimento e
-    porte na cultura de feijão de vagem.
+Estudo no qual procurou-se verificar a existência de
+    associação entre hábito de crescimento e os portes da planta na
+    cultura de feijão-de-vagem.
 }
 \examples{
 

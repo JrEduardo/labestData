@@ -1,8 +1,8 @@
 #' @name AndradeTb2.6
-#' @title Experimento de Cultura de Feijão de Vagem
-#' @description Experimento no qual um pesquisador está procurando
-#'     verificar se existe associação entre hábito de crescimento e
-#'     porte na cultura de feijão de vagem.
+#' @title Estudo sobre Cultura de Feijão-de-Vagem
+#' @description Estudo no qual procurou-se verificar a existência de
+#'     associação entre hábito de crescimento e os portes da planta na
+#'     cultura de feijão-de-vagem.
 #' @format Um \code{data.frame} com 50 observações e 2 variáveis, em que
 #'
 #' \describe{

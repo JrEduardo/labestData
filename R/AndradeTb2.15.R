@@ -1,7 +1,8 @@
 #' @name AndradeTb2.15
 #' @title Distribuição do Número de Plantas Sadias de Mandioca
 #' @description Estudo da distribuição do número de plantas sadias de
-#'     mandioca colhidas na área útil de uma parcela.
+#'     mandioca colhidas na área útil de uma parcela. Foram 30 parcelas
+#'     onde avaliou-se o número de mandiocas sadias em cada.
 #' @format Um \code{data.frame} com 5 observações e 2 variáveis, em que
 #'
 #' \describe{
