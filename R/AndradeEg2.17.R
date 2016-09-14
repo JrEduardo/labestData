@@ -4,7 +4,7 @@
 #'     \eqn{X_p} de fêmeas, dado em g, de Penaeus paulensis (Crustacea,
 #'     Decapoda, Penaidae), obtidos nas despescas dos viveiros do Centro
 #'     de Ciências Agrárias (CCA) da Universidade Federal de Santa
-#'     Catarina (UFSC). 
+#'     Catarina (UFSC).
 #' @format Um \code{data.frame} com 18 observações e 2 variáveis, em que
 #'
 #' \describe{
