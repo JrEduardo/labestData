@@ -1,9 +1,8 @@
 #' @name AndradeTb2.34
 #' @title Crescimento do Pseudobulbo de \emph{Laelia Purpurata}
-#' @description Foram tomadas duas amostrar de tamanhos iguais a 25
-#'     observações, de crescimento do pseudobulbo, em cm, da espécie de
-#'     orquídea \emph{Laelia purpurata}, sob duas condições de
-#'     luminosidade.
+#' @description Dados de crescimento, em cm, do pseudobulbo da espécie
+#'     de orquídea \emph{Laelia purpurata}, sob duas condições de
+#'     luminosidade, cada uma com 25 observações.
 #' @format Um \code{data.frame} com 50 observações e 2 variáveis, em que
 #'
 #' \describe{
@@ -15,17 +14,15 @@
 #'
 #' }
 #' @keywords AAS
-#' @source Estatística para as ciências agrárias e biológicas: com
-#'     noções de experimentação / Dalton F. Andrade, Paulo J. Ogliari.
-#'     2. ed. rev. e ampl. - Florianópolis: Ed. da UFSC, 2010. (Tabela
-#'     2.34, pág. 133)
+#' @source Andrade, D. F., Ogliari, P. J. (2010). Estatística para as
+#'     ciências agrárias e biológicas com noções de experimentação (2nd
+#'     ed.). Florianópolis, SC. Editora da UFSC. (Tabela 2.34, pág. 133)
 #' @examples
-#'
-#' library(lattice)
 #'
 #' data(AndradeTb2.34)
 #' str(AndradeTb2.34)
 #'
+#' library(lattice)
 #' bwplot(Cresc ~ Luz,
 #'        data = AndradeTb2.34,
 #'        xlab = "Condição de Luminosidade",

@@ -13,17 +13,15 @@
 #'
 #' }
 #' @keywords AAS
-#' @source Estatística para as ciências agrárias e biológicas: com
-#'     noções de experimentação / Dalton F. Andrade, Paulo J. Ogliari.
-#'     2. ed. rev. e ampl. - Florianópolis: Ed. da UFSC, 2010. (Tabela
-#'     2.32, pág. 113)
+#' @source Andrade, D. F., Ogliari, P. J. (2010). Estatística para as
+#'     ciências agrárias e biológicas com noções de experimentação (2nd
+#'     ed.). Florianópolis, SC. Editora da UFSC. (Tabela 2.32, pág. 113)
 #' @examples
-#'
-#' library(lattice)
 #'
 #' data(AndradeTb2.32)
 #' str(AndradeTb2.32)
 #'
+#' library(lattice)
 #' bwplot(Peso ~ Raca,
 #'        data = AndradeTb2.32,
 #'        xlab = "Raça do Bezerro",

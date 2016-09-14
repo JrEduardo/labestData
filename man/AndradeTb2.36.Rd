@@ -13,22 +13,20 @@
 
 }}
 \source{
-Estatística para as ciências agrárias e biológicas: com
-    noções de experimentação / Dalton F. Andrade, Paulo J. Ogliari.
-    2. ed. rev. e ampl. - Florianópolis: Ed. da UFSC, 2010. (Tabela
-    2.36, pág. 140)
+Andrade, D. F., Ogliari, P. J. (2010). Estatística para as
+    ciências agrárias e biológicas com noções de experimentação (2nd
+    ed.). Florianópolis, SC. Editora da UFSC. (Tabela 2.36, pág. 140)
 }
 \description{
-Produção de matéria seca de uma cultura e a quantidade
-    de radiação fotossintética ativa.
+Dados de produção de matéria seca de uma cultura e
+    quantidade de radiação fotossintética ativa.
 }
 \examples{
-
-library(lattice)
 
 data(AndradeTb2.36)
 str(AndradeTb2.36)
 
+library(lattice)
 xyplot(Prod ~ Rad,
        data = AndradeTb2.36,
        type = c("p", "r"),

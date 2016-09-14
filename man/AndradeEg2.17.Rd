@@ -13,10 +13,10 @@
 
 }}
 \source{
-Estatística para as ciências agrárias e biológicas: com
-    noções de experimentação / Dalton F. Andrade, Paulo J. Ogliari.
-    2. ed. rev. e ampl. - Florianópolis: Ed. da UFSC, 2010. (Exemplo
-    2.17, pág. 128)
+Andrade, D. F., Ogliari, P. J. (2010). Estatística para as
+    ciências agrárias e biológicas com noções de experimentação (2nd
+    ed.). Florianópolis, SC. Editora da UFSC. (Exemplo 2.17, pág.
+    128)
 }
 \description{
 Comprimento do corpo \eqn{X_c}, dado em mm, e peso
@@ -27,11 +27,10 @@ Comprimento do corpo \eqn{X_c}, dado em mm, e peso
 }
 \examples{
 
-library(lattice)
-
 data(AndradeEg2.17)
 str(AndradeEg2.17)
 
+library(lattice)
 xyplot(jitter(Xp) ~ Xc,
        data = AndradeEg2.17,
        type = c("p", "r"),
