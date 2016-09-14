@@ -1,0 +1,7 @@
+estacao	local	passaros
+primavera	arvores	30
+outono	arvores	13
+primavera	arbustos	20
+outono	arbustos	22
+primavera	chao	9
+outono	chao	26

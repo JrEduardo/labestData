@@ -1,0 +1,5 @@
+ciclo	vir	cont
+tardio	normal	3470
+precoce	normal	1030
+tardio	virescente	910
+precoce	virescente	290

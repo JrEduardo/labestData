@@ -1,0 +1,37 @@
+#' @name PimentelEg5.2
+#' @title Competição de Variedades de Batatinha
+#' @description Experimento de competição de variedades de batatinha
+#'     feito pelo Engenheiro Agrônomo Oscar A. Garay em Balcare,
+#'     Argentina. O experimento foi realizado em blocos casualizados.
+#' @format Um \code{data.frame} com 32 observações e 3 variáveis, em que
+#'
+#' \describe{
+#'
+#' \item{\code{bloco}}{Fator de 4 níveis qualitativos, usado para
+#'     controle local.}
+#'
+#' \item{\code{variedade}}{Fator de 8 níveis qualitativos que são as
+#'     variedades de batatinha.}
+#'
+#' \item{producao}{Produção de batatinha, em ton ha\eqn{^{-1}}.}
+#'
+#' }
+#' @keywords DBC
+#' @source PIMENTEL-GOMES (2009), Exemplo 5.2, pág. ??.
+#' @examples
+#'
+#' library(lattice)
+#'
+#' data(PimentelEg5.2)
+#' str(PimentelEg5.2)
+#'
+#' xtabs(~variedade + bloco, data = PimentelEg5.2)
+#'
+#' xyplot(producao ~ variedade,
+#'        groups = bloco,
+#'        data = PimentelEg5.2,
+#'        type = "o",
+#'        ylab = expression(Produção ~ (t ~ ha^{-1})),
+#'        xlab = "Variedades de batatinha")
+#'
+NULL
