@@ -11,7 +11,7 @@
 #'
 #' \item{\code{Xc}}{Comprimento do Corpo em mm.}
 #'
-#' \item{\code{Peso}}{Peso em gramas.}
+#' \item{\code{Xp}}{Peso em gramas.}
 #'
 #' }
 #' @keywords AAS
