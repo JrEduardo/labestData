@@ -14,10 +14,9 @@
 
 }}
 \source{
-Estatística para as ciências agrárias e biológicas: com
-    noções de experimentação / Dalton F. Andrade, Paulo J. Ogliari.
-    2. ed. rev. e ampl. - Florianópolis: Ed. da UFSC, 2010. (Página
-    90)
+Andrade, D. F., Ogliari, P. J. (2010). Estatística para as
+    ciências agrárias e biológicas com noções de experimentação (2nd
+    ed.). Florianópolis, SC. Editora da UFSC. (Página 90)
 }
 \description{
 Pesos ao nascer de 24 bezerros machos das raças
@@ -35,6 +34,14 @@ bwplot(peso ~ bezerro,
        xlab = "Raça do Bezerro",
        ylab = "Peso (em kg)")
 
+densityplot(~peso, groups = bezerro,
+            data = AndradePg90,
+            auto.key = list(
+                corner = c(0.1, 0.9),
+                title = "Raça do bezerro",
+                cex.title = 1
+            ))
+
 }
-\keyword{AAS}
+\keyword{AASI}
 

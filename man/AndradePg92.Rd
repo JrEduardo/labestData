@@ -2,7 +2,7 @@
 % Please edit documentation in R/AndradePg92.R
 \name{AndradePg92}
 \alias{AndradePg92}
-\title{Ganho Médio de Peso de Porcos}
+\title{Ganho de Peso em Suínos}
 \format{Um \code{data.frame} com 20 observações e 2 variáveis, em que
 
 \describe{
@@ -14,30 +14,37 @@
 
 }}
 \source{
-Estatística para as ciências agrárias e biológicas: com
-    noções de experimentação / Dalton F. Andrade, Paulo J. Ogliari.
-    2. ed. rev. e ampl. - Florianópolis: Ed. da UFSC, 2010. (Página
-    92)
+Andrade, D. F., Ogliari, P. J. (2010). Estatística para as
+    ciências agrárias e biológicas com noções de experimentação (2nd
+    ed.). Florianópolis, SC. Editora da UFSC. (Página 92)
 }
 \description{
-Para comparar o ganho médio de peso por dia, em gramas,
-    de porcos submetidos a duas dietas diferentes, foi conduzido um
-    experimento com 20 porcos. Dez porcos foram submetidos a cada uma
-    das dietas.
+Para comparar o ganho médio de peso em suínos submetidos
+    a duas diferentes dietas, foi conduzido um experimento com 20
+    porcos. Dez porcos foram submetidos a cada uma das dietas e
+    mensurou-se o ganho médio de peso por dia.
 }
 \examples{
-
-library(lattice)
 
 data(AndradePg92)
 str(AndradePg92)
 
+library(lattice)
 bwplot(peso ~ dieta,
        data = AndradePg92,
        xlab = "Dieta",
        ylab = "Ganho Médio de Peso por Dia (em gramas)")
 
+library(latticeExtra)
+ecdfplot(~peso, groups = dieta, data = AndradePg92,
+         grid = TRUE,
+         auto.key = list(
+             corner = c(0.9, 0.1),
+             title = "Dieta",
+             cex.title = 1,
+             lwd = 2
+         ))
 
 }
-\keyword{AAS}
+\keyword{AASI}
 

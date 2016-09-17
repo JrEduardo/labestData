@@ -5,13 +5,12 @@
 \title{Rendimento Médio de Híbridos de Milho}
 \format{Um \code{vetor} numérico com 32 observações.}
 \source{
-Estatística para as ciências agrárias e biológicas: com
-    noções de experimentação / Dalton F. Andrade, Paulo J. Ogliari.
-    2. ed. rev. e ampl. - Florianópolis: Ed. da UFSC, 2010. (Tabela
-    2.18, pág. 97)
+Andrade, D. F., Ogliari, P. J. (2010). Estatística para as
+    ciências agrárias e biológicas com noções de experimentação (2nd
+    ed.). Florianópolis, SC. Editora da UFSC. (Tabela 2.18, pág. 97)
 }
 \description{
-Rendimentos médios, em \eqn{kg.ha^{-1}}, de 32 híbridos
+Rendimentos médios, em \eqn{kg\,ha^{-1}}, de 32 híbridos
     de milho recomendados para a Região Oeste catarinense.
 }
 \examples{

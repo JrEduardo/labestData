@@ -5,16 +5,14 @@
 \title{Altura de Brotos de Explantes de Abacaxi}
 \format{Um \code{vetor} numérico com 39 observações.}
 \source{
-Estatística para as ciências agrárias e biológicas: com
-    noções de experimentação / Dalton F. Andrade, Paulo J. Ogliari.
-    2. ed. rev. e ampl. - Florianópolis: Ed. da UFSC, 2010. (Tabela
-    2.20, pág. 102)
+Andrade, D. F., Ogliari, P. J. (2010). Estatística para as
+    ciências agrárias e biológicas com noções de experimentação (2nd
+    ed.). Florianópolis, SC. Editora da UFSC. (Tabela 2.20, pág. 102)
 }
 \description{
-Experimento desenvolvido para avaliar o comportamento
-    \emph{In Vitro} de abacaxi (\emph{Ananas comosus}) cv. Primavera
-    e referem-se à variável altura dos brotos de explantes, em
-    centímetros.
+Estudo com brotos obtidos de explantes de abacaxi
+    \emph{In Vitro}, (\emph{Ananas comosus}), da cultivar Primavera.
+    No estudo valiou-se as alturas dos brotos, em centímetros.
 }
 \examples{
 

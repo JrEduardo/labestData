@@ -4,7 +4,7 @@
 #' @description Estudo que avalia o efeito da variação de luz no
 #'     crescimento de plantas da espécie \emph{Cecropia glazioui}.  O
 #'     crescimento foi mensurado mediante a área foliar específica após
-#'     60 dias de vida da planta e a variaçao de luz se deu pelo
+#'     60 dias de vida da planta e a variação de luz se deu pelo
 #'     ambiente em que a planta se encontrava, borda da mata
 #'     (intensidade de luz média de 10,6%) e mata fechada (intensidade
 #'     de luz média de 0,87%).
@@ -19,10 +19,9 @@
 #'
 #' }
 #' @keywords AASI
-#' @source Estatística para as ciências agrárias e biológicas: com
-#'     noções de experimentação / Dalton F. Andrade, Paulo J. Ogliari.
-#'     2. ed. rev. e ampl. - Florianópolis: Ed. da UFSC, 2010. (Tabela
-#'     2.22, pág. 104)
+#' @source Andrade, D. F., Ogliari, P. J. (2010). Estatística para as
+#'     ciências agrárias e biológicas com noções de experimentação (2nd
+#'     ed.). Florianópolis, SC. Editora da UFSC. (Tabela 2.22, pág. 104)
 #' @examples
 #'
 #' library(lattice)
