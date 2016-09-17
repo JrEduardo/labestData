@@ -16,7 +16,7 @@ Esse documento descreve o roteiro de trabalho no *labestData*, desde a
 instalação do software até os passos para inclusão das contribuições. Os
 primeiros 4 itens precisam ser feitos apenas uma vez por máquina, as
 *milestones* e *issues* são feitos uma vez por obra, enquanto que os
-demais procedimentos tem uma base semanal.
+demais procedimentos tem uma peridiodicidade semanal.
 
 ## Instalação e Configuração do Git
 
@@ -35,7 +35,7 @@ Para instalar no Windows, baixe o `*.exe` disponível no endereço
 <https://git-scm.com/download/win>.
 
 Após instalar, é necessário configurar sua conta com as suas informações
-pessoais: nome e email. Execute no terminal do Linux (se Linux) ou no
+pessoais: nome e e-mail. Execute no terminal do Linux (se Linux) ou no
 Git-bash (se Windows), as intruções abaixo substituindo os campos entre
 aspas pelas suas informações.
 
@@ -57,12 +57,12 @@ comprometê-lo com erros. Veja um exemplo de arquivo
 ## Comunição do Cliente com o GitLab
 
 Depois de instalar o Git é necessário estabelecer comunição com o
-servidor do serviço GitLab para que conteúdo (arquivos) seja transferido
+servidor do serviço GitLab para que um conteúdo (arquivos) seja transferido
 entre cliente (computador do usuário) e servidor (computador que hospeda
 o GitLab). A autenticação entre as máquinas é baseada em
 [chaves](https://www.vivaolinux.com.br/artigo/Conexoes-SSH-sem-senha-facil-e-descomplicado).
 Para gerar um par de chaves, execute as instruções abaixo no terminal ou
-git-bash, substituindo o email pelo seu. O *prompt* vai pedir para que
+git-bash, substituindo o e-mail pelo seu. O *prompt* vai pedir para que
 você forneça uma *passphrase* mas você pode apenas pressionar ENTER.
 
 ```sh
@@ -71,7 +71,7 @@ ssh-keygen -t rsa -C "seuemail@aqui.com"
 
 No *output* do terminal será informado o endereço do par de arquivos
 gerados: `id_rsa` e `id_rsa.pub`. Esse par é único. Abra o arquivo
-`id_rsa.pub` do editor de texto e copie o seu conteúdo sem
+`id_rsa.pub` em um editor de texto e copie o seu conteúdo sem
 modificá-lo. Entre em <https://gitlab.c3sl.ufpr.br/profile/keys>, cole o
 conteúdo no campo *key* e dê um título no campo *title*. Recomenda-se
 que o título informe o computador que contem as chaves (e.g. PC-casa,
@@ -85,8 +85,8 @@ terminal ou git-bash a instrução abaixo.
 ssh -T git@gitlab.c3sl.ufpr.br
 ```
 
-Se for retornado um *Welcome*, então procedimento realizado com
-sucesso. Importante: Sempre que você executar o comando que gera as
+Se for retornado um *Welcome*, então o procedimento foi realizado com
+sucesso. Importante: sempre que você executar o comando que gera as
 chaves, novas chaves serão geradas e você terá que substituir as chaves
 cadastradas anteriormente (a menos que você gere em outro diretório ou
 faça backup).
@@ -99,14 +99,12 @@ O desenvolvimento do pacote *labestData* é baseado no uso do pacote
 Para instalar esses pacotes, execute em uma sessão R os códigos abaixo.
 
 ```{r}
-install.packages(c("devtools", "roxygen2"),
-                 dependencies = TRUE
-                 repos = )
+install.packages(c("devtools", "roxygen2"), dependencies = TRUE)
 ```
 
 O `devtools` tem dependências do sistema operacional. Se a sua
-instalação no Linux não der certo, leia o output no console que
-normamente é indicado lá o que não foi encontrado. Normalmente basta
+instalação no Linux não der certo, leia o output no console que,
+normamente, é indicado lá o que não foi encontrado. Em geral, basta
 instalar as "libs" abaixo.
 
 ```
@@ -130,7 +128,7 @@ mouse no espaço em branco do navegador de arquivos (Nautilus ou Windows
 Explorer) e clicar em *Open in Terminal* ou *Open gih-bash here* para
 abri-los no diretório exibido pelo navegador de arquivos.
 
-Para clonar o repositório, execute as instrução abaixo.
+Para clonar o repositório, execute a instrução abaixo.
 
 ```sh
 # Clona o repositório do labestData.
@@ -172,8 +170,8 @@ de milha. A *milestone* na realidade é a definição de uma meta. Uma
 *milestone* é um coletivo de *issues*. *Issue* é um assunto ou
 tópico. No projeto *labestData*, *issue* é a definição do trabalho de
 uma semana. Portanto, uma *milestone* é uma obra, e os *issues* dessa
-*milestone* são fragmentos dessa obra que serão trabalhados cada um em
-uma semana.
+*milestone* são fragmentos dessa obra que serão trabalhados em uma
+semana.
 
 Para criar uma *milestone*, acesse
 <https://gitlab.c3sl.ufpr.br/pet-estatistica/labestData/milestones> e
@@ -216,7 +214,7 @@ números, vamos criar ramos para inclusão das contribuições previstas no
 O *branch* de desenvolvimento é autor numerado, ou seja, composto pelo
 nome do autor e número do *issue* (e.g. `walmes159`). Esse ramo é sempre
 extraído do *branch* `baby`, que tem apenas o conteúdo mínimo
-necessário. Antes, no entanto, é recomendado incorporar possível
+necessário. Antes, no entanto, é recomendado incorporar possíveis
 atualizações no `baby`. Os comandos abaixo ilustram isso.
 
 ```sh
@@ -262,8 +260,10 @@ labestData/
 Algumas funções foram criadas para auxiliar no desenvolvimento do
 *labestData*, como a `roxy_data()`. Elas estão disponíveis no *snippet*
 46 do GitLab: <https://gitlab.c3sl.ufpr.br/snippets/46>. Recomenda-se
-que você tenha um *script* com os código para trabalhar no *labestData*
-e que carrege as funções no *snippet* ao iniciar sua sessão R.
+que você tenha um *script* com os códigos para trabalhar no *labestData*
+e que carrege as funções no *snippet* ao iniciar sua sessão R. O
+repositório não versiona arquivos com nome *roteiro.R*, portanto
+considere nomear seu *script* dessa forma.
 
 ```{r}
 # Abre no navegador o snippet 46.
@@ -280,10 +280,10 @@ digitar na planilha e exportar pela planilha, digitar na planilha e
 exportar pelo R, digitar no R e exportar pelo R.
 
 Digitar na planilha e exportar pela planilha
-: Consiste em digitar os dados na planilha eletrônica, copiar a região
-  com os dados, criar um arquivo `txt` vazio em `data-raw/` e colar o
-  conteúdo copiado da planilha dentro. As colunas serão separadas por
-  tabulação.
+: Consiste em digitar os dados em uma planilha eletrônica, copiar a
+  região com os dados, criar um arquivo `txt` vazio em `data-raw/` e
+  colar o conteúdo copiado da planilha dentro. As colunas serão
+  separadas por tabulação.
 
 Digitar na planilha e exportar com o R
 : Digitar os dados na planilha eletrônica, copiar a região com os dados,
@@ -293,7 +293,7 @@ Digitar na planilha e exportar com o R
 
 Digitar no R e exportar com o R
 : Digitar os dados com o R usando `scan()` ou `edit()` e exportar com a
-  função `write2txt(dados)`. Essa opção é bastante vatajosa quando você
+  função `write2txt(dados)`. Essa opção é bastante vantajosa quando você
   tem dados com estrutura regular, como os de experimentos
   planejados. Você pode criar as estruturas com `expand.grid()` e então
   só digitar a variável resposta.
@@ -310,7 +310,7 @@ use_data(dados)
 
 Depois de criar o arquivo `rda`, você deve remover esse objeto do da
 memória e carregar o *labestData* com `load_all()`. Esse é momento de
-experimental o conjunto de dados para ver se ele não tem erros.
+experimentar o conjunto de dados para ver se ele não contém erros.
 
 ```{r}
 # Remove o objeto "dados" da memória.
@@ -335,7 +335,7 @@ formato será transcrito para o formato oficial de documentação R, cuja
 extensão de arquivo é `Rd` (*R documentation*), e se assemelha aos
 textos LaTeX.
 
-Para gerar o arquivo R com a documentação começada, execute a função
+Para gerar o arquivo R com uma documentação prévia, execute a função
 `roxy_data()` definida no *snippet*.
 
 ```{r}
@@ -343,15 +343,15 @@ Para gerar o arquivo R com a documentação começada, execute a função
 roxy_data(dados)
 ```
 
-A função `roxy_data()` vai criar o arquivo com parte da documentação
+A função `roxy_data()` criará o arquivo `R` com parte da documentação
 preenchida. Abra o arquivo e complete com as informações restantes.
 
 ### Arquivo `Rd`
 
 O arquivo `Rd` é gerado automaticamente, a partir do arquivo R, pela
 função `document()` do *devtools*. A função `check_man()` verifica se
-existe problemas com a documentação gerara, como campos mal formados ou
-inexistentes.
+existe problemas com a documentação gerada, como campos mal formados,
+inexistentes ou falta de chaves em algum ambiente.
 
 ```{r}
 # Gera a documentação dados.Rd em man/.
@@ -429,17 +429,18 @@ build(manual = TRUE, vignettes = TRUE)
 
 ## Orientações de uso do Git
 
-O recurso que mais o desenvolvedor vai usar do Git e que é permanente no
-projeto é o *commit*. Por isso, é importante fazer o *commit* de forma
-correta para tirarmos ainda mais vatagem desse incrível recurso. Algumas
+O recurso mais utilizado por desenvolvedores do *labestData* e que é
+permanente no projeto é o *commit*. Por isso, é importante fazer o
+*commit* de forma correta para tirarmos ainda mais vantagem desse
+incrível recurso. Algumas
 [diretrizes para fazer *commits*](https://git-scm.com/book/pt-br/v1/Git-Distribu%C3%ADdo-Contribuindo-Para-Um-Projeto#Diretrizes-de-Commit)
-são dadas na página oficial do mesmo. Destacaremos as mais relevantes
+são dadas na página oficial do Git. Destacaremos as mais relevantes
 para o *labestData*.
 
 Faça *commits* de mudanças completas
 : Apenas faça *commits* de arquivos para unidades completas de algo. Por
   exemplo, não faça *commit* de um texto com frases incompletas, não
-  faça commmit de uma função cujo código não foi terminado de escrever.
+  faça commit de uma função cujo código não foi terminado de escrever.
 
 Faça *commits* pensando que vai precisar revertê-los
 : Antes de fazer um *commit*, imagine que vai precisar revertê-lo,
@@ -450,7 +451,7 @@ Faça *commits* pensando que vai precisar revertê-los
 
 Use uma mensagem curta e apropriada
 : Prefira mensagens curtas e acertivas. Elas devem em poucas palavras
-  permitir se lembrar ou advinhar o que foi feito. Normalmente mensagens
+  permitir se lembrar ou advinhar o que foi feito. Normalmente, mensagens
   que relatam o porquê das modificações são assim. Se um *commit*
   precisar de uma mensagem longa demais, então é porque ele agrupa
   modificações divisíveis.
@@ -461,9 +462,9 @@ Use o tempo verbal como se fosse um comando
   copia, acrescenta, modifica.
 
 Adote o idioma plenamente
-: Adotar o idioma plenamente, com palabras acentuadas e sinais de
+: Adotar o idioma plenamente, com palavras acentuadas e sinais de
   pontuação facilita bastante quando for necessário fazer buscas nos
-  textos das mensagens pois só existe um jeito certo para a grafia das
+  textos das mensagens, pois só existe um jeito certo para a grafia das
   palavras.
 
 ## Fazer *Merge Request*
