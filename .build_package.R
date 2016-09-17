@@ -51,10 +51,15 @@ if (length(list.files("./vignettes"))) {
 #--------------------------------------------
 # Checar conteúdo e organização do pacote.
 
-check(cleanup = FALSE,
-      manual = TRUE,
-      vignettes = FALSE,
-      check_dir = "../")
+checagem <- check(cleanup = FALSE,
+                  manual = TRUE,
+                  vignettes = FALSE,
+                  check_dir = "../")
+
+if (length(checagem$errors) > 0) {
+    cat(checagem$errors, sep = "\n")
+    stop("Falha ao checar o pacote")
+}
 
 #--------------------------------------------
 # Construir pacote.
