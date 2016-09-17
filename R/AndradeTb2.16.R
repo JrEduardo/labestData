@@ -1,10 +1,10 @@
 #' @name AndradeTb2.16
-#' @title Avaliação da Formação de Calos
-#' @description Avaliação da formação de calos, mais especificamente, da
-#'     altura de calos em cm, após um período de 30 dias \emph{in vitro}
-#'     para os explantes de procedência do cerrado da espécie
-#'     \emph{Mandevilla velutina}. Obs.: É importante que os calos não
-#'     se desenvolvam, pois quanto menor eles forem, maior será o
+#' @title Altura dos Calos em Explantes do Cerrado \emph{Mandevilla
+#'     velutina}
+#' @description Avaliação da altura de calos em explantes do cerrado da
+#'     espécie \emph{Mandevilla velutina} após sua formação, durante um
+#'     período de 30 dias \emph{in vitro}. Têm-se interesse que os calos
+#'     não se desenvolvam, pois quanto menor, maior será o
 #'     desenvolvimento das plantas.
 #' @format Um \code{vetor} numérico com 37 observações.
 #' @keywords AAS
@@ -17,6 +17,7 @@
 #' data(AndradeTb2.16)
 #' str(AndradeTb2.16)
 #'
+#' summary(AndradeTb2.16)
 #' hist(AndradeTb2.16,
 #'      col = "darkturquoise",
 #'      labels = TRUE,

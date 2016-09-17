@@ -1,9 +1,8 @@
 #' @name AndradeTb2.20
 #' @title Altura de Brotos de Explantes de Abacaxi
-#' @description Experimento desenvolvido para avaliar o comportamento
-#'     \emph{In Vitro} de abacaxi (\emph{Ananas comosus}) cv. Primavera
-#'     e referem-se à variável altura dos brotos de explantes, em
-#'     centímetros.
+#' @description Estudo com brotos obtidos de explantes de abacaxi
+#'     \emph{In Vitro}, (\emph{Ananas comosus}), da cultivar Primavera.
+#'     No estudo valiou-se as alturas dos brotos, em centímetros.
 #' @format Um \code{vetor} numérico com 39 observações.
 #' @keywords AAS
 #' @source Estatística para as ciências agrárias e biológicas: com

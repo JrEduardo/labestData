@@ -1,6 +1,6 @@
 #' @name AndradeTb2.18
 #' @title Rendimento Médio de Híbridos de Milho
-#' @description Rendimentos médios, em \eqn{kg.ha^{-1}}, de 32 híbridos
+#' @description Rendimentos médios, em \eqn{kg\,ha^{-1}}, de 32 híbridos
 #'     de milho recomendados para a Região Oeste catarinense.
 #' @format Um \code{vetor} numérico com 32 observações.
 #' @keywords AAS

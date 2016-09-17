@@ -12,7 +12,7 @@
 #' \item{\code{peso}}{Peso do bezerro macho recém nascido, em kg.}
 #'
 #' }
-#' @keywords AAS
+#' @keywords AASI
 #' @source Estatística para as ciências agrárias e biológicas: com
 #'     noções de experimentação / Dalton F. Andrade, Paulo J. Ogliari.
 #'     2. ed. rev. e ampl. - Florianópolis: Ed. da UFSC, 2010. (Página
@@ -28,5 +28,13 @@
 #'        data = AndradePg90,
 #'        xlab = "Raça do Bezerro",
 #'        ylab = "Peso (em kg)")
+#'
+#' densityplot(~peso, groups = bezerro,
+#'             data = AndradePg90,
+#'             auto.key = list(
+#'                 corner = c(0.1, 0.9),
+#'                 title = "Raça do bezerro",
+#'                 cex.title = 1
+#'             ))
 #'
 NULL

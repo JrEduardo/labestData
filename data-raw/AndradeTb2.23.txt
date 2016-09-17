@@ -1,66 +1,66 @@
 local	aborto
-2	0
-2	0
-2	1
-2	0
-2	0
-2	0
-2	0
-2	2
-2	2
-2	0
-2	1
-2	1
-2	0
-2	0
-2	0
-2	1
-2	1
-2	1
-2	1
-2	1
-2	0
-2	0
-2	0
-2	0
-2	0
-2	0
-2	0
-2	0
-2	0
-2	0
-2	1
-2	1
-2	2
-2	0
-2	0
-2	0
-2	0
-2	1
-1	1
-1	1
-1	1
-1	0
-1	2
-1	1
-1	0
-1	0
-1	0
-1	0
-1	0
-1	0
-1	0
-1	0
-1	0
-1	0
-1	0
-1	0
-1	0
-1	0
-1	0
-1	0
-1	0
-1	0
-1	0
-1	0
-1	0
+Costa da Lagoa	0
+Costa da Lagoa	0
+Costa da Lagoa	1
+Costa da Lagoa	0
+Costa da Lagoa	0
+Costa da Lagoa	0
+Costa da Lagoa	0
+Costa da Lagoa	2
+Costa da Lagoa	2
+Costa da Lagoa	0
+Costa da Lagoa	1
+Costa da Lagoa	1
+Costa da Lagoa	0
+Costa da Lagoa	0
+Costa da Lagoa	0
+Costa da Lagoa	1
+Costa da Lagoa	1
+Costa da Lagoa	1
+Costa da Lagoa	1
+Costa da Lagoa	1
+Costa da Lagoa	0
+Costa da Lagoa	0
+Costa da Lagoa	0
+Costa da Lagoa	0
+Costa da Lagoa	0
+Costa da Lagoa	0
+Costa da Lagoa	0
+Costa da Lagoa	0
+Costa da Lagoa	0
+Costa da Lagoa	0
+Costa da Lagoa	1
+Costa da Lagoa	1
+Costa da Lagoa	2
+Costa da Lagoa	0
+Costa da Lagoa	0
+Costa da Lagoa	0
+Costa da Lagoa	0
+Costa da Lagoa	1
+Rio Vermelho	1
+Rio Vermelho	1
+Rio Vermelho	1
+Rio Vermelho	0
+Rio Vermelho	2
+Rio Vermelho	1
+Rio Vermelho	0
+Rio Vermelho	0
+Rio Vermelho	0
+Rio Vermelho	0
+Rio Vermelho	0
+Rio Vermelho	0
+Rio Vermelho	0
+Rio Vermelho	0
+Rio Vermelho	0
+Rio Vermelho	0
+Rio Vermelho	0
+Rio Vermelho	0
+Rio Vermelho	0
+Rio Vermelho	0
+Rio Vermelho	0
+Rio Vermelho	0
+Rio Vermelho	0
+Rio Vermelho	0
+Rio Vermelho	0
+Rio Vermelho	0
+Rio Vermelho	0
