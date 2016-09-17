@@ -20,26 +20,27 @@
 #'
 #' \describe{
 #'
-#'     \item{Técinicas multivariadas}{
+#'     \item{Técnicas multivariadas}{
 #'     \tabular{ll}{
-#'       AnaCorCan  \tab  Análise de correlação canônica   \cr
-#'       AnaAgrup   \tab  Análise de agrupamento           \cr
-#'       AnaComPrin \tab  Análise de componentes pricipais \cr
-#'       AnaDisc    \tab  Análise discriminante            \cr
-#'       AnaFat     \tab  Análise fatorial                 \cr
+#'       AnaCorCan  \tab  Análise de correlação canônica    \cr
+#'       AnaAgrup   \tab  Análise de agrupamento            \cr
+#'       AnaComPrin \tab  Análise de componentes principais \cr
+#'       AnaDisc    \tab  Análise discriminante             \cr
+#'       AnaFat     \tab  Análise fatorial                  \cr
 #'       manova     \tab  Análise de variância multivariada
 #'     }
 #'     }
 #'     \item{Área da Estatística}{
 #'     \tabular{ll}{
-#'       TODO          \tab  Keywords a ser atribuída              \cr
-#'       AAS           \tab  Amostra aleatória simples             \cr
-#'       AASM          \tab  Amostra aleatória simples multivariada\cr
-#'       contingência  \tab  Tabela de contingência                \cr
-#'       pareado       \tab  Dados de amostra pareada              \cr
-#'       CEQ           \tab  Controle estatístico da qualidade     \cr
-#'       TS            \tab  Séries temporais                      \cr
-#'       sensorial     \tab  Análise sensorial                     \cr
+#'       TODO          \tab  Keywords a ser atribuída                  \cr
+#'       AAS           \tab  Amostra aleatória simples                 \cr
+#'       AASM          \tab  Amostra aleatória simples multivariada    \cr
+#'       AASI          \tab  Amostras aleatórias simples independentes \cr
+#'       AASP          \tab  Amostras aleatórias simples pareadas      \cr
+#'       contingência  \tab  Tabela de contingência                    \cr
+#'       CEQ           \tab  Controle estatístico da qualidade         \cr
+#'       TS            \tab  Séries temporais                          \cr
+#'       sensorial     \tab  Análise sensorial                         \cr
 #'       sobrevivência \tab  Análise de sobrevivência
 #'     }
 #'     }
@@ -90,7 +91,7 @@
 #'       RM        \tab  Regressão múltipla                  \cr
 #'       RNL       \tab  Regressão não linear                \cr
 #'       dummy     \tab  Variáveis categóricas para regressão\cr
-#'       heterovar \tab  Variância heterogenea
+#'       heterovar \tab  Variância heterogênea
 #'     }
 #'     }
 #'
