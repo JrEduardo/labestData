@@ -1533,7 +1533,7 @@ NULL
 #'     100g.}
 #'
 #' }
-#' @keywords pareado
+#' @keywords AASP
 #' @source PIMENTEL-GOMES (2009).
 #' @examples
 #'
