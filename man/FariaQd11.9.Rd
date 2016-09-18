@@ -2,7 +2,8 @@
 % Please edit documentation in R/Faria.R
 \name{FariaQd11.9}
 \alias{FariaQd11.9}
-\title{Qualidade de Mudas em Fun\enc{çã}{ca}o do Recipiente da Esp\enc{é}{e}cie}
+\title{Qualidade de Mudas em Fun\enc{çã}{ca}o do Recipiente da
+    Esp\enc{é}{e}cie}
 \format{Um \code{data.frame} com 12 observações e 4 variáveis, em que
 
 \describe{
@@ -20,8 +21,7 @@
 
 }}
 \source{
-Faria, J. C. (2009). Notas de aulas expandidas (10th ed.)
-    Ilhéus - BA: UESC. (Quadro 11.9, pág 145)
+FARIA (2009), Quadro 11.9, pág 145.
 }
 \description{
 Experimento montado no delineamento inteiramente

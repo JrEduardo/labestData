@@ -3,18 +3,17 @@
 \name{DemetrioTb2.9}
 \alias{DemetrioTb2.9}
 \title{Dados Gen\enc{é}{e}ricos para Regress\enc{ã}{a}o Simples}
-\format{Um \code{data.frame} de 10 linhas e 2 colunas.
+\format{Um \code{data.frame} de 10 linhas e 2 colunas, em que
 
 \describe{
 
-    \item{\code{x}}{Variável independente, sem interpretação.}
-    
-    \item{\code{y}}{Variável dependente, sem interpretação.}
-    
+\item{\code{x}}{Variável independente, sem interpretação.}
+
+\item{\code{y}}{Variável dependente, sem interpretação.}
+
 }}
 \source{
-Demétrio, C. G. B., Zocchi, S. S. (2011). Modelos de
-    Regressão. Piracicaba: ESALQ. (Tabela 2.9 pág. 64)
+DEMÉTRIO; ZOCCHI (2011), Tabela 2.9 pág. 64.
 }
 \description{
 Dados para exercício analítico, com o objetivo de
@@ -24,19 +23,16 @@ Dados para exercício analítico, com o objetivo de
 \examples{
 
 data(DemetrioTb2.9)
+str(DemetrioTb2.9)
 
 library(lattice)
 
 xyplot(y ~ x, data = DemetrioTb2.9,
-     main = "x vs y",
-     xlab = "x",
-     ylab = "y",
-     type = c("p", "r"), col.line = 3)
-     
-model <- lm(y ~ x, data = DemetrioTb2.9)
-summary(model)
-anova(model)
+       main = "x vs y",
+       xlab = "x",
+       ylab = "y",
+       type = c("p", "r"), col.line = 3)
 
 }
-\keyword{TODO}
+\keyword{RS}
 

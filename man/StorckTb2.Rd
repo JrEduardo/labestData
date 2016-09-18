@@ -17,9 +17,7 @@
 
 }}
 \source{
-Storck, L., Garcia, B. C., Lopes, S. J., Estefanel,
-    V. (2011). Experimentação Vegetal (3th ed.). Santa Maria, RS:
-    UFMS. (Tabela 2, pág. 21)
+STORCK et al. (2011), Tabela 2, pág. 21.
 }
 \description{
 Experimento referente ao peso das plantas aos 30 dias

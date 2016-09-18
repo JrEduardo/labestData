@@ -3,33 +3,33 @@
 \name{DemetrioTb10.2}
 \alias{DemetrioTb10.2}
 \title{Estudo em Plantas Nicotianas}
-\format{Um \code{data.frame} de 18 linhas e 3 colunas.
+\format{Um \code{data.frame} de 18 linhas e 3 colunas, em que
 
 \describe{
 
-    \item{\code{caule}}{Comprimento do caule.}
+\item{\code{caule}}{Comprimento do caule.}
 
-    \item{\code{ramo}}{Comprimento do ramo.}
-    
-    \item{\code{basal}}{Comprimento do caule basal.}
-    
+\item{\code{ramo}}{Comprimento do ramo.}
+
+\item{\code{basal}}{Comprimento do caule basal.}
+
 }}
 \source{
-Demétrio, C. G. B., Zocchi, S. S. (2011). Modelos de
-    Regressão. Piracicaba: ESALQ. (Tabela 10.2 pág. 161; Exercício 
-    5.4.7 pág. 164)
+DEMÉTRIO; ZOCCHI (2011), Tabela 10.2 pág. 161; Exercício
+    5.4.7 pág. 164.
 }
 \description{
-Dados referentes ao comprimento do caule,
-    do ramo e do caule basal de plantas do gênero Nicotiana.
+Dados referentes ao comprimento do caule, do ramo e do
+    caule basal de plantas do gênero Nicotiana.
 }
 \examples{
 
 data(DemetrioTb10.2)
+str(DemetrioTb10.2)
 
-pairs(~ caule + basal + ramo , data = DemetrioTb10.2,
-     main = "Dispersão duas a duas")
+pairs(~ caule + basal + ramo , data = DemetrioTb10.2)
 
 }
+\keyword{AnaFat}
 \keyword{RM}
 

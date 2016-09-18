@@ -3,7 +3,7 @@
 \name{ZimmermannTb16.4}
 \alias{ZimmermannTb16.4}
 \title{Hastes Mortas de Arroz por \emph{Elasmopalpus lignosellus} L.}
-\format{Um \code{data.frame} com 9 observações e 3 variáveis
+\format{Um \code{data.frame} com 9 observações e 3 variáveis, em que
 
 \describe{
 
@@ -17,9 +17,7 @@
 
 }}
 \source{
-Zimmermann, F. J. (2004). Estatística aplicada à pesquisa
-    agrícola (1st ed.). Santo Antônio de Goiás, GO: Embrapa Arroz e
-    Feijão. (Tabela 16.4, pág. 341)
+ZIMMERMANN (2004), Tabela 16.4, pág. 341.
 }
 \description{
 Dados de um experimento em delineamento inteiramente

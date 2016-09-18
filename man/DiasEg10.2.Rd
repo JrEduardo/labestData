@@ -16,12 +16,13 @@
 
 \item{\code{rept}}{Inteiro que identifica as repetições.}
 
-\item{\code{pg}}{Percentual de germinação das sementes.}
+\item{\code{pg}}{Percentual de germinação das sementes. Como todos os
+    resultados são pares, infere-se que o total de sementes usadas
+    para determinar a germinação seja 50.}
 
 }}
 \source{
-Dias, L. A. S., Barros, W. S. (2009). Biometria
-    Experimental. Viçosa, MG: UFV. (Exemplo 10.2, pág. 286)
+BARROS; DIAS (2009), Exemplo 10.2, pág. 286.
 }
 \description{
 Experimento em delineamento inteiramente casualizado
@@ -46,6 +47,7 @@ xyplot(pg ~ tempo, groups = cult, data = DiasEg10.2,
        ylab = "Percentagem de germinação")
 
 }
-\keyword{DIC}
 \keyword{PS}
+\keyword{binomial}
+\keyword{unitário}
 

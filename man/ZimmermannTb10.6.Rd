@@ -20,9 +20,7 @@
 
 }}
 \source{
-Zimmermann, F. J. (2004). Estatística aplicada à pesquisa
-    agrícola (1st ed.). Santo Antônio de Goiás, GO: Embrapa Arroz e
-    Feijão. (Tabela 10.6, pág. 201)
+ZIMMERMANN (2004), (Tabela 10.6, pág. 201)
 }
 \description{
 Dados de um experimento com dois fatores, em
@@ -38,7 +36,6 @@ Dados de um experimento com dois fatores, em
 library(lattice)
 
 data(ZimmermannTb10.6)
-
 str(ZimmermannTb10.6)
 
 xyplot(ascpd ~ dose, groups = cult, data = ZimmermannTb10.6,
@@ -47,6 +44,5 @@ xyplot(ascpd ~ dose, groups = cult, data = ZimmermannTb10.6,
        ylab = "Logaritmo da área sob a curva de progresso da doença")
 
 }
-\keyword{DBC}
 \keyword{PS}
 

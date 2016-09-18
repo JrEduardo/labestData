@@ -4,7 +4,8 @@
 \alias{PaulaTb4.14}
 \title{Ocorr\enc{ê}{e}ncia de Doen\enc{ç}{c}a das Coron\enc{á}{a}rias}
 \format{Um \code{data.frame} com 32 observações e 4 variáveis.
-    \describe{
+
+\describe{
 
 \item{\code{doenca}}{Fator com dois níveis que indica a ocorrência
     (\code{sim}) ou não ocorrência (\code{não}) de doença das
@@ -15,29 +16,28 @@
     \eqn{mg/100cm^3} com classes \code{<200}, \code{200-219},
     \code{220-259} e \code{>259}.}
 
-\item{\code{pa}}{Fator com quatro níveis referente à pressão
-    arterial do paciente. A unidade de medida adotada é mm Hg
+\item{\code{pa}}{Fator com quatro níveis referente à pressão arterial
+    do paciente. A unidade de medida adotada é mm Hg
     (milímetro-mercúrio) com classes \code{<127}, \code{127-146},
     \code{147-166} e \code{>166}.}
 
-\item{\code{nind}}{Número de indivíduos para cada combinação das categorias
-    das variáveis \code{doenca}, \code{colest} e \code{pa}.}
+\item{\code{nind}}{Número de indivíduos para cada combinação das
+    categorias das variáveis \code{doenca}, \code{colest} e
+    \code{pa}.}
 
 }}
 \source{
-Paula, G. A. (2004). Modelos de regressão: com apoio
-    computacional. São Paulo, SP: IME-USP. (Tabela 4.14, pág. 334)
+PAULA (2004), Tabela 4.14, pág. 334.
 }
 \description{
 Os dados são referentes à classificação de 1330
     pacientes segundo três fatores: ocorrência de doença das
-    coronárias, nível de colesterol e pressão arterial. O interesse
-    é analisar a associação entre essas variáveis.
+    coronárias, nível de colesterol e pressão arterial. O interesse é
+    analisar a associação entre essas variáveis.
 }
 \examples{
 
 data(PaulaTb4.14)
-
 str(PaulaTb4.14)
 
 xt <- xtabs(nind ~ ., data = PaulaTb4.14)
@@ -45,6 +45,7 @@ ftable(xt)
 plot(xt)
 
 library(lattice)
+
 xyplot(nind ~ colest | doenca,
        groups = pa,
        data = PaulaTb4.14,
@@ -62,4 +63,5 @@ Everitt, B. S. (1977). The Analysis of Contingency
     Tables. Chapman anda Hall, London.
 }
 \keyword{contagem}
+\keyword{contingência}
 

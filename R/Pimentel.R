@@ -1,5 +1,5 @@
 #' @name PimentelEg4.2
-#' @title Alimenta\enc{çã}{ca}o de porcos
+#' @title Alimenta\enc{çã}{ca}o de Porcos
 #' @description Experimento (fictício) de alimentação de porcos em que
 #'     se usaram quatro rações (A, B, C, D), cada uma fornecida a cinco
 #'     animais escolhidos ao acaso. A tabela apresenta os aumentos de
@@ -16,9 +16,11 @@
 #'
 #' }
 #' @keywords DIC
-#' @source Pimentel-Gomes, F. (2009). Curso de Estatística Experimental
-#'     (15th ed.). Piracicaba, SP: FEALQ.
+#' @source PIMENTEL-GOMES (2009).
 #' @examples
+#'
+#' data(PimentelEg4.2)
+#' str(PimentelEg4.2)
 #'
 #' plot(PimentelEg4.2,
 #'      xlab = "Rações",
@@ -46,23 +48,26 @@ NULL
 #'
 #' }
 #' @keywords DBC
-#' @source Pimentel-Gomes, F. (2009). Curso de Estatístitica
-#'     Experimental (15th ed.). Piracicaba, SP: FEALQ. (Exemplo 5.2)
+#' @source PIMENTEL-GOMES (2009), Exemplo 5.2.
 #' @examples
 #'
 #' library(lattice)
 #'
 #' data(PimentelEg5.2)
+#' str(PimentelEg5.2)
 #'
-#' xyplot(producao ~ variedade, groups = bloco, data = PimentelEg5.2,
+#' xyplot(producao ~ variedade,
+#'        groups = bloco,
+#'        data = PimentelEg5.2,
 #'        type = "b",
-#'        ylab=expression(Produção~(t~ha^{-1})),
-#'        xlab="Variedades de batatinha")
+#'        ylab = expression(Produção~(t~ha^{-1})),
+#'        xlab = "Variedades de batatinha")
 #'
 NULL
 
 #' @name PimentelEg6.2
-#' @title Ensaio de Competi\enc{çã}{ca}o de Variedades de Cana-de-a\enc{çú}{cu}car
+#' @title Ensaio de Competi\enc{çã}{ca}o de Variedades de
+#'     Cana-de-a\enc{çú}{cu}car
 #' @description Experimento de competição de variedades de
 #'     cana-de-açúcar no qual foram usadas cinco variedades dispostas
 #'     em um delineamento quadrado latino 5 \eqn{\times} 5.
@@ -84,8 +89,7 @@ NULL
 #'
 #' }
 #' @keywords DQL
-#' @source Pimentel-Gomes, F. (2009). Curso de Estatística Experimental
-#'     (15th ed.). Piracicaba, SP: FEALQ. (Exemplo 6.2, pág. 96)
+#' @source PIMENTEL-GOMES (2009), Exemplo 6.2, pág. 96.
 #' @examples
 #'
 #' data(PimentelEg6.2)
@@ -111,7 +115,8 @@ NULL
 NULL
 
 #' @name PimentelEg7.3
-#' @title Experimento Fatorial de Aduba\enc{çã}{ca}o Mineral e com Vinha\enc{ç}{c}a
+#' @title Experimento Fatorial de Aduba\enc{çã}{ca}o Mineral e com
+#'     Vinha\enc{ç}{c}a
 #' @description Experimento fatorial, \eqn{2^{2}}, em que os fatores
 #'     eram adubação mineral completa e adubação com vinhaça. As
 #'     parcelas foram dispostas em blocos ao acaso.
@@ -133,9 +138,8 @@ NULL
 #' \item{\code{y}}{Resposta observada nas parcelas do experimento.}
 #'
 #' }
-#' @keywords FAT2
-#' @source Pimentel-Gomes, F. (2009). Curso de Estatística Experimental
-#'     (15th ed.). Piracicaba, SP: FEALQ. (Exemplo 7.3, pág. 119)
+#' @keywords FAT2K
+#' @source PIMENTEL-GOMES (2009), Exemplo 7.3, pág. 119.
 #' @examples
 #'
 #' library(lattice)
@@ -157,7 +161,8 @@ NULL
 NULL
 
 #' @name PimentelEg7.4
-#' @title Experimento de Aduba\enc{çã}{ca}o com Torta de Filtro e Adubo Mineral
+#' @title Experimento de Aduba\enc{çã}{ca}o com Torta de Filtro e Adubo
+#'     Mineral
 #' @description Experimento fatorial 2\eqn{^{2}} em que os fatores eram
 #'     adubo mineral e torta dos filtros de Oliver de usinas de açúcar.
 #' @format Um \code{data.frame} com 16 observações e 4 variáveis, em que
@@ -180,9 +185,8 @@ NULL
 #' \item{\code{y}}{Respoata medida no ensaio.}
 #'
 #' }
-#' @keywords FAT2
-#' @source Pimentel-Gomes, F. (2009). Curso de Estatística Experimental
-#'     (15th ed.). Piracicaba, SP: FEALQ. (Exemplo 7.4, pág. 120)
+#' @keywords FAT2K
+#' @source PIMENTEL-GOMES (2009), Exemplo 7.4, pág. 120.
 #' @examples
 #'
 #' library(lattice)
@@ -202,7 +206,8 @@ NULL
 NULL
 
 #' @name PimentelEx5.8.4
-#' @title Dados de Produ\enc{çã}{ca}o de Cana-planta em Ensaio de Variedades
+#' @title Dados de Produ\enc{çã}{ca}o de Cana-planta em Ensaio de
+#'     Variedades
 #' @description Experimento em blocos casualizados realizado pela
 #'     Cooperativa dos Usineiros do Oeste do Estado de São Paulo,
 #'     referente à produção de cana-planta de um ensaio de variedades
@@ -216,13 +221,12 @@ NULL
 #'
 #' \item{\code{variedade}}{Fator de 7 níveis qualitativos, que são as
 #'     variedades cana-de-açúcar.}
-#'     
+#'
 #' \item{\code{prod}}{Dados de produção de cana-planta.}
 #'
 #' }
 #' @keywords DBC
-#' @source Pimentel-Gomes, F. (2009). Curso de Estatística Experimental
-#'     (15th ed.). Piracicaba, SP: FEALQ.
+#' @source PIMENTEL-GOMES (2009).
 #' @examples
 #'
 #' library(lattice)
@@ -251,13 +255,12 @@ NULL
 #'
 #' \item{\code{variedade}}{Fator de 6 níveis qualitativos, que são os
 #'     diferentes tipos de mandioca.}
-#'     
+#'
 #' \item{\code{prod}}{Produção de mandioca, em t ha\eqn{^{-1}}.}
 #'
 #' }
 #' @keywords DBC
-#' @source Pimentel-Gomes, F. (2009). Curso de Estatística Experimental
-#'     (15th ed.). Piracicaba, SP: FEALQ.
+#' @source PIMENTEL-GOMES (2009).
 #' @examples
 #'
 #' library(lattice)
@@ -271,7 +274,8 @@ NULL
 NULL
 
 #' @name PimentelEx6.6.3
-#' @title Efeito da Idade de Castra\enc{çã}{ca}o no Ganho de Peso de Su\enc{í}{i}nos
+#' @title Efeito da Idade de Castra\enc{çã}{ca}o no Ganho de Peso de
+#'     Su\enc{í}{i}nos
 #' @description Ensaio de alimentação de suínos, no qual foi usado um
 #'     quadrado latino de 4 x 4, com os resultados referentes aos ganhos
 #'     de peso ao fim de 252 dias.
@@ -296,8 +300,7 @@ NULL
 #'
 #' }
 #' @keywords DQL
-#' @source Pimentel-Gomes, F. (2009). Curso de Estatística Experimental
-#'     (15th ed.). Piracicaba, SP: FEALQ. (Exercício 6.6.3, página 110)
+#' @source PIMENTEL-GOMES (2009), Exercício 6.6.3, página 110.
 #' @examples
 #'
 #' data(PimentelEx6.6.3)
@@ -324,7 +327,8 @@ NULL
 NULL
 
 #' @name PimentelPg142
-#' @title Grupo de Experimentos Fatoriais de Aduba\enc{çã}{ca}o de Algod\enc{ã}{a}o
+#' @title Grupo de Experimentos Fatoriais de Aduba\enc{çã}{ca}o de
+#'     Algod\enc{ã}{a}o
 #' @description Grupo de experimentos de adubação de algodão, todos em
 #'     delineamento inteiramente casualiado com 4 repetições cada. As
 #'     combinações de NPK formam em ensaio fatorial com um tratamento
@@ -361,9 +365,8 @@ NULL
 #'     adicional, a testemunha, que é a combinção das doses zero de NPK,
 #'     e a porção fatorial é a combinação das doses 1 e 2 de NK tendo o
 #'     P fixo em 1.
-#' @keywords GE DIC FATADI
-#' @source Pimentel-Gomes, F. (2009). Curso de Estatística Experimental
-#'     (15th ed.). Piracicaba, SP: FEALQ. (Página 142)
+#' @keywords GE FATADI
+#' @source PIMENTEL-GOMES (2009), página 142.
 #' @examples
 #'
 #' library(lattice)
@@ -405,8 +408,7 @@ NULL
 #'
 #' }
 #' @keywords DBI
-#' @source Pimentel-Gomes, F. (2009). Curso de Estatística
-#'     Experimental (15th ed.). Piracicaba, SP: FEALQ. (Página 185)
+#' @source PIMENTEL-GOMES (2009), Página 185.
 #' @examples
 #'
 #' data(PimentelPg185)
@@ -425,7 +427,8 @@ NULL
 NULL
 
 #' @name PimentelPg267
-#' @title Percentual de Sorgo na Ra\enc{çã}{ca}o para Desenvolvimento de Pintos
+#' @title Percentual de Sorgo na Ra\enc{çã}{ca}o para Desenvolvimento de
+#'     Pintos
 #' @description Ensaio de Torres e Pimentel-Gomes (1959) em que foram
 #'     estudadas 4 rações para pintos dos dois sexos (machos e fêmeas),
 #'     instalado um delineamento inteiramente casualizado com duas
@@ -447,9 +450,8 @@ NULL
 #' \item{\code{peso}}{Peso total das aves da parcela, em decagramas.}
 #'
 #' }
-#' @keywords DIC
-#' @source Pimentel-Gomes, F. (2009). Curso de Estatística
-#'     Experimental (15th ed.). Piracicaba, SP: FEALQ. (Página 267)
+#' @keywords DIC FAT2
+#' @source PIMENTEL-GOMES (2009), Página 267.
 #'
 #' Torres, A. P., Pimentel-Gomes, F. Substituição de subprodutos de
 #'     trigo pelo sorgo moído na alimentação de pintos. Escola Superior
@@ -472,7 +474,8 @@ NULL
 NULL
 
 #' @name PimentelPg269
-#' @title Influ\enc{ê}{e}ncia da Case\enc{í}{i}na Iodada na Nutri\enc{çã}{ca}o de Vacas Leiteiras
+#' @title Influ\enc{ê}{e}ncia da Case\enc{í}{i}na Iodada na
+#'     Nutri\enc{çã}{ca}o de Vacas Leiteiras
 #' @description Ensaio realizado pelo Departamento de Produção Animal da
 #'     Secretaria de Agricultura paulista, que teve por objetivo estudar
 #'     a influência da caseína iodada na nutrição de vacas leiteiras.
@@ -503,10 +506,9 @@ NULL
 #'
 #' A observação da testemunha (0 de caseina) no bloco 3 foi perdida. O
 #'     valor correspondente foi estimado por métodos de imputação de
-#'     parcela perdida discutido na seção 5.4 de Pimentel-Gomes (2009).
+#'     parcela perdida discutido na seção 5.4 de PIMENTEL-GOMES (2009).
 #' @keywords DBC
-#' @source Pimentel-Gomes, F. (2009). Curso de Estatística Experimental
-#'     (15th ed.). Piracicaba, SP: FEALQ. (Página 269)
+#' @source PIMENTEL-GOMES (2009), página 269.
 #' @examples
 #'
 #' library(lattice)
@@ -549,9 +551,8 @@ NULL
 #'     as mortas é 200, portanto.}
 #'
 #' }
-#' @keywords DIC
-#' @source Pimentel-Gomes, F. (2009). Curso de Estatística Experimental
-#'     (15th ed.). Piracicaba, SP: FEALQ. (Página 382)
+#' @keywords contingência
+#' @source PIMENTEL-GOMES (2009), página 382.
 #' @examples
 #'
 #' library(lattice)
@@ -567,7 +568,7 @@ NULL
 NULL
 
 #' @name PimentelPg72
-#' @title Ensaio de alimenta\enc{çã}{ca}o de leitoas
+#' @title Ensaio de alimenta\enc{çã}{ca}o de Leitoas
 #' @description Experimento realizado pelos técnicos Manoel Becker, Luís
 #'     Paulin Neto, Geraldo Leme da Rocha e Benjamin Cintra, no qual
 #'     dois tratamentos foram estudados (feno de alfafa e feno de
@@ -580,17 +581,19 @@ NULL
 #'
 #' \describe{
 #'
-#' \item{\code{feno}}{Fator de 2 níveis qualitativos, que são os diferentes
-#'     tipos de feno.}
+#' \item{\code{feno}}{Fator de 2 níveis qualitativos, que são os
+#'     diferentes tipos de feno.}
 #'
 #' \item{\code{ganhopeso}}{Aumento do peso das leitoas, observado em
 #'     quilogramas.}
 #'
 #' }
 #' @keywords DIC
-#' @source Pimentel-Gomes, F. (2009). Curso de Estatística Experimental
-#'     (15th ed.). Piracicaba, SP: FEALQ.
+#' @source PIMENTEL-GOMES (2009).
 #' @examples
+#'
+#' data(PimentelPg72)
+#' str(PimentelPg72)
 #'
 #' library(lattice)
 #'
@@ -615,21 +618,26 @@ NULL
 #'
 #' \item{\code{bloco}}{Fator de 6 níveis qualitativos, usado para
 #'     controle local.}
-#'     
+#'
 #' \item{\code{prod}}{Produção de milho, em kg por parcela de
 #'     200\eqn{m^{2}}.}
 #'
 #' }
-#' @keywords DBC
-#' @source Pimentel-Gomes, F. (2009). Curso de Estatística Experimental
-#'     (15th ed.). Piracicaba, SP: FEALQ.
+#' @keywords DBC replicata
+#' @source PIMENTEL-GOMES (2009).
 #' @examples
 #'
 #' library(lattice)
 #'
+#' data(PimentelPg91)
+#' str(PimentelPg91)
+#'
+#' xtabs(~aradura + bloco, data = PimentelPg91)
+#'
 #' xyplot(prod ~ aradura,
 #'        jitter.x = TRUE,
 #'        groups = bloco,
+#'        type = "o",
 #'        data = PimentelPg91,
 #'        xlab = "Aradura",
 #'        ylab = "Produção")
@@ -662,8 +670,7 @@ NULL
 #'
 #' }
 #' @keywords DBI
-#' @source Pimentel-Gomes, F. (2009). Curso de Estatística Experimental
-#'     (15th ed.). Piracicaba, SP: FEALQ. (Tabela 10.3.1, pág. 190)
+#' @source PIMENTEL-GOMES (2009), Tabela 10.3.1, pág. 190.
 #' @examples
 #'
 #' data(PimentelTb10.3.1)
@@ -708,8 +715,7 @@ NULL
 #'
 #' }
 #' @keywords DBI
-#' @source Pimentel-Gomes, F. (2009). Curso de Estatística Experimental
-#'     (15th ed.). Piracicaba, SP: FEALQ. (Tabela 10.4.1, pág. 192)
+#' @source PIMENTEL-GOMES (2009), Tabela 10.4.1, pág. 192.
 #' @examples
 #'
 #' data(PimentelTb10.4.1)
@@ -731,8 +737,8 @@ NULL
 NULL
 
 #' @name PimentelTb10.6.1
-#' @title Experimento do Tipo III com recupera\enc{çã}{ca}o da informa\enc{çã}{ca}o
-#'     interblocos
+#' @title Experimento do Tipo III com recupera\enc{çã}{ca}o da
+#'     informa\enc{çã}{ca}o interblocos
 #' @description Experimento em blocos incompletos equilibrados do Tipo
 #'     III com recuperação da informação interblocos, conduzido por
 #'     Fraga e Costa (1950). Neste experimento temos \eqn{b = v = 13},
@@ -757,10 +763,8 @@ NULL
 #'     pressuposto de homocedasticidade da análise de variância.}
 #'
 #' }
-#' @keywords DBI
-#' @source Pimentel-Gomes, F. (2009). Curso de Estatística
-#'     Experimental (15th ed.). Piracicaba, SP: FEALQ. (Tabela 10.6.1,
-#'     pág. 198)
+#' @keywords DBI proporção unitário
+#' @source PIMENTEL-GOMES (2009), Tabela 10.6.1, pág. 198.
 #'
 #' Fraga Jr., C. G., Costa, A. S. Análise de um experimento para combate
 #'     de vira-cabeça do tomateiro. Bragantia, 10: 305--316, 1950.
@@ -784,7 +788,8 @@ NULL
 NULL
 
 #' @name PimentelTb11.3.1
-#' @title Experimento de Produ\enc{çã}{ca}o de Milho em L\enc{á}{a}tice Quadrado
+#' @title Experimento de Produ\enc{çã}{ca}o de Milho em L\enc{á}{a}tice
+#'     Quadrado
 #' @description Produção de milho em um experimento em delineamento
 #'     reticulado quadrado triplo de 4 \eqn{times} 4 avaliando a 16
 #'     híbridos de milho, em que \eqn{m = 3} repetições ortogonais e
@@ -807,10 +812,8 @@ NULL
 #' \item{prod}{Produção de milho, em kg/parcela.}
 #'
 #' }
-#' @keywords LAT
-#' @source Pimentel-Gomes, F. (2009). Curso de Estatística
-#'     Experimental (15th ed.). Piracicaba, SP: FEALQ. (Tabela 11.3.1,
-#'     pág. 215)
+#' @keywords LAT RET
+#' @source PIMENTEL-GOMES (2009), Tabela 11.3.1, pág. 215.
 #' @examples
 #'
 #' data(PimentelTb11.3.1)
@@ -833,7 +836,8 @@ NULL
 NULL
 
 #' @name PimentelTb12.2.1
-#' @title Experimento de Aduba\enc{çã}{ca}o com P\eqn{_2}O\eqn{_5} em Milho
+#' @title Experimento de Aduba\enc{çã}{ca}o com P\eqn{_2}O\eqn{_5} em
+#'     Milho
 #' @description Experimento de adubação de milho feito pelos engenheiros
 #'     agrônomos Glauco Pinto Viegas e Erik Smith, em blocos ao acaso,
 #'     para estudar o efeito da adubação na produtividade da cultura.
@@ -850,10 +854,8 @@ NULL
 #' \item{\code{prod}}{Produção de milho, em kg/parcela.}
 #'
 #' }
-#' @keywords RP
-#' @source Pimentel-Gomes, F. (2009). Curso de Estatística
-#'     Experimental (15th ed.). Piracicaba, SP: FEALQ. (Tabela 12.2.1,
-#'     pág. 232)
+#' @keywords RS
+#' @source PIMENTEL-GOMES (2009), Tabela 12.2.1, pág. 232.
 #' @examples
 #'
 #' library(lattice)
@@ -896,9 +898,8 @@ NULL
 #'     centígrados.}
 #'
 #' }
-#' @keywords RP
-#' @source Pimentel-Gomes, F. (2009). Curso de Estatística Experimental
-#'     (15th ed.). Piracicaba, SP: FEALQ. (Tabela 12.3.1, pág. 236)
+#' @keywords RS TS
+#' @source PIMENTEL-GOMES (2009), Tabela 12.3.1, pág. 236.
 #' @examples
 #'
 #' library(lattice)
@@ -914,7 +915,8 @@ NULL
 NULL
 
 #' @name PimentelTb12.4.1
-#' @title Produ\enc{çã}{ca}o de Cana em Fun\enc{çã}{ca}o do Teor de K do Solo
+#' @title Produ\enc{çã}{ca}o de Cana em Fun\enc{çã}{ca}o do Teor de K do
+#'     Solo
 #' @description Experimento de produção de cana-de-açúcar em função do
 #'     teor de K trocável do solo, em miliequivalentes de terra fina
 #'     seca na estufa, onde a nutrição com potássio foi feita com
@@ -929,9 +931,8 @@ NULL
 #' \item{\code{prod}}{Aumento de produção de cana em t ha\eqn{^{-1}}.}
 #'
 #' }
-#' @keywords RP
-#' @source Pimentel-Gomes, F. (2009). Curso de Estatística Experimental
-#'     (15th ed.). Piracicaba, SP: FEALQ. (Tabela 12.4.1, pág. 238)
+#' @keywords RS
+#' @source PIMENTEL-GOMES (2009), Tabela 12.4.1, pág. 238.
 #' @examples
 #'
 #' library(lattice)
@@ -948,7 +949,8 @@ NULL
 NULL
 
 #' @name PimentelTb13.5.1
-#' @title Grupo de Experimentos de Aduba\enc{çã}{ca}o de Cana-de-a\enc{çú}{cu}car
+#' @title Grupo de Experimentos de Aduba\enc{çã}{ca}o de
+#'     Cana-de-a\enc{çú}{cu}car
 #' @description Conjunto de 38 ensaios fatoriais de \eqn{3^{3}} com N, P
 #'     e K, em cana-de-açúçar, com dados de cana-planta e soca, obtidos
 #'     por Strauss (1951). O nutriente foi aplicado nas doses de zero,
@@ -972,8 +974,7 @@ NULL
 #'
 #' }
 #' @keywords GE
-#' @source Pimentel-Gomes, F. (2009). Curso de Estatística Experimental
-#'     (15th ed.). Piracicaba, SP: FEALQ. (Tabela 13.5.1, pág. 259)
+#' @source PIMENTEL-GOMES (2009), Tabela 13.5.1, pág. 259.
 #' @examples
 #'
 #' library(lattice)
@@ -1008,7 +1009,8 @@ NULL
 NULL
 
 #' @name PimentelTb14.4.1
-#' @title Produ\enc{çã}{ca}o de Leite em um Ensaio de Alimenta\enc{çã}{ca}o de Vacas
+#' @title Produ\enc{çã}{ca}o de Leite em um Ensaio de
+#'     Alimenta\enc{çã}{ca}o de Vacas
 #' @description Experimento de nutrição de vacas, conduzido em períodos
 #'     com 12 vacas distribuídas em 4 grupos de 3 vacas. Foram estudados
 #'     3 tipos de alimentação para as vacas em um delineamento quadrado
@@ -1036,9 +1038,8 @@ NULL
 #' \item{\code{prod}}{Produções de leite, em kg.}
 #'
 #' }
-#' @keywords SQL
-#' @source Pimentel-Gomes, F. (2009). Curso de Estatística Experimental
-#'     (15th ed.). Piracicaba, SP: FEALQ. (Tabela 14.4.1, pág. 272)
+#' @keywords DQL
+#' @source PIMENTEL-GOMES (2009), Tabela 14.4.1, pág. 272.
 #' @examples
 #'
 #' library(lattice)
@@ -1091,8 +1092,7 @@ NULL
 #'
 #' }
 #' @keywords ER
-#' @source Pimentel-Gomes, F. (2009). Curso de Estatística Experimental
-#'     (15th ed.). Piracicaba, SP: FEALQ. (Tabela 14.5.1, pág. 278)
+#' @source PIMENTEL-GOMES (2009), Tabela 14.5.1, pág. 278.
 #' @examples
 #'
 #' library(lattice)
@@ -1139,8 +1139,7 @@ NULL
 #'
 #' }
 #' @keywords DBC FAT2
-#' @source Pimentel-Gomes, F. (2009). Curso de Estatística Experimental
-#'     (15th ed.). Piracicaba, SP: FEALQ. (Tabela 14.7.1, pág. 283)
+#' @source PIMENTEL-GOMES (2009), Tabela 14.7.1, pág. 283.
 #'
 #' Pimentel-Gomes, F.; Nunes, S. G.; Gomes, M. de B; Curvo,
 #'     J. B. E. Modificação na análise de variância de ensaions de
@@ -1191,8 +1190,7 @@ NULL
 #'
 #' }
 #' @keywords DBC COV
-#' @source Pimentel-Gomes, F. (2009). Curso de Estatística Experimental
-#'     (15th ed.). Piracicaba, SP: FEALQ. (Tabela 16.2.1, pág. 300)
+#' @source PIMENTEL-GOMES (2009), Tabela 16.2.1, pág. 300.
 #' @examples
 #'
 #' library(lattice)
@@ -1229,7 +1227,8 @@ NULL
 NULL
 
 #' @name PimentelTb16.3.1
-#' @title Suscetibilidade de Variedades de Soja ao Ataque de Nemat\enc{ó}{o}ides
+#' @title Suscetibilidade de Variedades de Soja ao Ataque de
+#'     Nemat\enc{ó}{o}ides
 #' @description Experimento de Arruda (1952), em blocos casualizados, em
 #'     que se compararam 21 variedades de soja para estudar sua
 #'     suscetibilidade ao ataque de nematóides. Em cada parcela foram
@@ -1258,8 +1257,7 @@ NULL
 #'
 #' }
 #' @keywords DBC COV
-#' @source Pimentel-Gomes, F. (2009). Curso de Estatística Experimental
-#'     (15th ed.). Piracicaba, SP: FEALQ. (Tabela 16.3.1, pág. 306)
+#' @source PIMENTEL-GOMES (2009), Tabela 16.3.1, pág. 306.
 #' @examples
 #'
 #' library(lattice)
@@ -1316,9 +1314,8 @@ NULL
 #'     com corte aos 8 anos de idade.}
 #'
 #' }
-#' @keywords DBC GE
-#' @source Pimentel-Gomes, F. (2009). Curso de Estatística Experimental
-#'     (15th ed.). Piracicaba, SP: FEALQ. (Tabela 17.3.1, pág. 317)
+#' @keywords GE
+#' @source PIMENTEL-GOMES (2009), Tabela 17.3.1, pág. 317.
 #' @examples
 #'
 #' library(lattice)
@@ -1358,8 +1355,7 @@ NULL
 #'
 #' }
 #' @keywords GE
-#' @source Pimentel-Gomes, F. (2009). Curso de Estatística Experimental
-#'     (15th ed.). Piracicaba, SP: FEALQ. (Tabela 17.4.1, pág. 322)
+#' @source PIMENTEL-GOMES (2009), Tabela 17.4.1, pág. 322.
 #' @examples
 #'
 #' library(lattice)
@@ -1383,8 +1379,8 @@ NULL
 NULL
 
 #' @name PimentelTb18.2.1
-#' @title Ensaio Fatorial com Tratamentos Adicionais de Aduba\enc{çã}{ca}o de
-#'     Milho
+#' @title Ensaio Fatorial com Tratamentos Adicionais de
+#'     Aduba\enc{çã}{ca}o de Milho
 #' @description Ensaio de adubação NPK de milho, fatorial de
 #'     \eqn{3^{3}}, com confundimento de 2 graus de liberdade da
 #'     interação tripla. A cada três blocos de 9 parcelas juntaram-se
@@ -1423,9 +1419,8 @@ NULL
 #' \item{\code{prod}}{Produção de milho, em kg ha\eqn{^{-1}}.}
 #'
 #' }
-#' @keywords FAT3 FATADI
-#' @source Pimentel-Gomes, F. (2009). Curso de Estatística Experimental
-#'     (15th ed.). Piracicaba, SP: FEALQ. (Tabela 18.2.1, pág. 330)
+#' @keywords FAT3K FATADI confundimento
+#' @source PIMENTEL-GOMES (2009), Tabela 18.2.1, pág. 330.
 #' @examples
 #'
 #' library(lattice)
@@ -1447,7 +1442,8 @@ NULL
 NULL
 
 #' @name PimentelTb20.2.1
-#' @title Ensaio Fatorial de Aduba\enc{çã}{ca}o de Cana-de-a\enc{çú}{cu}car
+#' @title Ensaio Fatorial de Aduba\enc{çã}{ca}o de
+#'     Cana-de-a\enc{çú}{cu}car
 #' @description Ensaio fatorial, de \eqn{3^{2}}, de adubação de
 #'     cana-de-açúcar com P e K, em 6 blocos casualizados.
 #' @format Um \code{data.frame} com 9 observações e 3 variáveis, em que
@@ -1464,9 +1460,8 @@ NULL
 #'     ha\eqn{^{-1}}. Valores individuais não disponíveis.}
 #'
 #' }
-#' @keywords FAT2
-#' @source Pimentel-Gomes, F. (2009). Curso de Estatística Experimental
-#'     (15th ed.). Piracicaba, SP: FEALQ. (Tabela 20.2.1, pág. 369)
+#' @keywords FAT3K
+#' @source PIMENTEL-GOMES (2009), Tabela 20.2.1, pág. 369.
 #' @examples
 #'
 #' library(lattice)
@@ -1488,7 +1483,7 @@ NULL
 #' @description Ensaio inteiramente casualizado para avaliar a
 #'     porcentagem de plantas doentes em um experimento de tomateiros
 #'     onde foi estudado um fator de 3 níveis. Para análise dos
-#'     resultados pode-se considerar o de Kruskal- Wallis.
+#'     resultados pode-se considerar o de Kruskal-Wallis.
 #' @format Um \code{data.frame} com 12 observações e 2 variáveis, em que
 #'
 #' \describe{
@@ -1500,9 +1495,8 @@ NULL
 #'     tomateiros.}
 #'
 #' }
-#' @keywords DIC
-#' @source Pimentel-Gomes, F. (2009). Curso de Estatística Experimental
-#'     (15th ed.). Piracicaba, SP: FEALQ. (Tabela 21.5.1, pág. 384)
+#' @keywords DIC unitário
+#' @source PIMENTEL-GOMES (2009), Tabela 21.5.1, pág. 384.
 #' @examples
 #'
 #' library(lattice)
@@ -1519,7 +1513,7 @@ NULL
 NULL
 
 #' @name PimentelTb5.3.1
-#' @title Teor de colesterol no sangue
+#' @title Teor de Colesterol no Sangue
 #' @description Pesquisa sobre o efeito do óleo de milho no teor de
 #'     colesterol do sangue, realizada em sete pacientes tomados como
 #'     blocos, cujos dados foram obtidos pelo médico Dr. Ben Hur
@@ -1539,9 +1533,8 @@ NULL
 #'     100g.}
 #'
 #' }
-#' @keywords DBC
-#' @source Pimentel-Gomes, F. (2009). Curso de Estatística Experimental
-#'     (15th ed.). Piracicaba, SP: FEALQ.
+#' @keywords AASP
+#' @source PIMENTEL-GOMES (2009).
 #' @examples
 #'
 #' library(lattice)
@@ -1556,7 +1549,8 @@ NULL
 NULL
 
 #' @name PimentelTb6.3.1
-#' @title Experimento de Aduba\enc{çã}{ca}o Mineral e Verde em Cana-de-a\enc{çú}{cu}car
+#' @title Experimento de Aduba\enc{çã}{ca}o Mineral e Verde em
+#'     Cana-de-a\enc{çú}{cu}car
 #' @description Experimento de adubação de cana da Usina Monte Alegre,
 #'     com fertilizantes minerais e adubos verdes. O delineamento
 #'     utilizado foi um quadrado latino de 6 x 6.
@@ -1588,13 +1582,11 @@ NULL
 #'     transformar os digitos nos níveis desses fatores, tem-se na
 #'     realidade um experimento fatorial incompleto no qual não existem
 #'     os níveis de de adução mineral para o nível sem crotalária.
-#' @keywords DQL
-#' @source Pimentel-Gomes, F. (2009). Curso de Estatística Experimental
-#'     (15th ed.). Piracicaba, SP: FEALQ. (Tabela 6.3.1, página 99)
+#' @keywords DQL incompleto
+#' @source PIMENTEL-GOMES (2009), Tabela 6.3.1, página 99.
 #' @examples
 #'
 #' data(PimentelTb6.3.1)
-#'
 #' str(PimentelTb6.3.1)
 #'
 #' aggregate(prod ~ adub, data = PimentelTb6.3.1, FUN = sum)
@@ -1626,7 +1618,8 @@ NULL
 NULL
 
 #' @name PimentelTb7.2.1
-#' @title Experimento Fatorial Sobre Aduba\enc{çã}{ca}o NPK na Produ\enc{çã}{ca}o de Milho
+#' @title Experimento Fatorial Sobre Aduba\enc{çã}{ca}o NPK na
+#'     Produ\enc{çã}{ca}o de Milho
 #' @description Resultados da produção de milho em um experimento
 #'     com fatorial \eqn{2^{3}} dos fatores presentes na adubação
 #'     minenal (NPK) em delineamento de blocos casualizados.
@@ -1649,9 +1642,8 @@ NULL
 #' \item{\code{prod}}{Produção de milho, em ton ha\eqn{^{-1}}.}
 #'
 #' }
-#' @keywords FAT3
-#' @source Pimentel-Gomes, F. (2009). Curso de Estatística Experimental
-#'     (15th ed.). Piracicaba, SP: FEALQ. (Tabela 7.2.1, página 115)
+#' @keywords FAT2K
+#' @source PIMENTEL-GOMES (2009), Tabela 7.2.1, página 115.
 #' @examples
 #'
 #' data(PimentelTb7.2.1)
@@ -1671,8 +1663,8 @@ NULL
 NULL
 
 #' @name PimentelTb7.6.1
-#' @title Experimento Fatorial Com Confunfimento de Aduba\enc{çã}{ca}o em
-#'     Cana-de-a\enc{çú}{cu}car
+#' @title Experimento Fatorial Com Confunfimento de Aduba\enc{çã}{ca}o
+#'     em Cana-de-a\enc{çú}{cu}car
 #' @description Experimento fatorial, de 3\eqn{^{3}}, de adubação de
 #'     cana com NPK, feito por Strauss (1951), com confundimento (grupo
 #'     W) de dois graus de liberdade da interação tripla N \eqn{\times}
@@ -1705,9 +1697,8 @@ NULL
 #'     tabela com os dados pois no bloco W1 existem duas ocorrências do
 #'     tratamento 202 sendo que a última deveria ser 220. Foi feita a
 #'     inclusão desses dados no pacote com essa correção.
-#' @keywords FAT3 confundimento
-#' @source Pimentel-Gomes, F. (2009). Curso de Estatística Experimental
-#'     (15th ed.). Piracicaba, SP: FEALQ. (Tabela 7.6.1, pág. 126)
+#' @keywords FAT3K confundimento
+#' @source PIMENTEL-GOMES (2009), Tabela 7.6.1, pág. 126.
 #'
 #' Straus, F. Esperimentos de adubação na zona canavieira de
 #'     Pernambuco. In: Terceira Reunião Brasileira de Ciência do
@@ -1733,7 +1724,8 @@ NULL
 NULL
 
 #' @name PimentelTb7.8.1
-#' @title Acidez de Variedades de Mangas em Fun\enc{çã}{ca}o da \enc{É}{E}poca
+#' @title Acidez de Variedades de Mangas em Fun\enc{çã}{ca}o da
+#'     \enc{É}{E}poca
 #' @description Experimento fatorial, de 6 \eqn{\times} 3 \eqn{\times}
 #'     3, referente a acidez de 6 variedades de mangas, em 3 meses do
 #'     ano e em 3 anos agrícolas sucessivos reproduzidos de um trabalho
@@ -1756,10 +1748,8 @@ NULL
 #'     informada.}
 #'
 #' }
-#' @keywords FAT3 PS
-#' @source Pimentel-Gomes, F. (2009). Curso de Estatística
-#'     Experimental (15th ed.). Piracicaba, SP: FEALQ. (Tabela 7.8.1,
-#'     pág 132)
+#' @keywords PSS
+#' @source PIMENTEL-GOMES (2009), Tabela 7.8.1, pág. 132.
 #'
 #' Simão, S. Estudo da planta e dos frutos da mangueira (\emph{Magnifera
 #'     indica} L.). Piracicaba, 1960. Tese.
@@ -1811,10 +1801,8 @@ NULL
 #'     de café por parcela.}
 #'
 #' }
-#' @keywords FAT3 contagem
-#' @source Pimentel-Gomes, F. (2009). Curso de Estatística
-#'     Experimental (15th ed.). Piracicaba, SP: FEALQ. (Tabela 7.9.1,
-#'     pág 137)
+#' @keywords FAT2K contagem
+#' @source PIMENTEL-GOMES (2009), Tabela 7.9.1, pág. 137.
 #'
 #' Malavolta, E.; Pimentel-Gomes, F.; Coury, T. Estudos sobre a
 #'     alimentação mineral do cafeeiro (\emph{Coffea arabica} L.,
@@ -1840,7 +1828,8 @@ NULL
 NULL
 
 #' @name PimentelTb8.3.1
-#' @title Grupo de Ensaios de Batatinha na Prov\enc{í}{i}ncia de Buenos Aires
+#' @title Grupo de Ensaios de Batatinha na Prov\enc{í}{i}ncia de Buenos
+#'     Aires
 #' @description Grupo de ensaios de competição de variedades de
 #'     batatinha, realizados pelo engenheiro agrônomo Oscar A. Garay, da
 #'     Estação Experimental de Balcarce, Argentina, instalados em
@@ -1875,8 +1864,7 @@ NULL
 #'     refere-se ao experimento número 3 com todas as observações.
 #' @keywords GE
 #' @seealso \code{\link{PimentelEg5.2}}.
-#' @source Pimentel-Gomes, F. (2009). Curso de Estatística Experimental
-#'     (15th ed.). Piracicaba, SP: FEALQ. (Tabela 8.3.1, pág. 147)
+#' @source PIMENTEL-GOMES (2009), Tabela 8.3.1, pág. 147.
 #' @examples
 #'
 #' library(lattice)
@@ -1921,9 +1909,8 @@ NULL
 #'     matéria verde por parcela.}
 #'
 #' }
-#' @keywords PSS
-#' @source Pimentel-Gomes, F. (2009). Curso de Estatística Experimental
-#'     (15th ed.). Piracicaba, SP: FEALQ. (Tabela 9.2.1, pág. 166)
+#' @keywords GE
+#' @source PIMENTEL-GOMES (2009), Tabela 9.2.1, pág. 166.
 #' @examples
 #'
 #' library(lattice)
@@ -1943,7 +1930,8 @@ NULL
 NULL
 
 #' @name PimentelTb9.3.1
-#' @title Experimento de Aduba\enc{çã}{ca}o de Variedades de Cana-de-a\enc{çú}{cu}car
+#' @title Experimento de Aduba\enc{çã}{ca}o de Variedades de
+#'     Cana-de-a\enc{çú}{cu}car
 #' @description Experimento com 5 variedades de cana-de-açúcar, em
 #'     delineamento quadrado latino de 5 x 5, sendo cada parcela
 #'     dividida em duas subparcelas, uma sem adubo e outra com adubação
@@ -1970,8 +1958,7 @@ NULL
 #'
 #' }
 #' @keywords PS DQL
-#' @source Pimentel-Gomes, F. (2009). Curso de Estatística
-#'     Experimental (15th ed.). Piracicaba, SP: FEALQ. (Tabela 9.3.1)
+#' @source PIMENTEL-GOMES (2009), Tabela 9.3.1.
 #' @examples
 #'
 #' library(lattice)
@@ -2013,8 +2000,7 @@ NULL
 #'
 #' }
 #' @keywords PS
-#' @source Pimentel-Gomes, F. (2009). Curso de Estatística Experimental
-#'     (15th ed.). Piracicaba, SP: FEALQ. (Tabela 9.4.1, pág. 175)
+#' @source PIMENTEL-GOMES (2009), Tabela 9.4.1, pág. 175.
 #' @examples
 #'
 #' library(lattice)
@@ -2031,4 +2017,3 @@ NULL
 #'                        columns = 2))
 #'
 NULL
-

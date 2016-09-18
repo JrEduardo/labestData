@@ -2,8 +2,10 @@
 % Please edit documentation in R/Paula.R
 \name{PaulaEg5.2.8a}
 \alias{PaulaEg5.2.8a}
-\title{N\enc{ú}{u}mero de \enc{Á}{A}caros em Placas de Esterco de Gado}
+\title{N\enc{ú}{u}mero de \enc{Á}{A}caros em Placas de Esterco de
+    Gado}
 \format{Um \code{data.frame} com 102 observações e 8 variáveis.
+
 \describe{
 
 \item{\code{esp2}}{Número de ácaros coletados da espécie 2.}
@@ -14,11 +16,11 @@
 
 \item{\code{esp14}}{Número de ácaros coletados da espécie 14.}
 
-\item{\code{placa}}{Número de partes da placa de esterco onde 
-    foram coletados os ácaros. (1 ou 6)}
+\item{\code{placa}}{Número de partes da placa de esterco onde foram
+    coletados os ácaros. (1 ou 6)}
 
-\item{\code{posic}}{Posição na placa de esterco onde foram coletados 
-os ácaros (central ou lateral).}
+\item{\code{posic}}{Posição na placa de esterco onde foram coletados
+    os ácaros (central ou lateral).}
 
 \item{\code{reg}}{Região onde a placa de esterco foi coletada (São
      Roque, Pindamonhangaba, Nova Odessa ou Ribeirão Preto).}
@@ -28,22 +30,20 @@ os ácaros (central ou lateral).}
 
 }}
 \source{
-Paula, G. A. (2004). Modelos de regressão: com apoio
-    computacional. São Paulo, SP: IME-USP. (Exemplo 5.2.8a, pág. 359)
+PAULA (2004), (Exemplo 5.2.8a, pág. 359)
 }
 \description{
-Dados de um experimento desenvolvido para estudar  
-    a distribuição do número de ácaros em placas de esterco de gado 
-    bovino no estado de São Paulo, obtidos por Paula e Tavares, 1992. 
-    Essas placas são depósitos de ovos da mosca do chifre 
-    (\emph{Haematobia irritans}), uma das pragas mais importantes da 
-    pecuária brasileira. Os ácaros são inimigos naturais da mosca do 
+Dados de um experimento desenvolvido para estudar a
+    distribuição do número de ácaros em placas de esterco de gado
+    bovino no estado de São Paulo, obtidos por Paula e Tavares, 1992.
+    Essas placas são depósitos de ovos da mosca do chifre
+    (\emph{Haematobia irritans}), uma das pragas mais importantes da
+    pecuária brasileira. Os ácaros são inimigos naturais da mosca do
     chifre, uma vez que se alimentam de ovos e larvas dessas moscas.
 }
 \examples{
 
 data(PaulaEg5.2.8a)
-
 str(PaulaEg5.2.8a)
 
 library(lattice)
@@ -53,7 +53,6 @@ splom(PaulaEg5.2.8a[, index],
       type = c("p", "g"),
       lwd = 2, col.line = 1)
 
-
 }
 \references{
 Paula, G. A. e Tavares, H. R. (1992). Relatório de
@@ -61,5 +60,5 @@ Paula, G. A. e Tavares, H. R. (1992). Relatório de
     Bovino. Subsídios para Controle Biológico da Mosca do Chifre.
     RAECEA 9206, IME-USP
 }
-\keyword{quase-verossimilhança}
+\keyword{contagem}
 

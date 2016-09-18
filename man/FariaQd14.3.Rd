@@ -2,8 +2,8 @@
 % Please edit documentation in R/Faria.R
 \name{FariaQd14.3}
 \alias{FariaQd14.3}
-\title{Aduba\enc{çã}{ca}o com F\enc{ó}{o}sforo na Produ\enc{çã}{ca}o de Mat\enc{é}{e}ria Seca de Parte
-    A\enc{é}{e}rea de Milho}
+\title{Aduba\enc{çã}{ca}o com F\enc{ó}{o}sforo na Produ\enc{çã}{ca}o
+    de Mat\enc{é}{e}ria Seca de Parte A\enc{é}{e}rea de Milho}
 \format{Um \code{data.frame} com 25 observações e 3 variáveis, em que
 
 \describe{
@@ -19,8 +19,7 @@
 
 }}
 \source{
-Faria, J. C. (2009). Notas de aulas expandidas (10th ed.)
-    Ilhéus - BA: UESC. (Quadro 14.3 pág. 200)
+FARIA (2009), Quadro 14.3 pág. 200.
 }
 \description{
 Os dados abaixo são provenientes de um ensaio

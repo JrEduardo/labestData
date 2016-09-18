@@ -2,20 +2,20 @@
 % Please edit documentation in R/Demetrio.R
 \name{DemetrioEg7.7}
 \alias{DemetrioEg7.7}
-\title{Produtividade de Cana-de-a\enc{çú}{cu}car sob N\enc{í}{i}veis de Pent\enc{ó}{o}xido de F\enc{ó}{o}sforo}
-\format{Um \code{data.frame} de 5 linhas e 2 colunas.
+\title{Produtividade de Cana-de-a\enc{çú}{cu}car sob N\enc{í}{i}veis
+    de Pent\enc{ó}{o}xido de F\enc{ó}{o}sforo}
+\format{Um \code{data.frame} de 5 linhas e 2 colunas, em que
 
 \describe{
 
-    \item{\code{nivel}}{Nível de \eqn{P_2O_5}, medido em kg/ha.}
-    
-    \item{\code{prod}}{Produtividade de cana-de-açúcar, medida em
+\item{\code{nivel}}{Nível de \eqn{P_2O_5}, medido em kg/ha.}
+
+\item{\code{prod}}{Produtividade de cana-de-açúcar, medida em
     ton/ha.}
-    
+
 }}
 \source{
-Demétrio, C. G. B., Zocchi, S. S. (2011). Modelos de
-    Regressão. Piracicaba: ESALQ. (Exemplo 7.7 pág. 197)
+DEMÉTRIO; ZOCCHI (2011), Exemplo 7.7 pág. 197.
 }
 \description{
 Dados referentes a produtividade de cana-de-açúcar, em
@@ -28,13 +28,16 @@ Dados referentes a produtividade de cana-de-açúcar, em
 \examples{
 
 data(DemetrioEg7.7)
+str(DemetrioEg7.7)
 
 library(lattice)
 
-xyplot(prod ~ nivel, data = DemetrioEg7.7,
-    main = "Produtividade por Nível", xlab = "Nível",
-    ylab = "Produtividade")
-    
+xyplot(prod ~ nivel,
+       data = DemetrioEg7.7,
+       main = "Produtividade por Nível",
+       xlab = "Nível",
+       ylab = "Produtividade")
+
 }
-\keyword{RP}
+\keyword{RS}
 

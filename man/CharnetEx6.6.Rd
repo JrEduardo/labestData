@@ -3,7 +3,7 @@
 \name{CharnetEx6.6}
 \alias{CharnetEx6.6}
 \title{Conjunto de Dados Gen\enc{é}{e}rico}
-\format{Um \code{data.frame} com 2 colunas e 15 linhas.
+\format{Um \code{data.frame} com 2 colunas e 15 linhas, em que
 
 \describe{
 
@@ -13,10 +13,7 @@
 
 }}
 \source{
-Charnet, R., de Luna Freire, C.A., Charnet, E.M.R., Bonvino,
-    H. (2008). Análise de modelos de regressão linear com aplicações
-    (2nd ed.). Campinas, SP: Editora Unicamp (Capítulo 6, exercício
-    6, pág. 144)
+CHARNET et al. (2008), Capítulo 6, exercício 6, pág. 144.
 }
 \description{
 Conjunto de dados qualquer para exercício de ajuste de
@@ -27,6 +24,7 @@ Conjunto de dados qualquer para exercício de ajuste de
 \examples{
 
 data(CharnetEx6.6)
+str(CharnetEx6.6)
 
 plot(CharnetEx6.6)
 

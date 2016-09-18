@@ -4,6 +4,7 @@
 \alias{PaulaTb3.21}
 \title{Distribui\enc{çã}{ca}o de Rotifers das Duas Esp\enc{é}{e}cies}
 \format{Um \code{data.frame} com 40 observações e 4 variáveis.
+
 \describe{
 
 \item{\code{dens}}{Densidade.}
@@ -16,24 +17,22 @@
 
 }}
 \source{
-Paula, G. A. (2004). Modelos de regressão: com apoio
-    computacional. São Paulo, SP: IME-USP. (Tb 3.21, pág. 257)
+PAULA (2004), Tb 3.21, pág. 257.
 }
 \description{
-Experimento com duas espécies de *rotifers*, um tipo  
-    microscópio de invertebrado aquático. São apresentados pra cada 
-    espécie a densidade relativa da substância, o número de *rotifers*
-    expostos e o número de *rotifers* em suspensão.
+Experimento com duas espécies de \emph{rotifers}, um
+    tipo microscópio de invertebrado aquático. São apresentados pra
+    cada espécie a densidade relativa da substância, o número de
+    \emph{rotifers} expostos e o número de *rotifers* em suspensão.
 }
 \examples{
 
 data(PaulaTb3.21)
-
 str(PaulaTb3.21)
 
 library(lattice)
 
-xyplot(PaulaTb3.21$susp/PaulaTb3.21$exp ~ dens,
+xyplot(susp/exp ~ dens,
        groups = esp,
        data = PaulaTb3.21,
        xlab = "Densidade",
@@ -42,5 +41,5 @@ xyplot(PaulaTb3.21$susp/PaulaTb3.21$exp ~ dens,
        auto.key = TRUE)
 
 }
-\keyword{MLG}
+\keyword{binomial}
 

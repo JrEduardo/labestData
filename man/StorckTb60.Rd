@@ -19,9 +19,7 @@
 
 }}
 \source{
-Storck, L., Garcia, B. C., Lopes, S. J., Estefanel,
-    V. (2011). Experimentação Vegetal (3th ed.). Santa Maria, RS:
-    UFSM. (Tabela 60, pág. 138)
+STORCK et al. (2011), Tabela 60, pág. 138.
 }
 \description{
 Resultados fictícios (kg/parcela) de um experimento

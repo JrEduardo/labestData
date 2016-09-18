@@ -2,14 +2,14 @@
 % Please edit documentation in R/Paula.R
 \name{PaulaEx3.7.20}
 \alias{PaulaEx3.7.20}
-\title{Pacientes com leucemia}
-\format{Um \code{data.frame} com 51 pacientes e 
+\title{Pacientes com Leucemia}
+\format{Um \code{data.frame} com 51 pacientes e 9 variáveis.
 
 \describe{
 
 \item{\code{idade}}{Idade do paciente (em anos).}
 
-\item{\code{mdd}}{Mancha diferencial da doença (em porcentagem).} 
+\item{\code{mdd}}{Mancha diferencial da doença (em porcentagem).}
 
 \item{\code{if}}{Infiltração na medula (em porcentagem).}
 
@@ -19,54 +19,49 @@
 
 \item{\code{tmax}}{Temperatura máxima antes do tratamento (*10 F°).}
 
-\item{\code{trat}}{Tratamento (1 = satisfatório, 0 = não satisfatório).}
+\item{\code{trat}}{Tratamento (1 = satisfatório, 0 = não
+    satisfatório).}
 
-\item{\code{tsobre}}{Tempo de sobrevivência  (em meses).} 
+\item{\code{tsobre}}{Tempo de sobrevivência  (em meses).}
 
-\item{\code{sit}}{Situação (1 = sobrevivente, 0 = não sobrevivente).} 
+\item{\code{sit}}{Situação (1 = sobrevivente, 0 = não sobrevivente).}
+
 }}
 \source{
-Paula, G. A. (2004). Modelos de regressão: com apoio
-    computacional. São Paulo, SP: IME-USP. 
-    (Exercício 3.7.19, página 276)
+PAULA (2004), Exercício 3.7.19, página 276.
 }
 \description{
-Estudo com 51 pacientes adultos, 
-previamente diagnosticados com um tipo agudo de leucemia, que 
-receberam um tipo de tratamento sendo verificada, após  certo 
-período, a eficiência ou não do tratamento.
+Estudo com 51 pacientes adultos, previamente
+    diagnosticados com um tipo agudo de leucemia, que receberam um
+    tipo de tratamento sendo verificada, após certo período, a
+    eficiência ou não do tratamento.
 }
 \examples{
 
 data(PaulaEx3.7.20)
-
-# Transformar variáveis
-
 str(PaulaEx3.7.20)
 
-PaulaEx3.7.20 <- transform(
-                 PaulaEx3.7.20,
-                 PaulaEx3.7.20$trat <- as.factor(PaulaEx3.7.20$trat),
-                 PaulaEx3.7.20$sit <- as.factor(PaulaEx3.7.20$sit)
-                 )
+# Transformar variáveis.
+PaulaEx3.7.20 <- transform(PaulaEx3.7.20,
+                           trat = as.factor(PaulaEx3.7.20$trat),
+                           sit = as.factor(PaulaEx3.7.20$sit))
 
+library(car)
 
-require(car)
-
-scatterplotMatrix(~ idade + mdd + im + cl + md + tmax + trat 
-                  + tsobre + sit,
-                  spread = FALSE, 
-                  pch = 20, 
+scatterplotMatrix(~idade + mdd + im + cl + md + tmax + trat +
+                      tsobre + sit,
+                  spread = FALSE,
+                  pch = 20,
                   lwd = 2,
-                 smooth = TRUE, 
-                  data = PaulaEx3.7.20, 
-                  cex = 1.5,
-                  main = "Matriz de gráficos de dispersão - Leucemia")
+                  smooth = TRUE,
+                  data = PaulaEx3.7.20,
+                  cex = 1.5)
+
 }
 \references{
-Everitt, B. S. (1994). 
-A Handbook of Statistical Analysis using S-Plus. 
-Chapman and Hall, London. (Página 253)
+Everitt, B. S. (1994).  A Handbook of Statistical
+    Analysis using S-Plus.  Chapman and Hall, London. (Página 253)
 }
-\keyword{ML}
+\keyword{binário}
+\keyword{sobrevivência}
 

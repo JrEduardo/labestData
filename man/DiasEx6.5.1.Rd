@@ -13,8 +13,7 @@
 
 }}
 \source{
-Dias, L. A. S., Barros, W. S. (2009). Biometria
-    Experimental. Viçosa, MG: UFV. (Exercício 1, Cap. 6, pág. 179)
+BARROS; DIAS (2009), Exercício 1, Cap. 6, pág. 179.
 }
 \description{
 Dados referentes ao peso em função da idade de codornas.
@@ -30,5 +29,5 @@ xyplot(peso ~ idade, data = DiasEx6.5.1, type = c("p", "r"),
        ylab = "Peso (g)", xlab = "Idade (semanas)")
 
 }
-\keyword{RL}
+\keyword{RS}
 

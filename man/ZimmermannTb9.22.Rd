@@ -2,8 +2,8 @@
 % Please edit documentation in R/Zimmermann.R
 \name{ZimmermannTb9.22}
 \alias{ZimmermannTb9.22}
-\title{Fungicidas e Pol\enc{í}{i}mero na Infec\enc{çã}{ca}o de \emph{Fusarium} em
-    Sementes}
+\title{Fungicidas e Pol\enc{í}{i}mero na Infec\enc{çã}{ca}o de
+    \emph{Fusarium} em Sementes}
 \format{Um \code{data.frame} com 55 observações e 4 variáveis, em que
 
 \describe{
@@ -25,9 +25,7 @@
 
 }}
 \source{
-Zimmermann, F. J. (2004). Estatística aplicada à pesquisa
-    agrícola (1st ed.). Santo Antônio de Goiás, GO: Embrapa Arroz e
-    Feijão. (Tabela 9.22, pág. 188)
+ZIMMERMANN (2004), Tabela 9.22, pág. 188.
 }
 \description{
 Resultados de um experimento fatorial com tratamentos
@@ -66,6 +64,6 @@ xyplot(asin(sqrt(nsi/40)) ~ trat, data = ZimmermannTb9.22,
        scales = list(x = list(rot = 90)))
 
 }
-\keyword{DIC}
+\keyword{FATADI}
 \keyword{binomial}
 

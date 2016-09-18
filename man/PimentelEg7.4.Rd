@@ -2,7 +2,8 @@
 % Please edit documentation in R/Pimentel.R
 \name{PimentelEg7.4}
 \alias{PimentelEg7.4}
-\title{Experimento de Aduba\enc{çã}{ca}o com Torta de Filtro e Adubo Mineral}
+\title{Experimento de Aduba\enc{çã}{ca}o com Torta de Filtro e Adubo
+    Mineral}
 \format{Um \code{data.frame} com 16 observações e 4 variáveis, em que
 
 \describe{
@@ -24,8 +25,7 @@
 
 }}
 \source{
-Pimentel-Gomes, F. (2009). Curso de Estatística Experimental
-    (15th ed.). Piracicaba, SP: FEALQ. (Exemplo 7.4, pág. 120)
+PIMENTEL-GOMES (2009), Exemplo 7.4, pág. 120.
 }
 \description{
 Experimento fatorial 2\eqn{^{2}} em que os fatores eram
@@ -48,5 +48,5 @@ xyplot(y ~ mineral, groups = torta, data = PimentelEg7.4,
                        title = "Torta", cex.title = 1.1))
 
 }
-\keyword{FAT2}
+\keyword{FAT2K}
 

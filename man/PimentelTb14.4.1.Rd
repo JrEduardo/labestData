@@ -2,7 +2,8 @@
 % Please edit documentation in R/Pimentel.R
 \name{PimentelTb14.4.1}
 \alias{PimentelTb14.4.1}
-\title{Produ\enc{çã}{ca}o de Leite em um Ensaio de Alimenta\enc{çã}{ca}o de Vacas}
+\title{Produ\enc{çã}{ca}o de Leite em um Ensaio de
+    Alimenta\enc{çã}{ca}o de Vacas}
 \format{Um \code{data.frame} com 36 observações e 5 variáveis, em que
 
 \describe{
@@ -26,8 +27,7 @@ utilizado como linhas do quadrado latino de 3 \eqn{\times} 3. Ao todo
 
 }}
 \source{
-Pimentel-Gomes, F. (2009). Curso de Estatística Experimental
-    (15th ed.). Piracicaba, SP: FEALQ. (Tabela 14.4.1, pág. 272)
+PIMENTEL-GOMES (2009), Tabela 14.4.1, pág. 272.
 }
 \description{
 Experimento de nutrição de vacas, conduzido em períodos
@@ -55,5 +55,5 @@ xyplot(prod ~ trat,
        xlab = "Tratamento de alimentação")
 
 }
-\keyword{SQL}
+\keyword{DQL}
 

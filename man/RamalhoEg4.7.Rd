@@ -16,9 +16,7 @@
 
 }}
 \source{
-Ramalho, M. A. P., Ferreira, D. F., Oliveira, A. C. (2005).
-    Experimentação em Genética e Melhoramento de Plantas (2th ed.).
-    Lavras: UFLA. (pg 62)
+RAMALHO et al. (2005), pág. 62.
 }
 \description{
 Experimento da produção de grãos na avaliação de

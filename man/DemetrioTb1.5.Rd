@@ -3,34 +3,33 @@
 \name{DemetrioTb1.5}
 \alias{DemetrioTb1.5}
 \title{Valores de CTC Direta e Indireta}
-\format{Um \code{data.frame} de 32 linhas e 4 colunas.
+\format{Um \code{data.frame} de 32 linhas e 4 colunas, em que
 
 \describe{
 
-    \item{\code{bloco}}{Fator que indica a qual bloco a amostra
-    pertence, usado para controle de variação.}
-    
-    \item{\code{dose}}{Indica a dose de calcário usada na referida
+\item{\code{bloco}}{Fator que indica a qual bloco a amostra pertence,
+    usado para controle de variação.}
+
+\item{\code{dose}}{Indica a dose de calcário usada na referida
     observação, medida em toneladas por hectare (t/ha).}
-    
-    \item{\code{metodo}}{Fator que indica o método para determinação
-    da CTC, direto (1) ou indireto (0).}
-    
-    \item{\code{ctc}}{É o valor observado de CTC, medido em 
+
+\item{\code{metodo}}{Fator que indica o método para determinação da
+    CTC, direto (1) ou indireto (0).}
+
+\item{\code{ctc}}{É o valor observado de CTC, medido em
     \eqn{mmol_{c}/kg}.}
 
 }}
 \source{
-Demétrio, C. G. B., Zocchi, S. S. (2011). Modelos de
-    Regressão. Piracicaba: ESALQ. (Tabela 1.5 pág. 12)
+DEMÉTRIO; ZOCCHI (2011), Tabela 1.5 pág. 12.
 }
 \description{
 O experimento foi realizado em quatro blocos, sendo
     planejado para estudar o efeito da calagem sobre a CTC
     (Capacidade de Troca Catiônica) do solo medida por dois métodos
     diferentes. Os valores de CTC foram medidos 18 meses após a
-    calagem incorporada ao solo, na profundidade de 5 a 10 cm, segundo
-    a dose de calcário.
+    calagem incorporada ao solo, na profundidade de 5 a 10 cm,
+    segundo a dose de calcário.
 }
 \details{
 Na análise inicial do estudo do estudo foi detectada a
@@ -44,26 +43,25 @@ Na análise inicial do estudo do estudo foi detectada a
 \examples{
 
 data(DemetrioTb1.5)
+str(DemetrioTb1.5)
 
 library(lattice)
 
 xyplot(ctc ~ dose | bloco, groups = metodo,
        data = DemetrioTb1.5,
-       main = "Dose VS CTC",
        xlab = "Dose", ylab = "CTC",
        type = c("p", "r"),
-       auto.key = list(space = "right", title = "Método"))
+       auto.key = list(space = "top", title = "Método"))
 
 # Corrigindo dado, conforme erro verificado pelo pesquisador
 select <- with(DemetrioTb1.5, bloco == 1 & dose == 7.8 & metodo == 0)
 DemetrioTb1.5$ctc[select] <- 124
 
-xyplot(ctc ~ dose | bloco, groups  = metodo,
+xyplot(ctc ~ dose | bloco, groups = metodo,
        data = DemetrioTb1.5,
-       main = "Dose VS CTC",
        xlab = "Dose", ylab = "CTC",
-       type = c("p","r"),
-       auto.key = list(space = "right", title = "Método"))
+       type = c("p", "r"),
+       auto.key = list(space = "top", title = "Método"))
 
 }
 \keyword{RM}

@@ -5,10 +5,7 @@
 \title{Press\enc{ã}{a}o Sangu\enc{í}{i}nea Sist\enc{ó}{o}lica}
 \format{Um \code{vetor} numérico com 16 observações.}
 \source{
-Charnet, R., de Luna Freire, C.A., Charnet, E.M.R., Bonvino,
-    H. (2008). Análise de modelos de regressão linear com aplicações
-    (2nd ed.). Campinas, SP: Editora Unicamp (Capítulo 1, exercício
-    6, pág. 23)
+CHARNET et al. (2008), Capítulo 1, exercício 6, pág. 23.
 }
 \description{
 Pressão sanguínea sistólica de um grupo de 16 pacientes
@@ -17,6 +14,7 @@ Pressão sanguínea sistólica de um grupo de 16 pacientes
 \examples{
 
 data(CharnetEx1.6)
+str(CharnetEx1.6)
 
 (m <- mean(CharnetEx1.6))
 (s <- sd(CharnetEx1.6))
@@ -29,5 +27,5 @@ hist(CharnetEx1.6, prob = TRUE, add = TRUE)
 rug(CharnetEx1.6)
 
 }
-\keyword{amostra}
+\keyword{AAS}
 

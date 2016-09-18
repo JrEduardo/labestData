@@ -2,8 +2,9 @@
 % Please edit documentation in R/Charnet.R
 \name{CharnetEx4.2}
 \alias{CharnetEx4.2}
-\title{Sal\enc{á}{a}rio M\enc{é}{e}dio Mensal de Ex-Alunos de Economia}
-\format{Um \code{data.frame} com 2 colunas e 7 linhas.
+\title{Sal\enc{á}{a}rio M\enc{é}{e}dio Mensal de Ex-Alunos de
+    Economia}
+\format{Um \code{data.frame} com 2 colunas e 7 linhas, em que
 
 \describe{
 
@@ -13,10 +14,7 @@
 
 }}
 \source{
-Charnet, R., de Luna Freire, C.A., Charnet, E.M.R., Bonvino,
-    H. (2008). Análise de modelos de regressão linear com aplicações
-    (2nd ed.). Campinas, SP: Editora Unicamp (Capítulo 4, exercício
-    2, pág. 82)
+CHARNET et al. (2008), Capítulo 4, exercício 2, pág. 82.
 }
 \description{
 Pesquisa de uma faculdade de economia sobre a evolução
@@ -26,6 +24,7 @@ Pesquisa de uma faculdade de economia sobre a evolução
 \examples{
 
 data(CharnetEx4.2)
+str(CharnetEx4.2)
 
 plot(CharnetEx4.2)
 

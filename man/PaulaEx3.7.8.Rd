@@ -2,8 +2,9 @@
 % Please edit documentation in R/Paula.R
 \name{PaulaEx3.7.8}
 \alias{PaulaEx3.7.8}
-\title{Sal\enc{á}{a}rio de Executivos}
+\title{Germina\enc{çã}{ca}o de Sementes}
 \format{Um \code{data.frame} com 18 observações e 4 variáveis.
+
 \describe{
 
 \item{\code{temp}}{Temperatura da germinação.}
@@ -14,34 +15,32 @@
 
 \item{\code{sgerm}}{Número de sementes que germinaram.}
 
-
 }}
 \source{
-Paula, G. A. (2004). Modelos de regressão: com apoio
-    computacional. São Paulo, SP: IME-USP. (Ex 3.7.8, pág. 270)
+PAULA (2004), Ex 3.7.8, pág. 270.
 }
 \description{
-Dados referentes a um experimento desenvolvido para avaliar
-     a germinação de um determinado tipo de semente. A tabela abaixo 
-     apresenta o número de sementes que germinaram após cinco dias para 
-     cada 100 sementes submetidas a cada condição experimental.
+Dados referentes a um experimento desenvolvido para
+    avaliar a germinação de um determinado tipo de semente. A tabela
+    abaixo apresenta o número de sementes que germinaram após cinco
+    dias para cada 100 sementes submetidas a cada condição
+    experimental.
 }
 \examples{
 
 data(PaulaEx3.7.8)
-
 str(PaulaEx3.7.8)
 
 library(lattice)
 
 PaulaEx3.7.8$ntemp <- as.factor(PaulaEx3.7.8$ntemp)
-
 PaulaEx3.7.8$numid <- as.factor(PaulaEx3.7.8$numid)
+
 xyplot(sgerm ~ numid | ntemp,
        data = PaulaEx3.7.8,
        xlab = "Nível de temperatura",
        ylab = "Número de sementes germinadas")
 
 }
-\keyword{MLG}
+\keyword{binomial}
 

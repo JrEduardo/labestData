@@ -2,7 +2,8 @@
 % Please edit documentation in R/Ramalho.R
 \name{RamalhoEg12.10}
 \alias{RamalhoEg12.10}
-\title{Ensaio Dialelo para o Tempo At\enc{é}{e} o Florescimento do Feijoeiro}
+\title{Ensaio Dialelo para o Tempo At\enc{é}{e} o Florescimento do
+    Feijoeiro}
 \format{Um \code{data.frame} com 9 observações e 3 variáveis, em que
 
 \describe{
@@ -16,9 +17,7 @@
 
 }}
 \source{
-Ramalho, M. A. P., Ferreira, D. F., Oliveira, A. C. (2005).
-    Experimentação em Genética e Melhoramento de Plantas (2th ed.).
-    Lavras: UFLA. (Exemplo 12.10, pág. 227)
+RAMALHO et al. (2005), Exemplo 12.10, pág. 227.
 
     Arriel, E., Ramalho, M. A. P., Pacheco, C. A. P. Expected and
     Realized Gains in the CMS-39 Maize Population after three Cycles
@@ -48,5 +47,5 @@ X2 <- model.matrix(~0 + prog2, data = RamalhoEg12.10)
 X <- 0.5 * (X1 + X2)
 
 }
-\keyword{Dialelo}
+\keyword{dialelo}
 

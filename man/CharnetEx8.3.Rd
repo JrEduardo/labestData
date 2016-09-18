@@ -3,7 +3,7 @@
 \name{CharnetEx8.3}
 \alias{CharnetEx8.3}
 \title{Tempo de Corros\enc{ã}{a}o do Metal}
-\format{Um \code{data.frame} com 2 colunas e 10 linhas.
+\format{Um \code{data.frame} com 2 colunas e 10 linhas, em que
 
 \describe{
 
@@ -13,10 +13,8 @@
 
 }}
 \source{
-Charnet, R., de Luna Freire, C.A., Charnet, E.M.R., Bonvino,
-    H. (2008). Análise de modelos de regressão linear com aplicações
-    (2nd ed.). Campinas, SP: Editora Unicamp (Capítulo 8, exercício
-    3, pág. 196, Capítulo 9, exercício 9, pág. 232)
+CHARNET et al. (2008), Capítulo 8, exercício
+    3, pág. 196, Capítulo 9, exercício 9, pág. 232.
 }
 \description{
 Estudo da relação entre o grau de corrosão de um certo
@@ -25,9 +23,10 @@ Estudo da relação entre o grau de corrosão de um certo
 \examples{
 
 data(CharnetEx8.3)
+str(CharnetEx8.3)
 
 plot(CharnetEx8.3)
 
 }
-\keyword{RP}
+\keyword{RS}
 

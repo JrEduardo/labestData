@@ -1,7 +1,7 @@
 #' @name RamalhoEg11.10
 #' @title Produ\enc{çã}{ca}o de Gr\enc{ã}{a}os de Sorgo
-#' @description Experimento da avaliação da produção de 40 cultivares de sorgo
-#'     conduzido no delineamento alfa-látice.
+#' @description Experimento da avaliação da produção de 40 cultivares de
+#'     sorgo conduzido no delineamento alfa-látice.
 #' @format Um \code{data.frame} com 120 observações e 3 variáveis, em
 #'     que
 #'
@@ -19,9 +19,7 @@
 #'
 #' }
 #' @keywords DBI
-#' @source Ramalho, M. A. P., Ferreira, D. F., Oliveira, A. C. (2005).
-#'     Experimentação em Genética e Melhoramento de Plantas (2th ed.).
-#'     Lavras: UFLA. (pág. 181)
+#' @source RAMALHO et al. (2005), pág. 181.
 #' @examples
 #'
 #' library(lattice)
@@ -59,7 +57,8 @@
 NULL
 
 #' @name RamalhoEg11.13
-#' @title Produ\enc{çã}{ca}o de Gr\enc{ã}{a}os de Milho em Diferentes Popula\enc{çõ}{co}es
+#' @title Produ\enc{çã}{ca}o de Gr\enc{ã}{a}os de Milho em Diferentes
+#'     Popula\enc{çõ}{co}es
 #' @description Experimento envolvendo populações de milho no
 #'     delinemanto em blocos aumentados com 4 populações comuns e 25
 #'     populações regulares.
@@ -80,9 +79,7 @@ NULL
 #'
 #' }
 #' @keywords DBI
-#' @source Ramalho, M. A. P., Ferreira, D. F., Oliveira, A. C. (2005).
-#'     Experimentação em Genética e Melhoramento de Plantas (2th ed.).
-#'     Lavras: UFLA. (Exemplo 11.13, pág. 188)
+#' @source RAMALHO et al. (2005), Exemplo 11.13, pág. 188.
 #' @examples
 #'
 #' library(lattice)
@@ -117,9 +114,7 @@ NULL
 #'
 #' }
 #' @keywords DBI
-#' @source Ramalho, M. A. P., Ferreira, D. F., Oliveira, A. C. (2005).
-#'     Experimentação em Genética e Melhoramento de Plantas (2th ed.).
-#'     Lavras: UFLA. (pág. 171)
+#' @source RAMALHO et al. (2005), pág. 171.
 #' @examples
 #'
 #' library(lattice)
@@ -157,7 +152,8 @@ NULL
 NULL
 
 #' @name RamalhoEg12.10
-#' @title Ensaio Dialelo para o Tempo At\enc{é}{e} o Florescimento do Feijoeiro
+#' @title Ensaio Dialelo para o Tempo At\enc{é}{e} o Florescimento do
+#'     Feijoeiro
 #' @description Dados referentes ao cruzamento dialelo realizado por
 #'     Arriel et al. (1993), em que foi avaliado o número de dias para o
 #'     florescimento do feijoeiro para cada progenie.
@@ -173,10 +169,8 @@ NULL
 #'     feijoeiro.}
 #'
 #' }
-#' @keywords Dialelo
-#' @source Ramalho, M. A. P., Ferreira, D. F., Oliveira, A. C. (2005).
-#'     Experimentação em Genética e Melhoramento de Plantas (2th ed.).
-#'     Lavras: UFLA. (Exemplo 12.10, pág. 227)
+#' @keywords dialelo
+#' @source RAMALHO et al. (2005), Exemplo 12.10, pág. 227.
 #'
 #'     Arriel, E., Ramalho, M. A. P., Pacheco, C. A. P. Expected and
 #'     Realized Gains in the CMS-39 Maize Population after three Cycles
@@ -202,7 +196,8 @@ NULL
 NULL
 
 #' @name RamalhoEg13.2
-#' @title Produ\enc{çã}{ca}o de Gr\enc{ã}{a}os de Milho em Cons\enc{ó}{o}rcio com Feij\enc{ã}{a}o.
+#' @title Produ\enc{çã}{ca}o de Gr\enc{ã}{a}os de Milho em
+#'     Cons\enc{ó}{o}rcio com Feij\enc{ã}{a}o.
 #' @description Dados referente ao experimento conduzido por Rezende et
 #'     al. (1994), envolvendo 4 cultivares de milho consorciadas com 3
 #'     de feijão.
@@ -225,9 +220,7 @@ NULL
 #'
 #' }
 #' @keywords COV FAT2 DBC
-#' @source Ramalho, M. A. P., Ferreira, D. F., Oliveira, A. C. (2005).
-#'     Experimentação em Genética e Melhoramento de Plantas (2th ed.).
-#'     Lavras: UFLA. (Exemplo 13.2, pág. 237)
+#' @source RAMALHO et al. (2005), Exemplo 13.2, pág. 237.
 #'
 #'     Rezende, G. D. S. P.; Ramalho, M. A. P. Competitive Ability of
 #'     Maize and Commom Bean (Phaseolus Vulgaris L.) Cultivars
@@ -256,7 +249,8 @@ NULL
 NULL
 
 #' @name RamalhoEg4.3
-#' @title Porcentagem de absor\enc{çã}{ca}o de \enc{á}{a}gua de feij\enc{ã}{a}o
+#' @title Porcentagem de absor\enc{çã}{ca}o de \enc{á}{a}gua de
+#'     feij\enc{ã}{a}o
 #' @description Experimento conduzido na Universidade Federal de Lavras,
 #'     avaliando a porcentagem de absorção de água de 10 linhares de
 #'     feijão. O delineamento é inteiramente ao acaso com 3 repetições.
@@ -275,9 +269,7 @@ NULL
 #'
 #' }
 #' @keywords DIC
-#' @source Ramalho, M. A. P., Ferreira, D. F., Oliveira, A. C. (2005).
-#'     Experimentação em Genética e Melhoramento de Plantas (2th ed.).
-#'     Lavras, MG: UFLA. (Exemplo 4.3, pág 56)
+#' @source RAMALHO et al. (2005), Exemplo 4.3, pág 56.
 #' @examples
 #'
 #' library(lattice)
@@ -307,9 +299,7 @@ NULL
 #'
 #' }
 #' @keywords DBC
-#' @source Ramalho, M. A. P., Ferreira, D. F., Oliveira, A. C. (2005).
-#'     Experimentação em Genética e Melhoramento de Plantas (2th ed.).
-#'     Lavras: UFLA. (pg 62)
+#' @source RAMALHO et al. (2005), pág. 62.
 #' @examples
 #'
 #' library(lattice)
@@ -323,7 +313,8 @@ NULL
 NULL
 
 #' @name RamalhoEg7.8
-#' @title Produ\enc{çã}{ca}o de Gr\enc{ã}{a}os de Cruzamentos Feij\enc{ã}{a}o
+#' @title Produ\enc{çã}{ca}o de Gr\enc{ã}{a}os de Cruzamentos
+#'     Feij\enc{ã}{a}o
 #' @description Experimento referente à produção de grãos de feijão
 #'     obtida na avaliação de 24 famílias \eqn{F_{5}} do cruzamento
 #'     Jalo x Small White, cujos dados foram obtidos por Souza (1991).
@@ -346,9 +337,7 @@ NULL
 #'
 #' }
 #' @keywords DBC
-#' @source Ramalho, M. A. P., Ferreira, D. F., Oliveira, A. C. (2005).
-#'     Experimentação em Genética e Melhoramento de Plantas (2th ed.).
-#'     Lavras, MG: UFLA. (Exemplo 7.8, pág 110).
+#' @source RAMALHO et al. (2005), Exemplo 7.8, pág. 110.
 #' @examples
 #'
 #' library(lattice)
@@ -372,7 +361,8 @@ NULL
 NULL
 
 #' @name RamalhoEg8.1
-#' @title Produ\enc{çã}{ca}o de Gr\enc{ã}{a}os em Cultivares de Feij\enc{ã}{a}o
+#' @title Produ\enc{çã}{ca}o de Gr\enc{ã}{a}os em Cultivares de
+#'     Feij\enc{ã}{a}o
 #' @description Experimentos para medir a produção de grãos de
 #'     cultivares de feijão, conduzidos em Lavras e Patos de Minas/MG
 #'     durante o ano de 1990 em delineamento em blocos casualizados.
@@ -393,10 +383,8 @@ NULL
 #'     nas unidades experimentais.}
 #'
 #' }
-#' @keywords DBC GE
-#' @source Ramalho, M. A. P., Ferreira, D. F., Oliveira, A. C. (2005).
-#'     Experimentação em Genética e Melhoramento de Plantas (2th ed.).
-#'     Lavras: UFLA. (Exemplo 8.1, pág. 115)
+#' @keywords GE
+#' @source RAMALHO et al. (2005), Exemplo 8.1, pág. 115.
 #' @examples
 #'
 #' library(lattice)
@@ -423,7 +411,8 @@ NULL
 NULL
 
 #' @name RamalhoEg8.8
-#' @title Produ\enc{çã}{ca}o de Gr\enc{ã}{a}os de Feij\enc{ã}{a}o de Popula\enc{çõ}{co}es Segregantes
+#' @title Produ\enc{çã}{ca}o de Gr\enc{ã}{a}os de Feij\enc{ã}{a}o de
+#'     Popula\enc{çõ}{co}es Segregantes
 #' @description Dados da produção de grãos de feijão obtidos por Corte
 #'     et al. (2002) relativos à avaliação de 6 populações segregantes
 #'     avaliadas nas gerações F\eqn{_{2}}, F\eqn{_{3}} e F\eqn{_{4}} com
@@ -447,10 +436,8 @@ NULL
 #' \item{\code{prod}}{Produção de grãos de feijão, em kg ha\eqn{^{-1}}.}
 #'
 #' }
-#' @keywords DBC GE
-#' @source Ramalho, M. A. P., Ferreira, D. F., Oliveira, A. C. (2005).
-#'     Experimentação em Genética e Melhoramento de Plantas (2th ed.).
-#'     Lavras: UFLA. (Tabela 8.8, pág. 123)
+#' @keywords GE
+#' @source RAMALHO et al. (2005), Tabela 8.8, pág. 123.
 #'
 #'     Corte, H. R., Ramalho, M. A. P., Gonçalves, F. M. A., Abreu. A de
 #'     F. B. Natural Selection for Grain Yield in Dry Bean Population
@@ -486,9 +473,7 @@ NULL
 #'     Gerais.
 #' @format Vetor com 100 observações altura das plantas em metros.
 #' @keywords AAS
-#' @source Ramalho, M. A. P., Ferreira, D. F., Oliveira, A. C. (2005).
-#'     Experimentação em Genética e Melhoramento de Plantas (2th ed.).
-#'     Lavras, MG: UFLA. (pg 26)
+#' @source RAMALHO et al. (2005), pág. 26.
 #'
 #'     Castro, N. H. A., Andrade, H. B., Ramalho, m A. P. (1993).
 #'     Revista Árvore. Viçosa, v. 17, n.2.
@@ -507,7 +492,8 @@ NULL
 NULL
 
 #' @name RamalhoEx12.2
-#' @title Dados Gen\enc{é}{e}ricos para Regress\enc{ã}{a}o M\enc{ú}{u}ltipla
+#' @title Dados Gen\enc{é}{e}ricos para Regress\enc{ã}{a}o
+#'     M\enc{ú}{u}ltipla
 #' @description Conjunto de dados apresentados para exercício. Objetivo
 #'     do exercício é estimar a equação de regressão múltipla.
 #' @format Um \code{data.frame} com 8 observações e 4 variáveis, em que
@@ -524,9 +510,7 @@ NULL
 #'
 #' }
 #' @keywords RM
-#' @source Ramalho, M. A. P., Ferreira, D. F., Oliveira, A. C. (2005).
-#'     Experimentação em Genética e Melhoramento de Plantas (2th ed.).
-#'     Lavras: UFLA. (Exercício 12.2, pág. 231)
+#' @source RAMALHO et al. (2005), Exercício 12.2, pág. 231.
 #' @examples
 #'
 #' data(RamalhoEx12.2)
@@ -562,9 +546,7 @@ NULL
 #'
 #' }
 #' @keywords COV
-#' @source Ramalho, M. A. P., Ferreira, D. F., Oliveira, A. C. (2005).
-#'     Experimentação em Genética e Melhoramento de Plantas (2th ed.).
-#'     Lavras: UFLA. (Exercício 13.1, pág. 255)
+#' @source RAMALHO et al. (2005), Exercício 13.1, pág. 255.
 #' @examples
 #'
 #' data(RamalhoEx13.1)
@@ -599,9 +581,7 @@ NULL
 #'
 #' }
 #' @keywords COV DBC
-#' @source Ramalho, M. A. P., Ferreira, D. F., Oliveira, A. C. (2005).
-#'     Experimentação em Genética e Melhoramento de Plantas (2th ed.).
-#'     Lavras: UFLA. (Exercício 13.2, pág. 256)
+#' @source RAMALHO et al. (2005), Exercício 13.2, pág. 256.
 #' @examples
 #'
 #' data(RamalhoEx13.2)
@@ -630,7 +610,8 @@ NULL
 NULL
 
 #' @name RamalhoEx13.3
-#' @title Avalia\enc{çã}{ca}o do Stay Green em Fam\enc{í}{i}lias de Feijoeiro
+#' @title Avalia\enc{çã}{ca}o do Stay Green em Fam\enc{í}{i}lias de
+#'     Feijoeiro
 #' @description Notas da avaliação do "stay green" obtidos de famílias
 #'     de feijoeiro, avaliados nas gerações \eqn{F_{2:3}}, \eqn{F_{2:4}}
 #'     e \eqn{F_{2:5}}.
@@ -648,9 +629,7 @@ NULL
 #'
 #' }
 #' @keywords COV DBC
-#' @source Ramalho, M. A. P., Ferreira, D. F., Oliveira, A. C. (2005).
-#'     Experimentação em Genética e Melhoramento de Plantas (2th ed.).
-#'     Lavras: UFLA. (Exercício 13.3, pág. 257)
+#' @source RAMALHO et al. (2005), Exercício 13.3, pág. 257.
 #' @examples
 #'
 #' data(RamalhoEx13.3)
@@ -675,7 +654,8 @@ NULL
 NULL
 
 #' @name RamalhoEx3.1
-#' @title N\enc{ú}{u}mero de plantas de milho ap\enc{ó}{o}s inocula\enc{çã}{ca}o
+#' @title N\enc{ú}{u}mero de plantas de milho ap\enc{ó}{o}s
+#'     inocula\enc{çã}{ca}o
 #' @description Experimento referente ao número de plantas de milho,
 #'     por parcela, após a inoculação com Diploidia. Experimento para
 #'     avaliação de fungicidas para tratamento de sementes.
@@ -692,9 +672,7 @@ NULL
 #'
 #' }
 #' @keywords contagem
-#' @source Ramalho, M. A. P., Ferreira, D. F., Oliveira, A. C. (2005).
-#'     Experimentação em Genética e Melhoramento de Plantas (2th ed.).
-#'     Lavras, MG: UFLA. (pg 50)
+#' @source RAMALHO et al. (2005), pág. 50.
 #'
 #' @examples
 #'
@@ -729,9 +707,7 @@ NULL
 #'
 #' }
 #' @keywords DIC desbalanceado
-#' @source Ramalho, M. A. P., Ferreira, D. F., Oliveira, A. C. (2005).
-#'     Experimentação em Genética e Melhoramento de Plantas (2th ed.).
-#'     Lavras, MG: UFLA. (Exercício 4.1, pág 66)
+#' @source RAMALHO et al. (2005), Exercício 4.1, pág. 66.
 #' @examples
 #'
 #' library(lattice)
@@ -762,9 +738,7 @@ NULL
 #'
 #' }
 #' @keywords DBC contagem
-#' @source Ramalho, M. A. P., Ferreira, D. F., Oliveira, A. C. (2005).
-#'     Experimentação em Genética e Melhoramento de Plantas (2th ed.).
-#'     Lavras, MG: UFLA. (Execício 4.2, pág 66)
+#' @source RAMALHO et al. (2005), Execício 4.2, pág. 66.
 #' @examples
 #'
 #' library(lattice)
@@ -806,9 +780,7 @@ NULL
 #'
 #' }
 #' @keywords DBC
-#' @source Ramalho, M. A. P., Ferreira, D. F., Oliveira, A. C. (2005).
-#'     Experimentação em Genética e Melhoramento de Plantas (2th ed.).
-#'     Lavras, MG: UFLA. (pg 112).
+#' @source RAMALHO et al. (2005), pág. 112.
 #' @examples
 #'
 #' library(lattice)
@@ -832,7 +804,8 @@ NULL
 NULL
 
 #' @name RamalhoEx8.1
-#' @title Produ\enc{çã}{ca}o de Gr\enc{ã}{a}os de Arroz em Munic\enc{í}{i}pios de Minas Gerais
+#' @title Produ\enc{çã}{ca}o de Gr\enc{ã}{a}os de Arroz em
+#'     Munic\enc{í}{i}pios de Minas Gerais
 #' @description Experimentos para avaliar a produção de grãos de
 #'     cultivares de arroz, conduzidos em três locais do Estado de Minas
 #'     Gerais (Lambari, Lavras e Felixlândia) em delineamento
@@ -853,10 +826,8 @@ NULL
 #' \item{\code{prod}}{Produção de grãos de arroz, em kg ha\eqn{^{-1}}.}
 #'
 #' }
-#' @keywords DIC GE
-#' @source Ramalho, M. A. P., Ferreira, D. F., Oliveira, A. C. (2005).
-#'     Experimentação em Genética e Melhoramento de Plantas (2th ed.).
-#'     Lavras: UFLA. (Exercício 8.1, pág. 132)
+#' @keywords GE
+#' @source RAMALHO et al. (2005), Exercício 8.1, pág. 132.
 #' @examples
 #'
 #' data(RamalhoEx8.1)
@@ -927,10 +898,8 @@ NULL
 #' \item{\code{prod}}{Produção de clones de caju, medido em g/planta.}
 #'
 #' }
-#' @keywords DBC GE
-#' @source Ramalho, M. A. P., Ferreira, D. F., Oliveira, A. C. (2005).
-#'     Experimentação em Genética e Melhoramento de Plantas (2th ed.).
-#'     Lavras: UFLA. (Exercício 8.2, pág. 133)
+#' @keywords GE
+#' @source RAMALHO et al. (2005), Exercício 8.2, pág. 133.
 #' @examples
 #'
 #' library(latticeExtra)
@@ -970,10 +939,8 @@ NULL
 #'     ha\eqn{^{-1}}).}
 #'
 #' }
-#' @keywords ASS
-#' @source Ramalho, M. A. P., Ferreira, D. F., Oliveira, A. C. (2005).
-#'     Experimentação em Genética e Melhoramento de Plantas (2th ed.).
-#'     Lavras, MG: UFLA. (pg 15)
+#' @keywords AAS
+#' @source RAMALHO et al. (2005), pág 15.
 #'
 #' @examples
 #'
@@ -1015,9 +982,7 @@ NULL
 #'
 #' }
 #' @keywords DBI
-#' @source Ramalho, M. A. P., Ferreira, D. F., Oliveira, A. C. (2005).
-#'     Experimentação em Genética e Melhoramento de Plantas (2th ed.).
-#'     Lavras: UFLA. (pág. 165)
+#' @source RAMALHO et al. (2005), pág. 165.
 #' @examples
 #'
 #' library(lattice)
@@ -1079,9 +1044,7 @@ NULL
 #'
 #' }
 #' @keywords DBI
-#' @source Ramalho, M. A. P., Ferreira, D. F., Oliveira, A. C. (2005).
-#'     Experimentação em Genética e Melhoramento de Plantas (2th ed.).
-#'     Lavras: UFLA. (Tabela 11.17, pág. 193)
+#' @source RAMALHO et al. (2005), Tabela 11.17, pág. 193.
 #' @examples
 #'
 #' library(lattice)
@@ -1100,7 +1063,8 @@ NULL
 NULL
 
 #' @name RamalhoTb12.8
-#' @title Componentes da Produ\enc{çã}{ca}o de Linhagens de Feij\enc{ã}{a}o
+#' @title Componentes da Produ\enc{çã}{ca}o de Linhagens de
+#'     Feij\enc{ã}{a}o
 #' @description Dados obtidos por Perreira Filho et al. (1987),
 #'     referentes ao número médio de vagens por planta, número de
 #'     sementes por vagem, peso de 100 sementes e produção de grãos,
@@ -1125,9 +1089,7 @@ NULL
 #'
 #' }
 #' @keywords RM
-#' @source Ramalho, M. A. P., Ferreira, D. F., Oliveira, A. C. (2005).
-#'     Experimentação em Genética e Melhoramento de Plantas (2th ed.).
-#'     Lavras: UFLA. (Tabela 12.8, pág. 225)
+#' @source RAMALHO et al. (2005), Tabela 12.8, pág. 225.
 #'
 #'     Pereira Filho, I. A., Ramalho, M. A. P., Ferreira, S. Avaliação
 #'     de Progênies de Feijão e Estimativas de Parâmetros Genéticos na
@@ -1164,9 +1126,7 @@ NULL
 #'
 #' }
 #' @keywords COV
-#' @source Ramalho, M. A. P., Ferreira, D. F., Oliveira, A. C. (2005).
-#'     Experimentação em Genética e Melhoramento de Plantas (2th ed.).
-#'     Lavras: UFLA. (Tabela 13.1, pág. 233)
+#' @source RAMALHO et al. (2005), Tabela 13.1, pág. 233.
 #' @examples
 #'
 #' data(RamalhoTb13.1)
@@ -1200,9 +1160,7 @@ NULL
 #'
 #' }
 #' @keywords COV RS
-#' @source Ramalho, M. A. P., Ferreira, D. F., Oliveira, A. C. (2005).
-#'     Experimentação em Genética e Melhoramento de Plantas (2th ed.).
-#'     Lavras: UFLA. (Tabela 13.11, pág. 248)
+#' @source RAMALHO et al. (2005), Tabela 13.11, pág. 248.
 #' @examples
 #'
 #' data(RamalhoTb13.11)
@@ -1219,7 +1177,8 @@ NULL
 NULL
 
 #' @name RamalhoTb13.13
-#' @title Produ\enc{çã}{ca}o de Gr\enc{ã}{a}os de Prog\enc{ê}{e}nies de Feij\enc{ã}{a}o
+#' @title Produ\enc{çã}{ca}o de Gr\enc{ã}{a}os de Prog\enc{ê}{e}nies de
+#'     Feij\enc{ã}{a}o
 #' @description Experimento referente a avaliação de progênies
 #'     provenientes do cruzamento (ESAL 501 x Rio Tibagi), obtidos em 3
 #'     gerações (F3, F4 e F5). Foi utilizado o delineamento de blocos
@@ -1238,9 +1197,7 @@ NULL
 #'
 #' }
 #' @keywords COV DBC
-#' @source Ramalho, M. A. P., Ferreira, D. F., Oliveira, A. C. (2005).
-#'     Experimentação em Genética e Melhoramento de Plantas (2th ed.).
-#'     Lavras: UFLA. (Tabela 13.13, pág. 251)
+#' @source RAMALHO et al. (2005), Tabela 13.13, pág. 251.
 #' @examples
 #'
 #' data(RamalhoTb13.13)
@@ -1281,9 +1238,7 @@ NULL
 #'
 #' }
 #' @keywords COV RS
-#' @source Ramalho, M. A. P., Ferreira, D. F., Oliveira, A. C. (2005).
-#'     Experimentação em Genética e Melhoramento de Plantas (2th ed.).
-#'     Lavras: UFLA. (Tabela 13.15, pág. 252)
+#' @source RAMALHO et al. (2005), Tabela 13.15, pág. 252.
 #' @examples
 #'
 #' data(RamalhoTb13.15)
@@ -1302,7 +1257,8 @@ NULL
 NULL
 
 #' @name RamalhoTb13.6
-#' @title Produ\enc{çã}{ca}o de Gr\enc{ã}{a}os de Feij\enc{ã}{a}o e Teor de \eqn{P_{2}O_{5}}
+#' @title Produ\enc{çã}{ca}o de Gr\enc{ã}{a}os de Feij\enc{ã}{a}o e Teor
+#'     de \eqn{P_{2}O_{5}}
 #' @description Experimento apresentado por Pereira (1993) referente a
 #'     avaliação da produção de feijão e teor de \eqn{P_{2}O_{5}} em
 #'     cada parcela, cujos dados foram obtidos de 10 cultivares de
@@ -1325,9 +1281,8 @@ NULL
 #'
 #' }
 #' @keywords COV DBC
-#' @source Ramalho, M. A. P., Ferreira, D. F., Oliveira, A. C. (2005).
-#'     Experimentação em Genética e Melhoramento de Plantas (2th ed.).
-#'     Lavras: UFLA. (Tabela 13.6, pág. 243 e tabela 13.9, pág. 246)
+#' @source RAMALHO et al. (2005), Tabela 13.6, pág. 243 e tabela 13.9,
+#'     pág. 246.
 #'
 #'     Pereira, A. F. Emprego de Covariância visando reduzir o efeito da
 #'     heterogeneidade Ambiental nos Experimentos com a Cultura do
@@ -1395,9 +1350,7 @@ NULL
 #'
 #' }
 #' @keywords DIC contagem
-#' @source Ramalho, M. A. P., Ferreira, D. F., Oliveira, A. C. (2005).
-#'     Experimentação em Genética e Melhoramento de Plantas (2th ed.).
-#'     Lavras, MG: UFLA. (pg 43)
+#' @source RAMALHO et al. (2005), pág. 43.
 #'
 #' @examples
 #'
@@ -1464,9 +1417,7 @@ NULL
 #'
 #' }
 #' @keywords DBC
-#' @source Ramalho, M. A. P., Ferreira, D. F., Oliveira, A. C. (2005).
-#'     Experimentação em Genética e Melhoramento de Plantas (2th ed.).
-#'     Lavras, MG: UFLA. (pg 45)
+#' @source RAMALHO et al. (2005), pág 45.
 #'
 #' @examples
 #'
@@ -1497,9 +1448,7 @@ NULL
 #'
 #' }
 #' @keywords DBC
-#' @source Ramalho, M. A. P., Ferreira, D. F., Oliveira, A. C. (2005).
-#'     Experimentação em Genética e Melhoramento de Plantas (2th ed.).
-#'     Lavras, MG: UFLA. (pg 48)
+#' @source RAMALHO et al. (2005), pág. 48.
 #'
 #' @examples
 #'
@@ -1533,9 +1482,7 @@ NULL
 #'
 #' }
 #' @keywords DBC
-#' @source Ramalho, M. A. P., Ferreira, D. F., Oliveira, A. C. (2005).
-#'     Experimentação em Genética e Melhoramento de Plantas (2th ed.).
-#'     Lavras, MG: UFLA. (Tabela 7.1, pág 102).
+#' @source RAMALHO et al. (2005), Tabela 7.1, pág 102.
 #' @examples
 #'
 #' library(lattice)
@@ -1554,7 +1501,8 @@ NULL
 NULL
 
 #' @name RamalhoTb8.12
-#' @title Produ\enc{çã}{ca}o M\enc{é}{e}dia de Gr\enc{ã}{a}os de Caf\enc{é}{e}-cereja
+#' @title Produ\enc{çã}{ca}o M\enc{é}{e}dia de Gr\enc{ã}{a}os de
+#'     Caf\enc{é}{e}-cereja
 #' @description Experimento que estudou a produção média de grãos de
 #'     café-cereja, obtidos por Mendes (1994), em função da progênie em
 #'     3 anos. Foi utilizado o delineamento de blocos casualizados.
@@ -1578,9 +1526,7 @@ NULL
 #'
 #' }
 #' @keywords DBC GE
-#' @source Ramalho, M. A. P., Ferreira, D. F., Oliveira, A. C. (2005).
-#'     Experimentação em Genética e Melhoramento de Plantas (2th ed.).
-#'     Lavras: UFLA. (pág. 128)
+#' @source RAMALHO et al. (2005), pág. 128.
 #'
 #'     Mendes, A. N. G. Avaliação de Metodologias Empregadas na Seleção
 #'     de Progênies do Cafeeiro (Coffea arabica L.) no estado de Minas
@@ -1610,4 +1556,3 @@ NULL
 #'           FUN = function(x) { c(mean = mean(x), var = var(x)) })
 #'
 NULL
-

@@ -2,21 +2,20 @@
 % Please edit documentation in R/Pimentel.R
 \name{PimentelPg72}
 \alias{PimentelPg72}
-\title{Ensaio de alimenta\enc{çã}{ca}o de leitoas}
+\title{Ensaio de alimenta\enc{çã}{ca}o de Leitoas}
 \format{Um \code{data.frame} com 8 observações e 2 variáveis, em que
 
 \describe{
 
-\item{\code{feno}}{Fator de 2 níveis qualitativos, que são os diferentes
-    tipos de feno.}
+\item{\code{feno}}{Fator de 2 níveis qualitativos, que são os
+    diferentes tipos de feno.}
 
 \item{\code{ganhopeso}}{Aumento do peso das leitoas, observado em
     quilogramas.}
 
 }}
 \source{
-Pimentel-Gomes, F. (2009). Curso de Estatística Experimental
-    (15th ed.). Piracicaba, SP: FEALQ.
+PIMENTEL-GOMES (2009).
 }
 \description{
 Experimento realizado pelos técnicos Manoel Becker, Luís
@@ -29,6 +28,9 @@ Experimento realizado pelos técnicos Manoel Becker, Luís
     experimental de três meses.
 }
 \examples{
+
+data(PimentelPg72)
+str(PimentelPg72)
 
 library(lattice)
 

@@ -2,8 +2,9 @@
 % Please edit documentation in R/Costa.R
 \name{CostaTb8}
 \alias{CostaTb8}
-\title{Irriga\enc{çã}{ca}o no Tamanho de Frutos de Variedades de Banana}
-\format{Um \code{data.frame} com 32 observações e 4 variáveis.
+\title{Irriga\enc{çã}{ca}o no Tamanho de Frutos de Variedades de
+    Banana}
+\format{Um \code{data.frame} com 32 observações e 4 variáveis, em que
 
 \describe{
 
@@ -25,9 +26,7 @@
 
 }}
 \source{
-Costa, J. R. (2003). Técnicas experimentais aplicadas às
-    ciências agrárias (Documentos 163). Seropédica, RJ: Embrapa
-    Agrobiologia. (Tabela 8, pág. 76)
+Costa (2013), Tabela 8, pág. 76.
 }
 \description{
 Experimento em parcelas subdivididas que estudou o
@@ -39,7 +38,6 @@ Experimento em parcelas subdivididas que estudou o
 library(lattice)
 
 data(CostaTb8)
-
 str(CostaTb8)
 
 ftable(with(CostaTb8,
@@ -58,6 +56,5 @@ xyplot(comp ~ varied, groups = irrig, data = CostaTb8,
        ylab = expression("Comprimento do fruto"~(cm)))
 
 }
-\keyword{DBC}
 \keyword{PS}
 

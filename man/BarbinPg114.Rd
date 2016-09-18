@@ -2,8 +2,10 @@
 % Please edit documentation in R/Barbin.R
 \name{BarbinPg114}
 \alias{BarbinPg114}
-\title{Influ\enc{ê}{e}ncia do Aparelho e Operador na Medi\enc{çã}{ca}o de \enc{Á}{A}rvores}
-\format{Um \code{data.frame} com 200 observações e 4 variáveis.
+\title{Influ\enc{ê}{e}ncia do Aparelho e Operador na
+    Medi\enc{çã}{ca}o de \enc{Á}{A}rvores}
+\format{Um \code{data.frame} com 200 observações e 4 variáveis, em
+    que
 
 \describe{
 
@@ -24,9 +26,7 @@
 
 }}
 \source{
-Barbin, D. (2013). Planejamento e Análise Estatística de
-    Experimentos Agronômicos (2nd ed.). Londrina, PR:
-    Mecenas. (pág. 114)
+BARBIN (2013), pág. 114.
 
 Simões, J. W., Mello, H. A., Barbin, D. (1967). Eficiência dos
     aparelhos e e influência do operador na medição de altura total
@@ -39,7 +39,7 @@ Dados de um experimento fatorial 5 \eqn{\times} 4, em
     7 anos de idade, de \emph{Eucaliptus saligna} (Simões,  Mello e
     Barbin, 1967).
 
-Cinco aparelhos ou instrumentos de mensuração (hipsômetro de
+    Cinco aparelhos ou instrumentos de mensuração (hipsômetro de
     Blume-Leiss, hipsômetro de Haga, hipsômetro Weise, prancheta
     dendrométrica e trena) foram testados por 4 operadores resultando
     em 20 combinações. Diante de uma árvore era sorteado um número no

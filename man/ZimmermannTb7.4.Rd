@@ -2,7 +2,8 @@
 % Please edit documentation in R/Zimmermann.R
 \name{ZimmermannTb7.4}
 \alias{ZimmermannTb7.4}
-\title{Produ\enc{çã}{ca}o de Gr\enc{ã}{a}os de Arroz em Ensaio Reticulado Retangular}
+\title{Produ\enc{çã}{ca}o de Gr\enc{ã}{a}os de Arroz em Ensaio
+    Reticulado Retangular}
 \format{Um \code{data.frame} com 90 observações e 3 variáveis, em que
 
 \describe{
@@ -22,9 +23,7 @@
 
 }}
 \source{
-Zimmermann, F. J. (2004). Estatística aplicada à pesquisa
-    agrícola (1st ed.). Santo Antônio de Goiás, GO: Embrapa Arroz e
-    Feijão. (Tabela 7.4, pág. 140)
+ZIMMERMANN (2004), Tabela 7.4, pág. 140.
 }
 \description{
 Dados de um estudo sobre competição de cultivares e
@@ -49,5 +48,5 @@ xyplot(prod ~ reorder(cult, prod),
        ylab = expression("Produção de grãos de arroz"~(kg~ha^{-1})))
 
 }
-\keyword{reticulado}
+\keyword{RET}
 

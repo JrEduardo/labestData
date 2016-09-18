@@ -2,7 +2,8 @@
 % Please edit documentation in R/Ferreira.R
 \name{FerreiraEg13.3}
 \alias{FerreiraEg13.3}
-\title{Classifica\enc{çã}{ca}o de Solos na Regi\enc{ã}{a}o Amaz\enc{ô}{o}nica}
+\title{Classifica\enc{çã}{ca}o de Solos na Regi\enc{ã}{a}o
+    Amaz\enc{ô}{o}nica}
 \format{Um \code{data.frame} com 30 observações e 3 variáveis, em que
 
 \describe{
@@ -17,8 +18,7 @@
 
 }}
 \source{
-D. F. (2011). Estatística Multivariada (2nd ed.). Lavras, MG:
-    Editora UFLA. (Exemplo 13.3, pág. 596-597)
+FERREIRA (2011) (Exemplo 13.3, pág. 596-597)
 }
 \description{
 Dados amostrais relativos ao teor de zinco (\emph{Zn}) e

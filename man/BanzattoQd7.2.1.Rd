@@ -3,7 +3,7 @@
 \name{BanzattoQd7.2.1}
 \alias{BanzattoQd7.2.1}
 \title{Efeito do Gesso no Peso de Gr\enc{ã}{a}os de Feij\enc{ã}{a}o}
-\format{Um \code{data.frame} com 28 observações e 3 variáveis.
+\format{Um \code{data.frame} com 28 observações e 3 variáveis, em que
 
 \describe{
 
@@ -15,9 +15,7 @@
 
 }}
 \source{
-Banzatto, D. A., Kronka, S. D. (2013). Experimentação
-    Agrícola (4th ed.). Jaboticabal, SP: Funep. (Quadro 7.2.1,
-    pág. 170)
+BANZATTO; KRONKA (2013), Quadro 7.2.1, pág. 170.
 
 Ragazzi, D. (1979). Efeito de doses de gesso na cultura do feijoeiro
     (\emph{Phaseolus vulgaris} L.). Trabalho de Conclusão de Curso
@@ -46,4 +44,5 @@ xyplot(peso ~ gesso, data = BanzattoQd7.2.1,
 
 }
 \keyword{DIC}
+\keyword{RS}
 

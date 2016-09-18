@@ -4,7 +4,8 @@
 \alias{PaulaEx1.13.25}
 \title{Venda de Im\enc{ó}{o}veis em Eugene, Estatdos Unidos}
 \format{Um \code{data.frame} com 50 observações e 2 variáveis.
-    \describe{
+
+\describe{
 
 \item{\code{area}}{Área total do imóvel, em pés quadrados.}
 
@@ -12,9 +13,7 @@
 
 }}
 \source{
-Paula, G. A. (2004). Modelos de regressão: com apoio
-    computacional. São Paulo, SP: IME-USP. (Exercício 1.13.25,
-    pág. 112)
+PAULA (2004), Exercício 1.13.25, pág. 112.
 }
 \description{
 Dados de um estudo cujo objetivo foi tentar prever o
@@ -23,11 +22,12 @@ Dados de um estudo cujo objetivo foi tentar prever o
     de venda registrados.
 }
 \examples{
-data(PaulaEx1.13.25)
 
+data(PaulaEx1.13.25)
 str(PaulaEx1.13.25)
 
 library(lattice)
+
 xyplot(preco ~ area, data = PaulaEx1.13.25,
        type = c("p", "smooth", "g"))
 

@@ -2,7 +2,8 @@
 % Please edit documentation in R/Dias.R
 \name{DiasEg6.2}
 \alias{DiasEg6.2}
-\title{Aduba\enc{çã}{ca}o NPK na Produ\enc{çã}{ca}o de Feij\enc{ã}{a}o}
+\title{Aduba\enc{çã}{ca}o NPK na Produ\enc{çã}{ca}o de
+    Feij\enc{ã}{a}o}
 \format{Um \code{data.frame} com 20 observações e 3 variáveis, em que
 
 \describe{
@@ -18,8 +19,7 @@
 
 }}
 \source{
-Dias, L. A. S., Barros, W. S. (2009). Biometria
-    Experimental. Viçosa, MG: UFV. (Exemplo 6.2, pág. 164)
+BARROS; DIAS (2009), Exemplo 6.2, pág. 164.
 }
 \description{
 Experimento instalado em delineamento de blocos
@@ -33,8 +33,6 @@ library(lattice)
 data(DiasEg6.2)
 str(DiasEg6.2)
 
-names(DiasEg6.2)[2] <- "bloc"
-
 xyplot(prod ~ npk, data = DiasEg6.2,
        groups = bloc, type = "b",
        xlab = expression("Dose de NPK"~(kg~ha^{-1})),
@@ -44,5 +42,5 @@ xyplot(prod ~ npk, data = DiasEg6.2,
 
 }
 \keyword{DBC}
-\keyword{RP}
+\keyword{RS}
 

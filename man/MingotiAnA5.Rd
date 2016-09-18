@@ -2,44 +2,45 @@
 % Please edit documentation in R/Mingoti.R
 \name{MingotiAnA5}
 \alias{MingotiAnA5}
-\title{Sele\enc{çã}{ca}o de alunos para um programa de p\enc{ó}{o}s-gradua\enc{çã}{ca}o}
+\title{Sele\enc{çã}{ca}o de Alunos para um Programa de
+    P\enc{ó}{o}s-gradua\enc{çã}{ca}o}
 \format{Um \code{data.frame} com 62 observações e 4 variáveis, em que
 
 \describe{
 
 \item{\code{cand}}{Número de identificação do candidato.}
-    
-\item{\code{grupo}}{Grupo ao qual o candidato foi alocado, segundo 
+
+\item{\code{grupo}}{Grupo ao qual o candidato foi alocado, segundo
     seu desempenho no processo seletivo (1, 2 ou 3).}
-    
+
 \item{\code{nota}}{Nota da prova de conhecimento específico da área
     do programa.}
-    
-\item{\code{histor}}{Nota atribuída ao histórico escolar do 
+
+\item{\code{histor}}{Nota atribuída ao histórico escolar do
     candidato.}
-    
+
 }}
 \source{
-Mingoti, S.A. (2005). Análise de dados através de métodos de 
-    estatística multivariada - uma abordagem aplicada. 
-    Belo Horizonte, MG: Editora UFMG. (pg 234)
+MINGOTI (2005) pág. 234.
 }
 \description{
-Um programa de pós-graduação dividiu 62 candidatos do 
-    ano anterior em 3 grupos: (1) candidatos aprovados, 
-    (2) candidatos na lista de espera e (3) candidatos que não
-    foram aprovados. Para a nova seleção, os responsáveis pensam em
-    considerar a nota da prova de conhecimento específico e a nota 
+Um programa de pós-graduação dividiu 62 candidatos do
+    ano anterior em 3 grupos: (1) candidatos aprovados, (2)
+    candidatos na lista de espera e (3) candidatos que não foram
+    aprovados. Para a nova seleção, os responsáveis pensam em
+    considerar a nota da prova de conhecimento específico e a nota
     atribuída ao histórico escolar.
 }
 \examples{
 
 data(MingotiAnA5)
+str(MingotiAnA5)
 
-require(lattice)
+library(lattice)
 
 xyplot(histor ~ nota, groups = grupo, data = MingotiAnA5,
        auto.key = TRUE)
+
 }
 \keyword{AnaDisc}
 

@@ -3,7 +3,7 @@
 \name{BarbinPg125}
 \alias{BarbinPg125}
 \title{Aduba\enc{çã}{ca}o NPK no Cafeeiro}
-\format{Um \code{data.frame} com 48 observações e 5 variáveis.
+\format{Um \code{data.frame} com 48 observações e 5 variáveis, em que
 
 \describe{
 
@@ -12,7 +12,8 @@
 
 \item{\code{P}}{Inteiro que codifica dois níveis de fósforo (0 e 1).}
 
-\item{\code{K}}{Inteiro que codifica dois níveis de potássio (0 e 1).}
+\item{\code{K}}{Inteiro que codifica dois níveis de potássio (0 e
+    1).}
 
 \item{\code{bloc}}{Fator de níveis categóricos considerado para
     controle local.}
@@ -23,9 +24,7 @@
 
 }}
 \source{
-Barbin, D. (2013). Planejamento e Análise Estatística de
-    Experimentos Agronômicos (2nd ed.). Londrina, PR:
-    Mecenas. (pág. 125)
+BARBIN (2013), pág. 125).
 }
 \description{
 Experimento no o delineamento de blocos casualizados que
@@ -53,5 +52,5 @@ xyplot(prod ~ as.factor(N) | as.factor(P), data = BarbinPg125,
 
 }
 \keyword{DBC}
-\keyword{FAT3}
+\keyword{FAT2K}
 

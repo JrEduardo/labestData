@@ -12,13 +12,12 @@
 
 \item{\code{variedade}}{Fator de 6 níveis qualitativos, que são os
     diferentes tipos de mandioca.}
-    
+
 \item{\code{prod}}{Produção de mandioca, em t ha\eqn{^{-1}}.}
 
 }}
 \source{
-Pimentel-Gomes, F. (2009). Curso de Estatística Experimental
-    (15th ed.). Piracicaba, SP: FEALQ.
+PIMENTEL-GOMES (2009).
 }
 \description{
 Experimento em blocos ao acaso, realizado pelo Instituto

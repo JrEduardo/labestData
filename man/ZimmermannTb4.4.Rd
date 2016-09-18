@@ -3,7 +3,7 @@
 \name{ZimmermannTb4.4}
 \alias{ZimmermannTb4.4}
 \title{Competi\enc{çã}{ca}o de Cultivares de Feij\enc{ã}{a}o}
-\format{Um \code{data.frame} com 60 observações e 3 variáveis
+\format{Um \code{data.frame} com 60 observações e 3 variáveis, em que
 
 \describe{
 
@@ -16,9 +16,7 @@
 
 }}
 \source{
-Zimmermann, F. J. (2004). Estatística aplicada à pesquisa
-    agrícola (1st ed.). Santo Antônio de Goiás, GO: Embrapa Arroz e
-    Feijão. (Tabela 4.4, pág 72)
+ZIMMERMANN (2004), Tabela 4.4, pág. 72.
 }
 \description{
 Dados de um ensaio de competição de cultivares, em

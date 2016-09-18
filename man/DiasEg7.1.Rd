@@ -10,15 +10,14 @@
 \item{\code{luz}}{Fator métrico que identifica, em escala codificada,
     a quantidade de luz aplicada.}
 
-\item{\code{agua}}{Fator métrico que identifica, em escala codificada,
-    a quantidade de água aplicada.}
+\item{\code{agua}}{Fator métrico que identifica, em escala
+    codificada, a quantidade de água aplicada.}
 
 \item{\code{prod}}{Produção de tomateiros.}
 
 }}
 \source{
-Dias, L. A. S., Barros, W. S. (2009). Biometria
-    Experimental. Viçosa, MG: UFV. (Exemplo 7.1, pág. 187)
+BARROS; DIAS (2009), Exemplo 7.1, pág. 187.
 }
 \description{
 Resultados de um experimento que avaliou o efeito da
@@ -42,5 +41,5 @@ xyplot(prod ~ luz, groups = agua, data = DiasEg7.1,
 
 }
 \keyword{DIC}
-\keyword{RM}
+\keyword{FAT2}
 

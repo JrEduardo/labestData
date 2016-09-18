@@ -20,8 +20,7 @@
 
 }}
 \source{
-Pimentel-Gomes, F. (2009). Curso de Estatística Experimental
-    (15th ed.). Piracicaba, SP: FEALQ. (Tabela 17.4.1, pág. 322)
+PIMENTEL-GOMES (2009), Tabela 17.4.1, pág. 322.
 }
 \description{
 Grupo de dois ensaios com variedades de cana-de-açúcar,

@@ -4,7 +4,8 @@
 \alias{PaulaEx1.13.19}
 \title{Estudo Demogr\enc{á}{a}fico dos Estados Norte-Americanos}
 \format{Um \code{data.frame} com 50 observações e 9 variáveis.
-    \describe{
+
+\describe{
 
 \item{\code{estado}}{Nome do estado.}
 
@@ -29,9 +30,7 @@
 
 }}
 \source{
-Paula, G. A. (2004). Modelos de regressão: com apoio
-    computacional. São Paulo, SP: IME-USP. (Exercício 1.13.19,
-    pág. 109)
+PAULA (2004), Exercício 1.13.19, pág. 109.
 }
 \description{
 Dados referentes a um estudo demográfico sobre os 50
@@ -54,5 +53,5 @@ scatterplotMatrix(~expvi + analf + crime + estud + ndias + dens,
 
 
 }
-\keyword{MLG}
+\keyword{RM}
 

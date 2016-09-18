@@ -2,13 +2,13 @@
 % Please edit documentation in R/Paula.R
 \name{PaulaEx2.10.19}
 \alias{PaulaEx2.10.19}
-\title{Estudo Sobre Leucemia e Caracter\enc{í}{i}stica Morfol\enc{ó}{o}gica nas C\enc{é}{e}lulas
-    Brancas}
+\title{Estudo Sobre Leucemia e Caracter\enc{í}{i}stica
+    Morfol\enc{ó}{o}gica nas C\enc{é}{e}lulas Brancas}
 \format{Um \code{data.frame} com 32 observações e 3 variáveis.
+
 \describe{
 
-\item{\code{ncel}}{Número de células brancas
-    na amostra do paciente.}
+\item{\code{ncel}}{Número de células brancas na amostra do paciente.}
 
 \item{\code{carac}}{Fator com dois níveis que representa a presença
     (\code{AG positivo}) ou ausência (\code{AG negativo}) da
@@ -18,9 +18,7 @@
 
 }}
 \source{
-Paula, G. A. (2004). Modelos de regressão: com apoio
-    computacional. São Paulo, SP: IME-USP. (Exemplo 2.10.19,
-    pág. 180)
+PAULA (2004), Exemplo 2.10.19, pág. 180.
 }
 \description{
 Dados provenientes de um estudo em que pacientes com
@@ -30,11 +28,12 @@ Dados provenientes de um estudo em que pacientes com
     tempo de sobrevivência dos pacientes.
 }
 \examples{
-data(PaulaEx2.10.19)
 
+data(PaulaEx2.10.19)
 str(PaulaEx2.10.19)
 
 library(latticeExtra)
+
 xyplot(tempo ~ ncel,
        groups = carac,
        data = PaulaEx2.10.19,
@@ -45,8 +44,7 @@ xyplot(tempo ~ ncel,
            corner = c(0.95, 0.95),
            lines = TRUE,
            cex.title = 1,
-           title = "Característica morfológica "
-           ))
+           title = "Característica morfológica"))
 
 }
 \references{
@@ -54,5 +52,7 @@ Feigl, P., Zelen, M. (1965). Estimation of exponential
     survival probabilities with concomitant information. Biometrics
     21, 826-838.
 }
-\keyword{positivo-assimétrico}
+\keyword{RS}
+\keyword{dummy}
+\keyword{heterovar}
 

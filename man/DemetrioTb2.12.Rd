@@ -3,23 +3,22 @@
 \name{DemetrioTb2.12}
 \alias{DemetrioTb2.12}
 \title{Produ\enc{çã}{ca}o de Ruibarbo}
-\format{Um \code{data.frame} de 28 linhas e 3 colunas.
+\format{Um \code{data.frame} de 28 linhas e 3 colunas, em que
 
 \describe{
 
-    \item{\code{data}}{Data de colheita dos ruibarbos. Obs.: Para
+\item{\code{data}}{Data de colheita dos ruibarbos. Obs.: Para
     utilizar o formato \code{\link{Date}} foi considerado o ano 1983
     (Date de publicação do livro que referencia os dados).}
-    
-    \item{\code{bloco}}{Fator que indica o bloco, para controle de
+
+\item{\code{bloco}}{Fator que indica o bloco, para controle de
     variação, ao qual a observação pertence.}
-    
-    \item{\code{prod}}{Valor da produção de ruibarbo.}
-    
+
+\item{\code{prod}}{Valor da produção de ruibarbo.}
+
 }}
 \source{
-Demétrio, C. G. B., Zocchi, S. S. (2011). Modelos de
-    Regressão. Piracicaba: ESALQ. (Tabela 2.12 pág. 66-67)
+DEMÉTRIO; ZOCCHI (2011), Tabela 2.12 pág. 66-67.
 }
 \description{
 Dados de um experimento conduzido em delineamento de
@@ -29,6 +28,7 @@ Dados de um experimento conduzido em delineamento de
 \examples{
 
 data(DemetrioTb2.12)
+str(DemetrioTb2.12)
 
 library(lattice)
 
@@ -51,5 +51,6 @@ xyplot(prod ~ data, data = DemetrioTb2.12,
            })
 
 }
-\keyword{TODO}
+\keyword{DBC}
+\keyword{RS}
 

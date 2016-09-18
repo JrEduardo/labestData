@@ -2,63 +2,78 @@
 % Please edit documentation in R/Manly.R
 \name{ManlyTb4.5}
 \alias{ManlyTb4.5}
-\title{Cr\enc{â}{a}nios eg\enc{í}{i}pcios}
+\title{Cr\enc{â}{a}nios Eg\enc{í}{i}pcios}
 \format{Um \code{data.frame} com 5 grupo caninos e 10 variáveis.
 
 \describe{
 
-\item{\code{grup}}{Grupo canino}
+\item{\code{grup}}{Grupo canino.}
 
-\item{\code{compm}}{Comprimento da mandíbula (mm)}
+\item{\code{compm}}{Comprimento da mandíbula (mm).}
 
-\item{\code{largmapm}}{Largura da mandíbula, abaixo do primeiro molar (mm)}
+\item{\code{largmapm}}{Largura da mandíbula, abaixo do primeiro molar
+    (mm).}
 
-\item{\code{largca}}{Largura do côndilo aricular (mm)}
+\item{\code{largca}}{Largura do côndilo aricular (mm).}
 
-\item{\code{altmapm}}{Altura da mandíbula, abaixo do primeiro molar (mm)}
+\item{\code{altmapm}}{Altura da mandíbula, abaixo do primeiro molar
+    (mm).}
 
 \item{\code{comppm}}{Comprimento do primeiro molar (mm).}
 
 \item{\code{largpm}}{Largura do primeiro molar (mm).}
 
-\item{\code{compptm}}{Comprimento do primeiro ao terceiro molar (mm).}
+\item{\code{compptm}}{Comprimento do primeiro ao terceiro molar
+    (mm).}
 
-\item{\code{comppqp}}{Comprimento do primeiro ao quarto pré-molar (mm).}
- 
+\item{\code{comppqp}}{Comprimento do primeiro ao quarto pré-molar
+    (mm).}
+
 \item{\code{largci}}{Largura do canino inferior (mm).}
 
-\item{\code{sexo}}{Código para sexo, (1 para masculino, 2 para feminino 
-e caso contrário é desconhecido}
+\item{\code{sexo}}{Código para sexo, (1 para masculino, 2 para
+    feminino e caso contrário é desconhecido.}
 
 }}
 \source{
-Manly, B. J. F. (2005). Métodos Estatísticos Multivariados - 
-     uma introdução. Porto Alegre, RS: Bookman (pg 67 à 69)
+MANLY (2005), pág. 67 à 69.
 }
 \description{
-Estudo em ancestrais de cães da Tailândia, 
-através de medições da mandíbula.
+Estudo em ancestrais de cães da Tailândia, através de
+    medições da mandíbula.
 }
 \examples{
 
 data(ManlyTb4.5)
-require(lattice)
-require(reshape2)
+str(ManlyTb4.5)
+
+library(lattice)
+library(reshape2)
 
 ManlyTb4.5long <- melt(ManlyTb4.5[,-11], id.vars = "grup")
 
-bwplot(value ~grup | variable, data = ManlyTb4.5long,
-        scales = c(list(relation = "free"), list(x=list(draw=FALSE))),
-      ylab = "",
-       main = "Boxplot de entre os grupo das medições da mandíbula",
-       par.settings = list( box.umbrella=list(col = c(1,2,3,4,6)), 
-                            box.dot=list(col = c(1,2,3,4,6)), 
-                            box.rectangle = list(col = c(1,2,3,4,6))),
-       key = list(points = list(col=c(1,2,3,4,6), pch=19),
+i <- c(1, 2, 3, 4, 6)
+bwplot(value ~ grup | variable,
+       data = ManlyTb4.5long,
+       scales = c(list(relation = "free"),
+                  list(x = list(draw = FALSE))),
+       ylab = "",
+       pch = "|",
+       par.settings = list(box.umbrella = list(col = i),
+                           box.dot = list(col = i),
+                           box.rectangle = list(col = i)),
+       key = list(points = list(col = i, pch = 19),
                   space = "top",
-                  columns=2,
-                  text=list(c("Caes modernos da Tailandia", "Chacais dourados", "Cuons", 
-                              "Lobos indianos", "Caes pre-historicos tailandeses"))))
+                  columns = 2,
+                  text = list(c("Cães modernos da Tailândia",
+                                "Chacais dourados",
+                                "Cuons",
+                                "Lobos indianos",
+                                "Caes pré-históricos tailandeses"))))
+
 }
-\keyword{TS}
+\seealso{
+Veja também \code{\link{ManlyTb1.4}}.
+}
+\keyword{AnaDisc}
 

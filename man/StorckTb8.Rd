@@ -18,9 +18,7 @@
 
 }}
 \source{
-Storck, L., Garcia, B. C., Lopes, S. J., Estefanel,
-    V. (2011). Experimentação Vegetal (3th ed.). Santa Maria, RS:
-    UFSM. (Tabela 8, pág. 33)
+STORCK et al. (2011), Tabela 8, pág. 33.
 }
 \description{
 Dados referentes a um experimento conduzido no

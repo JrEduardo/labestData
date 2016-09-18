@@ -2,7 +2,8 @@
 % Please edit documentation in R/Zimmermann.R
 \name{ZimmermannTb16.5}
 \alias{ZimmermannTb16.5}
-\title{N\enc{ú}{u}mero de Dias para Flora\enc{çã}{ca}o de Cultivares de Arroz}
+\title{N\enc{ú}{u}mero de Dias para Flora\enc{çã}{ca}o de Cultivares
+    de Arroz}
 \format{Um \code{data.frame} com 24 observações e 4 variáveis, em que
 
 \describe{
@@ -19,9 +20,7 @@
 
 }}
 \source{
-Zimmermann, F. J. (2004). Estatística aplicada à pesquisa
-    agrícola (1st ed.). Santo Antônio de Goiás, GO: Embrapa Arroz e
-    Feijão. (Tabela 16.5, pág 347)
+ZIMMERMANN (2004), Tabela 16.5, pág 347.
 }
 \description{
 Experimento realizado em delineamento em blocos
@@ -63,5 +62,5 @@ xyplot(posto ~ dias, data = ZimmermannTb16.5,
 
 }
 \keyword{DIC}
-\keyword{sobrevivencia}
+\keyword{sobrevivência}
 

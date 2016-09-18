@@ -3,21 +3,20 @@
 \name{DemetrioTb1.4}
 \alias{DemetrioTb1.4}
 \title{Concentra\enc{çã}{ca}o de F\enc{ó}{o}sforo}
-\format{Um \code{data.frame} com 18 linhas e 3 colunas.
+\format{Um \code{data.frame} com 18 linhas e 3 colunas, em que
 
 \describe{
 
-    \item{\code{cfi}}{ Conteúdo de fósforo inorgânico no solo. }
-    
-    \item{\code{cfo}}{ Conteúdo de fósforo orgânico no solo. }
+\item{\code{cfi}}{ Conteúdo de fósforo inorgânico no solo.}
 
-    \item{\code{conteudo}}{ Conteúdo de fósforo nas plantas
-    crescidas no solo. }
+\item{\code{cfo}}{ Conteúdo de fósforo orgânico no solo.}
+
+\item{\code{conteudo}}{ Conteúdo de fósforo nas plantas crescidas no
+    solo.}
 
 }}
 \source{
-Demétrio, C. G. B., Zocchi, S. S. (2011). Modelos de
-    Regressão. Piracicaba: ESALQ. (Tabela 1.4 pág. 11)
+DEMÉTRIO; ZOCCHI (2011), Tabela 1.4 pág. 11.
 }
 \description{
 Dados referentes a medidas de concentrações de fósforo
@@ -29,22 +28,22 @@ Dados referentes a medidas de concentrações de fósforo
 \examples{
 
 data(DemetrioTb1.4)
+str(DemetrioTb1.4)
 
 pairs(DemetrioTb1.4, main = "Dispersão em Pares")
 
 library(lattice)
 
 xyplot(conteudo ~ cfi, data = DemetrioTb1.4,
-       main = "Fósforo Inorgânico VS Conteúdo",
        xlab = "Fósforo Inorgânico",
        ylab = "Conteúdo na Planta",
        type = c("p", "r"), col.line = 3)
 
 xyplot(conteudo ~ cfo, data = DemetrioTb1.4,
-       main = "Fósforo Orgânico VS Conteúdo",
        xlab = "Fósforo Orgânico",
-       ylab = "Conteúdo na Planta", 
+       ylab = "Conteúdo na Planta",
        type = c("p", "r"), col.line = 3)
+
 }
 \keyword{RM}
 

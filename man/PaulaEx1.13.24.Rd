@@ -4,6 +4,7 @@
 \alias{PaulaEx1.13.24}
 \title{Porcentagens de Retorno de A\enc{çõ}{co}es}
 \format{Um \code{data.frame} com 311 observações e 5 variáveis.
+
 \describe{
 
 \item{\code{tbill}}{Taxa de retorno livre de risco.}
@@ -20,9 +21,7 @@
 
 }}
 \source{
-Paula, G. A. (2004). Modelos de regressão: com apoio
-    computacional. São Paulo, SP: IME-USP. (Exercicío 1.13.24,
-    pág. 112)
+PAULA (2004), Exercicío 1.13.24, pág. 112.
 }
 \description{
 Dados referentes aos retornos diários das ações das
@@ -32,15 +31,17 @@ Dados referentes aos retornos diários das ações das
     mercado, para padronizar as comparações.
 }
 \examples{
-data(PaulaEx1.13.24)
 
+data(PaulaEx1.13.24)
 str(PaulaEx1.13.24)
 
 library(reshape)
+
 da <- melt(PaulaEx1.13.24, measure.vars = c("micro", "ge", "ford"),
            variable_name = "empresa")
 
 library(lattice)
+
 densityplot(~value, groups = empresa, data = da,
             auto.key = list(corner = c(0.9, 0.9)))
 
@@ -48,5 +49,5 @@ xyplot((sp500 - tbill) ~ (value - tbill) | empresa,
        data = da, type = c("p", "smooth", "g"))
 
 }
-\keyword{TODO}
+\keyword{RM}
 

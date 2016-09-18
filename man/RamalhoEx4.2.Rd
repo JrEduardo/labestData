@@ -16,9 +16,7 @@
 
 }}
 \source{
-Ramalho, M. A. P., Ferreira, D. F., Oliveira, A. C. (2005).
-    Experimentação em Genética e Melhoramento de Plantas (2th ed.).
-    Lavras, MG: UFLA. (Execício 4.2, pág 66)
+RAMALHO et al. (2005), Execício 4.2, pág. 66.
 }
 \description{
 Experimento que estudou o número de perfilhos de plantas

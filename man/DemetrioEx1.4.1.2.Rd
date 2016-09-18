@@ -3,18 +3,17 @@
 \name{DemetrioEx1.4.1.2}
 \alias{DemetrioEx1.4.1.2}
 \title{Peso M\enc{é}{e}dio de Galinhas}
-\format{Um \code{data.frame} de 10 linhas e 2 colunas.
+\format{Um \code{data.frame} de 10 linhas e 2 colunas, em que
 
 \describe{
 
-    \item{\code{peso}}{Peso médio.}
-    
-    \item{\code{consumo}}{Consumo de alimentos.}
-    
+\item{\code{peso}}{Peso médio.}
+
+\item{\code{consumo}}{Consumo de alimentos.}
+
 }}
 \source{
-Demétrio, C. G. B., Zocchi, S. S. (2011). Modelos de
-    Regressão. Piracicaba: ESALQ. (Exercício 1.4.1.2 pág. 14)
+DEMÉTRIO; ZOCCHI (2011), Exercício 1.4.1.2 pág. 14.
 }
 \description{
 Foi mensurado o peso médio e consumo de alimentos de 50
@@ -23,15 +22,15 @@ Foi mensurado o peso médio e consumo de alimentos de 50
 \examples{
 
 data(DemetrioEx1.4.1.2)
+str(DemetrioEx1.4.1.2)
 
 library(lattice)
 
 xyplot(consumo ~ peso, data = DemetrioEx1.4.1.2,
-     main = "Peso VS Consumo",
-     xlab = "Peso",
-     ylab = "Consumo",
-     type = c("p", "r"), col.line = 3)
-     
+       xlab = "Peso",
+       ylab = "Consumo",
+       type = c("p", "r"), col.line = 3)
+
 }
 \keyword{RS}
 

@@ -3,18 +3,17 @@
 \name{DemetrioEx2.12.5}
 \alias{DemetrioEx2.12.5}
 \title{Dados Gen\enc{é}{e}ricos para Regress\enc{ã}{a}o Segmentada}
-\format{Um \code{data.frame} de 5 linhas e 2 colunas.
+\format{Um \code{data.frame} de 5 linhas e 2 colunas, em que
 
 \describe{
 
-    \item{\code{x}}{Variável independente, sem interpretação.}
-    
-    \item{\code{y}}{Variável dependente, sem interpretação.}
-    
+\item{\code{x}}{Variável independente, sem interpretação.}
+
+\item{\code{y}}{Variável dependente, sem interpretação.}
+
 }}
 \source{
-Demétrio, C. G. B., Zocchi, S. S. (2011). Modelos de
-    Regressão. Piracicaba: ESALQ. (Exercício 2.12.5 pág. 60)
+DEMÉTRIO; ZOCCHI (2011), Exercício 2.12.5 pág. 60.
 }
 \description{
 Dados para exercício analítico, com o objetivo de obter
@@ -24,6 +23,7 @@ Dados para exercício analítico, com o objetivo de obter
 \examples{
 
 data(DemetrioEx2.12.5)
+str(DemetrioEx2.12.5)
 
 library(lattice)
 
@@ -43,7 +43,7 @@ xyplot(y ~ x, data = DemetrioEx2.12.5,
            panel.segments(cx[1], cy[1], cx[2], cy[2])
            panel.segments(cx[2], cy[2], cx[3], cy[3])
        })
-     
+
 }
-\keyword{RegSeg}
+\keyword{RNL}
 

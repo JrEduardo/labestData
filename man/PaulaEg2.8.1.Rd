@@ -4,24 +4,24 @@
 \alias{PaulaEg2.8.1}
 \title{Compara\enc{çã}{ca}o de Tipos de Snack}
 \format{Um \code{data.frame} com 750 observações e 3 variáveis.
-    \describe{
+
+\describe{
 
 \item{\code{semana}}{Semana da avaliação.}
 
-\item{\code{tipo}}{Tipo de snack avaliado. Os níveis representam as 
-    seguintes configurações:
-    \code{A}: 22\% de gordura, 0\% de óleo de canola, \code{B}: 0\%
-    de gordura, 22\% de óleo de canola, \code{C}: 17\% de gordura,
-    5\% de óleo de canola, \code{D}: 11\% de gordura, 11\% de óleo de
-    canola e \code{E}: 5\% de gordura, 17\% de óleo de canola.}
+\item{\code{tipo}}{Tipo de snack avaliado. Os níveis representam as
+    seguintes configurações: \code{A}: 22\% de gordura, 0\% de óleo
+    de canola, \code{B}: 0\% de gordura, 22\% de óleo de canola,
+    \code{C}: 17\% de gordura, 5\% de óleo de canola, \code{D}: 11\%
+    de gordura, 11\% de óleo de canola e \code{E}: 5\% de gordura,
+    17\% de óleo de canola.}
 
 \item{\code{fnpc}}{Força necessária para o cisalhamento.}
 
 }}
 \source{
-Paula, G. A. (2004). Modelos de regressão: com apoio
-    computacional. São Paulo, SP: IME-USP. (Exemplo 2.8.1, pág. 150;
-    Exemplo 2.9.3, pág. 169.)
+PAULA (2004), Exemplo 2.8.1, pág. 150; Exemplo 2.9.3,
+    pág. 169.
 }
 \description{
 Dados de um experimento desenvolvido pelo Departamento
@@ -30,13 +30,13 @@ Dados de um experimento desenvolvido pelo Departamento
     ácidos graxos, foram comparados ao longo de 20 semanas. Nesse
     novo produto a gordura vegetal hidrogenada, responsável pela
     fixação do aroma do produto, foi substituída, totalmente ou
-    parcialmente, por óleo de canola. Ao todo foram produzidas 750 
-    observações, referentes a 15 avaliações para cada tipo de snack 
-    a cada 2 semanas.
+    parcialmente, por óleo de canola. Ao todo foram produzidas 750
+    observações, referentes a 15 avaliações para cada tipo de snack a
+    cada 2 semanas.
 }
 \examples{
-data(PaulaEg2.8.1)
 
+data(PaulaEg2.8.1)
 str(PaulaEg2.8.1)
 
 # Experimento balanceado, 15 observações para cada tipo em cada
@@ -45,7 +45,8 @@ ftable(PaulaEg2.8.1[, c("tipo", "semana")])
 xtabs(fnpc ~ tipo + semana, data = PaulaEg2.8.1)
 
 library(lattice)
-bwplot(fnpc ~ tipo | factor(semana),
+
+bwplot(fnpc ~ tipo | factor(semana), pch = "|",
        data =  PaulaEg2.8.1,
        as.table = TRUE,
        strip = strip.custom(strip.names = TRUE,
@@ -69,9 +70,11 @@ xyplot(fnpc[, "Média"] ~ semana,
        auto.key = list(
            points = FALSE,
            lines = TRUE,
-           title = 'snack',
+           title = "snack",
+           cex.title = 1.1,
            corner = c(0.1, 0.9)))
 
 }
-\keyword{positivo-assimétrico}
+\keyword{FAT2}
+\keyword{longitudinal}
 

@@ -2,8 +2,8 @@
 % Please edit documentation in R/Vieira.R
 \name{VieiraEx7.3}
 \alias{VieiraEx7.3}
-\title{Experimento de um Fator em DIC com N\enc{ú}{u}mero Diferente de
-    Repeti\enc{çõ}{co}es}
+\title{Experimento de um Fator em DIC com N\enc{ú}{u}mero Diferente
+    de Repeti\enc{çõ}{co}es}
 \format{Um \code{data.frame} com 18 observações e 2 variáveis, em que
 
 \describe{
@@ -16,8 +16,7 @@
 
 }}
 \source{
-Vieira, S. (1999). Estatística experimental (2th ed.).
-    São Paulo, SP: Atlas. (Exercício 7.3, pág. 85).
+VIEIRA (1999), Exercício 7.3, pág. 85.
 }
 \description{
 Dados de um experimento inteiramente ao acaso com número

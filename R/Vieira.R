@@ -1,6 +1,6 @@
 #' @name VieiraEx7.3
-#' @title Experimento de um Fator em DIC com N\enc{ú}{u}mero Diferente de
-#'     Repeti\enc{çõ}{co}es
+#' @title Experimento de um Fator em DIC com N\enc{ú}{u}mero Diferente
+#'     de Repeti\enc{çõ}{co}es
 #' @description Dados de um experimento inteiramente ao acaso com número
 #'     diferente de repetições.
 #' @format Um \code{data.frame} com 18 observações e 2 variáveis, em que
@@ -15,8 +15,7 @@
 #'
 #' }
 #' @keywords DIC
-#' @source Vieira, S. (1999). Estatística experimental (2th ed.).
-#'     São Paulo, SP: Atlas. (Exercício 7.3, pág. 85).
+#' @source VIEIRA (1999), Exercício 7.3, pág. 85.
 #' @examples
 #'
 #' data(VieiraEx7.3)
@@ -32,7 +31,8 @@
 NULL
 
 #' @name VieiraEx7.5
-#' @title Experimento Com Um Fator e Repeti\enc{çã}{ca}o Dentro dos Blocos
+#' @title Experimento Com Um Fator e Repeti\enc{çã}{ca}o Dentro dos
+#'     Blocos
 #' @description Dados de um experimento em delineamento de blocos
 #'     casualizados com repetição de tratamentos dentro dos blocos.
 #' @format Um \code{data.frame} com 12 observações e 3 variáveis, em que
@@ -49,8 +49,7 @@ NULL
 #'
 #' }
 #' @keywords DBC
-#' @source Vieira, S. (1999). Estatística experimental (2th ed.).  São
-#'     Paulo, SP: Atlas. (Exercício 7.5, pág. 85).
+#' @source VIEIRA (1999), Exercício 7.5, pág. 85.
 #' @examples
 #'
 #' library(lattice)
@@ -67,7 +66,8 @@ NULL
 NULL
 
 #' @name VieiraEx8.3
-#' @title Experimento Em Blocos Casualizados Com Repeti\enc{çõ}{co}es Nos Blocos
+#' @title Experimento Em Blocos Casualizados Com Repeti\enc{çõ}{co}es
+#'     Nos Blocos
 #' @description Dados de um experimento em delineamento em blocos
 #'     casualizados com repetições dos tratamentos dentro dos blocos.
 #' @format Um \code{data.frame} com 24 observações e 3 variáveis, em que
@@ -85,8 +85,7 @@ NULL
 #'
 #' }
 #' @keywords DBC
-#' @source Vieira, S. (1999). Estatística experimental (2th ed.).
-#'     São Paulo, SP: Atlas. (Exercício 8.3, pág. 102).
+#' @source VIEIRA (1999), Exercício 8.3, pág. 102.
 #' @examples
 #'
 #' library(lattice)
@@ -117,8 +116,7 @@ NULL
 #'
 #' }
 #' @keywords DIC
-#' @source Vieira, S. (1999). Estatística experimental (2th ed.). São
-#'     Paulo, SP: Atlas. (pág. 50, exercício 2).
+#' @source VIEIRA (1999), pág. 50, exercício 2.
 #' @examples
 #'
 #' data(VieiraPg50.1)
@@ -152,8 +150,7 @@ NULL
 #'
 #' }
 #' @keywords DIC
-#' @source Vieira, S. (1999).  Estatística experimental (2th ed.).  São
-#'     Paulo, SP: Atlas. (pág. 50, Exercício 4).
+#' @source VIEIRA (1999), pág. 50, Exercício 4.
 #' @examples
 #'
 #' data(VieiraPg50.2)
@@ -186,8 +183,7 @@ NULL
 #'
 #' }
 #' @keywords DBC
-#' @source Vieira, S. (1999).  Estatística experimental (2th ed.).  São
-#'     Paulo, SP: Atlas. (pág. 57, exercício 3).
+#' @source VIEIRA (1999), pág. 57, exercício 3 .
 #' @examples
 #'
 #' data(VieiraPg57.1)
@@ -219,8 +215,7 @@ NULL
 #'
 #' }
 #' @keywords DBC
-#' @source Vieira, S. (1999). Estatística experimental (2th ed.).  São
-#'     Paulo, SP: Atlas. (pág. 57, exercício 4).
+#' @source VIEIRA (1999), pág. 57, exercício 4 .
 #' @examples
 #'
 #' data(VieiraPg57.2)
@@ -252,8 +247,7 @@ NULL
 #'
 #' }
 #' @keywords DIC
-#' @source Vieira, S. (1999). Estatística experimental (2th ed.). São
-#'     Paulo, SP: Atlas. (pág 44, tabela 4.1).
+#' @source VIEIRA (1999), pág. 44, tabela 4.1.
 #' @examples
 #'
 #' data(VieiraTb4.1)
@@ -285,8 +279,7 @@ NULL
 #'
 #' }
 #' @keywords DBC
-#' @source Vieira, S. (1999).  Estatística experimental (2th ed.).  São
-#'     Paulo, SP: Atlas. (pág. 53, tabela 5.3).
+#' @source VIEIRA (1999), pág. 53, tabela 5.3 .
 #' @examples
 #'
 #' data(VieiraTb5.3)
@@ -303,7 +296,8 @@ NULL
 NULL
 
 #' @name VieiraTb7.2
-#' @title N\enc{ú}{u}meros de Ovos de Poedeiras em Fun\enc{çã}{ca}o do Estilo Musical
+#' @title N\enc{ú}{u}meros de Ovos de Poedeiras em Fun\enc{çã}{ca}o do
+#'     Estilo Musical
 #' @description Dados que refere-se ao número de ovos por poedeira 35
 #'     dias após o início do experimento em função do estilo musical do
 #'     som ambiente: música sertaneja (a), música clássica (b) e música
@@ -320,8 +314,7 @@ NULL
 #'
 #' }
 #' @keywords DIC
-#' @source Vieira, S. (1999). Estatística experimental (2th ed.).
-#'     São Paulo, SP: Atlas. (Tabela 7.2, pág. 74).
+#' @source VIEIRA (1999), Tabela 7.2, pág. 74.
 #' @examples
 #'
 #' data(VieiraTb7.2)
@@ -336,7 +329,8 @@ NULL
 NULL
 
 #' @name VieiraTb7.7
-#' @title Teste Sobre Conhecimento em Fun\enc{çã}{ca}o da Fonte de Informa\enc{çã}{ca}o
+#' @title Teste Sobre Conhecimento em Fun\enc{çã}{ca}o da Fonte de
+#'     Informa\enc{çã}{ca}o
 #' @description Dados referentes às notas dos alunos em um teste de
 #'      conhecimento segundo a fonte de informação (tratamento).
 #' @format Um \code{data.frame} com 24 observações e 3 variáveis, em que
@@ -354,8 +348,7 @@ NULL
 #'
 #' }
 #' @keywords DBC
-#' @source Vieira, S. (1999). Estatística experimental (2th ed.).
-#'     São Paulo, SP: Atlas. (Tabela 7.7, pág. 81; Tabela 8.2, pág. 94).
+#' @source VIEIRA (1999), Tabela 7.7, pág. 81; Tabela 8.2, pág. 94.
 #' @examples
 #'
 #' library(lattice)
@@ -371,7 +364,8 @@ NULL
 NULL
 
 #' @name VieiraTb8.5
-#' @title N\enc{ú}{u}mero de Itens Produzidos Em Fun\enc{çã}{ca}o do Tipo de M\enc{á}{a}quina
+#' @title N\enc{ú}{u}mero de Itens Produzidos Em Fun\enc{çã}{ca}o do
+#'     Tipo de M\enc{á}{a}quina
 #' @description Os dados advém de um experimento no qual foram
 #'     comparados cinco tipos de máquinas, operadas por três diferentes
 #'     operadores (blocos).  O objetivo era verificar a suspeita de que
@@ -397,8 +391,7 @@ NULL
 #'
 #' }
 #' @keywords DBC
-#' @source Vieira, S. (1999). Estatística experimental (2th ed.).
-#'     São Paulo, SP: Atlas. (Tabela 8.5, pág. 98).
+#' @source VIEIRA (1999), Tabela 8.5, pág. 98.
 #' @examples
 #'
 #' library(lattice)
@@ -414,4 +407,3 @@ NULL
 #'        xlab = "Tipo de máquina")
 #'
 NULL
-

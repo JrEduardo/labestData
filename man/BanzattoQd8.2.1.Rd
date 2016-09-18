@@ -3,7 +3,8 @@
 \name{BanzattoQd8.2.1}
 \alias{BanzattoQd8.2.1}
 \title{Grupo de Ensaios de Competi\enc{çã}{ca}o de Batata}
-\format{Um \code{data.frame} com 160 observações e 4 variáveis.
+\format{Um \code{data.frame} com 160 observações e 4 variáveis, em
+    que
 
 \describe{
 
@@ -20,9 +21,7 @@
 
 }}
 \source{
-Banzatto, D. A., Kronka, S. D. (2013). Experimentação
-    Agrícola (4th ed.). Jaboticabal, SP: Funep. (Quadro 8.2.1,
-    pág. 190)
+BANZATTO; KRONKA (2013), Quadro 8.2.1, pág. 190.
 
 Filgueira, F. A. R. (1991). Interação genótipo ambiente em batata
     (\emph{Solanum tuberosum} L. spp \emph{tuberosum}). Tese
@@ -58,6 +57,5 @@ xyplot(prod ~ cult | exper, data = BanzattoQd8.2.1,
        ylab = expression("Produção de tubérculos"~(t~ha^{-1})))
 
 }
-\keyword{DBC}
 \keyword{GE}
 

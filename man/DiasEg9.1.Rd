@@ -16,8 +16,7 @@
 
 }}
 \source{
-Dias, L. A. S., Barros, W. S. (2009). Biometria
-    Experimental. Viçosa, MG: UFV. (Exemplo 9.1, pág. 222)
+BARROS; DIAS (2009), Exemplo 9.1, pág. 222.
 }
 \description{
 Em um ensaio em delineamento inteiramente casualizado

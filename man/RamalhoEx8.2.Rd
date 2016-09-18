@@ -21,9 +21,7 @@
 
 }}
 \source{
-Ramalho, M. A. P., Ferreira, D. F., Oliveira, A. C. (2005).
-    Experimentação em Genética e Melhoramento de Plantas (2th ed.).
-    Lavras: UFLA. (Exercício 8.2, pág. 133)
+RAMALHO et al. (2005), Exercício 8.2, pág. 133.
 }
 \description{
 Experimento em delineamento de blocos casualizados para
@@ -53,6 +51,5 @@ xyplot(prod ~ colh | clone,
                        type = "a", lwd = 2, lty = 1, ...))
 
 }
-\keyword{DBC}
 \keyword{GE}
 

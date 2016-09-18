@@ -15,8 +15,7 @@
 
 }}
 \source{
-D. F. (2011). Estatística Multivariada (2nd ed.). Lavras, MG:
-    Editora UFLA. (Exemplo 13.2, pág. 592-593)
+FERREIRA (2011), Exemplo 13.2, pág. 592-593.
 }
 \description{
 Dados provenientes de simulação. Foram 50 dados
@@ -28,6 +27,7 @@ Dados provenientes de simulação. Foram 50 dados
 \examples{
 
 data(FerreiraEg13.2)
+str(FerreiraEg13.2)
 summary(FerreiraEg13.2)
 
 library(lattice)

@@ -18,9 +18,7 @@
 
 }}
 \source{
-Ramalho, M. A. P., Ferreira, D. F., Oliveira, A. C. (2005).
-    Experimentação em Genética e Melhoramento de Plantas (2th ed.).
-    Lavras, MG: UFLA. (Exercício 4.1, pág 66)
+RAMALHO et al. (2005), Exercício 4.1, pág. 66.
 }
 \description{
 Experimento para avaliar o comprimento de conídios de

@@ -4,7 +4,8 @@
 \alias{PaulaEx4.6.17}
 \title{Avalia\enc{çã}{ca}o de Detergentes}
 \format{Um \code{data.frame} com 24 observações e 5 variáveis.
-    \describe{
+
+\describe{
 
 \item{\code{temp}}{Temperatura da água, mensurada em dois níveis
     (\code{alta} e \code{baixa}).}
@@ -19,13 +20,12 @@
     (\code{forte}, code{leve} e \code{média}).}
 
 \item{\code{nind}}{Número de pessoas que tiveram respostas conforme
-    combinação de \code{temp}, \code{usom}, \code{prefer} e \code{maciez}.}
+    combinação de \code{temp}, \code{usom}, \code{prefer} e
+    \code{maciez}.}
 
 }}
 \source{
-Paula, G. A. (2004). Modelos de regressão: com apoio
-    computacional. São Paulo, SP: IME-USP. (Exercício 4.6.17,
-    pág. 347)
+PAULA (2004), Exercício 4.6.17, pág. 347.
 }
 \description{
 Dados resultantes de uma pesquisa em que 1008 pessoas
@@ -37,7 +37,6 @@ Dados resultantes de uma pesquisa em que 1008 pessoas
 \examples{
 
 data(PaulaEx4.6.17)
-
 str(PaulaEx4.6.17)
 
 xt <- xtabs(nind ~ ., data = PaulaEx4.6.17)
@@ -45,7 +44,8 @@ ftable(xt)
 plot(xt)
 
 library(latticeExtra)
-useOuterStrips(    
+
+useOuterStrips(
     xyplot(nind ~ maciez | prefer + usom,
            groups = temp,
            data = PaulaEx4.6.17,

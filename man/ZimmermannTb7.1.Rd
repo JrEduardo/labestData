@@ -2,7 +2,8 @@
 % Please edit documentation in R/Zimmermann.R
 \name{ZimmermannTb7.1}
 \alias{ZimmermannTb7.1}
-\title{Ensaio de Competi\enc{çã}{ca}o de Cultivares em Reticulado Quadrado}
+\title{Ensaio de Competi\enc{çã}{ca}o de Cultivares em Reticulado
+    Quadrado}
 \format{Um \code{data.frame} com 75 observações e 4 variáveis, em que
 
 \describe{
@@ -21,9 +22,7 @@
 
 }}
 \source{
-Zimmermann, F. J. (2004). Estatística aplicada à pesquisa
-    agrícola (1st ed.). Santo Antônio de Goiás, GO: Embrapa Arroz e
-    Feijão. (Tabela 7.1, pág. 136)
+ZIMMERMANN (2004), Tabela 7.1, pág. 136.
 }
 \description{
 Experimento feito pelos pesquisadores Orlando Peixoto

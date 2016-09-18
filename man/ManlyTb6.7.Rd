@@ -2,14 +2,15 @@
 % Please edit documentation in R/Manly.R
 \name{ManlyTb6.7}
 \alias{ManlyTb6.7}
-\title{Consumo de prote\enc{í}{i}na}
+\title{Consumo de Prote\enc{í}{i}na}
 \format{Um \code{data.frame} com 25 países em 9 variáveis.
 
 \describe{
 
 \item{\code{pais}}{Identificação do país.}
 
-\item{\code{cv}}{Consumo de carne vermelha medida em gramas por pessoa por dia.}
+\item{\code{cv}}{Consumo de carne vermelha medida em gramas por
+    pessoa por dia.}
 
 \item{\code{cb}}{Consumo de carne branca.}
 
@@ -20,44 +21,45 @@
 \item{\code{peixe}}{Consumo de peixe.}
 
 \item{\code{cere}}{Consumo por cereais.}
- 
+
 \item{\code{carb}}{Consumo de carboidratos.}
 
 \item{\code{gnso}}{Consumo de grãos, nozes e sementes oleaginosas.}
- 
+
 \item{\code{fv}}{Consumo de frutas e vegetais.}
- 
+
 \item{\code{total}}{Total de consumo do país.}
 
 }}
 \source{
-Manly, B. J. F. (2005). Métodos Estatísticos Multivariados - uma introdução.
-     Porto Alegre, RS: Bookman (pg 103)
+MANLY (2005), pág. 103.
 
-Manly, B. J. F. (2005). Métodos Estatísticos Multivariados - 
-     uma introdução. Porto Alegre, RS: Bookman (pg 103)
+MANLY (2005), pág. 103.
 }
 \description{
-Estimativas do consumo médio de proteínas de diferentes fontes de alimentos para os habitantes de 25 países europeus. Medida em gramas por pessoa por dia
+Estimativas do consumo médio de proteínas de diferentes
+    fontes de alimentos para os habitantes de 25 países
+    europeus. Medida em gramas por pessoa por dia
 
-Estimativas dos consumos médios de proteínas de diferentes 
-fontes de alimentos para habitantes de 25 países europeus. 
-Consumos registrados em gramas por pessoa por dia.
+Estimativas dos consumos médios de proteínas de
+    diferentes fontes de alimentos para habitantes de 25 países
+    europeus.  Consumos registrados em gramas por pessoa por dia.
 }
 \examples{
 
 data(ManlyTb6.7)
+str(ManlyTb6.7)
 
 pairs(~ cv + cb + ovo + leite + peixe + cere + carb + gnso + fv,
-      data = ManlyTb6.7, 
-      main="Matriz das variáveis de consumo de proteína")
+      data = ManlyTb6.7)
+
 
 data(ManlyTb6.7)
+str(ManlyTb6.7)
 
 pairs(~ cv + cb + ovo + leite + peixe + cere + carb + gnso + fv,
-      data = ManlyTb6.7, 
-      main="Matriz das variáveis de consumo de proteína")
+      data = ManlyTb6.7)
+
 }
-\keyword{AnaComp}
-\keyword{CP}
+\keyword{AnaComPrin}
 

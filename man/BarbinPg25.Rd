@@ -3,7 +3,7 @@
 \name{BarbinPg25}
 \alias{BarbinPg25}
 \title{Enraizamento de Estacas de P\enc{ê}{e}ssego}
-\format{Um \code{data.frame} com 20 observações e 2 variáveis.
+\format{Um \code{data.frame} com 20 observações e 2 variáveis, em que
 
 \describe{
 
@@ -19,9 +19,7 @@ O atributo \code{missings} é um vetor com números que indicam a
     posição das observações consideradas perdidas para se ilustrar a
     análise do experimento com número não igual de repetições.}
 \source{
-Barbin, D. (2013). Planejamento e Análise Estatística de
-    Experimentos Agronômicos (2nd ed.). Londrina, PR:
-    Mecenas. (pág. 25)
+BARBIN (2013), pág. 25.
 
 Sambão, J. C., Sampaio, V. R., Barbin, D. (1982). Enraizamento de
     estacas herbáceas de pessegueiro (\emph{Prunus persica}

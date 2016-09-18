@@ -2,7 +2,8 @@
 % Please edit documentation in R/Pimentel.R
 \name{PimentelTb7.8.1}
 \alias{PimentelTb7.8.1}
-\title{Acidez de Variedades de Mangas em Fun\enc{çã}{ca}o da \enc{É}{E}poca}
+\title{Acidez de Variedades de Mangas em Fun\enc{çã}{ca}o da
+    \enc{É}{E}poca}
 \format{Um \code{data.frame} com 54 observações e 4 variáveis, em que
 
 \describe{
@@ -22,9 +23,7 @@
 
 }}
 \source{
-Pimentel-Gomes, F. (2009). Curso de Estatística
-    Experimental (15th ed.). Piracicaba, SP: FEALQ. (Tabela 7.8.1,
-    pág 132)
+PIMENTEL-GOMES (2009), Tabela 7.8.1, pág. 132.
 
 Simão, S. Estudo da planta e dos frutos da mangueira (\emph{Magnifera
     indica} L.). Piracicaba, 1960. Tese.
@@ -51,6 +50,5 @@ xyplot(acidez ~ mes | factor(ano), groups = varied,
        ylab = "Acidez do fruto")
 
 }
-\keyword{FAT3}
-\keyword{PS}
+\keyword{PSS}
 

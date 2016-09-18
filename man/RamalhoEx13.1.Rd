@@ -20,9 +20,7 @@
 
 }}
 \source{
-Ramalho, M. A. P., Ferreira, D. F., Oliveira, A. C. (2005).
-    Experimentação em Genética e Melhoramento de Plantas (2th ed.).
-    Lavras: UFLA. (Exercício 13.1, pág. 255)
+RAMALHO et al. (2005), Exercício 13.1, pág. 255.
 }
 \description{
 Experimento referente a avaliação de clones de

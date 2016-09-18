@@ -4,7 +4,7 @@
 \alias{CharnetEg12.2}
 \title{Estudo da Medida de Tecido Adiposo Obtido por Tomografia
     Computadorizada}
-\format{Um \code{data.frame} com 29 linhas e 5 colunas.
+\format{Um \code{data.frame} com 29 linhas e 5 colunas, em que
 
 \describe{
 
@@ -21,10 +21,7 @@
 
 }}
 \source{
-Charnet, R., de Luna Freire, C.A., Charnet, E.M.R., Bonvino,
-    H. (2008). Análise de modelos de regressão linear com aplicações
-    (2nd ed.). Campinas, SP: Editora Unicamp (Capítulo 12, exemplo
-    12.2, pág. 286)
+CHARNET et al. (2008), Capítulo 12, exemplo 12.2, pág. 286.
 }
 \description{
 Relação entre as medidas de tecidos adiposos obtidas por
@@ -36,11 +33,11 @@ Relação entre as medidas de tecidos adiposos obtidas por
 data(CharnetEg12.2)
 
 panel.density <- function(x, ...) {
-    usr <- par('usr')
+    usr <- par("usr")
     on.exit(par(usr))
     par(usr = c(usr[1:2], 0, 1.5))
     par(new = TRUE)
-    plot(density(x), xlab = '', ylab = '', main = '')
+    plot(density(x), xlab = "", ylab = "", main = "")
 }
 
 pairs(CharnetEg12.2, diag.panel = panel.density)

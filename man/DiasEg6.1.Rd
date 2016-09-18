@@ -2,7 +2,8 @@
 % Please edit documentation in R/Dias.R
 \name{DiasEg6.1}
 \alias{DiasEg6.1}
-\title{Ganhos de Produ\enc{çã}{ca}o de Arroz nos Ciclos de Sele\enc{çã}{ca}o}
+\title{Ganhos de Produ\enc{çã}{ca}o de Arroz nos Ciclos de
+    Sele\enc{çã}{ca}o}
 \format{Um \code{data.frame} com 6 observações e 2 variáveis, em que
 
 \describe{
@@ -14,8 +15,7 @@
 
 }}
 \source{
-Dias, L. A. S., Barros, W. S. (2009). Biometria
-    Experimental. Viçosa, MG: UFV. (Exemplo 6.1, pág. 157)
+BARROS; DIAS (2009), Exemplo 6.1, pág. 157.
 }
 \description{
 Amostra com 6 pares de observações representanto os
@@ -35,4 +35,5 @@ xyplot(prod ~ ciclos, data = DiasEg6.1, type = c("p", "r"),
 
 }
 \keyword{DIC}
+\keyword{RS}
 

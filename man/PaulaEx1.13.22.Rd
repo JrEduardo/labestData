@@ -4,7 +4,8 @@
 \alias{PaulaEx1.13.22}
 \title{Vendas de Im\enc{ó}{o}veis}
 \format{Um \code{data.frame} com 27 observações e 5 variáveis.
-    \describe{
+
+\describe{
 
 \item{\code{impos}}{Valor cobrado de imposto, em 100 dólares.}
 
@@ -18,9 +19,7 @@
 
 }}
 \source{
-Paula, G. A. (2004). Modelos de regressão: com apoio
-    computacional. São Paulo, SP: IME-USP. (Exercício 1.13.22,
-    pág. 111)
+PAULA (2004), Exercício 1.13.22, pág. 111.
 }
 \description{
 Dados relativos a uma amostra de 27 imóveis vendidos. Os
@@ -28,15 +27,16 @@ Dados relativos a uma amostra de 27 imóveis vendidos. Os
     no preço de venda de um imóvel.
 }
 \examples{
-data(PaulaEx1.13.22)
 
+data(PaulaEx1.13.22)
 str(PaulaEx1.13.22)
 
 library(lattice)
+
 splom(PaulaEx1.13.22,
       type = c("p", "g", "smooth"),
       col.line = 1)
 
 }
-\keyword{TODO}
+\keyword{RM}
 

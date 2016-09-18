@@ -2,36 +2,35 @@
 % Please edit documentation in R/Mingoti.R
 \name{MingotiTb3.10}
 \alias{MingotiTb3.10}
-\title{Dados relativos aos pesos de unidades empacotadas}
+\title{Dados Relativos aos Pesos de Unidades Empacotadas}
 \format{Um \code{data.frame} com 20 observações e 2 variáveis, em que
 
 \describe{
 
 \item{\code{maq}}{Identificação da máquina (A ou B).}
- 
-\item{\code{peso}}{Peso das 20 unidades coletadas das duas máquinas 
+
+\item{\code{peso}}{Peso das 20 unidades coletadas das duas máquinas
     de empacotamento (gramas).}
 
 }}
 \source{
-Mingoti, S.A. (2005). Análise de dados através de métodos de 
-     estatística multivariada - uma abordagem aplicada. 
-     Belo Horizonte, MG: Editora UFMG. (pg 75).
+MINGOTI (2005), pág. 75.
 }
 \description{
-Dados de 10 unidades (produtos embalados) selecionadas 
-    aleatoriamente de cada uma de duas máquinas de empacotamento
-    de determinada empresa, durante o período de produção. 
-    Foram registrados os pesos das 20 unidades.
+Dados de 10 unidades (produtos embalados) selecionadas
+    aleatoriamente de cada uma de duas máquinas de empacotamento de
+    determinada empresa, durante o período de produção.  Foram
+    registrados os pesos das 20 unidades.
 }
 \examples{
 
-data(MingotiTb3.10) 
+data(MingotiTb3.10)
+str(MingotiTb3.10)
 
 library(lattice)
 
-bwplot(peso~maq, data = MingotiTb3.10, xlab = "Máquina")
+bwplot(peso ~ maq, data = MingotiTb3.10, xlab = "Máquina")
 
 }
-\keyword{AnaComp}
+\keyword{manova}
 

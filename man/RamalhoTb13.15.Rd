@@ -16,9 +16,7 @@
 
 }}
 \source{
-Ramalho, M. A. P., Ferreira, D. F., Oliveira, A. C. (2005).
-    Experimentação em Genética e Melhoramento de Plantas (2th ed.).
-    Lavras: UFLA. (Tabela 13.15, pág. 252)
+RAMALHO et al. (2005), Tabela 13.15, pág. 252.
 }
 \description{
 Experimento envolvendo a produção de ramas (parte aérea)

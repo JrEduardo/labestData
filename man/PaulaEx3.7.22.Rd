@@ -2,7 +2,7 @@
 % Please edit documentation in R/Paula.R
 \name{PaulaEx3.7.22}
 \alias{PaulaEx3.7.22}
-\title{Avalia\enc{çã}{ca}o de caduquice}
+\title{Avalia\enc{çã}{ca}o de Caduquice}
 \format{Um \code{data.frame} com 55 observações e 2 variáveis.
 
 \describe{
@@ -14,9 +14,7 @@
 
 }}
 \source{
-Paula, G. A. (2004). Modelos de regressão: com apoio
-    computacional. São Paulo, SP: IME-USP. (Exercício 3.7.22,
-    pág. 278)
+PAULA (2004), Exercício 3.7.22, pág. 278.
 }
 \description{
 Os dados provém de um experimento com 54 indivíduos

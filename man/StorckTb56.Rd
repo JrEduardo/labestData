@@ -18,9 +18,7 @@
 
 }}
 \source{
-Storck, L., Garcia, B. C., Lopes, S. J., Estefanel,
-    V. (2011). Experimentação Vegetal (3th ed.). Santa Maria, RS:
-    UFSM.  (Tabela 56, pg 134)
+STORCK et al. (2011), Tabela 56, pg 134.
 }
 \description{
 Resultados (kg/parcela) em um experimento bifatorial 3

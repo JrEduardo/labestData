@@ -16,8 +16,7 @@
 
 }}
 \source{
-Faria, J. C. (2009). Notas de aulas expandidas (10th ed.)
-    Ilhéus - BA: UESC. (Quadro 14.2 pág. 198)
+FARIA (2009), Quadro 14.2 pág. 198.
 }
 \description{
 Os dados abaixo são provenientes de um ensaio em que
@@ -39,5 +38,5 @@ xyplot(prod ~ N, data = FariaQd14.2,
 
 }
 \keyword{DIC}
-\keyword{RL}
+\keyword{RS}
 

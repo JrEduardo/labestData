@@ -2,24 +2,22 @@
 % Please edit documentation in R/Charnet.R
 \name{CharnetEx2.8}
 \alias{CharnetEx2.8}
-\title{Dados Gen\enc{é}{e}ricos para Regress\enc{ã}{a}o Linear Simples}
-\format{Um \code{data.frame} com 3 colunas e 34 linhas.
+\title{Dados Gen\enc{é}{e}ricos para Regress\enc{ã}{a}o Linear
+    Simples}
+\format{Um \code{data.frame} com 3 colunas e 34 linhas, em que
 
 \describe{
 
-    \item{\code{conj}}{Fator que indica a qual conjunto a observação
+\item{\code{conj}}{Fator que indica a qual conjunto a observação
     pertence.}
 
-    \item{\code{x}}{Variável independente, sem interpretação.}
+\item{\code{x}}{Variável independente, sem interpretação.}
 
-    \item{\code{y}}{Variável dependente, sem interpretação.}
+\item{\code{y}}{Variável dependente, sem interpretação.}
 
 }}
 \source{
-Charnet, R., de Luna Freire, C.A., Charnet, E.M.R., Bonvino,
-    H. (2008). Análise de modelos de regressão linear com aplicações
-    (2nd ed.). Campinas, SP: Editora Unicamp (Capítulo 2, exercício
-    8, pág. 47)
+CHARNET et al. (2008), Capítulo 2, exercício 8, pág. 47.
 }
 \description{
 Três conjuntos de dados apresentados para
@@ -34,12 +32,14 @@ Este conjunto de dados agrupa dados onde pressupõe-se que
 \examples{
 
 data(CharnetEx2.8)
+str(CharnetEx2.8)
 
+# detach("package:lattice")
 library(ggplot2)
 
-ggplot(CharnetEx2.8, aes(x = x, y = y))
-    geom_point()
-    facet_grid(~conj)
+ggplot(CharnetEx2.8, aes(x = x, y = y)) +
+    geom_point() +
+    facet_grid(~conj) +
     stat_smooth(method = "lm")
 
 }

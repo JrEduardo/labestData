@@ -2,33 +2,34 @@
 % Please edit documentation in R/Epprecht.R
 \name{EpprechtTb8.12}
 \alias{EpprechtTb8.12}
-\title{Controle de qualidade para a fra\enc{çã}{ca}o de n\enc{ã}{a}o conformes.}
-\format{Um \code{data.frame} com 20 observações e 1 variável, 
-    em que
+\title{Controle de Qualidade para a Fra\enc{çã}{ca}o de N\enc{ã}{a}o
+    Conformes}
+\format{Um \code{data.frame} com 20 observações e 1 variável, em que
 
-\describe{ 
+\describe{
 
 \item{\code{nconf}}{Número de peças não conformes nas amostras.}
 
 }}
 \source{
-Costa, A. F. B., Epprecht, E. K., Carpinetti, L. (2010).
-     Controle Estatístico de Qualidade (2nd ed.). São Paulo - SP:
-     Editora Atlas. (pg 227).
+COSTA et al. (2010), pág. 227.
 }
 \description{
-Dados de 20 amostras, representando o número 
-    de peças não-conformes em amostras de tamanho 100.
+Dados de 20 amostras, representando o número de peças
+    não-conformes em amostras de tamanho 100.
 }
 \examples{
 
-data(EpprechtTb8.12) 
+data(EpprechtTb8.12)
+str(EpprechtTb8.12)
 
 library(qcc)
 
-qcc(EpprechtTb8.12, type="p", size=100,
-    xlab="Amostra", ylab="Proporção de itens não conformes", title=" ")
-                  
+qcc(EpprechtTb8.12, type = "p", size = 100,
+    xlab = "Amostra",
+    ylab = "Proporção de itens não conformes",
+    title = "")
+
 }
 \keyword{CEQ}
 

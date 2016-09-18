@@ -3,7 +3,7 @@
 \name{BarbinEx8}
 \alias{BarbinEx8}
 \title{Controle Qu\enc{í}{i}mico do Damping-off em Eucalipto}
-\format{Um \code{data.frame} com 45 observações e 3 variáveis.
+\format{Um \code{data.frame} com 45 observações e 3 variáveis, em que
 
 \describe{
 
@@ -19,9 +19,7 @@
 
 }}
 \source{
-Barbin, D. (2013). Planejamento e Análise Estatística de
-    Experimentos Agronômicos (2nd ed.). Londrina, PR:
-    Mecenas. (Exercício 8, pág. 202)
+BARBIN (2013), Exercício 8, pág. 202.
 
  Krugner, T. L. Controle químico do "damping-off" em
     eucalipto. Piracicaba, 1971. 60p. Dissertação (Mestrado) - Escola

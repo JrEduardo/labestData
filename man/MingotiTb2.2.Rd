@@ -2,7 +2,7 @@
 % Please edit documentation in R/Mingoti.R
 \name{MingotiTb2.2}
 \alias{MingotiTb2.2}
-\title{Notas de estudantes em tr\enc{ê}{e}s provas}
+\title{Notas de Estudantes em Tr\enc{ê}{e}s Provas}
 \format{Um \code{data.frame} com 19 observações e 4 variáveis, em que
 
 \describe{
@@ -17,9 +17,7 @@
 
 }}
 \source{
-Mingoti, S. A. (2005). Análise de dados através de métodos de
-    estatística multivariada: uma abordagem aplicada.  Belo
-    Horizonte, MG: Editora UFMG. (pg 52).
+MINGOTI (2005), pág. 52.
 }
 \description{
 Notas obtidas em uma turma de estudantes em três provas
@@ -28,10 +26,10 @@ Notas obtidas em uma turma de estudantes em três provas
 \examples{
 
 data(MingotiTb2.2)
+str(MingotiTb2.2)
 
 pairs(~ p1 + p2 + p3,
-      data = MingotiTb2.2,
-      main = "Matriz de dispersão das 4 notas")
+      data = MingotiTb2.2)
 
 }
 \keyword{TODO}

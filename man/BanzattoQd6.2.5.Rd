@@ -3,7 +3,7 @@
 \name{BanzattoQd6.2.5}
 \alias{BanzattoQd6.2.5}
 \title{Fontes e Doses para Aduba\enc{çã}{ca}o Nitrogenada no Milho}
-\format{Um \code{data.frame} com 48 observações e 4 variáveis.
+\format{Um \code{data.frame} com 48 observações e 4 variáveis, em que
 
 \describe{
 
@@ -20,9 +20,7 @@
 
 }}
 \source{
-Banzatto, D. A., Kronka, S. D. (2013). Experimentação
-    Agrícola (4th ed.). Jaboticabal, SP: Funep. (Quadro 6.2.5,
-    pág. 144)
+BANZATTO; KRONKA (2013), Quadro 6.2.5, pág. 144.
 }
 \description{
 Experimento que estudou a produção de milho como função

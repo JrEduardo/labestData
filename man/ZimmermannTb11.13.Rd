@@ -2,7 +2,8 @@
 % Please edit documentation in R/Zimmermann.R
 \name{ZimmermannTb11.13}
 \alias{ZimmermannTb11.13}
-\title{Absor\enc{çã}{ca}o e Transloca\enc{çã}{ca}o de Zinco em Arroz de Terras Altas}
+\title{Absor\enc{çã}{ca}o e Transloca\enc{çã}{ca}o de Zinco em Arroz
+    de Terras Altas}
 \format{Um \code{data.frame} com 81 observações e 6 variáveis, em que
 
 \describe{
@@ -26,9 +27,7 @@
 
 }}
 \source{
-Zimmermann, F. J. (2004). Estatística aplicada à pesquisa
-    agrícola (1st ed.). Santo Antônio de Goiás, GO: Embrapa Arroz e
-    Feijão. (Tabela 11.13, pág. 234)
+ZIMMERMANN (2004), Tabela 11.13, pág. 234.
 }
 \description{
 Dados de um experimento fatorial \eqn{3^3}, com
@@ -44,7 +43,6 @@ Dados de um experimento fatorial \eqn{3^3}, com
 library(lattice)
 
 data(ZimmermannTb11.13)
-
 str(ZimmermannTb11.13)
 
 ftable(xtabs(~fosf + calc + zinco,
@@ -66,6 +64,6 @@ xyplot(prod ~ factor(fosf) | factor(calc),
 
 }
 \keyword{DBC}
-\keyword{FAT}
+\keyword{FAT3K}
 \keyword{confundimento}
 

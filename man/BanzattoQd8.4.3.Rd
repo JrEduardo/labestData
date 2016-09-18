@@ -2,8 +2,9 @@
 % Please edit documentation in R/Banzatto.R
 \name{BanzattoQd8.4.3}
 \alias{BanzattoQd8.4.3}
-\title{Grupo de Experimentos de Aduba\enc{çã}{ca}o Nitrogenada em Milho}
-\format{Um \code{data.frame} com 24 observações e 3 variáveis.
+\title{Grupo de Experimentos de Aduba\enc{çã}{ca}o Nitrogenada em
+    Milho}
+\format{Um \code{data.frame} com 24 observações e 3 variáveis, em que
 
 \describe{
 
@@ -23,9 +24,7 @@
 O \code{data.frame} possui um atributo com os quadrados médios
     residuais em cada experimento.}
 \source{
-Banzatto, D. A., Kronka, S. D. (2013). Experimentação
-    Agrícola (4th ed.). Jaboticabal, SP: Funep. (Quadro 8.4.3,
-    pág. 202)
+BANZATTO; KRONKA (2013), Quadro 8.4.3, pág. 202.
 }
 \description{
 Dados referentes à produção de milho em grãos de ensaios

@@ -2,7 +2,8 @@
 % Please edit documentation in R/Pimentel.R
 \name{PimentelTb12.2.1}
 \alias{PimentelTb12.2.1}
-\title{Experimento de Aduba\enc{çã}{ca}o com P\eqn{_2}O\eqn{_5} em Milho}
+\title{Experimento de Aduba\enc{çã}{ca}o com P\eqn{_2}O\eqn{_5} em
+    Milho}
 \format{Um \code{data.frame} com 20 observações e 3 variáveis, em que
 
 \describe{
@@ -17,9 +18,7 @@
 
 }}
 \source{
-Pimentel-Gomes, F. (2009). Curso de Estatística
-    Experimental (15th ed.). Piracicaba, SP: FEALQ. (Tabela 12.2.1,
-    pág. 232)
+PIMENTEL-GOMES (2009), Tabela 12.2.1, pág. 232.
 }
 \description{
 Experimento de adubação de milho feito pelos engenheiros
@@ -52,5 +51,5 @@ xyplot(prod ~ P2O5,
 
 
 }
-\keyword{RP}
+\keyword{RS}
 

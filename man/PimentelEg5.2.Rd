@@ -13,11 +13,12 @@
 \item{\code{variedade}}{Fator de 8 níveis qualitativos que são as
     variedades de batatinha.}
 
-\item{producao}{Produção de batatinha, em ton ha\eqn{^{-1}}.}
+\item{producao}{Produção de batatinha, em ton ha\eqn{^{-1}}, nas
+    unidades experimentais.}
 
 }}
 \source{
-PIMENTEL-GOMES (2009), Exemplo 5.2, pág. ??.
+PIMENTEL-GOMES (2009), Exemplo 5.2.
 }
 \description{
 Experimento de competição de variedades de batatinha
@@ -31,13 +32,11 @@ library(lattice)
 data(PimentelEg5.2)
 str(PimentelEg5.2)
 
-xtabs(~variedade + bloco, data = PimentelEg5.2)
-
 xyplot(producao ~ variedade,
        groups = bloco,
        data = PimentelEg5.2,
-       type = "o",
-       ylab = expression(Produção ~ (t ~ ha^{-1})),
+       type = "b",
+       ylab = expression(Produção~(t~ha^{-1})),
        xlab = "Variedades de batatinha")
 
 }

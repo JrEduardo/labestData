@@ -2,38 +2,39 @@
 % Please edit documentation in R/Demetrio.R
 \name{DemetrioTb7.1}
 \alias{DemetrioTb7.1}
-\title{Produ\enc{çã}{ca}o de Milho por Adubo}
-\format{Um \code{data.frame} de 20 linhas e 3 colunas.
+\title{Produ\enc{çã}{ca} de Milho em Fun\enc{çã}{ca}o da
+    Aduba\enc{çã}{ca}o}
+\format{Um \code{data.frame} de 20 linhas e 3 colunas, em que
 
 \describe{
 
-    \item{\code{dose}}{Dose de \eqn{P_2O_5}.}
+\item{\code{dose}}{Dose de \eqn{P_2O_5}.}
 
-    \item{\code{bloco}}{Bloco ao qual a observação pertence, para
+\item{\code{bloco}}{Bloco ao qual a observação pertence, para
     controle local de variação.}
-    
-    \item{\code{sat}}{Valor da produção de milho, medido em
-    kg/parcela.}
-    
+
+\item{\code{sat}}{Valor da produção de milho, medido em kg/parcela.}
+
 }}
 \source{
-Demétrio, C. G. B., Zocchi, S. S. (2011). Modelos de
-    Regressão. Piracicaba: ESALQ. (Tabela 7.1 pág. 195)
+DEMÉTRIO; ZOCCHI (2011), Tabela 7.1 pág. 195.
 }
 \description{
 Os dados referem-se a produções de milho, em kg/parcela,
-    de um experimento casualizado em blocos de adubação com 
+    de um experimento casualizado em blocos de adubação com
     diferentes doses de \eqn{P_2O_5}.
 }
 \examples{
 
 data(DemetrioTb7.1)
+str(DemetrioTb7.1)
 
 library(lattice)
+
 xyplot(producao ~ dose, groups = bloco, data = DemetrioTb7.1,
-    xlab = "Dose", ylab = "Produção")
+       xlab = "Dose", ylab = "Produção")
 
 }
 \keyword{DBC}
-\keyword{RegSeg}
+\keyword{RS}
 

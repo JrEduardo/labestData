@@ -2,7 +2,8 @@
 % Please edit documentation in R/Pimentel.R
 \name{PimentelTb12.4.1}
 \alias{PimentelTb12.4.1}
-\title{Produ\enc{çã}{ca}o de Cana em Fun\enc{çã}{ca}o do Teor de K do Solo}
+\title{Produ\enc{çã}{ca}o de Cana em Fun\enc{çã}{ca}o do Teor de K do
+    Solo}
 \format{Um \code{data.frame} com 15 observações e 2 variáveis, em que
 
 \describe{
@@ -14,8 +15,7 @@
 
 }}
 \source{
-Pimentel-Gomes, F. (2009). Curso de Estatística Experimental
-    (15th ed.). Piracicaba, SP: FEALQ. (Tabela 12.4.1, pág. 238)
+PIMENTEL-GOMES (2009), Tabela 12.4.1, pág. 238.
 }
 \description{
 Experimento de produção de cana-de-açúcar em função do
@@ -37,5 +37,5 @@ xyplot(prod ~ K2O,
        xlab = "Teor de K do solo")
 
 }
-\keyword{RP}
+\keyword{RS}
 

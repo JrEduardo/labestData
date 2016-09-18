@@ -2,8 +2,9 @@
 % Please edit documentation in R/Banzatto.R
 \name{BanzattoQd4.7.1}
 \alias{BanzattoQd4.7.1}
-\title{Compara\enc{çã}{ca}o de M\enc{é}{e}todos de Semeadura do Mamoeiro}
-\format{Um \code{data.frame} com 24 observações e 3 variáveis.
+\title{Compara\enc{çã}{ca}o de M\enc{é}{e}todos de Semeadura do
+    Mamoeiro}
+\format{Um \code{data.frame} com 24 observações e 3 variáveis, em que
 
 \describe{
 
@@ -18,9 +19,7 @@
 
 }}
 \source{
-Banzatto, D. A., Kronka, S. D. (2013). Experimentação
-    Agrícola (4th ed.). Jaboticabal, SP: Funep. (Quadro 4.7.1
-    pág. 93)
+BANZATTO; KRONKA (2013), Quadro 4.7.1, pág. 93.
 
 Ruiz, P. R. N. (1977). Estudo comparativo entre diferentes métodos de
     semeadura na cultura do mamoeiro (\emph{Carica papaya}
@@ -54,4 +53,5 @@ xyplot(altura ~ semead, data = BanzattoQd4.7.1,
 
 }
 \keyword{DBC}
+\keyword{replicata}
 

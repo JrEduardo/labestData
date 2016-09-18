@@ -1,13 +1,14 @@
 #' @name BanzattoQd1.2.3
-#' @title Di\enc{â}{a}metro \enc{à}{a} Altura do Peito de \emph{Eucalyptus saligna}
+#' @title Di\enc{â}{a}metro \enc{à}{a} Altura do Peito de
+#'     \emph{Eucalyptus saligna}
 #' @description Valores de diâmetro à altura do peito (DAP, cm) de uma
 #'     amostra aleatória de árvores de \emph{Eucalyptus saligna} de um
 #'     povoamento com 15 anos de idade.
 #' @format Um vetor numérico com 20 elementos.
-#' @keywords amostra
-#' @source Banzatto, D. A., Kronka, S. D. (2013). Experimentação
-#'     Agrícola (4th ed.). Jaboticabal, SP: Funep. (Quadro 1.2.3 pág. 3)
+#' @keywords AAS
+#' @source BANZATTO; KRONKA (2013), Quadro 1.2.3, pág. 3.
 #' @examples
+#'
 #' data(BanzattoQd1.2.3)
 #'
 #' hist(BanzattoQd1.2.3, prob = TRUE,
@@ -26,7 +27,7 @@
 NULL
 
 #' @name BanzattoQd3.2.1
-#' @title Controle de pulg\enc{ã}{a}o na cultura de pepino
+#' @title Controle de Pulg\enc{ã}{a}o na Cultura de Pepino
 #' @description Dados de um experimento visando controle de pulgão
 #'     (\emph{Aphis gossypii} Glover) em cultura de pepino, instalado em
 #'     delineamento inteiramente casualizado com 6 repetições. A
@@ -47,9 +48,7 @@ NULL
 #'
 #' }
 #' @keywords DIC contagem
-#' @source Banzatto, D. A., Kronka, S. D. (2013). Experimentação
-#'     Agrícola (4th ed.). Jaboticabal, SP: Funep. (Quadro 3.2.1 pág.
-#'     44)
+#' @source BANZATTO; KRONKA (2013), Quadro 3.2.1, pág. 44.
 #' @examples
 #'
 #' library(lattice)
@@ -70,7 +69,7 @@ NULL
 #'     cultivares de mandioca. O experimento foi instalado em
 #'     delineamento inteiramente casualizado devido a área ser homogênea
 #'     quanto às condições experimentais.
-#' @format Um \code{data.frame} com 25 observações e 3 variáveis.
+#' @format Um \code{data.frame} com 25 observações e 3 variáveis, em que
 #'
 #' \describe{
 #'
@@ -85,9 +84,7 @@ NULL
 #'
 #' }
 #' @keywords DIC
-#' @source Banzatto, D. A., Kronka, S. D. (2013). Experimentação
-#'     Agrícola (4th ed.). Jaboticabal, SP: Funep. (Quadro 3.4.1 pág.
-#'     50)
+#' @source BANZATTO; KRONKA (2013), Quadro 3.4.1, pág. 50.
 #' @examples
 #'
 #' library(lattice)
@@ -104,12 +101,13 @@ NULL
 NULL
 
 #' @name BanzattoQd3.6.1
-#' @title Produ\enc{çã}{ca}o de Mat\enc{é}{e}ria Seca em Cultivares de Sorgo
+#' @title Produ\enc{çã}{ca}o de Mat\enc{é}{e}ria Seca em Cultivares de
+#'     Sorgo
 #' @description Experimento em delineamento inteiramente casualizado
 #'     avaliando a produção de matéria de cultivares de sorgo. O
 #'     experimento é desbalanceado no número de repetições das
 #'     cultivares.
-#' @format Um \code{data.frame} com 30 observações e 3 variáveis.
+#' @format Um \code{data.frame} com 30 observações e 3 variáveis, em que
 #'
 #' \describe{
 #'
@@ -123,9 +121,7 @@ NULL
 #'
 #' }
 #' @keywords DIC desbalanceado
-#' @source Banzatto, D. A., Kronka, S. D. (2013). Experimentação
-#'     Agrícola (4th ed.). Jaboticabal, SP: Funep. (Quadro 3.6.1 pág.
-#'     57)
+#' @source BANZATTO; KRONKA (2013), Quadro 3.6.1, pág. 57.
 #' @examples
 #' library(lattice)
 #'
@@ -141,12 +137,13 @@ NULL
 NULL
 
 #' @name BanzattoQd3.7.1
-#' @title Composi\enc{çã}{ca}o do Substrato na Altura de \emph{Pinus oocarpa}
+#' @title Composi\enc{çã}{ca}o do Substrato na Altura de \emph{Pinus
+#'     oocarpa}
 #' @description Dados de experimento para estudo do efeito de 5
 #'     composições de substrato para o desenvolvimento de \emph{Pinus
 #'     oocarpa}. Experimento realizado em delineamento inteiramente
 #'     casualizado.
-#' @format Um \code{data.frame} com 20 observações e 3 variáveis.
+#' @format Um \code{data.frame} com 20 observações e 3 variáveis, em que
 #'
 #' \describe{
 #'
@@ -163,9 +160,7 @@ NULL
 #'
 #' }
 #' @keywords DIC contrastes
-#' @source Banzatto, D. A., Kronka, S. D. (2013). Experimentação
-#'     Agrícola (4th ed.). Jaboticabal, SP: Funep. (Quadro 3.7.1 pág.
-#'     64)
+#' @source BANZATTO; KRONKA (2013), Quadro 3.7.1, pág. 64.
 #' @examples
 #'
 #' library(lattice)
@@ -183,13 +178,14 @@ NULL
 NULL
 
 #' @name BanzattoQd4.5.2
-#' @title Efeito do Promalin sobre Furtos de Macieira
+#' @title Efeito do Promalin sobre a Produ\enc{çã}{ca}o de Frutos de
+#'     Macieira
 #' @description Resultados de um experimento instalado na Fazenda
 #'     Chapadão, no município de Angatuba - SP. O delineamento
 #'     experimental foi o de blocos casualizados, sendo as parcelas
 #'     constituídas de 4 plantas espaçadas de 6 x 7 metros, com 12 anos
 #'     de idade na época da instalação do experimento.
-#' @format Um \code{data.frame} com 20 observações e 3 variáveis.
+#' @format Um \code{data.frame} com 20 observações e 3 variáveis, em que
 #'
 #' \describe{
 #'
@@ -206,9 +202,7 @@ NULL
 #'
 #' }
 #' @keywords DBC
-#' @source Banzatto, D. A., Kronka, S. D. (2013). Experimentação
-#'     Agrícola (4th ed.). Jaboticabal, SP: Funep. (Quadro 4.5.2
-#'     pág. 84)
+#' @source BANZATTO; KRONKA (2013), Quadro 4.5.2, pág. 84.
 #'
 #' Mestriner,  J. C. (1980). Estudos dos efeitos do promalin sobre
 #'     frutos de macieiras (\emph{Malus} ssp) cultivares Brasil e
@@ -235,13 +229,14 @@ NULL
 NULL
 
 #' @name BanzattoQd4.7.1
-#' @title Compara\enc{çã}{ca}o de M\enc{é}{e}todos de Semeadura do Mamoeiro
+#' @title Compara\enc{çã}{ca}o de M\enc{é}{e}todos de Semeadura do
+#'     Mamoeiro
 #' @description Estudo realizado em Jaboticabal - SP por Ruiz (1977)
 #'     que comparou métodos de semeadura no mamoeiro. O experimento foi
 #'     instalado em delineamento de blocos casualizados, com 4
 #'     repetições, avaliando 3 métodos de semeadura. Foram avaliadas
 #'     duas unidades experimentais por método em cada bloco.
-#' @format Um \code{data.frame} com 24 observações e 3 variáveis.
+#' @format Um \code{data.frame} com 24 observações e 3 variáveis, em que
 #'
 #' \describe{
 #'
@@ -255,10 +250,8 @@ NULL
 #'     147 dias após a semeadura.}
 #'
 #' }
-#' @keywords DBC
-#' @source Banzatto, D. A., Kronka, S. D. (2013). Experimentação
-#'     Agrícola (4th ed.). Jaboticabal, SP: Funep. (Quadro 4.7.1
-#'     pág. 93)
+#' @keywords DBC replicata
+#' @source BANZATTO; KRONKA (2013), Quadro 4.7.1, pág. 93.
 #'
 #' Ruiz, P. R. N. (1977). Estudo comparativo entre diferentes métodos de
 #'     semeadura na cultura do mamoeiro (\emph{Carica papaya}
@@ -285,7 +278,8 @@ NULL
 NULL
 
 #' @name BanzattoQd5.2.1
-#' @title Peneira e Densidade de Plantio na Produ\enc{çã}{ca}o de Amendoim
+#' @title Peneira e Densidade de Plantio na Produ\enc{çã}{ca}o de
+#'     Amendoim
 #' @description Dados de um experimento fatorial que estudou o efeito de
 #'     densidade de plantio e tamanho da peneiras comerciais, de crivos
 #'     circulares, para classificação das sementes da produção de
@@ -315,9 +309,7 @@ NULL
 #' avaliações apenas no comprimento restante das duas linhas centrais, o
 #' que resultou em uma área útil de 6 m\eqn{^2}.
 #' @keywords DBC FAT2
-#' @source Banzatto, D. A., Kronka, S. D. (2013). Experimentação
-#'     Agrícola (4th ed.). Jaboticabal, SP: Funep. (Quadro 5.2.1,
-#'     pág. 102)
+#' @source BANZATTO; KRONKA (2013), Quadro 5.2.1, pág. 102.
 #' @examples
 #'
 #' library(lattice)
@@ -363,9 +355,7 @@ NULL
 #'
 #' }
 #' @keywords DIC FAT2
-#' @source Banzatto, D. A., Kronka, S. D. (2013). Experimentação
-#'     Agrícola (4th ed.). Jaboticabal, SP: Funep. (Quadro 5.2.4,
-#'     pág. 107)
+#' @source BANZATTO; KRONKA (2013), Quadro 5.2.4, pág. 107.
 #' @examples
 #'
 #' library(lattice)
@@ -382,12 +372,14 @@ NULL
 NULL
 
 #' @name BanzattoQd5.3.1
-#' @title Produ\enc{çã}{ca}o de Caf\enc{é}{e} em Fun\enc{çã}{ca}o de Aduba\enc{çã}{ca}o NPK
+#' @title Produ\enc{çã}{ca}o de Caf\enc{é}{e} em Fun\enc{çã}{ca}o de
+#'     Aduba\enc{çã}{ca}o NPK
 #' @description Resultados de um experimento em arranjo fatorial triplo
 #'     2 \eqn{\times} 2 \eqn{\times} 2, instalado em delineamento de
 #'     blocos casualizados, para estudar o efeito da combinação de
 #'     nitrogênio, fósforo e potássio na produção de café coco.
-#' @format Um \code{data.frame} com 48 observações e 5 variáveis.
+#' @format Um \code{data.frame} com 48 observações e 5 variáveis, em que
+#'
 #' \describe{
 #'
 #' \item{\code{N}}{Variável numérica que indica ausência (0) ou
@@ -407,10 +399,8 @@ NULL
 #'     cada uma das combinações de N, P e K na adubação.}
 #'
 #' }
-#' @keywords DBC FAT3
-#' @source Banzatto, D. A., Kronka, S. D. (2013). Experimentação
-#'     Agrícola (4th ed.). Jaboticabal, SP: Funep. (Quadro 5.3.1,
-#'     pág. 113)
+#' @keywords DBC FAT2K
+#' @source BANZATTO; KRONKA (2013), Quadro 5.3.1, pág. 113.
 #' @examples
 #'
 #' library(lattice)
@@ -437,11 +427,13 @@ NULL
 NULL
 
 #' @name BanzattoQd5.3.7
-#' @title Efici\enc{ê}{e}ncia na Utiliza\enc{çã}{ca}o de P por Cultivares de trigo
+#' @title Efici\enc{ê}{e}ncia na Utiliza\enc{çã}{ca}o de P por
+#'     Cultivares de Trigo
 #' @description Experimento em delineamento inteiramente casualizado que
 #'     avaliou o efeito a eficiência na utilização de fósforo por três
 #'     cultivares de trigo cultivadas em solo com e sem calagem.
-#' @format Um \code{data.frame} com 48 observações e 5 variáveis.
+#' @format Um \code{data.frame} com 48 observações e 5 variáveis, em que
+#'
 #' \describe{
 #'
 #' \item{\code{cult}}{Cultivares de trigo usadas no experimento: BR 20
@@ -462,9 +454,7 @@ NULL
 #'
 #' }
 #' @keywords DIC FAT3
-#' @source Banzatto, D. A., Kronka, S. D. (2013). Experimentação
-#'     Agrícola (4th ed.). Jaboticabal, SP: Funep. (Quadro 5.3.7,
-#'     pág. 120)
+#' @source BANZATTO; KRONKA (2013), Quadro 5.3.7, pág. 120.
 #' @examples
 #'
 #' library(lattice)
@@ -500,7 +490,8 @@ NULL
 #'     graus de liberdade da interação tripla com o efeito dos blocos. O
 #'     grupo de confundimento adotado foi o W.
 #' @format Um \code{data.frame} com 27 observações e 4 variáveis, em que
-#'     \describe{
+#'
+#' \describe{
 #'
 #' \item{\code{N}}{Níveis codificados de nitrogênio (N) que representam
 #'     0, 30 e 60 kg ha\eqn{^{-1}}. A fonte do N é o sulfato de amônio
@@ -528,10 +519,8 @@ NULL
 #' desconsiderar 1 m em cada extremidade), perfazendo 32 m\eqn{^{2}}. O
 #' híbrido de milho utilizado foi o HMD-7974.
 #'
-#' @keywords DBC FAT3 confundimento
-#' @source Banzatto, D. A., Kronka, S. D. (2013). Experimentação
-#'     Agrícola (4th ed.). Jaboticabal, SP: Funep. (Quadro 5.5.1,
-#'     pág. 131)
+#' @keywords DBC FAT3K confundimento
+#' @source BANZATTO; KRONKA (2013), Quadro 5.5.1, pág. 131.
 #'
 #' Vilalta, O. A. (1972). Avaliação da produção de milho (\emph{Zea
 #'     mays} L.) em função da adubação NPK em um latossolo
@@ -563,14 +552,15 @@ NULL
 NULL
 
 #' @name BanzattoQd6.2.2
-#' @title Espa\enc{ç}{c}amento de Plantio na Produ\enc{çã}{ca}o de Cana-de-a\enc{çú}{cu}car
+#' @title Espa\enc{ç}{c}amento de Plantio na Produ\enc{çã}{ca}o de
+#'     Cana-de-a\enc{çú}{cu}car
 #' @description O experimento avaliou o efeito do espaçamento de plantio
 #'     na produção de variedades de cana-de-açúcar. Para estudar os dois
 #'     fatores, espaçamento e variedades, considerou-se o delineamento
 #'     de blocos casualizados com arranjo de tratamentos de parcelas
 #'     subdivididas com o espaçamento sendo casualizado dentro dos
 #'     níveis de variedade.
-#' @format Um \code{data.frame} com 40 observações e 4 variáveis.
+#' @format Um \code{data.frame} com 40 observações e 4 variáveis, em que
 #'
 #' \describe{
 #'
@@ -587,9 +577,7 @@ NULL
 #'
 #' }
 #' @keywords DBC PS
-#' @source Banzatto, D. A., Kronka, S. D. (2013). Experimentação
-#'     Agrícola (4th ed.). Jaboticabal, SP: Funep. (Quadro 6.2.2,
-#'     pág. 138)
+#' @source BANZATTO; KRONKA (2013), Quadro 6.2.2, pág. 138.
 #' @examples
 #'
 #' library(lattice)
@@ -622,7 +610,7 @@ NULL
 #'     instalado em delineamento de blocos casualizados com arranjo de
 #'     tratamento em parcela subdividida, sendo as doses casualizadas
 #'     dentro dos níveis de adubo.
-#' @format Um \code{data.frame} com 48 observações e 4 variáveis.
+#' @format Um \code{data.frame} com 48 observações e 4 variáveis, em que
 #'
 #' \describe{
 #'
@@ -639,9 +627,7 @@ NULL
 #'
 #' }
 #' @keywords DBC PS
-#' @source Banzatto, D. A., Kronka, S. D. (2013). Experimentação
-#'     Agrícola (4th ed.). Jaboticabal, SP: Funep. (Quadro 6.2.5,
-#'     pág. 144)
+#' @source BANZATTO; KRONKA (2013), Quadro 6.2.5, pág. 144.
 #' @examples
 #'
 #' library(lattice)
@@ -679,13 +665,15 @@ NULL
 NULL
 
 #' @name BanzattoQd6.3.4
-#' @title \enc{É}{E}pocas de Plantio e Colheita na Produ\enc{çã}{ca}o de Beterraba
+#' @title \enc{É}{E}pocas de Plantio e Colheita na Produ\enc{çã}{ca}o de
+#'     Beterraba
 #' @description Experimento estudar o efeito de datas de plantio, épocas
 #'     de colheita e aplicação de inseticidas na produção de
 #'     beterraba. Os tratamentos foi arranjados em parcelas
 #'     sub-subdivididas no delineamento de blocos casualizados.
-#' @format Um \code{data.frame} com 72 observações e 5 variáveis.
-#'     \describe{
+#' @format Um \code{data.frame} com 72 observações e 5 variáveis, em que
+#'
+#' \describe{
 #'
 #' \item{\code{data}}{Fator de níveis ordinais que representa as datas
 #'     de plantio de beterraba. Os níveis do fator data foram
@@ -707,9 +695,7 @@ NULL
 #'
 #' }
 #' @keywords DBC PSS
-#' @source Banzatto, D. A., Kronka, S. D. (2013). Experimentação
-#'     Agrícola (4th ed.). Jaboticabal, SP: Funep. (Quadro 6.3.4,
-#'     pág. 156)
+#' @source BANZATTO; KRONKA (2013), Quadro 6.3.4, pág. 156.
 #' @examples
 #'
 #' library(lattice)
@@ -738,13 +724,15 @@ NULL
 NULL
 
 #' @name BanzattoQd6.4.2
-#' @title \enc{É}{E}poca de Plantio e Aduba\enc{çã}{ca}o Nitrogenada em Beterraba
+#' @title \enc{É}{E}poca de Plantio e Aduba\enc{çã}{ca}o Nitrogenada em
+#'     Beterraba
 #' @description Experimento em delineamento de blocos casualizados cujos
 #'     níveis dos fatores, época de plantio e nitrogênio, foram
 #'     casualizados em faixas. A variável reposta observada foi a
 #'     produção de beterraba.
-#' @format Um \code{data.frame} com 80 observações e 4 variáveis.
-#'     \describe{
+#' @format Um \code{data.frame} com 80 observações e 4 variáveis, em que
+#'
+#' \describe{
 #'
 #' \item{\code{nitro}}{Fator de níveis métricos que correspondem à
 #'     quantidade de nitrogênio aplicada, em libras por acre.}
@@ -771,9 +759,7 @@ NULL
 #' \if{latex}{\figure{BanzattoQd6-4-2.png}{options: width=1.75in}}
 #'
 #' @keywords DBC EF
-#' @source Banzatto, D. A., Kronka, S. D. (2013). Experimentação
-#'     Agrícola (4th ed.). Jaboticabal, SP: Funep. (Quadro 6.4.2,
-#'     pág. 163)
+#' @source BANZATTO; KRONKA (2013), Quadro 6.4.2, pág. 163.
 #' @examples
 #'
 #' library(lattice)
@@ -807,7 +793,7 @@ NULL
 #'     experimento foi instalado em delineamento inteiramente
 #'     casualizado e foram estudados 7 níveis de gesso, de 0 a 300,
 #'     igualmente espaçados em 50 kg ha\eqn{^{-1}}.
-#' @format Um \code{data.frame} com 28 observações e 3 variáveis.
+#' @format Um \code{data.frame} com 28 observações e 3 variáveis, em que
 #'
 #' \describe{
 #'
@@ -818,10 +804,8 @@ NULL
 #' \item{\code{peso}}{Peso de 1000 sementes de feijão, em gramas.}
 #'
 #' }
-#' @keywords DIC
-#' @source Banzatto, D. A., Kronka, S. D. (2013). Experimentação
-#'     Agrícola (4th ed.). Jaboticabal, SP: Funep. (Quadro 7.2.1,
-#'     pág. 170)
+#' @keywords DIC RS
+#' @source BANZATTO; KRONKA (2013), Quadro 7.2.1, pág. 170.
 #'
 #' Ragazzi, D. (1979). Efeito de doses de gesso na cultura do feijoeiro
 #'     (\emph{Phaseolus vulgaris} L.). Trabalho de Conclusão de Curso
@@ -843,13 +827,14 @@ NULL
 NULL
 
 #' @name BanzattoQd7.3.1
-#' @title Di\enc{â}{a}metro e Altura de Tubetes na Forma\enc{çã}{ca}o de Mudas de Eucalipto
+#' @title Di\enc{â}{a}metro e Altura de Tubetes na Forma\enc{çã}{ca}o de
+#'     Mudas de Eucalipto
 #' @description Experimento fatorial 3 \eqn{\times} 3 que avaliou o
 #'     efeito das dimensões do tubete (diâmetro e altura, 3 níveis cada)
 #'     na produção de mudas de eucalipto. O experimento foi instalado em
 #'     delineamento de blocos casualizados e a resposta medida foi a
 #'     altura das mudas 75 dias após a semeadura.
-#' @format Um \code{data.frame} com 27 observações e 4 variáveis.
+#' @format Um \code{data.frame} com 27 observações e 4 variáveis, em que
 #'
 #' \describe{
 #'
@@ -864,9 +849,7 @@ NULL
 #'
 #' }
 #' @keywords DBC FAT2
-#' @source Banzatto, D. A., Kronka, S. D. (2013). Experimentação
-#'     Agrícola (4th ed.). Jaboticabal, SP: Funep. (Quadro 7.3.1,
-#'     pág. 177)
+#' @source BANZATTO; KRONKA (2013), Quadro 7.3.1, pág. 177.
 #' @examples
 #'
 #' library(lattice)
@@ -877,7 +860,8 @@ NULL
 #'
 #' xtabs(~at + dt, data = BanzattoQd7.3.1)
 #'
-#' with(BanzattoQd7.3.1, addmargins(tapply(alt, list(at, dt), FUN = mean)))
+#' with(BanzattoQd7.3.1,
+#'      addmargins(tapply(alt, list(at, dt), FUN = mean)))
 #'
 #' xyplot(alt ~ at, data = BanzattoQd7.3.1,
 #'        groups = dt, type = c("p", "a", "g"),
@@ -894,7 +878,7 @@ NULL
 #'     fator qualitativo e outro quantitativo. O experimento está em
 #'     delineamento de blocos casualizados e a resposta é a produção da
 #'     cultura.
-#' @format Um \code{data.frame} com 32 observações e 4 variáveis.
+#' @format Um \code{data.frame} com 32 observações e 4 variáveis, em que
 #'
 #' \describe{
 #'
@@ -909,9 +893,7 @@ NULL
 #'
 #' }
 #' @keywords DBC FAT2
-#' @source Banzatto, D. A., Kronka, S. D. (2013). Experimentação
-#'     Agrícola (4th ed.). Jaboticabal, SP: Funep. (Quadro 7.3.3,
-#'     pág. 182)
+#' @source BANZATTO; KRONKA (2013), Quadro 7.3.3, pág. 182.
 #' @examples
 #'
 #' library(lattice)
@@ -941,7 +923,8 @@ NULL
 #'     Guaíra - SP. Os ensaios foram instalados no delineamento de
 #'     blocos casualizados com 4 repetições. A variável resposta é a
 #'     produção de tubérculos, em t ha\eqn{^{-1}}.
-#' @format Um \code{data.frame} com 160 observações e 4 variáveis.
+#' @format Um \code{data.frame} com 160 observações e 4 variáveis, em
+#'     que
 #'
 #' \describe{
 #'
@@ -957,10 +940,8 @@ NULL
 #' \item{\code{prod}}{Produção de tubérculos, em tom ha\eqn{^{-1}}.}
 #'
 #' }
-#' @keywords DBC GE
-#' @source Banzatto, D. A., Kronka, S. D. (2013). Experimentação
-#'     Agrícola (4th ed.). Jaboticabal, SP: Funep. (Quadro 8.2.1,
-#'     pág. 190)
+#' @keywords GE
+#' @source BANZATTO; KRONKA (2013), Quadro 8.2.1, pág. 190.
 #'
 #' Filgueira, F. A. R. (1991). Interação genótipo ambiente em batata
 #'     (\emph{Solanum tuberosum} L. spp \emph{tuberosum}). Tese
@@ -990,13 +971,14 @@ NULL
 NULL
 
 #' @name BanzattoQd8.3.1
-#' @title Grupo de Ensaios de Competi\enc{çã}{ca}o de Gen\enc{ó}{o}tipos de Batata
+#' @title Grupo de Ensaios de Competi\enc{çã}{ca}o de Gen\enc{ó}{o}tipos
+#'     de Batata
 #' @description Grupo de ensaios de competição de genótipos de batata
 #'     realizado por Filgueira (1991) em Anápolis - GO. Cada experimento
 #'     foi instalado em delineamento de blocos casualizados com 4
 #'     repetições. A variável resposta foi a produção, em t
 #'     ha\eqn{^{-1}}, de batata.
-#' @format Um \code{data.frame} com 40 observações e 3 variáveis.
+#' @format Um \code{data.frame} com 40 observações e 3 variáveis, em que
 #'
 #' \describe{
 #'
@@ -1017,10 +999,8 @@ NULL
 #'     em cada um dos experimentos. As estimativas dos quadrados médios
 #'     residuais em cada experimento estão disponíveis no atributo
 #'     \code{"qmr"} do objeto.
-#' @keywords GE DBC
-#' @source Banzatto, D. A., Kronka, S. D. (2013). Experimentação
-#'     Agrícola (4th ed.). Jaboticabal, SP: Funep. (Quadro 8.3.1,
-#'     pág. 196)
+#' @keywords GE
+#' @source BANZATTO; KRONKA (2013), Quadro 8.3.1, pág. 196.
 #'
 #' Filgueira, F. A. R. (1991). Interação genótipo ambiente em batata
 #'     (\emph{Solanum tuberosum} L. spp \emph{tuberosum}). Tese
@@ -1051,11 +1031,12 @@ NULL
 NULL
 
 #' @name BanzattoQd8.4.1
-#' @title Grupo de Ensaios de Competi\enc{çã}{ca}o de Gen\enc{ó}{o}tipos de Cebola
+#' @title Grupo de Ensaios de Competi\enc{çã}{ca}o de Gen\enc{ó}{o}tipos
+#'     de Cebola
 #' @description Grupo de experimentos de competição de genótipos de
 #'     cebola realizado por Santos (2003). O delineamento considerado em
 #'     cada ensaio não foi informado.
-#' @format Um \code{data.frame} com 60 observações e 3 variáveis.
+#' @format Um \code{data.frame} com 60 observações e 3 variáveis, em que
 #'
 #' \describe{
 #'
@@ -1070,9 +1051,7 @@ NULL
 #'
 #' }
 #' @keywords GE
-#' @source Banzatto, D. A., Kronka, S. D. (2013). Experimentação
-#'     Agrícola (4th ed.). Jaboticabal, SP: Funep. (Quadro 8.4.1,
-#'     pág. 200)
+#' @source BANZATTO; KRONKA (2013), Quadro 8.4.1, pág. 200.
 #'
 #' Santos, G. M. (2003). Adaptabilidade e estabilidade de genótipos de
 #'     cebola. Tese (Doutorado em Genética e Melhoramento de
@@ -1101,12 +1080,13 @@ NULL
 NULL
 
 #' @name BanzattoQd8.4.3
-#' @title Grupo de Experimentos de Aduba\enc{çã}{ca}o Nitrogenada em Milho
+#' @title Grupo de Experimentos de Aduba\enc{çã}{ca}o Nitrogenada em
+#'     Milho
 #' @description Dados referentes à produção de milho em grãos de ensaios
 #'     fatoriais \eqn{3^3} de adubação NPK na cultura do milho. Os
 #'     experimentos foram realizados em 8 locais. O delineamento
 #'     experimental não foi informado.
-#' @format Um \code{data.frame} com 24 observações e 3 variáveis.
+#' @format Um \code{data.frame} com 24 observações e 3 variáveis, em que
 #'
 #' \describe{
 #'
@@ -1126,9 +1106,7 @@ NULL
 #' O \code{data.frame} possui um atributo com os quadrados médios
 #'     residuais em cada experimento.
 #' @keywords GE
-#' @source Banzatto, D. A., Kronka, S. D. (2013). Experimentação
-#'     Agrícola (4th ed.). Jaboticabal, SP: Funep. (Quadro 8.4.3,
-#'     pág. 202)
+#' @source BANZATTO; KRONKA (2013), Quadro 8.4.3, pág. 202.
 #' @examples
 #'
 #' library(lattice)
@@ -1156,7 +1134,7 @@ NULL
 #'     de cultivares de milho. O experimento foi instalado em
 #'     delineamento de blocos casualizados. Além da produção em cada
 #'     parcela, contou-se o número de plantas por parcela (stand)
-#' @format Um \code{data.frame} com 24 observações e 6 variáveis.
+#' @format Um \code{data.frame} com 24 observações e 6 variáveis, em que
 #'
 #' \describe{
 #'
@@ -1184,9 +1162,7 @@ NULL
 #'     níveis.
 #'
 #' @keywords DBC COV
-#' @source Banzatto, D. A., Kronka, S. D. (2013). Experimentação
-#'     Agrícola (4th ed.). Jaboticabal, SP: Funep. (Quadro 9.2.1,
-#'     pág. 206)
+#' @source BANZATTO; KRONKA (2013), Quadro 9.2.1, pág. 206.
 #' @examples
 #'
 #' library(lattice)
@@ -1205,4 +1181,3 @@ NULL
 #'        ylab = expression("Produção"~(g~parcela^{-1})))
 #'
 NULL
-

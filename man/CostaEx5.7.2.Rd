@@ -2,8 +2,9 @@
 % Please edit documentation in R/Costa.R
 \name{CostaEx5.7.2}
 \alias{CostaEx5.7.2}
-\title{Densidade do Solo ao Longo do Perfil em Zonas de Compacta\enc{çã}{ca}o}
-\format{Um \code{data.frame} com 10 observações e 2 variáveis.
+\title{Densidade do Solo ao Longo do Perfil em Zonas de
+    Compacta\enc{çã}{ca}o}
+\format{Um \code{data.frame} com 10 observações e 2 variáveis, em que
 
 \describe{
 
@@ -15,9 +16,7 @@
 
 }}
 \source{
-Costa, J. R. (2003). Técnicas experimentais aplicadas às
-    ciências agrárias (Documentos 163). Seropédica, RJ: Embrapa
-    Agrobiologia. (Exemplo 5.7.2.1, pág. 90)
+Costa (2013), Exemplo 5.7.2.1, pág. 90.
 }
 \description{
 Os dados são resultados de um estudo feito em zonas de
@@ -38,5 +37,5 @@ xyplot(dens ~ prof, data = CostaEx5.7.2,
        ylab = expression("Densidade do solo"~(g~cm^{-3})))
 
 }
-\keyword{TODO}
+\keyword{RS}
 

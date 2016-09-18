@@ -2,7 +2,7 @@
 % Please edit documentation in R/Mingoti.R
 \name{MingotiTb3.7}
 \alias{MingotiTb3.7}
-\title{Dados de amostras de solo}
+\title{Dados de Amostras de Solo}
 \format{Um \code{data.frame} com 25 observações e 5 variáveis, em que
 
 \describe{
@@ -19,24 +19,23 @@
 
 }}
 \source{
-Mingoti, S.A. (2005). Análise de dados através de métodos de 
-     estatística multivariada - uma abordagem aplicada. 
-     Belo Horizonte, MG: Editora UFMG. (pg 73).
+MINGOTI (2005), pág. 73.
 }
 \description{
-Dados de 25 amostras de determinado tipo de solo. 
-    Para cada amostra foram registradas as porcentagens de areia, sedimentos, 
-    argila e a quantidade de material orgânico.
+Dados de 25 amostras de determinado tipo de solo.  Para
+    cada amostra foram registradas as porcentagens de areia,
+    sedimentos, argila e a quantidade de material orgânico.
 }
 \examples{
 
-data(MingotiTb3.7) 
+data(MingotiTb3.7)
+str(MingotiTb3.7)
 
 library(car)
 
-scatterplotMatrix(~ amst + areia + sed + arg + morg, 
-    data = MingotiTb3.7, main = "Matriz de gráficos de dispersão")
-                  
+scatterplotMatrix(~ amst + areia + sed + arg + morg,
+                  data = MingotiTb3.7)
+
 }
-\keyword{AnaComp}
+\keyword{AnaComPrin}
 

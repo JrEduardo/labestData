@@ -17,11 +17,11 @@
 #'
 #' }
 #' @keywords AnaDisc
-#' @source D. F. (2011). Estatística Multivariada (2nd ed.). Lavras, MG:
-#'     Editora UFLA. (Exemplo 13.2, pág. 592-593)
+#' @source FERREIRA (2011), Exemplo 13.2, pág. 592-593.
 #' @examples
 #'
 #' data(FerreiraEg13.2)
+#' str(FerreiraEg13.2)
 #' summary(FerreiraEg13.2)
 #'
 #' library(lattice)
@@ -46,7 +46,8 @@
 NULL
 
 #' @name FerreiraEg13.3
-#' @title Classifica\enc{çã}{ca}o de Solos na Regi\enc{ã}{a}o Amaz\enc{ô}{o}nica
+#' @title Classifica\enc{çã}{ca}o de Solos na Regi\enc{ã}{a}o
+#'     Amaz\enc{ô}{o}nica
 #' @description Dados amostrais relativos ao teor de zinco (\emph{Zn}) e
 #'     ferro \emph{Fe}, em ppm, obtidos em solos de pastagem e de
 #'     floresta na região amazônica.
@@ -64,8 +65,7 @@ NULL
 #'
 #' }
 #' @keywords AnaDisc
-#' @source D. F. (2011). Estatística Multivariada (2nd ed.). Lavras, MG:
-#'     Editora UFLA. (Exemplo 13.3, pág. 596-597)
+#' @source FERREIRA (2011) (Exemplo 13.3, pág. 596-597)
 #' @examples
 #'
 #' data(FerreiraEg13.3)
@@ -99,9 +99,8 @@ NULL
 #' \item{\code{linf}}{Contagem de linfócitos.}
 #'
 #' }
-#' @keywords TODO
-#' @source Ferreira, D. F. (2011). Estatística Multivariada (2nd
-#'     ed.). Lavras, MG: Editora UFLA. (Exemplo 3.4 pág. 136)
+#' @keywords AASM
+#' @source FERREIRA (2011), Exemplo 3.4, pág. 136.
 #'
 #' Royston, J. P. (1983). Some techniques for assessing multivariate
 #'     normality based on Shapiro-Wilk. London, Applied Statistics -
@@ -136,9 +135,8 @@ NULL
 #'     solo.}
 #'
 #' }
-#' @keywords TODO
-#' @source Ferreira, D. F. (2011). Estatística Multivariada (2nd
-#'     ed.). Lavras, MG: Editora UFLA. (Exemplo 5.1 pág. 193-194)
+#' @keywords AASM
+#' @source FERREIRA (2011), Exemplo 5.1 pág. 193-194.
 #' @examples
 #'
 #' data(FerreiraEg5.1)
@@ -177,7 +175,8 @@ NULL
 NULL
 
 #' @name FerreiraEg6.3
-#' @title Avalia\enc{çã}{ca}o dos Solos de Pastagem e Capoeira Nova da Amaz\enc{ô}{o}nia
+#' @title Avalia\enc{çã}{ca}o dos Solos de Pastagem e Capoeira Nova da
+#'     Amaz\enc{ô}{o}nia
 #' @description Os dados referem-se a avaliação de parcelas de solo da
 #'     Amazônia. Os atributos quantidade de cálcio, magnésio e saturação
 #'     de bases foram avaliados em parcelas de solo sob os sistemas de
@@ -198,15 +197,12 @@ NULL
 #'     solo.}
 #'
 #' }
-#' @keywords TODO
-#' @source Ferreira, D. F. (2011). Estatística Multivariada (2nd
-#'     ed.). Lavras, MG: Editora UFLA. (Exemplo 6.3 pág. 240-241 e
+#' @keywords AASM manova
+#' @source FERREIRA (2011), (Exemplo 6.3 pág. 240-241 e
 #'     exemplo 6.6 pág. 268-269)
-#'
 #' @examples
 #'
 #' data(FerreiraEg6.3)
-#'
 #' str(FerreiraEg6.3)
 #'
 #' library(lattice)
@@ -222,7 +218,8 @@ NULL
 NULL
 
 #' @name FerreiraEg7.1
-#' @title Avalia\enc{çã}{ca}o de Exerc\enc{í}{i}cios F\enc{í}{i}sicos sobre o Estresse Oxidativo
+#' @title Avalia\enc{çã}{ca}o de Exerc\enc{í}{i}cios F\enc{í}{i}sicos
+#'     sobre o Estresse Oxidativo
 #' @description Dados observados de um estudo realizado no laboratório
 #'     de Bioquímica Clínica do Departamento de Análises Clínicas e
 #'     Toxicológicas da Universidade Federal de Alfenas (UNIFAL), no
@@ -247,16 +244,16 @@ NULL
 #'     \eqn{nmol/dl} (nanomol por decilitro).}
 #'
 #' }
-#' @keywords TODO
-#' @source Ferreira, D. F. (2011). Estatística Multivariada (2nd
-#'     ed.). Lavras, MG: Editora UFLA. (Exemplo 7.1 pág. 286)
-#'
+#' @keywords manova
+#' @source FERREIRA (2011), (Exemplo 7.1 pág. 286)
 #' @examples
+#'
 #' data(FerreiraEg7.1)
+#' str(FerreiraEg7.1)
 #'
 #' aggregate(peroxido ~ amostra, data = FerreiraEg7.1, summary)
 #' aggregate(proteina ~ amostra, data = FerreiraEg7.1, summary)
-#' 
+#'
 #' par(mar = c(4, 5, 4, 5))
 #' boxplot(proteina ~ amostra, data = FerreiraEg7.1,
 #'         xlim = c(0.5, 2.5), border = 4,
@@ -264,7 +261,7 @@ NULL
 #'         axes = FALSE)
 #' box()
 #' axis(side = 2, col.axis = 4)
-#' mtext(side = 2, text = "Proteínas em g/dl", line = 3, col = 4) 
+#' mtext(side = 2, text = "Proteínas em g/dl", line = 3, col = 4)
 #' par(new = TRUE, mar = c(4, 5, 4, 5))
 #' boxplot(peroxido ~ amostra, data = FerreiraEg7.1,
 #'         xlim = c(0.5, 2.5), border = 2,
@@ -274,15 +271,15 @@ NULL
 #' axis(side = 1, at = 1:2, labels = c("antes", "depois"))
 #' mtext(side = 4, text = "Peróxidos em nmol/g de proteína",
 #'       line = 3, col = 2)
-#' 
+#'
 NULL
 
 #' @name FerreiraEg7.4
 #' @title Avalia\enc{çã}{ca}o de Duas Variedades de Milho
 #' @description Com o interesse de testar a hipótese de igualdade entre
-#'     duas variedades de milho, foram mensuradas as variáveis aleatórias
-#'     produtividade e altura das plantas em cada uma das variedades.
-#'     
+#'     duas variedades de milho, foram mensuradas as variáveis
+#'     aleatórias produtividade e altura das plantas em cada uma das
+#'     variedades.
 #' @format Um \code{data.frame} com 11 observações e 3 variáveis.
 #'
 #' \describe{
@@ -296,17 +293,18 @@ NULL
 #' \item{\code{altura}}{Altura média das plantas em metros.}
 #'
 #' }
-#' @keywords TODO
-#' @source Ferreira, D. F. (2011). Estatística Multivariada (2nd
-#'     ed.). Lavras, MG: Editora UFLA. (Exemplo 7.4 pág. 302)
-#'
+#' @keywords manova
+#' @source FERREIRA (2011), Exemplo 7.4 pág. 302.
 #' @examples
+#'
 #' data(FerreiraEg7.4)
+#' str(FerreiraEg7.4)
 #'
 #' aggregate(prod ~ varie, data = FerreiraEg7.4, summary)
 #' aggregate(altura ~ varie, data = FerreiraEg7.4, summary)
 #' by(FerreiraEg7.4[2:3], FerreiraEg7.4[1], cov)
-#' 
+#'
+#' layout(1)
 #' with(FerreiraEg7.4, {
 #'      par(mar = c(4, 5, 4, 5))
 #'      plot.default(y = prod, xlab = "", ylab = "",
@@ -317,7 +315,7 @@ NULL
 #'      box()
 #'      axis(side = 2, col.axis = 4)
 #'      mtext(side = 2, text = "Produtividade em t/ha",
-#'            line = 3, col = 4) 
+#'            line = 3, col = 4)
 #'      par(new = TRUE, mar = c(4, 5, 4, 5))
 #'      plot.default(y = altura, xlab = "", ylab = "",
 #'                   x = jitter(as.numeric(varie), factor = 0.5) + 0.1,
@@ -334,7 +332,8 @@ NULL
 NULL
 
 #' @name FerreiraEg8.1
-#' @title N\enc{ú}{u}mero de Gr\enc{ã}{a}os e Produtividade em Cultivares de Feij\enc{ã}{a}o
+#' @title N\enc{ú}{u}mero de Gr\enc{ã}{a}os e Produtividade em
+#'     Cultivares de Feij\enc{ã}{a}o
 #' @description Dados obtidos de um experimento inteiramente casualizado
 #'     com cinco repetições, realizado no período de seca, onde
 #'     avaliou-se o efeito de diferentes cultivares na produtividade do
@@ -356,8 +355,7 @@ NULL
 #'
 #' }
 #' @keywords manova
-#' @source Ferreira, D. F. (2011). Estatística Multivariada (2nd
-#'     ed.). Lavras, MG: Editora UFLA. (Exemplo 8.1, pág. 339)
+#' @source FERREIRA (2011), Exemplo 8.1, pág. 339.
 #' @examples
 #'
 #' data(FerreiraEg8.1)
@@ -403,13 +401,12 @@ NULL
 #'
 #' }
 #'
-#' O sistema de uso da terra é indicado conforme nomenclatura das linhas
-#'     do \code{data.frame}, onde (A) representa uso da terra para
-#'     agricultura, (AG) para agrofloresta, (F) para floresta, (CV) para
-#'     capoeira velha, (CN) para capoeira nova e (P) para pastagem.
-#' @keywords KM
-#' @source Ferreira, D. F. (2011). Estatística Multivariada (2nd
-#'     ed.). Lavras, MG: Editora UFLA. (Exemplo 9.1, pág. 402)
+#'     O sistema de uso da terra é indicado conforme nomenclatura das
+#'     linhas do \code{data.frame}, onde (A) representa uso da terra
+#'     para agricultura, (AG) para agrofloresta, (F) para floresta, (CV)
+#'     para capoeira velha, (CN) para capoeira nova e (P) para pastagem.
+#' @keywords AnaAgrup
+#' @source FERREIRA (2011), (Exemplo 9.1, pág. 402)
 #' @examples
 #'
 #' data(FerreiraEg9.1)
@@ -456,9 +453,8 @@ NULL
 #'     X.}
 #'
 #' }
-#' @keywords TODO
-#' @source D. F. (2011). Estatística Multivariada (2nd ed.). Lavras, MG:
-#'     Editora UFLA. (Exercício 10.11.9, pág. 487)
+#' @keywords AnaComPrin
+#' @source FERREIRA (2011), Exercício 10.11.9, pág. 487.
 #' @examples
 #'
 #' data(FerreiraEx10.11.9)
@@ -487,7 +483,7 @@ NULL
 NULL
 
 #' @name FerreiraEx3.8.5
-#' @title Avalia\enc{çã}{ca}o de cultivar de mel\enc{ã}{a}o
+#' @title Avalia\enc{çã}{ca}o de Cultivar de Mel\enc{ã}{a}o
 #' @description Os dados referem-se à avaliação de uma cultivar de melão
 #'     em 32 unidades experimentais.
 #' @format \code{data.frame} com 32 observações e 3 variáveis, em que
@@ -501,9 +497,8 @@ NULL
 #' \item{\code{tam}}{Teor médio de açucar mensurados em graus brix.}
 #'
 #' }
-#' @keywords TODO
-#' @source Ferreira, D. F. (2011). Estatística Multivariada (2nd
-#'     ed.). Lavras,  MG: Editora UFLA. (Exercício 3.8.5 pág. 169)
+#' @keywords AnaComPrin
+#' @source FERREIRA (2011), Exercício 3.8.5, pág. 169.
 #' @examples
 #'
 #' data(FerreiraEx3.8.5)
@@ -533,7 +528,6 @@ NULL
 #'     e depois de terem sido submetidos a uma dieta balanceada. O
 #'     interesse do estudo é avaliar se houve efeito significativo da
 #'     dieta nas variáveis peso e teor de proteína.
-#'     
 #' @format Um \code{data.frame} com 12 observações e 3 variáveis.
 #'
 #' \describe{
@@ -546,18 +540,18 @@ NULL
 #' \item{\code{teor}}{Teor de proteína.}
 #'
 #' }
-#' @keywords TODO
-#' @source Ferreira, D. F. (2011). Estatística Multivariada (2nd
-#'     ed.). Lavras, MG: Editora UFLA. (Exercício 7.4.1 pág. 328)
-#'
+#' @keywords manova
+#' @source FERREIRA (2011), Exercício 7.4.1 pág. 328.
 #' @examples
+#'
 #' data(FerreiraEx7.4.1)
+#' str(FerreiraEx7.4.1)
 #'
 #' aggregate(peso ~ fase, data = FerreiraEx7.4.1, summary)
 #' aggregate(teor ~ fase, data = FerreiraEx7.4.1, summary)
-#' 
+#'
 #' by(FerreiraEx7.4.1[2:3], FerreiraEx7.4.1[1], cov)
-#' 
+#'
 #' with(FerreiraEx7.4.1, {
 #'      par(mar = c(4, 5, 4, 5))
 #'      plot.default(y = peso, xlab = "", ylab = "",
@@ -567,7 +561,7 @@ NULL
 #'                   axes = FALSE)
 #'      box()
 #'      axis(side = 2, col.axis = 4)
-#'      mtext(side = 2, text = "Peso", line = 3, col = 4) 
+#'      mtext(side = 2, text = "Peso", line = 3, col = 4)
 #'      par(new = TRUE, mar = c(4, 5, 4, 5))
 #'      plot.default(y = teor, xlab = "", ylab = "",
 #'                   x = jitter(as.numeric(fase), factor = 0.5) + 0.15,
@@ -583,7 +577,8 @@ NULL
 NULL
 
 #' @name FerreiraEx8.5.1
-#' @title Di\enc{â}{a}metro \enc{à}{a} Altura do Peito e Altura de \enc{Á}{A}rvores em Lavras-MG
+#' @title Di\enc{â}{a}metro \enc{à}{a} Altura do Peito e Altura de
+#'     \enc{Á}{A}rvores em Lavras-MG
 #' @description Resultados de um experimento inteiramente casualizado
 #'     com dez repetições, realizado no período de seca, para avaliar o
 #'     diferenças entre diferentes transectos na altura e no diâmetro à
@@ -605,8 +600,7 @@ NULL
 #'
 #' }
 #' @keywords manova
-#' @source Ferreira, D. F. (2011). Estatística Multivariada (2nd
-#'     ed.). Lavras, MG: Editora UFLA. (Exercício 8.5.1, pág. 351)
+#' @source FERREIRA (2011), (Exercício 8.5.1, pág. 351)
 #' @examples
 #'
 #' data(FerreiraEx8.5.1)
@@ -658,12 +652,11 @@ NULL
 #'
 #' }
 #'
-#' O tipo de carne é indicado conforme nomenclatura das linhas do
+#'     O tipo de carne é indicado conforme nomenclatura das linhas do
 #'     \code{data.frame}. Os tipos de carne marisco, siri e camarão são
 #'     todos enlatados.
-#' @keywords agrupamento
-#' @source Ferreira, D. F. (2011). Estatística Multivariada (2nd
-#'     ed.). Lavras, MG: Editora UFLA. (Exercício 9.7.2, pág. 409)
+#' @keywords AnaAgrup
+#' @source FERREIRA (2011), Exercício 9.7.2, pág. 409.
 #' @references Bussab, W. O., Miazaki, É. S., Andrade,
 #'     D. F. (1990). Introdução à análise de agrupamentos. São Paulo,
 #'     SP: ABE.
@@ -674,7 +667,7 @@ NULL
 #'
 #' (cl2 <- kmeans(FerreiraEx9.7.2, 2))
 #' (cl3 <- kmeans(FerreiraEx9.7.2, 3))
-#' cbind("k=2" = cl2$cluster, "k=3" = cl3$cluster)
+#' cbind("k = 2" = cl2$cluster, "k = 3" = cl3$cluster)
 #'
 #' (D <- dist(FerreiraEx9.7.2))
 #' hc <- hclust(D)
@@ -682,7 +675,6 @@ NULL
 #' rect.hclust(hc, k = 2, border = 2)
 #' rect.hclust(hc, k = 3, border = 4)
 #' legend("topright", lty = 1, col = c(2, 4), bty = "n",
-#'        legend = c("2 grupos (k=2)", "3 grupos (k=3)"))
+#'        legend = c("2 grupos (k = 2)", "3 grupos (k = 3)"))
 #'
 NULL
-

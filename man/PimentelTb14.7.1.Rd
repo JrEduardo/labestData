@@ -23,8 +23,7 @@
 
 }}
 \source{
-Pimentel-Gomes, F. (2009). Curso de Estatística Experimental
-    (15th ed.). Piracicaba, SP: FEALQ. (Tabela 14.7.1, pág. 283)
+PIMENTEL-GOMES (2009), Tabela 14.7.1, pág. 283.
 
 Pimentel-Gomes, F.; Nunes, S. G.; Gomes, M. de B; Curvo,
     J. B. E. Modificação na análise de variância de ensaions de

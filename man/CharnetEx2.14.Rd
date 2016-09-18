@@ -6,9 +6,7 @@
 \format{Uma série temporal \code{ts}, com 32 observações, sendo 4
     observações por ano (trimestralmente) de 1990 a 1997.}
 \source{
-Charnet, R., de Luna Freire, C.A., Charnet, E.M.R., Bonvino,
-    H. (2008). Análise de modelos de regressão linear com aplicações
-    (2nd ed.). Campinas, SP: Editora Unicamp (Capítulo 2, exercício
+CHARNET et al. (2008), (Capítulo 2, exercício
     14, pág. 49)
 }
 \description{
@@ -18,10 +16,11 @@ Comparação do Produto Interno Bruto (PIB) trimestral do
 \examples{
 
 data(CharnetEx2.14)
+str(CharnetEx2.14)
 
 CharnetEx2.14
 
-plot(CharnetEx2.14, type = "p")
+plot(CharnetEx2.14, type = "o")
 
 }
 \keyword{TS}

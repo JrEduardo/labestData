@@ -14,13 +14,12 @@
 
 }
 
-O sistema de uso da terra é indicado conforme nomenclatura das linhas
-    do \code{data.frame}, onde (A) representa uso da terra para
-    agricultura, (AG) para agrofloresta, (F) para floresta, (CV) para
-    capoeira velha, (CN) para capoeira nova e (P) para pastagem.}
+    O sistema de uso da terra é indicado conforme nomenclatura das
+    linhas do \code{data.frame}, onde (A) representa uso da terra
+    para agricultura, (AG) para agrofloresta, (F) para floresta, (CV)
+    para capoeira velha, (CN) para capoeira nova e (P) para pastagem.}
 \source{
-Ferreira, D. F. (2011). Estatística Multivariada (2nd
-    ed.). Lavras, MG: Editora UFLA. (Exemplo 9.1, pág. 402)
+FERREIRA (2011), (Exemplo 9.1, pág. 402)
 }
 \description{
 Os dados referem-se a média de vários pontos amostrais
@@ -56,5 +55,5 @@ xyplot(argila ~ areia, groups = cl$cluster,
        })
 
 }
-\keyword{KM}
+\keyword{AnaAgrup}
 

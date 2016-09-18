@@ -4,6 +4,7 @@
 \alias{PaulaTb4.7}
 \title{Demanda de TV a Cabo em \enc{Á}{A}reas Metropolitanos dos EUA}
 \format{Um \code{data.frame} com 40 observações e 8 variáveis.
+
 \describe{
 
 \item{\code{nass}}{Número de assinantes de TV a cabo (em milhares).}
@@ -28,8 +29,7 @@
 
 }}
 \source{
-Paula, G. A. (2004). Modelos de regressão: com apoio
-    computacional. São Paulo, SP: IME-USP. (Tabela 4.7, pág. 317)
+PAULA (2004), Tabela 4.7, pág. 317.
 }
 \description{
 Dados de um estudo sobre demanda de TV's a cabo em 40
@@ -40,13 +40,12 @@ Dados de um estudo sobre demanda de TV's a cabo em 40
 \examples{
 
 data(PaulaTb4.7)
-
 str(PaulaTb4.7)
 
 library(lattice)
 splom(PaulaTb4.7, type = c("p", "smooth"), lwd = 2)
 
 }
+\keyword{RM}
 \keyword{contagem}
-\keyword{superdispersão}
 

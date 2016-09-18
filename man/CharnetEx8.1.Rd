@@ -2,8 +2,9 @@
 % Please edit documentation in R/Charnet.R
 \name{CharnetEx8.1}
 \alias{CharnetEx8.1}
-\title{Influ\enc{ê}{e}ncia da Publicidade e Capital Investido no Lucro Anual}
-\format{Um \code{data.frame} com 3 colunas e 12 linhas.
+\title{Influ\enc{ê}{e}ncia da Publicidade e Capital Investido no
+    Lucro Anual}
+\format{Um \code{data.frame} com 3 colunas e 12 linhas, em que
 
 \describe{
 
@@ -15,10 +16,8 @@
 
 }}
 \source{
-Charnet, R., de Luna Freire, C.A., Charnet, E.M.R., Bonvino,
-    H. (2008). Análise de modelos de regressão linear com aplicações
-    (2nd ed.). Campinas, SP: Editora Unicamp (Capítulo 8, exercício
-    1, pág. 195, Capítulo 9, exercício 6, pág. 230)
+CHARNET et al. (2008), Capítulo 8, exercício 1, pág. 195,
+    Capítulo 9, exercício 6, pág. 230.
 }
 \description{
 Influência das variáveis capital investido (\code{capi})
@@ -28,6 +27,7 @@ Influência das variáveis capital investido (\code{capi})
 \examples{
 
 data(CharnetEx8.1)
+str(CharnetEx8.1)
 
 plot(CharnetEx8.1)
 lm(lucro ~ ., data = CharnetEx8.1)

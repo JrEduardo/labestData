@@ -16,8 +16,7 @@
 
 }}
 \source{
-Vieira, S. (1999).  Estatística experimental (2th ed.).  São
-    Paulo, SP: Atlas. (pág. 53, tabela 5.3).
+VIEIRA (1999), pág. 53, tabela 5.3 .
 }
 \description{
 Experimento da produção de milho de 4 diferentes

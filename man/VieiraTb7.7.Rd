@@ -2,7 +2,8 @@
 % Please edit documentation in R/Vieira.R
 \name{VieiraTb7.7}
 \alias{VieiraTb7.7}
-\title{Teste Sobre Conhecimento em Fun\enc{çã}{ca}o da Fonte de Informa\enc{çã}{ca}o}
+\title{Teste Sobre Conhecimento em Fun\enc{çã}{ca}o da Fonte de
+    Informa\enc{çã}{ca}o}
 \format{Um \code{data.frame} com 24 observações e 3 variáveis, em que
 
 \describe{
@@ -18,8 +19,7 @@
 
 }}
 \source{
-Vieira, S. (1999). Estatística experimental (2th ed.).
-    São Paulo, SP: Atlas. (Tabela 7.7, pág. 81; Tabela 8.2, pág. 94).
+VIEIRA (1999), Tabela 7.7, pág. 81; Tabela 8.2, pág. 94.
 }
 \description{
 Dados referentes às notas dos alunos em um teste de

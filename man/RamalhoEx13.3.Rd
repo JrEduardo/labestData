@@ -2,7 +2,8 @@
 % Please edit documentation in R/Ramalho.R
 \name{RamalhoEx13.3}
 \alias{RamalhoEx13.3}
-\title{Avalia\enc{çã}{ca}o do Stay Green em Fam\enc{í}{i}lias de Feijoeiro}
+\title{Avalia\enc{çã}{ca}o do Stay Green em Fam\enc{í}{i}lias de
+    Feijoeiro}
 \format{Um \code{data.frame} com 60 observações e 3 variáveis, em que
 
 \describe{
@@ -17,9 +18,7 @@
 
 }}
 \source{
-Ramalho, M. A. P., Ferreira, D. F., Oliveira, A. C. (2005).
-    Experimentação em Genética e Melhoramento de Plantas (2th ed.).
-    Lavras: UFLA. (Exercício 13.3, pág. 257)
+RAMALHO et al. (2005), Exercício 13.3, pág. 257.
 }
 \description{
 Notas da avaliação do "stay green" obtidos de famílias

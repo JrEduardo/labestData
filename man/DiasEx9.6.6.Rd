@@ -2,7 +2,8 @@
 % Please edit documentation in R/Dias.R
 \name{DiasEx9.6.6}
 \alias{DiasEx9.6.6}
-\title{Teores de S\enc{ó}{o}lidos Sol\enc{ú}{u}veis Totais da Poupa de Frutos}
+\title{Teores de S\enc{ó}{o}lidos Sol\enc{ú}{u}veis Totais da Poupa
+    de Frutos}
 \format{Um \code{data.frame} com 20 observações e 3 variáveis, em que
 
 \describe{
@@ -16,8 +17,7 @@
 
 }}
 \source{
-Dias, L. A. S., Barros, W. S. (2009). Biometria
-    Experimental. Viçosa, MG: UFV. (Exercício 6, Cap. 9, pág. 260)
+BARROS; DIAS (2009), Exercício 6, Cap. 9, pág. 260.
 }
 \description{
 Experimento em delineamento inteiramente casualizado,

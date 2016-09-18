@@ -2,25 +2,25 @@
 % Please edit documentation in R/Demetrio.R
 \name{DemetrioTb4.5}
 \alias{DemetrioTb4.5}
-\title{Dados Simulados para Regress\enc{ã}{a}o Linear Simples e Polinomial}
-\format{Um \code{data.frame} de 9 linhas e 5 colunas.
+\title{Dados Simulados para Regress\enc{ã}{a}o Linear Simples e
+    Polinomial}
+\format{Um \code{data.frame} de 9 linhas e 5 colunas, em que
 
 \describe{
 
-    \item{\code{x}}{Variável explicativa, sem interpretação.}
+\item{\code{x}}{Variável explicativa, sem interpretação.}
 
-    \item{\code{y1}}{Variável dependente, sem interpretação.}
-    
-    \item{\code{y2}}{Variável dependente, sem interpretação.}
-    
-    \item{\code{y3}}{Variável dependente, sem interpretação.}
-    
-    \item{\code{y4}}{Variável dependente, sem interpretação.} 
+\item{\code{y1}}{Variável dependente, sem interpretação.}
+
+\item{\code{y2}}{Variável dependente, sem interpretação.}
+
+\item{\code{y3}}{Variável dependente, sem interpretação.}
+
+\item{\code{y4}}{Variável dependente, sem interpretação.}
 
 }}
 \source{
-Demétrio, C. G. B., Zocchi, S. S. (2011). Modelos de
-    Regressão. Piracicaba: ESALQ. (Tabela 4.5 pág. 137)
+DEMÉTRIO; ZOCCHI (2011), Tabela 4.5 pág. 137.
 }
 \description{
 Dados simulados para exercício de ajuste de modelos de
@@ -31,6 +31,7 @@ Dados simulados para exercício de ajuste de modelos de
 \examples{
 
 data(DemetrioTb4.5)
+str(DemetrioTb4.5)
 
 # Relação da covariável com cada uma das variáveis resposta
 par(mfrow = c(1, ncol(DemetrioTb4.5) - 1))
@@ -45,6 +46,5 @@ pairs(~ x + y1 + y2 + y3 + y4 , data = DemetrioTb4.5,
      main = "Dispersão duas a duas")
 
 }
-\keyword{RP}
 \keyword{RS}
 

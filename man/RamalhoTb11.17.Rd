@@ -22,9 +22,7 @@
 
 }}
 \source{
-Ramalho, M. A. P., Ferreira, D. F., Oliveira, A. C. (2005).
-    Experimentação em Genética e Melhoramento de Plantas (2th ed.).
-    Lavras: UFLA. (Tabela 11.17, pág. 193)
+RAMALHO et al. (2005), Tabela 11.17, pág. 193.
 }
 \description{
 Dados provenientes de 3 experimentos envolvendo a

@@ -21,8 +21,7 @@
 
 }}
 \source{
-Pimentel-Gomes, F. (2009). Curso de Estatística Experimental
-    (15th ed.). Piracicaba, SP: FEALQ. (Tabela 10.4.1, pág. 192)
+PIMENTEL-GOMES (2009), Tabela 10.4.1, pág. 192.
 }
 \description{
 Experimento em blocos imcompletos equilibrados, no qual

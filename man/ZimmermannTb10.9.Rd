@@ -2,7 +2,8 @@
 % Please edit documentation in R/Zimmermann.R
 \name{ZimmermannTb10.9}
 \alias{ZimmermannTb10.9}
-\title{\enc{É}{E}poca de Plantio e Manejo de Inseticida em Cultivares de Arroz}
+\title{\enc{É}{E}poca de Plantio e Manejo de Inseticida em Cultivares
+    de Arroz}
 \format{Um \code{data.frame} com 48 observações e 5 variáveis, em que
 
 \describe{
@@ -23,9 +24,7 @@
 
 }}
 \source{
-Zimmermann, F. J. (2004). Estatística aplicada à pesquisa
-    agrícola (1st ed.). Santo Antônio de Goiás, GO: Embrapa Arroz e
-    Feijão. (Tabela 10.9, pág. 205)
+ZIMMERMANN (2004), Tabela 10.9, pág. 205.
 }
 \description{
 Dados de um em delineamento de blocos completos ao
@@ -41,7 +40,6 @@ Dados de um em delineamento de blocos completos ao
 library(lattice)
 
 data(ZimmermannTb10.9)
-
 str(ZimmermannTb10.9)
 
 ftable(xtabs(~genot + epoca + inset, data = ZimmermannTb10.9))
@@ -53,6 +51,5 @@ xyplot(peso ~ genot | epoca, groups = inset,
        ylab = "Peso de 100 espiguetas (g)")
 
 }
-\keyword{DBC}
 \keyword{PSS}
 

@@ -13,8 +13,7 @@
 
 }}
 \source{
-Dias, L. A. S., Barros, W. S. (2009). Biometria
-    Experimental. Viçosa, MG: UFV. (Exercício 9, Cap. 6, pág. 181)
+BARROS; DIAS (2009), Exercício 9, Cap. 6, pág. 181.
 
 library(lattice)
 
@@ -27,6 +26,5 @@ xyplot(massa ~ temp, data = DiasEx6.5.9, type = c("p", "r"),
 \description{
 Dados de 11 pares de valores de temperatura e massa.
 }
-\keyword{AAS}
-\keyword{RL}
+\keyword{RS}
 

@@ -2,7 +2,8 @@
 % Please edit documentation in R/Ferreira.R
 \name{FerreiraEx8.5.1}
 \alias{FerreiraEx8.5.1}
-\title{Di\enc{â}{a}metro \enc{à}{a} Altura do Peito e Altura de \enc{Á}{A}rvores em Lavras-MG}
+\title{Di\enc{â}{a}metro \enc{à}{a} Altura do Peito e Altura de
+    \enc{Á}{A}rvores em Lavras-MG}
 \format{Um \code{data.frame} com 30 observações e 4 variáveis.
 
 \describe{
@@ -19,8 +20,7 @@
 
 }}
 \source{
-Ferreira, D. F. (2011). Estatística Multivariada (2nd
-    ed.). Lavras, MG: Editora UFLA. (Exercício 8.5.1, pág. 351)
+FERREIRA (2011), (Exercício 8.5.1, pág. 351)
 }
 \description{
 Resultados de um experimento inteiramente casualizado

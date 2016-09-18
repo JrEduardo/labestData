@@ -4,7 +4,8 @@
 \alias{PaulaEx4.6.5}
 \title{Estudo Gerontol\enc{ó}{o}gico do N\enc{ú}{u}mero de Quedas}
 \format{Um \code{data.frame} com 100 observações e 5 variáveis.
-    \describe{
+
+\describe{
 
 \item{\code{nquedas}}{Número de quedas no período de seis meses.}
 
@@ -15,14 +16,14 @@
 \item{\code{sexo}}{Fator com dois níveis que indica o sexo do
     indivíduo (\code{F}: feminino e \code{M}: masculino).}
 
-\item{\code{balan}}{Escore do balanço do indivíduo, escala de 0 a 100.}
+\item{\code{balan}}{Escore do balanço do indivíduo, escala de 0 a
+    100.}
 
 \item{\code{forca}}{Escore da força do indivíduo, escala de 0 a 100.}
 
 }}
 \source{
-Paula, G. A. (2004). Modelos de regressão: com apoio
-    computacional. São Paulo, SP: IME-USP. (Exercício 4.6.5, pág. 342)
+PAULA (2004), Exercício 4.6.5, pág. 342.
 }
 \description{
 Dados provenientes de um estudo prospectivo com 100
@@ -30,13 +31,12 @@ Dados provenientes de um estudo prospectivo com 100
     físicas em que se avaliou o número de quedas num período de seis
     meses registrando, além das informações: tipo de intervenção
     realizada, sexo e escores de balanço e força. O objetivo do
-    estudo é relacionar o número médio de quedas com o tipo de intervenção
-    e as demais variáveis explicativas coletadas.
+    estudo é relacionar o número médio de quedas com o tipo de
+    intervenção e as demais variáveis explicativas coletadas.
 }
 \examples{
 
 data(PaulaEx4.6.5)
-
 str(PaulaEx4.6.5)
 
 library(lattice)
@@ -51,7 +51,7 @@ xyplot(nquedas ~ balan + forca | interv,
        auto.key = list(cex.title = 1, columns = 2,
                        title = "Sexo"))
 
-splom(~ PaulaEx4.6.5[, c("nquedas", "balan", "forca")],
+splom(~PaulaEx4.6.5[, c("nquedas", "balan", "forca")],
       type = c("p", "smooth"))
 
 }
@@ -60,5 +60,6 @@ Neter, J., Kutner, M. H., Nachtsheim, C. J., Wasserman,
     W. (1996). Applie Linear Regression Models (3tr ed.). Irwin,
     Illinois.
 }
+\keyword{RM}
 \keyword{contagem}
 

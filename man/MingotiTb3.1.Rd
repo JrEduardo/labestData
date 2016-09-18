@@ -2,7 +2,7 @@
 % Please edit documentation in R/Mingoti.R
 \name{MingotiTb3.1}
 \alias{MingotiTb3.1}
-\title{Receitas e patrim\enc{ô}{o}nio de empresas}
+\title{Receitas e Patrim\enc{ô}{o}nio de Empresas}
 \format{Um \code{data.frame} com 12 observações e 4 variáveis, em que
 
 \describe{
@@ -17,9 +17,7 @@
 
 }}
 \source{
-Mingoti, S. A. (2005). Análise de dados através de métodos de
-    estatística multivariada: uma abordagem aplicada.  Belo
-    Horizonte, MG: Editora UFMG. (pg 42).
+MINGOTI (2005), pág. 42.
 }
 \description{
 Dados de 12 empresas sobre ganhos (bruto e líquido) e
@@ -27,13 +25,13 @@ Dados de 12 empresas sobre ganhos (bruto e líquido) e
 }
 \examples{
 
+data(MingotiTb3.1)
+str(MingotiTb3.1)
+
 library(car)
 
-data(MingotiTb3.1)
-
 scatterplotMatrix(~gbt + glq + patr,
-                  data = MingotiTb3.1,
-                  main = "Dispersão das variáveis")
+                  data = MingotiTb3.1)
 
 
 }

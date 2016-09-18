@@ -15,8 +15,7 @@
 
 }}
 \source{
-Vieira, S. (1999).  Estatística experimental (2th ed.).  São
-    Paulo, SP: Atlas. (pág. 50, Exercício 4).
+VIEIRA (1999), pág. 50, Exercício 4.
 }
 \description{
 Num laboratório são usados quatro voltímetros

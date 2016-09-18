@@ -2,11 +2,11 @@
 % Please edit documentation in R/Banzatto.R
 \name{BanzattoQd1.2.3}
 \alias{BanzattoQd1.2.3}
-\title{Di\enc{â}{a}metro \enc{à}{a} Altura do Peito de \emph{Eucalyptus saligna}}
+\title{Di\enc{â}{a}metro \enc{à}{a} Altura do Peito de
+    \emph{Eucalyptus saligna}}
 \format{Um vetor numérico com 20 elementos.}
 \source{
-Banzatto, D. A., Kronka, S. D. (2013). Experimentação
-    Agrícola (4th ed.). Jaboticabal, SP: Funep. (Quadro 1.2.3 pág. 3)
+BANZATTO; KRONKA (2013), Quadro 1.2.3, pág. 3.
 }
 \description{
 Valores de diâmetro à altura do peito (DAP, cm) de uma
@@ -14,6 +14,7 @@ Valores de diâmetro à altura do peito (DAP, cm) de uma
     povoamento com 15 anos de idade.
 }
 \examples{
+
 data(BanzattoQd1.2.3)
 
 hist(BanzattoQd1.2.3, prob = TRUE,
@@ -30,5 +31,5 @@ sd(BanzattoQd1.2.3)
 fivenum(BanzattoQd1.2.3)
 
 }
-\keyword{amostra}
+\keyword{AAS}
 

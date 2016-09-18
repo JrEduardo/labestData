@@ -2,7 +2,8 @@
 % Please edit documentation in R/Ramalho.R
 \name{RamalhoEx3.1}
 \alias{RamalhoEx3.1}
-\title{N\enc{ú}{u}mero de plantas de milho ap\enc{ó}{o}s inocula\enc{çã}{ca}o}
+\title{N\enc{ú}{u}mero de plantas de milho ap\enc{ó}{o}s
+    inocula\enc{çã}{ca}o}
 \format{data.frame com 20 observações e 4 variáveis, em que
 
 \describe{
@@ -16,9 +17,7 @@
 
 }}
 \source{
-Ramalho, M. A. P., Ferreira, D. F., Oliveira, A. C. (2005).
-    Experimentação em Genética e Melhoramento de Plantas (2th ed.).
-    Lavras, MG: UFLA. (pg 50)
+RAMALHO et al. (2005), pág. 50.
 }
 \description{
 Experimento referente ao número de plantas de milho,

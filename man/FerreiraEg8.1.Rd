@@ -2,7 +2,8 @@
 % Please edit documentation in R/Ferreira.R
 \name{FerreiraEg8.1}
 \alias{FerreiraEg8.1}
-\title{N\enc{ú}{u}mero de Gr\enc{ã}{a}os e Produtividade em Cultivares de Feij\enc{ã}{a}o}
+\title{N\enc{ú}{u}mero de Gr\enc{ã}{a}os e Produtividade em
+    Cultivares de Feij\enc{ã}{a}o}
 \format{Um \code{data.frame} com 20 observações e 4 variáveis.
 
 \describe{
@@ -19,8 +20,7 @@
 
 }}
 \source{
-Ferreira, D. F. (2011). Estatística Multivariada (2nd
-    ed.). Lavras, MG: Editora UFLA. (Exemplo 8.1, pág. 339)
+FERREIRA (2011), Exemplo 8.1, pág. 339.
 }
 \description{
 Dados obtidos de um experimento inteiramente casualizado

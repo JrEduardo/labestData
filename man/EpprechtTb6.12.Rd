@@ -3,33 +3,31 @@
 \name{EpprechtTb6.12}
 \alias{EpprechtTb6.12}
 \title{Peso de um Produto}
-\format{Um \code{data.frame} com 30 observações e 1 variável, 
-    em que
+\format{Um \code{data.frame} com 30 observações e 1 variável, em que
 
 \describe{
 
 \item{\code{peso}}{Peso do produto.}
-    
+
 }}
 \source{
-Costa, A. F. B., Epprecht, E. K., Carpinetti, L. (2010).
-     Controle Estatístico de Qualidade (2nd ed.). São Paulo - SP:
-     Editora Atlas. (pg 184).
+COSTA et al. (2010), pág. 184.
 }
 \description{
-Trinta observações registradas referentes aos pesos de um 
-    produto.
+Trinta observações registradas referentes aos pesos de
+    um produto.
 }
 \examples{
 
 data(EpprechtTb6.12)
+str(EpprechtTb6.12)
 
 library(qcc)
 
-qcc(EpprechtTb6.12$peso, type="xbar.one", nsigmas=3,
-    xlab=" ", ylab="Peso", title=" ")
+qcc(EpprechtTb6.12$peso, type = "xbar.one", nsigmas = 3,
+    xlab = "", ylab = "Peso", title = "")
 
-                  
+
 }
 \keyword{CEQ}
 

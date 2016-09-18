@@ -2,36 +2,37 @@
 % Please edit documentation in R/Demetrio.R
 \name{DemetrioEx7.8.3}
 \alias{DemetrioEx7.8.3}
-\title{Alturas de Eucaliptos sob Aduba\enc{çã}{ca}o Pot\enc{á}{a}ssica}
-\format{Um \code{data.frame} de 12 linhas e 2 colunas.
+\title{Alturas de Eucaliptos sob Aduba\enc{çã}{ca}o
+    Pot\enc{á}{a}ssica}
+\format{Um \code{data.frame} de 12 linhas e 2 colunas, em que
 
 \describe{
 
-    \item{\code{dose}}{Dose de potássio, medida em ppm.}
-    
-    \item{\code{altura}}{Altura da árvore, medida em centímetro
-    (cm).}
-    
+\item{\code{dose}}{Dose de potássio, medida em ppm.}
+
+\item{\code{altura}}{Altura da árvore, medida em centímetro (cm).}
+
 }}
 \source{
-Demétrio, C. G. B., Zocchi, S. S. (2011). Modelos de
-    Regressão. Piracicaba: ESALQ. (Exercício 7.8.3 pág. 198)
+DEMÉTRIO; ZOCCHI (2011), Exercício 7.8.3 pág. 198.
 }
 \description{
-Dados referentes a um experimento de adubação,
-    conduzido em casa de vegetação. Foram usadas 4 doses de
-    Potássio (0, 30, 60, 90 ppm), obtendo-se as alturas das árvores
-    da espécie \emph{Eucalyptus grandis}, medidas em cm.
+Dados referentes a um experimento de adubação, conduzido
+    em casa de vegetação. Foram usadas 4 doses de Potássio (0, 30,
+    60, 90 ppm), obtendo-se as alturas das árvores da espécie
+    \emph{Eucalyptus grandis}, medidas em cm.
 }
 \examples{
 
 data(DemetrioEx7.8.3)
+str(DemetrioEx7.8.3)
 
 library(lattice)
 
 xyplot(altura ~ dose, data = DemetrioEx7.8.3,
-    main = "Altura vs Dose", xlab = "Dose", ylab = "Altura")
-     
+       main = "Altura vs Dose", xlab = "Dose", ylab = "Altura")
+
 }
-\keyword{RP}
+\keyword{DIC}
+\keyword{RS}
 

@@ -3,7 +3,7 @@
 \name{CharnetEx5.6}
 \alias{CharnetEx5.6}
 \title{Consumo de Combust\enc{í}{i}vel e Peso do Autom\enc{ó}{o}vel}
-\format{Um \code{data.frame} com 2 colunas e 14 linhas.
+\format{Um \code{data.frame} com 2 colunas e 14 linhas, em que
 
 \describe{
 
@@ -14,10 +14,7 @@
 
 }}
 \source{
-Charnet, R., de Luna Freire, C.A., Charnet, E.M.R., Bonvino,
-    H. (2008). Análise de modelos de regressão linear com aplicações
-    (2nd ed.). Campinas, SP: Editora Unicamp (Capítulo 5, exercício
-    6, pág. 110)
+CHARNET et al. (2008), Capítulo 5, exercício 6, pág. 110.
 }
 \description{
 Consumo de combustível para percorrer determinado trecho
@@ -27,6 +24,7 @@ Consumo de combustível para percorrer determinado trecho
 \examples{
 
 data(CharnetEx5.6)
+str(CharnetEx5.6)
 
 plot(CharnetEx5.6)
 

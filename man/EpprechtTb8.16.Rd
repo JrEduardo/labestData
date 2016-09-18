@@ -2,36 +2,37 @@
 % Please edit documentation in R/Epprecht.R
 \name{EpprechtTb8.16}
 \alias{EpprechtTb8.16}
-\title{Controle de qualidade na produ\enc{çã}{ca}o de cabos el\enc{é}{e}tricos}
-\format{Um \code{data.frame} com 10 observações e 2 variáveis, 
-    em que
+\title{Controle de Qualidade na Produ\enc{çã}{ca}o de Cabos
+    El\enc{é}{e}tricos}
+\format{Um \code{data.frame} com 10 observações e 2 variáveis, em que
 
 \describe{
 
-\item{\code{met}}{Quantidade de cabo avaliado em cada amostra (em metros).}
+\item{\code{met}}{Quantidade de cabo avaliado em cada amostra (em
+    metros).}
 
 \item{\code{def}}{Número de defeitos encontrados.}
 
 }}
 \source{
-Costa, A. F. B., Epprecht, E. K., Carpinetti, L. (2010).
-     Controle Estatístico de Qualidade (2nd ed.). São Paulo - SP:
-     Editora Atlas. (pg 233).
+COSTA et al. (2010), pág. 233.
 }
 \description{
-Dados referentes ao monitoramento do processo de produção
-    de cabos elétricos. Foi registrada a quantidade de defeitos
-    encontrados em amostras de determinada quantidade de metros de cabo.
+Dados referentes ao monitoramento do processo de
+    produção de cabos elétricos. Foi registrada a quantidade de
+    defeitos encontrados em amostras de determinada quantidade de
+    metros de cabo.
 }
 \examples{
 
-data(EpprechtTb8.16) 
+data(EpprechtTb8.16)
+str(EpprechtTb8.16)
 
 library(qcc)
 
-qcc(EpprechtTb8.16$def, type="u", sizes=EpprechtTb8.16$met,
-    xlab="Amostra", ylab="Quantidade de defeitos", title=" ")  
-                   
+qcc(EpprechtTb8.16$def, type = "u", sizes = EpprechtTb8.16$met,
+    xlab = "Amostra", ylab = "Quantidade de defeitos", title = " ")
+
 }
 \keyword{CEQ}
 

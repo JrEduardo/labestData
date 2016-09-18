@@ -2,8 +2,8 @@
 % Please edit documentation in R/Zimmermann.R
 \name{ZimmermannTb3.5}
 \alias{ZimmermannTb3.5}
-\title{Fracionamento da Aduba\enc{çã}{ca}o na Produ\enc{çã}{ca}o de Gr\enc{ã}{a}os de Arroz
-    Irrigado}
+\title{Fracionamento da Aduba\enc{çã}{ca}o na Produ\enc{çã}{ca}o de
+    Gr\enc{ã}{a}os de Arroz Irrigado}
 \format{Um \code{data.frame} com 32 observações e 3 variáveis
 
 \describe{
@@ -22,9 +22,7 @@
 
 }}
 \source{
-Zimmermann, F. J. (2004). Estatística aplicada à pesquisa
-    agrícola (1st ed.). Santo Antônio de Goiás, GO: Embrapa Arroz e
-    Feijão. (Tabela 3.5, pág. 54)
+ZIMMERMANN (2004), Tabela 3.5, pág. 54.
 }
 \description{
 Dados de um estudo sobre adubação nitrogenada na cultura
@@ -45,6 +43,7 @@ adub <- expression(80[0],
                    40[0] + 40[40],
                    13.2[0] + 66.8[40],
                    13.2[0] + 33.4[40] + 33.4[60])
+
 xyplot(prod ~ adub, data = ZimmermannTb3.5,
        type = c("p", "a"), jitter.x = TRUE,
        xlab = "Formas de adubação",
@@ -56,4 +55,5 @@ aggregate(prod ~ adub, data = ZimmermannTb3.5,
 
 }
 \keyword{DIC}
+\keyword{contrastes}
 

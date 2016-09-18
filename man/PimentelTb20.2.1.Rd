@@ -2,7 +2,8 @@
 % Please edit documentation in R/Pimentel.R
 \name{PimentelTb20.2.1}
 \alias{PimentelTb20.2.1}
-\title{Ensaio Fatorial de Aduba\enc{çã}{ca}o de Cana-de-a\enc{çú}{cu}car}
+\title{Ensaio Fatorial de Aduba\enc{çã}{ca}o de
+    Cana-de-a\enc{çú}{cu}car}
 \format{Um \code{data.frame} com 9 observações e 3 variáveis, em que
 
 \describe{
@@ -18,8 +19,7 @@
 
 }}
 \source{
-Pimentel-Gomes, F. (2009). Curso de Estatística Experimental
-    (15th ed.). Piracicaba, SP: FEALQ. (Tabela 20.2.1, pág. 369)
+PIMENTEL-GOMES (2009), Tabela 20.2.1, pág. 369.
 }
 \description{
 Ensaio fatorial, de \eqn{3^{2}}, de adubação de
@@ -40,5 +40,5 @@ xyplot(totais ~ P, data = PimentelTb20.2.1,
        xlab = "Níveis de fósforo (P)")
 
 }
-\keyword{FAT2}
+\keyword{FAT3K}
 

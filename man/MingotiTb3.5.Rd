@@ -2,7 +2,7 @@
 % Please edit documentation in R/Mingoti.R
 \name{MingotiTb3.5}
 \alias{MingotiTb3.5}
-\title{Impress\enc{õ}{o}es sensoriais de marcas de coxinha de galinha}
+\title{Impress\enc{õ}{o}es Sensoriais de Marcas de Coxinha de Galinha}
 \format{Um \code{data.frame} com 8 observações e 5 variáveis, em que
 
 \describe{
@@ -23,9 +23,7 @@
 
 }}
 \source{
-Mingoti, S. A. (2005). Análise de dados através de métodos de
-    estatística multivariada: uma abordagem aplicada.  Belo
-    Horizonte, MG: Editora UFMG. (pg 42).
+MINGOTI (2005), pág. 42.
 }
 \description{
 Dados de 8 marcas de coxinha de galinha, avaliados em 4
@@ -38,12 +36,12 @@ Dados de 8 marcas de coxinha de galinha, avaliados em 4
 \examples{
 
 data(MingotiTb3.5)
+str(MingotiTb3.5)
 
 library(car)
 
 scatterplotMatrix(~sabor + aroma + massa + recheio,
-                  data = MingotiTb3.5,
-                  main = "Matriz de dispersão")
+                  data = MingotiTb3.5, smooth = FALSE)
 
 }
 \keyword{sensorial}

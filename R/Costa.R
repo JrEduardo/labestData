@@ -1,9 +1,10 @@
 #' @name CostaEx5.7.2
-#' @title Densidade do Solo ao Longo do Perfil em Zonas de Compacta\enc{çã}{ca}o
+#' @title Densidade do Solo ao Longo do Perfil em Zonas de
+#'     Compacta\enc{çã}{ca}o
 #' @description Os dados são resultados de um estudo feito em zonas de
 #'     compactação e referem-se a valores de densidade do solo em
 #'     amostras retiradas de diferentes profundidades no perfil do solo.
-#' @format Um \code{data.frame} com 10 observações e 2 variáveis.
+#' @format Um \code{data.frame} com 10 observações e 2 variáveis, em que
 #'
 #' \describe{
 #'
@@ -14,10 +15,8 @@
 #'     amostra retirada do perfil do solo.}
 #'
 #' }
-#' @keywords TODO
-#' @source Costa, J. R. (2003). Técnicas experimentais aplicadas às
-#'     ciências agrárias (Documentos 163). Seropédica, RJ: Embrapa
-#'     Agrobiologia. (Exemplo 5.7.2.1, pág. 90)
+#' @keywords RS
+#' @source Costa (2013), Exemplo 5.7.2.1, pág. 90.
 #' @examples
 #'
 #' library(lattice)
@@ -38,7 +37,7 @@ NULL
 #' @description Experimento instalado em delineamento inteiramente
 #'     casualizado que mediu o efeito da adubação nitrogenada na
 #'     produção de milho.
-#' @format Um \code{data.frame} com 15 observações e 3 variáveis.
+#' @format Um \code{data.frame} com 15 observações e 3 variáveis, em que
 #'
 #' \describe{
 #'
@@ -50,16 +49,13 @@ NULL
 #' \item{\code{prod}}{Produção de milho (ton ha\eqn{^{-1}}).}
 #'
 #' }
-#' @keywords DIC RegSeg
-#' @source Costa, J. R. (2003). Técnicas experimentais aplicadas às
-#'     ciências agrárias (Documentos 163). Seropédica, RJ: Embrapa
-#'     Agrobiologia. (Exemplo 5.7.3.1, pág. 95)
+#' @keywords DIC RS RNL
+#' @source Costa (2013), Exemplo 5.7.3.1, pág. 95.
 #' @examples
 #'
 #' library(lattice)
 #'
 #' data(CostaEx5.7.3)
-#'
 #' str(CostaEx5.7.3)
 #'
 #' xyplot(prod ~ dose, data = CostaEx5.7.3,
@@ -75,7 +71,7 @@ NULL
 #'     vegetação em delineamento inteiramente casualizado para avaliar a
 #'     massa seca de parte aérea de variedades de cana-de-açúcar. A
 #'     unidade experimental (parcela) era um vaso com 3 plantas.
-#' @format Um \code{data.frame} com 24 observações e 3 variáveis.
+#' @format Um \code{data.frame} com 24 observações e 3 variáveis, em que
 #'
 #' \describe{
 #'
@@ -90,14 +86,13 @@ NULL
 #'
 #' }
 #' @keywords DIC
-#' @source Costa, J. R. (2003). Técnicas experimentais aplicadas às
-#'     ciências agrárias (Documentos 163). Seropédica, RJ: Embrapa
-#'     Agrobiologia. (Tabela 4, pág. 58)
+#' @source Costa (2013), Tabela 4, pág. 58.
 #' @examples
 #'
 #' library(lattice)
 #'
 #' data(CostaTb4)
+#' str(CostaTb4)
 #'
 #' aggregate(mspa ~ varied,  data = CostaTb4,
 #'           FUN = function(x) { c(mean = mean(x), var = var(x)) })
@@ -113,7 +108,8 @@ NULL
 #' @description Experimento instalado em delineamento de blocos
 #'     casualizados para estudar o efeito de tipos de cobertura morta no
 #'     peso seco de brócolis.
-#' @format Um \code{data.frame} com 20 observações e 3 variáveis.
+#' @format Um \code{data.frame} com 20 observações e 3 variáveis, em que
+#'
 #' \describe{
 #'
 #' \item{\code{cobert}}{Fator nominal com níveis de cobertura morta
@@ -130,18 +126,20 @@ NULL
 #'
 #' }
 #' @keywords DBC
-#' @source Costa, J. R. (2003). Técnicas experimentais aplicadas às
-#'     ciências agrárias (Documentos 163). Seropédica, RJ: Embrapa
-#'     Agrobiologia. (Tabela 6 pág. 63)
+#' @source Costa (2013), Tabela 6 pág. 63.
 #' @examples
 #'
 #' library(lattice)
 #'
 #' data(CostaTb6)
+#' str(CostaTb6)
 #'
 #' with(CostaTb6, addmargins(tapply(X = peso,
 #'                                  INDEX = list(bloco, cobert),
 #'                                  FUN = sum)))
+#'
+#' # Ordenar para evitar o efeito espaguete no gráfico.
+#' CostaTb6 <- CostaTb6[with(CostaTb6, order(cobert, bloco)), ]
 #'
 #' xyplot(peso ~ cobert, data = CostaTb6,
 #'        groups = bloco, type = "b",
@@ -157,7 +155,7 @@ NULL
 #' @description Experimento fatorial que avaliou o peso do colmo de duas
 #'     variedades de cana-de-açúcar em resposta a três inoculantes
 #'     aplicados.
-#' @format Um \code{data.frame} com 24 observações e 4 variáveis.
+#' @format Um \code{data.frame} com 24 observações e 4 variáveis, em que
 #'
 #' \describe{
 #'
@@ -176,15 +174,12 @@ NULL
 #'
 #' }
 #' @keywords DBC FAT2
-#' @source Costa, J. R. (2003). Técnicas experimentais aplicadas às
-#'     ciências agrárias (Documentos 163). Seropédica, RJ: Embrapa
-#'     Agrobiologia. (Tabela 7, pág. 68)
+#' @source Costa (2013), Tabela 7, pág. 68.
 #' @examples
 #'
 #' library(lattice)
 #'
 #' data(CostaTb7)
-#'
 #' str(CostaTb7)
 #'
 #' ftable(with(CostaTb7,
@@ -205,11 +200,12 @@ NULL
 NULL
 
 #' @name CostaTb8
-#' @title Irriga\enc{çã}{ca}o no Tamanho de Frutos de Variedades de Banana
+#' @title Irriga\enc{çã}{ca}o no Tamanho de Frutos de Variedades de
+#'     Banana
 #' @description Experimento em parcelas subdivididas que estudou o
 #'     comprimento de frutos de variedades de banana em função do nível
 #'     de irrigação fornecido.
-#' @format Um \code{data.frame} com 32 observações e 4 variáveis.
+#' @format Um \code{data.frame} com 32 observações e 4 variáveis, em que
 #'
 #' \describe{
 #'
@@ -230,16 +226,13 @@ NULL
 #'     penca do cacho de bananas.}
 #'
 #' }
-#' @keywords DBC PS
-#' @source Costa, J. R. (2003). Técnicas experimentais aplicadas às
-#'     ciências agrárias (Documentos 163). Seropédica, RJ: Embrapa
-#'     Agrobiologia. (Tabela 8, pág. 76)
+#' @keywords PS
+#' @source Costa (2013), Tabela 8, pág. 76.
 #' @examples
 #'
 #' library(lattice)
 #'
 #' data(CostaTb8)
-#'
 #' str(CostaTb8)
 #'
 #' ftable(with(CostaTb8,
@@ -258,4 +251,3 @@ NULL
 #'        ylab = expression("Comprimento do fruto"~(cm)))
 #'
 NULL
-

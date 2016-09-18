@@ -15,14 +15,13 @@
 
 }}
 \source{
-Pimentel-Gomes, F. (2009). Curso de Estatística Experimental
-    (15th ed.). Piracicaba, SP: FEALQ. (Tabela 21.5.1, pág. 384)
+PIMENTEL-GOMES (2009), Tabela 21.5.1, pág. 384.
 }
 \description{
 Ensaio inteiramente casualizado para avaliar a
     porcentagem de plantas doentes em um experimento de tomateiros
     onde foi estudado um fator de 3 níveis. Para análise dos
-    resultados pode-se considerar o de Kruskal- Wallis.
+    resultados pode-se considerar o de Kruskal-Wallis.
 }
 \examples{
 
@@ -39,4 +38,5 @@ xyplot(doentes ~ trat,
 
 }
 \keyword{DIC}
+\keyword{unitário}
 

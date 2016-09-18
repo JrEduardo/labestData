@@ -2,8 +2,10 @@
 % Please edit documentation in R/Banzatto.R
 \name{BanzattoQd5.3.1}
 \alias{BanzattoQd5.3.1}
-\title{Produ\enc{çã}{ca}o de Caf\enc{é}{e} em Fun\enc{çã}{ca}o de Aduba\enc{çã}{ca}o NPK}
-\format{Um \code{data.frame} com 48 observações e 5 variáveis.
+\title{Produ\enc{çã}{ca}o de Caf\enc{é}{e} em Fun\enc{çã}{ca}o de
+    Aduba\enc{çã}{ca}o NPK}
+\format{Um \code{data.frame} com 48 observações e 5 variáveis, em que
+
 \describe{
 
 \item{\code{N}}{Variável numérica que indica ausência (0) ou
@@ -24,9 +26,7 @@
 
 }}
 \source{
-Banzatto, D. A., Kronka, S. D. (2013). Experimentação
-    Agrícola (4th ed.). Jaboticabal, SP: Funep. (Quadro 5.3.1,
-    pág. 113)
+BANZATTO; KRONKA (2013), Quadro 5.3.1, pág. 113.
 }
 \description{
 Resultados de um experimento em arranjo fatorial triplo
@@ -59,5 +59,5 @@ xyplot(prod ~ interaction(N, P, K, sep = ":"),
 
 }
 \keyword{DBC}
-\keyword{FAT3}
+\keyword{FAT2K}
 

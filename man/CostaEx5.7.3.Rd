@@ -3,7 +3,7 @@
 \name{CostaEx5.7.3}
 \alias{CostaEx5.7.3}
 \title{Efeito de Aduba\enc{çã}{ca}o Nitrogenada na Cultura do Milho}
-\format{Um \code{data.frame} com 15 observações e 3 variáveis.
+\format{Um \code{data.frame} com 15 observações e 3 variáveis, em que
 
 \describe{
 
@@ -16,9 +16,7 @@
 
 }}
 \source{
-Costa, J. R. (2003). Técnicas experimentais aplicadas às
-    ciências agrárias (Documentos 163). Seropédica, RJ: Embrapa
-    Agrobiologia. (Exemplo 5.7.3.1, pág. 95)
+Costa (2013), Exemplo 5.7.3.1, pág. 95.
 }
 \description{
 Experimento instalado em delineamento inteiramente
@@ -30,7 +28,6 @@ Experimento instalado em delineamento inteiramente
 library(lattice)
 
 data(CostaEx5.7.3)
-
 str(CostaEx5.7.3)
 
 xyplot(prod ~ dose, data = CostaEx5.7.3,
@@ -40,5 +37,6 @@ xyplot(prod ~ dose, data = CostaEx5.7.3,
 
 }
 \keyword{DIC}
-\keyword{RegSeg}
+\keyword{RNL}
+\keyword{RS}
 

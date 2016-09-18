@@ -2,7 +2,8 @@
 % Please edit documentation in R/Pimentel.R
 \name{PimentelTb16.3.1}
 \alias{PimentelTb16.3.1}
-\title{Suscetibilidade de Variedades de Soja ao Ataque de Nemat\enc{ó}{o}ides}
+\title{Suscetibilidade de Variedades de Soja ao Ataque de
+    Nemat\enc{ó}{o}ides}
 \format{Um \code{data.frame} com 60 observações e 4 variáveis, em que
 
 \describe{
@@ -21,8 +22,7 @@
 
 }}
 \source{
-Pimentel-Gomes, F. (2009). Curso de Estatística Experimental
-    (15th ed.). Piracicaba, SP: FEALQ. (Tabela 16.3.1, pág. 306)
+PIMENTEL-GOMES (2009), Tabela 16.3.1, pág. 306.
 }
 \description{
 Experimento de Arruda (1952), em blocos casualizados, em

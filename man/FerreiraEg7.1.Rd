@@ -2,7 +2,8 @@
 % Please edit documentation in R/Ferreira.R
 \name{FerreiraEg7.1}
 \alias{FerreiraEg7.1}
-\title{Avalia\enc{çã}{ca}o de Exerc\enc{í}{i}cios F\enc{í}{i}sicos sobre o Estresse Oxidativo}
+\title{Avalia\enc{çã}{ca}o de Exerc\enc{í}{i}cios F\enc{í}{i}sicos
+    sobre o Estresse Oxidativo}
 \format{Um \code{data.frame} com 32 observações e 3 variáveis.
 
 \describe{
@@ -18,8 +19,7 @@
 
 }}
 \source{
-Ferreira, D. F. (2011). Estatística Multivariada (2nd
-    ed.). Lavras, MG: Editora UFLA. (Exemplo 7.1 pág. 286)
+FERREIRA (2011), (Exemplo 7.1 pág. 286)
 }
 \description{
 Dados observados de um estudo realizado no laboratório
@@ -34,7 +34,9 @@ Dados observados de um estudo realizado no laboratório
     físicos.
 }
 \examples{
+
 data(FerreiraEg7.1)
+str(FerreiraEg7.1)
 
 aggregate(peroxido ~ amostra, data = FerreiraEg7.1, summary)
 aggregate(proteina ~ amostra, data = FerreiraEg7.1, summary)
@@ -46,7 +48,7 @@ boxplot(proteina ~ amostra, data = FerreiraEg7.1,
         axes = FALSE)
 box()
 axis(side = 2, col.axis = 4)
-mtext(side = 2, text = "Proteínas em g/dl", line = 3, col = 4) 
+mtext(side = 2, text = "Proteínas em g/dl", line = 3, col = 4)
 par(new = TRUE, mar = c(4, 5, 4, 5))
 boxplot(peroxido ~ amostra, data = FerreiraEg7.1,
         xlim = c(0.5, 2.5), border = 2,
@@ -58,5 +60,5 @@ mtext(side = 4, text = "Peróxidos em nmol/g de proteína",
       line = 3, col = 2)
 
 }
-\keyword{TODO}
+\keyword{manova}
 

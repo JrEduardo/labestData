@@ -16,8 +16,7 @@
 
 }}
 \source{
-Dias, L. A. S., Barros, W. S. (2009). Biometria
-    Experimental. Viçosa, MG: UFV. (Exercício 8, Cap. 11, pág. 321
+BARROS; DIAS (2009), Exercício 8, Cap. 11, pág. 321.
 }
 \description{
 Resultados de um grupo de experimento de competiação de
@@ -30,7 +29,6 @@ library(lattice)
 
 data(DiasEx11.7.8)
 str(DiasEx11.7.8)
-
 
 xtabs(~geno + exper, data = DiasEx11.7.8)
 
@@ -48,5 +46,5 @@ xyplot(prod ~ geno, groups = exper, data = DiasEx11.7.8,
                        columns = 4))
 
 }
-\keyword{DBC}
+\keyword{GE}
 

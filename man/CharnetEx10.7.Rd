@@ -3,7 +3,7 @@
 \name{CharnetEx10.7}
 \alias{CharnetEx10.7}
 \title{Planta\enc{çã}{ca}o de Variedades de Trigo}
-\format{Um \code{data.frame} com 4 colunas e 24 linhas.
+\format{Um \code{data.frame} com 4 colunas e 24 linhas, em que
 
 \describe{
 
@@ -18,10 +18,8 @@
 
 }}
 \source{
-Charnet, R., de Luna Freire, C.A., Charnet, E.M.R., Bonvino,
-    H. (2008). Análise de modelos de regressão linear com aplicações
-    (2nd ed.). Campinas, SP: Editora Unicamp (Capítulo 10, exercício
-    7, pág. 256, Capítulo 11, exercício 1, pág. 272)
+CHARNET et al. (2008), Capítulo 10, exercício 7, pág. 256,
+    Capítulo 11, exercício 1, pág. 272.
 }
 \description{
 Experimento com 4 variedades de trigo onde foi observado
@@ -33,10 +31,13 @@ Experimento com 4 variedades de trigo onde foi observado
 \examples{
 
 data(CharnetEx10.7)
+str(CharnetEx10.7)
 
 xtabs(~varied + fert, data = CharnetEx10.7)
 
+# detach("package:ggplot2")
 library(lattice)
+
 xyplot(prod ~ prec | fert,
        groups = varied,
        data = CharnetEx10.7,
@@ -49,5 +50,6 @@ xyplot(prod ~ prec | fert,
            var.name = "Conc. fertilizante"))
 
 }
+\keyword{RM}
 \keyword{dummy}
 

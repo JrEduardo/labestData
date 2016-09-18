@@ -17,9 +17,7 @@
 
 }}
 \source{
-Zimmermann, F. J. (2004). Estatística aplicada à pesquisa
-    agrícola (1st ed.). Santo Antônio de Goiás, GO: Embrapa Arroz e
-    Feijão. (Tabela 15.10, pág. 314)
+ZIMMERMANN (2004), Tabela 15.10, pág. 314.
 }
 \description{
 Dados de produção de grãos em terras altas, em kg
@@ -44,5 +42,4 @@ xyplot(prod ~ N + P + K, data = ZimmermannTb15.10,
 
 }
 \keyword{FRAC}
-\keyword{superficie}
 

@@ -2,7 +2,8 @@
 % Please edit documentation in R/Ramalho.R
 \name{RamalhoEx12.2}
 \alias{RamalhoEx12.2}
-\title{Dados Gen\enc{é}{e}ricos para Regress\enc{ã}{a}o M\enc{ú}{u}ltipla}
+\title{Dados Gen\enc{é}{e}ricos para Regress\enc{ã}{a}o
+    M\enc{ú}{u}ltipla}
 \format{Um \code{data.frame} com 8 observações e 4 variáveis, em que
 
 \describe{
@@ -17,9 +18,7 @@
 
 }}
 \source{
-Ramalho, M. A. P., Ferreira, D. F., Oliveira, A. C. (2005).
-    Experimentação em Genética e Melhoramento de Plantas (2th ed.).
-    Lavras: UFLA. (Exercício 12.2, pág. 231)
+RAMALHO et al. (2005), Exercício 12.2, pág. 231.
 }
 \description{
 Conjunto de dados apresentados para exercício. Objetivo

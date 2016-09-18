@@ -2,8 +2,10 @@
 % Please edit documentation in R/Paula.R
 \name{PaulaEg5.5.3}
 \alias{PaulaEg5.5.3}
-\title{Ensaio cl\enc{í}{i}nico da pr\enc{é}{e}-exist\enc{ê}{e}ncia de placa dent\enc{á}{a}ria}
+\title{Ensaio cl\enc{í}{i}nico da pr\enc{é}{e}-exist\enc{ê}{e}ncia de
+    placa dent\enc{á}{a}ria}
 \format{Um \code{data.frame} com 323 observações e 4 variáveis.
+
 \describe{
 
 \item{\code{volunt}}{Identificação do paciente voluntário.}
@@ -11,39 +13,41 @@
 \item{\code{period}}{Momento de avaliação: (1 = início do tratamento,
    2 = após 3 meses e 3 = após 6 meses.}
 
-\item{\code{trat}}{Tipo de tratamento (1 = placebo, 2 = líquido A e
-    3 = líquido B.}
+\item{\code{trat}}{Tipo de tratamento (1 = placebo, 2 = líquido A e 3
+    = líquido B.}
 
 \item{\code{escore}}{Escore atribuído às placas dentárias.}
 
 }}
 \source{
-Paula, G. A. (2004). Modelos de regressão: com apoio
-computacional. São Paulo, SP: IME-USP. (Exemplo 5.5.3, pág. 390)
+PAULA (2004), Exemplo 5.5.3, pág. 390.
 }
 \description{
-Dados de um ensaio clínico realizado com 109 indivíduos, 
-    distribuídos de forma aleatória para receberem um líquido
-    tipo A (34 indivíduos), um líquido tipo B (36 indivíduos) ou um
-    líquido controle (39 indivíduos). Placas dentárias foram 
-    avaliadas e classificadas segundo um escore no início do 
-    tratamento, após 3 e 6 meses.
+Dados de um ensaio clínico realizado com 109 indivíduos,
+    distribuídos de forma aleatória para receberem um líquido tipo A
+    (34 indivíduos), um líquido tipo B (36 indivíduos) ou um líquido
+    controle (39 indivíduos). Placas dentárias foram avaliadas e
+    classificadas segundo um escore no início do tratamento, após 3 e
+    6 meses.
 }
 \examples{
 
 data(PaulaEg5.5.3)
+str(PaulaEg5.5.3)
 
-require(lattice)
+xtabs(~trat + period, data = PaulaEg5.5.3)
+
+library(lattice)
 
 xyplot(escore ~ period | trat, groups = volunt,
-      xlab = 'Período', ylab = 'Escore', type = c("p", "a"), 
-      data = PaulaEg5.5.3)
-      
+       xlab = "Período", ylab = "Escore", type = c("p", "a"),
+       data = PaulaEg5.5.3)
+
 }
 \references{
-Hadgu, A. e Koch, G. (1999). Application of generalized 
-estimating equations to a dental randomized clinical trial. Journal 
-of Biopharmaceutical Statistics 9, 161-178.
+Hadgu, A. e Koch, G. (1999). Application of generalized
+    estimating equations to a dental randomized clinical
+    trial. Journal of Biopharmaceutical Statistics 9, 161-178.
 }
-\keyword{quase-verossimilhança}
+\keyword{longitudinal}
 

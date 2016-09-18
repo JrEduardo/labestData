@@ -2,23 +2,23 @@
 % Please edit documentation in R/Demetrio.R
 \name{DemetrioTb3.6}
 \alias{DemetrioTb3.6}
-\title{Dados Gen\enc{é}{e}ricos para Regress\enc{ã}{a}o M\enc{ú}{u}ltipla}
-\format{Um \code{data.frame} de 14 linhas e 4 colunas.
+\title{Dados Gen\enc{é}{e}ricos para Regress\enc{ã}{a}o
+    M\enc{ú}{u}ltipla}
+\format{Um \code{data.frame} de 14 linhas e 4 colunas, em que
 
 \describe{
 
-    \item{\code{x1}}{Variável explicativa, sem interpretação.}
-    
-    \item{\code{x2}}{Variável explicativa, sem interpretação.}
-    
-    \item{\code{x3}}{Variável explicativa, sem interpretação.}
-    
-    \item{\code{y}}{Variável dependente, sem interpretação.}
+\item{\code{x1}}{Variável explicativa, sem interpretação.}
+
+\item{\code{x2}}{Variável explicativa, sem interpretação.}
+
+\item{\code{x3}}{Variável explicativa, sem interpretação.}
+
+\item{\code{y}}{Variável dependente, sem interpretação.}
 
 }}
 \source{
-Demétrio, C. G. B., Zocchi, S. S. (2011). Modelos de
-    Regressão. Piracicaba: ESALQ. (Tabela 3.6 pág. 99)
+DEMÉTRIO; ZOCCHI (2011), Tabela 3.6 pág. 99.
 }
 \description{
 Dados para exercício de análise via modelo de regressão
@@ -27,16 +27,10 @@ Dados para exercício de análise via modelo de regressão
 \examples{
 
 data(DemetrioTb3.6)
+str(DemetrioTb3.6)
 
-pairs(~ x1 + x2 + x3 + y , data = DemetrioTb3.6,
-     main = "Dispersão duas a duas")
+pairs(~ x1 + x2 + x3 + y , data = DemetrioTb3.6)
 
-cor(DemetrioTb3.6)
-
-}
-\references{
-Hoffman, R., Vieira, S. (1983). Análise de Regressão. Uma
-    introdução à Econometria (2en ed.). São Paulo, SP: Ed. Hucitec.
 }
 \keyword{RM}
 

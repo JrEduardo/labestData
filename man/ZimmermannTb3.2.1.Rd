@@ -2,8 +2,8 @@
 % Please edit documentation in R/Zimmermann.R
 \name{ZimmermannTb3.2.1}
 \alias{ZimmermannTb3.2.1}
-\title{Aduba\enc{çã}{ca}o nitrogenada na Cultura do Arroz}
-\format{Um \code{data.frame} com 24 observações e 3 variáveis
+\title{Aduba\enc{çã}{ca}o Nitrogenada na Cultura do Arroz}
+\format{Um \code{data.frame} com 24 observações e 3 variáveis, em que
 
 \describe{
 
@@ -18,9 +18,7 @@
 
 }}
 \source{
-Zimmermann, F. J. (2004). Estatística aplicada à pesquisa
-    agrícola (1st ed.). Santo Antônio de Goiás, GO: Embrapa Arroz e
-    Feijão. (pg 54)
+ZIMMERMANN (2004), pág. 54.
 }
 \description{
 Dados de um experimento em DIC que visa estudar a
@@ -33,7 +31,6 @@ Dados de um experimento em DIC que visa estudar a
 library(lattice)
 
 data(ZimmermannTb3.2.1)
-
 str(ZimmermannTb3.2.1)
 
 unstack(x = ZimmermannTb3.2.1, form = prod ~ adub)

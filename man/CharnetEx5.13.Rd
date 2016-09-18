@@ -3,7 +3,7 @@
 \name{CharnetEx5.13}
 \alias{CharnetEx5.13}
 \title{Danos aos Pulm\enc{õ}{o}es em Pacientes com Enfisema}
-\format{Um \code{data.frame} com 2 colunas e 16 linhas.
+\format{Um \code{data.frame} com 2 colunas e 16 linhas, em que
 
 \describe{
 
@@ -13,10 +13,7 @@
 
 }}
 \source{
-Charnet, R., de Luna Freire, C.A., Charnet, E.M.R., Bonvino,
-    H. (2008). Análise de modelos de regressão linear com aplicações
-    (2nd ed.). Campinas, SP: Editora Unicamp (Capítulo 5, exercício
-    1, pág. 113)
+CHARNET et al. (2008), Capítulo 5, exercício 1, pág. 113.
 }
 \description{
 Danos aos pulmões em 16 pacientes com enfisema pulmonar
@@ -25,6 +22,7 @@ Danos aos pulmões em 16 pacientes com enfisema pulmonar
 \examples{
 
 data(CharnetEx5.13)
+str(CharnetEx5.13)
 
 plot(CharnetEx5.13)
 

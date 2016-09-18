@@ -2,8 +2,8 @@
 % Please edit documentation in R/Pimentel.R
 \name{PimentelTb10.6.1}
 \alias{PimentelTb10.6.1}
-\title{Experimento do Tipo III com recupera\enc{çã}{ca}o da informa\enc{çã}{ca}o
-    interblocos}
+\title{Experimento do Tipo III com recupera\enc{çã}{ca}o da
+    informa\enc{çã}{ca}o interblocos}
 \format{Um \code{data.frame} com 52 observações e 3 variáveis, em que
 
 \describe{
@@ -22,9 +22,7 @@
 
 }}
 \source{
-Pimentel-Gomes, F. (2009). Curso de Estatística
-    Experimental (15th ed.). Piracicaba, SP: FEALQ. (Tabela 10.6.1,
-    pág. 198)
+PIMENTEL-GOMES (2009), Tabela 10.6.1, pág. 198.
 
 Fraga Jr., C. G., Costa, A. S. Análise de um experimento para combate
     de vira-cabeça do tomateiro. Bragantia, 10: 305--316, 1950.
@@ -57,4 +55,6 @@ xyplot(z ~ trat,
 
 }
 \keyword{DBI}
+\keyword{proporção}
+\keyword{unitário}
 

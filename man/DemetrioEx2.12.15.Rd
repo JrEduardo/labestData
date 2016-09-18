@@ -2,19 +2,19 @@
 % Please edit documentation in R/Demetrio.R
 \name{DemetrioEx2.12.15}
 \alias{DemetrioEx2.12.15}
-\title{Dados Gen\enc{é}{e}ricos Simulados para Regress\enc{ã}{a}o Simples}
-\format{Um \code{data.frame} de 6 linhas e 2 colunas.
+\title{Dados Gen\enc{é}{e}ricos Simulados para Regress\enc{ã}{a}o
+    Simples}
+\format{Um \code{data.frame} de 6 linhas e 2 colunas, em que
 
 \describe{
 
-    \item{\code{x}}{Variável independente, sem interpretação.}
-    
-    \item{\code{y}}{Variável dependente, sem interpretação.}
-    
+\item{\code{x}}{Variável independente, sem interpretação.}
+
+\item{\code{y}}{Variável dependente, sem interpretação.}
+
 }}
 \source{
-Demétrio, C. G. B., Zocchi, S. S. (2011). Modelos de
-    Regressão. Piracicaba: ESALQ. (Exercício 2.12.15 pág. 63)
+DEMÉTRIO; ZOCCHI (2011), Exercício 2.12.15 pág. 63.
 }
 \description{
 Dados simulados para exercício analítico de estimação
@@ -24,15 +24,16 @@ Dados simulados para exercício analítico de estimação
 \examples{
 
 data(DemetrioEx2.12.15)
+str(DemetrioEx2.12.15)
 
 library(lattice)
 
 xyplot(y ~ x, data = DemetrioEx2.12.15,
-     main = "x vs y",
-     xlab = "x",
-     ylab = "y",
-     type = c("p", "r"), col.line = 3)
-     
+       main = "x vs y",
+       xlab = "x",
+       ylab = "y",
+       type = c("p", "r"), col.line = 3)
+
 }
-\keyword{TODO}
+\keyword{RS}
 

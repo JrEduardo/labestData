@@ -2,7 +2,7 @@
 % Please edit documentation in R/Manly.R
 \name{ManlyTb1.1}
 \alias{ManlyTb1.1}
-\title{Pardais sobreviventes da tempestade}
+\title{Pardais Sobreviventes da Tempestade}
 \format{Um \code{data.frame} com 49 registros e 6 variáveis.
 
 \describe{
@@ -21,9 +21,7 @@
 
 }}
 \source{
-Manly, B. J. F. (2005). Métodos Estatísticos Multivariados:
-    uma introdução. Porto Alegre, RS: Bookman (Tabela 1.1,  pág 14 e
-    15)
+MANLY (2005), Tabela 1.1, pág. 14 e 15.
 }
 \description{
 Estudo em 1898, para a teoria da evolução de Darwin com
@@ -32,11 +30,11 @@ Estudo em 1898, para a teoria da evolução de Darwin com
 \examples{
 
 data(ManlyTb1.1)
+str(ManlyTb1.1)
 
 pairs(~ct + ea + cbc + cdu + cqe + sobrev,
-      data = ManlyTb1.1,
-      main = "Gráfico de dispersão das variáveis nos pardais")
+      data = ManlyTb1.1)
 
 }
-\keyword{TODO}
+\keyword{AnaDisc}
 

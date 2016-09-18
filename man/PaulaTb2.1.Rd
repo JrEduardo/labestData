@@ -4,7 +4,8 @@
 \alias{PaulaTb2.1}
 \title{Desempenho de Turbinas para Motores de Avi\enc{ã}{a}o}
 \format{Um \code{data.frame} com 50 observações e 2 variáveis.
-    \describe{
+
+\describe{
 
 \item{\code{turb}}{Fator com cinco níveis que indica o tipo de
     turbina.}
@@ -14,8 +15,7 @@
 
 }}
 \source{
-Paula, G. A. (2004). Modelos de regressão: com apoio
-    computacional. São Paulo, SP: IME-USP. (Tabela 2.1, pág. 121)
+PAULA (2004), Tabela 2.1, pág. 121.
 }
 \description{
 Resultados de um experimento conduzido para avaliar o
@@ -25,8 +25,8 @@ Resultados de um experimento conduzido para avaliar o
     equivalentemente, a duração do motor.
 }
 \examples{
-data(PaulaTb2.1)
 
+data(PaulaTb2.1)
 str(PaulaTb2.1)
 
 # Dados no formato "largo", conforme tabela 2.1 (Paula, 2004)
@@ -35,6 +35,7 @@ unstack(PaulaTb2.1, tempo ~ turb)
 aggregate(tempo ~ turb, summary, data = PaulaTb2.1)
 
 library(lattice)
+
 xyplot(tempo ~ turb,
        data = PaulaTb2.1,
        type = c("p", "g", "smooth"))
@@ -49,5 +50,5 @@ densityplot(~tempo, groups = turb, data = PaulaTb2.1,
 Lawless, J. F. (1982). Statistical Models and Methods for
     Lifetime Data. John Wiley, New York.
 }
-\keyword{positivo-assimétrico}
+\keyword{DIC}
 

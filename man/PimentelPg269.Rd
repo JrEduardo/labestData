@@ -2,7 +2,8 @@
 % Please edit documentation in R/Pimentel.R
 \name{PimentelPg269}
 \alias{PimentelPg269}
-\title{Influ\enc{ê}{e}ncia da Case\enc{í}{i}na Iodada na Nutri\enc{çã}{ca}o de Vacas Leiteiras}
+\title{Influ\enc{ê}{e}ncia da Case\enc{í}{i}na Iodada na
+    Nutri\enc{çã}{ca}o de Vacas Leiteiras}
 \format{Um \code{data.frame} com 12 observações e 3 variáveis, em que
 
 \describe{
@@ -20,10 +21,9 @@
 
 A observação da testemunha (0 de caseina) no bloco 3 foi perdida. O
     valor correspondente foi estimado por métodos de imputação de
-    parcela perdida discutido na seção 5.4 de Pimentel-Gomes (2009).}
+    parcela perdida discutido na seção 5.4 de PIMENTEL-GOMES (2009).}
 \source{
-Pimentel-Gomes, F. (2009). Curso de Estatística Experimental
-    (15th ed.). Piracicaba, SP: FEALQ. (Página 269)
+PIMENTEL-GOMES (2009), página 269.
 }
 \description{
 Ensaio realizado pelo Departamento de Produção Animal da

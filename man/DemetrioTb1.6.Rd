@@ -3,24 +3,23 @@
 \name{DemetrioTb1.6}
 \alias{DemetrioTb1.6}
 \title{Resposta de Milho ao Fosfato}
-\format{Um \code{data.frame} de 14 linhas e 4 colunas.
+\format{Um \code{data.frame} de 14 linhas e 4 colunas, em que
 
 \describe{
 
-    \item{\code{milho}}{Dados de resposta da cultura do milho ao
-    fosfato em porcentagem.}
-    
-    \item{\code{prod}}{Produtividade da cultura na parcela
-    testemunha, em lb/acre.}
-    
-    \item{\code{satu}}{Saturação de bases em porcentagem.}
-    
-    \item{\code{ph}}{pH do solo.}
+\item{\code{milho}}{Dados de resposta da cultura do milho ao fosfato
+    em porcentagem.}
+
+\item{\code{prod}}{Produtividade da cultura na parcela testemunha, em
+    lb/acre.}
+
+\item{\code{satu}}{Saturação de bases em porcentagem.}
+
+\item{\code{ph}}{pH do solo.}
 
 }}
 \source{
-Demétrio, C. G. B., Zocchi, S. S. (2011). Modelos de
-    Regressão. Piracicaba: ESALQ. (Tabela 1.6 pág. 13)
+DEMÉTRIO; ZOCCHI (2011), Tabela 1.6 pág. 13.
 }
 \description{
 Neste estudo foram obtidos dados sobre a resposta da
@@ -32,12 +31,13 @@ Neste estudo foram obtidos dados sobre a resposta da
 \examples{
 
 data(DemetrioTb1.6)
+str(DemetrioTb1.6)
 
 pairs(~ milho + prod + satu + ph, data = DemetrioTb1.6,
-     main = "Dispersão duas a duas")
+      main = "Dispersão duas a duas")
 
 cor(DemetrioTb1.6)
 
 }
-\keyword{TODO}
+\keyword{RM}
 

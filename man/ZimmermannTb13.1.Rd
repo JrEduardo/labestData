@@ -19,9 +19,7 @@
 
 }}
 \source{
-Zimmermann, F. J. (2004). Estatística aplicada à pesquisa
-    agrícola (1st ed.). Santo Antônio de Goiás, GO: Embrapa Arroz e
-    Feijão. (Tabela 13.1, pág 272)
+ZIMMERMANN (2004), Tabela 13.1, pág. 272.
 }
 \description{
 Em um plantio de feijão com a cultivar Jalo Precoce
@@ -36,6 +34,7 @@ data(ZimmermannTb13.1)
 str(ZimmermannTb13.1)
 
 splom(ZimmermannTb13.1, type = c("p", "smooth"))
+
 }
-\keyword{REG}
+\keyword{RM}
 

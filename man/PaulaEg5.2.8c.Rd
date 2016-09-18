@@ -4,6 +4,7 @@
 \alias{PaulaEg5.2.8c}
 \title{Manchas na Folha de Cevada}
 \format{Um \code{data.frame} com 90 observações e 3 variáveis.
+
 \describe{
 
 \item{\code{incid}}{Proporção da área afetada na folha de cevada.}
@@ -14,8 +15,7 @@
 
 }}
 \source{
-Paula, G. A. (2004). Modelos de regressão: com apoio
-    computacional. São Paulo, SP: IME-USP. (Exemplo 5.2.8a, pág. 367)
+PAULA (2004), Exemplo 5.2.8a, pág. 367.
 }
 \description{
 Dados apresentados em McCullagh e Nelder (1989),
@@ -25,8 +25,9 @@ Dados apresentados em McCullagh e Nelder (1989),
 \examples{
 
 data(PaulaEg5.2.8c)
-
 str(PaulaEg5.2.8c)
+
+xtabs(~varied + local, data = PaulaEg5.2.8c)
 
 boxplot(incid ~ local, data = PaulaEg5.2.8c,
         xlab = "Local",
@@ -41,5 +42,5 @@ boxplot(incid ~ varied, data = PaulaEg5.2.8c,
 McCullagh, P. e Nelder, J. A. (1989). Generalized Linear
     Models, 2nd. Edition. Chapman and Hall, London. Tabela 9.2.
 }
-\keyword{quase-verossimilhança}
+\keyword{unitário}
 

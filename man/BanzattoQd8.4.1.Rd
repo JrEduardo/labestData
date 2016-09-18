@@ -2,8 +2,9 @@
 % Please edit documentation in R/Banzatto.R
 \name{BanzattoQd8.4.1}
 \alias{BanzattoQd8.4.1}
-\title{Grupo de Ensaios de Competi\enc{çã}{ca}o de Gen\enc{ó}{o}tipos de Cebola}
-\format{Um \code{data.frame} com 60 observações e 3 variáveis.
+\title{Grupo de Ensaios de Competi\enc{çã}{ca}o de Gen\enc{ó}{o}tipos
+    de Cebola}
+\format{Um \code{data.frame} com 60 observações e 3 variáveis, em que
 
 \describe{
 
@@ -18,9 +19,7 @@
 
 }}
 \source{
-Banzatto, D. A., Kronka, S. D. (2013). Experimentação
-    Agrícola (4th ed.). Jaboticabal, SP: Funep. (Quadro 8.4.1,
-    pág. 200)
+BANZATTO; KRONKA (2013), Quadro 8.4.1, pág. 200.
 
 Santos, G. M. (2003). Adaptabilidade e estabilidade de genótipos de
     cebola. Tese (Doutorado em Genética e Melhoramento de

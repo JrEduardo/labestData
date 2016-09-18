@@ -3,7 +3,7 @@
 \name{CharnetEx1.20}
 \alias{CharnetEx1.20}
 \title{Testes de Avalia\enc{çã}{ca}o de Personalidade}
-\format{Um \code{data.frame} com 2 colunas e 20 linhas.
+\format{Um \code{data.frame} com 2 colunas e 20 linhas, em que
 
 \describe{
 
@@ -13,10 +13,8 @@
 
 }}
 \source{
-Charnet, R., de Luna Freire, C.A., Charnet, E.M.R., Bonvino,
-    H. (2008). Análise de modelos de regressão linear com aplicações
-    (2nd ed.). Campinas, SP: Editora Unicamp (Capítulo 1, exercício
-    20, pág. 26; e Capítulo 3, exercício 8, pág. 67)
+CHARNET et al. (2008), Capítulo 1, exercício 20, pág. 26; e
+    Capítulo 3, exercício 8, pág. 67.
 }
 \description{
 Dois testes de avaliação de personalidade aplicados a 20
@@ -25,6 +23,7 @@ Dois testes de avaliação de personalidade aplicados a 20
 \examples{
 
 data(CharnetEx1.20)
+str(CharnetEx1.20)
 
 plot(CharnetEx1.20)
 

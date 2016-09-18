@@ -15,9 +15,7 @@
 \item{\code{prod}}{Produtividade.}
 }}
 \source{
-Dias, L. A. S., Barros, W. S. (2009). Biometria
-    Experimental. Viçosa, MG: UFV. (Exercício 10.4, Cap. 10,
-    pág. 294)
+BARROS; DIAS (2009), Exercício 10.4, Cap. 10, pág. 294.
 }
 \description{
 Ensaio de competição de batata doce, instalado em

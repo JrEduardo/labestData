@@ -2,9 +2,8 @@
 % Please edit documentation in R/Epprecht.R
 \name{EpprechtTb5.2}
 \alias{EpprechtTb5.2}
-\title{Medidas de pe\enc{ç}{c}as em uma linha de produ\enc{çã}{ca}o}
-\format{Um \code{data.frame} com 60 observações e 3 variáveis, 
-    em que
+\title{Medidas de Pe\enc{ç}{c}as em uma Linha de Produ\enc{çã}{ca}o}
+\format{Um \code{data.frame} com 60 observações e 3 variáveis, em que
 
 \describe{
 
@@ -12,37 +11,34 @@
 
 \item{\code{op}}{Fator que indica o operador que realizou a medição
     da peça (de 1 a 3).}
-    
-\item{\code{tam}}{Tamanho da peça (µm).}
+
+\item{\code{tam}}{Tamanho da peça (\eqn{\mu}m).}
 
 }}
 \source{
-Costa, A. F. B., Epprecht, E. K., Carpinetti, L. (2010).
-     Controle Estatístico de Qualidade (2nd ed.). São Paulo - SP:
-     Editora Atlas. (pg 152).
+COSTA et al. (2010), pág. 152.
 }
 \description{
 Dados referentes às medidas de peças de uma linha de
-    produção. O objetivo é analisar a repetitividade e a 
+    produção. O objetivo é analisar a repetitividade e a
     reprodutividade de um micrômetro com leitura milesimal, usado na
-    medição de um componente de um processo de usinagem. Três 
-    operadores treinados mediram duas vezes cada uma de 10 peças. 
-    A sequência em que cada um dos operadores mede cada uma das 
-    peças foi aleatorizada.
+    medição de um componente de um processo de usinagem. Três
+    operadores treinados mediram duas vezes cada uma de 10 peças.  A
+    sequência em que cada um dos operadores mede cada uma das peças
+    foi aleatorizada.
 }
 \examples{
 
 data(EpprechtTb5.2)
+str(EpprechtTb5.2)
+
+xtabs(~pc + op, data = EpprechtTb5.2)
 
 boxplot(tam ~ op, data = EpprechtTb5.2,
-        xlab = "Operário", 
-        ylab = "Tamanho", 
-        main = "Boxplots para os tamanhos das peças aferidos pelos três 
-            operários",
+        xlab = "Operário",
+        ylab = "Tamanho",
         col = c("#F0FFFF","#FFDAB9", "#C1FFC1"))
 
-                  
 }
-\keyword{ASM}
 \keyword{CEQ}
 

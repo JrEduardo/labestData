@@ -3,7 +3,7 @@
 \name{BanzattoQd9.2.1}
 \alias{BanzattoQd9.2.1}
 \title{Produ\enc{çã}{ca}o de Variedades de Milho}
-\format{Um \code{data.frame} com 24 observações e 6 variáveis.
+\format{Um \code{data.frame} com 24 observações e 6 variáveis, em que
 
 \describe{
 
@@ -30,9 +30,7 @@ Os fatores A e B são fictícios pois foram criados apenas para
     fatorial 3 \eqn{\times} 2 ao invés de ter um único fator de 6
     níveis.}
 \source{
-Banzatto, D. A., Kronka, S. D. (2013). Experimentação
-    Agrícola (4th ed.). Jaboticabal, SP: Funep. (Quadro 9.2.1,
-    pág. 206)
+BANZATTO; KRONKA (2013), Quadro 9.2.1, pág. 206.
 }
 \description{
 Resultados de um experimento para avaliação da produção

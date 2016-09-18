@@ -2,9 +2,9 @@
 % Please edit documentation in R/Epprecht.R
 \name{EpprechtTb5.5}
 \alias{EpprechtTb5.5}
-\title{Medidas de dureza de pe\enc{ç}{c}as de uma linha de produ\enc{çã}{ca}o}
-\format{Um \code{data.frame} com 30 observações e 2 variáveis, 
-    em que
+\title{Medidas de dureza de pe\enc{ç}{c}as de uma linha de
+    produ\enc{çã}{ca}o}
+\format{Um \code{data.frame} com 30 observações e 2 variáveis, em que
 
 \describe{
 
@@ -14,27 +14,24 @@
 
 }}
 \source{
-Costa, A. F. B., Epprecht, E. K., Carpinetti, L. (2010).
-     Controle Estatístico de Qualidade (2nd ed.). São Paulo - SP:
-     Editora Atlas. (pg 155).
+COSTA et al. (2010), pág. 155.
 }
 \description{
-Dados referentes a medidas de dureza de peças, para avaliar a 
-    capacidade de medição de um durômetro. São 10 peças medidas três vezes
-    cada por um mesmo operador.
+Dados referentes a medidas de dureza de peças, para
+    avaliar a capacidade de medição de um durômetro. São 10 peças
+    medidas três vezes cada por um mesmo operador.
 }
 \examples{
 
 data(EpprechtTb5.5)
+str(EpprechtTb5.5)
 
-plot(tam~pc, data=EpprechtTb5.5,
-     ylab="Tamanho",
-     xlab="Peça", xaxt="n")
+plot(tam~pc, data = EpprechtTb5.5,
+     ylab = "Tamanho",
+     xlab = "Peça", xaxt = "n")
 axis(1, 1:10)
-abline(mean(EpprechtTb5.5$tam), 0, lty=2)
- 
-                  
+abline(mean(EpprechtTb5.5$tam), 0, lty = 2)
+
 }
-\keyword{ASM}
 \keyword{CEQ}
 

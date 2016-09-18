@@ -2,7 +2,8 @@
 % Please edit documentation in R/Ramalho.R
 \name{RamalhoEg7.8}
 \alias{RamalhoEg7.8}
-\title{Produ\enc{çã}{ca}o de Gr\enc{ã}{a}os de Cruzamentos Feij\enc{ã}{a}o}
+\title{Produ\enc{çã}{ca}o de Gr\enc{ã}{a}os de Cruzamentos
+    Feij\enc{ã}{a}o}
 \format{Um \code{data.frame} com 240 observações e 4 variáveis, em
     que
 
@@ -21,9 +22,7 @@
 
 }}
 \source{
-Ramalho, M. A. P., Ferreira, D. F., Oliveira, A. C. (2005).
-    Experimentação em Genética e Melhoramento de Plantas (2th ed.).
-    Lavras, MG: UFLA. (Exemplo 7.8, pág 110).
+RAMALHO et al. (2005), Exemplo 7.8, pág. 110.
 }
 \description{
 Experimento referente à produção de grãos de feijão

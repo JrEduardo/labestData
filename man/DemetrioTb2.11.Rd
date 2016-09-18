@@ -3,20 +3,19 @@
 \name{DemetrioTb2.11}
 \alias{DemetrioTb2.11}
 \title{Radia\enc{çã}{ca}o Gama em Explantes de Abacaxis}
-\format{Um \code{data.frame} de 70 linhas e 2 colunas.
+\format{Um \code{data.frame} de 70 linhas e 2 colunas, em que
 
 \describe{
 
-    \item{\code{dose}}{Dose de radiação gama a qual os
-    explantes de abacaxi foram expostos durante 45 dias.}
-    
-    \item{\code{absorv}}{Peso dos explantes de abacaxi após a
-    irradiação, medido em gramas (g).}
-    
+\item{\code{dose}}{Dose de radiação gama a qual os explantes de
+    abacaxi foram expostos durante 45 dias.}
+
+\item{\code{absorv}}{Peso dos explantes de abacaxi após a irradiação,
+    medido em gramas (g).}
+
 }}
 \source{
-Demétrio, C. G. B., Zocchi, S. S. (2011). Modelos de
-    Regressão. Piracicaba: ESALQ. (Tabela 2.11 pág. 66)
+DEMÉTRIO; ZOCCHI (2011), Tabela 2.11 pág. 66.
 }
 \description{
 Dados provenientes de um experimento inteiramente
@@ -27,6 +26,7 @@ Dados provenientes de um experimento inteiramente
 \examples{
 
 data(DemetrioTb2.11)
+str(DemetrioTb2.11)
 
 library(lattice)
 # Estatísticas descritivas
@@ -48,5 +48,6 @@ xyplot(peso ~ dose, data = DemetrioTb2.11,
            })
 
 }
-\keyword{TODO}
+\keyword{DIC}
+\keyword{RS}
 

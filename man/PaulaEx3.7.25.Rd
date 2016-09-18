@@ -17,9 +17,7 @@
 
 }}
 \source{
-Paula, G. A. (2004). Modelos de regressão: com apoio
-    computacional. São Paulo, SP: IME-USP. (Exercício 3.7.25,
-    pág. 280)
+PAULA (2004), Exercício 3.7.25, pág. 280.
 }
 \description{
 Os dados provém de uma amostra de 92 homens adultos que
@@ -41,8 +39,10 @@ xyplot(pulsa ~ peso, groups = fuma, data = PaulaEx3.7.25,
                        title = "Fumante", cex.title = 1.1),
        xlab = "Peso (kg)", ylab = "Pulsação em repouso")
 
+layout(1)
 mosaicplot(xtabs(~fuma + pulsa, data = PaulaEx3.7.25))
 
 }
 \keyword{binomial}
+\keyword{contingência}
 

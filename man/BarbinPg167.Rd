@@ -2,7 +2,8 @@
 % Please edit documentation in R/Barbin.R
 \name{BarbinPg167}
 \alias{BarbinPg167}
-\title{Produ\enc{çã}{ca}o de Porta-enxertos para Laranjeira em V\enc{á}{a}rias Safras}
+\title{Produ\enc{çã}{ca}o de Porta-enxertos para Laranjeira em
+    V\enc{á}{a}rias Safras}
 \format{Um \code{data.frame} com 90 observações e 4 variáveis, em que
 
 \describe{
@@ -21,9 +22,7 @@
 
 }}
 \source{
-Barbin, D. (2013). Planejamento e Análise Estatística de
-    Experimentos Agronômicos (2nd ed.). Londrina, PR:
-    Mecenas. (pág. 167)
+BARBIN (2013), pág. 167.
 }
 \description{
 Dados de produção de laranja de um ensaio de competição
@@ -51,6 +50,5 @@ xyplot(prod ~ anos, data = BarbinPg167,
                        lwd = 1, col = "gray50", ...))
 
 }
-\keyword{DBC}
 \keyword{PS}
 

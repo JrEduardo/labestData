@@ -2,7 +2,8 @@
 % Please edit documentation in R/Pimentel.R
 \name{PimentelEg6.2}
 \alias{PimentelEg6.2}
-\title{Ensaio de Competi\enc{çã}{ca}o de Variedades de Cana-de-a\enc{çú}{cu}car}
+\title{Ensaio de Competi\enc{çã}{ca}o de Variedades de
+    Cana-de-a\enc{çú}{cu}car}
 \format{Um \code{data.frame} com 25 observações e 4 variáveis, em que
 
 \describe{
@@ -21,8 +22,7 @@
 
 }}
 \source{
-Pimentel-Gomes, F. (2009). Curso de Estatística Experimental
-    (15th ed.). Piracicaba, SP: FEALQ. (Exemplo 6.2, pág. 96)
+PIMENTEL-GOMES (2009), Exemplo 6.2, pág. 96.
 }
 \description{
 Experimento de competição de variedades de

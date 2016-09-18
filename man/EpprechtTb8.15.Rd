@@ -2,10 +2,9 @@
 % Please edit documentation in R/Epprecht.R
 \name{EpprechtTb8.15}
 \alias{EpprechtTb8.15}
-\title{Controle de Qualidade para o N\enc{ú}{u}mero de Defeitos em um Processo 
-de Produ\enc{çã}{ca}o de Tecidos}
-\format{Um \code{data.frame} com 10 observações e 1 variável, 
-    em que
+\title{Controle de Qualidade para o N\enc{ú}{u}mero de Defeitos em um
+    Processo de Produ\enc{çã}{ca}o de Tecidos}
+\format{Um \code{data.frame} com 10 observações e 1 variável, em que
 
 \describe{
 
@@ -13,25 +12,26 @@ de Produ\enc{çã}{ca}o de Tecidos}
 
 }}
 \source{
-Costa, A. F. B., Epprecht, E. K., Carpinetti, L. (2010).
-     Controle Estatístico de Qualidade (2nd ed.). São Paulo - SP:
-     Editora Atlas. (pg 231).
+COSTA et al. (2010), pág. 231.
 }
 \description{
 Para monitorar um processo de produção de tecidos
-    estampados foram examinados os 10 primeiros rolos, com 200m de 
-    tecido cada. Foi registrado o número de defeitos encontrados em 
+    estampados foram examinados os 10 primeiros rolos, com 200m de
+    tecido cada. Foi registrado o número de defeitos encontrados em
     cada rolo.
 }
 \examples{
 
-data(EpprechtTb8.15) 
+data(EpprechtTb8.15)
+str(EpprechtTb8.15)
 
 library(qcc)
 
-qcc(EpprechtTb8.15, type="c", 
-    xlab="Amostra", ylab="Número de defeitos", title=" ")
-                  
+qcc(EpprechtTb8.15, type = "c",
+    xlab = "Amostra",
+    ylab = "Número de defeitos",
+    title = "")
+
 }
 \keyword{CEQ}
 

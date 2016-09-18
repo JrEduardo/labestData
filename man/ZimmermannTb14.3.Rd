@@ -2,7 +2,8 @@
 % Please edit documentation in R/Zimmermann.R
 \name{ZimmermannTb14.3}
 \alias{ZimmermannTb14.3}
-\title{Estande de Plantas e Produtividade de Cultivares de Feij\enc{ã}{a}o}
+\title{Estande de Plantas e Produtividade de Cultivares de
+    Feij\enc{ã}{a}o}
 \format{Um \code{data.frame} com 28 observações e 4 variáveis
 
 \describe{
@@ -18,9 +19,7 @@
 
 }}
 \source{
-Zimmermann, F. J. (2004). Estatística aplicada à pesquisa
-    agrícola (1st ed.). Santo Antônio de Goiás, GO: Embrapa Arroz e
-    Feijão. (Tabela 14.3, pág 293)
+ZIMMERMANN (2004), Tabela 14.3, pág. 293.
 }
 \description{
 Dados de um ensaio de competição de cultivares de feijão

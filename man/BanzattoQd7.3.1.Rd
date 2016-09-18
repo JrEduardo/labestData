@@ -2,8 +2,9 @@
 % Please edit documentation in R/Banzatto.R
 \name{BanzattoQd7.3.1}
 \alias{BanzattoQd7.3.1}
-\title{Di\enc{â}{a}metro e Altura de Tubetes na Forma\enc{çã}{ca}o de Mudas de Eucalipto}
-\format{Um \code{data.frame} com 27 observações e 4 variáveis.
+\title{Di\enc{â}{a}metro e Altura de Tubetes na Forma\enc{çã}{ca}o de
+    Mudas de Eucalipto}
+\format{Um \code{data.frame} com 27 observações e 4 variáveis, em que
 
 \describe{
 
@@ -18,9 +19,7 @@
 
 }}
 \source{
-Banzatto, D. A., Kronka, S. D. (2013). Experimentação
-    Agrícola (4th ed.). Jaboticabal, SP: Funep. (Quadro 7.3.1,
-    pág. 177)
+BANZATTO; KRONKA (2013), Quadro 7.3.1, pág. 177.
 }
 \description{
 Experimento fatorial 3 \eqn{\times} 3 que avaliou o
@@ -39,7 +38,8 @@ str(BanzattoQd7.3.1)
 
 xtabs(~at + dt, data = BanzattoQd7.3.1)
 
-with(BanzattoQd7.3.1, addmargins(tapply(alt, list(at, dt), FUN = mean)))
+with(BanzattoQd7.3.1,
+     addmargins(tapply(alt, list(at, dt), FUN = mean)))
 
 xyplot(alt ~ at, data = BanzattoQd7.3.1,
        groups = dt, type = c("p", "a", "g"),

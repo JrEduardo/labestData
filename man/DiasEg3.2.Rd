@@ -6,8 +6,7 @@
 \format{Vetor com 43 observações que são o número de frutos
     produzidos por plantas de cacaueiro.}
 \source{
-Dias, L. A. S., Barros, W. S. (2009). Biometria
-    Experimental. Viçosa, MG: UFV.
+BARROS; DIAS (2009), Exemplo 3.2.
 }
 \description{
 Amostra aleatória do número de frutos produzidos por

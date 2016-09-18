@@ -2,8 +2,9 @@
 % Please edit documentation in R/Charnet.R
 \name{CharnetEx3.4}
 \alias{CharnetEx3.4}
-\title{Compara\enc{çã}{ca}o da Velocidade M\enc{á}{a}xima e Peso de Carros de Corrida}
-\format{Um \code{data.frame} com 2 colunas e 24 linhas.
+\title{Compara\enc{çã}{ca}o da Velocidade M\enc{á}{a}xima e Peso de
+    Carros de Corrida}
+\format{Um \code{data.frame} com 2 colunas e 24 linhas, em que
 
 \describe{
 
@@ -13,10 +14,7 @@
 
 }}
 \source{
-Charnet, R., de Luna Freire, C.A., Charnet, E.M.R., Bonvino,
-    H. (2008). Análise de modelos de regressão linear com aplicações
-    (2nd ed.). Campinas, SP: Editora Unicamp (Capítulo 3, exercício
-    4, pág. 66)
+CHARNET et al. (2008), Capítulo 3, exercício 4, pág. 66.
 }
 \description{
 Dados provenientes de um estudo onde se observou a
@@ -26,6 +24,9 @@ Dados provenientes de um estudo onde se observou a
 \examples{
 
 data(CharnetEx3.4)
+str(CharnetEx3.4)
+
+xtabs(~peso, data = CharnetEx3.4)
 
 plot(CharnetEx3.4)
 

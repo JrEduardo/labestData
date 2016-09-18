@@ -3,7 +3,7 @@
 \name{CharnetEx4.8}
 \alias{CharnetEx4.8}
 \title{Taxa de Acidentes de Trabalho}
-\format{Um \code{data.frame} com 2 colunas e 9 linhas.
+\format{Um \code{data.frame} com 2 colunas e 9 linhas, em que
 
 \describe{
 
@@ -14,10 +14,8 @@
 
 }}
 \source{
-Charnet, R., de Luna Freire, C.A., Charnet, E.M.R., Bonvino,
-    H. (2008). Análise de modelos de regressão linear com aplicações
-    (2nd ed.). Campinas, SP: Editora Unicamp (Capítulo 4, exercício
-    8, pág. 84, Capítulo 6, exercício 9, pág. 146.)
+CHARNET et al. (2008), Capítulo 4, exercício
+    8, pág. 84; Capítulo 6, exercício 9, pág. 146.
 }
 \description{
 Taxa de acidentes de trabalho por milhão de horas/homem
@@ -26,8 +24,9 @@ Taxa de acidentes de trabalho por milhão de horas/homem
 \examples{
 
 data(CharnetEx4.8)
+str(CharnetEx4.8)
 
-plot(CharnetEx4.8)
+plot(CharnetEx4.8, type = "o")
 
 }
 \keyword{RS}

@@ -2,25 +2,28 @@
 % Please edit documentation in R/Manly.R
 \name{ManlyTb11.5}
 \alias{ManlyTb11.5}
-\title{Vota\enc{çõ}{co}es de parlamentares}
+\title{Vota\enc{çõ}{co}es de Parlamentares}
 \format{Uma matriz com os números de votos discordantes entre 15
-parlamentares de Nova Jersey.}
+    parlamentares de Nova Jersey.}
 \source{
-Manly, B. J. F. (2005). Métodos Estatísticos Multivariados 
-     - uma introdução. Porto Alegre, RS: Bookman (pg 185)
+MANLY (2005), pág. 185.
 }
 \description{
-Número de votos discordantes entre os parlamentares de 
-Nova Jersey em leis referentes a problemas ambientais
+Número de votos discordantes entre os parlamentares de
+    Nova Jersey em leis referentes a problemas ambientais
 }
 \examples{
 
 data(ManlyTb11.5)
+str(ManlyTb11.5)
 
-require(lattice)
+library(lattice)
 
-levelplot(ManlyTb11.5, xlab = "", ylab = "", main = "Gráfico das 
-distâncias entre parlamentares", scales = list(x = list(rot=90)))
+levelplot(ManlyTb11.5,
+          xlab = "",
+          ylab = "",
+          scales = list(x = list(rot = 90)))
+
 }
-\keyword{EM}
+\keyword{AnaAgrup}
 

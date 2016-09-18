@@ -2,7 +2,7 @@
 % Please edit documentation in R/Ferreira.R
 \name{FerreiraEx3.8.5}
 \alias{FerreiraEx3.8.5}
-\title{Avalia\enc{çã}{ca}o de cultivar de mel\enc{ã}{a}o}
+\title{Avalia\enc{çã}{ca}o de Cultivar de Mel\enc{ã}{a}o}
 \format{\code{data.frame} com 32 observações e 3 variáveis, em que
 
 \describe{
@@ -15,8 +15,7 @@
 
 }}
 \source{
-Ferreira, D. F. (2011). Estatística Multivariada (2nd
-    ed.). Lavras,  MG: Editora UFLA. (Exercício 3.8.5 pág. 169)
+FERREIRA (2011), Exercício 3.8.5, pág. 169.
 }
 \description{
 Os dados referem-se à avaliação de uma cultivar de melão
@@ -44,5 +43,5 @@ screeplot(comp, type = "lines")
 biplot(comp)
 
 }
-\keyword{TODO}
+\keyword{AnaComPrin}
 

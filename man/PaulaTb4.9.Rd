@@ -4,41 +4,41 @@
 \alias{PaulaTb4.9}
 \title{Avarias em Navios de Carga}
 \format{Um \code{data.frame} com 34 observações e 5 variáveis.
-    \describe{
+
+\describe{
 
 \item{\code{tipo}}{Fator com cinco níveis que representa o tipo de
     navio (A, B, C, D e E).}
 
 \item{\code{ano}}{Fator com quatro níveis que representa o ano de
     fabricação do navio (entre 1960 e 1964 (\code{60-64}), entre 1965
-    e 1969 (\code{65-69}), entre 1970 e 1974 (\code{70-74}) e 
-    entre 1975 e 1979 (\code{75-79})).}
+    e 1969 (\code{65-69}), entre 1970 e 1974 (\code{70-74}) e entre
+    1975 e 1979 (\code{75-79})).}
 
 \item{\code{peri}}{Fator com dois níveis que representa o período de
     operação do navio (entre 1960 e 1974 (\code{60-74}) e entre 1975
     e 1979 (\code{75-79})).}
 
-\item{\code{meses}}{Tempo, em meses, em que o navio esteve em operação.}
+\item{\code{meses}}{Tempo, em meses, em que o navio esteve em
+    operação.}
 
 \item{\code{avarias}}{Número de avarias no navio.}
 
 }}
 \source{
-Paula, G. A. (2004). Modelos de regressão: com apoio
-    computacional. São Paulo, SP: IME-USP. (Tabela 4.9 pág. 322)
+PAULA (2004), Tabela 4.9 pág. 322.
 }
 \description{
-Dados referentes a um estudo em que se avaliou o número de
-    avarias causadas por ondas em navios de carga. Contém 34 registros
-    com informações do tipo de navio, ano de fabricação, período de
-    operação e tempo em operação (que pode ser considerado como
-    offset na análise, pois espera-se um maior número de avarias em
-    navios com um maior tempo em operação).
+Dados referentes a um estudo em que se avaliou o número
+    de avarias causadas por ondas em navios de carga. Contém 34
+    registros com informações do tipo de navio, ano de fabricação,
+    período de operação e tempo em operação (que pode ser considerado
+    como offset na análise, pois espera-se um maior número de avarias
+    em navios com um maior tempo em operação).
 }
 \examples{
 
 data(PaulaTb4.9)
-
 str(PaulaTb4.9)
 
 # Número de observações em cada combinação das variáveis explicativas
@@ -51,6 +51,7 @@ xt <- xtabs(avarias/meses ~ ., data = PaulaTb4.9)
 plot(xt)
 
 library(lattice)
+
 xyplot(avarias/meses ~ tipo | peri,
        groups = ano,
        data = PaulaTb4.9,
@@ -61,5 +62,5 @@ xyplot(avarias/meses ~ tipo | peri,
 
 }
 \keyword{contagem}
-\keyword{superdispersão}
+\keyword{contingência}
 

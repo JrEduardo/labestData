@@ -3,7 +3,8 @@
 \name{StorckTb74}
 \alias{StorckTb74}
 \alias{StorckTb88}
-\title{\enc{É}{E}poca e Densidade de Semeadura na Produ\enc{çã}{ca}o de Milho}
+\title{\enc{É}{E}poca e Densidade de Semeadura na Produ\enc{çã}{ca}o
+    de Milho}
 \format{Um \code{data.frame} com 75 observações e 4 variáveis, em que
 
 \describe{
@@ -20,9 +21,8 @@
 
 }}
 \source{
-Storck, L., Garcia, B. C., Lopes, S. J., Estefanel,
-    V. (2011). Experimentação Vegetal (3th ed.). Santa Maria, RS:
-    UFSM. (Tabela 74, pág. 150 e Tabela 88, pág. 168)
+STORCK et al. (2011), Tabela 74, pág. 150 e Tabela 88,
+    pág. 168.
 }
 \description{
 Resultados ficitícios de um experimento fatorial 3
@@ -62,6 +62,5 @@ xyplot(prod ~ dens, groups = epoc, data = StorckTb74,
 
 }
 \keyword{DIC}
-\keyword{FAT2}
 \keyword{PS}
 

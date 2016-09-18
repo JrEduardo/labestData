@@ -3,7 +3,7 @@
 \name{CharnetEx2.13}
 \alias{CharnetEx2.13}
 \title{Compara\enc{çã}{ca}o entre Alturas de Pais e Filhos}
-\format{Um \code{data.frame} com 2 colunas e 7 linhas.
+\format{Um \code{data.frame} com 2 colunas e 7 linhas, em que
 
 \describe{
 
@@ -13,10 +13,8 @@
 
 }}
 \source{
-Charnet, R., de Luna Freire, C.A., Charnet, E.M.R., Bonvino,
-    H. (2008). Análise de modelos de regressão linear com aplicações
-    (2nd ed.). Campinas, SP: Editora Unicamp (Capítulo 2, exercício
-    13, pág. 48)
+CHARNET et al. (2008), Capítulo 2, exercício
+    13, pág. 48.
 }
 \description{
 Comparação entre alturas de 12 pais e respectivos 12
@@ -25,6 +23,7 @@ Comparação entre alturas de 12 pais e respectivos 12
 \examples{
 
 data(CharnetEx2.13)
+str(CharnetEx2.13)
 
 plot(CharnetEx2.13)
 

@@ -2,14 +2,15 @@
 % Please edit documentation in R/Manly.R
 \name{ManlyTb10.4}
 \alias{ManlyTb10.4}
-\title{Combina\enc{çã}{ca}o de tabelas 1.5 e 6.7}
+\title{Combina\enc{çã}{ca}o das Tabelas 1.5 e 6.7.}
 \format{Um \code{data.frame} com 22 países e 18 variáveis.
 
 \describe{
+
 \item{\code{pais}}{Identificação do país.}
 
-\item{\code{cv}}{Consumo de carne vermelha medida em gramas por 
-pessoa por dia.}
+\item{\code{cv}}{Consumo de carne vermelha medida em gramas por
+    pessoa por dia.}
 
 \item{\code{cb}}{Consumo de carne branca.}
 
@@ -20,15 +21,15 @@ pessoa por dia.}
 \item{\code{peixe}}{Consumo de peixe.}
 
 \item{\code{cere}}{Consumo por cereais.}
- 
+
 \item{\code{carb}}{Consumo de carboidratos.}
 
 \item{\code{gnl}}{Consumo de grãos, nozes e sementes oleaginosas.}
- 
+
 \item{\code{fv}}{Consumo de frutas e vegetais.}
 
-\item{\code{agr}}{Porcentagem da população ativa empregada na 
-agricultura, florestal e pesca.}
+\item{\code{agr}}{Porcentagem da população ativa empregada na
+    agricultura, florestal e pesca.}
 
 \item{\code{min}}{Mineração e exploração de pedreiras.}
 
@@ -37,34 +38,32 @@ agricultura, florestal e pesca.}
 \item{\code{fea}}{Fornecimento de energia e água.}
 
 \item{\code{con}}{Construção.}
- 
+
 \item{\code{ser}}{Serviços.}
- 
+
 \item{\code{fin}}{Finanças.}
- 
+
 \item{\code{ssp}}{Serviços sociais e pessoais.}
 
 \item{\code{tc}}{Transportes e comunicações.}
 
 }}
 \source{
-Manly, B. J. F. (2005). Métodos Estatísticos Multivariados- 
-uma introdução. Porto Alegre, RS: Bookman (pg 175)
+MANLY (2005), pág. 175.
 }
 \description{
-Dados referentes a consumo de proteína e força de trabalho 
-em países europeus.
+Dados referentes a consumo de proteína e força de
+    trabalho em países europeus.
 }
 \examples{
 
 data(ManlyTb10.4)
+str(ManlyTb10.4)
 
-pairs(~ cv + cb + ovo + leite + peixe + cere + carb + gnl+ agr + 
-min + fab + fea + con + ser + fin + ssp + tc,
-      data = ManlyTb10.4, 
-      main = "Matriz de gráficos para as variáveis de força de trabalho 
-      e consumo de proteínas diárias"
-      )
+library(lattice)
+
+splom(ManlyTb10.4[-1])
+
 }
-\keyword{ACC}
+\keyword{AnaCorCan}
 

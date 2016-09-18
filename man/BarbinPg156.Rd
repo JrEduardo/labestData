@@ -2,7 +2,8 @@
 % Please edit documentation in R/Barbin.R
 \name{BarbinPg156}
 \alias{BarbinPg156}
-\title{Aplica\enc{çã}{ca}o de Aduba\enc{çã}{ca}o Fosfatada na Produ\enc{çã}{ca}o de Milho}
+\title{Aplica\enc{çã}{ca}o de Aduba\enc{çã}{ca}o Fosfatada na
+    Produ\enc{çã}{ca}o de Milho}
 \format{Um \code{data.frame} com 48 observações e 4 variáveis, em que
 
 \describe{
@@ -21,9 +22,7 @@
 
 }}
 \source{
-Barbin, D. (2013). Planejamento e Análise Estatística de
-    Experimentos Agronômicos (2nd ed.). Londrina, PR:
-    Mecenas. (pág. 156)
+BARBIN (2013), pág. 156.
 }
 \description{
 Dados de um ensaio de adubação fosfatada em milho,
@@ -48,6 +47,5 @@ xyplot(prod ~ adub | aplic, data = BarbinPg156,
        ylab = expression("Produção de milho"~(kg~ha^{-1})))
 
 }
-\keyword{DBC}
 \keyword{PS}
 

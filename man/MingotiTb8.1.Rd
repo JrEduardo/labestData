@@ -2,7 +2,7 @@
 % Please edit documentation in R/Mingoti.R
 \name{MingotiTb8.1}
 \alias{MingotiTb8.1}
-\title{Renda e o n\enc{ú}{u}mero de filhos}
+\title{Renda e o N\enc{ú}{u}mero de Filhos}
 \format{Um \code{data.frame} com 3 observações e 5 variáveis, em que
 
 \describe{
@@ -22,9 +22,7 @@
 
 }}
 \source{
-Mingoti, S. A. (2005). Análise de dados através de métodos de
-    estatística multivariada: uma abordagem aplicada.  Belo
-    Horizonte, MG: Editora UFMG. (pg 258).
+MINGOTI (2005), pág. 258.
 }
 \description{
 Dados relativos a 257 indivíduos classificados de acordo
@@ -33,6 +31,7 @@ Dados relativos a 257 indivíduos classificados de acordo
 \examples{
 
 data(MingotiTb8.1)
+str(MingotiTb8.1)
 
 library(lattice)
 

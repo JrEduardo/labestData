@@ -2,8 +2,8 @@
 % Please edit documentation in R/Zimmermann.R
 \name{ZimmermannTb16.8}
 \alias{ZimmermannTb16.8}
-\title{Dias para Flora\enc{çã}{ca}o de Cultivares de Arroz em um Reticulado
-    Quadrado}
+\title{Dias para Flora\enc{çã}{ca}o de Cultivares de Arroz em um
+    Reticulado Quadrado}
 \format{Um \code{data.frame} com 75 observações e 5 variáveis, em que
 
 \describe{
@@ -24,9 +24,7 @@
 
 }}
 \source{
-Zimmermann, F. J. (2004). Estatística aplicada à pesquisa
-    agrícola (1st ed.). Santo Antônio de Goiás, GO: Embrapa Arroz e
-    Feijão. (Tabela 16.8, pág. 353)
+ZIMMERMANN (2004), Tabela 16.8, pág. 353.
 }
 \description{
 Experimento realizado em delineamento reticulado
@@ -71,5 +69,5 @@ Os dados de produção de arroz do mesmo ensaio estão
     disponíveis em \code{\link{ZimmermannTb7.1}}.
 }
 \keyword{LAT}
-\keyword{sobrevivencia}
+\keyword{sobrevivência}
 

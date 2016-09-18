@@ -2,7 +2,8 @@
 % Please edit documentation in R/Zimmermann.R
 \name{ZimmermannTb11.19}
 \alias{ZimmermannTb11.19}
-\title{Produtividade de arroz irrigado em ensaio fatorial com confundimento}
+\title{Produtividade de Arroz Irrigado em Ensaio Fatorial com
+    Confundimento}
 \format{Um \code{data.frame} com 32 observações e 7 variáveis, em que
 
 \describe{
@@ -29,18 +30,15 @@
 
 }}
 \source{
-Zimmermann, F. J. (2004). Estatística aplicada à pesquisa
-    agrícola (1st ed.). Santo Antônio de Goiás, GO: Embrapa Arroz e
-    Feijão. (Tabela 11.19, pág. 237)
+ZIMMERMANN (2004), (Tabela 11.19, pág. 237)
 }
 \description{
 Dados de um experimento fatorial \eqn{2^5}, com
-    confundimento da interação de quinta ordem.
-    Estudou-se o efeito dos cinco principais problemas da cultura: controle de
-    invasoras, adubação, irrigação, controle de doenças e
-    cultivar. A interação de quarta ordem (5 fatores) foi
-    confundida com blocos.  Os dados da produtividade do arroz estão
-    em kg/ha.
+    confundimento da interação de quinta ordem.  Estudou-se o efeito
+    dos cinco principais problemas da cultura: controle de invasoras,
+    adubação, irrigação, controle de doenças e cultivar. A interação
+    de quarta ordem (5 fatores) foi confundida com blocos.  Os dados
+    da produtividade do arroz estão em kg/ha.
 }
 \examples{
 
@@ -70,6 +68,6 @@ useOuterStrips(
 
 }
 \keyword{DBC}
-\keyword{FAT}
+\keyword{FAT2K}
 \keyword{confundimento}
 

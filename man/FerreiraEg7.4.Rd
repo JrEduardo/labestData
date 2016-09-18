@@ -17,21 +17,24 @@
 
 }}
 \source{
-Ferreira, D. F. (2011). Estatística Multivariada (2nd
-    ed.). Lavras, MG: Editora UFLA. (Exemplo 7.4 pág. 302)
+FERREIRA (2011), Exemplo 7.4 pág. 302.
 }
 \description{
 Com o interesse de testar a hipótese de igualdade entre
-    duas variedades de milho, foram mensuradas as variáveis aleatórias
-    produtividade e altura das plantas em cada uma das variedades.
+    duas variedades de milho, foram mensuradas as variáveis
+    aleatórias produtividade e altura das plantas em cada uma das
+    variedades.
 }
 \examples{
+
 data(FerreiraEg7.4)
+str(FerreiraEg7.4)
 
 aggregate(prod ~ varie, data = FerreiraEg7.4, summary)
 aggregate(altura ~ varie, data = FerreiraEg7.4, summary)
 by(FerreiraEg7.4[2:3], FerreiraEg7.4[1], cov)
 
+layout(1)
 with(FerreiraEg7.4, {
      par(mar = c(4, 5, 4, 5))
      plot.default(y = prod, xlab = "", ylab = "",
@@ -42,7 +45,7 @@ with(FerreiraEg7.4, {
      box()
      axis(side = 2, col.axis = 4)
      mtext(side = 2, text = "Produtividade em t/ha",
-           line = 3, col = 4) 
+           line = 3, col = 4)
      par(new = TRUE, mar = c(4, 5, 4, 5))
      plot.default(y = altura, xlab = "", ylab = "",
                   x = jitter(as.numeric(varie), factor = 0.5) + 0.1,
@@ -57,5 +60,5 @@ with(FerreiraEg7.4, {
 })
 
 }
-\keyword{TODO}
+\keyword{manova}
 

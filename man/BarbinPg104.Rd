@@ -21,13 +21,11 @@
 
 }}
 \source{
-Barbin, D. (2013). Planejamento e Análise Estatística de
-    Experimentos Agronômicos (2nd ed.). Londrina, PR:
-    Mecenas. (pág. 104)
+BARBIN (2013), pág. 104.
 }
 \description{
 Experimento em delineamento quadrado latino que avaliou
-    a produção de cultivares de cana-ade-açúcar.
+    a produção de cultivares de cana-de-açúcar.
 }
 \examples{
 

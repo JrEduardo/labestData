@@ -15,9 +15,7 @@
 
 }}
 \source{
-Ramalho, M. A. P., Ferreira, D. F., Oliveira, A. C. (2005).
-    Experimentação em Genética e Melhoramento de Plantas (2th ed.).
-    Lavras, MG: UFLA. (pg 15)
+RAMALHO et al. (2005), pág 15.
 }
 \description{
 Experimento da produtividade média de espigas de milho
@@ -43,5 +41,5 @@ plot(ecdf(RamalhoTb1.2$prod),
      main = NULL)
 
 }
-\keyword{ASS}
+\keyword{AAS}
 

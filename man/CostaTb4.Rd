@@ -3,7 +3,7 @@
 \name{CostaTb4}
 \alias{CostaTb4}
 \title{Massa Seca de Parte A\enc{é}{e}rea em Cana-de-a\enc{çú}{cu}car}
-\format{Um \code{data.frame} com 24 observações e 3 variáveis.
+\format{Um \code{data.frame} com 24 observações e 3 variáveis, em que
 
 \describe{
 
@@ -18,9 +18,7 @@
 
 }}
 \source{
-Costa, J. R. (2003). Técnicas experimentais aplicadas às
-    ciências agrárias (Documentos 163). Seropédica, RJ: Embrapa
-    Agrobiologia. (Tabela 4, pág. 58)
+Costa (2013), Tabela 4, pág. 58.
 }
 \description{
 Resultados de um experimento conduzido em casa de
@@ -33,6 +31,7 @@ Resultados de um experimento conduzido em casa de
 library(lattice)
 
 data(CostaTb4)
+str(CostaTb4)
 
 aggregate(mspa ~ varied,  data = CostaTb4,
           FUN = function(x) { c(mean = mean(x), var = var(x)) })

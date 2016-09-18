@@ -2,7 +2,7 @@
 % Please edit documentation in R/Zimmermann.R
 \name{ZimmermannTb9.13}
 \alias{ZimmermannTb9.13}
-\title{Mat\enc{é}{e}ria Seca de Feij\enc{ã}{a}o em Fatorial 3x3}
+\title{Mat\enc{é}{e}ria Seca de Feij\enc{ã}{a}o}
 \format{Um \code{data.frame} com 27 observações e 4 variáveis, em que
 
 \describe{
@@ -21,9 +21,7 @@
 
 }}
 \source{
-Zimmermann, F. J. (2004). Estatística aplicada à pesquisa
-    agrícola (1st ed.). Santo Antônio de Goiás, GO: Embrapa Arroz e
-    Feijão. (Tabela 9.13, pág 179)
+ZIMMERMANN (2004), Tabela 9.13, pág. 179.
 }
 \description{
 Dados de um estudo em ensaio fatorial 3 \eqn{times} 3,
@@ -52,5 +50,5 @@ xyplot(lms ~ dens, data = ZimmermannTb9.13,
        ylab = "log da matéria seca")
 
 }
-\keyword{FAT}
+\keyword{FAT3K}
 

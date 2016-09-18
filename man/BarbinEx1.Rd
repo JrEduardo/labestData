@@ -2,12 +2,10 @@
 % Please edit documentation in R/Barbin.R
 \name{BarbinEx1}
 \alias{BarbinEx1}
-\title{Altura de \emph{Pinus elliottii} aos 10 anos de idade}
+\title{Altura de \emph{Pinus elliottii} aos 10 Anos de Idade}
 \format{Um vetor com 50 elementos de valor numérico.}
 \source{
-Barbin, D. (2013). Planejamento e Análise Estatística de
-    Experimentos Agronômicos (2nd ed.). Londrina, PR:
-    Mecenas. (Exercício 1, pág. 199)
+BARBIN (2013), Exercício 1, pág. 199.
 }
 \description{
 Os dados referem-se à altura (m) de \emph{Pinus

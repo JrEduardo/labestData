@@ -2,7 +2,7 @@
 % Please edit documentation in R/Pimentel.R
 \name{PimentelEg4.2}
 \alias{PimentelEg4.2}
-\title{Alimenta\enc{çã}{ca}o de porcos}
+\title{Alimenta\enc{çã}{ca}o de Porcos}
 \format{Um \code{data.frame} com 20 observações e 2 variáveis, em que
 
 \describe{
@@ -15,8 +15,7 @@
 
 }}
 \source{
-Pimentel-Gomes, F. (2009). Curso de Estatística Experimental
-    (15th ed.). Piracicaba, SP: FEALQ.
+PIMENTEL-GOMES (2009).
 }
 \description{
 Experimento (fictício) de alimentação de porcos em que
@@ -25,6 +24,9 @@ Experimento (fictício) de alimentação de porcos em que
     peso observados.
 }
 \examples{
+
+data(PimentelEg4.2)
+str(PimentelEg4.2)
 
 plot(PimentelEg4.2,
      xlab = "Rações",

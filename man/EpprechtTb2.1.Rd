@@ -2,8 +2,10 @@
 % Please edit documentation in R/Epprecht.R
 \name{EpprechtTb2.1}
 \alias{EpprechtTb2.1}
-\title{Volumes em embalagens de leite}
-\format{Um \code{data.frame} com 100 observações e 2 variáveis, em 
+\alias{EpprechtTb2.2}
+\alias{EpprechtTb2.3}
+\title{Volumes em Embalagens de Leite}
+\format{Um \code{data.frame} com 100 observações e 2 variáveis, em
     que
 
 \describe{
@@ -12,22 +14,38 @@
 
 \item{\code{X}}{Volume de leite presente na embalagem (ml).}
 
-}}
+}
+
+    Os dados em \code{\link{EpprechtTb2.2}} foram extraídos após uma
+    alteração da pressão de operação, configurando uma causa especial
+    de variação.
+
+    Os dados em \code{\link{EpprechtTb2.3}} foram extraídos de um
+    processo isento de causas especiais de variação.}
 \source{
-Costa, A. F. B., Epprecht, E. K., Carpinetti, L. (2010).
-     Controle Estatístico de Qualidade (2nd ed.). São Paulo - SP:
-     Editora Atlas. (pg 23).
+COSTA et al. (2010), pág. 23, 26 e 35.
 }
 \description{
-Dados referentes aos volumes verificados de 
-    leite em 100 embalagens de 1000 ml.
+Dados referentes aos volumes verificados de leite em 100
+    embalagens de 1000 ml.
 }
 \examples{
 
-data(EpprechtTb2.1) 
+# TODO: Dois desses data.frames são iguais.
 
-hist(EpprechtTb2.1$x, xlab="Volume (ml)", ylab="Frequência", main="")
-                  
+data(EpprechtTb2.1)
+str(EpprechtTb2.1)
+str(EpprechtTb2.2)
+str(EpprechtTb2.3)
+
+hist(EpprechtTb2.1$x,
+     xlab = "Volume (ml)",
+     ylab = "Frequência",
+     main = "")
+
+plot(c(EpprechtTb2.2$x, EpprechtTb2.3$x), type = "o")
+abline(v = length(EpprechtTb2.2$x), col = 2, lty = 2)
+
 }
 \keyword{CEQ}
 

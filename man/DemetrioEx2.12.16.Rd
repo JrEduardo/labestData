@@ -2,21 +2,20 @@
 % Please edit documentation in R/Demetrio.R
 \name{DemetrioEx2.12.16}
 \alias{DemetrioEx2.12.16}
-\title{Calagem para a Sucess\enc{ã}{a}o batata-triticale-milho}
-\format{Um \code{data.frame} de 9 linhas e 2 colunas.
+\title{Calagem para a Sucess\enc{ã}{a}o Batata-triticale-milho}
+\format{Um \code{data.frame} de 9 linhas e 2 colunas, em que
 
 \describe{
 
-    \item{\code{calcio}}{Teor de cálcio no solo, medido em
+\item{\code{calcio}}{Teor de cálcio no solo, medido em
     \eqn{meq/100cm^{3}} (miliequivalente por 100 centímetros
     cúbicos).}
-    
-    \item{\code{tm}}{Porcentagem de tubérculos maduros.}
-    
+
+\item{\code{tm}}{Porcentagem de tubérculos maduros.}
+
 }}
 \source{
-Demétrio, C. G. B., Zocchi, S. S. (2011). Modelos de
-    Regressão. Piracicaba: ESALQ. (Exercício 2.12.16 pág. 63)
+DEMÉTRIO; ZOCCHI (2011), Exercício 2.12.16 pág. 63.
 }
 \description{
 Neste experimento foram obtidos os valores para o teor
@@ -26,14 +25,16 @@ Neste experimento foram obtidos os valores para o teor
 \examples{
 
 data(DemetrioEx2.12.16)
+str(DemetrioEx2.12.16)
 
 library(lattice)
 
 xyplot(tm ~ calcio, data = DemetrioEx2.12.16,
-     main = "Cálcio VS TM",
-     xlab = "Cálcio",
-     ylab = "Tubérculos Maduros")
-     
+       xlab = "Cálcio",
+       ylab = "Porcentagem de tubérculos maduros")
+
 }
-\keyword{TODO}
+\keyword{RNL}
+\keyword{RS}
+\keyword{unitário}
 

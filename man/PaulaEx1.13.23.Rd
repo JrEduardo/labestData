@@ -4,7 +4,8 @@
 \alias{PaulaEx1.13.23}
 \title{Di\enc{â}{a}metro de Cerejeiras da Pensilv\enc{â}{a}nia}
 \format{Um \code{data.frame} com 31 observações e 3 variáveis.
-    \describe{
+
+\describe{
 
 \item{\code{diam}}{Diâmetro da cerejeira, em polegadas. Provavelmente
     o diâmetro foi calculado à altura do peito (\eqn{\approx}
@@ -16,9 +17,7 @@
 
 }}
 \source{
-Paula, G. A. (2004). Modelos de regressão: com apoio
-    computacional. São Paulo, SP: IME-USP. (Exercício 1.13.23,
-    pág. 111)
+PAULA (2004), Exercício 1.13.23, pág. 111.
 }
 \description{
 Dados referentes ao registro das variáveis diâmetro,
@@ -27,15 +26,16 @@ Dados referentes ao registro das variáveis diâmetro,
     árvore a partir de sua altura e diâmetro.
 }
 \examples{
-data(PaulaEx1.13.23)
 
+data(PaulaEx1.13.23)
 str(PaulaEx1.13.23)
 
 library(lattice)
+
 splom(PaulaEx1.13.23,
       type = c("p", "g", "smooth"),
       lwd = 2, col.line = 1)
 
 }
-\keyword{TODO}
+\keyword{RM}
 

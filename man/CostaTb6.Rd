@@ -3,7 +3,8 @@
 \name{CostaTb6}
 \alias{CostaTb6}
 \title{Efeito da Cobertura Morta no Peso Seco de Br\enc{ó}{o}colis}
-\format{Um \code{data.frame} com 20 observações e 3 variáveis.
+\format{Um \code{data.frame} com 20 observações e 3 variáveis, em que
+
 \describe{
 
 \item{\code{cobert}}{Fator nominal com níveis de cobertura morta
@@ -20,9 +21,7 @@
 
 }}
 \source{
-Costa, J. R. (2003). Técnicas experimentais aplicadas às
-    ciências agrárias (Documentos 163). Seropédica, RJ: Embrapa
-    Agrobiologia. (Tabela 6 pág. 63)
+Costa (2013), Tabela 6 pág. 63.
 }
 \description{
 Experimento instalado em delineamento de blocos
@@ -34,10 +33,14 @@ Experimento instalado em delineamento de blocos
 library(lattice)
 
 data(CostaTb6)
+str(CostaTb6)
 
 with(CostaTb6, addmargins(tapply(X = peso,
                                  INDEX = list(bloco, cobert),
                                  FUN = sum)))
+
+# Ordenar para evitar o efeito espaguete no gráfico.
+CostaTb6 <- CostaTb6[with(CostaTb6, order(cobert, bloco)), ]
 
 xyplot(peso ~ cobert, data = CostaTb6,
        groups = bloco, type = "b",

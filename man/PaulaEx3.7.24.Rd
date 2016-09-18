@@ -2,7 +2,8 @@
 % Please edit documentation in R/Paula.R
 \name{PaulaEx3.7.24}
 \alias{PaulaEx3.7.24}
-\title{Cor dos Olhos dos Filhos em Fun\enc{çã}{ca}o dos Pais e Av\enc{ó}{o}s}
+\title{Cor dos Olhos dos Filhos em Fun\enc{çã}{ca}o dos Pais e
+    Av\enc{ó}{o}s}
 \format{Um \code{data.frame} com 78 observações e 4 variáveis, em que
 
 \describe{
@@ -29,15 +30,13 @@
 
 }}
 \source{
-Paula, G. A. (2004). Modelos de regressão: com apoio
-    computacional. São Paulo, SP: IME-USP. (Exercício 3.7.24,
-    pág. 279)
+PAULA (2004), Exercício 3.7.24, pág. 279.
 }
 \description{
-Os dados são de 78 famílias com pelo menos 6 filhos
-    cada uma. Nestas famílias, codificou-se a cor dos pais e dos avós
-    e o número total de filhos por casal e o número de filhos com
-    olhos de cor clara.
+Os dados são de 78 famílias com pelo menos 6 filhos cada
+    uma. Nestas famílias, codificou-se a cor dos pais e dos avós e o
+    número total de filhos por casal e o número de filhos com olhos
+    de cor clara.
 }
 \examples{
 

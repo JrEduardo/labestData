@@ -2,8 +2,9 @@
 % Please edit documentation in R/Charnet.R
 \name{CharnetEx7.7}
 \alias{CharnetEx7.7}
-\title{Rela\enc{çã}{ca}o entre Consumo de Combust\enc{í}{i}vel e Pot\enc{ê}{e}ncia do Motor}
-\format{Um \code{data.frame} com 4 colunas e 20 linhas.
+\title{Rela\enc{çã}{ca}o entre Consumo de Combust\enc{í}{i}vel e
+    Pot\enc{ê}{e}ncia do Motor}
+\format{Um \code{data.frame} com 4 colunas e 20 linhas, em que
 
 \describe{
 
@@ -16,10 +17,8 @@
 
 }}
 \source{
-Charnet, R., de Luna Freire, C.A., Charnet, E.M.R., Bonvino,
-    H. (2008). Análise de modelos de regressão linear com aplicações
-    (2nd ed.). Campinas, SP: Editora Unicamp (Capítulo 7, exercício
-    7, pág. 167, Capítulo 10, exercício 6, pág. 256.)
+CHARNET et al. (2008), Capítulo 7, exercício 7, pág. 167,
+    Capítulo 10, exercício 6, pág. 256.
 }
 \description{
 Relação entre o consumo de combustível (km/l) e a
@@ -28,9 +27,11 @@ Relação entre o consumo de combustível (km/l) e a
 \examples{
 
 data(CharnetEx7.7)
+str(CharnetEx7.7)
 
 with(CharnetEx7.7, plot(cons, pot, col = marca))
 
 }
-\keyword{RM}
+\keyword{RS}
+\keyword{dummy}
 

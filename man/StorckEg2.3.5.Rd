@@ -21,9 +21,7 @@
 
 }}
 \source{
-Storck, L., Garcia, B. C., Lopes, S. J., Estefanel,
-    V. (2011). Experimentação Vegetal (3th ed.). Santa Maria, RS:
-    UFSM. (Tabela 2.3.5, pág 63)
+STORCK et al. (2011), Tabela 2.3.5, pág. 63.
 }
 \description{
 Dados de um experimento no delineamento quadrado latino

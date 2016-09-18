@@ -2,8 +2,9 @@
 % Please edit documentation in R/Banzatto.R
 \name{BanzattoQd8.3.1}
 \alias{BanzattoQd8.3.1}
-\title{Grupo de Ensaios de Competi\enc{çã}{ca}o de Gen\enc{ó}{o}tipos de Batata}
-\format{Um \code{data.frame} com 40 observações e 3 variáveis.
+\title{Grupo de Ensaios de Competi\enc{çã}{ca}o de Gen\enc{ó}{o}tipos
+    de Batata}
+\format{Um \code{data.frame} com 40 observações e 3 variáveis, em que
 
 \describe{
 
@@ -25,9 +26,7 @@ Esse \code{data.frame} não possuí o valor individual de cada parcelas
     residuais em cada experimento estão disponíveis no atributo
     \code{"qmr"} do objeto.}
 \source{
-Banzatto, D. A., Kronka, S. D. (2013). Experimentação
-    Agrícola (4th ed.). Jaboticabal, SP: Funep. (Quadro 8.3.1,
-    pág. 196)
+BANZATTO; KRONKA (2013), Quadro 8.3.1, pág. 196.
 
 Filgueira, F. A. R. (1991). Interação genótipo ambiente em batata
     (\emph{Solanum tuberosum} L. spp \emph{tuberosum}). Tese
@@ -64,6 +63,5 @@ xyplot(prod ~ genot, groups = exper, data = BanzattoQd8.3.1,
            "Produção total de tubérculos de 4 parcelas"~(t~ha^{-1})))
 
 }
-\keyword{DBC}
 \keyword{GE}
 

@@ -2,7 +2,8 @@
 % Please edit documentation in R/Pimentel.R
 \name{PimentelEx6.6.3}
 \alias{PimentelEx6.6.3}
-\title{Efeito da Idade de Castra\enc{çã}{ca}o no Ganho de Peso de Su\enc{í}{i}nos}
+\title{Efeito da Idade de Castra\enc{çã}{ca}o no Ganho de Peso de
+    Su\enc{í}{i}nos}
 \format{Um \code{data.frame} com 16 observações e 4 variáveis, em que
 
 \describe{
@@ -24,8 +25,7 @@
 
 }}
 \source{
-Pimentel-Gomes, F. (2009). Curso de Estatística Experimental
-    (15th ed.). Piracicaba, SP: FEALQ. (Exercício 6.6.3, página 110)
+PIMENTEL-GOMES (2009), Exercício 6.6.3, página 110.
 }
 \description{
 Ensaio de alimentação de suínos, no qual foi usado um

@@ -1,6 +1,6 @@
 #' @name DiasEg10.1
-#' @title Subst\enc{â}{a}ncias Alelo\enc{á}{a}ticas no Percentual de Germina\enc{çã}{ca}o de
-#'     Sementes
+#' @title Subst\enc{â}{a}ncias Alelo\enc{á}{a}ticas no Percentual de
+#'     Germina\enc{çã}{ca}o de Sementes
 #' @description Experimento em delineamento inteiramente casualizado
 #'     onde foram avaliados os percentuais de germinação de sementes de
 #'     2 cultivares, submetidas a 5 tratamentos com substâncias
@@ -22,8 +22,7 @@
 #'
 #' }
 #' @keywords DIC FAT2
-#' @source Dias, L. A. S., Barros, W. S. (2009). Biometria
-#'      Experimental. Viçosa, MG: UFV. (Exemplo 10.1, pág. 269)
+#' @source BARROS; DIAS (2009), Exemplo 10.1, pág. 269.
 #' @examples
 #'
 #' library(lattice)
@@ -61,12 +60,13 @@ NULL
 #'
 #' \item{\code{rept}}{Inteiro que identifica as repetições.}
 #'
-#' \item{\code{pg}}{Percentual de germinação das sementes.}
+#' \item{\code{pg}}{Percentual de germinação das sementes. Como todos os
+#'     resultados são pares, infere-se que o total de sementes usadas
+#'     para determinar a germinação seja 50.}
 #'
 #' }
-#' @keywords DIC PS
-#' @source Dias, L. A. S., Barros, W. S. (2009). Biometria
-#'     Experimental. Viçosa, MG: UFV. (Exemplo 10.2, pág. 286)
+#' @keywords PS unitário binomial
+#' @source BARROS; DIAS (2009), Exemplo 10.2, pág. 286.
 #' @examples
 #'
 #' library(lattice)
@@ -107,16 +107,14 @@ NULL
 #'
 #' }
 #'
-#' @keywords DBC GE
-#' @source Dias, L. A. S., Barros, W. S. (2009). Biometria
-#'     Experimental. Viçosa, MG: UFV. (Exemplo 11.1, pág. 305)
+#' @keywords DBC
+#' @source BARROS; DIAS (2009), Exemplo 11.1, pág. 305.
 #' @examples
 #'
 #' library(lattice)
 #'
 #' data(DiasEg11.1)
 #' str(DiasEg11.1)
-#'
 #'
 #' ftable(xtabs(~sitio + bloc + cult, data = DiasEg11.1))
 #'
@@ -138,8 +136,7 @@ NULL
 #' @format Vetor com 43 observações que são o número de frutos
 #'     produzidos por plantas de cacaueiro.
 #' @keywords AAS
-#' @source Dias, L. A. S., Barros, W. S. (2009). Biometria
-#'     Experimental. Viçosa, MG: UFV.
+#' @source BARROS; DIAS (2009), Exemplo 3.2.
 #' @examples
 #'
 #' stem(DiasEg3.2)
@@ -160,8 +157,7 @@ NULL
 #' @description Amostras aleatória da alturas de plantas de milho.
 #' @format Vetor com 100 observações da altura (cm).
 #' @keywords AAS
-#' @source Dias, L. A. S., Barros, W. S. (2009). Biometria
-#'     Experimental. Viçosa, MG: UFV.
+#' @source BARROS; DIAS (2009), Exemplo 3.6.
 #' @examples
 #'
 #' stem(DiasEg3.6)
@@ -180,8 +176,8 @@ NULL
 NULL
 
 #' @name DiasEg5.1
-#' @title N\enc{ú}{u}mero de Ovos Eclodidos de Nemat\enc{ó}{o}ides Ap\enc{ó}{o}s Aplica\enc{çã}{ca}o de
-#'     Nematicidas Naturais
+#' @title N\enc{ú}{u}mero de Ovos Eclodidos de Nemat\enc{ó}{o}ides
+#'     Ap\enc{ó}{o}s Aplica\enc{çã}{ca}o de Nematicidas Naturais
 #' @description Resultados de um experimento em delineamento
 #'     inteiramente casualizado que avaliou o efeito de 5 nematicidas
 #'     naturais na eclosão de ovos de nematoides.
@@ -197,8 +193,7 @@ NULL
 #'
 #' }
 #' @keywords DIC contagem
-#' @source Dias, L. A. S., Barros, W. S. (2009). Biometria
-#'     Experimental. Viçosa, MG: UFV. (Exemplo 5.1, pág. 130)
+#' @source BARROS; DIAS (2009), Exemplo 5.1, pág. 130.
 #' @examples
 #'
 #' library(lattice)
@@ -233,8 +228,7 @@ NULL
 #'
 #' }
 #' @keywords DIC
-#' @source Dias, L. A. S., Barros, W. S. (2009). Biometria
-#'     Experimental. Viçosa, MG: UFV. (Exercício 9, Cap. 11, pág. 321)
+#' @source BARROS; DIAS (2009), Exercício 9, Cap. 11, pág. 321.
 #' @examples
 #'
 #' library(lattice)
@@ -252,7 +246,8 @@ NULL
 NULL
 
 #' @name DiasEg6.1
-#' @title Ganhos de Produ\enc{çã}{ca}o de Arroz nos Ciclos de Sele\enc{çã}{ca}o
+#' @title Ganhos de Produ\enc{çã}{ca}o de Arroz nos Ciclos de
+#'     Sele\enc{çã}{ca}o
 #' @description Amostra com 6 pares de observações representanto os
 #'     ciclos de seleção e ganhos percentuais de produção
 #'     correspondentes em arroz.
@@ -266,9 +261,8 @@ NULL
 #' \item{\code{prod}}{percentuais de ganhos de produção.}
 #'
 #' }
-#' @keywords DIC
-#' @source Dias, L. A. S., Barros, W. S. (2009). Biometria
-#'     Experimental. Viçosa, MG: UFV. (Exemplo 6.1, pág. 157)
+#' @keywords DIC RS
+#' @source BARROS; DIAS (2009), Exemplo 6.1, pág. 157.
 #' @examples
 #'
 #' library(lattice)
@@ -283,7 +277,8 @@ NULL
 NULL
 
 #' @name DiasEg6.2
-#' @title Aduba\enc{çã}{ca}o NPK na Produ\enc{çã}{ca}o de Feij\enc{ã}{a}o
+#' @title Aduba\enc{çã}{ca}o NPK na Produ\enc{çã}{ca}o de
+#'     Feij\enc{ã}{a}o
 #' @description Experimento instalado em delineamento de blocos
 #'     casualizados para estudar o efeito da adubação NPK na
 #'     produtividade do feijoeiro.
@@ -301,17 +296,14 @@ NULL
 #'     parcela\eqn{^{-1}}).}
 #'
 #' }
-#' @keywords DBC RP
-#' @source Dias, L. A. S., Barros, W. S. (2009). Biometria
-#'     Experimental. Viçosa, MG: UFV. (Exemplo 6.2, pág. 164)
+#' @keywords DBC RS
+#' @source BARROS; DIAS (2009), Exemplo 6.2, pág. 164.
 #' @examples
 #'
 #' library(lattice)
 #'
 #' data(DiasEg6.2)
 #' str(DiasEg6.2)
-#'
-#' names(DiasEg6.2)[2] <- "bloc"
 #'
 #' xyplot(prod ~ npk, data = DiasEg6.2,
 #'        groups = bloc, type = "b",
@@ -339,9 +331,8 @@ NULL
 #' \item{\code{ntfs}}{Número total de frutos sadios.}
 #'
 #' }
-#' @keywords AAS
-#' @source Dias, L. A. S., Barros, W. S. (2009). Biometria
-#'     Experimental. Viçosa, MG: UFV. (Exemplo 6.3, pág. 173)
+#' @keywords RS
+#' @source BARROS; DIAS (2009), Exemplo 6.3, pág. 173.
 #' @examples
 #'
 #' library(lattice)
@@ -366,15 +357,14 @@ NULL
 #' \item{\code{luz}}{Fator métrico que identifica, em escala codificada,
 #'     a quantidade de luz aplicada.}
 #'
-#' \item{\code{agua}}{Fator métrico que identifica, em escala codificada,
-#'     a quantidade de água aplicada.}
+#' \item{\code{agua}}{Fator métrico que identifica, em escala
+#'     codificada, a quantidade de água aplicada.}
 #'
 #' \item{\code{prod}}{Produção de tomateiros.}
 #'
 #' }
-#' @keywords DIC RM
-#' @source Dias, L. A. S., Barros, W. S. (2009). Biometria
-#'     Experimental. Viçosa, MG: UFV. (Exemplo 7.1, pág. 187)
+#' @keywords DIC FAT2
+#' @source BARROS; DIAS (2009), Exemplo 7.1, pág. 187.
 #' @examples
 #'
 #' library(lattice)
@@ -411,8 +401,7 @@ NULL
 #'
 #' }
 #' @keywords DIC
-#' @source Dias, L. A. S., Barros, W. S. (2009). Biometria
-#'     Experimental. Viçosa, MG: UFV. (Exemplo 9.1, pág. 222)
+#' @source BARROS; DIAS (2009), Exemplo 9.1, pág. 222.
 #' @examples
 #'
 #' library(lattice)
@@ -450,8 +439,7 @@ NULL
 #'
 #' }
 #' @keywords ClaHier
-#' @source Dias, L. A. S., Barros, W. S. (2009). Biometria
-#'     Experimental. Viçosa, MG: UFV. (Exemplo 9.2, pág. 231)
+#' @source BARROS; DIAS (2009), Exemplo 9.2, pág. 231.
 #' @examples
 #'
 #' library(lattice)
@@ -490,8 +478,7 @@ NULL
 #'
 #' }
 #' @keywords DQL
-#' @source Dias, L. A. S., Barros, W. S. (2009). Biometria
-#'     Experimental. Viçosa, MG: UFV. (Exemplo 9.4, pág.247)
+#' @source BARROS; DIAS (2009), Exemplo 9.4, pág. 247.
 #' @examples
 #'
 #' library(lattice)
@@ -538,8 +525,7 @@ NULL
 #'
 #' }
 #' @keywords DBC FAT2
-#' @source Dias, L. A. S., Barros, W. S. (2009). Biometria
-#'     Experimental. Viçosa, MG: UFV. (Exercício 10, Cap. 10, pág. 296)
+#' @source BARROS; DIAS (2009), Exercício 10, Cap. 10, pág. 296.
 #' @examples
 #'
 #' library(lattice)
@@ -580,9 +566,7 @@ NULL
 #' }
 #'
 #' @keywords DBC
-#' @source Dias, L. A. S., Barros, W. S. (2009). Biometria
-#'     Experimental. Viçosa, MG: UFV. (Exercício 10.4, Cap. 10,
-#'     pág. 294)
+#' @source BARROS; DIAS (2009), Exercício 10.4, Cap. 10, pág. 294.
 #' @examples
 #'
 #' library(lattice)
@@ -628,9 +612,8 @@ NULL
 #'     m\eqn{^2} (30 covas de espaçamento 3 \eqn{\times} 1).}
 #'
 #' }
-#' @keywords DIC FAT3
-#' @source Dias, L. A. S., Barros, W. S. (2009). Biometria
-#'     Experimental. Viçosa, MG: UFV. (Exercício 7, Cap. 10, pág. 295)
+#' @keywords DIC FAT2K
+#' @source BARROS; DIAS (2009), Exercício 7, Cap. 10, pág. 295.
 #' @examples
 #'
 #' library(lattice)
@@ -651,7 +634,8 @@ NULL
 NULL
 
 #' @name DiasEx10.4.8
-#' @title Teores de Mat\enc{é}{e}ria Seca de Gramineas em Fun\enc{çã}{ca}o da Calagem
+#' @title Teores de Mat\enc{é}{e}ria Seca de Gramineas em
+#'     Fun\enc{çã}{ca}o da Calagem
 #' @description Em um ensaio em delineamento de blocos casualizados foi
 #'     analisado o efeito de doses de calcário no teor de matéria seca
 #'     de gramíneas forrageiras. Foi utilizado esquema fatorial 3
@@ -674,8 +658,7 @@ NULL
 #'
 #' }
 #' @keywords DBC FAT2
-#' @source Dias, L. A. S., Barros, W. S. (2009). Biometria
-#'     Experimental. Viçosa, MG: UFV. (Exercício 8, Cap. 10, pág. 295)
+#' @source BARROS; DIAS (2009), Exercício 8, Cap. 10, pág. 295.
 #' @examples
 #'
 #' library(lattice)
@@ -711,16 +694,14 @@ NULL
 #'  \item{\code{prod}}{Produção de bulbos de alho.}
 #'
 #' }
-#' @keywords DBC
-#' @source Dias, L. A. S., Barros, W. S. (2009). Biometria
-#'     Experimental. Viçosa, MG: UFV. (Exercício 8, Cap. 11, pág. 321
+#' @keywords GE
+#' @source BARROS; DIAS (2009), Exercício 8, Cap. 11, pág. 321.
 #' @examples
 #'
 #' library(lattice)
 #'
 #' data(DiasEx11.7.8)
 #' str(DiasEx11.7.8)
-#'
 #'
 #' xtabs(~geno + exper, data = DiasEx11.7.8)
 #'
@@ -759,9 +740,8 @@ NULL
 #'  \item{\code{prod}}{Produção de grãos de milho.}
 #'
 #' }
-#' @keywords GE DIC
-#' @source Dias, L. A. S., Barros, W. S. (2009). Biometria
-#'     Experimental. Viçosa, MG: UFV. (Exercício 9, Cap. 11, pág. 321)
+#' @keywords GE
+#' @source BARROS; DIAS (2009), Exercício 9, Cap. 11, pág. 321.
 #' @examples
 #'
 #' library(lattice)
@@ -782,7 +762,8 @@ NULL
 NULL
 
 #' @name DiasEx3.6.7
-#' @title Percentual de Germina\enc{çã}{ca}o de Lotes de Sementes de Tomate
+#' @title Percentual de Germina\enc{çã}{ca}o de Lotes de Sementes de
+#'     Tomate
 #' @description Percentuais de germinação de 2 lotes de sementes de
 #'      tomate com 5 repetições com 100 sementes em cada repetição.
 #' @format Um \code{data.frame} com 2 observações e 1 variável, em que
@@ -795,9 +776,8 @@ NULL
 #' \item{\code{pgerm}}{Percentual de germinação das sementes.}
 #'
 #' }
-#' @keywords AAS
-#' @source Dias, L. A. S., Barros, W. S. (2009). Biometria
-#'     Experimental. Viçosa, MG: UFV. (Exercício 7, Cap. 7.6, pág.102)
+#' @keywords DIC
+#' @source BARROS; DIAS (2009), (Exercício 7, Cap. 7.6, pág. 102.
 #' @examples
 #'
 #' library(lattice)
@@ -824,9 +804,8 @@ NULL
 #' \item{\code{peso}}{Peso do animal (g).}
 #'
 #' }
-#' @keywords RL
-#' @source Dias, L. A. S., Barros, W. S. (2009). Biometria
-#'     Experimental. Viçosa, MG: UFV. (Exercício 1, Cap. 6, pág. 179)
+#' @keywords RS
+#' @source BARROS; DIAS (2009), Exercício 1, Cap. 6, pág. 179.
 #' @examples
 #'
 #' library(lattice)
@@ -840,7 +819,8 @@ NULL
 NULL
 
 #' @name DiasEx6.5.10
-#' @title Correla\enc{çã}{ca}o entre Produ\enc{çã}{ca}o e Di\enc{â}{a}metro
+#' @title Correla\enc{çã}{ca}o entre Produ\enc{çã}{ca}o e
+#'     Di\enc{â}{a}metro
 #' @description Dados referentes a 8 pares de valores de produção
 #'     (gramas) e diâmetro (cm).
 #' @format Um \code{data.frame} com 8 observações e 3 variáveis, em que
@@ -852,9 +832,8 @@ NULL
 #' \item{\code{diam}}{Diãmetro em centimetros.}
 #'
 #' }
-#' @keywords ASS RL
-#' @source Dias, L. A. S., Barros, W. S. (2009). Biometria
-#'     Experimental. Viçosa, MG: UFV. (Exercício 10, Cap. 7, pág. 181)
+#' @keywords RS
+#' @source BARROS; DIAS (2009), Exercício 10, Cap. 7, pág. 181.
 #' @examples
 #'
 #' library(lattice)
@@ -879,9 +858,8 @@ NULL
 #' \item{\code{massa}}{Massa em gramas.}
 #'
 #' }
-#' @keywords AAS RL
-#' @source Dias, L. A. S., Barros, W. S. (2009). Biometria
-#'     Experimental. Viçosa, MG: UFV. (Exercício 9, Cap. 6, pág. 181)
+#' @keywords RS
+#' @source BARROS; DIAS (2009), Exercício 9, Cap. 6, pág. 181.
 #'
 #' library(lattice)
 #'
@@ -913,8 +891,7 @@ NULL
 #' }
 #'
 #' @keywords DQL
-#' @source Dias, L. A. S., Barros, W. S. (2009). Biometria
-#'     Experimental. Viçosa, MG: UFV. (Exercício 10, Cap. 9, pág. 261)
+#' @source BARROS; DIAS (2009), Exercício 10, Cap. 9, pág. 261.
 #' @examples
 #'
 #' library(lattice)
@@ -954,8 +931,7 @@ NULL
 #'
 #' }
 #' @keywords DIC contagem
-#' @source Dias, L. A. S., Barros, W. S. (2009). Biometria
-#'      Experimental. Viçosa, MG: UFV. (Exercício 4, Cap. 9, pág. 260)
+#' @source BARROS; DIAS (2009), Exercício 4, Cap. 9, pág. 260.
 #' @examples
 #'
 #' library(lattice)
@@ -973,7 +949,8 @@ NULL
 NULL
 
 #' @name DiasEx9.6.6
-#' @title Teores de S\enc{ó}{o}lidos Sol\enc{ú}{u}veis Totais da Poupa de Frutos
+#' @title Teores de S\enc{ó}{o}lidos Sol\enc{ú}{u}veis Totais da Poupa
+#'     de Frutos
 #' @description Experimento em delineamento inteiramente casualizado,
 #'     com 5 repetições e 4 cultivares de tomateiro onde os totais de
 #'     sólidos solúveis na poupa dos frutos foram avaliados.
@@ -990,8 +967,7 @@ NULL
 #'
 #' }
 #' @keywords DIC
-#' @source Dias, L. A. S., Barros, W. S. (2009). Biometria
-#'     Experimental. Viçosa, MG: UFV. (Exercício 6, Cap. 9, pág. 260)
+#' @source BARROS; DIAS (2009), Exercício 6, Cap. 9, pág. 260.
 #' @examples
 #'
 #' library(lattice)
@@ -1031,8 +1007,7 @@ NULL
 #'
 #' }
 #' @keywords DBC
-#' @source Dias, L. A. S., Barros, W. S. (2009). Biometria
-#'     Experimental. Viçosa, MG: UFV. (Exercício 7, Cap. 9, pág. 261)
+#' @source BARROS; DIAS (2009), Exercício 7, Cap. 9, pág. 261.
 #' @examples
 #'
 #' library(lattice)

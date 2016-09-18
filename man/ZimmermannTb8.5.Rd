@@ -2,8 +2,8 @@
 % Please edit documentation in R/Zimmermann.R
 \name{ZimmermannTb8.5}
 \alias{ZimmermannTb8.5}
-\title{Produ\enc{çã}{ca}o de Gr\enc{ã}{a}os de Feij\enc{ã}{a}o em Delineamento de Blocos Aumentos
-    de Federer}
+\title{Produ\enc{çã}{ca}o de Gr\enc{ã}{a}os de Feij\enc{ã}{a}o em
+    Delineamento de Blocos Aumentos de Federer}
 \format{Um \code{data.frame} com 90 observações e 3 variáveis, em que
 
 \describe{
@@ -19,9 +19,7 @@
 
 }}
 \source{
-Zimmermann, F. J. (2004). Estatística aplicada à pesquisa
-    agrícola (1st ed.). Santo Antônio de Goiás, GO: Embrapa Arroz e
-    Feijão. (Tabela 8.5, pág. 158)
+ZIMMERMANN (2004), Tabela 8.5, pág. 158.
 }
 \description{
 Dados de um estudo em desenho de blocos aumentados de

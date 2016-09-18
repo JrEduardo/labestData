@@ -2,32 +2,30 @@
 % Please edit documentation in R/Manly.R
 \name{ManlyTb6.6}
 \alias{ManlyTb6.6}
-\title{Ta\enc{ç}{c}as de cer\enc{â}{a}micas pr\enc{é}{e}-hist\enc{ó}{o}ricas}
+\title{Ta\enc{ç}{c}as de Cer\enc{â}{a}micas
+    pr\enc{é}{e}-hist\enc{ó}{o}ricas}
 \format{Um \code{data.frame} com 25 registros em 6 variáveis.
-
-\describe{
 
 A figura apresentada descreve as cinco variáveis, correspondentes às
 dimensões das taças.
 
 \if{html}{\figure{ManlyTb6-6.jpg}{options: width="250px"}}
-\if{latex}{\figure{ManlyTb6-6.jpg}{options: width=1.75in}} 
-}}
+\if{latex}{\figure{ManlyTb6-6.jpg}{options: width=1.75in}}}
 \source{
-Manly, B. J. F. (2005). Métodos Estatísticos Multivariados- 
-     uma introdução. Porto Alegre, RS: Bookman (pg 101)
+MANLY (2005), pág. 101.
 }
 \description{
-Dimensões de 25 taças de cerâmicas escavadas de lugares 
-pré-históricos na Tailândia.
+Dimensões de 25 taças de cerâmicas escavadas de lugares
+    pré-históricos na Tailândia.
 }
 \examples{
 
 data(ManlyTb6.6)
+str(ManlyTb6.6)
 
-pairs(~ x1 + x2 + x3 + x4 + x5 + x6,
-      data = ManlyTb6.6, 
-      main="Matriz de diapersão para as variáveis de medida das taças")
+pairs(~x1 + x2 + x3 + x4 + x5 + x6,
+      data = ManlyTb6.6)
+
 }
-\keyword{AnaComp}
+\keyword{AnaComPrin}
 

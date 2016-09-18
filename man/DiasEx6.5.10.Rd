@@ -2,7 +2,8 @@
 % Please edit documentation in R/Dias.R
 \name{DiasEx6.5.10}
 \alias{DiasEx6.5.10}
-\title{Correla\enc{çã}{ca}o entre Produ\enc{çã}{ca}o e Di\enc{â}{a}metro}
+\title{Correla\enc{çã}{ca}o entre Produ\enc{çã}{ca}o e
+    Di\enc{â}{a}metro}
 \format{Um \code{data.frame} com 8 observações e 3 variáveis, em que
 
 \describe{
@@ -13,8 +14,7 @@
 
 }}
 \source{
-Dias, L. A. S., Barros, W. S. (2009). Biometria
-    Experimental. Viçosa, MG: UFV. (Exercício 10, Cap. 7, pág. 181)
+BARROS; DIAS (2009), Exercício 10, Cap. 7, pág. 181.
 }
 \description{
 Dados referentes a 8 pares de valores de produção
@@ -31,6 +31,5 @@ xyplot(prod ~ diam, data = DiasEx6.5.10, type = c("p", "r"),
        xlab = "Produção (gramas)", ylab = "Diâmetro (cm)")
 
 }
-\keyword{ASS}
-\keyword{RL}
+\keyword{RS}
 

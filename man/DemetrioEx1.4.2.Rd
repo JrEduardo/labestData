@@ -3,20 +3,19 @@
 \name{DemetrioEx1.4.2}
 \alias{DemetrioEx1.4.2}
 \title{Tempo de Irriga\enc{çã}{ca}o de Solo}
-\format{Um \code{data.frame} de 15 linhas e 2 colunas.
+\format{Um \code{data.frame} de 15 linhas e 2 colunas, em que
 
 \describe{
 
-    \item{\code{tempo}}{Tempo acumulado de irrigação, medido em 
+\item{\code{tempo}}{Tempo acumulado de irrigação, medido em
     minutos.}
-    
-    \item{\code{infil}}{Infiltração acumulada de água no solo, medida
+
+\item{\code{infil}}{Infiltração acumulada de água no solo, medida
     em centímetros (cm).}
-    
+
 }}
 \source{
-Demétrio, C. G. B., Zocchi, S. S. (2011). Modelos de
-    Regressão. Piracicaba: ESALQ. (Exercício 1.4.2 pág. 16)
+DEMÉTRIO; ZOCCHI (2011), Exercício 1.4.2 pág. 16.
 }
 \description{
 Neste estudo foram medidos os tempos acumulados de
@@ -32,15 +31,24 @@ Neste estudo foram medidos os tempos acumulados de
 \examples{
 
 data(DemetrioEx1.4.2)
+str(DemetrioEx1.4.2)
 
 library(lattice)
+library(latticeExtra)
 
 xyplot(infil ~ tempo, data = DemetrioEx1.4.2,
-     main = "Tempo VS Infiltração",
-     xlab = "Tempo",
-     ylab = "Infiltração",
-     type = c("p", "r"), col.line = 3)
-     
+       xlab = "Tempo",
+       ylab = "Infiltração",
+       type = c("p", "r"), col.line = 3)
+
+xyplot(infil ~ tempo, data = DemetrioEx1.4.2,
+       xlab = "Tempo",
+       ylab = "Infiltração",
+       type = c("p", "r"), col.line = 3,
+       scales = list(y = list(log = 10), x = list(log = 10)),
+       yscale.components = yscale.components.log10ticks,
+       xscale.components = xscale.components.log10ticks)
+
 }
 \keyword{RS}
 

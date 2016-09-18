@@ -2,9 +2,11 @@
 % Please edit documentation in R/Paula.R
 \name{PaulaEx3.7.21}
 \alias{PaulaEx3.7.21}
-\title{Fatores Ambientais na Abund\enc{â}{a}ncia de Duas Esp\enc{é}{e}cies de Lagarto}
+\title{Fatores Ambientais na Abund\enc{â}{a}ncia de Duas
+    Esp\enc{é}{e}cies de Lagarto}
 \format{Um \code{data.frame} com 23 observações e 6 variáveis.
-    \describe{
+
+\describe{
 
 \item{\code{grahani}}{Quantidade de lagartos da espécie
     \emph{grahani}.}
@@ -12,22 +14,21 @@
 \item{\code{opalinus}}{Quantidade de lagartos da espécie
     \emph{opalinus}.}
 
-\item{\code{periodo}}{Fator com 3 níveis referentes ao período do
-    dia (manhã, meio-dia, tarde). }
+\item{\code{periodo}}{Fator com 3 níveis referentes ao período do dia
+    (manhã, meio-dia, tarde). }
 
 \item{\code{comp}}{Fator com 2 níveis referentes ao comprimento da
      madeira (curta, comprida).}
 
-\item{\code{larg}}{Fator com 2 níveis referentes a largura da
-    madeira (estreita, larga). }
+\item{\code{larg}}{Fator com 2 níveis referentes a largura da madeira
+    (estreita, larga). }
 
 \item{\code{local}}{Fator com 2 níveis referentes ao local de
     ocupação (claro, escuro). }
 
 }}
 \source{
-Paula, G. A. (2004). Modelos de regressão: com apoio
-    computacional. São Paulo, SP: IME-USP. (Exercício 21, pág. 277)
+PAULA (2004), Exercício 21, pág. 277.
 }
 \description{
 Dados referentes à distribuição de duas espécies de

@@ -2,7 +2,8 @@
 % Please edit documentation in R/Zimmermann.R
 \name{ZimmermannTb5.2}
 \alias{ZimmermannTb5.2}
-\title{Produ\enc{çã}{ca}o de Gr\enc{ã}{a}os de Gen\enc{ó}{o}tipos de Arroz}
+\title{Produ\enc{çã}{ca}o de Gr\enc{ã}{a}os de Gen\enc{ó}{o}tipos de
+    Arroz}
 \format{Um \code{data.frame} com 64 observações e 4 variáveis
 
 \describe{
@@ -20,9 +21,7 @@
 
 }}
 \source{
-Zimmermann, F. J. (2004). Estatística aplicada à pesquisa
-    agrícola (1st ed.). Santo Antônio de Goiás, GO: Embrapa Arroz e
-    Feijão. (Tabela 5.2, pág 92)
+ZIMMERMANN (2004), Tabela 5.2, pág. 92.
 }
 \description{
 Experimento em delineamento quadrado latino cujo

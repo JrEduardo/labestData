@@ -2,8 +2,9 @@
 % Please edit documentation in R/Charnet.R
 \name{CharnetEx11.2}
 \alias{CharnetEx11.2}
-\title{Distribui\enc{çã}{ca}o de Trabalho em um Departamento de Contabilidade}
-\format{Um \code{data.frame} com 7 colunas e 30 linhas.
+\title{Distribui\enc{çã}{ca}o de Trabalho em um Departamento de
+    Contabilidade}
+\format{Um \code{data.frame} com 7 colunas e 30 linhas, em que
 
 \describe{
 
@@ -28,10 +29,7 @@
 
 }}
 \source{
-Charnet, R., de Luna Freire, C.A., Charnet, E.M.R., Bonvino,
-    H. (2008). Análise de modelos de regressão linear com aplicações
-    (2nd ed.). Campinas, SP: Editora Unicamp (Capítulo 11, exercício
-    2, pág. 273)
+CHARNET et al. (2008), Capítulo 11, exercício 2, pág. 273.
 }
 \description{
 Estudo para determinar as atividades mais importantes
@@ -41,6 +39,7 @@ Estudo para determinar as atividades mais importantes
 \examples{
 
 data(CharnetEx11.2)
+str(CharnetEx11.2)
 
 plot(CharnetEx11.2)
 

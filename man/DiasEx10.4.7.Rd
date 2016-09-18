@@ -24,8 +24,7 @@
 
 }}
 \source{
-Dias, L. A. S., Barros, W. S. (2009). Biometria
-    Experimental. Viçosa, MG: UFV. (Exercício 7, Cap. 10, pág. 295)
+BARROS; DIAS (2009), Exercício 7, Cap. 10, pág. 295.
 }
 \description{
 Em um experimento em delineamento inteiramente
@@ -52,5 +51,5 @@ xyplot(prod ~ factor(N) | factor(P), groups = K, data = DiasEx10.4.7,
 
 }
 \keyword{DIC}
-\keyword{FAT3}
+\keyword{FAT2K}
 

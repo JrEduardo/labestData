@@ -2,7 +2,8 @@
 % Please edit documentation in R/Vieira.R
 \name{VieiraTb7.2}
 \alias{VieiraTb7.2}
-\title{N\enc{ú}{u}meros de Ovos de Poedeiras em Fun\enc{çã}{ca}o do Estilo Musical}
+\title{N\enc{ú}{u}meros de Ovos de Poedeiras em Fun\enc{çã}{ca}o do
+    Estilo Musical}
 \format{Um \code{data.frame} com 16 observações e 2 variáveis, em que
 
 \describe{
@@ -15,8 +16,7 @@
 
 }}
 \source{
-Vieira, S. (1999). Estatística experimental (2th ed.).
-    São Paulo, SP: Atlas. (Tabela 7.2, pág. 74).
+VIEIRA (1999), Tabela 7.2, pág. 74.
 }
 \description{
 Dados que refere-se ao número de ovos por poedeira 35

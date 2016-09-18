@@ -21,9 +21,7 @@
 
 }}
 \source{
-Banzatto, D. A., Kronka, S. D. (2013). Experimentação
-    Agrícola (4th ed.). Jaboticabal, SP: Funep. (Quadro 5.2.4,
-    pág. 107)
+BANZATTO; KRONKA (2013), Quadro 5.2.4, pág. 107.
 }
 \description{
 Experimento em esquema fatorial 3 \eqn{\times} 2 para

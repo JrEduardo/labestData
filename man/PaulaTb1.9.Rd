@@ -4,6 +4,7 @@
 \alias{PaulaTb1.9}
 \title{Bact\enc{é}{e}rias Sobreviventes em Amostras}
 \format{Um \code{data.frame} com 12 observações e 2 variáveis.
+
 \describe{
 
 \item{\code{num}}{Número de bactérias sobreviventes.}
@@ -12,18 +13,16 @@
 
 }}
 \source{
-Paula, G. A. (2004). Modelos de regressão: com apoio
-    computacional. São Paulo, SP: IME-USP. (Tabela 1.9, pág. 88)
+PAULA (2004), Tabela 1.9, pág. 88.
 }
 \description{
-Número de bactérias sobreviventes em amostras de um 
+Número de bactérias sobreviventes em amostras de um
     produto alimentício segundo o tempo de exposição do produto a uma
-    temperatura de 300°F.
+    temperatura de 300\eqn{^\circ}F.
 }
 \examples{
 
 data(PaulaTb1.9)
-
 str(PaulaTb1.9)
 
 library(lattice)
@@ -32,9 +31,9 @@ xyplot(num ~ temp,
        ylab = "Número de bactérias",
        xlab = "Tempo de exposição",
        data = PaulaTb1.9,
-       type = c("o"),
-       main = "Número de Bactérias Sobreviventes por Tempo de Exposição")
+       type = "o")
 
 }
-\keyword{MLG}
+\keyword{RS}
+\keyword{contagem}
 

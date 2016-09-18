@@ -2,8 +2,9 @@
 % Please edit documentation in R/Banzatto.R
 \name{BanzattoQd6.2.2}
 \alias{BanzattoQd6.2.2}
-\title{Espa\enc{ç}{c}amento de Plantio na Produ\enc{çã}{ca}o de Cana-de-a\enc{çú}{cu}car}
-\format{Um \code{data.frame} com 40 observações e 4 variáveis.
+\title{Espa\enc{ç}{c}amento de Plantio na Produ\enc{çã}{ca}o de
+    Cana-de-a\enc{çú}{cu}car}
+\format{Um \code{data.frame} com 40 observações e 4 variáveis, em que
 
 \describe{
 
@@ -20,9 +21,7 @@
 
 }}
 \source{
-Banzatto, D. A., Kronka, S. D. (2013). Experimentação
-    Agrícola (4th ed.). Jaboticabal, SP: Funep. (Quadro 6.2.2,
-    pág. 138)
+BANZATTO; KRONKA (2013), Quadro 6.2.2, pág. 138.
 }
 \description{
 O experimento avaliou o efeito do espaçamento de plantio
