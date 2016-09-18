@@ -39,5 +39,5 @@ xyplot(colesterol ~ periodo,
        ylab = "Teor de Colesterol")
 
 }
-\keyword{pareado}
+\keyword{AASP}
 
