@@ -473,14 +473,49 @@ Para fazer *merge request* visite:
 <https://gitlab.c3sl.ufpr.br/pet-estatistica/labestData/merge_requests>.
 Clique no botão *New Merge Request* para criar um novo MR. Detalhe no
 campo descrição todas as contribuições enviadas com o ramo que você
-submeteu para a avaliação. Escolha dentre os *mergers* do projeto aquele
-que foi designado para você.
+submeteu para a avaliação, informe também qual o *issue* esse ramo
+refere-se com `#NumeroIssue` isso garante que as atualizações feitas no
+MR também serão reportadas no *issue* correspondente. Escolha dentre os
+*mergers* do projeto aquele que foi designado para você.
 
 Quando o seu MR não for aceito, o *merger* vai deixar descrição das
 correções a serem feitas na página do seu MR. Todo MR tem um número
 correspondente, como os *issues*. Quando fizer as correções por ele
 apontadas, comente na página do MR que o ramo está pronto para
 incorporação novamente.
+
+## Finalizar o trabalho
+
+Após aceito o MR, ou seja, suas contribuições tiverem sido incorporadas
+ao ramo `devel`, deve-se fechar o *issue* que originou o MR. Caso tenha
+colocado na descrição do MR a indicação do *issue* com `#NumeroIssue`,
+apenas vá até o *issue*
+(https://gitlab.c3sl.ufpr.br/pet-estatistica/labestData/issues/NumeroIssue)
+e clique em *Close issue*, caso contrário indique como comentário do
+*issue* qual MR que incorpora as contribuições por ele indicadas, faça
+isso com `!NumeroMR`. Com o *issue* finalizado, deve-se então remover o
+ramo criado para desenvolvimento do trabalho, faça isso com
+
+```bash
+# Atualiza todos os ramos conforme versão remota
+git pull
+
+# Mude para o ramo baby
+git checkout baby
+
+# Remova o ramo de desenvolvimento local
+git branch -d seunome123
+
+# Remova o ramo de desenvolvimento do GitLab
+git push origin :seunome123
+```
+
+Certifique-se de que o ramo de desenvolvimento do *issue* foi realmente
+incorporado ao *devel* para então realizar esses procedimentos. Feito
+isso retorna-se à seção
+[Criar ramo para Desenvolvimento](#criar-ramo-para-desenvolvimento)
+realizando todo o roteiro descrito semanalmente até que se finalize
+todas as *issues* compreendidas na *Milestone* correspondente.
 
 <!------------------------------------------- -->
 
