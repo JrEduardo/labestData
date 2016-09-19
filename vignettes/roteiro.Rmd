@@ -2,7 +2,7 @@
 title: "Roteiro de Trabalho"
 author: "PET Estatística UFPR"
 vignette: >
-  %\VignetteIndexEntry{Guia de Contribuição e Estilo}
+  %\VignetteIndexEntry{Roteiro de Trabalho}
   %\VignetteEngine{knitr::rmarkdown}
   %\VignetteEncoding{UTF-8}
 ---
