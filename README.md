@@ -84,12 +84,12 @@ library(devtools)
 
 # Do repositório de desenvolvimento no GitLab.
 install_git(url = "https://gitlab.c3sl.ufpr.br/pet-estatistica/labestData.git",
-            branch = "master")
+            branch = "master", build_vignettes = TRUE)
 
 # Do repositório de divulgação no GitHub.
 install_github(repo = "labestData",
                username = "pet-estatistica",
-               ref = "master")
+               ref = "master", build_vignettes = TRUE)
 ```
 
 Você também pode instalar do ramo de desenvolvimento `devel`, mas esteja
@@ -203,9 +203,9 @@ Você pode abrir *issues* no projeto *labestData* nos dois repositórios:
 Caso você não tenha conta em nenhum dos dois serviços, nem se interessa
 em abrir uma conta, envie sua sugestão/relato para o endereço
 <pet.estatistica.ufpr@gmail.com>. Coloque no início título da mensagem
-(*subject*) a palavra `[labestData]`, e.g. `[labesData] Dados com número
-incorreto de observações`. Iremos resolver o seu relato de *bug* o mais
-rápido possível.
+(*subject*) a palavra `[labestData]`, e.g. `[labestData] Dados com
+número incorreto de observações`. Iremos resolver o seu relato de *bug*
+o mais rápido possível.
 
 <!------------------------------------------- -->
 
