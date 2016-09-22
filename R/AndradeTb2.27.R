@@ -5,18 +5,20 @@
 #'     comunidade, em duas doses, ao longo de duas semanas. Algumas
 #'     pessoas tomaram as duas doses, outras tomaram apenas a primeira
 #'     dose e outras não tomaram nenhuma dose. Os tratamentos foram
-#'     aplicados em 1.000 habitantes dessa comunidade.
+#'     aplicados em 1000 habitantes dessa comunidade.
 #' @format Um \code{data.frame} com 6 observações e 3 variáveis, em que
 #'
 #' \describe{
 #'
-#' \item{\code{saude}}{Fator de 2 níveis qualitativos que são os estados
-#'     de saúde dos habitantes.}
+#' \item{\code{saude}}{Estado de saúde dos habitantes (gripados ou não
+#'     gripados).}
 #'
-#' \item{\code{vacina}}{Fator de 3 níveis qualitativos que são as
-#'     dosagens da nova vacina antigripal.}
+#' \item{\code{vacina}}{identifica em quantas doses a vacina antigripal
+#'     foi aplicada (0, não houve aplicação; 1, em dose única; 2, em
+#'     duas doses).}
 #'
-#' \item{\code{freq}}{Número de habitantes.}
+#' \item{\code{freq}}{Número de habitantes no cruzamento de \code{saude}
+#'     e \code{vacina}.}
 #'
 #' }
 #' @keywords contigência

@@ -1,18 +1,18 @@
 #' @name AndradeTb2.31
 #' @title Efeito do Rizóbio na Altura das Plantas
-#' @description Altura de plantas, medida em cm, para dois tratamentos,
-#'     no qual um tratamento é o controle, isto é, não foi feita a
-#'     inoculação do rizóbio nas plantas e o outro corresponde à
+#' @description Altura de plantas, medida em centímetros, para dois
+#'     tratamentos, no qual um tratamento é o controle, isto é, não foi
+#'     feita a inoculação do rizóbio nas plantas e o outro corresponde à
 #'     aplicação de rizóbio nas plantas (rizóbios tem a capacidade de
 #'     fixar o nitrogênio atmosférico e fornecê-lo às culturas).
 #' @format Um \code{data.frame} com 40 observações e 2 variáveis, em que
 #'
 #' \describe{
 #'
-#' \item{\code{trat}}{Fator de 2 níveis qualitativos que indica a
-#'     aplicação de rizóbio nas plantas.}
+#' \item{\code{trat}}{Indica o tratamento aplicado às plantas (com
+#'     rizóbio ou controle).}
 #'
-#' \item{\code{altura}}{Altura das plantas medida em cm.}
+#' \item{\code{altura}}{Altura das plantas, medida em cm.}
 #'
 #' }
 #' @keywords AASI

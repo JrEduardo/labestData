@@ -2,19 +2,19 @@
 #' @title Estudo sobre a Adoção de uma Variedade de Arroz
 #' @description Estudo realizado por um economista agrícola que tem
 #'     interesse em identificar a associação entre o tipo de posse de
-#'     terra de DESCOBRIR QUEM e sua propensão a adoção da nova
-#'     variedade de arroz, altamente produtiva.
+#'     terra de [DESCOBRIR QUEM] e sua propensão a adoção da nova
+#'     variedade de arroz.
 #' @format Um \code{data.frame} com 6 observações e 3 variáveis, em que
 #'
 #' \describe{
 #'
-#' \item{\code{posse}}{Fator de 3 níveis que são os tipos de posse de
-#'     terra.}
+#' \item{\code{posse}}{Identifica o tipo de posse de terra
+#'     (proprietário, único arrendatário e vários arrendatários).}
 #'
-#' \item{\code{adocao}}{Fator de 2 níveis que indica se há, ou não, a
-#'     adoção da nova variedade de arroz.}
+#' \item{\code{adocao}}{Identifica o se há, ou não, a adoção da nova
+#'     variedade de arroz.}
 #'
-#' \item{\code{freq}}{Frequência DE QUEM? FAZENDEIROS?.}
+#' \item{\code{freq}}{Frequência [DE QUEM? FAZENDEIROS?].}
 #'
 #' }
 #' @keywords contingência

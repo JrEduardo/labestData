@@ -6,8 +6,8 @@
 #'
 #' \describe{
 #'
-#' \item{\code{meio}}{Fator de 2 níveis qualitativos que são os meios
-#'     de cultura.}
+#' \item{\code{meio}}{Meios de cultura em que os explantes de abacaxi
+#'     foram mantidos.}
 #'
 #' \item{\code{nbroto}}{Número de brotos por explante de abacaxi.}
 #'

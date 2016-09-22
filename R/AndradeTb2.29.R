@@ -1,7 +1,8 @@
 #' @name AndradeTb2.29
-#' @title Biometria Total de \emph{Macrobrachium Potiuna}
-#' @description Biometria total, em mm, do \emph{Macrobrachium potiuna}
-#'     (MÜLLER, 1880) da família Palaemonidae.
+#' @title Biometria Total do Camarão \emph{Macrobrachium Potiuna}
+#' @description Biometria total, em milímetros, do Camarão de água doce
+#'     \emph{Macrobrachium potiuna} (MÜLLER, 1880), da família
+#'     \emph{Palaemonidae}.
 #' @format Um \code{vetor} numérico com 36 observações.
 #' @keywords AAS
 #' @source Estatística para as ciências agrárias e biológicas: com

@@ -1,8 +1,8 @@
 #' @name AndradeEx2.13
 #' @title Estudo dos Ovos de \emph{Biomphalaria Taenagophila}
-#' @description Estudo do comportamento da variável número de ovos
-#'     inviáveis de \emph{Biomphalaria taenagophila} (caramujo) em
-#'     ambiente poluído. Para isso tomou-se uma amostra de 23 caramujos.
+#' @description Estudo da distribuição do número de ovos inviáveis de
+#'     \emph{Biomphalaria taenagophila} (caramujo) em ambiente
+#'     poluído. Para isso tomou-se uma amostra de 23 caramujos.
 #' @format Um \code{vetor} numérico com 23 observações.
 #' @keywords AAS
 #' @source Estatística para as ciências agrárias e biológicas: com

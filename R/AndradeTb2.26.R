@@ -1,19 +1,20 @@
 #' @name AndradeTb2.26
 #' @title Estudo de Associação entre Local de Coleta e Peso de Mexilhões
-#' @description Distribuição conjunta das variáveis local de coleta e
-#'     peso de mexilhões.
+#' @description Estudo observacional cujo interesse é verificar se
+#'     existe associação entre o local de coleta de mexilhões e o peso
+#'     deles.
 #' @format Um \code{data.frame} com 6 observações e 3 variáveis, em que
 #'
 #' \describe{
 #'
-#' \item{\code{local}}{Fator de 2 níveis qualitativos que são os locais
-#'     de coleta dos mexilhões.}
+#' \item{\code{local}}{Local de coleta dos mexilhões (Mangue e
+#'     Sambaqui).}
 #'
-#' \item{\code{peso}}{Fator de 3 níveis que indica os pesos dos
-#'     mexilhões, em gramas.}
+#' \item{\code{peso}}{Pesos dos mexilhões, em gramas. A variável foi
+#'     categorizada em três níveis (7-20, 21-33 e 34-46 gramas).}
 #'
-#' \item{\code{freq}}{Frequência conjunta de local de coleta e peso de
-#'     mexilhões.}
+#' \item{\code{freq}}{Número de mexilhões no cruzamento de \code{local}
+#'     com \code{peso}.}
 #'
 #' }
 #' @keywords contingência
