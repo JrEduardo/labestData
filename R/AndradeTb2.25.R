@@ -1,43 +1,49 @@
 #' @name AndradeTb2.25
 #' @title Experimento de Germinação de Cultivares de Cebola
 #' @description Experimento com o objetivo de avaliar o poder
-#'     germinativo de duas cultivares de cebola. Foram utilizadas para o
-#'     teste de germinação quatro repetições de cem sementes,
-#'     totalizando quatrocentas sementes para cada cultivar. A variável
-#'     em estudo é o número de sementes que germinaram.
+#'     germinativo de duas cultivares de cebola. Foram utilizadas, para
+#'     o teste de germinação, quatro repetições de cem sementes
+#'     totalizando quatrocentas sementes para cada cultivar. Nesse
+#'     experimento mensurou-se apenas a frequência de sementes que
+#'     germinaram, ou não, dentre as repetições de cada cultivar.
 #' @format Um \code{data.frame} com 4 observações e 3 variáveis, em que
 #'
 #' \describe{
 #'
-#' \item{\code{Cultivares}}{Fator de 2 níveis qualitativos que são as
-#'     cultivares de cebola (Bola Precoce-EMPASC 352 e Norte 14).}
+#' \item{\code{cult}}{Fator de 2 níveis que são as cultivares de cebola
+#'     (Bola Precoce-EMPASC 352 e Norte 14).}
 #'
-#' \item{\code{Germinação}}{Fator de 2 níveis qualitativos que indica se
-#'     a semente germinou ou não germinou.}
+#' \item{\code{germ}}{Fator de 2 níveis que indica se a semente germinou
+#'     ou não germinou.}
 #'
-#' \item{\code{Freq}}{Frequência conjunta de Cultivares e Germinação.}
+#' \item{\code{freq}}{Número de sementes.}
 #'
 #' }
-#' @keywords AAS
+#' @keywords contingência
 #' @source Estatística para as ciências agrárias e biológicas: com
 #'     noções de experimentação / Dalton F. Andrade, Paulo J. Ogliari.
 #'     2. ed. rev. e ampl. - Florianópolis: Ed. da UFSC, 2010. (Tabela
 #'     2.25, pág. 107)
 #' @examples
 #'
-#' library(lattice)
-#'
 #' data(AndradeTb2.25)
 #' str(AndradeTb2.25)
 #'
-#' xyplot(Freq ~ Germinacao,
-#'        groups = Cultivares,
-#'        data = AndradeTb2.25,
-#'        type = "b",
-#'        auto.key = list(title = "Cultivares",
-#'                        cex.title = 1.1,
-#'                        columns = 2),
-#'        xlab = "Germinação",
-#'        ylab = "Frequência")
+#' xt <- xtabs(freq ~ ., data = AndradeTb2.25)
+#' xt
+#'
+#' mosaicplot(t(xt), col = c("darkturquoise", "lawngreen"),
+#'            cex.axis = 0.8, las = 2, main = "")
+#'
+#' library(lattice)
+#' barchart(t(xt),
+#'          horizontal = FALSE,
+#'          stack = FALSE,
+#'          auto.key = list(
+#'              corner= c(0.9, 0.9),
+#'              title = "Cultivar",
+#'              cex.title = 1.1),
+#'          xlab = "Adoção da nova variedade",
+#'          ylab = "Número de sementes")
 #'
 NULL

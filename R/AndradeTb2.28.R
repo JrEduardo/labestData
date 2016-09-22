@@ -6,27 +6,34 @@
 #'
 #' \describe{
 #'
-#' \item{\code{Meio}}{Fator de 2 níveis qualitativos que são os meios
+#' \item{\code{meio}}{Fator de 2 níveis qualitativos que são os meios
 #'     de cultura.}
 #'
-#' \item{\code{Brotos}}{Número de brotos por explante de abacaxi.}
+#' \item{\code{nbroto}}{Número de brotos por explante de abacaxi.}
 #'
 #' }
-#' @keywords AAS
+#' @keywords AASI
 #' @source Estatística para as ciências agrárias e biológicas: com
 #'     noções de experimentação / Dalton F. Andrade, Paulo J. Ogliari.
 #'     2. ed. rev. e ampl. - Florianópolis: Ed. da UFSC, 2010. (Tabela
 #'     2.28, pág. 109)
 #' @examples
 #'
-#' library(lattice)
-#'
 #' data(AndradeTb2.28)
 #' str(AndradeTb2.28)
 #'
-#' bwplot(Brotos ~ Meio,
+#' with(AndradeTb2.28, by(nbroto, meio, summary))
+#'
+#' library(lattice)
+#'
+#' bwplot(nbroto ~ meio,
 #'        data = AndradeTb2.28,
 #'        xlab = "Meio de Cultura",
 #'        ylab = "Número de Brotos")
+#'
+#' densityplot(~nbroto,
+#'             groups = meio,
+#'             grid = TRUE,
+#'             data = AndradeTb2.28)
 #'
 NULL

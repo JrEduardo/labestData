@@ -8,9 +8,10 @@
 #'     noções de experimentação / Dalton F. Andrade, Paulo J. Ogliari.
 #'     2. ed. rev. e ampl. - Florianópolis: Ed. da UFSC, 2010. (Tabela
 #'     2.29, pág. 110)
-#' @examples
 #'
-#' library(lattice)
+#' @references COLOQUE A REFERENCIA DO MULLER (ATENTE-SE AO ESTILO DE
+#'     REFERÊNCIA)
+#' @examples
 #'
 #' data(AndradeTb2.29)
 #' str(AndradeTb2.29)

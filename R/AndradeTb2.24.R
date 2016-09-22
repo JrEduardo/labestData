@@ -1,40 +1,47 @@
 #' @name AndradeTb2.24
 #' @title Estudo sobre a Adoção de uma Variedade de Arroz
-#' @description Um economista agrícola está estudando fatores que afetam
-#'     a adoção de uma nova variedade de arroz altamente produtiva.
+#' @description Estudo realizado por um economista agrícola que tem
+#'     interesse em identificar a associação entre o tipo de posse de
+#'     terra de DESCOBRIR QUEM e sua propensão a adoção da nova
+#'     variedade de arroz, altamente produtiva.
 #' @format Um \code{data.frame} com 6 observações e 3 variáveis, em que
 #'
 #' \describe{
 #'
-#' \item{\code{Posse}}{Fator de 3 níveis qualitativos que são os tipos
-#'     de posse de terra.}
+#' \item{\code{posse}}{Fator de 3 níveis que são os tipos de posse de
+#'     terra.}
 #'
-#' \item{\code{Adocao}}{Fator de 2 níveis qualitativos que indica se há,
-#'     ou não, a adoção da nova variedade de arroz.}
+#' \item{\code{adocao}}{Fator de 2 níveis que indica se há, ou não, a
+#'     adoção da nova variedade de arroz.}
 #'
-#' \item{\code{Freq}}{Frequência conjunta de Posse e Adoção.}
+#' \item{\code{freq}}{Frequência DE QUEM? FAZENDEIROS?.}
 #'
 #' }
-#' @keywords AAS
+#' @keywords contingência
 #' @source Estatística para as ciências agrárias e biológicas: com
 #'     noções de experimentação / Dalton F. Andrade, Paulo J. Ogliari.
 #'     2. ed. rev. e ampl. - Florianópolis: Ed. da UFSC, 2010. (Tabela
 #'     2.24, pág. 106)
 #' @examples
 #'
-#' library(lattice)
-#'
 #' data(AndradeTb2.24)
 #' str(AndradeTb2.24)
 #'
-#' xyplot(Freq ~ Adocao,
-#'        groups = Posse,
-#'        data = AndradeTb2.24,
-#'        type = "b",
-#'        auto.key = list(title = "Posse",
-#'                        cex.title = 1.1,
-#'                        columns = 3),
-#'        xlab = "Adoção",
-#'        ylab = "Frequência")
+#' xt <- xtabs(freq ~ ., data = AndradeTb2.24)
+#' xt
+#'
+#' mosaicplot(t(xt), col = c("darkturquoise", "lawngreen", "blue"),
+#'            cex.axis = 0.8, las = 2, main = "")
+#'
+#' library(lattice)
+#' barchart(t(xt),
+#'          horizontal = FALSE,
+#'          stack = TRUE,
+#'          auto.key = list(
+#'              corner= c(0.9, 0.9),
+#'              title = "Posse",
+#'              cex.title = 1.1),
+#'          xlab = "Adoção da nova variedade",
+#'          ylab = "Frequência DE ???")
 #'
 NULL
