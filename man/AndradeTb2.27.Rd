@@ -7,47 +7,52 @@
 
 \describe{
 
-\item{\code{Saude}}{Fator de 2 níveis qualitativos que são os estados
-    de saúde dos habitantes.}
+\item{\code{saude}}{Estado de saúde dos habitantes (gripados ou não
+    gripados).}
 
-\item{\code{Vacina}}{Fator de 3 níveis qualitativos que são as
-    dosagens utilizadas da nova vacina antigripal.}
+\item{\code{vacina}}{identifica em quantas doses a vacina antigripal
+    foi aplicada (0, não houve aplicação; 1, em dose única; 2, em
+    duas doses).}
 
-\item{\code{Freq}}{Frequência conjunta do estado de saúde e da
-    vacinação dos habitantes.}
+\item{\code{freq}}{Número de habitantes no cruzamento de \code{saude}
+    e \code{vacina}.}
 
 }}
 \source{
-Estatística para as ciências agrárias e biológicas: com
-    noções de experimentação / Dalton F. Andrade, Paulo J. Ogliari.
-    2. ed. rev. e ampl. - Florianópolis: Ed. da UFSC, 2010. (Tabela
-    2.27, pág. 108)
+Andrade, D. F., Ogliari, P. J. (2010). Estatística para as
+    ciências agrárias e biológicas com noções de experimentação (2nd
+    ed.). Florianópolis, SC. Editora da UFSC. (Tabela 2.27, pág. 108)
 }
 \description{
-Estudo  para avaliar a eficiência de uma nova vacina
+Estudo para avaliar a eficiência de uma nova vacina
     antigripal, a qual foi administrada aos membros de uma pequena
     comunidade, em duas doses, ao longo de duas semanas. Algumas
     pessoas tomaram as duas doses, outras tomaram apenas a primeira
     dose e outras não tomaram nenhuma dose. Os tratamentos foram
-    aplicados em 1.000 habitantes dessa comunidade.
+    aplicados em 1000 habitantes dessa comunidade.
 }
 \examples{
-
-library(lattice)
 
 data(AndradeTb2.27)
 str(AndradeTb2.27)
 
-xyplot(Freq ~ Saude,
-       groups = Vacina,
-       data = AndradeTb2.27,
-       type = "b",
-       auto.key = list(title = "Vacinação",
-                       cex.title = 1.1,
-                       columns = 3),
-       xlab = "Estado de Saúde",
-       ylab = "Frequência")
+xt <- xtabs(freq ~ ., data = AndradeTb2.27)
+xt
+
+mosaicplot(xt, col = c("darkturquoise", "lawngreen", "blue"),
+           cex.axis = 0.8, main = "")
+
+library(lattice)
+barchart(t(xt),
+         horizontal = FALSE,
+         stack = TRUE,
+         auto.key = list(
+             corner= c(0.9, 0.9),
+             title = "Estado de saúde",
+             cex.title = 1.1),
+         xlab = "Número de doses da vacina",
+         ylab = "Número de habitantes")
 
 }
-\keyword{AAS}
+\keyword{contigência}
 

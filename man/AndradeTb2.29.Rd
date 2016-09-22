@@ -2,21 +2,19 @@
 % Please edit documentation in R/AndradeTb2.29.R
 \name{AndradeTb2.29}
 \alias{AndradeTb2.29}
-\title{Biometria Total de \emph{Macrobrachium Potiuna}}
+\title{Biometria Total do Camarão \emph{Macrobrachium Potiuna}}
 \format{Um \code{vetor} numérico com 36 observações.}
 \source{
-Estatística para as ciências agrárias e biológicas: com
-    noções de experimentação / Dalton F. Andrade, Paulo J. Ogliari.
-    2. ed. rev. e ampl. - Florianópolis: Ed. da UFSC, 2010. (Tabela
-    2.29, pág. 110)
+Andrade, D. F., Ogliari, P. J. (2010). Estatística para as
+    ciências agrárias e biológicas com noções de experimentação (2nd
+    ed.). Florianópolis, SC. Editora da UFSC. (Tabela 2.29, pág. 110)
 }
 \description{
-Biometria total, em mm, do \emph{Macrobrachium potiuna}
-    (MÜLLER, 1880) da família Palaemonidae.
+Biometria total, em milímetros, do Camarão de água doce
+    \emph{Macrobrachium potiuna} (MÜLLER, 1880), da família
+    \emph{Palaemonidae}.
 }
 \examples{
-
-library(lattice)
 
 data(AndradeTb2.29)
 str(AndradeTb2.29)
@@ -32,6 +30,10 @@ hist(AndradeTb2.29,
 
 lines(density(AndradeTb2.29), lwd = 2)
 
+}
+\references{
+COLOQUE A REFERENCIA DO MULLER (ATENTE-SE AO ESTILO DE
+    REFERÊNCIA)
 }
 \keyword{AAS}
 

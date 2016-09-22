@@ -7,37 +7,37 @@
 
 \describe{
 
-\item{\code{Trat}}{Fator de 2 níveis qualitativos que indica a
-    aplicação de rizóbio nas plantas.}
+\item{\code{trat}}{Indica o tratamento aplicado às plantas (com
+    rizóbio ou controle).}
 
-\item{\code{Altura}}{Altura das plantas medida em cm.}
+\item{\code{altura}}{Altura das plantas, medida em cm.}
 
 }}
 \source{
-Estatística para as ciências agrárias e biológicas: com
-    noções de experimentação / Dalton F. Andrade, Paulo J. Ogliari.
-    2. ed. rev. e ampl. - Florianópolis: Ed. da UFSC, 2010. (Tabela
-    2.31, pág. 111)
+Andrade, D. F., Ogliari, P. J. (2010). Estatística para as
+    ciências agrárias e biológicas com noções de experimentação (2nd
+    ed.). Florianópolis, SC. Editora da UFSC. (Tabela 2.31, pág. 111)
 }
 \description{
-Altura de plantas, medida em cm, para dois tratamentos,
-    no qual um tratamento é o controle, isto é, não foi feita a
-    inoculação do rizóbio nas plantas. O outro tratamento corresponde
-    à aplicação de rizóbio nas plantas (rizóbios tem a capacidade de
+Altura de plantas, medida em centímetros, para dois
+    tratamentos, no qual um tratamento é o controle, isto é, não foi
+    feita a inoculação do rizóbio nas plantas e o outro corresponde à
+    aplicação de rizóbio nas plantas (rizóbios tem a capacidade de
     fixar o nitrogênio atmosférico e fornecê-lo às culturas).
 }
 \examples{
 
-library(lattice)
-
 data(AndradeTb2.31)
 str(AndradeTb2.31)
 
-bwplot(Altura ~ Trat,
+with(AndradeTb2.31, by(altura, trat, summary))
+
+library(lattice)
+bwplot(altura ~ trat,
        data = AndradeTb2.31,
        xlab = "Tratamento",
        ylab = "Altura")
 
 }
-\keyword{AAS}
+\keyword{AASI}
 

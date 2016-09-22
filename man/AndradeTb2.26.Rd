@@ -2,48 +2,53 @@
 % Please edit documentation in R/AndradeTb2.26.R
 \name{AndradeTb2.26}
 \alias{AndradeTb2.26}
-\title{Local de Coleta e Peso de Mexilhões}
+\title{Estudo de Associação entre Local de Coleta e Peso de Mexilhões}
 \format{Um \code{data.frame} com 6 observações e 3 variáveis, em que
 
 \describe{
 
-\item{\code{Local}}{Fator de 2 níveis qualitativos que são os locais
-    de coleta dos mexilhões.}
+\item{\code{local}}{Local de coleta dos mexilhões (Mangue e
+    Sambaqui).}
 
-\item{\code{Peso}}{Fator de 3 níveis qualitativos que indica os pesos
-    dos mexilhões, em gramas.}
+\item{\code{peso}}{Pesos dos mexilhões, em gramas. A variável foi
+    categorizada em três níveis (7-20, 21-33 e 34-46 gramas).}
 
-\item{\code{Freq}}{Frequência conjunta de local de coleta e peso de
-    mexilhões.}
+\item{\code{freq}}{Número de mexilhões no cruzamento de \code{local}
+    com \code{peso}.}
 
 }}
 \source{
-Estatística para as ciências agrárias e biológicas: com
-    noções de experimentação / Dalton F. Andrade, Paulo J. Ogliari.
-    2. ed. rev. e ampl. - Florianópolis: Ed. da UFSC, 2010. (Tabela
-    2.26, pág. 107)
+Andrade, D. F., Ogliari, P. J. (2010). Estatística para as
+    ciências agrárias e biológicas com noções de experimentação (2nd
+    ed.). Florianópolis, SC. Editora da UFSC. (Tabela 2.26, pág. 107)
 }
 \description{
-Distribuição conjunta das variáveis local de coleta e
-    peso de mexilhões.
+Estudo observacional cujo interesse é verificar se
+    existe associação entre o local de coleta de mexilhões e o peso
+    deles.
 }
 \examples{
-
-library(lattice)
 
 data(AndradeTb2.26)
 str(AndradeTb2.26)
 
-xyplot(Freq ~ Local,
-       groups = Peso,
-       data = AndradeTb2.26,
-       type = "b",
-       auto.key = list(title = "Peso",
-                       cex.title = 1.1,
-                       columns = 3),
-       xlab = "Local de Coleta",
-       ylab = "Frequência")
+xt <- xtabs(freq ~ ., data = AndradeTb2.26)
+xt
+
+mosaicplot(t(xt), col = c("darkturquoise", "lawngreen"),
+           cex.axis = 0.8, las = 2, main = "")
+
+library(lattice)
+barchart(t(xt),
+         horizontal = FALSE,
+         stack = TRUE,
+         auto.key = list(
+             columns = 2,
+             title = "Local de coleta",
+             cex.title = 1.1),
+         xlab = "Peso do mexilhão",
+         ylab = "Número de mexilhões")
 
 }
-\keyword{AAS}
+\keyword{contingência}
 

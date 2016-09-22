@@ -7,17 +7,16 @@
 
 \describe{
 
-\item{\code{Meio}}{Fator de 2 níveis qualitativos que são os meios
-    de cultura.}
+\item{\code{meio}}{Meios de cultura em que os explantes de abacaxi
+    foram mantidos.}
 
-\item{\code{Brotos}}{Número de brotos por explante de abacaxi.}
+\item{\code{nbroto}}{Número de brotos por explante de abacaxi.}
 
 }}
 \source{
-Estatística para as ciências agrárias e biológicas: com
-    noções de experimentação / Dalton F. Andrade, Paulo J. Ogliari.
-    2. ed. rev. e ampl. - Florianópolis: Ed. da UFSC, 2010. (Tabela
-    2.28, pág. 109)
+Andrade, D. F., Ogliari, P. J. (2010). Estatística para as
+    ciências agrárias e biológicas com noções de experimentação (2nd
+    ed.). Florianópolis, SC. Editora da UFSC. (Tabela 2.28, pág. 109)
 }
 \description{
 Número de brotos por explante de abacaxi avaliada em
@@ -25,16 +24,23 @@ Número de brotos por explante de abacaxi avaliada em
 }
 \examples{
 
-library(lattice)
-
 data(AndradeTb2.28)
 str(AndradeTb2.28)
 
-bwplot(Brotos ~ Meio,
+with(AndradeTb2.28, by(nbroto, meio, summary))
+
+library(lattice)
+
+bwplot(nbroto ~ meio,
        data = AndradeTb2.28,
        xlab = "Meio de Cultura",
        ylab = "Número de Brotos")
 
+densityplot(~nbroto,
+            groups = meio,
+            grid = TRUE,
+            data = AndradeTb2.28)
+
 }
-\keyword{AAS}
+\keyword{AASI}
 

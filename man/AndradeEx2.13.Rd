@@ -5,15 +5,15 @@
 \title{Estudo dos Ovos de \emph{Biomphalaria Taenagophila}}
 \format{Um \code{vetor} numérico com 23 observações.}
 \source{
-Estatística para as ciências agrárias e biológicas: com
-    noções de experimentação / Dalton F. Andrade, Paulo J. Ogliari.
-    2. ed. rev. e ampl. - Florianópolis: Ed. da UFSC, 2010.
-    (Capítulo 2, Exercício 13, pág. 109)
+Andrade, D. F., Ogliari, P. J. (2010). Estatística para as
+    ciências agrárias e biológicas com noções de experimentação (2nd
+    ed.). Florianópolis, SC. Editora da UFSC. (Capítulo 2, Exercício
+    13, pág. 109)
 }
 \description{
-Estudo do comportamento da variável número de ovos
-    inviáveis de \emph{Biomphalaria taenagophila} (caramujo) em
-    ambiente poluído. Para isso tomou-se uma amostra de 23 caramujos.
+Estudo da distribuição do número de ovos inviáveis de
+    \emph{Biomphalaria taenagophila} (caramujo) em ambiente
+    poluído. Para isso tomou-se uma amostra de 23 caramujos.
 }
 \examples{
 
