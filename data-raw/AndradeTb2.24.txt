@@ -1,7 +1,7 @@
-Posse	Adocao	Freq
-Proprietario	Adota	102
-VariosArrendatarios	Adota	42
-UnicoArrendatario	Adota	5
-Proprietario	NaoAdota	26
-VariosArrendatarios	NaoAdota	10
-UnicoArrendatario	NaoAdota	2
+posse	adocao	freq
+proprietário	Sim	102
+vários arrendatários	Sim	42
+único arrendatário	Sim	5
+proprietário	Não	26
+vários arrendatários	Não	10
+único arrendatário	Não	2

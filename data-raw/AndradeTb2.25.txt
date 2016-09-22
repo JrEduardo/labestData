@@ -1,5 +1,5 @@
-Cultivares	Germinacao	Freq
-BolaPrecoce	Germinaram	392
-Norte14	Germinaram	381
-BolaPrecoce	NaoGerminaram	8
-Norte14	NaoGerminaram	19
+cult	germ	freq
+Bola 352	Sim	392
+Norte 14	Sim	381
+Bola 352	Não	8
+Norte 14	Não	19
