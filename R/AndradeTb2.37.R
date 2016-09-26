@@ -12,7 +12,7 @@
 #'     porcentagem.}
 #'
 #' \item{\code{esp}}{Espaçamento das linhas na cultura da soja, em
-#'     metros}
+#'     metros.}
 #'
 #' }
 #' @keywords AAS
