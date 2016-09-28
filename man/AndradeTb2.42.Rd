@@ -27,7 +27,6 @@ Resultados da variável peso de carne, em gramas, de
 data(AndradeTb2.42)
 str(AndradeTb2.42)
 
-library(lattice)
 boxplot(peso ~ local,
         data = AndradeTb2.42,
         xlab = "Local",
