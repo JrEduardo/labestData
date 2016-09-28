@@ -7,10 +7,10 @@
 
 \describe{
 
-\item{\code{Raca}}{Fator de 2 níveis qualitativos que são as raças
+\item{\code{raca}}{Fator de 2 níveis qualitativos que são as raças
     dos bezerros recém-nascidos.}
 
-\item{\code{Peso}}{Peso, em kg, do bezerro recém-nascido.}
+\item{\code{peso}}{Peso, em kg, do bezerro recém-nascido.}
 
 }}
 \source{
@@ -28,7 +28,7 @@ data(AndradeTb2.32)
 str(AndradeTb2.32)
 
 library(lattice)
-bwplot(Peso ~ Raca,
+bwplot(peso ~ raca,
        data = AndradeTb2.32,
        xlab = "Raça do Bezerro",
        ylab = "Peso (em kg)")

@@ -1,4 +1,4 @@
-Luz	Cresc
+luz	cresc
 Direta	1.6
 Direta	1.6
 Direta	1.9

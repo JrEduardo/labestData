@@ -1,4 +1,4 @@
-Raca	Peso
+raca	peso
 Crioula	47
 Crioula	51
 Crioula	45

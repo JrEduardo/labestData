@@ -7,9 +7,9 @@
 
 \describe{
 
-\item{\code{Xc}}{Comprimento do Corpo em mm.}
+\item{\code{xc}}{Comprimento do Corpo em mm.}
 
-\item{\code{Xp}}{Peso em gramas.}
+\item{\code{xp}}{Peso em gramas.}
 
 }}
 \source{
@@ -31,7 +31,7 @@ data(AndradeEg2.17)
 str(AndradeEg2.17)
 
 library(lattice)
-xyplot(jitter(Xp) ~ Xc,
+xyplot(jitter(xp) ~ xc,
        data = AndradeEg2.17,
        type = c("p", "r"),
        xlab = "Comprimento do Corpo (em mm)",

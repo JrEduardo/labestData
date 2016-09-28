@@ -6,9 +6,9 @@
 #'
 #' \describe{
 #'
-#' \item{\code{Prod}}{Produção de matéria seca em \eqn{g.m^{-2}}.}
+#' \item{\code{prod}}{Produção de matéria seca em \eqn{g.m^{-2}}.}
 #'
-#' \item{\code{Rad}}{Radiação fotossintética em \eqn{W.m^{-2}}.}
+#' \item{\code{rad}}{Radiação fotossintética em \eqn{W.m^{-2}}.}
 #'
 #' }
 #' @keywords AAS
@@ -21,7 +21,7 @@
 #' str(AndradeTb2.36)
 #'
 #' library(lattice)
-#' xyplot(Prod ~ Rad,
+#' xyplot(prod ~ rad,
 #'        data = AndradeTb2.36,
 #'        type = c("p", "r"),
 #'        xlab = expression(Radiação ~ fotossintética ~ (W / m^2)),

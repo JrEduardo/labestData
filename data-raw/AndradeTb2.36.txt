@@ -1,4 +1,4 @@
-Prod	Rad
+prod	rad
 10	18
 60	55
 110	190

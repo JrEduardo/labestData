@@ -7,10 +7,10 @@
 #'
 #' \describe{
 #'
-#' \item{\code{Luz}}{Fator de 2 níveis qualitativos que são as condições
+#' \item{\code{luz}}{Fator de 2 níveis qualitativos que são as condições
 #'     de luminosidade.}
 #'
-#' \item{\code{Cresc}}{Crescimento do pseudobulbo em cm.}
+#' \item{\code{cresc}}{Crescimento do pseudobulbo em cm.}
 #'
 #' }
 #' @keywords AAS
@@ -23,7 +23,7 @@
 #' str(AndradeTb2.34)
 #'
 #' library(lattice)
-#' bwplot(Cresc ~ Luz,
+#' bwplot(cresc ~ luz,
 #'        data = AndradeTb2.34,
 #'        xlab = "Condição de Luminosidade",
 #'        ylab = "Crescimento (em cm)")
