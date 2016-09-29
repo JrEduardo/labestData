@@ -1,0 +1,13 @@
+idade	sexo	mort
+a	m	33
+b	m	4
+c	m	2
+d	m	0
+e	m	1
+g	m	7
+a	f	28
+b	f	7
+c	f	2
+d	f	1
+e	f	6
+g	f	8
