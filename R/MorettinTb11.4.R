@@ -1,3 +1,4 @@
+#' @name MorettinTb11.4
 #' @title Vazões Históricas do Rio Paranaíba
 #' @description Dados sobre as vazões históricas mensais do 
 #'     rio Paranaíba, na Estação Gamela (Companhia Furnas).
