@@ -1,0 +1,5 @@
+raca	fecun	freq
+A	F	12
+B	F	8
+A	Fc	2
+B	Fc	6
