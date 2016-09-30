@@ -1,0 +1,30 @@
+#' @name AndradeTb4.1
+#' @title Número de Casais com X Filhos Homens
+#' @description Foram observados 10.690 casais com 12 filhos cada, e
+#'     então contou-se o número de filhos do sexo masculino de cada
+#'     casal.
+#' @format Um \code{data.frame} com 13 observações e 2 variáveis, em que
+#'
+#' \describe{
+#'
+#' \item{\code{x}}{Número de filhos homens.}
+#'
+#' \item{\code{casais}}{Número de casais com x filhos homens.}
+#'
+#' }
+#' @keywords AAS
+#' @source Andrade, D. F., Ogliari, P. J. (2010). Estatística para as
+#'     ciências agrárias e biológicas com noções de experimentação (2nd
+#'     ed.). Florianópolis, SC. Editora da UFSC. (Tabela 4.1, pág. 235)
+#' @examples
+#'
+#' data(AndradeTb4.1)
+#' str(AndradeTb4.1)
+#'
+#' barplot(AndradeTb4.1$casais,
+#'         col = "darkturquoise",
+#'         names.arg = AndradeTb4.1$x,
+#'         xlab = "Número de Filhos Homens",
+#'         ylab = "Número de Casais")
+#'
+NULL
