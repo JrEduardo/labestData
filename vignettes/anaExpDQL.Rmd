@@ -15,7 +15,7 @@ source("config/_setup.R")
 
 Para exemplificação da análise de um experimento em delineamento
 quadrado latino (DQL), vamos considerar o conjunto de dados
-`PimentelEg5.2`.
+`StorckEg2.3.5`.
 
 ```{r}
 library(labestData)
@@ -30,7 +30,7 @@ help(StorckEg2.3.5, help_type = "html")
 Nesse experimento estudou-se o rendimento (resposta) de quatro
 cultivares de alho. O experimento foi instalado em delineamento quadrado
 latino para ser feito controle local em duas dimensões. A blocagem nas
-linhas foi em razão da heterogeniedade da fertilidade entre as curvas de
+linhas foi em razão da heterogeneidade da fertilidade entre as curvas de
 nível (cada curva igual a uma linha) e a blocagem nas colunas foi devido
 à heterogeneidade entre os tamanhos dos bulbos de alho, portanto, em
 cada coluna foi usado uma classe de tamanho de bulbos.
@@ -42,13 +42,10 @@ cada coluna foi usado uma classe de tamanho de bulbos.
 # url <- paste0("https://gitlab.c3sl.ufpr.br/pet-estatistica",
 #               "/labestData/raw/devel/data-raw/StorckEg2.3.5.txt")
 #
-# StorckEg2.3.5 <-
-#     read.table(file = url, sep = "\t", header = TRUE)
+# StorckEg2.3.5 <- read.table(file = url, sep = "\t", header = TRUE)
 
 #-----------------------------------------------------------------------
 # Análise exploratória.
-
-data(StorckEg2.3.5)
 
 # Estrutura do objeto.
 str(StorckEg2.3.5)
@@ -58,19 +55,6 @@ xtabs(~cult, data = StorckEg2.3.5)
 
 # Dados desempilhados.
 unstack(x = StorckEg2.3.5, form = rend ~ cult)
-
-library(lattice)
-
-# Diagrama de dispersão dos valores. Cores indetificam as colunas e
-# símbolos indentificam as filas.
-
-xyplot(rend ~ reorder(cult, rend),
-       data = StorckEg2.3.5,
-       pch = StorckEg2.3.5$fila,
-       col = StorckEg2.3.5$colun,
-       xlab = "Cultivares de alho",
-       ylab = expression("Rendimento" ~ (ton ~ ha^{-1})),
-       type = c("p", "a"))
 
 library(reshape)
 
@@ -89,23 +73,36 @@ levelplot(rend ~ fila + colun,
                          cex = 0.8)
               panel.text(x, y, z, pos = 1)
           })
+
+library(lattice)
+
+# Diagrama de dispersão dos valores. Cores identificam as colunas e
+# símbolos identificam as filas.
+xyplot(rend ~ reorder(cult, rend),
+       data = StorckEg2.3.5,
+       pch = StorckEg2.3.5$fila,
+       col = StorckEg2.3.5$colun,
+       xlab = "Cultivares de alho",
+       ylab = expression("Rendimento" ~ (ton ~ ha^{-1})),
+       type = c("p", "a"))
 ```
 
 Conforme a análise preliminar, esse quadrado latino é de dimensão
 `r nlevels(StorckEg2.3.5$cult)`.
 
 No gráfico de dispersão, ordenamos as cultivares pela média amostral e
-as observações de uma mesma fila e coluna foram indentificas com
+as observações de uma mesma fila e coluna foram identificadas com
 símbolos e cores, respectivamente. Pelo diagrama de dispersão, os pontos
 em preto tem a tendência de seres os mais altos enquanto que os
-vermelhos são os mais baixos. Para os símbolos, a cruz diagonal
-($\times$) está mais em cima e a cruz vertical ($+$) mais embaixo.
+vermelhos são os mais baixos. Já para os símbolos, a cruz diagonal
+($\times$) apresenta rendimentos mais elevados e a cruz vertical ($+$)
+rendimentos menores.
 
-A variável resposta rendimento nesse experimento está representada em
+A variável resposta rendimento, nesse experimento, está representada em
 toneladas por hectare. Apesar de ser uma variável contínua, todos os
 valores observados são inteiros. Dificilmente o instrumento de medida
 usado no experimento tenha uma precisão tão pequena. Provavelmente os
-resultados tenham maior precisão mas foram arredodados para inteiros
+resultados tenham maior precisão mas foram arredondados para inteiros
 para facilitar a execução da análise sem computador.
 
 ## Especificação e ajuste do modelo
@@ -114,9 +111,9 @@ O modelo estatístico correspondente ao delineamento quadrado latino é
 
 $$
 \begin{aligned}
-  Y|\text{fila, colun, cult}
+  Y \mid \text{fila, colun, cult}
     &\,\sim \text{Normal}(\mu_{ijk}, \sigma^2) \newline
-  \mu_{ij} &= \mu + \alpha_{i} + \gamma_{j} + \tau_{k},
+  \mu_{ijk} &= \mu + \alpha_{i} + \gamma_{j} + \tau_{k},
 \end{aligned}
 $$
 
@@ -124,24 +121,25 @@ em que $Y$ é a variável resposta, $\alpha_{i}$ é o efeito da fila $i$,
 $\gamma_j$ é o efeito da coluna $j$, $\tau_k$ é o efeito da cultivar
 $k$, $\mu$ é a média de $Y$ na ausência do efeito de todos os termos
 indexados e $\sigma^2$ é a variância das observações ao redor das suas
-respectivas médias. Note que a média ($\mu$) tem três índices referentes
-à fila, coluna e cultivar.
+respectivas médias. Note que o parâmetro de média ($\mu$) da
+distribuição Normal assumida aos dados, tem três índices referentes à
+fila, coluna e cultivar.
 
 Antes de declararmos o modelo, é importante notar que as variáveis
 `fila` e `colun` precisam ser convertidas para fator (variável
 qualitativa) para fazer a análise. Da forma como estão, serão
 interpretadas como fatores quantitativos para os quais será estimado um
-coeficiente de taxa, o que não faz sentido.
+coeficiente de taxa, o que é inadequado.
 
 ```{r}
-#-----------------------------------------------------------------------
-# Ajuste do modelo.
-
+## Transforma os dados.
 StorckEg2.3.5 <- transform(StorckEg2.3.5,
                            fila = factor(fila),
                            colun = factor(colun))
 str(StorckEg2.3.5)
 
+#-----------------------------------------------------------------------
+# Ajuste do modelo.
 m0 <- lm(rend ~ fila + colun + cult, data = StorckEg2.3.5)
 
 # Estimativas dos efeitos. Restrição de zerar primeiro nível.
@@ -159,20 +157,20 @@ aggregate(rend ~ cult, data = StorckEg2.3.5, FUN = mean)
 No modelo estatístico para DQL, tem-se três termos com efeito na média:
 filas, colunas e cultivares, que são os parâmetros indexados no
 modelo. Como os fatores são categóricos, $k-1$ parâmetros são estimados
-para acomodar o efeito de cada um ($k$ é o número de níveis). O R por
+para acomodar o efeito de cada um ($k$ representa o número de níveis). O R por
 padrão usa a restrição de zerar o efeito do primeiro nível de cada fator
-e cada coeficiente corresponde, então, corresponde à diferença entre o
-nível de referência com cada um dos demais.
+e, assim, cada coeficiente corresponde à diferença entre o
+nível de referência e cada um dos demais.
 
 O prefixo no nome dos coeficientes vem dos correspondentes termos do
-modelo. O elemento `assign` mostra que foi atribuido o mesmo número
-inteiro para os coeficientes do mesmo termo.
+modelo. O elemento `assign` mostra que foi atribuído o mesmo número
+inteiro para os coeficientes do mesmo termo (0 para o termo $\mu$, 1
+para os $\alpha_i$, 2 para os $\gamma_j$ e 3 para os $\tau_k$).
 
 ```{r}
 # Médias ajustadas de mínimos quadrados (least squares means).
 # L <- doBy::LSmatrix(m0, effect = "cult")
 # dput(L)
-
 dput(t(matrix(c(1, 1, 1, 1, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25,
               0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25,
               0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0, 1, 0,
@@ -196,13 +194,13 @@ O interesse nesse experimento é estudar o efeito das cultivares de
 alho. No entanto, no modelo tem-se também o efeito de filas e colunas,
 que foram incluídos para controle local. Uma maneira de representar o
 efeito das cultivares é calcular as médias ajustadas, ao invés de
-reportar os coeficientes estimados. Deve considerar que para cada termo
-que não seja de interesse, seus efeitos terão que contribuir com peso
-igual ao inverso do número de níveis. Sendo assim, com 4 filas e 4
-colunas os pesos são 1/4, ou seja, cada nível contribui com 1/4 do seu
-efeito estimado. Perceba que isso é exatamente uma média de
-efeitos. Apesar da simplicidade, esse tipo de média ficou conhecida por
-*lsmeans* (Least Squares Means).
+reportar os coeficientes estimados. Para cálculo das médias,
+considera-se para cada termo que não seja de interesse, que seus efeitos
+contribuam com peso igual ao inverso do número de níveis. Sendo assim,
+com 4 filas e 4 colunas os pesos são 1/4, ou seja, cada nível contribui
+com 1/4 do seu efeito estimado. Perceba que isso é exatamente uma média
+de efeitos. Apesar da simplicidade, esse tipo de média ficou conhecida
+por *lsmeans* (Least Squares Means).
 
 ## Avaliação dos pressupostos
 
@@ -244,7 +242,7 @@ anova(m0)
 Pelo quadro, existe efeito das cultivares ($p<0.05$), ou seja, elas não
 apresentam a mesma produção média. Os códigos abaixo retornam os valores
 preditos para as cultivares sob efeito do primeiro nível de fila e de
-coluna. Ou seja, esses são os valores esperados de rendimento para as
+coluna, ou seja, esses são os valores esperados de rendimento para as
 cultivares nessas condições. Se outras filas ou colunas forem
 consideradas, os valores médios serão diferentes devido à mudança no
 valor desses efeitos. No entanto, é importante enfatizar que as
@@ -274,24 +272,29 @@ média dos efeitos.
 ```{r}
 suppressMessages(library(multcomp, quietly = TRUE))
 
-# Vetor de pesos para o valor esperado da cultivar 1 nos níveis 1 e 1 de
-# fila e coluna e na média dos efeitos.
-# média dos blocos.
+# Vetor de pesos para o valor esperado da cultivar A considerando os
+# níveis 1 e 1 de fila e coluna.
 l1 <- matrix(c(1, 0,    0,    0,    0,    0,    0,    0, 0, 0),
              nrow = 1)
+(s1 <- summary(glht(m0, linfct = l1)))
+
+# Vetor de pesos para o valor esperado da cultivar A considerando a
+# média dos efeitos de fila e coluna (média dos blocos).
 l0 <- matrix(c(1, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0, 0, 0),
              nrow = 1)
+(s0 <- summary(glht(m0, linfct = l0)))
 
 # Os erros padrões também são diferentes, assim como as médias.
-summary(glht(m0, linfct = l1))
-summary(glht(m0, linfct = l0))
+sapply(list("l1" = s1, "l0"  = s0), function(x) {
+    with(x$test, c("Estimate" = coefficients, "Std.Error" = sigma))
+})
 
 # Erros-padrões obtidos matricialmente.
 # sqrt(l1 %*% vcov(m0) %*% t(l1))
 # sqrt(l0 %*% vcov(m0) %*% t(l0))
 ```
 
-O código acima mostra que ao considerar a médias dos efeitos o
+O código acima mostra que ao considerar a médias dos efeitos, o
 erro-padrão foi menor. Isso porque usando a média, os efeitos se anulam
 e por isso a contribuição para o erro-padrão da estimativa é 0.
 
@@ -324,13 +327,13 @@ segplot(cult ~ lwr + upr, centers = fit, data = pred,
         })
 ```
 
-Por fim, uma representação intessante é colocar as médias ajustadas das
-variades com alguma presentação de incerteza, como o intervalo de
+Por fim, uma representação interessante é colocar as médias ajustadas das
+cultivares com alguma presentação de incerteza, como o intervalo de
 confiança. No caso, foi usando o intervalo de confiança com cobertura
 global de 95%. Os intervalos de cobertura individual são aqueles cuja
 probabilidade de conter o parâmetro é, digamos, 5% para cada coeficiente
 separadamente.  Já o de confiança global, a probabilidade 5% é a de
-todos os intervalores conterem os parâmetros simultaneamente. Esses
+todos os intervalos conterem os parâmetros simultaneamente. Esses
 intervalos são mais amplos que os de cobertura individual.
 
 ## Gerando experimento em DQL
@@ -355,6 +358,7 @@ qldesign <- function(dim) {
 }
 
 # Quadrado latino de dimensão 5.
+set.seed(2016)
 qldesign(dim = 5)
 ```
 
