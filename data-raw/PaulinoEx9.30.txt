@@ -1,0 +1,25 @@
+educ	sep	natur	missao	freq
+grade school	nao contra	sul	sim	2051
+grade school	nao contra	sul	nao	20738
+grade school	nao contra	norte	sim	518
+grade school	nao contra	norte	nao	3182
+grade school	contra	sul	sim	1050
+grade school	contra	sul	nao	7027
+grade school	contra	norte	sim	600
+grade school	contra	norte	nao	2558
+al. high school	nao contra	sul	sim	382
+al. high school	nao contra	sul	nao	2165
+al. high school	nao contra	norte	sim	320
+al. high school	nao contra	norte	nao	960
+al. high school	contra	sul	sim	349
+al. high school	contra	sul	nao	1832
+al. high school	contra	norte	sim	489
+al. high school	contra	norte	nao	1141
+high school com.	nao contra	sul	sim	351
+high school com.	nao contra	sul	nao	1714
+high school com.	nao contra	norte	sim	245
+high school com.	nao contra	norte	nao	630
+high school com.	contra	sul	sim	478
+high school com.	contra	sul	nao	1798
+high school com.	contra	norte	sim	609
+high school com.	contra	norte	nao	1256
