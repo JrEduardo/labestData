@@ -1,5 +1,5 @@
 #' @name PaulinoEx9.29
-#' @title ????
+#' @title Avaliação de Políciais Militares
 #' @description Em um estudo sobre a avaliação de políciais militares
 #'     brancos por soldados americanos negros na Segunda Guerra Mundial,
 #'     a resposta de cada soldado foi categorizada nos níveis 1 (quase
