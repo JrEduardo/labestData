@@ -1,0 +1,41 @@
+trat	altura
+controle	25
+controle	29
+controle	29
+controle	30
+controle	31
+controle	31
+controle	32
+controle	32
+controle	33
+controle	33
+controle	35
+controle	36
+controle	36
+controle	37
+controle	37
+controle	38
+controle	38
+controle	40
+controle	41
+controle	43
+com rizóbio	34
+com rizóbio	36
+com rizóbio	39
+com rizóbio	39
+com rizóbio	40
+com rizóbio	41
+com rizóbio	41
+com rizóbio	41
+com rizóbio	42
+com rizóbio	44
+com rizóbio	44
+com rizóbio	45
+com rizóbio	45
+com rizóbio	46
+com rizóbio	46
+com rizóbio	47
+com rizóbio	47
+com rizóbio	49
+com rizóbio	49
+com rizóbio	51

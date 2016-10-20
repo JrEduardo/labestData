@@ -1,0 +1,7 @@
+saude	vacina	freq
+gripados	1	24
+não gripados	1	289
+gripados	2	9
+não gripados	2	100
+gripados	0	13
+não gripados	0	565

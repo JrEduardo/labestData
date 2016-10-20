@@ -1,0 +1,7 @@
+local	peso	freq
+Mangue	21-33	21
+Sambaqui	34-46	1
+Mangue	7-20	12
+Sambaqui	21-33	14
+Mangue	34-46	2
+Sambaqui	7-20	20
