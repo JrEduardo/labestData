@@ -1,0 +1,71 @@
+ambiente	cresc
+borda da mata	0.2145
+borda da mata	0.254
+borda da mata	0.2592
+borda da mata	0.2891
+borda da mata	0.2971
+borda da mata	0.3013
+borda da mata	0.3279
+borda da mata	0.3458
+borda da mata	0.3482
+borda da mata	0.3487
+borda da mata	0.349
+borda da mata	0.3547
+borda da mata	0.3574
+borda da mata	0.3648
+borda da mata	0.3796
+borda da mata	0.3815
+borda da mata	0.3874
+borda da mata	0.3924
+borda da mata	0.3931
+borda da mata	0.3971
+borda da mata	0.4015
+borda da mata	0.4125
+borda da mata	0.4142
+borda da mata	0.4182
+borda da mata	0.4326
+borda da mata	0.4358
+borda da mata	0.4573
+borda da mata	0.4582
+borda da mata	0.4657
+borda da mata	0.467
+borda da mata	0.4823
+borda da mata	0.4862
+borda da mata	0.4921
+borda da mata	0.501
+borda da mata	0.5231
+mata fechada	0.5521
+mata fechada	0.5841
+mata fechada	0.6284
+mata fechada	0.6357
+mata fechada	0.6489
+mata fechada	0.657
+mata fechada	0.6704
+mata fechada	0.678
+mata fechada	0.6842
+mata fechada	0.6898
+mata fechada	0.6945
+mata fechada	0.695
+mata fechada	0.697
+mata fechada	0.7125
+mata fechada	0.7126
+mata fechada	0.7154
+mata fechada	0.7179
+mata fechada	0.7256
+mata fechada	0.7321
+mata fechada	0.7783
+mata fechada	0.7884
+mata fechada	0.7894
+mata fechada	0.7912
+mata fechada	0.8023
+mata fechada	0.8046
+mata fechada	0.8451
+mata fechada	0.8467
+mata fechada	0.8468
+mata fechada	0.8564
+mata fechada	0.865
+mata fechada	0.8665
+mata fechada	0.9214
+mata fechada	0.9421
+mata fechada	0.9573
+mata fechada	0.9689
