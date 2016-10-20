@@ -1,5 +1,6 @@
 #' @name AndradeTb2.29
 #' @title Biometria Total do Camarão \emph{Macrobrachium Potiuna}
+#'     (MÜLLER, 1880)
 #' @description Biometria total, em milímetros, do Camarão de água doce
 #'     \emph{Macrobrachium potiuna} (MÜLLER, 1880), da família
 #'     \emph{Palaemonidae}.
@@ -9,8 +10,6 @@
 #'     ciências agrárias e biológicas com noções de experimentação (2nd
 #'     ed.). Florianópolis, SC. Editora da UFSC. (Tabela 2.29, pág. 110)
 #'
-#' @references COLOQUE A REFERENCIA DO MULLER (ATENTE-SE AO ESTILO DE
-#'     REFERÊNCIA)
 #' @examples
 #'
 #' data(AndradeTb2.29)

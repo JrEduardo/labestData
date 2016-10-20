@@ -2,7 +2,8 @@
 % Please edit documentation in R/AndradeTb2.29.R
 \name{AndradeTb2.29}
 \alias{AndradeTb2.29}
-\title{Biometria Total do Camarão \emph{Macrobrachium Potiuna}}
+\title{Biometria Total do Camarão \emph{Macrobrachium Potiuna}
+    (MÜLLER, 1880)}
 \format{Um \code{vetor} numérico com 36 observações.}
 \source{
 Andrade, D. F., Ogliari, P. J. (2010). Estatística para as
@@ -30,10 +31,6 @@ hist(AndradeTb2.29,
 
 lines(density(AndradeTb2.29), lwd = 2)
 
-}
-\references{
-COLOQUE A REFERENCIA DO MULLER (ATENTE-SE AO ESTILO DE
-    REFERÊNCIA)
 }
 \keyword{AAS}
 
