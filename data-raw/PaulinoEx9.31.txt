@@ -1,0 +1,25 @@
+parc	herpes	clamid	grupo	freq
+1-3	1	1	casos	56
+1-3	1	1	controles	42
+1-3	1	2	casos	14
+1-3	1	2	controles	28
+1-3	2	1	casos	54
+1-3	2	1	controles	78
+1-3	2	2	casos	34
+1-3	2	2	controles	83
+4-10	1	1	casos	47
+4-10	1	1	controles	57
+4-10	1	2	casos	8
+4-10	1	2	controles	29
+4-10	2	1	casos	46
+4-10	2	1	controles	74
+4-10	2	2	casos	18
+4-10	2	2	controles	48
+> 10	1	1	casos	43
+> 10	1	1	controles	80
+> 10	1	2	casos	4
+> 10	1	2	controles	16
+> 10	2	1	casos	44
+> 10	2	1	controles	56
+> 10	2	2	casos	12
+> 10	2	2	controles	23
