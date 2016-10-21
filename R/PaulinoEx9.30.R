@@ -4,7 +4,7 @@
 #'     brancos por soldados americanos negros na Segunda Guerra Mundial,
 #'     os soldados do exército foram classificados segundo o nível
 #'     educacional, a atitude face à separação racial, a região de
-#'     naturalidade e a preferência oir missões de combate.
+#'     naturalidade e a preferência por missões de combate.
 #' @format Um \code{data.frame} com 24 observações e 5 variáveis, em que
 #'
 #' \describe{
@@ -22,7 +22,7 @@
 #' \item{\code{freq}}{Frequências observadas.}
 #'
 #' }
-#' @keywords TC dicotomica
+#' @keywords TC dicotômica
 #' @source PAULINO; SINGER (2006), Exercício 9.30, pág. 344.
 #' @examples
 #' 

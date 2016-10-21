@@ -2,8 +2,8 @@
 #' @title Efeito de Dois Agentes Sexualmente Transmissíveis em Dois
 #'     Grupos de Mulheres
 #' @description Estudo envolvendo um grupo de mulheres com displasia
-#'     historicamente confirmada (os casos) e um outro grupo de mulheres
-#'     com ausência da mesma (os controles). Cada uma destas mulheres
+#'     historicamente confirmada (casos) e outro grupo de mulheres
+#'     com ausência da mesma (controles). Cada uma das mulheres
 #'     foi então analisada em termos da exposição a cada um dos agentes
 #'     sexualmente transmissíveis (o vírus tipo 2 da herpes simples e a
 #'     \emph{Clamídia trachomatis}, na etiologia da displasia cervical),
@@ -15,7 +15,7 @@
 #' \describe{
 #'
 #' \item{\code{parc}}{Fator sócio-comportamental definido pelo número
-#'     total de parceiros sexuais categorizado em 3 níveis (1-3, 4-10 e
+#'     total de parceiros sexuais, categorizado em 3 níveis (1-3, 4-10 e
 #'     > 10).}
 #'
 #' \item{\code{herpes}}{Vírus do tipo 2 do herpes simples (1 para maior
@@ -24,7 +24,7 @@
 #' \item{\code{calmid}}{Vírus do tipo \emph{Clamídia trachomatis} (1
 #'     para maior prevalência e 2 para menor).}
 #' 
-#' \item{\code{grupo}}{Grupo em que foi dividido as mulheres (casos ou
+#' \item{\code{grupo}}{Classificação das mulheres (casos ou
 #'     controles).}
 #' 
 #' \item{\code{freq}}{Frequências observadas.}
