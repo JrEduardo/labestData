@@ -7,10 +7,9 @@
 
 \describe{
 
-\item{\code{bloco}}{Fator de 4 níveis qualitativos, usado para
-    controle local.}
+\item{\code{bloco}}{Fator com 4 níveis.}
 
-\item{\code{variedade}}{Fator de 8 níveis qualitativos que são as
+\item{\code{variedade}}{Fator de 8 correspondente às
     variedades de batatinha.}
 
 \item{producao}{Produção de batatinha, em ton ha\eqn{^{-1}}.}
@@ -20,7 +19,7 @@
 PIMENTEL-GOMES (2009), Exemplo 5.2, pág. ??.
 }
 \description{
-Experimento de competição de variedades de batatinha
+Dados de um experimento de competição de variedades de batatinha
     feito pelo Engenheiro Agrônomo Oscar A. Garay em Balcare,
     Argentina. O experimento foi realizado em blocos casualizados.
 }
@@ -36,7 +35,7 @@ xtabs(~variedade + bloco, data = PimentelEg5.2)
 xyplot(producao ~ variedade,
        groups = bloco,
        data = PimentelEg5.2,
-       type = "o",
+       type = "p",
        ylab = expression(Produção ~ (t ~ ha^{-1})),
        xlab = "Variedades de batatinha")
 

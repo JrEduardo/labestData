@@ -7,7 +7,7 @@
 
 \describe{
 
-\item{\code{grupo}}{grupo em que pertnce o animal (petróleo ou
+\item{\code{grupo}}{grupo ao qual pertnce o animal (petróleo ou
     controle).}
 
 \item{\code{salin}}{Salinidade de aclimatação (0.8\%, 1.4\%, 2.4\%,
@@ -22,11 +22,11 @@
 PAULINO; SINGER (2006), Tabela 11.10, pág. 400.
 }
 \description{
-Estudo cuja finalidade é avaliar o efeito da
+Dados de um estudo cuja finalidade foi avaliar o efeito da
     contaminação de um estuário por derramamento de petróleo na fauna
     local. Cada animal foi submetido a um tratamento obtido da
-    classificação cruzada dos níveis contaminação por petróleo (sim
-    ou controle) e salinidade de aclimatação. Os animais foram
+    combinação dos níveis contaminação por petróleo (sim
+    ou controle) e percentual de salinidade de aclimatação. Os animais foram
     observados por 72 horas e o número de sobreviventes foi
     registrado a cada 12 horas.
 }

@@ -28,7 +28,7 @@ Em um estudo sobre a avaliação de políciais militares
     brancos por soldados americanos negros na Segunda Guerra Mundial,
     os soldados do exército foram classificados segundo o nível
     educacional, a atitude face à separação racial, a região de
-    naturalidade e a preferência oir missões de combate.
+    naturalidade e a preferência por missões de combate.
 }
 \examples{
 
@@ -56,5 +56,5 @@ useOuterStrips(
 
 }
 \keyword{TC}
-\keyword{dicotomica}
+\keyword{dicotômica}
 
