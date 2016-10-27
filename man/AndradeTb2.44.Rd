@@ -7,8 +7,8 @@
 
 \describe{
 
-\item{\code{varied}}{Fator de 2 níveis qualitativos, que são as
-    variedades de cana-de-açúcar.}
+\item{\code{varied}}{Fator de 2 níveis que representa as variedades
+    de cana-de-açúcar consideradas.}
 
 \item{\code{prod}}{Produção de cana-de-açúcar, em toneladas por
     hectare.}
@@ -20,19 +20,32 @@ Andrade, D. F., Ogliari, P. J. (2010). Estatística para as
     ed.). Florianópolis, SC. Editora da UFSC. (Tabela 2.44, pág. 147)
 }
 \description{
-Estudo no qual foi analisado o comportamento de
-    duas variedades de cana-de-açúcar.
+Estudo no qual avaliou-se a produção de cana-de-açúcar
+    considerando duas variedades distintas a fim de comparação.
 }
 \examples{
 
 data(AndradeTb2.44)
 str(AndradeTb2.44)
 
+# Box-plots
 boxplot(prod ~ varied,
         data = AndradeTb2.44,
         xlab = "Variedade",
         ylab = expression(Produção~(em~t~ha^-1)))
 
+# Gráficos de densidades
+dens <- with(AndradeTb2.44, tapply(prod, varied, density))
+plot(x = 0, y = 0, type = "n",
+     xlim = range(sapply(dens, function(d) range(d$x))),
+     ylim = range(sapply(dens, function(d) range(d$y))),
+     xlab = expression(Produção~(em~t~ha^-1)),
+     ylab = "Densidade estimada")
+lapply(1:length(dens), function(i) lines(dens[[i]], col = i))
+legend("topleft", title = "Variedade",
+       legend = unique(AndradeTb2.44$varied),
+       lwd = 1, col = 1:2, bty = "n")
+
 }
-\keyword{AAS}
+\keyword{AASI}
 

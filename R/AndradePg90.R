@@ -6,8 +6,8 @@
 #'
 #' \describe{
 #'
-#' \item{\code{raca}}{Fator de 2 níveis qualitativos que são as raças
-#'     dos bezerros (Charoleza e Gir).}
+#' \item{\code{raca}}{Fator de 2 níveis que são as raças dos bezerros
+#'     (Charoleza e Gir).}
 #'
 #' \item{\code{peso}}{Peso do bezerro macho recém nascido, em kg.}
 #'

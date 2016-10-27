@@ -7,7 +7,7 @@
 
 \describe{
 
-\item{\code{rad}}{Fração da raciação solar extinta pela planta, em
+\item{\code{rad}}{Fração da radiação solar extinta pela planta, em
     porcentagem.}
 
 \item{\code{esp}}{Espaçamento das linhas na cultura da soja, em
@@ -20,10 +20,10 @@ Andrade, D. F., Ogliari, P. J. (2010). Estatística para as
     ed.). Florianópolis, SC. Editora da UFSC. (Tabela 2.37, pág. 141)
 }
 \description{
-Deseja-se saber se existe correlação entre o espaçamento
-    das linhas na cultura da soja e a fração da radiação solar
-    extinta pela planta. Para atender a esse objetivo foram coletados
-    pares de valores das duas variáveis.
+Estudo que objetiva avaliar se há relação entre o
+    espaçamento das linhas na cultura da soja e a fração da radiação
+    solar extinta pela planta. Para atender tal objetivo foram
+    coletados pares de valores das duas variáveis.
 }
 \examples{
 
@@ -38,5 +38,5 @@ xyplot(rad ~ esp,
        ylab = "Radiação (\%)")
 
 }
-\keyword{AAS}
+\keyword{RS}
 

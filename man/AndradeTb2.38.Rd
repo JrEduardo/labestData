@@ -8,9 +8,9 @@
 
 \describe{
 
-\item{\code{temp}}{Temperatura da lagoa, em ºC.}
+\item{\code{temp}}{Temperatura da lagoa, em graus Celsius (ºC).}
 
-\item{\code{salin}}{Salinidade da lagoa, em g/l.}
+\item{\code{salin}}{Salinidade da lagoa, em gramas por litro (g/l).}
 
 }}
 \source{
@@ -28,6 +28,8 @@ Estudo com o objetivo de verificar se existe correlação
 data(AndradeTb2.38)
 str(AndradeTb2.38)
 
+cor.test(~temp + salin, data = AndradeTb2.38)
+
 library(lattice)
 xyplot(temp ~ salin,
        data = AndradeTb2.38,
@@ -36,5 +38,5 @@ xyplot(temp ~ salin,
        ylab = "Temperatura (ºC)")
 
 }
-\keyword{AAS}
+\keyword{RS}
 

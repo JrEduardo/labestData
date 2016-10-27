@@ -7,9 +7,9 @@
 
 \describe{
 
-\item{\code{prod}}{Produção de matéria seca em \eqn{g.m^{-2}}.}
+\item{\code{prod}}{Produção de matéria seca em \eqn{g\,m^{-2}}.}
 
-\item{\code{rad}}{Radiação fotossintética em \eqn{W.m^{-2}}.}
+\item{\code{rad}}{Radiação fotossintética em \eqn{W\,m^{-2}}.}
 
 }}
 \source{
@@ -18,7 +18,8 @@ Andrade, D. F., Ogliari, P. J. (2010). Estatística para as
     ed.). Florianópolis, SC. Editora da UFSC. (Tabela 2.36, pág. 140)
 }
 \description{
-Dados de produção de matéria seca de uma cultura e
+Dados de produção de matéria seca de uma cultura [QUAL
+    CULTURA? SE NÃO HOUVER INDIQUE "DE UMA CULTURA NÃO INFORMADA"] e
     quantidade de radiação fotossintética ativa.
 }
 \examples{
@@ -30,9 +31,9 @@ library(lattice)
 xyplot(prod ~ rad,
        data = AndradeTb2.36,
        type = c("p", "r"),
-       xlab = expression(Radiação ~ fotossintética ~ (W / m^2)),
-       ylab = expression(Produção ~ (g / m^2)))
+       xlab = expression(Radiação ~ fotossintética ~ (W/m^2)),
+       ylab = expression(Produção ~ (g/m^2)))
 
 }
-\keyword{AAS}
+\keyword{RS}
 

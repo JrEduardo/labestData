@@ -2,13 +2,13 @@
 % Please edit documentation in R/AndradeTb2.32.R
 \name{AndradeTb2.32}
 \alias{AndradeTb2.32}
-\title{Pesos de Bezerros Recém-Nascidos}
+\title{Pesos de Bezerros Recém-Nascidos (Crioula e Nelore)}
 \format{Um \code{data.frame} com 20 observações e 2 variáveis, em que
 
 \describe{
 
-\item{\code{raca}}{Fator de 2 níveis qualitativos que são as raças
-    dos bezerros recém-nascidos.}
+\item{\code{raca}}{Fator de 2 níveis que são as raças dos bezerros
+    recém-nascidos.}
 
 \item{\code{peso}}{Peso, em kg, do bezerro recém-nascido.}
 
@@ -19,20 +19,37 @@ Andrade, D. F., Ogliari, P. J. (2010). Estatística para as
     ed.). Florianópolis, SC. Editora da UFSC. (Tabela 2.32, pág. 113)
 }
 \description{
-Pesos, em kg, ao nascer de 10 bezerros da raça de gado
-    Crioula, e 10 da raça Nelore.
+Pesos, em quilogramas, ao nascer de bezerros da raça de
+    gado Crioula e Nelore.
 }
 \examples{
 
 data(AndradeTb2.32)
 str(AndradeTb2.32)
 
+with(AndradeTb2.32, by(peso, raca, summary))
+
 library(lattice)
+densityplot(~peso, groups = raca,
+            data = AndradePg90,
+            auto.key = list(
+                corner = c(0.1, 0.9),
+                title = "Raça do bezerro",
+                cex.title = 1
+            ))
+
+# Agrupando dados de AndradePg90, um estudo similar.
+# help(AndradePg90)
+
+da <- rbind(AndradeTb2.32, AndradePg90)
 bwplot(peso ~ raca,
-       data = AndradeTb2.32,
+       data = da,
        xlab = "Raça do Bezerro",
        ylab = "Peso (em kg)")
 
 }
-\keyword{AAS}
+\seealso{
+\code{\link{AndradePg90}}
+}
+\keyword{AASI}
 

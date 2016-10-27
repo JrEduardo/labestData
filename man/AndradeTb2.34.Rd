@@ -2,15 +2,16 @@
 % Please edit documentation in R/AndradeTb2.34.R
 \name{AndradeTb2.34}
 \alias{AndradeTb2.34}
-\title{Crescimento do Pseudobulbo de \emph{Laelia Purpurata}}
+\title{Crescimento do Pseudobulbo de Orquídeas (\emph{Laelia
+    Purpurata})}
 \format{Um \code{data.frame} com 50 observações e 2 variáveis, em que
 
 \describe{
 
-\item{\code{luz}}{Fator de 2 níveis qualitativos que são as condições
-    de luminosidade.}
+\item{\code{luz}}{Fator de 2 níveis que representa as condições de
+    luminosidade.}
 
-\item{\code{cresc}}{Crescimento do pseudobulbo em cm.}
+\item{\code{cresc}}{Crescimento do pseudobulbo em centímetros.}
 
 }}
 \source{
@@ -19,9 +20,9 @@ Andrade, D. F., Ogliari, P. J. (2010). Estatística para as
     ed.). Florianópolis, SC. Editora da UFSC. (Tabela 2.34, pág. 133)
 }
 \description{
-Dados de crescimento, em cm, do pseudobulbo da espécie
-    de orquídea \emph{Laelia purpurata}, sob duas condições de
-    luminosidade, cada uma com 25 observações.
+Dados de crescimento, em centímetros, do pseudobulbo de
+    orquídeas da espécie \emph{Laelia purpurata}, sob duas condições
+    de luminosidade.
 }
 \examples{
 
@@ -33,7 +34,15 @@ bwplot(cresc ~ luz,
        data = AndradeTb2.34,
        xlab = "Condição de Luminosidade",
        ylab = "Crescimento (em cm)")
-       
+
+densityplot(~cresc, groups = luz,
+            data = AndradeTb2.34,
+            auto.key = list(
+                corner = c(0.95, 1),
+                title = "Condições de\\nluminosidade",
+                cex.title = 1
+            ))
+
 }
-\keyword{AAS}
+\keyword{AASI}
 

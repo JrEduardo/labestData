@@ -2,12 +2,12 @@
 % Please edit documentation in R/AndradeTb2.42.R
 \name{AndradeTb2.42}
 \alias{AndradeTb2.42}
-\title{Peso de Carne de Mexilhões}
+\title{Peso de Carne de Mexilhões em Áreas de Sambaqui e Manguezal}
 \format{Um \code{data.frame} com 30 observações e 2 variáveis, em que
 
 \describe{
 
-\item{\code{local}}{Fator de 2 níveis qualitativos, que são os locais
+\item{\code{local}}{Fator de 2 níveis que representa os locais
     habituais dos mexilhões.}
 
 \item{\code{peso}}{Peso de carne de mexilhões, em gramas.}
@@ -19,19 +19,32 @@ Andrade, D. F., Ogliari, P. J. (2010). Estatística para as
     ed.). Florianópolis, SC. Editora da UFSC. (Tabela 2.42, pág. 146)
 }
 \description{
-Resultados da variável peso de carne, em gramas, de
-    mexilhões de dois locais: 1) Sambaqui e 2) Manguezal.
+Resultados do peso de carne, em gramas, de mexilhões
+    provenientes de área de sambaqui e manguezal.
 }
 \examples{
 
 data(AndradeTb2.42)
 str(AndradeTb2.42)
 
+# Box-plots
 boxplot(peso ~ local,
         data = AndradeTb2.42,
         xlab = "Local",
         ylab = "Peso de Carne (em gramas)")
 
+# Gráficos de densidades
+dens <- with(AndradeTb2.42, tapply(peso, local, density))
+plot(x = 0, y = 0, type = "n",
+     xlim = range(sapply(dens, function(d) range(d$x))),
+     ylim = range(sapply(dens, function(d) range(d$y))),
+     xlab = "Peso em carne (em gramas)",
+     ylab = "Densidade estimada")
+lapply(1:length(dens), function(i) lines(dens[[i]], col = i))
+legend("topright", title = "Habitat dos mexilhões",
+       legend = unique(AndradeTb2.42$local),
+       lwd = 1, col = 1:2, bty = "n")
+
 }
-\keyword{AAS}
+\keyword{AASI}
 

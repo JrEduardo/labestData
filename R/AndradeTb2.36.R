@@ -1,17 +1,18 @@
 #' @name AndradeTb2.36
 #' @title Produção de Matéria Seca e Radiação de uma Cultura
-#' @description Dados de produção de matéria seca de uma cultura e
+#' @description Dados de produção de matéria seca de uma cultura [QUAL
+#'     CULTURA? SE NÃO HOUVER INDIQUE "DE UMA CULTURA NÃO INFORMADA"] e
 #'     quantidade de radiação fotossintética ativa.
 #' @format Um \code{data.frame} com 10 observações e 2 variáveis, em que
 #'
 #' \describe{
 #'
-#' \item{\code{prod}}{Produção de matéria seca em \eqn{g.m^{-2}}.}
+#' \item{\code{prod}}{Produção de matéria seca em \eqn{g\,m^{-2}}.}
 #'
-#' \item{\code{rad}}{Radiação fotossintética em \eqn{W.m^{-2}}.}
+#' \item{\code{rad}}{Radiação fotossintética em \eqn{W\,m^{-2}}.}
 #'
 #' }
-#' @keywords AAS
+#' @keywords RS
 #' @source Andrade, D. F., Ogliari, P. J. (2010). Estatística para as
 #'     ciências agrárias e biológicas com noções de experimentação (2nd
 #'     ed.). Florianópolis, SC. Editora da UFSC. (Tabela 2.36, pág. 140)
@@ -24,7 +25,7 @@
 #' xyplot(prod ~ rad,
 #'        data = AndradeTb2.36,
 #'        type = c("p", "r"),
-#'        xlab = expression(Radiação ~ fotossintética ~ (W / m^2)),
-#'        ylab = expression(Produção ~ (g / m^2)))
+#'        xlab = expression(Radiação ~ fotossintética ~ (W/m^2)),
+#'        ylab = expression(Produção ~ (g/m^2)))
 #'
 NULL

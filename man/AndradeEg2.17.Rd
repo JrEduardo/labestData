@@ -2,12 +2,12 @@
 % Please edit documentation in R/AndradeEg2.17.R
 \name{AndradeEg2.17}
 \alias{AndradeEg2.17}
-\title{Comprimento e Peso de \emph{Penaeus Paulensis}}
+\title{Comprimento e Peso de Camarões-Rosa (\emph{Penaeus Paulensis})}
 \format{Um \code{data.frame} com 18 observações e 2 variáveis, em que
 
 \describe{
 
-\item{\code{xc}}{Comprimento do Corpo em mm.}
+\item{\code{xc}}{Comprimento do corpo em milímetros.}
 
 \item{\code{xp}}{Peso em gramas.}
 
@@ -19,11 +19,10 @@ Andrade, D. F., Ogliari, P. J. (2010). Estatística para as
     128)
 }
 \description{
-Comprimento do corpo \eqn{X_c}, dado em mm, e peso
-    \eqn{X_p} de fêmeas, dado em g, de Penaeus paulensis (Crustacea,
-    Decapoda, Penaidae), obtidos nas despescas dos viveiros do Centro
-    de Ciências Agrárias (CCA) da Universidade Federal de Santa
-    Catarina (UFSC).
+Comprimento do corpo (\eqn{X_c}) e peso (\eqn{X_p}) de
+    Camarões-Rosa fêmeas da espécie \emph{Penaeus Paulensis}, obtidos
+    nas despescas dos viveiros do Centro de Ciências Agrárias (CCA)
+    da Universidade Federal de Santa Catarina (UFSC).
 }
 \examples{
 
@@ -38,5 +37,5 @@ xyplot(jitter(xp) ~ xc,
        ylab = "Peso (em gramas)")
 
 }
-\keyword{AAS}
+\keyword{RS}
 

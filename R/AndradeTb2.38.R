@@ -8,12 +8,12 @@
 #'
 #' \describe{
 #'
-#' \item{\code{temp}}{Temperatura da lagoa, em ºC.}
+#' \item{\code{temp}}{Temperatura da lagoa, em graus Celsius (ºC).}
 #'
-#' \item{\code{salin}}{Salinidade da lagoa, em g/l.}
+#' \item{\code{salin}}{Salinidade da lagoa, em gramas por litro (g/l).}
 #'
 #' }
-#' @keywords AAS
+#' @keywords RS
 #' @source Andrade, D. F., Ogliari, P. J. (2010). Estatística para as
 #'     ciências agrárias e biológicas com noções de experimentação (2nd
 #'     ed.). Florianópolis, SC. Editora da UFSC. (Tabela 2.38, pág. 142)
@@ -21,6 +21,8 @@
 #'
 #' data(AndradeTb2.38)
 #' str(AndradeTb2.38)
+#'
+#' cor.test(~temp + salin, data = AndradeTb2.38)
 #'
 #' library(lattice)
 #' xyplot(temp ~ salin,
