@@ -1,22 +1,19 @@
 #' @name AndradeTb2.46
 #' @title Condutividade e Salinidade da Lagoa da Conceição
-#' @description Valores de condutividade (mho) e salinidade (g/l) para a
-#'     região III da Lagoa da Conceição.
+#' @description Estudo com o objetivo de verificar se existe correlação
+#'     entre a condutividade e a salinidade na região III da Lagoa da
+#'     Conceição, Florianópolis, SC.
 #' @format Um \code{data.frame} com 6 observações e 3 variáveis, em que
 #'
 #' \describe{
 #'
-#' \item{\code{estacao}}{Fator de 6 níveis qualitativos, que são as
-#'     estações da região III da Lagoa da Conceição.}
+#' \item{\code{cond}}{Condutividade da lagoa, mensurada em \eqn{mho}.}
 #'
-#' \item{\code{cond}}{Condutividade da região III da Lagoa da Conceição,
-#'     em mho.}
-#'
-#' \item{\code{salin}}{Salinidade da região III da Lagoa da Conceição,
-#'     em g/l.}
+#' \item{\code{salin}}{Salinidade da lagoa, em \eqn{g/l}.}
 #'
 #' }
-#' @keywords AAS
+#' @seealso \code{\link{AndradeTb2.38}}
+#' @keywords RS
 #' @source Andrade, D. F., Ogliari, P. J. (2010). Estatística para as
 #'     ciências agrárias e biológicas com noções de experimentação (2nd
 #'     ed.). Florianópolis, SC. Editora da UFSC. (Tabela 2.46, pág. 149)
@@ -31,5 +28,10 @@
 #'        type = c("p", "r"),
 #'        xlab = "Salinidade (g/l)",
 #'        ylab = "Condutividade (mho)")
+#'
+#' # Agrupando os dados de temperaturas, provinientes do dataset
+#' # AndradeTb2.38 [VERIFICAR SE É VÁLIDO]
+#' (da <- merge(AndradeTb2.46, AndradeTb2.38))
+#' splom(da, type = c("g", "p", "r"))
 #'
 NULL

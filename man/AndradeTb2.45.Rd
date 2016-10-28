@@ -2,13 +2,13 @@
 % Please edit documentation in R/AndradeTb2.45.R
 \name{AndradeTb2.45}
 \alias{AndradeTb2.45}
-\title{Tamanho de Pecíolos de \emph{Hydrocotille sp}}
+\title{Tamanho dos Pecíolos de Plantas \emph{Hydrocotille sp}}
 \format{Um \code{data.frame} com 69 observações e 2 variáveis, em que
 
 \describe{
 
-\item{\code{area}}{Fator de 2 níveis qualitativos, que são as áreas
-    seca e úmida.}
+\item{\code{area}}{Fator de 2 níveis que representa a característica
+    da área onde a planta se desenvolveu.}
 
 \item{\code{tamanho}}{Tamanho do pecíolo, em centímetros.}
 
@@ -21,20 +21,33 @@ Andrade, D. F., Ogliari, P. J. (2010). Estatística para as
 \description{
 Em um estudo do comportamento de uma planta típica de
     dunas, a \emph{Hydrocotille sp}, quanto ao seu desenvolvimento,
-    mediu-se o tamanho do pecíolo , em cm, em duas áreas: seca e
-    úmida. Selecionou-se de cada uma dessas áreas amostras aleatórias
-    de plantas e mediu-se o tamanho dos pacíolos.
+    mediu-se o tamanho do pecíolo, em centímetros, em duas áreas:
+    seca e úmida. Selecionou-se de cada uma dessas áreas amostras
+    aleatórias de plantas e mediu-se o tamanho dos pecíolos.
 }
 \examples{
 
 data(AndradeTb2.45)
 str(AndradeTb2.45)
 
-barplot(xtabs(data = AndradeTb2.45),
-        legend = TRUE,
-        xlab = "Tamanho do Pecíolo (em cm)",
-        ylab = "Frequência")
+# Medidas resumo para cada área
+with(AndradeTb2.45, tapply(tamanho, area, summary))
+
+# Histogramas sobrepostos
+hts <- with(AndradeTb2.45, tapply(tamanho, area, hist, plot = FALSE))
+plot(0, 0, type = "n",
+     xlim = extendrange(AndradeTb2.45$tamanho),
+     ylim = range(sapply(hts, function(h) range(h$counts))),
+     xlab = "Tamanho do Pecíolo (em cm)",
+     ylab = "Frequência")
+cols <- c("gray70", "gray30")
+lapply(1:length(hts), function(i) {
+    plot(hts[[i]], add = TRUE, col = cols[i], labels = TRUE,
+         border = "white")
+})
+legend("top", title = "Área", legend = names(hts),
+       fill = cols, bty = "n", border = "white")
 
 }
-\keyword{AAS}
+\keyword{AASI}
 

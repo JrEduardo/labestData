@@ -7,14 +7,9 @@
 
 \describe{
 
-\item{\code{estacao}}{Fator de 6 níveis qualitativos, que são as
-    estações da região III da Lagoa da Conceição.}
+\item{\code{cond}}{Condutividade da lagoa, mensurada em \eqn{mho}.}
 
-\item{\code{cond}}{Condutividade da região III da Lagoa da Conceição,
-    em mho.}
-
-\item{\code{salin}}{Salinidade da região III da Lagoa da Conceição,
-    em g/l.}
+\item{\code{salin}}{Salinidade da lagoa, em \eqn{g/l}.}
 
 }}
 \source{
@@ -23,8 +18,9 @@ Andrade, D. F., Ogliari, P. J. (2010). Estatística para as
     ed.). Florianópolis, SC. Editora da UFSC. (Tabela 2.46, pág. 149)
 }
 \description{
-Valores de condutividade (mho) e salinidade (g/l) para a
-    região III da Lagoa da Conceição.
+Estudo com o objetivo de verificar se existe correlação
+    entre a condutividade e a salinidade na região III da Lagoa da
+    Conceição, Florianópolis, SC.
 }
 \examples{
 
@@ -38,6 +34,14 @@ xyplot(cond ~ salin,
        xlab = "Salinidade (g/l)",
        ylab = "Condutividade (mho)")
 
+# Agrupando os dados de temperaturas, provinientes do dataset
+# AndradeTb2.38 [VERIFICAR SE É VÁLIDO]
+(da <- merge(AndradeTb2.46, AndradeTb2.38))
+splom(da, type = c("g", "p", "r"))
+
 }
-\keyword{AAS}
+\seealso{
+\code{\link{AndradeTb2.38}}
+}
+\keyword{RS}
 

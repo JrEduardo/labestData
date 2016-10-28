@@ -1,5 +1,5 @@
 raca	fecun	freq
-A	F	12
-B	F	8
-A	Fc	2
-B	Fc	6
+A	Fecundas	12
+B	Fecundas	8
+A	Não fecundas	2
+B	Não fecundas	6

@@ -2,21 +2,19 @@
 % Please edit documentation in R/AndradeTb2.47.R
 \name{AndradeTb2.47}
 \alias{AndradeTb2.47}
-\title{Notas Médias de Aroma de Café Torrado e Moído}
+\title{Avaliação do Período de Estocagem no Aroma de Cafés}
 \format{Um \code{data.frame} com 18 observações e 4 variáveis, em que
 
 \describe{
 
-\item{\code{sessao}}{Fator de 6 níveis qualitativos, que são as
-    sessões de avaliação.}
-
 \item{\code{tempo}}{Tempo de estocagem, em dias.}
 
-\item{\code{amostra}}{Fator de 3 níveis qualitativos, que são os
-    diferentes pacotes.}
+\item{\code{amostra}}{Fator de 3 níveis que identificam as amostras
+    (pacotes de café). [SE SÃO DIFERENTES PACOTES SELECIONADOS EM
+    CADA TEMPO DEVE-SE EXCLUIR ESSA VARIÁVEL.]}
 
-\item{\code{result}}{Resultado médio da equipe de provadores para
-    cada amostra.}
+\item{\code{result}}{Resultado médio das avaliações da equipe de
+   provadores.}
 
 }}
 \source{
@@ -25,15 +23,24 @@ Andrade, D. F., Ogliari, P. J. (2010). Estatística para as
     ed.). Florianópolis, SC. Editora da UFSC. (Tabela 2.47, pág. 149)
 }
 \description{
-Um estudo sobre vida de prateleira de café torrado e
-    moído foi realizado. Os testes sensoriais foram iniciados a
-    partir do nono dia de estocagem e, depois, a intervalos de mais
-    ou menos sete dias. Em cada uma das seis sessões de avaliação
-    sensorial três amostras (pacotes) foram obtidas ao acaso. Seis
-    provadores treinados avaliaram as três amostras simultaneamente,
-    julgando o produto quanto ao aroma em uma escala descritiva de 1
-    a 6 pontos: 6 = excelente; 5 = bom; 4 = aceitável; 3 = pouco
-    aceitável; 2 = inaceitável e 1 = não bebível.
+Estudo sobre vida de prateleira de café torrado e
+    moído. Cafés estocados durante nove dias foram submetidos a
+    sessões de avaliação, realizadas por uma equipe de provadores
+    treinados. Ocorreram seis sessões de avaliação com intervalos de
+    mais ou menos sete dias com início no nono dia de estocagem. [SE
+    É O MESMO PRODUTO AVALIADO EM DIFERENTES TEMPOS] ***Três produtos
+    selecionados ao acaso foram avaliados simultaneamente, para cada
+    período de estocagem, por seis provadores que os avaliaram quanto
+    ao seu aroma, em uma escala descritiva de 6 pontos (6 =
+    excelente; 5 = bom; 4 = aceitável; 3 = pouco aceitável; 2 =
+    inaceitável e 1 = não bebível). Ao final de cada sessão foram
+    registrados as notas médias das seis avaliações.*** [SE A CADA
+    SESSÃO SÃO DIFERENTES AMOSTRAS SELECIONADAS] ***Em cada sessão
+    seis provadores avaliaram simultaneamente três amostras obtidas
+    ao acaso, quanto ao seu aroma, em uma escala descritiva de 6
+    pontos (6 = excelente; 5 = bom; 4 = aceitável; 3 = pouco
+    aceitável; 2 = inaceitável e 1 = não bebível). Ao final de cada
+    sessão foram registrados as notas médias das seis avaliações.***
 }
 \examples{
 
@@ -41,31 +48,31 @@ data(AndradeTb2.47)
 str(AndradeTb2.47)
 
 library(lattice)
-
-graf1 <- xyplot(result ~ sessao,
-                groups = amostra,
-                data = AndradeTb2.47,
-                type = c("p", "r"),
-                auto.key = list(title = "Pacote",
-                                cex.title = 1.1,
-                                columns = 3),
-                xlab = "Seção de Avaliação",
-                ylab = "Resultado Médio da Equipe de Provadores")
-
-graf2 <- xyplot(result ~ tempo,
-                groups = amostra,
-                data = AndradeTb2.47,
-                type = c("p", "r"),
-                auto.key = list(title = "Pacote",
-                                cex.title = 1.1,
-                                columns = 3),
-                xlab = "Tempo de Estocagem (dias)",
-                ylab = "Resultado Médio da Equipe de Provadores")
-
-print(graf1, position = c(0, 0.5, 1, 1), more = TRUE)
-
-print(graf2, position = c(0, 0, 1, 0.5))
+# [SE FOREM OS MESMOS PRODUTOS]
+xyplot(result ~ tempo, groups = amostra,
+       data = AndradeTb2.47,
+       type = c("g", "l"),
+       alpha = 0.7,
+       auto.key = list(
+           column = 3,
+           title = "Amostra", cex.title = 1,
+           lines = TRUE, points = FALSE
+       ),
+       xlab = "Tempo de Estocagem (dias)",
+       ylab = "Resultado das Avaliações",
+       panel = function(x, y, ...) {
+           panel.xyplot(x, y, ...)
+           panel.xyplot(x, y, type = "a", col = 1, lwd = 2)
+       })
+# [SE FOREM PRODUTOS DIFERENTES]
+xyplot(result ~ tempo,
+       data = AndradeTb2.47,
+       type = c("g", "p", "r"),
+       xlab = "Tempo de Estocagem (dias)",
+       ylab = "Resultado das Avaliações")
 
 }
-\keyword{DBC}
+\keyword{RS[SE-FOREM-PRODUTOS-DIFERENTES]}
+\keyword{longitudinal[SE-FOR-OS-MESMOS-PRODUTOS-EM-DIFERENTES-TEMPOS]}
+\keyword{sensorial}
 

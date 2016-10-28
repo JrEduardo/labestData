@@ -7,14 +7,13 @@
 
 \describe{
 
-\item{\code{raca}}{Fator de 2 níveis qualitativos, que são as raças
-    dos suínos.}
+\item{\code{raca}}{Fator de 2 níveis que são as raças dos suínos.}
 
-\item{\code{fecun}}{Fator de 2 níveis qualitativos, onde F =
-    "Fecundas" e Fc = "Não fecundas".}
+\item{\code{fecun}}{Fator de 2 níveis que representa a fecundidade da
+    raça.}
 
-\item{\code{freq}}{Frequência absoluta (relativa) da fecundidade das
-    duas raças suínas.}
+\item{\code{freq}}{Frequência de animais cujo raça e fecundidade são
+    dadas por \code{raca} e \code{fecun}, respectivamente.}
 
 }}
 \source{
@@ -24,20 +23,29 @@ Andrade, D. F., Ogliari, P. J. (2010). Estatística para as
 }
 \description{
 Estudo sobre fecundidade de duas raças suínas, onde
-    foram examinados 28 animais.
+    foram examinados 14 animais de cada raça. O objetivo do estudo é
+    verificar a associação entre raça e fecundidade.
 }
 \examples{
 
 data(AndradeTb3.2)
 str(AndradeTb3.2)
 
-barplot(AndradeTb3.2$freq,
+xt <- xtabs(freq ~ ., AndradeTb3.2)
+addmargins(xt)
+addmargins(prop.table(xt))
+
+mosaicplot(t(xt), cex.axis = 0.9, main = "",
+           col = c("darkturquoise", "blue"),
+           xlab = "Fecundidade",
+           ylab = "Raça")
+
+barplot(xt, beside = TRUE,
         col = c("darkturquoise", "blue"),
-        legend.text = c("Raça A", "Raça B"),
-        names.arg = c(rep("F", 2), rep("Fc", 2)),
+        legend.text = paste("Raça", levels(AndradeTb3.2$raca)),
         xlab = "Fecundidade",
         ylab = "Frequência Absoluta")
 
 }
-\keyword{DBC}
+\keyword{contingência}
 

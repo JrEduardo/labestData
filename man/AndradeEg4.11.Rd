@@ -2,16 +2,16 @@
 % Please edit documentation in R/AndradeEg4.11.R
 \name{AndradeEg4.11}
 \alias{AndradeEg4.11}
-\title{Dispersão de Formigas da Espécie \emph{Acromyrmex striatus}}
+\title{Disposição de Ninhos de Formigas (\emph{Acromyrmex striatus})}
 \format{Um \code{data.frame} com 5 observações e 2 variáveis, em que
 
 \describe{
 
-\item{\code{ninhos}}{Fator de 5 níveis qualitativos, que são os
-    os números de ninhos por quadrante.}
+\item{\code{ninhos}}{Fator de 5 níveis, que representa a quantidade
+    de ninhos por quadrante.}
 
-\item{\code{quadrantes}}{Número de quadrantes com os respetivos
-    números de ninhos.}
+\item{\code{freq}}{Frequência de quadrantes em que se observou
+    \code{ninhos} ninhos de formiga.}
 
 }}
 \source{
@@ -21,25 +21,29 @@ Andrade, D. F., Ogliari, P. J. (2010). Estatística para as
     228)
 }
 \description{
-Estudo da dispersão de formigas da espécie
-    \emph{Acromyrmex striatus}, uma espécie de formiga cortadeira,
-    em dunas da praia da Joaquina, Florianópolis, SC, onde uma área
-    de 100m x 100m, foi subdividida em 100 quadrantes de 10m x 10m.
-    Em cada um desses quadrantes foi contado o número de ninhos de
-    \emph{Acromyrmex striatus}. Maiores detalhes sobre esse estudo
-    estão em Lopes (2001).
+Estudo sobre como se dispõem os ninhos de formigas da
+    espécie \emph{Acromyrmex striatus}, uma espécie de formiga
+    cortadeira, em dunas da praia de Joaquina, Florianópolis, SC. A
+    condução do estudo se deu em uma área de 10.000\eqn{m^2} que foi
+    subdividida em 100 quadrantes de mesmo tamanho. Contou-se então,
+    o número de ninhos em cada um desses quadrantes. Maiores detalhes
+    sobre esse estudo estão em Lopes (2001).
 }
 \examples{
 
 data(AndradeEg4.11)
 str(AndradeEg4.11)
 
-barplot(AndradeEg4.11$quadr,
+# Distribuição de frequências
+barplot(AndradeEg4.11$freq,
         col = "darkturquoise",
         names.arg = AndradeEg4.11$ninhos,
         xlab = "Ninhos por Quadrante",
         ylab = "Número de Quadrantes")
 
 }
-\keyword{DBC}
+\references{
+[REFERENCIAR O TRABALHO DO LOPES DE 2001]
+}
+\keyword{contingência*}
 

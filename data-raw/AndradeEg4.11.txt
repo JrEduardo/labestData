@@ -1,4 +1,4 @@
-ninhos	quadr
+ninhos	freq
 0	72
 1	21
 2	6
