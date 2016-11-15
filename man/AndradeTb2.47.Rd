@@ -9,9 +9,8 @@
 
 \item{\code{tempo}}{Tempo de estocagem, em dias.}
 
-\item{\code{amostra}}{Fator de 3 níveis que identificam as amostras
-    (pacotes de café). [SE SÃO DIFERENTES PACOTES SELECIONADOS EM
-    CADA TEMPO DEVE-SE EXCLUIR ESSA VARIÁVEL.]}
+\item{\code{rept}}{Identifica a unidade amostral em cada sessão
+    realizada.}
 
 \item{\code{result}}{Resultado médio das avaliações da equipe de
    provadores.}
@@ -27,20 +26,14 @@ Estudo sobre vida de prateleira de café torrado e
     moído. Cafés estocados durante nove dias foram submetidos a
     sessões de avaliação, realizadas por uma equipe de provadores
     treinados. Ocorreram seis sessões de avaliação com intervalos de
-    mais ou menos sete dias com início no nono dia de estocagem. [SE
-    É O MESMO PRODUTO AVALIADO EM DIFERENTES TEMPOS] ***Três produtos
-    selecionados ao acaso foram avaliados simultaneamente, para cada
-    período de estocagem, por seis provadores que os avaliaram quanto
-    ao seu aroma, em uma escala descritiva de 6 pontos (6 =
-    excelente; 5 = bom; 4 = aceitável; 3 = pouco aceitável; 2 =
-    inaceitável e 1 = não bebível). Ao final de cada sessão foram
-    registrados as notas médias das seis avaliações.*** [SE A CADA
-    SESSÃO SÃO DIFERENTES AMOSTRAS SELECIONADAS] ***Em cada sessão
-    seis provadores avaliaram simultaneamente três amostras obtidas
-    ao acaso, quanto ao seu aroma, em uma escala descritiva de 6
-    pontos (6 = excelente; 5 = bom; 4 = aceitável; 3 = pouco
-    aceitável; 2 = inaceitável e 1 = não bebível). Ao final de cada
-    sessão foram registrados as notas médias das seis avaliações.***
+    mais ou menos sete dias com início no nono dia de estocagem.
+
+    Para cada sessão três amostras foram obtidas ao acaso e seis
+    provadores as avaliaram simultaneamente, quanto ao seu aroma, em
+    uma escala descritiva de 6 pontos (6 = excelente; 5 = bom; 4 =
+    aceitável; 3 = pouco aceitável; 2 = inaceitável e 1 = não
+    bebível). Ao final de cada sessão foram registrados as notas
+    médias das seis avaliações.
 }
 \examples{
 
@@ -48,23 +41,6 @@ data(AndradeTb2.47)
 str(AndradeTb2.47)
 
 library(lattice)
-# [SE FOREM OS MESMOS PRODUTOS]
-xyplot(result ~ tempo, groups = amostra,
-       data = AndradeTb2.47,
-       type = c("g", "l"),
-       alpha = 0.7,
-       auto.key = list(
-           column = 3,
-           title = "Amostra", cex.title = 1,
-           lines = TRUE, points = FALSE
-       ),
-       xlab = "Tempo de Estocagem (dias)",
-       ylab = "Resultado das Avaliações",
-       panel = function(x, y, ...) {
-           panel.xyplot(x, y, ...)
-           panel.xyplot(x, y, type = "a", col = 1, lwd = 2)
-       })
-# [SE FOREM PRODUTOS DIFERENTES]
 xyplot(result ~ tempo,
        data = AndradeTb2.47,
        type = c("g", "p", "r"),
@@ -72,7 +48,6 @@ xyplot(result ~ tempo,
        ylab = "Resultado das Avaliações")
 
 }
-\keyword{RS[SE-FOREM-PRODUTOS-DIFERENTES]}
-\keyword{longitudinal[SE-FOR-OS-MESMOS-PRODUTOS-EM-DIFERENTES-TEMPOS]}
+\keyword{RS}
 \keyword{sensorial}
 

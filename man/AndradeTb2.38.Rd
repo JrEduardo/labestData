@@ -37,7 +37,8 @@ xyplot(temp ~ salin,
        ylab = "Temperatura (ºC)")
 
 # Agrupando os dados de condutividade, provinientes no dataset
-# AndradeTb2.46 [VERIFICAR SE É VÁLIDO]
+# AndradeTb2.46
+# help(AndradeTb2.46)
 (da <- merge(AndradeTb2.38, AndradeTb2.46))
 splom(da, type = c("g", "p", "r"))
 
