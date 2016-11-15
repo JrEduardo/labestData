@@ -1,0 +1,42 @@
+#' @name AndradeTb2.42
+#' @title Peso de Carne de Mexilhões em Áreas de Sambaqui e Manguezal
+#' @description Resultados do peso de carne, em gramas, de mexilhões
+#'     provenientes de área de sambaqui e manguezal.
+#' @format Um \code{data.frame} com 30 observações e 2 variáveis, em que
+#'
+#' \describe{
+#'
+#' \item{\code{local}}{Fator de 2 níveis que representa os locais
+#'     habituais dos mexilhões.}
+#'
+#' \item{\code{peso}}{Peso de carne de mexilhões, em gramas.}
+#'
+#' }
+#' @keywords AASI
+#' @source Andrade, D. F., Ogliari, P. J. (2010). Estatística para as
+#'     ciências agrárias e biológicas com noções de experimentação (2nd
+#'     ed.). Florianópolis, SC. Editora da UFSC. (Tabela 2.42, pág. 146)
+#' @examples
+#'
+#' data(AndradeTb2.42)
+#' str(AndradeTb2.42)
+#'
+#' # Box-plots
+#' boxplot(peso ~ local,
+#'         data = AndradeTb2.42,
+#'         xlab = "Local",
+#'         ylab = "Peso de Carne (em gramas)")
+#'
+#' # Gráficos de densidades
+#' dens <- with(AndradeTb2.42, tapply(peso, local, density))
+#' plot(x = 0, y = 0, type = "n",
+#'      xlim = range(sapply(dens, function(d) range(d$x))),
+#'      ylim = range(sapply(dens, function(d) range(d$y))),
+#'      xlab = "Peso em carne (em gramas)",
+#'      ylab = "Densidade estimada")
+#' lapply(1:length(dens), function(i) lines(dens[[i]], col = i))
+#' legend("topright", title = "Habitat dos mexilhões",
+#'        legend = unique(AndradeTb2.42$local),
+#'        lwd = 1, col = 1:2, bty = "n")
+#'
+NULL

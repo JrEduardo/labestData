@@ -1,0 +1,43 @@
+#' @name AndradeTb2.44
+#' @title Produção de Duas Variedades de Cana-de-açúcar
+#' @description Estudo no qual avaliou-se a produção de cana-de-açúcar
+#'     considerando duas variedades distintas a fim de comparação.
+#' @format Um \code{data.frame} com 21 observações e 2 variáveis, em que
+#'
+#' \describe{
+#'
+#' \item{\code{varied}}{Fator de 2 níveis que representa as variedades
+#'     de cana-de-açúcar consideradas.}
+#'
+#' \item{\code{prod}}{Produção de cana-de-açúcar, em toneladas por
+#'     hectare.}
+#'
+#' }
+#' @keywords AASI
+#' @source Andrade, D. F., Ogliari, P. J. (2010). Estatística para as
+#'     ciências agrárias e biológicas com noções de experimentação (2nd
+#'     ed.). Florianópolis, SC. Editora da UFSC. (Tabela 2.44, pág. 147)
+#' @examples
+#'
+#' data(AndradeTb2.44)
+#' str(AndradeTb2.44)
+#'
+#' # Box-plots
+#' boxplot(prod ~ varied,
+#'         data = AndradeTb2.44,
+#'         xlab = "Variedade",
+#'         ylab = expression(Produção~(em~t~ha^-1)))
+#'
+#' # Gráficos de densidades
+#' dens <- with(AndradeTb2.44, tapply(prod, varied, density))
+#' plot(x = 0, y = 0, type = "n",
+#'      xlim = range(sapply(dens, function(d) range(d$x))),
+#'      ylim = range(sapply(dens, function(d) range(d$y))),
+#'      xlab = expression(Produção~(em~t~ha^-1)),
+#'      ylab = "Densidade estimada")
+#' lapply(1:length(dens), function(i) lines(dens[[i]], col = i))
+#' legend("topleft", title = "Variedade",
+#'        legend = unique(AndradeTb2.44$varied),
+#'        lwd = 1, col = 1:2, bty = "n")
+#'
+NULL
