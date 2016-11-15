@@ -2,8 +2,7 @@
 % Please edit documentation in R/AndradeTb2.38.R
 \name{AndradeTb2.38}
 \alias{AndradeTb2.38}
-\title{Estudo de Salinidade e Temperatura na Região III da Lagoa da
-    Conceição}
+\title{Salinidade e Temperatura na Região III da Lagoa da Conceição}
 \format{Um \code{data.frame} com 8 observações e 2 variáveis, em que
 
 \describe{
@@ -37,6 +36,15 @@ xyplot(temp ~ salin,
        xlab = "Salinidade (g/l)",
        ylab = "Temperatura (ºC)")
 
+# Agrupando os dados de condutividade, provinientes no dataset
+# AndradeTb2.46
+# help(AndradeTb2.46)
+(da <- merge(AndradeTb2.38, AndradeTb2.46))
+splom(da, type = c("g", "p", "r"))
+
+}
+\seealso{
+\code{\link{AndradeTb2.46}}
 }
 \keyword{RS}
 

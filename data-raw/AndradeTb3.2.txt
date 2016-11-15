@@ -1,0 +1,5 @@
+raca	fecun	freq
+A	Fecundas	12
+B	Fecundas	8
+A	Não fecundas	2
+B	Não fecundas	6

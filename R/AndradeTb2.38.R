@@ -1,6 +1,5 @@
 #' @name AndradeTb2.38
-#' @title Estudo de Salinidade e Temperatura na Região III da Lagoa da
-#'     Conceição
+#' @title Salinidade e Temperatura na Região III da Lagoa da Conceição
 #' @description Estudo com o objetivo de verificar se existe correlação
 #'     entre a salinidade e a temperatura na região III da Lagoa da
 #'     Conceição, Florianópolis, SC.
@@ -13,6 +12,7 @@
 #' \item{\code{salin}}{Salinidade da lagoa, em gramas por litro (g/l).}
 #'
 #' }
+#' @seealso \code{\link{AndradeTb2.46}}
 #' @keywords RS
 #' @source Andrade, D. F., Ogliari, P. J. (2010). Estatística para as
 #'     ciências agrárias e biológicas com noções de experimentação (2nd
@@ -30,5 +30,11 @@
 #'        type = c("p", "r"),
 #'        xlab = "Salinidade (g/l)",
 #'        ylab = "Temperatura (ºC)")
+#'
+#' # Agrupando os dados de condutividade, provinientes no dataset
+#' # AndradeTb2.46
+#' # help(AndradeTb2.46)
+#' (da <- merge(AndradeTb2.38, AndradeTb2.46))
+#' splom(da, type = c("g", "p", "r"))
 #'
 NULL

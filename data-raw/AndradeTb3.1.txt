@@ -1,0 +1,13 @@
+idade	sexo	mort
+0-1 ano	Masculino	33
+2-4 anos	Masculino	4
+5-9 anos	Masculino	2
+10-14 anos	Masculino	0
+15-29 anos	Masculino	1
+>29 anos	Masculino	7
+0-1 ano	Feminino	28
+2-4 anos	Feminino	7
+5-9 anos	Feminino	2
+10-14 anos	Feminino	1
+15-29 anos	Feminino	6
+>29 anos	Feminino	8

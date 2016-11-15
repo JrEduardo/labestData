@@ -1,0 +1,44 @@
+#' @name AndradeTb2.47
+#' @title Avaliação do Período de Estocagem no Aroma de Cafés
+#' @description Estudo sobre vida de prateleira de café torrado e
+#'     moído. Cafés estocados durante nove dias foram submetidos a
+#'     sessões de avaliação, realizadas por uma equipe de provadores
+#'     treinados. Ocorreram seis sessões de avaliação com intervalos de
+#'     mais ou menos sete dias com início no nono dia de estocagem.
+#'
+#'     Para cada sessão três amostras foram obtidas ao acaso e seis
+#'     provadores as avaliaram simultaneamente, quanto ao seu aroma, em
+#'     uma escala descritiva de 6 pontos (6 = excelente; 5 = bom; 4 =
+#'     aceitável; 3 = pouco aceitável; 2 = inaceitável e 1 = não
+#'     bebível). Ao final de cada sessão foram registrados as notas
+#'     médias das seis avaliações.
+#' @format Um \code{data.frame} com 18 observações e 4 variáveis, em que
+#'
+#' \describe{
+#'
+#' \item{\code{tempo}}{Tempo de estocagem, em dias.}
+#'
+#' \item{\code{rept}}{Identifica a unidade amostral em cada sessão
+#'     realizada.}
+#'
+#' \item{\code{result}}{Resultado médio das avaliações da equipe de
+#'    provadores.}
+#'
+#' }
+#' @keywords RS sensorial
+#' @source Andrade, D. F., Ogliari, P. J. (2010). Estatística para as
+#'     ciências agrárias e biológicas com noções de experimentação (2nd
+#'     ed.). Florianópolis, SC. Editora da UFSC. (Tabela 2.47, pág. 149)
+#' @examples
+#'
+#' data(AndradeTb2.47)
+#' str(AndradeTb2.47)
+#'
+#' library(lattice)
+#' xyplot(result ~ tempo,
+#'        data = AndradeTb2.47,
+#'        type = c("g", "p", "r"),
+#'        xlab = "Tempo de Estocagem (dias)",
+#'        ylab = "Resultado das Avaliações")
+#'
+NULL
