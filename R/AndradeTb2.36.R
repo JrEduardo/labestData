@@ -1,8 +1,8 @@
 #' @name AndradeTb2.36
-#' @title Produção de Matéria Seca e Radiação de uma Cultura
-#' @description Dados de produção de matéria seca de uma cultura [QUAL
-#'     CULTURA? SE NÃO HOUVER INDIQUE "DE UMA CULTURA NÃO INFORMADA"] e
-#'     quantidade de radiação fotossintética ativa.
+#' @title Produção de Matéria Seca sob Efeito de Radiação
+#' @description Dados de produção de matéria seca (\code{prod}) de uma
+#'     cultura não informada e quantidade de radiação fotossintética
+#'     ativa (\code{rad}).
 #' @format Um \code{data.frame} com 10 observações e 2 variáveis, em que
 #'
 #' \describe{
