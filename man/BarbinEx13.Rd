@@ -47,4 +47,3 @@ xyplot(diam ~ dist, groups = euca, data = BarbinEx13,
 }
 \keyword{DBC}
 \keyword{FAT2}
-

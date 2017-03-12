@@ -39,4 +39,3 @@ xyplot(prod ~ lamina, data = DemetrioTb1.2,
 
 }
 \keyword{RS}
-

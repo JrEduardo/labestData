@@ -48,4 +48,3 @@ xyplot(alt ~ fumig, groups = fung, data = BarbinEx8,
 
 }
 \keyword{DBC}
-

@@ -43,4 +43,3 @@ xyplot(prod ~ cult | loc, groups = bloc, data = StorckTb101,
 
 }
 \keyword{GE}
-

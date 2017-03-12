@@ -29,4 +29,3 @@ qcc(EpprechtTb6.10$conc, type = "xbar.one", nsigmas = 3,
 
 }
 \keyword{CEQ}
-

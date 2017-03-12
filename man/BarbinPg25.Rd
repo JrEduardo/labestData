@@ -46,4 +46,3 @@ xyplot(estac ~ cult, data = BarbinPg25, jitter.x = TRUE,
 
 }
 \keyword{DIC}
-

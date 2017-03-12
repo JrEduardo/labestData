@@ -50,4 +50,3 @@ xyplot(result ~ tempo,
 }
 \keyword{RS}
 \keyword{sensorial}
-

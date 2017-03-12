@@ -39,4 +39,3 @@ barplot(AndradeTb4.1$ncasais,
 
 }
 \keyword{contingência*}
-

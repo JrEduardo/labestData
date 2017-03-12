@@ -76,4 +76,3 @@ xyplot(prod ~ cult, groups = bloc, data = ZimmermannTb14.3,
 }
 \keyword{COV}
 \keyword{DBC}
-

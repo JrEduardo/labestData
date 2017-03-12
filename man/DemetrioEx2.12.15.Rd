@@ -36,4 +36,3 @@ xyplot(y ~ x, data = DemetrioEx2.12.15,
 
 }
 \keyword{RS}
-

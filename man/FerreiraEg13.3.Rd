@@ -45,4 +45,3 @@ table(predict(discr)$class, FerreiraEg13.3$pop)
 
 }
 \keyword{AnaDisc}
-

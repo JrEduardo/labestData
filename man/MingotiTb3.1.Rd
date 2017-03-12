@@ -36,4 +36,3 @@ scatterplotMatrix(~gbt + glq + patr,
 
 }
 \keyword{TODO}
-

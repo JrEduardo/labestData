@@ -48,4 +48,3 @@ legend("topleft", title = "Variedade",
 
 }
 \keyword{AASI}
-

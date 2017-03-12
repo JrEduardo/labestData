@@ -35,4 +35,3 @@ xyplot(resp ~ trat, data = VieiraPg50.1,
 
 }
 \keyword{DIC}
-

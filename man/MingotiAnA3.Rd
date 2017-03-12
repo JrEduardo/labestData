@@ -48,4 +48,3 @@ bwplot(inst ~ rendpc | loc,
 
 }
 \keyword{AnaComPrin}
-

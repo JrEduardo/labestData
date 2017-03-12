@@ -44,4 +44,3 @@ ggplot(CharnetEx2.8, aes(x = x, y = y)) +
 
 }
 \keyword{RS}
-

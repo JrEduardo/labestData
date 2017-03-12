@@ -66,4 +66,3 @@ splom(ManlyTb10.4[-1])
 
 }
 \keyword{AnaCorCan}
-

@@ -33,4 +33,3 @@ pairs(~ condut + N + cinzas, data = DemetrioEx5.4.2,
 
 }
 \keyword{RM}
-

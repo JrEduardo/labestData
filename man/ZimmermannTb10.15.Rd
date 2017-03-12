@@ -60,4 +60,3 @@ xyplot(prod ~ adub | geno, groups = bloco, data = ZimmermannTb10.15,
 }
 \keyword{DBC}
 \keyword{EF}
-

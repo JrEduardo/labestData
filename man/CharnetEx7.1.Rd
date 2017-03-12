@@ -36,4 +36,3 @@ with(CharnetEx7.1, plot(peso, rad, col = n))
 }
 \keyword{RS}
 \keyword{dummy}
-

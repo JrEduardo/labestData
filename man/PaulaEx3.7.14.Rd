@@ -51,4 +51,3 @@ Efron, B. (1988). Logistic regression, survival analysis,
     414-425)
 }
 \keyword{sobrevivência}
-

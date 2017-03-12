@@ -2,6 +2,7 @@
 % Please edit documentation in R/Manly.R
 \name{ManlyTb6.7}
 \alias{ManlyTb6.7}
+\alias{ManlyTb6.7}
 \title{Consumo de Prote\enc{í}{i}na}
 \format{Um \code{data.frame} com 25 países em 9 variáveis.
 
@@ -62,4 +63,3 @@ pairs(~ cv + cb + ovo + leite + peixe + cere + carb + gnso + fv,
 
 }
 \keyword{AnaComPrin}
-

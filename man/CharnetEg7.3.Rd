@@ -35,4 +35,3 @@ xyplot(exp ~ salario, data = CharnetEg7.3, groups = sexo)
 }
 \keyword{RM}
 \keyword{dummy}
-

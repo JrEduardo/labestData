@@ -55,4 +55,3 @@ xyplot(peso ~ braq, data = PimentelTb14.7.1,
 }
 \keyword{DBC}
 \keyword{FAT2}
-

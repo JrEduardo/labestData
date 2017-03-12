@@ -54,4 +54,3 @@ scatterplotMatrix(~expvi + analf + crime + estud + ndias + dens,
 
 }
 \keyword{RM}
-

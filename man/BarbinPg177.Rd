@@ -45,4 +45,3 @@ xyplot(alt ~ prog | local, data = BarbinPg177,
 
 }
 \keyword{GE}
-

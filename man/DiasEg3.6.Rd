@@ -27,4 +27,3 @@ plot(ecdf(DiasEg3.6))
 rug(DiasEg3.6)
 }
 \keyword{AAS}
-

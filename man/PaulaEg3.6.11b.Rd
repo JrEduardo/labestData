@@ -40,4 +40,3 @@ xyplot((menst/entre) ~ idade,  data = PaulaEg3.6.11b,
 
 }
 \keyword{MLG}
-

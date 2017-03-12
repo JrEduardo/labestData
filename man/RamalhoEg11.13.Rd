@@ -42,4 +42,3 @@ xyplot(prod ~ pop, groups = bloc, data = RamalhoEg11.13,
 
 }
 \keyword{DBI}
-

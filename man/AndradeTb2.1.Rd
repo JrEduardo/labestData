@@ -118,4 +118,3 @@ splom(~AndradeTb2.1[, c("rm", "ciclo", "ap", "ae")],
 
 }
 \keyword{AASM}
-

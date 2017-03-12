@@ -64,4 +64,3 @@ Everitt, B. S. (1977). The Analysis of Contingency
 }
 \keyword{contagem}
 \keyword{contingência}
-

@@ -39,4 +39,3 @@ xyplot(doentes ~ trat,
 }
 \keyword{DIC}
 \keyword{unitário}
-

@@ -39,4 +39,3 @@ Montgomery, D. C., Peck, E. A., Vining,
 }
 \keyword{RS}
 \keyword{heterovar}
-

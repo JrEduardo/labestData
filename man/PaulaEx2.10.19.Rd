@@ -55,4 +55,3 @@ Feigl, P., Zelen, M. (1965). Estimation of exponential
 \keyword{RS}
 \keyword{dummy}
 \keyword{heterovar}
-

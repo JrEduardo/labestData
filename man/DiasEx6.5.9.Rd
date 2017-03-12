@@ -27,4 +27,3 @@ xyplot(massa ~ temp, data = DiasEx6.5.9, type = c("p", "r"),
 Dados de 11 pares de valores de temperatura e massa.
 }
 \keyword{RS}
-

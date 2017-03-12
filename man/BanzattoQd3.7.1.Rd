@@ -46,4 +46,3 @@ xyplot(alt ~ comp, data = BanzattoQd3.7.1,
 }
 \keyword{DIC}
 \keyword{contrastes}
-

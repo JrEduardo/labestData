@@ -41,4 +41,3 @@ boxplot(tam ~ op, data = EpprechtTb5.2,
 
 }
 \keyword{CEQ}
-

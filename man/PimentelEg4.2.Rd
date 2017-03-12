@@ -34,4 +34,3 @@ plot(PimentelEg4.2,
 
 }
 \keyword{DIC}
-

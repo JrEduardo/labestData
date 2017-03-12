@@ -37,4 +37,3 @@ xyplot(res ~ trat, data = StorckTb8, jitter.x = TRUE,
 
 }
 \keyword{DIC}
-

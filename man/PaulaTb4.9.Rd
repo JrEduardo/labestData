@@ -63,4 +63,3 @@ xyplot(avarias/meses ~ tipo | peri,
 }
 \keyword{contagem}
 \keyword{contingência}
-

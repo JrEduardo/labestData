@@ -55,4 +55,3 @@ xyplot(alt ~ dap,
 
 }
 \keyword{manova}
-

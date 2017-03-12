@@ -70,4 +70,3 @@ Os dados de produção de arroz do mesmo ensaio estão
 }
 \keyword{LAT}
 \keyword{sobrevivência}
-

@@ -34,4 +34,3 @@ qcc(RamosAnC6$naoconf, sizes = RamosAnC6$tamamostra, type = "u",
 
 }
 \keyword{CEQ}
-

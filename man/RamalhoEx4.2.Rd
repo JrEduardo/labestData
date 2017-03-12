@@ -41,4 +41,3 @@ xyplot(perf ~ linh, data = RamalhoEx4.2,
 }
 \keyword{DBC}
 \keyword{contagem}
-

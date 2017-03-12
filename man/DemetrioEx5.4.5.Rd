@@ -40,4 +40,3 @@ xyplot(visual ~ real, data = DemetrioEx5.4.5,
 
 }
 \keyword{RS}
-

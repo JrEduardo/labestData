@@ -40,4 +40,3 @@ xyplot(colesterol ~ periodo,
 
 }
 \keyword{AASP}
-

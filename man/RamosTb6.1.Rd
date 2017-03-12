@@ -32,4 +32,3 @@ qcc(RamosTb6.1$densi, type = "xbar.one",
 
 }
 \keyword{CEQ}
-

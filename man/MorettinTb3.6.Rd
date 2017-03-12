@@ -27,4 +27,3 @@ xyplot(MorettinTb3.6, type = c("o", "g"))
 
 }
 \keyword{TS}
-

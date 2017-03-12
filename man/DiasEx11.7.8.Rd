@@ -47,4 +47,3 @@ xyplot(prod ~ geno, groups = exper, data = DiasEx11.7.8,
 
 }
 \keyword{GE}
-

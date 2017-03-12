@@ -69,4 +69,3 @@ xyplot(prod ~ N | factor(P), groups = K, data = PimentelTb18.2.1,
 \keyword{FAT3K}
 \keyword{FATADI}
 \keyword{confundimento}
-

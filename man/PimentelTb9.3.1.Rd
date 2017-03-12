@@ -52,4 +52,3 @@ xyplot(prod ~ varied,
 }
 \keyword{DQL}
 \keyword{PS}
-

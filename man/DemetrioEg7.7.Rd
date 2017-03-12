@@ -40,4 +40,3 @@ xyplot(prod ~ nivel,
 
 }
 \keyword{RS}
-

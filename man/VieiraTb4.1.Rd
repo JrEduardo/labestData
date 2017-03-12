@@ -35,4 +35,3 @@ xyplot(prod ~ varied, data = VieiraTb4.1,
 
 }
 \keyword{DIC}
-

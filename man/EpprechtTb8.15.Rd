@@ -34,4 +34,3 @@ qcc(EpprechtTb8.15, type = "c",
 
 }
 \keyword{CEQ}
-

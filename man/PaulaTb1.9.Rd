@@ -36,4 +36,3 @@ xyplot(num ~ temp,
 }
 \keyword{RS}
 \keyword{contagem}
-

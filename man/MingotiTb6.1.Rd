@@ -37,4 +37,3 @@ xyplot(renda ~ idade,
 
 }
 \keyword{AnaAgrup}
-

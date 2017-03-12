@@ -39,4 +39,3 @@ xyplot(resp ~ score, data = PaulaEx3.7.22,
 
 }
 \keyword{binomial}
-

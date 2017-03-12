@@ -37,4 +37,3 @@ xyplot(producao ~ dose, groups = bloco, data = DemetrioTb7.1,
 }
 \keyword{DBC}
 \keyword{RS}
-

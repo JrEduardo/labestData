@@ -49,4 +49,3 @@ with(ZimmermannTb16.1, {
 
 }
 \keyword{AASM}
-

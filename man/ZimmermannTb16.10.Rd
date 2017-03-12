@@ -61,4 +61,3 @@ xyplot(colmos ~ trat, data = ZimmermannTb16.10,
 }
 \keyword{DQL}
 \keyword{contagem}
-

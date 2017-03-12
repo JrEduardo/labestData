@@ -34,4 +34,3 @@ with(CharnetEx7.2, plot(tempo ~ imp, col = rea))
 }
 \keyword{RS}
 \keyword{dummy}
-

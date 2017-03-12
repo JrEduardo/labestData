@@ -51,4 +51,3 @@ xyplot(prod ~ anos, data = BarbinPg167,
 
 }
 \keyword{PS}
-

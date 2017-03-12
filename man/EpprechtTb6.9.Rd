@@ -32,4 +32,3 @@ qcc(obj, type = "xbar", nsigmas = 3,
 
 }
 \keyword{CEQ}
-

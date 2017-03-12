@@ -62,4 +62,3 @@ Dados do mesmo experimento, referente à variável de contagem
 }
 \keyword{DQL}
 \keyword{desbalanceado}
-

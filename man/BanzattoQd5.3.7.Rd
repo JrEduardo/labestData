@@ -56,4 +56,3 @@ xyplot(efic ~ factor(P) | cult, data = BanzattoQd5.3.7,
 }
 \keyword{DIC}
 \keyword{FAT3}
-

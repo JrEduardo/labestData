@@ -64,4 +64,3 @@ xyplot(prod ~ genot, groups = exper, data = BanzattoQd8.3.1,
 
 }
 \keyword{GE}
-

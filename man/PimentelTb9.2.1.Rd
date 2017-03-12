@@ -47,4 +47,3 @@ xyplot(prod ~ cultura,
 
 }
 \keyword{GE}
-

@@ -45,4 +45,3 @@ xyplot(alt ~ recipie, data = BanzattoQd5.2.4,
 }
 \keyword{DIC}
 \keyword{FAT2}
-

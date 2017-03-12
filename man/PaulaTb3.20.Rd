@@ -43,4 +43,3 @@ xyplot(mortos/(sum(mortos)) ~ dose,
 \keyword{FAT2}
 \keyword{binomial}
 \keyword{dummy}
-

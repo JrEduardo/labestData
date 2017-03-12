@@ -62,4 +62,3 @@ aggregate(prod ~ prog,  data = RamalhoTb8.12,
 }
 \keyword{DBC}
 \keyword{GE}
-

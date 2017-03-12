@@ -41,4 +41,3 @@ xyplot(pms ~ cult, data = BanzattoQd3.6.1,
 }
 \keyword{DIC}
 \keyword{desbalanceado}
-

@@ -43,4 +43,3 @@ xyplot(nota ~ cult, data = RamalhoTb3.4,
 
 }
 \keyword{DBC}
-

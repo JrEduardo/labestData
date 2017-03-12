@@ -52,4 +52,3 @@ useOuterStrips(xyplot(alt ~ nitr + pota | epoc, outer = TRUE,
 
 }
 \keyword{FAT3K}
-

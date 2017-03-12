@@ -31,4 +31,3 @@ plot(lucro ~ gastos, data = CharnetEx5.11, log = "xy")
 
 }
 \keyword{RS}
-

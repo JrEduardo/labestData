@@ -45,4 +45,3 @@ xyplot(perf ~ trat,
 }
 \keyword{DQL}
 \keyword{contagem}
-

@@ -42,4 +42,3 @@ xyplot(prod ~ luz, groups = agua, data = DiasEg7.1,
 }
 \keyword{DIC}
 \keyword{FAT2}
-

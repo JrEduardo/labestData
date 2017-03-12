@@ -35,4 +35,3 @@ xyplot(altura ~ dose, data = DemetrioEx7.8.3,
 }
 \keyword{DIC}
 \keyword{RS}
-

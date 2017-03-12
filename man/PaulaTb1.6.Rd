@@ -43,4 +43,3 @@ xyplot(rendm ~ esc,
 
 }
 \keyword{RS}
-

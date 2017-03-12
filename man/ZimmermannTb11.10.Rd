@@ -61,4 +61,3 @@ xyplot(altura ~ factor(espac) | rept, groups = dens,
 \keyword{DBC}
 \keyword{FAT2K}
 \keyword{confundimento}
-

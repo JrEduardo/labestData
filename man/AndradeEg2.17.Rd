@@ -38,4 +38,3 @@ xyplot(jitter(xp) ~ xc,
 
 }
 \keyword{RS}
-

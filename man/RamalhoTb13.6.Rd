@@ -81,4 +81,3 @@ xyplot(prod ~ cult, data = RamalhoTb13.6,
 }
 \keyword{COV}
 \keyword{DBC}
-

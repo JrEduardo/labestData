@@ -33,4 +33,3 @@ xyplot(preco ~ area, data = PaulaEx1.13.25,
 
 }
 \keyword{TODO}
-

@@ -47,4 +47,3 @@ xyplot(prod ~ reorder(cult, prod),
 
 }
 \keyword{DQL}
-

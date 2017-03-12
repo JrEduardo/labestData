@@ -36,4 +36,3 @@ xyplot(teor ~ reorder(cult, teor), data = DiasEg9.1,
 
 }
 \keyword{DIC}
-

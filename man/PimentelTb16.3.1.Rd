@@ -67,4 +67,3 @@ xyplot(Y ~ varied, data = PimentelTb16.3.1,
 }
 \keyword{COV}
 \keyword{DBC}
-

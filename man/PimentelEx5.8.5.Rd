@@ -38,4 +38,3 @@ xyplot(prod ~ variedade,
 
 }
 \keyword{DBC}
-

@@ -35,4 +35,3 @@ boxplot(tempo ~ group, data = DemetrioTb4.2)
 
 }
 \keyword{FAT2}
-

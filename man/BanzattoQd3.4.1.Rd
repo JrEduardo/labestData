@@ -41,4 +41,3 @@ xyplot(prod ~ cult, data = BanzattoQd3.4.1,
 
 }
 \keyword{DIC}
-

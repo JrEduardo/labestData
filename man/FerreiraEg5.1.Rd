@@ -59,4 +59,3 @@ barplot(argilaPlot$counts, axes = FALSE, space = 0, horiz = TRUE)
 
 }
 \keyword{AASM}
-

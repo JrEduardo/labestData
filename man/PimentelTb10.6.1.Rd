@@ -57,4 +57,3 @@ xyplot(z ~ trat,
 \keyword{DBI}
 \keyword{proporção}
 \keyword{unitário}
-

@@ -50,4 +50,3 @@ xyplot(novos ~ dose,
 }
 \keyword{RS}
 \keyword{contagem}
-

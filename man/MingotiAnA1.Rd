@@ -69,4 +69,3 @@ barchart(freq ~ atributo | sexo, groups = notas, data = tab,
 
 }
 \keyword{AnaFat}
-

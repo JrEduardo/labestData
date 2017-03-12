@@ -58,4 +58,3 @@ xyplot(prod ~ cult | exper, data = BanzattoQd8.2.1,
 
 }
 \keyword{GE}
-

@@ -76,4 +76,3 @@ t(sapply(L, FUN = function(x) {
 }
 \keyword{DQL}
 \keyword{incompleto}
-

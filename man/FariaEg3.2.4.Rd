@@ -39,4 +39,3 @@ xyplot(prod ~ clone, data = FariaEg3.2.4,
 
 }
 \keyword{DIC}
-

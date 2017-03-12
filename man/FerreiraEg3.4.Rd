@@ -37,4 +37,3 @@ with(FerreiraEg3.4, {
 
 }
 \keyword{AASM}
-

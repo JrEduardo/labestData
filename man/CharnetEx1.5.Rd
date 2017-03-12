@@ -27,4 +27,3 @@ hist(CharnetEx1.5, prob = TRUE, add = TRUE)
 rug(CharnetEx1.5)
 }
 \keyword{AAS}
-

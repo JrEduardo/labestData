@@ -38,4 +38,3 @@ xyplot(prod ~ K2O,
 
 }
 \keyword{RS}
-

@@ -58,4 +58,3 @@ xyplot(prod ~ cort, groups = interaction(sulc, rept),
 
 }
 \keyword{PS}
-

@@ -38,4 +38,3 @@ scatterplotMatrix(~ amst + areia + sed + arg + morg,
 
 }
 \keyword{AnaComPrin}
-

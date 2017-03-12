@@ -120,4 +120,3 @@ subset(keywords, keyword == c("DBI"))
 subset(keywords, keyword \%in\% c("proporção", "contagem"))
 
 }
-

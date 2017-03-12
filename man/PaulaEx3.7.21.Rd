@@ -61,4 +61,3 @@ xyplot(grahani + opalinus ~ local, data = PaulaEx3.7.21,
 }
 \keyword{RM}
 \keyword{contagem}
-

@@ -41,4 +41,3 @@ fivenum(AndradeTb1.1)
 
 }
 \keyword{AAS}
-

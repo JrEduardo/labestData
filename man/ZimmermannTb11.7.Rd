@@ -74,4 +74,3 @@ xyplot(prod ~ factor(dens) | factor(adub), groups = espac,
 \keyword{DBC}
 \keyword{FAT2K}
 \keyword{confundimento}
-

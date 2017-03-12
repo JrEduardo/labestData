@@ -30,4 +30,3 @@ aggregate(mo ~ solo, data = ZimmermannTb16.3, FUN = mean)
 
 }
 \keyword{TODO}
-

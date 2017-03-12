@@ -53,4 +53,3 @@ xyplot(prod ~ nitro, groups = local, data = BanzattoQd8.4.3,
 
 }
 \keyword{GE}
-

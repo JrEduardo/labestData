@@ -44,4 +44,3 @@ xyplot(PaulaEx3.7.7a$cmort/PaulaEx3.7.7a$cexp ~ dose,
 
 }
 \keyword{binomial}
-

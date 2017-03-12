@@ -35,4 +35,3 @@ xyplot(stl(MorettinTb11.4, s.window = 12), col = "skyblue1")
 
 }
 \keyword{TS}
-

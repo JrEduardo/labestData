@@ -36,4 +36,3 @@ xyplot(valor ~ tratamento, data = VieiraEx7.3,
 
 }
 \keyword{DIC}
-

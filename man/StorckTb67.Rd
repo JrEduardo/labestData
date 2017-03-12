@@ -45,4 +45,3 @@ xyplot(prod ~ dose, data = StorckTb67,
 }
 \keyword{DBC}
 \keyword{FAT2}
-

@@ -39,4 +39,3 @@ xyplot(nota ~ fonte, groups = bloco, data = VieiraTb7.7,
 
 }
 \keyword{DBC}
-

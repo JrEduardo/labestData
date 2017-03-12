@@ -41,4 +41,3 @@ xyplot(vol ~ dia, data = DemetrioEx1.4.1.4,
 
 }
 \keyword{RM}
-

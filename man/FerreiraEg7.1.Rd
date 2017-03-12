@@ -61,4 +61,3 @@ mtext(side = 4, text = "Peróxidos em nmol/g de proteína",
 
 }
 \keyword{manova}
-

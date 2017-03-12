@@ -36,4 +36,3 @@ xyplot(y ~ x, data = RamalhoTb13.1,
 
 }
 \keyword{COV}
-

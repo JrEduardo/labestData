@@ -38,4 +38,3 @@ xyplot(peso ~ idade, groups = rato,
 
 }
 \keyword{DBC}
-

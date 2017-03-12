@@ -33,4 +33,3 @@ xyplot(recupe ~ fluxo, pch = 20,
 }
 \keyword{CEQ}
 \keyword{RS}
-

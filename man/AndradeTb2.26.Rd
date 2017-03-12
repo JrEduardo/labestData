@@ -51,4 +51,3 @@ barchart(t(xt),
 
 }
 \keyword{contingência}
-

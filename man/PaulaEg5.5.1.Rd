@@ -58,4 +58,3 @@ Diggle, P. J.; Liang, K. Y. e Zeger, S. L. (1994).
 }
 \keyword{contagem}
 \keyword{longitudinal}
-

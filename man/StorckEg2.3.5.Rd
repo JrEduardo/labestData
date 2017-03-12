@@ -44,4 +44,3 @@ xyplot(rend ~ cult, data = StorckEg2.3.5,
 
 }
 \keyword{DQL}
-

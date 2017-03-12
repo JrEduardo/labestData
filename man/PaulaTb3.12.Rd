@@ -51,4 +51,3 @@ bwplot(razao ~ resp,
 
 }
 \keyword{binário}
-

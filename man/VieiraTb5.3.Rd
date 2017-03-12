@@ -37,4 +37,3 @@ xyplot(prod ~ varied, groups = bloc,
 
 }
 \keyword{DBC}
-

@@ -44,4 +44,3 @@ aggregate(prod ~ geno, data = ZimmermannTb12.2,
          FUN = function(x) { c(mean = mean(x), var = var(x)) })
 }
 \keyword{DIC}
-

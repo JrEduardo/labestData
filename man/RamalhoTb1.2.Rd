@@ -42,4 +42,3 @@ plot(ecdf(RamalhoTb1.2$prod),
 
 }
 \keyword{AAS}
-

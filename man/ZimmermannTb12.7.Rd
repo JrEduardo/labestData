@@ -45,4 +45,3 @@ aggregate(aacpd ~ cult, data = ZimmermannTb12.7,
 
 }
 \keyword{DBC}
-

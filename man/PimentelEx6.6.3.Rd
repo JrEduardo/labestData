@@ -57,4 +57,3 @@ levelplot(peso ~ leitegada + coluna,
 
 }
 \keyword{DQL}
-

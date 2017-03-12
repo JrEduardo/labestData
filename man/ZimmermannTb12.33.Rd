@@ -42,4 +42,3 @@ xyplot(geral ~ geno, data = ZimmermannTb12.33,
        scales = list(x = list(rot = 90)))
 }
 \keyword{DBC}
-

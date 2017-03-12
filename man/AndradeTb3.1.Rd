@@ -49,4 +49,3 @@ xyplot(mort ~ idade,
 
 }
 \keyword{contingência}
-

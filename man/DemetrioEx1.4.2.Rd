@@ -51,4 +51,3 @@ xyplot(infil ~ tempo, data = DemetrioEx1.4.2,
 
 }
 \keyword{RS}
-

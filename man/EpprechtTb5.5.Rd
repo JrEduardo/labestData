@@ -34,4 +34,3 @@ abline(mean(EpprechtTb5.5$tam), 0, lty = 2)
 
 }
 \keyword{CEQ}
-

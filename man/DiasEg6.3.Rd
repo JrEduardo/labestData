@@ -36,4 +36,3 @@ xyplot(ntfs ~ ntfc, data = DiasEg6.3, type = c("p", "r"),
 
 }
 \keyword{RS}
-

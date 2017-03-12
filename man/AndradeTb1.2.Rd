@@ -42,4 +42,3 @@ xyplot(prod ~ trat,
 
 }
 \keyword{DIC}
-

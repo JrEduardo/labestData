@@ -47,4 +47,3 @@ qcc(RamosAnC8$ferro, type = "xbar.one",
 
 }
 \keyword{CEQ}
-

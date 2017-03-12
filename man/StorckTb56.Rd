@@ -41,4 +41,3 @@ xyplot(prod ~ manejo, groups = espec, data = StorckTb56,
 }
 \keyword{DBC}
 \keyword{FAT2}
-

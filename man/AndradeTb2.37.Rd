@@ -39,4 +39,3 @@ xyplot(rad ~ esp,
 
 }
 \keyword{RS}
-

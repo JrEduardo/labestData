@@ -33,4 +33,3 @@ xyplot(altura ~ idade,
 
 }
 \keyword{RS}
-

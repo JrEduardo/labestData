@@ -36,4 +36,3 @@ xyplot(real ~ proj, data = PaulaTb2.6,
 
 }
 \keyword{RS}
-

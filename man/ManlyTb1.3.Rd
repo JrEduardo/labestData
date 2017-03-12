@@ -52,4 +52,3 @@ pairs(~ alt + precip + tempmax + tempmin +
 
 }
 \keyword{AnaComPrin}
-

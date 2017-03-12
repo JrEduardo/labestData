@@ -51,4 +51,3 @@ xyplot(lms ~ dens, data = ZimmermannTb9.13,
 
 }
 \keyword{FAT3K}
-

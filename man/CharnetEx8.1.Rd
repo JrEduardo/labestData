@@ -34,4 +34,3 @@ lm(lucro ~ ., data = CharnetEx8.1)
 
 }
 \keyword{RM}
-

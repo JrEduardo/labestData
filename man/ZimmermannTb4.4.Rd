@@ -44,4 +44,3 @@ aggregate(prod ~ cult, data = ZimmermannTb4.4,
 
 }
 \keyword{DBC}
-

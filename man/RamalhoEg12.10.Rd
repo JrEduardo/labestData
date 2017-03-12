@@ -48,4 +48,3 @@ X <- 0.5 * (X1 + X2)
 
 }
 \keyword{dialelo}
-

@@ -51,4 +51,3 @@ bwplot(tempo ~ massat | caq, pch = "|",
 
 }
 \keyword{MLG}
-

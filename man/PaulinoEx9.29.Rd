@@ -50,4 +50,3 @@ barchart(xt,
 }
 \keyword{TC}
 \keyword{multinomial}
-

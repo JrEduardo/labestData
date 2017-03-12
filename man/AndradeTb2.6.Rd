@@ -46,4 +46,3 @@ legend("topleft",
 
 }
 \keyword{contingência}
-

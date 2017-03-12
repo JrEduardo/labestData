@@ -58,4 +58,3 @@ xyplot(massa ~ lam | solo, groups = nit,
 \keyword{DBC}
 \keyword{EF}
 \keyword{PSS}
-

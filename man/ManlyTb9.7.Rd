@@ -69,4 +69,3 @@ heatmap(euclid,
 
 }
 \keyword{AnaAgrup}
-

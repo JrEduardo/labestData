@@ -55,4 +55,3 @@ xyplot(peso ~ bloco, data = BanzattoQd4.5.2,
                        cex.title = 1, columns = 2))
 }
 \keyword{DBC}
-

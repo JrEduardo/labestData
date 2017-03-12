@@ -45,4 +45,3 @@ aggregate(prod ~ adub, data = ZimmermannTb3.2.1,
 
 }
 \keyword{DIC}
-

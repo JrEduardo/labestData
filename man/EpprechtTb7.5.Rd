@@ -32,4 +32,3 @@ ewma(EpprechtTb7.5, nsigmas = 3,plot = TRUE,
 
 }
 \keyword{CEQ}
-

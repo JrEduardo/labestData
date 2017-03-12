@@ -50,4 +50,3 @@ with(AndradeTb2.15, {
 
 }
 \keyword{contingência}
-

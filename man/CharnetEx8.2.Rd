@@ -33,4 +33,3 @@ plot(CharnetEx8.2)
 }
 \keyword{RNL}
 \keyword{RS}
-

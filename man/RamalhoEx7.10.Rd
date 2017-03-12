@@ -51,4 +51,3 @@ bwplot(prod ~ reorder(pop, prod, median), data = RamalhoEx7.10,
 
 }
 \keyword{DBC}
-

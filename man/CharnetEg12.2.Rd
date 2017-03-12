@@ -43,4 +43,3 @@ panel.density <- function(x, ...) {
 pairs(CharnetEg12.2, diag.panel = panel.density)
 }
 \keyword{RM}
-

@@ -39,4 +39,3 @@ plot(CharnetEx11.3)
 }
 \keyword{RM}
 \keyword{dummy}
-

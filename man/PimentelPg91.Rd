@@ -45,4 +45,3 @@ xyplot(prod ~ aradura,
 }
 \keyword{DBC}
 \keyword{replicata}
-

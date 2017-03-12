@@ -60,4 +60,3 @@ xyplot(prod ~ ano, groups = espac,
 
 }
 \keyword{PS}
-

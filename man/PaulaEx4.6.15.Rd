@@ -82,4 +82,3 @@ Hand, D. J, Daly, F., Lunn, A. D., McConway, K. J.,
 }
 \keyword{contagem}
 \keyword{contingência}
-

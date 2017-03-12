@@ -49,4 +49,3 @@ xyplot(prod ~ adub, data = BanzattoQd7.3.3,
 }
 \keyword{DBC}
 \keyword{FAT2}
-

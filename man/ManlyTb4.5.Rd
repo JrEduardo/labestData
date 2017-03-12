@@ -76,4 +76,3 @@ bwplot(value ~ grup | variable,
 Veja também \code{\link{ManlyTb1.4}}.
 }
 \keyword{AnaDisc}
-

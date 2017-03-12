@@ -36,4 +36,3 @@ xyplot(prod ~ rad,
 
 }
 \keyword{RS}
-

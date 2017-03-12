@@ -50,4 +50,3 @@ xyplot((sp500 - tbill) ~ (value - tbill) | empresa,
 
 }
 \keyword{RM}
-

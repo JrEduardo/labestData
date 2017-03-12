@@ -44,4 +44,3 @@ biplot(comp)
 
 }
 \keyword{AnaComPrin}
-

@@ -52,4 +52,3 @@ xyplot(peso ~ genot | epoca, groups = inset,
 
 }
 \keyword{PSS}
-

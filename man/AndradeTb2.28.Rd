@@ -43,4 +43,3 @@ densityplot(~nbroto,
 
 }
 \keyword{AASI}
-

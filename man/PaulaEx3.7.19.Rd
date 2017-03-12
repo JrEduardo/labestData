@@ -59,4 +59,3 @@ Agresti A. (1990). Categorical Data Analysis. John Wiley,
     New York. (página 253))
 }
 \keyword{contingência}
-

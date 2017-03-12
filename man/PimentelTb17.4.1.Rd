@@ -50,4 +50,3 @@ xyplot(y ~ reorder(varied, y), data = PimentelTb17.4.1,
 
 }
 \keyword{GE}
-

@@ -52,4 +52,3 @@ xyplot(prod ~ prec | fert,
 }
 \keyword{RM}
 \keyword{dummy}
-

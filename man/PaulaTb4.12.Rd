@@ -56,4 +56,3 @@ Agresti, A. (1990). Categorical Data Analysis. John
 }
 \keyword{contagem}
 \keyword{contingência}
-

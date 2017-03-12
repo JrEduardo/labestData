@@ -32,4 +32,3 @@ pairs(~ caule + basal + ramo , data = DemetrioTb10.2)
 }
 \keyword{AnaFat}
 \keyword{RM}
-

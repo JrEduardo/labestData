@@ -36,4 +36,3 @@ xyplot(prod ~ ciclos, data = DiasEg6.1, type = c("p", "r"),
 }
 \keyword{DIC}
 \keyword{RS}
-

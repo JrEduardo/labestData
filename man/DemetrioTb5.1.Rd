@@ -43,4 +43,3 @@ pairs(~ resp + prod + sat + silica , data = DemetrioTb5.1)
 
 }
 \keyword{RM}
-

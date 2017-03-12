@@ -33,4 +33,3 @@ qcc(EpprechtTb8.2, type = "p", size = 200,
 
 }
 \keyword{CEQ}
-

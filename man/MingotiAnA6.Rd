@@ -56,4 +56,3 @@ scatterplotMatrix(~ testp + testc + anexp | grupo,
 
 }
 \keyword{AnaComPrin}
-

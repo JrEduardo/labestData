@@ -58,4 +58,3 @@ Bussab, W. O., Miazaki, É. S., Andrade,
     SP: ABE.
 }
 \keyword{AnaAgrup}
-

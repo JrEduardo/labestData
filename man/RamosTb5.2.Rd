@@ -34,4 +34,3 @@ qcc(RamosTb5.2$naoconf, sizes = RamosTb5.2$tamamostra, type = "p",
 
 }
 \keyword{CEQ}
-

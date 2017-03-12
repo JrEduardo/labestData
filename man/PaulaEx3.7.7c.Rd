@@ -44,4 +44,3 @@ xyplot(cmort/cexp ~ dose,
 
 }
 \keyword{binomial}
-

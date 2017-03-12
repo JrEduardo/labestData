@@ -40,4 +40,3 @@ xyplot(ovos ~ reorder(nemat, ovos), data = DiasEg5.1,
 }
 \keyword{DIC}
 \keyword{contagem}
-

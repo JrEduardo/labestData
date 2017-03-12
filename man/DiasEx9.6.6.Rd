@@ -42,4 +42,3 @@ xyplot(tssp ~ reorder(cult, tssp),
 
 }
 \keyword{DIC}
-

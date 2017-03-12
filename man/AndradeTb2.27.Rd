@@ -55,4 +55,3 @@ barchart(t(xt),
 
 }
 \keyword{contigência}
-

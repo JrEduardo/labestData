@@ -42,4 +42,3 @@ xyplot(pulgoes ~ trat, data = BanzattoQd3.2.1,
 }
 \keyword{DIC}
 \keyword{contagem}
-

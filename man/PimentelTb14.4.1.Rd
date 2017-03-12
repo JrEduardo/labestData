@@ -56,4 +56,3 @@ xyplot(prod ~ trat,
 
 }
 \keyword{DQL}
-

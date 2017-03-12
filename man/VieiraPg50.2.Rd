@@ -37,4 +37,3 @@ xyplot(voltagem ~ voltim, data = VieiraPg50.2,
 
 }
 \keyword{DIC}
-

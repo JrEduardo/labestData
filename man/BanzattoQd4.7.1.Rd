@@ -54,4 +54,3 @@ xyplot(altura ~ semead, data = BanzattoQd4.7.1,
 }
 \keyword{DBC}
 \keyword{replicata}
-

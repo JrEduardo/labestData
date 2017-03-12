@@ -34,4 +34,3 @@ qcc(obj, type = "xbar", nsigmas = 3, xlab = "Amostra", ylab =
 
 }
 \keyword{CEQ}
-

@@ -59,4 +59,3 @@ xyplot(prod ~ milh, data = RamalhoEg13.2,
 \keyword{COV}
 \keyword{DBC}
 \keyword{FAT2}
-

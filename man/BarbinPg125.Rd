@@ -53,4 +53,3 @@ xyplot(prod ~ as.factor(N) | as.factor(P), data = BarbinPg125,
 }
 \keyword{DBC}
 \keyword{FAT2K}
-

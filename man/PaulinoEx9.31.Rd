@@ -52,4 +52,3 @@ doubledecker(xt)
 
 }
 \keyword{retrospetivo}
-

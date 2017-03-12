@@ -42,4 +42,3 @@ rank(ZimmermannTb16.4$nmort)
 }
 \keyword{DIC}
 \keyword{contagem}
-

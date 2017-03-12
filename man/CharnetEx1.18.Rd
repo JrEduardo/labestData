@@ -49,4 +49,3 @@ ggplot(CharnetEx1.18, aes(x = temp, y = tempo)) +
 
 }
 \keyword{RS}
-

@@ -47,4 +47,3 @@ barplot(t(tb),
 
 }
 \keyword{contingência}
-

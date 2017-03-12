@@ -51,4 +51,3 @@ xyplot(peso ~ cobert, data = CostaTb6,
 
 }
 \keyword{DBC}
-

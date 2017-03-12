@@ -45,4 +45,3 @@ scatterplotMatrix(~sabor + aroma + massa + recheio,
 
 }
 \keyword{sensorial}
-

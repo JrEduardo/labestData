@@ -39,4 +39,3 @@ xyplot(tc ~ temp,
 
 }
 \keyword{RS}
-

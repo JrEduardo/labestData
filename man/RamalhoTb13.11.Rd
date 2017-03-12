@@ -39,4 +39,3 @@ xyplot(filha ~ mae, data = RamalhoTb13.11,
 }
 \keyword{COV}
 \keyword{RS}
-

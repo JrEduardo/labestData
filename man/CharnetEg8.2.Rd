@@ -29,4 +29,3 @@ plot(CharnetEg8.2 - 1.1 * min(CharnetEg8.2), log = "xy")
 
 }
 \keyword{RS}
-

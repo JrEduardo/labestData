@@ -35,4 +35,3 @@ xyplot(pgerm ~ lote,
 
 }
 \keyword{DIC}
-

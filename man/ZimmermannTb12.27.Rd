@@ -54,4 +54,3 @@ xyplot(prod ~ cult, data = ZimmermannTb12.27, type = c("p", "a"),
 
 }
 \keyword{DQL}
-

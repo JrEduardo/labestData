@@ -60,4 +60,3 @@ Estes dados são na realiadade uma adaptação dos dados em
 }
 \keyword{FAT3K}
 \keyword{FRAC}
-

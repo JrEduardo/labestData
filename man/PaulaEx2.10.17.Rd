@@ -60,4 +60,3 @@ Myers, R. H., Montgomery, D. C., Vining,
 }
 \keyword{RS}
 \keyword{dummy}
-

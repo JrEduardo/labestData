@@ -33,4 +33,3 @@ abline(lm(res ~ carb, data = CharnetEx2.10))
 
 }
 \keyword{RS}
-

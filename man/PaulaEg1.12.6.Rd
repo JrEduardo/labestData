@@ -41,4 +41,3 @@ xyplot(sal ~ aexp | sexo,
 }
 \keyword{RS}
 \keyword{dummy}
-

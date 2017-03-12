@@ -36,4 +36,3 @@ xyplot(temperatura ~ ano,
 }
 \keyword{RS}
 \keyword{TS}
-

@@ -47,4 +47,3 @@ xyplot(quali ~ recip, groups = espec, data = FariaQd11.9,
 }
 \keyword{DIC}
 \keyword{FAT2}
-

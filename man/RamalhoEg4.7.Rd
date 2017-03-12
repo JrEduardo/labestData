@@ -35,4 +35,3 @@ xyplot(prod ~ cult | bloco, data = RamalhoEg4.7,
 
 }
 \keyword{DBC}
-

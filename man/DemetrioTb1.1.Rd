@@ -39,4 +39,3 @@ xyplot(fd ~ fo, data = DemetrioTb1.1,
 
 }
 \keyword{RS}
-

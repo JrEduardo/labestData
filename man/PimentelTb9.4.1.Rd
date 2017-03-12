@@ -46,4 +46,3 @@ xyplot(brix ~ varied,
 
 }
 \keyword{PS}
-

@@ -40,4 +40,3 @@ bwplot(altura ~ trat,
 
 }
 \keyword{AASI}
-

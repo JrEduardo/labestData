@@ -108,4 +108,3 @@ xyplot(valor ~ cama | resp, data = din,
 \keyword{DBC}
 \keyword{FAT3}
 \keyword{incompleto}
-

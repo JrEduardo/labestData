@@ -54,4 +54,3 @@ xyplot(peso ~ inocu, groups = varied, data = CostaTb7,
 }
 \keyword{DBC}
 \keyword{FAT2}
-

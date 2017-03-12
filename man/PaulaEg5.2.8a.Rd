@@ -61,4 +61,3 @@ Paula, G. A. e Tavares, H. R. (1992). Relatório de
     RAECEA 9206, IME-USP
 }
 \keyword{contagem}
-

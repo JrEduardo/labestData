@@ -30,4 +30,3 @@ qcc(EpprechtTb6.12$peso, type = "xbar.one", nsigmas = 3,
 
 }
 \keyword{CEQ}
-

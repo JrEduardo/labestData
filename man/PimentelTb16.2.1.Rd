@@ -68,4 +68,3 @@ xyplot(prod ~ stand, data = PimentelTb16.2.1,
 }
 \keyword{COV}
 \keyword{DBC}
-

@@ -117,4 +117,3 @@ heatmap(matdist,
 
 }
 \keyword{AnaAgrup}
-

@@ -53,4 +53,3 @@ xyplot(prod ~ hibr,
 }
 \keyword{LAT}
 \keyword{RET}
-

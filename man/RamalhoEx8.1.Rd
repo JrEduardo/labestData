@@ -77,4 +77,3 @@ xyplot(prod ~ cult.loc | local, data = RamalhoEx8.1,
 
 }
 \keyword{GE}
-

@@ -61,4 +61,3 @@ for (b in levels(RamalhoEg11.4$bloc)) {
 
 }
 \keyword{DBI}
-

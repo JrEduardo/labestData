@@ -60,4 +60,3 @@ Myers, R.H.; Montgomery, D. C. e Vining, G. G. (2002).
     the Sciences. John Wiley, New York.
 }
 \keyword{binário}
-

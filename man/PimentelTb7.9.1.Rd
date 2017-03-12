@@ -62,4 +62,3 @@ xyplot(quad ~ N | factor(P), groups = K, data = PimentelTb7.9.1,
 }
 \keyword{FAT2K}
 \keyword{contagem}
-

@@ -37,4 +37,3 @@ xyplot(MorettinTb3.12, type = c("o", "g"), pch = 19)
 plot(stl(MorettinTb3.12, s.window = 12))
 }
 \keyword{TS}
-

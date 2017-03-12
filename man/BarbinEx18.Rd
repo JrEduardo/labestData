@@ -50,4 +50,3 @@ xyplot(alt ~ espec | loc,
 
 }
 \keyword{GE}
-

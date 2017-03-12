@@ -35,4 +35,3 @@ plot(CharnetEx8.5)
 
 }
 \keyword{FAT2}
-

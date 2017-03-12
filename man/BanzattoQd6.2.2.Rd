@@ -57,4 +57,3 @@ xyplot(prod ~ varied, groups = espac, data = BanzattoQd6.2.2,
 }
 \keyword{DBC}
 \keyword{PS}
-

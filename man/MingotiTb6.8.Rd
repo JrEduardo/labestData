@@ -43,4 +43,3 @@ pairs(MingotiTb6.8)
 
 }
 \keyword{AnaAgrup}
-

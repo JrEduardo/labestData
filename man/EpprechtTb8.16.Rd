@@ -35,4 +35,3 @@ qcc(EpprechtTb8.16$def, type = "u", sizes = EpprechtTb8.16$met,
 
 }
 \keyword{CEQ}
-

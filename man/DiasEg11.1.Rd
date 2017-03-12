@@ -47,4 +47,3 @@ xyplot(prod ~ cult | sitio, groups = bloc, data = DiasEg11.1,
 
 }
 \keyword{DBC}
-

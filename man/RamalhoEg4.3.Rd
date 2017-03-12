@@ -37,4 +37,3 @@ aggregate(abs ~ linh,  data = RamalhoEg4.3,
 
 }
 \keyword{DIC}
-

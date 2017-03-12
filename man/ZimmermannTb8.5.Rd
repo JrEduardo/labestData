@@ -46,4 +46,3 @@ xyplot(prod ~ reorder(linh, prod), data = ZimmermannTb8.5,
 
 }
 \keyword{BAF}
-

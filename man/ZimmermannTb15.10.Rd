@@ -42,4 +42,3 @@ xyplot(prod ~ N + P + K, data = ZimmermannTb15.10,
 
 }
 \keyword{FRAC}
-

@@ -66,4 +66,3 @@ xyplot(prod ~ factor(fosf) | factor(calc),
 \keyword{DBC}
 \keyword{FAT3K}
 \keyword{confundimento}
-

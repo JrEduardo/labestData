@@ -40,4 +40,3 @@ cor(DemetrioTb1.6)
 
 }
 \keyword{RM}
-

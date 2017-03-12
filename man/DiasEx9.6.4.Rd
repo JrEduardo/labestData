@@ -42,4 +42,3 @@ xyplot(frut ~ reorder(varied, frut), data = DiasEx9.6.4,
 }
 \keyword{DIC}
 \keyword{contagem}
-

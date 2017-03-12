@@ -35,4 +35,3 @@ xyplot(y ~ x, data = DemetrioTb2.9,
 
 }
 \keyword{RS}
-

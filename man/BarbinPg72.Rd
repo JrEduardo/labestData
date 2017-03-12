@@ -48,4 +48,3 @@ xyplot(portenx ~ prod, data = BarbinPg72,
 
 }
 \keyword{DBC}
-

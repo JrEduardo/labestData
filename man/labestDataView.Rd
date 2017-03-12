@@ -23,6 +23,7 @@ Essa função abre uma interface \pkg{shiny} em seu
     suporte para tais recursos (e.g Mozilla Firefox, Chromium Web
     Browser).
 }
+
 \examples{
 
 # Objetos do pacote labesData.
@@ -62,4 +63,3 @@ labestDataView()
 \author{
 Walmes Zeviani e Eduardo Ribeiro Jr.
 }
-

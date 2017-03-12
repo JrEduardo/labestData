@@ -63,4 +63,3 @@ Bishop, Y. M. M., Fienberg, S. E., Holland,
     Practice. MIT Press, Cambridge.
 }
 \keyword{contagem}
-

@@ -64,4 +64,3 @@ Everitt, B. S. (1994).  A Handbook of Statistical
 }
 \keyword{binário}
 \keyword{sobrevivência}
-

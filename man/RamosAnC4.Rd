@@ -36,4 +36,3 @@ qcc(RamosAnC4$naoconf,
 
 }
 \keyword{CEQ}
-

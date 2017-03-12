@@ -15,4 +15,3 @@ O labestData é um projeto coletivo do PET Estatística
     de Estatística.  Nesta versão o pacote tem 451 conjuntos de
     dados.
 }
-

@@ -50,4 +50,3 @@ xyplot(nClaro/nFilho ~ cop, data = PaulaEx3.7.24, jitter.x = TRUE,
 
 }
 \keyword{binomial}
-

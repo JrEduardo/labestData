@@ -48,4 +48,3 @@ abline(v = length(EpprechtTb2.2$x), col = 2, lty = 2)
 
 }
 \keyword{CEQ}
-

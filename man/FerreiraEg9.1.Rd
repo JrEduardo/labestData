@@ -56,4 +56,3 @@ xyplot(argila ~ areia, groups = cl$cluster,
 
 }
 \keyword{AnaAgrup}
-

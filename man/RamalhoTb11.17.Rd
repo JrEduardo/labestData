@@ -47,4 +47,3 @@ dotplot(prod ~ linh | exp, groups = bloc, data = RamalhoTb11.17,
 
 }
 \keyword{DBI}
-

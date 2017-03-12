@@ -50,4 +50,3 @@ densityplot(~cresc, groups = ambiente,
 
 }
 \keyword{AASI}
-

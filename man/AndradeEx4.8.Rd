@@ -40,4 +40,3 @@ barplot(AndradeEx4.8$ninhadas,
 
 }
 \keyword{contingência*}
-

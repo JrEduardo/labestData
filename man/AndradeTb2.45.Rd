@@ -50,4 +50,3 @@ legend("top", title = "Área", legend = names(hts),
 
 }
 \keyword{AASI}
-

@@ -37,4 +37,3 @@ xyplot(ctc ~ metod, data = FariaEg2.9.5)
 
 }
 \keyword{AAS}
-

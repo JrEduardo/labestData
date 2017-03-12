@@ -41,4 +41,3 @@ xyplot(jitter(ganhopeso) ~ feno,
 
 }
 \keyword{DIC}
-

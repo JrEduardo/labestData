@@ -32,4 +32,3 @@ hist(AndradeTb2.16,
 
 }
 \keyword{AAS}
-

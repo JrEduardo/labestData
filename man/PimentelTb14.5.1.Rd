@@ -57,4 +57,3 @@ xyplot(prod ~ trat,
 
 }
 \keyword{ER}
-

@@ -49,4 +49,3 @@ pairs(~ ser + spc + smc + sao + fde + flab + fpc + fm,
 
 }
 \keyword{AnaCorCan}
-

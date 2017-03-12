@@ -33,4 +33,3 @@ pairs(~ x1 + x2 + x3 + y , data = DemetrioTb3.6)
 
 }
 \keyword{RM}
-

@@ -42,4 +42,3 @@ xyplot(nfpc ~ reorder(penx, nfpc),
 
 }
 \keyword{DBC}
-

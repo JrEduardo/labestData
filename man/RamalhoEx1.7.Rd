@@ -29,4 +29,3 @@ rug(RamalhoEx1.7)
 
 }
 \keyword{AAS}
-

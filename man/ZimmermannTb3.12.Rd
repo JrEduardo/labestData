@@ -47,4 +47,3 @@ xyplot(prod ~ solo, groups = vaso, data = ZimmermannTb3.12,
 
 }
 \keyword{DIC}
-

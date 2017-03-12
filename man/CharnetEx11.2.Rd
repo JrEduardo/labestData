@@ -45,4 +45,3 @@ plot(CharnetEx11.2)
 
 }
 \keyword{RM}
-

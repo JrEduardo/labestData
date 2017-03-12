@@ -78,4 +78,3 @@ Breslow, N. E., Day, N. E. (1987). Statistical Methods in
     International Agency for Research on Cancer, Lyon.
 }
 \keyword{contagem}
-

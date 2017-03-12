@@ -56,4 +56,3 @@ aggregate(prod ~ adub, data = ZimmermannTb3.5,
 }
 \keyword{DIC}
 \keyword{contrastes}
-

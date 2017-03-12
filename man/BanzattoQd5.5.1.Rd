@@ -78,4 +78,3 @@ xyplot(prod ~ factor(N) | factor(P), data = BanzattoQd5.5.1,
 \keyword{DBC}
 \keyword{FAT3K}
 \keyword{confundimento}
-

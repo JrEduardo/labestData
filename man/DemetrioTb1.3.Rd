@@ -42,4 +42,3 @@ xyplot(tensao ~ log(altura), data = DemetrioTb1.3,
 }
 \keyword{RNL}
 \keyword{RS}
-

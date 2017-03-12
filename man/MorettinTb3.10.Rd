@@ -29,4 +29,3 @@ xyplot(MorettinTb3.10, type = c("o", "g"), pch = 19)
 
 }
 \keyword{TS}
-

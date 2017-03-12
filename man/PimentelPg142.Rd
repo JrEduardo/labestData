@@ -68,4 +68,3 @@ xyplot(y ~ interaction(N, P, K, drop = TRUE, sep = ""),
 }
 \keyword{FATADI}
 \keyword{GE}
-

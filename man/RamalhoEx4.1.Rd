@@ -39,4 +39,3 @@ xyplot(comp ~ med | isol, data = RamalhoEx4.1,
 }
 \keyword{DIC}
 \keyword{desbalanceado}
-

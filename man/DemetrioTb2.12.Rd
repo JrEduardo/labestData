@@ -53,4 +53,3 @@ xyplot(prod ~ data, data = DemetrioTb2.12,
 }
 \keyword{DBC}
 \keyword{RS}
-

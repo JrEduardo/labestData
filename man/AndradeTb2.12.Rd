@@ -46,4 +46,3 @@ barchart(tb,
 
 }
 \keyword{contingência}
-

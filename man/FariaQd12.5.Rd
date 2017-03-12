@@ -53,4 +53,3 @@ xyplot(colon ~ aplic, data = FariaQd12.5,
 
 }
 \keyword{PS}
-

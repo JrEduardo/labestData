@@ -49,4 +49,3 @@ xyplot(y ~ mineral, groups = torta, data = PimentelEg7.4,
 
 }
 \keyword{FAT2K}
-

@@ -42,4 +42,3 @@ xyplot(mspa ~ varied, data = CostaTb4,
 
 }
 \keyword{DIC}
-

@@ -52,4 +52,3 @@ xyplot(prod ~ colh | clone,
 
 }
 \keyword{GE}
-

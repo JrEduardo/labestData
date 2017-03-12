@@ -49,4 +49,3 @@ xyplot(qtd ~ maquina, group = bloco, data = VieiraTb8.5,
 
 }
 \keyword{DBC}
-

@@ -75,4 +75,3 @@ Lawless, J. F. (1982). Statistical Models and Methods for
     Lifetime Data. John Wiley, New York.
 }
 \keyword{FAT2}
-

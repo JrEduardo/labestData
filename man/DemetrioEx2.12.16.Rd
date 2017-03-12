@@ -37,4 +37,3 @@ xyplot(tm ~ calcio, data = DemetrioEx2.12.16,
 \keyword{RNL}
 \keyword{RS}
 \keyword{unitário}
-

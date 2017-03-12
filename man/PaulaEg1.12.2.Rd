@@ -54,4 +54,3 @@ barchart(table(PaulaEg1.12.2$tipo, PaulaEg1.12.2$hl),
 
 }
 \keyword{MLG}
-

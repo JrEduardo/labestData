@@ -49,4 +49,3 @@ ftable(with(RamalhoEx13.3,
 }
 \keyword{COV}
 \keyword{DBC}
-

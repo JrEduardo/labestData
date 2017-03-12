@@ -57,4 +57,3 @@ xyplot(comp ~ varied, groups = irrig, data = CostaTb8,
 
 }
 \keyword{PS}
-

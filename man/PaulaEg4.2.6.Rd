@@ -48,4 +48,3 @@ Neter, J., Kutner, M. H., Nachtsheim, C. J., Wasserman,
     Illinois.
 }
 \keyword{contagem}
-

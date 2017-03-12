@@ -48,4 +48,3 @@ barplot(xt, beside = TRUE,
 
 }
 \keyword{contingência}
-

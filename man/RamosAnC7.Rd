@@ -37,4 +37,3 @@ qcc(RamosAnC7$phclore, type="xbar.one",
 
 }
 \keyword{CEQ}
-

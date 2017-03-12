@@ -26,4 +26,3 @@ levelplot(ManlyTb11.3,
 
 }
 \keyword{AnaAgrup}
-

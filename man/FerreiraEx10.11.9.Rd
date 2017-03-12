@@ -51,4 +51,3 @@ cor(FerreiraEx10.11.9, comp$x)
 
 }
 \keyword{AnaComPrin}
-

@@ -55,4 +55,3 @@ xyplot(prod ~ geno, data = ZimmermannTb5.2, type = c("p", "a"),
 
 }
 \keyword{DQL}
-

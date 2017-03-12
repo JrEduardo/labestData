@@ -59,4 +59,3 @@ qplot(BarbinEx1,
 
 }
 \keyword{AAS}
-

@@ -38,4 +38,3 @@ splom(RamalhoEx12.2[, -1], type = c("p", "r"))
 
 }
 \keyword{RM}
-

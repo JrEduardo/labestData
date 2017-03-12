@@ -67,4 +67,3 @@ xyplot(prop ~ inset, data = ZimmermannTb5.11,
 
 }
 \keyword{DQL}
-

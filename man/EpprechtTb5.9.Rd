@@ -40,4 +40,3 @@ grid(nx = NA, ny = NULL, col = "grey")
 
 }
 \keyword{CEQ}
-

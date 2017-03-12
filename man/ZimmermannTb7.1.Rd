@@ -50,4 +50,3 @@ xyplot(prod ~ reorder(cult, prod), groups = rept,
 
 }
 \keyword{LAT}
-

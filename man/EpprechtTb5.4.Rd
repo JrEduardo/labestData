@@ -38,4 +38,3 @@ qqnorm(EpprechtTb5.4$tam)
 
 }
 \keyword{CEQ}
-

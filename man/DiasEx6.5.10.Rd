@@ -32,4 +32,3 @@ xyplot(prod ~ diam, data = DiasEx6.5.10, type = c("p", "r"),
 
 }
 \keyword{RS}
-

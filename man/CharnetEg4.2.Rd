@@ -31,4 +31,3 @@ plot(CharnetEg4.2)
 
 }
 \keyword{RS}
-

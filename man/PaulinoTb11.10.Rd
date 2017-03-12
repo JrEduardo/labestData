@@ -56,4 +56,3 @@ barchart(animais ~ factor(tempo) | factor(salin), groups = grupo,
 
 }
 \keyword{TC}
-

@@ -34,4 +34,3 @@ with(CharnetEx7.7, plot(cons, pot, col = marca))
 }
 \keyword{RS}
 \keyword{dummy}
-

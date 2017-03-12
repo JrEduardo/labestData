@@ -63,4 +63,3 @@ xyplot(posto ~ dias, data = ZimmermannTb16.5,
 }
 \keyword{DIC}
 \keyword{sobrevivência}
-

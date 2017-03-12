@@ -62,4 +62,3 @@ Neter, J., Kutner, M. H., Nachtsheim, C. J., Wasserman,
 }
 \keyword{RM}
 \keyword{contagem}
-

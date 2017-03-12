@@ -50,4 +50,3 @@ xyplot(peso ~ dose, data = DemetrioTb2.11,
 }
 \keyword{DIC}
 \keyword{RS}
-

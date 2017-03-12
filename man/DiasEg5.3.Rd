@@ -39,4 +39,3 @@ xyplot(prod ~ reorder(cult, prod), data = DiasEg5.3,
 
 }
 \keyword{DIC}
-

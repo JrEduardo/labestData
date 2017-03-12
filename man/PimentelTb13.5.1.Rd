@@ -64,4 +64,3 @@ xyplot(soca ~ planta, groups = P, data = da,
 
 }
 \keyword{GE}
-

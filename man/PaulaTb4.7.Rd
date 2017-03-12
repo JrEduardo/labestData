@@ -48,4 +48,3 @@ splom(PaulaTb4.7, type = c("p", "smooth"), lwd = 2)
 }
 \keyword{RM}
 \keyword{contagem}
-

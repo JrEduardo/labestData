@@ -30,4 +30,3 @@ aggregate(larg ~ isol,  data = RamalhoTb3.6,
 
 }
 \keyword{DBC}
-

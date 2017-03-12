@@ -41,4 +41,3 @@ xyplot(totais ~ P, data = PimentelTb20.2.1,
 
 }
 \keyword{FAT3K}
-

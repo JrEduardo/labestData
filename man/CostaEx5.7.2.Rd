@@ -38,4 +38,3 @@ xyplot(dens ~ prof, data = CostaEx5.7.2,
 
 }
 \keyword{RS}
-

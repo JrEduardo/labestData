@@ -36,4 +36,3 @@ qcc(EpprechtTb8.13$pce, type = "p", sizes = EpprechtTb8.13$pc,
 
 }
 \keyword{CEQ}
-

@@ -29,4 +29,3 @@ plot(peso ~ dose, data = CharnetEg6.4)
 
 }
 \keyword{RS}
-

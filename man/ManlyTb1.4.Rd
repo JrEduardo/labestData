@@ -43,4 +43,3 @@ pairs(~largm + altm + comppm + largpm + comppt + comppq,
 Veja também \code{\link{ManlyTb4.5}}.
 }
 \keyword{AnaAgrup}
-

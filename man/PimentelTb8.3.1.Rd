@@ -65,4 +65,3 @@ xyplot(totais ~ varied,
 \code{\link{PimentelEg5.2}}.
 }
 \keyword{GE}
-

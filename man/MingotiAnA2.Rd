@@ -50,4 +50,3 @@ pairs(MingotiAnA2)
 
 }
 \keyword{AnaFat}
-

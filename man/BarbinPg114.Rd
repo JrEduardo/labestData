@@ -80,4 +80,3 @@ xyplot(alt ~ oper | apar, data = BarbinPg114,
 }
 \keyword{DBC}
 \keyword{FAT2}
-

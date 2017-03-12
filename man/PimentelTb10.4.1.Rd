@@ -49,4 +49,3 @@ xyplot(y ~ trat,
 
 }
 \keyword{DBI}
-

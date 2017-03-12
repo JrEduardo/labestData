@@ -43,4 +43,3 @@ xyplot(prod ~ reorder(cult, prod), data = DiasEx9.6.10,
 
 }
 \keyword{DQL}
-

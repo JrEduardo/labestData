@@ -45,4 +45,3 @@ xyplot(prod ~ cult | local, data = DiasEx11.7.9,
 
 }
 \keyword{GE}
-

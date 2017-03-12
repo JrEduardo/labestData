@@ -47,4 +47,3 @@ xyplot(prod ~ adub, groups = solo,
 
 }
 \keyword{DBC}
-

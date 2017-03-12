@@ -32,4 +32,3 @@ cor(CharnetEg9.2)
 
 }
 \keyword{RM}
-

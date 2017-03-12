@@ -43,4 +43,3 @@ xyplot(prod ~ npk, data = DiasEg6.2,
 }
 \keyword{DBC}
 \keyword{RS}
-

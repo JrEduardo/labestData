@@ -36,4 +36,3 @@ xyplot(resp ~ trat, groups = bloc, data = VieiraPg57.1,
 
 }
 \keyword{DBC}
-

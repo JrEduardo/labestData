@@ -27,4 +27,3 @@ rug(DiasEg3.2, side = 2)
 
 }
 \keyword{AAS}
-

@@ -49,4 +49,3 @@ xyplot(mfce ~ cort, groups = clon, data = DiasEx10.4.10,
 }
 \keyword{DBC}
 \keyword{FAT2}
-

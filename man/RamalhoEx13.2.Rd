@@ -55,4 +55,3 @@ xyplot(peso ~ plant, groups = bloc, data = RamalhoEx13.2,
 }
 \keyword{COV}
 \keyword{DBC}
-

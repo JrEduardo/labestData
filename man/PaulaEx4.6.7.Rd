@@ -44,4 +44,3 @@ Hinde, J. (1982). Compound Poisson Regression Models in R
 }
 \keyword{RS}
 \keyword{contagem}
-

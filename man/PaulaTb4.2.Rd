@@ -52,4 +52,3 @@ xyplot((nmortes/tpessoas) * 100 ~ cmdc,
 }
 \keyword{contagem}
 \keyword{contingência}
-

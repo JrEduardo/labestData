@@ -64,4 +64,3 @@ xyplot(nemat ~ dias, data = RamalhoTb3.1,
 }
 \keyword{DIC}
 \keyword{contagem}
-

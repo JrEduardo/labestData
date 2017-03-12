@@ -33,4 +33,3 @@ bwplot(peso ~ maq, data = MingotiTb3.10, xlab = "Máquina")
 
 }
 \keyword{manova}
-

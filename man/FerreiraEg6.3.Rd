@@ -48,4 +48,3 @@ by(FerreiraEg6.3[2:4], FerreiraEg6.3[1], cor)
 }
 \keyword{AASM}
 \keyword{manova}
-

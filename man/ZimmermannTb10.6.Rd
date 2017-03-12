@@ -45,4 +45,3 @@ xyplot(ascpd ~ dose, groups = cult, data = ZimmermannTb10.6,
 
 }
 \keyword{PS}
-

@@ -42,4 +42,3 @@ Montgomery, D. C., Peck, E. A., Vining,
     Ed.). John Wiley, New York.
 }
 \keyword{RS}
-

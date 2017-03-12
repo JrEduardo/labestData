@@ -43,4 +43,3 @@ xyplot(sgerm ~ numid | ntemp,
 
 }
 \keyword{binomial}
-

@@ -37,4 +37,3 @@ xyplot(peso ~ trat,
 
 }
 \keyword{DIC}
-

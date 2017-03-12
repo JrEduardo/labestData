@@ -66,4 +66,3 @@ xyplot(ctc ~ dose | bloco, groups = metodo,
 }
 \keyword{RM}
 \keyword{dummy}
-

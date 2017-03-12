@@ -35,4 +35,3 @@ xyplot(prod ~ varied, data = FariaQd6.1)
 
 }
 \keyword{DIC}
-

@@ -54,4 +54,3 @@ pairs(~afp + mep + fab + fea + con + ser + fin + ssp + tc,
 
 }
 \keyword{AnaAgrup}
-

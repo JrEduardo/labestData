@@ -45,4 +45,3 @@ aggregate(prod ~ cult, data = ZimmermannTb12.20,
           FUN = function(x) { c(mean = mean(x), var = var(x)) })
 }
 \keyword{DBC}
-

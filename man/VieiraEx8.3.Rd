@@ -40,4 +40,3 @@ xyplot(valor ~ trat, group = bloco, data = VieiraEx8.3,
 
 }
 \keyword{DBC}
-

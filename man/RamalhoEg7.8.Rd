@@ -52,4 +52,3 @@ bwplot(prod ~ fam, data = RamalhoEg7.8,
 
 }
 \keyword{DBC}
-

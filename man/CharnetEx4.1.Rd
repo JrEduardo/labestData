@@ -27,4 +27,3 @@ plot(CharnetEx4.1^3 ~ CharnetEx4.1,
 
 }
 \keyword{AAS}
-

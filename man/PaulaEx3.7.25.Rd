@@ -45,4 +45,3 @@ mosaicplot(xtabs(~fuma + pulsa, data = PaulaEx3.7.25))
 }
 \keyword{binomial}
 \keyword{contingência}
-

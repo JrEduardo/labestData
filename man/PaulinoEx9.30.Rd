@@ -57,4 +57,3 @@ useOuterStrips(
 }
 \keyword{TC}
 \keyword{dicotômica}
-

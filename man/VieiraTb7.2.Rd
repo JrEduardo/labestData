@@ -37,4 +37,3 @@ xyplot(ovos ~ musica, data = VieiraTb7.2,
 
 }
 \keyword{DIC}
-

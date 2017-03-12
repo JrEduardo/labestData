@@ -30,4 +30,3 @@ plot(CharnetEx3.1)
 
 }
 \keyword{RS}
-

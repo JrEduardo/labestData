@@ -28,4 +28,3 @@ abline(a = 0, b = 1, lty = 2)
 
 }
 \keyword{RS}
-

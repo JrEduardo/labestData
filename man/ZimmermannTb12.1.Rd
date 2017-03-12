@@ -43,4 +43,3 @@ aggregate(prod ~ geno, data = ZimmermannTb12.1,
 
 }
 \keyword{DIC}
-

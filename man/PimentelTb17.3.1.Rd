@@ -48,4 +48,3 @@ xyplot(prod ~ espec,
 
 }
 \keyword{GE}
-

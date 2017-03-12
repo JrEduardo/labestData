@@ -52,4 +52,3 @@ xyplot(peso ~ sorgo, data = PimentelPg267,
 }
 \keyword{DIC}
 \keyword{FAT2}
-

@@ -46,4 +46,3 @@ xyplot(conteudo ~ cfo, data = DemetrioTb1.4,
 
 }
 \keyword{RM}
-

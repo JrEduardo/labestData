@@ -58,4 +58,3 @@ with(FerreiraEx7.4.1, {
 
 }
 \keyword{manova}
-

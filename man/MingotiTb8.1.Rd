@@ -42,4 +42,3 @@ xyplot(i0f + i1f + i2f + m2f ~ renda,
 
 }
 \keyword{TODO}
-

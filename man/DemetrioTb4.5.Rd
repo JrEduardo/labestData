@@ -47,4 +47,3 @@ pairs(~ x + y1 + y2 + y3 + y4 , data = DemetrioTb4.5,
 
 }
 \keyword{RS}
-

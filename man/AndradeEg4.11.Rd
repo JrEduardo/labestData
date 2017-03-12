@@ -46,4 +46,3 @@ barplot(AndradeEg4.11$freq,
 [REFERENCIAR O TRABALHO DO LOPES DE 2001]
 }
 \keyword{contingência*}
-

@@ -43,4 +43,3 @@ xyplot(histor ~ nota, groups = grupo, data = MingotiAnA5,
 
 }
 \keyword{AnaDisc}
-

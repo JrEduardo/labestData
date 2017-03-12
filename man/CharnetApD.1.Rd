@@ -50,4 +50,3 @@ bailarinas <- qplot(ped, pee,
 bailarinas + geom_abline(intercept = 0, slope = 1)
 }
 \keyword{RM}
-

@@ -46,4 +46,3 @@ aggregate(alt ~ geno, data = ZimmermannTb4.11,
 
 }
 \keyword{DBC}
-

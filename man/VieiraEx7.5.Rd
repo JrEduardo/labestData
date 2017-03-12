@@ -39,4 +39,3 @@ xyplot(valor ~ tratamento, groups = bloco, data = VieiraEx7.5,
 
 }
 \keyword{DBC}
-

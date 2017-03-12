@@ -49,4 +49,3 @@ xyplot(prod ~ reorder(cult, prod),
 
 }
 \keyword{RET}
-

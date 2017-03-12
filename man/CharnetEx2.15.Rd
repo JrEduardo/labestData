@@ -67,4 +67,3 @@ plot(CharnetEx2.15[, numcols])
 }
 \keyword{RM}
 \keyword{dummy}
-

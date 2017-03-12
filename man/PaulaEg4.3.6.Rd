@@ -71,4 +71,3 @@ Venables, W. N., Ripley, B. D. (1999). Modern Applied
     Statistics with S-Plus (3rd ed.). Springer, New York.
 }
 \keyword{contagem}
-

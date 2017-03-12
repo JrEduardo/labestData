@@ -44,4 +44,3 @@ splom(PaulaEx1.13.20,
 
 }
 \keyword{RM}
-

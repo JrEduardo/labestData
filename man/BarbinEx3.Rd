@@ -39,4 +39,3 @@ xyplot(nota ~ tterm, data = BarbinEx3,
 
 }
 \keyword{DIC}
-

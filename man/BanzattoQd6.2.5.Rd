@@ -66,4 +66,3 @@ xyplot(prod ~ dose | adubo, data = BanzattoQd6.2.5,
 }
 \keyword{DBC}
 \keyword{PS}
-

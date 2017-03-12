@@ -48,4 +48,3 @@ xyplot(prod ~ adub | aplic, data = BarbinPg156,
 
 }
 \keyword{PS}
-

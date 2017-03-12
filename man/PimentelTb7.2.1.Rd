@@ -49,4 +49,3 @@ xyplot(prod ~ N | factor(P), groups = K, data = PimentelTb7.2.1,
 
 }
 \keyword{FAT2K}
-

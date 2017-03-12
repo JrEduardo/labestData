@@ -54,4 +54,3 @@ aggregate(prod ~ cult + local,  data = RamalhoEg8.1,
 
 }
 \keyword{GE}
-

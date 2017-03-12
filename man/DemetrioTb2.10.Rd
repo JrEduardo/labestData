@@ -45,4 +45,3 @@ xyplot(absorv ~ co2, data = DemetrioEx1.4.1.3,
 
 }
 \keyword{RS}
-

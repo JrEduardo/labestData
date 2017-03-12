@@ -52,4 +52,3 @@ xyplot(prod ~ factor(N) | factor(P), groups = K, data = DiasEx10.4.7,
 }
 \keyword{DIC}
 \keyword{FAT2K}
-

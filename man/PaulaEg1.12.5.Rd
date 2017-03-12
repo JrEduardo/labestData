@@ -48,4 +48,3 @@ xyplot(cons ~ est,
 
 }
 \keyword{RM}
-

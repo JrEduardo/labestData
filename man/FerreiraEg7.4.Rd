@@ -61,4 +61,3 @@ with(FerreiraEg7.4, {
 
 }
 \keyword{manova}
-

@@ -67,4 +67,3 @@ xyplot(prod ~ nitro, groups = epoca, data = BanzattoQd6.4.2,
 }
 \keyword{DBC}
 \keyword{EF}
-

@@ -33,4 +33,3 @@ lines(density(AndradeEx2.13), lwd = 2)
 
 }
 \keyword{AAS}
-

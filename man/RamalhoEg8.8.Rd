@@ -59,4 +59,3 @@ xyplot(prod ~ pop | ger, data = RamalhoEg8.8,
 
 }
 \keyword{GE}
-

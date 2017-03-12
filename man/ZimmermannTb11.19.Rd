@@ -70,4 +70,3 @@ useOuterStrips(
 \keyword{DBC}
 \keyword{FAT2K}
 \keyword{confundimento}
-

@@ -65,4 +65,3 @@ Myers, R.H.; Montgomery, D. C.; Vining, G. G. (2002).
 }
 \keyword{binário}
 \keyword{longitudinal}
-

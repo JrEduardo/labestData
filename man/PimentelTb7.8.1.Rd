@@ -51,4 +51,3 @@ xyplot(acidez ~ mes | factor(ano), groups = varied,
 
 }
 \keyword{PSS}
-

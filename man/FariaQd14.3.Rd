@@ -42,4 +42,3 @@ xyplot(mspa ~ P, data = FariaQd14.3,
 
 }
 \keyword{DBC}
-

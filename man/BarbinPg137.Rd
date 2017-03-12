@@ -80,4 +80,3 @@ xyplot(prod ~ as.factor(N) | as.factor(P), data = BarbinPg137,
 }
 \keyword{FAT3K}
 \keyword{confundimento}
-

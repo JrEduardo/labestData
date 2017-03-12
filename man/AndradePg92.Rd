@@ -47,4 +47,3 @@ ecdfplot(~peso, groups = dieta, data = AndradePg92,
 
 }
 \keyword{AASI}
-

@@ -56,4 +56,3 @@ xyplot(prod ~ nitr | epoc, data = ZimmermannTb9.17,
 
 }
 \keyword{FAT3K}
-

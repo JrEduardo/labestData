@@ -28,4 +28,3 @@ plot(CharnetEx2.12)
 
 }
 \keyword{RS}
-

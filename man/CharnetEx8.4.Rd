@@ -33,4 +33,3 @@ plot(CharnetEx8.4)
 
 }
 \keyword{RM}
-

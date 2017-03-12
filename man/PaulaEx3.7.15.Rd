@@ -75,4 +75,3 @@ Hosmer, D. W. e Lemeshow, S. (1989).  Applied Logistic
     Regression. John Wiley, New York. (Capítulo.7)
 }
 \keyword{RM}
-

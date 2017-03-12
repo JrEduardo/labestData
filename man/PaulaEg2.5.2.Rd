@@ -48,4 +48,3 @@ xyplot(prod ~ qtde | adub,
 
 }
 \keyword{RM}
-

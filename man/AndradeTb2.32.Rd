@@ -52,4 +52,3 @@ bwplot(peso ~ raca,
 \code{\link{AndradePg90}}
 }
 \keyword{AASI}
-

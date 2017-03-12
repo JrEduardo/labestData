@@ -42,4 +42,3 @@ mosaicplot(tb)
 }
 \keyword{AASI}
 \keyword{contingência}
-

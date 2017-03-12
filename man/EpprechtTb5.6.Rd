@@ -34,4 +34,3 @@ rug(EpprechtTb5.6$leit, side = 2)
 
 }
 \keyword{CEQ}
-

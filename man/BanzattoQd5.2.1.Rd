@@ -59,4 +59,3 @@ xyplot(prod ~ densid, data = BanzattoQd5.2.1,
 }
 \keyword{DBC}
 \keyword{FAT2}
-

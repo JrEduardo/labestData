@@ -47,4 +47,3 @@ aggregate(asinprop ~ trat, data = ZimmermannTb12.13,
 }
 \keyword{DBC}
 \keyword{proporção}
-

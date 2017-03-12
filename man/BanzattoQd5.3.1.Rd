@@ -60,4 +60,3 @@ xyplot(prod ~ interaction(N, P, K, sep = ":"),
 }
 \keyword{DBC}
 \keyword{FAT2K}
-

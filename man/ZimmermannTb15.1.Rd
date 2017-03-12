@@ -68,4 +68,3 @@ xyplot(perf ~ factor(calc) | factor(cult),
 \keyword{DBC}
 \keyword{FAT2K}
 \keyword{FRAC}
-

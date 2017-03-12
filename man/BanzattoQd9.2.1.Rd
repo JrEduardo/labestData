@@ -58,4 +58,3 @@ xyplot(prod ~ varied, data = BanzattoQd9.2.1,
 }
 \keyword{COV}
 \keyword{DBC}
-

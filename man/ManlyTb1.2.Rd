@@ -54,4 +54,3 @@ bwplot(value ~grup | variable,
 
 }
 \keyword{AnaFat}
-

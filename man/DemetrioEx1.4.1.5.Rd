@@ -33,4 +33,3 @@ xyplot(foli ~ ovo, data = DemetrioEx1.4.1.5,
 
 }
 \keyword{RS}
-

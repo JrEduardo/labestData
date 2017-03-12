@@ -40,4 +40,3 @@ xyplot(mortos/(sum(mortos)) ~ dose,
 }
 \keyword{MLG}
 \keyword{binário}
-

@@ -37,4 +37,3 @@ splom(ZimmermannTb13.1, type = c("p", "smooth"))
 
 }
 \keyword{RM}
-

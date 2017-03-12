@@ -33,4 +33,3 @@ xyplot(consumo ~ peso, data = DemetrioEx1.4.1.2,
 
 }
 \keyword{RS}
-

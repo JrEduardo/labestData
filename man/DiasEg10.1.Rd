@@ -48,4 +48,3 @@ xyplot(pg ~ trat, groups = cult, data = DiasEg10.1,
 }
 \keyword{DIC}
 \keyword{FAT2}
-

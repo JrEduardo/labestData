@@ -24,4 +24,3 @@ plot(CharnetEx2.14, type = "o")
 
 }
 \keyword{TS}
-

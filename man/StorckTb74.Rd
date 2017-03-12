@@ -63,4 +63,3 @@ xyplot(prod ~ dens, groups = epoc, data = StorckTb74,
 }
 \keyword{DIC}
 \keyword{PS}
-

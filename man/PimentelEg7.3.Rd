@@ -50,4 +50,3 @@ xyplot(y ~ mineral | factor(vinhaca),
 
 }
 \keyword{FAT2K}
-

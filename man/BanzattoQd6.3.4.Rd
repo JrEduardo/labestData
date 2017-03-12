@@ -64,4 +64,3 @@ xyplot(prod ~ epoc | data, groups = inset, data = BanzattoQd6.3.4,
 }
 \keyword{DBC}
 \keyword{PSS}
-

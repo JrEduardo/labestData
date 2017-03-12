@@ -40,4 +40,3 @@ barchart(morta + viva ~ metod, data = PimentelPg382,
 
 }
 \keyword{contingência}
-

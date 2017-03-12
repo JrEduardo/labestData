@@ -42,4 +42,3 @@ plot(CharnetEg9.4)
 
 }
 \keyword{RM}
-

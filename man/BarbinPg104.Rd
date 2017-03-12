@@ -57,4 +57,3 @@ levelplot(prod ~ linha + colun,
 
 }
 \keyword{DQL}
-

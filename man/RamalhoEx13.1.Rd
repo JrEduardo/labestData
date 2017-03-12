@@ -38,4 +38,3 @@ splom(RamalhoEx13.1[, -1], type = c("p", "smooth"))
 
 }
 \keyword{COV}
-

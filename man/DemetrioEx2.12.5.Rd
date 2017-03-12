@@ -46,4 +46,3 @@ xyplot(y ~ x, data = DemetrioEx2.12.5,
 
 }
 \keyword{RNL}
-

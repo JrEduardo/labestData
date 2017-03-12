@@ -42,4 +42,3 @@ xyplot(susp/exp ~ dens,
 
 }
 \keyword{binomial}
-

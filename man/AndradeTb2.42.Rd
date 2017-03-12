@@ -47,4 +47,3 @@ legend("topright", title = "Habitat dos mexilhões",
 
 }
 \keyword{AASI}
-

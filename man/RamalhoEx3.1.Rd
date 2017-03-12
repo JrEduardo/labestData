@@ -36,4 +36,3 @@ xyplot(jitter(plant) ~ fungic, data = RamalhoEx3.1,
 
 }
 \keyword{contagem}
-

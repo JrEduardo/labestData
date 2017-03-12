@@ -47,4 +47,3 @@ splom(da, type = c("g", "p", "r"))
 \code{\link{AndradeTb2.46}}
 }
 \keyword{RS}
-

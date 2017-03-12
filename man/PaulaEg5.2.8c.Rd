@@ -43,4 +43,3 @@ McCullagh, P. e Nelder, J. A. (1989). Generalized Linear
     Models, 2nd. Edition. Chapman and Hall, London. Tabela 9.2.
 }
 \keyword{unitário}
-

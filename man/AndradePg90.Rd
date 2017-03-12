@@ -50,4 +50,3 @@ bwplot(peso ~ raca,
 \code{\link{AndradeTb2.32}}
 }
 \keyword{AASI}
-
