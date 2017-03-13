@@ -4,3 +4,15 @@ cran: http://cran-r.c3sl.ufpr.br/
 warnings_are_errors: false
 r_packages:
  - roxygen2
+
+branches:
+  only:
+  - devel
+
+before_install:
+  - chmod +x ./site/_build-site.sh
+  - chmod +x ./site/_deploy-site.sh
+
+script:
+  - ./site/_build-site.sh
+  - ./site_/deploy-site.sh
