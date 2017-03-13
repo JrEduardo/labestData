@@ -14,3 +14,4 @@ CONTRIBUTING.html
 roteiro.R
 inst/doc
 vignettes/*.html
+docs

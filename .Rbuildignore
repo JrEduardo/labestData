@@ -14,3 +14,7 @@ ci-c3sl.R
 roteiro.R
 style.css
 plano.*
+
+^_pkgdown\.yml$
+^docs$
+^site$
