@@ -1,0 +1,59 @@
+templates:
+  path: "site/templates"
+  assets: "site/assets"
+  default_assets: false
+
+navbar:
+  type: default
+  left: []
+  right:
+    - text: Vinhetas
+      href: articles/index.html
+    - text: Datasets
+      href: references/index.html
+    - text: Funções
+      href: references/index.html
+
+home:
+  sidebar: >
+    <h2>Autores</h2>
+    <ul class="nav nav-pills nav-stacked">
+        <li><a href="authors.html">
+        <span class="fa fa-user fa-lg"></span>&nbsp;
+        PET Estatística UFPR<br>
+        <small class="roles">
+        pet.estatistica.ufpr@gmail.com
+        </small></a></li>
+    </ul>
+    <ul class="nav nav-pills nav-stacked">
+        <li><a target="_blank" href="http://www.pet.est.ufpr.br">
+        <span class="fa fa-external-link fa-lg"></span>&nbsp;
+        Site do PET
+        <small class="roles">
+        http://www.pet.est.ufpr.br
+        </small></a></li>
+    </ul>
+    <h2>Desenvolvimento</h2>
+    <ul class="nav nav-pills nav-stacked">
+        <li><a target="_blank" href="https://github.com/pet-estatistica/labestData">
+        <span class="fa fa-github-alt fa-lg"></span>&nbsp;
+        Repositório GitHub
+        <small class="roles">
+        https://github.com/<br>pet-estatistica/labestData
+        </small></a></li>
+    </ul>
+    <ul class="nav nav-pills nav-stacked">
+        <li><a target="_blank" href="https://gitlab.c3sl.ufpr.br/pet-estatistica/labestData">
+        <span class="fa fa-gitlab fa-lg"></span>&nbsp;
+        Repositório GitLab c3sl
+        <small class="roles">
+        https://gitlab.c3sl.ufpr.br/<br>pet-estatistica/labestData
+        </small></a></li>
+    </ul>
+    <h2>Lincença</h2>
+    <ul class="nav nav-pills nav-stacked">
+        <li><a target="_blank" href="https://www.r-project.org/Licenses/GPL-3">
+        <span class="fa fa-file-text-o fa-lg"></span>&nbsp;
+        GPL-3
+        </a></li>
+    </ul>
