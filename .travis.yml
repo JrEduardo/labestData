@@ -15,4 +15,4 @@ before_install:
 
 script:
   - ./site/_build-site.sh
-  - ./site_/deploy-site.sh
+  - ./site/_deploy-site.sh
