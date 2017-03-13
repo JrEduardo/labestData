@@ -10,9 +10,9 @@ navbar:
     - text: Vinhetas
       href: articles/index.html
     - text: Datasets
-      href: references/index.html
+      href: reference/index.html
     - text: Funções
-      href: references/index.html
+      href: reference/index.html
 
 home:
   sidebar: >
