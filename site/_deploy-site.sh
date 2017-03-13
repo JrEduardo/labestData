@@ -9,4 +9,4 @@ rm -r ./*
 cp -r ../docs/* ./
 git add --all *
 git commit -m "Automatic Update (build number ${TRAVIS_BUILD_NUMBER})" || true
-git push origin master
+git push origin gh-pages
