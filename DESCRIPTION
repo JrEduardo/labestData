@@ -54,6 +54,8 @@ Suggests:
     MASS,
     qcc,
     multcomp,
-    vcd
+    vcd,
+    pkgdown
+Remotes: jreduardo/pkgdown
 VignetteBuilder: knitr
 RoxygenNote: 6.0.1
