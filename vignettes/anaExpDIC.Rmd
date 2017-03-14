@@ -18,7 +18,7 @@ pacote [**labestData**].
 
 ```{r}
 library(labestData)
-ls("package:labestData")
+## ls("package:labestData")
 ```
 ```{r, eval=FALSE}
 help(BanzattoQd3.2.1, help_type = "html")

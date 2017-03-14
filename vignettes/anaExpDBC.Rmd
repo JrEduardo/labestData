@@ -19,7 +19,7 @@ blocos casualizados (DBC), vamos considerar o conjunto de dados
 
 ```{r}
 library(labestData)
-ls("package:labestData")
+## ls("package:labestData")
 ```
 ```{r, eval=FALSE}
 help(PimentelEg5.2, help_type = "html")
